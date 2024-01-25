@@ -6,8 +6,8 @@ title SAC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="g-fu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="yabasic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="yabasic.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="3mf.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sac-programming-language.pldb
 
@@ -21,8 +21,8 @@ startColumns 4
  link ../lists/creators.html#clemensGrelck Clemens Grelck
 
 dashboard
- #1583 <span title="TotalRank: 2093 Jobs: 103 Users: 1601 Facts: 1885 Links: 389">on PLDB</span>
- 29 Years Old
+ #1584 <span title="TotalRank: 2094 Jobs: 103 Users: 1602 Facts: 1885 Links: 389">on PLDB</span>
+ 30 Years Old
 
 * SAC (Single Assignment C) is a strict purely functional programming language whose design is focused on the needs of numerical applications. Emphasis is laid on efficient support for array processing. Efficiency concerns are essentially twofold. Read more on Wikipedia...
  https://en.wikipedia.org/wiki/SAC_programming_language Read more on Wikipedia...
@@ -40,6 +40,6 @@ dashboard
 
 endColumns
 
-keyboardNav g-fu.html yabasic.html
+keyboardNav yabasic.html 3mf.html
 
 import ../footer.scroll

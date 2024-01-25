@@ -6,8 +6,8 @@ title cytosol - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="datomic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bbx.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="bbx.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="iptables-rope.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cytosol.pldb
 
@@ -23,8 +23,8 @@ codeWithHeader Source code:
  git clone https://github.com/cuddlefishie/cytosol
 
 dashboard
- #2455 <span title="TotalRank: 3032 Jobs: 103 Users: 1943 Facts: 1977 Links: 986">on PLDB</span>
- 3 Years Old
+ #2456 <span title="TotalRank: 3033 Jobs: 103 Users: 1944 Facts: 1977 Links: 986">on PLDB</span>
+ 4 Years Old
 
 * A programming language somewhat resembling cellular processes.
 
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav datomic.html bbx.html
+keyboardNav bbx.html iptables-rope.html
 
 import ../footer.scroll

@@ -20,7 +20,7 @@ startColumns 4
 
 dashboard
  #3928 on PLDB
- 23 Years Old
+ 24 Years Old
 
 * The complete state of an SQLite database is usually contained in a single file on disk called the "main database file". During a transaction, SQLite stores additional information in a second file called the "rollback journal", or if SQLite is in WAL mode, a write-ahead log file.
 

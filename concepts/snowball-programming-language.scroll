@@ -23,8 +23,8 @@ codeWithHeader Source code:
  git clone https://github.com/snowballstem/snowball
 
 dashboard
- #2155 <span title="TotalRank: 2677 Jobs: 103 Users: 1637 Facts: 1588 Links: 986">on PLDB</span>
- 22 Years Old
+ #2155 <span title="TotalRank: 2677 Jobs: 103 Users: 1638 Facts: 1588 Links: 986">on PLDB</span>
+ 23 Years Old
 
 * Snowball is a small string processing programming language designed for creating stemming algorithms for use in information retrieval.The Snowball compiler translates a Snowball script (a  .sbl file) into either a thread-safe ANSI C program or a Java program. For ANSI C, each Snowball script produces a program file and corresponding header file (with  .c  and  .h  extensions). The Snowball compiler checks the consistency of its script, and this check was used to discover a typo in a seminal academic paper by Lovins which had remained undetected for 30 years.The basic datatypes handled by Snowball are strings of characters, signed integers, and boolean truth values, or more simply strings, integers and booleans. Read more on Wikipedia...
  https://en.wikipedia.org/wiki/Snowball_%28programming_language%29 Read more on Wikipedia...

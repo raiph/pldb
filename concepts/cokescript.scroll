@@ -7,7 +7,7 @@ title CokeScript - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="webql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xgmml.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="allegro-common-lisp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cokescript.pldb
 
@@ -23,8 +23,8 @@ codeWithHeader Source code:
  git clone https://github.com/batiste/CokeScript
 
 dashboard
- #2375 <span title="TotalRank: 2885 Jobs: 103 Users: 1796 Facts: 1885 Links: 986">on PLDB</span>
- 8 Years Old
+ #2375 <span title="TotalRank: 2886 Jobs: 103 Users: 1797 Facts: 1885 Links: 986">on PLDB</span>
+ 9 Years Old
 
 * CokeScript is a whitespace sensitive language that compile to JavaScript
 
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav webql.html xgmml.html
+keyboardNav webql.html allegro-common-lisp.html
 
 import ../footer.scroll

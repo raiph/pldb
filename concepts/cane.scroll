@@ -7,7 +7,7 @@ title Cane - Musical notation
 
 html
  <a class="trueBaseThemePreviousItem" href="insitux.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rye.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="daplex.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cane.pldb
 
@@ -23,8 +23,8 @@ codeWithHeader Source code:
  git clone https://github.com/Jackojc/cane
 
 dashboard
- #2235 <span title="TotalRank: 2755 Jobs: 103 Users: 1988 Facts: 1666 Links: 986">on PLDB</span>
- 1 Years Old
+ #2236 <span title="TotalRank: 2755 Jobs: 103 Users: 1989 Facts: 1666 Links: 986">on PLDB</span>
+ 2 Years Old
 
 * A small MIDI sequencer DSL designed around vectors and euclidean rhythms
 
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav insitux.html rye.html
+keyboardNav insitux.html daplex.html
 
 import ../footer.scroll

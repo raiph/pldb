@@ -7,7 +7,7 @@ title jonprl - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="edgelisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="work-flow-language.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="d-data-language-specification.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jonprl.pldb
 
@@ -24,7 +24,7 @@ codeWithHeader Source code:
 
 dashboard
  #1912 <span title="TotalRank: 2410 Jobs: 103 Users: 1321 Facts: 1499 Links: 986">on PLDB</span>
- 8 Years Old
+ 9 Years Old
 
 * An proof refinement logic for computational type theory. Inspired by Nuprl. [For up-to-date development, see JonPRL's successor, RedPRL: https://github.com/redprl/sml-redprl]
 
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav edgelisp.html work-flow-language.html
+keyboardNav edgelisp.html d-data-language-specification.html
 
 import ../footer.scroll

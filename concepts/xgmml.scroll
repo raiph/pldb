@@ -6,7 +6,7 @@ title XGMML - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="cokescript.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="allegro-common-lisp.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="filetab.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xgmml.pldb
@@ -19,8 +19,8 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
 
 dashboard
- #2376 <span title="TotalRank: 2895 Jobs: 103 Users: 1806 Facts: 2621 Links: 986">on PLDB</span>
- 17 Years Old
+ #2377 <span title="TotalRank: 2896 Jobs: 103 Users: 1807 Facts: 2621 Links: 986">on PLDB</span>
+ 18 Years Old
 
 * XGMML (the eXtensible Graph Markup and Modeling Language) is an XML application based on GML which is used for graph description. Technically, while GML is not related to XML nor SGML, XGMML is an XML application that is so designed that there's a 1:1 relation towards GML for trivial conversion between the two formats.. Read more on Wikipedia...
  https://en.wikipedia.org/wiki/XGMML Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav cokescript.html filetab.html
+keyboardNav allegro-common-lisp.html filetab.html
 
 import ../footer.scroll

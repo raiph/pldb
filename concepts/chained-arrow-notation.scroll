@@ -6,7 +6,7 @@ title Conway chained arrow notation - Notation
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="fpp.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="optimized-systems-software.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="crmsh.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chained-arrow-notation.pldb
@@ -21,7 +21,7 @@ startColumns 4
 
 dashboard
  #1465 <span title="TotalRank: 1985 Jobs: 103 Users: 896 Facts: 2178 Links: 986">on PLDB</span>
- 27 Years Old
+ 28 Years Old
 
 * Conway chained arrow notation, created by mathematician John Horton Conway, is a means of expressing certain extremely large numbers. It is simply a finite sequence of positive integers separated by rightward arrows, e.g.                         2         →         3         →         4         →         5         →         6                 {\displaystyle 2\to 3\to 4\to 5\to 6}   . Read more on Wikipedia...
  https://en.wikipedia.org/wiki/Conway_chained_arrow_notation Read more on Wikipedia...
@@ -38,6 +38,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav fpp.html crmsh.html
+keyboardNav optimized-systems-software.html crmsh.html
 
 import ../footer.scroll

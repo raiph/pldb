@@ -6,7 +6,7 @@ title hr-code - Bar code format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="floscript.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="pl-c.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="cycl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hr-code.pldb
@@ -24,7 +24,7 @@ codeWithHeader Source code:
 
 dashboard
  #1616 <span title="TotalRank: 2137 Jobs: 103 Users: 1048 Facts: 1782 Links: 986">on PLDB</span>
- 4 Years Old
+ 5 Years Old
 
 * Human Response Code: Designed to be recognized by humans and OCR. Encodes all valid URL characters to images.
 
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav floscript.html cycl.html
+keyboardNav pl-c.html cycl.html
 
 import ../footer.scroll
