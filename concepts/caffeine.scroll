@@ -6,8 +6,8 @@ title Caffeine - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="geo-ml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="digital-command-language.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="eclipse-command-language.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="treenotation.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/caffeine.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/ich/caffeine
 
 dashboard
- #703 <span title="TotalRank: 1268 Jobs: 103 Users: 179 Facts: 1782 Links: 986">on PLDB</span>
+ #700 <span title="TotalRank: 1268 Jobs: 103 Users: 179 Facts: 1782 Links: 986">on PLDB</span>
  12 Years Old
 
 * Caffeine extends CoffeeScript.
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav geo-ml.html digital-command-language.html
+keyboardNav eclipse-command-language.html treenotation.html
 
 import ../footer.scroll

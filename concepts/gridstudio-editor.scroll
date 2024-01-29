@@ -6,7 +6,7 @@ title gridstudio-editor - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="jsoniq.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="jsharp.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="digital-command-language.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gridstudio-editor.pldb
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav jsoniq.html digital-command-language.html
+keyboardNav jsharp.html digital-command-language.html
 
 import ../footer.scroll

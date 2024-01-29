@@ -6,8 +6,8 @@ title RoboMind - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="filebench-wml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simple-binary-encoding.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="roc.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="pcre.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/robomind.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
 
 dashboard
- #583 <span title="TotalRank: 1149 Jobs: 103 Users: 1436 Facts: 720 Links: 326">on PLDB</span>
+ #581 <span title="TotalRank: 1149 Jobs: 103 Users: 1439 Facts: 720 Links: 326">on PLDB</span>
  19 Years Old
 
 * RoboMind is a simple educational programming environment with its own scripting language that allows beginners to learn the basics of computer science by programming a simulated robot. In addition to introducing common programming techniques, it also aims at offering insights in robotics and artificial intelligence. RoboMind is available as stand-alone application for Windows, Linux and Mac OS X. Read more on Wikipedia...
@@ -63,6 +63,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/RoboMind'>Wik
 
 endColumns
 
-keyboardNav filebench-wml.html simple-binary-encoding.html
+keyboardNav roc.html pcre.html
 
 import ../footer.scroll

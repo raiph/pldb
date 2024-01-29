@@ -6,7 +6,7 @@ title Neko - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="htmx.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="lookml.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="rascal.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/neko.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/HaxeFoundation/neko
 
 dashboard
- #643 <span title="TotalRank: 1224 Jobs: 103 Users: 555 Facts: 566 Links: 666">on PLDB</span>
+ #644 <span title="TotalRank: 1226 Jobs: 103 Users: 557 Facts: 566 Links: 666">on PLDB</span>
  19 Years Old
 
 * Try now: <a href="https://riju.codes/neko">Riju</a>
@@ -79,6 +79,6 @@ treeTable
   Token 
   Example
 
-keyboardNav htmx.html rascal.html
+keyboardNav lookml.html rascal.html
 
 import ../footer.scroll

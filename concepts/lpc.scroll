@@ -6,8 +6,8 @@ title LPC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="volt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tsv.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="angelscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="bpel.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lpc.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#larsPensjo Lars Pensjö
 
 dashboard
- #570 <span title="TotalRank: 1134 Jobs: 103 Users: 1028 Facts: 705 Links: 326">on PLDB</span>
+ #568 <span title="TotalRank: 1134 Jobs: 103 Users: 1031 Facts: 705 Links: 326">on PLDB</span>
  29 Years Old
 
 * LPC (short for Lars Pensjö C) is an object-oriented programming language derived from C and developed originally by Lars Pensjö to facilitate MUD building on LPMuds. Though designed for game development, its flexibility has led to it being used for a variety of purposes, and to its evolution into the language Pike. LPC syntax places it in the family of C-like languages, with C and C++ its strongest influences.. Read more on Wikipedia...
@@ -78,6 +78,6 @@ treeTable
   Token 
   Example
 
-keyboardNav volt.html tsv.html
+keyboardNav angelscript.html bpel.html
 
 import ../footer.scroll

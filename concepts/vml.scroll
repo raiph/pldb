@@ -7,7 +7,7 @@ title VML - Xml format
 
 html
  <a class="trueBaseThemePreviousItem" href="activity-pub.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="loglan.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="svgbob.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vml.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #775 <span title="TotalRank: 1343 Jobs: 103 Users: 574 Facts: 705 Links: 666">on PLDB</span>
+ #778 <span title="TotalRank: 1346 Jobs: 103 Users: 577 Facts: 705 Links: 666">on PLDB</span>
  26 Years Old
 
 * Vector Markup Language (VML) was an XML-based file format for two-dimensional vector graphics. VML was specified in Part 4 of the Office Open XML standards ISO/IEC 29500 and ECMA-376. According to the specification, VML is a deprecated format included in Office Open XML for legacy reasons only. Read more on Wikipedia...
@@ -64,6 +64,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Vector_Markup
 
 endColumns
 
-keyboardNav activity-pub.html loglan.html
+keyboardNav activity-pub.html svgbob.html
 
 import ../footer.scroll

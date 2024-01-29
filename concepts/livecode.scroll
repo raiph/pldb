@@ -6,8 +6,8 @@ title LiveCode - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bluespec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="peg.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="clu.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="jq.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/livecode.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #406 <span title="TotalRank: 907 Jobs: 103 Users: 937 Facts: 532 Links: 272">on PLDB</span>
+ #406 <span title="TotalRank: 907 Jobs: 103 Users: 940 Facts: 532 Links: 272">on PLDB</span>
  23 Years Old
 
 * LiveCode (formerly Revolution and MetaCard) is a cross-platform rapid application development runtime environment inspired by HyperCard. It features the Transcript (formerly MetaTalk) programming language which belongs to the family of xTalk scripting languages like HyperCard's HyperTalk. The environment was introduced in 2001. Read more on Wikipedia...
@@ -81,6 +81,6 @@ treeTable
   Token 
   Example
 
-keyboardNav bluespec.html peg.html
+keyboardNav clu.html jq.html
 
 import ../footer.scroll

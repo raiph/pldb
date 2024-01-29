@@ -6,7 +6,7 @@ title xodio - Visual programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="snakemake.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="neut.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="kitlang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xodio.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/xodio/xod
 
 dashboard
- #1041 <span title="TotalRank: 1608 Jobs: 103 Users: 519 Facts: 1378 Links: 986">on PLDB</span>
+ #1043 <span title="TotalRank: 1610 Jobs: 103 Users: 521 Facts: 1378 Links: 986">on PLDB</span>
  9 Years Old
 
 openGraphImage https://pldb.com/screenshots/xodio.png
@@ -42,6 +42,6 @@ image ../screenshots/xodio.png
 
 endColumns
 
-keyboardNav snakemake.html kitlang.html
+keyboardNav neut.html kitlang.html
 
 import ../footer.scroll

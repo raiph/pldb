@@ -6,7 +6,7 @@ title Eagle - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="abnf.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="xtext.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="phyloxml-format.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eagle.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
 
 dashboard
- #582 on PLDB
+ #580 on PLDB
  36 Years Old
 
 * EAGLE is a scriptable electronic design automation (EDA) application with schematic capture, printed circuit board (PCB) layout, auto-router and computer-aided manufacturing (CAM) features. EAGLE stands for Easily Applicable Graphical Layout Editor (German: Einfach Anzuwendender Grafischer Layout-Editor) and is developed by CadSoft Computer GmbH. The company was acquired by Autodesk Inc. Read more on Wikipedia...
@@ -70,6 +70,6 @@ codeWithHeader Example from <a href='https://github.com/textmate/xml.tmbundle'>L
 
 endColumns
 
-keyboardNav abnf.html phyloxml-format.html
+keyboardNav xtext.html phyloxml-format.html
 
 import ../footer.scroll

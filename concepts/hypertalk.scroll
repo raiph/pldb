@@ -6,8 +6,8 @@ title HyperTalk - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="dtd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="capn-proto.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="multics.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dtd.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hypertalk.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#danWinkler Dan Winkler
 
 dashboard
- #365 <span title="TotalRank: 834 Jobs: 103 Users: 998 Facts: 597 Links: 134">on PLDB</span>
+ #364 <span title="TotalRank: 834 Jobs: 103 Users: 1001 Facts: 597 Links: 134">on PLDB</span>
  37 Years Old
 
 * HyperTalk is a high-level, procedural programming language created in 1987 by Dan Winkler and used in conjunction with Apple Computer's HyperCard hypermedia program by Bill Atkinson. The main target audience of HyperTalk was beginning programmers, hence HyperTalk programmers were usually called authors, and the process of writing programs was called "scripting". HyperTalk scripts are fairly similar to written English, and use a logic structure similar to that of the Pascal programming language. Read more on Wikipedia...
@@ -67,6 +67,6 @@ treeTable
   Token put
   Example
 
-keyboardNav dtd.html capn-proto.html
+keyboardNav multics.html dtd.html
 
 import ../footer.scroll

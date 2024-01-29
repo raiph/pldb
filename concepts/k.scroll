@@ -6,7 +6,7 @@ title K - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="abnf.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="dogescript.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="enso.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/k.pldb
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#arthurWhitney Arthur Whitney
 
 dashboard
- #432 <span title="TotalRank: 937 Jobs: 103 Users: 712 Facts: 597 Links: 237">on PLDB</span>
+ #431 <span title="TotalRank: 937 Jobs: 103 Users: 715 Facts: 597 Links: 237">on PLDB</span>
  31 Years Old
 
 * K is a proprietary array processing language developed by Arthur Whitney and commercialized by Kx Systems. Since then, an open-source implementation known as Kona has also been developed. The language serves as the foundation for kdb+, an in-memory, column-based database, and other related financial products. Read more on Wikipedia...
@@ -100,6 +100,6 @@ treeTable
   Token 
   Example
 
-keyboardNav abnf.html enso.html
+keyboardNav dogescript.html enso.html
 
 import ../footer.scroll

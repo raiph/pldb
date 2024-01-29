@@ -6,8 +6,8 @@ title Filebench WML - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pcre.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="robomind.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="simple-binary-encoding.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="apache-velocity.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/filebench-wml.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/filebench/filebench
 
 dashboard
- #582 <span title="TotalRank: 1147 Jobs: 103 Users: 731 Facts: 313 Links: 986">on PLDB</span>
+ #584 <span title="TotalRank: 1150 Jobs: 103 Users: 734 Facts: 313 Links: 986">on PLDB</span>
  13 Years Old
  566 <span title="Filebench WML repos on GitHub.">Repos</span>
 
@@ -121,6 +121,6 @@ treeTable
   Token 
   Example
 
-keyboardNav pcre.html robomind.html
+keyboardNav simple-binary-encoding.html apache-velocity.html
 
 import ../footer.scroll

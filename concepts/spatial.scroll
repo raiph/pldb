@@ -6,8 +6,8 @@ title Spatial - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="compiler-compiler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plot.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="plot.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="strips.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spatial.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/stanford-ppl/spatial
 
 dashboard
- #873 <span title="TotalRank: 1439 Jobs: 103 Users: 942 Facts: 394 Links: 986">on PLDB</span>
+ #874 <span title="TotalRank: 1442 Jobs: 103 Users: 945 Facts: 394 Links: 986">on PLDB</span>
  6 Years Old
 
 * Spatial: A High Level Programming Language for FPGAs
@@ -92,6 +92,6 @@ treeTable
   Token 
   Example
 
-keyboardNav compiler-compiler.html plot.html
+keyboardNav plot.html strips.html
 
 import ../footer.scroll

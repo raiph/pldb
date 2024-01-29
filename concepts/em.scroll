@@ -7,7 +7,7 @@ title Em - Text markup language
 
 html
  <a class="trueBaseThemePreviousItem" href="cali-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lisp-machine-lisp.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="bloom.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/em.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/peter-fa/em
 
 dashboard
- #1075 <span title="TotalRank: 1632 Jobs: 103 Users: 2435 Facts: 543 Links: 986">on PLDB</span>
+ #1076 <span title="TotalRank: 1632 Jobs: 103 Users: 2438 Facts: 543 Links: 986">on PLDB</span>
  4 Years Old
 
 * Easy Markup is a lightweight markup language.
@@ -74,6 +74,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav cali-lang.html lisp-machine-lisp.html
+keyboardNav cali-lang.html bloom.html
 
 import ../footer.scroll

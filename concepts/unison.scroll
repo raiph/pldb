@@ -6,8 +6,8 @@ title unison - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="transact-sql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pl-0.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="max.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="transact-sql.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unison.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/unisonweb/unison
 
 dashboard
- #383 <span title="TotalRank: 857 Jobs: 103 Users: 202 Facts: 552 Links: 986">on PLDB</span>
+ #382 <span title="TotalRank: 857 Jobs: 103 Users: 202 Facts: 552 Links: 986">on PLDB</span>
  9 Years Old
 
 * Try now: <a href="https://riju.codes/unison">Riju</a>
@@ -93,6 +93,6 @@ treeTable
   Token 
   Example
 
-keyboardNav transact-sql.html pl-0.html
+keyboardNav max.html transact-sql.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Kubernetes - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="microsoft-small-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="robomind.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="velato.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="microsoft-small-basic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kubernetes.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/kubernetes/kubernetes
 
 dashboard
- #626 on PLDB
+ #625 on PLDB
  10 Years Old
 
 * Production-Grade Container Scheduling and Management
@@ -41,6 +41,6 @@ dashboard
 
 endColumns
 
-keyboardNav microsoft-small-basic.html robomind.html
+keyboardNav velato.html microsoft-small-basic.html
 
 import ../footer.scroll

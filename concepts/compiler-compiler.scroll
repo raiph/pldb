@@ -7,7 +7,7 @@ title Compiler-Compiler - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="express.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spatial.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="plot.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/compiler-compiler.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
 
 dashboard
- #872 <span title="TotalRank: 1438 Jobs: 103 Users: 946 Facts: 1029 Links: 389">on PLDB</span>
+ #872 <span title="TotalRank: 1441 Jobs: 103 Users: 949 Facts: 1029 Links: 389">on PLDB</span>
  61 Years Old
 
 * In computer science, a compiler-compiler or compiler generator is a programming tool that creates a parser, interpreter, or compiler from some form of formal description of a programming language and machine. The input may be a text file containing the grammar written in BNF or EBNF that defines the syntax of a programming language, and whose generated output is some source code of the parser for the programming language, although other definitions exist. Usually, the resulting source code will have to be extended upon before a complete compiler emerges.A metacompiler is a software development tool used chiefly in the construction of compilers, translators, and interpreters for other programming languages. Read more on Wikipedia...
@@ -55,6 +55,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Compiler-comp
 
 endColumns
 
-keyboardNav express.html spatial.html
+keyboardNav express.html plot.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Pandoc - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="creative-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mathics.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="basis-universal-format.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="flutter-framework.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pandoc-app.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
 
 dashboard
- #1068 on PLDB
+ #1072 on PLDB
  18 Years Old
 
 * Pandoc is a free and open-source software document converter, widely used as a writing tool (especially by scholars) and as a basis for publishing workflows. It was created by John MacFarlane, a philosophy professor at the University of California, Berkeley.. Read more on Wikipedia...
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav creative-basic.html mathics.html
+keyboardNav basis-universal-format.html flutter-framework.html
 
 import ../footer.scroll

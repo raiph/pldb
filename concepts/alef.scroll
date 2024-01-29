@@ -7,7 +7,7 @@ title ALEF - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="google-apps-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="islisp.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cell.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alef.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#philWinterbottom Phil Winterbottom
 
 dashboard
- #859 <span title="TotalRank: 1422 Jobs: 103 Users: 1103 Facts: 993 Links: 326">on PLDB</span>
+ #859 <span title="TotalRank: 1422 Jobs: 103 Users: 1106 Facts: 993 Links: 326">on PLDB</span>
  32 Years Old
 
 * Alef is a discontinued concurrent programming language, designed as part of the Plan 9 operating system by Phil Winterbottom of Bell Labs. It implemented the channel-based concurrency model of Newsqueak in a compiled, C-like language.. Read more on Wikipedia...
@@ -53,6 +53,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Alef_(program
 
 endColumns
 
-keyboardNav google-apps-script.html islisp.html
+keyboardNav google-apps-script.html cell.html
 
 import ../footer.scroll

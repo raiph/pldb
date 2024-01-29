@@ -6,7 +6,7 @@ title Carpet - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gerbil.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="fp.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="molfile-format.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/carpet.pldb
@@ -21,7 +21,7 @@ startColumns 4
  link ../lists/creators.html#domenicoTalia Domenico Talia
 
 dashboard
- #1019 <span title="TotalRank: 1586 Jobs: 103 Users: 2829 Facts: 497 Links: 986">on PLDB</span>
+ #1020 <span title="TotalRank: 1586 Jobs: 103 Users: 2832 Facts: 497 Links: 986">on PLDB</span>
  27 Years Old
 
 * This paper describes CARPET, a high-level programming language based on the cellular automata model. CARPET is a programming language designed to support the development of parallel high performance software. It exploits the computing power of a highly parallel computer releasing a user from using explicit parallel constructs. A CARPET implementation has been used for programming cellular algorithms in the CAMEL parallel environment. By CARPET a user might write programs to describe the actions of thousands of simple active agents interacting locally, then the CAMEL environment allows a user to observe the global complex evolution that arises from their parallel execution and their local interactions.
@@ -91,6 +91,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav gerbil.html molfile-format.html
+keyboardNav fp.html molfile-format.html
 
 import ../footer.scroll

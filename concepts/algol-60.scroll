@@ -6,8 +6,8 @@ title ALGOL 60 - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bison.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="api-blueprint.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ini.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="cython.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algol-60.pldb
 
@@ -32,7 +32,7 @@ startColumns 4
  link ../lists/creators.html#michaelWoodger Michael Woodger
 
 dashboard
- #252 <span title="TotalRank: 630 Jobs: 103 Users: 478 Facts: 475 Links: 52">on PLDB</span>
+ #250 <span title="TotalRank: 630 Jobs: 103 Users: 480 Facts: 475 Links: 52">on PLDB</span>
  64 Years Old
 
 * ALGOL 60 (short for Algorithmic Language 1960) is a member of the ALGOL family of computer programming languages. It followed on from ALGOL 58 which had introduced code blocks and the begin and end pairs for delimiting them.  ALGOL 60 was the first language implementing nested function definitions with lexical scope. Read more on Wikipedia...
@@ -108,6 +108,6 @@ treeTable
   Token 
   Example
 
-keyboardNav bison.html api-blueprint.html
+keyboardNav ini.html cython.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Taichi - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="algol-58.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="musicxml.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="hope.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="algol-58.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/taichi.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/taichi-dev/taichi
 
 dashboard
- #501 <span title="TotalRank: 1035 Jobs: 103 Users: 70 Facts: 862 Links: 986">on PLDB</span>
+ #500 <span title="TotalRank: 1035 Jobs: 103 Users: 70 Facts: 862 Links: 986">on PLDB</span>
  5 Years Old
 
 * Taichi Lang is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks, for example LLVM, to offload the compute-intensive Python code to the native GPU or CPU instructions.
@@ -75,6 +75,6 @@ treeTable
   Token 
   Example
 
-keyboardNav algol-58.html musicxml.html
+keyboardNav hope.html algol-58.html
 
 import ../footer.scroll

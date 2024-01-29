@@ -6,8 +6,8 @@ title JFlex - Grammar language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="rmarkdown.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="malbolge.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="katex.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="pig.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jflex.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/jflex-de/jflex
 
 dashboard
- #376 <span title="TotalRank: 850 Jobs: 103 Users: 560 Facts: 187 Links: 986">on PLDB</span>
+ #378 <span title="TotalRank: 853 Jobs: 103 Users: 563 Facts: 187 Links: 986">on PLDB</span>
  21 Years Old
  2 <span title="JFlex repos on GitHub.">Repos</span>
 
@@ -144,6 +144,6 @@ treeTable
   Token 
   Example
 
-keyboardNav rmarkdown.html malbolge.html
+keyboardNav katex.html pig.html
 
 import ../footer.scroll

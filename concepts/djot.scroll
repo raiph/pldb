@@ -6,7 +6,7 @@ title Djot - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pari-gp.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="ebnf.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="asmjs.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/djot.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/jgm/djot
 
 dashboard
- #481 <span title="TotalRank: 1011 Jobs: 103 Users: 601 Facts: 307 Links: 986">on PLDB</span>
+ #482 <span title="TotalRank: 1014 Jobs: 103 Users: 604 Facts: 307 Links: 986">on PLDB</span>
  2 Years Old
 
 * Try now: <a href="https://djot.net/playground/">Web</a>
@@ -109,6 +109,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav pari-gp.html asmjs.html
+keyboardNav ebnf.html asmjs.html
 
 import ../footer.scroll

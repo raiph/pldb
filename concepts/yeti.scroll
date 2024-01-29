@@ -6,7 +6,7 @@ title yeti - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="explorer.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="chicken.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="idl-sl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yeti.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/mth/yeti
 
 dashboard
- #1578 <span title="TotalRank: 2086 Jobs: 103 Users: 997 Facts: 1120 Links: 986">on PLDB</span>
+ #1581 <span title="TotalRank: 2089 Jobs: 103 Users: 1000 Facts: 1120 Links: 986">on PLDB</span>
  17 Years Old
 
 * Try now: <a href="http://try-yeti.appspot.com/">Web</a>
@@ -49,6 +49,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav explorer.html idl-sl.html
+keyboardNav chicken.html idl-sl.html
 
 import ../footer.scroll

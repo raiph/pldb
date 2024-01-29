@@ -7,7 +7,7 @@ title Carbon - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="cryptol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kixtart.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="dojo.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/carbon.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/carbon-language/carbon-lang
 
 dashboard
- #606 <span title="TotalRank: 1176 Jobs: 103 Users: 498 Facts: 575 Links: 986">on PLDB</span>
+ #606 <span title="TotalRank: 1178 Jobs: 103 Users: 500 Facts: 575 Links: 986">on PLDB</span>
  4 Years Old
 
 * Carbon language specification and documentation.
@@ -73,6 +73,6 @@ codeWithHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>
 
 endColumns
 
-keyboardNav cryptol.html kixtart.html
+keyboardNav cryptol.html dojo.html
 
 import ../footer.scroll

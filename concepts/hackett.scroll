@@ -7,7 +7,7 @@ title Hackett - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="observable-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="verona.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="mojo.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hackett.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/lexi-lambda/hackett
 
 dashboard
- #760 <span title="TotalRank: 1325 Jobs: 103 Users: 486 Facts: 736 Links: 986">on PLDB</span>
+ #762 <span title="TotalRank: 1327 Jobs: 103 Users: 488 Facts: 736 Links: 986">on PLDB</span>
  7 Years Old
 
 * Hackett is an attempt to implement a Haskell-like language with support for Racket’s macro system, built using the techniques described in the paper Type Systems as Macros.
@@ -56,6 +56,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav observable-lang.html verona.html
+keyboardNav observable-lang.html mojo.html
 
 import ../footer.scroll

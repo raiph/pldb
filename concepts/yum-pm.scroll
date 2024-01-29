@@ -7,7 +7,7 @@ title Yum - Package manager
 
 html
  <a class="trueBaseThemePreviousItem" href="eff.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xmi.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="scribe.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yum-pm.pldb
 
@@ -21,7 +21,7 @@ startColumns 4
  link ../lists/creators.html#michaelStenner Michael Stenner
 
 dashboard
- #1474 on PLDB
+ #1477 on PLDB
  25 Years Old
 
 * The Yellowdog Updater, Modified (YUM) is a libre and open-source command-line package-management utility for computers running the Linux operating system using the RPM Package Manager. Though YUM has a command-line interface, several other tools provide graphical user interfaces to YUM functionality. YUM allows for automatic updates and package and dependency management on RPM-based distributions. Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav eff.html xmi.html
+keyboardNav eff.html scribe.html
 
 import ../footer.scroll

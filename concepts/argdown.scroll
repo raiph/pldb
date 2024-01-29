@@ -6,8 +6,8 @@ title Argdown - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="xtext.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="renpy.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cilk.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="geojson.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/argdown.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/christianvoigt/argdown
 
 dashboard
- #461 <span title="TotalRank: 983 Jobs: 103 Users: 680 Facts: 200 Links: 986">on PLDB</span>
+ #462 <span title="TotalRank: 986 Jobs: 103 Users: 683 Facts: 200 Links: 986">on PLDB</span>
  10 Years Old
 
 * Try now: <a href="https://argdown.org/sandbox/html">Web</a>
@@ -163,6 +163,6 @@ treeTable
   Token 
   Example
 
-keyboardNav xtext.html renpy.html
+keyboardNav cilk.html geojson.html
 
 import ../footer.scroll

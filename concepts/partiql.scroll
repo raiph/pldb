@@ -7,7 +7,7 @@ title partiql - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="structured-text.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hazel.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cir.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/partiql.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/partiql/partiql-lang-kotlin
 
 dashboard
- #1212 <span title="TotalRank: 1755 Jobs: 103 Users: 666 Facts: 1308 Links: 986">on PLDB</span>
+ #1215 <span title="TotalRank: 1758 Jobs: 103 Users: 669 Facts: 1308 Links: 986">on PLDB</span>
  5 Years Old
 
 * An implementation of PartiQL written in Kotlin.
@@ -40,6 +40,6 @@ dashboard
 
 endColumns
 
-keyboardNav structured-text.html hazel.html
+keyboardNav structured-text.html cir.html
 
 import ../footer.scroll

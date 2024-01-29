@@ -6,8 +6,8 @@ title Cyber - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="fable-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="llhd.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="llhd.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="curv.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cyber.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/fubark/cyber
 
 dashboard
- #1007 <span title="TotalRank: 1571 Jobs: 103 Users: 971 Facts: 497 Links: 986">on PLDB</span>
+ #1010 <span title="TotalRank: 1574 Jobs: 103 Users: 974 Facts: 497 Links: 986">on PLDB</span>
  2 Years Old
 
 * Cyber is a new language for fast, efficient, and concurrent scripting.
@@ -136,6 +136,6 @@ treeTable
   Example
    import m 'math'
 
-keyboardNav fable-lang.html llhd.html
+keyboardNav llhd.html curv.html
 
 import ../footer.scroll

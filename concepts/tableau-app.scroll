@@ -7,7 +7,7 @@ title Tableau Software - Application
 
 html
  <a class="trueBaseThemePreviousItem" href="power-bi-app.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clist.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="tiddlywiki.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tableau-app.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
 
 dashboard
- #920 on PLDB
+ #919 on PLDB
  21 Years Old
 
 * Tableau Software ( tab-LOH) is an interactive data visualization software company founded on January 2003 by Christian Chabot, Pat Hanrahan and Chris Stolte, in Mountain View, California. The company is currently headquartered in Seattle, Washington, United States  focused on business intelligence. On June 10, 2019,  Salesforce.com announced it would be acquiring Tableau.Chabot, Hanrahan and Stolte were researchers at the Department of Computer Science at Stanford University  who specialized in visualization techniques for exploring and analyzing relational databases and data cubes. Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav power-bi-app.html clist.html
+keyboardNav power-bi-app.html tiddlywiki.html
 
 import ../footer.scroll

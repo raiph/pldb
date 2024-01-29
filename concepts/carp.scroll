@@ -6,8 +6,8 @@ title carp - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="microsoft-macro-assembler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="drakon.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="textile.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="algol-w.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/carp.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/carp-lang/carp
 
 dashboard
- #475 <span title="TotalRank: 1002 Jobs: 103 Users: 207 Facts: 692 Links: 986">on PLDB</span>
+ #474 <span title="TotalRank: 1002 Jobs: 103 Users: 207 Facts: 692 Links: 986">on PLDB</span>
  8 Years Old
 
 * A statically typed lisp, without a GC, for real-time applications.
@@ -96,6 +96,6 @@ treeTable
   Token 
   Example
 
-keyboardNav microsoft-macro-assembler.html drakon.html
+keyboardNav textile.html algol-w.html
 
 import ../footer.scroll

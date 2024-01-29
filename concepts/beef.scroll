@@ -6,7 +6,7 @@ title beef-lang - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="common-workflow-language.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="janet.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="risc-v.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/beef.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/beefytech/Beef
 
 dashboard
- #441 <span title="TotalRank: 943 Jobs: 103 Users: 333 Facts: 507 Links: 986">on PLDB</span>
+ #439 <span title="TotalRank: 943 Jobs: 103 Users: 333 Facts: 507 Links: 986">on PLDB</span>
  5 Years Old
  137 <span title="beef-lang repos on GitHub.">Repos</span>
 
@@ -76,6 +76,6 @@ treeTable
   Token Console.WriteLine
   Example
 
-keyboardNav common-workflow-language.html risc-v.html
+keyboardNav janet.html risc-v.html
 
 import ../footer.scroll

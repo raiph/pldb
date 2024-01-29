@@ -6,8 +6,8 @@ title Geography Markup Language - Xml format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="eclipse-command-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="caffeine.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="maskjs.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="cyclone.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/geo-ml.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
 
 dashboard
- #702 <span title="TotalRank: 1268 Jobs: 103 Users: 674 Facts: 969 Links: 491">on PLDB</span>
+ #705 <span title="TotalRank: 1271 Jobs: 103 Users: 677 Facts: 969 Links: 491">on PLDB</span>
  24 Years Old
 
 * The Geography Markup Language (GML) is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open interchange format for geographic transactions on the Internet. Key to GML's utility is its ability to integrate all forms of geographic information, including not only conventional "vector" or discrete objects, but coverages (see also GMLJP2) and sensor data.. Read more on Wikipedia...
@@ -53,6 +53,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Geography_Mar
 
 endColumns
 
-keyboardNav eclipse-command-language.html caffeine.html
+keyboardNav maskjs.html cyclone.html
 
 import ../footer.scroll

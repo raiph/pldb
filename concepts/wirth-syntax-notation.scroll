@@ -7,7 +7,7 @@ title Wirth syntax notation - Grammar language
 
 html
  <a class="trueBaseThemePreviousItem" href="text-executive-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algol-n.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="clamp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wirth-syntax-notation.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
 
 dashboard
- #2051 <span title="TotalRank: 2582 Jobs: 103 Users: 1493 Facts: 1499 Links: 986">on PLDB</span>
+ #2054 <span title="TotalRank: 2585 Jobs: 103 Users: 1496 Facts: 1499 Links: 986">on PLDB</span>
  47 Years Old
 
 * Wirth syntax notation (WSN) is a metasyntax, that is, a formal way to describe formal languages. Originally proposed by Niklaus Wirth in 1977 as an alternative to Backus–Naur form (BNF). It has several advantages over BNF in that it contains an explicit iteration construct, and it avoids the use of an explicit symbol for the empty string (such as <empty> or ε).WSN has been used in several international standards, starting with ISO 10303-21. Read more on Wikipedia...
@@ -47,6 +47,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav text-executive-programming-language.html algol-n.html
+keyboardNav text-executive-programming-language.html clamp.html
 
 import ../footer.scroll

@@ -7,7 +7,7 @@ title relax - Grammar language
 
 html
  <a class="trueBaseThemePreviousItem" href="executable-json.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="acorn-atom.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="gpss.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/relax.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#makotoMurata Makoto Murata
 
 dashboard
- #1117 <span title="TotalRank: 1675 Jobs: 103 Users: 2435 Facts: 586 Links: 986">on PLDB</span>
+ #1119 <span title="TotalRank: 1675 Jobs: 103 Users: 2438 Facts: 586 Links: 986">on PLDB</span>
  24 Years Old
 
 * RELAX (REgular LAnguage description for XML) is a specification for describing XML-based languages. XHTML 1.0, for example, can be described in RELAX. A description written in RELAX is called a RELAX grammar. An XML document can be verified against a RELAX grammar. Compared with DTD(Document Type Definition), RELAX has new features: RELAX grammars are represented in the XML instance syntax. RELAX borrows rich datatypes of XML Schema Part 2. RELAX is namespace-aware
@@ -81,6 +81,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav executable-json.html acorn-atom.html
+keyboardNav executable-json.html gpss.html
 
 import ../footer.scroll

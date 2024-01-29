@@ -6,7 +6,7 @@ title fructure-editor - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="synapse.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="note.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="lispworks.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fructure-editor.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/disconcision/fructure
 
 dashboard
- #1436 <span title="TotalRank: 1968 Jobs: 103 Users: 879 Facts: 1782 Links: 986">on PLDB</span>
+ #1443 <span title="TotalRank: 1971 Jobs: 103 Users: 882 Facts: 1782 Links: 986">on PLDB</span>
  7 Years Old
 
 * a structured interaction engine 🗜️ ⚗️
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav synapse.html lispworks.html
+keyboardNav note.html lispworks.html
 
 import ../footer.scroll

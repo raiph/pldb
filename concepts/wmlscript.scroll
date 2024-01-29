@@ -6,8 +6,8 @@ title WMLScript - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="n-triples.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ags-script.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="graphql-sdl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="april.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wmlscript.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #1324 <span title="TotalRank: 1867 Jobs: 103 Users: 1375 Facts: 2314 Links: 389">on PLDB</span>
+ #1337 <span title="TotalRank: 1870 Jobs: 103 Users: 1378 Facts: 2315 Links: 389">on PLDB</span>
  26 Years Old
 
 * WMLScript is a procedural programming language and dialect of JavaScript used for WML pages and is part of the Wireless Application Protocol (WAP). WMLScript is a client-side scripting language and is similar to JavaScript. Just like JavaScript WMLScript is used for tasks such as user input validation, generation of error message and other Dialog boxes etc. Read more on Wikipedia...
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav n-triples.html ags-script.html
+keyboardNav graphql-sdl.html april.html
 
 import ../footer.scroll

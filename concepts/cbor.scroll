@@ -6,7 +6,7 @@ title CBOR - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="aimms.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="trac.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="bro.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cbor.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
 
 dashboard
- #1700 on PLDB
+ #1705 on PLDB
  11 Years Old
 
 * CBOR (Concise Binary Object Representation) is a binary data serialization format loosely based on JSON. Like JSON it allows the transmission of data objects that contain name–value pairs, but in a more concise manner. This increases processing and transfer speeds at the cost of human-readability. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav aimms.html bro.html
+keyboardNav trac.html bro.html
 
 import ../footer.scroll

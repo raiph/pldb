@@ -7,7 +7,7 @@ title Coconut - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="objective-j.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wisp.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="clipper.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coconut.pldb
 
@@ -120,6 +120,6 @@ treeTable
    match [head] + tail in [0, 1, 2, 3]:
       print(head, tail)
 
-keyboardNav objective-j.html wisp.html
+keyboardNav objective-j.html clipper.html
 
 import ../footer.scroll

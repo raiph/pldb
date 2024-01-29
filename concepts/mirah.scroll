@@ -6,8 +6,8 @@ title Mirah - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mupad.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="assemblyscript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="assemblyscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="gosu.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mirah.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/mirah/mirah
 
 dashboard
- #494 <span title="TotalRank: 1027 Jobs: 103 Users: 464 Facts: 460 Links: 666">on PLDB</span>
+ #495 <span title="TotalRank: 1029 Jobs: 103 Users: 466 Facts: 460 Links: 666">on PLDB</span>
  15 Years Old
  68 <span title="Mirah repos on GitHub.">Repos</span>
 
@@ -76,6 +76,6 @@ treeTable
   Token 
   Example
 
-keyboardNav mupad.html assemblyscript.html
+keyboardNav assemblyscript.html gosu.html
 
 import ../footer.scroll

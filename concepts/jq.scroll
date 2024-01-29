@@ -6,8 +6,8 @@ title jq - Query language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="peg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fennel.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="livecode.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="peg.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jq.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/stedolan/jq
 
 dashboard
- #408 <span title="TotalRank: 908 Jobs: 103 Users: 69 Facts: 736 Links: 986">on PLDB</span>
+ #407 <span title="TotalRank: 908 Jobs: 103 Users: 69 Facts: 736 Links: 986">on PLDB</span>
  12 Years Old
  60 <span title="jq repos on GitHub.">Repos</span>
 
@@ -51,6 +51,6 @@ codeWithHeader Example from <a href='https://riju.codes/jq'>Riju</a>:
 
 endColumns
 
-keyboardNav peg.html fennel.html
+keyboardNav livecode.html peg.html
 
 import ../footer.scroll

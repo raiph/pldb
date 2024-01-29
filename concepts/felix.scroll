@@ -6,8 +6,8 @@ title Felix - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mustache.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ratfor.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ratfor.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="mathcad.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/felix.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/felix-lang/felix
 
 dashboard
- #524 <span title="TotalRank: 1068 Jobs: 103 Users: 610 Facts: 355 Links: 986">on PLDB</span>
+ #525 <span title="TotalRank: 1071 Jobs: 103 Users: 613 Facts: 355 Links: 986">on PLDB</span>
  23 Years Old
 
 * The Felix Programming Language
@@ -183,6 +183,6 @@ pipeTable
  title|titleLink|date|score|comments
  Felix - a fast scripting language|https://news.ycombinator.com/item?id=5007674|01/04/2013|107|83
 
-keyboardNav mustache.html ratfor.html
+keyboardNav ratfor.html mathcad.html
 
 import ../footer.scroll

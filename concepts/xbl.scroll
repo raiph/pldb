@@ -6,8 +6,8 @@ title XML Binding Language - Xml format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ti-basic-assembly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="femtolisp.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="femtolisp.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="swallow.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xbl.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
 
 dashboard
- #909 <span title="TotalRank: 1476 Jobs: 103 Users: 707 Facts: 1885 Links: 666">on PLDB</span>
+ #910 <span title="TotalRank: 1479 Jobs: 103 Users: 710 Facts: 1885 Links: 666">on PLDB</span>
  24 Years Old
 
 * XBL (XML Binding Language) is an XML-based markup language used to declare the behavior and look of XUL-widgets and XML elements. Development of the XBL specification was abandoned by the W3C in 2012. XBL was developed by the Mozilla project for use in the Mozilla Application Suite; the language is not currently described by any formal standard and is thus proprietary to Mozilla, with the only implementation being the Gecko layout engine. Read more on Wikipedia...
@@ -38,6 +38,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/XBL'>Wikipedi
 
 endColumns
 
-keyboardNav ti-basic-assembly.html femtolisp.html
+keyboardNav femtolisp.html swallow.html
 
 import ../footer.scroll

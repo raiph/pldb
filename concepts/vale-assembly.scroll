@@ -6,7 +6,7 @@ title Vale - Assembly language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bloom.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="visdown.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="gentee.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vale-assembly.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/project-everest/vale
 
 dashboard
- #1071 <span title="TotalRank: 1632 Jobs: 103 Users: 1003 Facts: 543 Links: 986">on PLDB</span>
+ #1072 <span title="TotalRank: 1632 Jobs: 103 Users: 1006 Facts: 543 Links: 986">on PLDB</span>
  7 Years Old
 
 * Vale is a tool for constructing formally verified high-performance assembly language code, with an emphasis on cryptographic code. It uses existing verification frameworks, such as Dafny and F*, for formal verification. It supports multiple architectures, such as x86, x64, and ARM, and multiple platforms, such as Windows, Mac, and Linux. Additional architectures and platforms can be supported with no changes to the Vale tool.
@@ -92,6 +92,6 @@ treeTable
   Token 
   Example
 
-keyboardNav bloom.html gentee.html
+keyboardNav visdown.html gentee.html
 
 import ../footer.scroll

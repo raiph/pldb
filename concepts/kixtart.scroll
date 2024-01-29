@@ -6,8 +6,8 @@ title KiXtart - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="carbon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="creole.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="clarion.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="cryptol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kixtart.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
 
 dashboard
- #607 <span title="TotalRank: 1177 Jobs: 103 Users: 1266 Facts: 802 Links: 272">on PLDB</span>
+ #604 <span title="TotalRank: 1177 Jobs: 103 Users: 1269 Facts: 802 Links: 272">on PLDB</span>
  33 Years Old
 
 * KiXtart is a closed source free-format scripting language for Windows. It is described as a logon script processor and enhanced batch scripting language by the official website. Its name is a portmanteau of "kick start".. Read more on Wikipedia...
@@ -76,6 +76,6 @@ treeTable
   Token 
   Example
 
-keyboardNav carbon.html creole.html
+keyboardNav clarion.html cryptol.html
 
 import ../footer.scroll

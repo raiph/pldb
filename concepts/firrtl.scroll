@@ -6,8 +6,8 @@ title firrtl - Intermediate representation language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="visdown.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lingo.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mxml.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="visdown.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/firrtl.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/freechipsproject/firrtl
 
 dashboard
- #1067 <span title="TotalRank: 1629 Jobs: 103 Users: 540 Facts: 1782 Links: 986">on PLDB</span>
+ #1070 <span title="TotalRank: 1631 Jobs: 103 Users: 542 Facts: 1782 Links: 986">on PLDB</span>
  9 Years Old
 
 * Flexible Intermediate Representation for RTL
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav visdown.html lingo.html
+keyboardNav mxml.html visdown.html
 
 import ../footer.scroll

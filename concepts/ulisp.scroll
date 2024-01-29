@@ -6,8 +6,8 @@ title ulisp - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="buzz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cat.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="goal.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="autocoder.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ulisp.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/technoblogy/ulisp
 
 dashboard
- #1384 <span title="TotalRank: 1919 Jobs: 103 Users: 830 Facts: 1588 Links: 986">on PLDB</span>
+ #1398 <span title="TotalRank: 1922 Jobs: 103 Users: 833 Facts: 1588 Links: 986">on PLDB</span>
  8 Years Old
 
 * uLisp® is a version of the Lisp programming language specifically designed to run on microcontrollers with a limited amount of RAM.
@@ -39,6 +39,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav buzz.html cat.html
+keyboardNav goal.html autocoder.html
 
 import ../footer.scroll

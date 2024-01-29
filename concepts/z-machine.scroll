@@ -7,7 +7,7 @@ title Z-machine - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="xuml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="superjson.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="clash.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/z-machine.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1980 1980
 
 dashboard
- #931 <span title="TotalRank: 1499 Jobs: 103 Users: 905 Facts: 2061 Links: 491">on PLDB</span>
+ #932 <span title="TotalRank: 1502 Jobs: 103 Users: 908 Facts: 2062 Links: 491">on PLDB</span>
  44 Years Old
 
 * The Z-machine is a virtual machine that was developed by Joel Berez and Marc Blank in 1979 and used by Infocom for its text adventure games. Infocom compiled game code to files containing Z-machine instructions (called story files or Z-code files) and could therefore port its text adventures to a new platform simply by writing a Z-machine implementation for that platform. With the large number of incompatible home computer systems in use at the time, this was an important advantage over using native code or developing a compiler for each system.. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav xuml.html superjson.html
+keyboardNav xuml.html clash.html
 
 import ../footer.scroll

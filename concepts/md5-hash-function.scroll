@@ -6,8 +6,8 @@ title MD5 - Hash function
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pcre.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ext2.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="nix.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="nqc.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/md5-hash-function.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
 
 dashboard
- #815 on PLDB
+ #814 on PLDB
  33 Years Old
 
 * The MD5 message-digest algorithm is a widely used hash function producing a 128-bit hash value. Although MD5 was initially designed to be used as a cryptographic hash function, it has been found to suffer from extensive vulnerabilities. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav pcre.html ext2.html
+keyboardNav nix.html nqc.html
 
 import ../footer.scroll

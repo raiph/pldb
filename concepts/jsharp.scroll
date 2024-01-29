@@ -6,8 +6,8 @@ title J# - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gams.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="runoff.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ddml.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="jai.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jsharp.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
 
 dashboard
- #552 <span title="TotalRank: 1115 Jobs: 103 Users: 623 Facts: 862 Links: 389">on PLDB</span>
+ #555 <span title="TotalRank: 1118 Jobs: 103 Users: 626 Facts: 862 Links: 389">on PLDB</span>
  22 Years Old
 
 * Visual J# (pronounced "jay-sharp") is an implementation of the J# programming language that was a transitional language for programmers of Java and Visual J++ languages, so they could use their existing knowledge and applications on .NET Framework. It was introduced in 2002 and discontinued in 2007, with support for the final release of the product continuing until October, 2017. J# worked with Java bytecode as well as source so it could be used to transition applications that used third-party libraries even if their original source code was unavailable. Read more on Wikipedia...
@@ -68,6 +68,6 @@ treeTable
   Token System.Console.Write
   Example
 
-keyboardNav gams.html runoff.html
+keyboardNav ddml.html jai.html
 
 import ../footer.scroll

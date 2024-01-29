@@ -6,8 +6,8 @@ title Xtext - Grammar language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="tiny-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="argdown.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="gravity.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="tiny-basic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xtext.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/eclipse/xtext
 
 dashboard
- #460 <span title="TotalRank: 981 Jobs: 103 Users: 389 Facts: 489 Links: 986">on PLDB</span>
+ #459 <span title="TotalRank: 981 Jobs: 103 Users: 389 Facts: 489 Links: 986">on PLDB</span>
  18 Years Old
 
 * Xtext is an open-source software framework for developing programming languages and domain-specific languages (DSLs). Unlike standard parser generators, Xtext generates not only a parser, but also a class model for the abstract syntax tree, as well as providing a fully featured, customizable Eclipse-based IDE.Xtext is being developed in the Eclipse Project as part of the Eclipse Modeling Framework Project and is licensed under the Eclipse Public License.. Read more on Wikipedia...
@@ -91,6 +91,6 @@ treeTable
    import "http://www.xtext.org/example/Domainmodel"
    import "http://www.xtext.org/example/Domainmodel" as dmodel
 
-keyboardNav tiny-basic.html argdown.html
+keyboardNav gravity.html tiny-basic.html
 
 import ../footer.scroll

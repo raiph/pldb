@@ -7,7 +7,7 @@ title SSI - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="speedcoding.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="helang.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="spry.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ssi.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #854 <span title="TotalRank: 1416 Jobs: 103 Users: 647 Facts: 1977 Links: 666">on PLDB</span>
+ #855 <span title="TotalRank: 1419 Jobs: 103 Users: 650 Facts: 1977 Links: 666">on PLDB</span>
  20 Years Old
 
 * Server Side Includes (SSI) is a simple interpreted server-side scripting language used almost exclusively for the Web. Code is processed by web servers. The most frequent use of SSI is to include the contents of one or more files into a web page on a web server. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav speedcoding.html helang.html
+keyboardNav speedcoding.html spry.html
 
 import ../footer.scroll

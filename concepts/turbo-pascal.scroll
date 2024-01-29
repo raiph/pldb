@@ -6,8 +6,8 @@ title Turbo Pascal - Compiler
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="oberon-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autohotkey.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="autohotkey.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="homebrew-pm.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/turbo-pascal.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
 
 dashboard
- #411 on PLDB
+ #412 on PLDB
  41 Years Old
 
 * Turbo Pascal is a software development system that includes a compiler and an integrated development environment (IDE) for the Pascal programming language running on CP/M, CP/M-86, and MS-DOS, developed by Borland under Philippe Kahn's leadership. For versions 6 and 7 (last), both a lower-priced Turbo Pascal and more expensive Borland Pascal were produced; Borland Pascal was more oriented towards professional software development, with more libraries and standard library source code. The name Borland Pascal is also used more generically for Borland's dialect of the Pascal programming language, significantly different from Standard Pascal. Read more on Wikipedia...
@@ -73,6 +73,6 @@ treeTable
    (* left parenthesis/asterisk and asterisk/right parenthesis pairs *)
    // preceded by two forward slashes
 
-keyboardNav oberon-2.html autohotkey.html
+keyboardNav autohotkey.html homebrew-pm.html
 
 import ../footer.scroll

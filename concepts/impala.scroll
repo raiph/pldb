@@ -7,7 +7,7 @@ title Impala - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="chisel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="observable-lang.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="mun-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/impala.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/apache/impala
 
 dashboard
- #758 <span title="TotalRank: 1324 Jobs: 103 Users: 307 Facts: 914 Links: 986">on PLDB</span>
+ #757 <span title="TotalRank: 1324 Jobs: 103 Users: 307 Facts: 914 Links: 986">on PLDB</span>
  12 Years Old
 
 * Apache Impala is an open source massively parallel processing (MPP) SQL query engine for data stored in a computer cluster running Apache Hadoop. Impala has been described as the open-source equivalent of Google F1, which inspired its development in 2012.. Read more on Wikipedia...
@@ -42,6 +42,6 @@ dashboard
 
 endColumns
 
-keyboardNav chisel.html observable-lang.html
+keyboardNav chisel.html mun-lang.html
 
 import ../footer.scroll

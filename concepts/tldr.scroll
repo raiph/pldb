@@ -7,7 +7,7 @@ title tldr - Application
 
 html
  <a class="trueBaseThemePreviousItem" href="x-pixmap.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spin.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="kml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tldr.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/tldr-pages/tldr
 
 dashboard
- #670 on PLDB
+ #669 on PLDB
  11 Years Old
 
 * 📚 Collaborative cheatsheets for console commands
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav x-pixmap.html spin.html
+keyboardNav x-pixmap.html kml.html
 
 import ../footer.scroll

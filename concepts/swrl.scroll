@@ -7,7 +7,7 @@ title Semantic Web Rule Language - Xml format
 
 html
  <a class="trueBaseThemePreviousItem" href="gremlin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cuneiform.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="ptx.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/swrl.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #1451 <span title="TotalRank: 1978 Jobs: 103 Users: 889 Facts: 1089 Links: 986">on PLDB</span>
+ #1463 <span title="TotalRank: 1981 Jobs: 103 Users: 892 Facts: 1089 Links: 986">on PLDB</span>
  20 Years Old
 
 * The Semantic Web Rule Language (SWRL) is a proposed language for the Semantic Web that can be used to express rules as well as logic, combining OWL DL or OWL Lite with a subset of the Rule Markup Language (itself a subset of Datalog).The specification was submitted in May 2004 to the W3C by the National Research Council of Canada, Network Inference (since acquired by webMethods), and Stanford University in association with the Joint US/EU ad hoc Agent Markup Language Committee. The specification was based on an earlier proposal for an OWL rules language.SWRL has the full power of OWL DL, but at the price of decidability and practical implementations. However, decidability can be regained by restricting the form of admissible rules, typically by imposing a suitable safety condition.Rules are of the form of an implication between an antecedent (body) and consequent (head). Read more on Wikipedia...
@@ -55,6 +55,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav gremlin.html cuneiform.html
+keyboardNav gremlin.html ptx.html
 
 import ../footer.scroll

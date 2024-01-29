@@ -6,8 +6,8 @@ title WordPress - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="vba.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vim-editor.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="vim-editor.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="rails.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wordpress.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
 
 dashboard
- #62 on PLDB
+ #63 on PLDB
  21 Years Old
 
 * WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. To function, WordPress has to be installed on a web server, which would either be part of an Internet hosting service or a network host in its own right. An example of the first scenario may be a service like WordPress.com, for example, and the second case could be a computer running the software package WordPress.org. Read more on Wikipedia...
@@ -43,6 +43,6 @@ dashboard
 
 endColumns
 
-keyboardNav vba.html vim-editor.html
+keyboardNav vim-editor.html rails.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Closure Templates - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="korn-shell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="luna.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="txl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="janet.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/closure-templates.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/google/closure-templates
 
 dashboard
- #435 <span title="TotalRank: 938 Jobs: 103 Users: 465 Facts: 370 Links: 986">on PLDB</span>
+ #437 <span title="TotalRank: 940 Jobs: 103 Users: 467 Facts: 370 Links: 986">on PLDB</span>
  15 Years Old
  424k <span title="Closure Templates repos on GitHub.">Repos</span>
 
@@ -99,6 +99,6 @@ treeTable
   Token 
   Example
 
-keyboardNav korn-shell.html luna.html
+keyboardNav txl.html janet.html
 
 import ../footer.scroll

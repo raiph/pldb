@@ -7,7 +7,7 @@ title QUEL - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="mdx-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="toontalk.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="httplang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quel.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#michaelStonebraker Michael Stonebraker
 
 dashboard
- #1265 <span title="TotalRank: 1798 Jobs: 103 Users: 1204 Facts: 1447 Links: 491">on PLDB</span>
+ #1271 <span title="TotalRank: 1801 Jobs: 103 Users: 1207 Facts: 1447 Links: 491">on PLDB</span>
  48 Years Old
 
 * QUEL is a relational database query language, based on tuple relational calculus, with some similarities to SQL.  It was created as a part of the Ingres DBMS effort at University of California, Berkeley, based on Codd's earlier suggested but not implemented Data Sub-Language ALPHA.  QUEL was used for a short time in most products based on the freely available Ingres source code, most notably in an implementation called POSTQUEL supported by POSTGRES. Read more on Wikipedia...
@@ -44,6 +44,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/QUEL_query_la
 
 endColumns
 
-keyboardNav mdx-lang.html toontalk.html
+keyboardNav mdx-lang.html httplang.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title ClojureScript - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="csp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flatbuffers.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="morse-code.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="csp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clojurescript.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/clojure/clojurescript
 
 dashboard
- #268 <span title="TotalRank: 660 Jobs: 103 Users: 97 Facts: 460 Links: 666">on PLDB</span>
+ #267 <span title="TotalRank: 660 Jobs: 103 Users: 97 Facts: 460 Links: 666">on PLDB</span>
  13 Years Old
 
 * Try now: <a href="https://clojurescript.io/">Web</a> · <a href="https://riju.codes/clojurescript">Riju</a>
@@ -90,6 +90,6 @@ treeTable
   Token println
   Example
 
-keyboardNav csp.html flatbuffers.html
+keyboardNav morse-code.html csp.html
 
 import ../footer.scroll

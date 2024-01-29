@@ -7,7 +7,7 @@ title Sawzall - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="tal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glyph.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="asic-programming-language.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sawzall.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
 
 dashboard
- #1703 <span title="TotalRank: 2212 Jobs: 103 Users: 1443 Facts: 1447 Links: 666">on PLDB</span>
+ #1706 <span title="TotalRank: 2215 Jobs: 103 Users: 1446 Facts: 1447 Links: 666">on PLDB</span>
  21 Years Old
 
 * Sawzall is a procedural domain-specific programming language, used by Google to process large numbers of individual log records. Sawzall was first described in 2003, and the szl runtime was open-sourced in August 2010. However, since the MapReduce table aggregators have not been released, the open-sourced runtime is not useful for large-scale data analysis of multiple log files off the shelf. Read more on Wikipedia...
@@ -43,6 +43,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Sawzall_(prog
 
 endColumns
 
-keyboardNav tal.html glyph.html
+keyboardNav tal.html asic-programming-language.html
 
 import ../footer.scroll

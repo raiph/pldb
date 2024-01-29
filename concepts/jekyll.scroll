@@ -6,7 +6,7 @@ title Jekyll - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="asmjs.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="ghostscript.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="sqlpl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jekyll.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/jekyll/jekyll
 
 dashboard
- #645 on PLDB
+ #644 on PLDB
  16 Years Old
 
 * Transforms your plain text into static websites and blogs.
@@ -41,6 +41,6 @@ dashboard
 
 endColumns
 
-keyboardNav asmjs.html sqlpl.html
+keyboardNav ghostscript.html sqlpl.html
 
 import ../footer.scroll

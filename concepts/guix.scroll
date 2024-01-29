@@ -6,8 +6,8 @@ title GNU Guix - Distribution
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="note.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simscript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="nesl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="small-c.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/guix.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
 
 dashboard
- #1443 <span title="TotalRank: 1971 Jobs: 103 Users: 882 Facts: 2621 Links: 986">on PLDB</span>
+ #1448 <span title="TotalRank: 1974 Jobs: 103 Users: 885 Facts: 2623 Links: 986">on PLDB</span>
  11 Years Old
 
 * GNU Guix () is a cross-platform package manager and a tool to instantiate and manage Unix-like operating systems, based on the Nix package manager with Guile Scheme APIs and specializes in providing exclusively free software. Differing from traditional package managers, Guix (like Nix) utilizes a purely functional deployment model where software is installed into unique directories generated through cryptographic hashes. Dependencies from each software are included within each hash, solving the problem of dependency hell. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav note.html simscript.html
+keyboardNav nesl.html small-c.html
 
 import ../footer.scroll

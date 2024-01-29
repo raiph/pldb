@@ -6,8 +6,8 @@ title codecept - Library
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="clay.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="speakeasy.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="hasklig.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="openscad.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/codecept.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/codeception/codeceptjs/
 
 dashboard
- #911 on PLDB
+ #909 on PLDB
  9 Years Old
 
 * Supercharged End 2 End Testing Framework for NodeJS
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav clay.html speakeasy.html
+keyboardNav hasklig.html openscad.html
 
 import ../footer.scroll

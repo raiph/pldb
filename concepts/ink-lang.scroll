@@ -6,7 +6,7 @@ title ink-lang - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="genshi.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="edge-side-includes.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="ocl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ink-lang.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/thesephist/ink
 
 dashboard
- #1100 <span title="TotalRank: 1659 Jobs: 103 Users: 754 Facts: 802 Links: 986">on PLDB</span>
+ #1103 <span title="TotalRank: 1662 Jobs: 103 Users: 757 Facts: 802 Links: 986">on PLDB</span>
  5 Years Old
 
 * Ink is a minimal programming language inspired by modern JavaScript and Go, with functional style.
@@ -56,6 +56,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav genshi.html ocl.html
+keyboardNav edge-side-includes.html ocl.html
 
 import ../footer.scroll

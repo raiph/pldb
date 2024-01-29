@@ -7,7 +7,7 @@ title PDP-11 - Computing machine
 
 html
  <a class="trueBaseThemePreviousItem" href="xgboost-model.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tap.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="ferret.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pdp-11-machine.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
 
 dashboard
- #1189 on PLDB
+ #1188 on PLDB
  54 Years Old
 
 * The PDP-11 is a series of 16-bit minicomputers sold by Digital Equipment Corporation (DEC) from 1970 into the 1990s, one of a succession of products in the PDP series. In total, around 600,000 PDP-11s of all models were sold, making it one of DEC's most successful product lines. The PDP-11 is considered by some experts to be the most popular minicomputer ever. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav xgboost-model.html tap.html
+keyboardNav xgboost-model.html ferret.html
 
 import ../footer.scroll

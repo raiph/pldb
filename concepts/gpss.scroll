@@ -6,8 +6,8 @@ title General Purpose Simulation System - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="minizinc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xbasic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="relax.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="acorn-atom.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gpss.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
 
 dashboard
- #1114 <span title="TotalRank: 1675 Jobs: 103 Users: 1081 Facts: 1120 Links: 491">on PLDB</span>
+ #1120 <span title="TotalRank: 1678 Jobs: 103 Users: 1084 Facts: 1120 Links: 491">on PLDB</span>
  64 Years Old
 
 * General Purpose Simulation System (GPSS) is a discrete time simulation general-purpose programming language, where a simulation clock advances in discrete steps. A system is modelled as transactions enter the system and are passed from one service (represented by blocks) to another. It is used primarily as a process flow oriented simulation language; this is particularly well-suited for problems such as a factory.. Read more on Wikipedia...
@@ -46,6 +46,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/GPSS'>Wikiped
 
 endColumns
 
-keyboardNav minizinc.html xbasic.html
+keyboardNav relax.html acorn-atom.html
 
 import ../footer.scroll

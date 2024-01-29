@@ -6,8 +6,8 @@ title Velato - Esoteric programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="fay.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="svelte.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="parrot-internal-representation.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="fay.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/velato.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
 
 dashboard
- #561 <span title="TotalRank: 1121 Jobs: 103 Users: 2829 Facts: 32 Links: 986">on PLDB</span>
+ #558 <span title="TotalRank: 1121 Jobs: 103 Users: 2832 Facts: 32 Links: 986">on PLDB</span>
  15 Years Old
 
 * Try now: <a href="https://riju.codes/velato">Riju</a>
@@ -368,6 +368,6 @@ treeTable
   Example
    "Hello world"
 
-keyboardNav fay.html svelte.html
+keyboardNav parrot-internal-representation.html fay.html
 
 import ../footer.scroll

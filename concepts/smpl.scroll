@@ -6,8 +6,8 @@ title Semantic Patch Language - Grammar language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="type-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="differential-datalog.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="differential-datalog.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="moo.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smpl.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/coccinelle/coccinelle
 
 dashboard
- #953 <span title="TotalRank: 1522 Jobs: 103 Users: 587 Facts: 832 Links: 986">on PLDB</span>
+ #955 <span title="TotalRank: 1525 Jobs: 103 Users: 590 Facts: 832 Links: 986">on PLDB</span>
  18 Years Old
  15 <span title="Semantic Patch Language repos on GitHub.">Repos</span>
 
@@ -44,6 +44,6 @@ dashboard
 
 endColumns
 
-keyboardNav type-language.html differential-datalog.html
+keyboardNav differential-datalog.html moo.html
 
 import ../footer.scroll

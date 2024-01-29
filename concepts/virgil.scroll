@@ -7,7 +7,7 @@ title Virgil - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="parenscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pbasic.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="dedukti.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/virgil.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/titzer/virgil
 
 dashboard
- #1472 <span title="TotalRank: 1997 Jobs: 103 Users: 908 Facts: 1029 Links: 986">on PLDB</span>
+ #1475 <span title="TotalRank: 2000 Jobs: 103 Users: 911 Facts: 1029 Links: 986">on PLDB</span>
  18 Years Old
 
 * A fast and lightweight native programming language
@@ -57,6 +57,6 @@ treeTable
   Token System.puts
   Example
 
-keyboardNav parenscript.html pbasic.html
+keyboardNav parenscript.html dedukti.html
 
 import ../footer.scroll

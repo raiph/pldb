@@ -6,8 +6,8 @@ title Linotte - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ssharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tiscript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="tiscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="xhtml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linotte.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/cpc6128/LangageLinotte
 
 dashboard
- #837 <span title="TotalRank: 1399 Jobs: 103 Users: 516 Facts: 780 Links: 986">on PLDB</span>
+ #838 <span title="TotalRank: 1401 Jobs: 103 Users: 518 Facts: 780 Links: 986">on PLDB</span>
  19 Years Old
 
 * Linotte is an interpreted 4th generation programming language. Linotte's syntax is in French. The language's goal is to allow French-speaking children and other francophones with little computer science experience to easily learn programming, with the slogan (in French) "you know how to read a book, so you can write a computer program".. Read more on Wikipedia...
@@ -48,6 +48,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Linotte'>Wiki
 
 endColumns
 
-keyboardNav ssharp.html tiscript.html
+keyboardNav tiscript.html xhtml.html
 
 import ../footer.scroll

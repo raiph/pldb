@@ -7,7 +7,7 @@ title Note - Data notation
 
 html
  <a class="trueBaseThemePreviousItem" href="rtl-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="guix.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="fructure-editor.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/note.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/breck7/note
 
 dashboard
- #1442 <span title="TotalRank: 1969 Jobs: 103 Users: 2317 Facts: 1200 Links: 666">on PLDB</span>
+ #1442 <span title="TotalRank: 1969 Jobs: 103 Users: 2320 Facts: 1200 Links: 666">on PLDB</span>
  12 Years Old
 
 * Note is a structured, human readable, concise language for encoding data.
@@ -55,6 +55,6 @@ treeTable
    settings
     title Note
 
-keyboardNav rtl-2.html guix.html
+keyboardNav rtl-2.html fructure-editor.html
 
 import ../footer.scroll

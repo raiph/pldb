@@ -6,8 +6,8 @@ title KaTeX - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pig.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="max.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="malbolge.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="jflex.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/katex.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/Khan/KaTeX
 
 dashboard
- #379 <span title="TotalRank: 853 Jobs: 103 Users: 84 Facts: 802 Links: 666">on PLDB</span>
+ #377 <span title="TotalRank: 853 Jobs: 103 Users: 84 Facts: 802 Links: 666">on PLDB</span>
  11 Years Old
 
 * The fastest math typesetting library for the web.
@@ -67,6 +67,6 @@ treeTable
   Token 
   Example
 
-keyboardNav pig.html max.html
+keyboardNav malbolge.html jflex.html
 
 import ../footer.scroll

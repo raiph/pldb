@@ -6,7 +6,7 @@ title GNU Assembler - Compiler
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bpel.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="up-arrow-notation.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="shaderlab.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gas.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
 
 dashboard
- #799 on PLDB
+ #798 on PLDB
  38 Years Old
 
 * The GNU Assembler, commonly known as gas or simply as, its executable name, is the assembler used by the GNU Project. It is the default back-end of GCC. It is used to assemble the GNU operating system and the Linux kernel, and various other software. Read more on Wikipedia...
@@ -57,6 +57,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/GNU_Assembler
 
 endColumns
 
-keyboardNav bpel.html shaderlab.html
+keyboardNav up-arrow-notation.html shaderlab.html
 
 import ../footer.scroll

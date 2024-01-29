@@ -6,8 +6,8 @@ title svgbob - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="storyscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sql-psm.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="vml.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="almquist-shell.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/svgbob.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/ivanceras/svgbob
 
 dashboard
- #782 <span title="TotalRank: 1347 Jobs: 103 Users: 258 Facts: 1666 Links: 986">on PLDB</span>
+ #779 <span title="TotalRank: 1347 Jobs: 103 Users: 258 Facts: 1666 Links: 986">on PLDB</span>
  8 Years Old
 
 * Svgbob is a diagramming model which uses a set of typing characters to approximate the intended shape.
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav storyscript.html sql-psm.html
+keyboardNav vml.html almquist-shell.html
 
 import ../footer.scroll

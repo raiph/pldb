@@ -6,8 +6,8 @@ title Pick operating system - Operating system
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="apache-hbase.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sympy.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="sympy.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="qmake.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pick-operating-system.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
 
 dashboard
- #735 on PLDB
+ #736 on PLDB
  54 Years Old
 
 * The Pick operating system (often called just "the Pick system" or simply "Pick") is a demand-paged, multiuser, virtual memory, time-sharing computer operating system based around a unique MultiValue database. Pick is used primarily for business data processing. It is named after one of its developers, Dick Pick. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav apache-hbase.html sympy.html
+keyboardNav sympy.html qmake.html
 
 import ../footer.scroll

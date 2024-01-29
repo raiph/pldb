@@ -7,7 +7,7 @@ title Sublime Syntax Test Lang - Grammar language
 
 html
  <a class="trueBaseThemePreviousItem" href="topaz-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ptx.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="x-bitmap-format.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sublime-syntax-test.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #1460 <span title="TotalRank: 1979 Jobs: 103 Users: 2435 Facts: 890 Links: 986">on PLDB</span>
+ #1460 <span title="TotalRank: 1979 Jobs: 103 Users: 2438 Facts: 890 Links: 986">on PLDB</span>
  16 Years Old
 
 * A language for testing sublime syntax files.
@@ -64,6 +64,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav topaz-lang.html ptx.html
+keyboardNav topaz-lang.html x-bitmap-format.html
 
 import ../footer.scroll

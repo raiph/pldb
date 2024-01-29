@@ -7,7 +7,7 @@ title mustache - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="futhark.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="felix.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="ratfor.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mustache.pldb
 
@@ -48,6 +48,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav futhark.html felix.html
+keyboardNav futhark.html ratfor.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Tiny BASIC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gravity.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xtext.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="xtext.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="cilk.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tiny-basic.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#dennisAllison Dennis Allison
 
 dashboard
- #459 <span title="TotalRank: 979 Jobs: 103 Users: 639 Facts: 659 Links: 237">on PLDB</span>
+ #460 <span title="TotalRank: 982 Jobs: 103 Users: 642 Facts: 659 Links: 237">on PLDB</span>
  49 Years Old
 
 * Tiny BASIC is a dialect of the BASIC programming language that can fit into as little as 2 or 3 KB of memory. This small size made it invaluable in the early days of microcomputers in the mid-1970s, when typical memory size was only 4 to 8 KB. To meet these strict size limits, math was purely integer based and it lacked arrays. Read more on Wikipedia...
@@ -69,6 +69,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Tiny_BASIC'>W
 
 endColumns
 
-keyboardNav gravity.html xtext.html
+keyboardNav xtext.html cilk.html
 
 import ../footer.scroll

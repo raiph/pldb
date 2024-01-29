@@ -7,7 +7,7 @@ title Monaco Editor - Editor
 
 html
  <a class="trueBaseThemePreviousItem" href="svg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="brainfuck.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="algol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/monaco.pldb
 
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav svg.html brainfuck.html
+keyboardNav svg.html algol.html
 
 import ../footer.scroll

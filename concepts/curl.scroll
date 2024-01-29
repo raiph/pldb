@@ -6,8 +6,8 @@ title Curl - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="simple-binary-encoding.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="apache-velocity.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="apache-velocity.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="up-arrow-notation.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/curl.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#steveWard Steve Ward
 
 dashboard
- #585 <span title="TotalRank: 1150 Jobs: 103 Users: 721 Facts: 862 Links: 326">on PLDB</span>
+ #586 <span title="TotalRank: 1153 Jobs: 103 Users: 724 Facts: 862 Links: 326">on PLDB</span>
  26 Years Old
 
 * Curl is a reflective object-oriented programming language for interactive web applications whose goal is to provide a smoother transition between formatting and programming. It makes it possible to embed complex objects in simple documents without needing to switch between programming languages or development platforms. The Curl implementation initially consisted of just an interpreter, but a compiler was added later. Read more on Wikipedia...
@@ -59,6 +59,6 @@ treeTable
   Token 
   Example
 
-keyboardNav simple-binary-encoding.html apache-velocity.html
+keyboardNav apache-velocity.html up-arrow-notation.html
 
 import ../footer.scroll

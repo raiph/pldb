@@ -6,8 +6,8 @@ title Txt2tags - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="passerine.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nestedtext.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="kitlang.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="passerine.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/txt2tags.pldb
 
@@ -22,7 +22,7 @@ startColumns 4
  link ../lists/creators.html#jendrikSeipp Jendrik Seipp
 
 dashboard
- #1045 <span title="TotalRank: 1612 Jobs: 103 Users: 1745 Facts: 1120 Links: 389">on PLDB</span>
+ #1045 <span title="TotalRank: 1612 Jobs: 103 Users: 1748 Facts: 1120 Links: 389">on PLDB</span>
  23 Years Old
 
 * txt2tags is a document generator software that uses a lightweight markup language. txt2tags is free software under GNU General Public License. Written in Python, it can export documents to several formats including: HTML, XHTML, SGML, LaTeX, Lout, roff, MediaWiki, Google Code Wiki, DokuWiki, MoinMoin, MagicPoint, PageMaker and plain text.. Read more on Wikipedia...
@@ -51,6 +51,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Txt2tags'>Wik
 
 endColumns
 
-keyboardNav passerine.html nestedtext.html
+keyboardNav kitlang.html passerine.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Zip file format - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="reia.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unlambda.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="abnf.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="reia.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zip-format.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
 
 dashboard
- #585 on PLDB
+ #584 on PLDB
  35 Years Old
 
 * ZIP is an archive file format that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed. The ZIP file format permits a number of compression algorithms, though DEFLATE is the most common. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav reia.html unlambda.html
+keyboardNav abnf.html reia.html
 
 import ../footer.scroll

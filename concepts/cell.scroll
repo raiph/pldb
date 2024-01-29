@@ -6,8 +6,8 @@ title Cell - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="islisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="newick-format.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="alef.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="islisp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cell.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/cell-lang/compiler
 
 dashboard
- #861 <span title="TotalRank: 1423 Jobs: 103 Users: 1436 Facts: 334 Links: 986">on PLDB</span>
+ #860 <span title="TotalRank: 1423 Jobs: 103 Users: 1439 Facts: 334 Links: 986">on PLDB</span>
  7 Years Old
 
 * Cell is a very high-level embeddable language. Cell's data model combines a staple of functional programming, algebraic data types, with relations and other ideas from relational databases.
@@ -113,6 +113,6 @@ treeTable
   Token 
   Example
 
-keyboardNav islisp.html newick-format.html
+keyboardNav alef.html islisp.html
 
 import ../footer.scroll

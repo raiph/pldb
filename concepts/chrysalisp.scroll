@@ -6,8 +6,8 @@ title chrysaLisp - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="cool.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oberon-2.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mbox.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="jython.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chrysalisp.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/vygr/ChrysaLisp
 
 dashboard
- #373 <span title="TotalRank: 844 Jobs: 103 Users: 418 Facts: 323 Links: 986">on PLDB</span>
+ #372 <span title="TotalRank: 845 Jobs: 103 Users: 419 Facts: 323 Links: 986">on PLDB</span>
  9 Years Old
 
 * Parallel OS, with GUI, Terminal, OO Assembler, Class libraries, C-Script compiler, Lisp interpreter and more...
@@ -109,6 +109,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav cool.html oberon-2.html
+keyboardNav mbox.html jython.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title BQN - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="turbo-basic.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="edje-data-collection.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="json-with-comments.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bqn.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/mlochbaum/BQN
 
 dashboard
- #803 <span title="TotalRank: 1365 Jobs: 103 Users: 652 Facts: 610 Links: 986">on PLDB</span>
+ #806 <span title="TotalRank: 1368 Jobs: 103 Users: 655 Facts: 610 Links: 986">on PLDB</span>
  4 Years Old
 
 * An APL-like programming language. Self-hosted!
@@ -69,6 +69,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav turbo-basic.html json-with-comments.html
+keyboardNav edje-data-collection.html json-with-comments.html
 
 import ../footer.scroll

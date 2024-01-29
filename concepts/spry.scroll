@@ -6,7 +6,7 @@ title spry - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="helang.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="ssi.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="nesc.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spry.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/gokr/spry
 
 dashboard
- #856 <span title="TotalRank: 1416 Jobs: 103 Users: 796 Facts: 517 Links: 986">on PLDB</span>
+ #856 <span title="TotalRank: 1419 Jobs: 103 Users: 799 Facts: 517 Links: 986">on PLDB</span>
  9 Years Old
 
 * Spry borrows homoiconicity from Rebol and Lisp, free form syntax from Forth and Rebol, the word of different types from Rebol, good data structure literal support from JavaScript and the general coding experience and style from Smalltalk. It also has a few ideas of its own, like an interesting argument passing mechanism and a relatively novel take on OO.
@@ -96,6 +96,6 @@ treeTable
   Token 
   Example
 
-keyboardNav helang.html nesc.html
+keyboardNav ssi.html nesc.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title TensorFlow - Library
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="boo.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="hy.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="octave.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tensorflow.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/tensorflow/tensorflow
 
 dashboard
- #247 on PLDB
+ #246 on PLDB
  9 Years Old
 
 * TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and also used for machine learning applications such as neural networks. It is used for both research and production at Google,‍   often replacing its closed-source predecessor, DistBelief. Read more on Wikipedia...
@@ -47,6 +47,6 @@ dashboard
 
 endColumns
 
-keyboardNav boo.html octave.html
+keyboardNav hy.html octave.html
 
 import ../footer.scroll

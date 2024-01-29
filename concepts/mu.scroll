@@ -6,8 +6,8 @@ title Mu - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="sysml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="yoix.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="thymeleaf.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="sysml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mu.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/akkartik/mu
 
 dashboard
- #617 <span title="TotalRank: 1184 Jobs: 103 Users: 459 Facts: 622 Links: 986">on PLDB</span>
+ #617 <span title="TotalRank: 1186 Jobs: 103 Users: 461 Facts: 622 Links: 986">on PLDB</span>
  10 Years Old
 
 * Soul of a tiny new machine. More thorough tests → More comprehensible and rewrite-friendly software → More resilient society.
@@ -83,6 +83,6 @@ treeTable
   Token 
   Example
 
-keyboardNav sysml.html yoix.html
+keyboardNav thymeleaf.html sysml.html
 
 import ../footer.scroll

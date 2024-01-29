@@ -6,8 +6,8 @@ title CSP - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="morse-code.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clojurescript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="clojurescript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="flatbuffers.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/csp.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
 
 dashboard
- #267 <span title="TotalRank: 659 Jobs: 103 Users: 449 Facts: 552 Links: 107">on PLDB</span>
+ #268 <span title="TotalRank: 661 Jobs: 103 Users: 451 Facts: 552 Links: 107">on PLDB</span>
  46 Years Old
 
 monacoEditor csp
@@ -45,6 +45,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav morse-code.html clojurescript.html
+keyboardNav clojurescript.html flatbuffers.html
 
 import ../footer.scroll

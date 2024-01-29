@@ -7,7 +7,7 @@ title FML - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="egl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="basic-programming.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="xbrl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fml-lang.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#joeGroff Joe Groff
 
 dashboard
- #1013 <span title="TotalRank: 1578 Jobs: 103 Users: 2829 Facts: 489 Links: 986">on PLDB</span>
+ #1014 <span title="TotalRank: 1578 Jobs: 103 Users: 2832 Facts: 489 Links: 986">on PLDB</span>
  12 Years Old
 
 * fml is an optimizing, function-oriented, array programming language. Unlike other array programming languages, it aims to have a less symbol-heavy but still concise syntax, and non-strict semantics that allow for high-level optimization. Note that fml is not: meant for serious use always faster than systems languages like C/C++/etc. always more expressive than general-purpose languages like Python, Javascript, etc. suitable for cryptography, real-time, or low-level applications that require fine control of time and space complexity
@@ -117,6 +117,6 @@ treeTable
   Token 
   Example
 
-keyboardNav egl.html basic-programming.html
+keyboardNav egl.html xbrl.html
 
 import ../footer.scroll

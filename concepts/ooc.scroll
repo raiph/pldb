@@ -7,7 +7,7 @@ title ooc - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="tiddlywiki.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="htmx.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="lookml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ooc.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/ooc-lang/rock
 
 dashboard
- #641 <span title="TotalRank: 1221 Jobs: 103 Users: 658 Facts: 460 Links: 986">on PLDB</span>
+ #642 <span title="TotalRank: 1224 Jobs: 103 Users: 661 Facts: 460 Links: 986">on PLDB</span>
  15 Years Old
  227 <span title="ooc repos on GitHub.">Repos</span>
 
@@ -105,6 +105,6 @@ treeTable
   Token println
   Example
 
-keyboardNav tiddlywiki.html htmx.html
+keyboardNav tiddlywiki.html lookml.html
 
 import ../footer.scroll

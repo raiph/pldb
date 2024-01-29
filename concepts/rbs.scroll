@@ -7,7 +7,7 @@ title rbs - Header lang
 
 html
  <a class="trueBaseThemePreviousItem" href="2-pak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="portable-standard-lisp.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="pqq.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rbs.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
 
 dashboard
- #1768 <span title="TotalRank: 2289 Jobs: 103 Users: 2829 Facts: 1200 Links: 986">on PLDB</span>
+ #1770 <span title="TotalRank: 2289 Jobs: 103 Users: 2832 Facts: 1200 Links: 986">on PLDB</span>
  4 Years Old
 
 * We defined a new language called RBS for type signatures for Ruby 3. The signatures are written in .rbs files which is different from Ruby code. You can consider the .rbs files are similar to .d.ts files in TypeScript or .h files in C/C++/ObjC. The benefit of having different files is it doesn't require changing Ruby code to start type checking. You can opt-in type checking safely without changing any part of your workflow.
@@ -72,6 +72,6 @@ treeTable
   Token 
   Example
 
-keyboardNav 2-pak.html portable-standard-lisp.html
+keyboardNav 2-pak.html pqq.html
 
 import ../footer.scroll

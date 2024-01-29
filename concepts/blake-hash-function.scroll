@@ -7,7 +7,7 @@ title BLAKE - Hash function
 
 html
  <a class="trueBaseThemePreviousItem" href="structured-text.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="partiql.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cat.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blake-hash-function.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
 
 dashboard
- #1581 on PLDB
+ #1584 on PLDB
  12 Years Old
 
 * BLAKE is a cryptographic hash function based on Dan Bernstein's ChaCha stream cipher, but a permuted copy of the input block, XORed with round constants, is added before each ChaCha round. Like SHA-2, there are two variants differing in the word size. ChaCha operates on a 4×4 array of words. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav structured-text.html partiql.html
+keyboardNav structured-text.html cat.html
 
 import ../footer.scroll

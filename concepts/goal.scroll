@@ -7,7 +7,7 @@ title Goal - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="incipit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autocoder.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="ulisp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/goal.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://codeberg.org/anaseto/goal
 
 dashboard
- #1395 <span title="TotalRank: 1921 Jobs: 103 Users: 2829 Facts: 832 Links: 986">on PLDB</span>
+ #1397 <span title="TotalRank: 1921 Jobs: 103 Users: 2832 Facts: 832 Links: 986">on PLDB</span>
  2 Years Old
 
 * 
@@ -72,6 +72,6 @@ treeTable
   Token 
   Example
 
-keyboardNav incipit.html autocoder.html
+keyboardNav incipit.html ulisp.html
 
 import ../footer.scroll

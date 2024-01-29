@@ -6,7 +6,7 @@ title NCAR Command Language - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="sqlalchemy.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="plain-english.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="angelscript.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ncl.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/NCAR/ncl
 
 dashboard
- #565 <span title="TotalRank: 1130 Jobs: 103 Users: 720 Facts: 307 Links: 986">on PLDB</span>
+ #566 <span title="TotalRank: 1133 Jobs: 103 Users: 723 Facts: 307 Links: 986">on PLDB</span>
  30 Years Old
  654 <span title="NCAR Command Language repos on GitHub.">Repos</span>
 
@@ -115,6 +115,6 @@ treeTable
   Token 
   Example
 
-keyboardNav sqlalchemy.html angelscript.html
+keyboardNav plain-english.html angelscript.html
 
 import ../footer.scroll

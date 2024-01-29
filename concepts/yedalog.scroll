@@ -7,7 +7,7 @@ title Yedalog - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="lola.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gist.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="pbasic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yedalog.pldb
 
@@ -27,7 +27,7 @@ startColumns 4
  link ../lists/creators.html#fernandoPereira Fernando Pereira
 
 dashboard
- #1487 <span title="TotalRank: 2003 Jobs: 103 Users: 2829 Facts: 914 Links: 986">on PLDB</span>
+ #1489 <span title="TotalRank: 2003 Jobs: 103 Users: 2832 Facts: 914 Links: 986">on PLDB</span>
  9 Years Old
 
 *  We introduce Yedalog, a declarative programming language that allows programmers to mix data-parallel pipelines and computation seamlessly in a single language. By contrast, most existing tools for data-parallel computation embed a sublanguage of data-parallel pipelines in a general-purpose language, or vice versa. Yedalog extends Datalog, incorporating not only computational features from logic programming, but also features for working with data structured as nested records. Yedalog programs can run both on a single machine, and distributed across a cluster in batch and interactive modes, allowing programmers to mix different modes of execution easily.
@@ -89,6 +89,6 @@ treeTable
   Token 
   Example
 
-keyboardNav lola.html gist.html
+keyboardNav lola.html pbasic.html
 
 import ../footer.scroll

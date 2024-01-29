@@ -6,8 +6,8 @@ title Multics - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="latte.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prql.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ink.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="hypertalk.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/multics.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
 
 dashboard
- #361 <span title="TotalRank: 828 Jobs: 103 Users: 561 Facts: 1666 Links: 164">on PLDB</span>
+ #363 <span title="TotalRank: 832 Jobs: 103 Users: 564 Facts: 1666 Links: 165">on PLDB</span>
  57 Years Old
 
 * Multics (Multiplexed Information and Computing Service) is an influential early time-sharing operating system, based around the concept of a single-level memory. Virtually all modern operating systems were heavily influenced by Multics – often through Unix, which was created by some of the people who had worked on Multics – either directly (Linux, macOS) or indirectly (Windows NT).. Read more on Wikipedia...
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav latte.html prql.html
+keyboardNav ink.html hypertalk.html
 
 import ../footer.scroll

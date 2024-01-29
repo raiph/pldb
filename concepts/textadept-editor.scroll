@@ -6,8 +6,8 @@ title Textadept - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="trac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="linearml.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="topshell.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="ok.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/textadept-editor.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/orbitalquark/textadept/
 
 dashboard
- #1705 on PLDB
+ #1708 on PLDB
  17 Years Old
 
 * Textadept is a fast, minimalist, and remarkably extensible cross-platform text editor for programmers.
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav trac.html linearml.html
+keyboardNav topshell.html ok.html
 
 import ../footer.scroll

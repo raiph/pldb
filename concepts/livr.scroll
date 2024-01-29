@@ -6,7 +6,7 @@ title Livr - Data validation language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="rescript.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="locomotive-basic.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="xmi.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/livr.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/koorchik/LIVR
 
 dashboard
- #1136 <span title="TotalRank: 1689 Jobs: 103 Users: 920 Facts: 969 Links: 666">on PLDB</span>
+ #1141 <span title="TotalRank: 1692 Jobs: 103 Users: 923 Facts: 969 Links: 666">on PLDB</span>
  12 Years Old
 
 * Try now: <a href="http://webbylab.github.io/livr-playground/">Web</a>
@@ -50,6 +50,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav rescript.html xmi.html
+keyboardNav locomotive-basic.html xmi.html
 
 import ../footer.scroll

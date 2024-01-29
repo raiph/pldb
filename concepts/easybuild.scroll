@@ -6,8 +6,8 @@ title Easybuild - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bmp-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cartocss.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cartocss.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="sysml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/easybuild.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/easybuilders/easybuild
 
 dashboard
- #861 on PLDB
+ #862 on PLDB
  10 Years Old
 
 * EasyBuild is a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way.
@@ -62,6 +62,6 @@ codeWithHeader Example from <a href='https://github.com/MagicStack/MagicPython'>
 
 endColumns
 
-keyboardNav bmp-format.html cartocss.html
+keyboardNav cartocss.html sysml.html
 
 import ../footer.scroll

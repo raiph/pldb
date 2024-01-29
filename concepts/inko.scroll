@@ -6,7 +6,7 @@ title inko - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="hotdog.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="object-query-language.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="tampio.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/inko.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/YorickPeterse/inko
 
 dashboard
- #1621 <span title="TotalRank: 2144 Jobs: 103 Users: 1093 Facts: 1055 Links: 986">on PLDB</span>
+ #1623 <span title="TotalRank: 2144 Jobs: 103 Users: 1096 Facts: 1055 Links: 986">on PLDB</span>
  9 Years Old
 
 * <a href='https://github.com/YorickPeterse/inko'>Inko</a> is a gradually typed, interpreted, object-oriented programming language drawing inspiration from languages such as Smalltalk, Self, Ruby, Erlang and Rust.
@@ -44,6 +44,6 @@ pipeTable
  title|titleLink|date|score|comments
  Show HN: Inko – A safe and concurrent object-oriented programming language|https://news.ycombinator.com/item?id=17702237|08/06/2018|95|45
 
-keyboardNav hotdog.html tampio.html
+keyboardNav object-query-language.html tampio.html
 
 import ../footer.scroll

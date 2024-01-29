@@ -6,8 +6,8 @@ title GNU nano - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gwl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kona.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="lux.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="hedy.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nano-editor.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
 
 dashboard
- #1214 on PLDB
+ #1216 on PLDB
  24 Years Old
 
 * GNU nano is a text editor for Unix-like computing systems or operating environments using a command line interface. It emulates the  Pico text editor, part of the Pine email client, and also provides additional functionality. Unlike Pico, nano is licensed under the GNU General Public License (GPL). Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav gwl.html kona.html
+keyboardNav lux.html hedy.html
 
 import ../footer.scroll

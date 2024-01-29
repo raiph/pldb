@@ -6,8 +6,8 @@ title emberjs-framework - Framework
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="godot-game-engine.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="progsbase.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="uno.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="json-stat.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emberjs-framework.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/emberjs/ember.js
 
 dashboard
- #681 on PLDB
+ #679 on PLDB
  13 Years Old
 
 * Ember.js - A JavaScript framework for creating ambitious web applications
@@ -40,6 +40,6 @@ dashboard
 
 endColumns
 
-keyboardNav godot-game-engine.html progsbase.html
+keyboardNav uno.html json-stat.html
 
 import ../footer.scroll

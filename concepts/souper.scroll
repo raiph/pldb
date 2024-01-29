@@ -7,7 +7,7 @@ title souper - Optimizing compiler
 
 html
  <a class="trueBaseThemePreviousItem" href="cesil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="1620sps.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="newick-format.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/souper.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/google/souper
 
 dashboard
- #865 <span title="TotalRank: 1429 Jobs: 103 Users: 340 Facts: 1666 Links: 986">on PLDB</span>
+ #864 <span title="TotalRank: 1429 Jobs: 103 Users: 340 Facts: 1666 Links: 986">on PLDB</span>
  10 Years Old
 
 * A superoptimizer for LLVM IR
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav cesil.html 1620sps.html
+keyboardNav cesil.html newick-format.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Dartmouth BASIC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="staroffice-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ohm.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ohm.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="binary-notation.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dartmouth-basic.pldb
 
@@ -21,7 +21,7 @@ startColumns 4
  link ../lists/creators.html#thomasEKurtz Thomas E. Kurtz
 
 dashboard
- #737 <span title="TotalRank: 1300 Jobs: 103 Users: 1074 Facts: 1156 Links: 123">on PLDB</span>
+ #738 <span title="TotalRank: 1303 Jobs: 103 Users: 1077 Facts: 1156 Links: 123">on PLDB</span>
  60 Years Old
 
 * Dartmouth BASIC is the original version of the BASIC programming language.  It is so named because it was designed and implemented at Dartmouth College by John Kemény and Thomas Kurtz. It was developed as part of the Dartmouth Time Sharing System (DTSS) and was one of the first programming languages intended to be used interactively. Read more on Wikipedia...
@@ -50,6 +50,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Dartmouth_BAS
 
 endColumns
 
-keyboardNav staroffice-basic.html ohm.html
+keyboardNav ohm.html binary-notation.html
 
 import ../footer.scroll

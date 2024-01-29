@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
 
 dashboard
- #2181 <span title="TotalRank: 2677 Jobs: 103 Users: 2829 Facts: 1588 Links: 986">on PLDB</span>
+ #2184 <span title="TotalRank: 2677 Jobs: 103 Users: 2832 Facts: 1588 Links: 986">on PLDB</span>
  8 Years Old
 
 * JULIA is an intermediate language that can compile to various different backends (EVM 1.0, EVM 1.5 and eWASM are planned). Because of that, it is designed to be a usable common denominator of all three platforms. It can already be used for “inline assembly” inside Solidity and future versions of the Solidity compiler will even use JULIA as intermediate language. It should also be easy to build high-level optimizer stages for JULIA.

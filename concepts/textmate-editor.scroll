@@ -6,8 +6,8 @@ title TextMate - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ntp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ldap.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="bucklescript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="telnet-protocol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/textmate-editor.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #846 on PLDB
+ #852 on PLDB
  20 Years Old
 
 * TextMate is a general-purpose GUI text editor for Mac OS X created by Allan Odgaard. TextMate features declarative customizations, tabs for open documents, recordable macros, folding sections, snippets, shell integration, and an extensible bundle system.. Read more on Wikipedia...
@@ -42,6 +42,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/TextMate'>Wik
 
 endColumns
 
-keyboardNav ntp.html ldap.html
+keyboardNav bucklescript.html telnet-protocol.html
 
 import ../footer.scroll

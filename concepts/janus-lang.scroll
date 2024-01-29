@@ -6,7 +6,7 @@ title Janus - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="solid.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="sqr.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="jeebox.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/janus-lang.pldb
@@ -23,7 +23,7 @@ startColumns 4
  link ../lists/creators.html#andRobertGluck and Robert Glück
 
 dashboard
- #1499 <span title="TotalRank: 2022 Jobs: 103 Users: 1607 Facts: 1253 Links: 666">on PLDB</span>
+ #1500 <span title="TotalRank: 2022 Jobs: 103 Users: 1610 Facts: 1253 Links: 666">on PLDB</span>
  42 Years Old
 
 * Janus is a time-reversible programming language written at Caltech in 1982. The operational semantics of the language were formally specified, together with a program inverter and an invertible self-interpreter, in 2007 by Tetsuo Yokoyama and Robert Glück. A Janus inverter and interpreter is made freely available by the TOPPS research group at DIKU. Read more on Wikipedia...
@@ -52,6 +52,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Janus_(time-r
 
 endColumns
 
-keyboardNav solid.html jeebox.html
+keyboardNav sqr.html jeebox.html
 
 import ../footer.scroll

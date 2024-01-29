@@ -6,8 +6,8 @@ title Stutter - Esoteric programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="t.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="farcaster.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="fetlang.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="ark-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stutter-lang.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/stutter-lang/stutter
 
 dashboard
- #943 <span title="TotalRank: 1510 Jobs: 103 Users: 2339 Facts: 421 Links: 986">on PLDB</span>
+ #942 <span title="TotalRank: 1510 Jobs: 103 Users: 2342 Facts: 421 Links: 986">on PLDB</span>
  6 Years Old
 
 * The design goals of the Stutter Programming Language focus on the underlying idea that Stutter Code is a speakable language that contains no special syntax characters that are unpronounciable.
@@ -96,6 +96,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav t.html farcaster.html
+keyboardNav fetlang.html ark-lang.html
 
 import ../footer.scroll

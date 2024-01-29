@@ -6,8 +6,8 @@ title ALGOL 68 - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="genie.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xbasepp.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="xbasepp.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="freebasic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algol-68.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
 
 dashboard
- #387 <span title="TotalRank: 865 Jobs: 103 Users: 689 Facts: 736 Links: 73">on PLDB</span>
+ #388 <span title="TotalRank: 868 Jobs: 103 Users: 692 Facts: 736 Links: 73">on PLDB</span>
  56 Years Old
 
 * ALGOL 68 (short for Algorithmic Language 1968) is an imperative computer programming language that was conceived as a successor to the ALGOL 60 programming language, designed with the goal of a much wider scope of application and more rigorously defined syntax and semantics. The contributions of ALGOL 68 to the field of computer science have been deep, wide ranging and enduring, although many of these contributions were only publicly identified when they had reappeared in subsequently developed programming languages.. Read more on Wikipedia...
@@ -74,6 +74,6 @@ treeTable
    .PR RES .PR
    'pr' quote 'pr'
 
-keyboardNav genie.html xbasepp.html
+keyboardNav xbasepp.html freebasic.html
 
 import ../footer.scroll

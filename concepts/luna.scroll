@@ -6,7 +6,7 @@ title Luna - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="closure-templates.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="abnf.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="txl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/luna.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/luna/luna
 
 dashboard
- #436 <span title="TotalRank: 940 Jobs: 103 Users: 171 Facts: 942 Links: 666">on PLDB</span>
+ #435 <span title="TotalRank: 940 Jobs: 103 Users: 171 Facts: 942 Links: 666">on PLDB</span>
  9 Years Old
 
 * Now called Enso.
@@ -47,6 +47,6 @@ pipeTable
  title|titleLink|date|score|comments
  Luna – Visual and textual functional programming language|https://news.ycombinator.com/item?id=14612680|06/22/2017|944|310
 
-keyboardNav closure-templates.html txl.html
+keyboardNav abnf.html txl.html
 
 import ../footer.scroll

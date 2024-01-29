@@ -6,8 +6,8 @@ title Notepad++ - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="sieve.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperscript-lang.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="observable-lang.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="web-idl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/notepad-plus-plus-editor.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
 
 dashboard
- #1039 on PLDB
+ #1037 on PLDB
  21 Years Old
 
 * Notepad++ is a text editor and source code editor for use with Microsoft Windows. It supports tabbed editing, which allows working with multiple open files in a single window. The project's name comes from the C increment operator. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav sieve.html hyperscript-lang.html
+keyboardNav observable-lang.html web-idl.html
 
 import ../footer.scroll

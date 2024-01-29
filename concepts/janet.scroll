@@ -6,8 +6,8 @@ title janet - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="puredata.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="common-workflow-language.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="closure-templates.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="beef.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/janet.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/janet-lang/janet
 
 dashboard
- #439 <span title="TotalRank: 941 Jobs: 103 Users: 272 Facts: 566 Links: 986">on PLDB</span>
+ #438 <span title="TotalRank: 941 Jobs: 103 Users: 272 Facts: 566 Links: 986">on PLDB</span>
  6 Years Old
  88 <span title="janet repos on GitHub.">Repos</span>
 
@@ -123,6 +123,6 @@ pipeTable
  title|titleLink|date|score|comments
  Janet is a Lisp for scripting, or embedding in other programs|https://news.ycombinator.com/item?id=19171121|02/15/2019|3|0
 
-keyboardNav puredata.html common-workflow-language.html
+keyboardNav closure-templates.html beef.html
 
 import ../footer.scroll

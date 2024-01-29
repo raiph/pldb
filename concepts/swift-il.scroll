@@ -6,8 +6,8 @@ title SIL - Intermediate representation language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="kml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mbasic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="musicxml.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="kml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/swift-il.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
 
 dashboard
- #504 <span title="TotalRank: 1039 Jobs: 103 Users: 2435 Facts: 445 Links: 491">on PLDB</span>
+ #503 <span title="TotalRank: 1039 Jobs: 103 Users: 2438 Facts: 445 Links: 491">on PLDB</span>
  12 Years Old
 
 * SIL is an SSA-form IR with high-level semantic information designed to implement the Swift programming language. In contrast to LLVM IR, SIL is a generally target-independent format representation that can be used for code distribution, but it can also express target-specific concepts as well as LLVM can.
@@ -113,6 +113,6 @@ treeTable
   Token 
   Example
 
-keyboardNav kml.html mbasic.html
+keyboardNav musicxml.html kml.html
 
 import ../footer.scroll

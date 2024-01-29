@@ -6,7 +6,7 @@ title cat - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ulisp.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="buzz.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="ldpl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cat.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/cdiggins/cat-language
 
 dashboard
- #1385 <span title="TotalRank: 1921 Jobs: 103 Users: 1101 Facts: 832 Links: 986">on PLDB</span>
+ #1387 <span title="TotalRank: 1921 Jobs: 103 Users: 1104 Facts: 832 Links: 986">on PLDB</span>
  8 Years Old
 
 * Try now: <a href="https://riju.codes/cat">Riju</a>
@@ -53,6 +53,6 @@ codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blo
 
 endColumns
 
-keyboardNav ulisp.html ldpl.html
+keyboardNav buzz.html ldpl.html
 
 import ../footer.scroll

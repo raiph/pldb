@@ -6,8 +6,8 @@ title FIGlet Font - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="fay.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mathcad.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="nushell.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="fay.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/figlet-font.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
 
 dashboard
- #716 on PLDB
+ #715 on PLDB
  33 Years Old
 
 * 
@@ -187,6 +187,6 @@ codeWithHeader Example from <a href='https://github.com/Alhadis/language-fontfor
 
 endColumns
 
-keyboardNav fay.html mathcad.html
+keyboardNav nushell.html fay.html
 
 import ../footer.scroll

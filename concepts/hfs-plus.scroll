@@ -6,8 +6,8 @@ title HFS Plus - Filesystem
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="slice.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="streem.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="m3db.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="hyperscript.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hfs-plus.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #925 on PLDB
+ #928 on PLDB
  26 Years Old
 
 * HFS Plus or HFS+ is a file system developed by Apple Inc.  It replaced the Hierarchical File System (HFS) as the primary file system of Apple computers with the 1998 release of Mac OS 8.1.  HFS+ continued as the primary Mac OS X file system until it was itself replaced with the release of the Apple File System (APFS) with macOS High Sierra in 2017. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav slice.html streem.html
+keyboardNav m3db.html hyperscript.html
 
 import ../footer.scroll

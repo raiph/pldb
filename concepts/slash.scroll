@@ -6,8 +6,8 @@ title Slash - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="atmel-avr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="falcon.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="falcon.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dtrace.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slash.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/slash-lang/slash
 
 dashboard
- #398 <span title="TotalRank: 889 Jobs: 103 Users: 672 Facts: 114 Links: 986">on PLDB</span>
+ #399 <span title="TotalRank: 892 Jobs: 103 Users: 675 Facts: 114 Links: 986">on PLDB</span>
  12 Years Old
  572 <span title="Slash repos on GitHub.">Repos</span>
 
@@ -172,6 +172,6 @@ codeWithHeader Example from <a href='https://github.com/slash-lang/Slash.tmbundl
 
 endColumns
 
-keyboardNav atmel-avr.html falcon.html
+keyboardNav falcon.html dtrace.html
 
 import ../footer.scroll

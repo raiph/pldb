@@ -6,8 +6,8 @@ title eC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="s-algol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dhall.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ecr.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="csound.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ec.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/ecere/ecere-sdk/
 
 dashboard
- #287 <span title="TotalRank: 696 Jobs: 103 Users: 585 Facts: 8 Links: 986">on PLDB</span>
+ #291 <span title="TotalRank: 699 Jobs: 103 Users: 588 Facts: 8 Links: 986">on PLDB</span>
  20 Years Old
  139 <span title="eC repos on GitHub.">Repos</span>
 
@@ -481,6 +481,6 @@ treeTable
   Token 
   Example
 
-keyboardNav s-algol.html dhall.html
+keyboardNav ecr.html csound.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title JRuby - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="grammar.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qmake.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="apex.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="bucklescript.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jruby.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #652 <span title="TotalRank: 1232 Jobs: 103 Users: 952 Facts: 1156 Links: 177">on PLDB</span>
+ #656 <span title="TotalRank: 1236 Jobs: 103 Users: 955 Facts: 1156 Links: 178">on PLDB</span>
  23 Years Old
 
 * JRuby is an implementation of the Ruby programming language atop the Java Virtual Machine, written largely in Java. It is free software released under a three-way EPL/GPL/LGPL license. JRuby is tightly integrated with Java to allow the embedding of the interpreter into any Java application with full two-way access between the Java and the Ruby code (similar to Jython for the Python language). Read more on Wikipedia...
@@ -44,6 +44,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/JRuby'>Wikipe
 
 endColumns
 
-keyboardNav grammar.html qmake.html
+keyboardNav apex.html bucklescript.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Fast Healthcare Interoperability Resources - Standard
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="frink.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visdown.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="satysfi.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="clisp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fhir.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
 
 dashboard
- #1353 on PLDB
+ #1355 on PLDB
  13 Years Old
 
 * Fast Healthcare Interoperability Resources (FHIR, pronounced "fire") is a draft standard describing data formats and elements (known as "resources") and an application programming interface (API) for exchanging electronic health records. The standard was created by the Health Level Seven International (HL7) health-care standards organization. FHIR builds on previous data format standards from HL7, like HL7 version 2.x and HL7 version 3.x. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav frink.html visdown.html
+keyboardNav satysfi.html clisp.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title Fossil - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="xtao.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="smile.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="guix.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fossil-scm.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
 
 dashboard
- #1853 on PLDB
+ #1856 on PLDB
  18 Years Old
 
 * Fossil is a distributed version control system, bug tracking system and wiki software server for use in software development created by D. Richard Hipp.. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav xtao.html guix.html
+keyboardNav smile.html guix.html
 
 import ../footer.scroll

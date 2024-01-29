@@ -6,8 +6,8 @@ title progsbase - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="phyloxml-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mgmt.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mgmt.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="igor-pro.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/progsbase.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#martinFJohansen Martin F. Johansen
 
 dashboard
- #530 <span title="TotalRank: 1078 Jobs: 103 Users: 550 Facts: 425 Links: 986">on PLDB</span>
+ #531 <span title="TotalRank: 1080 Jobs: 103 Users: 552 Facts: 425 Links: 986">on PLDB</span>
  6 Years Old
 
 * A programming language and tooling for timeless programming. Programs written in progsbase can be reused across time and space. Code written in progsbase can currently be translated to 13 other languages, but many more can be supported.
@@ -359,6 +359,6 @@ treeTable
   Token 
   Example
 
-keyboardNav phyloxml-format.html mgmt.html
+keyboardNav mgmt.html igor-pro.html
 
 import ../footer.scroll

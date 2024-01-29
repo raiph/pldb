@@ -6,8 +6,8 @@ title NuGet - Package manager
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="visdown.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clisp.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cms-exec.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="visdown.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nuget-pm.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
 
 dashboard
- #1355 on PLDB
+ #1361 on PLDB
  14 Years Old
 
 * 
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav visdown.html clisp.html
+keyboardNav cms-exec.html visdown.html
 
 import ../footer.scroll

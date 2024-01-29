@@ -7,7 +7,7 @@ title lem-editor - Editor
 
 html
  <a class="trueBaseThemePreviousItem" href="z-machine.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="harlan.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="uiua.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lem-editor.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/cxxxr/lem
 
 dashboard
- #1267 on PLDB
+ #1268 on PLDB
  9 Years Old
 
 * Common Lisp editor/IDE with high expansibility
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav z-machine.html harlan.html
+keyboardNav z-machine.html uiua.html
 
 import ../footer.scroll

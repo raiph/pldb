@@ -1,0 +1,40 @@
+import ../header.scroll
+baseUrl https://pldb.com/concepts/
+title jelly
+
+title jelly - Programming language
+ hidden
+
+html
+ <a class="trueBaseThemePreviousItem" href="interlisp.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="flavors.html">&gt;</a>
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jelly.pldb
+
+startColumns 4
+
+<div class="trueBaseThemeQuickLinks"><a href="https://github.com/DennisMitchell/jellylanguage" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jelly" class="material-symbols-outlined">edit</a></div>
+
+* jelly is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Dennis Mitchell.
+ link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
+ link ../lists/creators.html#dennisMitchell Dennis Mitchell
+
+codeWithHeader Source code:
+ git clone https://github.com/DennisMitchell/jellylanguage
+
+dashboard
+ #1089 <span title="TotalRank: 1648 Jobs: 103 Users: 559 Facts: 2546 Links: 986">on PLDB</span>
+ 9 Years Old
+
+* A recreational programming language inspired by J
+
+- jelly is developed on <a href="https://github.com/DennisMitchell/jellylanguage">GitHub</a> and has 832 stars
+- See also: (1 related languages)<a href="j.html">J</a>
+
+<br>
+
+endColumns
+
+keyboardNav interlisp.html flavors.html
+
+import ../footer.scroll

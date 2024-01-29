@@ -6,8 +6,8 @@ title J - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mumps.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="occam.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="reverse-polish-notation.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="ballerina.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/j.pldb
 
@@ -24,7 +24,7 @@ codeWithHeader Source code:
  git clone https://github.com/jsoftware/jsource
 
 dashboard
- #187 <span title="TotalRank: 512 Jobs: 103 Users: 241 Facts: 232 Links: 177">on PLDB</span>
+ #173 <span title="TotalRank: 483 Jobs: 103 Users: 241 Facts: 232 Links: 148">on PLDB</span>
  34 Years Old
  468 <span title="J repos on GitHub.">Repos</span>
 
@@ -136,6 +136,6 @@ treeTable
   Token 
   Example
 
-keyboardNav mumps.html occam.html
+keyboardNav reverse-polish-notation.html ballerina.html
 
 import ../footer.scroll

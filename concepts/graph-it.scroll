@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/GraphIt-DSL/graphit
 
 dashboard
- #730 <span title="TotalRank: 1293 Jobs: 103 Users: 847 Facts: 343 Links: 986">on PLDB</span>
+ #730 <span title="TotalRank: 1296 Jobs: 103 Users: 850 Facts: 343 Links: 986">on PLDB</span>
  7 Years Old
 
 * GraphIt is a new DSL for graph computations that generates fast implementations for algorithms with different performance characteristics running on graphs with different sizes and structures. GraphIt separates what is computed (algorithm) from how it is computed (schedule). Programmers specify the algorithm using an algorithm language, and performance optimizations are specified using a separate scheduling language. The scheduling language enables programmers to easily search through this complicated tradeoff space by composing together a large set of edge traversal and vertex data layout optimizations.

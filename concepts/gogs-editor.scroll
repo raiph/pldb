@@ -6,8 +6,8 @@ title gogs-editor - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pawn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kml.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="vrml.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="pawn.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gogs-editor.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/gogs/gogs
 
 dashboard
- #664 on PLDB
+ #663 on PLDB
  10 Years Old
 
 * Try now: <a href="https://try.gogs.io/user/login">Web</a>
@@ -42,6 +42,6 @@ dashboard
 
 endColumns
 
-keyboardNav pawn.html kml.html
+keyboardNav vrml.html pawn.html
 
 import ../footer.scroll

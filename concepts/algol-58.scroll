@@ -6,8 +6,8 @@ title ALGOL 58 - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="hope.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="taichi.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="taichi.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="musicxml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algol-58.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
 
 dashboard
- #500 <span title="TotalRank: 1035 Jobs: 103 Users: 834 Facts: 2061 Links: 98">on PLDB</span>
+ #501 <span title="TotalRank: 1038 Jobs: 103 Users: 837 Facts: 2062 Links: 98">on PLDB</span>
  66 Years Old
 
 * ALGOL 58, originally known as IAL, is one of the family of ALGOL computer programming languages. It was an early compromise design soon superseded by ALGOL 60. According to John Backus  "The Zurich ACM-GAMM Conference had two principal motives in proposing the IAL: (a) To provide a means of communicating numerical methods and other procedures between people, and (b) To provide a means of realizing a stated process on a variety of machines..."  ALGOL 58 introduced the fundamental notion of the compound statement, but it was restricted to control flow only, and it was not tied to identifier scope in the way that Algol 60's blocks were.. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav hope.html taichi.html
+keyboardNav taichi.html musicxml.html
 
 import ../footer.scroll

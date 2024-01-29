@@ -6,7 +6,7 @@ title Quaint - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="circle-lang.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="hobbes.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="sheep-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quaint.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/breuleux/quaint
 
 dashboard
- #984 <span title="TotalRank: 1544 Jobs: 103 Users: 2055 Facts: 455 Links: 986">on PLDB</span>
+ #985 <span title="TotalRank: 1544 Jobs: 103 Users: 2058 Facts: 455 Links: 986">on PLDB</span>
  10 Years Old
 
 * Try now: <a href="http://breuleux.github.io/quaint/tryit.html">Web</a>
@@ -104,6 +104,6 @@ treeTable
   Token 
   Example
 
-keyboardNav circle-lang.html sheep-lang.html
+keyboardNav hobbes.html sheep-lang.html
 
 import ../footer.scroll

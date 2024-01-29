@@ -6,8 +6,8 @@ title C3 - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bourne-shell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ats.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ats.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dns.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/c3.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/c3lang/c3c
 
 dashboard
- #283 <span title="TotalRank: 684 Jobs: 103 Users: 535 Facts: 46 Links: 666">on PLDB</span>
+ #284 <span title="TotalRank: 686 Jobs: 103 Users: 537 Facts: 46 Links: 666">on PLDB</span>
  5 Years Old
 
 * C3 is a programming language that builds on the syntax and semantics of the C language, with the goal of evolving it while still retaining familiarity for C programmers.
@@ -702,6 +702,6 @@ treeTable
   Token 
   Example
 
-keyboardNav bourne-shell.html ats.html
+keyboardNav ats.html dns.html
 
 import ../footer.scroll

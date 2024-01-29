@@ -6,8 +6,8 @@ title Latte - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="xs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="multics.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="punched-tape.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="prql.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/latte.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/nette/latte
 
 dashboard
- #360 <span title="TotalRank: 822 Jobs: 103 Users: 469 Facts: 250 Links: 986">on PLDB</span>
+ #360 <span title="TotalRank: 824 Jobs: 103 Users: 471 Facts: 250 Links: 986">on PLDB</span>
  16 Years Old
  270 <span title="Latte repos on GitHub.">Repos</span>
 
@@ -103,6 +103,6 @@ codeWithHeader Example from <a href='https://github.com/textmate/php-smarty.tmbu
 
 endColumns
 
-keyboardNav xs.html multics.html
+keyboardNav punched-tape.html prql.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Open Data Protcol - Protocol
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="invokator.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="open-shading-language.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="open-shading-language.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="xcard.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/odata.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
 
 dashboard
- #829 <span title="TotalRank: 1386 Jobs: 103 Users: 481 Facts: 802 Links: 986">on PLDB</span>
+ #830 <span title="TotalRank: 1388 Jobs: 103 Users: 483 Facts: 802 Links: 986">on PLDB</span>
  17 Years Old
 
 * In computing, Open Data Protocol (OData) is an open  protocol which allows the creation and consumption of queryable and interoperable RESTful  APIs in a simple and standard way. Microsoft initiated OData in 2007. Versions 1.0, 2.0, and 3.0 are released under the Microsoft Open Specification Promise. Read more on Wikipedia...
@@ -61,6 +61,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav invokator.html open-shading-language.html
+keyboardNav open-shading-language.html xcard.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title PyTorch - Library
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="lyx-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ghostscript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="keras.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="beads-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pytorch.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/pytorch/pytorch
 
 dashboard
- #641 on PLDB
+ #640 on PLDB
  8 Years Old
 
 * PyTorch is an open-source machine learning library for Python, based on Torch, used for applications such as natural language processing. It is primarily developed by Facebook's artificial-intelligence research group, and Uber's "Pyro" software for probabilistic programming is built on it.PyTorch provides two high-level features: Tensor computation (like NumPy) with strong GPU acceleration Deep Neural Networks built on a tape-based autodiff system. Read more on Wikipedia...
@@ -45,6 +45,6 @@ dashboard
 
 endColumns
 
-keyboardNav lyx-editor.html ghostscript.html
+keyboardNav keras.html beads-lang.html
 
 import ../footer.scroll

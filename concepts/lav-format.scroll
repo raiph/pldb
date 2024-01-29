@@ -7,7 +7,7 @@ title lav-format - Text data format
 
 html
  <a class="trueBaseThemePreviousItem" href="zot.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aimms.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="orca-pl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lav-format.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #1315 <span title="TotalRank: 1849 Jobs: 103 Users: 2435 Facts: 760 Links: 986">on PLDB</span>
+ #1317 <span title="TotalRank: 1849 Jobs: 103 Users: 2438 Facts: 760 Links: 986">on PLDB</span>
  20 Years Old
 
 * LAV is a plain-text file format for alignments of two DNA sequences. It is the only output format produced by the BLASTZ alignment program (though often converted to AXT format by post-processing programs), and is the default output format for BLASTZ's successor, LASTZ.
@@ -67,6 +67,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav zot.html aimms.html
+keyboardNav zot.html orca-pl.html
 
 import ../footer.scroll

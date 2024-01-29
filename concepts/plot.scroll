@@ -6,8 +6,8 @@ title plot - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="spatial.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pan.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="compiler-compiler.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="spatial.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plot.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/JohnSundell/Plot
 
 dashboard
- #874 <span title="TotalRank: 1441 Jobs: 103 Users: 352 Facts: 993 Links: 986">on PLDB</span>
+ #873 <span title="TotalRank: 1441 Jobs: 103 Users: 352 Facts: 993 Links: 986">on PLDB</span>
  5 Years Old
 
 * A DSL for writing type-safe HTML, XML and RSS in Swift.
@@ -49,6 +49,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav spatial.html pan.html
+keyboardNav compiler-compiler.html spatial.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title mlir - Intermediate representation language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="golo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="croc.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="dtrace.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="golo.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mlir.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/tensorflow/mlir
 
 dashboard
- #402 <span title="TotalRank: 895 Jobs: 103 Users: 317 Facts: 475 Links: 666">on PLDB</span>
+ #401 <span title="TotalRank: 895 Jobs: 103 Users: 317 Facts: 475 Links: 666">on PLDB</span>
  5 Years Old
  84 <span title="mlir repos on GitHub.">Repos</span>
 
@@ -95,6 +95,6 @@ treeTable
   Token 
   Example
 
-keyboardNav golo.html croc.html
+keyboardNav dtrace.html golo.html
 
 import ../footer.scroll

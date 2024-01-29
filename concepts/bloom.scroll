@@ -6,8 +6,8 @@ title bloom - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mxml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vale-assembly.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="em.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="djangoql.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bloom.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/bloom-lang/bud
 
 dashboard
- #1070 <span title="TotalRank: 1632 Jobs: 103 Users: 543 Facts: 1588 Links: 986">on PLDB</span>
+ #1077 <span title="TotalRank: 1634 Jobs: 103 Users: 545 Facts: 1588 Links: 986">on PLDB</span>
  14 Years Old
 
 * Prototype Bud runtime (Bloom Under Development)
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav mxml.html vale-assembly.html
+keyboardNav em.html djangoql.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title GeoJSON - Json format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="cilk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="microsoft-small-basic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="argdown.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="renpy.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/geojson.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #464 <span title="TotalRank: 987 Jobs: 103 Users: 393 Facts: 543 Links: 491">on PLDB</span>
+ #463 <span title="TotalRank: 987 Jobs: 103 Users: 393 Facts: 543 Links: 491">on PLDB</span>
  16 Years Old
 
 * GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on JSON, the JavaScript Object Notation. The features include points (therefore addresses and locations), line strings (therefore streets, highways and boundaries), polygons (countries, provinces, tracts of land), and multi-part collections of these types. Read more on Wikipedia...
@@ -76,6 +76,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/GeoJSON'>Wiki
 
 endColumns
 
-keyboardNav cilk.html microsoft-small-basic.html
+keyboardNav argdown.html renpy.html
 
 import ../footer.scroll

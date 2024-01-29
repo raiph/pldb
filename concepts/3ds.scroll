@@ -6,8 +6,8 @@ title 3DS - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="lobster.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vale-assembly.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="xbl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="superjson.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/3ds.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
 
 dashboard
- #1221 on PLDB
+ #1226 on PLDB
  34 Years Old
 
 * 3DS is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software. It was the native file format of the old Autodesk 3D Studio DOS (releases 1 to 4), which was popular until its successor (3D Studio MAX 1.0) replaced it in April 1996. Having been around since 1990 (when the first version of 3D Studio DOS was launched), it has grown to become a de facto industry standard for transferring models between 3D programs, or for storing models for 3D resource catalogs (along with OBJ, which is more frequently used as a model archiving file format).While the 3DS format aims to provide an import/export format, retaining only essential geometry, texture and lighting data, the related MAX format (now superseded by the PRJ format) also contains extra information specific to Autodesk 3ds Max, to allow a scene to be completely saved/loaded.. Read more on Wikipedia...
@@ -71,6 +71,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/.3ds'>Wikiped
 
 endColumns
 
-keyboardNav lobster.html vale-assembly.html
+keyboardNav xbl.html superjson.html
 
 import ../footer.scroll

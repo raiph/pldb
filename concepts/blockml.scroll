@@ -7,7 +7,7 @@ title blockml - Text markup language
 
 html
  <a class="trueBaseThemePreviousItem" href="concise-encoding.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="thymeleaf.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="csv.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blockml.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/Lindemann/BlockML
 
 dashboard
- #614 <span title="TotalRank: 1182 Jobs: 103 Users: 2344 Facts: 93 Links: 986">on PLDB</span>
+ #613 <span title="TotalRank: 1182 Jobs: 103 Users: 2347 Facts: 93 Links: 986">on PLDB</span>
  10 Years Old
 
 * BlockML is a lightweight markup language for scientific documents.
@@ -225,6 +225,6 @@ pipeTable
  title|titleLink|date|score|comments
  Show HN: BlockML – A markup language for scientific documents|https://news.ycombinator.com/item?id=7698827|05/05/2014|3|0
 
-keyboardNav concise-encoding.html thymeleaf.html
+keyboardNav concise-encoding.html csv.html
 
 import ../footer.scroll

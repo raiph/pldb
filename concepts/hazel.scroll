@@ -6,8 +6,8 @@ title hazel - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="partiql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spir.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="parrot-basic.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="status-quo-function.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hazel.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/hazelgrove/hazel
 
 dashboard
- #1213 <span title="TotalRank: 1760 Jobs: 103 Users: 715 Facts: 942 Links: 986">on PLDB</span>
+ #1221 <span title="TotalRank: 1763 Jobs: 103 Users: 718 Facts: 942 Links: 986">on PLDB</span>
  8 Years Old
 
 * Hazel is a live functional programming environment rooted in the principles of type theory.
@@ -54,6 +54,6 @@ treeTable
   Token 
   Example
 
-keyboardNav partiql.html spir.html
+keyboardNav parrot-basic.html status-quo-function.html
 
 import ../footer.scroll

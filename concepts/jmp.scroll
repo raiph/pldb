@@ -6,8 +6,8 @@ title JMP - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="volt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="angelscript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="dojo.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="iterm2.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jmp.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
 
 dashboard
- #752 on PLDB
+ #754 on PLDB
  35 Years Old
 
 * JMP (pronounced "jump") is a suite of computer programs for statistical analysis developed by the JMP business unit of SAS Institute. It was launched in 1989 to take advantage of the graphical user interface introduced by the Macintosh. It has since been significantly rewritten and made available for the Windows operating system. Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav volt.html angelscript.html
+keyboardNav dojo.html iterm2.html
 
 import ../footer.scroll

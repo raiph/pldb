@@ -7,7 +7,7 @@ title Fortress - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="caml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vrml.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="imap-protocol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortress.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #489 <span title="TotalRank: 1022 Jobs: 103 Users: 975 Facts: 647 Links: 272">on PLDB</span>
+ #489 <span title="TotalRank: 1022 Jobs: 103 Users: 978 Facts: 647 Links: 272">on PLDB</span>
  20 Years Old
 
 * Fortress is a discontinued experimental programming language for high-performance computing, created by Sun Microsystems with funding from DARPA's High Productivity Computing Systems project. One of the language designers was Guy L. Steele Jr., whose previous work includes Scheme, Common Lisp, and Java.. Read more on Wikipedia...
@@ -79,6 +79,6 @@ treeTable
   Token 
   Example
 
-keyboardNav caml.html vrml.html
+keyboardNav caml.html imap-protocol.html
 
 import ../footer.scroll

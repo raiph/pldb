@@ -6,8 +6,8 @@ title CMake - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="plpgsql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sass.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="nextflow.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="plpgsql.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cmake.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://gitlab.kitware.com/cmake/cmake
 
 dashboard
- #281 on PLDB
+ #280 on PLDB
  24 Years Old
 
 * Try now: <a href="https://riju.codes/cmake">Riju</a>
@@ -92,6 +92,6 @@ codeWithHeader Example from <a href='https://github.com/textmate/cmake.tmbundle'
 
 endColumns
 
-keyboardNav plpgsql.html sass.html
+keyboardNav nextflow.html plpgsql.html
 
 import ../footer.scroll

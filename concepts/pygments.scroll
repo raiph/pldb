@@ -7,7 +7,7 @@ title Pygments - Library
 
 html
  <a class="trueBaseThemePreviousItem" href="mermaid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jscript.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="mmx.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pygments.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/pygments/pygments
 
 dashboard
- #473 on PLDB
+ #472 on PLDB
  18 Years Old
 
 * Try now: <a href="https://pygments.org/demo/">Web</a>
@@ -42,6 +42,6 @@ dashboard
 
 endColumns
 
-keyboardNav mermaid.html jscript.html
+keyboardNav mermaid.html mmx.html
 
 import ../footer.scroll

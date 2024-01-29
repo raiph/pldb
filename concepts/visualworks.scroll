@@ -6,7 +6,7 @@ title VisualWorks - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="rdf-schema.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="bare.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="parallax-propeller.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visualworks.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
 
 dashboard
- #1144 <span title="TotalRank: 1697 Jobs: 103 Users: 1103 Facts: 2453 Links: 491">on PLDB</span>
+ #1152 <span title="TotalRank: 1700 Jobs: 103 Users: 1106 Facts: 2454 Links: 491">on PLDB</span>
  39 Years Old
 
 * VisualWorks is a cross-platform implementation of the Smalltalk language. It is implemented as a development system based on "images", which are dynamic collections of software objects, each contained in a system image. The lineage of VisualWorks goes back to the first Smalltalk-80 implementation by Xerox PARC. Read more on Wikipedia...
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav rdf-schema.html parallax-propeller.html
+keyboardNav bare.html parallax-propeller.html
 
 import ../footer.scroll

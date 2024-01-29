@@ -6,8 +6,8 @@ title AsciiDots - Esoteric programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gleam.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blackcoffee.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="heap.coffee.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="arexx.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asciidots.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/aaronduino/asciidots
 
 dashboard
- #691 <span title="TotalRank: 1262 Jobs: 103 Users: 500 Facts: 659 Links: 986">on PLDB</span>
+ #692 <span title="TotalRank: 1264 Jobs: 103 Users: 502 Facts: 659 Links: 986">on PLDB</span>
  7 Years Old
 
 * Try now: <a href="http://ajanse.me/asciidots/demo">Web</a> · <a href="https://tio.run/#asciidots">TIO</a>
@@ -72,6 +72,6 @@ pipeTable
  title|titleLink|date|score|comments
  Show HN: AsciiDots – a 2D esoteric language inspired by circuits|https://news.ycombinator.com/item?id=14947449|08/07/2017|148|33
 
-keyboardNav gleam.html blackcoffee.html
+keyboardNav heap.coffee.html arexx.html
 
 import ../footer.scroll

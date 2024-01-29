@@ -6,7 +6,7 @@ title april - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="graphql-sdl.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="wmlscript.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="coral.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/april.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/phantomics/april
 
 dashboard
- #1335 <span title="TotalRank: 1871 Jobs: 103 Users: 782 Facts: 2061 Links: 986">on PLDB</span>
+ #1338 <span title="TotalRank: 1874 Jobs: 103 Users: 785 Facts: 2062 Links: 986">on PLDB</span>
  7 Years Old
 
 * The APL programming language (a subset thereof) compiling to Common Lisp.
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav graphql-sdl.html coral.html
+keyboardNav wmlscript.html coral.html
 
 import ../footer.scroll

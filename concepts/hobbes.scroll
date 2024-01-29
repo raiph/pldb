@@ -7,7 +7,7 @@ title hobbes - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="tl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="circle-lang.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="quaint.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hobbes.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/Morgan-Stanley/hobbes
 
 dashboard
- #982 <span title="TotalRank: 1541 Jobs: 103 Users: 452 Facts: 1447 Links: 986">on PLDB</span>
+ #984 <span title="TotalRank: 1543 Jobs: 103 Users: 454 Facts: 1447 Links: 986">on PLDB</span>
  7 Years Old
 
 * A language and an embedded JIT compiler
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav tl.html circle-lang.html
+keyboardNav tl.html quaint.html
 
 import ../footer.scroll

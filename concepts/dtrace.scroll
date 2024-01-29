@@ -6,8 +6,8 @@ title DTrace - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="falcon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="golo.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="slash.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="mlir.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dtrace.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
 
 dashboard
- #400 <span title="TotalRank: 891 Jobs: 103 Users: 578 Facts: 210 Links: 666">on PLDB</span>
+ #400 <span title="TotalRank: 894 Jobs: 103 Users: 581 Facts: 210 Links: 666">on PLDB</span>
  19 Years Old
  534 <span title="DTrace repos on GitHub.">Repos</span>
 
@@ -143,6 +143,6 @@ treeTable
   Token 
   Example
 
-keyboardNav falcon.html golo.html
+keyboardNav slash.html mlir.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title JADE - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="csv.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="jovial.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="pharo.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jade.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
 
 dashboard
- #611 <span title="TotalRank: 1180 Jobs: 103 Users: 763 Facts: 586 Links: 491">on PLDB</span>
+ #609 <span title="TotalRank: 1180 Jobs: 103 Users: 766 Facts: 586 Links: 491">on PLDB</span>
  28 Years Old
 
 * JADE is a proprietary object-oriented software development and deployment platform product from the New Zealand-based Jade Software Corporation, first released in 1996. It consists of the JADE programming language, IDE and debugger, integrated application server and object database management system. Designed as an end-to-end development environment to allow systems to be coded in one language from the database server down to the clients, it also provides APIs for other languages, including .NET Framework, Java, C/C++ and Web services. Read more on Wikipedia...
@@ -93,6 +93,6 @@ treeTable
   Token 
   Example
 
-keyboardNav csv.html pharo.html
+keyboardNav jovial.html pharo.html
 
 import ../footer.scroll

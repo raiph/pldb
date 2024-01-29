@@ -6,7 +6,7 @@ title groff - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="newick-format.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="islisp.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="cesil.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/groff.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
 
 dashboard
- #863 <span title="TotalRank: 1428 Jobs: 103 Users: 867 Facts: 659 Links: 666">on PLDB</span>
+ #862 <span title="TotalRank: 1428 Jobs: 103 Users: 870 Facts: 659 Links: 666">on PLDB</span>
  34 Years Old
 
 * Groff (GNU troff) is a typesetting system that reads plain text mixed with formatting commands and produces formatted output. Output may be PostScript or PDF, html, or ASCII/UTF8 for display at the terminal. Formatting commands may be either low-level typesetting requests (“primitives”) or macros from a supplied set. Users may also write their own macros. All three may be combined.
@@ -88,6 +88,6 @@ treeTable
    \# comment
    Test
 
-keyboardNav newick-format.html cesil.html
+keyboardNav islisp.html cesil.html
 
 import ../footer.scroll

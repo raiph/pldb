@@ -6,8 +6,8 @@ title SymPy - Library
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pick-operating-system.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qmake.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="msp430.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="pick-operating-system.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sympy.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/sympy/sympy
 
 dashboard
- #736 on PLDB
+ #735 on PLDB
  17 Years Old
 
 * A computer algebra system written in pure Python
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav pick-operating-system.html qmake.html
+keyboardNav msp430.html pick-operating-system.html
 
 import ../footer.scroll

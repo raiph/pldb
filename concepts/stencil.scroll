@@ -7,7 +7,7 @@ title Stencil - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="gluon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperscript-lang.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="unity.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stencil.pldb
 
@@ -48,6 +48,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav gluon.html hyperscript-lang.html
+keyboardNav gluon.html unity.html
 
 import ../footer.scroll

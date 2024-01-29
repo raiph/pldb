@@ -6,7 +6,7 @@ title Cyclone - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="vyper.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="geo-ml.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="lisaac.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cyclone.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #706 <span title="TotalRank: 1272 Jobs: 103 Users: 1060 Facts: 780 Links: 389">on PLDB</span>
+ #706 <span title="TotalRank: 1272 Jobs: 103 Users: 1063 Facts: 780 Links: 389">on PLDB</span>
  23 Years Old
 
 * The Cyclone programming language is intended to be a safe dialect of the C language. Cyclone is designed to avoid buffer overflows and other vulnerabilities that are possible in C programs, without losing the power and convenience of C as a tool for system programming. Cyclone development was started as a joint project of AT&T Labs Research and Greg Morrisett's group at Cornell in 2001. Read more on Wikipedia...
@@ -65,6 +65,6 @@ treeTable
   Token printf
   Example
 
-keyboardNav vyper.html lisaac.html
+keyboardNav geo-ml.html lisaac.html
 
 import ../footer.scroll

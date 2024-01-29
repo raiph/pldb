@@ -7,7 +7,7 @@ title atomspace - Application
 
 html
  <a class="trueBaseThemePreviousItem" href="dub-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="neut.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="bee.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/atomspace.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/opencog/atomspace
 
 dashboard
- #1319 on PLDB
+ #1321 on PLDB
  16 Years Old
 
 * The OpenCog (hyper-)graph database and graph rewriting system
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav dub-pm.html neut.html
+keyboardNav dub-pm.html bee.html
 
 import ../footer.scroll

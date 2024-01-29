@@ -7,7 +7,7 @@ title Reko - Decompiler
 
 html
  <a class="trueBaseThemePreviousItem" href="crush.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="comby.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="query-by-example.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/reko-decompiler.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/uxmal/reko
 
 dashboard
- #1172 on PLDB
+ #1171 on PLDB
  17 Years Old
 
 * Reko is a binary decompiler.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav crush.html comby.html
+keyboardNav crush.html query-by-example.html
 
 import ../footer.scroll

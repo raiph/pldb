@@ -6,8 +6,8 @@ title ferret - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="lobster.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jolie.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="xc.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="superjson.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ferret.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/nakkaya/ferret
 
 dashboard
- #927 <span title="TotalRank: 1497 Jobs: 103 Users: 504 Facts: 890 Links: 986">on PLDB</span>
+ #927 <span title="TotalRank: 1499 Jobs: 103 Users: 506 Facts: 890 Links: 986">on PLDB</span>
  7 Years Old
 
 * Ferret is a free software lisp implementation for real time embedded control systems.
@@ -57,6 +57,6 @@ pipeTable
  title|titleLink|date|score|comments
  Ferret – A free software Clojure implementation|https://news.ycombinator.com/item?id=14951116|08/07/2017|266|79
 
-keyboardNav lobster.html jolie.html
+keyboardNav xc.html superjson.html
 
 import ../footer.scroll

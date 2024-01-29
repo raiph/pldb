@@ -6,8 +6,8 @@ title sile - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="isq.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="joss.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="joss.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="opal.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sile.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/sile-typesetter/sile
 
 dashboard
- #970 <span title="TotalRank: 1532 Jobs: 103 Users: 443 Facts: 1200 Links: 986">on PLDB</span>
+ #971 <span title="TotalRank: 1534 Jobs: 103 Users: 445 Facts: 1200 Links: 986">on PLDB</span>
  12 Years Old
 
 * SILE is a typesetting system. Its job is to produce beautiful printed documents from raw content.
@@ -41,6 +41,6 @@ dashboard
 
 endColumns
 
-keyboardNav isq.html joss.html
+keyboardNav joss.html opal.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Golo - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="dtrace.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mlir.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mlir.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="croc.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/golo.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/eclipse-archived/golo-lang
 
 dashboard
- #401 <span title="TotalRank: 893 Jobs: 103 Users: 540 Facts: 250 Links: 986">on PLDB</span>
+ #402 <span title="TotalRank: 895 Jobs: 103 Users: 542 Facts: 250 Links: 986">on PLDB</span>
  12 Years Old
  46 <span title="Golo repos on GitHub.">Repos</span>
 
@@ -147,6 +147,6 @@ treeTable
   Token 
   Example
 
-keyboardNav dtrace.html mlir.html
+keyboardNav mlir.html croc.html
 
 import ../footer.scroll

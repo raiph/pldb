@@ -6,8 +6,8 @@ title PCRE - Query language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="roc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="filebench-wml.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="robomind.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="simple-binary-encoding.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pcre.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/philiphazel/pcre2
 
 dashboard
- #581 <span title="TotalRank: 1147 Jobs: 103 Users: 553 Facts: 862 Links: 491">on PLDB</span>
+ #582 <span title="TotalRank: 1149 Jobs: 103 Users: 555 Facts: 862 Links: 491">on PLDB</span>
  27 Years Old
 
 * Perl Compatible Regular Expressions (PCRE) is a regular expression C library inspired by the regular expression capabilities in the Perl programming language. Philip Hazel started writing PCRE in summer 1997. PCRE's syntax is much more powerful and flexible than either of the POSIX regular expression flavors and than that of many other regular-expression libraries. Read more on Wikipedia...
@@ -43,6 +43,6 @@ dashboard
 
 endColumns
 
-keyboardNav roc.html filebench-wml.html
+keyboardNav robomind.html simple-binary-encoding.html
 
 import ../footer.scroll

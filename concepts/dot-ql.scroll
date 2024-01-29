@@ -6,7 +6,7 @@ title .QL - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="netrexx.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="spider.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="nios.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dot-ql.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
 
 dashboard
- #979 <span title="TotalRank: 1538 Jobs: 103 Users: 944 Facts: 1499 Links: 491">on PLDB</span>
+ #981 <span title="TotalRank: 1541 Jobs: 103 Users: 947 Facts: 1499 Links: 491">on PLDB</span>
  17 Years Old
 
 * .QL (pronounced "dot-cue-el") is an object-oriented query language used to retrieve data from relational database management systems. It is reminiscent of the standard query language SQL and the object-oriented programming language Java. .QL is an object-oriented variant of a logical query language called Datalog. Read more on Wikipedia...
@@ -43,6 +43,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/.QL'>Wikipedi
 
 endColumns
 
-keyboardNav netrexx.html nios.html
+keyboardNav spider.html nios.html
 
 import ../footer.scroll

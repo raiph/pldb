@@ -7,7 +7,7 @@ title Sketchpad - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="information-processing-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vissim.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="dlvm.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sketchpad.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1962 1962
 
 dashboard
- #1240 <span title="TotalRank: 1778 Jobs: 103 Users: 689 Facts: 2621 Links: 986">on PLDB</span>
+ #1243 <span title="TotalRank: 1781 Jobs: 103 Users: 692 Facts: 2623 Links: 986">on PLDB</span>
  62 Years Old
 
 * Sketchpad (a.k.a. Robot Draftsman) was a computer program written by Ivan Sutherland in 1963 in the course of his PhD thesis, for which he received the Turing Award in 1988, and the Kyoto Prize in 2012.  It pioneered the way for human–computer interaction (HCI). Read more on Wikipedia...
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav information-processing-language.html vissim.html
+keyboardNav information-processing-language.html dlvm.html
 
 import ../footer.scroll

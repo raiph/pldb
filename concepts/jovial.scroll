@@ -6,8 +6,8 @@ title JOVIAL - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="clarion.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cryptol.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="dojo.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="jade.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jovial.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
 
 dashboard
- #604 <span title="TotalRank: 1176 Jobs: 103 Users: 896 Facts: 1378 Links: 177">on PLDB</span>
+ #608 <span title="TotalRank: 1180 Jobs: 103 Users: 899 Facts: 1378 Links: 178">on PLDB</span>
  64 Years Old
 
 * JOVIAL is a high-level computer programming language similar to ALGOL, but specialized for the development of embedded systems (specialized computer systems designed to perform one or a few dedicated functions, usually embedded as part of a complete device including mechanical parts).. Read more on Wikipedia...
@@ -47,6 +47,6 @@ treeTable
   Token 
   Example
 
-keyboardNav clarion.html cryptol.html
+keyboardNav dojo.html jade.html
 
 import ../footer.scroll

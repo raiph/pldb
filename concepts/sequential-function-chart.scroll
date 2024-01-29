@@ -7,7 +7,7 @@ title SFC - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="dale.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="neut.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="hiveql.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sequential-function-chart.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
 
 dashboard
- #1036 <span title="TotalRank: 1603 Jobs: 103 Users: 834 Facts: 1885 Links: 666">on PLDB</span>
+ #1038 <span title="TotalRank: 1606 Jobs: 103 Users: 837 Facts: 1885 Links: 666">on PLDB</span>
  31 Years Old
 
 * Sequential function chart (SFC) is a graphical programming language used for programmable logic controllers (PLCs). It is one of the five languages defined by IEC 61131-3 standard.  The SFC standard is defined as, Preparation of function charts for control systems, and was based on GRAFCET (itself based on binary Petri nets). Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav dale.html neut.html
+keyboardNav dale.html hiveql.html
 
 import ../footer.scroll

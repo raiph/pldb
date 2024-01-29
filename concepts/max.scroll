@@ -6,8 +6,8 @@ title Max - Json format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="katex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="thrift.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="thrift.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="unison.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/max.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
 
 dashboard
- #380 <span title="TotalRank: 854 Jobs: 103 Users: 479 Facts: 736 Links: 272">on PLDB</span>
+ #381 <span title="TotalRank: 856 Jobs: 103 Users: 481 Facts: 736 Links: 272">on PLDB</span>
  34 Years Old
  6k <span title="Max repos on GitHub.">Repos</span>
 
@@ -44,6 +44,6 @@ codeWithHeader Example from <a href='https://github.com/textmate/json.tmbundle'>
 
 endColumns
 
-keyboardNav katex.html thrift.html
+keyboardNav thrift.html unison.html
 
 import ../footer.scroll

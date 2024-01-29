@@ -7,7 +7,7 @@ title Snowman - Decompiler
 
 html
  <a class="trueBaseThemePreviousItem" href="ezhil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="freemarker.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="storyscript.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snowman-decompiler.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/yegord/snowman
 
 dashboard
- #1027 on PLDB
+ #1026 on PLDB
  9 Years Old
 
 * Snowman decompiler
@@ -38,6 +38,6 @@ codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blo
 
 endColumns
 
-keyboardNav ezhil.html freemarker.html
+keyboardNav ezhil.html storyscript.html
 
 import ../footer.scroll

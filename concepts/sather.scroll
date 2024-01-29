@@ -6,7 +6,7 @@ title Sather - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="true-basic.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="commodore-basic.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="koka.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sather.pldb
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#steveOmohundro Steve Omohundro
 
 dashboard
- #448 <span title="TotalRank: 952 Jobs: 103 Users: 1349 Facts: 460 Links: 389">on PLDB</span>
+ #448 <span title="TotalRank: 952 Jobs: 103 Users: 1352 Facts: 460 Links: 389">on PLDB</span>
  34 Years Old
 
 * Sather is an object-oriented programming language. It originated circa 1990 at the International Computer Science Institute (ICSI) at the University of California, Berkeley, developed by an international team led by Steve Omohundro. It supports garbage collection and generics by subtypes. Read more on Wikipedia...
@@ -101,6 +101,6 @@ treeTable
   Token 
   Example
 
-keyboardNav true-basic.html koka.html
+keyboardNav commodore-basic.html koka.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title Expect - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="cg.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="javacc.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="beta.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/expect.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
 
 dashboard
- #514 <span title="TotalRank: 1054 Jobs: 103 Users: 543 Facts: 460 Links: 491">on PLDB</span>
+ #512 <span title="TotalRank: 1054 Jobs: 103 Users: 545 Facts: 460 Links: 491">on PLDB</span>
  34 Years Old
 
 * Expect, an extension to the Tcl scripting language written by Don Libes, is a program to automate interactions with programs that expose a text terminal interface.  Expect was originally written in 1990 for Unix systems, but has since become available for Microsoft Windows and other systems.. Read more on Wikipedia...
@@ -101,6 +101,6 @@ treeTable
   Token 
   Example
 
-keyboardNav cg.html beta.html
+keyboardNav javacc.html beta.html
 
 import ../footer.scroll

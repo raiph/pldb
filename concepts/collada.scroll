@@ -6,8 +6,8 @@ title COLLADA - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="edgedb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bosque.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="bosque.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="noms-db.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/collada.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #824 on PLDB
+ #825 on PLDB
  20 Years Old
 
 * COLLADA (COLLAborative Design Activity) is an interchange file format for interactive 3D applications. It is managed by the nonprofit technology consortium, the Khronos Group, and has been adopted by ISO as a publicly available specification, ISO/PAS 17506.COLLADA defines an open standard XML schema for exchanging digital assets among various graphics software applications that might otherwise store their assets in incompatible file formats. COLLADA documents that describe digital assets are XML files, usually identified with a .dae (digital asset exchange) filename extension.. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav edgedb.html bosque.html
+keyboardNav bosque.html noms-db.html
 
 import ../footer.scroll

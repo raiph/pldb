@@ -6,8 +6,8 @@ title Knitr - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="farcaster.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="berry.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cito.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="doh.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/knitr.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
 
 dashboard
- #945 <span title="TotalRank: 1514 Jobs: 103 Users: 1022 Facts: 1308 Links: 389">on PLDB</span>
+ #949 <span title="TotalRank: 1517 Jobs: 103 Users: 1025 Facts: 1308 Links: 389">on PLDB</span>
  12 Years Old
 
 * knitr is an engine for dynamic report generation with R. It is a package in the statistical programming language R that enables integration of R code into LaTeX, LyX, HTML, Markdown, AsciiDoc, and reStructuredText documents. The purpose of knitr is to allow reproducible research in R through the means of Literate Programming. Read more on Wikipedia...
@@ -41,6 +41,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Knitr'>Wikipe
 
 endColumns
 
-keyboardNav farcaster.html berry.html
+keyboardNav cito.html doh.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title Austral - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="tmlanguage.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="mirth.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="stoneknifeforth.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/austral.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/austral/austral/
 
 dashboard
- #1375 <span title="TotalRank: 1903 Jobs: 103 Users: 814 Facts: 1156 Links: 986">on PLDB</span>
+ #1378 <span title="TotalRank: 1906 Jobs: 103 Users: 817 Facts: 1156 Links: 986">on PLDB</span>
  6 Years Old
 
 * Austral is a new systems programming language. You can think of it as Rust: The Good Parts or a modernized, stripped-down Ada. It features a strong static type system, linear types, capability-based security, and strong modularity.
@@ -47,6 +47,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav tmlanguage.html stoneknifeforth.html
+keyboardNav mirth.html stoneknifeforth.html
 
 import ../footer.scroll

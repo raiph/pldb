@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
 
 dashboard
- #1976 on PLDB
+ #1979 on PLDB
  13 Years Old
 
 * CRAM is a compressed columnar file format for storing biological sequences aligned to a reference sequence, initially devised by Markus Hsi-Yang Fritz et al.CRAM was designed to be an efficient reference-based alternative to the Sequence Alignment Map (SAM) and Binary Alignment Map (BAM) file formats.  It optionally uses a genomic reference to describe differences between the aligned sequence fragments and the reference sequence, reducing storage costs.  Additionally each column in the SAM format is separated into its own blocks, improving compression ratio. Read more on Wikipedia...

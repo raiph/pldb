@@ -6,8 +6,8 @@ title eff - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="newspeak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="family-basic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="csvw.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="gentoo-ebuild.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eff.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/matijapretnar/eff
 
 dashboard
- #1129 <span title="TotalRank: 1683 Jobs: 103 Users: 594 Facts: 1499 Links: 986">on PLDB</span>
+ #1132 <span title="TotalRank: 1686 Jobs: 103 Users: 597 Facts: 1499 Links: 986">on PLDB</span>
  12 Years Old
 
 * A functional programming language based on algebraic effect handlers
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav newspeak.html family-basic.html
+keyboardNav csvw.html gentoo-ebuild.html
 
 import ../footer.scroll

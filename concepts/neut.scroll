@@ -6,8 +6,8 @@ title neut - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="sequential-function-chart.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hamler.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="hamler.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="xodio.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/neut.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/u2zv1wx/neut
 
 dashboard
- #1037 <span title="TotalRank: 1605 Jobs: 103 Users: 612 Facts: 890 Links: 986">on PLDB</span>
+ #1042 <span title="TotalRank: 1608 Jobs: 103 Users: 615 Facts: 890 Links: 986">on PLDB</span>
  6 Years Old
 
 * A dependently-typed programming language with compile-time malloc/free determination
@@ -73,6 +73,6 @@ treeTable
   Token 
   Example
 
-keyboardNav sequential-function-chart.html hamler.html
+keyboardNav hamler.html xodio.html
 
 import ../footer.scroll

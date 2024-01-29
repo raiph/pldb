@@ -6,7 +6,7 @@ title MXF - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="jank.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="rss.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="graphml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/material-exchange-format.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #1523 on PLDB
+ #1528 on PLDB
  20 Years Old
 
 * Material Exchange Format (MXF) is a container format for professional digital video and audio media defined by a set of SMPTE standards. A typical example of its use is for delivering advertisements to TV stations and tapeless archiving of broadcast TV programs.. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav jank.html graphml.html
+keyboardNav rss.html graphml.html
 
 import ../footer.scroll

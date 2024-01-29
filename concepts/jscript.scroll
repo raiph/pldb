@@ -6,8 +6,8 @@ title JScript - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="asn-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="diagram.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="urweb.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="scala-js.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jscript.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
 
 dashboard
- #341 <span title="TotalRank: 804 Jobs: 103 Users: 567 Facts: 862 Links: 134">on PLDB</span>
+ #345 <span title="TotalRank: 807 Jobs: 103 Users: 570 Facts: 862 Links: 134">on PLDB</span>
  28 Years Old
 
 * JScript is Microsoft's dialect of the ECMAScript standard that is used in Microsoft's Internet Explorer. JScript is implemented as an Active Scripting engine. This means that it can be "plugged in" to OLE Automation applications that support Active Scripting, such as Internet Explorer, Active Server Pages, and Windows Script Host. Read more on Wikipedia...
@@ -58,6 +58,6 @@ treeTable
   Token WScript.Echo
   Example
 
-keyboardNav asn-1.html diagram.html
+keyboardNav urweb.html scala-js.html
 
 import ../footer.scroll

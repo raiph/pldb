@@ -7,7 +7,7 @@ title Pop-11 - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="mojo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scss.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="plist.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pop-11.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
 
 dashboard
- #765 <span title="TotalRank: 1333 Jobs: 103 Users: 1419 Facts: 993 Links: 237">on PLDB</span>
+ #764 <span title="TotalRank: 1333 Jobs: 103 Users: 1422 Facts: 993 Links: 237">on PLDB</span>
  25 Years Old
 
 * POP-11 is a reflective, incrementally compiled programming language with many of the features of an interpreted language. It is the core language of the Poplog programming environment developed originally by the University of Sussex, and recently in the School of Computer Science at the University of Birmingham which hosts the Poplog website. POP-11 is an evolution of the language POP-2, developed in Edinburgh University and features an open stack model (like Forth, among others). Read more on Wikipedia...
@@ -62,6 +62,6 @@ treeTable
   Token 
   Example
 
-keyboardNav mojo.html scss.html
+keyboardNav mojo.html plist.html
 
 import ../footer.scroll

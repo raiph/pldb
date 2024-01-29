@@ -6,7 +6,7 @@ title PL/0 - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="unison.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="transact-sql.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="aspectj.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pl-0.pldb
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#niklausWirth Niklaus Wirth
 
 dashboard
- #384 <span title="TotalRank: 859 Jobs: 103 Users: 1093 Facts: 367 Links: 389">on PLDB</span>
+ #384 <span title="TotalRank: 859 Jobs: 103 Users: 1096 Facts: 367 Links: 389">on PLDB</span>
  48 Years Old
 
 * PL/0 is a programming language, intended as an educational programming language, that is similar to but much simpler than Pascal, a general-purpose programming language. It serves as an example of how to construct a compiler. It was originally introduced in the book, Algorithms + Data Structures = Programs, by Niklaus Wirth in 1976. Read more on Wikipedia...
@@ -105,6 +105,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/PL/0'>Wikiped
 
 endColumns
 
-keyboardNav unison.html aspectj.html
+keyboardNav transact-sql.html aspectj.html
 
 import ../footer.scroll

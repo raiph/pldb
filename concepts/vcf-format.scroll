@@ -6,8 +6,8 @@ title VCF - Text data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="strips.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="smiles-format.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="odbc.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vcf-format.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
 
 dashboard
- #876 <span title="TotalRank: 1443 Jobs: 103 Users: 674 Facts: 832 Links: 666">on PLDB</span>
+ #883 <span title="TotalRank: 1446 Jobs: 103 Users: 677 Facts: 832 Links: 666">on PLDB</span>
  13 Years Old
 
 * The Variant Call Format (VCF) specifies the format of a text file used in bioinformatics for storing gene sequence variations. The format has been developed with the advent of large-scale genotyping and DNA sequencing projects, such as the 1000 Genomes Project. Existing formats for genetic data such as General feature format (GFF) stored all of the genetic data, much of which is redundant because it will be shared across the genomes. Read more on Wikipedia...
@@ -61,6 +61,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Variant_Call_
 
 endColumns
 
-keyboardNav pan.html strips.html
+keyboardNav smiles-format.html odbc.html
 
 import ../footer.scroll

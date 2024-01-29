@@ -6,8 +6,8 @@ title Differential Datalog - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="smpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autocode.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ch.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="smpl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/differential-datalog.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/vmware/differential-datalog
 
 dashboard
- #954 <span title="TotalRank: 1523 Jobs: 103 Users: 434 Facts: 1156 Links: 986">on PLDB</span>
+ #954 <span title="TotalRank: 1524 Jobs: 103 Users: 435 Facts: 1156 Links: 986">on PLDB</span>
  6 Years Old
 
 * DDlog is a programming language for incremental computation. It is well suited for writing programs that continuously update their output in response to input changes. A DDlog programmer does not write incremental algorithms; instead they specify the desired input-output mapping in a declarative manner.
@@ -41,6 +41,6 @@ dashboard
 
 endColumns
 
-keyboardNav smpl.html autocode.html
+keyboardNav ch.html smpl.html
 
 import ../footer.scroll

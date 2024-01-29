@@ -6,8 +6,8 @@ title Common Object File Format - Binary executable format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="spatial.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jargon.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="doodle.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="json-graph-format.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coff.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
 
 dashboard
- #1044 on PLDB
+ #1048 on PLDB
  41 Years Old
 
 * The Common Object File Format (COFF) is a format for executable, object code, and shared library computer files used on Unix systems. It was introduced in Unix System V, replaced the previously used a.out format, and formed the basis for extended specifications such as XCOFF and ECOFF, before being largely replaced by ELF, introduced with SVR4. COFF and its variants continue to be used on some Unix-like systems, on Microsoft Windows, in EFI environments and in some embedded development systems.. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav spatial.html jargon.html
+keyboardNav doodle.html json-graph-format.html
 
 import ../footer.scroll

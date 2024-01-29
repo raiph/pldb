@@ -6,7 +6,7 @@ title IBM POWER Instruction Set Architecture - Instruction set architecture
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="hush.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="sdlbasic.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="co-dfns.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/powerisa.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #1255 <span title="TotalRank: 1791 Jobs: 103 Users: 1022 Facts: 2178 Links: 666">on PLDB</span>
+ #1260 <span title="TotalRank: 1794 Jobs: 103 Users: 1025 Facts: 2179 Links: 666">on PLDB</span>
  26 Years Old
 
 * The IBM POWER ISA is a reduced instruction set computer (RISC) instruction set architecture (ISA) developed by IBM. The name is an acronym for Performance Optimization With Enhanced RISC. The ISA is used as base for high end microprocessors from IBM during the 1990s and were used in many of IBM's servers, minicomputers, workstations, and supercomputers. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav hush.html co-dfns.html
+keyboardNav sdlbasic.html co-dfns.html
 
 import ../footer.scroll

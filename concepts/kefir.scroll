@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://git.sr.ht/~jprotopopov/kefir
 
 dashboard
- #3334 on PLDB
+ #3337 on PLDB
  3 Years Old
 
 * This repository contains implementation of C17 language compiler from scratch. No existing open source compiler infrastructure is being reused. The main priority is self-sufficiency of the project, compatibility with platform ABI and compliance with C17 language standard.

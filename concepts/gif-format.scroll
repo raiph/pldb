@@ -6,8 +6,8 @@ title GIF - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ncl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mql.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="asymptote.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="mal.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gif-format.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
 
 dashboard
- #762 on PLDB
+ #761 on PLDB
  37 Years Old
 
 * The Graphics Interchange Format (GIF  JIF or  GHIF), is a bitmap image format that was developed by a team at the online services provider CompuServe led by American computer scientist Steve Wilhite on June 15, 1987. It has since come into widespread usage on the World Wide Web due to its wide support and portability between many applications and operating systems. The format supports up to 8 bits per pixel for each image, allowing a single image to reference its own palette of up to 256 different colors chosen from the 24-bit RGB color space. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav ncl.html mql.html
+keyboardNav asymptote.html mal.html
 
 import ../footer.scroll

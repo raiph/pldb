@@ -7,7 +7,7 @@ title Action! - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="beta.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pawn.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="microdata.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/action.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
 
 dashboard
- #516 <span title="TotalRank: 1054 Jobs: 103 Users: 1493 Facts: 460 Links: 491">on PLDB</span>
+ #514 <span title="TotalRank: 1054 Jobs: 103 Users: 1496 Facts: 460 Links: 491">on PLDB</span>
  41 Years Old
 
 * Action! is a procedural programming language similar to ALGOL 68 that is intended to produce high-performance programs for the Atari 8-bit family. The language was written by Clinton Parker and distributed on ROM cartridge by Optimized Systems Software starting in 1983. Action! was used to develop at least two commercial products—the Homepak productivity suite and Games Computers Play client program—and numerous programs in ANALOG Computing and Antic magazines. Read more on Wikipedia...
@@ -115,6 +115,6 @@ treeTable
   Token 
   Example
 
-keyboardNav beta.html pawn.html
+keyboardNav beta.html microdata.html
 
 import ../footer.scroll

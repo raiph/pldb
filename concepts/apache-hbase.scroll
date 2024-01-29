@@ -6,8 +6,8 @@ title Apache Hbase - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="msp430.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pick-operating-system.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="hdmi-standard.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="msp430.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apache-hbase.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/apache/hbase
 
 dashboard
- #734 on PLDB
+ #733 on PLDB
  16 Years Old
 
 * HBase is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It is developed as part of Apache Software Foundation's Apache Hadoop project and runs on top of HDFS (Hadoop Distributed File System) or Alluxio, providing Bigtable-like capabilities for Hadoop.. Read more on Wikipedia...
@@ -45,6 +45,6 @@ dashboard
 
 endColumns
 
-keyboardNav msp430.html pick-operating-system.html
+keyboardNav hdmi-standard.html msp430.html
 
 import ../footer.scroll

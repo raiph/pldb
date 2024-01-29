@@ -6,7 +6,7 @@ title Rockstar - Esoteric programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="bbc-basic.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="s3.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="dat-protocol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rockstar.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/dylanbeattie/rockstar
 
 dashboard
- #628 <span title="TotalRank: 1205 Jobs: 103 Users: 1639 Facts: 436 Links: 666">on PLDB</span>
+ #627 <span title="TotalRank: 1205 Jobs: 103 Users: 1642 Facts: 436 Links: 666">on PLDB</span>
  6 Years Old
 
 * Try now: <a href="https://tio.run/#rockstar">TIO</a>
@@ -90,6 +90,6 @@ treeTable
   Token Scream
   Example
 
-keyboardNav bbc-basic.html dat-protocol.html
+keyboardNav s3.html dat-protocol.html
 
 import ../footer.scroll

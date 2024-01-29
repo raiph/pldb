@@ -7,7 +7,7 @@ title Sheep - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="quaint.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pl360.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="circle-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sheep-lang.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#wouterVanOortmerssen Wouter Van Oortmerssen
 
 dashboard
- #985 <span title="TotalRank: 1544 Jobs: 103 Users: 2435 Facts: 455 Links: 986">on PLDB</span>
+ #986 <span title="TotalRank: 1544 Jobs: 103 Users: 2438 Facts: 455 Links: 986">on PLDB</span>
  24 Years Old
 
 * New scripting/querying/ipc/programming language I created for Amiga Inc. There is no publicly available material right now, except for an introductory article at Amiga World, an interview at OSNews.com, and this released screenshot of an early sheep beta in action: SHEEP was planned to have familiar beginner friendly syntax and semantics coupled with multimethods, automatic memory management without garbage collection (linearity), powerful datatypes, pattern matching, strong and dynamic typing living together in harmony, integrated access to all the new Amiga OS features, and optional compiled output comparable to C in speed and size.
@@ -102,6 +102,6 @@ treeTable
       cx = ax-ay+by
     end
 
-keyboardNav quaint.html pl360.html
+keyboardNav quaint.html circle-lang.html
 
 import ../footer.scroll

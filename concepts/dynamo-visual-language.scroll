@@ -6,7 +6,7 @@ title Dynamo - Visual programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="algol-w.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="drakon.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="xslt.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dynamo-visual-language.pldb
@@ -41,6 +41,6 @@ dashboard
 
 endColumns
 
-keyboardNav algol-w.html xslt.html
+keyboardNav drakon.html xslt.html
 
 import ../footer.scroll

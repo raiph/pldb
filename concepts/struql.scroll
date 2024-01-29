@@ -7,7 +7,7 @@ title StruQL - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="soy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="balanced-ternary-notation.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="baysick.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/struql.pldb
 
@@ -22,7 +22,7 @@ startColumns 4
  link ../lists/creators.html#andIgorTatarinov and Igor Tatarinov
 
 dashboard
- #1430 <span title="TotalRank: 1951 Jobs: 103 Users: 2829 Facts: 862 Links: 986">on PLDB</span>
+ #1432 <span title="TotalRank: 1951 Jobs: 103 Users: 2832 Facts: 862 Links: 986">on PLDB</span>
  25 Years Old
 
 * A StruQL query is a function from a set of input graphs to an output graph.
@@ -85,6 +85,6 @@ treeTable
   Token 
   Example
 
-keyboardNav soy.html balanced-ternary-notation.html
+keyboardNav soy.html baysick.html
 
 import ../footer.scroll

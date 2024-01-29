@@ -6,8 +6,8 @@ title CWL - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="janet.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beef.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="risc-v.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="puredata.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/common-workflow-language.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/common-workflow-language/cwltool
 
 dashboard
- #440 <span title="TotalRank: 942 Jobs: 103 Users: 526 Facts: 313 Links: 986">on PLDB</span>
+ #441 <span title="TotalRank: 944 Jobs: 103 Users: 528 Facts: 313 Links: 986">on PLDB</span>
  10 Years Old
  464 <span title="CWL repos on GitHub.">Repos</span>
 
@@ -110,6 +110,6 @@ treeTable
   Token 
   Example
 
-keyboardNav janet.html beef.html
+keyboardNav risc-v.html puredata.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title JavaCC - Grammar language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="objective-cpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flowchart-fun.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="rpl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="expect.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/javacc.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
 
 dashboard
- #509 <span title="TotalRank: 1049 Jobs: 94 Users: 629 Facts: 1378 Links: 326">on PLDB</span>
+ #511 <span title="TotalRank: 1052 Jobs: 94 Users: 632 Facts: 1378 Links: 326">on PLDB</span>
  28 Years Old
 
 * JavaCC (Java Compiler Compiler) is an open source parser generator and lexical analyzer generator written in the Java programming language. JavaCC is similar to yacc in that it generates a parser from a formal grammar written in EBNF notation. Unlike yacc, however, JavaCC generates top-down parsers. Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav objective-cpp.html flowchart-fun.html
+keyboardNav rpl.html expect.html
 
 import ../footer.scroll

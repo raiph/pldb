@@ -6,7 +6,7 @@ title Bucardo - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="nexml.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="ocl.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="noulith.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bucardo.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/bucardo/bucardo
 
 dashboard
- #1454 on PLDB
+ #1457 on PLDB
  15 Years Old
 
 * Bucardo is an asynchronous PostgreSQL replication system, allowing for multi-source, multi-target operations. Bucardo is a replication system for Postgres that supports any number of sources and targets (aka masters and slaves). It is asynchronous and trigger based.
@@ -42,6 +42,6 @@ dashboard
 
 endColumns
 
-keyboardNav nexml.html noulith.html
+keyboardNav ocl.html noulith.html
 
 import ../footer.scroll

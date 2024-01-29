@@ -6,8 +6,8 @@ title Atari BASIC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="dm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="openscad.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="openscad.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="zuo.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/atari-basic.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
 
 dashboard
- #671 <span title="TotalRank: 1246 Jobs: 103 Users: 979 Facts: 1885 Links: 164">on PLDB</span>
+ #673 <span title="TotalRank: 1250 Jobs: 103 Users: 982 Facts: 1885 Links: 165">on PLDB</span>
  41 Years Old
 
 * Atari BASIC is an interpreter for the BASIC programming language that shipped with the Atari 8-bit family of 6502-based home computers. Unlike most 8-bit BASICs, Atari BASIC is not a derivative of Microsoft BASIC, and differs in significant ways. It includes keywords for Atari-specific features and lacks support for string arrays, for example. Read more on Wikipedia...
@@ -38,6 +38,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Atari_BASIC'>
 
 endColumns
 
-keyboardNav dm.html openscad.html
+keyboardNav openscad.html zuo.html
 
 import ../footer.scroll

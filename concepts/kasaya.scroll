@@ -6,8 +6,8 @@ title kasaya - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="differential-datalog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="noweb.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="plz.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dex.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kasaya.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/AshanthaLahiru/kasaya
 
 dashboard
- #1255 on PLDB
+ #1261 on PLDB
  6 Years Old
 
 * A "WYSIWYG" (kind of) scripting language and runtime for browser automation
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav differential-datalog.html noweb.html
+keyboardNav plz.html dex.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title F Prime - Library
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="z-shell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tea.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="digital-command-language.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="z-shell.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/f-prime.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/nasa/fprime
 
 dashboard
- #782 on PLDB
+ #781 on PLDB
  7 Years Old
 
 * F' - A flight software and embedded systems framework
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav z-shell.html tea.html
+keyboardNav digital-command-language.html z-shell.html
 
 import ../footer.scroll

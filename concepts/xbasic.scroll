@@ -6,7 +6,7 @@ title Xbasic - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gpss.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="minizinc.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="executable-json.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xbasic.pldb
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#maxReason Max Reason
 
 dashboard
- #1115 <span title="TotalRank: 1675 Jobs: 103 Users: 2098 Facts: 586 Links: 986">on PLDB</span>
+ #1117 <span title="TotalRank: 1675 Jobs: 103 Users: 2101 Facts: 586 Links: 986">on PLDB</span>
  36 Years Old
 
 * XBasic is a variant of the BASIC programming language that was developed in the late 1980s for the Motorola 88000 CPU and Unix by Max Reason. In the early 1990s it was ported to Windows and Linux, and since 1999 it has been available as open source software with its runtime library under the LGPL license. It should not be confused with TI Extended BASIC, which is sometimes called XBasic or X Basic. Read more on Wikipedia...
@@ -99,6 +99,6 @@ treeTable
   Token 
   Example
 
-keyboardNav gpss.html executable-json.html
+keyboardNav minizinc.html executable-json.html
 
 import ../footer.scroll

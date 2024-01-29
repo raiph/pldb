@@ -7,7 +7,7 @@ title FreeMarker - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="cusip.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="json-graph-format.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="turbo-basic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/freemarker.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
 
 dashboard
- #800 <span title="TotalRank: 1361 Jobs: 103 Users: 874 Facts: 384 Links: 986">on PLDB</span>
+ #800 <span title="TotalRank: 1364 Jobs: 103 Users: 877 Facts: 384 Links: 986">on PLDB</span>
  24 Years Old
  6k <span title="FreeMarker repos on GitHub.">Repos</span>
 
@@ -121,6 +121,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Apache_FreeMa
 
 endColumns
 
-keyboardNav cusip.html json-graph-format.html
+keyboardNav cusip.html turbo-basic.html
 
 import ../footer.scroll

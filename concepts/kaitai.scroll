@@ -6,7 +6,7 @@ title kaitai - Interface design language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="curry.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="pawn.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="codeql.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaitai.pldb
@@ -60,6 +60,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav curry.html codeql.html
+keyboardNav pawn.html codeql.html
 
 import ../footer.scroll

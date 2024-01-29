@@ -6,8 +6,8 @@ title Autocode - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="differential-datalog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="earl-grey.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="touch.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dex.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/autocode.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1954 1954
 
 dashboard
- #955 <span title="TotalRank: 1524 Jobs: 103 Users: 1032 Facts: 1666 Links: 389">on PLDB</span>
+ #959 <span title="TotalRank: 1527 Jobs: 103 Users: 1035 Facts: 1666 Links: 389">on PLDB</span>
  70 Years Old
 
 * Autocode is the name of a family of "simplified coding systems", later called programming languages, devised in the 1950s and 1960s for a series of  digital computers at the Universities of Manchester, Cambridge and London. Autocode was a generic term; the autocodes for different machines were not necessarily closely related as are, for example, the different versions of the single language FORTRAN. Today the term is used to refer to the family of early languages descended from the Manchester Mark 1 autocoder systems, which were generally similar. Read more on Wikipedia...
@@ -42,6 +42,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Autocode'>Wik
 
 endColumns
 
-keyboardNav differential-datalog.html earl-grey.html
+keyboardNav touch.html dex.html
 
 import ../footer.scroll

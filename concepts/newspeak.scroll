@@ -7,7 +7,7 @@ title Newspeak - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="sweave.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eff.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="rc.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/newspeak.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#giladBracha Gilad Bracha
 
 dashboard
- #1128 <span title="TotalRank: 1683 Jobs: 103 Users: 1436 Facts: 1089 Links: 491">on PLDB</span>
+ #1127 <span title="TotalRank: 1683 Jobs: 103 Users: 1439 Facts: 1089 Links: 491">on PLDB</span>
  18 Years Old
 
 * Newspeak is a programming language and platform in the tradition of Smalltalk and Self being developed by a team led by Gilad Bracha. The platform includes an IDE, a GUI library, and standard libraries. Starting in 2006, Cadence Design Systems funded its development and employed the main contributors, but ceased funding in January 2009. Read more on Wikipedia...
@@ -45,6 +45,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Newspeak_(pro
 
 endColumns
 
-keyboardNav sweave.html eff.html
+keyboardNav sweave.html rc.html
 
 import ../footer.scroll

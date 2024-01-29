@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
 
 dashboard
- #1568 <span title="TotalRank: 2082 Jobs: 103 Users: 1745 Facts: 993 Links: 986">on PLDB</span>
+ #1568 <span title="TotalRank: 2082 Jobs: 103 Users: 1748 Facts: 993 Links: 986">on PLDB</span>
  24 Years Old
 
 * Document Structure Description, or DSD, is a schema language for XML, that is, a language for describing valid XML documents. It's an alternative to DTD or the W3C XML Schema. An example of DSD in its simplest form:  <dsd xmlns="http://www.brics.dk/DSD/2.0"  xmlns:my="http://example.com">    <if><element name="my:foo"/>   <declare>    <attribute name="first"/>    <attribute name="second"/>    <contents>     <element name="my:bar"/>    </contents>   </declare>  </if>    <if><element name="my:bar"/>   <declare>    <contents>    </contents>   </declare>  </if>   </dsd>  This says that element named "foo" in the XML namespace "http://example.com" may have two attributes, named "first" and "second". Read more on Wikipedia...

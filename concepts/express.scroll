@@ -6,7 +6,7 @@ title EXPRESS - Data notation
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="winxed.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="query-by-example.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="compiler-compiler.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/express.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
 
 dashboard
- #871 <span title="TotalRank: 1437 Jobs: 103 Users: 598 Facts: 736 Links: 986">on PLDB</span>
+ #871 <span title="TotalRank: 1440 Jobs: 103 Users: 601 Facts: 736 Links: 986">on PLDB</span>
  20 Years Old
 
 * EXPRESS is a standard data modeling language for product data. EXPRESS is formalized in the ISO Standard for the Exchange of Product model STEP (ISO 10303), and standardized as ISO 10303-11.. Read more on Wikipedia...
@@ -73,6 +73,6 @@ treeTable
   Example
    "Hello world"
 
-keyboardNav winxed.html compiler-compiler.html
+keyboardNav query-by-example.html compiler-compiler.html
 
 import ../footer.scroll

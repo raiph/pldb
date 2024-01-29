@@ -6,8 +6,8 @@ title Simple Binary Encoding - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="robomind.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="curl.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="pcre.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="filebench-wml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simple-binary-encoding.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/real-logic/simple-binary-encoding
 
 dashboard
- #584 <span title="TotalRank: 1149 Jobs: 103 Users: 60 Facts: 1588 Links: 986">on PLDB</span>
+ #583 <span title="TotalRank: 1149 Jobs: 103 Users: 60 Facts: 1588 Links: 986">on PLDB</span>
  11 Years Old
 
 * SBE is an OSI layer 6 presentation for encoding and decoding binary application messages for low-latency financial applications. This repository contains the reference implementations in Java, C++, Golang, C#, and Rust
@@ -45,6 +45,6 @@ dashboard
 
 endColumns
 
-keyboardNav robomind.html curl.html
+keyboardNav pcre.html filebench-wml.html
 
 import ../footer.scroll

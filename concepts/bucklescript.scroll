@@ -6,8 +6,8 @@ title Bucklescript - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="synchronized-multimedia-integration-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nit.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="jruby.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="telnet-protocol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bucklescript.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/BuckleScript/bucklescript
 
 dashboard
- #658 <span title="TotalRank: 1237 Jobs: 103 Users: 148 Facts: 1588 Links: 986">on PLDB</span>
+ #657 <span title="TotalRank: 1237 Jobs: 103 Users: 148 Facts: 1588 Links: 986">on PLDB</span>
  14 Years Old
 
 * The compiler for ReScript.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav synchronized-multimedia-integration-language.html nit.html
+keyboardNav jruby.html telnet-protocol.html
 
 import ../footer.scroll

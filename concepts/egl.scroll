@@ -6,7 +6,7 @@ title EGL - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="xbrl.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="confluence.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="fml-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/egl.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #1012 <span title="TotalRank: 1578 Jobs: 103 Users: 1283 Facts: 489 Links: 986">on PLDB</span>
+ #1013 <span title="TotalRank: 1578 Jobs: 103 Users: 1286 Facts: 489 Links: 986">on PLDB</span>
  16 Years Old
 
 * EGL (Enterprise Generation Language), originally developed by IBM and now available as the EDT (EGL Development Tools) Open Source project under the Eclipse Public License (EPL), is a programming technology designed to meet the challenges of modern, multi-platform application development by providing a common language and programming model across languages, frameworks, and runtime platforms. The language borrows concepts familiar to anyone using statically typed languages like Java, COBOL, C, etc. However, it borrows the concept of stereotype from Unified Modeling Language (UML) that is not typically found in statically typed programming languages. Read more on Wikipedia...
@@ -92,6 +92,6 @@ treeTable
   Token SysLib.writeStdout
   Example
 
-keyboardNav xbrl.html fml-lang.html
+keyboardNav confluence.html fml-lang.html
 
 import ../footer.scroll

@@ -7,7 +7,7 @@ title Asm.js - Intermediate representation language
 
 html
  <a class="trueBaseThemePreviousItem" href="djot.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ebnf.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="unicon.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asmjs.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
 
 dashboard
- #482 <span title="TotalRank: 1012 Jobs: 103 Users: 583 Facts: 1089 Links: 326">on PLDB</span>
+ #483 <span title="TotalRank: 1015 Jobs: 103 Users: 586 Facts: 1089 Links: 326">on PLDB</span>
  11 Years Old
 
 * asm.js is an intermediate programming language designed to allow computer software written in languages such as C to be run as web applications while maintaining performance characteristics considerably better than standard JavaScript, the typical language used for such applications. asm.js consists of a strict subset of JavaScript, into which code written in statically-typed languages with manual memory management (such as C) is translated by a source-to-source compiler such as Emscripten (based on LLVM). Performance is improved by limiting language features to those amenable to ahead-of-time optimization and other performance improvements. Read more on Wikipedia...
@@ -48,6 +48,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Asm.js'>Wikip
 
 endColumns
 
-keyboardNav djot.html ebnf.html
+keyboardNav djot.html unicon.html
 
 import ../footer.scroll

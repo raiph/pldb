@@ -6,7 +6,7 @@ title InfiniBand - Standard
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="touch.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="blockly.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="bun.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/infiniband-standard.pldb
@@ -32,6 +32,6 @@ dashboard
 
 endColumns
 
-keyboardNav touch.html bun.html
+keyboardNav blockly.html bun.html
 
 import ../footer.scroll

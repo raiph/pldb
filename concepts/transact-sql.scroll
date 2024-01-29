@@ -6,8 +6,8 @@ title Transact-SQL - Query language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="thrift.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unison.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="unison.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="pl-0.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/transact-sql.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
 
 dashboard
- #382 <span title="TotalRank: 857 Jobs: 103 Users: 428 Facts: 460 Links: 326">on PLDB</span>
+ #383 <span title="TotalRank: 858 Jobs: 103 Users: 429 Facts: 460 Links: 326">on PLDB</span>
  40 Years Old
 
 * Transact-SQL (T-SQL) is Microsoft's and Sybase's proprietary extension to the SQL (Structured Query Language) used to interact with relational databases. T-SQL expands on the SQL standard to include procedural programming, local variables, various support functions for string processing, date processing, mathematics, etc. and changes to the DELETE and UPDATE statements. Read more on Wikipedia...
@@ -118,6 +118,6 @@ treeTable
   Token 
   Example
 
-keyboardNav thrift.html unison.html
+keyboardNav unison.html pl-0.html
 
 import ../footer.scroll

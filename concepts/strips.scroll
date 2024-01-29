@@ -6,7 +6,7 @@ title Strips - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="vcf-format.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="spatial.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="mvel.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/strips.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
 
 dashboard
- #877 <span title="TotalRank: 1444 Jobs: 103 Users: 696 Facts: 675 Links: 666">on PLDB</span>
+ #875 <span title="TotalRank: 1444 Jobs: 103 Users: 699 Facts: 675 Links: 666">on PLDB</span>
  55 Years Old
 
 * In artificial intelligence, STRIPS (Stanford Research Institute Problem Solver) is an automated planner developed by Richard Fikes and Nils Nilsson in 1971 at SRI International. The same name was later used to refer to the formal language of the inputs to this planner. This language is the base for most of the languages for expressing automated planning problem instances in use today; such languages are commonly known as action languages. Read more on Wikipedia...
@@ -88,6 +88,6 @@ treeTable
   Token 
   Example
 
-keyboardNav vcf-format.html mvel.html
+keyboardNav spatial.html mvel.html
 
 import ../footer.scroll

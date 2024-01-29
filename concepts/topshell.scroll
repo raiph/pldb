@@ -7,7 +7,7 @@ title topshell - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="aimms.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="linearml.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="mad.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/topshell.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/topshell-language/topshell
 
 dashboard
- #1317 <span title="TotalRank: 1850 Jobs: 103 Users: 761 Facts: 1782 Links: 986">on PLDB</span>
+ #1320 <span title="TotalRank: 1853 Jobs: 103 Users: 764 Facts: 1782 Links: 986">on PLDB</span>
  6 Years Old
 
 * TopShell - a purely functional, reactive scripting language
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav aimms.html linearml.html
+keyboardNav aimms.html mad.html
 
 import ../footer.scroll

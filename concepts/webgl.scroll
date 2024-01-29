@@ -7,7 +7,7 @@ title WebGL - Library
 
 html
  <a class="trueBaseThemePreviousItem" href="xpath.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clips.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cython.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/webgl.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
 
 dashboard
- #271 on PLDB
+ #269 on PLDB
  13 Years Old
 
 * WebGL (Web Graphics Library) is a JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins. WebGL is integrated completely into all the web standards of the browser allowing GPU accelerated usage of physics and image processing and effects as part of the web page canvas. WebGL elements can be mixed with other HTML elements and composited with other parts of the page or page background. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav xpath.html clips.html
+keyboardNav xpath.html cython.html
 
 import ../footer.scroll

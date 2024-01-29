@@ -6,8 +6,8 @@ title PAWN - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="action.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glsl.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="curry.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="kaitai.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pawn.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/compuphase/pawn
 
 dashboard
- #517 <span title="TotalRank: 1056 Jobs: 103 Users: 627 Facts: 326 Links: 986">on PLDB</span>
+ #519 <span title="TotalRank: 1059 Jobs: 103 Users: 630 Facts: 326 Links: 986">on PLDB</span>
  18 Years Old
  3k <span title="PAWN repos on GitHub.">Repos</span>
 
@@ -114,6 +114,6 @@ treeTable
   Token 
   Example
 
-keyboardNav action.html glsl.html
+keyboardNav curry.html kaitai.html
 
 import ../footer.scroll

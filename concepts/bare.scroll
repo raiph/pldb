@@ -7,7 +7,7 @@ title BARE - Interface design language
 
 html
  <a class="trueBaseThemePreviousItem" href="avail.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="watcom.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="visualworks.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bare.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
 
 dashboard
- #1151 <span title="TotalRank: 1699 Jobs: 103 Users: 2435 Facts: 610 Links: 986">on PLDB</span>
+ #1151 <span title="TotalRank: 1699 Jobs: 103 Users: 2438 Facts: 610 Links: 986">on PLDB</span>
  4 Years Old
 
 * BARE is a simple binary representation for structured application data.
@@ -81,6 +81,6 @@ codeWithHeader BARE <a href="../lists/keywords.html?filter=bare">Keywords</a>
 
 endColumns
 
-keyboardNav avail.html watcom.html
+keyboardNav avail.html visualworks.html
 
 import ../footer.scroll

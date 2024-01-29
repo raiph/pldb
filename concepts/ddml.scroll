@@ -7,7 +7,7 @@ title DDML - Xml format
 
 html
  <a class="trueBaseThemePreviousItem" href="triton.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jai.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="jsharp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ddml.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
 
 dashboard
- #555 <span title="TotalRank: 1117 Jobs: 103 Users: 1898 Facts: 28 Links: 986">on PLDB</span>
+ #554 <span title="TotalRank: 1117 Jobs: 103 Users: 1901 Facts: 28 Links: 986">on PLDB</span>
  25 Years Old
 
 * Document Definition Markup Language (DDML) is an XML schema language proposed in 1999 by various contributors from the xml-dev electronic mailing list. It was published only as a W3C Note, not a Recommendation, and never found favor with developers. DDML began as XSchema, a reformulation of XML DTDs as full XML documents, so that elements and attributes, rather than declarations, could be used to describe a schema. Read more on Wikipedia...
@@ -367,6 +367,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav triton.html jai.html
+keyboardNav triton.html jsharp.html
 
 import ../footer.scroll

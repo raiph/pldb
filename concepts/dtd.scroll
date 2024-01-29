@@ -6,8 +6,8 @@ title DTD - Grammar language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ink.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hypertalk.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="hypertalk.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="capn-proto.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dtd.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
 
 dashboard
- #364 <span title="TotalRank: 832 Jobs: 103 Users: 492 Facts: 760 Links: 237">on PLDB</span>
+ #365 <span title="TotalRank: 834 Jobs: 103 Users: 494 Facts: 760 Links: 237">on PLDB</span>
  28 Years Old
 
 * A document type definition (DTD) is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). A Document Type Definition (DTD) defines the legal building blocks of an XML document. It defines the document structure with a list of legal elements and attributes. Read more on Wikipedia...
@@ -54,6 +54,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Document_type
 
 endColumns
 
-keyboardNav ink.html hypertalk.html
+keyboardNav hypertalk.html capn-proto.html
 
 import ../footer.scroll

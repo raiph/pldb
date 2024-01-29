@@ -7,7 +7,7 @@ title CHICKEN - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="redprl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="easytrieve.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="yeti.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chicken.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#felixWinkelmann Felix Winkelmann
 
 dashboard
- #1564 <span title="TotalRank: 2082 Jobs: 103 Users: 1313 Facts: 1977 Links: 666">on PLDB</span>
+ #1580 <span title="TotalRank: 2085 Jobs: 103 Users: 1316 Facts: 1977 Links: 666">on PLDB</span>
  30 Years Old
 
 * Chicken (stylized as CHICKEN) is a programming language, specifically a compiler and interpreter which implement a dialect of the programming language Scheme, and which compiles Scheme source code to standard C. It is mostly R5RS compliant and offers many extensions to the standard. The newer R7RS standard is supported through an extension library. Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav redprl.html easytrieve.html
+keyboardNav redprl.html yeti.html
 
 import ../footer.scroll

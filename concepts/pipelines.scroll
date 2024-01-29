@@ -6,8 +6,8 @@ title pipelines - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="espol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cowsel.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cowsel.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="links-programming-language.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pipelines.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/calebwin/pipelines
 
 dashboard
- #1408 <span title="TotalRank: 1937 Jobs: 103 Users: 848 Facts: 1588 Links: 986">on PLDB</span>
+ #1412 <span title="TotalRank: 1940 Jobs: 103 Users: 851 Facts: 1588 Links: 986">on PLDB</span>
  6 Years Old
 
 * An experimental programming language for data flow
@@ -40,6 +40,6 @@ pipeTable
  title|titleLink|date|score|comments
  Show HN: Pipelines: framework and language for crafting data pipelines|https://news.ycombinator.com/item?id=18905100|01/14/2019|5|0
 
-keyboardNav espol.html cowsel.html
+keyboardNav cowsel.html links-programming-language.html
 
 import ../footer.scroll
