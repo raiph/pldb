@@ -1,5 +1,5 @@
 import ../header.scroll
-baseUrl https://pldb.com/concepts/
+baseUrl https://pldb.io/concepts/
 title RSS
 
 title RSS - Protocol
@@ -37,18 +37,18 @@ codeWithHeader Example from the web:
  &lt;rss version=&quot;2.0&quot;&gt;
  &lt;channel&gt;
   &lt;title&gt;&lt;/title&gt;
-  &lt;link&gt;https://pldb.com/&lt;/link&gt;
+  &lt;link&gt;https://pldb.io/&lt;/link&gt;
   &lt;description&gt;PLDB: a Programming Language Database. Build the next great programming language.&lt;/description&gt;
   &lt;lastBuildDate&gt;Wed, 22 Feb 2023 13:36:44 +0000&lt;/lastBuildDate&gt;
   &lt;language&gt;en-us&lt;/language&gt;
   &lt;item&gt;
    &lt;title&gt;A brief interview with Tcl creator John Ousterhout&lt;/title&gt;
-   &lt;link&gt;https://pldb.com/posts/JohnOusterhout.html&lt;/link&gt;
+   &lt;link&gt;https://pldb.io/posts/JohnOusterhout.html&lt;/link&gt;
    &lt;pubDate&gt;Wed, 08 Feb 2023 00:00:00 +0000&lt;/pubDate&gt;
   &lt;/item&gt;
   &lt;item&gt;
    &lt;title&gt;Data entry Livestream&lt;/title&gt;
-   &lt;link&gt;https://pldb.com/posts/addingDataLivestream.html&lt;/link&gt;
+   &lt;link&gt;https://pldb.io/posts/addingDataLivestream.html&lt;/link&gt;
    &lt;pubDate&gt;Wed, 08 Feb 2023 00:00:00 +0000&lt;/pubDate&gt;
   &lt;/item&gt;
  &lt;/channel&gt;

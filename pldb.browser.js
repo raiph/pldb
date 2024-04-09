@@ -1047,7 +1047,7 @@ get title() { return `Refinement Types` }
 
 class hasRegularExpressionsSyntaxSugarParser extends abstractFeatureParser {
       get pseudoExample() { return `/pldb/` }
-get reference() { return `https://pldb.com/concepts/regex.html` }
+get reference() { return `https://pldb.io/concepts/regex.html` }
 get title() { return `Regular Expression Syntax Sugar` }
     }
 
@@ -1084,7 +1084,7 @@ class hasSelfOrThisWordParser extends abstractFeatureParser {
 
 class hasSemanticIndentationParser extends abstractFeatureParser {
       get pseudoExample() { return `line0 if true line1  print "Hello PLDB"` }
-get reference() { return `https://pldb.com/posts/which-programming-languages-use-indentation.html` }
+get reference() { return `https://pldb.io/posts/which-programming-languages-use-indentation.html` }
 get title() { return `Semantic Indentation` }
 get aka() { return `off-side rule` }
     }
@@ -2811,10 +2811,10 @@ firstAnnouncementParser
  description What is a URL announcing the creation or release of this language?
  extends abstractUrlColumnParser
 screenshotParser
- description What is a URL to a screenshot of this visual language in the form https://pldb.com/screenshots/[id].png?
+ description What is a URL to a screenshot of this visual language in the form https://pldb.io/screenshots/[id].png?
  extends abstractUrlColumnParser
 photoParser
- description What is a URL to a screenshot of this real world notation in the form https://pldb.com/photos/[id].png?
+ description What is a URL to a screenshot of this real world notation in the form https://pldb.io/photos/[id].png?
  extends abstractUrlColumnParser
 languageServerProtocolProjectParser
  extends abstractUrlColumnParser
@@ -3578,7 +3578,7 @@ hasRegularExpressionsSyntaxSugarParser
  extends abstractFeatureParser
  description Does the language have special syntax for regular expressions?
  string title Regular Expression Syntax Sugar
- string reference https://pldb.com/concepts/regex.html
+ string reference https://pldb.io/concepts/regex.html
  string pseudoExample /pldb/
 hasRequiredMainFunctionParser
  description Does the language require a function named main (or similar)?
@@ -3613,7 +3613,7 @@ hasSemanticIndentationParser
  description Does the language use semantic indentation?
  string aka off-side rule
  string title Semantic Indentation
- string reference https://pldb.com/posts/which-programming-languages-use-indentation.html
+ string reference https://pldb.io/posts/which-programming-languages-use-indentation.html
  string pseudoExample line0 if true line1  print "Hello PLDB"
 hasSetsParser
  extends abstractFeatureParser

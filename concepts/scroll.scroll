@@ -1,5 +1,5 @@
 import ../header.scroll
-baseUrl https://pldb.com/concepts/
+baseUrl https://pldb.io/concepts/
 title Scroll
 
 title Scroll - Text markup language
@@ -57,7 +57,7 @@ treeTable
   Token 
   Example
    * A link to PLDB
-    https://pldb.com
+    https://pldb.io
  row
   Feature File Imports
   FeatureLink ../features/hasImports.html
