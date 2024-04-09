@@ -10145,6 +10145,7 @@ var autocompleteJs = [
     "url": "/concepts/ivtran.html"
   },
   {
+    "label": "ivy",
     "id": "ivy",
     "url": "/concepts/ivy.html"
   },
@@ -10359,6 +10360,7 @@ var autocompleteJs = [
     "url": "/concepts/jekyll.html"
   },
   {
+    "label": "Jelly",
     "id": "jelly",
     "url": "/concepts/jelly.html"
   },
@@ -22423,6 +22425,7 @@ var autocompleteJs = [
     "url": "/concepts/uiml.html"
   },
   {
+    "label": "Uiua",
     "id": "uiua",
     "url": "/concepts/uiua.html"
   },

@@ -270,6 +270,7 @@ treeTable
   Supported <span class="hasFeature">✓</span>
   Token 
   Example
+   `static` keyword
  row
   Feature Constructors
   FeatureLink ../features/hasConstructors.html
@@ -313,6 +314,13 @@ treeTable
   Token 
   Example
  row
+  Feature Binary Literals
+  FeatureLink ../features/hasBinaryNumbers.html
+  Supported <span class="hasFeature">✓</span>
+  Token 
+  Example
+   `2_101` would evaluate as a binary number.
+ row
   Feature Assignment
   FeatureLink ../features/hasAssignment.html
   Supported <span class="hasFeature">✓</span>
@@ -330,13 +338,6 @@ treeTable
   Supported <span class="doesNotHaveFeature">X</span>
   Token 
   Example
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-   `2_101` would evaluate as a binary number.
 
 keyboardNav tiledb.html haste.html
 
