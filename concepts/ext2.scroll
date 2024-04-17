@@ -7,7 +7,7 @@ title Ext2 - Filesystem
 
 html
  <a class="trueBaseThemePreviousItem" href="edgedb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bosque.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="joy.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ext2.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
 
 dashboard
- #823 on PLDB
+ #822 on PLDB
  31 Years Old
 
 * The ext2 or second extended file system is a file system for the Linux kernel.  It was initially designed by Rémy Card as a replacement for the extended file system (ext).  Having been designed according to the same principles as the Berkeley Fast File System from BSD, it was the first commercial-grade filesystem for Linux.The canonical implementation of ext2 is the "ext2fs" filesystem driver in the Linux kernel. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav edgedb.html bosque.html
+keyboardNav edgedb.html joy.html
 
 import ../footer.scroll

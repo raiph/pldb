@@ -6,8 +6,8 @@ title gluon - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="powerbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stencil.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="json-with-comments.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="powerbasic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gluon.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/gluon-lang/gluon
 
 dashboard
- #809 <span title="TotalRank: 1372 Jobs: 103 Users: 283 Facts: 1499 Links: 986">on PLDB</span>
+ #808 <span title="TotalRank: 1372 Jobs: 103 Users: 283 Facts: 1502 Links: 986">on PLDB</span>
  10 Years Old
 
 * A static, type inferred and embeddable language written in Rust.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav powerbasic.html stencil.html
+keyboardNav json-with-comments.html powerbasic.html
 
 import ../footer.scroll

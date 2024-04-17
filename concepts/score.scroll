@@ -6,7 +6,7 @@ title score - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="extensible-embeddable-language.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="pl360.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="cypher.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/score.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/OSSIA/score
 
 dashboard
- #991 <span title="TotalRank: 1554 Jobs: 103 Users: 465 Facts: 1120 Links: 986">on PLDB</span>
+ #991 <span title="TotalRank: 1554 Jobs: 103 Users: 465 Facts: 1123 Links: 986">on PLDB</span>
  11 Years Old
 
 * ossia score, an interactive sequencer for the intermedia arts
@@ -44,6 +44,6 @@ pipeTable
  title|titleLink|date|score|comments
  Show HN: Ossia score, a visual programming language for time|https://news.ycombinator.com/item?id=17982771|09/13/2018|5|1
 
-keyboardNav extensible-embeddable-language.html cypher.html
+keyboardNav pl360.html cypher.html
 
 import ../footer.scroll

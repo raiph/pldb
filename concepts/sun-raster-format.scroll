@@ -6,7 +6,7 @@ title Sun Raster - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="specrtl.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="miis.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="upic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sun-raster-format.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
 
 dashboard
- #2350 on PLDB
+ #2303 on PLDB
  35 Years Old
 
 * Sun Raster was a raster graphics file format used on SunOS by Sun Microsystems. The format has no MIME type, it is specified in @(#)rasterfile.h 1.11 89/08/21 SMI. The format was used for some research papers.ACDSee, FFmpeg, GIMP, ImageMagick, IrfanView, LibreOffice, Netpbm, PaintShop Pro, and XnView among others support Sun Raster image files. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav specrtl.html upic.html
+keyboardNav miis.html upic.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title checked-c - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="oil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cusip.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="please-build.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="oil.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/checked-c.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/Microsoft/checkedc
 
 dashboard
- #798 <span title="TotalRank: 1357 Jobs: 103 Users: 268 Facts: 1447 Links: 986">on PLDB</span>
+ #797 <span title="TotalRank: 1357 Jobs: 103 Users: 268 Facts: 1450 Links: 986">on PLDB</span>
  9 Years Old
 
 * Checked C is an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe.  The goal is to let people easily make their existing C code type-safe and eliminate entire classes of errors. Checked C does not address use-after-free errors. This repo has a wiki for Checked C, sample code, the specification, and test code.
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav oil.html cusip.html
+keyboardNav please-build.html oil.html
 
 import ../footer.scroll

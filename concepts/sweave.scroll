@@ -6,7 +6,7 @@ title Sweave - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="raptorjit.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="csvw.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="newspeak.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sweave.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
 
 dashboard
- #1126 <span title="TotalRank: 1683 Jobs: 103 Users: 1286 Facts: 1089 Links: 491">on PLDB</span>
+ #1130 <span title="TotalRank: 1686 Jobs: 103 Users: 1286 Facts: 1092 Links: 491">on PLDB</span>
  22 Years Old
 
 * Sweave is a function in the statistical programming language R that enables integration of R code into LaTeX or LyX documents. The purpose is "to create dynamic reports, which can be updated automatically if data or analysis change".The data analysis is performed at the moment of writing the report, or more exactly, at the moment of compiling the Sweave code with Sweave (i.e., essentially with R) and subsequently with LaTeX. This can facilitate the creation of up-to-date reports for the author. Read more on Wikipedia...
@@ -51,6 +51,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav raptorjit.html newspeak.html
+keyboardNav csvw.html newspeak.html
 
 import ../footer.scroll

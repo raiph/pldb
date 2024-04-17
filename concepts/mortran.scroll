@@ -7,7 +7,7 @@ title Mortran - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="lazyml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sensetalk.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="ana.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mortran.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
 
 dashboard
- #1853 <span title="TotalRank: 2350 Jobs: 103 Users: 1756 Facts: 1885 Links: 491">on PLDB</span>
+ #1856 <span title="TotalRank: 2350 Jobs: 103 Users: 1756 Facts: 1889 Links: 491">on PLDB</span>
  51 Years Old
 
 * Mortran (More Fortran) is an extension of the Fortran programming language used for scientific computation. It introduces syntax changes, including the use of semicolons to end statements, in order to improve readability and flexibility. Mortran code is macro-processed into Fortran code for compilation. Read more on Wikipedia...
@@ -39,6 +39,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Mortran'>Wiki
 
 endColumns
 
-keyboardNav lazyml.html sensetalk.html
+keyboardNav lazyml.html ana.html
 
 import ../footer.scroll

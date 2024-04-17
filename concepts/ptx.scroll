@@ -7,7 +7,7 @@ title PTX - Assembly language
 
 html
  <a class="trueBaseThemePreviousItem" href="swrl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyphy.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="fpp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ptx.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
 
 dashboard
- #1464 <span title="TotalRank: 1984 Jobs: 103 Users: 1390 Facts: 1666 Links: 491">on PLDB</span>
+ #1465 <span title="TotalRank: 1984 Jobs: 103 Users: 1390 Facts: 1669 Links: 491">on PLDB</span>
  15 Years Old
 
 * Parallel Thread Execution (PTX, or NVPTX) is a pseudo-assembly language used in Nvidia's CUDA programming environment.  The nvcc compiler translates code written in CUDA, a C++-like language, into PTX, and the graphics driver contains a compiler which translates the PTX into a binary code which can be run on the processing cores.. Read more on Wikipedia...
@@ -41,6 +41,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Parallel_Thre
 
 endColumns
 
-keyboardNav swrl.html hyphy.html
+keyboardNav swrl.html fpp.html
 
 import ../footer.scroll

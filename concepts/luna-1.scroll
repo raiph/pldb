@@ -6,8 +6,8 @@ title Luna - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="speakeasy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="turbo-assembler.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="p.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="speakeasy.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/luna-1.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/tj/luna
 
 dashboard
- #824 <span title="TotalRank: 1382 Jobs: 103 Users: 293 Facts: 1447 Links: 986">on PLDB</span>
+ #823 <span title="TotalRank: 1382 Jobs: 103 Users: 293 Facts: 1450 Links: 986">on PLDB</span>
  13 Years Old
 
 * Luna is an expressive, minimalistic, elegant programming language implemented in C. With cooperative thread concurrency at its core, async I/O, and influences derived from languages such as Lua, io, Rust, Ruby, and C. Luna favours unification and minimalism over minor obscure conveniences, providing the true convenience of a simple effective language. This includes omitting features which facilitate magic such as getters/setters, method_missing-style delegation etc. This project is very much a work in progress, as I explore the wonderful world of VMs! feel free to join.
@@ -42,6 +42,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav speakeasy.html turbo-assembler.html
+keyboardNav p.html speakeasy.html
 
 import ../footer.scroll

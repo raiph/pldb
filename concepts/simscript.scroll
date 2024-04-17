@@ -6,7 +6,7 @@ title SIMSCRIPT - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="processor-technology.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="guix.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="nesl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simscript.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
 
 dashboard
- #1446 <span title="TotalRank: 1972 Jobs: 103 Users: 1446 Facts: 1378 Links: 491">on PLDB</span>
+ #1448 <span title="TotalRank: 1975 Jobs: 103 Users: 1446 Facts: 1381 Links: 491">on PLDB</span>
  61 Years Old
 
 * SIMSCRIPT is a free-form, English-like general-purpose simulation language conceived by Harry Markowitz and Bernard Hausner at the RAND Corporation in 1963. It was implemented as a Fortran preprocessor on the IBM 7090 and was designed for large discrete event simulations. It influenced Simula. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav processor-technology.html nesl.html
+keyboardNav guix.html nesl.html
 
 import ../footer.scroll

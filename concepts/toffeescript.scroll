@@ -7,7 +7,7 @@ title ToffeeScript - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="visual-prolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gleam.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="blackcoffee.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/toffeescript.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/jiangmiao/toffeescript
 
 dashboard
- #688 <span title="TotalRank: 1262 Jobs: 103 Users: 173 Facts: 1885 Links: 986">on PLDB</span>
+ #688 <span title="TotalRank: 1262 Jobs: 103 Users: 173 Facts: 1889 Links: 986">on PLDB</span>
  11 Years Old
 
 * CoffeeScript with async syntax and some additional features
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav visual-prolog.html gleam.html
+keyboardNav visual-prolog.html blackcoffee.html
 
 import ../footer.scroll

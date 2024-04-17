@@ -6,8 +6,8 @@ title mun-lang - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="impala.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="verona.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="chisel.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="impala.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mun-lang.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/mun-lang/mun
 
 dashboard
- #758 <span title="TotalRank: 1324 Jobs: 103 Users: 441 Facts: 780 Links: 986">on PLDB</span>
+ #757 <span title="TotalRank: 1324 Jobs: 103 Users: 441 Facts: 780 Links: 986">on PLDB</span>
  5 Years Old
 
 * Source code for the Mun language and runtime.
@@ -75,6 +75,6 @@ treeTable
   Token 
   Example
 
-keyboardNav impala.html verona.html
+keyboardNav chisel.html impala.html
 
 import ../footer.scroll

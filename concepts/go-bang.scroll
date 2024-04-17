@@ -6,8 +6,8 @@ title Go! - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="multiaddr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="business-basic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="business-basic.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="cirru.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/go-bang.pldb
 
@@ -21,7 +21,7 @@ startColumns 4
  link ../lists/creators.html#keithClark Keith Clark
 
 dashboard
- #1289 <span title="TotalRank: 1823 Jobs: 103 Users: 806 Facts: 914 Links: 986">on PLDB</span>
+ #1290 <span title="TotalRank: 1824 Jobs: 103 Users: 806 Facts: 915 Links: 986">on PLDB</span>
  21 Years Old
 
 * Go! is an agent-based programming language in the tradition of logic-based programming languages like Prolog.  It was introduced in a 2003 paper by Francis McCabe and Keith Clark.. Read more on Wikipedia...
@@ -57,6 +57,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav multiaddr.html business-basic.html
+keyboardNav business-basic.html cirru.html
 
 import ../footer.scroll

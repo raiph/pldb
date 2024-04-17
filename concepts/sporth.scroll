@@ -6,8 +6,8 @@ title sporth - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="net-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pycket.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="flowcode.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="ok.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sporth.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/PaulBatchelor/Sporth
 
 dashboard
- #1522 <span title="TotalRank: 2033 Jobs: 103 Users: 944 Facts: 1885 Links: 986">on PLDB</span>
+ #1509 <span title="TotalRank: 2033 Jobs: 103 Users: 944 Facts: 1889 Links: 986">on PLDB</span>
  9 Years Old
 
 * A small stack-based audio language.
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav net-format.html pycket.html
+keyboardNav flowcode.html ok.html
 
 import ../footer.scroll

@@ -7,7 +7,7 @@ title FreeMarker - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="cusip.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="turbo-basic.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="json-graph-format.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/freemarker.pldb
 
@@ -121,6 +121,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Apache_FreeMa
 
 endColumns
 
-keyboardNav cusip.html turbo-basic.html
+keyboardNav cusip.html json-graph-format.html
 
 import ../footer.scroll

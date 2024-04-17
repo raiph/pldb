@@ -7,7 +7,7 @@ title WML - Xml format
 
 html
  <a class="trueBaseThemePreviousItem" href="ark-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="farcaster.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="t.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wireless-markup-language.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #944 <span title="TotalRank: 1512 Jobs: 103 Users: 918 Facts: 1253 Links: 491">on PLDB</span>
+ #943 <span title="TotalRank: 1512 Jobs: 103 Users: 918 Facts: 1256 Links: 491">on PLDB</span>
  26 Years Old
 
 * Wireless Markup Language (WML),  based on XML, is a now-obsolete markup language intended for devices that implement the Wireless Application Protocol (WAP) specification, such as mobile phones. It provides navigational support, data input, hyperlinks, text and image presentation, and forms, much like HTML (HyperText Markup Language). It preceded the use of other markup languages now used with WAP, such as HTML itself, and XHTML (which are gaining in popularity as processing power in mobile devices increases).. Read more on Wikipedia...
@@ -41,6 +41,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Wireless_Mark
 
 endColumns
 
-keyboardNav ark-lang.html farcaster.html
+keyboardNav ark-lang.html t.html
 
 import ../footer.scroll

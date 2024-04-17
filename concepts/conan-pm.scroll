@@ -6,7 +6,7 @@ title Conan - Package manager
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gleam.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="sha-2-hash-function.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="zone.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/conan-pm.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/conan-io/conan
 
 dashboard
- #830 on PLDB
+ #829 on PLDB
  9 Years Old
 
 * Conan, the C / C++ Package Manager for Developers
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav gleam.html zone.html
+keyboardNav sha-2-hash-function.html zone.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title humanhash-hash-function - Hash function
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="redcode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flowgorithm.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="scribe.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="redcode.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/humanhash-hash-function.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/zacharyvoase/humanhash
 
 dashboard
- #1490 on PLDB
+ #1487 on PLDB
  13 Years Old
 
 * Human-readable digests.
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav redcode.html flowgorithm.html
+keyboardNav scribe.html redcode.html
 
 import ../footer.scroll

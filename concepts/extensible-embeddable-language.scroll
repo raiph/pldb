@@ -7,7 +7,7 @@ title Extensible Embeddable Language - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="blade.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="score.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="pl360.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/extensible-embeddable-language.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#davidOlofson David Olofson
 
 dashboard
- #990 <span title="TotalRank: 1549 Jobs: 103 Users: 1901 Facts: 460 Links: 986">on PLDB</span>
+ #989 <span title="TotalRank: 1549 Jobs: 103 Users: 1901 Facts: 460 Links: 986">on PLDB</span>
  19 Years Old
 
 * The Extensible Embeddable Language (EEL) is a scripting and programming language in development by David Olofson. EEL is intended for scripting in realtime systems with cycle rates in the kHz range, such as musical synthesizers and industrial control systems, but also aspires to be usable as a platform independent general purpose programming language.. Read more on Wikipedia...
@@ -87,6 +87,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Extensible_Em
 
 endColumns
 
-keyboardNav blade.html score.html
+keyboardNav blade.html pl360.html
 
 import ../footer.scroll

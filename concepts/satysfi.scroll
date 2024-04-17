@@ -7,7 +7,7 @@ title SATySFi - Text markup language
 
 html
  <a class="trueBaseThemePreviousItem" href="basic-programming.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fp.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="parrot-assembly.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/satysfi.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/gfngfn/SATySFi
 
 dashboard
- #1018 <span title="TotalRank: 1583 Jobs: 103 Users: 494 Facts: 1782 Links: 986">on PLDB</span>
+ #1017 <span title="TotalRank: 1583 Jobs: 103 Users: 494 Facts: 1786 Links: 986">on PLDB</span>
  9 Years Old
 
 * A statically-typed, functional typesetting system
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav basic-programming.html fp.html
+keyboardNav basic-programming.html parrot-assembly.html
 
 import ../footer.scroll

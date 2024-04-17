@@ -7,7 +7,7 @@ title raptorjit - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="noisecraft.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sweave.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="rc.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/raptorjit.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/raptorjit/raptorjit
 
 dashboard
- #1125 <span title="TotalRank: 1681 Jobs: 103 Users: 592 Facts: 1782 Links: 986">on PLDB</span>
+ #1125 <span title="TotalRank: 1681 Jobs: 103 Users: 592 Facts: 1786 Links: 986">on PLDB</span>
  15 Years Old
 
 * RaptorJIT: A dynamic language for system programming (LuaJIT fork)
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav noisecraft.html sweave.html
+keyboardNav noisecraft.html rc.html
 
 import ../footer.scroll

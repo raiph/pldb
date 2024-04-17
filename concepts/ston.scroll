@@ -6,8 +6,8 @@ title STON - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="quicklisp-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="interchange-file-format.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="interchange-file-format.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="theos-multi-user-basic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ston.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/svenvc/ston
 
 dashboard
- #1735 on PLDB
+ #1738 on PLDB
  12 Years Old
  0 <span title="STON repos on GitHub.">Repos</span>
 
@@ -42,6 +42,6 @@ codeWithHeader Example from <a href='https://github.com/tomas-stefano/smalltalk-
 
 endColumns
 
-keyboardNav quicklisp-pm.html interchange-file-format.html
+keyboardNav interchange-file-format.html theos-multi-user-basic.html
 
 import ../footer.scroll

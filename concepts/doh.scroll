@@ -7,7 +7,7 @@ title DNS over HTTPS - Protocol
 
 html
  <a class="trueBaseThemePreviousItem" href="knitr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="epigram.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="type-language.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/doh.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
 
 dashboard
- #950 <span title="TotalRank: 1518 Jobs: 103 Users: 429 Facts: 2546 Links: 986">on PLDB</span>
+ #950 <span title="TotalRank: 1518 Jobs: 103 Users: 429 Facts: 2551 Links: 986">on PLDB</span>
  6 Years Old
 
 * DNS over HTTPS (DoH) is a protocol for performing remote Domain Name System (DNS) resolution via the HTTPS protocol. A goal of the method is to increase user privacy and security by preventing eavesdropping and manipulation of DNS data by man-in-the-middle attacks by using the HTTPS protocol to encrypt the data between the DoH client and the DoH-based DNS resolver.  Encryption by itself does not protect privacy, encryption is simply a method to obfuscate the data. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav knitr.html epigram.html
+keyboardNav knitr.html type-language.html
 
 import ../footer.scroll

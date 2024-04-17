@@ -7,7 +7,7 @@ title Linker Script - Application
 
 html
  <a class="trueBaseThemePreviousItem" href="xsharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fl.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="jinx.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linker-script.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
 
 dashboard
- #1960 on PLDB
+ #1963 on PLDB
  33 Years Old
 
 * ld combines a number of object and archive files, relocates their data and ties up symbol references. Usually the last step in compiling a program is to run ld. ld accepts Linker Command Language files written in a superset of AT&T’s Link Editor Command Language syntax, to provide explicit and total control over the linking process.
@@ -47,6 +47,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav xsharp.html fl.html
+keyboardNav xsharp.html jinx.html
 
 import ../footer.scroll

@@ -7,7 +7,7 @@ title Margin - Text markup language
 
 html
  <a class="trueBaseThemePreviousItem" href="lawvere.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ecsharp.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="scaml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/margin.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/gamburg/margin
 
 dashboard
- #1669 <span title="TotalRank: 2180 Jobs: 103 Users: 1091 Facts: 1156 Links: 986">on PLDB</span>
+ #1661 <span title="TotalRank: 2180 Jobs: 103 Users: 1091 Facts: 1159 Links: 986">on PLDB</span>
  5 Years Old
 
 * Margin is a lightweight markup language for hierarchically structured thought, like notes and to-do lists.
@@ -44,6 +44,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav lawvere.html ecsharp.html
+keyboardNav lawvere.html scaml.html
 
 import ../footer.scroll

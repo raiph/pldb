@@ -6,7 +6,7 @@ title Shapefile - Binary data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="guile.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="chaiscript.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="simple-binary-encoding.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shapefile.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
 
 dashboard
- #696 on PLDB
+ #695 on PLDB
  29 Years Old
 
 * The shapefile format is a popular geospatial vector data format for geographic information system (GIS) software. It is developed and regulated by Esri as a (mostly) open specification for data interoperability among Esri and other GIS software products. The shapefile format can spatially describe vector features: points, lines, and polygons, representing, for example, water wells, rivers, and lakes. Read more on Wikipedia...
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav guile.html simple-binary-encoding.html
+keyboardNav chaiscript.html simple-binary-encoding.html
 
 import ../footer.scroll

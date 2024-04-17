@@ -6,8 +6,8 @@ title chisel - Hardware description language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mckeeman-form.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="impala.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="hyperscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="mun-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chisel.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/freechipsproject/chisel3
 
 dashboard
- #756 <span title="TotalRank: 1324 Jobs: 103 Users: 235 Facts: 1253 Links: 986">on PLDB</span>
+ #756 <span title="TotalRank: 1324 Jobs: 103 Users: 235 Facts: 1256 Links: 986">on PLDB</span>
  9 Years Old
 
 * Chisel 3: A Modern Hardware Design Language
@@ -41,6 +41,6 @@ dashboard
 
 endColumns
 
-keyboardNav mckeeman-form.html impala.html
+keyboardNav hyperscript.html mun-lang.html
 
 import ../footer.scroll

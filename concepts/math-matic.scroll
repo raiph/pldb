@@ -6,8 +6,8 @@ title MATH-MATIC - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="molfile-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gerbil.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="gerbil.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="wyvern.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/math-matic.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1957 1957
 
 dashboard
- #1022 <span title="TotalRank: 1587 Jobs: 103 Users: 1577 Facts: 993 Links: 491">on PLDB</span>
+ #1023 <span title="TotalRank: 1589 Jobs: 103 Users: 1577 Facts: 995 Links: 491">on PLDB</span>
  67 Years Old
 
 * MATH-MATIC is the marketing name for the AT-3 (Algebraic Translator 3) compiler, an early programming language for the UNIVAC I and UNIVAC II. MATH-MATIC was written beginning around 1955 by a team led by Charles Katz under the direction of Grace Hopper. A preliminary manual was produced in 1957 and a final manual the following year. Read more on Wikipedia...
@@ -53,6 +53,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/MATH-MATIC'>W
 
 endColumns
 
-keyboardNav molfile-format.html gerbil.html
+keyboardNav gerbil.html wyvern.html
 
 import ../footer.scroll

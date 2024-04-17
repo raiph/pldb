@@ -6,8 +6,8 @@ title Hyperscript - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="apt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zz.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mckeeman-form.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="chisel.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hyperscript.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/hyperhype/hyperscript
 
 dashboard
- #753 <span title="TotalRank: 1321 Jobs: 103 Users: 304 Facts: 914 Links: 986">on PLDB</span>
+ #755 <span title="TotalRank: 1322 Jobs: 103 Users: 304 Facts: 915 Links: 986">on PLDB</span>
  12 Years Old
 
 * Create HyperText with JavaScript.
@@ -53,6 +53,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav apt.html zz.html
+keyboardNav mckeeman-form.html chisel.html
 
 import ../footer.scroll

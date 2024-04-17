@@ -7,7 +7,7 @@ title jeebox - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="janus-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dependent-ml.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="databus.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jeebox.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/gamblevore/jeebox
 
 dashboard
- #1501 <span title="TotalRank: 2022 Jobs: 103 Users: 2373 Facts: 1253 Links: 666">on PLDB</span>
+ #1505 <span title="TotalRank: 2025 Jobs: 103 Users: 2373 Facts: 1256 Links: 666">on PLDB</span>
  12 Years Old
 
 * Clean extensible language for describing code, and human-language. 
@@ -43,6 +43,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav janus-lang.html dependent-ml.html
+keyboardNav janus-lang.html databus.html
 
 import ../footer.scroll

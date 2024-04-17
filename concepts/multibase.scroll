@@ -7,7 +7,7 @@ title multibase - Standard
 
 html
  <a class="trueBaseThemePreviousItem" href="links-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="virgil.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="matrix-protocol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/multibase.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/multiformats/multibase
 
 dashboard
- #1801 on PLDB
+ #1804 on PLDB
  8 Years Old
 
 * Self identifying base encodings
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav links-programming-language.html virgil.html
+keyboardNav links-programming-language.html matrix-protocol.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title gleam - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="toffeescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blackcoffee.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="heap.coffee.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="asciidots.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gleam.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/lpil/gleam
 
 dashboard
- #689 <span title="TotalRank: 1262 Jobs: 103 Users: 217 Facts: 942 Links: 986">on PLDB</span>
+ #691 <span title="TotalRank: 1264 Jobs: 103 Users: 217 Facts: 944 Links: 986">on PLDB</span>
  8 Years Old
  104 <span title="gleam repos on GitHub.">Repos</span>
 
@@ -44,6 +44,6 @@ dashboard
 
 endColumns
 
-keyboardNav toffeescript.html blackcoffee.html
+keyboardNav heap.coffee.html asciidots.html
 
 import ../footer.scroll

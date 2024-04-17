@@ -7,7 +7,7 @@ title WML - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="slice.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperscript-lang.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="stencil.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wml.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
 
 dashboard
- #813 <span title="TotalRank: 1374 Jobs: 103 Users: 1693 Facts: 780 Links: 491">on PLDB</span>
+ #812 <span title="TotalRank: 1374 Jobs: 103 Users: 1693 Facts: 780 Links: 491">on PLDB</span>
  18 Years Old
 
 * Website Meta Language (WML) and its associated command wmk are together a free and extensible web designer's off-line HTML generation toolkit for Unix, distributed under the GNU General Public License (GPL v2). It works as an off-line content management system. It is written in ANSI C and Perl 5, built via a GNU Autoconf based source tree and runs out-of-the-box on all major Unix derivates. Read more on Wikipedia...
@@ -56,6 +56,6 @@ treeTable
   Example
    "Hello world"
 
-keyboardNav slice.html hyperscript-lang.html
+keyboardNav slice.html stencil.html
 
 import ../footer.scroll

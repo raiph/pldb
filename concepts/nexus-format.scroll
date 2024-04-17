@@ -6,7 +6,7 @@ title Nexus file - Text data format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="asciimath.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="joss.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="netrexx.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nexus-format.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
 
 dashboard
- #978 <span title="TotalRank: 1536 Jobs: 103 Users: 1188 Facts: 942 Links: 491">on PLDB</span>
+ #979 <span title="TotalRank: 1538 Jobs: 103 Users: 1188 Facts: 944 Links: 491">on PLDB</span>
  27 Years Old
 
 * The NEXUS file format (usually .nex or .nxs) is widely used in bioinformatics. Several popular phylogenetic programs such as PAUP*, MrBayes, Mesquite,, MacClade and SplitsTree use this format.. Read more on Wikipedia...
@@ -56,6 +56,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Nexus_file'>W
 
 endColumns
 
-keyboardNav asciimath.html netrexx.html
+keyboardNav joss.html netrexx.html
 
 import ../footer.scroll

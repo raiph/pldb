@@ -6,8 +6,8 @@ title Pig Latin - Query language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="jflex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="thrift.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="thrift.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="max.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pig.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #379 <span title="TotalRank: 854 Jobs: 103 Users: 468 Facts: 283 Links: 666">on PLDB</span>
+ #380 <span title="TotalRank: 855 Jobs: 103 Users: 468 Facts: 284 Links: 666">on PLDB</span>
  16 Years Old
  1k <span title="Pig Latin repos on GitHub.">Repos</span>
 
@@ -142,6 +142,6 @@ treeTable
   Token 
   Example
 
-keyboardNav jflex.html thrift.html
+keyboardNav thrift.html max.html
 
 import ../footer.scroll

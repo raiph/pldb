@@ -6,7 +6,7 @@ title MurmurHash - Hash function
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="iswim.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="asterisk.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="stackless-python.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/murmur-hash-function.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #1253 on PLDB
+ #1252 on PLDB
  16 Years Old
 
 * MurmurHash is a non-cryptographic hash function suitable for general hash-based lookup.  It was created by Austin Appleby in 2008 and is currently hosted on GitHub along with its test suite named 'SMHasher'. It also exists in a number of variants, all of which have been released into the public domain. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav iswim.html stackless-python.html
+keyboardNav asterisk.html stackless-python.html
 
 import ../footer.scroll

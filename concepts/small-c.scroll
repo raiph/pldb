@@ -6,7 +6,7 @@ title Small-C - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="guix.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="nesl.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="ko.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/small-c.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1980 1980
 
 dashboard
- #1449 <span title="TotalRank: 1976 Jobs: 103 Users: 1207 Facts: 2179 Links: 666">on PLDB</span>
+ #1450 <span title="TotalRank: 1976 Jobs: 103 Users: 1207 Facts: 2183 Links: 666">on PLDB</span>
  44 Years Old
 
 * Small-C is both a subset of the C programming language, suitable for resource-limited microcomputers and embedded systems, and an implementation of that subset. Originally valuable as an early compiler for microcomputer systems available during the late 1970s and early 1980s, the implementation has also been useful as an example simple enough for teaching purposes. The original compiler, written in Small-C for the Intel 8080 by Ron Cain, appeared in the May 1980 issue of Dr. Read more on Wikipedia...
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav guix.html ko.html
+keyboardNav nesl.html ko.html
 
 import ../footer.scroll

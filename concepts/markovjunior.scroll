@@ -7,7 +7,7 @@ title MarkovJunior - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="unified-parallel-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="karel.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="arexx.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/markovjunior.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/mxgmn/MarkovJunior
 
 dashboard
- #696 <span title="TotalRank: 1265 Jobs: 103 Users: 176 Facts: 1782 Links: 986">on PLDB</span>
+ #694 <span title="TotalRank: 1265 Jobs: 103 Users: 176 Facts: 1786 Links: 986">on PLDB</span>
  2 Years Old
 
 * Probabilistic language based on pattern matching and constraint propagation, 153 examples
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav unified-parallel-c.html karel.html
+keyboardNav unified-parallel-c.html arexx.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title XBLite - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="flavors.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bc.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="bc.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="adept.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xblite.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#davidSzafranski David Szafranski
 
 dashboard
- #1091 <span title="TotalRank: 1649 Jobs: 103 Users: 1756 Facts: 1055 Links: 491">on PLDB</span>
+ #1092 <span title="TotalRank: 1652 Jobs: 103 Users: 1756 Facts: 1058 Links: 491">on PLDB</span>
  23 Years Old
 
 * XBLite is a free Open Source BASIC programming language compiler and development system. It was started in 2001 by David Szafranski in order to provide a Windows exclusive version of the XBasic dialect. XBLite is released under the GNU GPL licensing scheme, Standard libraries are released under the GNU LGPL licensing scheme. Read more on Wikipedia...
@@ -71,6 +71,6 @@ treeTable
   Token 
   Example
 
-keyboardNav flavors.html bc.html
+keyboardNav bc.html adept.html
 
 import ../footer.scroll

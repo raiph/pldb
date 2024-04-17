@@ -6,7 +6,7 @@ title verona - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mun-lang.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="impala.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="cartocss.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/verona.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/microsoft/verona
 
 dashboard
- #759 <span title="TotalRank: 1326 Jobs: 103 Users: 237 Facts: 1782 Links: 986">on PLDB</span>
+ #759 <span title="TotalRank: 1326 Jobs: 103 Users: 237 Facts: 1786 Links: 986">on PLDB</span>
  5 Years Old
 
 * Research programming language for concurrent ownership
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav mun-lang.html cartocss.html
+keyboardNav impala.html cartocss.html
 
 import ../footer.scroll

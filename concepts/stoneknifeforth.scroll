@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/kragen/stoneknifeforth
 
 dashboard
- #1379 <span title="TotalRank: 1907 Jobs: 103 Users: 818 Facts: 1782 Links: 986">on PLDB</span>
+ #1379 <span title="TotalRank: 1907 Jobs: 103 Users: 818 Facts: 1786 Links: 986">on PLDB</span>
  16 Years Old
 
 * This is StoneKnifeForth, a very simple language inspired by Forth. It is not expected to be useful; instead, its purpose is to show how simple a compiler can be. The compiler is a bit under two pages of code when the comments are removed. This package includes a “metacircular compiler” which is written in StoneKnifeForth and compiles StoneKnifeForth to an x86 Linux ELF executable.

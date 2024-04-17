@@ -6,8 +6,8 @@ title Hotdog - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="basic4ppc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="m-expressions.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="object-query-language.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="inko.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hotdog.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #1645 <span title="TotalRank: 2147 Jobs: 103 Users: 1058 Facts: 2454 Links: 986">on PLDB</span>
+ #1626 <span title="TotalRank: 2147 Jobs: 103 Users: 1058 Facts: 2459 Links: 986">on PLDB</span>
  23 Years Old
 
 * HotDog is an HTML editor developed by Sausage Software in the mid-1990s. At the time of its development, there were only a small number of HTML editors available on the market (such as HoTMetaL) and HotDog gathered significant interest due to its ease of use. The program was developed by the New Zealand Internet entrepreneur Steve Outtrim. Read more on Wikipedia...
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav basic4ppc.html m-expressions.html
+keyboardNav object-query-language.html inko.html
 
 import ../footer.scroll

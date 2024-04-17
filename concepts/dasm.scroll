@@ -7,7 +7,7 @@ title Dasm - Assembly language
 
 html
  <a class="trueBaseThemePreviousItem" href="candor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scaml.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="lawvere.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dasm.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/dasm-assembler/dasm
 
 dashboard
- #1656 <span title="TotalRank: 2173 Jobs: 103 Users: 1084 Facts: 1308 Links: 986">on PLDB</span>
+ #1659 <span title="TotalRank: 2173 Jobs: 103 Users: 1084 Facts: 1311 Links: 986">on PLDB</span>
  36 Years Old
 
 * Macro assembler with support for several 8-bit microprocessors
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav candor.html scaml.html
+keyboardNav candor.html lawvere.html
 
 import ../footer.scroll

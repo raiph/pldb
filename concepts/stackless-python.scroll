@@ -7,7 +7,7 @@ title Stackless Python - Interpreter
 
 html
  <a class="trueBaseThemePreviousItem" href="murmur-hash-function.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="differential-datalog.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="iswim.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stackless-python.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #1254 on PLDB
+ #1253 on PLDB
  26 Years Old
 
 * Stackless Python, or Stackless, is a Python programming language interpreter, so named because it avoids depending on the C call stack for its own stack. In practice, Stackless Python uses the C stack, but the stack is cleared between function calls . The most prominent feature of Stackless is microthreads, which avoid much of the overhead associated with usual operating system threads. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav murmur-hash-function.html differential-datalog.html
+keyboardNav murmur-hash-function.html iswim.html
 
 import ../footer.scroll

@@ -6,7 +6,7 @@ title Armed Bear Common Lisp - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="explorer.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="jsl.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="redprl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abcl-lang.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/armedbear/abcl
 
 dashboard
- #1578 <span title="TotalRank: 2083 Jobs: 103 Users: 994 Facts: 1588 Links: 986">on PLDB</span>
+ #1567 <span title="TotalRank: 2083 Jobs: 103 Users: 994 Facts: 1591 Links: 986">on PLDB</span>
  16 Years Old
 
 * Armed Bear Common Lisp (ABCL) is a full implementation of the Common Lisp language featuring both an interpreter and a compiler, running in the JVM. Originally started to be a scripting language for the J editor, it now supports JSR-223 (Java scripting API): it can be a scripting engine in any Java application. Additionally, it can be used to implement (parts of) the application using Java to Lisp integration APIs.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav explorer.html redprl.html
+keyboardNav jsl.html redprl.html
 
 import ../footer.scroll

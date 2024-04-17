@@ -7,7 +7,7 @@ title NESL - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="simscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="guix.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="small-c.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nesl.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
 
 dashboard
- #1447 <span title="TotalRank: 1972 Jobs: 103 Users: 1648 Facts: 1378 Links: 491">on PLDB</span>
+ #1449 <span title="TotalRank: 1975 Jobs: 103 Users: 1648 Facts: 1381 Links: 491">on PLDB</span>
  31 Years Old
 
 * NESL is a parallel programming language developed at Carnegie Mellon by the SCandAL project and released in 1993. It integrates various ideas from parallel algorithms, and functional programming and array programming languages. The most important new ideas behind NESL are  Nested data parallelism: this feature offers the benefits of data parallelism, concise code that is easy to understand and debug, while being well suited for irregular algorithms, such as algorithms on trees, graphs or sparse matrices. Read more on Wikipedia...
@@ -47,6 +47,6 @@ treeTable
   Token 
   Example
 
-keyboardNav simscript.html guix.html
+keyboardNav simscript.html small-c.html
 
 import ../footer.scroll

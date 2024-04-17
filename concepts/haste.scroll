@@ -6,7 +6,7 @@ title haste - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="aardvark.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="perl-data-language.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="ezhil.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/haste.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/valderman/haste-compiler
 
 dashboard
- #902 <span title="TotalRank: 1470 Jobs: 103 Users: 381 Facts: 1308 Links: 986">on PLDB</span>
+ #902 <span title="TotalRank: 1470 Jobs: 103 Users: 381 Facts: 1311 Links: 986">on PLDB</span>
  10 Years Old
 
 * A GHC-based Haskell to JavaScript compiler
@@ -44,6 +44,6 @@ pipeTable
  title|titleLink|date|score|comments
  Haste language|https://news.ycombinator.com/item?id=7513516|04/02/2014|259|73
 
-keyboardNav aardvark.html ezhil.html
+keyboardNav perl-data-language.html ezhil.html
 
 import ../footer.scroll

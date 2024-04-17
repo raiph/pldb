@@ -7,7 +7,7 @@ title ArchieML - Data notation
 
 html
  <a class="trueBaseThemePreviousItem" href="breccia.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vely.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cdent.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/archieml.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
 
 dashboard
- #1428 <span title="TotalRank: 1951 Jobs: 103 Users: 2438 Facts: 862 Links: 986">on PLDB</span>
+ #1428 <span title="TotalRank: 1951 Jobs: 103 Users: 2441 Facts: 862 Links: 986">on PLDB</span>
  9 Years Old
 
 * Try now: <a href="http://archieml.org/sandbox.html">Web</a>
@@ -73,6 +73,6 @@ treeTable
   Example
    AML ignores all whitespace not within a value. We believe this makes it easier for non-programmers to use, and is essential for use in environments with non-monospaced fonts, like in Google Documents.
 
-keyboardNav breccia.html vely.html
+keyboardNav breccia.html cdent.html
 
 import ../footer.scroll

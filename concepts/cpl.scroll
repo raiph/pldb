@@ -6,7 +6,7 @@ title CPL - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="lsl.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="bosque.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="alice.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cpl.pldb
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#christopherStrachey Christopher Strachey
 
 dashboard
- #676 <span title="TotalRank: 1254 Jobs: 103 Users: 955 Facts: 914 Links: 237">on PLDB</span>
+ #677 <span title="TotalRank: 1255 Jobs: 103 Users: 955 Facts: 915 Links: 237">on PLDB</span>
  61 Years Old
 
 * CPL (Combined Programming Language) is a multi-paradigm programming language, that was developed in the early 1960s.  It is an early ancestor of the C language via the BCPL and B languages.. Read more on Wikipedia...
@@ -56,6 +56,6 @@ treeTable
   Token :=
   Example
 
-keyboardNav lsl.html alice.html
+keyboardNav bosque.html alice.html
 
 import ../footer.scroll

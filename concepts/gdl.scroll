@@ -6,7 +6,7 @@ title GNU Data Language - Interface design language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="sisal.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="mirth.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="cfscript.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gdl.pldb
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#marcSchellens Marc Schellens
 
 dashboard
- #1374 <span title="TotalRank: 1902 Jobs: 103 Users: 1414 Facts: 1308 Links: 491">on PLDB</span>
+ #1375 <span title="TotalRank: 1905 Jobs: 103 Users: 1414 Facts: 1311 Links: 491">on PLDB</span>
  20 Years Old
 
 * The GNU Data Language (GDL) is a free alternative to IDL (Interactive Data Language). Together with its library routines, GDL is developed to serve as a tool for data analysis and visualization in such disciplines as astronomy, geosciences, and medical imaging. GDL is licensed under the GPL. Read more on Wikipedia...
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav sisal.html cfscript.html
+keyboardNav mirth.html cfscript.html
 
 import ../footer.scroll

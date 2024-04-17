@@ -7,7 +7,7 @@ title net-format - Text data format
 
 html
  <a class="trueBaseThemePreviousItem" href="balgol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sporth.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="pycket.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/net-format.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
 
 dashboard
- #1521 <span title="TotalRank: 2031 Jobs: 103 Users: 2832 Facts: 942 Links: 986">on PLDB</span>
+ #1524 <span title="TotalRank: 2033 Jobs: 103 Users: 2837 Facts: 944 Links: 986">on PLDB</span>
  18 Years Old
 
 * The net file format is used to describe the axtNet data that underlie the net alignment annotations in the Genome Browser. In 2016 it was revised so that line indentation level represents the parent/child relationship between records and is a necessary part of the net file format. Child records are indented one space from the parent, as shown in the example net file below.
@@ -69,6 +69,6 @@ treeTable
   Token 
   Example
 
-keyboardNav balgol.html sporth.html
+keyboardNav balgol.html pycket.html
 
 import ../footer.scroll
