@@ -6,8 +6,8 @@ title Apache Lucene - Query language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="literate-agda.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kitten.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="kitten.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="chuck.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lucene-query-syntax.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
 
 dashboard
- #771 <span title="TotalRank: 1340 Jobs: 103 Users: 571 Facts: 1981 Links: 666">on PLDB</span>
+ #772 <span title="TotalRank: 1341 Jobs: 103 Users: 571 Facts: 1982 Links: 667">on PLDB</span>
  25 Years Old
 
 * Apache Lucene is a free and open-source information retrieval software library, originally written completely in Java by Doug Cutting. It is supported by the Apache Software Foundation and is released under the Apache Software License. Lucene has been ported to other programming languages including Object Pascal, Perl, C#, C++, Python, Ruby and PHP.. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav literate-agda.html kitten.html
+keyboardNav kitten.html chuck.html
 
 import ../footer.scroll

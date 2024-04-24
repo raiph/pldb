@@ -6,8 +6,8 @@ title Lucid - Template language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="short-code-computer-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kuroko.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="juvix.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="short-code-computer-language.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lucid-lang.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/chrisdone/lucid
 
 dashboard
- #1473 <span title="TotalRank: 1995 Jobs: 103 Users: 906 Facts: 1311 Links: 986">on PLDB</span>
+ #1472 <span title="TotalRank: 1995 Jobs: 103 Users: 906 Facts: 1311 Links: 986">on PLDB</span>
  10 Years Old
 
 * Clear to write, read and edit DSL for writing HTML
@@ -42,6 +42,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav short-code-computer-language.html kuroko.html
+keyboardNav juvix.html short-code-computer-language.html
 
 import ../footer.scroll

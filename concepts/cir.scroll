@@ -6,7 +6,7 @@ title CIR - Intermediate representation language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="partiql.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="ddfql.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="lucid.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cir.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/facebookincubator/clangir
 
 dashboard
- #1216 <span title="TotalRank: 1764 Jobs: 103 Users: 1245 Facts: 995 Links: 666">on PLDB</span>
+ #1224 <span title="TotalRank: 1765 Jobs: 103 Users: 1245 Facts: 995 Links: 667">on PLDB</span>
  4 Years Old
 
 * Clang IR (CIR) is a new IR for Clang.
@@ -72,6 +72,6 @@ treeTable
   Token 
   Example
 
-keyboardNav partiql.html lucid.html
+keyboardNav ddfql.html lucid.html
 
 import ../footer.scroll

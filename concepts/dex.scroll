@@ -7,7 +7,7 @@ title dex - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="autocode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="earl-grey.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="masm.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dex.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/google-research/dex-lang
 
 dashboard
- #960 <span title="TotalRank: 1527 Jobs: 103 Users: 438 Facts: 1092 Links: 986">on PLDB</span>
+ #961 <span title="TotalRank: 1527 Jobs: 103 Users: 438 Facts: 1092 Links: 986">on PLDB</span>
  6 Years Old
 
 * Research language for array processing in the Haskell/ML family
@@ -64,6 +64,6 @@ treeTable
   Token 
   Example
 
-keyboardNav autocode.html earl-grey.html
+keyboardNav autocode.html masm.html
 
 import ../footer.scroll

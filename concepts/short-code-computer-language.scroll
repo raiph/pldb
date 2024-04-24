@@ -6,8 +6,8 @@ title Short Code computer language - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="juvix.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lucid-lang.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="lucid-lang.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="kuroko.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/short-code-computer-language.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1949 1949
 
 dashboard
- #1472 <span title="TotalRank: 1995 Jobs: 103 Users: 1226 Facts: 1591 Links: 666">on PLDB</span>
+ #1473 <span title="TotalRank: 1996 Jobs: 103 Users: 1226 Facts: 1591 Links: 667">on PLDB</span>
  75 Years Old
 
 * Short Code was one of the first higher-level languages ever developed for an electronic computer. Unlike machine code, Short Code statements represented mathematic expressions rather than a machine instruction. Also known as an automatic programming, the source code was not compiled but executed through an interpreter to simplify the programming process; the execution time was much slower though.. Read more on Wikipedia...
@@ -43,6 +43,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Short_Code_(c
 
 endColumns
 
-keyboardNav juvix.html lucid-lang.html
+keyboardNav lucid-lang.html kuroko.html
 
 import ../footer.scroll

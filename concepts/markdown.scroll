@@ -6,8 +6,8 @@ title Markdown - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="smali.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nginx-config.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="vhdl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="tls.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/markdown.pldb
 
@@ -21,7 +21,7 @@ startColumns 4
  link ../lists/creators.html#aaronSwartz Aaron Swartz
 
 dashboard
- #93 <span title="TotalRank: 294 Jobs: 103 Users: 106 Facts: 243 Links: 85">on PLDB</span>
+ #90 <span title="TotalRank: 287 Jobs: 103 Users: 106 Facts: 243 Links: 78">on PLDB</span>
  20 Years Old
  1k <span title="Markdown repos on GitHub.">Repos</span>
 
@@ -120,6 +120,6 @@ treeTable
   Token 
   Example
 
-keyboardNav smali.html nginx-config.html
+keyboardNav vhdl.html tls.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Swallow - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="xbl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tap.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="femtolisp.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="xbl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/swallow.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/peregrine-lang/Peregrine
 
 dashboard
- #911 <span title="TotalRank: 1479 Jobs: 103 Users: 390 Facts: 1981 Links: 986">on PLDB</span>
+ #911 <span title="TotalRank: 1479 Jobs: 103 Users: 390 Facts: 1982 Links: 986">on PLDB</span>
  3 Years Old
 
 * A blazing fast language for the blazing fast world(WIP)
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav xbl.html tap.html
+keyboardNav femtolisp.html xbl.html
 
 import ../footer.scroll

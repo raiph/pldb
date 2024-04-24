@@ -24,7 +24,7 @@ startColumns 4
  link ../lists/creators.html#eddieKohler Eddie Kohler
 
 dashboard
- #3002 <span title="TotalRank: 3606 Jobs: 103 Users: 2837 Facts: 2937 Links: 666">on PLDB</span>
+ #3003 <span title="TotalRank: 3608 Jobs: 103 Users: 2838 Facts: 2938 Links: 667">on PLDB</span>
  16 Years Old
 
 * A prototype implementation of xoc in zeta, a C-like interpreted procedural language with first-class functions. Zeta makes writing extensions easier than standard C, although extension writers must adjust to a slightly different language. Our implementation runs zeta using a bytecode interpreter and is therefore limited in its performance; we plan to replace the bytecode interpreter with compilation to machine code, which should reduce the compilation time for a large program from tens of seconds to a fraction of a second.

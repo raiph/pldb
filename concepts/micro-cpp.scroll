@@ -7,7 +7,7 @@ title ΜC++ - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="phel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="synon.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="magma.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/micro-cpp.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/pabuhr/uCPP
 
 dashboard
- #1539 <span title="TotalRank: 2053 Jobs: 103 Users: 964 Facts: 1092 Links: 986">on PLDB</span>
+ #1538 <span title="TotalRank: 2053 Jobs: 103 Users: 964 Facts: 1092 Links: 986">on PLDB</span>
  32 Years Old
 
 * μC++, also called uC++, is a programming language, an extension of C++ designed for concurrent programming. Among other features, it adds coroutines, tasks, and monitors, and extends existing language constructs to integrate with them. Its compiler, named u++, operates as a source-to-source translator targeting C++. Read more on Wikipedia...
@@ -40,6 +40,6 @@ dashboard
 
 endColumns
 
-keyboardNav phel.html synon.html
+keyboardNav phel.html magma.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Context Diff - Diff format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="json-graph-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cranelift-ir.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="edje-data-collection.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="turbo-basic.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/context-diff.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
 
 dashboard
- #802 <span title="TotalRank: 1366 Jobs: 103 Users: 2837 Facts: 597 Links: 666">on PLDB</span>
+ #804 <span title="TotalRank: 1367 Jobs: 103 Users: 2838 Facts: 597 Links: 667">on PLDB</span>
  43 Years Old
 
 * 
@@ -82,6 +82,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav json-graph-format.html cranelift-ir.html
+keyboardNav edje-data-collection.html turbo-basic.html
 
 import ../footer.scroll

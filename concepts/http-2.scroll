@@ -6,8 +6,8 @@ title HTTP/2 - Protocol
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="tap-code.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="graph-it.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ibm-gml.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="tap-code.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/http-2.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
 
 dashboard
- #729 <span title="TotalRank: 1293 Jobs: 103 Users: 204 Facts: 2717 Links: 986">on PLDB</span>
+ #728 <span title="TotalRank: 1293 Jobs: 103 Users: 204 Facts: 2718 Links: 986">on PLDB</span>
  9 Years Old
 
 * HTTP/2 (originally named HTTP/2.0) is a major revision of the HTTP network protocol used by the World Wide Web. It was derived from the earlier experimental SPDY protocol, originally developed by Google. HTTP/2 was developed by the Hypertext Transfer Protocol working group httpbis (where bis means "second") of the Internet Engineering Task Force. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav tap-code.html graph-it.html
+keyboardNav ibm-gml.html tap-code.html
 
 import ../footer.scroll

@@ -7,7 +7,7 @@ title Datomic - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="bbj.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bbx.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cytosol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/datomic.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
 
 dashboard
- #2461 <span title="TotalRank: 3035 Jobs: 103 Users: 2441 Facts: 2628 Links: 491">on PLDB</span>
+ #2462 <span title="TotalRank: 3036 Jobs: 103 Users: 2442 Facts: 2629 Links: 491">on PLDB</span>
  12 Years Old
 
 * Datomic's query and rules system is an extended form of Datalog. Datalog is a deductive query system, typically consisting of: A database of facts; A set of rules for deriving new facts from existing facts; a query processor that, given some partial specification of a fact or rule: finds all matching facts.
@@ -37,6 +37,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav bbj.html bbx.html
+keyboardNav bbj.html cytosol.html
 
 import ../footer.scroll

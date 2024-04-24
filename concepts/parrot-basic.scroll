@@ -7,7 +7,7 @@ title Parrot BASIC - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="fact.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="status-quo-function.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="hazel.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/parrot-basic.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
 
 dashboard
- #1220 <span title="TotalRank: 1764 Jobs: 103 Users: 2101 Facts: 995 Links: 666">on PLDB</span>
+ #1228 <span title="TotalRank: 1765 Jobs: 103 Users: 2101 Facts: 995 Links: 667">on PLDB</span>
  15 Years Old
 
 * Parrot is a register-based process virtual machine designed to run dynamic languages efficiently. It is possible to compile Parrot assembly language and PIR (an intermediate language) to Parrot bytecode and execute it. Parrot is free and open source software.Parrot was started by the Perl community and is developed with help from the open source and free software communities. Read more on Wikipedia...
@@ -72,6 +72,6 @@ treeTable
   Token 
   Example
 
-keyboardNav fact.html status-quo-function.html
+keyboardNav fact.html hazel.html
 
 import ../footer.scroll

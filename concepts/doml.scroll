@@ -7,7 +7,7 @@ title DOML - Data notation
 
 html
  <a class="trueBaseThemePreviousItem" href="mech-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smiles-format.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="strips.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/doml.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/DOML-Lang/DOML
 
 dashboard
- #881 <span title="TotalRank: 1444 Jobs: 103 Users: 2358 Facts: 355 Links: 986">on PLDB</span>
+ #879 <span title="TotalRank: 1444 Jobs: 103 Users: 2358 Facts: 355 Links: 986">on PLDB</span>
  7 Years Old
 
 * The specification document for DOML
@@ -101,6 +101,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav mech-lang.html smiles-format.html
+keyboardNav mech-lang.html strips.html
 
 import ../footer.scroll

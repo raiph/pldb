@@ -6,8 +6,8 @@ title GraphML - Xml format
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="oden.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="grammatical-framework.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="maude.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="rason.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/graphml.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #1164 <span title="TotalRank: 1711 Jobs: 103 Users: 942 Facts: 1256 Links: 666">on PLDB</span>
+ #1171 <span title="TotalRank: 1712 Jobs: 103 Users: 942 Facts: 1256 Links: 667">on PLDB</span>
  23 Years Old
 
 * GraphML is an XML-based file format for graphs. The GraphML file format results from the joint effort of the graph drawing community to define a common format for exchanging graph structure data. It uses an XML-based syntax and supports the entire range of possible graph structure constellations including directed, undirected, mixed graphs, hypergraphs, and application-specific attributes.. Read more on Wikipedia...
@@ -46,6 +46,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/GraphML'>Wiki
 
 endColumns
 
-keyboardNav oden.html grammatical-framework.html
+keyboardNav maude.html rason.html
 
 import ../footer.scroll

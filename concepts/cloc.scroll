@@ -6,7 +6,7 @@ title cloc - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="cobra.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="minidsdb.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="volt.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cloc.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/AlDanial/cloc
 
 dashboard
- #750 on PLDB
+ #749 on PLDB
  18 Years Old
 
 * cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav cobra.html volt.html
+keyboardNav minidsdb.html volt.html
 
 import ../footer.scroll

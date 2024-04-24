@@ -6,8 +6,8 @@ title MDX - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="imap-protocol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vrml.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="fortress.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="imap-protocol.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mdx.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/mdx-js/mdx
 
 dashboard
- #491 <span title="TotalRank: 1024 Jobs: 103 Users: 89 Facts: 832 Links: 986">on PLDB</span>
+ #490 <span title="TotalRank: 1024 Jobs: 103 Users: 89 Facts: 832 Links: 986">on PLDB</span>
  7 Years Old
 
 * Try now: <a href="https://mdxjs.com/playground/">Web</a>
@@ -51,6 +51,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav imap-protocol.html vrml.html
+keyboardNav fortress.html imap-protocol.html
 
 import ../footer.scroll

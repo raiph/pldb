@@ -6,8 +6,8 @@ title v8 - Virtual machine
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="capn-proto.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nasm.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="nasm.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="yasnippet.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/v8.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/v8/v8
 
 dashboard
- #427 on PLDB
+ #428 on PLDB
  16 Years Old
 
 * The official mirror of the V8 Git repository
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav capn-proto.html nasm.html
+keyboardNav nasm.html yasnippet.html
 
 import ../footer.scroll

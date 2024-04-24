@@ -6,8 +6,8 @@ title kitten - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="lucene-query-syntax.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chuck.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="literate-agda.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="lucene-query-syntax.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kitten.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/evincarofautumn/kitten
 
 dashboard
- #772 <span title="TotalRank: 1340 Jobs: 103 Users: 517 Facts: 720 Links: 986">on PLDB</span>
+ #771 <span title="TotalRank: 1340 Jobs: 103 Users: 517 Facts: 720 Links: 986">on PLDB</span>
  12 Years Old
 
 * Try now: <a href="https://riju.codes/kitten">Riju</a>
@@ -65,6 +65,6 @@ treeTable
   Token say
   Example
 
-keyboardNav lucene-query-syntax.html chuck.html
+keyboardNav literate-agda.html lucene-query-syntax.html
 
 import ../footer.scroll

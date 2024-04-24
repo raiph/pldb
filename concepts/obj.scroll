@@ -6,7 +6,7 @@ title OBJ - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="linc-4gl.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="nimskull.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="george.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/obj.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
 
 dashboard
- #1733 <span title="TotalRank: 2271 Jobs: 103 Users: 1701 Facts: 1502 Links: 666">on PLDB</span>
+ #1734 <span title="TotalRank: 2272 Jobs: 103 Users: 1701 Facts: 1502 Links: 667">on PLDB</span>
  48 Years Old
 
 * OBJ is a programming language family introduced by Joseph Goguen in 1976. It is a family of declarative "ultra high-level" languages. It features abstract types, generic modules, subsorts (subtypes with multiple inheritance), pattern-matching modulo equations, E-strategies (user control over laziness), module expressions (for combining modules), theories and views (for describing module interfaces) for the massively parallel RRM (rewrite rule machine). Read more on Wikipedia...
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav linc-4gl.html george.html
+keyboardNav nimskull.html george.html
 
 import ../footer.scroll

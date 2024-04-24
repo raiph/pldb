@@ -6,8 +6,8 @@ title Handel-C - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="scroll.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pomsky.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="pomsky.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dale.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/handel-c.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
 
 dashboard
- #1035 <span title="TotalRank: 1601 Jobs: 103 Users: 1446 Facts: 832 Links: 666">on PLDB</span>
+ #1036 <span title="TotalRank: 1602 Jobs: 103 Users: 1446 Facts: 832 Links: 667">on PLDB</span>
  28 Years Old
 
 * Handel-C is a high-level programming language which targets low-level hardware, most commonly used in the programming of FPGAs. It is a rich subset of C, with non-standard extensions to control hardware instantiation with an emphasis on parallelism.  Handel-C is to hardware design what the first high-level programming languages were to programming CPUs. Read more on Wikipedia...
@@ -77,6 +77,6 @@ treeTable
   Token 
   Example
 
-keyboardNav scroll.html pomsky.html
+keyboardNav pomsky.html dale.html
 
 import ../footer.scroll

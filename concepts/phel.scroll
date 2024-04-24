@@ -6,7 +6,7 @@ title Phel - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="magma.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="axiom-computer-algebra-system.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="micro-cpp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/phel.pldb
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/phel-lang/phel-lang
 
 dashboard
- #1538 <span title="TotalRank: 2053 Jobs: 103 Users: 964 Facts: 1123 Links: 986">on PLDB</span>
+ #1537 <span title="TotalRank: 2053 Jobs: 103 Users: 964 Facts: 1123 Links: 986">on PLDB</span>
  4 Years Old
 
 * Phel is a functional programming language that compiles to PHP. It is a dialect of Lisp inspired by Clojure and Janet.
@@ -46,6 +46,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav magma.html micro-cpp.html
+keyboardNav axiom-computer-algebra-system.html micro-cpp.html
 
 import ../footer.scroll

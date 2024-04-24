@@ -6,8 +6,8 @@ title ColorForth - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mobl-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cperl.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cperl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="ttcn.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/colorforth.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#charlesHMoore Charles H. Moore
 
 dashboard
- #1791 <span title="TotalRank: 2312 Jobs: 103 Users: 1543 Facts: 2320 Links: 666">on PLDB</span>
+ #1792 <span title="TotalRank: 2313 Jobs: 103 Users: 1543 Facts: 2321 Links: 667">on PLDB</span>
  32 Years Old
 
 * colorForth is a programming language from the Forth language's original designer, Charles H. Moore, developed in the 1990s. There was an earlier predecessor called 386 OK which appeared for sale at Silicon Valley Forth Interest Group (SVFIG) meetings in 1992.An idiosyncratic programming environment, the colors simplify Forth's semantics, speed compiling, and are said to aid Moore's own poor eyesight: colorForth uses different colors in its source code (replacing some of the punctuation in standard Forth) to determine how different words are treated. Read more on Wikipedia...
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav mobl-lang.html cperl.html
+keyboardNav cperl.html ttcn.html
 
 import ../footer.scroll

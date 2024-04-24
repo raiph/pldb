@@ -7,7 +7,7 @@ title Genshi - Template language
 
 html
  <a class="trueBaseThemePreviousItem" href="algo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="egison.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="edge-side-includes.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/genshi.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
 
 dashboard
- #1100 <span title="TotalRank: 1660 Jobs: 103 Users: 1756 Facts: 891 Links: 666">on PLDB</span>
+ #1101 <span title="TotalRank: 1661 Jobs: 103 Users: 1756 Facts: 891 Links: 667">on PLDB</span>
  18 Years Old
  30 <span title="Genshi repos on GitHub.">Repos</span>
 
@@ -46,6 +46,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Genshi_(templ
 
 endColumns
 
-keyboardNav algo.html egison.html
+keyboardNav algo.html edge-side-includes.html
 
 import ../footer.scroll

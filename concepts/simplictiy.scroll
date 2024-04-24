@@ -6,7 +6,7 @@ title Simplicity - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gist.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="pbasic.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="winbatch.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simplictiy.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/ElementsProject/simplicity
 
 dashboard
- #1494 <span title="TotalRank: 2007 Jobs: 103 Users: 918 Facts: 1889 Links: 986">on PLDB</span>
+ #1493 <span title="TotalRank: 2007 Jobs: 103 Users: 918 Facts: 1890 Links: 986">on PLDB</span>
  7 Years Old
 
 * Simplicity is a work-in-progress low-level programming language with greater flexibility and expressiveness than Bitcoin Script. Simplicity is a typed, combinator-based, functional language without loops and recursion, designed to be used for crypto-currencies and blockchain applications.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav gist.html winbatch.html
+keyboardNav pbasic.html winbatch.html
 
 import ../footer.scroll

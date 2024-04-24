@@ -6,8 +6,8 @@ title Scroll - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="etoys.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="handel-c.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="alef.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="islisp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scroll.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/breck7/scroll
 
 dashboard
- #1034 <span title="TotalRank: 1601 Jobs: 103 Users: 989 Facts: 832 Links: 666">on PLDB</span>
+ #861 <span title="TotalRank: 1426 Jobs: 103 Users: 989 Facts: 832 Links: 491">on PLDB</span>
  4 Years Old
 
 * Try now: <a href="https://try.scroll.pub/">Web</a>
@@ -72,6 +72,6 @@ treeTable
   Token 
   Example
 
-keyboardNav etoys.html handel-c.html
+keyboardNav alef.html islisp.html
 
 import ../footer.scroll

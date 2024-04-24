@@ -6,8 +6,8 @@ title Livr - Data validation language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="flowgorithm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xmi.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="scribble.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="cadence-skill.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/livr.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/koorchik/LIVR
 
 dashboard
- #1139 <span title="TotalRank: 1692 Jobs: 103 Users: 923 Facts: 971 Links: 666">on PLDB</span>
+ #1141 <span title="TotalRank: 1693 Jobs: 103 Users: 923 Facts: 971 Links: 667">on PLDB</span>
  12 Years Old
 
 * Try now: <a href="http://webbylab.github.io/livr-playground/">Web</a>
@@ -50,6 +50,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav flowgorithm.html xmi.html
+keyboardNav scribble.html cadence-skill.html
 
 import ../footer.scroll

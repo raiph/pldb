@@ -7,7 +7,7 @@ title Croc - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="golo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bluespec.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="clu.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/croc.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/JarrettBillingsley/Croc
 
 dashboard
- #403 <span title="TotalRank: 898 Jobs: 103 Users: 1199 Facts: 129 Links: 666">on PLDB</span>
+ #403 <span title="TotalRank: 899 Jobs: 103 Users: 1199 Facts: 129 Links: 667">on PLDB</span>
  18 Years Old
 
 * The MiniD (has been renamed Croc) programming language is a small, lightweight, extension language in the vein of Lua or Squirrel, but designed to be used mainly with the D programming language.  It supports both object-oriented and imperative programming paradigms, as well as some simple functional aspects. Distributed under the licence of zlib/libpng, MiniD is free software.. Read more on Wikipedia...
@@ -211,6 +211,6 @@ treeTable
   Token 
   Example
 
-keyboardNav golo.html bluespec.html
+keyboardNav golo.html clu.html
 
 import ../footer.scroll

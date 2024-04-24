@@ -7,7 +7,7 @@ title Ext3 - Filesystem
 
 html
  <a class="trueBaseThemePreviousItem" href="javacc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="papyrus.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="shapefile.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ext3.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #698 on PLDB
+ #697 on PLDB
  23 Years Old
 
 * ext3, or third extended filesystem, is a journaled file system that is commonly used by the Linux kernel. It used to be the default file system for many popular Linux distributions. Stephen Tweedie first revealed that he was working on extending ext2 in Journaling the Linux ext2fs Filesystem in a 1998 paper, and later in a February 1999 kernel mailing list posting. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav javacc.html papyrus.html
+keyboardNav javacc.html shapefile.html
 
 import ../footer.scroll

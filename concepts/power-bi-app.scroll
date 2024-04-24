@@ -6,8 +6,8 @@ title Power BI - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="gfs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tableau-app.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="edje-data-collection.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="gfs.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/power-bi-app.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
 
 dashboard
- #918 on PLDB
+ #917 on PLDB
  13 Years Old
 
 * Power BI is a business analytics service by Microsoft. It aims to provide interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.. Read more on Wikipedia...
@@ -35,6 +35,6 @@ dashboard
 
 endColumns
 
-keyboardNav gfs.html tableau-app.html
+keyboardNav edje-data-collection.html gfs.html
 
 import ../footer.scroll

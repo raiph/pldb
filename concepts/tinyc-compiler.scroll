@@ -6,8 +6,8 @@ title Tiny C Compiler - Compiler
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="nial.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flow-matic.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mathcad.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="micro-editor.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tinyc-compiler.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/TinyCC/tinycc
 
 dashboard
- #718 on PLDB
+ #721 on PLDB
  23 Years Old
 
 * The Tiny C Compiler (a.k.a. TCC, tCc, or TinyCC) is an x86, X86-64 and ARM processor C compiler created by Fabrice Bellard. It is designed to work for slow computers with little disk space (e.g. Read more on Wikipedia...
@@ -40,6 +40,6 @@ dashboard
 
 endColumns
 
-keyboardNav nial.html flow-matic.html
+keyboardNav mathcad.html micro-editor.html
 
 import ../footer.scroll

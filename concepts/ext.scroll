@@ -7,7 +7,7 @@ title Extended file system - Filesystem
 
 html
  <a class="trueBaseThemePreviousItem" href="connection-machine.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dale.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="f-script.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ext.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
 
 dashboard
- #1379 on PLDB
+ #1380 on PLDB
  32 Years Old
 
 * The extended file system, or ext, was implemented in April 1992 as the first file system created specifically for the Linux kernel. It has metadata structure inspired by the traditional Unix File System (UFS) and was designed by Rémy Card to overcome certain limitations of the MINIX file system. It was the first implementation that used the virtual file system (VFS), for which support was added in the Linux kernel in version 0.96c, and it could handle file systems up to 2 gigabytes (GB) in size.ext was the first in the series of extended file systems. Read more on Wikipedia...
@@ -34,6 +34,6 @@ dashboard
 
 endColumns
 
-keyboardNav connection-machine.html dale.html
+keyboardNav connection-machine.html f-script.html
 
 import ../footer.scroll

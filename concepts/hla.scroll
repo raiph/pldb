@@ -6,8 +6,8 @@ title High Level Assembly - Assembly language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="ghostscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emojicode.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="emojicode.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="caml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hla.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#randallHyde Randall Hyde
 
 dashboard
- #486 <span title="TotalRank: 1019 Jobs: 103 Users: 978 Facts: 250 Links: 666">on PLDB</span>
+ #487 <span title="TotalRank: 1020 Jobs: 103 Users: 978 Facts: 250 Links: 667">on PLDB</span>
  13 Years Old
 
 * High Level Assembly (HLA) is an high-level assembly language developed by Randall Hyde. It allows the use of higher-level language constructs to aid both beginners and advanced assembly developers. It fully supports advanced data types and object-oriented programming. Read more on Wikipedia...
@@ -144,6 +144,6 @@ treeTable
   Token 
   Example
 
-keyboardNav ghostscript.html emojicode.html
+keyboardNav emojicode.html caml.html
 
 import ../footer.scroll

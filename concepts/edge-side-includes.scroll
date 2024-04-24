@@ -6,7 +6,7 @@ title Edge Side Includes - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="egison.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="genshi.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="ink-lang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edge-side-includes.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
 
 dashboard
- #1102 <span title="TotalRank: 1661 Jobs: 103 Users: 892 Facts: 1981 Links: 666">on PLDB</span>
+ #1102 <span title="TotalRank: 1662 Jobs: 103 Users: 892 Facts: 1982 Links: 667">on PLDB</span>
  23 Years Old
 
 * Edge Side Includes or ESI is a small markup language for edge level dynamic web content assembly. The purpose of ESI is to tackle the problem of web infrastructure scaling. It is an application of edge computing. Read more on Wikipedia...
@@ -37,6 +37,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Edge_Side_Inc
 
 endColumns
 
-keyboardNav egison.html ink-lang.html
+keyboardNav genshi.html ink-lang.html
 
 import ../footer.scroll

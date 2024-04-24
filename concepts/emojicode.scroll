@@ -6,8 +6,8 @@ title Emojicode - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="hla.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="caml.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ghostscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="hla.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emojicode.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/emojicode/emojicode
 
 dashboard
- #487 <span title="TotalRank: 1019 Jobs: 103 Users: 269 Facts: 647 Links: 986">on PLDB</span>
+ #486 <span title="TotalRank: 1019 Jobs: 103 Users: 269 Facts: 647 Links: 986">on PLDB</span>
  8 Years Old
 
 * Try now: <a href="https://riju.codes/emojicode">Riju</a> · <a href="https://tio.run/#emojicode">TIO</a>
@@ -55,6 +55,6 @@ codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blo
 
 endColumns
 
-keyboardNav hla.html caml.html
+keyboardNav ghostscript.html hla.html
 
 import ../footer.scroll

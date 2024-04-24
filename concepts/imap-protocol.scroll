@@ -6,8 +6,8 @@ title IMAP - Protocol
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="fortress.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mdx.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mdx.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="vrml.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/imap-protocol.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
 
 dashboard
- #490 <span title="TotalRank: 1024 Jobs: 103 Users: 255 Facts: 2320 Links: 666">on PLDB</span>
+ #491 <span title="TotalRank: 1025 Jobs: 103 Users: 255 Facts: 2321 Links: 667">on PLDB</span>
  38 Years Old
 
 * In computing, the Internet Message Access Protocol (IMAP) is an Internet standard protocol used by email clients to retrieve email messages from a mail server over a TCP/IP connection. IMAP is defined by RFC 3501. IMAP was designed with the goal of permitting complete management of an email box by multiple email clients, therefore clients generally leave messages on the server until the user explicitly deletes them. Read more on Wikipedia...
@@ -33,6 +33,6 @@ dashboard
 
 endColumns
 
-keyboardNav fortress.html mdx.html
+keyboardNav mdx.html vrml.html
 
 import ../footer.scroll

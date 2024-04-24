@@ -6,8 +6,8 @@ title Troff - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flowchart-fun.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="objective-cpp.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="rpl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/troff.pldb
 
@@ -44,6 +44,6 @@ codeWithHeader Example from <a href='http://helloworldcollection.de/#TROFF'>the 
 
 endColumns
 
-keyboardNav mbasic.html flowchart-fun.html
+keyboardNav objective-cpp.html rpl.html
 
 import ../footer.scroll

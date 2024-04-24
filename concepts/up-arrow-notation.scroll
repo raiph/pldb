@@ -6,8 +6,8 @@ title Up-arrow notation - Notation
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="curl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="papyrus.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="papyrus.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="rholang.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/up-arrow-notation.pldb
 
@@ -20,7 +20,7 @@ startColumns 4
  link ../lists/creators.html#donaldKnuth Donald Knuth
 
 dashboard
- #587 <span title="TotalRank: 1153 Jobs: 103 Users: 384 Facts: 2183 Links: 666">on PLDB</span>
+ #588 <span title="TotalRank: 1154 Jobs: 103 Users: 384 Facts: 2184 Links: 667">on PLDB</span>
  48 Years Old
 
 * In mathematics, Knuth's up-arrow notation is a method of notation for very large integers, introduced by Donald Knuth in 1976. In his 1947 paper, R. L. Read more on Wikipedia...
@@ -38,6 +38,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav curl.html papyrus.html
+keyboardNav papyrus.html rholang.html
 
 import ../footer.scroll

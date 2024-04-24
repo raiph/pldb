@@ -6,8 +6,8 @@ title Earl Grey - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="dex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="masm.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="lispyscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="miniml-error.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/earl-grey.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/breuleux/earl-grey
 
 dashboard
- #961 <span title="TotalRank: 1528 Jobs: 103 Users: 759 Facts: 832 Links: 666">on PLDB</span>
+ #964 <span title="TotalRank: 1529 Jobs: 103 Users: 759 Facts: 832 Links: 667">on PLDB</span>
  10 Years Old
 
 * Programming language compiling to JavaScript
@@ -90,6 +90,6 @@ pipeTable
  title|titleLink|date|score|comments
  Show HN: The Earl Grey language – pattern matching, macros, compiles to JS|https://news.ycombinator.com/item?id=8150346|08/07/2014|5|1
 
-keyboardNav dex.html masm.html
+keyboardNav lispyscript.html miniml-error.html
 
 import ../footer.scroll

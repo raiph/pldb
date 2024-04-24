@@ -6,7 +6,7 @@ title micro-editor - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mathcad.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="tinyc-compiler.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="p4.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/micro-editor.pldb
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav mathcad.html p4.html
+keyboardNav tinyc-compiler.html p4.html
 
 import ../footer.scroll

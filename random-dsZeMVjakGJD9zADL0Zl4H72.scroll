@@ -18,7 +18,7 @@ html
 
 <div id="tqlErrors"></div>
 
-Searched 4,850 files and found 891 matches in 1.38s. <span id="publishQuery"></span>
+Searched 4,851 files and found 891 matches in 1.39s. <span id="publishQuery"></span>
  class trueBaseThemeSearchResultsHeader
 
 # Which language repos have the most files?
@@ -36,13 +36,13 @@ table  DeLiM
  CodeQL DeLiM /concepts/codeql.html DeLiM 42417 DeLiM 596 DeLiM 2018
  Rust DeLiM /concepts/rust.html DeLiM 41028 DeLiM 26 DeLiM 2010
  Node.js DeLiM /concepts/nodejs.html DeLiM 40065 DeLiM 38 DeLiM 2009
- Fardlang DeLiM /concepts/fardlang.html DeLiM 24765 DeLiM 2063 DeLiM 2022
+ Fardlang DeLiM /concepts/fardlang.html DeLiM 24765 DeLiM 2062 DeLiM 2022
  Swift DeLiM /concepts/swift.html DeLiM 24040 DeLiM 22 DeLiM 2014
  PHP DeLiM /concepts/php.html DeLiM 22104 DeLiM 9 DeLiM 1995
  Xtext DeLiM /concepts/xtext.html DeLiM 20334 DeLiM 578 DeLiM 2006
  Ballerina DeLiM /concepts/ballerina.html DeLiM 20266 DeLiM 222 DeLiM 2015
  Zig DeLiM /concepts/zig.html DeLiM 15997 DeLiM 211 DeLiM 2015
- michelson DeLiM /concepts/michelson.html DeLiM 15909 DeLiM 2648 DeLiM 2017
+ michelson DeLiM /concepts/michelson.html DeLiM 15909 DeLiM 2649 DeLiM 2017
  Virgil DeLiM /concepts/virgil.html DeLiM 15719 DeLiM 1806 DeLiM 2006
  dlvm DeLiM /concepts/dlvm.html DeLiM 14310 DeLiM 1415 DeLiM 2017
  Flow DeLiM /concepts/flow.html DeLiM 13927 DeLiM 223 DeLiM 2014
@@ -50,7 +50,7 @@ table  DeLiM
  ECL DeLiM /concepts/ecl.html DeLiM 13257 DeLiM 408 DeLiM 2000
  Go DeLiM /concepts/go.html DeLiM 12357 DeLiM 19 DeLiM 2009
  POV-Ray SDL DeLiM /concepts/pov-ray-sdl.html DeLiM 11792 DeLiM 340 DeLiM 1991
- KamilaLisp DeLiM /concepts/kamilalisp.html DeLiM 11603 DeLiM 2580 DeLiM 2021
+ KamilaLisp DeLiM /concepts/kamilalisp.html DeLiM 11603 DeLiM 2581 DeLiM 2021
  Factor DeLiM /concepts/factor.html DeLiM 11375 DeLiM 266 DeLiM 2003
  Ruby DeLiM /concepts/ruby.html DeLiM 10265 DeLiM 12 DeLiM 1995
  Solidity DeLiM /concepts/solidity.html DeLiM 9812 DeLiM 66 DeLiM 2014
@@ -62,7 +62,7 @@ table  DeLiM
  Revolution DeLiM /concepts/revolution-programming-language.html DeLiM 7646 DeLiM 1313 DeLiM 1993
  cperl DeLiM /concepts/cperl.html DeLiM 7391 DeLiM 2163 DeLiM 2017
  Haxe DeLiM /concepts/haxe.html DeLiM 7063 DeLiM 131 DeLiM 2005
- Flow9 DeLiM /concepts/flow9.html DeLiM 6776 DeLiM 1142 DeLiM 2010
+ Flow9 DeLiM /concepts/flow9.html DeLiM 6776 DeLiM 1143 DeLiM 2010
  PostgreSQL DeLiM /concepts/postgresql.html DeLiM 6704 DeLiM 27 DeLiM 1986
  SaltStack DeLiM /concepts/saltstack.html DeLiM 6539 DeLiM 376 DeLiM 2011
  V DeLiM /concepts/v.html DeLiM 6508 DeLiM 153 DeLiM 2019
@@ -92,8 +92,8 @@ table  DeLiM
  Carbon DeLiM /concepts/carbon.html DeLiM 3991 DeLiM 801 DeLiM 2020
  Emojicode DeLiM /concepts/emojicode.html DeLiM 3975 DeLiM 586 DeLiM 2016
  beef-lang DeLiM /concepts/beef.html DeLiM 3871 DeLiM 524 DeLiM 2019
- invokator DeLiM /concepts/invokator.html DeLiM 3793 DeLiM 1060 DeLiM 2004
- Opal DeLiM /concepts/opal.html DeLiM 3723 DeLiM 1110 DeLiM 1994
+ invokator DeLiM /concepts/invokator.html DeLiM 3793 DeLiM 1061 DeLiM 2004
+ Opal DeLiM /concepts/opal.html DeLiM 3723 DeLiM 1111 DeLiM 1994
  Dhall DeLiM /concepts/dhall.html DeLiM 3696 DeLiM 362 DeLiM 2017
  Bicep DeLiM /concepts/bicep.html DeLiM 3683 DeLiM 377 DeLiM 2020
  typecobol DeLiM /concepts/typecobol.html DeLiM 3572 DeLiM 2363 DeLiM 2015
@@ -103,22 +103,22 @@ table  DeLiM
  Uno DeLiM /concepts/uno.html DeLiM 3366 DeLiM 677 DeLiM 2002
  ugBASIC DeLiM /concepts/ugbasic.html DeLiM 3260 DeLiM 2004 DeLiM 2021
  Praat Script DeLiM /concepts/praat-script.html DeLiM 3231 DeLiM 890 DeLiM 1997
- skulpt DeLiM /concepts/skulpt.html DeLiM 3215 DeLiM 906 DeLiM 2009
+ skulpt DeLiM /concepts/skulpt.html DeLiM 3215 DeLiM 905 DeLiM 2009
  Felix DeLiM /concepts/felix.html DeLiM 3142 DeLiM 673 DeLiM 2001
  NetLogo DeLiM /concepts/netlogo.html DeLiM 3053 DeLiM 289 DeLiM 1999
  Idio DeLiM /concepts/idio.html DeLiM 2998 DeLiM 2514 DeLiM 2015
  Nimskull DeLiM /concepts/nimskull.html DeLiM 2964 DeLiM 2162 DeLiM 2021
- Open Shading Language DeLiM /concepts/open-shading-language.html DeLiM 2949 DeLiM 1062 DeLiM 2008
+ Open Shading Language DeLiM /concepts/open-shading-language.html DeLiM 2949 DeLiM 1063 DeLiM 2008
  Futhark DeLiM /concepts/futhark.html DeLiM 2914 DeLiM 630 DeLiM 2013
  Lean DeLiM /concepts/lean.html DeLiM 2908 DeLiM 256 DeLiM 2015
- Hyperscript DeLiM /concepts/hyperscript-lang.html DeLiM 2760 DeLiM 1040 DeLiM 2020
+ Hyperscript DeLiM /concepts/hyperscript-lang.html DeLiM 2760 DeLiM 1041 DeLiM 2020
  moya DeLiM /concepts/moya.html DeLiM 2751 DeLiM 1949 DeLiM 2015
  VSXu DeLiM /concepts/vsxu.html DeLiM 2705 DeLiM 1626 DeLiM 2004
  Avail DeLiM /concepts/avail.html DeLiM 2600 DeLiM 1308 DeLiM 2010
- TIScript DeLiM /concepts/tiscript.html DeLiM 2525 DeLiM 1078 DeLiM 2007
+ TIScript DeLiM /concepts/tiscript.html DeLiM 2525 DeLiM 1079 DeLiM 2007
  xodio DeLiM /concepts/xodio.html DeLiM 2501 DeLiM 1388 DeLiM 2015
  MiniZinc DeLiM /concepts/minizinc.html DeLiM 2399 DeLiM 1414 DeLiM 2012
- Spatial DeLiM /concepts/spatial.html DeLiM 2376 DeLiM 1041 DeLiM 2018
+ Spatial DeLiM /concepts/spatial.html DeLiM 2376 DeLiM 1042 DeLiM 2018
  RobotFramework DeLiM /concepts/robotframework.html DeLiM 2336 DeLiM 260 DeLiM 2013
  Project Mentat DeLiM /concepts/project-mentat.html DeLiM 2321 DeLiM 1591 DeLiM 2016
  BlitzMax DeLiM /concepts/blitzmax.html DeLiM 2272 DeLiM 877 DeLiM 2014
@@ -126,7 +126,7 @@ table  DeLiM
  Embedded Crystal DeLiM /concepts/ecr.html DeLiM 2191 DeLiM 331 DeLiM 2016
  Crystal DeLiM /concepts/crystal.html DeLiM 2191 DeLiM 76 DeLiM 2014
  Halide DeLiM /concepts/halide.html DeLiM 2161 DeLiM 373 DeLiM 2010
- nesC DeLiM /concepts/nesc.html DeLiM 2152 DeLiM 1117 DeLiM 2002
+ nesC DeLiM /concepts/nesc.html DeLiM 2152 DeLiM 1118 DeLiM 2002
  Scala.js DeLiM /concepts/scala-js.html DeLiM 2045 DeLiM 419 DeLiM 2013
  lobster DeLiM /concepts/lobster.html DeLiM 2006 DeLiM 1217 DeLiM 2011
  Lux DeLiM /concepts/lux.html DeLiM 2004 DeLiM 1214 DeLiM 2014
@@ -136,7 +136,7 @@ table  DeLiM
  SWI Prolog DeLiM /concepts/swi-prolog.html DeLiM 1888 DeLiM 568 DeLiM 1987
  Qore DeLiM /concepts/qore.html DeLiM 1879 DeLiM 1324 DeLiM 2006
  Plaid DeLiM /concepts/plaid-programming-language.html DeLiM 1872 DeLiM 2177 DeLiM 2009
- Wasp DeLiM /concepts/wasp-lang.html DeLiM 1864 DeLiM 1163 DeLiM 2019
+ Wasp DeLiM /concepts/wasp-lang.html DeLiM 1864 DeLiM 1164 DeLiM 2019
  PureScript DeLiM /concepts/purescript.html DeLiM 1844 DeLiM 173 DeLiM 2013
  ko DeLiM /concepts/ko.html DeLiM 1843 DeLiM 1862 DeLiM 2018
  CSVw DeLiM /concepts/csvw.html DeLiM 1737 DeLiM 1322 DeLiM 2014
@@ -144,12 +144,12 @@ table  DeLiM
  Opa DeLiM /concepts/opa.html DeLiM 1707 DeLiM 242 DeLiM 2011
  FlatBuffers DeLiM /concepts/flatbuffers.html DeLiM 1707 DeLiM 328 DeLiM 2014
  Nextflow DeLiM /concepts/nextflow.html DeLiM 1705 DeLiM 278 DeLiM 2013
- spiral DeLiM /concepts/spiral.html DeLiM 1685 DeLiM 1468 DeLiM 2017
+ spiral DeLiM /concepts/spiral.html DeLiM 1685 DeLiM 1467 DeLiM 2017
  WebAssembly DeLiM /concepts/wasm.html DeLiM 1670 DeLiM 113 DeLiM 2015
  tao3d DeLiM /concepts/tao3d.html DeLiM 1649 DeLiM 1613 DeLiM 2003
  Koka DeLiM /concepts/koka.html DeLiM 1645 DeLiM 534 DeLiM 2012
  Idris DeLiM /concepts/idris.html DeLiM 1643 DeLiM 151 DeLiM 2014
- ToonTalk DeLiM /concepts/toontalk.html DeLiM 1604 DeLiM 1432 DeLiM 1995
+ ToonTalk DeLiM /concepts/toontalk.html DeLiM 1604 DeLiM 1433 DeLiM 1995
  Rholang DeLiM /concepts/rholang.html DeLiM 1593 DeLiM 738 DeLiM 2016
  YAWL DeLiM /concepts/yawl.html DeLiM 1567 DeLiM 1064 DeLiM 2006
  Ecstasy DeLiM /concepts/xtclang.html DeLiM 1557 DeLiM 2208 DeLiM 2015
@@ -166,40 +166,40 @@ table  DeLiM
  Closure Templates DeLiM /concepts/closure-templates.html DeLiM 1503 DeLiM 552 DeLiM 2009
  Zephir DeLiM /concepts/zephir.html DeLiM 1487 DeLiM 249 DeLiM 2013
  elena DeLiM /concepts/elena.html DeLiM 1462 DeLiM 1649 DeLiM 2013
- P DeLiM /concepts/p.html DeLiM 1460 DeLiM 1050 DeLiM 2013
- Volt DeLiM /concepts/volt.html DeLiM 1428 DeLiM 750 DeLiM 2011
+ P DeLiM /concepts/p.html DeLiM 1460 DeLiM 1051 DeLiM 2013
+ Volt DeLiM /concepts/volt.html DeLiM 1428 DeLiM 749 DeLiM 2011
  newclay DeLiM /concepts/newclay.html DeLiM 1424 DeLiM 2513 DeLiM 2011
  Cue DeLiM /concepts/cuelang.html DeLiM 1421 DeLiM 500 DeLiM 2018
  unison DeLiM /concepts/unison.html DeLiM 1405 DeLiM 450 DeLiM 2015
- Dale DeLiM /concepts/dale.html DeLiM 1400 DeLiM 1379 DeLiM 2013
+ Dale DeLiM /concepts/dale.html DeLiM 1400 DeLiM 1377 DeLiM 2013
  Encore DeLiM /concepts/encore.html DeLiM 1377 DeLiM 2377 DeLiM 2014
  XL DeLiM /concepts/xl-lang.html DeLiM 1369 DeLiM 794 DeLiM 2000
  Nushell DeLiM /concepts/nushell.html DeLiM 1363 DeLiM 713 DeLiM 2019
  clash DeLiM /concepts/clash.html DeLiM 1351 DeLiM 1227 DeLiM 2015
  Dojo DeLiM /concepts/dojo.html DeLiM 1338 DeLiM 752 DeLiM 2005
- Rascal DeLiM /concepts/rascal.html DeLiM 1336 DeLiM 867 DeLiM 2013
+ Rascal DeLiM /concepts/rascal.html DeLiM 1336 DeLiM 866 DeLiM 2013
  UrWeb DeLiM /concepts/urweb.html DeLiM 1327 DeLiM 462 DeLiM 2008
- C2 DeLiM /concepts/c2.html DeLiM 1291 DeLiM 1065 DeLiM 2012
+ C2 DeLiM /concepts/c2.html DeLiM 1291 DeLiM 1066 DeLiM 2012
  ohm DeLiM /concepts/ohm.html DeLiM 1281 DeLiM 941 DeLiM 2014
  Hedy DeLiM /concepts/hedy.html DeLiM 1277 DeLiM 1216 DeLiM 2020
- Pan DeLiM /concepts/pan.html DeLiM 1267 DeLiM 1028 DeLiM 2011
+ Pan DeLiM /concepts/pan.html DeLiM 1267 DeLiM 1029 DeLiM 2011
  Frost DeLiM /concepts/frost.html DeLiM 1259 DeLiM 1234 DeLiM 2017
  setlx DeLiM /concepts/setlx.html DeLiM 1253 DeLiM 2486 DeLiM 2011
- erg DeLiM /concepts/erg.html DeLiM 1251 DeLiM 1155 DeLiM 2022
+ erg DeLiM /concepts/erg.html DeLiM 1251 DeLiM 1156 DeLiM 2022
  odin DeLiM /concepts/odin.html DeLiM 1241 DeLiM 324 DeLiM 2016
  gleam DeLiM /concepts/gleam.html DeLiM 1237 DeLiM 830 DeLiM 2016
  Jakt DeLiM /concepts/jakt.html DeLiM 1232 DeLiM 658 DeLiM 2022
  ObjectScript DeLiM /concepts/objectscript.html DeLiM 1224 DeLiM 1811 DeLiM 2012
  SourcePawn DeLiM /concepts/sourcepawn.html DeLiM 1220 DeLiM 581 DeLiM 2014
  flua DeLiM /concepts/flua.html DeLiM 1210 DeLiM 2180 DeLiM 2012
- Yet Another Scripting Language DeLiM /concepts/yasl.html DeLiM 1204 DeLiM 1349 DeLiM 2017
+ Yet Another Scripting Language DeLiM /concepts/yasl.html DeLiM 1204 DeLiM 1346 DeLiM 2017
  gravity DeLiM /concepts/gravity.html DeLiM 1194 DeLiM 536 DeLiM 2017
  AssemblyScript DeLiM /concepts/assemblyscript.html DeLiM 1192 DeLiM 555 DeLiM 2017
  J DeLiM /concepts/j.html DeLiM 1177 DeLiM 190 DeLiM 1990
  Wren DeLiM /concepts/wren.html DeLiM 1160 DeLiM 325 DeLiM 2013
  r4 DeLiM /concepts/r4.html DeLiM 1135 DeLiM 2365 DeLiM 2009
- PROMETHEUS DeLiM /concepts/prometheus.html DeLiM 1127 DeLiM 650 DeLiM 2012
- Touch DeLiM /concepts/touch.html DeLiM 1125 DeLiM 1101 DeLiM 2020
+ PROMETHEUS DeLiM /concepts/prometheus.html DeLiM 1127 DeLiM 649 DeLiM 2012
+ Touch DeLiM /concepts/touch.html DeLiM 1125 DeLiM 1102 DeLiM 2020
  mgmt DeLiM /concepts/mgmt.html DeLiM 1099 DeLiM 619 DeLiM 2015
  Wart DeLiM /concepts/wart.html DeLiM 1081 DeLiM 1950 DeLiM 2010
  Differential Datalog DeLiM /concepts/differential-datalog.html DeLiM 1073 DeLiM 1254 DeLiM 2018
@@ -216,28 +216,28 @@ table  DeLiM
  mys DeLiM /concepts/mys.html DeLiM 980 DeLiM 2288 DeLiM 2020
  CWL DeLiM /concepts/common-workflow-language.html DeLiM 967 DeLiM 569 DeLiM 2014
  Links DeLiM /concepts/links-programming-language.html DeLiM 959 DeLiM 1802 DeLiM 2006
- Flix DeLiM /concepts/flix.html DeLiM 942 DeLiM 1159 DeLiM 2016
+ Flix DeLiM /concepts/flix.html DeLiM 942 DeLiM 1160 DeLiM 2016
  penrose DeLiM /concepts/penrose.html DeLiM 938 DeLiM 883 DeLiM 2016
  ecsharp DeLiM /concepts/ecsharp.html DeLiM 938 DeLiM 2090 DeLiM 2008
- Smali DeLiM /concepts/smali.html DeLiM 930 DeLiM 126 DeLiM 2010
+ Smali DeLiM /concepts/smali.html DeLiM 930 DeLiM 127 DeLiM 2010
  dyvil DeLiM /concepts/dyvil.html DeLiM 928 DeLiM 1616 DeLiM 2014
  categorical-query-language DeLiM /concepts/categorical-query-language.html DeLiM 927 DeLiM 1947 DeLiM 2019
  tamgu DeLiM /concepts/tamgu.html DeLiM 919 DeLiM 2107 DeLiM 2019
  Pug DeLiM /concepts/pug.html DeLiM 918 DeLiM 121 DeLiM 2010
  HyPhy DeLiM /concepts/hyphy.html DeLiM 916 DeLiM 1742 DeLiM 2008
- GraphIt DeLiM /concepts/graph-it.html DeLiM 914 DeLiM 971 DeLiM 2017
- Sqlalchemy DeLiM /concepts/sqlalchemy.html DeLiM 912 DeLiM 656 DeLiM 2006
+ GraphIt DeLiM /concepts/graph-it.html DeLiM 914 DeLiM 972 DeLiM 2017
+ Sqlalchemy DeLiM /concepts/sqlalchemy.html DeLiM 912 DeLiM 655 DeLiM 2006
  Elvish DeLiM /concepts/elvish.html DeLiM 911 DeLiM 859 DeLiM 2013
  obsidian DeLiM /concepts/obsidian.html DeLiM 906 DeLiM 2000 DeLiM 2018
- verona DeLiM /concepts/verona.html DeLiM 898 DeLiM 977 DeLiM 2019
+ verona DeLiM /concepts/verona.html DeLiM 898 DeLiM 978 DeLiM 2019
  Austral DeLiM /concepts/austral.html DeLiM 898 DeLiM 1766 DeLiM 2018
- Linotte DeLiM /concepts/linotte.html DeLiM 886 DeLiM 1074 DeLiM 2005
+ Linotte DeLiM /concepts/linotte.html DeLiM 886 DeLiM 1075 DeLiM 2005
  Gerbil Scheme DeLiM /concepts/gerbil.html DeLiM 880 DeLiM 1361 DeLiM 2016
  Invisible XML DeLiM /concepts/ixml.html DeLiM 859 DeLiM 1551 DeLiM 2020
  Euphoria DeLiM /concepts/euphoria.html DeLiM 859 DeLiM 590 DeLiM 1993
  partiql DeLiM /concepts/partiql.html DeLiM 851 DeLiM 1595 DeLiM 2019
  Armed Bear Common Lisp DeLiM /concepts/abcl-lang.html DeLiM 841 DeLiM 1974 DeLiM 2008
- souper DeLiM /concepts/souper.html DeLiM 819 DeLiM 1124 DeLiM 2014
+ souper DeLiM /concepts/souper.html DeLiM 819 DeLiM 1125 DeLiM 2014
  Phel DeLiM /concepts/phel.html DeLiM 795 DeLiM 1912 DeLiM 2020
  sile DeLiM /concepts/sile.html DeLiM 775 DeLiM 1270 DeLiM 2012
  LiteScript DeLiM /concepts/litescript.html DeLiM 770 DeLiM 2240 DeLiM 2013
@@ -245,9 +245,9 @@ table  DeLiM
  mun-lang DeLiM /concepts/mun-lang.html DeLiM 766 DeLiM 967 DeLiM 2019
  Terra DeLiM /concepts/terra.html DeLiM 740 DeLiM 224 DeLiM 2012
  HuwCode DeLiM /concepts/huwcode.html DeLiM 718 DeLiM 2509 DeLiM 2018
- Savi DeLiM /concepts/savi.html DeLiM 712 DeLiM 2046 DeLiM 2018
+ Savi DeLiM /concepts/savi.html DeLiM 712 DeLiM 2045 DeLiM 2018
  haste DeLiM /concepts/haste.html DeLiM 710 DeLiM 1191 DeLiM 2014
- lift DeLiM /concepts/lift.html DeLiM 698 DeLiM 1989 DeLiM 2014
+ lift DeLiM /concepts/lift.html DeLiM 698 DeLiM 1988 DeLiM 2014
  never DeLiM /concepts/never.html DeLiM 696 DeLiM 1897 DeLiM 2018
  KaTeX DeLiM /concepts/katex.html DeLiM 696 DeLiM 456 DeLiM 2013
  SQRL DeLiM /concepts/sqrl.html DeLiM 685 DeLiM 2007 DeLiM 2018
@@ -257,7 +257,7 @@ table  DeLiM
  lever DeLiM /concepts/lever.html DeLiM 669 DeLiM 1995 DeLiM 2015
  Golo DeLiM /concepts/golo.html DeLiM 663 DeLiM 520 DeLiM 2012
  Argdown DeLiM /concepts/argdown.html DeLiM 661 DeLiM 603 DeLiM 2014
- t-lang DeLiM /concepts/t-lang.html DeLiM 651 DeLiM 2716 DeLiM 2019
+ t-lang DeLiM /concepts/t-lang.html DeLiM 651 DeLiM 2717 DeLiM 2019
  Catala DeLiM /concepts/catala.html DeLiM 651 DeLiM 1447 DeLiM 2019
  hashlink DeLiM /concepts/hashlink.html DeLiM 645 DeLiM 1403 DeLiM 2015
  Jeeves DeLiM /concepts/jeeves.html DeLiM 642 DeLiM 1792 DeLiM 2013
@@ -269,7 +269,7 @@ table  DeLiM
  pyret DeLiM /concepts/pyret.html DeLiM 631 DeLiM 787 DeLiM 2011
  Pyret DeLiM /concepts/pyret-lang.html DeLiM 631 DeLiM 1335 DeLiM 2012
  Ioke DeLiM /concepts/ioke.html DeLiM 631 DeLiM 322 DeLiM 2008
- chisel DeLiM /concepts/chisel.html DeLiM 627 DeLiM 975 DeLiM 2015
+ chisel DeLiM /concepts/chisel.html DeLiM 627 DeLiM 973 DeLiM 2015
  Kuin DeLiM /concepts/kuin.html DeLiM 625 DeLiM 1934 DeLiM 2016
  Uniform eXchange Format DeLiM /concepts/uxf.html DeLiM 624 DeLiM 1444 DeLiM 2022
  Red DeLiM /concepts/red.html DeLiM 622 DeLiM 148 DeLiM 2011
@@ -279,22 +279,22 @@ table  DeLiM
  ramen DeLiM /concepts/ramen.html DeLiM 613 DeLiM 2335 DeLiM 2017
  MASM DeLiM /concepts/masm.html DeLiM 611 DeLiM 1262 DeLiM 1981
  Reason DeLiM /concepts/reason.html DeLiM 598 DeLiM 86 DeLiM 2016
- tridash DeLiM /concepts/tridash.html DeLiM 596 DeLiM 2721 DeLiM 2018
+ tridash DeLiM /concepts/tridash.html DeLiM 596 DeLiM 2722 DeLiM 2018
  chrysaLisp DeLiM /concepts/chrysalisp.html DeLiM 590 DeLiM 476 DeLiM 2015
  PRQL DeLiM /concepts/prql.html DeLiM 584 DeLiM 436 DeLiM 2022
  dedukti DeLiM /concepts/dedukti.html DeLiM 575 DeLiM 1677 DeLiM 2009
  z2 DeLiM /concepts/z2.html DeLiM 564 DeLiM 2142 DeLiM 2015
  Adept DeLiM /concepts/adept.html DeLiM 552 DeLiM 1245 DeLiM 2018
- Mask DeLiM /concepts/maskjs.html DeLiM 537 DeLiM 837 DeLiM 2012
+ Mask DeLiM /concepts/maskjs.html DeLiM 537 DeLiM 836 DeLiM 2012
  Mirah DeLiM /concepts/mirah.html DeLiM 533 DeLiM 616 DeLiM 2009
- BQN DeLiM /concepts/bqn.html DeLiM 533 DeLiM 1045 DeLiM 2020
+ BQN DeLiM /concepts/bqn.html DeLiM 533 DeLiM 1044 DeLiM 2020
  Sugar DeLiM /concepts/sugar.html DeLiM 528 DeLiM 1843 DeLiM 2006
  fay DeLiM /concepts/fay.html DeLiM 524 DeLiM 715 DeLiM 2012
  firrtl DeLiM /concepts/firrtl.html DeLiM 522 DeLiM 1421 DeLiM 2015
  hacspec DeLiM /concepts/hacspec.html DeLiM 516 DeLiM 1442 DeLiM 2018
  circle-lang DeLiM /concepts/circle-lang.html DeLiM 510 DeLiM 1297 DeLiM 2019
  oden DeLiM /concepts/oden.html DeLiM 507 DeLiM 1504 DeLiM 2016
- RicScript DeLiM /concepts/ricscript.html DeLiM 498 DeLiM 2788 DeLiM 2019
+ RicScript DeLiM /concepts/ricscript.html DeLiM 498 DeLiM 2789 DeLiM 2019
  Statsplorer DeLiM /concepts/statsplorer.html DeLiM 489 DeLiM 1970 DeLiM 2014
  RMarkdown DeLiM /concepts/rmarkdown.html DeLiM 487 DeLiM 447 DeLiM 2014
  r3 DeLiM /concepts/r3.html DeLiM 487 DeLiM 2497 DeLiM 2021
@@ -303,7 +303,7 @@ table  DeLiM
  Pomsky DeLiM /concepts/pomsky.html DeLiM 481 DeLiM 1376 DeLiM 2022
  blz DeLiM /concepts/blz.html DeLiM 480 DeLiM 1886 DeLiM 2015
  Xidoc DeLiM /concepts/xidoc.html DeLiM 479 DeLiM 1552 DeLiM 2021
- Ragel DeLiM /concepts/ragel.html DeLiM 475 DeLiM 493 DeLiM 2007
+ Ragel DeLiM /concepts/ragel.html DeLiM 475 DeLiM 494 DeLiM 2007
  MarkovJunior DeLiM /concepts/markovjunior.html DeLiM 471 DeLiM 893 DeLiM 2022
  flame-ir DeLiM /concepts/flame-ir.html DeLiM 463 DeLiM 2487 DeLiM 2015
  Literate CoffeeScript DeLiM /concepts/literate-coffeescript.html DeLiM 458 DeLiM 115 DeLiM 2013
@@ -318,10 +318,10 @@ table  DeLiM
  orca DeLiM /concepts/orca.html DeLiM 431 DeLiM 2258 DeLiM 1985
  cat DeLiM /concepts/cat.html DeLiM 428 DeLiM 1584 DeLiM 2016
  crmsh DeLiM /concepts/crmsh.html DeLiM 423 DeLiM 1872 DeLiM 2008
- Script.NET DeLiM /concepts/ssharp.html DeLiM 420 DeLiM 1056 DeLiM 2007
+ Script.NET DeLiM /concepts/ssharp.html DeLiM 420 DeLiM 1057 DeLiM 2007
  sixten DeLiM /concepts/sixten.html DeLiM 418 DeLiM 1503 DeLiM 2014
  DragonBASIC DeLiM /concepts/dragonbasic.html DeLiM 413 DeLiM 2171 DeLiM 2003
- Pact DeLiM /concepts/pact.html DeLiM 412 DeLiM 1455 DeLiM 2016
+ Pact DeLiM /concepts/pact.html DeLiM 412 DeLiM 1453 DeLiM 2016
  Rye DeLiM /concepts/rye.html DeLiM 411 DeLiM 2479 DeLiM 2019
  carp DeLiM /concepts/carp.html DeLiM 411 DeLiM 565 DeLiM 2016
  Frege DeLiM /concepts/frege.html DeLiM 409 DeLiM 229 DeLiM 2011
@@ -329,58 +329,58 @@ table  DeLiM
  zl DeLiM /concepts/zl.html DeLiM 405 DeLiM 2253 DeLiM 2012
  TreeSheets DeLiM /concepts/treesheets.html DeLiM 398 DeLiM 541 DeLiM 2019
  scribble DeLiM /concepts/scribble.html DeLiM 393 DeLiM 1451 DeLiM 1997
- datafun DeLiM /concepts/datafun.html DeLiM 393 DeLiM 1829 DeLiM 2015
+ datafun DeLiM /concepts/datafun.html DeLiM 393 DeLiM 1827 DeLiM 2015
  eff DeLiM /concepts/eff.html DeLiM 392 DeLiM 1475 DeLiM 2012
  ClojureScript DeLiM /concepts/clojurescript.html DeLiM 392 DeLiM 308 DeLiM 2011
  latino DeLiM /concepts/latino.html DeLiM 389 DeLiM 1554 DeLiM 2015
  myia DeLiM /concepts/myia.html DeLiM 388 DeLiM 1645 DeLiM 2017
  Mobl DeLiM /concepts/mobl-lang.html DeLiM 388 DeLiM 2220 DeLiM 2010
- rosie DeLiM /concepts/rosie.html DeLiM 386 DeLiM 2651 DeLiM 2015
+ rosie DeLiM /concepts/rosie.html DeLiM 386 DeLiM 2652 DeLiM 2015
  duro DeLiM /concepts/duro.html DeLiM 386 DeLiM 2506 DeLiM 2003
  chaiscript DeLiM /concepts/chaiscript.html DeLiM 386 DeLiM 693 DeLiM 2009
- aplette DeLiM /concepts/aplette.html DeLiM 386 DeLiM 2556 DeLiM 2014
+ aplette DeLiM /concepts/aplette.html DeLiM 386 DeLiM 2557 DeLiM 2014
  Noweb DeLiM /concepts/noweb.html DeLiM 385 DeLiM 1255 DeLiM 1989
  hrqr DeLiM /concepts/hrqr.html DeLiM 385 DeLiM 2166 DeLiM 2015
  Ohayo DeLiM /concepts/ohayo.html DeLiM 383 DeLiM 1777 DeLiM 2017
- Hook DeLiM /concepts/hook.html DeLiM 383 DeLiM 2609 DeLiM 2021
+ Hook DeLiM /concepts/hook.html DeLiM 383 DeLiM 2610 DeLiM 2021
  kitlang DeLiM /concepts/kitlang.html DeLiM 382 DeLiM 1389 DeLiM 2018
  ΜC++ DeLiM /concepts/micro-cpp.html DeLiM 380 DeLiM 1879 DeLiM 1992
  rainbow DeLiM /concepts/rainbow.html DeLiM 374 DeLiM 2320 DeLiM 2009
- Swym DeLiM /concepts/swym.html DeLiM 369 DeLiM 2717 DeLiM 2012
+ Swym DeLiM /concepts/swym.html DeLiM 369 DeLiM 2718 DeLiM 2012
  YARA DeLiM /concepts/yara.html DeLiM 368 DeLiM 327 DeLiM 2008
  a Lisp Environment DeLiM /concepts/ale.html DeLiM 368 DeLiM 2231 DeLiM 2019
- gluon DeLiM /concepts/gluon.html DeLiM 367 DeLiM 1038 DeLiM 2014
+ gluon DeLiM /concepts/gluon.html DeLiM 367 DeLiM 1039 DeLiM 2014
  Dasm DeLiM /concepts/dasm.html DeLiM 364 DeLiM 2088 DeLiM 1988
- rant DeLiM /concepts/rant.html DeLiM 363 DeLiM 1006 DeLiM 2014
+ rant DeLiM /concepts/rant.html DeLiM 363 DeLiM 1007 DeLiM 2014
  neut DeLiM /concepts/neut.html DeLiM 363 DeLiM 1332 DeLiM 2018
- manhood DeLiM /concepts/manhood.html DeLiM 363 DeLiM 1007 DeLiM 2014
+ manhood DeLiM /concepts/manhood.html DeLiM 363 DeLiM 1008 DeLiM 2014
  mages DeLiM /concepts/mages.html DeLiM 363 DeLiM 2305 DeLiM 2016
- Simple Binary Encoding DeLiM /concepts/simple-binary-encoding.html DeLiM 360 DeLiM 695 DeLiM 2013
+ Simple Binary Encoding DeLiM /concepts/simple-binary-encoding.html DeLiM 360 DeLiM 694 DeLiM 2013
  HCL DeLiM /concepts/hcl.html DeLiM 360 DeLiM 296 DeLiM 2014
  walt DeLiM /concepts/walt.html DeLiM 356 DeLiM 887 DeLiM 2017
  Egison DeLiM /concepts/egison.html DeLiM 348 DeLiM 1450 DeLiM 2013
  flowchart.fun DeLiM /concepts/flowchart-fun.html DeLiM 345 DeLiM 634 DeLiM 2021
- comby DeLiM /concepts/comby.html DeLiM 345 DeLiM 1172 DeLiM 2019
+ comby DeLiM /concepts/comby.html DeLiM 345 DeLiM 1173 DeLiM 2019
  Claro DeLiM /concepts/claro.html DeLiM 345 DeLiM 1482 DeLiM 2021
- Fancy DeLiM /concepts/fancy.html DeLiM 332 DeLiM 979 DeLiM 2010
+ Fancy DeLiM /concepts/fancy.html DeLiM 332 DeLiM 980 DeLiM 2010
  arret DeLiM /concepts/arret.html DeLiM 330 DeLiM 2108 DeLiM 2017
  zenscript DeLiM /concepts/zenscript.html DeLiM 327 DeLiM 1588 DeLiM 2014
- Dern DeLiM /concepts/dern.html DeLiM 327 DeLiM 2059 DeLiM 2008
+ Dern DeLiM /concepts/dern.html DeLiM 327 DeLiM 2058 DeLiM 2008
  SATySFi DeLiM /concepts/satysfi.html DeLiM 326 DeLiM 1352 DeLiM 2015
  Clojure DeLiM /concepts/clojure.html DeLiM 323 DeLiM 41 DeLiM 2007
  inko DeLiM /concepts/inko.html DeLiM 317 DeLiM 1838 DeLiM 2015
- hazel DeLiM /concepts/hazel.html DeLiM 317 DeLiM 1522 DeLiM 2016
+ hazel DeLiM /concepts/hazel.html DeLiM 317 DeLiM 1521 DeLiM 2016
  Kaffeine DeLiM /concepts/kaffeine.html DeLiM 315 DeLiM 2042 DeLiM 2010
  harlan DeLiM /concepts/harlan.html DeLiM 315 DeLiM 1269 DeLiM 2011
  hamler DeLiM /concepts/hamler.html DeLiM 315 DeLiM 1386 DeLiM 2019
  CSpydr DeLiM /concepts/cspydr.html DeLiM 315 DeLiM 1717 DeLiM 2021
- Cyber DeLiM /concepts/cyber.html DeLiM 309 DeLiM 1166 DeLiM 2022
+ Cyber DeLiM /concepts/cyber.html DeLiM 309 DeLiM 1167 DeLiM 2022
  tornado DeLiM /concepts/tornado.html DeLiM 307 DeLiM 455 DeLiM 2009
  hobbes DeLiM /concepts/hobbes.html DeLiM 307 DeLiM 1288 DeLiM 2017
  Vale DeLiM /concepts/vale-assembly.html DeLiM 303 DeLiM 1219 DeLiM 2017
  tangledown DeLiM /concepts/tangledown.html DeLiM 301 DeLiM 1651 DeLiM 2011
  Nadesiko DeLiM /concepts/nadesiko.html DeLiM 299 DeLiM 2078 DeLiM 2008
- mathics DeLiM /concepts/mathics.html DeLiM 299 DeLiM 1067 DeLiM 2012
+ mathics DeLiM /concepts/mathics.html DeLiM 299 DeLiM 1068 DeLiM 2012
  icarus DeLiM /concepts/icarus.html DeLiM 297 DeLiM 2325 DeLiM 2015
  abs DeLiM /concepts/abs.html DeLiM 297 DeLiM 1406 DeLiM 2018
  Candy DeLiM /concepts/candy.html DeLiM 295 DeLiM 1813 DeLiM 2020
@@ -388,20 +388,20 @@ table  DeLiM
  Rebeca Modeling Language DeLiM /concepts/rebeca-modeling-language.html DeLiM 291 DeLiM 1883 DeLiM 2004
  Triton DeLiM /concepts/triton.html DeLiM 289 DeLiM 654 DeLiM 2021
  txtzyme DeLiM /concepts/txtzyme.html DeLiM 287 DeLiM 2307 DeLiM 2010
- FutureScript DeLiM /concepts/futurescript.html DeLiM 287 DeLiM 2724 DeLiM 2015
+ FutureScript DeLiM /concepts/futurescript.html DeLiM 287 DeLiM 2725 DeLiM 2015
  blockml DeLiM /concepts/blockml.html DeLiM 286 DeLiM 688 DeLiM 2014
  jinx DeLiM /concepts/jinx.html DeLiM 280 DeLiM 1963 DeLiM 2016
- IcedCoffeeScript DeLiM /concepts/icedcoffeescript.html DeLiM 279 DeLiM 857 DeLiM 2009
+ IcedCoffeeScript DeLiM /concepts/icedcoffeescript.html DeLiM 279 DeLiM 856 DeLiM 2009
  Sophia DeLiM /concepts/sophia.html DeLiM 278 DeLiM 1589 DeLiM 2018
  Om DeLiM /concepts/om.html DeLiM 277 DeLiM 2241 DeLiM 2012
- H++ DeLiM /concepts/hpp.html DeLiM 274 DeLiM 2631 DeLiM 2013
+ H++ DeLiM /concepts/hpp.html DeLiM 274 DeLiM 2632 DeLiM 2013
  Truth DeLiM /concepts/truth.html DeLiM 272 DeLiM 1781 DeLiM 2019
- PogoScript DeLiM /concepts/pogoscript.html DeLiM 272 DeLiM 986 DeLiM 2011
+ PogoScript DeLiM /concepts/pogoscript.html DeLiM 272 DeLiM 987 DeLiM 2011
  Logica DeLiM /concepts/logica.html DeLiM 271 DeLiM 792 DeLiM 2020
  NewLisp DeLiM /concepts/newlisp.html DeLiM 269 DeLiM 212 DeLiM 1991
- Pep8 DeLiM /concepts/pep8.html DeLiM 265 DeLiM 1029 DeLiM 2009
+ Pep8 DeLiM /concepts/pep8.html DeLiM 265 DeLiM 1030 DeLiM 2009
  ELFE DeLiM /concepts/elfe.html DeLiM 265 DeLiM 1746 DeLiM 2003
- Livr DeLiM /concepts/livr.html DeLiM 264 DeLiM 1346 DeLiM 2012
+ Livr DeLiM /concepts/livr.html DeLiM 264 DeLiM 1350 DeLiM 2012
  Mond DeLiM /concepts/mond.html DeLiM 259 DeLiM 1290 DeLiM 2014
  bosque DeLiM /concepts/bosque.html DeLiM 256 DeLiM 825 DeLiM 2019
  nianiolang DeLiM /concepts/nianiolang.html DeLiM 255 DeLiM 2179 DeLiM 2015
@@ -420,35 +420,35 @@ table  DeLiM
  Rockstar DeLiM /concepts/rockstar.html DeLiM 237 DeLiM 704 DeLiM 2018
  fo DeLiM /concepts/fo.html DeLiM 237 DeLiM 1333 DeLiM 2018
  Jank DeLiM /concepts/jank.html DeLiM 236 DeLiM 1524 DeLiM 2015
- jayfor DeLiM /concepts/jayfor.html DeLiM 233 DeLiM 1492 DeLiM 2014
+ jayfor DeLiM /concepts/jayfor.html DeLiM 233 DeLiM 1490 DeLiM 2014
  Ark DeLiM /concepts/ark-lang.html DeLiM 233 DeLiM 1205 DeLiM 2014
  Slash DeLiM /concepts/slash.html DeLiM 232 DeLiM 528 DeLiM 2012
  Simplicity DeLiM /concepts/simplictiy.html DeLiM 232 DeLiM 1894 DeLiM 2017
  mimium DeLiM /concepts/mimium.html DeLiM 229 DeLiM 1744 DeLiM 2019
- elymas DeLiM /concepts/elymas.html DeLiM 229 DeLiM 2099 DeLiM 2012
+ elymas DeLiM /concepts/elymas.html DeLiM 229 DeLiM 2096 DeLiM 2012
  PAWN DeLiM /concepts/pawn.html DeLiM 228 DeLiM 663 DeLiM 2006
  keli DeLiM /concepts/keli.html DeLiM 227 DeLiM 2229 DeLiM 2018
  Tree Notation DeLiM /concepts/treenotation.html DeLiM 226 DeLiM 789 DeLiM 2017
- Grammar DeLiM /concepts/grammar.html DeLiM 226 DeLiM 719 DeLiM 2017
+ Grammar DeLiM /concepts/grammar.html DeLiM 226 DeLiM 718 DeLiM 2017
  Elm DeLiM /concepts/elm.html DeLiM 226 DeLiM 73 DeLiM 2012
  Croc DeLiM /concepts/croc.html DeLiM 226 DeLiM 451 DeLiM 2006
- crush DeLiM /concepts/crush.html DeLiM 225 DeLiM 1169 DeLiM 2020
+ crush DeLiM /concepts/crush.html DeLiM 225 DeLiM 1170 DeLiM 2020
  Hush DeLiM /concepts/hush.html DeLiM 224 DeLiM 1630 DeLiM 2021
  contracts.coffee DeLiM /concepts/contracts.coffee.html DeLiM 224 DeLiM 875 DeLiM 2011
- checked-c DeLiM /concepts/checked-c.html DeLiM 223 DeLiM 1015 DeLiM 2015
+ checked-c DeLiM /concepts/checked-c.html DeLiM 223 DeLiM 1016 DeLiM 2015
  FloScript DeLiM /concepts/floscript.html DeLiM 221 DeLiM 1914 DeLiM 2013
  Jule DeLiM /concepts/jule.html DeLiM 216 DeLiM 614 DeLiM 2021
  jq DeLiM /concepts/jq.html DeLiM 216 DeLiM 457 DeLiM 2012
- Potion DeLiM /concepts/potion.html DeLiM 214 DeLiM 1467 DeLiM 2007
+ Potion DeLiM /concepts/potion.html DeLiM 214 DeLiM 1466 DeLiM 2007
  nydp DeLiM /concepts/nydp.html DeLiM 214 DeLiM 2132 DeLiM 2014
  HAML DeLiM /concepts/haml.html DeLiM 213 DeLiM 201 DeLiM 2006
- sham DeLiM /concepts/sham.html DeLiM 209 DeLiM 2582 DeLiM 2016
+ sham DeLiM /concepts/sham.html DeLiM 209 DeLiM 2583 DeLiM 2016
  co-dfns DeLiM /concepts/co-dfns.html DeLiM 209 DeLiM 1631 DeLiM 2012
- Neko DeLiM /concepts/neko.html DeLiM 207 DeLiM 856 DeLiM 2005
+ Neko DeLiM /concepts/neko.html DeLiM 207 DeLiM 857 DeLiM 2005
  Bounce DeLiM /concepts/bounce-lang.html DeLiM 204 DeLiM 2442 DeLiM 2016
- Alumina DeLiM /concepts/alumina.html DeLiM 204 DeLiM 2057 DeLiM 2021
- Glicol DeLiM /concepts/glicol.html DeLiM 200 DeLiM 1118 DeLiM 2020
- Hot Cocoa Lisp DeLiM /concepts/hotcocoalisp.html DeLiM 199 DeLiM 2616 DeLiM 2013
+ Alumina DeLiM /concepts/alumina.html DeLiM 204 DeLiM 2056 DeLiM 2021
+ Glicol DeLiM /concepts/glicol.html DeLiM 200 DeLiM 1119 DeLiM 2020
+ Hot Cocoa Lisp DeLiM /concepts/hotcocoalisp.html DeLiM 199 DeLiM 2617 DeLiM 2013
  heap.coffee DeLiM /concepts/heap.coffee.html DeLiM 199 DeLiM 892 DeLiM 2012
  Berry DeLiM /concepts/berry.html DeLiM 199 DeLiM 1243 DeLiM 2018
  candor DeLiM /concepts/candor.html DeLiM 198 DeLiM 2087 DeLiM 2012
@@ -461,11 +461,11 @@ table  DeLiM
  Link DeLiM /concepts/link.html DeLiM 186 DeLiM 2134 DeLiM 2021
  redprl DeLiM /concepts/redprl.html DeLiM 185 DeLiM 1975 DeLiM 2016
  ten DeLiM /concepts/ten.html DeLiM 184 DeLiM 1844 DeLiM 2019
- Liquid DeLiM /concepts/liquid.html DeLiM 184 DeLiM 123 DeLiM 2008
+ Liquid DeLiM /concepts/liquid.html DeLiM 184 DeLiM 124 DeLiM 2008
  PEG.js DeLiM /concepts/pegjs.html DeLiM 178 DeLiM 370 DeLiM 2010
  JSLT DeLiM /concepts/jslt.html DeLiM 178 DeLiM 1529 DeLiM 2017
  jsparagus DeLiM /concepts/jsparagus.html DeLiM 177 DeLiM 1741 DeLiM 2018
- Taijilang DeLiM /concepts/taijilang.html DeLiM 176 DeLiM 2561 DeLiM 2014
+ Taijilang DeLiM /concepts/taijilang.html DeLiM 176 DeLiM 2562 DeLiM 2014
  Ripple DeLiM /concepts/ripple.html DeLiM 175 DeLiM 1721 DeLiM 2014
  penguor DeLiM /concepts/penguor.html DeLiM 175 DeLiM 2510 DeLiM 2020
  FLUX DeLiM /concepts/flux.html DeLiM 174 DeLiM 175 DeLiM 2014
@@ -475,7 +475,7 @@ table  DeLiM
  UCL DeLiM /concepts/ucl.html DeLiM 170 DeLiM 873 DeLiM 2013
  Gren DeLiM /concepts/gren.html DeLiM 170 DeLiM 1882 DeLiM 2012
  Frank DeLiM /concepts/frank-lang.html DeLiM 168 DeLiM 2025 DeLiM 2017
- nulan DeLiM /concepts/nulan.html DeLiM 167 DeLiM 2615 DeLiM 2012
+ nulan DeLiM /concepts/nulan.html DeLiM 167 DeLiM 2616 DeLiM 2012
  bamboo DeLiM /concepts/bamboo.html DeLiM 167 DeLiM 1761 DeLiM 2016
  ana DeLiM /concepts/ana.html DeLiM 167 DeLiM 2282 DeLiM 2018
  Melody DeLiM /concepts/melody.html DeLiM 165 DeLiM 966 DeLiM 2022
@@ -484,10 +484,10 @@ table  DeLiM
  Hy DeLiM /concepts/hy.html DeLiM 163 DeLiM 244 DeLiM 2013
  gentee DeLiM /concepts/gentee.html DeLiM 163 DeLiM 1220 DeLiM 2018
  Ninja DeLiM /concepts/ninja.html DeLiM 162 DeLiM 372 DeLiM 2012
- huginn DeLiM /concepts/huginn.html DeLiM 162 DeLiM 2055 DeLiM 2015
+ huginn DeLiM /concepts/huginn.html DeLiM 162 DeLiM 2054 DeLiM 2015
  buzz DeLiM /concepts/buzz.html DeLiM 162 DeLiM 1795 DeLiM 2021
  Cone DeLiM /concepts/cone.html DeLiM 161 DeLiM 1711 DeLiM 2017
- mlpolyr DeLiM /concepts/mlpolyr.html DeLiM 160 DeLiM 2624 DeLiM 2016
+ mlpolyr DeLiM /concepts/mlpolyr.html DeLiM 160 DeLiM 2625 DeLiM 2016
  spider DeLiM /concepts/spider.html DeLiM 159 DeLiM 1278 DeLiM 2014
  MoonScript DeLiM /concepts/moonscript.html DeLiM 159 DeLiM 218 DeLiM 2011
  BeBasic DeLiM /concepts/bebasic.html DeLiM 159 DeLiM 1751 DeLiM 2009
@@ -498,11 +498,11 @@ table  DeLiM
  Ante DeLiM /concepts/ante.html DeLiM 154 DeLiM 882 DeLiM 2015
  lambda-zero DeLiM /concepts/lambda-zero.html DeLiM 150 DeLiM 2250 DeLiM 2018
  Riff DeLiM /concepts/riff.html DeLiM 148 DeLiM 2411 DeLiM 2020
- Markwhen DeLiM /concepts/markwhen.html DeLiM 148 DeLiM 432 DeLiM 2022
+ Markwhen DeLiM /concepts/markwhen.html DeLiM 148 DeLiM 431 DeLiM 2022
  Squirrel DeLiM /concepts/squirrel.html DeLiM 147 DeLiM 187 DeLiM 2003
  Rapira DeLiM /concepts/rapira.html DeLiM 147 DeLiM 1257 DeLiM 1987
  owen-lang DeLiM /concepts/owen-lang.html DeLiM 147 DeLiM 1513 DeLiM 2019
- dreamlisp DeLiM /concepts/dreamlisp.html DeLiM 147 DeLiM 2795 DeLiM 2019
+ dreamlisp DeLiM /concepts/dreamlisp.html DeLiM 147 DeLiM 2796 DeLiM 2019
  ink DeLiM /concepts/ink.html DeLiM 146 DeLiM 437 DeLiM 2015
  Toy DeLiM /concepts/toy-lang.html DeLiM 145 DeLiM 1885 DeLiM 2018
  GLMS DeLiM /concepts/glms.html DeLiM 145 DeLiM 1718 DeLiM 2022
@@ -510,9 +510,9 @@ table  DeLiM
  cor DeLiM /concepts/cor.html DeLiM 144 DeLiM 1590 DeLiM 2016
  Tao DeLiM /concepts/tao-lang.html DeLiM 143 DeLiM 1754 DeLiM 2020
  Calypso DeLiM /concepts/calypso.html DeLiM 143 DeLiM 2482 DeLiM 2020
- carth DeLiM /concepts/carth.html DeLiM 142 DeLiM 839 DeLiM 2018
+ carth DeLiM /concepts/carth.html DeLiM 142 DeLiM 838 DeLiM 2018
  Jison DeLiM /concepts/jison.html DeLiM 141 DeLiM 214 DeLiM 2009
- Hina DeLiM /concepts/hina.html DeLiM 138 DeLiM 2633 DeLiM 2020
+ Hina DeLiM /concepts/hina.html DeLiM 138 DeLiM 2634 DeLiM 2020
  RigC DeLiM /concepts/rigc.html DeLiM 137 DeLiM 2500 DeLiM 2021
  strat DeLiM /concepts/strat.html DeLiM 136 DeLiM 1956 DeLiM 2018
  Filebench WML DeLiM /concepts/filebench-wml.html DeLiM 136 DeLiM 785 DeLiM 2011
@@ -520,10 +520,10 @@ table  DeLiM
  Nearley DeLiM /concepts/nearley.html DeLiM 134 DeLiM 213 DeLiM 2014
  fork-lang DeLiM /concepts/fork-lang.html DeLiM 131 DeLiM 2400 DeLiM 2014
  Umka DeLiM /concepts/umka.html DeLiM 130 DeLiM 1557 DeLiM 2020
- Cell DeLiM /concepts/cell.html DeLiM 130 DeLiM 980 DeLiM 2017
- rio DeLiM /concepts/rio.html DeLiM 129 DeLiM 2620 DeLiM 2017
+ Cell DeLiM /concepts/cell.html DeLiM 130 DeLiM 981 DeLiM 2017
+ rio DeLiM /concepts/rio.html DeLiM 129 DeLiM 2621 DeLiM 2017
  whack DeLiM /concepts/whack.html DeLiM 128 DeLiM 2484 DeLiM 2018
- roy DeLiM /concepts/roy.html DeLiM 128 DeLiM 1089 DeLiM 2011
+ roy DeLiM /concepts/roy.html DeLiM 128 DeLiM 1090 DeLiM 2011
  Battlestar DeLiM /concepts/battlestar.html DeLiM 128 DeLiM 1548 DeLiM 2014
  sill DeLiM /concepts/sill.html DeLiM 127 DeLiM 2327 DeLiM 2015
  Passerine DeLiM /concepts/passerine.html DeLiM 127 DeLiM 1390 DeLiM 2021
@@ -533,7 +533,7 @@ table  DeLiM
  Edina DeLiM /concepts/edina.html DeLiM 124 DeLiM 2415 DeLiM 2022
  AsciiDots DeLiM /concepts/asciidots.html DeLiM 124 DeLiM 914 DeLiM 2017
  ralph DeLiM /concepts/ralph.html DeLiM 123 DeLiM 2476 DeLiM 2010
- gfoo DeLiM /concepts/gfoo.html DeLiM 123 DeLiM 2718 DeLiM 2020
+ gfoo DeLiM /concepts/gfoo.html DeLiM 123 DeLiM 2719 DeLiM 2020
  april DeLiM /concepts/april.html DeLiM 120 DeLiM 1731 DeLiM 2017
  Pyth DeLiM /concepts/pyth.html DeLiM 119 DeLiM 2026 DeLiM 2014
  Jinja DeLiM /concepts/jinja.html DeLiM 119 DeLiM 194 DeLiM 2006
@@ -543,41 +543,41 @@ table  DeLiM
  LinearML DeLiM /concepts/linearml.html DeLiM 116 DeLiM 1710 DeLiM 2010
  Lesma DeLiM /concepts/lesma.html DeLiM 116 DeLiM 2508 DeLiM 2022
  kai DeLiM /concepts/kai.html DeLiM 116 DeLiM 1549 DeLiM 2016
- winxed DeLiM /concepts/winxed.html DeLiM 115 DeLiM 988 DeLiM 2009
+ winxed DeLiM /concepts/winxed.html DeLiM 115 DeLiM 989 DeLiM 2009
  muon DeLiM /concepts/muon.html DeLiM 114 DeLiM 1353 DeLiM 2019
  femtolisp DeLiM /concepts/femtolisp.html DeLiM 112 DeLiM 1199 DeLiM 2008
- Squire DeLiM /concepts/squire.html DeLiM 111 DeLiM 2607 DeLiM 2021
+ Squire DeLiM /concepts/squire.html DeLiM 111 DeLiM 2608 DeLiM 2021
  Reia DeLiM /concepts/reia.html DeLiM 110 DeLiM 584 DeLiM 2008
- kitten DeLiM /concepts/kitten.html DeLiM 110 DeLiM 1001 DeLiM 2012
- Cotton DeLiM /concepts/cotton.html DeLiM 110 DeLiM 2625 DeLiM 2021
+ kitten DeLiM /concepts/kitten.html DeLiM 110 DeLiM 1002 DeLiM 2012
+ Cotton DeLiM /concepts/cotton.html DeLiM 110 DeLiM 2626 DeLiM 2021
  Goal DeLiM /concepts/goal.html DeLiM 109 DeLiM 1594 DeLiM 2022
  emerald-lang DeLiM /concepts/emerald-lang.html DeLiM 109 DeLiM 2410 DeLiM 2019
- NeXML format DeLiM /concepts/nexml.html DeLiM 108 DeLiM 1454 DeLiM 2007
+ NeXML format DeLiM /concepts/nexml.html DeLiM 108 DeLiM 1455 DeLiM 2007
  lemon DeLiM /concepts/lemon.html DeLiM 107 DeLiM 1627 DeLiM 2017
  fructure-editor DeLiM /concepts/fructure-editor.html DeLiM 107 DeLiM 1836 DeLiM 2017
  flownote DeLiM /concepts/flownote.html DeLiM 107 DeLiM 2341 DeLiM 2019
  fetlang DeLiM /concepts/fetlang.html DeLiM 107 DeLiM 1237 DeLiM 2017
  Vimwiki DeLiM /concepts/vimwiki.html DeLiM 106 DeLiM 806 DeLiM 2008
- spry DeLiM /concepts/spry.html DeLiM 106 DeLiM 1120 DeLiM 2015
+ spry DeLiM /concepts/spry.html DeLiM 106 DeLiM 1121 DeLiM 2015
  fp DeLiM /concepts/fp3.html DeLiM 105 DeLiM 2252 DeLiM 2022
  Cali-Lang DeLiM /concepts/cali-lang.html DeLiM 104 DeLiM 1222 DeLiM 2015
  Swallow DeLiM /concepts/swallow.html DeLiM 103 DeLiM 1200 DeLiM 2021
- psyche DeLiM /concepts/psyche.html DeLiM 103 DeLiM 2728 DeLiM 2018
+ psyche DeLiM /concepts/psyche.html DeLiM 103 DeLiM 2729 DeLiM 2018
  Nuua DeLiM /concepts/nuua.html DeLiM 103 DeLiM 1845 DeLiM 2018
  hilvl DeLiM /concepts/hilvl.html DeLiM 103 DeLiM 1328 DeLiM 2015
  PostCSS DeLiM /concepts/postcss.html DeLiM 102 DeLiM 232 DeLiM 2013
- ForthScript DeLiM /concepts/forthscript.html DeLiM 102 DeLiM 2626 DeLiM 2020
+ ForthScript DeLiM /concepts/forthscript.html DeLiM 102 DeLiM 2627 DeLiM 2020
  g-fu DeLiM /concepts/g-fu.html DeLiM 100 DeLiM 1979 DeLiM 2019
  AL DeLiM /concepts/al.html DeLiM 100 DeLiM 1316 DeLiM 2016
- Aardvark DeLiM /concepts/aardvark.html DeLiM 100 DeLiM 1021 DeLiM 2020
+ Aardvark DeLiM /concepts/aardvark.html DeLiM 100 DeLiM 1022 DeLiM 2020
  mavo DeLiM /concepts/mavo.html DeLiM 99 DeLiM 629 DeLiM 2015
  datascript DeLiM /concepts/datascript.html DeLiM 99 DeLiM 557 DeLiM 2014
  bloom DeLiM /concepts/bloom.html DeLiM 99 DeLiM 1423 DeLiM 2010
- Stencil DeLiM /concepts/stencil.html DeLiM 98 DeLiM 983 DeLiM 2018
+ Stencil DeLiM /concepts/stencil.html DeLiM 98 DeLiM 984 DeLiM 2018
  mustache DeLiM /concepts/mustache.html DeLiM 98 DeLiM 611 DeLiM 2009
  co2 DeLiM /concepts/co2.html DeLiM 98 DeLiM 2216 DeLiM 2016
- Scroll DeLiM /concepts/scroll.html DeLiM 97 DeLiM 1175 DeLiM 2020
- Violent ES DeLiM /concepts/violent-es.html DeLiM 96 DeLiM 1138 DeLiM 2022
+ Scroll DeLiM /concepts/scroll.html DeLiM 97 DeLiM 968 DeLiM 2020
+ Violent ES DeLiM /concepts/violent-es.html DeLiM 96 DeLiM 1139 DeLiM 2022
  Horse64 DeLiM /concepts/horse64.html DeLiM 96 DeLiM 2519 DeLiM 2020
  RapidBatch DeLiM /concepts/rapidbatch.html DeLiM 95 DeLiM 2263 DeLiM 2017
  micro-mitten DeLiM /concepts/micro-mitten.html DeLiM 95 DeLiM 1694 DeLiM 2020
@@ -585,16 +585,16 @@ table  DeLiM
  bee DeLiM /concepts/bee.html DeLiM 95 DeLiM 1321 DeLiM 2019
  stacklang DeLiM /concepts/stacklang.html DeLiM 93 DeLiM 2516 DeLiM 2018
  mochi DeLiM /concepts/mochi.html DeLiM 93 DeLiM 1426 DeLiM 2014
- svgbob DeLiM /concepts/svgbob.html DeLiM 92 DeLiM 1003 DeLiM 2016
+ svgbob DeLiM /concepts/svgbob.html DeLiM 92 DeLiM 1004 DeLiM 2016
  funl DeLiM /concepts/funl.html DeLiM 92 DeLiM 1923 DeLiM 2020
  mirth DeLiM /concepts/mirth.html DeLiM 91 DeLiM 1765 DeLiM 2019
  Textile DeLiM /concepts/textile.html DeLiM 90 DeLiM 542 DeLiM 2002
- Slideshow DeLiM /concepts/slideshow.html DeLiM 90 DeLiM 2050 DeLiM 2000
+ Slideshow DeLiM /concepts/slideshow.html DeLiM 90 DeLiM 2049 DeLiM 2000
  Sibilant DeLiM /concepts/sibilant.html DeLiM 90 DeLiM 1673 DeLiM 2010
  pikelet DeLiM /concepts/pikelet.html DeLiM 90 DeLiM 1600 DeLiM 2017
  Blacklight DeLiM /concepts/blacklight.html DeLiM 90 DeLiM 1684 DeLiM 2015
  NestedText DeLiM /concepts/nestedtext.html DeLiM 89 DeLiM 1231 DeLiM 2020
- Coconut DeLiM /concepts/coconut.html DeLiM 89 DeLiM 392 DeLiM 2014
+ Coconut DeLiM /concepts/coconut.html DeLiM 89 DeLiM 391 DeLiM 2014
  Z-flat DeLiM /concepts/z-flat.html DeLiM 88 DeLiM 1592 DeLiM 2021
  video DeLiM /concepts/video.html DeLiM 88 DeLiM 1917 DeLiM 2016
  Sweet.js DeLiM /concepts/sweetjs.html DeLiM 88 DeLiM 933 DeLiM 2012
@@ -604,28 +604,28 @@ table  DeLiM
  xxl DeLiM /concepts/xxl.html DeLiM 87 DeLiM 1840 DeLiM 2016
  Ron DeLiM /concepts/ron.html DeLiM 87 DeLiM 551 DeLiM 2015
  Vyxal DeLiM /concepts/vyxal.html DeLiM 86 DeLiM 1809 DeLiM 2020
- plot DeLiM /concepts/plot.html DeLiM 86 DeLiM 1094 DeLiM 2019
+ plot DeLiM /concepts/plot.html DeLiM 86 DeLiM 1095 DeLiM 2019
  kona DeLiM /concepts/kona.html DeLiM 86 DeLiM 1213 DeLiM 2010
- Hackett DeLiM /concepts/hackett.html DeLiM 86 DeLiM 982 DeLiM 2017
+ Hackett DeLiM /concepts/hackett.html DeLiM 86 DeLiM 983 DeLiM 2017
  G-Portugol DeLiM /concepts/g-portugol.html DeLiM 86 DeLiM 2266 DeLiM 2005
  FaCT DeLiM /concepts/fact-lang.html DeLiM 86 DeLiM 1546 DeLiM 2017
- Dak DeLiM /concepts/dak.html DeLiM 86 DeLiM 1049 DeLiM 2022
- WLambda DeLiM /concepts/wlambda.html DeLiM 85 DeLiM 2777 DeLiM 2019
+ Dak DeLiM /concepts/dak.html DeLiM 86 DeLiM 1050 DeLiM 2022
+ WLambda DeLiM /concepts/wlambda.html DeLiM 85 DeLiM 2778 DeLiM 2019
  unseemly DeLiM /concepts/unseemly.html DeLiM 84 DeLiM 2362 DeLiM 2016
  Crema DeLiM /concepts/crema.html DeLiM 84 DeLiM 1371 DeLiM 2014
- Earl Grey DeLiM /concepts/earl-grey.html DeLiM 83 DeLiM 1174 DeLiM 2014
- cytosol DeLiM /concepts/cytosol.html DeLiM 83 DeLiM 2782 DeLiM 2020
+ Earl Grey DeLiM /concepts/earl-grey.html DeLiM 83 DeLiM 1175 DeLiM 2014
+ cytosol DeLiM /concepts/cytosol.html DeLiM 83 DeLiM 2783 DeLiM 2020
  tablam DeLiM /concepts/tablam.html DeLiM 82 DeLiM 2114 DeLiM 2020
  EmberScript DeLiM /concepts/emberscript.html DeLiM 82 DeLiM 898 DeLiM 2012
- daonode DeLiM /concepts/daonode.html DeLiM 82 DeLiM 2713 DeLiM 2011
+ daonode DeLiM /concepts/daonode.html DeLiM 82 DeLiM 2714 DeLiM 2011
  pointless DeLiM /concepts/pointless.html DeLiM 81 DeLiM 1586 DeLiM 2020
  orange DeLiM /concepts/orange.html DeLiM 81 DeLiM 1681 DeLiM 2014
  Mangle DeLiM /concepts/mangle.html DeLiM 81 DeLiM 1666 DeLiM 2022
  Kalyn DeLiM /concepts/kalyn.html DeLiM 80 DeLiM 1998 DeLiM 2020
- Tawa DeLiM /concepts/tawa.html DeLiM 78 DeLiM 2796 DeLiM 2021
+ Tawa DeLiM /concepts/tawa.html DeLiM 78 DeLiM 2797 DeLiM 2021
  Rita DeLiM /concepts/rita.html DeLiM 78 DeLiM 2168 DeLiM 2019
  Luna DeLiM /concepts/luna-1.html DeLiM 78 DeLiM 1052 DeLiM 2011
- Knight DeLiM /concepts/knight.html DeLiM 78 DeLiM 2608 DeLiM 2021
+ Knight DeLiM /concepts/knight.html DeLiM 78 DeLiM 2609 DeLiM 2021
  pinto DeLiM /concepts/pinto.html DeLiM 77 DeLiM 2130 DeLiM 2016
  sizzle DeLiM /concepts/sizzle.html DeLiM 76 DeLiM 809 DeLiM 2008
  OK DeLiM /concepts/ok.html DeLiM 76 DeLiM 1712 DeLiM 2021
@@ -636,16 +636,16 @@ table  DeLiM
  Fuzuli DeLiM /concepts/fuzuli.html DeLiM 75 DeLiM 1653 DeLiM 2012
  shadama DeLiM /concepts/shadama.html DeLiM 74 DeLiM 2498 DeLiM 2017
  NilScript DeLiM /concepts/nilscript.html DeLiM 74 DeLiM 2003 DeLiM 2013
- noisecraft DeLiM /concepts/noisecraft.html DeLiM 73 DeLiM 1472 DeLiM 2021
+ noisecraft DeLiM /concepts/noisecraft.html DeLiM 73 DeLiM 1471 DeLiM 2021
  ldpl DeLiM /concepts/ldpl.html DeLiM 73 DeLiM 1585 DeLiM 2019
  json->url DeLiM /concepts/json-url.html DeLiM 73 DeLiM 1921 DeLiM 2017
  dat-protocol DeLiM /concepts/dat-protocol.html DeLiM 73 DeLiM 799 DeLiM 2013
  manool DeLiM /concepts/manool.html DeLiM 72 DeLiM 1461 DeLiM 2018
  ircis DeLiM /concepts/ircis.html DeLiM 71 DeLiM 2444 DeLiM 2019
  Eve DeLiM /concepts/eve.html DeLiM 71 DeLiM 497 DeLiM 2016
- Octune DeLiM /concepts/octune.html DeLiM 70 DeLiM 2623 DeLiM 2021
+ Octune DeLiM /concepts/octune.html DeLiM 70 DeLiM 2624 DeLiM 2021
  corescript DeLiM /concepts/corescript.html DeLiM 70 DeLiM 2336 DeLiM 2018
- Oxyl DeLiM /concepts/oxyl.html DeLiM 69 DeLiM 1433 DeLiM 2019
+ Oxyl DeLiM /concepts/oxyl.html DeLiM 69 DeLiM 1431 DeLiM 2019
  orca-pl DeLiM /concepts/orca-pl.html DeLiM 69 DeLiM 1701 DeLiM 2018
  l2 DeLiM /concepts/l2.html DeLiM 69 DeLiM 2285 DeLiM 2017
  Coco DeLiM /concepts/coco.html DeLiM 69 DeLiM 1599 DeLiM 2010
@@ -664,52 +664,52 @@ table  DeLiM
  djangoql DeLiM /concepts/djangoql.html DeLiM 65 DeLiM 1425 DeLiM 2017
  Common Lisp with Arc Macros and Procedures DeLiM /concepts/clamp.html DeLiM 65 DeLiM 2314 DeLiM 2014
  zolang DeLiM /concepts/zolang.html DeLiM 64 DeLiM 1916 DeLiM 2018
- Yakou Lang DeLiM /concepts/yakou-lang.html DeLiM 64 DeLiM 2784 DeLiM 2021
+ Yakou Lang DeLiM /concepts/yakou-lang.html DeLiM 64 DeLiM 2785 DeLiM 2021
  PCrap DeLiM /concepts/pcrap.html DeLiM 64 DeLiM 2499 DeLiM 2021
  Chika DeLiM /concepts/chika.html DeLiM 64 DeLiM 2504 DeLiM 2019
  Streem DeLiM /concepts/streem.html DeLiM 63 DeLiM 924 DeLiM 2014
  starlark DeLiM /concepts/starlark.html DeLiM 62 DeLiM 464 DeLiM 2018
  forest-lang DeLiM /concepts/forest-lang.html DeLiM 62 DeLiM 1602 DeLiM 2017
- Worst DeLiM /concepts/worst.html DeLiM 61 DeLiM 2071 DeLiM 2001
- Curly DeLiM /concepts/curly.html DeLiM 61 DeLiM 2618 DeLiM 2021
+ Worst DeLiM /concepts/worst.html DeLiM 61 DeLiM 2070 DeLiM 2001
+ Curly DeLiM /concepts/curly.html DeLiM 61 DeLiM 2619 DeLiM 2021
  YAMP DeLiM /concepts/yamp.html DeLiM 59 DeLiM 2127 DeLiM 2019
  Omgrofl DeLiM /concepts/omgrofl.html DeLiM 59 DeLiM 834 DeLiM 2006
  blur-markup-language DeLiM /concepts/blur-markup-language.html DeLiM 59 DeLiM 2333 DeLiM 2017
- zlang DeLiM /concepts/zlang.html DeLiM 58 DeLiM 2778 DeLiM 2017
+ zlang DeLiM /concepts/zlang.html DeLiM 58 DeLiM 2779 DeLiM 2017
  TQL DeLiM /concepts/tql.html DeLiM 58 DeLiM 1752 DeLiM 2023
  Pharen DeLiM /concepts/pharen.html DeLiM 58 DeLiM 1936 DeLiM 2009
  Jisp DeLiM /concepts/jisp.html DeLiM 58 DeLiM 2287 DeLiM 2014
  latte-js DeLiM /concepts/latte-js.html DeLiM 57 DeLiM 2505 DeLiM 2012
  kerf DeLiM /concepts/kerf.html DeLiM 57 DeLiM 2264 DeLiM 2015
  I DeLiM /concepts/i.html DeLiM 57 DeLiM 2315 DeLiM 2012
- Forml DeLiM /concepts/forml.html DeLiM 57 DeLiM 2047 DeLiM 2011
+ Forml DeLiM /concepts/forml.html DeLiM 57 DeLiM 2046 DeLiM 2011
  Céu DeLiM /concepts/ceu.html DeLiM 57 DeLiM 1850 DeLiM 2011
  juicy DeLiM /concepts/juicy.html DeLiM 55 DeLiM 2262 DeLiM 2017
  Insitux DeLiM /concepts/insitux.html DeLiM 55 DeLiM 2493 DeLiM 2021
  YoptaScript DeLiM /concepts/yoptascript.html DeLiM 53 DeLiM 854 DeLiM 2016
  titan DeLiM /concepts/titan.html DeLiM 53 DeLiM 1757 DeLiM 2017
- pasukon DeLiM /concepts/pasukon.html DeLiM 53 DeLiM 1084 DeLiM 2020
+ pasukon DeLiM /concepts/pasukon.html DeLiM 53 DeLiM 1085 DeLiM 2020
  Jazz DeLiM /concepts/jazz.html DeLiM 53 DeLiM 2473 DeLiM 2019
  Astatine DeLiM /concepts/astatine.html DeLiM 53 DeLiM 2011 DeLiM 2022
- Mech DeLiM /concepts/mech-lang.html DeLiM 52 DeLiM 997 DeLiM 2018
+ Mech DeLiM /concepts/mech-lang.html DeLiM 52 DeLiM 998 DeLiM 2018
  ink-lang DeLiM /concepts/ink-lang.html DeLiM 52 DeLiM 1410 DeLiM 2019
- bog DeLiM /concepts/bog.html DeLiM 52 DeLiM 1057 DeLiM 2020
+ bog DeLiM /concepts/bog.html DeLiM 52 DeLiM 1058 DeLiM 2020
  SugarSS DeLiM /concepts/sugarss.html DeLiM 51 DeLiM 949 DeLiM 2016
- SRL DeLiM /concepts/srl.html DeLiM 51 DeLiM 1004 DeLiM 2016
+ SRL DeLiM /concepts/srl.html DeLiM 51 DeLiM 1005 DeLiM 2016
  oopsilon DeLiM /concepts/oopsilon.html DeLiM 51 DeLiM 2342 DeLiM 2017
  awl DeLiM /concepts/awl.html DeLiM 51 DeLiM 2261 DeLiM 2014
- TextFrame DeLiM /concepts/textframe.html DeLiM 50 DeLiM 2725 DeLiM 2008
+ TextFrame DeLiM /concepts/textframe.html DeLiM 50 DeLiM 2726 DeLiM 2008
  gintonic DeLiM /concepts/gintonic.html DeLiM 50 DeLiM 2330 DeLiM 2018
  EJS DeLiM /concepts/ejs.html DeLiM 50 DeLiM 423 DeLiM 2010
  cosh DeLiM /concepts/cosh.html DeLiM 50 DeLiM 2421 DeLiM 2022
  Z DeLiM /concepts/z.html DeLiM 49 DeLiM 2123 DeLiM 2019
- Quaint DeLiM /concepts/quaint.html DeLiM 49 DeLiM 1121 DeLiM 2014
+ Quaint DeLiM /concepts/quaint.html DeLiM 49 DeLiM 1122 DeLiM 2014
  05AB1E DeLiM /concepts/05ab1e.html DeLiM 49 DeLiM 1519 DeLiM 2015
- lila-lang DeLiM /concepts/lila-lang.html DeLiM 48 DeLiM 2064 DeLiM 2019
- juniper DeLiM /concepts/juniper.html DeLiM 48 DeLiM 2052 DeLiM 2016
+ lila-lang DeLiM /concepts/lila-lang.html DeLiM 48 DeLiM 2063 DeLiM 2019
+ juniper DeLiM /concepts/juniper.html DeLiM 48 DeLiM 2051 DeLiM 2016
  JSONScript DeLiM /concepts/json-script.html DeLiM 48 DeLiM 2120 DeLiM 2016
- CSON DeLiM /concepts/cson.html DeLiM 48 DeLiM 609 DeLiM 2011
- ColaScript DeLiM /concepts/colascript.html DeLiM 48 DeLiM 990 DeLiM 2012
+ CSON DeLiM /concepts/cson.html DeLiM 48 DeLiM 608 DeLiM 2011
+ ColaScript DeLiM /concepts/colascript.html DeLiM 48 DeLiM 991 DeLiM 2012
  Wu DeLiM /concepts/wu.html DeLiM 47 DeLiM 1763 DeLiM 2018
  Slick DeLiM /concepts/slick.html DeLiM 47 DeLiM 2191 DeLiM 2020
  quaint-lang DeLiM /concepts/quaint-lang.html DeLiM 47 DeLiM 2404 DeLiM 2015
@@ -717,8 +717,8 @@ table  DeLiM
  Kal DeLiM /concepts/kal.html DeLiM 47 DeLiM 1756 DeLiM 2012
  elegance DeLiM /concepts/elegance.html DeLiM 47 DeLiM 2344 DeLiM 2017
  Cane DeLiM /concepts/cane.html DeLiM 47 DeLiM 2494 DeLiM 2022
- Broccoli DeLiM /concepts/broccoli-1.html DeLiM 47 DeLiM 2639 DeLiM 2020
- truck DeLiM /concepts/truck.html DeLiM 46 DeLiM 2789 DeLiM 2019
+ Broccoli DeLiM /concepts/broccoli-1.html DeLiM 47 DeLiM 2640 DeLiM 2020
+ truck DeLiM /concepts/truck.html DeLiM 46 DeLiM 2790 DeLiM 2019
  Markus DeLiM /concepts/markus.html DeLiM 46 DeLiM 1181 DeLiM 2020
  Charcoal DeLiM /concepts/charcoal.html DeLiM 46 DeLiM 2111 DeLiM 2016
  son DeLiM /concepts/son.html DeLiM 44 DeLiM 1831 DeLiM 2017
@@ -729,7 +729,7 @@ table  DeLiM
  astro DeLiM /concepts/astro.html DeLiM 41 DeLiM 1469 DeLiM 2016
  Rouge DeLiM /concepts/rouge.html DeLiM 40 DeLiM 1542 DeLiM 2012
  Lucid DeLiM /concepts/lucid-lang.html DeLiM 40 DeLiM 1875 DeLiM 2014
- HeLang DeLiM /concepts/helang.html DeLiM 40 DeLiM 1108 DeLiM 2022
+ HeLang DeLiM /concepts/helang.html DeLiM 40 DeLiM 1109 DeLiM 2022
  formality DeLiM /concepts/formality.html DeLiM 40 DeLiM 2334 DeLiM 2019
  YASnippet DeLiM /concepts/yasnippet.html DeLiM 39 DeLiM 428 DeLiM 2008
  U DeLiM /concepts/u.html DeLiM 39 DeLiM 2343 DeLiM 2013
@@ -739,98 +739,98 @@ table  DeLiM
  IPL DeLiM /concepts/intuitionistic.html DeLiM 38 DeLiM 2009 DeLiM 2013
  ru DeLiM /concepts/ru.html DeLiM 37 DeLiM 2174 DeLiM 2015
  Parenscript DeLiM /concepts/parenscript.html DeLiM 37 DeLiM 1878 DeLiM 2009
- mountain DeLiM /concepts/mountain.html DeLiM 37 DeLiM 2637 DeLiM 2019
- Moescript DeLiM /concepts/moescript.html DeLiM 37 DeLiM 2720 DeLiM 2012
+ mountain DeLiM /concepts/mountain.html DeLiM 37 DeLiM 2638 DeLiM 2019
+ Moescript DeLiM /concepts/moescript.html DeLiM 37 DeLiM 2721 DeLiM 2012
  Calc4 DeLiM /concepts/calc4.html DeLiM 37 DeLiM 2420 DeLiM 2018
- Qalb DeLiM /concepts/qalb.html DeLiM 36 DeLiM 978 DeLiM 2012
+ Qalb DeLiM /concepts/qalb.html DeLiM 36 DeLiM 979 DeLiM 2012
  mimix-stream-language DeLiM /concepts/mimix-stream-language.html DeLiM 36 DeLiM 1957 DeLiM 2018
- koara DeLiM /concepts/koara.html DeLiM 36 DeLiM 1429 DeLiM 2016
+ koara DeLiM /concepts/koara.html DeLiM 36 DeLiM 1427 DeLiM 2016
  fleck DeLiM /concepts/fleck.html DeLiM 36 DeLiM 1696 DeLiM 2019
  Subleq DeLiM /concepts/subleq.html DeLiM 35 DeLiM 1306 DeLiM 2009
  rel-lang DeLiM /concepts/rel-lang.html DeLiM 35 DeLiM 2329 DeLiM 2015
- Observable DeLiM /concepts/observable-lang.html DeLiM 35 DeLiM 1035 DeLiM 2017
+ Observable DeLiM /concepts/observable-lang.html DeLiM 35 DeLiM 1036 DeLiM 2017
  jedlang DeLiM /concepts/jedlang.html DeLiM 35 DeLiM 2331 DeLiM 2015
- HUGO DeLiM /concepts/hugo.html DeLiM 35 DeLiM 2065 DeLiM 1995
+ HUGO DeLiM /concepts/hugo.html DeLiM 35 DeLiM 2064 DeLiM 1995
  JSON Schema DeLiM /concepts/json-schema.html DeLiM 34 DeLiM 402 DeLiM 2010
  Superjson DeLiM /concepts/superjson.html DeLiM 33 DeLiM 1226 DeLiM 2014
  Bython DeLiM /concepts/bython.html DeLiM 33 DeLiM 1700 DeLiM 2016
  Aith DeLiM /concepts/aith.html DeLiM 33 DeLiM 617 DeLiM 2020
  Storymatic DeLiM /concepts/storymatic.html DeLiM 32 DeLiM 2517 DeLiM 2022
  mycroft DeLiM /concepts/mycroft.html DeLiM 32 DeLiM 2475 DeLiM 2013
- AIL DeLiM /concepts/ail.html DeLiM 32 DeLiM 2614 DeLiM 2016
- Tosh DeLiM /concepts/tosh.html DeLiM 31 DeLiM 2538 DeLiM 2015
+ AIL DeLiM /concepts/ail.html DeLiM 32 DeLiM 2615 DeLiM 2016
+ Tosh DeLiM /concepts/tosh.html DeLiM 31 DeLiM 2539 DeLiM 2015
  tampio DeLiM /concepts/tampio.html DeLiM 31 DeLiM 1839 DeLiM 2017
  solid DeLiM /concepts/solid.html DeLiM 31 DeLiM 1808 DeLiM 2013
  pie-lang DeLiM /concepts/pie-lang.html DeLiM 31 DeLiM 1558 DeLiM 2018
- Khepri DeLiM /concepts/khepri.html DeLiM 31 DeLiM 2596 DeLiM 2012
+ Khepri DeLiM /concepts/khepri.html DeLiM 31 DeLiM 2597 DeLiM 2012
  hivemind DeLiM /concepts/hivemind.html DeLiM 31 DeLiM 2294 DeLiM 2015
  docopt DeLiM /concepts/docopt.html DeLiM 31 DeLiM 804 DeLiM 2012
- Broccoli DeLiM /concepts/broccoli.html DeLiM 31 DeLiM 2726 DeLiM 2008
+ Broccoli DeLiM /concepts/broccoli.html DeLiM 31 DeLiM 2727 DeLiM 2008
  API Blueprint DeLiM /concepts/api-blueprint.html DeLiM 31 DeLiM 288 DeLiM 2013
  Zot DeLiM /concepts/zot.html DeLiM 30 DeLiM 1483 DeLiM 2015
  t2b DeLiM /concepts/t2b.html DeLiM 30 DeLiM 1799 DeLiM 2018
  silk DeLiM /concepts/silk.html DeLiM 30 DeLiM 1443 DeLiM 2019
- mai DeLiM /concepts/mai.html DeLiM 29 DeLiM 2640 DeLiM 2019
+ mai DeLiM /concepts/mai.html DeLiM 29 DeLiM 2641 DeLiM 2019
  hamdown DeLiM /concepts/hamdown.html DeLiM 29 DeLiM 1918 DeLiM 2018
  Ham DeLiM /concepts/ham.html DeLiM 29 DeLiM 2326 DeLiM 2013
  edgelisp DeLiM /concepts/edgelisp.html DeLiM 29 DeLiM 2358 DeLiM 2008
  AsciiMath DeLiM /concepts/asciimath.html DeLiM 29 DeLiM 1271 DeLiM 2014
  rpscript DeLiM /concepts/rpscript.html DeLiM 28 DeLiM 2260 DeLiM 2018
  Jammy DeLiM /concepts/jammy.html DeLiM 28 DeLiM 2417 DeLiM 2021
- CokeScript DeLiM /concepts/cokescript.html DeLiM 28 DeLiM 2706 DeLiM 2015
+ CokeScript DeLiM /concepts/cokescript.html DeLiM 28 DeLiM 2707 DeLiM 2015
  Topaz DeLiM /concepts/topaz-lang.html DeLiM 27 DeLiM 1655 DeLiM 2021
  mlatu DeLiM /concepts/mlatu.html DeLiM 27 DeLiM 2230 DeLiM 2021
  JLang DeLiM /concepts/jlang.html DeLiM 27 DeLiM 2133 DeLiM 2016
- Broccoli DeLiM /concepts/broccoli-2.html DeLiM 27 DeLiM 2729 DeLiM 2022
+ Broccoli DeLiM /concepts/broccoli-2.html DeLiM 27 DeLiM 2730 DeLiM 2022
  Aheui DeLiM /concepts/aheui.html DeLiM 27 DeLiM 1325 DeLiM 2012
- Iode DeLiM /concepts/iode.html DeLiM 26 DeLiM 2628 DeLiM 2015
- tuplemarkup DeLiM /concepts/tuplemarkup.html DeLiM 25 DeLiM 2058 DeLiM 2012
+ Iode DeLiM /concepts/iode.html DeLiM 26 DeLiM 2629 DeLiM 2015
+ tuplemarkup DeLiM /concepts/tuplemarkup.html DeLiM 25 DeLiM 2057 DeLiM 2012
  sugartex DeLiM /concepts/sugartex.html DeLiM 25 DeLiM 2480 DeLiM 2018
- glush DeLiM /concepts/glush.html DeLiM 25 DeLiM 2560 DeLiM 2019
+ glush DeLiM /concepts/glush.html DeLiM 25 DeLiM 2561 DeLiM 2019
  Blox DeLiM /concepts/blox.html DeLiM 25 DeLiM 1926 DeLiM 2018
  Margin DeLiM /concepts/margin.html DeLiM 24 DeLiM 1948 DeLiM 2019
- Fern DeLiM /concepts/fern.html DeLiM 24 DeLiM 2635 DeLiM 2022
- tsar DeLiM /concepts/tsar.html DeLiM 23 DeLiM 2793 DeLiM 2019
+ Fern DeLiM /concepts/fern.html DeLiM 24 DeLiM 2636 DeLiM 2022
+ tsar DeLiM /concepts/tsar.html DeLiM 23 DeLiM 2794 DeLiM 2019
  Readable DeLiM /concepts/readable.html DeLiM 23 DeLiM 664 DeLiM 2018
  MewMew DeLiM /concepts/mewmew.html DeLiM 23 DeLiM 2478 DeLiM 2020
  kaitai DeLiM /concepts/kaitai.html DeLiM 23 DeLiM 610 DeLiM 2016
  stoneknifeforth DeLiM /concepts/stoneknifeforth.html DeLiM 22 DeLiM 1768 DeLiM 2008
- RoyalScript DeLiM /concepts/royalscript.html DeLiM 22 DeLiM 2794 DeLiM 2016
+ RoyalScript DeLiM /concepts/royalscript.html DeLiM 22 DeLiM 2795 DeLiM 2016
  preforth DeLiM /concepts/preforth.html DeLiM 22 DeLiM 2403 DeLiM 2018
  JSON lambda DeLiM /concepts/json-lambda.html DeLiM 22 DeLiM 1695 DeLiM 2017
- json-graph-format DeLiM /concepts/json-graph-format.html DeLiM 22 DeLiM 1048 DeLiM 2014
+ json-graph-format DeLiM /concepts/json-graph-format.html DeLiM 22 DeLiM 1049 DeLiM 2014
  GamerLanguage DeLiM /concepts/gamerlanguage.html DeLiM 22 DeLiM 2523 DeLiM 2021
  Flatline DeLiM /concepts/flatline.html DeLiM 22 DeLiM 2002 DeLiM 2013
  expresso DeLiM /concepts/expresso.html DeLiM 22 DeLiM 1898 DeLiM 2012
  commonmark DeLiM /concepts/commonmark.html DeLiM 22 DeLiM 526 DeLiM 2014
- ActivityPub DeLiM /concepts/activity-pub.html DeLiM 22 DeLiM 1061 DeLiM 2018
+ ActivityPub DeLiM /concepts/activity-pub.html DeLiM 22 DeLiM 1062 DeLiM 2018
  wah DeLiM /concepts/wah.html DeLiM 21 DeLiM 1993 DeLiM 2017
  swizzle DeLiM /concepts/swizzle.html DeLiM 21 DeLiM 1688 DeLiM 2018
  parenthetic DeLiM /concepts/parenthetic.html DeLiM 21 DeLiM 1547 DeLiM 2012
  noulith DeLiM /concepts/noulith.html DeLiM 21 DeLiM 1457 DeLiM 2022
- microl DeLiM /concepts/microl.html DeLiM 21 DeLiM 2634 DeLiM 2021
+ microl DeLiM /concepts/microl.html DeLiM 21 DeLiM 2635 DeLiM 2021
  JSON Query Language DeLiM /concepts/jql.html DeLiM 21 DeLiM 1464 DeLiM 2019
- Jingo DeLiM /concepts/jingo.html DeLiM 21 DeLiM 2632 DeLiM 2020
+ Jingo DeLiM /concepts/jingo.html DeLiM 21 DeLiM 2633 DeLiM 2020
  HuJSON DeLiM /concepts/hujson.html DeLiM 21 DeLiM 1755 DeLiM 2019
  httplang DeLiM /concepts/httplang.html DeLiM 21 DeLiM 1642 DeLiM 2015
  hexagony DeLiM /concepts/hexagony.html DeLiM 20 DeLiM 1774 DeLiM 2015
- Secure Scuttlebutt DeLiM /concepts/ssb.html DeLiM 19 DeLiM 726 DeLiM 2014
+ Secure Scuttlebutt DeLiM /concepts/ssb.html DeLiM 19 DeLiM 727 DeLiM 2014
  Concise Encoding DeLiM /concepts/concise-encoding.html DeLiM 19 DeLiM 687 DeLiM 2018
  badlanguage DeLiM /concepts/badlanguage.html DeLiM 19 DeLiM 2328 DeLiM 2017
  Ad-hoc DeLiM /concepts/ad-hoc.html DeLiM 19 DeLiM 2413 DeLiM 2017
  TMTP DeLiM /concepts/tmtp.html DeLiM 18 DeLiM 2027 DeLiM 2017
  little DeLiM /concepts/little.html DeLiM 18 DeLiM 1985 DeLiM 2016
- JCOF DeLiM /concepts/jcof.html DeLiM 18 DeLiM 2062 DeLiM 2022
+ JCOF DeLiM /concepts/jcof.html DeLiM 18 DeLiM 2061 DeLiM 2022
  V DeLiM /concepts/v-golf.html DeLiM 17 DeLiM 2458 DeLiM 2016
  phorth DeLiM /concepts/phorth.html DeLiM 17 DeLiM 2322 DeLiM 2016
  dllup DeLiM /concepts/dllup.html DeLiM 17 DeLiM 1887 DeLiM 2015
  Nymph DeLiM /concepts/nymph.html DeLiM 16 DeLiM 1370 DeLiM 2017
  minikanren DeLiM /concepts/minikanren.html DeLiM 16 DeLiM 1772 DeLiM 2013
  JSON Lines DeLiM /concepts/ld-json.html DeLiM 16 DeLiM 1587 DeLiM 2013
- lambcalc DeLiM /concepts/lambcalc.html DeLiM 16 DeLiM 2638 DeLiM 2019
+ lambcalc DeLiM /concepts/lambcalc.html DeLiM 16 DeLiM 2639 DeLiM 2019
  emesh DeLiM /concepts/emesh.html DeLiM 16 DeLiM 2340 DeLiM 2014
  Djot DeLiM /concepts/djot.html DeLiM 16 DeLiM 615 DeLiM 2022
- Twig DeLiM /concepts/twig.html DeLiM 15 DeLiM 393 DeLiM 2009
+ Twig DeLiM /concepts/twig.html DeLiM 15 DeLiM 392 DeLiM 2009
  TOML DeLiM /concepts/toml.html DeLiM 15 DeLiM 221 DeLiM 2013
  pipelines DeLiM /concepts/pipelines.html DeLiM 15 DeLiM 1801 DeLiM 2018
  p4p DeLiM /concepts/p4p.html DeLiM 15 DeLiM 1395 DeLiM 2010
@@ -842,30 +842,30 @@ table  DeLiM
  Kamby DeLiM /concepts/kamby.html DeLiM 14 DeLiM 1842 DeLiM 2022
  JSFuck DeLiM /concepts/jsf.html DeLiM 14 DeLiM 739 DeLiM 2012
  grid-notation DeLiM /concepts/grid-notation.html DeLiM 14 DeLiM 2477 DeLiM 2013
- Ciel DeLiM /concepts/ciel.html DeLiM 14 DeLiM 2049 DeLiM 2010
+ Ciel DeLiM /concepts/ciel.html DeLiM 14 DeLiM 2048 DeLiM 2010
  toki sona DeLiM /concepts/toki-sona.html DeLiM 13 DeLiM 2488 DeLiM 2021
  texti DeLiM /concepts/texti.html DeLiM 13 DeLiM 1925 DeLiM 2017
  rockstar-rkt DeLiM /concepts/rockstar-rkt.html DeLiM 13 DeLiM 2521 DeLiM 2019
  nylo DeLiM /concepts/nylo.html DeLiM 13 DeLiM 2257 DeLiM 2017
- JSON with Comments DeLiM /concepts/json-with-comments.html DeLiM 13 DeLiM 1055 DeLiM 2001
+ JSON with Comments DeLiM /concepts/json-with-comments.html DeLiM 13 DeLiM 1056 DeLiM 2001
  fe DeLiM /concepts/fe.html DeLiM 13 DeLiM 1430 DeLiM 2019
  Farcaster DeLiM /concepts/farcaster.html DeLiM 13 DeLiM 1241 DeLiM 2021
- DOML DeLiM /concepts/doml.html DeLiM 13 DeLiM 998 DeLiM 2017
+ DOML DeLiM /concepts/doml.html DeLiM 13 DeLiM 999 DeLiM 2017
  taf DeLiM /concepts/taf.html DeLiM 12 DeLiM 1716 DeLiM 2012
  Kami DeLiM /concepts/kami.html DeLiM 12 DeLiM 2186 DeLiM 2022
  fjs DeLiM /concepts/fjs.html DeLiM 12 DeLiM 2321 DeLiM 2013
  exkited DeLiM /concepts/exkited.html DeLiM 12 DeLiM 1180 DeLiM 2018
- Dixy DeLiM /concepts/dixy.html DeLiM 12 DeLiM 2787 DeLiM 2017
- Bizubee DeLiM /concepts/bizubee.html DeLiM 12 DeLiM 2621 DeLiM 2015
+ Dixy DeLiM /concepts/dixy.html DeLiM 12 DeLiM 2788 DeLiM 2017
+ Bizubee DeLiM /concepts/bizubee.html DeLiM 12 DeLiM 2622 DeLiM 2015
  Ante DeLiM /concepts/ante-esolang.html DeLiM 12 DeLiM 2119 DeLiM 2013
  Z DeLiM /concepts/z-expressions.html DeLiM 11 DeLiM 1434 DeLiM 2012
- Typecast.js DeLiM /concepts/typecastjs.html DeLiM 11 DeLiM 2712 DeLiM 2013
- Timpani DeLiM /concepts/timpani.html DeLiM 11 DeLiM 2652 DeLiM 2017
+ Typecast.js DeLiM /concepts/typecastjs.html DeLiM 11 DeLiM 2713 DeLiM 2013
+ Timpani DeLiM /concepts/timpani.html DeLiM 11 DeLiM 2653 DeLiM 2017
  RAML DeLiM /concepts/raml.html DeLiM 11 DeLiM 293 DeLiM 2013
- PearScript DeLiM /concepts/pearscript.html DeLiM 11 DeLiM 2629 DeLiM 2016
+ PearScript DeLiM /concepts/pearscript.html DeLiM 11 DeLiM 2630 DeLiM 2016
  nlpl DeLiM /concepts/nlpl.html DeLiM 11 DeLiM 2418 DeLiM 2018
  maraca-lang DeLiM /concepts/maraca-lang.html DeLiM 11 DeLiM 1722 DeLiM 2018
- KavaScript DeLiM /concepts/kavascript.html DeLiM 11 DeLiM 2622 DeLiM 2021
+ KavaScript DeLiM /concepts/kavascript.html DeLiM 11 DeLiM 2623 DeLiM 2021
  Incipit DeLiM /concepts/incipit.html DeLiM 11 DeLiM 1593 DeLiM 2021
  cuneiform DeLiM /concepts/cuneiform.html DeLiM 11 DeLiM 1647 DeLiM 2015
  Brain-Flak DeLiM /concepts/brain-flak.html DeLiM 11 DeLiM 2378 DeLiM 2016
@@ -875,27 +875,27 @@ table  DeLiM
  Hodor DeLiM /concepts/hodor.html DeLiM 10 DeLiM 1559 DeLiM 2015
  Tabloid DeLiM /concepts/tabloid.html DeLiM 9 DeLiM 1964 DeLiM 2020
  Em DeLiM /concepts/em.html DeLiM 9 DeLiM 1223 DeLiM 2020
- Tag Line Commands DeLiM /concepts/tlc.html DeLiM 8 DeLiM 2579 DeLiM 2015
+ Tag Line Commands DeLiM /concepts/tlc.html DeLiM 8 DeLiM 2580 DeLiM 2015
  taxa DeLiM /concepts/taxa.html DeLiM 8 DeLiM 2511 DeLiM 2014
- Jison Lex DeLiM /concepts/jison-lex.html DeLiM 8 DeLiM 1126 DeLiM 2013
+ Jison Lex DeLiM /concepts/jison-lex.html DeLiM 8 DeLiM 1127 DeLiM 2013
  ferret DeLiM /concepts/ferret.html DeLiM 8 DeLiM 1189 DeLiM 2017
  baysick DeLiM /concepts/baysick.html DeLiM 8 DeLiM 1773 DeLiM 2009
- wats DeLiM /concepts/wats.html DeLiM 7 DeLiM 2722 DeLiM 2017
+ wats DeLiM /concepts/wats.html DeLiM 7 DeLiM 2723 DeLiM 2017
  ulisp DeLiM /concepts/ulisp.html DeLiM 7 DeLiM 1796 DeLiM 2016
  semicolon DeLiM /concepts/semicolon.html DeLiM 7 DeLiM 1994 DeLiM 2012
  lsd DeLiM /concepts/lsd.html DeLiM 7 DeLiM 2419 DeLiM 2016
  jasper DeLiM /concepts/jasper.html DeLiM 7 DeLiM 2012 DeLiM 2014
  Workfl DeLiM /concepts/workfl.html DeLiM 6 DeLiM 2522 DeLiM 2019
- woe DeLiM /concepts/woe.html DeLiM 6 DeLiM 2630 DeLiM 2009
- weebasic DeLiM /concepts/weebasic.html DeLiM 6 DeLiM 2723 DeLiM 2021
- Vigil DeLiM /concepts/vigil.html DeLiM 6 DeLiM 1013 DeLiM 2013
- SQHTML DeLiM /concepts/sqhtml.html DeLiM 6 DeLiM 2797 DeLiM 2022
+ woe DeLiM /concepts/woe.html DeLiM 6 DeLiM 2631 DeLiM 2009
+ weebasic DeLiM /concepts/weebasic.html DeLiM 6 DeLiM 2724 DeLiM 2021
+ Vigil DeLiM /concepts/vigil.html DeLiM 6 DeLiM 1012 DeLiM 2013
+ SQHTML DeLiM /concepts/sqhtml.html DeLiM 6 DeLiM 2798 DeLiM 2022
  Scheme 2-D DeLiM /concepts/scheme-2-d.html DeLiM 6 DeLiM 2401 DeLiM 2021
  KAML DeLiM /concepts/kaml.html DeLiM 6 DeLiM 2185 DeLiM 2018
  Breccia DeLiM /concepts/breccia.html DeLiM 6 DeLiM 1619 DeLiM 2019
- RustScript DeLiM /concepts/rustscript.html DeLiM 5 DeLiM 2619 DeLiM 2021
+ RustScript DeLiM /concepts/rustscript.html DeLiM 5 DeLiM 2620 DeLiM 2021
  Language Server Index Format DeLiM /concepts/lsif-format.html DeLiM 5 DeLiM 1396 DeLiM 2019
- lamderp DeLiM /concepts/lamderp.html DeLiM 5 DeLiM 2627 DeLiM 2013
+ lamderp DeLiM /concepts/lamderp.html DeLiM 5 DeLiM 2628 DeLiM 2013
  clarity DeLiM /concepts/clarity.html DeLiM 5 DeLiM 1990 DeLiM 2019
  YESS DeLiM /concepts/yess.html DeLiM 4 DeLiM 1849 DeLiM 2022
  rocket DeLiM /concepts/rocket.html DeLiM 4 DeLiM 2416 DeLiM 2018
@@ -905,13 +905,13 @@ table  DeLiM
  y-lang DeLiM /concepts/y-lang.html DeLiM 3 DeLiM 2481 DeLiM 2019
  TAO DeLiM /concepts/tree-annotation-operator.html DeLiM 3 DeLiM 2131 DeLiM 2020
  TAP DeLiM /concepts/tap.html DeLiM 3 DeLiM 1190 DeLiM 1988
- Sugi DeLiM /concepts/sugi.html DeLiM 3 DeLiM 2798 DeLiM 2021
- Mojo DeLiM /concepts/mojo.html DeLiM 3 DeLiM 968 DeLiM 2022
+ Sugi DeLiM /concepts/sugi.html DeLiM 3 DeLiM 2799 DeLiM 2021
+ Mojo DeLiM /concepts/mojo.html DeLiM 3 DeLiM 969 DeLiM 2022
  JSON Graph Spec DeLiM /concepts/json-graph-spec.html DeLiM 3 DeLiM 1481 DeLiM 2013
  [x]it! DeLiM /concepts/x-it.html DeLiM 2 DeLiM 1609 DeLiM 2022
  eskew DeLiM /concepts/eskew.html DeLiM 2 DeLiM 2422 DeLiM 2019
  mlir DeLiM /concepts/mlir.html DeLiM 1 DeLiM 490 DeLiM 2019
- MeanscriptCLI DeLiM /concepts/meanscriptcli.html DeLiM 1 DeLiM 2636 DeLiM 2020
+ MeanscriptCLI DeLiM /concepts/meanscriptcli.html DeLiM 1 DeLiM 2637 DeLiM 2020
  Luna DeLiM /concepts/luna.html DeLiM 1 DeLiM 533 DeLiM 2015
  JSON-stat DeLiM /concepts/json-stat.html DeLiM 1 DeLiM 679 DeLiM 2011
  EDN DeLiM /concepts/edn.html DeLiM 1 DeLiM 286 DeLiM 2012

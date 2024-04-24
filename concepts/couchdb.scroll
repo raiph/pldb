@@ -6,8 +6,8 @@ title CouchDB - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="sather.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="react-native.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="react-native.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="txl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/couchdb.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/apache/couchdb
 
 dashboard
- #480 on PLDB
+ #481 on PLDB
  19 Years Old
 
 * Apache CouchDB is an open-source document-oriented NoSQL database, implemented in Erlang. CouchDB uses multiple formats and protocols to store, transfer, and process its data. It uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API.. Read more on Wikipedia...
@@ -64,6 +64,6 @@ treeTable
   Token 
   Example
 
-keyboardNav sather.html react-native.html
+keyboardNav react-native.html txl.html
 
 import ../footer.scroll

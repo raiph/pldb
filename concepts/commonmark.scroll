@@ -6,8 +6,8 @@ title commonmark - Text markup language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="mps.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eve.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="fasta-format.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="vim-script.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/commonmark.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/commonmark/commonmark-spec
 
 dashboard
- #424 <span title="TotalRank: 930 Jobs: 103 Users: 161 Facts: 1311 Links: 666">on PLDB</span>
+ #426 <span title="TotalRank: 931 Jobs: 103 Users: 161 Facts: 1311 Links: 667">on PLDB</span>
  10 Years Old
 
 * A strongly defined, highly compatible specification of Markdown
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav mps.html eve.html
+keyboardNav fasta-format.html vim-script.html
 
 import ../footer.scroll

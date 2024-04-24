@@ -6,8 +6,8 @@ title Nimskull - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="praxis-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clike.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="linc-4gl.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="obj.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nimskull.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/nim-works/nimskull
 
 dashboard
- #1738 <span title="TotalRank: 2271 Jobs: 103 Users: 1182 Facts: 1502 Links: 986">on PLDB</span>
+ #1733 <span title="TotalRank: 2271 Jobs: 103 Users: 1182 Facts: 1502 Links: 986">on PLDB</span>
  3 Years Old
 
 * An in development statically typed systems programming language; with sustainability at its core. We, the community of users, maintain it.
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav praxis-lang.html clike.html
+keyboardNav linc-4gl.html obj.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title dgraph - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="amqp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="csv.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="p4.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="amqp.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dgraph.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/dgraph-io/dgraph
 
 dashboard
- #725 on PLDB
+ #724 on PLDB
  9 Years Old
 
 * Native GraphQL Database with graph backend
@@ -39,6 +39,6 @@ dashboard
 
 endColumns
 
-keyboardNav amqp.html csv.html
+keyboardNav p4.html amqp.html
 
 import ../footer.scroll

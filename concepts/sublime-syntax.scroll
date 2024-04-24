@@ -6,7 +6,7 @@ title Sublime Syntax - Grammar language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="pgm-format.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="jean.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="ccr.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sublime-syntax.pldb
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #1979 <span title="TotalRank: 2473 Jobs: 103 Users: 2441 Facts: 1981 Links: 389">on PLDB</span>
+ #1979 <span title="TotalRank: 2474 Jobs: 103 Users: 2442 Facts: 1982 Links: 389">on PLDB</span>
  16 Years Old
 
 * Sublime Syntax files are YAML files with a small header, followed by a list of contexts. Each context has a list of patterns that describe how to highlight text in that context, and how to change the current text.
@@ -45,6 +45,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav pgm-format.html ccr.html
+keyboardNav jean.html ccr.html
 
 import ../footer.scroll

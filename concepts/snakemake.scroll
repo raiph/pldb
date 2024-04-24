@@ -7,7 +7,7 @@ title snakemake - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="hiveql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hamler.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="sequential-function-chart.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snakemake.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
 
 dashboard
- #1040 <span title="TotalRank: 1606 Jobs: 103 Users: 2837 Facts: 517 Links: 986">on PLDB</span>
+ #1039 <span title="TotalRank: 1606 Jobs: 103 Users: 2838 Facts: 517 Links: 986">on PLDB</span>
  12 Years Old
 
 * A workflow is defined in a ‘Snakefile’ through a domain-specific language that is close to standard Python syntax. It consists of rules that denote how to create output files from input files. The workflow is implied by dependencies between the rules that arise from one rule needing an output file of another as an input file.
@@ -87,6 +87,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav hiveql.html hamler.html
+keyboardNav hiveql.html sequential-function-chart.html
 
 import ../footer.scroll

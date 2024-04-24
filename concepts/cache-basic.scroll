@@ -7,7 +7,7 @@ title Caché Basic - Query language
 
 html
  <a class="trueBaseThemePreviousItem" href="smt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pure.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="comby.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cache-basic.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
 
 dashboard
- #895 <span title="TotalRank: 1459 Jobs: 103 Users: 2837 Facts: 370 Links: 986">on PLDB</span>
+ #896 <span title="TotalRank: 1459 Jobs: 103 Users: 2838 Facts: 370 Links: 986">on PLDB</span>
  27 Years Old
 
 * Caché is a high-performance object database with several built-in general-purpose programming languages. It supports multiple processes and provides concurrency control. Each process has direct, efficient access to the data.
@@ -134,6 +134,6 @@ treeTable
   Token 
   Example
 
-keyboardNav smt.html pure.html
+keyboardNav smt.html comby.html
 
 import ../footer.scroll

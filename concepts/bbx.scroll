@@ -6,8 +6,8 @@ title BBx - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="datomic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cytosol.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cytosol.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="iptables-rope.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bbx.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
 
 dashboard
- #2462 <span title="TotalRank: 3036 Jobs: 103 Users: 2267 Facts: 2628 Links: 666">on PLDB</span>
+ #2464 <span title="TotalRank: 3037 Jobs: 103 Users: 2267 Facts: 2629 Links: 667">on PLDB</span>
  39 Years Old
 
 * In 1985, BASIS released their first generation of Business BASIC to extend the functionality of Business BASIC and aptly named it BBx® (Business BASIC eXtended). Successive generations of BASIS technology continue to enhance the Business BASIC language. A fifth generation product delivers BASIS' first GUI deployment, followed by the sixth generation that introduces modern graphical application development tools for Business BASIC. Coupling these tools with a powerful database management system enable developers to create comprehensive and tightly integrated business applications that are reliable, scalable, cost-effective, and platform independent. Computer programs and associated documentation providing tools and programming language to enable software developers to create and prepare business, internet, and applications software Scientific, nautical, surveying, photographic, cinematographic, optical, weighing, measuring, signalling, checking (supervision), life-saving and teaching apparatus and instruments; apparatus and instruments for conducting, switching, transforming, accumulating, regulating or controlling electricity; apparatus for recording, transmission or reproduction of sound or images; magnetic data carriers, recording discs; automatic vending machines and mechanisms for coin operated apparatus; cash registers, calculating machines, data processing equipment and computers; fire extinguishing apparatus.
@@ -36,6 +36,6 @@ dashboard
 
 endColumns
 
-keyboardNav datomic.html cytosol.html
+keyboardNav cytosol.html iptables-rope.html
 
 import ../footer.scroll

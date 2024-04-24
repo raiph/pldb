@@ -6,8 +6,8 @@ title Numba - Compiler
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="txl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fastq-format.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="fastq-format.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="mbox.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/numba.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/numba/numba
 
 dashboard
- #483 on PLDB
+ #484 on PLDB
  12 Years Old
 
 * Numba is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code.
@@ -51,6 +51,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav txl.html fastq-format.html
+keyboardNav fastq-format.html mbox.html
 
 import ../footer.scroll

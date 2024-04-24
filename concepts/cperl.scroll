@@ -6,8 +6,8 @@ title cperl - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="colorforth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ttcn.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="mobl-lang.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="colorforth.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cperl.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/perl11/cperl
 
 dashboard
- #1792 <span title="TotalRank: 2312 Jobs: 103 Users: 1223 Facts: 1381 Links: 986">on PLDB</span>
+ #1791 <span title="TotalRank: 2312 Jobs: 103 Users: 1223 Facts: 1381 Links: 986">on PLDB</span>
  7 Years Old
 
 * cperl is a better variant of Perl 5 with many Perl 6 based features and improvements, but without breaking compatibility. CPAN works. It is a "perl 11", 5 + 6 = 11.
@@ -38,6 +38,6 @@ dashboard
 
 endColumns
 
-keyboardNav colorforth.html ttcn.html
+keyboardNav mobl-lang.html colorforth.html
 
 import ../footer.scroll

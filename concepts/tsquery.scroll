@@ -6,7 +6,7 @@ title tsquery - Query language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="vale.html">&lt;</a>
+ <a class="trueBaseThemePreviousItem" href="oak.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="macro.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tsquery.pldb
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/phenomnomnominal/tsquery
 
 dashboard
- #1160 <span title="TotalRank: 1707 Jobs: 103 Users: 618 Facts: 1889 Links: 986">on PLDB</span>
+ #1160 <span title="TotalRank: 1707 Jobs: 103 Users: 618 Facts: 1890 Links: 986">on PLDB</span>
  6 Years Old
 
 * TypeScript AST query library
@@ -36,6 +36,6 @@ codeWithHeader Example from the web:
 
 endColumns
 
-keyboardNav vale.html macro.html
+keyboardNav oak.html macro.html
 
 import ../footer.scroll

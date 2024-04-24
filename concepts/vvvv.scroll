@@ -6,8 +6,8 @@ title Vvvv - Application
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="reduce.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="structured-text.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="cowsel.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="pilot.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vvvv.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
 
 dashboard
- #1582 on PLDB
+ #1574 on PLDB
  26 Years Old
 
 * vvvv (German pronunciation: [faʊfiːɐ̯ ] = "v4") is a general purpose toolkit with a special focus on real-time video synthesis and programming large media environments with physical interfaces, real-time motion graphics, audio and video. vvvv uses a dataflow approach and a visual programming interface for rapid prototyping and developing. Applications written in vvvv are commonly called patches. Read more on Wikipedia...
@@ -40,6 +40,6 @@ dashboard
 
 endColumns
 
-keyboardNav reduce.html structured-text.html
+keyboardNav cowsel.html pilot.html
 
 import ../footer.scroll

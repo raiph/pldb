@@ -7,7 +7,7 @@ title Mobl - Programming language
 
 html
  <a class="trueBaseThemePreviousItem" href="croma.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="colorforth.html">&gt;</a>
+ <a class="trueBaseThemeNextItem" href="cperl.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mobl-lang.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/mobl/mobl
 
 dashboard
- #1790 <span title="TotalRank: 2310 Jobs: 103 Users: 1221 Facts: 1889 Links: 986">on PLDB</span>
+ #1790 <span title="TotalRank: 2310 Jobs: 103 Users: 1221 Facts: 1890 Links: 986">on PLDB</span>
  14 Years Old
 
 * Domain-specific language for mobile (web) applications. This repository contains the compiler sources and Eclipse project.
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav croma.html colorforth.html
+keyboardNav croma.html cperl.html
 
 import ../footer.scroll

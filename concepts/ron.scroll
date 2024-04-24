@@ -6,8 +6,8 @@ title Ron - Data notation
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="xtend.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bbcode.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="ragel.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="xtend.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ron.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/ron-rs/ron
 
 dashboard
- #456 <span title="TotalRank: 969 Jobs: 103 Users: 334 Facts: 532 Links: 986">on PLDB</span>
+ #455 <span title="TotalRank: 969 Jobs: 103 Users: 334 Facts: 532 Links: 986">on PLDB</span>
  9 Years Old
 
 * RON is a simple readable data serialization format that looks similar to Rust syntax. It's designed to support all of Serde's data model, so structs, enums, tuples, arrays, generic maps, and primitive values.
@@ -95,6 +95,6 @@ treeTable
   Token 
   Example
 
-keyboardNav xtend.html bbcode.html
+keyboardNav ragel.html xtend.html
 
 import ../footer.scroll

@@ -1,0 +1,57 @@
+import ../header.scroll
+baseUrl https://pldb.io/concepts/
+title Podlite
+
+title Podlite - Text markup language
+ hidden
+
+html
+ <a class="trueBaseThemePreviousItem" href="jemplate.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="mtml.html">&gt;</a>
+
+viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/podlite.pldb
+
+startColumns 4
+
+<div class="trueBaseThemeQuickLinks"><a href="https://podlite.org/" class="material-symbols-outlined">home</a> <a href="https://pod6.in/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/podlite/podlite" class="material-symbols-outlined">code</a> <a href="/edit.html?id=podlite" class="material-symbols-outlined">edit</a></div>
+
+* Podlite is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2020 by Alexandr Zahatski.
+ link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
+ link ../lists/creators.html#alexandrZahatski Alexandr Zahatski
+
+codeWithHeader Source code:
+ git clone https://github.com/podlite/podlite
+
+dashboard
+ #2273 <span title="TotalRank: 2758 Jobs: 103 Users: 2415 Facts: 1669 Links: 986">on PLDB</span>
+ 4 Years Old
+
+* Try now: <a href="https://pod6.in/">Web</a>
+
+* Podlite, a lightweight block-oriented markup language that's all about flexibility and ease of use.
+
+- Podlite website
+ https://podlite.org/
+- Podlite is developed on <a href="https://github.com/podlite/podlite">GitHub</a>
+- Podlite specs
+ https://podlite.org/specification
+- See also: (2 related languages)<a href="markdown.html">Markdown</a>, <a href="scroll.html">Scroll</a>
+
+<br>
+
+codeWithHeader Example from the web:
+  =begin pod
+  
+  =head1 A heading
+  
+  This is Podlite too. Specifically, this is a simple C&lt;para&gt; block
+  
+      $this = pod(&#39;also&#39;);  # Specifically, a code block
+  
+  =end pod
+
+endColumns
+
+keyboardNav jemplate.html mtml.html
+
+import ../footer.scroll

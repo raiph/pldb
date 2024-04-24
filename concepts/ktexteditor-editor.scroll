@@ -6,8 +6,8 @@ title ktexteditor-editor - Editor
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="csa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="camal.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="chill.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="elan.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ktexteditor-editor.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/KDE/ktexteditor
 
 dashboard
- #2388 on PLDB
+ #2382 on PLDB
  10 Years Old
 
 * KTextEditor Framework
@@ -37,6 +37,6 @@ dashboard
 
 endColumns
 
-keyboardNav csa.html camal.html
+keyboardNav chill.html elan.html
 
 import ../footer.scroll

@@ -6,8 +6,8 @@ title Umple - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="almquist-shell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="storyscript.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="storyscript.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="rant.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/umple.pldb
 
@@ -19,7 +19,7 @@ startColumns 4
  link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
 
 dashboard
- #781 <span title="TotalRank: 1348 Jobs: 103 Users: 579 Facts: 862 Links: 666">on PLDB</span>
+ #782 <span title="TotalRank: 1349 Jobs: 103 Users: 579 Facts: 862 Links: 667">on PLDB</span>
  16 Years Old
 
 * Umple is a language for both object-oriented programming and modelling with class diagrams and state diagrams. The name Umple is a portmanteau of "UML", "ample" and "programming language", indicating that it is designed to provide ample features to extend programming languages with UML capabilities.. Read more on Wikipedia...
@@ -57,6 +57,6 @@ codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Umple'>Wikipe
 
 endColumns
 
-keyboardNav almquist-shell.html storyscript.html
+keyboardNav storyscript.html rant.html
 
 import ../footer.scroll

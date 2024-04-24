@@ -6,8 +6,8 @@ title NetLogo - Programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="s-expressions.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clean.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="sparql.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="s-expressions.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/netlogo.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/NetLogo/NetLogo
 
 dashboard
- #236 <span title="TotalRank: 604 Jobs: 103 Users: 343 Facts: 158 Links: 389">on PLDB</span>
+ #235 <span title="TotalRank: 604 Jobs: 103 Users: 343 Facts: 158 Links: 389">on PLDB</span>
  25 Years Old
  4k <span title="NetLogo repos on GitHub.">Repos</span>
 
@@ -139,6 +139,6 @@ treeTable
   Token 
   Example
 
-keyboardNav s-expressions.html clean.html
+keyboardNav sparql.html s-expressions.html
 
 import ../footer.scroll

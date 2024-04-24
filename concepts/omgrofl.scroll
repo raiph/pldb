@@ -6,8 +6,8 @@ title Omgrofl - Esoteric programming language
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="dokuwiki.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="harbour.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="binary-notation.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="dokuwiki.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/omgrofl.pldb
 
@@ -22,7 +22,7 @@ codeWithHeader Source code:
  git clone https://github.com/OlegSmelov/omgrofl-interpreter
 
 dashboard
- #741 <span title="TotalRank: 1305 Jobs: 103 Users: 1945 Facts: 216 Links: 986">on PLDB</span>
+ #740 <span title="TotalRank: 1305 Jobs: 103 Users: 1945 Facts: 216 Links: 986">on PLDB</span>
  18 Years Old
  3 <span title="Omgrofl repos on GitHub.">Repos</span>
 
@@ -125,6 +125,6 @@ codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blo
 
 endColumns
 
-keyboardNav dokuwiki.html harbour.html
+keyboardNav binary-notation.html dokuwiki.html
 
 import ../footer.scroll

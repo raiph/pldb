@@ -6,8 +6,8 @@ title React Native - Library
  hidden
 
 html
- <a class="trueBaseThemePreviousItem" href="couchdb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="txl.html">&gt;</a>
+ <a class="trueBaseThemePreviousItem" href="sather.html">&lt;</a>
+ <a class="trueBaseThemeNextItem" href="couchdb.html">&gt;</a>
 
 viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/react-native.pldb
 
@@ -23,7 +23,7 @@ codeWithHeader Source code:
  git clone https://github.com/facebook/react-native
 
 dashboard
- #481 on PLDB
+ #480 on PLDB
  9 Years Old
 
 * A framework for building native applications using React
@@ -51,6 +51,6 @@ codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blo
 
 endColumns
 
-keyboardNav couchdb.html txl.html
+keyboardNav sather.html couchdb.html
 
 import ../footer.scroll
