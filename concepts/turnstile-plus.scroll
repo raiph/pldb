@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title turnstile-plus
+import ../measures/conceptPage.scroll
+id turnstile-plus
+appeared 2020
+type grammarLanguage
+conceptDescription We present Turnstile+, a metalanguage for implementing typed—particularly dependently typed—languages.
+reference https://dl.acm.org/doi/pdf/10.1145/3371071
 
-title turnstile-plus - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="turing-plus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tyco.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/turnstile-plus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=turnstile-plus" class="material-symbols-outlined">edit</a></div>
-
-* turnstile-plus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #3255 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 4 Years Old
-
-* We present Turnstile+, a metalanguage for implementing typed—particularly dependently typed—languages.
-
-- turnstile-plus is written in <a href="racket.html">Racket</a>
-- Read more about turnstile-plus on the web: 1.
- https://dl.acm.org/doi/pdf/10.1145/3371071 1.
-
-<br>
-
-endColumns
-
-keyboardNav turing-plus.html tyco.html
-
-import ../footer.scroll
+writtenIn racket

@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hedy
+import ../measures/conceptPage.scroll
+id Hedy
+appeared 2020
+type pl
+conceptDescription Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the Hedy level sequence, kids master a subset of syntactically valid Python.
+website https://www.hedy.org/
+country Netherlands
+originCommunity https://github.com/hedyorg
 
-title Hedy - Programming language
- hidden
+githubRepo https://github.com/hedyorg/hedy
+ stars 962
+ forks 227
+ subscribers 23
+ created 2019
+ updated 2023
+ description Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the Hedy level sequence, kids master a subset of syntactically valid Python.
+ issues 194
 
-html
- <a class="trueBaseThemePreviousItem" href="mary.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sinclair-basic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hedy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.hedy.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/hedyorg/hedy" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hedy" class="material-symbols-outlined">edit</a></div>
-
-* Hedy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/hedyorg/hedy
-
-dashboard
- #921 <span title="TotalRank: 1492 Jobs: 103 Users: 403 Facts: 1787 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Hedy is a gradual programming language to teach children programming. Gradual languages use different language levels, where each level adds new concepts and syntactic complexity. At the end of the Hedy level sequence, kids master a subset of syntactically valid Python.
-
-- Hedy website
- https://www.hedy.org/
-- Hedy is developed on <a href="https://github.com/hedyorg/hedy">GitHub</a> and has 962 stars
-- Hedy first developed in <a href="../lists/originCommunities.html#httpsGithubComHedyorg">https://github.com/hedyorg</a>
-
-<br>
-
-endColumns
-
-keyboardNav mary.html sinclair-basic.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 11961
+ committers 455
+ files 1277

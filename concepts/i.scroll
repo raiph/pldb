@@ -1,44 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title I
+import ../measures/conceptPage.scroll
+id I
+appeared 2012
+type pl
+creators Marshall Lochbaum
+country United States
+originCommunity https://github.com/mlochbaum/ILanguage/issues
 
-title I - Programming language
- hidden
+writtenIn c
 
-html
- <a class="trueBaseThemePreviousItem" href="clamp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rlab.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/i.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mlochbaum/ILanguage" class="material-symbols-outlined">code</a> <a href="/edit.html?id=i" class="material-symbols-outlined">edit</a></div>
-
-* I is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Marshall Lochbaum.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#marshallLochbaum Marshall Lochbaum
-
-codeWithHeader Source code:
- git clone https://github.com/mlochbaum/ILanguage
-
-dashboard
- #2064 <span title="TotalRank: 2591 Jobs: 103 Users: 1577 Facts: 1502 Links: 986">on PLDB</span>
- 12 Years Old
-
-* An interpreter for a J-inspired language
-
-- I is developed on <a href="https://github.com/mlochbaum/ILanguage">GitHub</a> and has 70 stars
-- I first developed in <a href="../lists/originCommunities.html#httpsGithubComMlochbaumILanguageIssues">https://github.com/mlochbaum/ILanguage/issues</a>
-- I is written in <a href="c.html">C</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  5  - *.o +  4
 
-endColumns
+githubRepo https://github.com/mlochbaum/ILanguage
+ firstCommit 2012
+ stars 70
+ forks 3
+ subscribers 5
+ created 2012
+ updated 2022
+ description An interpreter for a J-inspired language
+ issues 0
 
-keyboardNav clamp.html rlab.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 348
+ committers 2
+ files 57

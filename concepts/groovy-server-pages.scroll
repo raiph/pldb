@@ -1,59 +1,46 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Groovy Server Pages
+import ../measures/conceptPage.scroll
+id Groovy Server Pages
+appeared 2008
+type template
+website https://gsp.grails.org/latest/guide/index.html
+country United States and Spain and France
+originCommunity https://github.com/grails
 
-title Groovy Server Pages - Template language
- hidden
+example
+ <html>
+   <body>
+     <% out << "Hello GSP!" %>
+   </body>
+ </html>
 
-html
- <a class="trueBaseThemePreviousItem" href="popr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="peoplecode.html">&gt;</a>
+githubLanguage Groovy Server Pages
+ fileExtensions gsp
+ trendingProjectsCount 0
+ type programming
+ group Groovy
+ aceMode jsp
+ codemirrorMode htmlembedded
+ codemirrorMimeType application/x-jsp
+ tmScope text.html.jsp
+ aliases gsp or java server page
+ repos 9
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/groovy-server-pages.pldb
+linguistGrammarRepo https://github.com/textmate/java.tmbundle
+ firstCommit 2004
+ lastCommit 2018
+ committerCount 21
+ commitCount 283
+ sampleCount 4
+ example
+  <html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Testing with SiteMesh and ${example}</title>
+  
+  </head>
+  <body>
+  </body>
+  </html>
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gsp.grails.org/latest/guide/index.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=groovy-server-pages" class="material-symbols-outlined">edit</a></div>
-
-* Groovy Server Pages is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1354 <span title="TotalRank: 1891 Jobs: 103 Users: 1127 Facts: 802 Links: 986">on PLDB</span>
- 16 Years Old
- 9 <span title="Groovy Server Pages repos on GitHub.">Repos</span>
-
-* 
-
-- Groovy Server Pages website
- https://gsp.grails.org/latest/guide/index.html
-- There are at least 9 Groovy Server Pages repos on <a href="https://github.com/search?q=language:Groovy Server Pages">GitHub</a>
-- Groovy Server Pages first developed in <a href="../lists/originCommunities.html#httpsGithubComGrails">https://github.com/grails</a>
-- file extensions for Groovy Server Pages include gsp
-- GitHub supports <a href="https://github.com/textmate/java.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Groovy Server Pages
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;html&gt;
-   &lt;body&gt;
-     &lt;% out &lt;&lt; &quot;Hello GSP!&quot; %&gt;
-   &lt;/body&gt;
- &lt;/html&gt;
-
-codeWithHeader Example from <a href='https://github.com/textmate/java.tmbundle'>Linguist</a>:
- &lt;html&gt;
- &lt;head&gt;
-     &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
-     &lt;title&gt;Testing with SiteMesh and ${example}&lt;/title&gt;
- 
- &lt;/head&gt;
- &lt;body&gt;
- &lt;/body&gt;
- &lt;/html&gt;
-
-endColumns
-
-keyboardNav popr.html peoplecode.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Symbolic Optimal Assembly Program
+import ../measures/conceptPage.scroll
+id Symbolic Optimal Assembly Program
+appeared 1955
+type assembly
+reference http://www.columbia.edu/cu/computinghistory/650.html
+aka SOAP
+country United States
+originCommunity Columbia University
 
-title Symbolic Optimal Assembly Program - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="smsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="soar-ml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/soaplang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=soaplang" class="material-symbols-outlined">edit</a></div>
-
-* Symbolic Optimal Assembly Program is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1955.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1955 1955
-
-dashboard
- #4313 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 69 Years Old
-
-* 
-
-- Symbolic Optimal Assembly Program first developed in <a href="../lists/originCommunities.html#columbiaUniversity">Columbia University</a>
-- Read more about Symbolic Optimal Assembly Program on the web: 1.
- http://www.columbia.edu/cu/computinghistory/650.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav smsl.html soar-ml.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

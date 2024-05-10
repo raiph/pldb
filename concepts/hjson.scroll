@@ -1,48 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hjson
+import ../measures/conceptPage.scroll
+id Hjson
+appeared 2014
+type dataNotation
+creators Christian Zangl
+conceptDescription Hjson is a syntax extension to JSON. It's NOT a proposal to replace JSON or to incorporate it into the JSON spec itself. It's intended to be used like a user interface for humans, to read and edit before passing the JSON data to the machine.
+website https://hjson.org/
+country Austria
+originCommunity https://github.com/hjson
+domainName hjson.org
+ registered 2015
+ awisRank
+  2017 988341
 
-title Hjson - Data notation
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ring.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="java-properties.html">&gt;</a>
+lineCommentToken //
+lineCommentToken #
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hjson.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hjson.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/hjson/hjson" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hjson" class="material-symbols-outlined">edit</a></div>
-
-* Hjson is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2014 by Christian Zangl.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#christianZangl Christian Zangl
-
-codeWithHeader Source code:
- git clone https://github.com/hjson/hjson
-
-dashboard
- #470 <span title="TotalRank: 997 Jobs: 103 Users: 308 Facts: 586 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Hjson is a syntax extension to JSON. It's NOT a proposal to replace JSON or to incorporate it into the JSON spec itself. It's intended to be used like a user interface for humans, to read and edit before passing the JSON data to the machine.
-
-- Hjson website
- https://hjson.org/
-- Hjson is developed on <a href="https://github.com/hjson/hjson">GitHub</a> and has 2,414 stars
-- Hjson first developed in <a href="../lists/originCommunities.html#httpsGithubComHjson">https://github.com/hjson</a>
-- <a href="https://hjson.org/">hjson.org</a> was registered in 2015
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
   # hash style comments
-  # (because it&#39;s just one character)
+  # (because it's just one character)
  
   // line style comments
-  // (because it&#39;s like C/JavaScript/...)
+  // (because it's like C/JavaScript/...)
  
   /* block style comments because
      it allows you to comment out a block */
@@ -51,40 +40,24 @@ codeWithHeader Example from the web:
   # stays in comments ;-}
  }
 
-endColumns
+githubRepo https://github.com/hjson/hjson
+ stars 2414
+ forks 59
+ subscribers 26
+ created 2014
+ updated 2022
+ firstCommit 2014
+ description Hjson, a user interface for JSON
+ issues 19
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2014
+ commits 251
+ committers 21
+ files 253
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav ring.html java-properties.html
-
-import ../footer.scroll
+semanticScholar 0

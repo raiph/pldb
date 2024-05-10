@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HScript
+import ../measures/conceptPage.scroll
+id HScript
+appeared 1996
+type pl
+conceptDescription HScript is Houdini’s legacy scripting language.
+reference https://en.wikipedia.org/wiki/Houdini_(software)
+country Canada
+originCommunity Side Effects Software Inc
 
-title HScript - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dlp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lila.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hscript" class="material-symbols-outlined">edit</a></div>
-
-* HScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3012 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 28 Years Old
-
-* HScript is Houdini’s legacy scripting language.
-
-- HScript first developed in <a href="../lists/originCommunities.html#sideEffectsSoftwareInc">Side Effects Software Inc</a>
-- Read more about HScript on the web: 1.
- https://en.wikipedia.org/wiki/Houdini_(software) 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  if ( $F == 1 ) then
      echo Frame One
  else
      echo Not Frame One
  endif
-
-endColumns
-
-keyboardNav dlp.html lila.html
-
-import ../footer.scroll

@@ -1,38 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title paperalgo
-
-title paperalgo - Notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mascara.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="powerloom-knowledgebase.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/paperalgo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://canonical.org/~kragen/sw/dev3/paperalgo" class="material-symbols-outlined">home</a> <a href="/edit.html?id=paperalgo" class="material-symbols-outlined">edit</a></div>
-
-* paperalgo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+notation">notation</a> created in 2014 by Kragen Javier Sitaker.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#kragenJavierSitaker Kragen Javier Sitaker
-
-dashboard
- #2777 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 10 Years Old
-
-* 
-
-- paperalgo website
- http://canonical.org/~kragen/sw/dev3/paperalgo
-- paperalgo first developed in <a href="../lists/originCommunities.html#httpsWwwMailArchiveComKragenTolCanonicalOrg">https://www.mail-archive.com/kragen-tol@canonical.org</a>
-
-<br>
-
-endColumns
-
-keyboardNav mascara.html powerloom-knowledgebase.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id paperalgo
+appeared 2014
+type notation
+creators Kragen Javier Sitaker
+website http://canonical.org/~kragen/sw/dev3/paperalgo
+country Argentina
+originCommunity https://www.mail-archive.com/kragen-tol@canonical.org

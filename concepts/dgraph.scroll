@@ -1,44 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dgraph
+import ../measures/conceptPage.scroll
+id dgraph
+appeared 2015
+type application
+website https://dgraph.io
+country United States
+originCommunity https://github.com/dgraph-io
+domainName dgraph.io
+ awisRank
+  2022 224762
 
-title dgraph - Application
- hidden
+relatedConcepts graphql-plus-minus
 
-html
- <a class="trueBaseThemePreviousItem" href="p4.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amqp.html">&gt;</a>
+githubRepo https://github.com/dgraph-io/dgraph
+ firstCommit 2015
+ stars 18175
+ forks 1370
+ subscribers 376
+ created 2015
+ updated 2022
+ description Native GraphQL Database with graph backend
+ issues 114
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dgraph.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://dgraph.io" class="material-symbols-outlined">home</a> <a href="https://github.com/dgraph-io/dgraph" class="material-symbols-outlined">code</a> <a href="https://twitter.com/dgraphlabs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=dgraph" class="material-symbols-outlined">edit</a></div>
-
-* dgraph is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/dgraph-io/dgraph
-
-dashboard
- #724 on PLDB
- 9 Years Old
-
-* Native GraphQL Database with graph backend
-
-- dgraph website
- https://dgraph.io
-- dgraph is developed on <a href="https://github.com/dgraph-io/dgraph">GitHub</a> and has 18,175 stars
-- dgraph first developed in <a href="../lists/originCommunities.html#httpsGithubComDgraphIo">https://github.com/dgraph-io</a>
-- dgraph on Twitter
- https://twitter.com/dgraphlabs
-- See also: (1 related languages)<a href="graphql-plus-minus.html">GraphQL+-</a>
-
-<br>
-
-endColumns
-
-keyboardNav p4.html amqp.html
-
-import ../footer.scroll
+twitter https://twitter.com/dgraphlabs

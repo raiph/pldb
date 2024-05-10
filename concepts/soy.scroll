@@ -1,37 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Soy
+import ../measures/conceptPage.scroll
+id Soy
+appeared 2008
+type template
+reference https://godoc.org/github.com/robfig/soy
+aka Google Closure Templates
+fileExtensions soy
+originCommunity Google
 
-title Soy - Template language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="fsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="struql.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/soy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=soy" class="material-symbols-outlined">edit</a></div>
-
-* Soy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1432 <span title="TotalRank: 1951 Jobs: 103 Users: 2838 Facts: 862 Links: 986">on PLDB</span>
- 16 Years Old
-
-* 
-
-- Soy first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- file extensions for Soy include soy
-- Read more about Soy on the web: 1.
- https://godoc.org/github.com/robfig/soy 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  /**
   * Greets a person and optionally a list of other people.
   * @param name The name of the person.
@@ -39,54 +27,18 @@ codeWithHeader Example from the web:
   */
  {template .helloNames}
    // Greet the person.
-   {call .helloName data=&quot;all&quot; /}&lt;br&gt;
+   {call .helloName data="all" /}<br>
    // Greet the additional people.
    {foreach $additionalName in $additionalNames}
      {call .helloName}
        {param name: $additionalName /}
      {/call}
      {if not isLast($additionalName)}
-       &lt;br&gt;  // break after every line except the last
+       <br>  // break after every line except the last
      {/if}
    {ifempty}
      No additional people to greet.
    {/foreach}
  {/template}
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav fsl.html struql.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Oxide
-
-title Oxide - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="omnitab.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="parse-tree-notation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/oxide.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=oxide" class="material-symbols-outlined">edit</a></div>
-
-* Oxide is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-dashboard
- #3409 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Oxide, scripting language with Rust-influenced syntax
-
-- Oxide first developed in <a href="../lists/originCommunities.html#httpsGithubComTuqquOxideLangIssues">https://github.com/tuqqu/oxide-lang/issues</a>
-- Read more about Oxide on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/mflcry/oxide_scripting_language_with_rustinfluenced/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav omnitab.html parse-tree-notation.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Oxide
+appeared 2021
+type pl
+conceptDescription Oxide, scripting language with Rust-influenced syntax
+reference https://reddit.com/r/ProgrammingLanguages/comments/mflcry/oxide_scripting_language_with_rustinfluenced/
+country Russia
+originCommunity https://github.com/tuqqu/oxide-lang/issues

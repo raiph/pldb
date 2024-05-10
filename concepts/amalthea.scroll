@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title amalthea
+import ../measures/conceptPage.scroll
+id amalthea
+appeared 2002
+type pl
+reference http://lambda-the-ultimate.org/node/1108
 
-title amalthea - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7111
 
-html
- <a class="trueBaseThemePreviousItem" href="altibase.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amazon-dynamodb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/amalthea.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=amalthea" class="material-symbols-outlined">edit</a></div>
-
-* amalthea is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3160 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 22 Years Old
-
-* 
-
-- amalthea on HOPL
- https://hopl.info/showlanguage.prx?exp=7111
-- Read more about amalthea on the web: 1.
- http://lambda-the-ultimate.org/node/1108 1.
-
-<br>
-
-endColumns
-
-keyboardNav altibase.html amazon-dynamodb.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

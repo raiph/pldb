@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title bloom
+import ../measures/conceptPage.scroll
+id bloom
+appeared 2010
+type pl
+website http://bloom-lang.net/
+country United States
+originCommunity University of California, Berkeley
+domainName bloom-lang.net
+ registered 2010
 
-title bloom - Programming language
- hidden
+githubRepo https://github.com/bloom-lang/bud
+ firstCommit 2010
+ stars 823
+ forks 62
+ subscribers 58
+ created 2011
+ updated 2022
+ description Prototype Bud runtime (Bloom Under Development)
+ issues 100
 
-html
- <a class="trueBaseThemePreviousItem" href="em.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="djangoql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bloom.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://bloom-lang.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/bloom-lang/bud" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bloom" class="material-symbols-outlined">edit</a></div>
-
-* bloom is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-codeWithHeader Source code:
- git clone https://github.com/bloom-lang/bud
-
-dashboard
- #1077 <span title="TotalRank: 1634 Jobs: 103 Users: 545 Facts: 1591 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Prototype Bud runtime (Bloom Under Development)
-
-- bloom website
- http://bloom-lang.net/
-- bloom is developed on <a href="https://github.com/bloom-lang/bud">GitHub</a> and has 823 stars
-- bloom first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- <a href="http://bloom-lang.net/">bloom-lang.net</a> was registered in 2010
-
-<br>
-
-endColumns
-
-keyboardNav em.html djangoql.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 3176
+ committers 28
+ files 99

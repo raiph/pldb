@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Neo4j
-
-title Neo4j - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nebula.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oniguruma.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/neo4j.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=neo4j" class="material-symbols-outlined">edit</a></div>
-
-* Neo4j is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3203 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 17 Years Old
-
-* Graph database management system
-
-- Neo4j first developed in <a href="../lists/originCommunities.html#neo4JInc">Neo4j, Inc.</a>
-
-<br>
-
-endColumns
-
-keyboardNav nebula.html oniguruma.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Neo4j
+appeared 2007
+type database
+conceptDescription Graph database management system
+country Sweden
+originCommunity Neo4j, Inc.

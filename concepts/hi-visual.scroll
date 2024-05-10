@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hi-Visual
+import ../measures/conceptPage.scroll
+id Hi-Visual
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/018a9b95248bc005156a15efe1c343194c3d92b4
+country Japan
+originCommunity Hiroshima University
 
-title Hi-Visual - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5115
 
-html
- <a class="trueBaseThemePreviousItem" href="henk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="holo.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hi-visual.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hi-visual" class="material-symbols-outlined">edit</a></div>
-
-* Hi-Visual is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #4163 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Hi-Visual first developed in <a href="../lists/originCommunities.html#hiroshimaUniversity">Hiroshima University</a>
-- Hi-Visual on HOPL
- https://hopl.info/showlanguage.prx?exp=5115
-- Read more about Hi-Visual on Semantic Scholar: 1.
- https://semanticscholar.org/paper/018a9b95248bc005156a15efe1c343194c3d92b4 1.
-
-<br>
-
-endColumns
-
-keyboardNav henk.html holo.html
-
-import ../footer.scroll
+isbndb 0

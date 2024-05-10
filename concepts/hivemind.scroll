@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hivemind
+import ../measures/conceptPage.scroll
+id hivemind
+appeared 2015
+type pl
+creators Alexander Ivanov
+country Bulgaria
+originCommunity https://github.com/alehander92/hivemind/issues
 
-title hivemind - Programming language
- hidden
+githubRepo https://github.com/alehander42/hivemind
+ firstCommit 2015
+ stars 132
+ forks 5
+ subscribers 9
+ created 2015
+ updated 2022
+ description a multi-syntax language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="ramdascript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="data-general-business-basic.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 22
+ committers 3
+ files 31
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hivemind.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/alehander42/hivemind" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hivemind" class="material-symbols-outlined">edit</a></div>
-
-* hivemind is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Alexander Ivanov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#alexanderIvanov Alexander Ivanov
-
-codeWithHeader Source code:
- git clone https://github.com/alehander42/hivemind
-
-dashboard
- #1874 <span title="TotalRank: 2390 Jobs: 103 Users: 1301 Facts: 1502 Links: 986">on PLDB</span>
- 9 Years Old
-
-* a multi-syntax language
-
-- hivemind is developed on <a href="https://github.com/alehander42/hivemind">GitHub</a> and has 132 stars
-- hivemind first developed in <a href="../lists/originCommunities.html#httpsGithubComAlehander92HivemindIssues">https://github.com/alehander92/hivemind/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of hivemind
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: A multi-syntax programming language with bidirectional grammars|https://news.ycombinator.com/item?id=11275736|03/13/2016|96|38
-
-keyboardNav ramdascript.html data-general-business-basic.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 11275736|Show HN: A multi-syntax programming language with bidirectional grammars|2016-03-13 01:47:46 UTC|1457833666|alehander42|38|96

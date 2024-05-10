@@ -1,76 +1,43 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dedukti
+import ../measures/conceptPage.scroll
+id dedukti
+appeared 2009
+type pl
+website https://deducteam.github.io
+country France
+originCommunity https://github.com/Deducteam
+domainName deducteam.github.io
 
-title dedukti - Programming language
- hidden
+hasComments true
+ (; This is a comment ;)
+hasMultiLineComments true
+ (; A comment
+ ;)
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="virgil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ibm-i-control-language.html">&gt;</a>
+multiLineCommentTokens (; ;)
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dedukti.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://deducteam.github.io" class="material-symbols-outlined">home</a> <a href="https://github.com/Deducteam/Dedukti" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dedukti" class="material-symbols-outlined">edit</a></div>
-
-* dedukti is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-codeWithHeader Source code:
- git clone https://github.com/Deducteam/Dedukti
-
-dashboard
- #1477 <span title="TotalRank: 2004 Jobs: 103 Users: 1110 Facts: 915 Links: 986">on PLDB</span>
- 15 Years Old
-
-* Implementation of the λΠ-calculus modulo rewriting
-
-- dedukti website
- https://deducteam.github.io
-- dedukti is developed on <a href="https://github.com/Deducteam/Dedukti">GitHub</a> and has 155 stars
-- dedukti first developed in <a href="../lists/originCommunities.html#httpsGithubComDeducteam">https://github.com/Deducteam</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Nat: Type.
  zero: Nat.
- succ: Nat -&gt; Nat.
- def plus: Nat -&gt; Nat -&gt; Nat.
- [ n ] plus zero n --&gt; n
- [ n ] plus n zero --&gt; n
- [ n, m ] plus (succ n) m --&gt; succ (plus n m)
- [ n, m ] plus n (succ m) --&gt; succ (plus n m).
+ succ: Nat -> Nat.
+ def plus: Nat -> Nat -> Nat.
+ [ n ] plus zero n --> n
+ [ n ] plus n zero --> n
+ [ n, m ] plus (succ n) m --> succ (plus n m)
+ [ n, m ] plus n (succ m) --> succ (plus n m).
 
-endColumns
+githubRepo https://github.com/Deducteam/Dedukti
+ firstCommit 2009
+ stars 155
+ forks 18
+ subscribers 16
+ created 2017
+ updated 2022
+ description Implementation of the λΠ-calculus modulo rewriting
+ issues 35
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (; ;)
-  Example
-   (; A comment
-   ;)
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (; This is a comment ;)
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav virgil.html ibm-i-control-language.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2009
+ commits 2766
+ committers 58
+ files 575

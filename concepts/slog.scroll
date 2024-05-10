@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SLOG
+import ../measures/conceptPage.scroll
+id SLOG
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/e9a06552354c3247ebff305e21ad8386b45089ee
+country France
+originCommunity Laboratoire d'Informatique de Paris 6
 
-title SLOG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=746
 
-html
- <a class="trueBaseThemePreviousItem" href="slips.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smalltalk-v.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=slog" class="material-symbols-outlined">edit</a></div>
-
-* SLOG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #4308 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- SLOG first developed in <a href="../lists/originCommunities.html#laboratoireDInformatiqueDeParis6">Laboratoire d'Informatique de Paris 6</a>
-- SLOG on HOPL
- https://hopl.info/showlanguage.prx?exp=746
-- Read more about SLOG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e9a06552354c3247ebff305e21ad8386b45089ee 1.
-
-<br>
-
-endColumns
-
-keyboardNav slips.html smalltalk-v.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,42 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RATSNO
+import ../measures/conceptPage.scroll
+id RATSNO
+appeared 1977
+type pl
+reference https://drhanson.net/pro/publications.html
+reference https://drhanson.s3.amazonaws.com/storage/documents/ratsno.pdf
+reference https://semanticscholar.org/paper/0c7f56162f4afe836cd132d440cb3497af345583
+country United States
+originCommunity Yale University
 
-title RATSNO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2906
 
-html
- <a class="trueBaseThemePreviousItem" href="quexal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rdml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ratsno.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ratsno" class="material-symbols-outlined">edit</a></div>
-
-* RATSNO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3120 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- RATSNO first developed in <a href="../lists/originCommunities.html#yaleUniversity">Yale University</a>
-- RATSNO on HOPL
- https://hopl.info/showlanguage.prx?exp=2906
-- Read more about RATSNO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0c7f56162f4afe836cd132d440cb3497af345583 1.
-- Read more about RATSNO on the web: 1. 2.
- https://drhanson.net/pro/publications.html 1.
- https://drhanson.s3.amazonaws.com/storage/documents/ratsno.pdf 2.
-
-<br>
-
-endColumns
-
-keyboardNav quexal.html rdml.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

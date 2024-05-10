@@ -1,45 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title shade
+import ../measures/conceptPage.scroll
+id shade
+appeared 2012
+type pl
+country United States
+originCommunity https://github.com/chameco
 
-title shade - Programming language
- hidden
+githubRepo https://github.com/chameco/Shade
 
-html
- <a class="trueBaseThemePreviousItem" href="scopes.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="skookumscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shade.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/chameco/Shade" class="material-symbols-outlined">code</a> <a href="/edit.html?id=shade" class="material-symbols-outlined">edit</a></div>
-
-* shade is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/chameco/Shade
-
-dashboard
- #2837 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 12 Years Old
-
-* 
-
-- shade is developed on <a href="https://github.com/chameco/Shade">GitHub</a>
-- shade first developed in <a href="../lists/originCommunities.html#httpsGithubComChameco">https://github.com/chameco</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of shade
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Shade, a language based on C, Go, and Haskell|https://news.ycombinator.com/item?id=4973566|12/27/2012|15|0
-
-keyboardNav scopes.html skookumscript.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 4973566|Show HN: Shade, a language based on C, Go, and Haskell|2012-12-27 15:21:16 UTC|1356621676|chameco|0|15

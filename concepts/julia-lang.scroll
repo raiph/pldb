@@ -1,38 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Joyfully Universal Language for (Inline) Assembly
+import ../measures/conceptPage.scroll
+id Joyfully Universal Language for (Inline) Assembly
+appeared 2016
+type pl
+conceptDescription JULIA is an intermediate language that can compile to various different backends (EVM 1.0, EVM 1.5 and eWASM are planned). Because of that, it is designed to be a usable common denominator of all three platforms. It can already be used for “inline assembly” inside Solidity and future versions of the Solidity compiler will even use JULIA as intermediate language. It should also be easy to build high-level optimizer stages for JULIA.
+reference https://solidity.readthedocs.io/en/v0.4.21/julia.html
+country United States
+originCommunity https://github.com/ethereum
 
-title Joyfully Universal Language for (Inline) Assembly - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hop.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="life.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/julia-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=julia-lang" class="material-symbols-outlined">edit</a></div>
-
-* Joyfully Universal Language for (Inline) Assembly is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2187 <span title="TotalRank: 2680 Jobs: 103 Users: 2838 Facts: 1591 Links: 986">on PLDB</span>
- 8 Years Old
-
-* JULIA is an intermediate language that can compile to various different backends (EVM 1.0, EVM 1.5 and eWASM are planned). Because of that, it is designed to be a usable common denominator of all three platforms. It can already be used for “inline assembly” inside Solidity and future versions of the Solidity compiler will even use JULIA as intermediate language. It should also be easy to build high-level optimizer stages for JULIA.
-
-- Joyfully Universal Language for (Inline) Assembly first developed in <a href="../lists/originCommunities.html#httpsGithubComEthereum">https://github.com/ethereum</a>
-- Read more about Joyfully Universal Language for (Inline) Assembly on the web: 1.
- https://solidity.readthedocs.io/en/v0.4.21/julia.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-     function power(base:u256, exponent:u256) -&gt; result:u256
+     function power(base:u256, exponent:u256) -> result:u256
      {
          switch exponent
          case 0:u256 { result := 1:u256 }
@@ -45,9 +22,3 @@ codeWithHeader Example from the web:
          }
      }
  }
-
-endColumns
-
-keyboardNav hop.html life.html
-
-import ../footer.scroll

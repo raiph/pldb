@@ -1,44 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Coco
+import ../measures/conceptPage.scroll
+id Coco
+appeared 2010
+type pl
+creators Satoshi Murakami
+website https://satyr.github.io/coco/
+fileExtensions co
+country Japan
+originCommunity https://github.com/satyr/
 
-title Coco - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="hodor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="haggis.html">&gt;</a>
+githubRepo https://github.com/satyr/coco/
+ stars 501
+ forks 49
+ subscribers 25
+ updated 2014
+ description Unfancy CoffeeScript
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coco.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://satyr.github.io/coco/" class="material-symbols-outlined">home</a> <a href="https://github.com/satyr/coco/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=coco" class="material-symbols-outlined">edit</a></div>
-
-* Coco is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Satoshi Murakami.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#satoshiMurakami Satoshi Murakami
-
-codeWithHeader Source code:
- git clone https://github.com/satyr/coco/
-
-dashboard
- #1234 <span title="TotalRank: 1771 Jobs: 103 Users: 682 Facts: 1787 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Unfancy CoffeeScript
-
-- Coco website
- https://satyr.github.io/coco/
-- Coco is developed on <a href="https://github.com/satyr/coco/">GitHub</a> and has 501 stars
-- Coco first developed in <a href="../lists/originCommunities.html#httpsGithubComSatyr">https://github.com/satyr/</a>
-- file extensions for Coco include co
-- Coco compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav hodor.html haggis.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2009
+ commits 3401
+ committers 39
+ files 69

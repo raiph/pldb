@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SKY
+import ../measures/conceptPage.scroll
+id SKY
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/33ef6c3feeb784b6db625d403e9d11a82ad0f117
+country Italia
+originCommunity Universit`a della Calabria
 
-title SKY - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6207
 
-html
- <a class="trueBaseThemePreviousItem" href="skil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sky.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sky" class="material-symbols-outlined">edit</a></div>
-
-* SKY is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #4305 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- SKY first developed in <a href="../lists/originCommunities.html#universitADellaCalabria">Universit`a della Calabria</a>
-- SKY on HOPL
- https://hopl.info/showlanguage.prx?exp=6207
-- Read more about SKY on Semantic Scholar: 1.
- https://semanticscholar.org/paper/33ef6c3feeb784b6db625d403e9d11a82ad0f117 1.
-
-<br>
-
-endColumns
-
-keyboardNav skil.html sl.html
-
-import ../footer.scroll
+wordRank 2872
+centralPackageRepositoryCount 0

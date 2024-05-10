@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PACT IA
+import ../measures/conceptPage.scroll
+id PACT IA
+appeared 1957
+type pl
+reference https://semanticscholar.org/paper/2403ebaa7ec4482b08cd913d029bc80dc4e64464
+country United States
+originCommunity RAND Corporation
 
-title PACT IA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2515
 
-html
- <a class="trueBaseThemePreviousItem" href="p-cl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="paragon.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pact-ia.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pact-ia" class="material-symbols-outlined">edit</a></div>
-
-* PACT IA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1957.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1957 1957
-
-dashboard
- #4247 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 67 Years Old
-
-* 
-
-- PACT IA first developed in <a href="../lists/originCommunities.html#randCorporation">RAND Corporation</a>
-- PACT IA on HOPL
- https://hopl.info/showlanguage.prx?exp=2515
-- Read more about PACT IA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2403ebaa7ec4482b08cd913d029bc80dc4e64464 1.
-
-<br>
-
-endColumns
-
-keyboardNav p-cl.html paragon.html
-
-import ../footer.scroll
+isbndb 0

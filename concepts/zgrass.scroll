@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ZGRASS
+import ../measures/conceptPage.scroll
+id ZGRASS
+appeared 1978
+type pl
+reference https://semanticscholar.org/paper/d59da4c6cf47ca0b7f038c3e20938d23ffec2a7f
 
-title ZGRASS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4142
 
-html
- <a class="trueBaseThemePreviousItem" href="zccs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="1-pak.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zgrass.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=zgrass" class="material-symbols-outlined">edit</a></div>
-
-* ZGRASS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #3302 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 46 Years Old
-
-* 
-
-- ZGRASS on HOPL
- https://hopl.info/showlanguage.prx?exp=4142
-- Read more about ZGRASS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d59da4c6cf47ca0b7f038c3e20938d23ffec2a7f 1.
-
-<br>
-
-endColumns
-
-keyboardNav zccs.html 1-pak.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

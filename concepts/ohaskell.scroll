@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title O'Haskell
+import ../measures/conceptPage.scroll
+id O'Haskell
+appeared 2002
+type pl
+reference https://www.sciencedirect.com/science/article/pii/S0167642302000266
+country United States
+originCommunity Oregon Graduate Institute of Science and Technology
 
-title O'Haskell - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3545
 
-html
- <a class="trueBaseThemePreviousItem" href="octopus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="olga.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ohaskell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ohaskell" class="material-symbols-outlined">edit</a></div>
-
-* O'Haskell is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3885 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 22 Years Old
-
-* 
-
-- O'Haskell first developed in <a href="../lists/originCommunities.html#oregonGraduateInstituteOfScienceAndTechnology">Oregon Graduate Institute of Science and Technology</a>
-- O'Haskell on HOPL
- https://hopl.info/showlanguage.prx?exp=3545
-- Read more about O'Haskell on the web: 1.
- https://www.sciencedirect.com/science/article/pii/S0167642302000266 1.
-
-<br>
-
-endColumns
-
-keyboardNav octopus.html olga.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

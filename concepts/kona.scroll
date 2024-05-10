@@ -1,50 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kona
+import ../measures/conceptPage.scroll
+id kona
+appeared 2010
+type pl
+conceptDescription Kona is the open-source implementation of the k3 programming language. k is a synthesis of APL and LISP. Although many of the capabilities come from APL, the fundamental data construct is quite different. In APL the construct is a multi-dimensional matrix-like array, where the dimension of the array can range from 0 to some maximum (often 9). In k, like LISP, the fundamental data construct is a list. Also, like LISP, the k language is ASCII-based, so you don't need a special keyboard.
+reference http://www.hakank.org/k/
+country United States
+originCommunity https://github.com/kevinlawler/kona/issues
 
-title kona - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="fibonacci.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lux.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kona.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kevinlawler/kona" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kona" class="material-symbols-outlined">edit</a></div>
-
-* kona is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-codeWithHeader Source code:
- git clone https://github.com/kevinlawler/kona
-
-dashboard
- #916 <span title="TotalRank: 1487 Jobs: 103 Users: 398 Facts: 1123 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Kona is the open-source implementation of the k3 programming language. k is a synthesis of APL and LISP. Although many of the capabilities come from APL, the fundamental data construct is quite different. In APL the construct is a multi-dimensional matrix-like array, where the dimension of the array can range from 0 to some maximum (often 9). In k, like LISP, the fundamental data construct is a list. Also, like LISP, the k language is ASCII-based, so you don't need a special keyboard.
-
-- kona is developed on <a href="https://github.com/kevinlawler/kona">GitHub</a> and has 1,253 stars
-- kona first developed in <a href="../lists/originCommunities.html#httpsGithubComKevinlawlerKonaIssues">https://github.com/kevinlawler/kona/issues</a>
-- Read more about kona on the web: 1.
- http://www.hakank.org/k/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  factorial:{*/1+!:x}
  fib1:{(x(|+\)\1 1)[;1]}
  fib2:{x{x,+/-2#x}/!2}
- fib_rec:{:[x&lt;2;1;_f[x-1]+_f[x-2]]}
+ fib_rec:{:[x<2;1;_f[x-1]+_f[x-2]]}
  maxsubsum:{|/0(0|+)\x}
- primes_to_n_sieve:{2_&amp;{:[x@y;x&amp;@[1,-1_ z#(1_ y#1),0;y;:;1];x]}/[x#1;2_!__ceil_sqrt x;x]}
- primes_to_n_sieve2:{:[x&lt;4;,2;r,1_&amp;~|/x#&#39;~!:&#39;r: _f[_ _ceil _sqrt x]]}
+ primes_to_n_sieve:{2_&{:[x@y;x&@[1,-1_ z#(1_ y#1),0;y;:;1];x]}/[x#1;2_!__ceil_sqrt x;x]}
+ primes_to_n_sieve2:{:[x<4;,2;r,1_&~|/x#'~!:'r: _f[_ _ceil _sqrt x]]}
 
-endColumns
+githubRepo https://github.com/kevinlawler/kona
+ firstCommit 2010
+ stars 1253
+ forks 135
+ subscribers 57
+ created 2010
+ updated 2022
+ description Open-source implementation of the K programming language
+ issues 70
 
-keyboardNav fibonacci.html lux.html
+repoStats
+ firstCommit 2010
+ commits 1561
+ committers 49
+ files 86
 
-import ../footer.scroll
+isbndb 0

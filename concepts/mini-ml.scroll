@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mini-ML
+import ../measures/conceptPage.scroll
+id Mini-ML
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/398d7e9c1aced07a508a45bbf269cc349569a6dc
+country United States
+originCommunity SKEMA Business School - Sophia Antipolis && Institut national de recherche en sciences et technologies du numérique, Sophia Antipolis
 
-title Mini-ML - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1239
 
-html
- <a class="trueBaseThemePreviousItem" href="mike.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="minion.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mini-ml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mini-ml" class="material-symbols-outlined">edit</a></div>
-
-* Mini-ML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3830 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Mini-ML first developed in <a href="../lists/originCommunities.html#skemaBusinessSchoolSophiaAntipolis">SKEMA Business School - Sophia Antipolis</a> and <a href="../lists/originCommunities.html#institutNationalDeRechercheEnSciencesEtTechnologiesDuNumeriqueSophiaAntipolis">Institut national de recherche en sciences et technologies du numérique, Sophia Antipolis</a>
-- Mini-ML on HOPL
- https://hopl.info/showlanguage.prx?exp=1239
-- Read more about Mini-ML on Semantic Scholar: 1.
- https://semanticscholar.org/paper/398d7e9c1aced07a508a45bbf269cc349569a6dc 1.
-
-<br>
-
-endColumns
-
-keyboardNav mike.html minion.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

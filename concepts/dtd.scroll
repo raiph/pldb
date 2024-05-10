@@ -1,59 +1,50 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DTD
+import ../measures/conceptPage.scroll
+id DTD
+appeared 1996
+type grammarLanguage
+standsFor document type definition
+country Switzerland
+originCommunity International Organization for Standardization
 
-title DTD - Grammar language
- hidden
+wikipedia https://en.wikipedia.org/wiki/Document_type_definition
+ example
+  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <!DOCTYPE people_list [
+    <!ELEMENT people_list (person*)>
+    <!ELEMENT person (name, birthdate?, gender?, socialsecuritynumber?)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT birthdate (#PCDATA)>
+    <!ELEMENT gender (#PCDATA)>
+    <!ELEMENT socialsecuritynumber (#PCDATA)>
+  ]>
+  <people_list>
+    <person>
+      <name>Fred Bloggs</name>
+      <birthdate>2008-11-27</birthdate>
+      <gender>Male</gender>
+    </person>
+  </people_list>
+ related xml html
+ summary A document type definition (DTD) is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). A Document Type Definition (DTD) defines the legal building blocks of an XML document. It defines the document structure with a list of legal elements and attributes. A DTD can be declared inline inside an XML document, or as an external reference. XML uses a subset of SGML DTD. As of 2009, newer XML namespace-aware schema languages (such as W3C XML Schema and ISO RELAX NG) have largely superseded DTDs. A namespace-aware version of DTDs is being developed as Part 9 of ISO DSDL. DTDs persist in applications that need special publishing characters, such as the XML and HTML Character Entity References, which derive from larger sets defined as part of the ISO SGML standard effort.
+ pageId 8537
+ dailyPageViews 235
+ created 2001
+ backlinksCount 72
+ revisionCount 583
+ appeared 2009
 
-html
- <a class="trueBaseThemePreviousItem" href="hypertalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="capn-proto.html">&gt;</a>
+pygmentsHighlighter DTD
+ filename html.py
+ fileExtensions dtd
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dtd.pldb
+fileType text
+centralPackageRepositoryCount 0
 
-startColumns 4
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Inside XML DTDs: Scientific and Technical|1999|Simon St. Laurent|2097228|3.00|4|0
+ XML Programming Success in a Day: Beginner's Guide to Fast, Easy, and Efficient Learning of XML Programming (XML, XML Programming, Programming, XML Guide, ... XSL, DTD's, Schemas, HTML5, JavaScript)|2015|Sam Key|45569772|3.22|18|3
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Document_type_definition"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=dtd" class="material-symbols-outlined">edit</a></div>
+isbndb 0
 
-* DTD, aka document type definition, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #365 <span title="TotalRank: 834 Jobs: 103 Users: 494 Facts: 760 Links: 237">on PLDB</span>
- 28 Years Old
-
-* A document type definition (DTD) is a set of markup declarations that define a document type for an SGML-family markup language (SGML, XML, HTML). A Document Type Definition (DTD) defines the legal building blocks of an XML document. It defines the document structure with a list of legal elements and attributes. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Document_type_definition Read more on Wikipedia...
-
-- DTD Wikipedia page
- https://en.wikipedia.org/wiki/Document_type_definition
-- DTD first developed in <a href="../lists/originCommunities.html#internationalOrganizationForStandardization">International Organization for Standardization</a>
-- file extensions for DTD include dtd
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for DTD
-- See also: (2 related languages)<a href="xml.html">XML</a>, <a href="html.html">HTML</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Document_type_definition'>Wikipedia</a>:
- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
- &lt;!DOCTYPE people_list [
-   &lt;!ELEMENT people_list (person*)&gt;
-   &lt;!ELEMENT person (name, birthdate?, gender?, socialsecuritynumber?)&gt;
-   &lt;!ELEMENT name (#PCDATA)&gt;
-   &lt;!ELEMENT birthdate (#PCDATA)&gt;
-   &lt;!ELEMENT gender (#PCDATA)&gt;
-   &lt;!ELEMENT socialsecuritynumber (#PCDATA)&gt;
- ]&gt;
- &lt;people_list&gt;
-   &lt;person&gt;
-     &lt;name&gt;Fred Bloggs&lt;/name&gt;
-     &lt;birthdate&gt;2008-11-27&lt;/birthdate&gt;
-     &lt;gender&gt;Male&lt;/gender&gt;
-   &lt;/person&gt;
- &lt;/people_list&gt;
-
-endColumns
-
-keyboardNav hypertalk.html capn-proto.html
-
-import ../footer.scroll
+semanticScholar 0

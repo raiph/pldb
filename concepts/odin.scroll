@@ -1,132 +1,115 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title odin
+import ../measures/conceptPage.scroll
+id odin
+appeared 2016
+type pl
+website https://odin-lang.org
+documentation https://odin-lang.org/docs/
+country The Netherlands and Denmark and Sweden and United States and Germany
+originCommunity https://github.com/odin-lang
+domainName odin-lang.org
+ registered 2017
+ awisRank
+  2022 1231489
 
-title odin - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="pov-ray-sdl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mariadb.html">&gt;</a>
+lineCommentToken //
+printToken fmt.println
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/odin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://odin-lang.org" class="material-symbols-outlined">home</a> <a href="https://riju.codes/odin" class="material-symbols-outlined">terminal</a> <a href="https://github.com/odin-lang/Odin" class="material-symbols-outlined">code</a> <a href="https://odin-lang.org/docs/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=odin" class="material-symbols-outlined">edit</a></div>
-
-* odin is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/odin-lang/Odin
-
-dashboard
- #262 <span title="TotalRank: 639 Jobs: 103 Users: 252 Facts: 284 Links: 986">on PLDB</span>
- 8 Years Old
- 417 <span title="odin repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/odin">Riju</a>
-
-* Odin Programming Language
-
-- odin website
- https://odin-lang.org
-- odin is developed on <a href="https://github.com/odin-lang/Odin">GitHub</a> and has 2,861 stars
-- odin docs
- https://odin-lang.org/docs/
-- There are at least 417 odin repos on <a href="https://github.com/search?q=language:Odin">GitHub</a>
-- odin first developed in <a href="../lists/originCommunities.html#httpsGithubComOdinLang">https://github.com/odin-lang</a>
-- file extensions for odin include odin
-- The  Google BigQuery Public Dataset GitHub snapshot shows 5 users using odin in 6 repos on <a href="https://api.github.com/search/repositories?q=language:Odin">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/archetype.py">syntax highlighting</a> for odin
-- <a href="https://odin-lang.org">odin-lang.org</a> was registered in 2017
-
-<br>
-
-codeWithHeader Example from the web:
+example
  package main
  
- import &quot;core:fmt&quot;
+ import "core:fmt"
  
  main :: proc() {
-  program := &quot;+ + * 😃 - /&quot;;
+  program := "+ + * 😃 - /";
   accumulator := 0;
  
   for token in program {
     switch token {
-    case &#39;+&#39;: accumulator += 1;
-    case &#39;-&#39;: accumulator -= 1;
-    case &#39;*&#39;: accumulator *= 2;
-    case &#39;/&#39;: accumulator /= 2;
-    case &#39;😃&#39;: accumulator *= accumulator;
+    case '+': accumulator += 1;
+    case '-': accumulator -= 1;
+    case '*': accumulator *= 2;
+    case '/': accumulator /= 2;
+    case '😃': accumulator *= accumulator;
     case: // Ignore everything else
     }
   }
  
-  fmt.printf(&quot;The program \&quot;%s\&quot; calculates the value %d\n&quot;,
+  fmt.printf("The program \"%s\" calculates the value %d\n",
              program, accumulator);
  }
 
-codeWithHeader Example from <a href='https://riju.codes/odin'>Riju</a>:
- package main
- 
- import &quot;core:fmt&quot;
- 
- main :: proc() {
-     fmt.printf(&quot;Hello, world!\n&quot;);
- }
- 
+githubRepo https://github.com/odin-lang/Odin
+ firstCommit 2016
+ stars 2861
+ forks 236
+ subscribers 72
+ created 2016
+ updated 2022
+ description Odin Programming Language
+ issues 217
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/o/Odin.odin'>hello-world</a>:
- package main
- 
- import &quot;core:fmt&quot;
- 
- main :: proc() {
-   fmt.println(&quot;Hello World&quot;);
- }
- 
+repoStats
+ firstCommit 2016
+ commits 8502
+ committers 252
+ files 1241
 
-endColumns
+githubLanguage Odin
+ type programming
+ fileExtensions odin
+ aceMode text
+ tmScope source.odin
+ aliases odinlang or odin-lang
+ repos 417
+githubBigQuery Odin
+ repos 6
+ users 5
 
-## Language <a href="../lists/features.html">features</a>
+pygmentsHighlighter ODIN
+ filename archetype.py
+ fileExtensions odin
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token fmt.println
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+leachim6 Odin
+ filepath o/Odin.odin
+ fileExtensions odin
+ example
+  package main
+  
+  import "core:fmt"
+  
+  main :: proc() {
+    fmt.println("Hello World");
+  }
+  
 
-keyboardNav pov-ray-sdl.html mariadb.html
+rijuRepl https://riju.codes/odin
+ example
+  package main
+  
+  import "core:fmt"
+  
+  main :: proc() {
+      fmt.printf("Hello, world!\n");
+  }
+  
+ description Alternative to C with goals of simplicity, high performance, built for modern systems, and joy of programming
+ fileExtensions odin
+ website https://odin-lang.org/
+ gitRepo https://github.com/odin-lang/Odin
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2012|Towards programmable enterprise WLANS with Odin|10.1145/2342441.2342465|315|35|L. Suresh and Julius Schulz-Zander and R. Merz and A. Feldmann and T. Vazão|5a1f93a0003bd2942c336b0c0bbfc96ade963bfc
+ 2019|Verilog Loop Unrolling, Module Generation, Part-Select and Arithmetic Right Shift Support in Odin II|10.1145/3339985.3358497|1|0|Scott Young and Alexandrea Demmings and N. E. Ivari and Jean-Philippe Legault and K. Kent|a26062d057c1b6a363b90283ef35ce7e34135f1d

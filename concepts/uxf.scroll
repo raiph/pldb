@@ -1,98 +1,51 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Uniform eXchange Format
+import ../measures/conceptPage.scroll
+id Uniform eXchange Format
+appeared 2022
+type dataNotation
+creators Mark Summerfield
+conceptDescription Uniform eXchange Format (uxf) is a plain text human readable optionally typed storage format that supports custom types. It may serve as a convenient alternative to csv, ini, json, sqlite, toml, xml, or yaml
+website https://www.qtrac.eu
+reference https://github.com/mark-summerfield/uxf/blob/main/README.md
+fileExtensions uxf, ux*
+country United Kingdom
+originCommunity Qtrac Ltd
+domainName qtrac.eu
+versions
+ 2022 2022
 
-title Uniform eXchange Format - Data notation
- hidden
+relatedConcepts python rust scheme
 
-html
- <a class="trueBaseThemePreviousItem" href="silk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="txr.html">&gt;</a>
+hasBooleans true
+hasComments true
+ # <This is a comment>
+hasStrings true
+ <Hello world>
+hasLists true
+ [1 2]
+hasIntegers true
+ 80766866
+hasLineComments true
+ #<A comment>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/uxf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.qtrac.eu" class="material-symbols-outlined">home</a> <a href="https://github.com/mark-summerfield/uxf" class="material-symbols-outlined">code</a> <a href="/edit.html?id=uxf" class="material-symbols-outlined">edit</a></div>
-
-* Uniform eXchange Format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2022 by Mark Summerfield.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#markSummerfield Mark Summerfield
-
-codeWithHeader Source code:
- git clone https://github.com/mark-summerfield/uxf
-
-dashboard
- #1277 <span title="TotalRank: 1809 Jobs: 103 Users: 1854 Facts: 720 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Uniform eXchange Format (uxf) is a plain text human readable optionally typed storage format that supports custom types. It may serve as a convenient alternative to csv, ini, json, sqlite, toml, xml, or yaml
-
-- Uniform eXchange Format website
- https://www.qtrac.eu
-- Uniform eXchange Format is developed on <a href="https://github.com/mark-summerfield/uxf">GitHub</a> and has 45 stars
-- Uniform eXchange Format first developed in <a href="../lists/originCommunities.html#qtracLtd">Qtrac Ltd</a>
-- file extensions for Uniform eXchange Format include uxf, and ux*
-- See also: (3 related languages)<a href="python.html">Python</a>, <a href="rust.html">Rust</a>, <a href="scheme.html">Scheme</a>
-- Read more about Uniform eXchange Format on the web: 1.
- https://github.com/mark-summerfield/uxf/blob/main/README.md 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  uxf 1
  [
-   {&lt;Point&gt; [1.4 9.8 -0.7 3.0 2.1 -6.3]}
-   &lt;TrafficLightGreen&gt; &lt;TrafficLightAmber&gt; &lt;TrafficLightRed&gt;
+   {<Point> [1.4 9.8 -0.7 3.0 2.1 -6.3]}
+   <TrafficLightGreen> <TrafficLightAmber> <TrafficLightRed>
  ]
 
-endColumns
+githubRepo https://github.com/mark-summerfield/uxf
+ firstCommit 2022
+ stars 45
+ forks 1
+ subscribers 1
+ created 2022
+ updated 2022
+ description Uniform eXchange Format (uxf) is a plain text human readable optionally typed storage format that supports custom types. It may serve as a convenient alternative to csv, ini, json, sqlite, toml, xml, or yaml.
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #<A comment>
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   80766866
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   [1 2]
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   <Hello world>
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # <This is a comment>
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav silk.html txr.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 1023
+ committers 4
+ files 624

@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Adaplex
+import ../measures/conceptPage.scroll
+id Adaplex
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/e9058c5e7abcd7aaf8eb3052131c81db67445615
+originCommunity Ministero della Pubblica Istruzione
 
-title Adaplex - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2658
 
-html
- <a class="trueBaseThemePreviousItem" href="adagio.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aditi.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/adaplex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=adaplex" class="material-symbols-outlined">edit</a></div>
-
-* Adaplex is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3329 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- Adaplex first developed in <a href="../lists/originCommunities.html#ministeroDellaPubblicaIstruzione">Ministero della Pubblica Istruzione</a>
-- Adaplex on HOPL
- https://hopl.info/showlanguage.prx?exp=2658
-- Read more about Adaplex on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e9058c5e7abcd7aaf8eb3052131c81db67445615 1.
-
-<br>
-
-endColumns
-
-keyboardNav adagio.html aditi.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

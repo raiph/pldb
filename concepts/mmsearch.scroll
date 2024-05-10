@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mmsearch
+import ../measures/conceptPage.scroll
+id mmsearch
+appeared 2001
+type pl
+reference https://semanticscholar.org/paper/008f0b3cce064cc5abd04b3a4fe31219aa0652f0
+country Switzerland
+originCommunity Swiss Institute of Bioinformatics
 
-title mmsearch - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3544
 
-html
- <a class="trueBaseThemePreviousItem" href="mlisp2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mobl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mmsearch.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mmsearch" class="material-symbols-outlined">edit</a></div>
-
-* mmsearch is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3839 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- mmsearch first developed in <a href="../lists/originCommunities.html#swissInstituteOfBioinformatics">Swiss Institute of Bioinformatics</a>
-- mmsearch on HOPL
- https://hopl.info/showlanguage.prx?exp=3544
-- Read more about mmsearch on Semantic Scholar: 1.
- https://semanticscholar.org/paper/008f0b3cce064cc5abd04b3a4fe31219aa0652f0 1.
-
-<br>
-
-endColumns
-
-keyboardNav mlisp2.html mobl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

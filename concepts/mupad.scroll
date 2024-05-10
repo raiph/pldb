@@ -1,71 +1,63 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title muPad
+import ../measures/conceptPage.scroll
+id muPad
+appeared 1997
+type pl
+website http://mathworks.com/discovery/mupad.html
+country Germany
+originCommunity University of Paderborn
 
-title muPad - Programming language
- hidden
+hasLineComments true
+hasMultiLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="vrml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="assemblyscript.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/MuPAD
+ related linux matlab java
+ summary MuPAD is a computer algebra system (CAS). Originally developed by the MuPAD research group at the University of Paderborn, Germany, development was taken over by the company SciFace Software GmbH & Co. KG in cooperation with the MuPAD research group and partners from some other universities starting in 1997. Until autumn 2005, the version "MuPAD Light" was offered for free for research and education, but as a result of the closure of the home institute of the MuPAD research group, only the version "MuPAD Pro" became available for purchase. The MuPAD kernel is bundled with Scientific Notebook and Scientific Workplace. Former versions of MuPAD Pro were bundled with SciLab. In MathCAD's version 14 release Mupad was adopted as the CAS engine. In September 2008, SciFace was purchased by MathWorks and the MuPAD code was included in the Symbolic Math Toolbox add-on for MATLAB. On 28 September 2008, MuPAD was withdrawn from the market as a software product in its own right. However, it is still available in the Symbolic Math Toolbox in MATLAB and can also be used as a stand-alone program.
+ pageId 30874575
+ created 2004
+ backlinksCount 76
+ revisionCount 102
+ dailyPageViews 29
+ appeared 1997
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mupad.pldb
+githubLanguage mupad
+ fileExtensions mu
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.mupad
+ repos 39
+githubBigQuery mupad
+ repos 71
+ users 69
 
-startColumns 4
+pygmentsHighlighter MuPAD
+ filename algebra.py
+ fileExtensions mu
+linguistGrammarRepo https://github.com/ccreutzig/sublime-MuPAD
+ firstCommit 2012
+ lastCommit 2018
+ committerCount 4
+ commitCount 18
 
-<div class="trueBaseThemeQuickLinks"><a href="http://mathworks.com/discovery/mupad.html" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/MuPAD"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=mupad" class="material-symbols-outlined">edit</a></div>
+hopl https://hopl.info/showlanguage.prx?exp=7523
 
-* muPad is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
+fileType text
+isOpenSource false
+centralPackageRepositoryCount 0
 
-dashboard
- #493 <span title="TotalRank: 1026 Jobs: 103 Users: 888 Facts: 597 Links: 326">on PLDB</span>
- 27 Years Old
- 39 <span title="muPad repos on GitHub.">Repos</span>
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Mupad Pro Computing Essentials|2002|Miroslaw Majewski|13658983|0.0|0|0
+ Programming Fundamentals with MATLAB Using Mupad||Smith A|53994831|0.0|0|0
+ Dynamic Modules: User's Manual and Programming Guide for Mupad 1.4 [With *]|1998|Andreas Sorgatz|4117301|0.0|0|0
 
-* MuPAD is a computer algebra system (CAS). Originally developed by the MuPAD research group at the University of Paderborn, Germany, development was taken over by the company SciFace Software GmbH & Co. KG in cooperation with the MuPAD research group and partners from some other universities starting in 1997. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/MuPAD Read more on Wikipedia...
-
-- muPad website
- http://mathworks.com/discovery/mupad.html
-- muPad Wikipedia page
- https://en.wikipedia.org/wiki/MuPAD
-- There are at least 39 muPad repos on <a href="https://github.com/search?q=language:mupad">GitHub</a>
-- muPad first developed in <a href="../lists/originCommunities.html#universityOfPaderborn">University of Paderborn</a>
-- file extensions for muPad include mu
-- The  Google BigQuery Public Dataset GitHub snapshot shows 69 users using muPad in 71 repos on <a href="https://api.github.com/search/repositories?q=language:mupad">GitHub</a>
-- muPad on HOPL
- https://hopl.info/showlanguage.prx?exp=7523
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/algebra.py">syntax highlighting</a> for muPad
-- GitHub supports <a href="https://github.com/ccreutzig/sublime-MuPAD" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for muPad
-- See also: (3 related languages)<a href="linux.html">Linux</a>, <a href="matlab.html">MATLAB</a>, <a href="java.html">Java</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav vrml.html assemblyscript.html
-
-import ../footer.scroll
+isbndb 7
+ year|publisher|title|authors|isbn13
+ 1998|Springer|Dynamic Modules: User’s Manual and Programming Guide for MuPAD 1.4|Sorgatz, Andreas|9783540650430
+ 1996|Wiley|MuPAD User's Manual and CD-ROM: Multiprocessing Algebra Data Tool, MuPad Version 1.2.2.|The MuPad Group and Fuchssteiner, B. and Drescher, K. and Kemper, A. and Kluge, O. and Morrise, K. and Naundorf, H. and Oevel, G. and Postel, F. and Schulze, T. and Siek, G. and Sorgatz, A. and Wiwianka, W. and Zimmermann, P.|9780471967163
+ 2014|Springer|Dynamic Modules: User's Manual and Programming Guide for MuPAD 1.4|Sorgatz, Andreas|9783642599965
+ 2004|Springer|Mupad Tutorial|Christopher Creutzig and Walter Oevel|9783540221845
+ 20131201|Springer Nature|MuPAD Tutorial|Christopher Creutzig; Walter Oevel|9783642593048
+ 20121206|Springer Nature|MuPAD Pro Computing Essentials|Miroslaw Majewski|9783642979101
+ 20110627|Springer Nature|MuPAD Pro Computing Essentials|Miroslaw Majewski|9783642187605

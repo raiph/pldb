@@ -1,46 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MASM
+import ../measures/conceptPage.scroll
+id MASM
+appeared 1981
+type pl
+creators Thomas Jaeger
+website http://www.visualmasm.com
+reference http://www.visualmasm.com/
+country United States
+originCommunity https://github.com/ThomasJaeger/VisualMASM/issues
 
-title MASM - Programming language
- hidden
+githubRepo https://github.com/ThomasJaeger/VisualMASM
+ firstCommit 2017
+ stars 1241
+ forks 79
+ subscribers 67
+ created 2017
+ updated 2022
+ description Visual MASM - Assembly IDE for Microsoft MASM
+ issues 16
 
-html
- <a class="trueBaseThemePreviousItem" href="dex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lispyscript.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 169
+ committers 2
+ files 611
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/masm.pldb
+hopl https://hopl.info/showlanguage.prx?exp=2212
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.visualmasm.com" class="material-symbols-outlined">home</a> <a href="https://github.com/ThomasJaeger/VisualMASM" class="material-symbols-outlined">code</a> <a href="/edit.html?id=masm" class="material-symbols-outlined">edit</a></div>
-
-* MASM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981 by Thomas Jaeger.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
- link ../lists/creators.html#thomasJaeger Thomas Jaeger
-
-codeWithHeader Source code:
- git clone https://github.com/ThomasJaeger/VisualMASM
-
-dashboard
- #962 <span title="TotalRank: 1528 Jobs: 103 Users: 439 Facts: 1450 Links: 986">on PLDB</span>
- 43 Years Old
-
-* Visual MASM - Assembly IDE for Microsoft MASM
-
-- MASM website
- http://www.visualmasm.com
-- MASM is developed on <a href="https://github.com/ThomasJaeger/VisualMASM">GitHub</a> and has 1,241 stars
-- MASM first developed in <a href="../lists/originCommunities.html#httpsGithubComThomasJaegerVisualMasmIssues">https://github.com/ThomasJaeger/VisualMASM/issues</a>
-- MASM on HOPL
- https://hopl.info/showlanguage.prx?exp=2212
-- Read more about MASM on the web: 1.
- http://www.visualmasm.com/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav dex.html lispyscript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SMDL
+import ../measures/conceptPage.scroll
+id SMDL
+appeared 1991
+type pl
+creators Steven R Newcomb
+reference https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=BA8E3AA8FED210F845D0D675036629CC?doi=10.1.1.217.1805&rep=rep1&type=pdf
+reference https://www.semanticscholar.org/paper/Standard-Music-Description-Language-%28-SMDL-%29-ISO-%2F/a57cc9b150280aa50a7c19dffe091e1ec42ae5a5
+country United States
+originCommunity Techno Teacher, Inc
 
-title SMDL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6456
 
-html
- <a class="trueBaseThemePreviousItem" href="ros-msg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="social-networks-query-language.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smdl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=smdl" class="material-symbols-outlined">edit</a></div>
-
-* SMDL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991 by Steven R Newcomb.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
- link ../lists/creators.html#stevenRNewcomb Steven R Newcomb
-
-dashboard
- #3074 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- SMDL first developed in <a href="../lists/originCommunities.html#technoTeacherInc">Techno Teacher, Inc</a>
-- SMDL on HOPL
- https://hopl.info/showlanguage.prx?exp=6456
-- Read more about SMDL on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/Standard-Music-Description-Language-%28-SMDL-%29-ISO-%2F/a57cc9b150280aa50a7c19dffe091e1ec42ae5a5 1.
-- Read more about SMDL on the web: 1.
- https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=BA8E3AA8FED210F845D0D675036629CC?doi=10.1.1.217.1805&rep=rep1&type=pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav ros-msg.html social-networks-query-language.html
-
-import ../footer.scroll
+semanticScholar 0

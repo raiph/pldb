@@ -1,51 +1,43 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SRL
+import ../measures/conceptPage.scroll
+id SRL
+appeared 2016
+type queryLanguage
+creators Karim Geiger
+website https://simple-regex.com/
+standsFor Simple Regex Language
+country Estonia
+originCommunity https://github.com/SimpleRegex
+domainName simple-regex.com
+ registered 2016
+ awisRank
+  2017 5551277
 
-title SRL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="doodle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simcode.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/srl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://simple-regex.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/SimpleRegex/SRL-PHP" class="material-symbols-outlined">code</a> <a href="/edit.html?id=srl" class="material-symbols-outlined">edit</a></div>
-
-* SRL, aka Simple Regex Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2016 by Karim Geiger.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#karimGeiger Karim Geiger
-
-codeWithHeader Source code:
- git clone https://github.com/SimpleRegex/SRL-PHP
-
-dashboard
- #817 <span title="TotalRank: 1377 Jobs: 103 Users: 359 Facts: 915 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Simple Regex Language
-
-- SRL website
- https://simple-regex.com/
-- SRL is developed on <a href="https://github.com/SimpleRegex/SRL-PHP">GitHub</a> and has 1,806 stars
-- SRL first developed in <a href="../lists/originCommunities.html#httpsGithubComSimpleRegex">https://github.com/SimpleRegex</a>
-- <a href="https://simple-regex.com/">simple-regex.com</a> was registered in 2016
-
-<br>
-
-codeWithHeader Example from the web:
- begin with any of (digit, letter, one of &quot;._%+-&quot;) once or more,
- literally &quot;@&quot;,
- any of (digit, letter, one of &quot;.-&quot;) once or more,
- literally &quot;.&quot;,
+example
+ begin with any of (digit, letter, one of "._%+-") once or more,
+ literally "@",
+ any of (digit, letter, one of ".-") once or more,
+ literally ".",
  letter at least 2 times,
  must end, case insensitive
 
-endColumns
+githubRepo https://github.com/SimpleRegex/SRL-PHP
+ stars 1806
+ forks 73
+ subscribers 53
+ created 2016
+ updated 2022
+ firstCommit 2016
+ description Simple Regex Language
+ issues 11
 
-keyboardNav doodle.html simcode.html
+repoStats
+ firstCommit 2016
+ commits 61
+ committers 4
+ files 51
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0

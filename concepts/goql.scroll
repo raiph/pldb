@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GOQL
+import ../measures/conceptPage.scroll
+id GOQL
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/6c0a10387cbebfad2c446cdc454969fa0c3bb1c9
+country Cyprus
+originCommunity Intercollege
 
-title GOQL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5305
 
-html
- <a class="trueBaseThemePreviousItem" href="golog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gospel.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/goql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=goql" class="material-symbols-outlined">edit</a></div>
-
-* GOQL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #4152 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- GOQL first developed in <a href="../lists/originCommunities.html#intercollege">Intercollege</a>
-- GOQL on HOPL
- https://hopl.info/showlanguage.prx?exp=5305
-- Read more about GOQL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6c0a10387cbebfad2c446cdc454969fa0c3bb1c9 1.
-
-<br>
-
-endColumns
-
-keyboardNav golog.html gospel.html
-
-import ../footer.scroll
+semanticScholar 0

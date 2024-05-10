@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Avalon/Common LISP
+import ../measures/conceptPage.scroll
+id Avalon/Common LISP
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/af24e3f80b26437dcf21afd674b619cdd4e543b3
+country United States
+originCommunity Carnegie Mellon University
 
-title Avalon/Common LISP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1536
 
-html
- <a class="trueBaseThemePreviousItem" href="automast.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="b4tran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/avalon-common-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=avalon-common-lisp" class="material-symbols-outlined">edit</a></div>
-
-* Avalon/Common LISP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3504 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Avalon/Common LISP first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a>
-- Avalon/Common LISP on HOPL
- https://hopl.info/showlanguage.prx?exp=1536
-- Read more about Avalon/Common LISP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/af24e3f80b26437dcf21afd674b619cdd4e543b3 1.
-
-<br>
-
-endColumns
-
-keyboardNav automast.html b4tran.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,43 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Caffeine
+import ../measures/conceptPage.scroll
+id Caffeine
+appeared 2012
+type pl
+creators Roman I. Kuzmin
+website https://github.com/ich/caffeine
+fileExtensions coffee
+country Russia
+originCommunity https://github.com/ich
 
-title Caffeine - Programming language
- hidden
+githubRepo https://github.com/ich/caffeine
+ stars 21
+ forks 2000
+ subscribers 3
+ created 2012
+ updated 2013
+ description Caffeine extends CoffeeScript.
 
-html
- <a class="trueBaseThemePreviousItem" href="eclipse-command-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="treenotation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/caffeine.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ich/caffeine" class="material-symbols-outlined">home</a> <a href="https://github.com/ich/caffeine" class="material-symbols-outlined">code</a> <a href="/edit.html?id=caffeine" class="material-symbols-outlined">edit</a></div>
-
-* Caffeine is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Roman I. Kuzmin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#romanIKuzmin Roman I. Kuzmin
-
-codeWithHeader Source code:
- git clone https://github.com/ich/caffeine
-
-dashboard
- #700 <span title="TotalRank: 1268 Jobs: 103 Users: 179 Facts: 1787 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Caffeine extends CoffeeScript.
-
-- Caffeine website
- https://github.com/ich/caffeine
-- Caffeine is developed on <a href="https://github.com/ich/caffeine">GitHub</a> and has 21 stars
-- Caffeine first developed in <a href="../lists/originCommunities.html#httpsGithubComIch">https://github.com/ich</a>
-- file extensions for Caffeine include coffee
-
-<br>
-
-endColumns
-
-keyboardNav eclipse-command-language.html treenotation.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2009
+ commits 3581
+ committers 105
+ files 88

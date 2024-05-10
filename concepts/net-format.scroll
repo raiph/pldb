@@ -1,36 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title net-format
+import ../measures/conceptPage.scroll
+id net-format
+appeared 2006
+type textDataFormat
+conceptDescription The net file format is used to describe the axtNet data that underlie the net alignment annotations in the Genome Browser. In 2016 it was revised so that line indentation level represents the parent/child relationship between records and is a necessary part of the net file format. Child records are indented one space from the parent, as shown in the example net file below.
+reference https://genome.ucsc.edu/goldenPath/help/net.html
+country United States
+originCommunity University of California, Santa Cruz
 
-title net-format - Text data format
- hidden
+hasSemanticIndentation true
 
-html
- <a class="trueBaseThemePreviousItem" href="balgol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pycket.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/net-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=net-format" class="material-symbols-outlined">edit</a></div>
-
-* net-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #1524 <span title="TotalRank: 2033 Jobs: 103 Users: 2838 Facts: 944 Links: 986">on PLDB</span>
- 18 Years Old
-
-* The net file format is used to describe the axtNet data that underlie the net alignment annotations in the Genome Browser. In 2016 it was revised so that line indentation level represents the parent/child relationship between records and is a necessary part of the net file format. Child records are indented one space from the parent, as shown in the example net file below.
-
-- net-format first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaSantaCruz">University of California, Santa Cruz</a>
-- Read more about net-format on the web: 1.
- https://genome.ucsc.edu/goldenPath/help/net.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  net chr2L 23011544
   fill 6004 3278 chrXR_group3a - 1396397 2164 id 25606 score 23114 ali 782 qDup 576 type top tN 0 qN 0 tR 36 qR 0 tTrf 0 qTrf 0
    gap 6065 2 chrXR_group3a - 1398498 0 tN 0 qN 0 tR 0 qR 0 tTrf 0 qTrf 0
@@ -57,18 +36,5 @@ codeWithHeader Example from the web:
    gap 10088 2 chrU - 5563957 0 tN 0 qN 0 tR 0 qR 0 tTrf 0 qTrf 0
    gap 10101 8 chrU - 5563946 0 tN 0 qN 0 tR 0 qR 0 tTrf 0 qTrf 0
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav balgol.html pycket.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

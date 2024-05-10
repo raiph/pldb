@@ -1,71 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title sora
+import ../measures/conceptPage.scroll
+id sora
+appeared 2019
+type pl
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/dgs976/cast_expressions_syntax_semantics/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
 
-title sora - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="rise.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="subx.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sora.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sora" class="material-symbols-outlined">edit</a></div>
-
-* sora is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #2380 <span title="TotalRank: 2876 Jobs: 103 Users: 2838 Facts: 1787 Links: 986">on PLDB</span>
- 5 Years Old
-
-* 
-
-- Read more about sora on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/dgs976/cast_expressions_syntax_semantics/?utm_source=share&utm_medium=ios_app&utm_name=iossmf 1.
-
-<br>
-
-codeWithHeader Example from the web:
- func get(node: &amp;mut Foo, k: usize) -&gt; maybe &amp;mut Foo {
+example
+ func get(node: &mut Foo, k: usize) -> maybe &mut Foo {
      if k == 0 {
          return node // no semicolons, only newlines
-     } else if let next = node-&gt;next { // node-&gt;next is a maybe &amp;mut Foo, this accesses the value of the maybe type.
+     } else if let next = node->next { // node->next is a maybe &mut Foo, this accesses the value of the maybe type.
          return get(next, k-1)
      } else {
          return null
      }
  }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav rise.html subx.html
-
-import ../footer.scroll

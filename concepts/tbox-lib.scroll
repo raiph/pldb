@@ -1,41 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tbox-lib
+import ../measures/conceptPage.scroll
+id tbox-lib
+appeared 2010
+type library
+website https://tboox.org
+domainName tboox.org
+ registered 2011
+ awisRank
+  2022 2511139
 
-title tbox-lib - Library
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="powerbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="luajit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tbox-lib.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tboox.org" class="material-symbols-outlined">home</a> <a href="https://github.com/tboox/tbox" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tbox-lib" class="material-symbols-outlined">edit</a></div>
-
-* tbox-lib is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-codeWithHeader Source code:
- git clone https://github.com/tboox/tbox
-
-dashboard
- #902 on PLDB
- 14 Years Old
-
-* 🎁 A glib-like multi-platform c library
-
-- tbox-lib website
- https://tboox.org
-- tbox-lib is developed on <a href="https://github.com/tboox/tbox">GitHub</a> and has 4,054 stars
-- <a href="https://tboox.org">tboox.org</a> was registered in 2011
-
-<br>
-
-endColumns
-
-keyboardNav powerbasic.html luajit.html
-
-import ../footer.scroll
+githubRepo https://github.com/tboox/tbox
+ firstCommit 2010
+ stars 4054
+ forks 623
+ subscribers 203
+ created 2011
+ updated 2022
+ description 🎁 A glib-like multi-platform c library
+ issues 19

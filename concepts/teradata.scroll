@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Teradata
-
-title Teradata - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="teradata-aster.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tfl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/teradata.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=teradata" class="material-symbols-outlined">edit</a></div>
-
-* Teradata is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3235 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 45 Years Old
-
-* Relational database management system (RDBMS)
-
-- Teradata first developed in <a href="../lists/originCommunities.html#teradataCorporation">Teradata Corporation</a>
-
-<br>
-
-endColumns
-
-keyboardNav teradata-aster.html tfl.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Teradata
+appeared 1979
+type database
+conceptDescription Relational database management system (RDBMS)
+country United States
+originCommunity Teradata Corporation

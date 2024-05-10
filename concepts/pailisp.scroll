@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PaiLisp
+import ../measures/conceptPage.scroll
+id PaiLisp
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/cb80e839c67a7a28f1cc087daf8175f259fbfce7
+country United States
+originCommunity Tohoku University
 
-title PaiLisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1252
 
-html
- <a class="trueBaseThemePreviousItem" href="padl-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="palingol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pailisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pailisp" class="material-symbols-outlined">edit</a></div>
-
-* PaiLisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3906 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- PaiLisp first developed in <a href="../lists/originCommunities.html#tohokuUniversity">Tohoku University</a>
-- PaiLisp on HOPL
- https://hopl.info/showlanguage.prx?exp=1252
-- Read more about PaiLisp on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cb80e839c67a7a28f1cc087daf8175f259fbfce7 1.
-
-<br>
-
-endColumns
-
-keyboardNav padl-1.html palingol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

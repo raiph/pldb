@@ -1,39 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Edison
+import ../measures/conceptPage.scroll
+id Edison
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/669fd00160e4015f9d0e7fa073b81ea2eb2515de
+country France
+originCommunity Institut de Recherche Polytechnique
 
-title Edison - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1684
 
-html
- <a class="trueBaseThemePreviousItem" href="class.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="electre.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edison.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=edison" class="material-symbols-outlined">edit</a></div>
-
-* Edison is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #2722 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Edison first developed in <a href="../lists/originCommunities.html#institutDeRecherchePolytechnique">Institut de Recherche Polytechnique</a>
-- Edison on HOPL
- https://hopl.info/showlanguage.prx?exp=1684
-- Read more about Edison on Semantic Scholar: 1.
- https://semanticscholar.org/paper/669fd00160e4015f9d0e7fa073b81ea2eb2515de 1.
-
-<br>
-
-endColumns
-
-keyboardNav class.html electre.html
-
-import ../footer.scroll
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 2008|W. W. Norton & Company|The Big Switch: Rewiring the World, from Edison to Google|Carr, Nicholas|9780393062281
+ 2009|W. W. Norton & Company|The Big Switch: Rewiring the World, from Edison to Google|Carr, Nicholas|9780393333947
+ 30-05-2017|Packt Publishing|Intel Edison Projects|Avirup Basu|9781787283626
+ 20151103|O'Reilly Media, Inc.|Getting Started with Intel Edison|Stephanie Moyerman|9781457187575
+ 20151103|O'Reilly Media, Inc.|Getting Started with Intel Edison|Stephanie Moyerman|9781457187551

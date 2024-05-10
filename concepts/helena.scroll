@@ -1,44 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title helena
+import ../measures/conceptPage.scroll
+id helena
+appeared 2017
+type pl
+website http://helena-lang.org
+country United States
+originCommunity University of Washington && University of California, Berkeley
+domainName helena-lang.org
+ registered 2017
 
-title helena - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gns.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hello.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/helena.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://helena-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=helena" class="material-symbols-outlined">edit</a></div>
-
-* helena is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2899 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- helena website
- http://helena-lang.org
-- helena first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a> and <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- <a href="http://helena-lang.org">helena-lang.org</a> was registered in 2017
-
-<br>
-
-endColumns
-
-## HackerNews discussions of helena
-
-pipeTable
- title|titleLink|date|score|comments
- Helena: Web Automation for End Users|https://news.ycombinator.com/item?id=18536228|11/26/2018|5|0
-
-keyboardNav gns.html hello.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 18536228|Helena: Web Automation for End Users|http://helena-lang.org/|2018-11-26 19:50:30 UTC|1543261830|azhenley|0|5

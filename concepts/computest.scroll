@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COMPUTEST
+import ../measures/conceptPage.scroll
+id COMPUTEST
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/4505b1af681f34d91ed762a78b8d978635bd892b
+country United States
+originCommunity University of California, San Francisco
 
-title COMPUTEST - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5576
 
-html
- <a class="trueBaseThemePreviousItem" href="comfy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="comskee.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/computest.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=computest" class="material-symbols-outlined">edit</a></div>
-
-* COMPUTEST is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #4102 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- COMPUTEST first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaSanFrancisco">University of California, San Francisco</a>
-- COMPUTEST on HOPL
- https://hopl.info/showlanguage.prx?exp=5576
-- Read more about COMPUTEST on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4505b1af681f34d91ed762a78b8d978635bd892b 1.
-
-<br>
-
-endColumns
-
-keyboardNav comfy.html comskee.html
-
-import ../footer.scroll
+semanticScholar 0

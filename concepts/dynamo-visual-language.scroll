@@ -1,46 +1,36 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dynamo
+import ../measures/conceptPage.scroll
+id Dynamo
+appeared 2011
+type visual
+creators Ian Keough
+website https://dynamobim.org/
+country United States
+originCommunity https://github.com/DynamoDS
+domainName dynamobim.org
+ registered 2013
+ awisRank
+  2022 238266
+roadmap https://dynamobim.org/roadmap/
 
-title Dynamo - Visual programming language
- hidden
+githubRepo https://github.com/DynamoDS/Dynamo
+ firstCommit 2011
+ stars 1254
+ forks 556
+ subscribers 193
+ created 2012
+ updated 2022
+ description Open Source Graphical Programming for Design
+ issues 247
 
-html
- <a class="trueBaseThemePreviousItem" href="drakon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pari-gp.html">&gt;</a>
+repoStats
+ firstCommit 2011
+ commits 34493
+ committers 239
+ files 9618
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dynamo-visual-language.pldb
+packageRepository https://dynamopackages.com/
 
-startColumns 4
+twitter https://twitter.com/dynamobim
+isOpenSource true
 
-<div class="trueBaseThemeQuickLinks"><a href="https://dynamobim.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/DynamoDS/Dynamo" class="material-symbols-outlined">code</a> <a href="https://twitter.com/dynamobim"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=dynamo-visual-language" class="material-symbols-outlined">edit</a></div>
-
-* Dynamo is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2011 by Ian Keough.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#ianKeough Ian Keough
-
-codeWithHeader Source code:
- git clone https://github.com/DynamoDS/Dynamo
-
-dashboard
- #478 <span title="TotalRank: 1006 Jobs: 103 Users: 236 Facts: 1123 Links: 667">on PLDB</span>
- 13 Years Old
-
-* Open Source Graphical Programming for Design
-
-- Dynamo website
- https://dynamobim.org/
-- Dynamo is developed on <a href="https://github.com/DynamoDS/Dynamo">GitHub</a> and has 1,254 stars
-- Dynamo first developed in <a href="../lists/originCommunities.html#httpsGithubComDynamoDs">https://github.com/DynamoDS</a>
-- Dynamo on Twitter
- https://twitter.com/dynamobim
-- There is a <a href="https://dynamopackages.com/">central package repository</a> for Dynamo
-- <a href="https://dynamobim.org/">dynamobim.org</a> was registered in 2013
-
-<br>
-
-endColumns
-
-keyboardNav drakon.html pari-gp.html
-
-import ../footer.scroll
+isbndb 0

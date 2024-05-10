@@ -1,72 +1,49 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Grammar
+import ../measures/conceptPage.scroll
+id Grammar
+appeared 2017
+type grammarLanguage
+isPublicDomain true
+creators Breck Yunits
+conceptDescription Grammar is a Tree Language for creating new Tree Languages. By creating a grammar file you get a parser, a type checker, syntax highlighting, autocomplete, a compiler, and interpreter for executing your new language. Grammar uses both postfix and prefix language features.
+website https://jtree.treenotation.org/langs/grammar/
+webRepl https://jtree.treenotation.org/designer/
+country United States and Ireland and Norway and India
+originCommunity https://github.com/breck7/jtree/issues
+releaseNotesUrl https://jtree.treenotation.org/langs/grammar/
+roadmap https://jtree.treenotation.org/langs/grammar/
 
-title Grammar - Grammar language
- hidden
+subsetOf treenotation
+relatedConcepts treenotation antlr
+influencedBy antlr yacc ebnf bnf
 
-html
- <a class="trueBaseThemePreviousItem" href="flow-matic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qmake.html">&gt;</a>
+hasVariableSubstitutionSyntax false
+hasEnums true
+ boolCell
+  enum true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/grammar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://jtree.treenotation.org/langs/grammar/" class="material-symbols-outlined">home</a> <a href="https://jtree.treenotation.org/designer/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/breck7/jtree" class="material-symbols-outlined">code</a> <a href="/edit.html?id=grammar" class="material-symbols-outlined">edit</a></div>
-
-* Grammar is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2017 by Breck Yunits.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#breckYunits Breck Yunits
-
-codeWithHeader Source code:
- git clone https://github.com/breck7/jtree
-
-dashboard
- #651 <span title="TotalRank: 1231 Jobs: 103 Users: 840 Facts: 802 Links: 326">on PLDB</span>
- 7 Years Old
-
-* Try now: <a href="https://jtree.treenotation.org/designer/">Web</a>
-
-* Grammar is a Tree Language for creating new Tree Languages. By creating a grammar file you get a parser, a type checker, syntax highlighting, autocomplete, a compiler, and interpreter for executing your new language. Grammar uses both postfix and prefix language features.
-
-- Grammar website
- https://jtree.treenotation.org/langs/grammar/
-- Grammar is developed on <a href="https://github.com/breck7/jtree">GitHub</a> and has 365 stars
-- Grammar first developed in <a href="../lists/originCommunities.html#httpsGithubComBreck7JtreeIssues">https://github.com/breck7/jtree/issues</a>
-- Release Notes for Grammar
- https://jtree.treenotation.org/langs/grammar/
-- See also: (2 related languages)<a href="treenotation.html">Tree Notation</a>, <a href="antlr.html">ANTLR</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  latinNode
   root
   catchAllParser anyNode
  anyNode
   baseParser blobNode
 
-endColumns
+githubRepo https://github.com/breck7/jtree
+ firstCommit 2017
+ stars 365
+ forks 14
+ subscribers 9
+ created 2017
+ updated 2023
+ description Build your own language using Tree Notation.
+ issues 40
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 1444
+ committers 11
+ files 226
 
-treeTable
- row
-  Feature Enums
-  FeatureLink ../features/hasEnums.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   boolCell
-    enum true false
- row
-  Feature Variable Substitution Syntax
-  FeatureLink ../features/hasVariableSubstitutionSyntax.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isOpenSource true
 
-keyboardNav flow-matic.html qmake.html
-
-import ../footer.scroll
+isbndb 0

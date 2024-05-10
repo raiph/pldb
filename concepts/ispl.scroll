@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ISPL
+import ../measures/conceptPage.scroll
+id ISPL
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/76b53866b945231f7dca461b90bf3459592430cf
+country United States
+originCommunity The Rand Corporation
 
-title ISPL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5339
 
-html
- <a class="trueBaseThemePreviousItem" href="isis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ivtran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ispl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ispl" class="material-symbols-outlined">edit</a></div>
-
-* ISPL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3747 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- ISPL first developed in <a href="../lists/originCommunities.html#theRandCorporation">The Rand Corporation</a>
-- ISPL on HOPL
- https://hopl.info/showlanguage.prx?exp=5339
-- Read more about ISPL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/76b53866b945231f7dca461b90bf3459592430cf 1.
-
-<br>
-
-endColumns
-
-keyboardNav isis.html ivtran.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

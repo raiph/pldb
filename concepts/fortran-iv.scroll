@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORTRAN IV
+import ../measures/conceptPage.scroll
+id FORTRAN IV
+appeared 1962
+type pl
+reference https://en.wikipedia.org/wiki/Fortran#FORTRAN_IV
+country United States
+originCommunity IBM
 
-title FORTRAN IV - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="fortran-iii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gaea.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortran-iv.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fortran-iv" class="material-symbols-outlined">edit</a></div>
-
-* FORTRAN IV is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1962.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1962 1962
-
-dashboard
- #3385 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 62 Years Old
-
-* 
-
-- FORTRAN IV first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- FORTRAN IV on HOPL
- https://hopl.info/showlanguage.prx?exp=160
-- Read more about FORTRAN IV on the web: 1.
- https://en.wikipedia.org/wiki/Fortran#FORTRAN_IV 1.
-
-<br>
-
-endColumns
-
-keyboardNav fortran-iii.html gaea.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=160

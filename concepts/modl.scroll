@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title modl
-
-title modl - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="microplanner.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="n.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/modl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=modl" class="material-symbols-outlined">edit</a></div>
-
-* modl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3402 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 37 Years Old
-
-* c-based language for ExtendSim.
-
-- modl first developed in <a href="../lists/originCommunities.html#imagineThatInc">Imagine That Inc</a>
-- Read more about modl on the web: 1.
- https://www.extendsim.com/flipbooks/ExtendSimDiscreteEventQSG.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav microplanner.html n.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id modl
+appeared 1987
+type pl
+conceptDescription c-based language for ExtendSim.
+reference https://www.extendsim.com/flipbooks/ExtendSimDiscreteEventQSG.pdf
+country United States
+originCommunity Imagine That Inc

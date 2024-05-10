@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DinnerBell
+import ../measures/conceptPage.scroll
+id DinnerBell
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/c4d4708cf45e4db1d3ab22406b2bf22ca5709bae
 
-title DinnerBell - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1970
 
-html
- <a class="trueBaseThemePreviousItem" href="decision-model-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dinnerbell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dinnerbell" class="material-symbols-outlined">edit</a></div>
-
-* DinnerBell is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3182 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- DinnerBell on HOPL
- https://hopl.info/showlanguage.prx?exp=1970
-- Read more about DinnerBell on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c4d4708cf45e4db1d3ab22406b2bf22ca5709bae 1.
-
-<br>
-
-endColumns
-
-keyboardNav decision-model-notation.html eql.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

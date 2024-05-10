@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title femtolisp
+import ../measures/conceptPage.scroll
+id femtolisp
+appeared 2008
+type pl
+creators Jeff Bezanson
+reference https://en.wikipedia.org/wiki/Julia_(programming_language)#Implementation
+country United States
+originCommunity Julia Computing Inc
 
-title femtolisp - Programming language
- hidden
+githubRepo https://github.com/JeffBezanson/femtolisp
+ firstCommit 2008
+ stars 1388
+ forks 110
+ subscribers 69
+ created 2012
+ updated 2022
+ description a lightweight, robust, scheme-like lisp implementation
+ issues 22
 
-html
- <a class="trueBaseThemePreviousItem" href="ti-basic-assembly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="swallow.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/femtolisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/JeffBezanson/femtolisp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=femtolisp" class="material-symbols-outlined">edit</a></div>
-
-* femtolisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Jeff Bezanson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#jeffBezanson Jeff Bezanson
-
-codeWithHeader Source code:
- git clone https://github.com/JeffBezanson/femtolisp
-
-dashboard
- #910 <span title="TotalRank: 1477 Jobs: 103 Users: 388 Facts: 1669 Links: 986">on PLDB</span>
- 16 Years Old
-
-* a lightweight, robust, scheme-like lisp implementation
-
-- femtolisp is developed on <a href="https://github.com/JeffBezanson/femtolisp">GitHub</a> and has 1,388 stars
-- femtolisp first developed in <a href="../lists/originCommunities.html#juliaComputingInc">Julia Computing Inc</a>
-- Read more about femtolisp on the web: 1.
- https://en.wikipedia.org/wiki/Julia_(programming_language)#Implementation 1.
-
-<br>
-
-endColumns
-
-keyboardNav ti-basic-assembly.html swallow.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2008
+ commits 300
+ committers 15
+ files 112

@@ -1,51 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kalyn
+import ../measures/conceptPage.scroll
+id Kalyn
+appeared 2020
+type pl
+creators Radon Rosborough
+website https://intuitiveexplanations.com/tech/kalyn
+country United States
+originCommunity https://github.com/radian-software/
 
-title Kalyn - Programming language
- hidden
+githubRepo https://github.com/radian-software/kalyn
+ firstCommit 2020
+ stars 117
+ forks 2
+ subscribers 2
+ created 2020
+ updated 2022
+ description ⚗️ Self-hosting compiler from a Haskell-like Lisp directly to x86-64, from scratch.
+ issues 20
 
-html
- <a class="trueBaseThemePreviousItem" href="gellish.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="obsidian.html">&gt;</a>
+repoStats
+ firstCommit 2020
+ commits 330
+ committers 2
+ files 80
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kalyn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://intuitiveexplanations.com/tech/kalyn" class="material-symbols-outlined">home</a> <a href="https://riju.codes/kalyn" class="material-symbols-outlined">terminal</a> <a href="https://github.com/radian-software/kalyn" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kalyn" class="material-symbols-outlined">edit</a></div>
-
-* Kalyn is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Radon Rosborough.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#radonRosborough Radon Rosborough
-
-codeWithHeader Source code:
- git clone https://github.com/radian-software/kalyn
-
-dashboard
- #1754 <span title="TotalRank: 2292 Jobs: 103 Users: 1357 Facts: 1203 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://riju.codes/kalyn">Riju</a>
-
-* ⚗️ Self-hosting compiler from a Haskell-like Lisp directly to x86-64, from scratch.
-
-- Kalyn website
- https://intuitiveexplanations.com/tech/kalyn
-- Kalyn is developed on <a href="https://github.com/radian-software/kalyn">GitHub</a> and has 117 stars
-- Kalyn first developed in <a href="../lists/originCommunities.html#httpsGithubComRadianSoftware">https://github.com/radian-software/</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/kalyn'>Riju</a>:
- (import &quot;/opt/kalyn/Stdlib.kalyn&quot;)
- 
- (public def main (IO Empty)
-   (print &quot;Hello, world!\n&quot;))
- 
-
-endColumns
-
-keyboardNav gellish.html obsidian.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/kalyn
+ example
+  (import "/opt/kalyn/Stdlib.kalyn")
+  
+  (public def main (IO Empty)
+    (print "Hello, world!\n"))
+  

@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lamderp
+import ../measures/conceptPage.scroll
+id lamderp
+appeared 2013
+type pl
+creators James Keane
+website https://github.com/jameskeane/lamderp
+country Canada
+originCommunity https://github.com/jameskeane/lamderp/issues
 
-title lamderp - Programming language
- hidden
+writtenIn python
 
-html
- <a class="trueBaseThemePreviousItem" href="forthscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="iode.html">&gt;</a>
+githubRepo https://github.com/jameskeane/lamderp
+ stars 13
+ forks 0
+ subscribers 1
+ created 2013
+ updated 2013
+ description Simple easy python lambda DSL
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lamderp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/jameskeane/lamderp" class="material-symbols-outlined">home</a> <a href="https://github.com/jameskeane/lamderp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lamderp" class="material-symbols-outlined">edit</a></div>
-
-* lamderp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by James Keane.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#jamesKeane James Keane
-
-codeWithHeader Source code:
- git clone https://github.com/jameskeane/lamderp
-
-dashboard
- #2349 <span title="TotalRank: 2876 Jobs: 103 Users: 2267 Facts: 1787 Links: 986">on PLDB</span>
- 11 Years Old
-
-* Simple easy python lambda DSL
-
-- lamderp website
- https://github.com/jameskeane/lamderp
-- lamderp is developed on <a href="https://github.com/jameskeane/lamderp">GitHub</a> and has 13 stars
-- lamderp first developed in <a href="../lists/originCommunities.html#httpsGithubComJameskeaneLamderpIssues">https://github.com/jameskeane/lamderp/issues</a>
-- lamderp is written in <a href="python.html">Python</a>
-
-<br>
-
-endColumns
-
-keyboardNav forthscript.html iode.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 5
+ committers 1
+ files 5

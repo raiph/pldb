@@ -1,96 +1,76 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Genie
+import ../measures/conceptPage.scroll
+id Genie
+appeared 2008
+type pl
+creators Jamie McCracken
+country United States
+originCommunity GNOME Foundation
 
-title Genie - Programming language
- hidden
+hasComments true
+hasSemanticIndentation true
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="aspectj.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xbasepp.html">&gt;</a>
+printToken print
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/genie.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Genie_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=genie" class="material-symbols-outlined">edit</a></div>
-
-* Genie is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Jamie McCracken.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#jamieMcCracken Jamie McCracken
-
-dashboard
- #386 <span title="TotalRank: 864 Jobs: 103 Users: 996 Facts: 489 Links: 272">on PLDB</span>
- 16 Years Old
- 21 <span title="Genie repos on GitHub.">Repos</span>
-
-* Genie is a modern, general-purpose high-level programming language in active development since 2008. It was designed as an alternative, simpler and cleaner dialect for the Vala compiler, while preserving the same functionality of the Vala language. Genie uses the same compiler and libraries as Vala; the two can indeed be used alongside each other. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Genie_(programming_language) Read more on Wikipedia...
-
-- Genie Wikipedia page
- https://en.wikipedia.org/wiki/Genie_(programming_language)
-- There are at least 21 Genie repos on <a href="https://github.com/search?q=language:Genie">GitHub</a>
-- Genie first developed in <a href="../lists/originCommunities.html#gnomeFoundation">GNOME Foundation</a>
-- file extensions for Genie include gs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 17 users using Genie in 17 repos on <a href="https://api.github.com/search/repositories?q=language:Genie">GitHub</a>
-- Explore Genie snippets on <a href="http://www.rosettacode.org/wiki/Category:Genie">Rosetta Code</a>
-- Genie on HOPL
- https://hopl.info/showlanguage.prx?exp=8118
-- See also: (7 related languages)<a href="python.html">Python</a>, <a href="boo.html">Boo</a>, <a href="d.html">D</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="vala.html">Vala</a>, <a href="java.html">Java</a>, <a href="c.html">C</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  init
-  print( &quot;Hello, World!&quot; )
+  print( "Hello, World!" )
  
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/g/Genie.gs'>hello-world</a>:
- [indent=2]
- init
-   print &quot;Hello World&quot;
+wikipedia https://en.wikipedia.org/wiki/Genie_(programming_language)
+ example
+  class Sample
+  
+  	def run()
+  		stdout.printf("Hello, world!\n")
+  
+  init
+  	var sample = new Sample()
+  	sample.run()
+ related python boo d object-pascal vala java c
+ summary Genie is a modern, general-purpose high-level programming language in active development since 2008. It was designed as an alternative, simpler and cleaner dialect for the Vala compiler, while preserving the same functionality of the Vala language. Genie uses the same compiler and libraries as Vala; the two can indeed be used alongside each other. The differences are only syntactic. Genie's syntax is derived from numerous modern languages like Python, Boo, D and Delphi. In the vein of Python, Genie uses indentation rather than curly brackets to delimit blocks. Like Vala, Genie uses the GObject type system to create classes and interfaces declared in Genie source code, without imposing additional runtime requirements (i.e., unlike Python, Java or C#, it does not require a virtual machine). Genie allows access to C libraries, especially those based in GObject (like GTK+), without using a different application binary interface (ABI). During compilation, the code is first translated to C source and header files, which are then compiled to platform-specific machine code using any available C compiler like GCC, thus allowing cross-platform software development. Although both Vala and Genie are being developed and promoted by GNOME, programs developed in Vala and Genie don't depend on the GNOME Desktop Environment, usually requiring only GLib.
+ pageId 25291443
+ created 2009
+ backlinksCount 234
+ revisionCount 103
+ dailyPageViews 52
+ appeared 2008
+ fileExtensions gs
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Genie_(programming_language)'>Wikipedia</a>:
- class Sample
- 
- 	def run()
- 		stdout.printf(&quot;Hello, world!\n&quot;)
- 
- init
- 	var sample = new Sample()
- 	sample.run()
+githubLanguage Genie
+ fileExtensions gs
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope none
+ repos 21
+githubBigQuery Genie
+ repos 17
+ users 17
 
-endColumns
+leachim6 Genie
+ filepath g/Genie.gs
+ fileExtensions gs
+ example
+  [indent=2]
+  init
+    print "Hello World"
+rosettaCode http://www.rosettacode.org/wiki/Category:Genie
 
-## Language <a href="../lists/features.html">features</a>
+hopl https://hopl.info/showlanguage.prx?exp=8118
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav aspectj.html xbasepp.html
+isbndb 1
+ year|publisher|title|authors|isbn13
+ ||Genie (programming Language)|Surhone and Lambert M. and Tennoe and Mariam T. and Henssonow and Susan F.|9786133162990
 
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2017|Letting the Genie Out of the Lamp: Using Natural Language Processing Tools to Predict Math Performance|10.1007/978-3-319-59888-8_28|11|0|S. Crossley and V. Kostyuk|156fabf8ba04f94c75191d2bd42b665e868a5e07
+ 2018|The Code Genie Programming Environment|10.1109/EIT.2018.8500194|2|0|Hadeel Mohammed Jawad and Deb de Laski-Smith and Samir Tout|18aae41b2d008ba0261db80c8794e53c9cff377b

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title fmj
+import ../measures/conceptPage.scroll
+id fmj
+appeared 2003
+type pl
+conceptDescription Full Metal Jacket is very different from other programming languages. It's intrinsically parallel, with no flow of control, and has no variables. Programs are composed almost entirely with the mouse rather than keyboard, and type inference and other checks take place while you edit your program. There are a few other visual dataflow languages out there, but Full Metal Jacket is simpler than them, and has a cleaner design. Full Metal Jacket is general-purpose, though it might in due course find a niche. Some adjustment will be needed by programmers who are most comfortable with imperative programming languages, such as Java or C. To master dataflow, they will have to change they way they think. They should regard this as a worthwhile challenge which will make them better programmers. Functional programmers might have a slightly easier time.
+website http://www.fmjlang.co.uk/fmj/FMJ.html
+reference http://www.fmjlang.co.uk/fmj/fmj2.pdf
+country United States
+originCommunity http://www.fmjlang.co.uk
 
-title fmj - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="emu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="genshi-text.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fmj.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.fmjlang.co.uk/fmj/FMJ.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=fmj" class="material-symbols-outlined">edit</a></div>
-
-* fmj is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2820 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 21 Years Old
-
-* Full Metal Jacket is very different from other programming languages. It's intrinsically parallel, with no flow of control, and has no variables. Programs are composed almost entirely with the mouse rather than keyboard, and type inference and other checks take place while you edit your program. There are a few other visual dataflow languages out there, but Full Metal Jacket is simpler than them, and has a cleaner design. Full Metal Jacket is general-purpose, though it might in due course find a niche. Some adjustment will be needed by programmers who are most comfortable with imperative programming languages, such as Java or C. To master dataflow, they will have to change they way they think. They should regard this as a worthwhile challenge which will make them better programmers. Functional programmers might have a slightly easier time.
-
-- fmj website
- http://www.fmjlang.co.uk/fmj/FMJ.html
-- fmj first developed in <a href="../lists/originCommunities.html#httpWwwFmjlangCoUk">http://www.fmjlang.co.uk</a>
-- Read more about fmj on the web: 1.
- http://www.fmjlang.co.uk/fmj/fmj2.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav emu.html genshi-text.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

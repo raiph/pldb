@@ -1,40 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title psyche-c
+import ../measures/conceptPage.scroll
+id psyche-c
+appeared 2016
+type compiler
+creators Leandro T. C. Melo
+conceptDescription <a href='https://github.com/ltcmelo/psychec'>Psyche-c</a> is a compiler for incomplete C code. It features a Hindley/Milner-inspired type inference engine for C.
+country Brazil
+originCommunity https://github.com/ltcmelo/psychec/issues
 
-title psyche-c - Compiler
- hidden
+githubRepo https://github.com/ltcmelo/psychec
+ stars 441
+ forks 34
+ subscribers 19
+ created 2016
+ updated 2022
+ firstCommit 2016
+ description A compiler frontend for the C programming language
+ issues 7
 
-html
- <a class="trueBaseThemePreviousItem" href="business-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="business-process-modeling-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/psyche-c.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ltcmelo/psychec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=psyche-c" class="material-symbols-outlined">edit</a></div>
-
-* psyche-c is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2016 by Leandro T. C. Melo.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#leandroTCMelo Leandro T. C. Melo
-
-codeWithHeader Source code:
- git clone https://github.com/ltcmelo/psychec
-
-dashboard
- #1671 on PLDB
- 8 Years Old
-
-* <a href='https://github.com/ltcmelo/psychec'>Psyche-c</a> is a compiler for incomplete C code. It features a Hindley/Milner-inspired type inference engine for C.
-
-- psyche-c is developed on <a href="https://github.com/ltcmelo/psychec">GitHub</a> and has 441 stars
-- psyche-c first developed in <a href="../lists/originCommunities.html#httpsGithubComLtcmeloPsychecIssues">https://github.com/ltcmelo/psychec/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav business-basic.html business-process-modeling-language.html
-
-import ../footer.scroll
+fileType na
+isOpenSource true
+centralPackageRepositoryCount 0

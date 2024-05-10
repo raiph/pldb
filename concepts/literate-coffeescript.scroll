@@ -1,177 +1,170 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Literate CoffeeScript
+import ../measures/conceptPage.scroll
+id Literate CoffeeScript
+appeared 2013
+type pl
+creators Jeremy Ashkenas
+conceptDescription Besides being used as an ordinary programming language, CoffeeScript may also be written in “literate” mode. If you name your file with a .litcoffee extension, you can write it as a Markdown document — a document that also happens to be executable CoffeeScript code. The compiler will treat any indented blocks (Markdown’s way of indicating source code) as executable code, and ignore the rest as comments. Code blocks must also be separated from comments by at least one blank line.
+website https://coffeescript.org/#literate
+reference https://news.ycombinator.com/item?id=5277916
+country United States
+originCommunity https://github.com/jashkenas/coffeescript/issues
+domainName coffeescript.org
+ registered 2009
+ awisRank
+  2022 383033
 
-title Literate CoffeeScript - Programming language
- hidden
+hasSemanticIndentation true
 
-html
- <a class="trueBaseThemePreviousItem" href="smtp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="labview.html">&gt;</a>
+githubRepo https://github.com/jashkenas/coffeescript
+ firstCommit 2009
+ stars 16246
+ forks 2029
+ subscribers 521
+ created 2009
+ updated 2022
+ description Unfancy JavaScript
+ issues 75
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/literate-coffeescript.pldb
+repoStats
+ firstCommit 2009
+ commits 5201
+ committers 276
+ files 458
 
-startColumns 4
+githubLanguage Literate CoffeeScript
+ fileExtensions litcoffee coffeemd
+ trendingProjectsCount 0
+ type programming
+ group CoffeeScript
+ aceMode text
+ tmScope source.litcoffee
+ wrap true
+ aliases litcoffee
+ repos 7938
 
-<div class="trueBaseThemeQuickLinks"><a href="https://coffeescript.org/#literate" class="material-symbols-outlined">home</a> <a href="https://github.com/jashkenas/coffeescript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=literate-coffeescript" class="material-symbols-outlined">edit</a></div>
+linguistGrammarRepo https://github.com/atom/language-coffee-script
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 30
+ commitCount 332
+ sampleCount 1
+ example
+  The **Scope** class regulates lexical scoping within CoffeeScript. As you
+  generate code, you create a tree of scopes in the same shape as the nested
+  function bodies. Each scope knows about the variables declared within it,
+  and has a reference to its parent enclosing scope. In this way, we know which
+  variables are new and need to be declared with `var`, and which are shared
+  with external scopes.
+  
+  Import the helpers we plan to use.
+  
+      {extend, last} = require './helpers'
+  
+      exports.Scope = class Scope
+  
+  The `root` is the top-level **Scope** object for a given file.
+  
+        @root: null
+  
+  Initialize a scope with its parent, for lookups up the chain,
+  as well as a reference to the **Block** node it belongs to, which is
+  where it should declare its variables, and a reference to the function that
+  it belongs to.
+  
+        constructor: (@parent, @expressions, @method) ->
+          @variables = [{name: 'arguments', type: 'arguments'}]
+          @positions = {}
+          Scope.root = this unless @parent
+  
+  Adds a new variable or overrides an existing one.
+  
+        add: (name, type, immediate) ->
+          return @parent.add name, type, immediate if @shared and not immediate
+          if Object::hasOwnProperty.call @positions, name
+            @variables[@positions[name]].type = type
+          else
+            @positions[name] = @variables.push({name, type}) - 1
+  
+  When `super` is called, we need to find the name of the current method we're
+  in, so that we know how to invoke the same method of the parent class. This
+  can get complicated if super is being called from an inner function.
+  `namedMethod` will walk up the scope tree until it either finds the first
+  function object that has a name filled in, or bottoms out.
+  
+        namedMethod: ->
+          return @method if @method.name or !@parent
+          @parent.namedMethod()
+  
+  Look up a variable name in lexical scope, and declare it if it does not
+  already exist.
+  
+        find: (name) ->
+          return yes if @check name
+          @add name, 'var'
+          no
+  
+  Reserve a variable name as originating from a function parameter for this
+  scope. No `var` required for internal references.
+  
+        parameter: (name) ->
+          return if @shared and @parent.check name, yes
+          @add name, 'param'
+  
+  Just check to see if a variable has already been declared, without reserving,
+  walks up to the root scope.
+  
+        check: (name) ->
+          !!(@type(name) or @parent?.check(name))
+  
+  Generate a temporary variable name at the given index.
+  
+        temporary: (name, index) ->
+          if name.length > 1
+            '_' + name + if index > 1 then index - 1 else ''
+          else
+            '_' + (index + parseInt name, 36).toString(36).replace /\d/g, 'a'
+  
+  Gets the type of a variable.
+  
+        type: (name) ->
+          return v.type for v in @variables when v.name is name
+          null
+  
+  If we need to store an intermediate result, find an available name for a
+  compiler-generated variable. `_var`, `_var2`, and so on...
+  
+        freeVariable: (name, reserve=true) ->
+          index = 0
+          index++ while @check((temp = @temporary name, index))
+          @add temp, 'var', yes if reserve
+          temp
+  
+  Ensure that an assignment is made at the top of this scope
+  (or at the top-level scope, if requested).
+  
+        assign: (name, value) ->
+          @add name, {value, assigned: yes}, yes
+          @hasAssignments = yes
+  
+  Does this scope have any declared variables?
+  
+        hasDeclarations: ->
+          !!@declaredVariables().length
+  
+  Return the list of variables first declared in this scope.
+  
+        declaredVariables: ->
+          realVars = []
+          tempVars = []
+          for v in @variables when v.type is 'var'
+            (if v.name.charAt(0) is '_' then tempVars else realVars).push v.name
+          realVars.sort().concat tempVars.sort()
+  
+  Return the list of assignments that are supposed to be made at the top
+  of this scope.
+  
+        assignedVariables: ->
+          "#{v.name} = #{v.type.value}" for v in @variables when v.type.assigned
 
-* Literate CoffeeScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by Jeremy Ashkenas.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#jeremyAshkenas Jeremy Ashkenas
-
-codeWithHeader Source code:
- git clone https://github.com/jashkenas/coffeescript
-
-dashboard
- #100 <span title="TotalRank: 304 Jobs: 103 Users: 78 Facts: 123 Links: 986">on PLDB</span>
- 11 Years Old
- 8k <span title="Literate CoffeeScript repos on GitHub.">Repos</span>
-
-* Besides being used as an ordinary programming language, CoffeeScript may also be written in “literate” mode. If you name your file with a .litcoffee extension, you can write it as a Markdown document — a document that also happens to be executable CoffeeScript code. The compiler will treat any indented blocks (Markdown’s way of indicating source code) as executable code, and ignore the rest as comments. Code blocks must also be separated from comments by at least one blank line.
-
-- Literate CoffeeScript website
- https://coffeescript.org/#literate
-- Literate CoffeeScript is developed on <a href="https://github.com/jashkenas/coffeescript">GitHub</a> and has 16,246 stars
-- There are at least 7,938 Literate CoffeeScript repos on <a href="https://github.com/search?q=language:Literate CoffeeScript">GitHub</a>
-- Literate CoffeeScript first developed in <a href="../lists/originCommunities.html#httpsGithubComJashkenasCoffeescriptIssues">https://github.com/jashkenas/coffeescript/issues</a>
-- file extensions for Literate CoffeeScript include litcoffee and coffeemd
-- GitHub supports <a href="https://github.com/atom/language-coffee-script" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Literate CoffeeScript
-- <a href="https://coffeescript.org/#literate">coffeescript.org</a> was registered in 2009
-- Read more about Literate CoffeeScript on the web: 1.
- https://news.ycombinator.com/item?id=5277916 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/atom/language-coffee-script'>Linguist</a>:
- The **Scope** class regulates lexical scoping within CoffeeScript. As you
- generate code, you create a tree of scopes in the same shape as the nested
- function bodies. Each scope knows about the variables declared within it,
- and has a reference to its parent enclosing scope. In this way, we know which
- variables are new and need to be declared with `var`, and which are shared
- with external scopes.
- 
- Import the helpers we plan to use.
- 
-     {extend, last} = require &#39;./helpers&#39;
- 
-     exports.Scope = class Scope
- 
- The `root` is the top-level **Scope** object for a given file.
- 
-       @root: null
- 
- Initialize a scope with its parent, for lookups up the chain,
- as well as a reference to the **Block** node it belongs to, which is
- where it should declare its variables, and a reference to the function that
- it belongs to.
- 
-       constructor: (@parent, @expressions, @method) -&gt;
-         @variables = [{name: &#39;arguments&#39;, type: &#39;arguments&#39;}]
-         @positions = {}
-         Scope.root = this unless @parent
- 
- Adds a new variable or overrides an existing one.
- 
-       add: (name, type, immediate) -&gt;
-         return @parent.add name, type, immediate if @shared and not immediate
-         if Object::hasOwnProperty.call @positions, name
-           @variables[@positions[name]].type = type
-         else
-           @positions[name] = @variables.push({name, type}) - 1
- 
- When `super` is called, we need to find the name of the current method we&#39;re
- in, so that we know how to invoke the same method of the parent class. This
- can get complicated if super is being called from an inner function.
- `namedMethod` will walk up the scope tree until it either finds the first
- function object that has a name filled in, or bottoms out.
- 
-       namedMethod: -&gt;
-         return @method if @method.name or !@parent
-         @parent.namedMethod()
- 
- Look up a variable name in lexical scope, and declare it if it does not
- already exist.
- 
-       find: (name) -&gt;
-         return yes if @check name
-         @add name, &#39;var&#39;
-         no
- 
- Reserve a variable name as originating from a function parameter for this
- scope. No `var` required for internal references.
- 
-       parameter: (name) -&gt;
-         return if @shared and @parent.check name, yes
-         @add name, &#39;param&#39;
- 
- Just check to see if a variable has already been declared, without reserving,
- walks up to the root scope.
- 
-       check: (name) -&gt;
-         !!(@type(name) or @parent?.check(name))
- 
- Generate a temporary variable name at the given index.
- 
-       temporary: (name, index) -&gt;
-         if name.length &gt; 1
-           &#39;_&#39; + name + if index &gt; 1 then index - 1 else &#39;&#39;
-         else
-           &#39;_&#39; + (index + parseInt name, 36).toString(36).replace /\d/g, &#39;a&#39;
- 
- Gets the type of a variable.
- 
-       type: (name) -&gt;
-         return v.type for v in @variables when v.name is name
-         null
- 
- If we need to store an intermediate result, find an available name for a
- compiler-generated variable. `_var`, `_var2`, and so on...
- 
-       freeVariable: (name, reserve=true) -&gt;
-         index = 0
-         index++ while @check((temp = @temporary name, index))
-         @add temp, &#39;var&#39;, yes if reserve
-         temp
- 
- Ensure that an assignment is made at the top of this scope
- (or at the top-level scope, if requested).
- 
-       assign: (name, value) -&gt;
-         @add name, {value, assigned: yes}, yes
-         @hasAssignments = yes
- 
- Does this scope have any declared variables?
- 
-       hasDeclarations: -&gt;
-         !!@declaredVariables().length
- 
- Return the list of variables first declared in this scope.
- 
-       declaredVariables: -&gt;
-         realVars = []
-         tempVars = []
-         for v in @variables when v.type is &#39;var&#39;
-           (if v.name.charAt(0) is &#39;_&#39; then tempVars else realVars).push v.name
-         realVars.sort().concat tempVars.sort()
- 
- Return the list of assignments that are supposed to be made at the top
- of this scope.
- 
-       assignedVariables: -&gt;
-         &quot;#{v.name} = #{v.type.value}&quot; for v in @variables when v.type.assigned
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav smtp.html labview.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

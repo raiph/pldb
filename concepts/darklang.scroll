@@ -1,48 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title darklang
+import ../measures/conceptPage.scroll
+id darklang
+appeared 2019
+type pl
+conceptDescription A language built for deployless backends
+website https://darklang.com/
+country United States
+originCommunity https://github.com/darklang
+domainName darklang.com
+ registered 2017
+ awisRank
+  2022 2044732
 
-title darklang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ctr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/darklang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://darklang.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=darklang" class="material-symbols-outlined">edit</a></div>
-
-* darklang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #2926 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 5 Years Old
-
-* A language built for deployless backends
-
-- darklang website
- https://darklang.com/
-- darklang first developed in <a href="../lists/originCommunities.html#httpsGithubComDarklang">https://github.com/darklang</a>
-- <a href="https://darklang.com/">darklang.com</a> was registered in 2017
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Typed Holes
-  FeatureLink ../features/hasTypedHoles.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav ctr.html dscript.html
-
-import ../footer.scroll
+hasTypedHoles true

@@ -1,48 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pinto
+import ../measures/conceptPage.scroll
+id pinto
+appeared 2016
+type pl
+creators Peter Graf
+website https://pinto.tech
+country United States
+originCommunity https://github.com/punkbrwstr/pinto/issues
+domainName pinto.tech
 
-title pinto - Programming language
- hidden
+githubRepo https://github.com/punkbrwstr/pinto
+ firstCommit 2016
+ stars 10
+ forks 1
+ created 2016
+ updated 2021
+ description Pinto is a domain-specific programming language for time series
+ subscribers 0
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="icalendar-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tree-annotation-operator.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 238
+ committers 4
+ files 77
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pinto.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 12638229|Show HN: Pinto is a stack-based functional language for time series|2016-10-04 18:55:03 UTC|1475607303|punkbrwstr|1|7
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pinto.tech" class="material-symbols-outlined">home</a> <a href="https://github.com/punkbrwstr/pinto" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pinto" class="material-symbols-outlined">edit</a></div>
-
-* pinto is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Peter Graf.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#peterGraf Peter Graf
-
-codeWithHeader Source code:
- git clone https://github.com/punkbrwstr/pinto
-
-dashboard
- #1896 <span title="TotalRank: 2400 Jobs: 103 Users: 2267 Facts: 1311 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Pinto is a domain-specific programming language for time series
-
-- pinto website
- https://pinto.tech
-- pinto is developed on <a href="https://github.com/punkbrwstr/pinto">GitHub</a> and has 10 stars
-- pinto first developed in <a href="../lists/originCommunities.html#httpsGithubComPunkbrwstrPintoIssues">https://github.com/punkbrwstr/pinto/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of pinto
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Pinto is a stack-based functional language for time series|https://news.ycombinator.com/item?id=12638229|10/04/2016|7|1
-
-keyboardNav icalendar-format.html tree-annotation-operator.html
-
-import ../footer.scroll
+semanticScholar 0

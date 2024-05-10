@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasAccessModifiers.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasAnonymousFunctions.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>:
+codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>:
  declare type numOrString = string | number
 
 codeWithHeader Example from <a href="../concepts/coconut.html">Coconut</a>:
@@ -27,9 +27,7 @@ codeWithHeader Example from <a href="../concepts/coconut.html">Coconut</a>:
  
  addpattern def size(Node(l, r)) = size(l) + size(r)
 
-* Languages *with* Algebraic Data Type include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>
-
-* This question asks: Does this language support algebraic types?
+* Languages *with* Algebraic Data Type include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/coconut.html">Coconut</a>
 
 * Read more about Algebraic Data Type on the web: 1.
  https://en.wikipedia.org/wiki/Algebraic_data_type 1.

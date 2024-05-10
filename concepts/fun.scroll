@@ -1,69 +1,50 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fun
+import ../measures/conceptPage.scroll
+id Fun
+appeared 2010
+type pl
+creators Marcus Westin
+conceptDescription A programming language for the realtime web.
+website http://marcuswest.in/essays/fun-intro/
+country United States
+originCommunity http://marcuswest.in/
 
-title Fun - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="co-dfns.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="genero.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fun.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://marcuswest.in/essays/fun-intro/" class="material-symbols-outlined">home</a> <a href="https://github.com/marcuswestin/fun" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fun" class="material-symbols-outlined">edit</a></div>
-
-* Fun is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Marcus Westin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#marcusWestin Marcus Westin
-
-codeWithHeader Source code:
- git clone https://github.com/marcuswestin/fun
-
-dashboard
- #1259 <span title="TotalRank: 1794 Jobs: 103 Users: 1182 Facts: 705 Links: 986">on PLDB</span>
- 14 Years Old
-
-* A programming language for the realtime web.
-
-- Fun website
- http://marcuswest.in/essays/fun-intro/
-- Fun is developed on <a href="https://github.com/marcuswestin/fun">GitHub</a> and has 173 stars
-- Fun first developed in <a href="../lists/originCommunities.html#httpMarcuswestIn">http://marcuswest.in/</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // Fun code
  let user = Session.User
- let myTasks = Query({ type: &quot;task&quot;, owner: user.id })
- &lt;h1&gt;&quot;Hello &quot; user.name &quot;, these are your tasks matey:&quot;&lt;/h1&gt;
+ let myTasks = Query({ type: "task", owner: user.id })
+ <h1>"Hello " user.name ", these are your tasks matey:"</h1>
  for (task in myTasks) {
-     &lt;div class=&quot;task&quot; + (task.urgent ? &quot; urgent&quot;)&gt;
-         &lt;input data=task.title /&gt;
+     <div class="task" + (task.urgent ? " urgent")>
+         <input data=task.title />
          if (task.completed) {
-             &lt;span class=&quot;status&quot;&gt;&quot;Completed!&quot;&lt;/span&gt;
+             <span class="status">"Completed!"</span>
          } else {
-             &lt;button clickHandler=markComplete(task)/&gt;&quot;Mark as completed&quot;&lt;/button&gt;
+             <button clickHandler=markComplete(task)/>"Mark as completed"</button>
          }
-     &lt;/div&gt;
+     </div>
  }
  let markComplete = handler(task) {
      task.completed = true
  }
- &lt;h3&gt;&quot;Create a new task&quot;&lt;/h3&gt;
- &lt;input data=Local.newTaskTitle /&gt;
- &lt;button clickHandler=createNewTask /&gt;
+ <h3>"Create a new task"</h3>
+ <input data=Local.newTaskTitle />
+ <button clickHandler=createNewTask />
  let createNewTask = handler() {
      let title = Local.newTaskTitle
-     Local.newTaskTitle = &quot;&quot;
-     Global.create({ owner: user.id, type: &quot;task&quot;, title: title })
+     Local.newTaskTitle = ""
+     Global.create({ owner: user.id, type: "task", title: title })
  }
 
-endColumns
+githubRepo https://github.com/marcuswestin/fun
+ stars 173
+ forks 8
+ subscribers 3
+ created 2010
+ updated 2013
+ description A programming language for the realtime web.
 
-keyboardNav co-dfns.html genero.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 1182
+ committers 3
+ files 68

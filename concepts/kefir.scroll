@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kefir
+import ../measures/conceptPage.scroll
+id Kefir
+appeared 2021
+type compiler
+conceptDescription This repository contains implementation of C17 language compiler from scratch. No existing open source compiler infrastructure is being reused. The main priority is self-sufficiency of the project, compatibility with platform ABI and compliance with C17 language standard.
+website https://sr.ht/~jprotopopov/kefir/
+country Latvia
+originCommunity https://www.protopopov.lv
 
-title Kefir - Compiler
- hidden
+inputLanguages c
 
-html
- <a class="trueBaseThemePreviousItem" href="hlvm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="klong.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kefir.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sr.ht/~jprotopopov/kefir/" class="material-symbols-outlined">home</a> <a href="https://git.sr.ht/~jprotopopov/kefir" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kefir" class="material-symbols-outlined">edit</a></div>
-
-* Kefir is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-codeWithHeader Source code:
- git clone https://git.sr.ht/~jprotopopov/kefir
-
-dashboard
- #3343 on PLDB
- 3 Years Old
-
-* This repository contains implementation of C17 language compiler from scratch. No existing open source compiler infrastructure is being reused. The main priority is self-sufficiency of the project, compatibility with platform ABI and compliance with C17 language standard.
-
-- Kefir website
- https://sr.ht/~jprotopopov/kefir/
-- Kefir first developed in <a href="../lists/originCommunities.html#httpsWwwProtopopovLv">https://www.protopopov.lv</a>
-
-<br>
-
-endColumns
-
-keyboardNav hlvm.html klong.html
-
-import ../footer.scroll
+sourcehutRepo https://git.sr.ht/~jprotopopov/kefir

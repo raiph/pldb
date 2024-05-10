@@ -1,282 +1,138 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Eclipse Command Language
+import ../measures/conceptPage.scroll
+id Eclipse Command Language
+appeared 2008
+type pl
+reference https://www.eclipse.org/rcptt/documentation/userguide/ecl/
+aka ecl
+country Canada
+originCommunity Eclipse Foundation
 
-title Eclipse Command Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="jsoniq.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="caffeine.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eclipse-command-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=eclipse-command-language" class="material-symbols-outlined">edit</a></div>
-
-* Eclipse Command Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #699 <span title="TotalRank: 1267 Jobs: 103 Users: 1151 Facts: 178 Links: 986">on PLDB</span>
- 16 Years Old
- 0 <span title="Eclipse Command Language repos on GitHub.">Repos</span>
-
-monacoEditor ecl
- :- lib(ic).
- 
- /**
-  * Question 1.11
-  * vabs(?Val, ?AbsVal)
-  */
- vabs(Val, AbsVal):-
- 	AbsVal #> 0,
- 	(
- 		Val #= AbsVal
- 	;
- 		Val #= -AbsVal
- 	),
- 	labeling([Val, AbsVal]).
- 
- /**
-  * vabsIC(?Val, ?AbsVal)
-  */
- vabsIC(Val, AbsVal):-
- 	AbsVal #> 0,
- 	Val #= AbsVal or Val #= -AbsVal,
- 	labeling([Val, AbsVal]).
- 
- /**
-  * Question 1.12
-  */
- % X #:: -10..10, vabs(X, Y).
- % X #:: -10..10, vabsIC(X, Y).
- 
- /**
-  * Question 1.13
-  * faitListe(?ListVar, ?Taille, +Min, +Max)
-  */
- faitListe([], 0, _, _):-!.
- faitListe([First|Rest], Taille, Min, Max):-
- 	First #:: Min..Max,
- 	Taille1 #= Taille - 1,
- 	faitListe(Rest, Taille1, Min, Max).
- 
- /**
-  * Question 1.14
-  * suite(?ListVar)
-  */
- suite([Xi, Xi1, Xi2]):-
- 	checkRelation(Xi, Xi1, Xi2).
- suite([Xi, Xi1, Xi2|Rest]):-
- 	checkRelation(Xi, Xi1, Xi2),
- 	suite([Xi1, Xi2|Rest]).
- 
- /**
-  * checkRelation(?Xi, ?Xi1, ?Xi2)
-  */
- checkRelation(Xi, Xi1, Xi2):-
- 	vabs(Xi1, VabsXi1),
- 	Xi2 #= VabsXi1 - Xi.
- 
- /**
-  * Question 1.15
-  * checkPeriode(+ListVar).
-  */
- % TODO Any better solution?
- checkPeriode(ListVar):-
- 	length(ListVar, Length),
- 	Length < 10.
- checkPeriode([X1, X2, X3, X4, X5, X6, X7, X8, X9, X10|Rest]):-
- 	X1 =:= X10,
- 	checkPeriode([X2, X3, X4, X5, X6, X7, X8, X9, X10|Rest]).
- % faitListe(ListVar, 18, -9, 9), suite(ListVar), checkPeriode(ListVar). => 99 solutions
- 
- 
- /**
-  * Tests
-  */
- /*
- vabs(5, 5). => Yes
- vabs(5, -5). => No
- vabs(-5, 5). => Yes
- vabs(X, 5).
- vabs(X, AbsX). 
- vabsIC(5, 5). => Yes
- vabsIC(5, -5). => No
- vabsIC(-5, 5). => Yes
- vabsIC(X, 5).
- vabsIC(X, AbsX).
- 
- faitListe(ListVar, 5, 1, 3). => 243 solutions
- faitListe([_, _, _, _, _], Taille, 1, 3). => Taille = 5 !!!!!!!!!!!!!!!!
- 
- faitListe(ListVar, 18, -9, 9), suite(ListVar). => 99 solutions
+hasLineComments true
+ % A comment
+hasComments true
+ % A comment
+hasMultiLineComments true
+ /* A comment
  */
+hasSemanticIndentation false
+hasStrings true
+hasConstants true
+hasFunctions true
 
-* 
+lineCommentToken %
+multiLineCommentTokens /* */
+keywords __compressed__ after all and any as atmost before beginc best between case cluster compressed compression const counter csv default descend embed encoding encrypt end endc endembed endmacro enum escape except exclusive expire export extend fail few fileposition first flat forward from full function functionmacro group grouped heading hole ifblock import in inner interface internal joined keep keyed last left limit linkcounted literal little_endian load local locale lookup lzw macro many maxcount maxlength min skew module mofn multiple named namespace nocase noroot noscan nosort not noxpath of onfail only opt or outer overwrite packed partition penalty physicallength pipe prefetch quote record repeat retry return right right1 right2 rows rowset scan scope self separator service shared skew skip smart soapaction sql stable store terminator thor threshold timelimit timeout token transform trim type unicodeorder unordered unsorted unstable update use validate virtual whole width wild within wnotrim xml xpath
 
-- There are at least 0 Eclipse Command Language repos on <a href="https://github.com/search?q=language:ECLiPSe">GitHub</a>
-- Eclipse Command Language first developed in <a href="../lists/originCommunities.html#eclipseFoundation">Eclipse Foundation</a>
-- file extensions for Eclipse Command Language include ecl
-- The  Google BigQuery Public Dataset GitHub snapshot shows 24 users using Eclipse Command Language in 24 repos on <a href="https://api.github.com/search/repositories?q=language:Ecl">GitHub</a>
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/ecl">package</a> for syntax highlighting Eclipse Command Language
-- GitHub supports <a href="https://github.com/alnkpa/sublimeprolog" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Eclipse Command Language
-- Read more about Eclipse Command Language on the web: 1.
- https://www.eclipse.org/rcptt/documentation/userguide/ecl/ 1.
+githubLanguage ECLiPSe
+ fileExtensions ecl
+ trendingProjectsCount 0
+ type programming
+ group prolog
+ aceMode prolog
+ tmScope source.prolog.eclipse
+ repos 0
+githubBigQuery Ecl
+ repos 24
+ users 24
 
-<br>
-
-codeWithHeader Example from <a href='https://github.com/alnkpa/sublimeprolog'>Linguist</a>:
- :- lib(ic).
- 
- /**
-  * Question 1.11
-  * vabs(?Val, ?AbsVal)
-  */
- vabs(Val, AbsVal):-
- 	AbsVal #&gt; 0,
- 	(
- 		Val #= AbsVal
- 	;
- 		Val #= -AbsVal
- 	),
- 	labeling([Val, AbsVal]).
- 
- /**
-  * vabsIC(?Val, ?AbsVal)
-  */
- vabsIC(Val, AbsVal):-
- 	AbsVal #&gt; 0,
- 	Val #= AbsVal or Val #= -AbsVal,
- 	labeling([Val, AbsVal]).
- 
- /**
-  * Question 1.12
-  */
- % X #:: -10..10, vabs(X, Y).
- % X #:: -10..10, vabsIC(X, Y).
- 
- /**
-  * Question 1.13
-  * faitListe(?ListVar, ?Taille, +Min, +Max)
-  */
- faitListe([], 0, _, _):-!.
- faitListe([First|Rest], Taille, Min, Max):-
- 	First #:: Min..Max,
- 	Taille1 #= Taille - 1,
- 	faitListe(Rest, Taille1, Min, Max).
- 
- /**
-  * Question 1.14
-  * suite(?ListVar)
-  */
- suite([Xi, Xi1, Xi2]):-
- 	checkRelation(Xi, Xi1, Xi2).
- suite([Xi, Xi1, Xi2|Rest]):-
- 	checkRelation(Xi, Xi1, Xi2),
- 	suite([Xi1, Xi2|Rest]).
- 
- /**
-  * checkRelation(?Xi, ?Xi1, ?Xi2)
-  */
- checkRelation(Xi, Xi1, Xi2):-
- 	vabs(Xi1, VabsXi1),
- 	Xi2 #= VabsXi1 - Xi.
- 
- /**
-  * Question 1.15
-  * checkPeriode(+ListVar).
-  */
- % TODO Any better solution?
- checkPeriode(ListVar):-
- 	length(ListVar, Length),
- 	Length &lt; 10.
- checkPeriode([X1, X2, X3, X4, X5, X6, X7, X8, X9, X10|Rest]):-
- 	X1 =:= X10,
- 	checkPeriode([X2, X3, X4, X5, X6, X7, X8, X9, X10|Rest]).
- % faitListe(ListVar, 18, -9, 9), suite(ListVar), checkPeriode(ListVar). =&gt; 99 solutions
- 
- 
- /**
-  * Tests
-  */
- /*
- vabs(5, 5). =&gt; Yes
- vabs(5, -5). =&gt; No
- vabs(-5, 5). =&gt; Yes
- vabs(X, 5).
- vabs(X, AbsX). 
- vabsIC(5, 5). =&gt; Yes
- vabsIC(5, -5). =&gt; No
- vabsIC(-5, 5). =&gt; Yes
- vabsIC(X, 5).
- vabsIC(X, AbsX).
- 
- faitListe(ListVar, 5, 1, 3). =&gt; 243 solutions
- faitListe([_, _, _, _, _], Taille, 1, 3). =&gt; Taille = 5 !!!!!!!!!!!!!!!!
- 
- faitListe(ListVar, 18, -9, 9), suite(ListVar). =&gt; 99 solutions
- */
-
-<div class="keywordsBlock">
-codeWithHeader Eclipse Command Language <a href="../lists/keywords.html?filter=eclipse-command-language">Keywords</a>
- __compressed__ after all and any as atmost before beginc best between case cluster compressed compression const counter csv default descend embed encoding encrypt end endc endembed endmacro enum escape except exclusive expire export extend fail few fileposition first flat forward from full function functionmacro group grouped heading hole ifblock import in inner interface internal joined keep keyed last left limit linkcounted literal little_endian load local locale lookup lzw macro many maxcount maxlength min skew module mofn multiple named namespace nocase noroot noscan nosort not noxpath of onfail only opt or outer overwrite packed partition penalty physicallength pipe prefetch quote record repeat retry return right right1 right2 rows rowset scan scope self separator service shared skew skip smart soapaction sql stable store terminator thor threshold timelimit timeout token transform trim type unicodeorder unordered unsorted unstable update use validate virtual whole width wild within wnotrim xml xpath
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Constants
-  FeatureLink ../features/hasConstants.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
+monaco ecl
+linguistGrammarRepo https://github.com/alnkpa/sublimeprolog
+ firstCommit 2012
+ lastCommit 2018
+ committerCount 10
+ commitCount 63
+ sampleCount 1
+ example
+  :- lib(ic).
+  
+  /**
+   * Question 1.11
+   * vabs(?Val, ?AbsVal)
    */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   % A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token %
-  Example
-   % A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+  vabs(Val, AbsVal):-
+  	AbsVal #> 0,
+  	(
+  		Val #= AbsVal
+  	;
+  		Val #= -AbsVal
+  	),
+  	labeling([Val, AbsVal]).
+  
+  /**
+   * vabsIC(?Val, ?AbsVal)
+   */
+  vabsIC(Val, AbsVal):-
+  	AbsVal #> 0,
+  	Val #= AbsVal or Val #= -AbsVal,
+  	labeling([Val, AbsVal]).
+  
+  /**
+   * Question 1.12
+   */
+  % X #:: -10..10, vabs(X, Y).
+  % X #:: -10..10, vabsIC(X, Y).
+  
+  /**
+   * Question 1.13
+   * faitListe(?ListVar, ?Taille, +Min, +Max)
+   */
+  faitListe([], 0, _, _):-!.
+  faitListe([First|Rest], Taille, Min, Max):-
+  	First #:: Min..Max,
+  	Taille1 #= Taille - 1,
+  	faitListe(Rest, Taille1, Min, Max).
+  
+  /**
+   * Question 1.14
+   * suite(?ListVar)
+   */
+  suite([Xi, Xi1, Xi2]):-
+  	checkRelation(Xi, Xi1, Xi2).
+  suite([Xi, Xi1, Xi2|Rest]):-
+  	checkRelation(Xi, Xi1, Xi2),
+  	suite([Xi1, Xi2|Rest]).
+  
+  /**
+   * checkRelation(?Xi, ?Xi1, ?Xi2)
+   */
+  checkRelation(Xi, Xi1, Xi2):-
+  	vabs(Xi1, VabsXi1),
+  	Xi2 #= VabsXi1 - Xi.
+  
+  /**
+   * Question 1.15
+   * checkPeriode(+ListVar).
+   */
+  % TODO Any better solution?
+  checkPeriode(ListVar):-
+  	length(ListVar, Length),
+  	Length < 10.
+  checkPeriode([X1, X2, X3, X4, X5, X6, X7, X8, X9, X10|Rest]):-
+  	X1 =:= X10,
+  	checkPeriode([X2, X3, X4, X5, X6, X7, X8, X9, X10|Rest]).
+  % faitListe(ListVar, 18, -9, 9), suite(ListVar), checkPeriode(ListVar). => 99 solutions
+  
+  
+  /**
+   * Tests
+   */
+  /*
+  vabs(5, 5). => Yes
+  vabs(5, -5). => No
+  vabs(-5, 5). => Yes
+  vabs(X, 5).
+  vabs(X, AbsX). 
+  vabsIC(5, 5). => Yes
+  vabsIC(5, -5). => No
+  vabsIC(-5, 5). => Yes
+  vabsIC(X, 5).
+  vabsIC(X, AbsX).
+  
+  faitListe(ListVar, 5, 1, 3). => 243 solutions
+  faitListe([_, _, _, _, _], Taille, 1, 3). => Taille = 5 !!!!!!!!!!!!!!!!
+  
+  faitListe(ListVar, 18, -9, 9), suite(ListVar). => 99 solutions
+  */
 
-keyboardNav jsoniq.html caffeine.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -1,49 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title koara
+import ../measures/conceptPage.scroll
+id koara
+appeared 2016
+type textMarkup
+creators Andy Van Den Heuvel
+website https://web.archive.org/web/20160221081308/http://koara.io/projects
+country Belgium
+originCommunity https://github.com/koara
+domainName koara.io
 
-title koara - Text markup language
- hidden
+githubRepo https://github.com/koara/koara-java
+ firstCommit 2015
+ stars 3
+ forks 0
+ subscribers 3
+ created 2015
+ updated 2018
+ description Koara parser written in Java
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="f-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fe.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 248
+ committers 1
+ files 36
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/koara.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 10844780|Show HN: Koara – A modular lightweight markup language|2016-01-05 18:00:47 UTC|1452016847|codeaddslife|0|4
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20160221081308/http://koara.io/projects" class="material-symbols-outlined">home</a> <a href="https://github.com/koara/koara-java" class="material-symbols-outlined">code</a> <a href="/edit.html?id=koara" class="material-symbols-outlined">edit</a></div>
-
-* koara is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2016 by Andy Van Den Heuvel.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#andyVanDenHeuvel Andy Van Den Heuvel
-
-codeWithHeader Source code:
- git clone https://github.com/koara/koara-java
-
-dashboard
- #1082 <span title="TotalRank: 1639 Jobs: 103 Users: 550 Facts: 1311 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Koara parser written in Java
-
-- koara website
- https://web.archive.org/web/20160221081308/http://koara.io/projects
-- koara is developed on <a href="https://github.com/koara/koara-java">GitHub</a> and has 3 stars
-- koara first developed in <a href="../lists/originCommunities.html#httpsGithubComKoara">https://github.com/koara</a>
-- There is a <a href="https://search.maven.org/artifact/io.koara/koara">central package repository</a> for koara
-
-<br>
-
-endColumns
-
-## HackerNews discussions of koara
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Koara – A modular lightweight markup language|https://news.ycombinator.com/item?id=10844780|01/05/2016|4|0
-
-keyboardNav f-script.html fe.html
-
-import ../footer.scroll
+packageRepository https://search.maven.org/artifact/io.koara/koara

@@ -1,41 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title toadskin
+import ../measures/conceptPage.scroll
+id toadskin
+appeared 2003
+type esolang
+conceptDescription Toadskin is a tarpit programming language influenced by BrainF**k and Forth. It is stack-based and supports definition of Forth-like words. All instructions and words are one character in length and should be familiar to anyone who has played with BrainF**k.
+website http://freshmeat.sourceforge.net/projects/toadskin/
+reference https://groups.google.com/forum/#!search/toadskin/fm.announce/V5bF5TIUNUc/KwBjXnENGCsJ
 
-title toadskin - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="taql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="twiki.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/toadskin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://freshmeat.sourceforge.net/projects/toadskin/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=toadskin" class="material-symbols-outlined">edit</a></div>
-
-* toadskin is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2882 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 21 Years Old
-
-* Toadskin is a tarpit programming language influenced by BrainF**k and Forth. It is stack-based and supports definition of Forth-like words. All instructions and words are one character in length and should be familiar to anyone who has played with BrainF**k.
-
-- toadskin website
- http://freshmeat.sourceforge.net/projects/toadskin/
-- Read more about toadskin on the web: 1.
- https://groups.google.com/forum/#!search/toadskin/fm.announce/V5bF5TIUNUc/KwBjXnENGCsJ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  :V+++++;
 
-endColumns
-
-keyboardNav taql.html twiki.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

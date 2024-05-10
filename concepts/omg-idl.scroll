@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OMG IDL
+import ../measures/conceptPage.scroll
+id OMG IDL
+appeared 2018
+type idl
+website https://www.omg.org/spec/IDL/About-IDL/
+standsFor OMG Interface Definition Language
+country United States
+originCommunity Object Management Group
 
-title OMG IDL - Interface design language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="myrddin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plot-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/omg-idl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.omg.org/spec/IDL/About-IDL/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=omg-idl" class="material-symbols-outlined">edit</a></div>
-
-* OMG IDL, aka OMG Interface Definition Language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #1964 <span title="TotalRank: 2470 Jobs: 103 Users: 2442 Facts: 1381 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- OMG IDL website
- https://www.omg.org/spec/IDL/About-IDL/
-- OMG IDL first developed in <a href="../lists/originCommunities.html#objectManagementGroup">Object Management Group</a>
-- file extensions for OMG IDL include idl and pidl
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_like.py">syntax highlighting</a> for OMG IDL
-
-<br>
-
-codeWithHeader Example from the web:
+example
  interface A {
      typedef long L1;
      short opA (in L1 l_1);
@@ -47,8 +22,8 @@ codeWithHeader Example from the web:
      B::L1 opC (in L3 l_3); // All OK no ambiguities
  };
 
-endColumns
+pygmentsHighlighter OMG Interface Definition Language
+ filename c_like.py
+ fileExtensions idl pidl
 
-keyboardNav myrddin.html plot-lang.html
-
-import ../footer.scroll
+isbndb 0

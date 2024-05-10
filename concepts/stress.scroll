@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title STRESS
+import ../measures/conceptPage.scroll
+id STRESS
+appeared 1963
+type pl
+reference https://www.amazon.com/STRESS-Structural-Engineering-System-Solver/dp/B0007G167S
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title STRESS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=211
 
-html
- <a class="trueBaseThemePreviousItem" href="strema.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="subl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stress.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=stress" class="material-symbols-outlined">edit</a></div>
-
-* STRESS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #4051 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- STRESS first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- STRESS on HOPL
- https://hopl.info/showlanguage.prx?exp=211
-- Read more about STRESS on the web: 1.
- https://www.amazon.com/STRESS-Structural-Engineering-System-Solver/dp/B0007G167S 1.
-
-<br>
-
-endColumns
-
-keyboardNav strema.html subl.html
-
-import ../footer.scroll
+wordRank 2989

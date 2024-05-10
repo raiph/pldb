@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SOSL
+import ../measures/conceptPage.scroll
+id SOSL
+appeared 2006
+type queryLanguage
+website https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm
+reference https://resources.docs.salesforce.com/sfdc/pdf/apex_api.pdf?major=146
+standsFor Salesforce Object Search Language
+originCommunity Salesforce
 
-title SOSL - Query language
- hidden
+fileType text
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="slim-pl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="subscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sosl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sosl" class="material-symbols-outlined">edit</a></div>
-
-* SOSL, aka Salesforce Object Search Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #2879 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 18 Years Old
-
-* 
-
-- SOSL website
- https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm
-- SOSL first developed in <a href="../lists/originCommunities.html#salesforce">Salesforce</a>
-- Read more about SOSL on the web: 1.
- https://resources.docs.salesforce.com/sfdc/pdf/apex_api.pdf?major=146 1.
-
-<br>
-
-endColumns
-
-keyboardNav slim-pl.html subscript.html
-
-import ../footer.scroll
+semanticScholar 0

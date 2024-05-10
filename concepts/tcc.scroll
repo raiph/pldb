@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tcc
+import ../measures/conceptPage.scroll
+id tcc
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/41bda42941c40decb8205f6fca5dddcacbfbd323
 
-title tcc - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3609
 
-html
- <a class="trueBaseThemePreviousItem" href="taxis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tcoz.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tcc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tcc" class="material-symbols-outlined">edit</a></div>
-
-* tcc is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3225 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- tcc on HOPL
- https://hopl.info/showlanguage.prx?exp=3609
-- Read more about tcc on Semantic Scholar: 1.
- https://semanticscholar.org/paper/41bda42941c40decb8205f6fca5dddcacbfbd323 1.
-
-<br>
-
-endColumns
-
-keyboardNav taxis.html tcoz.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

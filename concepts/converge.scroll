@@ -1,54 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title converge
+import ../measures/conceptPage.scroll
+id converge
+appeared 2004
+type pl
+website https://convergepl.org/
+country United Kingdom
+originCommunity King's College London
+domainName convergepl.org
+ registered 2004
 
-title converge - Programming language
- hidden
+hasSemanticIndentation true
 
-html
- <a class="trueBaseThemePreviousItem" href="bel-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="datev.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/converge.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://convergepl.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=converge" class="material-symbols-outlined">edit</a></div>
-
-* converge is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2972 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2460 Links: 986">on PLDB</span>
- 20 Years Old
-
-* 
-
-- converge website
- https://convergepl.org/
-- converge first developed in <a href="../lists/originCommunities.html#kingsCollegeLondon">King's College London</a>
-- <a href="https://convergepl.org/">convergepl.org</a> was registered in 2004
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import Sys
  
  func main():
-   Sys::println(&quot;Hello world!&quot;)
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav bel-lang.html datev.html
-
-import ../footer.scroll
+   Sys::println("Hello world!")

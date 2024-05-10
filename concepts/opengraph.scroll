@@ -1,65 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title opengraph
+import ../measures/conceptPage.scroll
+id opengraph
+appeared 2010
+type xmlFormat
+conceptDescription The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
+website https://ogp.me/
+country United States
+originCommunity Facebook
+domainName ogp.me
+ registered 2010
+ awisRank
+  2022 75250
 
-title opengraph - Xml format
- hidden
+hasBooleans true
+ true
+ false
+ 1
+ 0
 
-html
- <a class="trueBaseThemePreviousItem" href="lowstar.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="2-pak.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/opengraph.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ogp.me/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=opengraph" class="material-symbols-outlined">edit</a></div>
-
-* opengraph is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #1772 <span title="TotalRank: 2292 Jobs: 103 Users: 2442 Facts: 1203 Links: 986">on PLDB</span>
- 14 Years Old
-
-* The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
-
-- opengraph website
- https://ogp.me/
-- opengraph first developed in <a href="../lists/originCommunities.html#facebook">Facebook</a>
-- <a href="https://ogp.me/">ogp.me</a> was registered in 2010
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;html prefix=&quot;og: http://ogp.me/ns#&quot;&gt;
- &lt;head&gt;
- &lt;title&gt;The Rock (1996)&lt;/title&gt;
- &lt;meta property=&quot;og:title&quot; content=&quot;The Rock&quot; /&gt;
- &lt;meta property=&quot;og:type&quot; content=&quot;video.movie&quot; /&gt;
- &lt;meta property=&quot;og:url&quot; content=&quot;http://www.imdb.com/title/tt0117500/&quot; /&gt;
- &lt;meta property=&quot;og:image&quot; content=&quot;http://ia.media-imdb.com/images/rock.jpg&quot; /&gt;
+example
+ <html prefix="og: http://ogp.me/ns#">
+ <head>
+ <title>The Rock (1996)</title>
+ <meta property="og:title" content="The Rock" />
+ <meta property="og:type" content="video.movie" />
+ <meta property="og:url" content="http://www.imdb.com/title/tt0117500/" />
+ <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
  ...
- &lt;/head&gt;
+ </head>
  ...
- &lt;/html&gt;
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   true
-   false
-   1
-   0
-
-keyboardNav lowstar.html 2-pak.html
-
-import ../footer.scroll
+ </html>

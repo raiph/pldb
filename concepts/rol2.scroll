@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ROL2
+import ../measures/conceptPage.scroll
+id ROL2
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/da45c8cdce3436038b8afc7246404391c64abe8a
+country Canada
+originCommunity University of Regina
 
-title ROL2 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7141
 
-html
- <a class="trueBaseThemePreviousItem" href="rol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rosette.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rol2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rol2" class="material-symbols-outlined">edit</a></div>
-
-* ROL2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3986 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- ROL2 first developed in <a href="../lists/originCommunities.html#universityOfRegina">University of Regina</a>
-- ROL2 on HOPL
- https://hopl.info/showlanguage.prx?exp=7141
-- Read more about ROL2 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/da45c8cdce3436038b8afc7246404391c64abe8a 1.
-
-<br>
-
-endColumns
-
-keyboardNav rol.html rosette.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

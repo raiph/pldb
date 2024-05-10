@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASCII Armor
+import ../measures/conceptPage.scroll
+id ASCII Armor
+appeared 2007
+type textEncodingFormat
+conceptDescription OpenPGP provides the service of converting the raw 8-bit binary octet stream to a stream of printable ASCII characters, called Radix-64 encoding or ASCII Armor.
+reference https://datatracker.ietf.org/doc/html/rfc4880#page-54
 
-title ASCII Armor - Text encoding format
- hidden
+relatedConcepts base64
 
-html
- <a class="trueBaseThemePreviousItem" href="typoscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="csl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ascii-armor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ascii-armor" class="material-symbols-outlined">edit</a></div>
-
-* ASCII Armor is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textEncodingFormat">text encoding format</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #2549 <span title="TotalRank: 3156 Jobs: 103 Users: 2838 Facts: 2067 Links: 986">on PLDB</span>
- 17 Years Old
-
-* OpenPGP provides the service of converting the raw 8-bit binary octet stream to a stream of printable ASCII characters, called Radix-64 encoding or ASCII Armor.
-
-- file extensions for ASCII Armor include asc, pem, id_dsa, id_ecdsa, id_ecdsa_sk, id_ed25519, id_ed25519_sk and id_rsa
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/asc.py">syntax highlighting</a> for ASCII Armor
-- See also: (1 related languages)<a href="base64.html">Base64</a>
-- Read more about ASCII Armor on the web: 1.
- https://datatracker.ietf.org/doc/html/rfc4880#page-54 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
    -----BEGIN PGP MESSAGE-----
    Version: OpenPrivacy 0.99
    
@@ -41,8 +16,6 @@ codeWithHeader Example from the web:
    =njUN
    -----END PGP MESSAGE-----
 
-endColumns
-
-keyboardNav typoscript.html csl.html
-
-import ../footer.scroll
+pygmentsHighlighter ASCII armored
+ filename asc.py
+ fileExtensions asc pem id_dsa id_ecdsa id_ecdsa_sk id_ed25519 id_ed25519_sk id_rsa

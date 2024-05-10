@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title topaz
+import ../measures/conceptPage.scroll
+id topaz
+appeared 2011
+type pl
+webRepl http://www.colellachiara.com/soft/topaz/try-topaz.html
+reference https://github.com/giesse/Project-SnowBall/wiki/Topaz-%3A-Getting-Started
 
-title topaz - Programming language
- hidden
+example
+ [i: 0 while [i < 10] [i: i + 1]]
 
-html
- <a class="trueBaseThemePreviousItem" href="tikiwiki.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="torchscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/topaz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.colellachiara.com/soft/topaz/try-topaz.html" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=topaz" class="material-symbols-outlined">edit</a></div>
-
-* topaz is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3079 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Try now: <a href="http://www.colellachiara.com/soft/topaz/try-topaz.html">Web</a>
-
-* 
-
-- Read more about topaz on the web: 1.
- https://github.com/giesse/Project-SnowBall/wiki/Topaz-%3A-Getting-Started 1.
-
-<br>
-
-codeWithHeader Example from the web:
- [i: 0 while [i &lt; 10] [i: i + 1]]
-
-endColumns
-
-keyboardNav tikiwiki.html torchscript.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1988|Experience with topaz telebugging|10.1145/68210.69219|20|0|D. Redell|6d823b9c799aa47eb1103d6a497665ef11a2ac2f
+ 2018|Sistem Informasi Penjualan Barang dan Jasa pada Studio Photo Topaz Hexagon Medan Berbasis Web|10.17605/jmeans.v2i2.153|2|0|Josephine Oktavira Sembiring and Wasit Ginting|6bc52e534500792528bc9bd9aa1dd6f061fb4e47

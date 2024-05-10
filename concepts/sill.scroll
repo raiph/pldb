@@ -1,42 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title sill
+import ../measures/conceptPage.scroll
+id sill
+appeared 2015
+type pl
+creators Dennis Griffith
+conceptDescription A programming language based on the intuitionistic linear logic view of session types.
+reference http://groups.inf.ed.ac.uk/abcd/session-implementations.html
+country United States
+originCommunity University of Illinois Urbana-Champaign
 
-title sill - Programming language
- hidden
+githubRepo https://github.com/ISANobody/sill
+ firstCommit 2015
+ stars 26
+ forks 3
+ subscribers 7
+ created 2015
+ updated 2020
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="ham.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="badlanguage.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 86
+ committers 2
+ files 127
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sill.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ISANobody/sill" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sill" class="material-symbols-outlined">edit</a></div>
-
-* sill is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Dennis Griffith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#dennisGriffith Dennis Griffith
-
-codeWithHeader Source code:
- git clone https://github.com/ISANobody/sill
-
-dashboard
- #2075 <span title="TotalRank: 2591 Jobs: 103 Users: 1994 Facts: 1502 Links: 986">on PLDB</span>
- 9 Years Old
-
-* A programming language based on the intuitionistic linear logic view of session types.
-
-- sill is developed on <a href="https://github.com/ISANobody/sill">GitHub</a> and has 26 stars
-- sill first developed in <a href="../lists/originCommunities.html#universityOfIllinoisUrbanaChampaign">University of Illinois Urbana-Champaign</a>
-- Read more about sill on the web: 1.
- http://groups.inf.ed.ac.uk/abcd/session-implementations.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav ham.html badlanguage.html
-
-import ../footer.scroll
+isOpenSource true
+centralPackageRepositoryCount 0

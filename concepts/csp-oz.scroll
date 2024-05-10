@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CSP-OZ
+import ../measures/conceptPage.scroll
+id CSP-OZ
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/6fbec4f031b919012e0a48d3e33a42f88fa0cf65
+country Germany
+originCommunity University of Oldenburg
 
-title CSP-OZ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6809
 
-html
- <a class="trueBaseThemePreviousItem" href="csp-oz-dc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cssa.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/csp-oz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=csp-oz" class="material-symbols-outlined">edit</a></div>
-
-* CSP-OZ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3605 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- CSP-OZ first developed in <a href="../lists/originCommunities.html#universityOfOldenburg">University of Oldenburg</a>
-- CSP-OZ on HOPL
- https://hopl.info/showlanguage.prx?exp=6809
-- Read more about CSP-OZ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6fbec4f031b919012e0a48d3e33a42f88fa0cf65 1.
-
-<br>
-
-endColumns
-
-keyboardNav csp-oz-dc.html cssa.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

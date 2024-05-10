@@ -1,160 +1,135 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nix
+import ../measures/conceptPage.scroll
+id Nix
+appeared 2003
+type packageManager
+reference https://nixos.org/
+country The Netherlands
+originCommunity NixOS Foundation
 
-title Nix - Package manager
- hidden
+hasIntegers true
+hasLineComments true
+hasMultiLineComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="desmos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="md5-hash-function.html">&gt;</a>
+keywords rec with let in inherit assert if else then ...
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nix.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nix" class="material-symbols-outlined">edit</a></div>
-
-* Nix is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #813 on PLDB
- 21 Years Old
-
-* 
-
-- Nix first developed in <a href="../lists/originCommunities.html#nixOsFoundation">NixOS Foundation</a>
-- file extensions for Nix include nix
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Nix in 3k repos on <a href="https://api.github.com/search/repositories?q=language:Nix">GitHub</a>
-- Explore Nix snippets on <a href="http://www.rosettacode.org/wiki/Category:Nix">Rosetta Code</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/nix.py">syntax highlighting</a> for Nix
-- GitHub supports <a href="https://github.com/wmertens/sublime-nix" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Nix
-- Read more about Nix on the web: 1.
- https://nixos.org/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-  boot.loader.grub.device = &quot;/dev/sda&quot;;
+  boot.loader.grub.device = "/dev/sda";
  
-  fileSystems.&quot;/&quot;.device = &quot;/dev/sda1&quot;;
+  fileSystems."/".device = "/dev/sda1";
  
   services.sshd.enable = true;
  }
 
-codeWithHeader Example from <a href='https://github.com/wmertens/sublime-nix'>Linguist</a>:
- { stdenv, fetchurl, fetchgit, openssl, zlib, pcre, libxml2, libxslt, expat
- , rtmp ? false
- , fullWebDAV ? false
- , syslog ? false
- , moreheaders ? false, ...}:
- 
- let
-   version = &quot;1.4.4&quot;;
-   mainSrc = fetchurl {
-     url = &quot;http://nginx.org/download/nginx-${version}.tar.gz&quot;;
-     sha256 = &quot;1f82845mpgmhvm151fhn2cnqjggw9w7cvsqbva9rb320wmc9m63w&quot;;
-   };
- 
-   rtmp-ext = fetchgit {
-     url = git://github.com/arut/nginx-rtmp-module.git;
-     rev = &quot;1cfb7aeb582789f3b15a03da5b662d1811e2a3f1&quot;;
-     sha256 = &quot;03ikfd2l8mzsjwx896l07rdrw5jn7jjfdiyl572yb9jfrnk48fwi&quot;;
-   };
- 
-   dav-ext = fetchgit {
-     url = git://github.com/arut/nginx-dav-ext-module.git;
-     rev = &quot;54cebc1f21fc13391aae692c6cce672fa7986f9d&quot;;
-     sha256 = &quot;1dvpq1fg5rslnl05z8jc39sgnvh3akam9qxfl033akpczq1bh8nq&quot;;
-   };
- 
-   syslog-ext = fetchgit {
-     url = https://github.com/yaoweibin/nginx_syslog_patch.git;
-     rev = &quot;165affd9741f0e30c4c8225da5e487d33832aca3&quot;;
-     sha256 = &quot;14dkkafjnbapp6jnvrjg9ip46j00cr8pqc2g7374z9aj7hrvdvhs&quot;;
-   };
- 
-   moreheaders-ext = fetchgit {
-     url = https://github.com/agentzh/headers-more-nginx-module.git;
-     rev = &quot;refs/tags/v0.23&quot;;
-     sha256 = &quot;12pbjgsxnvcf2ff2i2qdn39q4cm5czlgrng96j8ml4cgxvnbdh39&quot;;
-   };
- in
- 
- stdenv.mkDerivation rec {
-   name = &quot;nginx-${version}&quot;;
-   src = mainSrc;
- 
-   buildInputs = [ openssl zlib pcre libxml2 libxslt
-     ] ++ stdenv.lib.optional fullWebDAV expat;
- 
-   patches = if syslog then [ &quot;${syslog-ext}/syslog_1.4.0.patch&quot; ] else [];
- 
-   configureFlags = [
-     &quot;--with-http_ssl_module&quot;
-     &quot;--with-http_spdy_module&quot;
-     &quot;--with-http_xslt_module&quot;
-     &quot;--with-http_sub_module&quot;
-     &quot;--with-http_dav_module&quot;
-     &quot;--with-http_gzip_static_module&quot;
-     &quot;--with-http_secure_link_module&quot;
-     &quot;--with-ipv6&quot;
-     # Install destination problems
-     # &quot;--with-http_perl_module&quot;
-   ] ++ stdenv.lib.optional rtmp &quot;--add-module=${rtmp-ext}&quot;
-     ++ stdenv.lib.optional fullWebDAV &quot;--add-module=${dav-ext}&quot;
-     ++ stdenv.lib.optional syslog &quot;--add-module=${syslog-ext}&quot;
-     ++ stdenv.lib.optional moreheaders &quot;--add-module=${moreheaders-ext}&quot;;
- 
-   preConfigure = &#39;&#39;
-     export NIX_CFLAGS_COMPILE=&quot;$NIX_CFLAGS_COMPILE -I${libxml2 }/include/libxml2&quot;
-   &#39;&#39;;
- 
-   # escape example
-   postInstall = &#39;&#39;
-     mv $out/sbin $out/bin &#39;&#39;&#39; &#39;&#39;${
-    ${ if true then ${ &quot;&quot; } else false }
-   &#39;&#39;;
- 
-   meta = {
-     description = &quot;A reverse proxy and lightweight webserver&quot;;
-     maintainers = [ stdenv.lib.maintainers.raskin];
-     platforms = stdenv.lib.platforms.all;
-     inherit version;
-   };
- }
+githubLanguage Nix
+ fileExtensions nix
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  NixOS nixpkgs https://github.com/NixOS.png https://github.com/NixOS/nixpkgs Nix #7e7eff 4149 3954 134 "Nix Packages collection"
+  rycee home-manager https://github.com/rycee.png https://github.com/rycee/home-manager Nix #7e7eff 712 225 38 "Manage a user environment using Nix"
+ trendingProjectsCount 3
+ type programming
+ aceMode nix
+ tmScope source.nix
+ aliases nixos
+githubBigQuery Nix
+ repos 2673
+ users 1808
 
-<div class="keywordsBlock">
-codeWithHeader Nix <a href="../lists/keywords.html?filter=nix">Keywords</a>
- rec with let in inherit assert if else then ...
-</div>
+pygmentsHighlighter Nix
+ filename nix.py
+ fileExtensions nix
+linguistGrammarRepo https://github.com/wmertens/sublime-nix
+ firstCommit 2014
+ lastCommit 2017
+ committerCount 5
+ commitCount 36
+ sampleCount 1
+ example
+  { stdenv, fetchurl, fetchgit, openssl, zlib, pcre, libxml2, libxslt, expat
+  , rtmp ? false
+  , fullWebDAV ? false
+  , syslog ? false
+  , moreheaders ? false, ...}:
+  
+  let
+    version = "1.4.4";
+    mainSrc = fetchurl {
+      url = "http://nginx.org/download/nginx-${version}.tar.gz";
+      sha256 = "1f82845mpgmhvm151fhn2cnqjggw9w7cvsqbva9rb320wmc9m63w";
+    };
+  
+    rtmp-ext = fetchgit {
+      url = git://github.com/arut/nginx-rtmp-module.git;
+      rev = "1cfb7aeb582789f3b15a03da5b662d1811e2a3f1";
+      sha256 = "03ikfd2l8mzsjwx896l07rdrw5jn7jjfdiyl572yb9jfrnk48fwi";
+    };
+  
+    dav-ext = fetchgit {
+      url = git://github.com/arut/nginx-dav-ext-module.git;
+      rev = "54cebc1f21fc13391aae692c6cce672fa7986f9d";
+      sha256 = "1dvpq1fg5rslnl05z8jc39sgnvh3akam9qxfl033akpczq1bh8nq";
+    };
+  
+    syslog-ext = fetchgit {
+      url = https://github.com/yaoweibin/nginx_syslog_patch.git;
+      rev = "165affd9741f0e30c4c8225da5e487d33832aca3";
+      sha256 = "14dkkafjnbapp6jnvrjg9ip46j00cr8pqc2g7374z9aj7hrvdvhs";
+    };
+  
+    moreheaders-ext = fetchgit {
+      url = https://github.com/agentzh/headers-more-nginx-module.git;
+      rev = "refs/tags/v0.23";
+      sha256 = "12pbjgsxnvcf2ff2i2qdn39q4cm5czlgrng96j8ml4cgxvnbdh39";
+    };
+  in
+  
+  stdenv.mkDerivation rec {
+    name = "nginx-${version}";
+    src = mainSrc;
+  
+    buildInputs = [ openssl zlib pcre libxml2 libxslt
+      ] ++ stdenv.lib.optional fullWebDAV expat;
+  
+    patches = if syslog then [ "${syslog-ext}/syslog_1.4.0.patch" ] else [];
+  
+    configureFlags = [
+      "--with-http_ssl_module"
+      "--with-http_spdy_module"
+      "--with-http_xslt_module"
+      "--with-http_sub_module"
+      "--with-http_dav_module"
+      "--with-http_gzip_static_module"
+      "--with-http_secure_link_module"
+      "--with-ipv6"
+      # Install destination problems
+      # "--with-http_perl_module"
+    ] ++ stdenv.lib.optional rtmp "--add-module=${rtmp-ext}"
+      ++ stdenv.lib.optional fullWebDAV "--add-module=${dav-ext}"
+      ++ stdenv.lib.optional syslog "--add-module=${syslog-ext}"
+      ++ stdenv.lib.optional moreheaders "--add-module=${moreheaders-ext}";
+  
+    preConfigure = ''
+      export NIX_CFLAGS_COMPILE="$NIX_CFLAGS_COMPILE -I${libxml2 }/include/libxml2"
+    '';
+  
+    # escape example
+    postInstall = ''
+      mv $out/sbin $out/bin ''' ''${
+     ${ if true then ${ "" } else false }
+    '';
+  
+    meta = {
+      description = "A reverse proxy and lightweight webserver";
+      maintainers = [ stdenv.lib.maintainers.raskin];
+      platforms = stdenv.lib.platforms.all;
+      inherit version;
+    };
+  }
 
-endColumns
+rosettaCode http://www.rosettacode.org/wiki/Category:Nix
 
-## Language <a href="../lists/features.html">features</a>
+packageCount 49610
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav desmos.html md5-hash-function.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

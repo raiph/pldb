@@ -1,40 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ralph
+import ../measures/conceptPage.scroll
+id ralph
+appeared 2010
+type pl
+creators Bastian Müller
+country Canada
+originCommunity https://github.com/turbolent/ralph/issues
 
-title ralph - Programming language
- hidden
+githubRepo https://github.com/turbolent/ralph
+ firstCommit 2010
+ stars 74
+ forks 4
+ subscribers 7
+ created 2010
+ updated 2022
+ description Ralph is a Lisp-1 dialect that compiles to JavaScript
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="taijilang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cmu-common-lisp.html">&gt;</a>
+repoStats
+ firstCommit 2010
+ commits 1212
+ committers 6
+ files 123
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ralph.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/turbolent/ralph" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ralph" class="material-symbols-outlined">edit</a></div>
-
-* ralph is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Bastian Müller.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#bastianMuller Bastian Müller
-
-codeWithHeader Source code:
- git clone https://github.com/turbolent/ralph
-
-dashboard
- #2127 <span title="TotalRank: 2629 Jobs: 103 Users: 1540 Facts: 1669 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Ralph is a Lisp-1 dialect that compiles to JavaScript
-
-- ralph is developed on <a href="https://github.com/turbolent/ralph">GitHub</a> and has 74 stars
-- ralph first developed in <a href="../lists/originCommunities.html#httpsGithubComTurbolentRalphIssues">https://github.com/turbolent/ralph/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav taijilang.html cmu-common-lisp.html
-
-import ../footer.scroll
+semanticScholar 0

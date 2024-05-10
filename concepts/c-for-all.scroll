@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title C∀
+import ../measures/conceptPage.scroll
+id C∀
+appeared 2018
+type pl
+conceptDescription C∀ (C-for-all) is an open-source project extending ISO C with modern safety and productivity features, while still ensuring backwards compatibility with C and its programmers. C∀ is designed to have an orthogonal feature-set based closely on the C programming paradigm (non-object-oriented) and these features can be added incrementally to an existing C code-base allowing programmers to learn C∀ on an as-needed basis. In many ways, C∀ is to C as Scala is to Java, providing a research vehicle for new typing and control-flow capabilities on top of a highly popular programming language allowing immediate dissemination.
+website https://cforall.uwaterloo.ca/
+reference https://onlinelibrary.wiley.com/doi/10.1002/spe.2624
+standsFor C-for-all
+country Canada and China
+originCommunity University of Waterloo && Huawei
+domainName cforall.uwaterloo.ca
 
-title C∀ - Programming language
- hidden
+isbndb 0
 
-html
- <a class="trueBaseThemePreviousItem" href="urn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clausal-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/c-for-all.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://cforall.uwaterloo.ca/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=c-for-all" class="material-symbols-outlined">edit</a></div>
-
-* C∀, aka C-for-all, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2923 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 6 Years Old
-
-* C∀ (C-for-all) is an open-source project extending ISO C with modern safety and productivity features, while still ensuring backwards compatibility with C and its programmers. C∀ is designed to have an orthogonal feature-set based closely on the C programming paradigm (non-object-oriented) and these features can be added incrementally to an existing C code-base allowing programmers to learn C∀ on an as-needed basis. In many ways, C∀ is to C as Scala is to Java, providing a research vehicle for new typing and control-flow capabilities on top of a highly popular programming language allowing immediate dissemination.
-
-- C∀ website
- https://cforall.uwaterloo.ca/
-- C∀ first developed in <a href="../lists/originCommunities.html#universityOfWaterloo">University of Waterloo</a> and <a href="../lists/originCommunities.html#huawei">Huawei</a>
-- Read more about C∀ on the web: 1.
- https://onlinelibrary.wiley.com/doi/10.1002/spe.2624 1.
-
-<br>
-
-endColumns
-
-keyboardNav urn.html clausal-lang.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bounce
+import ../measures/conceptPage.scroll
+id Bounce
+appeared 1994
+type pl
+conceptDescription Bounce is a real time visual data flow programming language, designed to create interactive graphical simulations, and to filter and control midi, serial, ethernet, and other devices.
+reference https://donhopkins.medium.com/bounce-stuff-8310551a96e3
+originCommunity Levity Systems
 
-title Bounce - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3403
 
-html
- <a class="trueBaseThemePreviousItem" href="borneo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="boxer.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bounce.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bounce" class="material-symbols-outlined">edit</a></div>
-
-* Bounce is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3530 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 30 Years Old
-
-* Bounce is a real time visual data flow programming language, designed to create interactive graphical simulations, and to filter and control midi, serial, ethernet, and other devices.
-
-- Bounce first developed in <a href="../lists/originCommunities.html#levitySystems">Levity Systems</a>
-- Bounce on HOPL
- https://hopl.info/showlanguage.prx?exp=3403
-- Read more about Bounce on the web: 1.
- https://donhopkins.medium.com/bounce-stuff-8310551a96e3 1.
-
-<br>
-
-endColumns
-
-keyboardNav borneo.html boxer.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,44 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BitBake
+import ../measures/conceptPage.scroll
+id BitBake
+appeared 2004
+type pl
+website https://yoctoproject.org/tools-resources/projects/bitbake
+country Various
+originCommunity Yocto Project
 
-title BitBake - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="rc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="csvw.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bitbake.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://yoctoproject.org/tools-resources/projects/bitbake" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/BitBake"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=bitbake" class="material-symbols-outlined">edit</a></div>
-
-* BitBake is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #1128 <span title="TotalRank: 1684 Jobs: 103 Users: 934 Facts: 647 Links: 986">on PLDB</span>
- 20 Years Old
- 3k <span title="BitBake repos on GitHub.">Repos</span>
-
-* BitBake is a make-like  build tool with the special focus of distributions and packages for embedded Linux cross compilation, although it is not limited to that. It is inspired by Portage, which is the package management system used by the Gentoo Linux distribution. BitBake existed for some time in the OpenEmbedded project until it was separated out into a standalone, maintained, distribution-independent tool. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/BitBake Read more on Wikipedia...
-
-- BitBake website
- https://yoctoproject.org/tools-resources/projects/bitbake
-- BitBake Wikipedia page
- https://en.wikipedia.org/wiki/BitBake
-- There are at least 3,285 BitBake repos on <a href="https://github.com/search?q=language:BitBake">GitHub</a>
-- BitBake first developed in <a href="../lists/originCommunities.html#yoctoProject">Yocto Project</a>
-- file extensions for BitBake include bb
-- The  Google BigQuery Public Dataset GitHub snapshot shows 667 users using BitBake in 1k repos on <a href="https://api.github.com/search/repositories?q=language:BitBake">GitHub</a>
-- See also: (3 related languages)<a href="python.html">Python</a>, <a href="linux.html">Linux</a>, <a href="subversion.html">Subversion</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  require qt5-git.inc
  require ${PN}.inc
  
@@ -48,38 +24,35 @@ codeWithHeader Example from the web:
      ln -sf syncqt.pl ${D}${OE_QMAKE_PATH_QT_BINS}/syncqt
  }
  
- QT_MODULE_BRANCH = &quot;release&quot;
+ QT_MODULE_BRANCH = "release"
  # v5.2.1 + 168 commits
- SRCREV = &quot;08cbbde61778276ccdda73d89fd64d02c623779f&quot;
+ SRCREV = "08cbbde61778276ccdda73d89fd64d02c623779f"
  
   
 
-endColumns
+wikipedia https://en.wikipedia.org/wiki/BitBake
+ related python linux subversion
+ summary BitBake is a make-like  build tool with the special focus of distributions and packages for embedded Linux cross compilation, although it is not limited to that. It is inspired by Portage, which is the package management system used by the Gentoo Linux distribution. BitBake existed for some time in the OpenEmbedded project until it was separated out into a standalone, maintained, distribution-independent tool. BitBake is co-maintained by the Yocto Project and the OpenEmbedded project. BitBake recipes specify how a particular package is built. Recipes consist of the source URL (http, https, ftp, cvs, svn, git, local file system) of the package, dependencies and compile or install options. They also store the metadata for the package in standard variables. During the build process, recipes are used to track dependencies, performing native or cross-compilation of the package and package it so that it is suitable for installation on the local or a target device. It is also possible to create complete images consisting of a root file system and kernel. As a first step in a cross-build setup, the framework will attempt to create a cross-compiler toolchain suited for the target platform.
+ pageId 17006433
+ created 2008
+ backlinksCount 46
+ revisionCount 63
+ dailyPageViews 61
+ appeared 2004
 
-## Language <a href="../lists/features.html">features</a>
+githubLanguage BitBake
+ fileExtensions bb
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope none
+ repos 3285
+githubBigQuery BitBake
+ repos 1040
+ users 667
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav rc.html csvw.html
-
-import ../footer.scroll
+isbndb 0

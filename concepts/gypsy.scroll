@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Gypsy
+import ../measures/conceptPage.scroll
+id Gypsy
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/206988f693620b86bb81ac2d1d764ab857fbc5e2
+country United States
+originCommunity The University of Texas
 
-title Gypsy - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=720
 
-html
- <a class="trueBaseThemePreviousItem" href="gxl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hank.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gypsy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gypsy" class="material-symbols-outlined">edit</a></div>
-
-* Gypsy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3710 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- Gypsy first developed in <a href="../lists/originCommunities.html#theUniversityOfTexas">The University of Texas</a>
-- Gypsy on HOPL
- https://hopl.info/showlanguage.prx?exp=720
-- Read more about Gypsy on Semantic Scholar: 1.
- https://semanticscholar.org/paper/206988f693620b86bb81ac2d1d764ab857fbc5e2 1.
-
-<br>
-
-endColumns
-
-keyboardNav gxl.html hank.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

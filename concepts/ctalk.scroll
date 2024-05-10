@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ctalk
-
-title ctalk - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cheri.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dec64.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ctalk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sourceforge.net/projects/ctalk/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=ctalk" class="material-symbols-outlined">edit</a></div>
-
-* ctalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006 by Robert Kiesling.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#robertKiesling Robert Kiesling
-
-dashboard
- #2789 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 18 Years Old
-
-* Ctalk is a compact object oriented language that works closely with C. That means you can use Ctalk for GUI, network, client-server, and systems programs as well as traditional object oriented simulations.
-
-- ctalk website
- https://sourceforge.net/projects/ctalk/
-- ctalk first developed in <a href="../lists/originCommunities.html#httpsGithubComCtalk">https://github.com/ctalk</a>
-
-<br>
-
-endColumns
-
-keyboardNav cheri.html dec64.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id ctalk
+appeared 2006
+type pl
+creators Robert Kiesling
+conceptDescription Ctalk is a compact object oriented language that works closely with C. That means you can use Ctalk for GUI, network, client-server, and systems programs as well as traditional object oriented simulations.
+website https://sourceforge.net/projects/ctalk/
+country United States
+originCommunity https://github.com/ctalk

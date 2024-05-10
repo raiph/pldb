@@ -1,41 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kayia
-
-title kayia - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="juttle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ki.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kayia.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://kayia.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=kayia" class="material-symbols-outlined">edit</a></div>
-
-* kayia is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999 by David Broderick.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
- link ../lists/creators.html#davidBroderick David Broderick
-
-dashboard
- #2931 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 25 Years Old
-
-* Kayia is a way to construct a “declarative reactive” language based on a labeled,  directed graph of edges.  The excitement that I have with Kayia is that I think it has the potential to give software construction “the arch”, or that missing abstraction mechanism that has been holding it back.  That’s a bold statement but I am attempting to prove that, because of its ability to start from such fine elements, simply A|B, and its capacity to manage yet not obstruct constructions of those elements, we can get higher-resolution constructions with greater control at the same time.
-
-- kayia website
- https://kayia.com/
-- kayia first developed in <a href="../lists/originCommunities.html#httpsKayiaCom">https://kayia.com</a>
-- <a href="https://kayia.com/">kayia.com</a> was registered in 1999
-- Read more about kayia on the web: 1.
- https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0 1.
-
-<br>
-
-endColumns
-
-keyboardNav juttle.html ki.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id kayia
+appeared 1999
+type pl
+creators David Broderick
+conceptDescription Kayia is a way to construct a “declarative reactive” language based on a labeled,  directed graph of edges.  The excitement that I have with Kayia is that I think it has the potential to give software construction “the arch”, or that missing abstraction mechanism that has been holding it back.  That’s a bold statement but I am attempting to prove that, because of its ability to start from such fine elements, simply A|B, and its capacity to manage yet not obstruct constructions of those elements, we can get higher-resolution constructions with greater control at the same time.
+website https://kayia.com/
+reference https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0
+country United States
+country Czech Republic
+originCommunity https://kayia.com
+domainName kayia.com
+ registered 1999

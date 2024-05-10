@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Microsoft Access
-
-title Microsoft Access - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="memcached.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="microsoft-azure-cosmos-db.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microsoft-access.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microsoft-access" class="material-symbols-outlined">edit</a></div>
-
-* Microsoft Access is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3197 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 32 Years Old
-
-* Relational database management system (RDBMS)
-
-- Microsoft Access first developed in <a href="../lists/originCommunities.html#microsoftCorporation">Microsoft Corporation</a>
-
-<br>
-
-endColumns
-
-keyboardNav memcached.html microsoft-azure-cosmos-db.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Microsoft Access
+appeared 1992
+type database
+conceptDescription Relational database management system (RDBMS)
+country United States
+originCommunity Microsoft Corporation

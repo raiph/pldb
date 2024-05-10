@@ -1,44 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title atx
+import ../measures/conceptPage.scroll
+id atx
+appeared 2002
+type textMarkup
+creators Aaron Swartz
+reference http://www.aaronsw.com/2002/atx/intro
+reference https://lists.w3.org/Archives/Public/www-archive/2003Feb/0019.html
+country United States
+originCommunity https://lists.w3.org/Archives/Public/www-archive/
 
-title atx - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="iscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="draconian.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/atx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=atx" class="material-symbols-outlined">edit</a></div>
-
-* atx is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2002 by Aaron Swartz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
- link ../lists/creators.html#aaronSwartz Aaron Swartz
-
-dashboard
- #2711 <span title="TotalRank: 3399 Jobs: 103 Users: 2838 Facts: 2629 Links: 667">on PLDB</span>
- 22 Years Old
-
-* 
-
-- atx first developed in <a href="../lists/originCommunities.html#httpsListsW3OrgArchivesPublicWwwArchive">https://lists.w3.org/Archives/Public/www-archive/</a>
-- Read more about atx on the web: 1. 2.
- http://www.aaronsw.com/2002/atx/intro 1.
- https://lists.w3.org/Archives/Public/www-archive/2003Feb/0019.html 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Emphasis (italics): I _love_ candy!
  Strong (bold): *This is a draft!*
  Code (monospaced): Use the |frobnitz| module.
-
-endColumns
-
-keyboardNav iscript.html draconian.html
-
-import ../footer.scroll

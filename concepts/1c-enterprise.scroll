@@ -1,85 +1,63 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 1C Enterprise Script
+import ../measures/conceptPage.scroll
+id 1C Enterprise Script
+appeared 2002
+type pl
+conceptDescription The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language
+reference https://1c-dn.com/library/tutorials/practical_developer_guide_for_1c_enterprise_8_3/
+country Russia
+originCommunity 1C Company
 
-title 1C Enterprise Script - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="noweb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rapira.html">&gt;</a>
+printToken Message
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/1c-enterprise.pldb
+githubLanguage 1C Enterprise
+ fileExtensions bsl os
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.bsl
+ repos 38669
+githubBigQuery 1C Enterprise
+ repos 274
+ users 250
 
-startColumns 4
+linguistGrammarRepo https://github.com/xDrivenDevelopment/atom-language-1c-bsl.git
+ firstCommit 2015
+ lastCommit 2018
+ committerCount 3
+ commitCount 261
+ sampleCount 6
+ example
+  ﻿Каталог = ОбъединитьПути(ТекущийКаталог(), "libs\oscript-library\src");
+  Загрузчик_Оригинал_ИмяФайла = ОбъединитьПути(Каталог, "package-loader.os");
+  
+  Файлы = НайтиФайлы(Каталог, , Ложь);
+  Для Каждого ВыбФайл Из Файлы Цикл
+  
+      Если ВыбФайл.ЭтоФайл() Тогда
+          Продолжить;
+      КонецЕсли;
+  
+      Загрузчик_ИмяФайла = ОбъединитьПути(ВыбФайл.ПолноеИмя, "package-loader.os");
+      Загрузчик_Файл = Новый Файл(Загрузчик_ИмяФайла);
+  
+      Если Загрузчик_Файл.Существует() Тогда
+          Продолжить;
+      КонецЕсли;
+  
+      КопироватьФайл(Загрузчик_Оригинал_ИмяФайла, Загрузчик_ИмяФайла);
+  
+  КонецЦикла;
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=1c-enterprise" class="material-symbols-outlined">edit</a></div>
+leachim6 1C Enterprise
+ filepath #/1C Enterprise
+ example
+  Message("Hello World");
+  
 
-* 1C Enterprise Script is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #1107 <span title="TotalRank: 1664 Jobs: 103 Users: 1151 Facts: 575 Links: 986">on PLDB</span>
- 22 Years Old
- 39k <span title="1C Enterprise Script repos on GitHub.">Repos</span>
-
-* The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language
-
-- There are at least 38,669 1C Enterprise Script repos on <a href="https://github.com/search?q=language:1C Enterprise">GitHub</a>
-- 1C Enterprise Script first developed in <a href="../lists/originCommunities.html#1CCompany">1C Company</a>
-- file extensions for 1C Enterprise Script include bsl and os
-- The  Google BigQuery Public Dataset GitHub snapshot shows 250 users using 1C Enterprise Script in 274 repos on <a href="https://api.github.com/search/repositories?q=language:1C Enterprise">GitHub</a>
-- GitHub supports <a href="https://github.com/xDrivenDevelopment/atom-language-1c-bsl.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for 1C Enterprise Script
-- Read more about 1C Enterprise Script on the web: 1.
- https://1c-dn.com/library/tutorials/practical_developer_guide_for_1c_enterprise_8_3/ 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/#/1C Enterprise'>hello-world</a>:
- Message(&quot;Hello World&quot;);
- 
-
-codeWithHeader Example from <a href='https://github.com/xDrivenDevelopment/atom-language-1c-bsl.git'>Linguist</a>:
- ﻿Каталог = ОбъединитьПути(ТекущийКаталог(), &quot;libs\oscript-library\src&quot;);
- Загрузчик_Оригинал_ИмяФайла = ОбъединитьПути(Каталог, &quot;package-loader.os&quot;);
- 
- Файлы = НайтиФайлы(Каталог, , Ложь);
- Для Каждого ВыбФайл Из Файлы Цикл
- 
-     Если ВыбФайл.ЭтоФайл() Тогда
-         Продолжить;
-     КонецЕсли;
- 
-     Загрузчик_ИмяФайла = ОбъединитьПути(ВыбФайл.ПолноеИмя, &quot;package-loader.os&quot;);
-     Загрузчик_Файл = Новый Файл(Загрузчик_ИмяФайла);
- 
-     Если Загрузчик_Файл.Существует() Тогда
-         Продолжить;
-     КонецЕсли;
- 
-     КопироватьФайл(Загрузчик_Оригинал_ИмяФайла, Загрузчик_ИмяФайла);
- 
- КонецЦикла;
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token Message
-  Example
-
-keyboardNav noweb.html rapira.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasMixins.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasMonads.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/java.html">Java</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>:
+codeWithHeader Example from <a href="../concepts/java.html">Java</a>:
  // Package = directory. Java classes can be grouped together in packages. A package name is the same as the directory (folder) name which contains the .java files. You declare packages when you define your Java program, and you name the packages you want to use from other libraries in an import statement.
  // The first statement, other than comments, in a Java source file, must be the package declaration.
  // Following the optional package declaration, you can have import statements, which allow you to specify classes from other packages that can be referenced without qualifying them with their package.
@@ -84,13 +84,6 @@ codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>:
  show(io::IO, a::MyType) = print(io, &quot;MyType $(a.x)&quot;)
  end
 
-codeWithHeader Example from <a href="../concepts/ocaml.html">OCaml</a>:
- (* In OCaml, every piece of code is wrapped into a module. *)
- (* amodule.ml *)
- let hello () = print_endline &quot;Hello&quot;
- (* bmodule.ml *)
- Amodule.hello ()
-
 codeWithHeader Example from <a href="../concepts/racket.html">Racket</a>:
  (module nest racket
     (provide (for-syntax meta-eggs)
@@ -99,6 +92,13 @@ codeWithHeader Example from <a href="../concepts/racket.html">Racket</a>:
     (define-for-syntax meta-eggs 2)
     (define-for-syntax meta-chicks 3)
     (define num-eggs 2))
+
+codeWithHeader Example from <a href="../concepts/ocaml.html">OCaml</a>:
+ (* In OCaml, every piece of code is wrapped into a module. *)
+ (* amodule.ml *)
+ let hello () = print_endline &quot;Hello&quot;
+ (* bmodule.ml *)
+ Amodule.hello ()
 
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  module my_module::submodule;
@@ -109,9 +109,7 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
   function Path (|string|)
    // return the app&#39;s path here
 
-* Languages *with* Module Pattern include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>
-
-* This question asks: Does the language have a concept of modules for organizing and packaging code?
+* Languages *with* Module Pattern include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Module Pattern on the web: 1.
  https://en.wikipedia.org/wiki/Module_pattern 1.

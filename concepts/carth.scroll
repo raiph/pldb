@@ -1,40 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title carth
+import ../measures/conceptPage.scroll
+id carth
+appeared 2018
+type pl
+creators Johan Johansson
+conceptDescription Purely functional programming with lisp-syntax. Less infix, more parens!
+website https://carth.jo.zone/
+country Sweden
+domainName carth.jo.zone
 
-title carth - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="harbour.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fancy.html">&gt;</a>
+lineCommentToken ;
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/carth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://carth.jo.zone/" class="material-symbols-outlined">home</a> <a href="https://github.com/bryal/carth" class="material-symbols-outlined">code</a> <a href="/edit.html?id=carth" class="material-symbols-outlined">edit</a></div>
-
-* carth is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Johan Johansson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#johanJohansson Johan Johansson
-
-codeWithHeader Source code:
- git clone https://github.com/bryal/carth
-
-dashboard
- #743 <span title="TotalRank: 1307 Jobs: 103 Users: 2101 Facts: 218 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Purely functional programming with lisp-syntax. Less infix, more parens!
-
-- carth website
- https://carth.jo.zone/
-- carth is developed on <a href="https://github.com/bryal/carth">GitHub</a> and has 20 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ;; Note that many of these functions are/will be in the standard
  ;; library in some shape or form. We just include them all in the same
  ;; file here to show off more of the syntax and features.
@@ -44,31 +28,31 @@ codeWithHeader Example from the web:
  
  (define (fizzbuzz _)
    (for (range 1 100)
-        (comp display fizzbuzz&#39;)))
+        (comp display fizzbuzz')))
  
- (define (fizzbuzz&#39; n)
+ (define (fizzbuzz' n)
    (match (Pair (divisible? n 3) (divisible? n 5))
      (case (Pair false false) (my-show-int n))
-     (case (Pair true false) &quot;Fizz&quot;)
-     (case (Pair false true) &quot;Buzz&quot;)
-     (case (Pair true true) &quot;Fizzbuzz&quot;)))
+     (case (Pair true false) "Fizz")
+     (case (Pair false true) "Buzz")
+     (case (Pair true true) "Fizzbuzz")))
  
  (define my-show-int
    (fun-match
-     (case 1 &quot;one&quot;)
-     (case 2 &quot;two&quot;)
+     (case 1 "one")
+     (case 2 "two")
      (case n (show-int n))))
  
  ;; Apply an action to each element in an iterator
  (define (for xs f)
    (match (next xs)
      (case None unit)
-     (case (Some (Pair x xs&#39;))
-           (seq (f x) (for xs&#39; f)))))
+     (case (Some (Pair x xs'))
+           (seq (f x) (for xs' f)))))
  
  ;; Iterator over the closed range $[a, b]$
  (define (range a b)
-   (Iter (Lazy (if (&gt; a b)
+   (Iter (Lazy (if (> a b)
                    (fun _ None)
                  (fun _ (Some (Pair a (range (+ a 1) b))))))))
  
@@ -102,13 +86,13 @@ codeWithHeader Example from the web:
    (= (rem n m) 0))
  
  (define (display s)
-   (display-inline (str-append s &quot;\n&quot;)))
+   (display-inline (str-append s "\n")))
  
  ;;; Currying wrappers
  
  (define (rem a b)          (rem-int     (Pair a b)))
  (define (= a b)            (eq-int      (Pair a b)))
- (define (&gt; a b)            (gt-int      (Pair a b)))
+ (define (> a b)            (gt-int      (Pair a b)))
  (define (+ a b)            (add-int     (Pair a b)))
  (define (str-append s1 s2) (-str-append (Pair s1 s2)))
  
@@ -122,38 +106,18 @@ codeWithHeader Example from the web:
  (extern display-inline (Fun Str Unit))
  (extern -str-append (Fun (Pair Str Str) Str))
 
-endColumns
+githubRepo https://github.com/bryal/carth
+ firstCommit 2018
+ stars 20
+ forks 1
+ subscribers 2
+ created 2019
+ updated 2022
+ description The Carth programming language. Mirror of https://sr.ht/~jojo/Carth/
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav harbour.html fancy.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 857
+ committers 4
+ files 142

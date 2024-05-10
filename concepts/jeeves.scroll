@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jeeves
+import ../measures/conceptPage.scroll
+id Jeeves
+appeared 2013
+type pl
+creators Jean Yang
+website http://projects.csail.mit.edu/jeeves/
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title Jeeves - Programming language
- hidden
+githubRepo https://github.com/jeanqasaur/jeeves
+ stars 338
+ forks 29
+ subscribers 36
+ created 2013
+ updated 2018
+ description Python implementation of the Jeeves programming language.
 
-html
- <a class="trueBaseThemePreviousItem" href="minikanren.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="turbo-basic-xl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jeeves.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://projects.csail.mit.edu/jeeves/" class="material-symbols-outlined">home</a> <a href="https://github.com/jeanqasaur/jeeves" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jeeves" class="material-symbols-outlined">edit</a></div>
-
-* Jeeves is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by Jean Yang.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#jeanYang Jean Yang
-
-codeWithHeader Source code:
- git clone https://github.com/jeanqasaur/jeeves
-
-dashboard
- #1382 <span title="TotalRank: 1915 Jobs: 103 Users: 826 Facts: 1890 Links: 986">on PLDB</span>
- 11 Years Old
-
-* Python implementation of the Jeeves programming language.
-
-- Jeeves website
- http://projects.csail.mit.edu/jeeves/
-- Jeeves is developed on <a href="https://github.com/jeanqasaur/jeeves">GitHub</a> and has 338 stars
-- Jeeves first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-
-<br>
-
-endColumns
-
-keyboardNav minikanren.html turbo-basic-xl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 638
+ committers 15
+ files 642

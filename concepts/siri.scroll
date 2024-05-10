@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Siri
+import ../measures/conceptPage.scroll
+id Siri
+appeared 1991
+type pl
+reference https://kilthub.cmu.edu/articles/journal_contribution/Siri_a_constrained-object_language_for_reactive_program_implementation/6609533
+country United States
+originCommunity Carnegie Mellon University
 
-title Siri - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="simple-stackless-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sue.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/siri.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=siri" class="material-symbols-outlined">edit</a></div>
-
-* Siri is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3426 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Siri first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a>
-- Siri on HOPL
- https://hopl.info/showlanguage.prx?exp=1660
-- Read more about Siri on the web: 1.
- https://kilthub.cmu.edu/articles/journal_contribution/Siri_a_constrained-object_language_for_reactive_program_implementation/6609533 1.
-
-<br>
-
-endColumns
-
-keyboardNav simple-stackless-lisp.html sue.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=1660

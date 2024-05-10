@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rhine
+import ../measures/conceptPage.scroll
+id rhine
+appeared 2014
+type pl
+creators Ramkumar Ramachandra
+country France
+originCommunity https://github.com/artagnon/rhine/issues
 
-title rhine - Programming language
- hidden
+githubRepo https://github.com/artagnon/rhine
+ firstCommit 2014
+ stars 159
+ forks 8
+ subscribers 6
+ created 2015
+ updated 2022
+ description 🔬 a C++ compiler middle-end, using an LLVM backend
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="ren-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="croma.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 460
+ committers 1
+ files 194
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rhine.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/artagnon/rhine" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rhine" class="material-symbols-outlined">edit</a></div>
-
-* rhine is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Ramkumar Ramachandra.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#ramkumarRamachandra Ramkumar Ramachandra
-
-codeWithHeader Source code:
- git clone https://github.com/artagnon/rhine
-
-dashboard
- #1788 <span title="TotalRank: 2303 Jobs: 103 Users: 1214 Facts: 1502 Links: 986">on PLDB</span>
- 10 Years Old
-
-* 🔬 a C++ compiler middle-end, using an LLVM backend
-
-- rhine is developed on <a href="https://github.com/artagnon/rhine">GitHub</a> and has 159 stars
-- rhine first developed in <a href="../lists/originCommunities.html#httpsGithubComArtagnonRhineIssues">https://github.com/artagnon/rhine/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of rhine
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Rhine – A typed Elixir-inspired language on LLVM|https://news.ycombinator.com/item?id=11321164|03/20/2016|81|16
-
-keyboardNav ren-c.html croma.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 11321164|Show HN: Rhine – A typed Elixir-inspired language on LLVM|2016-03-20 00:18:24 UTC|1458433104|artagnon|16|81

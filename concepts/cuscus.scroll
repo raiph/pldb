@@ -1,40 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cuscus
-
-title cuscus - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cupit-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cyphertext.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cuscus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cuscus" class="material-symbols-outlined">edit</a></div>
-
-* cuscus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Mariana Marasoiu and Detlef Nauck and Alan F. Blackwell.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#marianaMarasoiu Mariana Marasoiu
- link ../lists/creators.html#detlefNauck Detlef Nauck
- link ../lists/creators.html#alanFBlackwell Alan F. Blackwell
-
-dashboard
- #3609 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 5 Years Old
-
-* We present Cuscus, a tool for data visualisation that is informed by ethnographic fieldwork across different professional sectors. Cuscus allows end-users to create novel visualisations by defining visual properties in a spreadsheet. We also report on user studies in the contexts of data journalism and business analytics, and discuss further extensions to this new interaction paradigm.
-
-- cuscus first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a> and <a href="../lists/originCommunities.html#appliedResearch">Applied Research</a>
-- Read more about cuscus on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/Cuscus%3A-An-End-User-Programming-Tool-for-Data-Marasoiu-Nauck/bdcea9a40abd143a1b53d702ef7fd31b8022e101 1.
-
-<br>
-
-endColumns
-
-keyboardNav cupit-2.html cyphertext.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id cuscus
+appeared 2019
+type pl
+creators Mariana Marasoiu and Detlef Nauck and Alan F. Blackwell
+conceptDescription We present Cuscus, a tool for data visualisation that is informed by ethnographic fieldwork across different professional sectors. Cuscus allows end-users to create novel visualisations by defining visual properties in a spreadsheet. We also report on user studies in the contexts of data journalism and business analytics, and discuss further extensions to this new interaction paradigm.
+reference https://www.semanticscholar.org/paper/Cuscus%3A-An-End-User-Programming-Tool-for-Data-Marasoiu-Nauck/bdcea9a40abd143a1b53d702ef7fd31b8022e101
+country United Kingdom
+originCommunity University of Cambridge && Applied Research

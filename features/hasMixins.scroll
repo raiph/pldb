@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasMethods.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasModules.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/cython.html">Cython</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>:
  # https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
  class EssentialFunctioner(LoggerMixin, object):
 
@@ -41,7 +41,7 @@ codeWithHeader Example from <a href="../concepts/ruby.html">Ruby</a>:
  samp.a2
  samp.b1
 
-codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>:
+codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>:
  // https://www.typescriptlang.org/docs/handbook/mixins.html
  class SmartObject implements Disposable, Activatable {
  }
@@ -102,11 +102,9 @@ codeWithHeader Example from <a href="../concepts/scss.html">SCSS</a>:
    @include horizontal-list;
  }
 
-* Languages *with* Mixins include <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/sass.html">Sass</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/xtext.html">Xtext</a>, <a href="../concepts/scss.html">SCSS</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>
+* Languages *with* Mixins include <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/sass.html">Sass</a>, <a href="../concepts/xtext.html">Xtext</a>, <a href="../concepts/scss.html">SCSS</a>
 
 * Languages *without* Mixins include <a href="../concepts/css.html">CSS</a>
-
-* This question asks: Does the language allow including methods from a class without inheriting from that class?
 
 * Read more about Mixins on the web: 1.
  https://en.wikipedia.org/wiki/Mixin 1.

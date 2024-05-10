@@ -1,40 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PAMELA
+import ../measures/conceptPage.scroll
+id PAMELA
+appeared 1992
+type pl
+conceptDescription In this report we present a new methodology for the performance prediction of parallel programs on parallel platforms ranging from shared-memory to distributed-memory (vector) machines. The complete methodology comprises the concurrent language Pamela (PerformAnce ModEling LAnguage), the program and machine modeling paradigm, and a novel performance analysis method, called "serialization analysis". While Pamela models can be directly executed (i.e., simulated), prior to this ultimate evaluation step, serialization analysis allows for (symbolic) model reduction, which often renders simulation superuous. This analysis method extends conventional parallel program analysis technology by explicitly accounting for the performance degrading eects of resource contention, yet at the low evaluation cost, typical for conventional techniques. It is shown that, where application of conventional techniques may yield serious errors, predictions from serialization analysis remain accurate. Apart from the modeling methodology itself, this low-cost/high-reliability analysis potential makes Pamela a particularly suitable candidate for compile-time application in terms of the performance prediction hierarchy often found in parallel programming environments.
+reference http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.12.9900&rep=rep1&type=pdf
+reference https://dl.acm.org/doi/10.1145/165939.166002
+country The Netherlands
+originCommunity Delft University of Technology
 
-title PAMELA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5099
 
-html
- <a class="trueBaseThemePreviousItem" href="oasis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rsl.html">&gt;</a>
+wordRank 8220
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pamela.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pamela" class="material-symbols-outlined">edit</a></div>
-
-* PAMELA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #2990 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 32 Years Old
-
-* In this report we present a new methodology for the performance prediction of parallel programs on parallel platforms ranging from shared-memory to distributed-memory (vector) machines. The complete methodology comprises the concurrent language Pamela (PerformAnce ModEling LAnguage), the program and machine modeling paradigm, and a novel performance analysis method, called "serialization analysis". While Pamela models can be directly executed (i.e., simulated), prior to this ultimate evaluation step, serialization analysis allows for (symbolic) model reduction, which often renders simulation superuous. This analysis method extends conventional parallel program analysis technology by explicitly accounting for the performance degrading eects of resource contention, yet at the low evaluation cost, typical for conventional techniques. It is shown that, where application of conventional techniques may yield serious errors, predictions from serialization analysis remain accurate. Apart from the modeling methodology itself, this low-cost/high-reliability analysis potential makes Pamela a particularly suitable candidate for compile-time application in terms of the performance prediction hierarchy often found in parallel programming environments.
-
-- PAMELA first developed in <a href="../lists/originCommunities.html#delftUniversityOfTechnology">Delft University of Technology</a>
-- PAMELA on HOPL
- https://hopl.info/showlanguage.prx?exp=5099
-- Read more about PAMELA on the web: 1. 2.
- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.12.9900&rep=rep1&type=pdf 1.
- https://dl.acm.org/doi/10.1145/165939.166002 2.
-
-<br>
-
-endColumns
-
-keyboardNav oasis.html rsl.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1993|Performance prediction of parallel processing systems: the PAMELA methodology|10.1145/165939.166002|112|3|A. V. Gemund|33e380c38a45918c483c5e9c6ae7410f040db391

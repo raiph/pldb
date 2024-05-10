@@ -1,40 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tosh
+import ../measures/conceptPage.scroll
+id Tosh
+appeared 2015
+type pl
+website https://tosh.blob.codes/
+domainName tosh.blob.codes
 
-title Tosh - Programming language
- hidden
+githubRepo https://github.com/tjvr/tosh2
+ firstCommit 2017
+ stars 63
+ forks 10
+ subscribers 15
+ created 2017
+ updated 2022
+ description text-based Scratch project editor, Take Two.
+ issues 10
 
-html
- <a class="trueBaseThemePreviousItem" href="tasm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="text-executive-programming-language.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 90
+ committers 5
+ files 31
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tosh.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tosh.blob.codes/" class="material-symbols-outlined">home</a> <a href="https://github.com/tjvr/tosh2" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tosh" class="material-symbols-outlined">edit</a></div>
-
-* Tosh is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/tjvr/tosh2
-
-dashboard
- #2055 <span title="TotalRank: 2585 Jobs: 103 Users: 1496 Facts: 1787 Links: 986">on PLDB</span>
- 9 Years Old
-
-* text-based Scratch project editor, Take Two.
-
-- Tosh website
- https://tosh.blob.codes/
-- Tosh is developed on <a href="https://github.com/tjvr/tosh2">GitHub</a> and has 63 stars
-
-<br>
-
-endColumns
-
-keyboardNav tasm.html text-executive-programming-language.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,214 +1,193 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AMPL
+import ../measures/conceptPage.scroll
+id AMPL
+appeared 1985
+type pl
+creators Robert Fourer and David Gay and Brian Kernighan
+website https://ampl.com/
+documentation https://ampl.com/learn/docs/
+standsFor A Mathematical Programming Language
+country United States
+originCommunity AMPL Optimization LLC
+domainName ampl.com
+ registered 1995
+ awisRank
+  2022 971333
 
-title AMPL - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
+hasAssignment true
+hasFloats true
+ # (\d+\.(?!\.)\d*|\.(?!.)\d+)([eE][+-]?\d+)?
+hasIntegers true
+ # \d+([eE][+-]?\d+)?
+hasMultiLineComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="protobuf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flex.html">&gt;</a>
+lineCommentToken #
+assignmentToken :=
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ampl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ampl.com/" class="material-symbols-outlined">home</a> <a href="https://ampl.com/learn/docs/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/AMPL"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/amplopt"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=ampl" class="material-symbols-outlined">edit</a></div>
-
-* AMPL, aka A Mathematical Programming Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985 by Robert Fourer and David Gay and Brian Kernighan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#robertFourer Robert Fourer
- link ../lists/creators.html#davidGay David Gay
- link ../lists/creators.html#brianKernighan Brian Kernighan
-
-dashboard
- #140 <span title="TotalRank: 406 Jobs: 96 Users: 639 Facts: 103 Links: 207">on PLDB</span>
- 39 Years Old
- 6k <span title="AMPL repos on GitHub.">Repos</span>
-
-* A Mathematical Programming Language (AMPL) is an algebraic modeling language to describe and solve high-complexity problems for large-scale mathematical computing (i.e., large-scale optimization and scheduling-type problems). It was developed by Robert Fourer, David Gay, and Brian Kernighan at Bell Laboratories. AMPL supports dozens of solvers, both open source and commercial software, including CBC, CPLEX, FortMP, Gurobi, MINOS, IPOPT, SNOPT, KNITRO, and LGO. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/AMPL Read more on Wikipedia...
-
-- AMPL website
- https://ampl.com/
-- AMPL Wikipedia page
- https://en.wikipedia.org/wiki/AMPL
-- AMPL docs
- https://ampl.com/learn/docs/
-- There are at least 5,570 AMPL repos on <a href="https://github.com/search?q=language:AMPL">GitHub</a>
-- AMPL first developed in <a href="../lists/originCommunities.html#amplOptimizationLlc">AMPL Optimization LLC</a>
-- file extensions for AMPL include ampl, mod, run and dat
-- AMPL on Twitter
- https://twitter.com/amplopt
-- The  Google BigQuery Public Dataset GitHub snapshot shows 806 users using AMPL in 852 repos on <a href="https://api.github.com/search/repositories?q=language:AMPL">GitHub</a>
-- Explore AMPL snippets on <a href="http://www.rosettacode.org/wiki/Category:AMPL">Rosetta Code</a>
-- AMPL on HOPL
- https://hopl.info/showlanguage.prx?exp=7232
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ampl.py">syntax highlighting</a> for AMPL
-- GitHub supports <a href="https://github.com/ampl/sublime-ampl" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for AMPL
-- Events page for AMPL
- https://ampl.com/about/upcoming-events/
-- Frequently Asked Questions for AMPL
- https://ampl.com/learn/docs/faqs/
-- Indeed.com has 3 matches for <a href="https://www.indeed.com/jobs?q=ampl developer">"ampl developer"</a>.
-- <a href="https://ampl.com/">ampl.com</a> was registered in 1995
-- See also: (8 related languages)<a href="linux.html">Linux</a>, <a href="unix.html">Unix</a>, <a href="awk.html">awk</a>, <a href="c.html">C</a>, <a href="algebraic-modeling-language.html">Algebraic modeling language</a>, <a href="nl.html">NL</a>, <a href="xml.html">XML</a>, <a href="excel-app.html">Microsoft Excel</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  set PROD;  # products
  
- param rate {PROD} &gt; 0;     # tons produced per hour
- param avail &gt;= 0;          # hours available in week
+ param rate {PROD} > 0;     # tons produced per hour
+ param avail >= 0;          # hours available in week
  
  param profit {PROD};       # profit per ton
- param market {PROD} &gt;= 0;  # limit on tons sold in week
+ param market {PROD} >= 0;  # limit on tons sold in week
  
- var Make {p in PROD} &gt;= 0, &lt;= market[p]; # tons produced
+ var Make {p in PROD} >= 0, <= market[p]; # tons produced
  
  maximize Total_Profit: sum {p in PROD} profit[p] * Make[p];
  
                 # Objective: total profits from all products
  
- subject to Time: sum {p in PROD} (1/rate[p]) * Make[p] &lt;= avail;
+ subject to Time: sum {p in PROD} (1/rate[p]) * Make[p] <= avail;
  
                 # Constraint: total of hours used by all
                 # products may not exceed hours available
 
-codeWithHeader Example from <a href='https://github.com/ampl/sublime-ampl'>Linguist</a>:
- # A toy knapsack problem from the LocalSolver docs written in AMPL.
- 
- set I;
- param Value{I};
- param Weight{I};
- param KnapsackBound;
- var Take{I} binary;
- 
- maximize TotalValue: sum{i in I} Take[i] * Value[i];
- s.t. WeightLimit: sum{i in I} Take[i] * Weight[i] &lt;= KnapsackBound;
- 
- data;
- 
- param:
- I: Weight Value :=
- 0    10     1
- 1    60    10
- 2    30    15
- 3    40    40
- 4    30    60
- 5    20    90
- 6    20   100
- 7     2    15;
- 
- param KnapsackBound := 102;
- 
+wikipedia https://en.wikipedia.org/wiki/AMPL
+ example
+  set Plants;
+   set Markets;
+  
+   # Capacity of plant p in cases
+   param Capacity{p in Plants};
+  
+   # Demand at market m in cases
+   param Demand{m in Markets};
+  
+   # Distance in thousands of miles
+   param Distance{Plants, Markets};
+  
+   # Freight in dollars per case per thousand miles
+   param Freight;
+  
+   # Transport cost in thousands of dollars per case
+   param TransportCost{p in Plants, m in Markets} :=
+       Freight * Distance[p, m] / 1000;
+  
+   # Shipment quantities in cases
+   var shipment{Plants, Markets} >= 0;
+  
+   # Total transportation costs in thousands of dollars
+   minimize cost:
+       sum{p in Plants, m in Markets} TransportCost[p, m] * shipment[p, m];
+  
+   # Observe supply limit at plant p
+   s.t. supply{p in Plants}: sum{m in Markets} shipment[p, m] <= Capacity[p];
+  
+   # Satisfy demand at market m
+   s.t. demand{m in Markets}: sum{p in Plants} shipment[p, m] >= Demand[m];
+  
+   data;
+  
+   set Plants := seattle san-diego;
+   set Markets := new-york chicago topeka;
+  
+   param Capacity :=
+       seattle   350
+       san-diego 600;
+  
+   param Demand :=
+       new-york 325
+       chicago  300
+       topeka   275;
+  
+   param Distance : new-york chicago topeka :=
+       seattle        2.5      1.7     1.8
+       san-diego      2.5      1.8     1.4;
+  
+   param Freight := 90;
+ related linux unix awk c algebraic-modeling-language nl xml excel-app
+ summary A Mathematical Programming Language (AMPL) is an algebraic modeling language to describe and solve high-complexity problems for large-scale mathematical computing (i.e., large-scale optimization and scheduling-type problems). It was developed by Robert Fourer, David Gay, and Brian Kernighan at Bell Laboratories. AMPL supports dozens of solvers, both open source and commercial software, including CBC, CPLEX, FortMP, Gurobi, MINOS, IPOPT, SNOPT, KNITRO, and LGO. Problems are passed to solvers as nl files. AMPL is used by more than 100 corporate clients, and by government agencies and academic institutions. One advantage of AMPL is the similarity of its syntax to the mathematical notation of optimization problems. This allows for a very concise and readable definition of problems in the domain of optimization. Many modern solvers available on the NEOS Server (formerly hosted at the Argonne National Laboratory, currently hosted at the University of Wisconsin, Madison) accept AMPL input. According to the NEOS statistics AMPL is the most popular format for representing mathematical programming problems.
+ pageId 1076270
+ dailyPageViews 109
+ created 2004
+ backlinksCount 133
+ revisionCount 237
+ appeared 1985
+ fileExtensions mod dat run
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/AMPL'>Wikipedia</a>:
- set Plants;
-  set Markets;
- 
-  # Capacity of plant p in cases
-  param Capacity{p in Plants};
- 
-  # Demand at market m in cases
-  param Demand{m in Markets};
- 
-  # Distance in thousands of miles
-  param Distance{Plants, Markets};
- 
-  # Freight in dollars per case per thousand miles
-  param Freight;
- 
-  # Transport cost in thousands of dollars per case
-  param TransportCost{p in Plants, m in Markets} :=
-      Freight * Distance[p, m] / 1000;
- 
-  # Shipment quantities in cases
-  var shipment{Plants, Markets} &gt;= 0;
- 
-  # Total transportation costs in thousands of dollars
-  minimize cost:
-      sum{p in Plants, m in Markets} TransportCost[p, m] * shipment[p, m];
- 
-  # Observe supply limit at plant p
-  s.t. supply{p in Plants}: sum{m in Markets} shipment[p, m] &lt;= Capacity[p];
- 
-  # Satisfy demand at market m
-  s.t. demand{m in Markets}: sum{p in Plants} shipment[p, m] &gt;= Demand[m];
- 
+githubLanguage AMPL
+ fileExtensions ampl mod
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.ampl
+ repos 5570
+githubBigQuery AMPL
+ repos 852
+ users 806
+
+pygmentsHighlighter Ampl
+ filename ampl.py
+ fileExtensions run
+linguistGrammarRepo https://github.com/ampl/sublime-ampl
+ firstCommit 2013
+ lastCommit 2013
+ committerCount 2
+ commitCount 12
+ sampleCount 2
+ example
+  # A toy knapsack problem from the LocalSolver docs written in AMPL.
+  
+  set I;
+  param Value{I};
+  param Weight{I};
+  param KnapsackBound;
+  var Take{I} binary;
+  
+  maximize TotalValue: sum{i in I} Take[i] * Value[i];
+  s.t. WeightLimit: sum{i in I} Take[i] * Weight[i] <= KnapsackBound;
+  
   data;
- 
-  set Plants := seattle san-diego;
-  set Markets := new-york chicago topeka;
- 
-  param Capacity :=
-      seattle   350
-      san-diego 600;
- 
-  param Demand :=
-      new-york 325
-      chicago  300
-      topeka   275;
- 
-  param Distance : new-york chicago topeka :=
-      seattle        2.5      1.7     1.8
-      san-diego      2.5      1.8     1.4;
- 
-  param Freight := 90;
+  
+  param:
+  I: Weight Value :=
+  0    10     1
+  1    60    10
+  2    30    15
+  3    40    40
+  4    30    60
+  5    20    90
+  6    20   100
+  7     2    15;
+  
+  param KnapsackBound := 102;
+  
 
-endColumns
+rosettaCode http://www.rosettacode.org/wiki/Category:AMPL
 
-## Language <a href="../lists/features.html">features</a>
+indeedJobs ampl developer
+ 2022 3
+eventsPageUrl https://ampl.com/about/upcoming-events/
+faqPageUrl https://ampl.com/learn/docs/faqs/
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # \d+([eE][+-]?\d+)?
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # (\d+\.(?!\.)\d*|\.(?!.)\d+)([eE][+-]?\d+)?
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token :=
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+hopl https://hopl.info/showlanguage.prx?exp=7232
 
-keyboardNav protobuf.html flex.html
+twitter https://twitter.com/amplopt
+fileType text
+isOpenSource false
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Ampl: A Modeling Language for Mathematical Programming|1993|Robert Fourer|2176571|4.00|17|0
+ AMPL: A modeling language for mathematical programming : with AMPL Plus student edition for Microsoft Windows|1997|Robert Fourer|3846900|0.0|0|0
+ Ampl: A Modeling Language for Mathematical Programming: With Ampl Plus Student Edition for Microsoft Windows|1997|Robert Fourer|20874764|0.0|0|0
+ Ampl: A Modeling Language for Math Programming Package (with User Guide)|1999|Robert Fourer|20874765|2.00|1|0
+ Ampl: A Molding Language for Mathematical Programming/Book & IBM 5 1/4 Disk|1991|Robert Fourer|2247991|0.0|0|0
+ Mathematical Optimization Software: Mathematica, General Algebraic Modeling System, Propt, Ioso, Mps, Ampl, Apmonitor, Tomsym, Worhp, Dido|2011|Source Wikipedia|15185414|0.0|0|0
+
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 1997|Cengage Learning|AMPL: A Modeling Language for Mathematical Programming (with AMPL Plus Student Edition for Microsoft Windows) (The Scientific Press Series)|Fourer, Robert and Gay, David M. and Kernighan, Brian W.|9780894262326
+ 1997-01-13T00:00:01Z|Cengage Learning|AMPL: A Modeling Language for Mathematical Programming (with AMPL Plus Student Edition for Microsoft Windows) (The Scientific Press Series)|Fourer, Robert and Gay, David M. and Kernighan, Brian W.|9780534509835
+
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1996|DIY DEA: Implementing data envelopment analysis in the mathematical programming language AMPL|10.1016/0305-0483(96)00003-5|8|0|R. Green|2a84d88be4d3283124da624af001a3f0c4c01885
+ 1984|Loslan implementation of the AMPL message-passing system|10.1145/948596.948600|2|0|J. Milewski|7c0626677098596348ea9d02ad5f569a7aa2e19d

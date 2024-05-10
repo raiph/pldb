@@ -1,65 +1,49 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hodor
+import ../measures/conceptPage.scroll
+id Hodor
+appeared 2015
+type esolang
+creators Drew Morris
+conceptDescription Using jumbled permutations of the word "hodor" over and over again we have simplified programming syntax to make it easier than ever before.
+website http://www.hodor-lang.org/
+country United States
+originCommunity https://github.com/hummingbirdtech
+domainName hodor-lang.org
+ registered 2021
 
-title Hodor - Esoteric programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="newsqueak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="coco.html">&gt;</a>
+printToken hodor.hod
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hodor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.hodor-lang.org/" class="material-symbols-outlined">home</a> <a href="hodor" class="material-symbols-outlined">terminal</a> <a href="https://github.com/hummingbirdtech/hodor" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hodor" class="material-symbols-outlined">edit</a></div>
-
-* Hodor is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2015 by Drew Morris.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#drewMorris Drew Morris
-
-codeWithHeader Source code:
- git clone https://github.com/hummingbirdtech/hodor
-
-dashboard
- #1233 <span title="TotalRank: 1770 Jobs: 103 Users: 835 Facts: 832 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Try now: <a href="https://tio.run/#hodor">TIO</a>
-
-* Using jumbled permutations of the word "hodor" over and over again we have simplified programming syntax to make it easier than ever before.
-
-- Hodor website
- http://www.hodor-lang.org/
-- Hodor is developed on <a href="https://github.com/hummingbirdtech/hodor">GitHub</a> and has 323 stars
-- Hodor first developed in <a href="../lists/originCommunities.html#httpsGithubComHummingbirdtech">https://github.com/hummingbirdtech</a>
-- <a href="http://www.hodor-lang.org/">hodor-lang.org</a> was registered in 2021
-
-<br>
-
-codeWithHeader Example from the web:
+example
  $HODOR: hhodor? Hodor!? Hodor!? oHooodorrhodor orHodor!? d = HoDoRHoDoR () {
-  hodor.hod(&#39;Hhodor? Hodor!? Hodor!? o HODOR!? orHodor!? d!&#39;);
+  hodor.hod('Hhodor? Hodor!? Hodor!? o HODOR!? orHodor!? d!');
  };
  
  hhodor? Hodor!? Hodor!? oHooodorrhodor orHodor!? d();
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/Hodor.hd'>hello-world</a>:
- hodor.hod(&#39;Hhodor? Hodor!? Hodor!? o, Hooodorrhodor orHodor!? d!&#39;);
+githubRepo https://github.com/hummingbirdtech/hodor
+ firstCommit 2015
+ stars 323
+ forks 29
+ subscribers 15
+ created 2015
+ updated 2022
+ description Official repo for the hodor-lang.org programming language
+ issues 3
 
-endColumns
+repoStats
+ firstCommit 2015
+ commits 25
+ committers 4
+ files 10
 
-## Language <a href="../lists/features.html">features</a>
+leachim6 Hodor
+ filepath h/Hodor.hd
+ fileExtensions hd
+ example
+  hodor.hod('Hhodor? Hodor!? Hodor!? o, Hooodorrhodor orHodor!? d!');
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token hodor.hod
-  Example
+tryItOnline hodor
 
-keyboardNav newsqueak.html coco.html
-
-import ../footer.scroll
+isOpenSource true
+centralPackageRepositoryCount 0

@@ -1,83 +1,72 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Caché Basic
+import ../measures/conceptPage.scroll
+id Caché Basic
+appeared 1997
+type queryLanguage
+conceptDescription Caché is a high-performance object database with several built-in general-purpose programming languages. It supports multiple processes and provides concurrency control. Each process has direct, efficient access to the data.
+reference https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TBAS_ARoutine
+country United States
+originCommunity InterSystems Corporation
 
-title Caché Basic - Query language
- hidden
+hasLineComments true
+ ' A comment
+hasComments true
+ ' A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="smt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="comby.html">&gt;</a>
+lineCommentToken '
+printToken println
+booleanTokens True False
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cache-basic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cache-basic" class="material-symbols-outlined">edit</a></div>
-
-* Caché Basic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #896 <span title="TotalRank: 1459 Jobs: 103 Users: 2838 Facts: 370 Links: 986">on PLDB</span>
- 27 Years Old
-
-* Caché is a high-performance object database with several built-in general-purpose programming languages. It supports multiple processes and provides concurrency control. Each process has direct, efficient access to the data.
-
-- Caché Basic first developed in <a href="../lists/originCommunities.html#interSystemsCorporation">InterSystems Corporation</a>
-- Read more about Caché Basic on the web: 1.
- https://docs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=TBAS_ARoutine 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &#39; RightTriangle compute area and hypotenuse of a right triangle
- &#39; this routine contains examples of Cache Basic features */
+example
+ ' RightTriangle compute area and hypotenuse of a right triangle
+ ' this routine contains examples of Cache Basic features */
   
  Sub Run() 
- println &quot;Compute the area and hypotenuse of a right triangle&quot;
- println &quot;given the lengths of its two sides.&quot;    
+ println "Compute the area and hypotenuse of a right triangle"
+ println "given the lengths of its two sides."    
  println
- println &quot;First, choose a unit of measurement. &quot; 
- input &quot;(i)nches, (f)eet, (m)iles, &quot; _
-       , &quot;(c)entimeters, m(e)ters, (k)ilometers: &quot;, units
+ println "First, choose a unit of measurement. " 
+ input "(i)nches, (f)eet, (m)iles, " _
+       , "(c)entimeters, m(e)ters, (k)ilometers: ", units
  println
- &#39; translate units to a full word
+ ' translate units to a full word
  select case left(units, 1)
-     case &quot;i&quot; units = &quot;inches&quot;
-     case &quot;f&quot; units = &quot;feet&quot;
-     case &quot;m&quot; units = &quot;miles&quot;
-     case &quot;c&quot; units = &quot;centimeters&quot;
-     case &quot;e&quot; units = &quot;meters&quot;
-     case &quot;k&quot; units = &quot;kilometers&quot;
-     case else units = &quot;units&quot;
+     case "i" units = "inches"
+     case "f" units = "feet"
+     case "m" units = "miles"
+     case "c" units = "centimeters"
+     case "e" units = "meters"
+     case "k" units = "kilometers"
+     case else units = "units"
  end select
   
  do
      println
-     input &quot;Length of side 1: &quot;, side1
-     if (side1) = &quot;&quot; then exit do
+     input "Length of side 1: ", side1
+     if (side1) = "" then exit do
  loop while IsNegative( side1 )
- if (side1 = &quot;&quot;) then exit sub
+ if (side1 = "") then exit sub
   
  do
      println
-     input &quot;Length of side 2: &quot;, side2
-     if (side2) = &quot;&quot; then exit do
+     input "Length of side 2: ", side2
+     if (side2) = "" then exit do
  loop while IsNegative( side2 )
- if (side2 = &quot;&quot;) then exit sub
+ if (side2 = "") then exit sub
   
  Compute(units, side1, side2)
  end sub
   
  public function IsNegative(ByVal num As %String) As %Boolean
- &#39; is num negative?
-     &#39; check in range &quot;1&quot; through &quot;9&quot;
-     if (num &lt; chr(49)) or (num &gt; chr(57)) then
-         print &quot;  Enter a positive number.&quot; 
+ ' is num negative?
+     ' check in range "1" through "9"
+     if (num < chr(49)) or (num > chr(57)) then
+         print "  Enter a positive number." 
          return True
      else
-         print &quot;  Accepted.&quot;
+         print "  Accepted."
          return False
      end if
  end function
@@ -85,55 +74,15 @@ codeWithHeader Example from the web:
  private function Compute(ByVal units As %String, _
                           ByVal A As %Integer, _
                           ByVal B As %Integer)
- &#39; compute and display area and hypotenuse
+ ' compute and display area and hypotenuse
   
  area  = round((( A * B ) / 2), 2)
  hypot = round(sqr(( A ^ 2 ) + ( B ^ 2 )), 2)
    
  println : println
- println &quot;The area of this triangle is &quot;, area, &quot; square &quot;, units, &quot;.&quot;
+ println "The area of this triangle is ", area, " square ", units, "."
  println
- println &quot;The hypotenuse is &quot;, hypot, &quot; &quot;, units, &quot;.&quot;
+ println "The hypotenuse is ", hypot, " ", units, "."
  end function
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token True False
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ' A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   ' A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav smt.html comby.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

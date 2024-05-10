@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ELLPACK
+import ../measures/conceptPage.scroll
+id ELLPACK
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/5f2f5231986487943b25266a308b1bc73e68ab19
+country United States
+originCommunity Purdue University
 
-title ELLPACK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6930
 
-html
- <a class="trueBaseThemePreviousItem" href="elegant.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emma.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ellpack.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ellpack" class="material-symbols-outlined">edit</a></div>
-
-* ELLPACK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #4132 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- ELLPACK first developed in <a href="../lists/originCommunities.html#purdueUniversity">Purdue University</a>
-- ELLPACK on HOPL
- https://hopl.info/showlanguage.prx?exp=6930
-- Read more about ELLPACK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5f2f5231986487943b25266a308b1bc73e68ab19 1.
-
-<br>
-
-endColumns
-
-keyboardNav elegant.html emma.html
-
-import ../footer.scroll
+isbndb 0

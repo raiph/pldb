@@ -1,40 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hasklig
+import ../measures/conceptPage.scroll
+id hasklig
+appeared 2012
+type font
+creators Ryan Stewart
+conceptDescription a code font with monospaced ligatures
+country Finland
+originCommunity https://github.com/i-tu/Hasklig/issues
 
-title hasklig - Font
- hidden
+githubRepo https://github.com/i-tu/Hasklig
+ firstCommit 2012
+ stars 5266
+ forks 160
+ subscribers 77
+ created 2014
+ updated 2022
+ description Hasklig - a code font with monospaced ligatures
+ issues 42
 
-html
- <a class="trueBaseThemePreviousItem" href="skulpt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shaderlab.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 557
+ committers 59
+ files 47313
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hasklig.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/i-tu/Hasklig" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hasklig" class="material-symbols-outlined">edit</a></div>
-
-* hasklig is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+font">font</a> created in 2012 by Ryan Stewart.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#ryanStewart Ryan Stewart
-
-codeWithHeader Source code:
- git clone https://github.com/i-tu/Hasklig
-
-dashboard
- #709 <span title="TotalRank: 1273 Jobs: 103 Users: 184 Facts: 1591 Links: 986">on PLDB</span>
- 12 Years Old
-
-* a code font with monospaced ligatures
-
-- hasklig is developed on <a href="https://github.com/i-tu/Hasklig">GitHub</a> and has 5,266 stars
-- hasklig first developed in <a href="../lists/originCommunities.html#httpsGithubComITuHaskligIssues">https://github.com/i-tu/Hasklig/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav skulpt.html shaderlab.html
-
-import ../footer.scroll
+semanticScholar 0

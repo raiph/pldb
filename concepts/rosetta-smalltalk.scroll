@@ -1,42 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Rosetta SMALLTALK
+import ../measures/conceptPage.scroll
+id Rosetta SMALLTALK
+appeared 1979
+type pl
+creators Scott Warren
+reference https://semanticscholar.org/paper/266262bd1e882fc5aa4207cdbea493aa2eda3af6
+reference https://archive.org/details/RosettaBrochure/RosettaBrochure/mode/1up
+country United States
+originCommunity Rosetta
 
-title Rosetta SMALLTALK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7599
 
-html
- <a class="trueBaseThemePreviousItem" href="report-writer-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="s-snobol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rosetta-smalltalk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rosetta-smalltalk" class="material-symbols-outlined">edit</a></div>
-
-* Rosetta SMALLTALK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979 by Scott Warren.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
- link ../lists/creators.html#scottWarren Scott Warren
-
-dashboard
- #3128 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- Rosetta SMALLTALK first developed in <a href="../lists/originCommunities.html#rosetta">Rosetta</a>
-- Rosetta SMALLTALK on HOPL
- https://hopl.info/showlanguage.prx?exp=7599
-- Read more about Rosetta SMALLTALK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/266262bd1e882fc5aa4207cdbea493aa2eda3af6 1.
-- Read more about Rosetta SMALLTALK on the web: 1.
- https://archive.org/details/RosettaBrochure/RosettaBrochure/mode/1up 1.
-
-<br>
-
-endColumns
-
-keyboardNav report-writer-language.html s-snobol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

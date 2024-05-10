@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WebGPU Shading Language
+import ../measures/conceptPage.scroll
+id WebGPU Shading Language
+appeared 2020
+type pl
+reference https://gpuweb.github.io/gpuweb/wgsl.html
 
-title WebGPU Shading Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="unql-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xe.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wgsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wgsl" class="material-symbols-outlined">edit</a></div>
-
-* WebGPU Shading Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #3044 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 4 Years Old
-
-* 
-
-- Read more about WebGPU Shading Language on the web: 1.
- https://gpuweb.github.io/gpuweb/wgsl.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
- [[location 0]] var&lt;out&gt; gl_FragColor : vec4&lt;f32&gt;;
- fn main() -&gt; void {
-     gl_FragColor = vec4&lt;f32&gt;(0.4, 0.4, 0.8, 1.0);
+example
+ [[location 0]] var<out> gl_FragColor : vec4<f32>;
+ fn main() -> void {
+     gl_FragColor = vec4<f32>(0.4, 0.4, 0.8, 1.0);
      return;
  }
  entry_point fragment = main;
 
-endColumns
-
-keyboardNav unql-lang.html xe.html
-
-import ../footer.scroll
+semanticScholar 0

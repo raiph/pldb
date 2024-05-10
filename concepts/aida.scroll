@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AIDA
+import ../measures/conceptPage.scroll
+id AIDA
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/16c84df489224ba91ebae8ab89111fdecac5daf5
+originCommunity IP Sharp AG
 
-title AIDA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1195
 
-html
- <a class="trueBaseThemePreviousItem" href="agl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="akl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aida.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aida" class="material-symbols-outlined">edit</a></div>
-
-* AIDA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3336 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- AIDA first developed in <a href="../lists/originCommunities.html#ipSharpAg">IP Sharp AG</a>
-- AIDA on HOPL
- https://hopl.info/showlanguage.prx?exp=1195
-- Read more about AIDA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/16c84df489224ba91ebae8ab89111fdecac5daf5 1.
-
-<br>
-
-endColumns
-
-keyboardNav agl.html akl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

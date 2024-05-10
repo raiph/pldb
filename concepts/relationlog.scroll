@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Relationlog
+import ../measures/conceptPage.scroll
+id Relationlog
+appeared 2001
+type pl
+reference https://semanticscholar.org/paper/f116f44111bc612531792a2ab4267adb7e2c21b8
+country Canada
+originCommunity University of Regina
 
-title Relationlog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7143
 
-html
- <a class="trueBaseThemePreviousItem" href="regent.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="relfun.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/relationlog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=relationlog" class="material-symbols-outlined">edit</a></div>
-
-* Relationlog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3980 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- Relationlog first developed in <a href="../lists/originCommunities.html#universityOfRegina">University of Regina</a>
-- Relationlog on HOPL
- https://hopl.info/showlanguage.prx?exp=7143
-- Read more about Relationlog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f116f44111bc612531792a2ab4267adb7e2c21b8 1.
-
-<br>
-
-endColumns
-
-keyboardNav regent.html relfun.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

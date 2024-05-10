@@ -1,141 +1,127 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title J
+import ../measures/conceptPage.scroll
+id J
+appeared 1990
+type pl
+creators Kenneth E. Iverson and Roger Hui
+website http://www.jsoftware.com
+documentation https://www.jsoftware.com/help/learning/contents.htm
+reference https://aplwiki.com/wiki/Jsoftware
+country United States
+originCommunity Jsoftware Inc
+domainName jsoftware.com
+ registered 1996
+ awisRank
+  2022 2232128
 
-title J - Programming language
- hidden
+visualParadigm false
 
-html
- <a class="trueBaseThemePreviousItem" href="reverse-polish-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ballerina.html">&gt;</a>
+hasComments true
+hasLineComments true
+ NB. A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ 'Hello world'
+hasFloats true
+ NB. _?\d+\.(?=\d+)
+hasIntegers true
+ NB. _?\d+
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/j.pldb
+lineCommentToken NB.
+printToken echo
+stringToken '
 
-startColumns 4
+gource https://www.youtube.com/watch?v=DJyQnlVf95E
+githubRepo https://github.com/jsoftware/jsource
+ firstCommit 2016
+ stars 536
+ forks 72
+ subscribers 38
+ created 2016
+ updated 2022
+ description J engine source mirror
+ issues 125
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.jsoftware.com" class="material-symbols-outlined">home</a> <a href="https://riju.codes/j" class="material-symbols-outlined">terminal</a> <a href="https://github.com/jsoftware/jsource" class="material-symbols-outlined">code</a> <a href="https://www.jsoftware.com/help/learning/contents.htm" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/J_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=j" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2016
+ commits 4574
+ committers 11
+ files 1177
 
-* J is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990 by Kenneth E. Iverson and Roger Hui.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
- link ../lists/creators.html#kennethEIverson Kenneth E. Iverson
- link ../lists/creators.html#rogerHui Roger Hui
+wikipedia https://en.wikipedia.org/wiki/J_(programming_language)
+ example
+  3 |. 1 0 1 1 0 0 1 1 1 1 1             NB. rotate
+  1 0 0 1 1 1 1 1 1 0 1
+ related linux apl fp fl numpy supercollider ascii unix sql c unicode k q
+ summary The J programming language, developed in the early 1990s by Kenneth E. Iverson and Roger Hui, is a synthesis of APL (also by Iverson) and the FP and FL function-level languages created by John Backus. To avoid repeating the APL special-character problem, J uses only the basic ASCII character set, resorting to the use of the dot and colon as inflections to form short words similar to digraphs. Most such "primary" (or "primitive") J words serve as mathematical symbols, with the dot or colon extending the meaning of the basic characters available. Also, many characters which in other languages often must be paired (such as [] {} "" `` or <>) are treated by J as stand-alone words or, when inflected, as single-character roots of multi-character words. J is a very terse array programming language, and is most suited to mathematical and statistical programming, especially when performing operations on matrices. It has also been used in extreme programming and network performance analysis. Like the original FP/FL languages, J supports function-level programming via its tacit programming features. Unlike most languages that support object-oriented programming, J's flexible hierarchical namespace scheme (where every name exists in a specific locale) can be effectively used as a framework for both class-based and prototype-based object-oriented programming. Since March 2011, J is free and open-source software under the GPLv3 license. One may also purchase source under a negotiated license.
+ pageId 73227
+ dailyPageViews 561
+ created 2002
+ backlinksCount 196
+ revisionCount 498
+ appeared 1990
 
-codeWithHeader Source code:
- git clone https://github.com/jsoftware/jsource
+githubLanguage J
+ fileExtensions ijs
+ trendingProjectsCount 0
+ type programming
+ interpreters jconsole
+ aceMode text
+ tmScope source.j
+ repos 468
+githubBigQuery J
+ repos 151
+ users 124
 
-dashboard
- #173 <span title="TotalRank: 483 Jobs: 103 Users: 241 Facts: 232 Links: 148">on PLDB</span>
- 34 Years Old
- 468 <span title="J repos on GitHub.">Repos</span>
+pygmentsHighlighter J
+ filename j.py
+ fileExtensions ijs
+linguistGrammarRepo https://github.com/tikkanz/JSyntax
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 4
+ commitCount 43
+ sampleCount 2
+ example
+  #!/bin/jconsole
+  echo 'Hello, GitHub!'
+  exit ''
+  
 
-* Try now: <a href="https://riju.codes/j">Riju</a> · <a href="https://tio.run/#j">TIO</a>
-
-* The J programming language, developed in the early 1990s by Kenneth E. Iverson and Roger Hui, is a synthesis of APL (also by Iverson) and the FP and FL function-level languages created by John Backus. To avoid repeating the APL special-character problem, J uses only the basic ASCII character set, resorting to the use of the dot and colon as inflections to form short words similar to digraphs. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/J_(programming_language) Read more on Wikipedia...
-
-- J website
- http://www.jsoftware.com
-- J Wikipedia page
- https://en.wikipedia.org/wiki/J_(programming_language)
-- J is developed on <a href="https://github.com/jsoftware/jsource">GitHub</a> and has 536 stars
-- Watch the history of <a href="https://www.youtube.com/watch?v=DJyQnlVf95E">the J repo visualized with Gource</a>
-- J docs
- https://www.jsoftware.com/help/learning/contents.htm
-- There are at least 468 J repos on <a href="https://github.com/search?q=language:J">GitHub</a>
-- J first developed in <a href="../lists/originCommunities.html#jsoftwareInc">Jsoftware Inc</a>
-- file extensions for J include ijs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 124 users using J in 151 repos on <a href="https://api.github.com/search/repositories?q=language:J">GitHub</a>
-- There are 2,478 <a href="https://projecteuler.net/language=APL/J/K">Project Euler</a> users using J
-- Explore J snippets on <a href="http://www.rosettacode.org/wiki/Category:J">Rosetta Code</a>
-- J on HOPL
- https://hopl.info/showlanguage.prx?exp=1558
-- J appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/j.py">syntax highlighting</a> for J
-- GitHub supports <a href="https://github.com/tikkanz/JSyntax" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for J
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/martin-saurer/jkernel">Kernel</a> for J
-- <a href="http://www.jsoftware.com">jsoftware.com</a> was registered in 1996
-- See also: (13 related languages)<a href="linux.html">Linux</a>, <a href="apl.html">APL</a>, <a href="fp.html">FP</a>, <a href="fl.html">FL</a>, <a href="numpy.html">NumPy</a>, <a href="supercollider.html">SuperCollider</a>, <a href="ascii.html">ASCII</a>, <a href="unix.html">Unix</a>, <a href="sql.html">SQL</a>, <a href="c.html">C</a>, <a href="unicode.html">Unicode</a>, <a href="k.html">K</a>, <a href="q.html">Q</a>
-- Read more about J on the web: 1.
- https://aplwiki.com/wiki/Jsoftware 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/j'>Riju</a>:
- echo &#39;Hello, world!&#39;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/j/J.ijs'>hello-world</a>:
- #!/opt/local/bin/jc
- echo &#39;Hello World&#39;
- exit &#39;&#39;
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#J'>the Hello World Collection</a>:
+projectEuler APL/J/K
+ memberCount
+  2022 2478
+  2019 332
+helloWorldCollection J
  NB. Hello World in J
- &#39;Hello World&#39; 1!:2(2)
+ 'Hello World' 1!:2(2)
+leachim6 J
+ filepath j/J.ijs
+ fileExtensions ijs
+ example
+  #!/opt/local/bin/jc
+  echo 'Hello World'
+  exit ''
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:J
 
-codeWithHeader Example from <a href='https://github.com/tikkanz/JSyntax'>Linguist</a>:
- #!/bin/jconsole
- echo &#39;Hello, GitHub!&#39;
- exit &#39;&#39;
- 
+rijuRepl https://riju.codes/j
+ example
+  echo 'Hello, world!'
+  
+tryItOnline j
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/J_(programming_language)'>Wikipedia</a>:
- 3 |. 1 0 1 1 0 0 1 1 1 1 1             NB. rotate
- 1 0 0 1 1 1 1 1 1 0 1
+tiobe J
+hopl https://hopl.info/showlanguage.prx?exp=1558
 
-endColumns
+jupyterKernel https://github.com/martin-saurer/jkernel
+fileType text
+wordRank 417
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 1
+ year|publisher|title|authors|isbn13
+ |Firewall|Programming In C [Paperback] [Jan 01, 2011] DIXIT J B| J. B. Dixit|9789380298399
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   NB. _?\d+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   NB. _?\d+\.(?=\d+)
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   'Hello world'
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token echo
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token NB.
-  Example
-   NB. A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav reverse-polish-notation.html ballerina.html
-
-import ../footer.scroll
+semanticScholar 0

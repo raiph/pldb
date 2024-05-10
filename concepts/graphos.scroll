@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GRAPHOS
+import ../measures/conceptPage.scroll
+id GRAPHOS
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/dc10c7ebb7f6122ef5f492f4a67585e89d6e28cf
+country Israel
+originCommunity Weizmann Institute of Science
 
-title GRAPHOS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7260
 
-html
- <a class="trueBaseThemePreviousItem" href="graphlog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="graqula.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/graphos.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=graphos" class="material-symbols-outlined">edit</a></div>
-
-* GRAPHOS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3704 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- GRAPHOS first developed in <a href="../lists/originCommunities.html#weizmannInstituteOfScience">Weizmann Institute of Science</a>
-- GRAPHOS on HOPL
- https://hopl.info/showlanguage.prx?exp=7260
-- Read more about GRAPHOS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/dc10c7ebb7f6122ef5f492f4a67585e89d6e28cf 1.
-
-<br>
-
-endColumns
-
-keyboardNav graphlog.html graqula.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

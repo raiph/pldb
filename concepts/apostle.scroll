@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APOSTLE
+import ../measures/conceptPage.scroll
+id APOSTLE
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/e80d54fe0e00c854a20a17b7980bd8c16ff56e0c
+country United Kingdom
+originCommunity Defence Research Agency
 
-title APOSTLE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7565
 
-html
- <a class="trueBaseThemePreviousItem" href="aplgol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="appl-a.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apostle.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=apostle" class="material-symbols-outlined">edit</a></div>
-
-* APOSTLE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3483 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- APOSTLE first developed in <a href="../lists/originCommunities.html#defenceResearchAgency">Defence Research Agency</a>
-- APOSTLE on HOPL
- https://hopl.info/showlanguage.prx?exp=7565
-- Read more about APOSTLE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e80d54fe0e00c854a20a17b7980bd8c16ff56e0c 1.
-
-<br>
-
-endColumns
-
-keyboardNav aplgol.html appl-a.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

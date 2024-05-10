@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Andorra-I
+import ../measures/conceptPage.scroll
+id Andorra-I
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/98420e3acbf22f8b392b74a90fae97d7e05ffb6b
+country Portugal and England
+originCommunity Universidade do Porto && SRI International && University of Bristol
 
-title Andorra-I - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4016
 
-html
- <a class="trueBaseThemePreviousItem" href="andante.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ans-mumps.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/andorra-i.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=andorra-i" class="material-symbols-outlined">edit</a></div>
-
-* Andorra-I is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3475 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Andorra-I first developed in <a href="../lists/originCommunities.html#universidadeDoPorto">Universidade do Porto</a> and <a href="../lists/originCommunities.html#sriInternational">SRI International</a> and <a href="../lists/originCommunities.html#universityOfBristol">University of Bristol</a>
-- Andorra-I on HOPL
- https://hopl.info/showlanguage.prx?exp=4016
-- Read more about Andorra-I on Semantic Scholar: 1.
- https://semanticscholar.org/paper/98420e3acbf22f8b392b74a90fae97d7e05ffb6b 1.
-
-<br>
-
-endColumns
-
-keyboardNav andante.html ans-mumps.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

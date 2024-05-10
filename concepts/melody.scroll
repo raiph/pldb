@@ -1,44 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Melody
+import ../measures/conceptPage.scroll
+id Melody
+appeared 2022
+type pl
+creators Yoav Lavi
+conceptDescription Melody - A language that compiles to regular expressions and aims to be more easily readable and maintainable
+website https://yoav-lavi.github.io/melody/book/
+reference https://reddit.com/r/ProgrammingLanguages/comments/stpvpn/melody_a_language_that_compiles_to_regular/
+country Israel
+originCommunity https://github.com/yoav-lavi/melody/issues
 
-title Melody - Programming language
- hidden
+githubRepo https://github.com/yoav-lavi/melody
+ firstCommit 2022
+ stars 3923
+ forks 58
+ subscribers 19
+ created 2022
+ updated 2022
+ description Melody is a language that compiles to regular expressions and aims to be more easily readable and maintainable
+ issues 8
 
-html
- <a class="trueBaseThemePreviousItem" href="stan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qalb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/melody.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://yoav-lavi.github.io/melody/book/" class="material-symbols-outlined">home</a> <a href="https://github.com/yoav-lavi/melody" class="material-symbols-outlined">code</a> <a href="/edit.html?id=melody" class="material-symbols-outlined">edit</a></div>
-
-* Melody is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Yoav Lavi.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#yoavLavi Yoav Lavi
-
-codeWithHeader Source code:
- git clone https://github.com/yoav-lavi/melody
-
-dashboard
- #749 <span title="TotalRank: 1318 Jobs: 103 Users: 229 Facts: 1502 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Melody - A language that compiles to regular expressions and aims to be more easily readable and maintainable
-
-- Melody website
- https://yoav-lavi.github.io/melody/book/
-- Melody is developed on <a href="https://github.com/yoav-lavi/melody">GitHub</a> and has 3,923 stars
-- Melody first developed in <a href="../lists/originCommunities.html#httpsGithubComYoavLaviMelodyIssues">https://github.com/yoav-lavi/melody/issues</a>
-- Read more about Melody on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/stpvpn/melody_a_language_that_compiles_to_regular/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav stan.html qalb.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 758
+ committers 13
+ files 165

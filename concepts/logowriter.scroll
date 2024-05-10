@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LogoWriter
+import ../measures/conceptPage.scroll
+id LogoWriter
+appeared 1986
+type pl
+reference https://archive.org/details/intro_to_programming_in_logo_using_logowriter_2nd_edition
+reference https://www.researchgate.net/publication/234568888_Introduction_to_Programming_in_Logo_Using_LogoWriter_Revised_Edition
+country United States
+originCommunity University of Oregon
 
-title LogoWriter - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7667
 
-html
- <a class="trueBaseThemePreviousItem" href="logol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/logowriter.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=logowriter" class="material-symbols-outlined">edit</a></div>
-
-* LogoWriter is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4205 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- LogoWriter first developed in <a href="../lists/originCommunities.html#universityOfOregon">University of Oregon</a>
-- LogoWriter on HOPL
- https://hopl.info/showlanguage.prx?exp=7667
-- Read more about LogoWriter on the web: 1. 2.
- https://archive.org/details/intro_to_programming_in_logo_using_logowriter_2nd_edition 1.
- https://www.researchgate.net/publication/234568888_Introduction_to_Programming_in_Logo_Using_LogoWriter_Revised_Edition 2.
-
-<br>
-
-endColumns
-
-keyboardNav logol.html lol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

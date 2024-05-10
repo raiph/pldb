@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Interlisp-VAX
+import ../measures/conceptPage.scroll
+id Interlisp-VAX
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/e7644ab6dab1a2425c63d5b816f55d1942160ade
+country United States
+originCommunity Stanford University
 
-title Interlisp-VAX - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6817
 
-html
- <a class="trueBaseThemePreviousItem" href="intercons.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ipl-v.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/interlisp-vax.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=interlisp-vax" class="material-symbols-outlined">edit</a></div>
-
-* Interlisp-VAX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3741 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- Interlisp-VAX first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- Interlisp-VAX on HOPL
- https://hopl.info/showlanguage.prx?exp=6817
-- Read more about Interlisp-VAX on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e7644ab6dab1a2425c63d5b816f55d1942160ade 1.
-
-<br>
-
-endColumns
-
-keyboardNav intercons.html ipl-v.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

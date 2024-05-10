@@ -1,48 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tea
+import ../measures/conceptPage.scroll
+id Tea
+appeared 2019
+type library
+creators Eunice Jun and Maureen Daum and Jared Roesch and Sarah E. Chasins and Emery D. Berger and Rene Just and Katharina Reinecke
+conceptDescription A High-level Language and Runtime System for Automating Statistical Analysis. Tea is implemented as an open-source Python library, so programmers can use Tea wherever they use Python, including within Python notebooks.
+website http://tea-lang.org/
+reference https://arxiv.org/abs/1904.05387
+domainName tea-lang.org
+ registered 2018
 
-title Tea - Library
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="syndicate.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="typst.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tea-pl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://tea-lang.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tea-pl" class="material-symbols-outlined">edit</a></div>
-
-* Tea is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2019 by Eunice Jun and Maureen Daum and Jared Roesch and Sarah E. Chasins and Emery D. Berger and Rene Just and Katharina Reinecke.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#euniceJun Eunice Jun
- link ../lists/creators.html#maureenDaum Maureen Daum
- link ../lists/creators.html#jaredRoesch Jared Roesch
- link ../lists/creators.html#sarahEChasins Sarah E. Chasins
- link ../lists/creators.html#emeryDBerger Emery D. Berger
- link ../lists/creators.html#reneJust Rene Just
- link ../lists/creators.html#katharinaReinecke Katharina Reinecke
-
-dashboard
- #3470 on PLDB
- 5 Years Old
-
-* A High-level Language and Runtime System for Automating Statistical Analysis. Tea is implemented as an open-source Python library, so programmers can use Tea wherever they use Python, including within Python notebooks.
-
-- Tea website
- http://tea-lang.org/
-- Tea is written in <a href="python.html">Python</a>
-- <a href="http://tea-lang.org/">tea-lang.org</a> was registered in 2018
-- See also: (5 related languages)<a href="sas.html">SAS</a>, <a href="spss.html">SPSS</a>, <a href="jmp.html">JMP</a>, <a href="r.html">R</a>, <a href="statsplorer.html">Statsplorer</a>
-- Read more about Tea on the web: 1.
- https://arxiv.org/abs/1904.05387 1.
-
-<br>
-
-endColumns
-
-keyboardNav syndicate.html typst.html
-
-import ../footer.scroll
+writtenIn python
+relatedConcepts sas spss jmp r statsplorer

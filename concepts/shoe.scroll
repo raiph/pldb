@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SHOE
+import ../measures/conceptPage.scroll
+id SHOE
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/ad51c68b765b1e4bdd57166dd5f934103a920389
+country United States
+originCommunity University of Maryland
 
-title SHOE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5609
 
-html
- <a class="trueBaseThemePreviousItem" href="s-snobol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sil.html">&gt;</a>
+wordRank 4274
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shoe.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=shoe" class="material-symbols-outlined">edit</a></div>
-
-* SHOE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3130 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- SHOE first developed in <a href="../lists/originCommunities.html#universityOfMaryland">University of Maryland</a>
-- SHOE on HOPL
- https://hopl.info/showlanguage.prx?exp=5609
-- Read more about SHOE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ad51c68b765b1e4bdd57166dd5f934103a920389 1.
-
-<br>
-
-endColumns
-
-keyboardNav s-snobol.html sil.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,43 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Closure Templates
+import ../measures/conceptPage.scroll
+id Closure Templates
+appeared 2009
+type template
+country United States
+originCommunity Google
 
-title Closure Templates - Template language
- hidden
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="abnf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="luna.html">&gt;</a>
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/closure-templates.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/google/closure-templates" class="material-symbols-outlined">code</a> <a href="/edit.html?id=closure-templates" class="material-symbols-outlined">edit</a></div>
-
-* Closure Templates is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-codeWithHeader Source code:
- git clone https://github.com/google/closure-templates
-
-dashboard
- #435 <span title="TotalRank: 940 Jobs: 103 Users: 467 Facts: 370 Links: 986">on PLDB</span>
- 15 Years Old
- 424k <span title="Closure Templates repos on GitHub.">Repos</span>
-
-* A client- and server-side templating system that helps you dynamically build reusable HTML and UI elements
-
-- Closure Templates is developed on <a href="https://github.com/google/closure-templates">GitHub</a> and has 561 stars
-- There are at least 424,389 Closure Templates repos on <a href="https://github.com/search?q=language:Closure Templates">GitHub</a>
-- Closure Templates first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- file extensions for Closure Templates include soy
-- The  Google BigQuery Public Dataset GitHub snapshot shows 18 users using Closure Templates in 25 repos on <a href="https://api.github.com/search/repositories?q=language:Closure Templates">GitHub</a>
-- GitHub supports <a href="https://github.com/mthadley/language-closure-templates" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Closure Templates
-
-<br>
-
-codeWithHeader Example from the web:
+example
  /**
   * Says hello to the world.
   */
@@ -45,60 +23,72 @@ codeWithHeader Example from the web:
    Hello world!
  {/template}
 
-codeWithHeader Example from <a href='https://github.com/mthadley/language-closure-templates'>Linguist</a>:
- {namespace Exmaple}
- 
- /**
-  * Example
-  */
- {template .foo}
-   {@param count: string}
-   {@param? name: int}
- 
-   {if isNonnull($name)}
-     &lt;h1&gt;{$name}&lt;/h1&gt;
-   {/if}
- 
-   &lt;div class=&quot;content&quot;&gt;
-     {switch count}
-       {case 0}
-         {call Empty.view}
-           {param count: $count /}
-         {/call}
-       {default}
-         &lt;h2&gt;Wow, so many!&lt;/h2&gt;
-     {/switch}
-   &lt;/div&gt;
- {/template}
+githubRepo https://github.com/google/closure-templates
+ firstCommit 2009
+ stars 561
+ forks 190
+ subscribers 40
+ created 2014
+ updated 2022
+ description A client- and server-side templating system that helps you dynamically build reusable HTML and UI elements
+ issues 118
 
-endColumns
+repoStats
+ firstCommit 2009
+ commits 5393
+ committers 89
+ files 1503
 
-## Language <a href="../lists/features.html">features</a>
+githubLanguage Closure Templates
+ fileExtensions soy
+ trendingProjectsCount 0
+ type markup
+ aceMode soy_template
+ codemirrorMode soy
+ codemirrorMimeType text/x-soy
+ tmScope text.html.soy
+ aliases soy
+ repos 424389
+githubBigQuery Closure Templates
+ repos 25
+ users 18
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   /* A comment
+linguistGrammarRepo https://github.com/mthadley/language-closure-templates
+ firstCommit 2017
+ lastCommit 2017
+ committerCount 2
+ commitCount 19
+ sampleCount 1
+ example
+  {namespace Exmaple}
+  
+  /**
+   * Example
    */
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+  {template .foo}
+    {@param count: string}
+    {@param? name: int}
+  
+    {if isNonnull($name)}
+      <h1>{$name}</h1>
+    {/if}
+  
+    <div class="content">
+      {switch count}
+        {case 0}
+          {call Empty.view}
+            {param count: $count /}
+          {/call}
+        {default}
+          <h2>Wow, so many!</h2>
+      {/switch}
+    </div>
+  {/template}
 
-keyboardNav abnf.html luna.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 0

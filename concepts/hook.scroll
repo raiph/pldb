@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hook
+import ../measures/conceptPage.scroll
+id Hook
+appeared 2021
+type pl
+creators Fabio de Souza Villaca Medeiros
+country Brazil
+originCommunity https://github.com/fabiosvm/hook-lang/issues
 
-title Hook - Programming language
- hidden
+githubRepo https://github.com/fabiosvm/hook-lang
+ firstCommit 2021
+ stars 57
+ forks 1
+ subscribers 2
+ created 2021
+ updated 2022
+ description The Hook Programming Language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="gauche.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stratego.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hook.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/fabiosvm/hook-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hook" class="material-symbols-outlined">edit</a></div>
-
-* Hook is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Fabio de Souza Villaca Medeiros.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#fabioDeSouzaVillacaMedeiros Fabio de Souza Villaca Medeiros
-
-codeWithHeader Source code:
- git clone https://github.com/fabiosvm/hook-lang
-
-dashboard
- #2317 <span title="TotalRank: 2837 Jobs: 103 Users: 1748 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* The Hook Programming Language
-
-- Hook is developed on <a href="https://github.com/fabiosvm/hook-lang">GitHub</a> and has 57 stars
-- Hook first developed in <a href="../lists/originCommunities.html#httpsGithubComFabiosvmHookLangIssues">https://github.com/fabiosvm/hook-lang/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav gauche.html stratego.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 416
+ committers 8
+ files 383

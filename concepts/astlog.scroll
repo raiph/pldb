@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASTLOG
+import ../measures/conceptPage.scroll
+id ASTLOG
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/29d4fbb4fe3e22bf20a82e1e7144df036a74c62a
+country United States
+originCommunity Microsoft
 
-title ASTLOG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3737
 
-html
- <a class="trueBaseThemePreviousItem" href="asspegique.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="atol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/astlog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=astlog" class="material-symbols-outlined">edit</a></div>
-
-* ASTLOG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3498 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- ASTLOG first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- ASTLOG on HOPL
- https://hopl.info/showlanguage.prx?exp=3737
-- Read more about ASTLOG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/29d4fbb4fe3e22bf20a82e1e7144df036a74c62a 1.
-
-<br>
-
-endColumns
-
-keyboardNav asspegique.html atol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

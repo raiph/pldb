@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Patient-Oriented Prescription Programming Language
+import ../measures/conceptPage.scroll
+id Patient-Oriented Prescription Programming Language
+appeared 2015
+type pl
+website https://users.cs.northwestern.edu/~sfq833/pop-pl/
+reference https://users.cs.northwestern.edu/~sfq833/resources/papers/GPCE_POP-PL_2015.pdf
+country United States
+originCommunity Northwestern University
 
-title Patient-Oriented Prescription Programming Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nhx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spice.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pop-pl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://users.cs.northwestern.edu/~sfq833/pop-pl/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pop-pl" class="material-symbols-outlined">edit</a></div>
-
-* Patient-Oriented Prescription Programming Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2441 <span title="TotalRank: 2979 Jobs: 103 Users: 2442 Facts: 1890 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- Patient-Oriented Prescription Programming Language website
- https://users.cs.northwestern.edu/~sfq833/pop-pl/
-- Patient-Oriented Prescription Programming Language first developed in <a href="../lists/originCommunities.html#northwesternUniversity">Northwestern University</a>
-- Read more about Patient-Oriented Prescription Programming Language on the web: 1.
- https://users.cs.northwestern.edu/~sfq833/resources/papers/GPCE_POP-PL_2015.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #lang pop-pl
  
  used by JessieBrownVA
@@ -42,10 +17,6 @@ codeWithHeader Example from the web:
  
  infusion:
   whenever new aPTTResult
-   aPTT &lt; 45 | giveBolus 80 units/kg of: HEParin by: iv
+   aPTT < 45 | giveBolus 80 units/kg of: HEParin by: iv
 
-endColumns
-
-keyboardNav nhx.html spice.html
-
-import ../footer.scroll
+semanticScholar 0

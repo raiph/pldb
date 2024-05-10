@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CIRCAL
+import ../measures/conceptPage.scroll
+id CIRCAL
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/4d29be5bab2a6ef5e285819432654042ba3ae006
+country Scotland
+originCommunity University of Edinburgh
 
-title CIRCAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1132
 
-html
- <a class="trueBaseThemePreviousItem" href="ccal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clanger.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/circal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=circal" class="material-symbols-outlined">edit</a></div>
-
-* CIRCAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #4095 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- CIRCAL first developed in <a href="../lists/originCommunities.html#universityOfEdinburgh">University of Edinburgh</a>
-- CIRCAL on HOPL
- https://hopl.info/showlanguage.prx?exp=1132
-- Read more about CIRCAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4d29be5bab2a6ef5e285819432654042ba3ae006 1.
-
-<br>
-
-endColumns
-
-keyboardNav ccal.html clanger.html
-
-import ../footer.scroll
+isbndb 0

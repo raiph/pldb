@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CABAL
+import ../measures/conceptPage.scroll
+id CABAL
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/487a30d8edf301dd180503f56a8c0c4749858965
+country England
+originCommunity Trinity College, Cambridge && University of Bath
 
-title CABAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7008
 
-html
- <a class="trueBaseThemePreviousItem" href="c-headers.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cactus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cabal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cabal" class="material-symbols-outlined">edit</a></div>
-
-* CABAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3541 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- CABAL first developed in <a href="../lists/originCommunities.html#trinityCollegeCambridge">Trinity College, Cambridge</a> and <a href="../lists/originCommunities.html#universityOfBath">University of Bath</a>
-- CABAL on HOPL
- https://hopl.info/showlanguage.prx?exp=7008
-- Read more about CABAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/487a30d8edf301dd180503f56a8c0c4749858965 1.
-
-<br>
-
-endColumns
-
-keyboardNav c-headers.html cactus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

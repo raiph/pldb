@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title nulan
+import ../measures/conceptPage.scroll
+id nulan
+appeared 2012
+type pl
+webRepl https://pauan.github.io/nulan/doc/tutorial.html
+country Unknown
+originCommunity https://github.com/Pauan/nulan/issues
 
-title nulan - Programming language
- hidden
+githubRepo https://github.com/Pauan/nulan
+ firstCommit 2012
+ stars 46
+ forks 1
+ subscribers 9
+ created 2012
+ updated 2021
+ description Purely functional statically typed Lisp which compiles to JavaScript
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="ail.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hotcocoalisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nulan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pauan.github.io/nulan/doc/tutorial.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/Pauan/nulan" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nulan" class="material-symbols-outlined">edit</a></div>
-
-* nulan is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/Pauan/nulan
-
-dashboard
- #2337 <span title="TotalRank: 2876 Jobs: 103 Users: 1854 Facts: 1787 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Try now: <a href="https://pauan.github.io/nulan/doc/tutorial.html">Web</a>
-
-* Purely functional statically typed Lisp which compiles to JavaScript
-
-- nulan is developed on <a href="https://github.com/Pauan/nulan">GitHub</a> and has 46 stars
-- nulan first developed in <a href="../lists/originCommunities.html#httpsGithubComPauanNulanIssues">https://github.com/Pauan/nulan/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav ail.html hotcocoalisp.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 455
+ committers 2
+ files 167

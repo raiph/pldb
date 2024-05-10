@@ -1,94 +1,64 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cue
+import ../measures/conceptPage.scroll
+id Cue
+appeared 2018
+type dataNotation
+creators Marcel van Lohuizen
+website https://cuelang.org/
+webRepl https://cuelang.org/play
+country United Kingdom and United States and Switzerland
+originCommunity https://github.com/cue-lang
+domainName cuelang.org
+ registered 2018
+ awisRank
+  2022 1108581
 
-title Cue - Data notation
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="treesheets.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ladder-logic.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cuelang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://cuelang.org/" class="material-symbols-outlined">home</a> <a href="https://cuelang.org/play" class="material-symbols-outlined">terminal</a> <a href="https://github.com/cuelang/cue" class="material-symbols-outlined">code</a> <a href="https://twitter.com/cue_lang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=cuelang" class="material-symbols-outlined">edit</a></div>
-
-* Cue is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2018 by Marcel van Lohuizen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#marcelVanLohuizen Marcel van Lohuizen
-
-codeWithHeader Source code:
- git clone https://github.com/cuelang/cue
-
-dashboard
- #417 <span title="TotalRank: 922 Jobs: 103 Users: 244 Facts: 575 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Try now: <a href="https://cuelang.org/play">Web</a>
-
-* CUE has moved to https://github.com/cue-lang/cue
-
-- Cue website
- https://cuelang.org/
-- Cue is developed on <a href="https://github.com/cuelang/cue">GitHub</a> and has 3,148 stars
-- Cue first developed in <a href="../lists/originCommunities.html#httpsGithubComCueLang">https://github.com/cue-lang</a>
-- Cue on Twitter
- https://twitter.com/cue_lang
-- <a href="https://cuelang.org/">cuelang.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #Spec: {
    kind: string
  
    name: {
-     first:   !=&quot;&quot;  // must be specified and non-empty
-     middle?: !=&quot;&quot;  // optional, but must be non-empty when specified
-     last:    !=&quot;&quot;
+     first:   !=""  // must be specified and non-empty
+     middle?: !=""  // optional, but must be non-empty when specified
+     last:    !=""
    }
  
    // The minimum must be strictly smaller than the maximum and vice versa.
-   minimum?: int &amp; &lt;maximum
-   maximum?: int &amp; &gt;minimum
+   minimum?: int & <maximum
+   maximum?: int & >minimum
  }
  
  // A spec is of type #Spec
  spec: #Spec
  spec: {
-   knid: &quot;Homo Sapiens&quot; // error, misspelled field
+   knid: "Homo Sapiens" // error, misspelled field
  
-   name: first: &quot;Jane&quot;
+   name: first: "Jane"
   
 
-endColumns
+githubRepo https://github.com/cuelang/cue
+ firstCommit 2018
+ stars 3148
+ forks 188
+ subscribers 49
+ created 2019
+ updated 2022
+ description CUE has moved to https://github.com/cue-lang/cue
+ issues 1
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2018
+ commits 1527
+ committers 63
+ files 1421
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+twitter https://twitter.com/cue_lang
 
-keyboardNav treesheets.html ladder-logic.html
-
-import ../footer.scroll
+isbndb 0

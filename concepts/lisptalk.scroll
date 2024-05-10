@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lisptalk
+import ../measures/conceptPage.scroll
+id Lisptalk
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/826c9c2c74251426de0eddf4869f299dae6cff69
+country China
+originCommunity Institute of Computing Technology Academia Sinica
 
-title Lisptalk - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1408
 
-html
- <a class="trueBaseThemePreviousItem" href="lg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lnf.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lisptalk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lisptalk" class="material-symbols-outlined">edit</a></div>
-
-* Lisptalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4199 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- Lisptalk first developed in <a href="../lists/originCommunities.html#instituteOfComputingTechnologyAcademiaSinica">Institute of Computing Technology Academia Sinica</a>
-- Lisptalk on HOPL
- https://hopl.info/showlanguage.prx?exp=1408
-- Read more about Lisptalk on Semantic Scholar: 1.
- https://semanticscholar.org/paper/826c9c2c74251426de0eddf4869f299dae6cff69 1.
-
-<br>
-
-endColumns
-
-keyboardNav lg.html lnf.html
-
-import ../footer.scroll
+semanticScholar 0

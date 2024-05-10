@@ -1,46 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title egel
+import ../measures/conceptPage.scroll
+id egel
+appeared 2016
+type interpreter
+conceptDescription <a href='https://egel-lang.github.io/'>Egel</a> An interpreter for eager untyped combinator rewriting implemented in C++.
+website https://egel-lang.github.io/
+country Unknown
+originCommunity https://github.com/egel-lang
+domainName egel-lang.github.io
 
-title egel - Interpreter
- hidden
+githubRepo https://github.com/egel-lang/egel
+ firstCommit 2016
+ stars 68
+ forks 4
+ subscribers 2
+ created 2016
+ updated 2022
+ description The Egel Programming Language
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="wirth-syntax-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clamp.html">&gt;</a>
+rosettaCode http://www.rosettacode.org/wiki/Category:Egel
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/egel.pldb
+tryItOnline egel
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://egel-lang.github.io/" class="material-symbols-outlined">home</a> <a href="egel" class="material-symbols-outlined">terminal</a> <a href="https://github.com/egel-lang/egel" class="material-symbols-outlined">code</a> <a href="https://twitter.com/egel_language"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=egel" class="material-symbols-outlined">edit</a></div>
-
-* egel is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+interpreter">interpreter</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/egel-lang/egel
-
-dashboard
- #2314 on PLDB
- 8 Years Old
-
-* Try now: <a href="https://tio.run/#egel">TIO</a>
-
-* <a href='https://egel-lang.github.io/'>Egel</a> An interpreter for eager untyped combinator rewriting implemented in C++.
-
-- egel website
- https://egel-lang.github.io/
-- egel is developed on <a href="https://github.com/egel-lang/egel">GitHub</a> and has 68 stars
-- egel first developed in <a href="../lists/originCommunities.html#httpsGithubComEgelLang">https://github.com/egel-lang</a>
-- egel on Twitter
- https://twitter.com/egel_language
-- Explore egel snippets on <a href="http://www.rosettacode.org/wiki/Category:Egel">Rosetta Code</a>
-
-<br>
-
-endColumns
-
-keyboardNav wirth-syntax-notation.html clamp.html
-
-import ../footer.scroll
+twitter https://twitter.com/egel_language
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

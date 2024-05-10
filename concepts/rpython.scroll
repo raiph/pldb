@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Restricted Python
+import ../measures/conceptPage.scroll
+id Restricted Python
+appeared 2007
+type pl
+conceptDescription RPython is a restricted subset of Python that is amenable to static analysis. RPython is a proper subset of Python, is statically typed, and does not allow dynamic modification of class or method definitions; however, it can still take advantage of Python features such as mixins and first-class methods and classes.
+website https://rpython.readthedocs.io/en/latest/rpython.html
+reference https://dl.acm.org/citation.cfm?id=1297091
+country Estonia and United States
+originCommunity https://foss.heptapod.net/pypy/pypy/-/issues
 
-title Restricted Python - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="raptor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sepi.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rpython.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://rpython.readthedocs.io/en/latest/rpython.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=rpython" class="material-symbols-outlined">edit</a></div>
-
-* Restricted Python is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #2876 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 17 Years Old
-
-* RPython is a restricted subset of Python that is amenable to static analysis. RPython is a proper subset of Python, is statically typed, and does not allow dynamic modification of class or method definitions; however, it can still take advantage of Python features such as mixins and first-class methods and classes.
-
-- Restricted Python website
- https://rpython.readthedocs.io/en/latest/rpython.html
-- Restricted Python first developed in <a href="../lists/originCommunities.html#httpsFossHeptapodNetPypyPypyIssues">https://foss.heptapod.net/pypy/pypy/-/issues</a>
-- Read more about Restricted Python on the web: 1.
- https://dl.acm.org/citation.cfm?id=1297091 1.
-
-<br>
-
-endColumns
-
-keyboardNav raptor.html sepi.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

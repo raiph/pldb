@@ -1,42 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title raptor
+import ../measures/conceptPage.scroll
+id raptor
+appeared 2015
+type visual
+screenshot https://pldb.io/screenshots/raptor.png
+conceptDescription RAPTOR is a flowchart-based programming environment, designed specifically to help students visualize their algorithms and avoid syntactic baggage.
+website https://raptor.martincarlisle.com/
+country United States
+originCommunity US Air Force Academy
+domainName raptor.martincarlisle.com
 
-title raptor - Visual programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="poly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rpython.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/raptor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://raptor.martincarlisle.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=raptor" class="material-symbols-outlined">edit</a></div>
-
-* raptor is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2875 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 9 Years Old
-
-openGraphImage https://pldb.io/screenshots/raptor.png
-image ../screenshots/raptor.png
- caption A screenshot of the visual language raptor.
-  link /search.html?q=select+type%0D%0Awhere+type+%3D+visual visual language
-
-* RAPTOR is a flowchart-based programming environment, designed specifically to help students visualize their algorithms and avoid syntactic baggage.
-
-- raptor website
- https://raptor.martincarlisle.com/
-- raptor first developed in <a href="../lists/originCommunities.html#usAirForceAcademy">US Air Force Academy</a>
-
-<br>
-
-endColumns
-
-keyboardNav poly.html rpython.html
-
-import ../footer.scroll
+visualParadigm true

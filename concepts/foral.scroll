@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORAL
+import ../measures/conceptPage.scroll
+id FORAL
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/d5ee15a0186cce3d07fd76784e817d1727553a5a
+country United States
+originCommunity IBM
 
-title FORAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4119
 
-html
- <a class="trueBaseThemePreviousItem" href="foral-lp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="forall.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/foral.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=foral" class="material-symbols-outlined">edit</a></div>
-
-* FORAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3669 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- FORAL first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- FORAL on HOPL
- https://hopl.info/showlanguage.prx?exp=4119
-- Read more about FORAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d5ee15a0186cce3d07fd76784e817d1727553a5a 1.
-
-<br>
-
-endColumns
-
-keyboardNav foral-lp.html forall.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

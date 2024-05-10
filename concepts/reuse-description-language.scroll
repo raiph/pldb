@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Reuse Description Language
+import ../measures/conceptPage.scroll
+id Reuse Description Language
+appeared 2005
+type pl
+conceptDescription RDL: A Language for Framework Instantiation Representation
+reference https://cs.uwaterloo.ca/research/tr/2005/CS-2005-11.pdf
+aka RDL
+country Brazil and Canada
+originCommunity Pontifical University Catholic of Rio Grande do Sul && Pontifical University of Rio de Janeiro && University of Waterloo
 
-title Reuse Description Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="relix.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="robotalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/reuse-description-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=reuse-description-language" class="material-symbols-outlined">edit</a></div>
-
-* Reuse Description Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #4284 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 19 Years Old
-
-* RDL: A Language for Framework Instantiation Representation
-
-- Reuse Description Language first developed in <a href="../lists/originCommunities.html#pontificalUniversityCatholicOfRioGrandeDoSul">Pontifical University Catholic of Rio Grande do Sul</a> and <a href="../lists/originCommunities.html#pontificalUniversityOfRioDeJaneiro">Pontifical University of Rio de Janeiro</a> and <a href="../lists/originCommunities.html#universityOfWaterloo">University of Waterloo</a>
-- Read more about Reuse Description Language on the web: 1.
- https://cs.uwaterloo.ca/research/tr/2005/CS-2005-11.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav relix.html robotalk.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

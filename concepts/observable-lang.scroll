@@ -1,82 +1,54 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Observable
+import ../measures/conceptPage.scroll
+id Observable
+appeared 2017
+type pl
+creators Mike Bostock
+conceptDescription A partially open source derivative of Javascript modified for dataflow that powers the Observable data science web app.
+website https://observablehq.com/
+webRepl https://observablehq.com/@breck7/languages-with-central-package-repositories
+reference https://observablehq.com/@observablehq/observables-not-javascript
+originCommunity Observable
+domainName observablehq.com
+ registered 2017
+ awisRank
+  2022 38267
 
-title Observable - Programming language
- hidden
+relatedConcepts javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="hackett.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mojo.html">&gt;</a>
+hasComments true
+hasLineComments true
+ // A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/observable-lang.pldb
+lineCommentToken //
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://observablehq.com/" class="material-symbols-outlined">home</a> <a href="https://observablehq.com/@breck7/languages-with-central-package-repositories" class="material-symbols-outlined">terminal</a> <a href="https://github.com/observablehq/runtime" class="material-symbols-outlined">code</a> <a href="https://twitter.com/observablehq"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=observable-lang" class="material-symbols-outlined">edit</a></div>
-
-* Observable is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Mike Bostock.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#mikeBostock Mike Bostock
-
-codeWithHeader Source code:
- git clone https://github.com/observablehq/runtime
-
-dashboard
- #762 <span title="TotalRank: 1328 Jobs: 103 Users: 558 Facts: 720 Links: 667">on PLDB</span>
- 7 Years Old
-
-* Try now: <a href="https://observablehq.com/@breck7/languages-with-central-package-repositories">Web</a>
-
-* A partially open source derivative of Javascript modified for dataflow that powers the Observable data science web app.
-
-- Observable website
- https://observablehq.com/
-- Observable is developed on <a href="https://github.com/observablehq/runtime">GitHub</a> and has 798 stars
-- Observable first developed in <a href="../lists/originCommunities.html#observable">Observable</a>
-- Observable on Twitter
- https://twitter.com/observablehq
-- <a href="https://observablehq.com/">observablehq.com</a> was registered in 2017
-- See also: (1 related languages)<a href="javascript.html">JavaScript</a>
-- Read more about Observable on the web: 1.
- https://observablehq.com/@observablehq/observables-not-javascript 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
   let x = 0;
-  for (let i = 1; i &lt;= 100; ++i) {
+  for (let i = 1; i <= 100; ++i) {
     x += i;
   }
   return x;
  }
 
-endColumns
+githubRepo https://github.com/observablehq/runtime
+ firstCommit 2017
+ stars 798
+ forks 61
+ subscribers 29
+ created 2017
+ updated 2022
+ description The Observable dataflow runtime.
+ issues 16
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 904
+ committers 15
+ files 35
 
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+twitter https://twitter.com/observablehq
 
-keyboardNav hackett.html mojo.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2004|Cambridge University Press|Stochastic Control of Partially Observable Systems|Bensoussan, Alain|9780521611978

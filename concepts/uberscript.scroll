@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UberScript
-
-title UberScript - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="uan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ubik.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/uberscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=uberscript" class="material-symbols-outlined">edit</a></div>
-
-* UberScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by James Strachan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#jamesStrachan James Strachan
-
-dashboard
- #3260 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- Read more about UberScript on the web: 1.
- https://github.com/jstrachan/coffee-script/blob/master/TypeAnnotations.md 1.
-
-<br>
-
-endColumns
-
-keyboardNav uan.html ubik.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id UberScript
+appeared 2011
+type pl
+creators James Strachan
+reference https://github.com/jstrachan/coffee-script/blob/master/TypeAnnotations.md
+country United Kingdom

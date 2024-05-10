@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title a Lisp Environment
+import ../measures/conceptPage.scroll
+id a Lisp Environment
+appeared 2019
+type pl
+creators Thomas Bradford
+website https://www.ale-lang.org/
+standsFor a Lisp Environment
+domainName ale-lang.org
+ registered 2019
 
-title a Lisp Environment - Programming language
- hidden
+githubRepo https://github.com/kode4food/ale
+ firstCommit 2019
+ stars 152
+ created 2019
+ updated 2022
+ description Ale is a Lisp Environment for Go applications
+ forks 6
+ subscribers 4
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="mlatu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sbcl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ale.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.ale-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/kode4food/ale" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ale" class="material-symbols-outlined">edit</a></div>
-
-* a Lisp Environment, aka a Lisp Environment, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Thomas Bradford.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#thomasBradford Thomas Bradford
-
-codeWithHeader Source code:
- git clone https://github.com/kode4food/ale
-
-dashboard
- #1798 <span title="TotalRank: 2323 Jobs: 103 Users: 1234 Facts: 1591 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Ale is a Lisp Environment for Go applications
-
-- a Lisp Environment website
- https://www.ale-lang.org/
-- a Lisp Environment is developed on <a href="https://github.com/kode4food/ale">GitHub</a> and has 152 stars
-- <a href="https://www.ale-lang.org/">ale-lang.org</a> was registered in 2019
-
-<br>
-
-endColumns
-
-keyboardNav mlatu.html sbcl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 398
+ committers 5
+ files 368

@@ -1,89 +1,108 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HTTP
+import ../measures/conceptPage.scroll
+id HTTP
+appeared 1989
+type protocol
+documentation https://www.w3.org/Protocols/rfc2616/rfc2616.html
+country United States
+originCommunity The World Wide Web Consortium
 
-title HTTP - Protocol
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="julia.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sas.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/http.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.w3.org/Protocols/rfc2616/rfc2616.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=http" class="material-symbols-outlined">edit</a></div>
-
-* HTTP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+protocol">protocol</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #36 <span title="TotalRank: 119 Jobs: 0 Users: 55 Facts: 310 Links: 64">on PLDB</span>
- 35 Years Old
- 0 <span title="HTTP repos on GitHub.">Repos</span>
-
-* The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web. Hypertext is structured text that uses logical links (hyperlinks) between nodes containing text. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol Read more on Wikipedia...
-
-- HTTP Wikipedia page
- https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
-- HTTP docs
- https://www.w3.org/Protocols/rfc2616/rfc2616.html
-- There are at least 0 HTTP repos on <a href="https://github.com/search?q=language:HTTP">GitHub</a>
-- HTTP first developed in <a href="../lists/originCommunities.html#theWorldWideWebConsortium">The World Wide Web Consortium</a>
-- PLDB estimates there are currently 772k job openings for HTTP programmers.
-- file extensions for HTTP include http
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/http">package</a> for syntax highlighting HTTP
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/textfmts.py">syntax highlighting</a> for HTTP
-- GitHub supports <a href="https://github.com/samsalisbury/Sublime-HTTP" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for HTTP
-- Indeed.com has 771,996 matches for <a href="https://www.indeed.com/jobs?q=http developer">"http developer"</a>.
-- See also: (12 related languages)<a href="ftp.html">FTP</a>, <a href="smtp.html">SMTP</a>, <a href="tls.html">TLS</a>, <a href="tcp.html">TCP</a>, <a href="udp.html">UDP</a>, <a href="url.html">URL</a>, <a href="html.html">HTML</a>, <a href="css.html">CSS</a>, <a href="ascii.html">ASCII</a>, <a href="gzip.html">Gzip</a>, <a href="rest.html">REST</a>, <a href="isbn.html">ISBN</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/HTTP.py'>hello-world</a>:
- import http.server
- import socketserver
- from http import HTTPStatus
- 
- 
- class Handler(http.server.SimpleHTTPRequestHandler):
-     def do_GET(self):
-         self.send_response(HTTPStatus.OK)
-         self.end_headers()
-         self.wfile.write(b&#39;Hello World&#39;)
- 
- 
- httpd = socketserver.TCPServer((&#39;&#39;, 8000), Handler)
- httpd.serve_forever()
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol'>Wikipedia</a>:
- HTTP/1.1 200 OK
- Date: Mon, 23 May 2005 22:38:34 GMT
- Content-Type: text/html; charset=UTF-8
- Content-Encoding: UTF-8
- Content-Length: 138
- Last-Modified: Wed, 08 Jan 2003 23:11:55 GMT
- Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
- ETag: &quot;3f80f-1b6-3e1cb03b&quot;
- Accept-Ranges: bytes
- Connection: close
- 
- &lt;html&gt;
- &lt;head&gt;
-   &lt;title&gt;An Example Page&lt;/title&gt;
- &lt;/head&gt;
- &lt;body&gt;
-   Hello World, this is a very simple HTML document.
- &lt;/body&gt;
- &lt;/html&gt;
-
-codeWithHeader <a href='https://twitter.com/bagder/status/1567162794092404742'>Fun fact</a>:
+funFact https://twitter.com/bagder/status/1567162794092404742
  http://http://http://@http://http://?http://#http:// is a legitimate URL
 
-endColumns
+wikipedia https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol
+ example
+  HTTP/1.1 200 OK
+  Date: Mon, 23 May 2005 22:38:34 GMT
+  Content-Type: text/html; charset=UTF-8
+  Content-Encoding: UTF-8
+  Content-Length: 138
+  Last-Modified: Wed, 08 Jan 2003 23:11:55 GMT
+  Server: Apache/1.3.3.7 (Unix) (Red-Hat/Linux)
+  ETag: "3f80f-1b6-3e1cb03b"
+  Accept-Ranges: bytes
+  Connection: close
+  
+  <html>
+  <head>
+    <title>An Example Page</title>
+  </head>
+  <body>
+    Hello World, this is a very simple HTML document.
+  </body>
+  </html>
+ related ftp smtp tls tcp udp url html css ascii gzip rest isbn
+ summary The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web. Hypertext is structured text that uses logical links (hyperlinks) between nodes containing text. HTTP is the protocol to exchange or transfer hypertext. Development of HTTP was initiated by Tim Berners-Lee at CERN in 1989. Standards development of HTTP was coordinated by the Internet Engineering Task Force (IETF) and the World Wide Web Consortium (W3C), culminating in the publication of a series of Requests for Comments (RFCs). The first definition of HTTP/1.1, the version of HTTP in common use, occurred in RFC 2068 in 1997, although this was obsoleted by RFC 2616 in 1999 and then again by the RFC 7230 family of RFCs in 2014. A later version, the successor HTTP/2, was standardized in 2015, and is now supported by major web servers and browsers over TLS using ALPN extension where TLS 1.2 or newer is required.
+ pageId 13443
+ dailyPageViews 6702
+ created 2001
+ backlinksCount 1996
+ revisionCount 4080
+ appeared 1999
 
-keyboardNav julia.html sas.html
+githubLanguage HTTP
+ fileExtensions http
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ codemirrorMode http
+ codemirrorMimeType message/http
+ tmScope source.httpspec
+ repos 0
 
-import ../footer.scroll
+codeMirror http
+pygmentsHighlighter HTTP
+ filename textfmts.py
+linguistGrammarRepo https://github.com/samsalisbury/Sublime-HTTP
+ firstCommit 2014
+ lastCommit 2015
+ committerCount 1
+ commitCount 3
+
+leachim6 HTTP
+ filepath h/HTTP.py
+ fileExtensions py
+ example
+  import http.server
+  import socketserver
+  from http import HTTPStatus
+  
+  
+  class Handler(http.server.SimpleHTTPRequestHandler):
+      def do_GET(self):
+          self.send_response(HTTPStatus.OK)
+          self.end_headers()
+          self.wfile.write(b'Hello World')
+  
+  
+  httpd = socketserver.TCPServer(('', 8000), Handler)
+  httpd.serve_forever()
+
+indeedJobs http developer
+ 2022 771996
+
+fileType na
+wordRank 4663
+centralPackageRepositoryCount 0
+
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ HTTP Developer's Handbook|2003|Chris Shiflett|1015229|3.78|18|1
+ What Every Web Developer Should Know About HTTP (OdeToCode, #1)|2012|K. Scott Allen|26214178|4.07|351|29
+ HTTP Programming Recipes for C# Bots|2007|Jeff Heaton|2344177|3.25|8|1
+
+isbndb 9
+ year|publisher|title|authors|isbn13
+ 2013|Apress|Pro ASP.NET Web API: HTTP Web Services in ASP.NET (Expert's Voice in .NET)|Uurlu, Ali and Zeitler, Alexander and Kheyrollahi, Ali|9781430247265
+ 2018|Packt Publishing|Nginx HTTP Server: Harness the power of Nginx to make the most of your infrastructure and serve pages faster than ever before, 4th Edition|Fjordvald, Martin Bjerretoft and Nedelcu, Clement|9781788621977
+ 2013|Packt Publishing|Nginx HTTP Server Second Edition|Nedelcu, Clement|9781782162339
+ 2007-04-03T00:00:01Z|Heaton Research, Inc.|HTTP Programming Recipes for C# Bots|Heaton, Jeff|9780977320677
+ 2017|Packt Publishing|Mastering ASP.NET Web API: Build powerful HTTP services and make the most of the ASP.NET Core Web API platform|Pattankar, Mithun and Hurbuns, Malendra|9781786469380
+ 2017|Packt Publishing|Java 9 Programming Blueprints: Master features like Modular Programming, Java http 2.0, and REPL by building numerous applications|Lee, Jason|9781786460196
+ 2017|Packt Publishing|Java 9 Programming Blueprints: Master features like Modular Programming, Java http 2.0, and REPL by building numerous applications|Lee, Jason|9781786464446
+ 18-11-2015|Packt Publishing|Nginx HTTP Server|Clement Nedelcu|9781785285912
+ 2007|Heaton Research Incorporated|Http Programming Recipes For Java Bots|Jeff Heaton|9780977320660
+
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2020|Research of MQTT, CoAP, HTTP and XMPP IoT Communication protocols for Embedded Systems|10.1109/ET50336.2020.9238208|8|0|Neven Nikolov|09a8411e2926d5ed9245666df874d6af2fb0c787
+ 2019|Implementing ICN over P4 in HTTP Scenario|10.1109/HotICN48464.2019.9063219|3|0|Weiwei Feng and Xiaobin Tan and Yang Jin|88bb0732d3155a14f93c721f4db45eea260e3c3e

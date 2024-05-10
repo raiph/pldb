@@ -1,72 +1,64 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HyperTalk
+import ../measures/conceptPage.scroll
+id HyperTalk
+appeared 1987
+type pl
+creators Dan Winkler
+country United States
+originCommunity Apple
 
-title HyperTalk - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="multics.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dtd.html">&gt;</a>
+printToken put
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hypertalk.pldb
+wikipedia https://en.wikipedia.org/wiki/HyperTalk
+ example
+  on mouseUp 
+      select the clickLine
+      put word 2 of the clickLine into linenum
+      do line linenum of cd fld 1
+    end mouseUp
+ related pascal actionscript applescript ecmascript javascript lingo livecode sensetalk supertalk hypercard
+ summary HyperTalk is a high-level, procedural programming language created in 1987 by Dan Winkler and used in conjunction with Apple Computer's HyperCard hypermedia program by Bill Atkinson. The main target audience of HyperTalk was beginning programmers, hence HyperTalk programmers were usually called authors, and the process of writing programs was called "scripting". HyperTalk scripts are fairly similar to written English, and use a logic structure similar to that of the Pascal programming language. It supports the basic control structures of procedural languages: repeat for/while/until, if/then/else, as well as function and message "handler" calls (a handler is a subroutine, a message handler is a procedure). Data types are transparent to the user, conversion happens transparently in the background between strings and numbers. There are no classes or data structures in the traditional sense; their place was taken by special string literals, or rather "lists" of "items" delimited by commas (in later versions the "itemDelimiter" property allowed choosing an arbitrary character). In the late 1980s Apple considered using HyperCard's HyperTalk scripting language as the standard language across the company and within its classic Mac OS operating system, and for interprocess communication between Apple and non-Apple products. The company did not oppose the development of imitations like SuperCard, and created a HyperTalk Standards Committee to avoid incompatibility between language variants. The case-insensitive language was interpreted at first, but gained just-in-time compilation with HyperCard 2.0.
+ pageId 78136
+ dailyPageViews 51
+ created 2002
+ backlinksCount 59
+ revisionCount 221
+ appeared 1987
 
-startColumns 4
+leachim6 HyperTalk
+ filepath h/HyperTalk.ht
+ fileExtensions ht
+ example
+  put "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:HyperTalk
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/HyperTalk"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=hypertalk" class="material-symbols-outlined">edit</a></div>
+tiobe HyperTalk
+hopl https://hopl.info/showlanguage.prx?exp=1328
 
-* HyperTalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987 by Dan Winkler.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
- link ../lists/creators.html#danWinkler Dan Winkler
+fileType text
+centralPackageRepositoryCount 0
 
-dashboard
- #364 <span title="TotalRank: 834 Jobs: 103 Users: 1001 Facts: 597 Links: 134">on PLDB</span>
- 37 Years Old
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Hypertalk for Educators: Introduction to Programming||Sharon Yoder|21028870|0.0|0|0
+ HyperTalk programming: [includes version 1.1]|1988|Dan Shafer|4059088|0.0|0|0
+ HyperCard Script Language Guide: The Hypertalk Language|1988|Apple Inc.|2172111|4.00|1|0
+ HyperCard IIgs Script Language Guide: The Hypertalk Language|1991|Apple Inc.|3885477|0.0|0|0
+ Hypertalk and Hypertext: Programming the Interface Graphic in the Macintosh and Windows 3.......|1992|A.E. Stanley|3739749|0.0|0|0
 
-* HyperTalk is a high-level, procedural programming language created in 1987 by Dan Winkler and used in conjunction with Apple Computer's HyperCard hypermedia program by Bill Atkinson. The main target audience of HyperTalk was beginning programmers, hence HyperTalk programmers were usually called authors, and the process of writing programs was called "scripting". HyperTalk scripts are fairly similar to written English, and use a logic structure similar to that of the Pascal programming language. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/HyperTalk Read more on Wikipedia...
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 1988-08-01T00:00:01Z|Addison-Wesley|Hypercard Script Language Guide: The Hypertalk Language|Apple Computer Inc.|9780201176322
+ 1988-01-01T00:00:01Z|Sams|Hypertalk Programming/Includes Version 1.1 (Hayden Macintosh library books)|Shafer, Dan|9780672484261
+ 1992|Newtech (GB)|Hypertalk and Hypertext: Programming the Interface Graphic in the Macintosh and Windows 3.......|Stanley, A E|9780750605007
+ 1992|Intl Society For Technology In Educ|Hypertalk For Educators: Introduction To Programming|Sharon Yoder|9780924667954
+ 1988|Sams|Hypertalk Programming/covers Hypercard Version 1.2 (hayden Macintosh Library Books)|Dan Shafer|9780672484391
 
-- HyperTalk Wikipedia page
- https://en.wikipedia.org/wiki/HyperTalk
-- HyperTalk first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- Explore HyperTalk snippets on <a href="http://www.rosettacode.org/wiki/Category:HyperTalk">Rosetta Code</a>
-- HyperTalk on HOPL
- https://hopl.info/showlanguage.prx?exp=1328
-- HyperTalk appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- See also: (10 related languages)<a href="pascal.html">Pascal</a>, <a href="actionscript.html">ActionScript</a>, <a href="applescript.html">Applescript</a>, <a href="ecmascript.html">ECMAScript</a>, <a href="javascript.html">JavaScript</a>, <a href="lingo.html">Lingo</a>, <a href="livecode.html">LiveCode</a>, <a href="sensetalk.html">SenseTalk</a>, <a href="supertalk.html">SuperTalk</a>, <a href="hypercard.html">HyperCard</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/HyperTalk.ht'>hello-world</a>:
- put &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/HyperTalk'>Wikipedia</a>:
- on mouseUp 
-     select the clickLine
-     put word 2 of the clickLine into linenum
-     do line linenum of cd fld 1
-   end mouseUp
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token put
-  Example
-
-keyboardNav multics.html dtd.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1991|HyperTalk as an overture to CS1|10.1145/107004.107015|35|0|Elizabeth E. Katz and H. Porter|b3bdcee080a05baa8c11b7f778a339cc6f4b4173

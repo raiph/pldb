@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ramen
+import ../measures/conceptPage.scroll
+id ramen
+appeared 2017
+type pl
+creators Cedric Cellier
+country Germany
+originCommunity https://github.com/rixed/ramen/issues
 
-title ramen - Programming language
- hidden
+githubRepo https://github.com/rixed/ramen
+ firstCommit 2017
+ stars 13
+ forks 3
+ subscribers 2
+ created 2017
+ updated 2022
+ description A stream processing language and compiler for small-scale monitoring
+ issues 216
 
-html
- <a class="trueBaseThemePreviousItem" href="formality.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="corescript.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 6207
+ committers 7
+ files 613
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ramen.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/rixed/ramen" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ramen" class="material-symbols-outlined">edit</a></div>
-
-* ramen is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Cedric Cellier.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#cedricCellier Cedric Cellier
-
-codeWithHeader Source code:
- git clone https://github.com/rixed/ramen
-
-dashboard
- #2083 <span title="TotalRank: 2591 Jobs: 103 Users: 2124 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A stream processing language and compiler for small-scale monitoring
-
-- ramen is developed on <a href="https://github.com/rixed/ramen">GitHub</a> and has 13 stars
-- ramen first developed in <a href="../lists/originCommunities.html#httpsGithubComRixedRamenIssues">https://github.com/rixed/ramen/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of ramen
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: A stream processing language and compiler for small-scale monitoring|https://news.ycombinator.com/item?id=16771435|04/06/2018|4|0
-
-keyboardNav formality.html corescript.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 16771435|Show HN: A stream processing language and compiler for small-scale monitoring|2018-04-06 06:55:57 UTC|1522997757|rixed|0|4

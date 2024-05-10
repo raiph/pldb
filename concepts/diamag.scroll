@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DIAMAG
+import ../measures/conceptPage.scroll
+id DIAMAG
+appeared 1966
+type pl
+reference https://semanticscholar.org/paper/35d04f33d3fd8dfc66bf5a0e9ae545f94ee0a4a3
+country France
+originCommunity Institut de Mathématiques Appliquées
 
-title DIAMAG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=396
 
-html
- <a class="trueBaseThemePreviousItem" href="dfl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="digraf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/diamag.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=diamag" class="material-symbols-outlined">edit</a></div>
-
-* DIAMAG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #3626 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 58 Years Old
-
-* 
-
-- DIAMAG first developed in <a href="../lists/originCommunities.html#institutDeMathematiquesAppliquees">Institut de Mathématiques Appliquées</a>
-- DIAMAG on HOPL
- https://hopl.info/showlanguage.prx?exp=396
-- Read more about DIAMAG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/35d04f33d3fd8dfc66bf5a0e9ae545f94ee0a4a3 1.
-
-<br>
-
-endColumns
-
-keyboardNav dfl.html digraf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

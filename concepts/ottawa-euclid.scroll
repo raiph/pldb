@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ottawa Euclid
+import ../measures/conceptPage.scroll
+id Ottawa Euclid
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/8bc6a491425664186ce40fb96735f4ea51947151
+country Canada
+originCommunity I.P. Sharp Associates
 
-title Ottawa Euclid - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2324
 
-html
- <a class="trueBaseThemePreviousItem" href="osl-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="otter.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ottawa-euclid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ottawa-euclid" class="material-symbols-outlined">edit</a></div>
-
-* Ottawa Euclid is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3898 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Ottawa Euclid first developed in <a href="../lists/originCommunities.html#iPSharpAssociates">I.P. Sharp Associates</a>
-- Ottawa Euclid on HOPL
- https://hopl.info/showlanguage.prx?exp=2324
-- Read more about Ottawa Euclid on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8bc6a491425664186ce40fb96735f4ea51947151 1.
-
-<br>
-
-endColumns
-
-keyboardNav osl-2.html otter.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

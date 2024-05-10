@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title draconian
+import ../measures/conceptPage.scroll
+id draconian
+appeared 2021
+type pl
+isDead true
+creators Hextanium
+country United States
 
-title draconian - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="atx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stringbean.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/draconian.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/TechnoDrive/draconian" class="material-symbols-outlined">code</a> <a href="/edit.html?id=draconian" class="material-symbols-outlined">edit</a></div>
-
-* draconian is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Hextanium.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#hextanium Hextanium
-
-codeWithHeader Source code:
- git clone https://github.com/TechnoDrive/draconian
-
-dashboard
- #2712 <span title="TotalRank: 3410 Jobs: 103 Users: 2415 Facts: 2321 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A crisp language focused on making code equally easy to both read and type.
-
-- draconian is developed on <a href="https://github.com/TechnoDrive/draconian">GitHub</a> and has 1 stars
-
-<br>
-
-endColumns
-
-keyboardNav atx.html stringbean.html
-
-import ../footer.scroll
+githubRepo https://github.com/TechnoDrive/draconian
+ firstCommit 2021
+ stars 1
+ forks 0
+ subscribers 1
+ created 2021
+ updated 2022
+ description A crisp language focused on making code equally easy to both read and type.
+ issues 0

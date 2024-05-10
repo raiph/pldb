@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CONCUR
+import ../measures/conceptPage.scroll
+id CONCUR
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/97150dfc91fee1d7ddb51dcd7d681ca4ea554d32
+country United States
+originCommunity Oberlin College
 
-title CONCUR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=947
 
-html
- <a class="trueBaseThemePreviousItem" href="concert-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="concurrent-pascal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/concur.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=concur" class="material-symbols-outlined">edit</a></div>
-
-* CONCUR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3588 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- CONCUR first developed in <a href="../lists/originCommunities.html#oberlinCollege">Oberlin College</a>
-- CONCUR on HOPL
- https://hopl.info/showlanguage.prx?exp=947
-- Read more about CONCUR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/97150dfc91fee1d7ddb51dcd7d681ca4ea554d32 1.
-
-<br>
-
-endColumns
-
-keyboardNav concert-c.html concurrent-pascal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

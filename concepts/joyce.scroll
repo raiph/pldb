@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Joyce
+import ../measures/conceptPage.scroll
+id Joyce
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/893c99e56b097430b5d3363636d1d16bf5c04e9f
+country United States
+originCommunity Syracuse University
 
-title Joyce - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1330
 
-html
- <a class="trueBaseThemePreviousItem" href="josie.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="joycep.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/joyce.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=joyce" class="material-symbols-outlined">edit</a></div>
-
-* Joyce is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4182 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Joyce first developed in <a href="../lists/originCommunities.html#syracuseUniversity">Syracuse University</a>
-- Joyce on HOPL
- https://hopl.info/showlanguage.prx?exp=1330
-- Read more about Joyce on Semantic Scholar: 1.
- https://semanticscholar.org/paper/893c99e56b097430b5d3363636d1d16bf5c04e9f 1.
-
-<br>
-
-endColumns
-
-keyboardNav josie.html joycep.html
-
-import ../footer.scroll
+wordRank 9629
+centralPackageRepositoryCount 0

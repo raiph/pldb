@@ -1,56 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jemplate
+import ../measures/conceptPage.scroll
+id Jemplate
+appeared 2006
+type template
+creators Ingy döt Net
+conceptDescription JavaScript Templating is the best way to turn AJAX/JSON data into HTML. Jemplate is the best way to do JavaScript Templating.
+website https://www.jemplate.net/
 
-title Jemplate - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gamerlanguage.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="podlite.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jemplate.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.jemplate.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/ingydotnet/jemplate" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jemplate" class="material-symbols-outlined">edit</a></div>
-
-* Jemplate is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2006 by Ingy döt Net.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#ingyDotNet Ingy döt Net
-
-codeWithHeader Source code:
- git clone https://github.com/ingydotnet/jemplate
-
-dashboard
- #2272 <span title="TotalRank: 2758 Jobs: 103 Users: 2415 Facts: 1669 Links: 986">on PLDB</span>
- 18 Years Old
-
-* JavaScript Templating is the best way to turn AJAX/JSON data into HTML. Jemplate is the best way to do JavaScript Templating.
-
-- Jemplate website
- https://www.jemplate.net/
-- Jemplate is developed on <a href="https://github.com/ingydotnet/jemplate">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;style&gt; .stretch { width: 100%; height: auto; max-height: 100%; } &lt;/style&gt;
- &lt;div class=&quot;row&quot;&gt;
+example
+ <style> .stretch { width: 100%; height: auto; max-height: 100%; } </style>
+ <div class="row">
  [% FOREACH kitty = items -%]
  	[%- LAST IF loop.index==12; -%]
- 	&lt;div class=&quot;col-md-2&quot;&gt;
- 		&lt;a href=&quot;[% kitty.link %]&quot;&gt;
- 			&lt;div style=&quot;width: 240px; height: 240px; overflow:hidden;&quot;&gt;
- 						&lt;img src=&quot;[% kitty.media.m %]&quot; alt=&quot;[% kitty.title.replace(&#39;#.+&#39;,&#39;&#39;) | html %]&quot; class=&quot;img-circle stretch&quot;&gt;
- 			&lt;/div&gt;
- 		&lt;/a&gt;
- 	&lt;/div&gt;
+ 	<div class="col-md-2">
+ 		<a href="[% kitty.link %]">
+ 			<div style="width: 240px; height: 240px; overflow:hidden;">
+ 						<img src="[% kitty.media.m %]" alt="[% kitty.title.replace('#.+','') | html %]" class="img-circle stretch">
+ 			</div>
+ 		</a>
+ 	</div>
  [% END %]
- &lt;/div&gt;
+ </div>
 
-endColumns
-
-keyboardNav gamerlanguage.html podlite.html
-
-import ../footer.scroll
+githubRepo https://github.com/ingydotnet/jemplate

@@ -1,63 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Glicol
+import ../measures/conceptPage.scroll
+id Glicol
+appeared 2020
+type musicalNotation
+creators Qichao Lan
+website https://glicol.org
+webRepl https://glicol.org/demo
+country Norway
+originCommunity University of Oslo
+domainName glicol.org
+ registered 2021
 
-title Glicol - Musical notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="1620sps.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="query-by-example.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/glicol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://glicol.org" class="material-symbols-outlined">home</a> <a href="https://glicol.org/demo" class="material-symbols-outlined">terminal</a> <a href="https://github.com/chaosprint/glicol" class="material-symbols-outlined">code</a> <a href="/edit.html?id=glicol" class="material-symbols-outlined">edit</a></div>
-
-* Glicol is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+musicalNotation">musical notation</a> created in 2020 by Qichao Lan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#qichaoLan Qichao Lan
-
-codeWithHeader Source code:
- git clone https://github.com/chaosprint/glicol
-
-dashboard
- #870 <span title="TotalRank: 1434 Jobs: 103 Users: 529 Facts: 802 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://glicol.org/demo">Web</a>
-
-* (Audio) graph-oriented live coding language and music DSP library written in Rust
-
-- Glicol website
- https://glicol.org
-- Glicol is developed on <a href="https://github.com/chaosprint/glicol">GitHub</a> and has 949 stars
-- Glicol first developed in <a href="../lists/originCommunities.html#universityOfOslo">University of Oslo</a>
-- <a href="https://glicol.org">glicol.org</a> was registered in 2021
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ~gate: speed 2.0
- &gt;&gt; seq 60 _60 _~a 48;
+ >> seq 60 _60 _~a 48;
  ~a: choose 48 48 48 72 0 0 0
- ~amp: ~gate &gt;&gt; envperc 0.001 0.1;
+ ~amp: ~gate >> envperc 0.001 0.1;
  ~pit: ~gate
- &gt;&gt; mul ##Math.pow(2, (60-69)/12) * 440#
+ >> mul ##Math.pow(2, (60-69)/12) * 440#
  // mix js to get 261.63
- ~lead: saw ~pit &gt;&gt; mul ~amp &gt;&gt; lpf ~mod 5.0
- &gt;&gt; meta `
+ ~lead: saw ~pit >> mul ~amp >> lpf ~mod 5.0
+ >> meta `
      output = input.map(|x|x*0.1);
      output
- ` // rhai script, same as &quot;mul 0.1&quot;
- ~mod: sin 0.2 &gt;&gt; mul 1300 &gt;&gt; add 1500;
- out: ~lead &gt;&gt; add ~drum &gt;&gt; plate 0.1 // optinal semicolon
- ~drum: speed 4.0 &gt;&gt; seq 60 &gt;&gt; sp \808bd;
+ ` // rhai script, same as "mul 0.1"
+ ~mod: sin 0.2 >> mul 1300 >> add 1500;
+ out: ~lead >> add ~drum >> plate 0.1 // optinal semicolon
+ ~drum: speed 4.0 >> seq 60 >> sp \808bd;
  // live drag and drop your sample  ^^^
 
-endColumns
+githubRepo https://github.com/chaosprint/glicol
+ firstCommit 2020
+ stars 949
+ forks 36
+ subscribers 17
+ created 2020
+ updated 2022
+ description (Audio) graph-oriented live coding language and music DSP library written in Rust
+ issues 23
 
-keyboardNav 1620sps.html query-by-example.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 592
+ committers 7
+ files 200

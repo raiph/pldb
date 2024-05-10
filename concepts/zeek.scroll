@@ -1,42 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Zeek
+import ../measures/conceptPage.scroll
+id Zeek
+appeared 1994
+type pl
+conceptDescription Zeek's domain-specific scripting language enables site-specific monitoring policies.
+website https://zeek.org/
+oldName bro
+domainName zeek.org
+ registered 2017
+ awisRank
+  2022 245924
 
-title Zeek - Programming language
- hidden
+githubLanguage Zeek
+ type programming
+ fileExtensions zeek bro
+ aceMode text
+ tmScope source.zeek
+ aliases bro
+ repos 1383
+githubBigQuery Zeek
+ repos 17
+ users 17
 
-html
- <a class="trueBaseThemePreviousItem" href="asic-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="augment.html">&gt;</a>
+pygmentsHighlighter Zeek
+ filename dsls.py
+ fileExtensions zeek bro
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zeek.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://zeek.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=zeek" class="material-symbols-outlined">edit</a></div>
-
-* Zeek is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #1712 <span title="TotalRank: 2220 Jobs: 103 Users: 2442 Facts: 1450 Links: 667">on PLDB</span>
- 30 Years Old
- 1k <span title="Zeek repos on GitHub.">Repos</span>
-
-* Zeek's domain-specific scripting language enables site-specific monitoring policies.
-
-- Zeek website
- https://zeek.org/
-- There are at least 1,383 Zeek repos on <a href="https://github.com/search?q=language:Zeek">GitHub</a>
-- file extensions for Zeek include zeek and bro
-- The  Google BigQuery Public Dataset GitHub snapshot shows 17 users using Zeek in 17 repos on <a href="https://api.github.com/search/repositories?q=language:Zeek">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dsls.py">syntax highlighting</a> for Zeek
-- <a href="https://zeek.org/">zeek.org</a> was registered in 2017
-
-<br>
-
-endColumns
-
-keyboardNav asic-programming-language.html augment.html
-
-import ../footer.scroll
+isbndb 0

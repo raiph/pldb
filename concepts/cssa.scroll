@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CSSA
+import ../measures/conceptPage.scroll
+id CSSA
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/c3b2ecf2395dd45de8657a8d40a41e2a98b8dad9
+country Germany
+originCommunity University of Bonn
 
-title CSSA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1314
 
-html
- <a class="trueBaseThemePreviousItem" href="csp-oz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="culler-fried-system.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cssa.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cssa" class="material-symbols-outlined">edit</a></div>
-
-* CSSA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3606 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- CSSA first developed in <a href="../lists/originCommunities.html#universityOfBonn">University of Bonn</a>
-- CSSA on HOPL
- https://hopl.info/showlanguage.prx?exp=1314
-- Read more about CSSA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c3b2ecf2395dd45de8657a8d40a41e2a98b8dad9 1.
-
-<br>
-
-endColumns
-
-keyboardNav csp-oz.html culler-fried-system.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

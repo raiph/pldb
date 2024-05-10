@@ -1,59 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OK
+import ../measures/conceptPage.scroll
+id OK
+appeared 2021
+type pl
+creators Jesse Duffield
+webRepl https://www.okquestionmark.org
+reference https://news.ycombinator.com/item?id=32640918
+country Australia
+originCommunity https://github.com/jesseduffield/OK/issues
 
-title OK - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sporth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mdl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ok.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.okquestionmark.org" class="material-symbols-outlined">terminal</a> <a href="https://github.com/jesseduffield/OK" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ok" class="material-symbols-outlined">edit</a></div>
-
-* OK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Jesse Duffield.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#jesseDuffield Jesse Duffield
-
-codeWithHeader Source code:
- git clone https://github.com/jesseduffield/OK
-
-dashboard
- #1510 <span title="TotalRank: 2033 Jobs: 103 Users: 1222 Facts: 944 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Try now: <a href="https://www.okquestionmark.org">Web</a>
-
-* Welcome to the future of programming languages: OK?
-
-- OK is developed on <a href="https://github.com/jesseduffield/OK">GitHub</a> and has 146 stars
-- OK first developed in <a href="../lists/originCommunities.html#httpsGithubComJesseduffieldOkIssues">https://github.com/jesseduffield/OK/issues</a>
-- Read more about OK on the web: 1.
- https://news.ycombinator.com/item?id=32640918 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  let divide = fn(a, b) {
    return switch b {
-     case 0: [NO!, &quot;cannot divide by zero&quot;];
-     default: [a / b, &quot;&quot;];
+     case 0: [NO!, "cannot divide by zero"];
+     default: [a / b, ""];
    };
  };
  
  result = divide(5, 0)
  switch result[1] {
-   case &quot;&quot;: puts(result[0])
-   default: puts(result[1]) // prints &quot;cannot divide by zero&quot;
+   case "": puts(result[0])
+   default: puts(result[1]) // prints "cannot divide by zero"
  }
  
 
-endColumns
+githubRepo https://github.com/jesseduffield/OK
+ firstCommit 2021
+ stars 146
+ forks 10
+ subscribers 2
+ created 2021
+ updated 2022
+ description Welcome to the future of programming languages: OK?
+ issues 3
 
-keyboardNav sporth.html mdl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 91
+ committers 3
+ files 76

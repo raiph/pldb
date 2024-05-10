@@ -1,14 +1,9 @@
 importOnly
 
-replaceDefault BASE_URL 
-replace SITE_NAME PlanetsDB
-replace SITE_DESCRIPTION key data on the solar system in one table
-replace TRUEBASE_ID planetsdb
-replace DOMAIN_NAME localhost
-replace GIT_URL https://github.com/breck7/pldb
+description PLDB: a Programming Language Database. Build the next great programming language.
+git https://github.com/breck7/pldb
+email feedback@pldb.io
+baseUrl https://pldb.io/
+import scrollExtensions.scroll
 
-description SITE_NAME: SITE_DESCRIPTION
-git GIT_URL
-viewSourceBaseUrl https://github.com/breck7/truebase/blob/main/planetsDB/
-email planetsDB@truebase.pub
-baseUrl https://localhost/
+replaceJs DAYS_SINCE_LAUNCH Math.floor(dayjs().diff(dayjs("2022-08-28"), "day", true))

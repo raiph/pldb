@@ -1,49 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title xt3d
+import ../measures/conceptPage.scroll
+id xt3d
+appeared 2000
+type grammarLanguage
+creators Shriram Krishnamurthi and Kathryn E. Gray and Paul T. Graunke
+conceptDescription We have designed and implemented xt3d, a highly declarative xml specification language. It demands little more from users than a knowledge of the expected input and desired output. We illustrate the power of xt3d with several examples, including one reminiscent of polytypic programming that greatly simplifies the import of xml values into general-purpose languages. . xt3d is itself an xml language, so users do not need to learn a new surface syntax.  The principal advantage of xt3d over xslt is that it provides an extremely simple, declarative language for describing transformations over xml elements.
+reference http://cs.brown.edu/people/sk/Publications/Papers/Published/kgg-xt3d/paper.pdf
 
-title xt3d - Grammar language
- hidden
+relatedConcepts xslt
 
-html
- <a class="trueBaseThemePreviousItem" href="xml-ql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="siman.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xt3d.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xt3d" class="material-symbols-outlined">edit</a></div>
-
-* xt3d is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2000 by Shriram Krishnamurthi and Kathryn E. Gray and Paul T. Graunke.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#shriramKrishnamurthi Shriram Krishnamurthi
- link ../lists/creators.html#kathrynEGray Kathryn E. Gray
- link ../lists/creators.html#paulTGraunke Paul T. Graunke
-
-dashboard
- #2739 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 24 Years Old
-
-* We have designed and implemented xt3d, a highly declarative xml specification language. It demands little more from users than a knowledge of the expected input and desired output. We illustrate the power of xt3d with several examples, including one reminiscent of polytypic programming that greatly simplifies the import of xml values into general-purpose languages. . xt3d is itself an xml language, so users do not need to learn a new surface syntax.  The principal advantage of xt3d over xslt is that it provides an extremely simple, declarative language for describing transformations over xml elements.
-
-- See also: (1 related languages)<a href="xslt.html">XSLT</a>
-- Read more about xt3d on the web: 1.
- http://cs.brown.edu/people/sk/Publications/Papers/Published/kgg-xt3d/paper.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;xt3d-output&gt;
-  &lt;ul&gt;
-   &lt;li&gt;&lt;xt3d-use name=&quot;name&quot;/&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;b&gt;&lt;xt3d-use name=&quot;num&quot;/&gt;&lt;/b&gt; &lt;xt3d-.../&gt;&lt;/li&gt;
-   &lt;li&gt;&lt;i&gt;&lt;xt3d-use name=&quot;fmt&quot;/&gt;&lt;/i&gt; &lt;xt3d-.../&gt;&lt;/li&gt;
-  &lt;/ul&gt;
- &lt;/xt3d-output&gt;
-
-endColumns
-
-keyboardNav xml-ql.html siman.html
-
-import ../footer.scroll
+example
+ <xt3d-output>
+  <ul>
+   <li><xt3d-use name="name"/></li>
+   <li><b><xt3d-use name="num"/></b> <xt3d-.../></li>
+   <li><i><xt3d-use name="fmt"/></i> <xt3d-.../></li>
+  </ul>
+ </xt3d-output>

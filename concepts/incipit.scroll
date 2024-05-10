@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Incipit
+import ../measures/conceptPage.scroll
+id Incipit
+appeared 2021
+type textMarkup
+creators Lucas de Sena
+conceptDescription The ‘Incipit Markup Language’ (or ‘Incipit’, for short) is a plain text markup language that uses Unicode characters and the structure of the text itself to format documents.
+country Brazil
+originCommunity https://github.com/phillbush/incipit/issues
 
-title Incipit - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="z-flat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="goal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/incipit.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/phillbush/incipit" class="material-symbols-outlined">code</a> <a href="/edit.html?id=incipit" class="material-symbols-outlined">edit</a></div>
-
-* Incipit is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2021 by Lucas de Sena.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#lucasDeSena Lucas de Sena
-
-codeWithHeader Source code:
- git clone https://github.com/phillbush/incipit
-
-dashboard
- #1396 <span title="TotalRank: 1921 Jobs: 103 Users: 2347 Facts: 832 Links: 986">on PLDB</span>
- 3 Years Old
-
-* The ‘Incipit Markup Language’ (or ‘Incipit’, for short) is a plain text markup language that uses Unicode characters and the structure of the text itself to format documents.
-
-- Incipit is developed on <a href="https://github.com/phillbush/incipit">GitHub</a> and has 8 stars
-- Incipit first developed in <a href="../lists/originCommunities.html#httpsGithubComPhillbushIncipitIssues">https://github.com/phillbush/incipit/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  .Enumeration incipit.
  Each enumeration item can have a incipit colon, which will be explained
  on the “§ Incipit” section below.  The incipit colon is a colon
@@ -53,8 +27,18 @@ codeWithHeader Example from the web:
      • Fourth subitem of third item.
  • (D) Fourth item.
 
-endColumns
+githubRepo https://github.com/phillbush/incipit
+ firstCommit 2021
+ stars 8
+ forks 0
+ subscribers 3
+ created 2021
+ updated 2021
+ description the incipit plain text markup language, and some troff macro packages
+ issues 0
 
-keyboardNav z-flat.html goal.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 26
+ committers 2
+ files 11

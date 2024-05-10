@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MINIVITAL
+import ../measures/conceptPage.scroll
+id MINIVITAL
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/a999901289abce1fce15c39a67b1edf77a34201e
+country United States
+originCommunity Palyn Associates && R.L.G. Associates
 
-title MINIVITAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3673
 
-html
- <a class="trueBaseThemePreviousItem" href="minion.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="minopt.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/minivital.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=minivital" class="material-symbols-outlined">edit</a></div>
-
-* MINIVITAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3832 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- MINIVITAL first developed in <a href="../lists/originCommunities.html#palynAssociates">Palyn Associates</a> and <a href="../lists/originCommunities.html#rLGAssociates">R.L.G. Associates</a>
-- MINIVITAL on HOPL
- https://hopl.info/showlanguage.prx?exp=3673
-- Read more about MINIVITAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a999901289abce1fce15c39a67b1edf77a34201e 1.
-
-<br>
-
-endColumns
-
-keyboardNav minion.html minopt.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

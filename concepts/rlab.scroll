@@ -1,55 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RLaB
+import ../measures/conceptPage.scroll
+id RLaB
+appeared 1998
+type pl
+reference https://dl.acm.org/doi/fullHtml/10.5555/326286.326292
+reference https://web.archive.org/web/19990428033158/https://www.eskimo.com/~ians/rlab.html
+country United States
+originCommunity https://sourceforge.net/p/rlab/bugs
 
-title RLaB - Programming language
- hidden
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="formula.html">&gt;</a>
+wikipedia https://web.archive.org/web/20170310231827/https://en.wikipedia.org/wiki/Rlab
+ related matlab linux
+ summary Rlab is an interactive, interpreted numerical computation program and its core programming language, written by Ian Searle. Rlab (the language) is very high level and is intended to provide fast prototyping and program development, as well as easy data-visualization, and processing. Rlab was not designed as a clone of MATLAB. However, as Rlab (the program) is intended to provide a good experimental environment (or laboratory) in which to do matrix math, the programming language possesses similar operators and concepts and could be called MATLAB-like. Rlab borrows some of the best features of the MATLAB language but provides them through a different syntax that has been modified in order to be more expressive while reducing ambiguity. The variable scoping rules facilitate the creation of larger programs and re-usable program libraries. A heterogeneous associative array datatype has been added to allow users to create and operate on arbitrary data structures. The fundamental data type is the dense floating point matrix (either real or complex), though string and sparse numerical matrices (both real and complex) are also provided. Rlab 2.1 is no longer under active development. Binary versions are available for Linux and for Windows, and source code is available under the GPL. Rlab 2.2 has been released as a part of the project rlabplus by Marijan Koštrun.
+ pageId 593529
+ created 2004
+ backlinksCount 6
+ revisionCount 38
+ dailyPageViews 12
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rlab.pldb
+rosettaCode http://www.rosettacode.org/wiki/Category:RLaB
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=5721
 
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20170310231827/https://en.wikipedia.org/wiki/Rlab"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=rlab" class="material-symbols-outlined">edit</a></div>
+fileType text
+centralPackageRepositoryCount 0
 
-* RLaB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #2065 <span title="TotalRank: 2591 Jobs: 103 Users: 1577 Facts: 1502 Links: 986">on PLDB</span>
- 26 Years Old
-
-* Rlab is an interactive, interpreted numerical computation program and its core programming language, written by Ian Searle. Rlab (the language) is very high level and is intended to provide fast prototyping and program development, as well as easy data-visualization, and processing. Rlab was not designed as a clone of MATLAB. Read more on Wikipedia...
- https://web.archive.org/web/20170310231827/https://en.wikipedia.org/wiki/Rlab Read more on Wikipedia...
-
-- RLaB Wikipedia page
- https://web.archive.org/web/20170310231827/https://en.wikipedia.org/wiki/Rlab
-- RLaB first developed in <a href="../lists/originCommunities.html#httpsSourceforgeNetPRlabBugs">https://sourceforge.net/p/rlab/bugs</a>
-- Explore RLaB snippets on <a href="http://www.rosettacode.org/wiki/Category:RLaB">Rosetta Code</a>
-- RLaB on HOPL
- https://hopl.info/showlanguage.prx?exp=5721
-- See also: (2 related languages)<a href="matlab.html">MATLAB</a>, <a href="linux.html">Linux</a>
-- Read more about RLaB on the web: 1. 2.
- https://dl.acm.org/doi/fullHtml/10.5555/326286.326292 1.
- https://web.archive.org/web/19990428033158/https://www.eskimo.com/~ians/rlab.html 2.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav i.html formula.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Articles on Free Mathematics Software, Including: Gnuplot, Gnu Octave, Scilab, Units (Software), Numpy, DC (Computer Program), Rlab, BC Programming Language, Perl Data Language, Gnu Linear Programming Kit, Root, Experix, Xnumbers, Snappea|2011|Hephaestus Books|17625508|4.00|1|0

@@ -1,43 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title s-lang
+import ../measures/conceptPage.scroll
+id s-lang
+appeared 1992
+type pl
+creators John E. Davis
+conceptDescription S-Lang is an interpreted language that was designed from the start to be easily embedded into a program to provide it with a powerful extension language. Examples of programs that use S-Lang as an extension language include the jed text editor and the slrn newsreader. Although S-Lang does not exist as a separate application, it is distributed with a quite capable program called slsh (``slang-shell'') that embeds the interpreter and allows one to execute S-Lang scripts, or simply experiment with S-Lang at an interactive prompt. Many of the the examples in this document are presented in the context of one of the above applications. S-Lang was originally a stack language that supported a postscript-like syntax. For that reason, I named it S-Lang, where the S was supposed to emphasize its stack-based nature. About a year later, I began to work on a preparser that would allow one unfamiliar with stack based languages to make use of a more traditional infix syntax. Currently, the syntax of the language resembles C, nevertheless some postscript-like features still remain, e.g., the `%' character is still used as a comment delimiter.
+website http://www.jedsoft.org/slang/doc/html/slang.html
+country United States
+originCommunity https://www.jedsoft.org/slang/mailinglists.html
 
-title s-lang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="coherence.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cddl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/s-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.jedsoft.org/slang/doc/html/slang.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=s-lang" class="material-symbols-outlined">edit</a></div>
-
-* s-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992 by John E. Davis.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
- link ../lists/creators.html#johnEDavis John E. Davis
-
-dashboard
- #2184 <span title="TotalRank: 2680 Jobs: 103 Users: 2442 Facts: 1591 Links: 986">on PLDB</span>
- 32 Years Old
-
-* S-Lang is an interpreted language that was designed from the start to be easily embedded into a program to provide it with a powerful extension language. Examples of programs that use S-Lang as an extension language include the jed text editor and the slrn newsreader. Although S-Lang does not exist as a separate application, it is distributed with a quite capable program called slsh (``slang-shell'') that embeds the interpreter and allows one to execute S-Lang scripts, or simply experiment with S-Lang at an interactive prompt. Many of the the examples in this document are presented in the context of one of the above applications. S-Lang was originally a stack language that supported a postscript-like syntax. For that reason, I named it S-Lang, where the S was supposed to emphasize its stack-based nature. About a year later, I began to work on a preparser that would allow one unfamiliar with stack based languages to make use of a more traditional infix syntax. Currently, the syntax of the language resembles C, nevertheless some postscript-like features still remain, e.g., the `%' character is still used as a comment delimiter.
-
-- s-lang website
- http://www.jedsoft.org/slang/doc/html/slang.html
-- s-lang first developed in <a href="../lists/originCommunities.html#httpsWwwJedsoftOrgSlangMailinglistsHtml">https://www.jedsoft.org/slang/mailinglists.html</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  define init_array (a)
  {
     variable i, imax;
  
     imax = length (a);
-    for (i = 0; i &lt; imax; i++)
+    for (i = 0; i < imax; i++)
       {
          a[i] = 7;
       }
@@ -45,9 +22,3 @@ codeWithHeader Example from the web:
  
  variable A = Int_Type [10];
  init_array (A);
-
-endColumns
-
-keyboardNav coherence.html cddl.html
-
-import ../footer.scroll

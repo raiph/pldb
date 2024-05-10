@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasMultipleDispatch.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasNamespaces.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/cython.html">Cython</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>:
  class Base1:
      pass
  class Base2:
@@ -28,11 +28,9 @@ codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a hre
  class Derived2(Derived1):
      pass
 
-* Languages *with* Multiple Inheritance include <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/eiffel.html">Eiffel</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/dylan.html">Dylan</a>, <a href="../concepts/eulisp.html">EuLisp</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/perl-6.html">Perl 6</a>, <a href="../concepts/curl.html">Curl</a>, <a href="../concepts/pop-11.html">Pop-11</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/logtalk.html">Logtalk</a>, <a href="../concepts/object-rexx.html">Object Rexx</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
+* Languages *with* Multiple Inheritance include <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/eiffel.html">Eiffel</a>, <a href="../concepts/perl-6.html">Perl 6</a>, <a href="../concepts/dylan.html">Dylan</a>, <a href="../concepts/curl.html">Curl</a>, <a href="../concepts/logtalk.html">Logtalk</a>, <a href="../concepts/object-rexx.html">Object Rexx</a>, <a href="../concepts/eulisp.html">EuLisp</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/pop-11.html">Pop-11</a>
 
-* Languages *without* Multiple Inheritance include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/tick-c.html">Tick C</a>
-
-* This question asks: Does the language allow multiple inheritance?
+* Languages *without* Multiple Inheritance include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Multiple Inheritance on the web: 1.
  https://en.wikipedia.org/wiki/Multiple_inheritance 1.

@@ -1,72 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kal
+import ../measures/conceptPage.scroll
+id Kal
+appeared 2012
+type pl
+conceptDescription Kal is a highly readable, easy-to-use language that compiles to JavaScript.
+website http://rzimmerman.github.io/kal
+country United States
+originCommunity https://github.com/rzimmerman/kal/issues
 
-title Kal - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="hujson.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rouge.html">&gt;</a>
+hasHexadecimals true
+hasFloats true
+hasIntegers true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://rzimmerman.github.io/kal" class="material-symbols-outlined">home</a> <a href="https://github.com/rzimmerman/kal" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kal" class="material-symbols-outlined">edit</a></div>
-
-* Kal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/rzimmerman/kal
-
-dashboard
- #1351 <span title="TotalRank: 1890 Jobs: 103 Users: 801 Facts: 1058 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Kal is a highly readable, easy-to-use language that compiles to JavaScript.
-
-- Kal website
- http://rzimmerman.github.io/kal
-- Kal is developed on <a href="https://github.com/rzimmerman/kal">GitHub</a> and has 394 stars
-- Kal first developed in <a href="../lists/originCommunities.html#httpsGithubComRzimmermanKalIssues">https://github.com/rzimmerman/kal/issues</a>
-- file extensions for Kal include kal
-- Kal compiles to <a href="javascript.html">JavaScript</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for Kal
-
-<br>
-
-codeWithHeader Example from the web:
+example
  task getUserFriends (userName)
   wait for user from db.users.findOne {name:userName}
   wait for friends from db.friends.find {userId:user.id}
   return friends
 
-endColumns
+githubRepo https://github.com/rzimmerman/kal
+ stars 394
+ forks 17
+ subscribers 26
+ created 2012
+ updated 2014
+ description A powerful, easy-to-use, and easy-to-read programming language for the future.
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2012
+ commits 444
+ committers 6
+ files 47
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
+pygmentsHighlighter Kal
+ filename javascript.py
+ fileExtensions kal
 
-keyboardNav hujson.html rouge.html
-
-import ../footer.scroll
+isbndb 0

@@ -9,20 +9,18 @@ html
  <a class="trueBaseThemePreviousItem" href="hasGotos.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasHexadecimals.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/bash.html">Bash</a>:
  cat &lt;&lt;Message
   Hello world
  Message
 
-* Languages *with* Here Document include <a href="../concepts/php.html">PHP</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/bourne-shell.html">Bourne shell</a>, <a href="../concepts/korn-shell.html">Korn shell</a>, <a href="../concepts/z-shell.html">Z shell</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/c-shell.html">C shell</a>
+* Languages *with* Here Document include <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/z-shell.html">Z shell</a>, <a href="../concepts/korn-shell.html">Korn shell</a>, <a href="../concepts/bourne-shell.html">Bourne shell</a>, <a href="../concepts/c-shell.html">C shell</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 * Languages *without* Here Document include <a href="../concepts/c3.html">C3</a>
-
-* This question asks: Does the language have a syntax for multiline text blocks?
 
 * Read more about Here Document on the web: 1.
  https://en.wikipedia.org/wiki/Here_document 1.

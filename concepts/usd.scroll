@@ -1,65 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title USD
+import ../measures/conceptPage.scroll
+id USD
+appeared 2016
+type pl
+website https://graphics.pixar.com/usd/release/index.html
+standsFor Universal Scene Description
+originCommunity Pixar
 
-title USD - Programming language
- hidden
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="trex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wescheme.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/usd.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://graphics.pixar.com/usd/release/index.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=usd" class="material-symbols-outlined">edit</a></div>
-
-* USD, aka Universal Scene Description, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2279 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- USD website
- https://graphics.pixar.com/usd/release/index.html
-- USD first developed in <a href="../lists/originCommunities.html#pixar">Pixar</a>
-- file extensions for USD include usd and usda
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/usd.py">syntax highlighting</a> for USD
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #usda 1.0
  
- def Xform &quot;hello&quot;
+ def Xform "hello"
  {
-     def Sphere &quot;world&quot;
+     def Sphere "world"
      {
      }
  }
 
-endColumns
+pygmentsHighlighter USD
+ filename usd.py
+ fileExtensions usd usda
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav trex.html wescheme.html
-
-import ../footer.scroll
+isbndb 0

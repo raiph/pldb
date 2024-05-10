@@ -1,49 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mdl
+import ../measures/conceptPage.scroll
+id mdl
+appeared 2019
+type isa
+creators Reid Tatge
+conceptDescription We’ve created a DSL and compiler for modeling micro-architecture that handles a very broad class of architectures - CPU, GPUs, VLIWs, DSPs, ML accelerators, and embedded devices. This effort grew out of a need to quickly develop and experiment with high-quality compilers and tools to facilitate rapid architecture exploration. We named the DSL “MDL” for “Microarchitecture Description Language”
+website https://github.com/MPACT-ORG
+documentation https://llvm.org/docs/GettingStarted.html
+reference https://discourse.llvm.org/t/rfc-mdl-a-micro-architecture-description-language-for-llvm/66409/4
+cheatSheetUrl https://github.com/MPACT-ORG/llvm-project/tree/work#the-llvm-compiler-infrastructure
+standsFor Microarchitecture Description Language
+country United States
+originCommunity https://github.com/MPACT-ORG
+versions
+ 2022 llvmorg-14.0.0-rc1
 
-title mdl - Instruction set architecture
- hidden
+writtenIn cpp
 
-html
- <a class="trueBaseThemePreviousItem" href="xpm-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lezer.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microarchitecture-description-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/MPACT-ORG" class="material-symbols-outlined">home</a> <a href="https://github.com/MPACT-ORG/llvm-project/" class="material-symbols-outlined">code</a> <a href="https://llvm.org/docs/GettingStarted.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=microarchitecture-description-language" class="material-symbols-outlined">edit</a></div>
-
-* mdl, aka Microarchitecture Description Language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+isa">instruction set architecture</a> created in 2019 by Reid Tatge.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#reidTatge Reid Tatge
-
-codeWithHeader Source code:
- git clone https://github.com/MPACT-ORG/llvm-project/
-
-dashboard
- #2086 <span title="TotalRank: 2591 Jobs: 103 Users: 2241 Facts: 1502 Links: 986">on PLDB</span>
- 5 Years Old
-
-* We’ve created a DSL and compiler for modeling micro-architecture that handles a very broad class of architectures - CPU, GPUs, VLIWs, DSPs, ML accelerators, and embedded devices. This effort grew out of a need to quickly develop and experiment with high-quality compilers and tools to facilitate rapid architecture exploration. We named the DSL “MDL” for “Microarchitecture Description Language”
-
-- mdl website
- https://github.com/MPACT-ORG
-- mdl is developed on <a href="https://github.com/MPACT-ORG/llvm-project/">GitHub</a> and has 17 stars
-- mdl docs
- https://llvm.org/docs/GettingStarted.html
-- mdl first developed in <a href="../lists/originCommunities.html#httpsGithubComMpactOrg">https://github.com/MPACT-ORG</a>
-- mdl is written in <a href="cpp.html">C++</a>
-- mdl cheat sheet
- https://github.com/MPACT-ORG/llvm-project/tree/work#the-llvm-compiler-infrastructure
-- Read more about mdl on the web: 1.
- https://discourse.llvm.org/t/rfc-mdl-a-micro-architecture-description-language-for-llvm/66409/4 1.
-
-<br>
-
-endColumns
-
-keyboardNav xpm-format.html lezer.html
-
-import ../footer.scroll
+githubRepo https://github.com/MPACT-ORG/llvm-project/
+ stars 17
+ forks 0
+ subscribers 0
+ created 2022
+ updated 2022
+ description The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Note: the repository does not accept github pull requests at this moment. Please submit your patches at http://reviews.llvm.org.
+ issues 0

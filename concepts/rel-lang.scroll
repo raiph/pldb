@@ -1,47 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rel-lang
+import ../measures/conceptPage.scroll
+id rel-lang
+appeared 2015
+type pl
+website http://relevant.ai
+country United States
+originCommunity https://github.com/relevant-ai
 
-title rel-lang - Programming language
- hidden
+githubRepo https://github.com/relevant-ai/RelevantCardsDocumentation
+ firstCommit 2015
+ stars 24
+ forks 2
+ subscribers 5
+ created 2015
+ updated 2017
+ description Documentation on REL, the fancy JSON syntax for building cards for the relevant iOS app
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="badlanguage.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gintonic.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 178
+ committers 4
+ files 35
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rel-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://relevant.ai" class="material-symbols-outlined">home</a> <a href="https://github.com/relevant-ai/RelevantCardsDocumentation" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rel-lang" class="material-symbols-outlined">edit</a></div>
-
-* rel-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/relevant-ai/RelevantCardsDocumentation
-
-dashboard
- #2077 <span title="TotalRank: 2591 Jobs: 103 Users: 2045 Facts: 1502 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Documentation on REL, the fancy JSON syntax for building cards for the relevant iOS app
-
-- rel-lang website
- http://relevant.ai
-- rel-lang is developed on <a href="https://github.com/relevant-ai/RelevantCardsDocumentation">GitHub</a> and has 24 stars
-- rel-lang first developed in <a href="../lists/originCommunities.html#httpsGithubComRelevantAi">https://github.com/relevant-ai</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of rel-lang
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: REL – A JSON-based programming language|https://news.ycombinator.com/item?id=9734412|06/17/2015|2|1
-
-keyboardNav badlanguage.html gintonic.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 9734412|Show HN: REL – A JSON-based programming language|2015-06-17 18:54:38 UTC|1434567278|wircho|1|2

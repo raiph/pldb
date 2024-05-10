@@ -1,37 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mckeeman-form
+import ../measures/conceptPage.scroll
+id mckeeman-form
+appeared 2020
+type grammarLanguage
+creators Bill McKeeman
+reference https://www.youtube.com/watch?v=RGizBNflVKw
+country United States
+originCommunity Dartmouth College
 
-title mckeeman-form - Grammar language
- hidden
+hasSemanticIndentation true
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="zz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="apt.html">&gt;</a>
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mckeeman-form.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mckeeman-form" class="material-symbols-outlined">edit</a></div>
-
-* mckeeman-form is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2020 by Bill McKeeman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#billMcKeeman Bill McKeeman
-
-dashboard
- #753 <span title="TotalRank: 1321 Jobs: 103 Users: 2838 Facts: 232 Links: 986">on PLDB</span>
- 4 Years Old
-
-* 
-
-- mckeeman-form first developed in <a href="../lists/originCommunities.html#dartmouthCollege">Dartmouth College</a>
-- Read more about mckeeman-form on the web: 1.
- https://www.youtube.com/watch?v=RGizBNflVKw 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  json
   element
  
@@ -40,58 +21,58 @@ codeWithHeader Example from the web:
   array
   string
   number
-  &quot;true&quot;
-  &quot;false&quot;
-  &quot;null&quot;
+  "true"
+  "false"
+  "null"
  
  object
-  &#39;{&#39; ws &#39;}&#39;
-  &#39;{&#39; members &#39;}&#39;
+  '{' ws '}'
+  '{' members '}'
  
  members
   member
-  member &#39;,&#39; members
+  member ',' members
  
  member
-  ws string ws &#39;:&#39; element
+  ws string ws ':' element
  
  array
-  &#39;[&#39; ws &#39;]&#39;
-  &#39;[&#39; elements &#39;]&#39;
+  '[' ws ']'
+  '[' elements ']'
  
  elements
   element
-  element &#39;,&#39; elements
+  element ',' elements
  
  element
   ws value ws
  
  string
-  &#39;&quot;&#39; characters &#39;&quot;&#39;
+  '"' characters '"'
  
  characters
-  &quot;&quot;
+  ""
   character characters
  
  character
-  &#39;0020&#39; . &#39;10FFFF&#39; - &#39;&quot;&#39; - &#39;\&#39;
-  &#39;\&#39; escape
+  '0020' . '10FFFF' - '"' - '\'
+  '\' escape
  
  escape
-  &#39;&quot;&#39;
-  &#39;\&#39;
-  &#39;/&#39;
-  &#39;b&#39;
-  &#39;f&#39;
-  &#39;n&#39;
-  &#39;r&#39;
-  &#39;t&#39;
-  &#39;u&#39; hex hex hex hex
+  '"'
+  '\'
+  '/'
+  'b'
+  'f'
+  'n'
+  'r'
+  't'
+  'u' hex hex hex hex
  
  hex
   digit
-  &#39;A&#39; . &#39;F&#39;
-  &#39;a&#39; . &#39;f&#39;
+  'A' . 'F'
+  'a' . 'f'
  
  number
   integer fraction exponent
@@ -99,59 +80,37 @@ codeWithHeader Example from the web:
  integer
   digit
   onenine digits
-  &#39;-&#39; digit
-  &#39;-&#39; onenine digits
+  '-' digit
+  '-' onenine digits
  
  digits
   digit
   digit digits
  
  digit
-  &#39;0&#39;
+  '0'
   onenine
  
  onenine
-  &#39;1&#39; . &#39;9&#39;
+  '1' . '9'
  
  fraction
-  &quot;&quot;
-  &#39;.&#39; digits
+  ""
+  '.' digits
  
  exponent
-  &quot;&quot;
-  &#39;E&#39; sign digits
-  &#39;e&#39; sign digits
+  ""
+  'E' sign digits
+  'e' sign digits
  
  sign
-  &quot;&quot;
-  &#39;+&#39;
-  &#39;-&#39;
+  ""
+  '+'
+  '-'
  
  ws
-  &quot;&quot;
-  &#39;0020&#39; ws
-  &#39;000A&#39; ws
-  &#39;000D&#39; ws
-  &#39;0009&#39; ws
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav zz.html apt.html
-
-import ../footer.scroll
+  ""
+  '0020' ws
+  '000A' ws
+  '000D' ws
+  '0009' ws

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MacAims
+import ../measures/conceptPage.scroll
+id MacAims
+appeared 1968
+type pl
+reference https://semanticscholar.org/paper/39551ebeb924889c1d4467d6f0fcbcbef5d1c3f0
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title MacAims - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6537
 
-html
- <a class="trueBaseThemePreviousItem" href="m-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mace.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/macaims.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=macaims" class="material-symbols-outlined">edit</a></div>
-
-* MacAims is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #3800 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- MacAims first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- MacAims on HOPL
- https://hopl.info/showlanguage.prx?exp=6537
-- Read more about MacAims on Semantic Scholar: 1.
- https://semanticscholar.org/paper/39551ebeb924889c1d4467d6f0fcbcbef5d1c3f0 1.
-
-<br>
-
-endColumns
-
-keyboardNav m-lisp.html mace.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

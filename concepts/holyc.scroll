@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title holyc
+import ../measures/conceptPage.scroll
+id holyc
+appeared 2005
+type pl
+creators Terry A. Davis
+conceptDescription HolyC is a variation of C developed by Terry A. Davis. HolyC is the official programming language for The Temple Operating System (TempleOS).
+reference https://web.archive.org/web/20170325000321/http://www.templeos.org/Wb/Doc/HolyC.html
+country United States
+originCommunity https://github.com/cia-foundation/TempleOS/issues
 
-title holyc - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="genero.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="powerisa.html">&gt;</a>
+lineCommentToken //
+printToken Print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/holyc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=holyc" class="material-symbols-outlined">edit</a></div>
-
-* holyc is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005 by Terry A. Davis.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
- link ../lists/creators.html#terryADavis Terry A. Davis
-
-dashboard
- #1261 <span title="TotalRank: 1794 Jobs: 103 Users: 2838 Facts: 705 Links: 986">on PLDB</span>
- 19 Years Old
- 137 <span title="holyc repos on GitHub.">Repos</span>
-
-* HolyC is a variation of C developed by Terry A. Davis. HolyC is the official programming language for The Temple Operating System (TempleOS).
-
-- There are at least 137 holyc repos on <a href="https://github.com/search?q=language:HolyC">GitHub</a>
-- holyc first developed in <a href="../lists/originCommunities.html#httpsGithubComCiaFoundationTempleOsIssues">https://github.com/cia-foundation/TempleOS/issues</a>
-- file extensions for holyc include hc
-- The  Google BigQuery Public Dataset GitHub snapshot shows 9 users using holyc in 9 repos on <a href="https://api.github.com/search/repositories?q=language:HolyC">GitHub</a>
-- Read more about holyc on the web: 1.
- https://web.archive.org/web/20170325000321/http://www.templeos.org/Wb/Doc/HolyC.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  U0 Main()
    {
      I16 i1;
@@ -43,50 +26,26 @@ codeWithHeader Example from the web:
      j1=i1=0x12345678;           //Resulting i1 is 0x5678 but j1 is 0x12345678
    
      I64 i2=0x8000000000000000;
-     Print(&quot;%X\n&quot;,i2&gt;&gt;1);        //Res is 0xC000000000000000 as expected
+     Print("%X\n",i2>>1);        //Res is 0xC000000000000000 as expected
    
      U64 u3=0x8000000000000000;
-     Print(&quot;%X\n&quot;,u3&gt;&gt;1);        //Res is 0x4000000000000000 as expected
+     Print("%X\n",u3>>1);        //Res is 0x4000000000000000 as expected
    
      I32 i4=0x80000000;          //const is loaded into a 64-bit reg var.
-     Print(&quot;%X\n&quot;,i4&gt;&gt;1);        //Res is 0x40000000
+     Print("%X\n",i4>>1);        //Res is 0x40000000
    
      I32 i5=-0x80000000;
-     Print(&quot;%X\n&quot;,i5&gt;&gt;1);        //Res is 0xFFFFFFFFC0000000
+     Print("%X\n",i5>>1);        //Res is 0xFFFFFFFFC0000000
    }
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token Print
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav genero.html powerisa.html
-
-import ../footer.scroll
+githubLanguage HolyC
+ type programming
+ fileExtensions hc
+ aceMode c_cpp
+ codemirrorMode clike
+ codemirrorMimeType text/x-csrc
+ tmScope source.hc
+ repos 137
+githubBigQuery HolyC
+ repos 9
+ users 9

@@ -1,57 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GolfScript
+import ../measures/conceptPage.scroll
+id GolfScript
+appeared 2007
+type esolang
+website http://www.golfscript.com/golfscript/
+country United States
+originCommunity https://github.com/darrenks/golfscript/issues
 
-title GolfScript - Esoteric programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="empirical.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hecl.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/golfscript.pldb
+leachim6 Golfscript
+ filepath g/Golfscript.golfscript
+ fileExtensions golfscript
+ example
+  "Hello World"
+  
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.golfscript.com/golfscript/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/golfscript" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=golfscript" class="material-symbols-outlined">edit</a></div>
-
-* GolfScript is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #2496 <span title="TotalRank: 3071 Jobs: 103 Users: 2442 Facts: 1982 Links: 986">on PLDB</span>
- 17 Years Old
-
-* Try now: <a href="https://riju.codes/golfscript">Riju</a>
-
-* 
-
-- GolfScript website
- http://www.golfscript.com/golfscript/
-- GolfScript first developed in <a href="../lists/originCommunities.html#httpsGithubComDarrenksGolfscriptIssues">https://github.com/darrenks/golfscript/issues</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/golfscript'>Riju</a>:
- &#39;Hello, world!&#39;
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/g/Golfscript.golfscript'>hello-world</a>:
- &quot;Hello World&quot;
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav empirical.html hecl.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/golfscript
+ example
+  'Hello, world!'

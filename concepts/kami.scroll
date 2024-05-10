@@ -1,47 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kami
+import ../measures/conceptPage.scroll
+id Kami
+appeared 2022
+type textMarkup
+creators Katie Ampersand
+website https://crates.io/crates/kami-parser
+fileExtensions km
+country Unknown
+originCommunity https://ampersandia.net/
 
-title Kami - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kaml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kami.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://crates.io/crates/kami-parser" class="material-symbols-outlined">home</a> <a href="https://github.com/Lilith-In-Starlight/kami-parser" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kami" class="material-symbols-outlined">edit</a></div>
-
-* Kami is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2022 by Katie Ampersand.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#katieAmpersand Katie Ampersand
-
-codeWithHeader Source code:
- git clone https://github.com/Lilith-In-Starlight/kami-parser
-
-dashboard
- #1961 <span title="TotalRank: 2470 Jobs: 103 Users: 2402 Facts: 1381 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Kami tries to be a machine-first human-also-first markup language.
-
-- Kami website
- https://crates.io/crates/kami-parser
-- Kami is developed on <a href="https://github.com/Lilith-In-Starlight/kami-parser">GitHub</a> and has 1 stars
-- Kami first developed in <a href="../lists/originCommunities.html#httpsAmpersandiaNet">https://ampersandia.net/</a>
-- file extensions for Kami include km
-
-<br>
-
-codeWithHeader Example from the web:
+example
  * Main list element
  ** Sublist element
 
-endColumns
+githubRepo https://github.com/Lilith-In-Starlight/kami-parser
+ firstCommit 2022
+ stars 1
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description Kami tries to be a machine-first human-also-first markup language.
+ issues 3
 
-keyboardNav kaml.html blc.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 81
+ committers 1
+ files 12

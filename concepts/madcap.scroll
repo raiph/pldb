@@ -1,49 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MADCAP
+import ../measures/conceptPage.scroll
+id MADCAP
+appeared 1960
+type pl
+reference https://semanticscholar.org/paper/4bef4a1b67016e569ca7ef57bfc356829c2152ba
+country United States
+originCommunity University of California, Los Alamos
 
-title MADCAP - Programming language
- hidden
+hasSemanticIndentation true
 
-html
- <a class="trueBaseThemePreviousItem" href="mac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mads.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=148
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/madcap.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=madcap" class="material-symbols-outlined">edit</a></div>
-
-* MADCAP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #4212 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 64 Years Old
-
-* 
-
-- MADCAP first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaLosAlamos">University of California, Los Alamos</a>
-- MADCAP on HOPL
- https://hopl.info/showlanguage.prx?exp=148
-- Read more about MADCAP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4bef4a1b67016e569ca7ef57bfc356829c2152ba 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav mac.html mads.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

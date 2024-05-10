@@ -1,138 +1,116 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title YAML
+import ../measures/conceptPage.scroll
+id YAML
+appeared 2001
+type dataNotation
+creators Clark Evans and Oren Ben-Kiki and Ingy döt Net
+website http://www.yaml.org/spec/1.2/spec.html#Introduction
+documentation https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+spec https://yaml.org/spec/1.2.2/
+standsFor YAML Ain't Markup Language
 
-title YAML - Data notation
- hidden
+hasSemanticIndentation true
+hasLineComments true
+ # A comment
+hasComments true
+hasSets true
+ # Explicitly typed set.
+ baseball players: !!set
+   ? Mark McGwire
+   ? Sammy Sosa
+   ? Ken Griffey
+ # Flow style
+ baseball teams: !!set { Boston Red Sox, Detroit Tigers, New York Yankees }
 
-html
- <a class="trueBaseThemePreviousItem" href="f-sharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="elm.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yaml.pldb
+wikipedia https://en.wikipedia.org/wiki/YAML
+ example
+  ---
+  example: >
+          HTML goes into YAML without modification
+  message: |
+  
+          <blockquote style="font: italic 12pt Times">
+          <p>"Three is always greater than two,
+             even for large values of two"</p>
+          <p>--Author Unknown</p>
+          </blockquote>
+  date: 2007-06-01
+ related json perl python mime c html soap emacs-editor utf-8 asciidoc s-expressions
+ summary YAML (YAML Ain't Markup Language) is a human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored (e.g. debugging output) or transmitted (e.g. document headers). YAML targets many of the same communications applications as XML, but has taken a more minimal approach which intentionally breaks compatibility with SGML. YAML 1.2 is a superset of JSON, another minimalist data serialization format where braces and brackets are used instead of indentation. Custom data types are allowed, but YAML natively encodes scalars (such as strings, integers, and floats), lists, and associative arrays (also known as hashes or dictionaries). These data types are based on the Perl programming language, though all commonly used high-level programming languages share very similar concepts. YAML supports both Python-style indentation to indicate nesting, and a more compact format that uses [] for lists and {} for hashes. The colon-centered syntax used to express key-value pairs is inspired by electronic mail headers as defined in RFC 0822, and the document separator "---" is borrowed from MIME (RFC 2045). Escape sequences are reused from C, and whitespace wrapping for multi-line strings is inspired from HTML. Lists and hashes can contain nested lists and hashes, forming a tree structure; arbitrary graphs can be represented using YAML aliases (similar to XML in SOAP). YAML is intended to be read and written in streams, a feature inspired by SAX. Support for reading and writing YAML is available for several programming languages. Some source code editors such as Emacs and various integrated development environments have features that make editing YAML easier, such as folding up nested structures or automatically highlighting syntax errors.
+ pageId 326530
+ dailyPageViews 1529
+ created 2003
+ backlinksCount 221
+ revisionCount 1089
+ appeared 2001
 
-startColumns 4
+githubLanguage YAML
+ fileExtensions yml mir reek rviz sublime-syntax syntax yaml yaml-tmlanguage yamlsed ymlmysql
+ trendingProjectsCount 0
+ type data
+ filenames .clang-format .clang-tidy .gemrc CITATION.cff glide.lock yarn.lock
+ aceMode yaml
+ codemirrorMode yaml
+ codemirrorMimeType text/x-yaml
+ tmScope source.yaml
+ aliases yml
+ repos 525
+githubBigQuery YAML
+ repos 13
+ users 12
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.yaml.org/spec/1.2/spec.html#Introduction" class="material-symbols-outlined">home</a> <a href="https://riju.codes/yaml" class="material-symbols-outlined">terminal</a> <a href="https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/YAML"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=yaml" class="material-symbols-outlined">edit</a></div>
+monaco yaml
+codeMirror yaml
+pygmentsHighlighter YAML
+ filename data.py
+ fileExtensions yaml yml
+linguistGrammarRepo https://github.com/atom/language-yaml
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 25
+ commitCount 205
+ sampleCount 6
+ example
+  --- 
+  name: R Console
+  fileTypes: []
+  
+  scopeName: source.r-console
+  uuid: F629C7F3-823B-4A4C-8EEE-9971490C5710
+  patterns: 
+  - name: source.r.embedded.r-console
+    begin: "^> "
+    beginCaptures: 
+      "0": 
+        name: punctuation.section.embedded.r-console
+    end: \n|\z
+    patterns: 
+    - include: source.r
+  keyEquivalent: ^~R
+  
+languageServerProtocolProject https://github.com/redhat-developer/yaml-language-server
+ writtenIn typescript
 
-* YAML, aka YAML Ain't Markup Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2001 by Clark Evans and Oren Ben-Kiki and Ingy döt Net.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
- link ../lists/creators.html#clarkEvans Clark Evans
- link ../lists/creators.html#orenBenKiki Oren Ben-Kiki
- link ../lists/creators.html#ingyDotNet Ingy döt Net
+leachim6 YAML
+ filepath y/YAML.yaml
+ fileExtensions yaml
+ example
+  hello: world
 
-dashboard
- #66 <span title="TotalRank: 243 Jobs: 77 Users: 98 Facts: 277 Links: 68">on PLDB</span>
- 23 Years Old
- 525 <span title="YAML repos on GitHub.">Repos</span>
+rijuRepl https://riju.codes/yaml
+ example
+  output: "Hello, world!"
+  
 
-* Try now: <a href="https://riju.codes/yaml">Riju</a>
+linkedInSkill yaml
+ 2018 6065
 
-monacoEditor yaml
- output: "Hello, world!"
- 
+fileType text
+centralPackageRepositoryCount 0
 
-* YAML (YAML Ain't Markup Language) is a human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored (e.g. debugging output) or transmitted (e.g. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/YAML Read more on Wikipedia...
+isbndb 0
 
-- YAML website
- http://www.yaml.org/spec/1.2/spec.html#Introduction
-- YAML Wikipedia page
- https://en.wikipedia.org/wiki/YAML
-- YAML docs
- https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
-- YAML specs
- https://yaml.org/spec/1.2.2/
-- There are at least 525 YAML repos on <a href="https://github.com/search?q=language:YAML">GitHub</a>
-- PLDB estimates there are currently 61 job openings for YAML programmers.
-- file extensions for YAML include yml, mir, reek, rviz, sublime-syntax, syntax, yaml, yaml-tmlanguage, yamlsed and ymlmysql
-- The  Google BigQuery Public Dataset GitHub snapshot shows 12 users using YAML in 13 repos on <a href="https://api.github.com/search/repositories?q=language:YAML">GitHub</a>
-- YAML <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/redhat-developer/yaml-language-server">implementation</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/yaml">package</a> for syntax highlighting YAML
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/yaml">package</a> for syntax highlighting YAML
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/data.py">syntax highlighting</a> for YAML
-- GitHub supports <a href="https://github.com/atom/language-yaml" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for YAML
-- See also: (11 related languages)<a href="json.html">JSON</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="mime.html">MIME</a>, <a href="c.html">C</a>, <a href="html.html">HTML</a>, <a href="soap.html">SOAP</a>, <a href="emacs-editor.html">Emacs</a>, <a href="utf-8.html">UTF-8</a>, <a href="asciidoc.html">AsciiDoc</a>, <a href="s-expressions.html">S-expressions</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/yaml'>Riju</a>:
- output: &quot;Hello, world!&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/y/YAML.yaml'>hello-world</a>:
- hello: world
-
-codeWithHeader Example from <a href='https://github.com/atom/language-yaml'>Linguist</a>:
- --- 
- name: R Console
- fileTypes: []
- 
- scopeName: source.r-console
- uuid: F629C7F3-823B-4A4C-8EEE-9971490C5710
- patterns: 
- - name: source.r.embedded.r-console
-   begin: &quot;^&gt; &quot;
-   beginCaptures: 
-     &quot;0&quot;: 
-       name: punctuation.section.embedded.r-console
-   end: \n|\z
-   patterns: 
-   - include: source.r
- keyEquivalent: ^~R
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/YAML'>Wikipedia</a>:
- ---
- example: &gt;
-         HTML goes into YAML without modification
- message: |
- 
-         &lt;blockquote style=&quot;font: italic 12pt Times&quot;&gt;
-         &lt;p&gt;&quot;Three is always greater than two,
-            even for large values of two&quot;&lt;/p&gt;
-         &lt;p&gt;--Author Unknown&lt;/p&gt;
-         &lt;/blockquote&gt;
- date: 2007-06-01
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Sets
-  FeatureLink ../features/hasSets.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # Explicitly typed set.
-   baseball players: !!set
-     ? Mark McGwire
-     ? Sammy Sosa
-     ? Ken Griffey
-   # Flow style
-   baseball teams: !!set { Boston Red Sox, Detroit Tigers, New York Yankees }
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav f-sharp.html elm.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2019|Laughter in the Wild: A Study Into DoS Vulnerabilities in YAML Libraries|10.1109/TrustCom/BigDataSE.2019.00053|1|0|Shawn Rasheed and Jens Dietrich and Amjed Tahir|06a260d68293e8bd8860647df8f9e2336c35d5fb

@@ -1,48 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Avail
+import ../measures/conceptPage.scroll
+id Avail
+appeared 2010
+type pl
+creators Mark van Gulik and Todd L. Smith
+conceptDescription Avail is a multi-paradigmatic general purpose programming language whose feature set emphasizes support for articulate programming.
+website https://www.availlang.org/
+country United States
+originCommunity The Avail Foundation, LLC
 
-title Avail - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="salsa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bare.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/avail.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.availlang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/AvailLang/Avail" class="material-symbols-outlined">code</a> <a href="/edit.html?id=avail" class="material-symbols-outlined">edit</a></div>
-
-* Avail is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Mark van Gulik and Todd L. Smith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#markVanGulik Mark van Gulik
- link ../lists/creators.html#toddLSmith Todd L. Smith
-
-codeWithHeader Source code:
- git clone https://github.com/AvailLang/Avail
-
-dashboard
- #1150 <span title="TotalRank: 1699 Jobs: 103 Users: 1796 Facts: 610 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Avail is a multi-paradigmatic general purpose programming language whose feature set emphasizes support for articulate programming.
-
-- Avail website
- https://www.availlang.org/
-- Avail is developed on <a href="https://github.com/AvailLang/Avail">GitHub</a> and has 48 stars
-- Avail first developed in <a href="../lists/originCommunities.html#theAvailFoundationLlc">The Avail Foundation, LLC</a>
-
-<br>
-
-codeWithHeader Example from the web:
- Public method &quot;Play Wump the Wumpus with reader_with reporter_&quot; is
+example
+ Public method "Play Wump the Wumpus with reader_with reporter_" is
  [
      reader : []→string,
      writer : [string]→⊤
  |
-     /* Set up the game&#39;s I/O. */
+     /* Set up the game's I/O. */
      Wump the Wumpus reader := reader;
      Wump the Wumpus reporter := writer;
      /* Create a new game. All references to game objects within the block are
@@ -70,8 +42,16 @@ codeWithHeader Example from the web:
      ];
  ] : ⊤;
 
-endColumns
+githubRepo https://github.com/AvailLang/Avail
+ stars 48
+ forks 3
+ subscribers 11
+ created 2010
+ updated 2022
+ description The Avail programming language. Includes the virtual machine, standard library, and standard examples.
 
-keyboardNav salsa.html bare.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 3638
+ committers 59
+ files 2600

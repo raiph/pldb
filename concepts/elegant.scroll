@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Elegant
+import ../measures/conceptPage.scroll
+id Elegant
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/5a22b9fce6f88c8631e4db672964f70fa3ce1b4a
+country The Netherlands
+originCommunity Philips Research Laboratories
 
-title Elegant - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3313
 
-html
- <a class="trueBaseThemePreviousItem" href="durra.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ellpack.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/elegant.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=elegant" class="material-symbols-outlined">edit</a></div>
-
-* Elegant is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4131 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Elegant first developed in <a href="../lists/originCommunities.html#philipsResearchLaboratories">Philips Research Laboratories</a>
-- Elegant on HOPL
- https://hopl.info/showlanguage.prx?exp=3313
-- Read more about Elegant on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5a22b9fce6f88c8631e4db672964f70fa3ce1b4a 1.
-
-<br>
-
-endColumns
-
-keyboardNav durra.html ellpack.html
-
-import ../footer.scroll
+wordRank 6109
+centralPackageRepositoryCount 0

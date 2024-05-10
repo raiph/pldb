@@ -1,44 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title orca
+import ../measures/conceptPage.scroll
+id orca
+appeared 1985
+type pl
+creators Lee Ki-Yeul
+conceptDescription orca is yet another script language which supports OO & distribute processing & functional programming aspects. And It's useful in string processing with decode statements & regular expression in it.
+reference https://sourceforge.net/p/orca-lang/wiki/Home/
+country Korea
+originCommunity https://github.com/lynix94/orca-lang/issues
 
-title orca - Programming language
- hidden
+githubRepo https://github.com/lynix94/orca-lang
+ firstCommit 2016
+ stars 24
+ forks 0
+ subscribers 5
+ created 2016
+ updated 2021
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="nylo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ti-89-basic.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 338
+ committers 8
+ files 431
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/orca.pldb
+hopl https://hopl.info/showlanguage.prx?exp=1250
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/lynix94/orca-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=orca" class="material-symbols-outlined">edit</a></div>
-
-* orca is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985 by Lee Ki-Yeul.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#leeKiYeul Lee Ki-Yeul
-
-codeWithHeader Source code:
- git clone https://github.com/lynix94/orca-lang
-
-dashboard
- #2024 <span title="TotalRank: 2539 Jobs: 103 Users: 2101 Facts: 1450 Links: 986">on PLDB</span>
- 39 Years Old
-
-* orca is yet another script language which supports OO & distribute processing & functional programming aspects. And It's useful in string processing with decode statements & regular expression in it.
-
-- orca is developed on <a href="https://github.com/lynix94/orca-lang">GitHub</a> and has 24 stars
-- orca first developed in <a href="../lists/originCommunities.html#httpsGithubComLynix94OrcaLangIssues">https://github.com/lynix94/orca-lang/issues</a>
-- orca on HOPL
- https://hopl.info/showlanguage.prx?exp=1250
-- Read more about orca on the web: 1.
- https://sourceforge.net/p/orca-lang/wiki/Home/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav nylo.html ti-89-basic.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

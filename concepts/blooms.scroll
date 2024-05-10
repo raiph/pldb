@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BLOOMS
+import ../measures/conceptPage.scroll
+id BLOOMS
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/81afa041b9e93bcaf86555f952fcf14fbc1b8b09
+country Italy
+originCommunity University of Rome && University of Siena
 
-title BLOOMS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8035
 
-html
- <a class="trueBaseThemePreviousItem" href="blaze.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bmd.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blooms.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=blooms" class="material-symbols-outlined">edit</a></div>
-
-* BLOOMS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3524 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- BLOOMS first developed in <a href="../lists/originCommunities.html#universityOfRome">University of Rome</a> and <a href="../lists/originCommunities.html#universityOfSiena">University of Siena</a>
-- BLOOMS on HOPL
- https://hopl.info/showlanguage.prx?exp=8035
-- Read more about BLOOMS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/81afa041b9e93bcaf86555f952fcf14fbc1b8b09 1.
-
-<br>
-
-endColumns
-
-keyboardNav blaze.html bmd.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

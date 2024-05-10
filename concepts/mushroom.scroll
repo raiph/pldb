@@ -1,40 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mushroom
+import ../measures/conceptPage.scroll
+id Mushroom
+appeared 1988
+type pl
+country Unknown
+originCommunity https://gitlab.com/ifff/mushroom/-/issues
 
-title Mushroom - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="model-k.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nebula.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mushroom.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gitlab.com/ifff/mushroom" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mushroom" class="material-symbols-outlined">edit</a></div>
-
-* Mushroom is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-codeWithHeader Source code:
- git clone https://gitlab.com/ifff/mushroom
-
-dashboard
- #3201 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- Mushroom on GitLab
- https://gitlab.com/ifff/mushroom
-- Mushroom first developed in <a href="../lists/originCommunities.html#httpsGitlabComIfffMushroomIssues">https://gitlab.com/ifff/mushroom/-/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav model-k.html nebula.html
-
-import ../footer.scroll
+gitlabRepo https://gitlab.com/ifff/mushroom

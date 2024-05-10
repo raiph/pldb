@@ -1,37 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LPL
+import ../measures/conceptPage.scroll
+id LPL
+appeared 1973
+type pl
+country United States
+originCommunity Virginia Polytechnic Institute & State University
 
-title LPL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4298
 
-html
- <a class="trueBaseThemePreviousItem" href="lotos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lrltran.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lpl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lpl" class="material-symbols-outlined">edit</a></div>
-
-* LPL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3796 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- LPL first developed in <a href="../lists/originCommunities.html#virginiaPolytechnicInstituteStateUniversity">Virginia Polytechnic Institute & State University</a>
-- LPL on HOPL
- https://hopl.info/showlanguage.prx?exp=4298
-
-<br>
-
-endColumns
-
-keyboardNav lotos.html lrltran.html
-
-import ../footer.scroll
+semanticScholar https://semanticscholar.org/paper/5182cbccde6b8bc9dbd9be36e62f4db6e9ccd3c0

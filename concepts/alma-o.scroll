@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alma-O
+import ../measures/conceptPage.scroll
+id Alma-O
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/14375360347f4d2c600013bfbb31fc14eb224112
+originCommunity Università di Roma && University of Amsterdam
 
-title Alma-O - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5516
 
-html
- <a class="trueBaseThemePreviousItem" href="algy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="almir.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alma-o.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=alma-o" class="material-symbols-outlined">edit</a></div>
-
-* Alma-O is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3349 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Alma-O first developed in <a href="../lists/originCommunities.html#universitaDiRoma">Università di Roma</a> and <a href="../lists/originCommunities.html#universityOfAmsterdam">University of Amsterdam</a>
-- Alma-O on HOPL
- https://hopl.info/showlanguage.prx?exp=5516
-- Read more about Alma-O on Semantic Scholar: 1.
- https://semanticscholar.org/paper/14375360347f4d2c600013bfbb31fc14eb224112 1.
-
-<br>
-
-endColumns
-
-keyboardNav algy.html almir.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

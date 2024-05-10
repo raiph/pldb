@@ -1,36 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ycp
+import ../measures/conceptPage.scroll
+id ycp
+appeared 2005
+type pl
+conceptDescription The YaST-language YCP is a scripting language to be interpreted by the YCP-engine (YCP interpreter) specially designed for manipulation with a system configuration. Its syntax is very similar to C programming language. Because YCP can make use of the whole infrastructure that YaST provides, the actions that can be accomplished with YCP are very powerful.
+reference https://doc.opensuse.org/projects/YaST/SLES11/tdg/Book-YCPLanguage.html
 
-title ycp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xmind.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="yoga.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ycp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ycp" class="material-symbols-outlined">edit</a></div>
-
-* ycp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #3454 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 19 Years Old
-
-* The YaST-language YCP is a scripting language to be interpreted by the YCP-engine (YCP interpreter) specially designed for manipulation with a system configuration. Its syntax is very similar to C programming language. Because YCP can make use of the whole infrastructure that YaST provides, the actions that can be accomplished with YCP are very powerful.
-
-- Read more about ycp on the web: 1.
- https://doc.opensuse.org/projects/YaST/SLES11/tdg/Book-YCPLanguage.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav xmind.html yoga.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

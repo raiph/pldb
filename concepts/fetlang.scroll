@@ -1,54 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title fetlang
+import ../measures/conceptPage.scroll
+id fetlang
+appeared 2017
+type esolang
+conceptDescription A nsfw esolang.
+country United States
+originCommunity https://dagans.dev
 
-title fetlang - Esoteric programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="focus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stutter-lang.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fetlang.pldb
+githubRepo https://github.com/Property404/fetlang
+ stars 1432
+ forks 40
+ subscribers 51
+ created 2017
+ updated 2022
+ firstCommit 2017
+ description Fetish-themed programming language
+ issues 9
 
-startColumns 4
+repoStats
+ firstCommit 2017
+ commits 296
+ committers 13
+ files 107
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Property404/fetlang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fetlang" class="material-symbols-outlined">edit</a></div>
+leachim6 Fetlang
+ filepath f/Fetlang.fet
+ fileExtensions fet
+ example
+  Make slave scream "Hello World"
+  
 
-* fetlang is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/Property404/fetlang
-
-dashboard
- #941 <span title="TotalRank: 1510 Jobs: 103 Users: 421 Facts: 1058 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A nsfw esolang.
-
-- fetlang is developed on <a href="https://github.com/Property404/fetlang">GitHub</a> and has 1,432 stars
-- fetlang first developed in <a href="../lists/originCommunities.html#httpsDagansDev">https://dagans.dev</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/f/Fetlang.fet'>hello-world</a>:
- Make slave scream &quot;Hello World&quot;
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav focus.html stutter-lang.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

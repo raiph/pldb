@@ -1,43 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title crush
+import ../measures/conceptPage.scroll
+id crush
+appeared 2020
+type pl
+creators Axel Liljencrantz
+conceptDescription Crush is an attempt to make a traditional command line shell that is also a modern programming language. It has the features one would expect from a modern programming language like a type system, closures and lexical scoping, but with a syntax geared toward both batch and interactive shell usage.
+reference https://news.ycombinator.com/item?id=24079001
+country Sweden
+originCommunity https://github.com/liljencrantz/
 
-title crush - Programming language
- hidden
+relatedConcepts powershell
 
-html
- <a class="trueBaseThemePreviousItem" href="wasp-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smt.html">&gt;</a>
+githubRepo https://github.com/liljencrantz/crush
+ firstCommit 2019
+ stars 1804
+ forks 38
+ subscribers 22
+ created 2019
+ updated 2022
+ description Crush is a command line shell that is also a powerful modern programming language.
+ issues 18
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/crush.pldb
+repoStats
+ firstCommit 2019
+ commits 708
+ committers 13
+ files 225
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/liljencrantz/crush" class="material-symbols-outlined">code</a> <a href="/edit.html?id=crush" class="material-symbols-outlined">edit</a></div>
-
-* crush is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Axel Liljencrantz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#axelLiljencrantz Axel Liljencrantz
-
-codeWithHeader Source code:
- git clone https://github.com/liljencrantz/crush
-
-dashboard
- #894 <span title="TotalRank: 1458 Jobs: 103 Users: 369 Facts: 1203 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Crush is an attempt to make a traditional command line shell that is also a modern programming language. It has the features one would expect from a modern programming language like a type system, closures and lexical scoping, but with a syntax geared toward both batch and interactive shell usage.
-
-- crush is developed on <a href="https://github.com/liljencrantz/crush">GitHub</a> and has 1,804 stars
-- crush first developed in <a href="../lists/originCommunities.html#httpsGithubComLiljencrantz">https://github.com/liljencrantz/</a>
-- See also: (1 related languages)<a href="powershell.html">PowerShell</a>
-- Read more about crush on the web: 1.
- https://news.ycombinator.com/item?id=24079001 1.
-
-<br>
-
-endColumns
-
-keyboardNav wasp-lang.html smt.html
-
-import ../footer.scroll
+isbndb 3
+ year|publisher|title|authors|isbn13
+ 2015|Createspace Independent Publishing Platform|Php Programming: Learn Php Programming: - Crush It In One Day. Learn It Fast. Learn It Once. Get Coding Today.|Giggle Publishing|9781517659738
+ |James Bolt|Python Data Science: Deep Learning Guide for Beginners with Data Science. Python Programming and Crush Course||9781667151342
+ |James Bolt|Python Data Science: Deep Learning Guide for Beginners with Data Science. Python Programming and Crush Course||9781667151274

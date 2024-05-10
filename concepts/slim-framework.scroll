@@ -1,62 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Slim Framework
+import ../measures/conceptPage.scroll
+id Slim Framework
+appeared 2013
+type framework
+website https://www.slimframework.com
+documentation https://www.slimframework.com/docs/v4/
+country United States and United Kingdom and Canada
+originCommunity https://github.com/slimphp
 
-title Slim Framework - Framework
- hidden
+writtenIn php
 
-html
- <a class="trueBaseThemePreviousItem" href="serious.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="acme.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slim-framework.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.slimframework.com" class="material-symbols-outlined">home</a> <a href="https://github.com/slimphp/Slim" class="material-symbols-outlined">code</a> <a href="https://www.slimframework.com/docs/v4/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=slim-framework" class="material-symbols-outlined">edit</a></div>
-
-* Slim Framework is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+framework">framework</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-codeWithHeader Source code:
- git clone https://github.com/slimphp/Slim
-
-dashboard
- #2137 on PLDB
- 11 Years Old
-
-* 
-
-- Slim Framework website
- https://www.slimframework.com
-- Slim Framework is developed on <a href="https://github.com/slimphp/Slim">GitHub</a>
-- Slim Framework docs
- https://www.slimframework.com/docs/v4/
-- Slim Framework first developed in <a href="../lists/originCommunities.html#httpsGithubComSlimphp">https://github.com/slimphp</a>
-- Slim Framework is written in <a href="php.html">PHP</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;?php
+example
+ <?php
  use Psr\Http\Message\ResponseInterface as Response;
  use Psr\Http\Message\ServerRequestInterface as Request;
  use Slim\Factory\AppFactory;
  
- require __DIR__ . &#39;/../vendor/autoload.php&#39;;
+ require __DIR__ . '/../vendor/autoload.php';
  
  $app = AppFactory::create();
  
- $app-&gt;get(&#39;/hello/{name}&#39;, function (Request $request, Response $response, array $args) {
-     $name = $args[&#39;name&#39;];
-     $response-&gt;getBody()-&gt;write(&quot;Hello, $name&quot;);
+ $app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
+     $name = $args['name'];
+     $response->getBody()->write("Hello, $name");
      return $response;
  });
  
- $app-&gt;run();
+ $app->run();
 
-endColumns
-
-keyboardNav serious.html acme.html
-
-import ../footer.scroll
+githubRepo https://github.com/slimphp/Slim

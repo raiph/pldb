@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NUA-Prolog
+import ../measures/conceptPage.scroll
+id NUA-Prolog
+appeared 1991
+type pl
+creators Douglas Frank Palmer
+reference https://semanticscholar.org/paper/b595b50b02c5f72765d55993d13733931118b541
+country Australia
+originCommunity University of Melbourne
 
-title NUA-Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4097
 
-html
- <a class="trueBaseThemePreviousItem" href="nsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nut.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nua-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nua-prolog" class="material-symbols-outlined">edit</a></div>
-
-* NUA-Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991 by Douglas Frank Palmer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
- link ../lists/creators.html#douglasFrankPalmer Douglas Frank Palmer
-
-dashboard
- #4232 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- NUA-Prolog first developed in <a href="../lists/originCommunities.html#universityOfMelbourne">University of Melbourne</a>
-- NUA-Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=4097
-- Read more about NUA-Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b595b50b02c5f72765d55993d13733931118b541 1.
-
-<br>
-
-endColumns
-
-keyboardNav nsl.html nut.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALGERNON
+import ../measures/conceptPage.scroll
+id ALGERNON
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/0aa12622d2b452aaf449f1f3a9d1b5794c136dba
+originCommunity University of Oregon && The University of Texas at Austin
 
-title ALGERNON - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7728
 
-html
- <a class="trueBaseThemePreviousItem" href="algem.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algol-e.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algernon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=algernon" class="material-symbols-outlined">edit</a></div>
-
-* ALGERNON is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3346 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- ALGERNON first developed in <a href="../lists/originCommunities.html#universityOfOregon">University of Oregon</a> and <a href="../lists/originCommunities.html#theUniversityOfTexasAtAustin">The University of Texas at Austin</a>
-- ALGERNON on HOPL
- https://hopl.info/showlanguage.prx?exp=7728
-- Read more about ALGERNON on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0aa12622d2b452aaf449f1f3a9d1b5794c136dba 1.
-
-<br>
-
-endColumns
-
-keyboardNav algem.html algol-e.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

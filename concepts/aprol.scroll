@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APROL
+import ../measures/conceptPage.scroll
+id APROL
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/43f9c7be228f9ae42f8b078dae1705f0916e2354
+country United States
+originCommunity Trinity University && IBM
 
-title APROL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4383
 
-html
- <a class="trueBaseThemePreviousItem" href="applog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aprol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aprol" class="material-symbols-outlined">edit</a></div>
-
-* APROL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3486 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- APROL first developed in <a href="../lists/originCommunities.html#trinityUniversity">Trinity University</a> and <a href="../lists/originCommunities.html#ibm">IBM</a>
-- APROL on HOPL
- https://hopl.info/showlanguage.prx?exp=4383
-- Read more about APROL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/43f9c7be228f9ae42f8b078dae1705f0916e2354 1.
-
-<br>
-
-endColumns
-
-keyboardNav applog.html aql.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

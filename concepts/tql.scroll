@@ -1,67 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TQL
+import ../measures/conceptPage.scroll
+id TQL
+appeared 2023
+type queryLanguage
+isPublicDomain true
+creators Breck Yunits
+conceptDescription A language for querying TrueBases.
+website https://truebase.pub/tql/
+standsFor TrueBase Query Language
 
-title TQL - Query language
- hidden
+subsetOf treenotation
+writtenIn grammar javascript
+influencedBy sql
 
-html
- <a class="trueBaseThemePreviousItem" href="bebasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gaml.html">&gt;</a>
+hasSemanticIndentation true
+hasBuiltInRegex true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://truebase.pub/tql/" class="material-symbols-outlined">home</a> <a href="https://github.com/breck7/truebase" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tql" class="material-symbols-outlined">edit</a></div>
-
-* TQL, aka TrueBase Query Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2023 by Breck Yunits.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2023 2023
- link ../lists/creators.html#breckYunits Breck Yunits
-
-codeWithHeader Source code:
- git clone https://github.com/breck7/truebase
-
-dashboard
- #1554 <span title="TotalRank: 2060 Jobs: 103 Users: 2347 Facts: 971 Links: 986">on PLDB</span>
- 1 Years Old
-
-* A language for querying TrueBases.
-
-- TQL website
- https://truebase.pub/tql/
-- TQL is developed on <a href="https://github.com/breck7/truebase">GitHub</a> and has 7 stars
-- TQL is written in <a href="grammar.html">Grammar</a> & <a href="javascript.html">JavaScript</a>
-
-<br>
-
-codeWithHeader Example from the web:
- where appeared &gt; 2009
- where appeared &lt; 2020
+example
+ where appeared > 2009
+ where appeared < 2020
  notMissing githubRepo_stars
  where type = pl
  sortBy githubRepo_stars
  select githubRepo_stars
  reverse
 
-endColumns
+githubRepo https://github.com/breck7/truebase
+ stars 7
+ forks 0
+ subscribers 2
+ created 2023
+ updated 2023
+ description TrueBase - information you can trust. A novel plain text database for collaborative narrative-free knowledge graphs.
+ issues 15
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2023
+ commits 290
+ committers 2
+ files 58
 
-treeTable
- row
-  Feature hasBuiltInRegex
-  FeatureLink ../features/hasBuiltInRegex.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav bebasic.html gaml.html
-
-import ../footer.scroll
+isOpenSource true

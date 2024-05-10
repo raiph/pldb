@@ -1,47 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PROMETHEUS
+import ../measures/conceptPage.scroll
+id PROMETHEUS
+appeared 2012
+type pl
+creators Matt T. Proud
+website https://prometheus.io/
+reference https://download.opensuse.org/update/leap/15.2/oss/x86_64/golang-github-prometheus-prometheus-2.22.1-lp152.3.4.1.x86_64.rpm.mirrorlist
+reference http://www.ai1.uni-bayreuth.de/en/projects/Prometheus/index.html
+country Germany
+originCommunity SoundCloud Limited
 
-title PROMETHEUS - Programming language
- hidden
+githubRepo https://github.com/prometheus/prometheus
+ firstCommit 2012
+ stars 46169
+ forks 7765
+ subscribers 1134
+ created 2012
+ updated 2023
+ description The Prometheus monitoring system and time series database.
+ issues 837
 
-html
- <a class="trueBaseThemePreviousItem" href="svelte.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sqlalchemy.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 11682
+ committers 1019
+ files 1127
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prometheus.pldb
+hopl https://hopl.info/showlanguage.prx?exp=2411
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://prometheus.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/prometheus/prometheus" class="material-symbols-outlined">code</a> <a href="/edit.html?id=prometheus" class="material-symbols-outlined">edit</a></div>
-
-* PROMETHEUS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Matt T. Proud.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#mattTProud Matt T. Proud
-
-codeWithHeader Source code:
- git clone https://github.com/prometheus/prometheus
-
-dashboard
- #563 <span title="TotalRank: 1125 Jobs: 103 Users: 36 Facts: 1381 Links: 986">on PLDB</span>
- 12 Years Old
-
-* The Prometheus monitoring system and time series database.
-
-- PROMETHEUS website
- https://prometheus.io/
-- PROMETHEUS is developed on <a href="https://github.com/prometheus/prometheus">GitHub</a> and has 46,169 stars
-- PROMETHEUS first developed in <a href="../lists/originCommunities.html#soundCloudLimited">SoundCloud Limited</a>
-- PROMETHEUS on HOPL
- https://hopl.info/showlanguage.prx?exp=2411
-- Read more about PROMETHEUS on the web: 1. 2.
- https://download.opensuse.org/update/leap/15.2/oss/x86_64/golang-github-prometheus-prometheus-2.22.1-lp152.3.4.1.x86_64.rpm.mirrorlist 1.
- http://www.ai1.uni-bayreuth.de/en/projects/Prometheus/index.html 2.
-
-<br>
-
-endColumns
-
-keyboardNav svelte.html sqlalchemy.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

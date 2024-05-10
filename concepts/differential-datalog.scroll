@@ -1,46 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Differential Datalog
+import ../measures/conceptPage.scroll
+id Differential Datalog
+appeared 2018
+type pl
+creators Leonid Ryzhyk
+conceptDescription DDlog is a programming language for incremental computation. It is well suited for writing programs that continuously update their output in response to input changes. A DDlog programmer does not write incremental algorithms; instead they specify the desired input-output mapping in a declarative manner.
+documentation https://github.com/vmware/differential-datalog/blob/master/doc/tutorial/tutorial.md
+reference https://github.com/vmware/differential-datalog/blob/master/doc/language_reference/language_reference.md
+reference https://twitter.com/vmwopensource
+aka DDlog
+country United States
+originCommunity VMware, Inc
+versions
+ 2021 1.2.3
 
-title Differential Datalog - Programming language
- hidden
+writtenIn java c python
 
-html
- <a class="trueBaseThemePreviousItem" href="epigram.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smpl.html">&gt;</a>
+githubRepo https://github.com/vmware/differential-datalog
+ firstCommit 2018
+ stars 1186
+ forks 103
+ subscribers 23
+ created 2018
+ updated 2022
+ description DDlog is a programming language for incremental computation. It is well suited for writing programs that continuously update their output in response to input changes. A DDlog programmer does not write incremental algorithms; instead they specify the desired input-output mapping in a declarative manner.
+ issues 131
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/differential-datalog.pldb
+repoStats
+ firstCommit 2018
+ commits 2136
+ committers 44
+ files 1073
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/vmware/differential-datalog" class="material-symbols-outlined">code</a> <a href="https://github.com/vmware/differential-datalog/blob/master/doc/tutorial/tutorial.md" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=differential-datalog" class="material-symbols-outlined">edit</a></div>
-
-* Differential Datalog is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Leonid Ryzhyk.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#leonidRyzhyk Leonid Ryzhyk
-
-codeWithHeader Source code:
- git clone https://github.com/vmware/differential-datalog
-
-dashboard
- #955 <span title="TotalRank: 1524 Jobs: 103 Users: 435 Facts: 1159 Links: 986">on PLDB</span>
- 6 Years Old
-
-* DDlog is a programming language for incremental computation. It is well suited for writing programs that continuously update their output in response to input changes. A DDlog programmer does not write incremental algorithms; instead they specify the desired input-output mapping in a declarative manner.
-
-- Differential Datalog is developed on <a href="https://github.com/vmware/differential-datalog">GitHub</a> and has 1,186 stars
-- Differential Datalog docs
- https://github.com/vmware/differential-datalog/blob/master/doc/tutorial/tutorial.md
-- Differential Datalog first developed in <a href="../lists/originCommunities.html#vMwareInc">VMware, Inc</a>
-- Differential Datalog is written in <a href="java.html">Java</a> & <a href="c.html">C</a> & <a href="python.html">Python</a>
-- Read more about Differential Datalog on the web: 1. 2.
- https://github.com/vmware/differential-datalog/blob/master/doc/language_reference/language_reference.md 1.
- https://twitter.com/vmwopensource 2.
-
-<br>
-
-endColumns
-
-keyboardNav epigram.html smpl.html
-
-import ../footer.scroll
+isOpenSource true

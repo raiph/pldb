@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BARE
+import ../measures/conceptPage.scroll
+id BARE
+appeared 2020
+type idl
+conceptDescription BARE is a simple binary representation for structured application data.
+website https://baremessages.org
+country Various
+originCommunity Internet Engineering Task Force
+domainName baremessages.org
+ registered 2020
 
-title BARE - Interface design language
- hidden
+keywords type enum u8 u16 u32 u64 uint i8 i16 i32 i64 int f32 f64 bool void data string optional map
 
-html
- <a class="trueBaseThemePreviousItem" href="avail.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visualworks.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bare.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://baremessages.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=bare" class="material-symbols-outlined">edit</a></div>
-
-* BARE is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #1151 <span title="TotalRank: 1699 Jobs: 103 Users: 2442 Facts: 610 Links: 986">on PLDB</span>
- 4 Years Old
-
-* BARE is a simple binary representation for structured application data.
-
-- BARE website
- https://baremessages.org
-- BARE first developed in <a href="../lists/originCommunities.html#internetEngineeringTaskForce">Internet Engineering Task Force</a>
-- file extensions for BARE include bare
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/bare.py">syntax highlighting</a> for BARE
-- <a href="https://baremessages.org">baremessages.org</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from the web:
+example
  type PublicKey data[128]
  type Time str # ISO 8601
  
@@ -47,17 +25,17 @@ codeWithHeader Example from the web:
    JSMITH = 99
  }
  
- type Address list&lt;str&gt;[4] # street, city, state, country
+ type Address list<str>[4] # street, city, state, country
  
  type Customer struct {
    name: str
    email: str
    address: Address
-   orders: list&lt;struct {
+   orders: list<struct {
      orderId: i64
      quantity: i32
-   }&gt;
-   metadata: map&lt;str&gt;&lt;data&gt;
+   }>
+   metadata: map<str><data>
  }
  
  type Employee struct {
@@ -66,21 +44,14 @@ codeWithHeader Example from the web:
    address: Address
    department: Department
    hireDate: Time
-   publicKey: optional&lt;PublicKey&gt;
-   metadata: map&lt;str&gt;&lt;data&gt;
+   publicKey: optional<PublicKey>
+   metadata: map<str><data>
  }
  
  type TerminatedEmployee void
  
  type Person union {Customer | Employee | TerminatedEmployee}
 
-<div class="keywordsBlock">
-codeWithHeader BARE <a href="../lists/keywords.html?filter=bare">Keywords</a>
- type enum u8 u16 u32 u64 uint i8 i16 i32 i64 int f32 f64 bool void data string optional map
-</div>
-
-endColumns
-
-keyboardNav avail.html visualworks.html
-
-import ../footer.scroll
+pygmentsHighlighter BARE
+ filename bare.py
+ fileExtensions bare

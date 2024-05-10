@@ -1,40 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title juicy
+import ../measures/conceptPage.scroll
+id juicy
+appeared 2017
+type pl
+creators Jonathan Avery
+conceptDescription <a href='https://github.com/GordianNaught/Juicy'>Juicy</a> is a low-level, compiled, purely functional, highly generic language with inferred types and tail recursion.
+country New Zealand
+originCommunity https://github.com/GordianNaught/Juicy/issues
 
-title juicy - Programming language
- hidden
+githubRepo https://github.com/GordianNaught/Juicy
+ stars 8
+ forks 0
+ subscribers 2
+ created 2017
+ updated 2019
+ firstCommit 2017
+ description Juicy Language Compiler
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="awl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rapidbatch.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 76
+ committers 2
+ files 55
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/juicy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/GordianNaught/Juicy" class="material-symbols-outlined">code</a> <a href="/edit.html?id=juicy" class="material-symbols-outlined">edit</a></div>
-
-* juicy is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Jonathan Avery.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#jonathanAvery Jonathan Avery
-
-codeWithHeader Source code:
- git clone https://github.com/GordianNaught/Juicy
-
-dashboard
- #2028 <span title="TotalRank: 2539 Jobs: 103 Users: 2347 Facts: 1450 Links: 986">on PLDB</span>
- 7 Years Old
-
-* <a href='https://github.com/GordianNaught/Juicy'>Juicy</a> is a low-level, compiled, purely functional, highly generic language with inferred types and tail recursion.
-
-- juicy is developed on <a href="https://github.com/GordianNaught/Juicy">GitHub</a> and has 8 stars
-- juicy first developed in <a href="../lists/originCommunities.html#httpsGithubComGordianNaughtJuicyIssues">https://github.com/GordianNaught/Juicy/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav awl.html rapidbatch.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

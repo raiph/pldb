@@ -1,50 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title huginn
+import ../measures/conceptPage.scroll
+id huginn
+appeared 2015
+type pl
+creators Marcin Konarski
+website https://huginn.org/
+country Poland
+originCommunity https://github.com/AmokHuginnsson/huginn/issues
+domainName huginn.org
+ registered 2017
 
-title huginn - Programming language
- hidden
+githubRepo https://github.com/AmokHuginnsson/huginn
+ firstCommit 2015
+ stars 41
+ subscribers 6
+ created 2015
+ updated 2022
+ description Programming language with no quirks, so simple every child can master it.
+ issues 0
+ forks 1
 
-html
- <a class="trueBaseThemePreviousItem" href="nickle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ici.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 817
+ committers 1
+ files 162
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/huginn.pldb
+rosettaCode http://www.rosettacode.org/wiki/Category:Huginn
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://huginn.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/AmokHuginnsson/huginn" class="material-symbols-outlined">code</a> <a href="/edit.html?id=huginn" class="material-symbols-outlined">edit</a></div>
-
-* huginn is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Marcin Konarski.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#marcinKonarski Marcin Konarski
-
-codeWithHeader Source code:
- git clone https://github.com/AmokHuginnsson/huginn
-
-dashboard
- #1817 <span title="TotalRank: 2345 Jobs: 103 Users: 1894 Facts: 1256 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Programming language with no quirks, so simple every child can master it.
-
-- huginn website
- https://huginn.org/
-- huginn is developed on <a href="https://github.com/AmokHuginnsson/huginn">GitHub</a> and has 41 stars
-- huginn first developed in <a href="../lists/originCommunities.html#httpsGithubComAmokHuginnssonHuginnIssues">https://github.com/AmokHuginnsson/huginn/issues</a>
-- Explore huginn snippets on <a href="http://www.rosettacode.org/wiki/Category:Huginn">Rosetta Code</a>
-- <a href="https://huginn.org/">huginn.org</a> was registered in 2017
-
-<br>
-
-endColumns
-
-## HackerNews discussions of huginn
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Huginn: programming language with no quirks ;)|https://news.ycombinator.com/item?id=16464458|02/26/2018|2|2
-
-keyboardNav nickle.html ici.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 16464458|Show HN: Huginn: programming language with no quirks ;)|2018-02-26 10:55:47 UTC|1519642547|MarcinKonarski|2|2

@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mal
+import ../measures/conceptPage.scroll
+id mal
+appeared 2014
+type interpreter
+conceptDescription Mal is a Clojure inspired Lisp interpreter. Mal is implemented in 75 languages.
+country United States
+originCommunity https://github.com/kanaka/mal/issues
 
-title mal - Interpreter
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gif-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="conll-u.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kanaka/mal" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mal" class="material-symbols-outlined">edit</a></div>
-
-* mal is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+interpreter">interpreter</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/kanaka/mal
-
-dashboard
- #762 on PLDB
- 10 Years Old
-
-* Mal is a Clojure inspired Lisp interpreter. Mal is implemented in 75 languages.
-
-- mal is developed on <a href="https://github.com/kanaka/mal">GitHub</a> and has 8,718 stars
-- mal first developed in <a href="../lists/originCommunities.html#httpsGithubComKanakaMalIssues">https://github.com/kanaka/mal/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav gif-format.html conll-u.html
-
-import ../footer.scroll
+githubRepo https://github.com/kanaka/mal
+ firstCommit 2014
+ stars 8718
+ forks 2093
+ subscribers 179
+ created 2014
+ updated 2022
+ description mal - Make a Lisp
+ issues 44

@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tinygo-compiler
-
-title tinygo-compiler - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tengo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tromp-diagrams.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tinygo-compiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tinygo.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tinygo-compiler" class="material-symbols-outlined">edit</a></div>
-
-* tinygo-compiler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #3319 on PLDB
- 6 Years Old
-
-* 
-
-- tinygo-compiler website
- https://tinygo.org/
-- <a href="https://tinygo.org/">tinygo.org</a> was registered in 2018
-
-<br>
-
-endColumns
-
-keyboardNav tengo.html tromp-diagrams.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id tinygo-compiler
+appeared 2018
+type compiler
+website https://tinygo.org/
+domainName tinygo.org
+ registered 2018
+ awisRank
+  2022 832242

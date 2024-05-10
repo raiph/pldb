@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WIZOR
+import ../measures/conceptPage.scroll
+id WIZOR
+appeared 1962
+type pl
+reference https://semanticscholar.org/paper/7a300927dd222cea886cfac7c06c38169e777464
 
-title WIZOR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3269
 
-html
- <a class="trueBaseThemePreviousItem" href="visual.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xmind.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wizor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wizor" class="material-symbols-outlined">edit</a></div>
-
-* WIZOR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1962.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1962 1962
-
-dashboard
- #3452 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 62 Years Old
-
-* 
-
-- WIZOR on HOPL
- https://hopl.info/showlanguage.prx?exp=3269
-- Read more about WIZOR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7a300927dd222cea886cfac7c06c38169e777464 1.
-
-<br>
-
-endColumns
-
-keyboardNav visual.html xmind.html
-
-import ../footer.scroll
+semanticScholar 0

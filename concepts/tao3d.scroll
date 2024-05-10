@@ -1,61 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tao3d
+import ../measures/conceptPage.scroll
+id tao3d
+appeared 2003
+type pl
+creators Christophe de Dinechin
+conceptDescription Tao3D is a programming language for interactive 3D.
+website http://tao3d.sourceforge.net/
+domainName tao3d.sourceforge.net
 
-title tao3d - Programming language
- hidden
+relatedConcepts xl-lang
 
-html
- <a class="trueBaseThemePreviousItem" href="plex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="thue-programming-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tao3d.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://tao3d.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/c3d/tao3D" class="material-symbols-outlined">code</a> <a href="https://twitter.com/taodyne"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=tao3d" class="material-symbols-outlined">edit</a></div>
-
-* tao3d is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003 by Christophe de Dinechin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#christopheDeDinechin Christophe de Dinechin
-
-codeWithHeader Source code:
- git clone https://github.com/c3d/tao3D
-
-dashboard
- #1421 <span title="TotalRank: 1951 Jobs: 103 Users: 1200 Facts: 862 Links: 986">on PLDB</span>
- 21 Years Old
-
-* Tao3D is a programming language for interactive 3D.
-
-- tao3d website
- http://tao3d.sourceforge.net/
-- tao3d is developed on <a href="https://github.com/c3d/tao3D">GitHub</a> and has 167 stars
-- tao3d on Twitter
- https://twitter.com/taodyne
-- See also: (1 related languages)<a href="xl-lang.html">XL</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import SeasonsGreetingsTheme
  
- theme &quot;SeasonsGreetings&quot;
- main_title_slide &quot;The main title slide&quot;,
-     title &quot;Seasons Greetings theme&quot;
-     subtitle &quot;A theme for the holidays&quot;
+ theme "SeasonsGreetings"
+ main_title_slide "The main title slide",
+     title "Seasons Greetings theme"
+     subtitle "A theme for the holidays"
  
- section_slide &quot;A section slide&quot;,
-     title &quot;Section title&quot;
-     subtitle &quot;Section subtitle&quot;
+ section_slide "A section slide",
+     title "Section title"
+     subtitle "Section subtitle"
  
- slide &quot;Bullet points&quot;,
-     * &quot;Bullet points&quot;
-     ** &quot;More bullet points&quot;
-     *** &quot;Deeper&quot;
+ slide "Bullet points",
+     * "Bullet points"
+     ** "More bullet points"
+     *** "Deeper"
 
-endColumns
+githubRepo https://github.com/c3d/tao3D
+ firstCommit 2003
+ stars 167
+ forks 8
+ subscribers 17
+ created 2014
+ updated 2022
+ description The Art of 3D, a new language for dynamic document description of real-time 3D animations
+ issues 5
 
-keyboardNav plex.html thue-programming-language.html
+repoStats
+ firstCommit 2003
+ commits 9365
+ committers 26
+ files 1649
 
-import ../footer.scroll
+twitter https://twitter.com/taodyne

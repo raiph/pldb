@@ -1,44 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title links
+import ../measures/conceptPage.scroll
+id links
+appeared 2016
+type pl
+website http://links-lang.org
+country United Kingdom
+originCommunity The University of Edinburgh
+domainName links-lang.org
+ registered 2016
 
-title links - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 20696245|The Links Programming Language – Linking Theory to Practice for the Web|http://links-lang.org/|2019-08-14 15:01:51 UTC|1565794911|lelf|0|3
 
-html
- <a class="trueBaseThemePreviousItem" href="jesth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="promql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/links.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://links-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=links" class="material-symbols-outlined">edit</a></div>
-
-* links is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2500 <span title="TotalRank: 3071 Jobs: 103 Users: 2442 Facts: 1982 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- links website
- http://links-lang.org
-- links first developed in <a href="../lists/originCommunities.html#theUniversityOfEdinburgh">The University of Edinburgh</a>
-- <a href="http://links-lang.org">links-lang.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-## HackerNews discussions of links
-
-pipeTable
- title|titleLink|date|score|comments
- The Links Programming Language – Linking Theory to Practice for the Web|https://news.ycombinator.com/item?id=20696245|08/14/2019|3|0
-
-keyboardNav jesth.html promql.html
-
-import ../footer.scroll
+semanticScholar 5
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2017|On multi-language software development, cross-language links and accompanying tools: a survey of professional software developers|10.1186/s40411-017-0035-z|22|1|P. Mayer and Michael Kirsch and Minh Anh Le|e40edaa0f89ba5a3513a4e2ef381a47b9f627b14
+ 2004|LMNtal: A Language Model with Links and Membranes|10.1007/978-3-540-31837-8_6|17|0|K. Ueda and Norio Kato|e921e07c86f56c35ce08c0a2c08e09b776397370
+ 2005|The Query Language to XML Documents Connected by XLink Links|10.1007/s11086-005-0026-4|5|0|D. Lizorkin|7b857d2e8b597d4bd4724e092c32313b976792e3
+ 2016|Managing Traceability Links with MaTraca|10.1109/SANER.2016.16|2|0|A. Lozano and Carlos Noguera and V. Jonckers|cf8de0ee67a0900a85c2011b58f4a0c8e6ac5071
+ 2013|Application Camera Links on Xilinx FPGA|10.1109/FSKD.2013.6816365|1|0|Hua Cai and Huadong Yu and Jinkai Xu and G. Wang|98271340804fb7e790a2b5f6580125b39ad5d7a5

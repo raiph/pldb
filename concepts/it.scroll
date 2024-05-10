@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IT
+import ../measures/conceptPage.scroll
+id IT
+appeared 1955
+type pl
+creators Alan Perlis
+reference https://semanticscholar.org/paper/4c900bab884c013dfd26cb89c168d311785f8561
+country United States
+originCommunity Purdue University
 
-title IT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=21
 
-html
- <a class="trueBaseThemePreviousItem" href="titanium.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beam-bytecode.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/it.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=it" class="material-symbols-outlined">edit</a></div>
-
-* IT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1955 by Alan Perlis.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1955 1955
- link ../lists/creators.html#alanPerlis Alan Perlis
-
-dashboard
- #2995 <span title="TotalRank: 3586 Jobs: 103 Users: 2838 Facts: 2816 Links: 667">on PLDB</span>
- 69 Years Old
-
-* 
-
-- IT first developed in <a href="../lists/originCommunities.html#purdueUniversity">Purdue University</a>
-- IT on HOPL
- https://hopl.info/showlanguage.prx?exp=21
-- Read more about IT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4c900bab884c013dfd26cb89c168d311785f8561 1.
-
-<br>
-
-endColumns
-
-keyboardNav titanium.html beam-bytecode.html
-
-import ../footer.scroll
+wordRank 16
+centralPackageRepositoryCount 0

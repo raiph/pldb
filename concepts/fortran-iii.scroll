@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORTRAN III
+import ../measures/conceptPage.scroll
+id FORTRAN III
+appeared 1958
+type pl
+reference https://en.wikipedia.org/wiki/Fortran#FORTRAN_III
+country United States
+originCommunity IBM
 
-title FORTRAN III - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="floorplan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortran-iv.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortran-iii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fortran-iii" class="material-symbols-outlined">edit</a></div>
-
-* FORTRAN III is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3384 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- FORTRAN III first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- FORTRAN III on HOPL
- https://hopl.info/showlanguage.prx?exp=2051
-- Read more about FORTRAN III on the web: 1.
- https://en.wikipedia.org/wiki/Fortran#FORTRAN_III 1.
-
-<br>
-
-endColumns
-
-keyboardNav floorplan.html fortran-iv.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=2051

@@ -1,52 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Filebench WML
+import ../measures/conceptPage.scroll
+id Filebench WML
+appeared 2011
+type pl
+creators Vasily Tarasov
+conceptDescription Filebench is a file system and storage benchmark that can generate a large variety of workloads. Unlike typical benchmarks it is extremely flexible and allows to specify application's I/O behavior using its extensive Workload Model Language (WML).
+website https://github.com/filebench/filebench/wiki
+reference https://github.com/filebench/filebench/wiki/Workload-model-language
+country United States
+originCommunity https://github.com/filebench
 
-title Filebench WML - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="simple-binary-encoding.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="apache-velocity.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/filebench-wml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/filebench/filebench/wiki" class="material-symbols-outlined">home</a> <a href="https://github.com/filebench/filebench" class="material-symbols-outlined">code</a> <a href="/edit.html?id=filebench-wml" class="material-symbols-outlined">edit</a></div>
-
-* Filebench WML is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Vasily Tarasov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#vasilyTarasov Vasily Tarasov
-
-codeWithHeader Source code:
- git clone https://github.com/filebench/filebench
-
-dashboard
- #584 <span title="TotalRank: 1150 Jobs: 103 Users: 734 Facts: 313 Links: 986">on PLDB</span>
- 13 Years Old
- 566 <span title="Filebench WML repos on GitHub.">Repos</span>
-
-* Filebench is a file system and storage benchmark that can generate a large variety of workloads. Unlike typical benchmarks it is extremely flexible and allows to specify application's I/O behavior using its extensive Workload Model Language (WML).
-
-- Filebench WML website
- https://github.com/filebench/filebench/wiki
-- Filebench WML is developed on <a href="https://github.com/filebench/filebench">GitHub</a> and has 257 stars
-- There are at least 566 Filebench WML repos on <a href="https://github.com/search?q=language:Filebench WML">GitHub</a>
-- Filebench WML first developed in <a href="../lists/originCommunities.html#httpsGithubComFilebench">https://github.com/filebench</a>
-- file extensions for Filebench WML include f
-- The  Google BigQuery Public Dataset GitHub snapshot shows 16 users using Filebench WML in 19 repos on <a href="https://api.github.com/search/repositories?q=language:Filebench WML">GitHub</a>
-- Read more about Filebench WML on the web: 1.
- https://github.com/filebench/filebench/wiki/Workload-model-language 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #
  # CDDL HEADER START
  #
  # The contents of this file are subject to the terms of the
- # Common Development and Distribution License (the &quot;License&quot;).
+ # Common Development and Distribution License (the "License").
  # You may not use this file except in compliance with the License.
  #
  # You can obtain a copy of the license at usr/src/OPENSOLARIS.LICENSE
@@ -57,7 +33,7 @@ codeWithHeader Example from the web:
  # When distributing Covered Code, include this CDDL HEADER in each
  # file and include the License file at usr/src/OPENSOLARIS.LICENSE.
  # If applicable, add the following below this CDDL HEADER, with the
- # fields enclosed by brackets &quot;[]&quot; replaced with your own identifying
+ # fields enclosed by brackets "[]" replaced with your own identifying
  # information: Portions Copyright [yyyy] [name of copyright owner]
  #
  # CDDL HEADER END
@@ -92,35 +68,38 @@ codeWithHeader Example from the web:
    }
  }
  
- echo  &quot;Copyfiles Version 3.0 personality successfully loaded&quot;
+ echo  "Copyfiles Version 3.0 personality successfully loaded"
  
 
-endColumns
+githubRepo https://github.com/filebench/filebench
+ stars 257
+ forks 96
+ subscribers 22
+ created 2016
+ updated 2022
+ description File system and storage benchmark that uses a custom language to generate a large variety of workloads.
+ issues 68
+ firstCommit 2011
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2011
+ commits 223
+ committers 14
+ files 136
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+githubLanguage Filebench WML
+ fileExtensions f
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope none
+ repos 566
+githubBigQuery Filebench WML
+ repos 19
+ users 16
 
-keyboardNav simple-binary-encoding.html apache-velocity.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0

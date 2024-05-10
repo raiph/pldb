@@ -1,36 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tetruss-app
-
-title tetruss-app - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="stx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unicon-adl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tetruss-app.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tetruss.larc.nasa.gov/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tetruss-app" class="material-symbols-outlined">edit</a></div>
-
-* tetruss-app is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3259 on PLDB
- 28 Years Old
-
-*  a suite of computer programs used for fluid dynamics and aerodynamics analysis and design.
-
-- tetruss-app website
- https://tetruss.larc.nasa.gov/
-
-<br>
-
-endColumns
-
-keyboardNav stx.html unicon-adl.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id tetruss-app
+appeared 1996
+type application
+conceptDescription  a suite of computer programs used for fluid dynamics and aerodynamics analysis and design.
+website https://tetruss.larc.nasa.gov/
+domainName tetruss.larc.nasa.gov

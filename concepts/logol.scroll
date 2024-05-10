@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LOGOL
+import ../measures/conceptPage.scroll
+id LOGOL
+appeared 1968
+type pl
+reference https://semanticscholar.org/paper/f85cf44a7172276e970683c7f6af73eb84722fb1
+country Ukraine and Poland
+originCommunity Institute of Mathematical Machines && Western University
 
-title LOGOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=331
 
-html
- <a class="trueBaseThemePreviousItem" href="loglisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="logowriter.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/logol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=logol" class="material-symbols-outlined">edit</a></div>
-
-* LOGOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #4204 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- LOGOL first developed in <a href="../lists/originCommunities.html#instituteOfMathematicalMachines">Institute of Mathematical Machines</a> and <a href="../lists/originCommunities.html#westernUniversity">Western University</a>
-- LOGOL on HOPL
- https://hopl.info/showlanguage.prx?exp=331
-- Read more about LOGOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f85cf44a7172276e970683c7f6af73eb84722fb1 1.
-
-<br>
-
-endColumns
-
-keyboardNav loglisp.html logowriter.html
-
-import ../footer.scroll
+semanticScholar 0

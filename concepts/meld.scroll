@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MELD
+import ../measures/conceptPage.scroll
+id MELD
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/f23cebdf0419fad69ecef41a485926511b6cfb61
+country United States
+originCommunity Columbia University
 
-title MELD - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1499
 
-html
- <a class="trueBaseThemePreviousItem" href="mavis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="meta-plus.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/meld.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=meld" class="material-symbols-outlined">edit</a></div>
-
-* MELD is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #4218 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- MELD first developed in <a href="../lists/originCommunities.html#columbiaUniversity">Columbia University</a>
-- MELD on HOPL
- https://hopl.info/showlanguage.prx?exp=1499
-- Read more about MELD on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f23cebdf0419fad69ecef41a485926511b6cfb61 1.
-
-<br>
-
-endColumns
-
-keyboardNav mavis.html meta-plus.html
-
-import ../footer.scroll
+isbndb 0

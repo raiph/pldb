@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Blueprints
+import ../measures/conceptPage.scroll
+id Blueprints
+appeared 2014
+type visual
+conceptDescription Blueprints is the visual scripting system inside Unreal Engine 4 and is a fast way to start prototyping your game.
+website https://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html
+country United States
+originCommunity Epic Games
 
-title Blueprints - Visual programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="blank.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-cubed.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blueprints.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=blueprints" class="material-symbols-outlined">edit</a></div>
-
-* Blueprints is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #2810 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Blueprints is the visual scripting system inside Unreal Engine 4 and is a fast way to start prototyping your game.
-
-- Blueprints website
- https://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html
-- Blueprints first developed in <a href="../lists/originCommunities.html#epicGames">Epic Games</a>
-
-<br>
-
-endColumns
-
-keyboardNav blank.html c-cubed.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

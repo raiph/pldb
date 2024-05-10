@@ -1,85 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Caché ObjectScript
+import ../measures/conceptPage.scroll
+id Caché ObjectScript
+appeared 1997
+type pl
+country United States
+originCommunity InterSystems
 
-title Caché ObjectScript - Programming language
- hidden
+supersetOf mumps
 
-html
- <a class="trueBaseThemePreviousItem" href="objectscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="candy.html">&gt;</a>
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cache-objectscript.pldb
+printToken Write
+stringToken "
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/Caché_ObjectScript
+ related mumps sql
+ summary Caché ObjectScript is a part of the Caché database system sold by InterSystems. The language is a functional superset of the ANSI-standard MUMPS programming language. Since Caché is at its core a MUMPS implementation, it can run ANSI MUMPS routines with no change. To appeal as a commercial product, Caché implements support for object-oriented programming, a macro preprocessing language, embedded SQL for ANSI-standard SQL access to M's built-in database, procedure and control blocks using C-like brace syntax, procedure-scoped variables, and relaxed whitespace syntax limitations. The language has private and public variables and globals. Global has a different meaning in this language than in most; such variables are global across routines, processes, and sessions. Thus, editing a global variable is making permanent and immediate changes to a system-universal database (which survives reboots, etc.).  The scope of a private variable is the local function, the scope of a public variable is the entire process. Variables, private and public, may be single elements or complete multi-dimensional arrays. The great majority of Caché's feature-set is inherited from the ANSI MUMPS standard.  See that article for details on how data is represented and the different ways a programmer can think about the data during development.
+ pageId 2242790
+ created 2005
+ backlinksCount 19
+ revisionCount 55
+ dailyPageViews 19
+ appeared 1997
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Caché_ObjectScript"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=cache-objectscript" class="material-symbols-outlined">edit</a></div>
+leachim6 Cache ObjectScript
+ filepath c/Cache ObjectScript.mac
+ example
+  HelloWorld  ;
+    Write "Hello World"
+    Quit
+  
 
-* Caché ObjectScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
+hopl https://hopl.info/showlanguage.prx?exp=4987
 
-dashboard
- #1602 <span title="TotalRank: 2121 Jobs: 103 Users: 1395 Facts: 1032 Links: 986">on PLDB</span>
- 27 Years Old
+fileType text
+centralPackageRepositoryCount 0
 
-* Caché ObjectScript is a part of the Caché database system sold by InterSystems. The language is a functional superset of the ANSI-standard MUMPS programming language. Since Caché is at its core a MUMPS implementation, it can run ANSI MUMPS routines with no change. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Caché_ObjectScript Read more on Wikipedia...
-
-- Caché ObjectScript Wikipedia page
- https://en.wikipedia.org/wiki/Caché_ObjectScript
-- Caché ObjectScript is a superset of <a href="/concepts/mumps.html">MUMPS</a>
-- Caché ObjectScript first developed in <a href="../lists/originCommunities.html#interSystems">InterSystems</a>
-- Caché ObjectScript on HOPL
- https://hopl.info/showlanguage.prx?exp=4987
-- See also: (2 related languages)<a href="mumps.html">MUMPS</a>, <a href="sql.html">SQL</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Cache ObjectScript.mac'>hello-world</a>:
- HelloWorld  ;
-   Write &quot;Hello World&quot;
-   Quit
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token Write
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav objectscript.html candy.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Cache Objectscript and Mumps: Technical Learning Manual|2012|Paul Mike Kadow|23453991|3.29|7|0

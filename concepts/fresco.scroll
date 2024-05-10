@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fresco
+import ../measures/conceptPage.scroll
+id Fresco
+appeared 1993
+type pl
+reference https://dl.acm.org/doi/10.5555/187621.187646
+country United States
+originCommunity Microsoft
 
-title Fresco - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1730
 
-html
- <a class="trueBaseThemePreviousItem" href="frenetic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="galileo.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fresco.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fresco" class="material-symbols-outlined">edit</a></div>
-
-* Fresco is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #4143 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Fresco first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- Fresco on HOPL
- https://hopl.info/showlanguage.prx?exp=1730
-- Read more about Fresco on the web: 1.
- https://dl.acm.org/doi/10.5555/187621.187646 1.
-
-<br>
-
-endColumns
-
-keyboardNav frenetic.html galileo.html
-
-import ../footer.scroll
+semanticScholar https://semanticscholar.org/paper/e52edc280cd56cdf8a740b47e3ceae324db2945d

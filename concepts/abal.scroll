@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ABAL
+import ../measures/conceptPage.scroll
+id ABAL
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/451fb648f4cf28e6b4d7ddb58717a68ad5e50a75
+originCommunity Auburn University
 
-title ABAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7892
 
-html
- <a class="trueBaseThemePreviousItem" href="3rip.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abcl-cp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=abal" class="material-symbols-outlined">edit</a></div>
-
-* ABAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3308 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- ABAL first developed in <a href="../lists/originCommunities.html#auburnUniversity">Auburn University</a>
-- ABAL on HOPL
- https://hopl.info/showlanguage.prx?exp=7892
-- Read more about ABAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/451fb648f4cf28e6b4d7ddb58717a68ad5e50a75 1.
-
-<br>
-
-endColumns
-
-keyboardNav 3rip.html abcl-cp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

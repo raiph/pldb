@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><div class="scrollSection"><h1 class="scrollTitle"><a href="readme.html">PLDB: a Programming Language Database</a></h1>
+</div>
+<a href="https://github.com/breck7/pldb/actions/workflows/didTheTestsPass.yml"><img src="https://github.com/breck7/pldb/actions/workflows/didTheTestsPass.yml/badge.svg"/></a>
+<p class="scrollParagraph">PLDB is a public domain database and website containing over 135,000 facts about over 4,000 programming languages.</p>
+<p class="scrollParagraph">This repo contains the entire database, code, and website for <a href="https://pldb.io" target="_blank">https://pldb.io</a>.</p>
+<div class="scrollSection"><h2 class="scrollParagraph">To analyze the data</h2>
+<p class="scrollParagraph">The PLDB database is freely available:</p>
+<ul ><li >As CSV: <a href="https://pldb.io/pldb.csv" target="_blank">https://pldb.io/pldb.csv</a></li>
+<li >As JSON: <a href="https://pldb.io/pldb.json" target="_blank">https://pldb.io/pldb.json</a></li>
+<li >The JSON file is also available via npm:</li></ul>
+<code class="scrollCodeBlock">// npm install pldb
+console.log(require("pldb").javascript.appeared)</code>
+<p class="scrollParagraph">Documentation for the CSV is available here: <a href="https://pldb.io/csv.html" target="_blank">https://pldb.io/csv.html</a>.</p>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To add a new language</h2>
+<p class="scrollParagraph">Easy method: <a href="https://pldb.io/create.html" target="_blank">https://pldb.io/create.html</a></p>
+<p class="scrollParagraph">Advanced method: Create a new file in <code>concepts</code> with a unique URL friendly filename ending in <code>.pldb</code> and send a pull request.</p>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To update a language</h2>
+<p class="scrollParagraph">Easy method: <a href="https://pldb.io/" target="_blank">https://pldb.io/</a></p>
+<p class="scrollParagraph">Advanced method: Edit the corresponding <code>concepts/*.pldb</code> file and send a pull request.</p>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To add a new measure</h2>
+<p class="scrollParagraph">Advanced method: Edit or create a new file in <code>measures/</code> and add at least 1 measurement to a concept in <code>concepts</code> and send a pull request.</p>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To run the site locally</h2>
+<code class="scrollCodeBlock">git clone https://github.com/breck7/pldb
+cd pldb
+# Required to run this during first install only.
+npm i -g cloc
+# Required to run this on fresh checkout and when upgrading from an old checkout or periodically when there are new releases
+npm install .
+# Run tests
+npm run test
+# Start the dev server
+npm run local
+# Or to rum the local site statically
+npm run static
+# After you make changes and before you commit make sure to run:
+npm run format</code>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To explore this repo</h2>
+<p class="scrollParagraph">The most important folder is <code>concepts</code>, which contains a file for each entity. The folder <code>measures</code> contains the grammar files (schema) for the database.</p>
+<p class="scrollParagraph">The website content is in the <code>site</code> folder.</p>
+<p class="scrollParagraph">The <code>code</code> folder contains importer scripts and other code for the database and site.</p>
+<p class="scrollParagraph">You can see the <code>cloc</code> language stats on this repo at <a href="https://pldb.io/pages/about.html" target="_blank">https://pldb.io/pages/about.html</a>.</p>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To use as an npm package:</h2>
+<code class="scrollCodeBlock">npm install pldb</code>
+<code class="scrollCodeBlock">console.log(require("pldb").javascript.appeared)</code>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">To cite PLDB</h2>
+<p class="scrollParagraph">PLDB content is published to the public domain and you can use it freely. If needed, here are 3 options for citing PLDB:</p>
+<code class="scrollCodeBlock">https://pldb.io</code>
+<code class="scrollCodeBlock">PLDB contributors. (2022) - "PLDB: a Programming Language Database". Retrieved from: 'https://pldb.io' [Online Resource]</code>
+<code class="scrollCodeBlock">@article{pldb,
+ author = {PLDB contributors},
+ title = {PLDB: a Programming Language Database},
+ journal = {PLDB},
+ year = {2022},
+ note = {https://pldb.io}
+}</code>
+</div>
+<p class="scrollParagraph">All sources for PLDB can be found here: <a href="https://pldb.io/pages/acknowledgements.html" target="_blank">https://pldb.io/pages/acknowledgements.html</a></p></html>

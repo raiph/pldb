@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title google-data-studio-app
-
-title google-data-studio-app - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gnome-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/google-data-studio-app.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://datastudio.google.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=google-data-studio-app" class="material-symbols-outlined">edit</a></div>
-
-* google-data-studio-app is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #3302 on PLDB
- 8 Years Old
-
-* 
-
-- google-data-studio-app website
- https://datastudio.google.com/
-- google-data-studio-app first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- Read more about google-data-studio-app on the web: 1.
- https://de.wikipedia.org/wiki/Google_Data_Studio 1.
-
-<br>
-
-endColumns
-
-keyboardNav gnome-basic.html gp.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id google-data-studio-app
+appeared 2016
+type application
+website https://datastudio.google.com/
+reference https://de.wikipedia.org/wiki/Google_Data_Studio
+country United States
+originCommunity Google
+domainName datastudio.google.com

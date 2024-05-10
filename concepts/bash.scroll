@@ -1,210 +1,197 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bash
+import ../measures/conceptPage.scroll
+id Bash
+appeared 1989
+type pl
+creators Brian Fox
+website https://www.gnu.org/software/bash/
+documentation https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
+documentation https://devdocs.io/bash/
+aka Shell
+country United States
+originCommunity GNU
 
-title Bash - Programming language
- hidden
+hasVariableSubstitutionSyntax true
+ STR="Hello World!"
+ echo $STR
+hasComments true
+ # A comment
+hasLineComments true
+ # A comment
+hasUnitsOfMeasure false
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasMultiLineComments false
+hasIntegers true
+ PLDB=80766866
+hasHereDocs true
+ cat <<Message
+  Hello world
+ Message
+hasSets false
+hasPipes true
+ echo "Hello world" > output.txt
+hasPrintDebugging true
+ echo "Hello World"
+hasAssignment true
+ FOO="bar"
+hasImports true
+ source ./bash.sh
+hasWhileLoops true
+hasFunctions true
+hasConditionals true
 
-html
- <a class="trueBaseThemePreviousItem" href="prolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nodejs.html">&gt;</a>
+lineCommentToken #
+printToken echo
+assignmentToken =
+stringToken "
+keywords if then do else elif while until for in esac fi fin fil done exit set unset export function
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bash.pldb
+wikipedia https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+ example
+  cd "$SOMEWHERE" && ./do_something || echo "An error occurred" >&2
+ related c gettext bourne-shell login linux almquist-shell android regex perl awk unix emacs-editor
+ summary Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been distributed widely as the default login shell for most Linux distributions and Apple's macOS (formerly OS X). A version is also available for Windows 10. Bash is a command processor that typically runs in a text window, where the user types commands that cause actions. Bash can also read and execute commands from a file, called a script. Like all Unix shells, it supports filename globbing (wildcard matching), piping, here documents, command substitution, variables, and control structures for condition-testing and iteration. The keywords, syntax and other basic features of the language are all copied from sh. Other features, e.g., history, are copied from csh and ksh. Bash is a POSIX-compliant shell, but with a number of extensions. The shell's name is an acronym for Bourne-again shell, punning on the name of the Bourne shell that it replaces and on the term "born again" that denotes spiritual rebirth in contemporary American Christianity. A security hole in Bash dating from version 1.03 (August 1989), dubbed Shellshock, was discovered in early September 2014 and quickly led to a range of attacks across the Internet. Patches to fix the bugs were made available soon after the bugs were identified, but not all computers have been updated.
+ pageId 4547
+ dailyPageViews 1271
+ created 2001
+ backlinksCount 1835
+ revisionCount 1360
+ appeared 1989
 
-startColumns 4
+githubLanguage Shell
+ fileExtensions sh bash bats cgi command env fcgi ksh shin tmux tool zsh zsh-theme
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  kaldi-asr kaldi https://github.com/kaldi-asr.png https://github.com/kaldi-asr/kaldi Shell #89e051 7031 3224 623 "This is the official location of the Kaldi project."
+  dylanaraps pure-bash-bible https://github.com/dylanaraps.png https://github.com/dylanaraps/pure-bash-bible Shell #89e051 14224 1102 899 "📖 A collection of pure bash alternatives to external processes."
+  pi-hole pi-hole https://github.com/pi-hole.png https://github.com/pi-hole/pi-hole Shell #89e051 17711 1224 847 "A black hole for Internet advertisements"
+  trimstray nginx-admins-handbook https://github.com/trimstray.png https://github.com/trimstray/nginx-admins-handbook Shell #89e051 9683 677 986 "How to improve NGINX performance, security, and other important things; @ssllabs A+ 100%, @mozilla A+ 120/100."
+  v1s1t0r1sh3r3 airgeddon https://github.com/v1s1t0r1sh3r3.png https://github.com/v1s1t0r1sh3r3/airgeddon Shell #89e051 2052 515 286 "This is a multi-use bash script for Linux systems to audit wireless networks."
+  esc0rtd3w wifi-hacker https://github.com/esc0rtd3w.png https://github.com/esc0rtd3w/wifi-hacker Shell #89e051 811 283 420 "Shell Script For Attacking Wireless Connections Using Built-In Kali Tools. Supports All Securities (WEP, WPS, WPA, WPA2)"
+  toniblyx my-arsenal-of-aws-security-tools https://github.com/toniblyx.png https://github.com/toniblyx/my-arsenal-of-aws-security-tools Shell #89e051 2624 378 440 "List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc."
+  robbyrussell oh-my-zsh https://github.com/robbyrussell.png https://github.com/robbyrussell/oh-my-zsh Shell #89e051 94524 17446 1679 "🙃 A delightful community-driven (with 1,300+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community."
+  termux termux-packages https://github.com/termux.png https://github.com/termux/termux-packages Shell #89e051 2485 827 109 "Android terminal and Linux environment - packages repository."
+  wmnnd nginx-certbot https://github.com/wmnnd.png https://github.com/wmnnd/nginx-certbot Shell #89e051 579 208 127 "Boilerplate configuration for nginx and certbot with docker-compose"
+  tomav docker-mailserver https://github.com/tomav.png https://github.com/tomav/docker-mailserver Shell #89e051 4463 747 140 "A fullstack but simple mailserver (smtp, imap, antispam, antivirus, ssl...) using Docker."
+  dotnet core https://github.com/dotnet.png https://github.com/dotnet/core Shell #89e051 11705 2542 339 "Home repository for .NET Core"
+  thelinuxchoice saycheese https://github.com/thelinuxchoice.png https://github.com/thelinuxchoice/saycheese Shell #89e051 152 105 45 "Grab target's webcam shots by link"
+  hashicorp vault-helm https://github.com/hashicorp.png https://github.com/hashicorp/vault-helm Shell #89e051 108 34 106 "Helm chart to install Vault and other associated components."
+  Neilpang acme.sh https://github.com/Neilpang.png https://github.com/Neilpang/acme.sh Shell #89e051 14044 1787 406 "A pure Unix shell script implementing ACME client protocol"
+  mathiasbynens dotfiles https://github.com/mathiasbynens.png https://github.com/mathiasbynens/dotfiles Shell #89e051 22044 7799 200 "🔧 .files, including ~/.macos — sensible hacker defaults for macOS"
+  dennyzhang cheatsheet-kubernetes-A4 https://github.com/dennyzhang.png https://github.com/dennyzhang/cheatsheet-kubernetes-A4 Shell #89e051 436 246 62 "📖 Kubernetes CheatSheets In A4"
+  romkatv powerlevel10k https://github.com/romkatv.png https://github.com/romkatv/powerlevel10k Shell #89e051 1514 72 357 "A fast reimplementation of Powerlevel9k ZSH theme"
+  skywind3000 awesome-cheatsheets https://github.com/skywind3000.png https://github.com/skywind3000/awesome-cheatsheets Shell #89e051 4926 917 146 "超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西 ⚡️"
+  fouldsy azure-mol-samples https://github.com/fouldsy.png https://github.com/fouldsy/azure-mol-samples Shell #89e051 357 131 39 "Supporting resources for ""Learn Azure in a Month of Lunches"" (Manning Publications)"
+  vulhub vulhub https://github.com/vulhub.png https://github.com/vulhub/vulhub Shell #89e051 4211 1485 250 "Pre-Built Vulnerable Environments Based on Docker-Compose"
+  nvm-sh nvm https://github.com/nvm-sh.png https://github.com/nvm-sh/nvm Shell #89e051 36851 3480 616 "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"
+  easzlab kubeasz https://github.com/easzlab.png https://github.com/easzlab/kubeasz Shell #89e051 3840 1573 407 使用Ansible脚本安装K8S集群，介绍组件交互原理，方便直接，不受国内网络环境影响
+  dylanaraps neofetch https://github.com/dylanaraps.png https://github.com/dylanaraps/neofetch Shell #89e051 6957 441 186 "🖼️ A command-line system information tool written in bash 3.2+"
+  ashishb android-security-awesome https://github.com/ashishb.png https://github.com/ashishb/android-security-awesome Shell #89e051 4067 1026 65 "A collection of android security related resources"
+ trendingProjectsCount 26
+ type programming
+ filenames .bash_aliases .bash_history .bash_logout .bash_profile .bashrc .cshrc .env .env.example .flaskenv .kshrc .login .profile .zlogin .zlogout .zprofile .zshenv .zshrc 9fs PKGBUILD bash_aliases bash_logout bash_profile bashrc cshrc gradlew kshrc login man profile zlogin zlogout zprofile zshenv zshrc
+ interpreters ash bash dash ksh mksh pdksh rc sh zsh
+ aceMode sh
+ codemirrorMode shell
+ codemirrorMimeType text/x-sh
+ tmScope source.shell
+ aliases sh or shell-script or bash or zsh
+ repos 1579442
+githubBigQuery Shell
+ repos 640005
+ users 358317
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.gnu.org/software/bash/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/bash" class="material-symbols-outlined">terminal</a> <a href="https://devdocs.io/bash/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://reddit.com/r/bash"><svg role="img" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 18.65625 4 C 16.558594 4 15 5.707031 15 7.65625 L 15 11.03125 C 12.242188 11.175781 9.742188 11.90625 7.71875 13.0625 C 6.945313 12.316406 5.914063 12 4.90625 12 C 3.816406 12 2.707031 12.355469 1.9375 13.21875 L 1.9375 13.25 L 1.90625 13.28125 C 1.167969 14.203125 0.867188 15.433594 1.0625 16.65625 C 1.242188 17.777344 1.898438 18.917969 3.03125 19.65625 C 3.023438 19.769531 3 19.882813 3 20 C 3 22.605469 4.574219 24.886719 6.9375 26.46875 C 9.300781 28.050781 12.488281 29 16 29 C 19.511719 29 22.699219 28.050781 25.0625 26.46875 C 27.425781 24.886719 29 22.605469 29 20 C 29 19.882813 28.976563 19.769531 28.96875 19.65625 C 30.101563 18.917969 30.757813 17.777344 30.9375 16.65625 C 31.132813 15.433594 30.832031 14.203125 30.09375 13.28125 L 30.0625 13.25 C 29.292969 12.386719 28.183594 12 27.09375 12 C 26.085938 12 25.054688 12.316406 24.28125 13.0625 C 22.257813 11.90625 19.757813 11.175781 17 11.03125 L 17 7.65625 C 17 6.675781 17.558594 6 18.65625 6 C 19.175781 6 19.820313 6.246094 20.8125 6.59375 C 21.65625 6.890625 22.75 7.21875 24.15625 7.3125 C 24.496094 8.289063 25.414063 9 26.5 9 C 27.875 9 29 7.875 29 6.5 C 29 5.125 27.875 4 26.5 4 C 25.554688 4 24.738281 4.535156 24.3125 5.3125 C 23.113281 5.242188 22.246094 4.992188 21.46875 4.71875 C 20.566406 4.402344 19.734375 4 18.65625 4 Z M 16 13 C 19.152344 13 21.964844 13.867188 23.9375 15.1875 C 25.910156 16.507813 27 18.203125 27 20 C 27 21.796875 25.910156 23.492188 23.9375 24.8125 C 21.964844 26.132813 19.152344 27 16 27 C 12.847656 27 10.035156 26.132813 8.0625 24.8125 C 6.089844 23.492188 5 21.796875 5 20 C 5 18.203125 6.089844 16.507813 8.0625 15.1875 C 10.035156 13.867188 12.847656 13 16 13 Z M 4.90625 14 C 5.285156 14 5.660156 14.09375 5.96875 14.25 C 4.882813 15.160156 4.039063 16.242188 3.53125 17.4375 C 3.277344 17.117188 3.125 16.734375 3.0625 16.34375 C 2.953125 15.671875 3.148438 14.976563 3.46875 14.5625 C 3.472656 14.554688 3.464844 14.539063 3.46875 14.53125 C 3.773438 14.210938 4.3125 14 4.90625 14 Z M 27.09375 14 C 27.6875 14 28.226563 14.210938 28.53125 14.53125 C 28.535156 14.535156 28.527344 14.558594 28.53125 14.5625 C 28.851563 14.976563 29.046875 15.671875 28.9375 16.34375 C 28.875 16.734375 28.722656 17.117188 28.46875 17.4375 C 27.960938 16.242188 27.117188 15.160156 26.03125 14.25 C 26.339844 14.09375 26.714844 14 27.09375 14 Z M 11 16 C 9.894531 16 9 16.894531 9 18 C 9 19.105469 9.894531 20 11 20 C 12.105469 20 13 19.105469 13 18 C 13 16.894531 12.105469 16 11 16 Z M 21 16 C 19.894531 16 19 16.894531 19 18 C 19 19.105469 19.894531 20 21 20 C 22.105469 20 23 19.105469 23 18 C 23 16.894531 22.105469 16 21 16 Z M 21.25 21.53125 C 20.101563 22.597656 18.171875 23.28125 16 23.28125 C 13.828125 23.28125 11.898438 22.589844 10.75 21.65625 C 11.390625 23.390625 13.445313 25 16 25 C 18.554688 25 20.609375 23.398438 21.25 21.53125 Z"/></svg></a> <a href="/edit.html?id=bash" class="material-symbols-outlined">edit</a></div>
+monaco shell
+pygmentsHighlighter Bash
+ filename shell.py
+ fileExtensions sh ksh bash ebuild eclass exheres-0 exlib zsh .bashrc bashrc .bash_* bash_* zshrc .zshrc .kshrc kshrc PKGBUILD
+linguistGrammarRepo https://github.com/atom/language-shellscript
+ sampleCount 17
+ example
+  #!/bin/sh
+  echo "sh"
+  
+languageServerProtocolProject https://github.com/mads-hartmann/bash-language-server
+ writtenIn typescript
 
-* Bash is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989 by Brian Fox.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
- link ../lists/creators.html#brianFox Brian Fox
+leachim6 Shell
+ filepath s/Shell.sh
+ fileExtensions sh
+ example
+  #!/bin/sh
+  echo "Hello World"
+  
+quineRelay bash
 
-dashboard
- #41 <span title="TotalRank: 135 Jobs: 28 Users: 39 Facts: 95 Links: 68">on PLDB</span>
- 35 Years Old
- 2m <span title="Bash repos on GitHub.">Repos</span>
+rijuRepl https://riju.codes/bash
+ example
+  echo "Hello, world!"
+  
+ description Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell
+ fileExtensions bash sh
+ gitRepo https://savannah.gnu.org/projects/bash/
+tryItOnline bash
 
-* Try now: <a href="https://riju.codes/bash">Riju</a> · <a href="https://tio.run/#bash">TIO</a>
+indeedJobs bash developer
+ 2022 4774
+stackOverflowSurvey
+ 2021
+  users 22385
+  medianSalary 71340
+  fans 14043
+  percentageUsing 0.27
 
-monacoEditor shell
- echo "Hello, world!"
- 
+subreddit https://reddit.com/r/bash
+ memberCount
+  2022 54171
 
-* Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. First released in 1989, it has been distributed widely as the default login shell for most Linux distributions and Apple's macOS (formerly OS X). A version is also available for Windows 10. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Bash_(Unix_shell) Read more on Wikipedia...
+tiobe Bash
+hopl https://hopl.info/showlanguage.prx?exp=1851
 
-- Bash website
- https://www.gnu.org/software/bash/
-- Bash Wikipedia page
- https://en.wikipedia.org/wiki/Bash_(Unix_shell)
-- PLDB has 2 documentation sites for Bash: <a href="https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html">www.gnu.org</a>, <a href="https://devdocs.io/bash/">devdocs.io</a>
-- There are at least 1,579,442 Bash repos on <a href="https://github.com/search?q=language:Shell">GitHub</a>
-- Bash first developed in <a href="../lists/originCommunities.html#gnu">GNU</a>
-- PLDB estimates there are currently 5k job openings for Bash programmers.
-- file extensions for Bash include sh, bash, bats, cgi, command, env, fcgi, ksh, shin, tmux, tool, zsh, zsh-theme, ebuild, eclass, exheres-0, exlib, .bashrc, bashrc, .bash_*, bash_*, zshrc, .zshrc, .kshrc, kshrc and PKGBUILD
-- The  Google BigQuery Public Dataset GitHub snapshot shows 358k users using Bash in 640k repos on <a href="https://api.github.com/search/repositories?q=language:Shell">GitHub</a>
-- There are 54,171 members in the <a href="https://reddit.com/r/bash">Bash subreddit</a>
-- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Bash programmers reported a median salary of $71,340. 27% of respondents reported using Bash. 22,385 programmers reported using Bash, and 14,043 said they wanted to use it
-- Bash on HOPL
- https://hopl.info/showlanguage.prx?exp=1851
-- Bash appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- Bash Ubuntu package
- https://packages.ubuntu.com/jammy/bash
-- Bash <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/mads-hartmann/bash-language-server">implementation</a>
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/shell">package</a> for syntax highlighting Bash
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/shell.py">syntax highlighting</a> for Bash
-- GitHub supports <a href="https://github.com/atom/language-shellscript" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Bash
-- Bash appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/takluyver/bash_kernel">Kernel</a> for Bash
-- There is a <a href="http://www.bpkg.sh/">central package repository</a> for Bash
-- Indeed.com has 4,774 matches for <a href="https://www.indeed.com/jobs?q=bash developer">"bash developer"</a>.
-- See also: (12 related languages)<a href="c.html">C</a>, <a href="gettext.html">Gettext Catalog</a>, <a href="bourne-shell.html">Bourne shell</a>, <a href="login.html">LOGIN</a>, <a href="linux.html">Linux</a>, <a href="almquist-shell.html">Almquist shell</a>, <a href="android.html">Android</a>, <a href="regex.html">Regular Expressions</a>, <a href="perl.html">Perl</a>, <a href="awk.html">awk</a>, <a href="unix.html">Unix</a>, <a href="emacs-editor.html">Emacs</a>
+packageRepository http://www.bpkg.sh/
 
-<br>
+ubuntuPackage bash
+jupyterKernel https://github.com/takluyver/bash_kernel
+fileType text
+isOpenSource true
 
-codeWithHeader Example from <a href='https://riju.codes/bash'>Riju</a>:
- echo &quot;Hello, world!&quot;
- 
+isbndb 33
+ year|publisher|title|authors|isbn13
+ 1998|O'Reilly Media|Learning the bash Shell, 2nd Edition|Newham, Cameron and Rosenblatt, Bill|9781565923478
+ 2004|Sams|Linux Shell Scripting with Bash|Burtch, Ken O.|9780672326424
+ 2019|In Easy Steps Limited|Bash in easy steps|McGrath, Mike|9781840788099
+ 2018|Packt Publishing|Mastering Linux Shell Scripting: A practical guide to Linux command-line, Bash scripting, and Shell programming, 2nd Edition|Ebrahim, Mokhtar and Mallett, Andrew|9781788990554
+ 2015|CreateSpace Independent Publishing Platform|Shell Scripting: How to Automate Command Line Tasks Using Bash Scripting and Shell Programming|Cannon, Jaosn|9781517380434
+ 2005|O'Reilly Media|Learning the bash Shell: Unix Shell Programming (In a Nutshell (O'Reilly))|Newham, Cameron|9780596009656
+ 2014|CreateSpace Independent Publishing Platform|Command Line Kung Fu: Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners|Cannon, Jason|9781499222036
+ 2004|Apress|From Bash to Z Shell: Conquering the Command Line|Kiddle, Oliver and Stephenson, Peter and Peek, Jerry|9781590593769
+ 2018|Packt Publishing|Mastering Linux Shell Scripting,: A practical guide to Linux command-line, Bash scripting, and Shell programming, 2nd Edition|Ebrahim, Mokhtar and Mallett, Andrew|9781788990158
+ 2015|Apress|Pro Bash Programming, Second Edition: Scripting the GNU/Linux Shell|Johnson, Chris and Varma, Jayant|9781484201220
+ 2017-06-21T00:00:01Z|Packt Publishing|Mastering Bash: A Step-by-Step Guide to working with Bash Programming and Shell Scripting|Zarrelli, Giorgio|9781784396879
+ 2015|In Easy Steps Ltd|Unix in easy steps: Commanding the BASH shell|McGrath, Mike|9781840786736
+ 2015|Apress|Pro Bash Programming, Second Edition: Scripting the GNU/Linux Shell|Johnson, Chris and Varma, Jayant|9781484201213
+ 2009|Apress|Pro Bash Programming: Scripting the Linux Shell (Expert's Voice in Linux)|Johnson, Chris|9781430219972
+ 2016|CreateSpace Independent Publishing Platform|Shell Programming and Bash Scripting: Ultimate Beginners Guide Book|Collins, Robert|9781540637703
+ 2015|CreateSpace Independent Publishing Platform|Linux Command Line: FAST and EASY!: Linux Commands, Bash Scripting Tricks, Linux Shell Programming Tips and Bash One-Liners|Gimson, Matthew|9781519127044
+ 2019-12-09T00:00:01Z|Independently published|LINUX Command-Line for Beginners: A Comprehensive Step-by-Step Starting Guide to Learn Linux from Scratch to Bash Scripting and Shell Programming|Mach, Dylan|9781673712551
+ 2017|CreateSpace Independent Publishing Platform|Shell Programming: Bash Scripting from First Steps To Confident User|Johnson, Sean|9781544208978
+ 20070524|O'Reilly Media, Inc.|bash Cookbook|Carl Albing|9780596554705
+ 20070524|O'Reilly Media, Inc.|bash Cookbook|Carl Albing|9780596516031
+ 21-06-2017|Packt Publishing|Mastering Bash|Giorgio Zarrelli|9781784391980
+ 20091205|Springer Nature|Pro Bash Programming|Chris Johnson|9781430219989
+ 20160217|O'Reilly Media, Inc.|Bash Pocket Reference|Arnold Robbins|9781491941560
+ 03/2014|O'Reilly Media, Inc.|Bash kurz & gut|Günther, Karsten|9783955617653
+ 20160217|O'Reilly Media, Inc.|Bash Pocket Reference|Arnold Robbins|9781491941546
+ 03/2014|O'Reilly Media, Inc.|Bash kurz & gut|Günther, Karsten|9783955617660
+ 28-09-2018|Packt Publishing|Bash Quick Start Guide|Tom Ryder|9781789534085
+ 20050329|O'Reilly Media, Inc.|Learning the bash Shell|Cameron Newham|9780596519063
+ 20050329|O'Reilly Media, Inc.|Learning the bash Shell|Cameron Newham|9780596555009
+ 20040129|Pearson Technology Group|Linux Shell Scripting with Bash|Ken O. Burtch|9780768663495
+ ||Bash Scripting, Linux And Shell Programming Complete Guide|Frahaan Hussain|9781838984595
+ 20111215|De Gruyter|Eine praktische Einführung in die Informatik mit Bash und Python|Tobias Häberlein|9783486714456
+ 2015,[2015]|Apress,,Springer Science+Business Media New York|Pro Bash programming,UNIX Shells,UNIX (Computer file),UNIX (Computer file),UNIX Shells|Johnson, Chris F. A. and Varma, Jayant|
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Shell.sh'>hello-world</a>:
- #!/bin/sh
- echo &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/atom/language-shellscript'>Linguist</a>:
- #!/bin/sh
- echo &quot;sh&quot;
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Bash_(Unix_shell)'>Wikipedia</a>:
- cd &quot;$SOMEWHERE&quot; &amp;&amp; ./do_something || echo &quot;An error occurred&quot; &gt;&amp;2
-
-<div class="keywordsBlock">
-codeWithHeader Bash <a href="../lists/keywords.html?filter=bash">Keywords</a>
- if then do else elif while until for in esac fi fin fil done exit set unset export function
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   source ./bash.sh
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token =
-  Example
-   FOO="bar"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token echo
-  Example
-   echo "Hello World"
- row
-  Feature Pipes
-  FeatureLink ../features/hasPipes.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   echo "Hello world" > output.txt
- row
-  Feature Here Document
-  FeatureLink ../features/hasHereDocs.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   cat <<Message
-    Hello world
-   Message
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   PLDB=80766866
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Variable Substitution Syntax
-  FeatureLink ../features/hasVariableSubstitutionSyntax.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   STR="Hello World!"
-   echo $STR
- row
-  Feature Sets
-  FeatureLink ../features/hasSets.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Units of Measure
-  FeatureLink ../features/hasUnitsOfMeasure.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav prolog.html nodejs.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2021|Explainable Natural Language to Bash Translation using Abstract Syntax Tree|10.18653/v1/2021.conll-1.20|3|0|Shikhar Bharadwaj and S. Shevade|6fe61d77b8a4a090899867b79e32efd658f848e7

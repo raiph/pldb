@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LOOPN++
+import ../measures/conceptPage.scroll
+id LOOPN++
+appeared 2000
+type pl
+reference http://www.cs.adelaide.edu.au/users/charles/OPN/postscript/armstrong-thesis.ps.gz
+country Australia
+originCommunity University of Tasmania
 
-title LOOPN++ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6187
 
-html
- <a class="trueBaseThemePreviousItem" href="lol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lore.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/loopnpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=loopnpp" class="material-symbols-outlined">edit</a></div>
-
-* LOOPN++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #4207 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- LOOPN++ first developed in <a href="../lists/originCommunities.html#universityOfTasmania">University of Tasmania</a>
-- LOOPN++ on HOPL
- https://hopl.info/showlanguage.prx?exp=6187
-- Read more about LOOPN++ on the web: 1.
- http://www.cs.adelaide.edu.au/users/charles/OPN/postscript/armstrong-thesis.ps.gz 1.
-
-<br>
-
-endColumns
-
-keyboardNav lol.html lore.html
-
-import ../footer.scroll
+semanticScholar https://semanticscholar.org/paper/e3d68917bdbec829a4d39c17e5c0d543d46b20cd

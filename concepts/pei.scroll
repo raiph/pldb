@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PEI
+import ../measures/conceptPage.scroll
+id PEI
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/8a23d36dc51b3f14ed81faea28caebc5704a3acd
+country France
+originCommunity Université Louis Pasteur
 
-title PEI - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6243
 
-html
- <a class="trueBaseThemePreviousItem" href="pebble.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pep.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pei.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pei" class="material-symbols-outlined">edit</a></div>
-
-* PEI is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3927 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- PEI first developed in <a href="../lists/originCommunities.html#universiteLouisPasteur">Université Louis Pasteur</a>
-- PEI on HOPL
- https://hopl.info/showlanguage.prx?exp=6243
-- Read more about PEI on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8a23d36dc51b3f14ed81faea28caebc5704a3acd 1.
-
-<br>
-
-endColumns
-
-keyboardNav pebble.html pep.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

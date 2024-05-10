@@ -1,81 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lisaac
+import ../measures/conceptPage.scroll
+id Lisaac
+appeared 2003
+type pl
+website https://lisaac.org/
+reference https://en.bmstu.wiki/Lisaac
+country France
+originCommunity https://web.archive.org/web/20071111235238/http://isaacproject.u-strasbg.fr/community.html
 
-title Lisaac - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="cyclone.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="skulpt.html">&gt;</a>
+printToken .print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lisaac.pldb
+leachim6 Lisaac
+ filepath l/Lisaac.li
+ fileExtensions li
+ example
+  // Hello World in Lisaac
+  
+  Section Header
+  	+ name		:= HELLO_WORLD;
+  
+  Section Inherit
+  
+  	- parent_object:OBJECT := OBJECT;
+  
+  Section Public
+  
+  	- main <-
+  	(
+  		"Hello World !\n".print;
+  	);
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Lisaac
 
-startColumns 4
+rijuRepl https://riju.codes/lisaac
+ example
+  Section Header
+    + name := MAIN;
+  
+  Section Public
+    - main <-
+    (
+      "Hello, world!\n".print;
+    );
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="https://lisaac.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/lisaac" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=lisaac" class="material-symbols-outlined">edit</a></div>
-
-* Lisaac is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #707 <span title="TotalRank: 1272 Jobs: 103 Users: 2442 Facts: 780 Links: 389">on PLDB</span>
- 21 Years Old
-
-* Try now: <a href="https://riju.codes/lisaac">Riju</a>
-
-* 
-
-- Lisaac website
- https://lisaac.org/
-- Lisaac first developed in <a href="../lists/originCommunities.html#httpsWebArchiveOrgWeb20071111235238HttpIsaacprojectUStrasbgFrCommunityHtml">https://web.archive.org/web/20071111235238/http://isaacproject.u-strasbg.fr/community.html</a>
-- Explore Lisaac snippets on <a href="http://www.rosettacode.org/wiki/Category:Lisaac">Rosetta Code</a>
-- Read more about Lisaac on the web: 1.
- https://en.bmstu.wiki/Lisaac 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/lisaac'>Riju</a>:
- Section Header
-   + name := MAIN;
- 
- Section Public
-   - main &lt;-
-   (
-     &quot;Hello, world!\n&quot;.print;
-   );
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/l/Lisaac.li'>hello-world</a>:
- // Hello World in Lisaac
- 
- Section Header
- 	+ name		:= HELLO_WORLD;
- 
- Section Inherit
- 
- 	- parent_object:OBJECT := OBJECT;
- 
- Section Public
- 
- 	- main &lt;-
- 	(
- 		&quot;Hello World !\n&quot;.print;
- 	);
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token .print
-  Example
-
-keyboardNav cyclone.html skulpt.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

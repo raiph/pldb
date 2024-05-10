@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Aldat
+import ../measures/conceptPage.scroll
+id Aldat
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/53e758569fbf74a0f14f7fc08e7a554b3ff6a603
+originCommunity McGill University
 
-title Aldat - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1453
 
-html
- <a class="trueBaseThemePreviousItem" href="alba.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aldwych.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aldat.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aldat" class="material-symbols-outlined">edit</a></div>
-
-* Aldat is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3341 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- Aldat first developed in <a href="../lists/originCommunities.html#mcGillUniversity">McGill University</a>
-- Aldat on HOPL
- https://hopl.info/showlanguage.prx?exp=1453
-- Read more about Aldat on Semantic Scholar: 1.
- https://semanticscholar.org/paper/53e758569fbf74a0f14f7fc08e7a554b3ff6a603 1.
-
-<br>
-
-endColumns
-
-keyboardNav alba.html aldwych.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,50 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Flare
+import ../measures/conceptPage.scroll
+id Flare
+appeared 2001
+type pl
+creators Dmitriy Myshkin and Eliezer Yudkowsky and Mike Li and Michael Baj and Richard Walker
+conceptDescription Flare is a proposal for the first "annotative" programming language.  In dialects of LISP, both the program and the program data are represented as lists.  In Flare, the program, program data, and ideally the program state, are all represented as well-formed XML.  Because XML is annotative (additional sub-elements can be easily added to any parent element without destroying the structural integrity of existing data) and extensible (new sub-element types can be easily created), these properties are shared by Flare objects and Flare programs.  This fundamental idiom enables a wide variety of new patterns, and should enable significantly greater modularity, cleanness, ease of adaptation, and so on.
+website https://flarelang.sourceforge.net
+originCommunity Singularity Institute for Artificial Intelligence
 
-title Flare - Programming language
- hidden
+influencedBy xml python java cpp eiffel common-lisp scheme perl haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="arvelie-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mool.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flare.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://flarelang.sourceforge.net" class="material-symbols-outlined">home</a> <a href="/edit.html?id=flare" class="material-symbols-outlined">edit</a></div>
-
-* Flare is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001 by Dmitriy Myshkin and Eliezer Yudkowsky and Mike Li and Michael Baj and Richard Walker.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
- link ../lists/creators.html#dmitriyMyshkin Dmitriy Myshkin
- link ../lists/creators.html#eliezerYudkowsky Eliezer Yudkowsky
- link ../lists/creators.html#mikeLi Mike Li
- link ../lists/creators.html#michaelBaj Michael Baj
- link ../lists/creators.html#richardWalker Richard Walker
-
-dashboard
- #2716 <span title="TotalRank: 3410 Jobs: 103 Users: 2442 Facts: 2321 Links: 986">on PLDB</span>
- 23 Years Old
-
-* Flare is a proposal for the first "annotative" programming language.  In dialects of LISP, both the program and the program data are represented as lists.  In Flare, the program, program data, and ideally the program state, are all represented as well-formed XML.  Because XML is annotative (additional sub-elements can be easily added to any parent element without destroying the structural integrity of existing data) and extensible (new sub-element types can be easily created), these properties are shared by Flare objects and Flare programs.  This fundamental idiom enables a wide variety of new patterns, and should enable significantly greater modularity, cleanness, ease of adaptation, and so on.
-
-- Flare website
- https://flarelang.sourceforge.net
-- Flare first developed in <a href="../lists/originCommunities.html#singularityInstituteForArtificialIntelligence">Singularity Institute for Artificial Intelligence</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;human&gt;
-  &lt;name&gt;Bob&lt;/name&gt;
-  &lt;hands&gt;2&lt;/hands&gt;
-  &lt;legs&gt;2&lt;/legs&gt;
-  &lt;age&gt;35.23&lt;/age&gt;
- &lt;/human&gt;
-
-endColumns
-
-keyboardNav arvelie-format.html mool.html
-
-import ../footer.scroll
+example
+ <human>
+  <name>Bob</name>
+  <hands>2</hands>
+  <legs>2</legs>
+  <age>35.23</age>
+ </human>

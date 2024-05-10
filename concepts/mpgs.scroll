@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MPGS
+import ../measures/conceptPage.scroll
+id MPGS
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/9ef21ddb2ba940f11684924a220502c4d7e92227
+country Japan
+originCommunity Nippon Electric Co., Ltd
 
-title MPGS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4906
 
-html
- <a class="trueBaseThemePreviousItem" href="moxie.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mrdb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mpgs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mpgs" class="material-symbols-outlined">edit</a></div>
-
-* MPGS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3851 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- MPGS first developed in <a href="../lists/originCommunities.html#nipponElectricCoLtd">Nippon Electric Co., Ltd</a>
-- MPGS on HOPL
- https://hopl.info/showlanguage.prx?exp=4906
-- Read more about MPGS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9ef21ddb2ba940f11684924a220502c4d7e92227 1.
-
-<br>
-
-endColumns
-
-keyboardNav moxie.html mrdb.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

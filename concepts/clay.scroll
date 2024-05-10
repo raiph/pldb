@@ -1,49 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title clay
+import ../measures/conceptPage.scroll
+id clay
+appeared 2010
+type pl
+creators KS Sreeram and Joe Groff
+website http://claylabs.com/clay
+reference https://bitbucket.org/kssreeram/clay/src/default/
+country Various
+originCommunity https://claylabs.com/
 
-title clay - Programming language
- hidden
+hasPrintDebugging true
+hasHexadecimals true
+hasIntegers true
+hasLineComments true
+hasMultiLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="ti-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ucsd-pascal.html">&gt;</a>
+printToken println
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clay.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://claylabs.com/clay" class="material-symbols-outlined">home</a> <a href="https://github.com/jckarter/clay" class="material-symbols-outlined">code</a> <a href="https://twitter.com/claylabs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=clay" class="material-symbols-outlined">edit</a></div>
-
-* clay is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by KS Sreeram and Joe Groff.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#ksSreeram KS Sreeram
- link ../lists/creators.html#joeGroff Joe Groff
-
-codeWithHeader Source code:
- git clone https://github.com/jckarter/clay
-
-dashboard
- #668 <span title="TotalRank: 1246 Jobs: 103 Users: 759 Facts: 384 Links: 986">on PLDB</span>
- 14 Years Old
-
-* The Clay programming language
-
-- clay website
- http://claylabs.com/clay
-- clay is developed on <a href="https://github.com/jckarter/clay">GitHub</a> and has 395 stars
-- clay first developed in <a href="../lists/originCommunities.html#httpsClaylabsCom">https://claylabs.com/</a>
-- file extensions for clay include clay
-- clay on Twitter
- https://twitter.com/claylabs
-- There are 5 <a href="https://projecteuler.net/language=Clay">Project Euler</a> users using clay
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_like.py">syntax highlighting</a> for clay
-- Read more about clay on the web: 1.
- https://bitbucket.org/kssreeram/clay/src/default/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import printer.(println);
  
  factorial1(n) {
@@ -83,52 +57,34 @@ codeWithHeader Example from the web:
      var n = 7;
      n -: 1;
      var f = factorial4(n);
-     println(&quot;factorial(&quot;, n, &quot;) = &quot;, f);
+     println("factorial(", n, ") = ", f);
      return 0;
  }
 
-endColumns
+githubRepo https://github.com/jckarter/clay
+ firstCommit 2010
+ stars 395
+ forks 37
+ subscribers 23
+ created 2010
+ updated 2022
+ description The Clay programming language
+ issues 63
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2010
+ commits 8315
+ committers 40
+ files 1530
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
+pygmentsHighlighter Clay
+ filename c_like.py
+ fileExtensions clay
 
-keyboardNav ti-basic.html ucsd-pascal.html
+projectEuler Clay
+ memberCount
+  2022 5
 
-import ../footer.scroll
+twitter https://twitter.com/claylabs
+
+isbndb 0

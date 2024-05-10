@@ -1,44 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title shadama
+import ../measures/conceptPage.scroll
+id shadama
+appeared 2017
+type pl
+creators Yoshiki Ohshima and Dan Amelang and Bert Freudenberg
+conceptDescription Shadama is the prototype of a programming language for writing programs that create, control and visualize large numbers of objects. The Shadama environment supports liveness, yet Shadama programs are run on the GPU, which enables high performance. The primary goal of the language is to facilitate the writing of scientific simulations by students at the high school level.
+reference https://news.ycombinator.com/item?id=19530732
+country United States
+originCommunity https://github.com/yoshikiohshima/Shadama/issues
 
-title shadama - Programming language
- hidden
+githubRepo https://github.com/yoshikiohshima/Shadama
+ firstCommit 2017
+ stars 18
+ forks 4
+ subscribers 4
+ created 2017
+ updated 2021
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="r3.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pcrap.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shadama.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/yoshikiohshima/Shadama" class="material-symbols-outlined">code</a> <a href="/edit.html?id=shadama" class="material-symbols-outlined">edit</a></div>
-
-* shadama is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Yoshiki Ohshima and Dan Amelang and Bert Freudenberg.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#yoshikiOhshima Yoshiki Ohshima
- link ../lists/creators.html#danAmelang Dan Amelang
- link ../lists/creators.html#bertFreudenberg Bert Freudenberg
-
-codeWithHeader Source code:
- git clone https://github.com/yoshikiohshima/Shadama
-
-dashboard
- #2246 <span title="TotalRank: 2758 Jobs: 103 Users: 2050 Facts: 1669 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Shadama is the prototype of a programming language for writing programs that create, control and visualize large numbers of objects. The Shadama environment supports liveness, yet Shadama programs are run on the GPU, which enables high performance. The primary goal of the language is to facilitate the writing of scientific simulations by students at the high school level.
-
-- shadama is developed on <a href="https://github.com/yoshikiohshima/Shadama">GitHub</a> and has 18 stars
-- shadama first developed in <a href="../lists/originCommunities.html#httpsGithubComYoshikiohshimaShadamaIssues">https://github.com/yoshikiohshima/Shadama/issues</a>
-- Read more about shadama on the web: 1.
- https://news.ycombinator.com/item?id=19530732 1.
-
-<br>
-
-endColumns
-
-keyboardNav r3.html pcrap.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 359
+ committers 3
+ files 74

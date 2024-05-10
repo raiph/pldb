@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Spline Font Database
+import ../measures/conceptPage.scroll
+id Spline Font Database
+appeared 2004
+type application
+reference https://en.wikipedia.org/wiki/FontForge
+reference https://fontforge.github.io/docs/techref/sfdformat.html
+country https://web.archive.org/web/20090423033226/http://fontforge.sourceforge.net/ff-history.html
+country United States
+originCommunity https://github.com/fontforge
 
-title Spline Font Database - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="logos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="exkited.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spline-font-database.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=spline-font-database" class="material-symbols-outlined">edit</a></div>
-
-* Spline Font Database is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #1180 on PLDB
- 20 Years Old
-
-* 
-
-- Spline Font Database first developed in <a href="../lists/originCommunities.html#httpsGithubComFontforge">https://github.com/fontforge</a>
-- file extensions for Spline Font Database include sfd
-- GitHub supports <a href="https://github.com/Alhadis/language-fontforge" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Spline Font Database
-- Read more about Spline Font Database on the web: 1. 2.
- https://en.wikipedia.org/wiki/FontForge 1.
- https://fontforge.github.io/docs/techref/sfdformat.html 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  SplineFontDB: 3.0
  FontName: Ambrosia
  FullName: Ambrosia
@@ -42,8 +17,8 @@ codeWithHeader Example from the web:
  Weight: Medium
  Copyright: Copyright (C) 1995-2000 by George Williams
  Comments: This is a funny font.
- UComments: &quot;This is a funny font.&quot;
- FontLog: &quot;Create Jan 2008&quot;
+ UComments: "This is a funny font."
+ FontLog: "Create Jan 2008"
  Version: 001.000
  ItalicAngle: 0
  UnderlinePosition: -133
@@ -53,10 +28,10 @@ codeWithHeader Example from the web:
  sfntRevision: 0x00078106
  WidthSeparation: 140
  LayerCount: 4
- Layer: 0 0 &quot;Back&quot; 1
- Layer: 1 1 &quot;Fore&quot; 0
- Layer: 2 0 &quot;Cubic_Fore&quot; 0
- Layer: 3 0 &quot;Test&quot; 1
+ Layer: 0 0 "Back" 1
+ Layer: 1 1 "Fore" 0
+ Layer: 2 0 "Cubic_Fore" 0
+ Layer: 3 0 "Test" 1
  DisplaySize: -24
  DisplayLayer: 1
  AntiAlias: 1
@@ -76,8 +51,18 @@ codeWithHeader Example from the web:
  DEI: 91125
  ExtremaBound: 30
 
-endColumns
+githubLanguage Spline Font Database
+ fileExtensions sfd
+ trendingProjectsCount 0
+ type data
+ aceMode yaml
+ tmScope text.sfd
 
-keyboardNav logos.html exkited.html
+linguistGrammarRepo https://github.com/Alhadis/language-fontforge
+ firstCommit 2016
+ lastCommit 2018
+ committerCount 2
+ commitCount 51
 
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

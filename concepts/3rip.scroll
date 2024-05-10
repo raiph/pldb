@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 3RIP
+import ../measures/conceptPage.scroll
+id 3RIP
+appeared 1977
+type pl
+reference https://eric.ed.gov/?id=ED144615
+originCommunity KTH Royal Institute of Technology
 
-title 3RIP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4600
 
-html
- <a class="trueBaseThemePreviousItem" href="3dcomposer.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/3rip.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=3rip" class="material-symbols-outlined">edit</a></div>
-
-* 3RIP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3307 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- 3RIP first developed in <a href="../lists/originCommunities.html#kthRoyalInstituteOfTechnology">KTH Royal Institute of Technology</a>
-- 3RIP on HOPL
- https://hopl.info/showlanguage.prx?exp=4600
-- Read more about 3RIP on the web: 1.
- https://eric.ed.gov/?id=ED144615 1.
-
-<br>
-
-endColumns
-
-keyboardNav 3dcomposer.html abal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

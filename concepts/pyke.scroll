@@ -1,42 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pyke
-
-title pyke - Knowledge base
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="piccola.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="python-format-spec.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pyke.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://pyke.sourceforge.net/index.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pyke" class="material-symbols-outlined">edit</a></div>
-
-* pyke is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+knowledgeBase">knowledge base</a> created in 2008 by Paul Haesler and Bruce Frederiksen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#paulHaesler Paul Haesler
- link ../lists/creators.html#bruceFrederiksen Bruce Frederiksen
-
-dashboard
- #2830 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 16 Years Old
-
-* 
-
-- pyke website
- http://pyke.sourceforge.net/index.html
-- pyke first developed in <a href="../lists/originCommunities.html#httpsSourceforgeNetPPykeListTickets">https://sourceforge.net/p/pyke/_list/tickets</a>
-- file extensions for pyke include fb, krb and kqb
-- Read more about pyke on the web: 1.
- http://pyke.sourceforge.net/PyCon2008-paper.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav piccola.html python-format-spec.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id pyke
+appeared 2008
+type knowledgeBase
+creators Paul Haesler and Bruce Frederiksen
+website http://pyke.sourceforge.net/index.html
+reference http://pyke.sourceforge.net/PyCon2008-paper.html
+fileExtensions fb krb kqb
+country Australia and United States
+originCommunity https://sourceforge.net/p/pyke/_list/tickets

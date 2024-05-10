@@ -1,33 +1,4 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title appcode-editor
-
-title appcode-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xs-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="brackets-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/appcode-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=appcode-editor" class="material-symbols-outlined">edit</a></div>
-
-* appcode-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #3637 on PLDB
- 8 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav xs-lang.html brackets-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id appcode-editor
+appeared 2016
+type editor

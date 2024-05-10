@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MathWorks File Exchange
+import ../measures/conceptPage.scroll
+id MathWorks File Exchange
+appeared 1997
+type packageManager
+website https://www.mathworks.com/matlabcentral/fileexchange/
+country United States
+originCommunity The MathWorks, Inc
 
-title MathWorks File Exchange - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="juliahub-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="miso-framework.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mathworks-file-exchange-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.mathworks.com/matlabcentral/fileexchange/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mathworks-file-exchange-pm" class="material-symbols-outlined">edit</a></div>
-
-* MathWorks File Exchange is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3307 on PLDB
- 27 Years Old
-
-* 
-
-- MathWorks File Exchange website
- https://www.mathworks.com/matlabcentral/fileexchange/
-- MathWorks File Exchange first developed in <a href="../lists/originCommunities.html#theMathWorksInc">The MathWorks, Inc</a>
-
-<br>
-
-endColumns
-
-keyboardNav juliahub-pm.html miso-framework.html
-
-import ../footer.scroll
+packageCount 9718
+forLanguages matlab

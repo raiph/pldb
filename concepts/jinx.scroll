@@ -1,49 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jinx
+import ../measures/conceptPage.scroll
+id jinx
+appeared 2016
+type pl
+creators JamesBoer
+website https://jamesboer.github.io/Jinx/
+country Unknown
+originCommunity https://github.com/JamesBoer/Jinx/issues
+domainName jamesboer.github.io
+ registered 2016
 
-title jinx - Programming language
- hidden
+githubRepo https://github.com/JamesBoer/Jinx
+ firstCommit 2016
+ stars 263
+ forks 8
+ subscribers 17
+ created 2016
+ updated 2022
+ description Embeddable scripting language for real-time applications
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="euclid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edinburgh-imp.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 573
+ committers 2
+ files 280
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jinx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://jamesboer.github.io/Jinx/" class="material-symbols-outlined">home</a> <a href="https://github.com/JamesBoer/Jinx" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jinx" class="material-symbols-outlined">edit</a></div>
-
-* jinx is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by JamesBoer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#jamesBoer JamesBoer
-
-codeWithHeader Source code:
- git clone https://github.com/JamesBoer/Jinx
-
-dashboard
- #1560 <span title="TotalRank: 2074 Jobs: 103 Users: 985 Facts: 1311 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Embeddable scripting language for real-time applications
-
-- jinx website
- https://jamesboer.github.io/Jinx/
-- jinx is developed on <a href="https://github.com/JamesBoer/Jinx">GitHub</a> and has 263 stars
-- jinx first developed in <a href="../lists/originCommunities.html#httpsGithubComJamesBoerJinxIssues">https://github.com/JamesBoer/Jinx/issues</a>
-- <a href="https://jamesboer.github.io/Jinx/">jamesboer.github.io</a> was registered in 2016
-
-<br>
-
-endColumns
-
-## HackerNews discussions of jinx
-
-pipeTable
- title|titleLink|date|score|comments
- Jinx: Simple Embeddable Scripting Language|https://news.ycombinator.com/item?id=18818846|01/03/2019|2|2
-
-keyboardNav euclid.html edinburgh-imp.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 18818846|Jinx: Simple Embeddable Scripting Language|https://www.jinx-lang.org/|2019-01-03 20:15:10 UTC|1546546510|azhenley|2|2

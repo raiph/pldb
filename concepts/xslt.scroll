@@ -1,124 +1,120 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title XSLT
+import ../measures/conceptPage.scroll
+id XSLT
+appeared 1998
+type xmlFormat
 
-title XSLT - Xml format
- hidden
+hasComments true
+hasHomoiconicity true
+hasSemanticIndentation false
+hasMultiLineComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="pari-gp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ebnf.html">&gt;</a>
+githubLanguage XSLT
+ fileExtensions xslt xsl
+ trendingProjectsCount 0
+ type programming
+ aceMode xml
+ codemirrorMode xml
+ codemirrorMimeType text/xml
+ tmScope text.xml.xsl
+ aliases xsl
+ repos 25274
+githubBigQuery XSLT
+ repos 32204
+ users 25643
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xslt.pldb
+pygmentsHighlighter XSLT
+ filename html.py
+ fileExtensions xsl xslt xpl
+linguistGrammarRepo https://github.com/textmate/xml.tmbundle
+ firstCommit 2004
+ lastCommit 2018
+ committerCount 12
+ commitCount 97
+ sampleCount 1
+ example
+  <?xml version="1.0"?>
+  
+  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
+  <xsl:template match="/">
+    <html>
+    <body>
+      <h2>My CD Collection</h2>
+      <table border="1">
+        <tr bgcolor="#9acd32">
+          <th>Title</th>
+          <th>Artist</th>
+        </tr>
+        <xsl:for-each select="catalog/cd">
+          <tr>
+            <td><xsl:value-of select="title"/></td>
+            <td><xsl:value-of select="artist"/></td>
+          </tr>
+        </xsl:for-each>
+      </table>
+    </body>
+    </html>
+  </xsl:template>
+  
+  </xsl:stylesheet>
+  
 
-startColumns 4
+leachim6 XSLT
+ filepath x/XSLT.xslt
+ fileExtensions xslt
+ example
+  <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+      <xsl:template match="/">
+          <xsl:text>Hello World</xsl:text>
+      </xsl:template>
+  </xsl:stylesheet>
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:XSLT
 
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/xslt" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=xslt" class="material-symbols-outlined">edit</a></div>
+rijuRepl https://riju.codes/xslt
+ example
+  <?xml-stylesheet type="text/xml" href="#style"?>
+  <main>
+    <xsl:stylesheet xml:id="style"
+                    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                    version="1.0">
+      <xsl:template match="main">
+        <xsl:value-of select="data"/>
+      </xsl:template>
+    </xsl:stylesheet>
+    <data>Hello, world!</data>
+  </main>
+  
 
-* XSLT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
+hopl https://hopl.info/showlanguage.prx?exp=3482
 
-dashboard
- #480 <span title="TotalRank: 1007 Jobs: 103 Users: 1151 Facts: 237 Links: 667">on PLDB</span>
- 26 Years Old
- 25k <span title="XSLT repos on GitHub.">Repos</span>
+fileType text
+centralPackageRepositoryCount 0
 
-* Try now: <a href="https://riju.codes/xslt">Riju</a>
-
-* 
-
-- There are at least 25,274 XSLT repos on <a href="https://github.com/search?q=language:XSLT">GitHub</a>
-- file extensions for XSLT include xslt, xsl and xpl
-- The  Google BigQuery Public Dataset GitHub snapshot shows 26k users using XSLT in 32k repos on <a href="https://api.github.com/search/repositories?q=language:XSLT">GitHub</a>
-- Explore XSLT snippets on <a href="http://www.rosettacode.org/wiki/Category:XSLT">Rosetta Code</a>
-- XSLT on HOPL
- https://hopl.info/showlanguage.prx?exp=3482
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for XSLT
-- GitHub supports <a href="https://github.com/textmate/xml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for XSLT
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/xslt'>Riju</a>:
- &lt;?xml-stylesheet type=&quot;text/xml&quot; href=&quot;#style&quot;?&gt;
- &lt;main&gt;
-   &lt;xsl:stylesheet xml:id=&quot;style&quot;
-                   xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;
-                   version=&quot;1.0&quot;&gt;
-     &lt;xsl:template match=&quot;main&quot;&gt;
-       &lt;xsl:value-of select=&quot;data&quot;/&gt;
-     &lt;/xsl:template&gt;
-   &lt;/xsl:stylesheet&gt;
-   &lt;data&gt;Hello, world!&lt;/data&gt;
- &lt;/main&gt;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/x/XSLT.xslt'>hello-world</a>:
- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
- &lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;&gt;
-     &lt;xsl:template match=&quot;/&quot;&gt;
-         &lt;xsl:text&gt;Hello World&lt;/xsl:text&gt;
-     &lt;/xsl:template&gt;
- &lt;/xsl:stylesheet&gt;
- 
-
-codeWithHeader Example from <a href='https://github.com/textmate/xml.tmbundle'>Linguist</a>:
- &lt;?xml version=&quot;1.0&quot;?&gt;
- 
- &lt;xsl:stylesheet version=&quot;1.0&quot; xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;&gt;
- 
- &lt;xsl:template match=&quot;/&quot;&gt;
-   &lt;html&gt;
-   &lt;body&gt;
-     &lt;h2&gt;My CD Collection&lt;/h2&gt;
-     &lt;table border=&quot;1&quot;&gt;
-       &lt;tr bgcolor=&quot;#9acd32&quot;&gt;
-         &lt;th&gt;Title&lt;/th&gt;
-         &lt;th&gt;Artist&lt;/th&gt;
-       &lt;/tr&gt;
-       &lt;xsl:for-each select=&quot;catalog/cd&quot;&gt;
-         &lt;tr&gt;
-           &lt;td&gt;&lt;xsl:value-of select=&quot;title&quot;/&gt;&lt;/td&gt;
-           &lt;td&gt;&lt;xsl:value-of select=&quot;artist&quot;/&gt;&lt;/td&gt;
-         &lt;/tr&gt;
-       &lt;/xsl:for-each&gt;
-     &lt;/table&gt;
-   &lt;/body&gt;
-   &lt;/html&gt;
- &lt;/xsl:template&gt;
- 
- &lt;/xsl:stylesheet&gt;
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Homoiconicity
-  FeatureLink ../features/hasHomoiconicity.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav pari-gp.html ebnf.html
-
-import ../footer.scroll
+isbndb 24
+ year|publisher|title|authors|isbn13
+ 2002|Sybex|Mastering XSLT|Chuck White|9780782140941
+ 2009|Wrox|Beginning XSLT and XPath: Transforming XML Documents and Data|Williams, Ian|9780470477250
+ 2003|Wiley|Web Design with XML: Generating Web Pages with XML ,CSS, XSLT and Formatting Objects|Knobloch, Manfred and Kopp, Matthias|9780470847183
+ 2008|Wrox|XSLT 2.0 and XPath 2.0 Programmer's Reference|Kay, Michael|9780470192740
+ 2002|Sams Publishing|Sams Teach Yourself XSLT in 21 Days|Van Otegem, Michiel|9780672323188
+ 2005|O'Reilly Media|XSLT Cookbook: Solutions and Examples for XML and XSLT Developers, 2nd Edition|Mangano, Sal|9780596009748
+ 2004|Wrox|XSLT 2.0 Programmer's Reference (Programmer to Programmer)|Kay, Michael|9780764569098
+ 2003|O'Reilly Media|Learning XSLT: A Hands-On Introduction to XSLT and XPath|Michael James Fitzgerald|9780596003272
+ 2002|For Dummies|XSLT For Dummies|Wagner, Richard|9780764536519
+ 2004|Apress|Beginning XSLT|Tennison, Jeni|9781590592601
+ 2009|McGraw-Hill Education|XML: A Beginner's Guide: Go Beyond the Basics with Ajax, XHTML, XPath 2.0, XSLT 2.0 and XQuery|Holzner, Steven|9780071606264
+ 2009|McGraw-Hill Education|XML: A Beginner's Guide: Go Beyond the Basics with Ajax, XHTML, XPath 2.0, XSLT 2.0 and XQuery|Holzner, Steven|9780071606271
+ 2001|Prentice Hall|XSLT and Xpath: A Guide to XML Transformations|Gardner, John Robert and Gardner, James Robert and Rendon, Zarella L.|9780130404466
+ 2007|Visual|XML: Your visual blueprint for building expert websites with XML, CSS, XHTML, and XSLT|Huddleston, Rob|9780471933830
+ 20051214|O'Reilly Media, Inc.|XSLT Cookbook|Sal Mangano|9780596553302
+ 20131111|Springer Nature|Beginning XSLT|Jeni Tennison|9781430253686
+ 20031114|O'Reilly Media, Inc.|Learning XSLT|Michael Fitzgerald|9780596516901
+ 20051214|O'Reilly Media, Inc.|XSLT Cookbook|Sal Mangano|9780596519070
+ 20031114|O'Reilly Media, Inc.|Learning XSLT|Michael Fitzgerald|9781449365653
+ 20061102|Springer Nature|Beginning XSLT 2.0|Jeni Tennison|9781430200468
+ 2011-05-04|Wiley|XSLT For Dummies|Richard Wagner|9781118085394
+ 2010|General Books|Xml-based Programming Languages: Xslt|Books and LLC|9781156454862
+ 2005||Xslt Cookbook,2e (coversxslt 1.0 And 2.0)|Mangano|9788184040784
+ October 2002||Developing Web User Interface Behaviors: Cutting Edge Webtop Programming Using XML, CSS and XSLT|Slovinski|9780789727794

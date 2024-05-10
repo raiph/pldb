@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hackage-pm
+import ../measures/conceptPage.scroll
+id hackage-pm
+appeared 2007
+type packageManager
+website https://hackage.haskell.org/
+country England
+originCommunity Well-Typed LLP
+domainName hackage.haskell.org
 
-title hackage-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="graphql-plus-minus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mockingbird-notation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hackage-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hackage.haskell.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=hackage-pm" class="material-symbols-outlined">edit</a></div>
-
-* hackage-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #2961 on PLDB
- 17 Years Old
-
-* 
-
-- hackage-pm website
- https://hackage.haskell.org/
-- hackage-pm first developed in <a href="../lists/originCommunities.html#wellTypedLlp">Well-Typed LLP</a>
-
-<br>
-
-endColumns
-
-keyboardNav graphql-plus-minus.html mockingbird-notation.html
-
-import ../footer.scroll
+packageCount 13487
+forLanguages haskell

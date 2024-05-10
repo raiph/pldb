@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sim++
+import ../measures/conceptPage.scroll
+id Sim++
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/021cefc297259a7913ff880e96590fe02108411d
+country Canada
+originCommunity Jade Simulations International Corporation
 
-title Sim++ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4718
 
-html
- <a class="trueBaseThemePreviousItem" href="simodula.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="siprol.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=simpp" class="material-symbols-outlined">edit</a></div>
-
-* Sim++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4302 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Sim++ first developed in <a href="../lists/originCommunities.html#jadeSimulationsInternationalCorporation">Jade Simulations International Corporation</a>
-- Sim++ on HOPL
- https://hopl.info/showlanguage.prx?exp=4718
-- Read more about Sim++ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/021cefc297259a7913ff880e96590fe02108411d 1.
-
-<br>
-
-endColumns
-
-keyboardNav simodula.html siprol.html
-
-import ../footer.scroll
+isbndb 0

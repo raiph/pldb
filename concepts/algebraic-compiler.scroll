@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Algebraic Compiler
+import ../measures/conceptPage.scroll
+id Algebraic Compiler
+appeared 1958
+type pl
+reference https://semanticscholar.org/paper/7288833a8aa41499dcd75e1e62380aac13f1529e
+originCommunity Computer Usage Company, Inc
 
-title Algebraic Compiler - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5087
 
-html
- <a class="trueBaseThemePreviousItem" href="alec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algem.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algebraic-compiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=algebraic-compiler" class="material-symbols-outlined">edit</a></div>
-
-* Algebraic Compiler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3344 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- Algebraic Compiler first developed in <a href="../lists/originCommunities.html#computerUsageCompanyInc">Computer Usage Company, Inc</a>
-- Algebraic Compiler on HOPL
- https://hopl.info/showlanguage.prx?exp=5087
-- Read more about Algebraic Compiler on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7288833a8aa41499dcd75e1e62380aac13f1529e 1.
-
-<br>
-
-endColumns
-
-keyboardNav alec.html algem.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

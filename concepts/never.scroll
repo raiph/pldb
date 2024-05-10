@@ -1,47 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title never
+import ../measures/conceptPage.scroll
+id never
+appeared 2018
+type pl
+website https://never-lang.readthedocs.io
+country Spain
+originCommunity https://github.com/never-lang
+domainName never-lang.readthedocs.io
 
-title never - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gist.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="expresso.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/never.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://never-lang.readthedocs.io" class="material-symbols-outlined">home</a> <a href="https://github.com/never-lang/never" class="material-symbols-outlined">code</a> <a href="/edit.html?id=never" class="material-symbols-outlined">edit</a></div>
-
-* never is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/never-lang/never
-
-dashboard
- #1496 <span title="TotalRank: 2013 Jobs: 103 Users: 924 Facts: 1159 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Never: statically typed, embeddable functional programming language.
-
-- never website
- https://never-lang.readthedocs.io
-- never is developed on <a href="https://github.com/never-lang/never">GitHub</a> and has 315 stars
-- never first developed in <a href="../lists/originCommunities.html#httpsGithubComNeverLang">https://github.com/never-lang</a>
-
-<br>
-
-codeWithHeader Example from the web:
- func main() -&gt; float
+example
+ func main() -> float
  {
     100.0 * 1.8 + 32.0
  }
 
-endColumns
+githubRepo https://github.com/never-lang/never
+ firstCommit 2018
+ stars 315
+ subscribers 15
+ created 2018
+ updated 2022
+ description Never: statically typed, embeddable functional programming language.
+ forks 7
+ issues 0
 
-keyboardNav gist.html expresso.html
+repoStats
+ firstCommit 2018
+ commits 596
+ committers 6
+ files 696
 
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2005|Sams Publishing|Java After Hours: 10 Projects You'll Never Do at Work|Holzner, Steven|9780672327476

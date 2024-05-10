@@ -1,98 +1,76 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cobra
+import ../measures/conceptPage.scroll
+id Cobra
+appeared 2006
+type pl
+creators Charles Esterbrook
+website http://cobra-language.com/
+fileExtensions cobra
+country United States
+originCommunity Cobra Language LLC
+domainName cobra-language.com
+ registered 2008
+ awisRank
+  2017 5837168
 
-title Cobra - Programming language
- hidden
+hasSemanticIndentation true
+hasPrintDebugging true
+hasStrings true
+ 'Hello world'
 
-html
- <a class="trueBaseThemePreviousItem" href="dm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ti-basic.html">&gt;</a>
+printToken print
+stringToken '
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cobra.pldb
+wikipedia https://en.wikipedia.org/wiki/Cobra_(programming_language)
+ example
+  class Person
+  
+      var _name as String
+      var _age as int
+  
+      cue init(name as String, age as int)
+          _name, _age = name, age
+  
+      def toString as String is override
+          return 'My name is [_name] and I am [_age] years old'
+ related python eiffel csharp objective-c
+ summary Cobra is a general-purpose, object-oriented programming language. Cobra is designed by Charles Esterbrook, and runs on the Microsoft .NET and Mono platforms. It is strongly influenced by Python, C#, Eiffel, Objective-C, and other programming languages. It supports both static and dynamic typing. It has support for unit tests and contracts. It has lambda expressions, closures, list comprehensions, and generators. Cobra is an open-source project; it was released under the MIT License on February 29, 2008. Updates are posted to the Cobra news forum with progress on features, fixes, documentation and related projects since the last update.
+ pageId 13862555
+ dailyPageViews 82
+ created 2007
+ backlinksCount 104
+ revisionCount 136
+ appeared 2006
+ fileExtensions cobra
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://cobra-language.com/" class="material-symbols-outlined">home</a> <a href="cobra" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/Cobra_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=cobra" class="material-symbols-outlined">edit</a></div>
-
-* Cobra is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006 by Charles Esterbrook.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#charlesEsterbrook Charles Esterbrook
-
-dashboard
- #666 <span title="TotalRank: 1245 Jobs: 103 Users: 819 Facts: 475 Links: 667">on PLDB</span>
- 18 Years Old
-
-* Try now: <a href="https://tio.run/#cobra">TIO</a>
-
-* Cobra is a general-purpose, object-oriented programming language. Cobra is designed by Charles Esterbrook, and runs on the Microsoft .NET and Mono platforms. It is strongly influenced by Python, C#, Eiffel, Objective-C, and other programming languages. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Cobra_(programming_language) Read more on Wikipedia...
-
-- Cobra website
- http://cobra-language.com/
-- Cobra Wikipedia page
- https://en.wikipedia.org/wiki/Cobra_(programming_language)
-- Cobra first developed in <a href="../lists/originCommunities.html#cobraLanguageLlc">Cobra Language LLC</a>
-- file extensions for Cobra include cobra
-- There are 11 <a href="https://projecteuler.net/language=Cobra">Project Euler</a> users using Cobra
-- Explore Cobra snippets on <a href="http://www.rosettacode.org/wiki/Category:Cobra">Rosetta Code</a>
-- Cobra appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="http://cobra-language.com/">cobra-language.com</a> was registered in 2008
-- See also: (4 related languages)<a href="python.html">Python</a>, <a href="eiffel.html">Eiffel</a>, <a href="csharp.html">C#</a>, <a href="objective-c.html">Objective-C</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Cobra.cobra'>hello-world</a>:
- class Hello
- 
-     def main
-         print &#39;Hello World&#39;
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Cobra'>the Hello World Collection</a>:
- &quot;&quot;&quot;Hello world in Cobra&quot;&quot;&quot;
+projectEuler Cobra
+ memberCount
+  2019 11
+  2022 11
+helloWorldCollection Cobra
+ """Hello world in Cobra"""
  
  class Hello
  
      def main
-         print &#39;Hello, world.&#39;
+         print 'Hello, world.'
+leachim6 Cobra
+ filepath c/Cobra.cobra
+ fileExtensions cobra
+ example
+  class Hello
+  
+      def main
+          print 'Hello World'
+rosettaCode http://www.rosettacode.org/wiki/Category:Cobra
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Cobra_(programming_language)'>Wikipedia</a>:
- class Person
- 
-     var _name as String
-     var _age as int
- 
-     cue init(name as String, age as int)
-         _name, _age = name, age
- 
-     def toString as String is override
-         return &#39;My name is [_name] and I am [_age] years old&#39;
+tryItOnline cobra
 
-endColumns
+tiobe Cobra
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   'Hello world'
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav dm.html ti-basic.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2010||Cobra (programming Language From Cobra Language Llc)|Surhone and Lambert M. and Timpledon and Miriam T. and Marseken and Susan F.|9786132215611

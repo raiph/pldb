@@ -1,50 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title silk
+import ../measures/conceptPage.scroll
+id silk
+appeared 2019
+type pl
+website https://ajaymt.github.io/silk/
+reference https://news.ycombinator.com/item?id=22926080
+country United States
+originCommunity University of Illinois at Urbana-Champaign
 
-title silk - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="hacspec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="uxf.html">&gt;</a>
+lineCommentToken //
+printToken printf
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/silk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ajaymt.github.io/silk/" class="material-symbols-outlined">home</a> <a href="https://github.com/AjayMT/silk" class="material-symbols-outlined">code</a> <a href="/edit.html?id=silk" class="material-symbols-outlined">edit</a></div>
-
-* silk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/AjayMT/silk
-
-dashboard
- #1276 <span title="TotalRank: 1809 Jobs: 103 Users: 1639 Facts: 720 Links: 986">on PLDB</span>
- 5 Years Old
-
-* The Silk Programming Language
-
-- silk website
- https://ajaymt.github.io/silk/
-- silk is developed on <a href="https://github.com/AjayMT/silk">GitHub</a> and has 68 stars
-- silk first developed in <a href="../lists/originCommunities.html#universityOfIllinoisAtUrbanaChampaign">University of Illinois at Urbana-Champaign</a>
-- Read more about silk on the web: 1.
- https://news.ycombinator.com/item?id=22926080 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // this is a comment
  
  extern func printf(s *i8) void;
  
  func main(argc i32, argv **i8) i32 {
-   printf(&quot;hello, world\n&quot;);
+   printf("hello, world\n");
  
-   if argc &gt; 1 {
+   if argc > 1 {
      val arg = @(argv + 1);
      printf(arg);
    }
@@ -52,38 +33,20 @@ codeWithHeader Example from the web:
    return 0;
  }
 
-endColumns
+githubRepo https://github.com/AjayMT/silk
+ firstCommit 2019
+ stars 68
+ forks 1
+ subscribers 4
+ created 2019
+ updated 2022
+ description The Silk Programming Language
+ issues 1
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2019
+ commits 90
+ committers 1
+ files 30
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printf
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav hacspec.html uxf.html
-
-import ../footer.scroll
+isbndb 0

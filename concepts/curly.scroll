@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Curly
+import ../measures/conceptPage.scroll
+id Curly
+appeared 2021
+type pl
+creators jenra
+country Unknown
+originCommunity https://github.com/curly-lang/curly-lang
 
-title Curly - Programming language
- hidden
+githubRepo https://github.com/curly-lang/curly-lang
+ firstCommit 2021
+ stars 31
+ forks 2
+ subscribers 4
+ created 2021
+ updated 2022
+ description The Curly programming language (now in Rust!)
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="lithe.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rustscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/curly.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/curly-lang/curly-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=curly" class="material-symbols-outlined">edit</a></div>
-
-* Curly is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by jenra.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#jenra jenra
-
-codeWithHeader Source code:
- git clone https://github.com/curly-lang/curly-lang
-
-dashboard
- #2340 <span title="TotalRank: 2876 Jobs: 103 Users: 1986 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* The Curly programming language (now in Rust!)
-
-- Curly is developed on <a href="https://github.com/curly-lang/curly-lang">GitHub</a> and has 31 stars
-- Curly first developed in <a href="../lists/originCommunities.html#httpsGithubComCurlyLangCurlyLang">https://github.com/curly-lang/curly-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav lithe.html rustscript.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 465
+ committers 5
+ files 61

@@ -1,55 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Procfile
+import ../measures/conceptPage.scroll
+id Procfile
+appeared 2012
+type pl
+website https://devcenter.heroku.com/articles/procfile#procfile-format
+country United States
+originCommunity Heroku, Inc
 
-title Procfile - Programming language
- hidden
+hasIntegers true
 
-html
- <a class="trueBaseThemePreviousItem" href="mtml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="quorum.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/procfile.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://devcenter.heroku.com/articles/procfile#procfile-format" class="material-symbols-outlined">home</a> <a href="/edit.html?id=procfile" class="material-symbols-outlined">edit</a></div>
-
-* Procfile is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #2275 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 12 Years Old
- 536 <span title="Procfile repos on GitHub.">Repos</span>
-
-* 
-
-- Procfile website
- https://devcenter.heroku.com/articles/procfile#procfile-format
-- There are at least 536 Procfile repos on <a href="https://github.com/search?q=language:Procfile">GitHub</a>
-- Procfile first developed in <a href="../lists/originCommunities.html#herokuInc">Heroku, Inc</a>
-- file extensions for Procfile include Procfile
-- The  Google BigQuery Public Dataset GitHub snapshot shows 904 users using Procfile in 1k repos on <a href="https://api.github.com/search/repositories?q=language:Procfile">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/procfile.py">syntax highlighting</a> for Procfile
-
-<br>
-
-codeWithHeader Example from the web:
+example
  web: bundle exec rails server -p $PORT
 
-endColumns
+githubLanguage Procfile
+ type programming
+ filenames Procfile
+ aceMode batchfile
+ tmScope source.procfile
+ repos 536
+githubBigQuery Procfile
+ repos 1041
+ users 904
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav mtml.html quorum.html
-
-import ../footer.scroll
+pygmentsHighlighter Procfile
+ filename procfile.py
+ fileExtensions Procfile

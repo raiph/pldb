@@ -1,58 +1,38 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Vale
+import ../measures/conceptPage.scroll
+id Vale
+appeared 2020
+type pl
+website https://vale.dev/
+domainName vale.dev
+ registered 2019
+ awisRank
+  2022 5247978
 
-title Vale - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="music-sp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oak.html">&gt;</a>
+printToken println
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vale.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://vale.dev/" class="material-symbols-outlined">home</a> <a href="https://github.com/ValeLang/Vale" class="material-symbols-outlined">code</a> <a href="https://twitter.com/vale_pl"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=vale" class="material-symbols-outlined">edit</a></div>
-
-* Vale is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/ValeLang/Vale
-
-dashboard
- #1158 <span title="TotalRank: 1706 Jobs: 103 Users: 617 Facts: 1123 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Compiler for the Vale programming language - http://vale.dev/
-
-- Vale website
- https://vale.dev/
-- Vale is developed on <a href="https://github.com/ValeLang/Vale">GitHub</a> and has 716 stars
-- Vale on Twitter
- https://twitter.com/vale_pl
-- <a href="https://vale.dev/">vale.dev</a> was registered in 2019
-
-<br>
-
-codeWithHeader Example from the web:
+example
  exported func main() {
-   println(&quot;Hello world!&quot;);
+   println("Hello world!");
  }
 
-endColumns
+githubRepo https://github.com/ValeLang/Vale
+ firstCommit 2020
+ stars 716
+ forks 29
+ subscribers 15
+ created 2020
+ updated 2022
+ description Compiler for the Vale programming language - http://vale.dev/
+ issues 211
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2020
+ commits 1076
+ committers 23
+ files 989
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
+twitter https://twitter.com/vale_pl
 
-keyboardNav music-sp.html oak.html
-
-import ../footer.scroll
+isbndb 0

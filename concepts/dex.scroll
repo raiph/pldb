@@ -1,69 +1,38 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dex
+import ../measures/conceptPage.scroll
+id dex
+appeared 2018
+type pl
+country United States
+originCommunity Google
 
-title dex - Programming language
- hidden
+hasLineComments true
+ -- A comment
+hasComments true
+ -- A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="autocode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="masm.html">&gt;</a>
+lineCommentToken --
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/google-research/dex-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dex" class="material-symbols-outlined">edit</a></div>
-
-* dex is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/google-research/dex-lang
-
-dashboard
- #961 <span title="TotalRank: 1527 Jobs: 103 Users: 438 Facts: 1092 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Research language for array processing in the Haskell/ML family
-
-- dex is developed on <a href="https://github.com/google-research/dex-lang">GitHub</a> and has 1,232 stars
-- dex first developed in <a href="../lists/originCommunities.html#google">Google</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  :p x = 1.                -- let binding
    y = (z = 2.; z + 1.)  -- let binding of a nested let expression
    ..                    -- escaped cosmetic line break
    x + y                 -- body of let expression
 
-endColumns
+githubRepo https://github.com/google-research/dex-lang
+ firstCommit 2018
+ stars 1232
+ forks 83
+ subscribers 53
+ created 2019
+ updated 2022
+ description Research language for array processing in the Haskell/ML family
+ issues 152
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2018
+ commits 3922
+ committers 55
+ files 255
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav autocode.html masm.html
-
-import ../footer.scroll
+isbndb 0

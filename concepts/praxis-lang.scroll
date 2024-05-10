@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title praxis-lang
+import ../measures/conceptPage.scroll
+id praxis-lang
+appeared 2011
+type pl
+creators Richard Evans
+reference https://versu.com/
+reference https://www.ifwiki.org/Versu
+reference https://versublog.files.wordpress.com/2014/05/versu.pdf
+aka praxis
+country United Kingdom
+originCommunity Imperial College
 
-title praxis-lang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="coordinate-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clike.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/praxis-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=praxis-lang" class="material-symbols-outlined">edit</a></div>
-
-* praxis-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Richard Evans.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#richardEvans Richard Evans
-
-dashboard
- #1738 <span title="TotalRank: 2272 Jobs: 103 Users: 2838 Facts: 1502 Links: 667">on PLDB</span>
- 13 Years Old
-
-* 
-
-- praxis-lang first developed in <a href="../lists/originCommunities.html#imperialCollege">Imperial College</a>
-- Read more about praxis-lang on the web: 1. 2. 3.
- https://versu.com/ 1.
- https://www.ifwiki.org/Versu 2.
- https://versublog.files.wordpress.com/2014/05/versu.pdf 3.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  insert data.scene_data.linus_wakes_up
   {
   noun!”Linus wakes up”
@@ -46,9 +23,3 @@ codeWithHeader Example from the web:
  to inactivity.”!10000
   setup!stocker_for_linus_wakes_up
   }
-
-endColumns
-
-keyboardNav coordinate-format.html clike.html
-
-import ../footer.scroll

@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasConstants.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasContinue.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  class Person {
   constructor(name) {
     this._name = name
@@ -21,7 +21,7 @@ codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>
  }
  new Person(&quot;Jane&quot;)
 
-codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>:
+codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
  class Foobar {
   public:
    Foobar(double r = 1.0,
@@ -61,18 +61,6 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
  // Instantiating an object with the constructor above
  MyClass c = new MyClass(42, &quot;string&quot;);
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- class Foobar
-  |float| x
-  |float| y
-  constructor (|float| r=1, |float| alpha=0)
-  .x = r * alpha.cos
-  .y = r * alpha.sin
- 
- || a = foobar()
- || b = foobar(3)
- || c = foobar(5, M_PI/4)
-
 codeWithHeader Example from <a href="../concepts/cfml.html">CFML</a>:
  component {
     // properties
@@ -85,11 +73,21 @@ codeWithHeader Example from <a href="../concepts/cfml.html">CFML</a>:
     }
  }
 
-* Languages *with* Constructors include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/visual-basic.net.html">Visual Basic .NET</a>, <a href="../concepts/object-pascal.html">Object Pascal</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/action.html">Action!</a>, <a href="../concepts/cfml.html">CFML</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/cooc.html">cooC</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ class Foobar
+  |float| x
+  |float| y
+  constructor (|float| r=1, |float| alpha=0)
+  .x = r * alpha.cos
+  .y = r * alpha.sin
+ 
+ || a = foobar()
+ || b = foobar(3)
+ || c = foobar(5, M_PI/4)
 
-* Languages *without* Constructors include <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/tick-c.html">Tick C</a>
+* Languages *with* Constructors include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/visual-basic.net.html">Visual Basic .NET</a>, <a href="../concepts/object-pascal.html">Object Pascal</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/cfml.html">CFML</a>, <a href="../concepts/action.html">Action!</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
 
-* This question asks: Does the language have a syntax and/or notion of constructors?
+* Languages *without* Constructors include <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/c2.html">C2</a>
 
 * Read more about Constructors on the web: 1.
  https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming) 1.

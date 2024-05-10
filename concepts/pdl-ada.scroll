@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PDL/Ada
+import ../measures/conceptPage.scroll
+id PDL/Ada
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/6aacf17c753a525d7574b2c9fc343607db0b58eb
+country United States
+originCommunity IBM
 
-title PDL/Ada - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5613
 
-html
- <a class="trueBaseThemePreviousItem" href="pdel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pdl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pdl-ada.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pdl-ada" class="material-symbols-outlined">edit</a></div>
-
-* PDL/Ada is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3924 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- PDL/Ada first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- PDL/Ada on HOPL
- https://hopl.info/showlanguage.prx?exp=5613
-- Read more about PDL/Ada on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6aacf17c753a525d7574b2c9fc343607db0b58eb 1.
-
-<br>
-
-endColumns
-
-keyboardNav pdel.html pdl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

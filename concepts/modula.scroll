@@ -1,52 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Modula
+import ../measures/conceptPage.scroll
+id Modula
+appeared 1975
+type pl
+creators Niklaus Wirth
+country Switzerland
+originCommunity ETH Zurich
 
-title Modula - Programming language
- hidden
+hasAssignment true
 
-html
- <a class="trueBaseThemePreviousItem" href="alice.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="contracts.coffee.html">&gt;</a>
+assignmentToken :=
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/modula.pldb
+wikipedia https://en.wikipedia.org/wiki/Modula
+ related pascal alma-0 go modula-2
+ summary The Modula programming language is a descendant of the Pascal programming language. It was developed in Switzerland in the 1970s by Niklaus Wirth, the same person who designed Pascal. The main innovation of Modula over Pascal is a module system, used for grouping sets of related declarations into program units; hence the name Modula. The language is defined in a report by Wirth called Modula. A language for modular multiprogramming published 1976. Modula was first implemented by Niklaus Wirth himself on a PDP-11. Very soon other implementations followed, most important the University of York Modula compiler and a compiler developed at Philips Laboratories named PL Modula, which generated code for the LSI-11 microprocessor. The development of Modula was discontinued soon after its publication. Wirth then concentrated his efforts on Modula's successor, Modula-2.
+ pageId 20824
+ dailyPageViews 37
+ created 2002
+ backlinksCount 55
+ revisionCount 68
+ appeared 1975
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=771
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Modula"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=modula" class="material-symbols-outlined">edit</a></div>
+fileType text
+centralPackageRepositoryCount 0
 
-* Modula is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975 by Niklaus Wirth.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
- link ../lists/creators.html#niklausWirth Niklaus Wirth
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Programming in Modula-2|1982|Niklaus Wirth|18071084|3.60|5|0
+ Programming in Modula-2 (Texts and Monographs in Computer Science)|1985|Niklaus Wirth|2717625|3.14|7|0
+ Modula 2 For Pascal Programmers|1984|Richard Gleaves|4016916|0.0|0|0
+ Systems Programming With Modula 3|1991|Greg Nelson|5007845|3.00|2|0
+ Software Engineering and Modula-2|1984|Gustav Pomberger|2655108|0.0|0|0
+ Modula 2 Programming||I. Kaplan|4393413|0.0|0|0
+ Portable Modula-2 Programming|1989|Mark Woodman|3649250|0.0|0|0
 
-dashboard
- #679 <span title="TotalRank: 1255 Jobs: 103 Users: 1119 Facts: 915 Links: 237">on PLDB</span>
- 49 Years Old
-
-* The Modula programming language is a descendant of the Pascal programming language. It was developed in Switzerland in the 1970s by Niklaus Wirth, the same person who designed Pascal. The main innovation of Modula over Pascal is a module system, used for grouping sets of related declarations into program units; hence the name Modula. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Modula Read more on Wikipedia...
-
-- Modula Wikipedia page
- https://en.wikipedia.org/wiki/Modula
-- Modula first developed in <a href="../lists/originCommunities.html#ethZurich">ETH Zurich</a>
-- Modula on HOPL
- https://hopl.info/showlanguage.prx?exp=771
-- See also: (4 related languages)<a href="pascal.html">Pascal</a>, <a href="alma-0.html">Alma-0</a>, <a href="go.html">Go</a>, <a href="modula-2.html">Modula-2</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token :=
-  Example
-
-keyboardNav alice.html contracts.coffee.html
-
-import ../footer.scroll
+isbndb 6
+ year|publisher|title|authors|isbn13
+ 1992|Addison-Wesley|Programming in Oberon: Steps Beyond Pascal and Modula|Reiser, Martin and Wirth, Niklaus|9780201565430
+ 2010|General Books|Modula Programming Language Family: Modula-3|Books and LLC|9781156290996
+ 1984|Prentice Hall Direct|Programming In Modula 2|I. Kaplan|9780137292943
+ 1987|Charles Merrill|Introduction Programming Using Modula 2|SUTCLIFFE|9780675218610
+ 1989|Mcgraw-hill|Programming In Modula 2 (schaum's Outline Series)|Tremblay|9780070651784
+ 1988|Prentice Hall|Modula 2: A Second Course In Programming (prentice Hall Advances In Computer Science Series)|K. J. Gough and George M. Mohay|9780135993903

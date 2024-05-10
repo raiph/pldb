@@ -1,36 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Vim Scripts
+import ../measures/conceptPage.scroll
+id Vim Scripts
+appeared 2001
+type packageManager
+conceptDescription Vim Scripts allows users to upload scripts that help enhance vim.
+website https://www.vim.org/scripts/index.php
 
-title Vim Scripts - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="underlay.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visual-studio-marketplace-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vim-scripts-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.vim.org/scripts/index.php" class="material-symbols-outlined">home</a> <a href="/edit.html?id=vim-scripts-pm" class="material-symbols-outlined">edit</a></div>
-
-* Vim Scripts is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3290 on PLDB
- 23 Years Old
-
-* Vim Scripts allows users to upload scripts that help enhance vim.
-
-- Vim Scripts website
- https://www.vim.org/scripts/index.php
-
-<br>
-
-endColumns
-
-keyboardNav underlay.html visual-studio-marketplace-pm.html
-
-import ../footer.scroll
+packageCount 5626
+forLanguages vim-editor

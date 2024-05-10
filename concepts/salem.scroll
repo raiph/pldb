@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SALEM
+import ../measures/conceptPage.scroll
+id SALEM
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/4367a84671ef61fd70453cc75a8e4cecca266e6e
+country United States
+originCommunity Lehigh University
 
-title SALEM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=347
 
-html
- <a class="trueBaseThemePreviousItem" href="sa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sampletalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/salem.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=salem" class="material-symbols-outlined">edit</a></div>
-
-* SALEM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #4291 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- SALEM first developed in <a href="../lists/originCommunities.html#lehighUniversity">Lehigh University</a>
-- SALEM on HOPL
- https://hopl.info/showlanguage.prx?exp=347
-- Read more about SALEM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4367a84671ef61fd70453cc75a8e4cecca266e6e 1.
-
-<br>
-
-endColumns
-
-keyboardNav sa.html sampletalk.html
-
-import ../footer.scroll
+wordRank 6293
+centralPackageRepositoryCount 0

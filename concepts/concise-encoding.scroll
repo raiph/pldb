@@ -1,122 +1,102 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Concise Encoding
+import ../measures/conceptPage.scroll
+id Concise Encoding
+appeared 2018
+type dataNotation
+creators Karl Stenerud
+conceptDescription Concise Encoding gives you ease and efficiency with its 1:1 compatible text and binary formats.
+website https://concise-encoding.org
+country Czech Republic and Germany
+originCommunity https://github.com/kstenerud/concise-encoding
+domainName concise-encoding.org
+ registered 2019
+ awisRank
+  2022 4431517
 
-title Concise Encoding - Data notation
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="creole.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blockml.html">&gt;</a>
+lineCommentToken //
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/concise-encoding.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://concise-encoding.org" class="material-symbols-outlined">home</a> <a href="https://github.com/kstenerud/concise-encoding" class="material-symbols-outlined">code</a> <a href="/edit.html?id=concise-encoding" class="material-symbols-outlined">edit</a></div>
-
-* Concise Encoding is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2018 by Karl Stenerud.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#karlStenerud Karl Stenerud
-
-codeWithHeader Source code:
- git clone https://github.com/kstenerud/concise-encoding
-
-dashboard
- #612 <span title="TotalRank: 1182 Jobs: 103 Users: 1055 Facts: 93 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Concise Encoding gives you ease and efficiency with its 1:1 compatible text and binary formats.
-
-- Concise Encoding website
- https://concise-encoding.org
-- Concise Encoding is developed on <a href="https://github.com/kstenerud/concise-encoding">GitHub</a> and has 225 stars
-- Concise Encoding first developed in <a href="../lists/originCommunities.html#httpsGithubComKstenerudConciseEncoding">https://github.com/kstenerud/concise-encoding</a>
-- <a href="https://concise-encoding.org">concise-encoding.org</a> was registered in 2019
-
-<br>
-
-codeWithHeader Example from the web:
+example
  c1
  {
-     &quot;boolean&quot;       = true
-     &quot;binary int&quot;    = -0b10001011
-     &quot;octal int&quot;     = 0o644
-     &quot;decimal int&quot;   = -10000000
-     &quot;hex int&quot;       = 0xfffe0001
-     &quot;very long int&quot; = 100000000000000000000000000000000000009
-     &quot;decimal float&quot; = -14.125
-     &quot;hex float&quot;     = 0x5.1ec4p+20
-     &quot;very long flt&quot; = 4.957234990634579394723460546348e+100000
-     &quot;not-a-number&quot;  = nan
-     &quot;infinity&quot;      = inf
-     &quot;neg infinity&quot;  = -inf
+     "boolean"       = true
+     "binary int"    = -0b10001011
+     "octal int"     = 0o644
+     "decimal int"   = -10000000
+     "hex int"       = 0xfffe0001
+     "very long int" = 100000000000000000000000000000000000009
+     "decimal float" = -14.125
+     "hex float"     = 0x5.1ec4p+20
+     "very long flt" = 4.957234990634579394723460546348e+100000
+     "not-a-number"  = nan
+     "infinity"      = inf
+     "neg infinity"  = -inf
  }
-
-codeWithHeader Example from the web:
+example
  c1
  {
-     &quot;string&quot; = &quot;Strings support escape sequences: \n \t \+1f415.&quot;
-     &quot;url&quot;    = @&quot;https://example.com/&quot;
-     &quot;email&quot;  = @&quot;mailto:me@somewhere.com&quot;
+     "string" = "Strings support escape sequences: \n \t \+1f415."
+     "url"    = @"https://example.com/"
+     "email"  = @"mailto:me@somewhere.com"
  }
-
-codeWithHeader Example from the web:
+example
  c1
  {
-     &quot;uuid&quot;      = f1ce4567-e89b-12d3-a456-426655440000
-     &quot;date&quot;      = 2019-07-01
-     &quot;time&quot;      = 18:04:00.948/Europe/Prague
-     &quot;timestamp&quot; = 2010-07-15/13:28:15.415942344
-     &quot;null&quot;      = null
-     &quot;media&quot;     = |m application/x-sh 23 21 2f 62 69 6e 2f 73 68 0a 0a
+     "uuid"      = f1ce4567-e89b-12d3-a456-426655440000
+     "date"      = 2019-07-01
+     "time"      = 18:04:00.948/Europe/Prague
+     "timestamp" = 2010-07-15/13:28:15.415942344
+     "null"      = null
+     "media"     = |m application/x-sh 23 21 2f 62 69 6e 2f 73 68 0a 0a
                      65 63 68 6f 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 0a|
  }
-
-codeWithHeader Example from the web:
+example
  c1
  {
-     &quot;list&quot;          = [1 2.5 &quot;a string&quot;]
-     &quot;map&quot;           = {&quot;one&quot;=1 2=&quot;two&quot; &quot;today&quot;=2020-09-10}
-     &quot;bytes&quot;         = |u8x 01 ff de ad be ef|
-     &quot;int16 array&quot;   = |i16 7374 17466 -9957|
-     &quot;uint16 hex&quot;    = |u16x 91fe 443a 9c15|
-     &quot;float32 array&quot; = |f32 1.5e10 -8.31e-12|
+     "list"          = [1 2.5 "a string"]
+     "map"           = {"one"=1 2="two" "today"=2020-09-10}
+     "bytes"         = |u8x 01 ff de ad be ef|
+     "int16 array"   = |i16 7374 17466 -9957|
+     "uint16 hex"    = |u16x 91fe 443a 9c15|
+     "float32 array" = |f32 1.5e10 -8.31e-12|
  }
-
-codeWithHeader Example from the web:
+example
  c1
  [
-     @vehicle&lt;&quot;make&quot;   &quot;model&quot;    &quot;drive&quot; &quot;sunroof&quot;&gt;
-     @vehicle(&quot;Ford&quot;   &quot;Explorer&quot; &quot;4wd&quot;   true     )
-     @vehicle(&quot;Toyota&quot; &quot;Corolla&quot;  &quot;fwd&quot;   false    )
-     @vehicle(&quot;Honda&quot;  &quot;Civic&quot;    &quot;fwd&quot;   false    )
+     @vehicle<"make"   "model"    "drive" "sunroof">
+     @vehicle("Ford"   "Explorer" "4wd"   true     )
+     @vehicle("Toyota" "Corolla"  "fwd"   false    )
+     @vehicle("Honda"  "Civic"    "fwd"   false    )
  ]
-
-codeWithHeader Example from the web:
+example
  c1
  [
      {
-         &quot;make&quot; = &quot;Ford&quot;
-         &quot;model&quot; = &quot;Explorer&quot;
-         &quot;drive&quot; = &quot;4wd&quot;
-         &quot;sunroof&quot; = true
+         "make" = "Ford"
+         "model" = "Explorer"
+         "drive" = "4wd"
+         "sunroof" = true
      }
      {
-         &quot;make&quot; = &quot;Toyota&quot;
-         &quot;model&quot; = &quot;Corolla&quot;
-         &quot;drive&quot; = &quot;fwd&quot;
-         &quot;sunroof&quot; = false
+         "make" = "Toyota"
+         "model" = "Corolla"
+         "drive" = "fwd"
+         "sunroof" = false
      }
      {
-         &quot;make&quot; = &quot;Honda&quot;
-         &quot;model&quot; = &quot;Civic&quot;
-         &quot;drive&quot; = &quot;fwd&quot;
-         &quot;sunroof&quot; = false
+         "make" = "Honda"
+         "model" = "Civic"
+         "drive" = "fwd"
+         "sunroof" = false
      }
  ]
-
-codeWithHeader Example from the web:
+example
  c1
  //
  // The tree:
@@ -144,8 +124,7 @@ codeWithHeader Example from the web:
          )
      )
  )
-
-codeWithHeader Example from the web:
+example
  c1
  //
  // The weighted graph:
@@ -157,75 +136,55 @@ codeWithHeader Example from the web:
  // a-3-c-4-d
  //
  {
-     &quot;vertices&quot; = [
-         &amp;a:{}
-         &amp;b:{}
-         &amp;c:{}
-         &amp;d:{}
+     "vertices" = [
+         &a:{}
+         &b:{}
+         &c:{}
+         &d:{}
      ]
-     &quot;edges&quot; = [
-         @($a {&quot;weight&quot;=4 &quot;direction&quot;=&quot;both&quot;} $b)
-         @($a {&quot;weight&quot;=3 &quot;direction&quot;=&quot;both&quot;} $c)
-         @($b {&quot;weight&quot;=1 &quot;direction&quot;=&quot;both&quot;} $c)
-         @($b {&quot;weight&quot;=1 &quot;direction&quot;=&quot;both&quot;} $d)
-         @($c {&quot;weight&quot;=4 &quot;direction&quot;=&quot;both&quot;} $d)
+     "edges" = [
+         @($a {"weight"=4 "direction"="both"} $b)
+         @($a {"weight"=3 "direction"="both"} $c)
+         @($b {"weight"=1 "direction"="both"} $c)
+         @($b {"weight"=1 "direction"="both"} $d)
+         @($c {"weight"=4 "direction"="both"} $d)
      ]
  }
-
-codeWithHeader Example from the web:
+example
  c1
  {
      // Entire map will be referenced later as $id1
-     &quot;marked object&quot; = &amp;id1:{
-         &quot;recursive&quot; = $id1
+     "marked object" = &id1:{
+         "recursive" = $id1
      }
-     &quot;ref1&quot; = $id1
-     &quot;ref2&quot; = $id1
+     "ref1" = $id1
+     "ref2" = $id1
  
      // Reference pointing to part of another document.
-     &quot;outside ref&quot; = $&quot;https://xyz.com/document.cte#some_id&quot;
+     "outside ref" = $"https://xyz.com/document.cte#some_id"
  }
-
-codeWithHeader Example from the web:
+example
  c1
  {
      // Custom types are user-defined, with user-supplied codecs.
-     &quot;custom text&quot;   = |c &quot;cplx(2.94+3i)&quot;|
-     &quot;custom binary&quot; = |c 01 f6 28 3c 40 00 00 40 40|
+     "custom text"   = |c "cplx(2.94+3i)"|
+     "custom binary" = |c 01 f6 28 3c 40 00 00 40 40|
  }
 
-endColumns
+githubRepo https://github.com/kstenerud/concise-encoding
+ firstCommit 2018
+ stars 225
+ forks 5
+ subscribers 5
+ created 2018
+ updated 2022
+ description The secure data format for a  modern world
+ issues 23
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2018
+ commits 1003
+ committers 4
+ files 19
 
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav creole.html blockml.html
-
-import ../footer.scroll
+isbndb 0

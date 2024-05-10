@@ -1,48 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title The New Hampshire X Format
+import ../measures/conceptPage.scroll
+id The New Hampshire X Format
+appeared 1999
+type textDataFormat
+website https://web.archive.org/web/20020819032848/http://www.genetics.wustl.edu/eddy/forester/NHX.html
+reference https://www.cs.cmu.edu/~aiton/split/Manual-2.6.master014.html
+reference https://www.cs.mcgill.ca/~birch/birchhomedir/doc/atv/NHX.pdf
+standsFor New Hampshire X
+aka NHX
+country United States
+originCommunity Washington University in St. Louis
 
-title The New Hampshire X Format - Text data format
- hidden
+example
+ (((ADH2:0.1[&&NHX:S=human:E=1.1.1.1],ADH1:0.11[&&NHX:S=human:E=1.1.1.1]):0
+ .05[&&NHX:S=Primates:E=1.1.1.1:D=Y:B=100],ADHY:0.1[&&NHX:S=nematode:E=1.1.
+ 1.1],ADHX:0.12[&&NHX:S=insect:E=1.1.1.1]):0.1[&&NHX:S=Metazoa:E=1.1.1.1:D=
+ N],(ADH4:0.09[&&NHX:S=yeast:E=1.1.1.1],ADH3:0.13[&&NHX:S=yeast:E=1.1.1.1],
+ ADH2:0.12[&&NHX:S=yeast:E=1.1.1.1],ADH1:0.11[&&NHX:S=yeast:E=1.1.1.1]):0.1
+ [&&NHX:S=Fungi])[&&NHX:E=1.1.1.1:D=N];
 
-html
- <a class="trueBaseThemePreviousItem" href="les.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pop-pl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nhx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20020819032848/http://www.genetics.wustl.edu/eddy/forester/NHX.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=nhx" class="material-symbols-outlined">edit</a></div>
-
-* The New Hampshire X Format, aka New Hampshire X, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #2440 <span title="TotalRank: 2979 Jobs: 103 Users: 2442 Facts: 1890 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- The New Hampshire X Format website
- https://web.archive.org/web/20020819032848/http://www.genetics.wustl.edu/eddy/forester/NHX.html
-- The New Hampshire X Format first developed in <a href="../lists/originCommunities.html#washingtonUniversityInStLouis">Washington University in St. Louis</a>
-- Read more about The New Hampshire X Format on the web: 1. 2.
- https://www.cs.cmu.edu/~aiton/split/Manual-2.6.master014.html 1.
- https://www.cs.mcgill.ca/~birch/birchhomedir/doc/atv/NHX.pdf 2.
-
-<br>
-
-codeWithHeader Example from the web:
- (((ADH2:0.1[&amp;&amp;NHX:S=human:E=1.1.1.1],ADH1:0.11[&amp;&amp;NHX:S=human:E=1.1.1.1]):0
- .05[&amp;&amp;NHX:S=Primates:E=1.1.1.1:D=Y:B=100],ADHY:0.1[&amp;&amp;NHX:S=nematode:E=1.1.
- 1.1],ADHX:0.12[&amp;&amp;NHX:S=insect:E=1.1.1.1]):0.1[&amp;&amp;NHX:S=Metazoa:E=1.1.1.1:D=
- N],(ADH4:0.09[&amp;&amp;NHX:S=yeast:E=1.1.1.1],ADH3:0.13[&amp;&amp;NHX:S=yeast:E=1.1.1.1],
- ADH2:0.12[&amp;&amp;NHX:S=yeast:E=1.1.1.1],ADH1:0.11[&amp;&amp;NHX:S=yeast:E=1.1.1.1]):0.1
- [&amp;&amp;NHX:S=Fungi])[&amp;&amp;NHX:E=1.1.1.1:D=N];
-
-endColumns
-
-keyboardNav les.html pop-pl.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

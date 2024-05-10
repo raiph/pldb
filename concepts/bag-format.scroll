@@ -1,62 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title bag-format
+import ../measures/conceptPage.scroll
+id bag-format
+appeared 2010
+type binaryDataFormat
+conceptDescription A bag is a file format in ROS for storing ROS message data. Bags -- so named because of their .bag extension -- have an important role in ROS, and a variety of tools have been written to allow you to store, process, analyze, and visualize them.
+website http://wiki.ros.org/Bags
+reference http://wiki.ros.org/Bags/Format
+fileExtensions bag
+country United States
+originCommunity Open Robotics
 
-title bag-format - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="urn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-for-all.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bag-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://wiki.ros.org/Bags" class="material-symbols-outlined">home</a> <a href="/edit.html?id=bag-format" class="material-symbols-outlined">edit</a></div>
-
-* bag-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3473 on PLDB
- 14 Years Old
-
-* A bag is a file format in ROS for storing ROS message data. Bags -- so named because of their .bag extension -- have an important role in ROS, and a variety of tools have been written to allow you to store, process, analyze, and visualize them.
-
-- bag-format website
- http://wiki.ros.org/Bags
-- bag-format first developed in <a href="../lists/originCommunities.html#openRobotics">Open Robotics</a>
-- file extensions for bag-format include bag
-- Read more about bag-format on the web: 1.
- http://wiki.ros.org/Bags/Format 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav urn.html c-for-all.html
-
-import ../footer.scroll
+hasBooleans true
+hasFloats true
+hasIntegers true

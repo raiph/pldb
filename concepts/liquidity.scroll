@@ -1,44 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title liquidity
+import ../measures/conceptPage.scroll
+id liquidity
+appeared 2017
+type pl
+website http://www.liquidity-lang.org
+country France
+originCommunity OCamlProSAS
+domainName liquidity-lang.org
+ registered 2017
+ awisRank
+  2022 11967064
 
-title liquidity - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 15848561|Liquidity: high-level typed smart-contract language for Tezos|http://www.liquidity-lang.org/|2017-12-04 23:34:54 UTC|1512430494|petethomas|0|2
 
-html
- <a class="trueBaseThemePreviousItem" href="habit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mypy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/liquidity.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.liquidity-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=liquidity" class="material-symbols-outlined">edit</a></div>
-
-* liquidity is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2978 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2460 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- liquidity website
- http://www.liquidity-lang.org
-- liquidity first developed in <a href="../lists/originCommunities.html#oCamlProSas">OCamlProSAS</a>
-- <a href="http://www.liquidity-lang.org">liquidity-lang.org</a> was registered in 2017
-
-<br>
-
-endColumns
-
-## HackerNews discussions of liquidity
-
-pipeTable
- title|titleLink|date|score|comments
- Liquidity: high-level typed smart-contract language for Tezos|https://news.ycombinator.com/item?id=15848561|12/04/2017|2|0
-
-keyboardNav habit.html mypy.html
-
-import ../footer.scroll
+isbndb 0

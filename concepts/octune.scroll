@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Octune
+import ../measures/conceptPage.scroll
+id Octune
+appeared 2021
+type pl
+creators Gary Feng
+country Canada
+originCommunity The University of Waterloo
 
-title Octune - Programming language
- hidden
+githubRepo https://github.com/fengctor/octune
+ firstCommit 2021
+ stars 22
+ forks 1
+ subscribers 2
+ created 2021
+ updated 2022
+ description A DSL for creating 8-bit style music
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="kavascript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mlpolyr.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/octune.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/fengctor/octune" class="material-symbols-outlined">code</a> <a href="/edit.html?id=octune" class="material-symbols-outlined">edit</a></div>
-
-* Octune is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Gary Feng.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#garyFeng Gary Feng
-
-codeWithHeader Source code:
- git clone https://github.com/fengctor/octune
-
-dashboard
- #2345 <span title="TotalRank: 2876 Jobs: 103 Users: 2097 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A DSL for creating 8-bit style music
-
-- Octune is developed on <a href="https://github.com/fengctor/octune">GitHub</a> and has 22 stars
-- Octune first developed in <a href="../lists/originCommunities.html#theUniversityOfWaterloo">The University of Waterloo</a>
-
-<br>
-
-endColumns
-
-keyboardNav kavascript.html mlpolyr.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 102
+ committers 3
+ files 70

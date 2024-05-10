@@ -1,47 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Link
+import ../measures/conceptPage.scroll
+id Link
+appeared 2021
+type pl
+creators Lance Pollard
+fileExtensions link
+country United States
+originCommunity https://github.com/teamtreesurf
 
-title Link - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="jlang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="serious.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/link.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/teamdrumwork/base" class="material-symbols-outlined">code</a> <a href="/edit.html?id=link" class="material-symbols-outlined">edit</a></div>
-
-* Link is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Lance Pollard.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#lancePollard Lance Pollard
-
-codeWithHeader Source code:
- git clone https://github.com/teamdrumwork/base
-
-dashboard
- #1900 <span title="TotalRank: 2400 Jobs: 103 Users: 2402 Facts: 1311 Links: 986">on PLDB</span>
- 3 Years Old
-
-* The Link Text Compiler
-
-- Link is developed on <a href="https://github.com/teamdrumwork/base">GitHub</a> and has 2 stars
-- Link first developed in <a href="../lists/originCommunities.html#httpsGithubComTeamtreesurf">https://github.com/teamtreesurf</a>
-- file extensions for Link include link
-
-<br>
-
-codeWithHeader Example from the web:
+example
  save x, text 10 # create
  save y, move x # move
  save z, loan y # borrow
  save w, read z # copy
 
-endColumns
+githubRepo https://github.com/teamdrumwork/base
+ firstCommit 2021
+ stars 2
+ forks 0
+ subscribers 1
+ created 2021
+ updated 2022
+ description The Link Text Compiler
+ issues 0
 
-keyboardNav jlang.html serious.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 197
+ committers 1
+ files 186

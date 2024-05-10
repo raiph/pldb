@@ -1,64 +1,72 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Marko
+import ../measures/conceptPage.scroll
+id Marko
+appeared 2014
+type textMarkup
+website https://markojs.com/
+country United States
+originCommunity https://github.com/marko-js
+domainName markojs.com
+ registered 2015
+ awisRank
+  2022 1272927
 
-title Marko - Text markup language
- hidden
+githubRepo https://github.com/marko-js/marko
+ firstCommit 2014
+ stars 11433
+ forks 634
+ subscribers 216
+ created 2014
+ updated 2022
+ description A declarative, HTML-based language that makes building web apps fun
+ issues 57
 
-html
- <a class="trueBaseThemePreviousItem" href="puppet.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="base64.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 5173
+ committers 163
+ files 4723
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/marko.pldb
+githubLanguage Marko
+ fileExtensions marko
+ trendingProjectsCount 0
+ type markup
+ aceMode text
+ codemirrorMode htmlmixed
+ codemirrorMimeType text/html
+ tmScope text.marko
+ aliases markojs
+ repos 101
+githubBigQuery Marko
+ repos 12
+ users 12
 
-startColumns 4
+linguistGrammarRepo https://github.com/marko-js/marko-tmbundle
+ firstCommit 2016
+ lastCommit 2018
+ committerCount 5
+ commitCount 40
+ sampleCount 3
+ example
+  $ var name = 'Frank';
+  $ var colors = ['red', 'green', 'blue'];
+  
+  <h1>
+      Hello ${name}!
+  </h1>
+  
+  <ul if(colors.length)>
+      <li style={color: color} for(color in colors)>
+          ${color}
+      </li>
+  </ul>
+  <div else>
+      No colors!
+  </div>
 
-<div class="trueBaseThemeQuickLinks"><a href="https://markojs.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/marko-js/marko" class="material-symbols-outlined">code</a> <a href="/edit.html?id=marko" class="material-symbols-outlined">edit</a></div>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* Marko is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
+isbndb 0
 
-codeWithHeader Source code:
- git clone https://github.com/marko-js/marko
-
-dashboard
- #295 <span title="TotalRank: 702 Jobs: 103 Users: 102 Facts: 497 Links: 986">on PLDB</span>
- 10 Years Old
- 101 <span title="Marko repos on GitHub.">Repos</span>
-
-* A declarative, HTML-based language that makes building web apps fun
-
-- Marko website
- https://markojs.com/
-- Marko is developed on <a href="https://github.com/marko-js/marko">GitHub</a> and has 11,433 stars
-- There are at least 101 Marko repos on <a href="https://github.com/search?q=language:Marko">GitHub</a>
-- Marko first developed in <a href="../lists/originCommunities.html#httpsGithubComMarkoJs">https://github.com/marko-js</a>
-- file extensions for Marko include marko
-- The  Google BigQuery Public Dataset GitHub snapshot shows 12 users using Marko in 12 repos on <a href="https://api.github.com/search/repositories?q=language:Marko">GitHub</a>
-- GitHub supports <a href="https://github.com/marko-js/marko-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Marko
-- <a href="https://markojs.com/">markojs.com</a> was registered in 2015
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/marko-js/marko-tmbundle'>Linguist</a>:
- $ var name = &#39;Frank&#39;;
- $ var colors = [&#39;red&#39;, &#39;green&#39;, &#39;blue&#39;];
- 
- &lt;h1&gt;
-     Hello ${name}!
- &lt;/h1&gt;
- 
- &lt;ul if(colors.length)&gt;
-     &lt;li style={color: color} for(color in colors)&gt;
-         ${color}
-     &lt;/li&gt;
- &lt;/ul&gt;
- &lt;div else&gt;
-     No colors!
- &lt;/div&gt;
-
-endColumns
-
-keyboardNav puppet.html base64.html
-
-import ../footer.scroll
+semanticScholar 0

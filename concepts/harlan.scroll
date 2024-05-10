@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title harlan
+import ../measures/conceptPage.scroll
+id harlan
+appeared 2011
+type pl
+reference https://developers.slashdot.org/story/13/07/05/0136229/harlan-a-language-that-simplifies-gpu-programming
+country United States
+originCommunity https://github.com/eholk/harlan/issues
 
-title harlan - Programming language
- hidden
+githubRepo https://github.com/eholk/harlan
+ firstCommit 2011
+ stars 1181
+ forks 90
+ subscribers 124
+ created 2012
+ updated 2022
+ description A language for GPU computing.
+ issues 68
 
-html
- <a class="trueBaseThemePreviousItem" href="uiua.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sile.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/harlan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/eholk/harlan" class="material-symbols-outlined">code</a> <a href="/edit.html?id=harlan" class="material-symbols-outlined">edit</a></div>
-
-* harlan is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/eholk/harlan
-
-dashboard
- #970 <span title="TotalRank: 1533 Jobs: 103 Users: 444 Facts: 1787 Links: 986">on PLDB</span>
- 13 Years Old
-
-* A language for GPU computing.
-
-- harlan is developed on <a href="https://github.com/eholk/harlan">GitHub</a> and has 1,181 stars
-- harlan first developed in <a href="../lists/originCommunities.html#httpsGithubComEholkHarlanIssues">https://github.com/eholk/harlan/issues</a>
-- Read more about harlan on the web: 1.
- https://developers.slashdot.org/story/13/07/05/0136229/harlan-a-language-that-simplifies-gpu-programming 1.
-
-<br>
-
-endColumns
-
-keyboardNav uiua.html sile.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 1198
+ committers 20
+ files 315

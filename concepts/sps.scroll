@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Symbolic Programming System
+import ../measures/conceptPage.scroll
+id Symbolic Programming System
+appeared 1959
+type pl
+reference http://bitsavers.org/pdf/ibm/1620/C26-5600-1_Symbolic_Programming_System_Apr63.pdf
+standsFor Symbolic Programming System
+country United States
+originCommunity IBM
 
-title Symbolic Programming System - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="spir-v.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="squrl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sps.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sps" class="material-symbols-outlined">edit</a></div>
-
-* Symbolic Programming System, aka Symbolic Programming System, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #4041 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- Symbolic Programming System first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- Symbolic Programming System on HOPL
- https://hopl.info/showlanguage.prx?exp=2524
-- Read more about Symbolic Programming System on the web: 1.
- http://bitsavers.org/pdf/ibm/1620/C26-5600-1_Symbolic_Programming_System_Apr63.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav spir-v.html squrl.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=2524

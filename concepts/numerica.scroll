@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Numerica
+import ../measures/conceptPage.scroll
+id Numerica
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/148689502f77b33ea32d93d2cc8174bdebe1cef9
+country United States
+originCommunity Brown University && University of Connecticut
 
-title Numerica - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5770
 
-html
- <a class="trueBaseThemePreviousItem" href="npl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oaklisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/numerica.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=numerica" class="material-symbols-outlined">edit</a></div>
-
-* Numerica is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3876 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Numerica first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a> and <a href="../lists/originCommunities.html#universityOfConnecticut">University of Connecticut</a>
-- Numerica on HOPL
- https://hopl.info/showlanguage.prx?exp=5770
-- Read more about Numerica on Semantic Scholar: 1.
- https://semanticscholar.org/paper/148689502f77b33ea32d93d2cc8174bdebe1cef9 1.
-
-<br>
-
-endColumns
-
-keyboardNav npl.html oaklisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

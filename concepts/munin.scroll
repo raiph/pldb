@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MUNIN
+import ../measures/conceptPage.scroll
+id MUNIN
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/0056b0a97538cb9a9e37a3d5ddcc8ebb0fe15158
+country Denmark
+originCommunity Aalborg University and Judex Datasystemer and Nordjysk Udviklingscenter and Turku University Hospital
 
-title MUNIN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7713
 
-html
- <a class="trueBaseThemePreviousItem" href="mums.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="musimp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/munin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=munin" class="material-symbols-outlined">edit</a></div>
-
-* MUNIN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3859 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- MUNIN first developed in <a href="../lists/originCommunities.html#aalborgUniversityAndJudexDatasystemerAndNordjyskUdviklingscenterAndTurkuUniversityHospital">Aalborg University and Judex Datasystemer and Nordjysk Udviklingscenter and Turku University Hospital</a>
-- MUNIN on HOPL
- https://hopl.info/showlanguage.prx?exp=7713
-- Read more about MUNIN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0056b0a97538cb9a9e37a3d5ddcc8ebb0fe15158 1.
-
-<br>
-
-endColumns
-
-keyboardNav mums.html musimp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

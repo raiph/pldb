@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Konna
-
-title Konna - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kaukatcr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lambda-obliv.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/konna.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=konna" class="material-symbols-outlined">edit</a></div>
-
-* Konna is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-dashboard
- #3395 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Konna, my programming language
-
-- Konna first developed in <a href="../lists/originCommunities.html#httpsGithubComEashanhattiKonnaIssues">https://github.com/eashanhatti/konna/issues</a>
-- Read more about Konna on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/rpe65y/konna_my_programming_language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav kaukatcr.html lambda-obliv.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Konna
+appeared 2021
+type pl
+conceptDescription Konna, my programming language
+reference https://reddit.com/r/ProgrammingLanguages/comments/rpe65y/konna_my_programming_language/
+country Unknown
+originCommunity https://github.com/eashanhatti/konna/issues

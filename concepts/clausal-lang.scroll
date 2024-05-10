@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Clausal Language
+import ../measures/conceptPage.scroll
+id Clausal Language
+appeared 1997
+type pl
+conceptDescription CL (Clausal Language) is a declarative programming language with the look and feel of a modern functional programming language. CL identifies the domain of symbolic expressions of LISP with the domain of natural numbers.
+website http://ii.fmph.uniba.sk/cl/view.php/
+reference http://dai.fmph.uniba.sk/~voda/
+aka cl
+country Slovakia
+originCommunity Comenius University Bratislava
 
-title Clausal Language - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5505
 
-html
- <a class="trueBaseThemePreviousItem" href="c-for-all.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ctr.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clausal-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://ii.fmph.uniba.sk/cl/view.php/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=clausal-lang" class="material-symbols-outlined">edit</a></div>
-
-* Clausal Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #2924 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 27 Years Old
-
-* CL (Clausal Language) is a declarative programming language with the look and feel of a modern functional programming language. CL identifies the domain of symbolic expressions of LISP with the domain of natural numbers.
-
-- Clausal Language website
- http://ii.fmph.uniba.sk/cl/view.php/
-- Clausal Language first developed in <a href="../lists/originCommunities.html#comeniusUniversityBratislava">Comenius University Bratislava</a>
-- Clausal Language on HOPL
- https://hopl.info/showlanguage.prx?exp=5505
-- Read more about Clausal Language on the web: 1.
- http://dai.fmph.uniba.sk/~voda/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav c-for-all.html ctr.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

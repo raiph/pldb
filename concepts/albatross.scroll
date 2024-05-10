@@ -1,35 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title albatross
+import ../measures/conceptPage.scroll
+id albatross
+appeared 2015
+type pl
+conceptDescription Albatross is A Programming Language with Static Verification: You can develop programs and algorithms and prove them to be correct in Albatross
+website http://albatross-lang.sourceforge.net
+domainName albatross-lang.sourceforge.net
 
-title albatross - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sugi.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="empirical.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/albatross.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://albatross-lang.sourceforge.net" class="material-symbols-outlined">home</a> <a href="/edit.html?id=albatross" class="material-symbols-outlined">edit</a></div>
-
-* albatross is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2494 <span title="TotalRank: 3071 Jobs: 103 Users: 2442 Facts: 1982 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Albatross is A Programming Language with Static Verification: You can develop programs and algorithms and prove them to be correct in Albatross
-
-- albatross website
- http://albatross-lang.sourceforge.net
-
-<br>
-
-codeWithHeader Example from the web:
+example
  use alba.base.boolean
  end
  all (a:BOOLEAN)
@@ -39,14 +16,6 @@ codeWithHeader Example from the web:
      a
  end
 
-endColumns
-
-## HackerNews discussions of albatross
-
-pipeTable
- title|titleLink|date|score|comments
- Albatross – A Programming Language with Static Verification|https://news.ycombinator.com/item?id=10034741|08/10/2015|15|7
-
-keyboardNav sugi.html empirical.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 10034741|Albatross – A Programming Language with Static Verification|http://albatross-lang.sourceforge.net|2015-08-10 14:19:08 UTC|1439216348|helmut_brandl|7|15

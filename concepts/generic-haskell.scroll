@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Generic Haskell
+import ../measures/conceptPage.scroll
+id Generic Haskell
+appeared 2000
+type pl
+conceptDescription Since datatypes often change and new datatypes are introduced, we have developed Generic HASKELL which supports generic definitions to save the programmer from (re)writing instances of generic functions. Generic HASKELL extends the functional programming language Haskell [5] with, among other things, a construct for defining type-indexed values with kind-indexed types, based on recent work by Hinze [2]. These values can be specialised to all Haskell datatypes, facilitating wider application of generic programming than provided by earlier systems such as PolyP
+reference https://www.researchgate.net/publication/27685179_The_generic_HASKELL_user's_guide_version_099_-_Amber_release
+country Sweden and Netherlands and United Kingdom
+originCommunity Uppsala University && Utrecht University && University of Oxford
 
-title Generic Haskell - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gedanken.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gentran-90.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/generic-haskell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=generic-haskell" class="material-symbols-outlined">edit</a></div>
-
-* Generic Haskell is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3688 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* Since datatypes often change and new datatypes are introduced, we have developed Generic HASKELL which supports generic definitions to save the programmer from (re)writing instances of generic functions. Generic HASKELL extends the functional programming language Haskell [5] with, among other things, a construct for defining type-indexed values with kind-indexed types, based on recent work by Hinze [2]. These values can be specialised to all Haskell datatypes, facilitating wider application of generic programming than provided by earlier systems such as PolyP
-
-- Generic Haskell first developed in <a href="../lists/originCommunities.html#uppsalaUniversity">Uppsala University</a> and <a href="../lists/originCommunities.html#utrechtUniversity">Utrecht University</a> and <a href="../lists/originCommunities.html#universityOfOxford">University of Oxford</a>
-- Generic Haskell on HOPL
- https://hopl.info/showlanguage.prx?exp=4935
-- Read more about Generic Haskell on the web: 1.
- https://www.researchgate.net/publication/27685179_The_generic_HASKELL_user's_guide_version_099_-_Amber_release 1.
-
-<br>
-
-endColumns
-
-keyboardNav gedanken.html gentran-90.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=4935

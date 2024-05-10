@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title V-Promela
+import ../measures/conceptPage.scroll
+id V-Promela
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/768c45713a3cecd0065c7c35270a0d16dde8ea2d
 
-title V-Promela - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3942
 
-html
- <a class="trueBaseThemePreviousItem" href="utopia-84.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="val-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/v-promela.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=v-promela" class="material-symbols-outlined">edit</a></div>
-
-* V-Promela is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3270 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- V-Promela on HOPL
- https://hopl.info/showlanguage.prx?exp=3942
-- Read more about V-Promela on Semantic Scholar: 1.
- https://semanticscholar.org/paper/768c45713a3cecd0065c7c35270a0d16dde8ea2d 1.
-
-<br>
-
-endColumns
-
-keyboardNav utopia-84.html val-ii.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

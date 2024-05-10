@@ -1,43 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title versioned-text-markup-language
+import ../measures/conceptPage.scroll
+id versioned-text-markup-language
+appeared 1999
+type textMarkup
+conceptDescription VTML (Versioned Text Markup Language), a markup language for storing document version information. VTML can easily be implemented within a text editor, and provides a notation and semantics for tracking successive revisions to a document. The main purpose of VTML is to allow asynchronous collaboration in the creation and editing of text documents.
+website https://www.w3.org/Conferences/WWW4/Papers/190/
+aka VTML
 
-title versioned-text-markup-language - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="statebox.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bel-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/versioned-text-markup-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.w3.org/Conferences/WWW4/Papers/190/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=versioned-text-markup-language" class="material-symbols-outlined">edit</a></div>
-
-* versioned-text-markup-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #2970 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 25 Years Old
-
-* VTML (Versioned Text Markup Language), a markup language for storing document version information. VTML can easily be implemented within a text editor, and provides a notation and semantics for tracking successive revisions to a document. The main purpose of VTML is to allow asynchronous collaboration in the creation and editing of text documents.
-
-- versioned-text-markup-language website
- https://www.w3.org/Conferences/WWW4/Papers/190/
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;!--{ATTR ID=1 vers=1 author=&quot;fabio&quot; date=&quot;Jul 16, 1995&quot;}--&gt;
- &lt;!--{ATTR ID=2 vers=CURRENT author=&quot;david&quot; date=NOW}--&gt;
- &lt;!--{INS ATT=1}--&gt; This is &lt;!--{DEL ATT=2}--&gt;
- your&lt;!--{/DEL}--&gt; &lt;!--{INS ATT=2}--&gt; my &lt;!--{/DEL}--&gt;
+example
+ <!--{ATTR ID=1 vers=1 author="fabio" date="Jul 16, 1995"}-->
+ <!--{ATTR ID=2 vers=CURRENT author="david" date=NOW}-->
+ <!--{INS ATT=1}--> This is <!--{DEL ATT=2}-->
+ your<!--{/DEL}--> <!--{INS ATT=2}--> my <!--{/DEL}-->
  document.
 
-endColumns
-
-keyboardNav statebox.html bel-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

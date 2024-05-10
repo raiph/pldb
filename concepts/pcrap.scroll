@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PCrap
+import ../measures/conceptPage.scroll
+id PCrap
+appeared 2021
+type pl
+creators valkarias
+website https://valkarias.github.io/
+country Unknown
+originCommunity https://github.com/valkarias/Pa/issues
 
-title PCrap - Programming language
- hidden
+githubRepo https://github.com/valkarias/Pa
+ firstCommit 2021
+ stars 16
+ forks 1
+ subscribers 1
+ created 2021
+ updated 2022
+ description A Small & Interesting Programming Language.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="shadama.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rigc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pcrap.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://valkarias.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/valkarias/Pa" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pcrap" class="material-symbols-outlined">edit</a></div>
-
-* PCrap is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by valkarias.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#valkarias valkarias
-
-codeWithHeader Source code:
- git clone https://github.com/valkarias/Pa
-
-dashboard
- #2247 <span title="TotalRank: 2758 Jobs: 103 Users: 2130 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A Small & Interesting Programming Language.
-
-- PCrap website
- https://valkarias.github.io/
-- PCrap is developed on <a href="https://github.com/valkarias/Pa">GitHub</a> and has 16 stars
-- PCrap first developed in <a href="../lists/originCommunities.html#httpsGithubComValkariasPaIssues">https://github.com/valkarias/Pa/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav shadama.html rigc.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 170
+ committers 3
+ files 64

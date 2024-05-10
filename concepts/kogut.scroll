@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kogut
+import ../measures/conceptPage.scroll
+id kogut
+appeared 2004
+type pl
+conceptDescription Kogut is an experimental programming language which supports impurely functional programming and a non-traditional flavor of object-oriented programming. Its semantics is most similar to Scheme or Dylan, but the syntax looks more like ML or Ruby.
+website http://kokogut.sourceforge.net/kogut.html
+country Poland
+originCommunity https://sourceforge.net/p/kokogut/mailman/kokogut-users/
 
-title kogut - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="klong.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="koi.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kogut.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://kokogut.sourceforge.net/kogut.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=kogut" class="material-symbols-outlined">edit</a></div>
-
-* kogut is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2823 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 20 Years Old
-
-* Kogut is an experimental programming language which supports impurely functional programming and a non-traditional flavor of object-oriented programming. Its semantics is most similar to Scheme or Dylan, but the syntax looks more like ML or Ruby.
-
-- kogut website
- http://kokogut.sourceforge.net/kogut.html
-- kogut first developed in <a href="../lists/originCommunities.html#httpsSourceforgeNetPKokogutMailmanKokogutUsers">https://sourceforge.net/p/kokogut/mailman/kokogut-users/</a>
-
-<br>
-
-endColumns
-
-keyboardNav klong.html koi.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

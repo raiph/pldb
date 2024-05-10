@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HARVEY
+import ../measures/conceptPage.scroll
+id HARVEY
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/6946b57ec1c57151b7f240b91da3ed4df1419ee4
+country United States
+originCommunity Carnegie Mellon University && Illinois Institute of Technology
 
-title HARVEY - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7944
 
-html
- <a class="trueBaseThemePreviousItem" href="hancock.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="helper.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/harvey.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=harvey" class="material-symbols-outlined">edit</a></div>
-
-* HARVEY is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #4160 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- HARVEY first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a> and <a href="../lists/originCommunities.html#illinoisInstituteOfTechnology">Illinois Institute of Technology</a>
-- HARVEY on HOPL
- https://hopl.info/showlanguage.prx?exp=7944
-- Read more about HARVEY on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6946b57ec1c57151b7f240b91da3ed4df1419ee4 1.
-
-<br>
-
-endColumns
-
-keyboardNav hancock.html helper.html
-
-import ../footer.scroll
+wordRank 7299
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sequential Pascal
+import ../measures/conceptPage.scroll
+id Sequential Pascal
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/ad8a640f90f26afefdbac81f5a6706990d795130
+country England
+originCommunity Newcastle University
 
-title Sequential Pascal - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3794
 
-html
- <a class="trueBaseThemePreviousItem" href="sequel-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sespool.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sequential-pascal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sequential-pascal" class="material-symbols-outlined">edit</a></div>
-
-* Sequential Pascal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #4008 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- Sequential Pascal first developed in <a href="../lists/originCommunities.html#newcastleUniversity">Newcastle University</a>
-- Sequential Pascal on HOPL
- https://hopl.info/showlanguage.prx?exp=3794
-- Read more about Sequential Pascal on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ad8a640f90f26afefdbac81f5a6706990d795130 1.
-
-<br>
-
-endColumns
-
-keyboardNav sequel-2.html sespool.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

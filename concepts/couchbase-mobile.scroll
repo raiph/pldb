@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Couchbase Mobile
-
-title Couchbase Mobile - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="concurr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="couchbase.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/couchbase-mobile.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=couchbase-mobile" class="material-symbols-outlined">edit</a></div>
-
-* Couchbase Mobile is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3178 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 14 Years Old
-
-* NoSQL document-oriented database management system for mobile devices
-
-- Couchbase Mobile first developed in <a href="../lists/originCommunities.html#couchbaseInc">Couchbase Inc.</a>
-
-<br>
-
-endColumns
-
-keyboardNav concurr.html couchbase.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Couchbase Mobile
+appeared 2010
+type database
+conceptDescription NoSQL document-oriented database management system for mobile devices
+country United States
+originCommunity Couchbase Inc.

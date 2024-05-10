@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Prolog III
+import ../measures/conceptPage.scroll
+id Prolog III
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/281cb123812ab786ac4675e095b5ef22ee83d861
+country France
+originCommunity Aix-Marseille Université
 
-title Prolog III - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1112
 
-html
- <a class="trueBaseThemePreviousItem" href="prolog-elf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prolog-kr.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prolog-iii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prolog-iii" class="material-symbols-outlined">edit</a></div>
-
-* Prolog III is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3958 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Prolog III first developed in <a href="../lists/originCommunities.html#aixMarseilleUniversite">Aix-Marseille Université</a>
-- Prolog III on HOPL
- https://hopl.info/showlanguage.prx?exp=1112
-- Read more about Prolog III on Semantic Scholar: 1.
- https://semanticscholar.org/paper/281cb123812ab786ac4675e095b5ef22ee83d861 1.
-
-<br>
-
-endColumns
-
-keyboardNav prolog-elf.html prolog-kr.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Logicon
+import ../measures/conceptPage.scroll
+id Logicon
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/9f925f796da32e45b2b92b568ed90d08c29aa9fd
+country Canada
+originCommunity Université de Montréal
 
-title Logicon - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2781
 
-html
- <a class="trueBaseThemePreviousItem" href="locs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="logist.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/logicon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=logicon" class="material-symbols-outlined">edit</a></div>
-
-* Logicon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3789 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Logicon first developed in <a href="../lists/originCommunities.html#universiteDeMontreal">Université de Montréal</a>
-- Logicon on HOPL
- https://hopl.info/showlanguage.prx?exp=2781
-- Read more about Logicon on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9f925f796da32e45b2b92b568ed90d08c29aa9fd 1.
-
-<br>
-
-endColumns
-
-keyboardNav locs.html logist.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

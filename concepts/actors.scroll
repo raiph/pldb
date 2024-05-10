@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Actors
+import ../measures/conceptPage.scroll
+id Actors
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/498e5bc50cbf273f1ad241dd77d9bd3012b45b58
+originCommunity Massachusetts Institute of Technology
 
-title Actors - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=745
 
-html
- <a class="trueBaseThemePreviousItem" href="abc-algol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ades-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/actors.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=actors" class="material-symbols-outlined">edit</a></div>
-
-* Actors is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3461 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- Actors first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- Actors on HOPL
- https://hopl.info/showlanguage.prx?exp=745
-- Read more about Actors on Semantic Scholar: 1.
- https://semanticscholar.org/paper/498e5bc50cbf273f1ad241dd77d9bd3012b45b58 1.
-
-<br>
-
-endColumns
-
-keyboardNav abc-algol.html ades-ii.html
-
-import ../footer.scroll
+wordRank 5361
+centralPackageRepositoryCount 0

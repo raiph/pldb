@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title elymas
+import ../measures/conceptPage.scroll
+id elymas
+appeared 2012
+type pl
+country Germany
+originCommunity quuxLogic Solutions GmbH
 
-title elymas - Programming language
- hidden
+githubRepo https://github.com/Drahflow/Elymas
+ firstCommit 2012
+ stars 180
+ forks 12
+ subscribers 14
+ created 2013
+ updated 2022
+ description A programming language I can like. Unholy and full of magic.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="schematron.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="daisy-systems.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 589
+ committers 4
+ files 229
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/elymas.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Drahflow/Elymas" class="material-symbols-outlined">code</a> <a href="/edit.html?id=elymas" class="material-symbols-outlined">edit</a></div>
-
-* elymas is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/Drahflow/Elymas
-
-dashboard
- #1676 <span title="TotalRank: 2191 Jobs: 103 Users: 1102 Facts: 1591 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A programming language I can like. Unholy and full of magic.
-
-- elymas is developed on <a href="https://github.com/Drahflow/Elymas">GitHub</a> and has 180 stars
-- elymas first developed in <a href="../lists/originCommunities.html#quuxLogicSolutionsGmbH">quuxLogic Solutions GmbH</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of elymas
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Self-hosted stack-based programming language|https://news.ycombinator.com/item?id=9795314|06/28/2015|86|23
-
-keyboardNav schematron.html daisy-systems.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 9795314|Show HN: Self-hosted stack-based programming language|2015-06-28 22:11:16 UTC|1435529476|Drahflow|23|86

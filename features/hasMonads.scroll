@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasModules.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasMultiLineComments.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/haskell.html">Haskell</a>:
  -- https://stackoverflow.com/questions/44965/what-is-a-monad
@@ -28,8 +28,6 @@ codeWithHeader Example from <a href="../concepts/haskell.html">Haskell</a>:
      return (NumberValue (read num))
 
 * Languages *with* Monad include <a href="../concepts/haskell.html">Haskell</a>
-
-* This question asks: Does the language have monads?
 
 * Read more about Monad on the web: 1.
  https://en.wikipedia.org/wiki/Monad_(functional_programming) 1.

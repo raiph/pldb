@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Typecast.js
+import ../measures/conceptPage.scroll
+id Typecast.js
+appeared 2013
+type pl
+creators Bishop Zareh
+website https://web.archive.org/web/20151104122120/http://www.typecastjs.org/
+country United States
 
-title Typecast.js - Programming language
- hidden
+writtenIn javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="alphard-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="daonode.html">&gt;</a>
+githubRepo https://github.com/bishopZ/Typecast.js
+ stars 30
+ forks 2
+ subscribers 4
+ created 2013
+ updated 2014
+ description In a sentence, Typecast solves all the simple problems, so you can focus on the big ones.
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/typecastjs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20151104122120/http://www.typecastjs.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/bishopZ/Typecast.js" class="material-symbols-outlined">code</a> <a href="/edit.html?id=typecastjs" class="material-symbols-outlined">edit</a></div>
-
-* Typecast.js is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by Bishop Zareh.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#bishopZareh Bishop Zareh
-
-codeWithHeader Source code:
- git clone https://github.com/bishopZ/Typecast.js
-
-dashboard
- #2421 <span title="TotalRank: 2979 Jobs: 103 Users: 1986 Facts: 1890 Links: 986">on PLDB</span>
- 11 Years Old
-
-* In a sentence, Typecast solves all the simple problems, so you can focus on the big ones.
-
-- Typecast.js website
- https://web.archive.org/web/20151104122120/http://www.typecastjs.org/
-- Typecast.js is developed on <a href="https://github.com/bishopZ/Typecast.js">GitHub</a> and has 30 stars
-- Typecast.js is written in <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav alphard-programming-language.html daonode.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 23
+ committers 5
+ files 11

@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title sourcelair-editor
-
-title sourcelair-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="soql-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="status-quo-script.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sourcelair-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sourcelair-editor" class="material-symbols-outlined">edit</a></div>
-
-* sourcelair-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3721 on PLDB
- 13 Years Old
-
-* 
-
-- sourcelair-editor first developed in <a href="../lists/originCommunities.html#sourceLairPrivateCompany">SourceLair, Private Company</a>
-- Read more about sourcelair-editor on the web: 1.
- https://github.com/stolos 1.
-
-<br>
-
-endColumns
-
-keyboardNav soql-lang.html status-quo-script.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id sourcelair-editor
+appeared 2011
+type editor
+reference https://github.com/stolos
+country Greece
+originCommunity SourceLair, Private Company

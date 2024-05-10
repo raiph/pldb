@@ -1,43 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title attoparsec
+import ../measures/conceptPage.scroll
+id attoparsec
+appeared 2010
+type library
+conceptDescription attoparsec is a fast Haskell parser combinator library, aimed particularly at dealing efficiently with network protocols and complicated text/binary file formats.
+website http://hackage.haskell.org/package/attoparsec
+country Republic of Ireland
+originCommunity https://github.com/bos/attoparsec/issues
 
-title attoparsec - Library
- hidden
+writtenIn haskell
+relatedConcepts megaparsec
 
-html
- <a class="trueBaseThemePreviousItem" href="berkeley-db-lib.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="morfik.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/attoparsec.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://hackage.haskell.org/package/attoparsec" class="material-symbols-outlined">home</a> <a href="https://github.com/haskell/attoparsec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=attoparsec" class="material-symbols-outlined">edit</a></div>
-
-* attoparsec is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-codeWithHeader Source code:
- git clone https://github.com/haskell/attoparsec
-
-dashboard
- #1532 on PLDB
- 14 Years Old
-
-* attoparsec is a fast Haskell parser combinator library, aimed particularly at dealing efficiently with network protocols and complicated text/binary file formats.
-
-- attoparsec website
- http://hackage.haskell.org/package/attoparsec
-- attoparsec is developed on <a href="https://github.com/haskell/attoparsec">GitHub</a> and has 495 stars
-- attoparsec first developed in <a href="../lists/originCommunities.html#httpsGithubComBosAttoparsecIssues">https://github.com/bos/attoparsec/issues</a>
-- attoparsec is written in <a href="haskell.html">Haskell</a>
-- See also: (1 related languages)<a href="megaparsec.html">Megaparsec</a>
-
-<br>
-
-endColumns
-
-keyboardNav berkeley-db-lib.html morfik.html
-
-import ../footer.scroll
+githubRepo https://github.com/haskell/attoparsec
+ stars 495
+ forks 91
+ subscribers 21
+ created 2010
+ updated 2023
+ description A fast Haskell library for parsing ByteStrings
+ issues 32

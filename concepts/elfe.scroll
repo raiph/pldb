@@ -1,64 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ELFE
+import ../measures/conceptPage.scroll
+id ELFE
+appeared 2003
+type pl
+creators Christophe de Dinechin
+conceptDescription ELFE is a very simple and small programming language specifcally designed for everyday programming, notably for the Internet of Things.
+country France
+originCommunity https://dinechin.org
 
-title ELFE - Programming language
- hidden
+hasSemanticIndentation true
 
-html
- <a class="trueBaseThemePreviousItem" href="dataweave.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oem.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/elfe.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/c3d/elfe" class="material-symbols-outlined">code</a> <a href="/edit.html?id=elfe" class="material-symbols-outlined">edit</a></div>
-
-* ELFE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003 by Christophe de Dinechin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#christopheDeDinechin Christophe de Dinechin
-
-codeWithHeader Source code:
- git clone https://github.com/c3d/elfe
-
-dashboard
- #1548 <span title="TotalRank: 2060 Jobs: 103 Users: 1387 Facts: 971 Links: 986">on PLDB</span>
- 21 Years Old
-
-* ELFE is a very simple and small programming language specifcally designed for everyday programming, notably for the Internet of Things.
-
-- ELFE is developed on <a href="https://github.com/c3d/elfe">GitHub</a> and has 90 stars
-- ELFE first developed in <a href="../lists/originCommunities.html#httpsDinechinOrg">https://dinechin.org</a>
-
-<br>
-
-codeWithHeader Example from the web:
- invoke &quot;sensor.corp.net&quot;,
+example
+ invoke "sensor.corp.net",
      last_temperature := temperature
      every 1s,
          check_temperature temperature
-     check_temperature T:real -&gt;
-         writeln &quot;Measuring temperature &quot;, T, &quot; from process &quot;, process_id
-         if abs(T - last_temperature) &gt;= 1.0 then
+     check_temperature T:real ->
+         writeln "Measuring temperature ", T, " from process ", process_id
+         if abs(T - last_temperature) >= 1.0 then
              reply
                  temperature_changed T, last_temperature
          last_temperature := T
- temperature_changed new_temp, last_temp -&gt;
-     writeln &quot;Temperature changed from &quot;, last_temp, &quot; to &quot;, new_temp
+ temperature_changed new_temp, last_temp ->
+     writeln "Temperature changed from ", last_temp, " to ", new_temp
 
-endColumns
+githubRepo https://github.com/c3d/elfe
+ firstCommit 2003
+ stars 90
+ forks 9
+ subscribers 22
+ created 2015
+ updated 2021
+ description Extensible Language for Everyday
+ issues 8
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav dataweave.html oem.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2003
+ commits 3048
+ committers 19
+ files 265

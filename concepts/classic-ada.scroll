@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Classic-Ada
+import ../measures/conceptPage.scroll
+id Classic-Ada
+appeared 1992
+type pl
+reference https://www.semanticscholar.org/paper/Object-oriented-programming-in-Classic-Ada-Nelson-Mota/17bde721a4ede89353143c95307de63574e4cc79
+country United States
+originCommunity Naval Postgraduate School && Brazilian Navy
 
-title Classic-Ada - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1905
 
-html
- <a class="trueBaseThemePreviousItem" href="clascal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cleo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/classic-ada.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=classic-ada" class="material-symbols-outlined">edit</a></div>
-
-* Classic-Ada is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3571 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Classic-Ada first developed in <a href="../lists/originCommunities.html#navalPostgraduateSchool">Naval Postgraduate School</a> and <a href="../lists/originCommunities.html#brazilianNavy">Brazilian Navy</a>
-- Classic-Ada on HOPL
- https://hopl.info/showlanguage.prx?exp=1905
-- Read more about Classic-Ada on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/Object-oriented-programming-in-Classic-Ada-Nelson-Mota/17bde721a4ede89353143c95307de63574e4cc79 1.
-
-<br>
-
-endColumns
-
-keyboardNav clascal.html cleo.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

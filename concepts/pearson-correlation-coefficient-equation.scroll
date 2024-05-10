@@ -1,34 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pearson correlation coefficient equation
-
-title Pearson correlation coefficient equation - Equation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pclos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pgen.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pearson-correlation-coefficient-equation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pearson-correlation-coefficient-equation" class="material-symbols-outlined">edit</a></div>
-
-* Pearson correlation coefficient equation is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+equation">equation</a> created in 1880 by Karl Pearson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1880 1880
- link ../lists/creators.html#karlPearson Karl Pearson
-
-dashboard
- #3714 on PLDB
- 144 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav pclos.html pgen.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Pearson correlation coefficient equation
+appeared 1880
+type equation
+creators Karl Pearson
+equation
+ p(x,y) = cov(x,y)/sigmaX*sigmaY

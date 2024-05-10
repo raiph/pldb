@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title STREMA
+import ../measures/conceptPage.scroll
+id STREMA
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/7884bb3ae93f3dae019e88bc0c5233093510f19c
+country United States
+originCommunity IBM
 
-title STREMA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5970
 
-html
- <a class="trueBaseThemePreviousItem" href="strcmacs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stress.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/strema.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=strema" class="material-symbols-outlined">edit</a></div>
-
-* STREMA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #4050 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- STREMA first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- STREMA on HOPL
- https://hopl.info/showlanguage.prx?exp=5970
-- Read more about STREMA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7884bb3ae93f3dae019e88bc0c5233093510f19c 1.
-
-<br>
-
-endColumns
-
-keyboardNav strcmacs.html stress.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

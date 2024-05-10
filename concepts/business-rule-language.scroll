@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title business-rule-language
+import ../measures/conceptPage.scroll
+id business-rule-language
+appeared 2012
+type pl
+conceptDescription Business Rule Language (BRL) allows IF/THEN testing on certain information available when the rules execute. Your own cancel message can be included within the rules you create by using special message variables. BRL is a non-procedural, high-level application development language that allows you to develop sophisticated programs with less effort than conventional programming languages. BRL rules consist of three parts: the rule name, which serves as a comment or description, and is not syntactically necessary to the rule; a supporting condition (antecedent) or procedure statement; and a conclusion.
+website https://webfocusinfocenter.informationbuilders.com/wfappent/TLs/TL_ra/TL_rg/source/ACrg20.htm
+reference https://infocenter.informationbuilders.com/wf80/index.jsp?topic=%2Fpubdocs%2FResGovernor%2Fsource%2Ftopic47.htm
+aka BRL
 
-title business-rule-language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="brl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/business-rule-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://webfocusinfocenter.informationbuilders.com/wfappent/TLs/TL_ra/TL_rg/source/ACrg20.htm" class="material-symbols-outlined">home</a> <a href="/edit.html?id=business-rule-language" class="material-symbols-outlined">edit</a></div>
-
-* business-rule-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #2786 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Business Rule Language (BRL) allows IF/THEN testing on certain information available when the rules execute. Your own cancel message can be included within the rules you create by using special message variables. BRL is a non-procedural, high-level application development language that allows you to develop sophisticated programs with less effort than conventional programming languages. BRL rules consist of three parts: the rule name, which serves as a comment or description, and is not syntactically necessary to the rule; a supporting condition (antecedent) or procedure statement; and a conclusion.
-
-- business-rule-language website
- https://webfocusinfocenter.informationbuilders.com/wfappent/TLs/TL_ra/TL_rg/source/ACrg20.htm
-- Read more about business-rule-language on the web: 1.
- https://infocenter.informationbuilders.com/wf80/index.jsp?topic=%2Fpubdocs%2FResGovernor%2Fsource%2Ftopic47.htm 1.
-
-<br>
-
-endColumns
-
-keyboardNav brl.html bx.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

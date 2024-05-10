@@ -1,152 +1,119 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SCSS
+import ../measures/conceptPage.scroll
+id SCSS
+appeared 2006
+type stylesheetLanguage
+creators Hampton Lintorn-Catlin
+website http://sass-lang.com/
+webRepl https://playcode.io/scss/
+reference https://en.wikipedia.org/wiki/Sass_(stylesheet_language)
+fileExtensions sass scss
+country United States 
+originCommunity https://github.com/sass
+domainName sass-lang.com
+ registered 2009
+ awisRank
+  2022 22267
+  2017 38503
 
-title SCSS - Stylesheet language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pop-11.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="colascript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scss.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://sass-lang.com/" class="material-symbols-outlined">home</a> <a href="https://playcode.io/scss/" class="material-symbols-outlined">terminal</a> <a href="https://twitter.com/sasscss"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=scss" class="material-symbols-outlined">edit</a></div>
-
-* SCSS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+stylesheetLanguage">stylesheet language</a> created in 2006 by Hampton Lintorn-Catlin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#hamptonLintornCatlin Hampton Lintorn-Catlin
-
-dashboard
- #766 <span title="TotalRank: 1336 Jobs: 103 Users: 1127 Facts: 247 Links: 986">on PLDB</span>
- 18 Years Old
- 335k <span title="SCSS repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://playcode.io/scss/">Web</a> · <a href="https://riju.codes/scss">Riju</a>
-
-monacoEditor scss
- body:before {
-   content: "Hello, world!";
+hasSemanticIndentation true
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ // A comment
+hasStrings true
+ "Hello world"
+hasMixins true
+ @mixin reset-list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
  }
+ @mixin horizontal-list {
+   @include reset-list;
  
-
-* 
-
-- SCSS website
- http://sass-lang.com/
-- There are at least 335,325 SCSS repos on <a href="https://github.com/search?q=language:SCSS">GitHub</a>
-- SCSS first developed in <a href="../lists/originCommunities.html#httpsGithubComSass">https://github.com/sass</a>
-- file extensions for SCSS include sass and scss
-- SCSS on Twitter
- https://twitter.com/sasscss
-- The  Google BigQuery Public Dataset GitHub snapshot shows 8k users using SCSS in 9k repos on <a href="https://api.github.com/search/repositories?q=language:SCSS">GitHub</a>
-- <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/scss">grammar</a> for SCSS
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/scss">package</a> for syntax highlighting SCSS
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/css.py">syntax highlighting</a> for SCSS
-- GitHub supports <a href="https://github.com/MarioRicalde/SCSS.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SCSS
-- <a href="http://sass-lang.com/">sass-lang.com</a> was registered in 2009
-- Read more about SCSS on the web: 1.
- https://en.wikipedia.org/wiki/Sass_(stylesheet_language) 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/scss'>Riju</a>:
- body:before {
-   content: &quot;Hello, world!&quot;;
- }
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/SCSS.scss'>hello-world</a>:
- body::before {
-     content: &quot;Hello World&quot;;
- }
- 
-
-codeWithHeader Example from <a href='https://github.com/MarioRicalde/SCSS.tmbundle'>Linguist</a>:
- $blue: #3bbfce;
- $margin: 16px;
- 
- .content-navigation {
-   border-color: $blue;
-   color:
-     darken($blue, 9%);
- }
- 
- .border {
-   padding: $margin / 2;
-   margin: $margin / 2;
-   border-color: $blue;
- }
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Mixins
-  FeatureLink ../features/hasMixins.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   @mixin reset-list {
-     margin: 0;
-     padding: 0;
-     list-style: none;
-   }
-   @mixin horizontal-list {
-     @include reset-list;
-   
-     li {
-       display: inline-block;
-       margin: {
-         left: -2px;
-         right: 2em;
-       }
+   li {
+     display: inline-block;
+     margin: {
+       left: -2px;
+       right: 2em;
      }
    }
-   nav ul {
-     @include horizontal-list;
-   }
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
+ }
+ nav ul {
+   @include horizontal-list;
+ }
 
-keyboardNav pop-11.html colascript.html
+lineCommentToken //
+multiLineCommentTokens /* */
+stringToken "
 
-import ../footer.scroll
+githubLanguage SCSS
+ fileExtensions scss
+ trendingProjectsCount 0
+ type markup
+ aceMode scss
+ codemirrorMode css
+ codemirrorMimeType text/x-scss
+ tmScope source.css.scss
+ repos 335325
+githubBigQuery SCSS
+ repos 8503
+ users 7569
+
+antlr https://github.com/antlr/grammars-v4/tree/master/scss
+monaco scss
+pygmentsHighlighter SCSS
+ filename css.py
+ fileExtensions scss
+linguistGrammarRepo https://github.com/MarioRicalde/SCSS.tmbundle
+ firstCommit 2010
+ lastCommit 2015
+ committerCount 32
+ commitCount 203
+ sampleCount 1
+ example
+  $blue: #3bbfce;
+  $margin: 16px;
+  
+  .content-navigation {
+    border-color: $blue;
+    color:
+      darken($blue, 9%);
+  }
+  
+  .border {
+    padding: $margin / 2;
+    margin: $margin / 2;
+    border-color: $blue;
+  }
+  
+
+leachim6 SCSS
+ filepath s/SCSS.scss
+ fileExtensions scss
+ example
+  body::before {
+      content: "Hello World";
+  }
+  
+
+rijuRepl https://riju.codes/scss
+ example
+  body:before {
+    content: "Hello, world!";
+  }
+  
+
+twitter https://twitter.com/sasscss
+fileType text
+centralPackageRepositoryCount 0
+
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Advances in Systems, Computing Sciences and Software Engineering: Proceedings of Scss 2005|2006|Tarek Sobh|23111454|0.0|0|0
+ Advances in Systems, Computing Sciences and Software Engineering: Proceedings of Scss 2005|2006|Tarek Sobh|369788|0.0|0|0
+
+isbndb 0

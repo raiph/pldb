@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kaleidoscope'90
+import ../measures/conceptPage.scroll
+id Kaleidoscope'90
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/16ccfcac9ea24b4c1a8134b03f8eab667493a4d6
+country United States and Canada
+originCommunity University of Victoria && University of Washington
 
-title Kaleidoscope'90 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4182
 
-html
- <a class="trueBaseThemePreviousItem" href="kaleidoquery.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kaleidoscope91.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaleidoscope90.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kaleidoscope90" class="material-symbols-outlined">edit</a></div>
-
-* Kaleidoscope'90 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3758 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Kaleidoscope'90 first developed in <a href="../lists/originCommunities.html#universityOfVictoria">University of Victoria</a> and <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- Kaleidoscope'90 on HOPL
- https://hopl.info/showlanguage.prx?exp=4182
-- Read more about Kaleidoscope'90 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/16ccfcac9ea24b4c1a8134b03f8eab667493a4d6 1.
-
-<br>
-
-endColumns
-
-keyboardNav kaleidoquery.html kaleidoscope91.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

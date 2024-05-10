@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lambda-obliv
-
-title lambda-obliv - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="konna.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="linktext.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lambda-obliv.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lambda-obliv" class="material-symbols-outlined">edit</a></div>
-
-* lambda-obliv is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #3396 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 4 Years Old
-
-* A Language for Probabilistically Oblivious Computation. An oblivious computation is one that is free of direct and indirect information leaks, e.g., due to observable differences in timing and memory access patterns. This paper presents λobliv, a core language whose type system enforces obliviousness. Prior work on type-enforced oblivious computation has focused on deterministic programs. λobliv is new in its consideration of programs that implement probabilistic algorithms, such as those involved in cryptography. λobliv employs a substructural type system and a novel notion of probability region to ensure that information is not leaked via the observed distribution of visible events. Probability regions support reasoning about probabilistic correlation and independence between values, and our use of probability regions is motivated by a source of unsoundness that we discovered in the type system of ObliVM, a language for implementing state of the art oblivious algorithms.
-
-- lambda-obliv first developed in <a href="../lists/originCommunities.html#universityOfVermont">University of Vermont</a> and <a href="../lists/originCommunities.html#universityOfMaryland">University of Maryland</a> and <a href="../lists/originCommunities.html#citadelSecurities">Citadel Securities</a>
-- Read more about lambda-obliv on the web: 1.
- https://dl.acm.org/doi/pdf/10.1145/3371118?download=true 1.
-
-<br>
-
-endColumns
-
-keyboardNav konna.html linktext.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id lambda-obliv
+appeared 2020
+type pl
+conceptDescription A Language for Probabilistically Oblivious Computation. An oblivious computation is one that is free of direct and indirect information leaks, e.g., due to observable differences in timing and memory access patterns. This paper presents λobliv, a core language whose type system enforces obliviousness. Prior work on type-enforced oblivious computation has focused on deterministic programs. λobliv is new in its consideration of programs that implement probabilistic algorithms, such as those involved in cryptography. λobliv employs a substructural type system and a novel notion of probability region to ensure that information is not leaked via the observed distribution of visible events. Probability regions support reasoning about probabilistic correlation and independence between values, and our use of probability regions is motivated by a source of unsoundness that we discovered in the type system of ObliVM, a language for implementing state of the art oblivious algorithms.
+reference https://dl.acm.org/doi/pdf/10.1145/3371118?download=true
+country United States
+originCommunity University of Vermont && University of Maryland && Citadel Securities

@@ -1,54 +1,36 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DAP FORTRAN
+import ../measures/conceptPage.scroll
+id DAP FORTRAN
+appeared 1975
+type pl
+country United Kingdom
+originCommunity International Computers Limited
 
-title DAP FORTRAN - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/DAP_FORTRAN
+ example
+  C     Multiply vector by matrix
+        REAL M(,), V(), R()
+        R = SUM(M*MATR(A))
+  
+  C     Converge to a Laplace potential in an area
+        REAL P(,), OLD_P(,)
+        LOGICAL INSIDE(,)
+        DO 1 K = 1, ITERATIONS
+        OLD_P = P
+        P(INSIDE) = 0.25*(P(,+)+P(,-)+P(+,)+P(-,))
+        IF (MAX(ABS(P-OLD_P)) .LT. EPS) RETURN
+      1 CONTINUE
+ summary DAP FORTRAN was an extension of the non IO parts of FORTRAN with constructs that supported parallel computing for the ICL Distributed Array Processor (DAP). The DAP had a Single Instruction Multiple Data (SIMD) architecture with 64x64 single bit processors. DAP FORTRAN had the following major features:  It had matrix and vector operations. Assignments could be performed under a logical mask so only some elements in the target of an assignment were changed. On the negative side - operations were performed using the size of the underlying hardware i.e. on a 64x64 matrix or 64 element vector.In a declaration either one or two extents could be omitted as in:  The omitted dimension was taken as 64, the size of one side of the DAP. The speed of arithmetic operations depended strongly on the number of bits in the value. INTEGER*n reserved 8n bits where n is 1 to 8, and REAL*n reserved 8n bits where n is 3 to 8. LOGICAL reserved a single bit. However, DAP FORTRAN fell between two conflicting objectives. It needed to effectively exploit the DAP facilities. But also had to be accessible to the scientific computing community whose primary language, with a design closely tied to serial architectures, was FORTRAN. The dialect used was ICL's 2900-series FORTRAN which was based on an early version of the FORTRAN 77 standard and had mismatches with both FORTRAN 77 and the older FORTRAN 66 standard. DAP FORTRAN was significantly different from either standard FORTRAN and the machine was not capable of accepting or optimising standard FORTRAN programs. On the other hand, compared with other contemporary languages which were by design extensible (notably ALGOL-68), FORTRAN was less than well suited to this task. The result was noticeably inelegant and did require a great deal of new learning. Operationally, there was an overhead to transfer computational data into and out of the array, and problems which did not fit the 64x64 matrix imposed additional complexity to handle the boundaries (65x65 was perhaps the worst case!) – but for problems which suited the architecture, it could outperform the current Cray pipeline architectures by two orders of magnitude. A later version of the DAP used Fortran-Plus instead which was based on FORTRAN 77 and had more flexible indexing. In particular it automatically mapped user sized arrays onto the underlying hardware.
+ created 2007
+ backlinksCount 25
+ pageId 10334221
+ revisionCount 18
+ dailyPageViews 2
+ appeared 1990
 
-html
- <a class="trueBaseThemePreviousItem" href="json-url.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="funl.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=753
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dap-fortran.pldb
+centralPackageRepositoryCount 0
 
-startColumns 4
+isbndb 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/DAP_FORTRAN"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=dap-fortran" class="material-symbols-outlined">edit</a></div>
-
-* DAP FORTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #1698 <span title="TotalRank: 2212 Jobs: 103 Users: 2058 Facts: 1123 Links: 986">on PLDB</span>
- 49 Years Old
-
-* DAP FORTRAN was an extension of the non IO parts of FORTRAN with constructs that supported parallel computing for the ICL Distributed Array Processor (DAP). The DAP had a Single Instruction Multiple Data (SIMD) architecture with 64x64 single bit processors. DAP FORTRAN had the following major features:  It had matrix and vector operations. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/DAP_FORTRAN Read more on Wikipedia...
-
-- DAP FORTRAN Wikipedia page
- https://en.wikipedia.org/wiki/DAP_FORTRAN
-- DAP FORTRAN first developed in <a href="../lists/originCommunities.html#internationalComputersLimited">International Computers Limited</a>
-- DAP FORTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=753
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/DAP_FORTRAN'>Wikipedia</a>:
- C     Multiply vector by matrix
-       REAL M(,), V(), R()
-       R = SUM(M*MATR(A))
- 
- C     Converge to a Laplace potential in an area
-       REAL P(,), OLD_P(,)
-       LOGICAL INSIDE(,)
-       DO 1 K = 1, ITERATIONS
-       OLD_P = P
-       P(INSIDE) = 0.25*(P(,+)+P(,-)+P(+,)+P(-,))
-       IF (MAX(ABS(P-OLD_P)) .LT. EPS) RETURN
-     1 CONTINUE
-
-endColumns
-
-keyboardNav json-url.html funl.html
-
-import ../footer.scroll
+semanticScholar 0

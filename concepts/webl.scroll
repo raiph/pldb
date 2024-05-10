@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WebL
+import ../measures/conceptPage.scroll
+id WebL
+appeared 2000
+type pl
+reference https://www.semanticscholar.org/paper/WebL-A-Programming-Language-for-the-Web-Kistler-Marais/a28cfb623df5763b22c30377fd5007deb0d9a9d0
 
-title WebL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7611
 
-html
- <a class="trueBaseThemePreviousItem" href="wcl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="whirlwind.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/webl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=webl" class="material-symbols-outlined">edit</a></div>
-
-* WebL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3287 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- WebL on HOPL
- https://hopl.info/showlanguage.prx?exp=7611
-- Read more about WebL on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/WebL-A-Programming-Language-for-the-Web-Kistler-Marais/a28cfb623df5763b22c30377fd5007deb0d9a9d0 1.
-
-<br>
-
-endColumns
-
-keyboardNav wcl.html whirlwind.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

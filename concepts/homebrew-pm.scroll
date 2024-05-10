@@ -1,43 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Homebrew
+import ../measures/conceptPage.scroll
+id Homebrew
+appeared 2009
+type packageManager
+creators Max Howell
+conceptDescription The Missing Package Manager for macOS.
+website https://brew.sh/
+country United States
+originCommunity https://github.com/Homebrew
+domainName brew.sh
+ registered 2013
+ awisRank
+  2022 15798
 
-title Homebrew - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cool.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="thrift.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/homebrew-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://brew.sh/" class="material-symbols-outlined">home</a> <a href="https://github.com/Homebrew/brew" class="material-symbols-outlined">code</a> <a href="/edit.html?id=homebrew-pm" class="material-symbols-outlined">edit</a></div>
-
-* Homebrew is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2009 by Max Howell.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#maxHowell Max Howell
-
-codeWithHeader Source code:
- git clone https://github.com/Homebrew/brew
-
-dashboard
- #414 on PLDB
- 15 Years Old
-
-* The Missing Package Manager for macOS.
-
-- Homebrew website
- https://brew.sh/
-- Homebrew is developed on <a href="https://github.com/Homebrew/brew">GitHub</a> and has 32,650 stars
-- Homebrew first developed in <a href="../lists/originCommunities.html#httpsGithubComHomebrew">https://github.com/Homebrew</a>
-- <a href="https://brew.sh/">brew.sh</a> was registered in 2013
-
-<br>
-
-endColumns
-
-keyboardNav cool.html thrift.html
-
-import ../footer.scroll
+githubRepo https://github.com/Homebrew/brew
+ firstCommit 2009
+ stars 32650
+ forks 7814
+ subscribers 688
+ created 2016
+ updated 2022
+ description 🍺 The missing package manager for macOS (or Linux)
+ issues 39

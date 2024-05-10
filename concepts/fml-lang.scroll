@@ -1,37 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FML
+import ../measures/conceptPage.scroll
+id FML
+appeared 2012
+type pl
+creators Joe Groff
+conceptDescription fml is an optimizing, function-oriented, array programming language. Unlike other array programming languages, it aims to have a less symbol-heavy but still concise syntax, and non-strict semantics that allow for high-level optimization. Note that fml is not: meant for serious use always faster than systems languages like C/C++/etc. always more expressive than general-purpose languages like Python, Javascript, etc. suitable for cryptography, real-time, or low-level applications that require fine control of time and space complexity
+reference https://gist.github.com/jckarter/2839239
+standsFor Function Manipulation Language
+country United States
+originCommunity https://duriansoftware.com
 
-title FML - Programming language
- hidden
+hasComments true
+ # This is a line comment
+ 
+ ###
+ This is a block comment
+ ###
+hasDirectives true
+ # Directives are special lines that have syntax and semantics of their own. Directives all start with a name of the form .foo; new directives may be added by future versions of the language.
+ .import math.constants
+ area = x * math.constants.Pi, ^ 2
+ .from math.constants import Pi, E
+ area = x sq, * Pi
+ polar = a * [E ^ [b * 0+j1]]
+hasLineComments true
+ # A comment
+hasMultiLineComments true
+ ###
+ A comment
+ ###
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="egl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xbrl.html">&gt;</a>
+lineCommentToken #
+multiLineCommentTokens ###
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fml-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fml-lang" class="material-symbols-outlined">edit</a></div>
-
-* FML, aka Function Manipulation Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Joe Groff.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#joeGroff Joe Groff
-
-dashboard
- #1015 <span title="TotalRank: 1578 Jobs: 103 Users: 2838 Facts: 489 Links: 986">on PLDB</span>
- 12 Years Old
-
-* fml is an optimizing, function-oriented, array programming language. Unlike other array programming languages, it aims to have a less symbol-heavy but still concise syntax, and non-strict semantics that allow for high-level optimization. Note that fml is not: meant for serious use always faster than systems languages like C/C++/etc. always more expressive than general-purpose languages like Python, Javascript, etc. suitable for cryptography, real-time, or low-level applications that require fine control of time and space complexity
-
-- FML first developed in <a href="../lists/originCommunities.html#httpsDuriansoftwareCom">https://duriansoftware.com</a>
-- Read more about FML on the web: 1.
- https://gist.github.com/jckarter/2839239 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  pad = x flip[stitch] 0, stitch 0, flip[cat] 0, cat 0
  life = pad, neighborhoods[3 3], [ravel, [sum in?: [x @ 4, + 3; 3]]]/2
  
@@ -65,58 +67,3 @@ codeWithHeader Example from the web:
   1 1 0 0
   0 1 0 0]
  ###
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ###
-  Example
-   ###
-   A comment
-   ###
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Directives
-  FeatureLink ../features/hasDirectives.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # Directives are special lines that have syntax and semantics of their own. Directives all start with a name of the form .foo; new directives may be added by future versions of the language.
-   .import math.constants
-   area = x * math.constants.Pi, ^ 2
-   .from math.constants import Pi, E
-   area = x sq, * Pi
-   polar = a * [E ^ [b * 0+j1]]
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # This is a line comment
-   
-   ###
-   This is a block comment
-   ###
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav egl.html xbrl.html
-
-import ../footer.scroll

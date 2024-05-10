@@ -1,36 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title twoducks
+import ../measures/conceptPage.scroll
+id twoducks
+appeared 2006
+type esolang
+conceptDescription TwoDucks is an esoteric programming language by User:Zzo38 which allows you to go back in time and change things. It is uncomputable on a Turing machine; it even allows you to solve the halting problem.
 
-title twoducks - Esoteric programming language
- hidden
+esolang https://esolangs.org/wiki/TwoDucks
 
-html
- <a class="trueBaseThemePreviousItem" href="two-d.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="uc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/twoducks.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=twoducks" class="material-symbols-outlined">edit</a></div>
-
-* twoducks is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #3448 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 18 Years Old
-
-* TwoDucks is an esoteric programming language by User:Zzo38 which allows you to go back in time and change things. It is uncomputable on a Turing machine; it even allows you to solve the halting problem.
-
-- twoducks on Esolang
- https://esolangs.org/wiki/TwoDucks
-
-<br>
-
-endColumns
-
-keyboardNav two-d.html uc.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

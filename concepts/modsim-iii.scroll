@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MODSIM III
+import ../measures/conceptPage.scroll
+id MODSIM III
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/91bd41cbd94f92d46b532bc60ea8ec9ddf83d8ef
+country United States
+originCommunity CACI Products Company
 
-title MODSIM III - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5439
 
-html
- <a class="trueBaseThemePreviousItem" href="modlisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="modula-p.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/modsim-iii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=modsim-iii" class="material-symbols-outlined">edit</a></div>
-
-* MODSIM III is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3843 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- MODSIM III first developed in <a href="../lists/originCommunities.html#caciProductsCompany">CACI Products Company</a>
-- MODSIM III on HOPL
- https://hopl.info/showlanguage.prx?exp=5439
-- Read more about MODSIM III on Semantic Scholar: 1.
- https://semanticscholar.org/paper/91bd41cbd94f92d46b532bc60ea8ec9ddf83d8ef 1.
-
-<br>
-
-endColumns
-
-keyboardNav modlisp.html modula-p.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

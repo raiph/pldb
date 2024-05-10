@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KATE
+import ../measures/conceptPage.scroll
+id KATE
+appeared 1979
+type pl
+reference https://www.semanticscholar.org/paper/Discussion-and-Correspondence-KATE%3A-A-for-Extending-Teskey/e6292f6b0b1033f1415cb4d044532cae3ae73dc5
+country United Kingdom
+originCommunity University of Kent
 
-title KATE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6135
 
-html
- <a class="trueBaseThemePreviousItem" href="jr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kiss.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kate.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kate" class="material-symbols-outlined">edit</a></div>
-
-* KATE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #4186 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- KATE first developed in <a href="../lists/originCommunities.html#universityOfKent">University of Kent</a>
-- KATE on HOPL
- https://hopl.info/showlanguage.prx?exp=6135
-- Read more about KATE on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/Discussion-and-Correspondence-KATE%3A-A-for-Extending-Teskey/e6292f6b0b1033f1415cb4d044532cae3ae73dc5 1.
-
-<br>
-
-endColumns
-
-keyboardNav jr.html kiss.html
-
-import ../footer.scroll
+wordRank 5053
+centralPackageRepositoryCount 0

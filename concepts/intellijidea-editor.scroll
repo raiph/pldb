@@ -1,35 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title intellijidea-editor
-
-title intellijidea-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="imaginary-number-equation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="komodo-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/intellijidea-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=intellijidea-editor" class="material-symbols-outlined">edit</a></div>
-
-* intellijidea-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3654 on PLDB
- 23 Years Old
-
-* 
-
-- intellijidea-editor first developed in <a href="../lists/originCommunities.html#jetBrainsSRO">JetBrains s.r.o.</a>
-
-<br>
-
-endColumns
-
-keyboardNav imaginary-number-equation.html komodo-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id intellijidea-editor
+appeared 2001
+type editor
+country Czech Republic
+originCommunity JetBrains s.r.o.

@@ -1,83 +1,49 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Claro
+import ../measures/conceptPage.scroll
+id Claro
+appeared 2021
+type pl
+creators Jason Steving
+website https://clarolang.com/
+country United States
+originCommunity https://github.com/JasonSteving99
+domainName clarolang.com
+ registered 2020
 
-title Claro - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="json-graph-spec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zot.html">&gt;</a>
+lineCommentToken #
+printToken print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/claro.pldb
+githubRepo https://github.com/JasonSteving99/claro-lang
+ firstCommit 2020
+ stars 3
+ forks 1
+ subscribers 2
+ created 2020
+ updated 2022
+ description Claro Lang
+ issues 18
 
-startColumns 4
+repoStats
+ firstCommit 2020
+ commits 284
+ committers 3
+ files 345
 
-<div class="trueBaseThemeQuickLinks"><a href="https://clarolang.com/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/claro" class="material-symbols-outlined">terminal</a> <a href="https://github.com/JasonSteving99/claro-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=claro" class="material-symbols-outlined">edit</a></div>
-
-* Claro is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Jason Steving.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#jasonSteving Jason Steving
-
-codeWithHeader Source code:
- git clone https://github.com/JasonSteving99/claro-lang
-
-dashboard
- #1315 <span title="TotalRank: 1849 Jobs: 103 Users: 2358 Facts: 760 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Try now: <a href="https://riju.codes/claro">Riju</a>
-
-* Claro Lang
-
-- Claro website
- https://clarolang.com/
-- Claro is developed on <a href="https://github.com/JasonSteving99/claro-lang">GitHub</a> and has 3 stars
-- Claro first developed in <a href="../lists/originCommunities.html#httpsGithubComJasonSteving99">https://github.com/JasonSteving99</a>
-- <a href="https://clarolang.com/">clarolang.com</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/claro'>Riju</a>:
- # Thanks for trying out Claro during its early development stages!
- # To learn Claro by example, check out:
- # https://clarolang.com/tree/main/src/java/com/claro/claro_programs
- 
- print(&quot;Hello, world!&quot;);
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav json-graph-spec.html zot.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/claro
+ example
+  # Thanks for trying out Claro during its early development stages!
+  # To learn Claro by example, check out:
+  # https://clarolang.com/tree/main/src/java/com/claro/claro_programs
+  
+  print("Hello, world!");
+  
+ description High-level toy programming language providing standardized Software Engineering best practices out of the box
+ fileExtensions claro
+ website https://clarolang.com/
+ gitRepo https://github.com/JasonSteving99/claro-lang

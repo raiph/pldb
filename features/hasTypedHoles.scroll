@@ -9,16 +9,14 @@ html
  <a class="trueBaseThemePreviousItem" href="hasTypeParameters.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasUnaryOperators.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/haskell.html">Haskell</a>:
  -- Found hole `_&#39; with type f (Free f b)
 
 * Languages *with* Typed Holes include <a href="../concepts/haskell.html">Haskell</a>, <a href="../concepts/agda.html">Agda</a>, <a href="../concepts/hazel.html">hazel</a>, <a href="../concepts/darklang.html">darklang</a>
-
-* This question asks: Does the language have a syntax for typed holes?
 
 * Read more about Typed Holes on the web: 1.
  https://wiki.haskell.org/GHC/Typed_holes 1.

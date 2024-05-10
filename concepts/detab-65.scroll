@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DETAB/65
+import ../measures/conceptPage.scroll
+id DETAB/65
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/e6a87f05bae73e2ecc09239311b8b79187a16074
+country United States
+originCommunity General Electric
 
-title DETAB/65 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=197
 
-html
- <a class="trueBaseThemePreviousItem" href="descriptran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="detab-x.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/detab-65.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=detab-65" class="material-symbols-outlined">edit</a></div>
-
-* DETAB/65 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #3621 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- DETAB/65 first developed in <a href="../lists/originCommunities.html#generalElectric">General Electric</a>
-- DETAB/65 on HOPL
- https://hopl.info/showlanguage.prx?exp=197
-- Read more about DETAB/65 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e6a87f05bae73e2ecc09239311b8b79187a16074 1.
-
-<br>
-
-endColumns
-
-keyboardNav descriptran.html detab-x.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

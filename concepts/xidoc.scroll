@@ -1,57 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Xidoc
+import ../measures/conceptPage.scroll
+id Xidoc
+appeared 2021
+type textMarkup
+creators Adam Blažek
+conceptDescription A consistent markup language
+website https://xidoc.nim.town/
+country Czech Republic
+originCommunity Adam Blažek
 
-title Xidoc - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ixml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jspp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xidoc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://xidoc.nim.town/" class="material-symbols-outlined">home</a> <a href="https://github.com/xigoi/xidoc" class="material-symbols-outlined">code</a> <a href="/edit.html?id=xidoc" class="material-symbols-outlined">edit</a></div>
-
-* Xidoc is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2021 by Adam Blažek.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#adamBlazek Adam Blažek
-
-codeWithHeader Source code:
- git clone https://github.com/xigoi/xidoc
-
-dashboard
- #1362 <span title="TotalRank: 1891 Jobs: 103 Users: 1997 Facts: 802 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A consistent markup language
-
-- Xidoc website
- https://xidoc.nim.town/
-- Xidoc is developed on <a href="https://github.com/xigoi/xidoc">GitHub</a> and has 33 stars
-- Xidoc first developed in <a href="../lists/originCommunities.html#adamBlazek">Adam Blažek</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [section HTML;
    [p
      HTML is such an [it ugly] language!
-     Each [code html; &lt;tag&gt;] has to be repeated twice.
+     Each [code html; <tag>] has to be repeated twice.
    ]
  ]
  [section [LaTeX];
    [p
      [LaTeX] is great for writing math formulas like [$ e^{\tau i} = 1],
-     but it&#39;s painful to write with all those [code latex; \begin], [code latex; \end]
+     but it's painful to write with all those [code latex; \begin], [code latex; \end]
      and different syntaxes for different things.
    ]
  ]
 
-endColumns
+githubRepo https://github.com/xigoi/xidoc
+ firstCommit 2021
+ stars 33
+ forks 0
+ subscribers 2
+ created 2021
+ updated 2022
+ description A consistent markup language
+ issues 2
 
-keyboardNav ixml.html jspp.html
+repoStats
+ firstCommit 2021
+ commits 320
+ committers 2
+ files 479
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0
+
+semanticScholar 0

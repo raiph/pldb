@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AUTODRAFT
+import ../measures/conceptPage.scroll
+id AUTODRAFT
+appeared 1965
+type pl
+reference https://semanticscholar.org/paper/ee390f2474cf01852f134fa3631e6f492448dbc9
+country United States
+originCommunity North American Aviation && IBM
 
-title AUTODRAFT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5291
 
-html
- <a class="trueBaseThemePreviousItem" href="autasim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autogrp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/autodraft.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=autodraft" class="material-symbols-outlined">edit</a></div>
-
-* AUTODRAFT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #3501 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- AUTODRAFT first developed in <a href="../lists/originCommunities.html#northAmericanAviation">North American Aviation</a> and <a href="../lists/originCommunities.html#ibm">IBM</a>
-- AUTODRAFT on HOPL
- https://hopl.info/showlanguage.prx?exp=5291
-- Read more about AUTODRAFT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ee390f2474cf01852f134fa3631e6f492448dbc9 1.
-
-<br>
-
-endColumns
-
-keyboardNav autasim.html autogrp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

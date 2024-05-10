@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pascal-FC
+import ../measures/conceptPage.scroll
+id Pascal-FC
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/dacf5dd50fd54c90e1bc5d9be14f20cfb90f6e63
+reference https://www.semanticscholar.org/paper/Pascal-FC%3A-a-language-for-teaching-concurrent-Burns-Davies/d99464c60bddb8a33c2f7b65ea22a5261e04867b
+country United Kingdom
+originCommunity University of Bradford
 
-title Pascal-FC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1581
 
-html
- <a class="trueBaseThemePreviousItem" href="paragon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pascal-i.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pascal-fc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pascal-fc" class="material-symbols-outlined">edit</a></div>
-
-* Pascal-FC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #4249 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Pascal-FC first developed in <a href="../lists/originCommunities.html#universityOfBradford">University of Bradford</a>
-- Pascal-FC on HOPL
- https://hopl.info/showlanguage.prx?exp=1581
-- Read more about Pascal-FC on Semantic Scholar: 1. 2.
- https://semanticscholar.org/paper/dacf5dd50fd54c90e1bc5d9be14f20cfb90f6e63 1.
- https://www.semanticscholar.org/paper/Pascal-FC%3A-a-language-for-teaching-concurrent-Burns-Davies/d99464c60bddb8a33c2f7b65ea22a5261e04867b 2.
-
-<br>
-
-endColumns
-
-keyboardNav paragon.html pascal-i.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

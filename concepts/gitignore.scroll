@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gitignore
+import ../measures/conceptPage.scroll
+id gitignore
+appeared 2005
+type configFormat
+creators Linus Torvalds
+conceptDescription A simple application specific language used to tell git which files to ignore.
 
-title gitignore - Config format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gimple.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gks.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gitignore.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gitignore" class="material-symbols-outlined">edit</a></div>
-
-* gitignore is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+configFormat">config format</a> created in 2005 by Linus Torvalds.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
- link ../lists/creators.html#linusTorvalds Linus Torvalds
-
-dashboard
- #3692 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 19 Years Old
-
-* A simple application specific language used to tell git which files to ignore.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  .DS_Store
  node_modules/
-
-endColumns
-
-keyboardNav gimple.html gks.html
-
-import ../footer.scroll

@@ -1,341 +1,316 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TLA
+import ../measures/conceptPage.scroll
+id TLA
+appeared 1999
+type pl
+creators Leslie Lamport
+conceptDescription TLA+ is a formal specification and verification language that helps engineers design, specify, reason about and verify complex, real-life algorithms and software or hardware systems. TLA+ has been successfully used by Intel, Compaq and Microsoft in the design of hardware systems, and has started seeing recent use in large software systems, at Microsoft, Oracle, and most famously at Amazon, where engineers use TLA+ to specify and verify many AWS services.
+documentation https://lamport.azurewebsites.net/tla/learning.html
+reference https://lamport.azurewebsites.net/tla/tla.html
 
-title TLA - Programming language
- hidden
+hasLineComments true
+ \* A comment
+hasComments true
+ \* A comment
+hasMultiLineComments true
+ (* A comment
+ *)
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="symbol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="yara.html">&gt;</a>
+lineCommentToken \*
+multiLineCommentTokens (* *)
+booleanTokens TRUE FALSE
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tla.pldb
+wikipedia https://en.wikipedia.org/wiki/TLA+
+ example
+  ------------------------------ MODULE Elevator ------------------------------
+  (***************************************************************************)
+  (* This spec describes a simple multi-car elevator system. The actions in  *)
+  (* this spec are unsurprising and common to all such systems except for    *)
+  (* DispatchElevator, which contains the logic to determine which elevator  *)
+  (* ought to service which call. The algorithm used is very simple and does *)
+  (* not optimize for global throughput or average wait time. The            *)
+  (* TemporalInvariant definition ensures this specification provides        *)
+  (* capabilities expected of any elevator system, such as people eventually *)
+  (* reaching their destination floor.                                       *)
+  (***************************************************************************)
+  
+  EXTENDS     Integers
+  
+  CONSTANTS   Person,     \* The set of all people using the elevator system
+              Elevator,   \* The set of all elevators
+              FloorCount  \* The number of floors serviced by the elevator system
+  
+  VARIABLES   PersonState,            \* The state of each person
+              ActiveElevatorCalls,    \* The set of all active elevator calls
+              ElevatorState           \* The state of each elevator
+  
+  Vars == \* Tuple of all specification variables
+      <<PersonState, ActiveElevatorCalls, ElevatorState>>
+  
+  Floor ==    \* The set of all floors
+      1 .. FloorCount
+  
+  Direction ==    \* Directions available to this elevator system
+      {"Up", "Down"}
+  
+  ElevatorCall == \* The set of all elevator calls
+      [floor : Floor, direction : Direction]
+  
+  ElevatorDirectionState ==   \* Elevator movement state; it is either moving in a direction or stationary
+      Direction \cup {"Stationary"}
+  
+  GetDistance[f1, f2 \in Floor] ==    \* The distance between two floors
+      IF f1 > f2 THEN f1 - f2 ELSE f2 - f1
+      
+  GetDirection[current, destination \in Floor] == \* Direction of travel required to move between current and destination floors
+      IF destination > current THEN "Up" ELSE "Down"
+  
+  CanServiceCall[e \in Elevator, c \in ElevatorCall] ==   \* Whether elevator is in position to immediately service call
+      LET eState == ElevatorState[e] IN
+      /\ c.floor = eState.floor
+      /\ c.direction = eState.direction
+  
+  PeopleWaiting[f \in Floor, d \in Direction] ==  \* The set of all people waiting on an elevator call
+      {p \in Person :
+          /\ PersonState[p].location = f
+          /\ PersonState[p].waiting
+          /\ GetDirection[PersonState[p].location, PersonState[p].destination] = d}
+  
+  TypeInvariant ==    \* Statements about the variables which we expect to hold in every system state
+      /\ PersonState \in [Person -> [location : Floor \cup Elevator, destination : Floor, waiting : BOOLEAN]]
+      /\ ActiveElevatorCalls \subseteq ElevatorCall
+      /\ ElevatorState \in [Elevator -> [floor : Floor, direction : ElevatorDirectionState, doorsOpen : BOOLEAN, buttonsPressed : SUBSET Floor]]
+  
+  SafetyInvariant ==   \* Some more comprehensive checks beyond the type invariant
+      /\ \A e \in Elevator :  \* An elevator has a floor button pressed only if a person in that elevator is going to that floor
+          /\ \A f \in ElevatorState[e].buttonsPressed :
+              /\ \E p \in Person :
+                  /\ PersonState[p].location = e
+                  /\ PersonState[p].destination = f
+      /\ \A p \in Person :    \* A person is in an elevator only if the elevator is moving toward their destination floor
+          /\ \A e \in Elevator :
+              /\ (PersonState[p].location = e /\ ElevatorState[e].floor /= PersonState[p].destination) => 
+                  /\ ElevatorState[e].direction = GetDirection[ElevatorState[e].floor, PersonState[p].destination]
+      /\ \A c \in ActiveElevatorCalls : PeopleWaiting[c.floor, c.direction] /= {} \* No ghost calls
+  
+  TemporalInvariant ==  \* Expectations about elevator system capabilities
+      /\ \A c \in ElevatorCall :  \* Every call is eventually serviced by an elevator
+          /\ c \in ActiveElevatorCalls ~> \E e \in Elevator : CanServiceCall[e, c]
+      /\ \A p \in Person :    \* If a person waits for their elevator, they'll eventually arrive at their floor
+          /\ PersonState[p].waiting ~> PersonState[p].location = PersonState[p].destination
+  
+  PickNewDestination(p) ==    \* Person decides they need to go to a different floor
+      LET pState == PersonState[p] IN
+      /\ ~pState.waiting
+      /\ pState.location \in Floor
+      /\ \E f \in Floor :
+          /\ f /= pState.location
+          /\ PersonState' = [PersonState EXCEPT ![p] = [@ EXCEPT !.destination = f]]
+      /\ UNCHANGED <<ActiveElevatorCalls, ElevatorState>>
+  
+  CallElevator(p) ==  \* Person calls the elevator to go in a certain direction from their floor
+      LET pState == PersonState[p] IN
+      LET call == [floor |-> pState.location, direction |-> GetDirection[pState.location, pState.destination]] IN
+      /\ ~pState.waiting
+      /\ pState.location /= pState.destination
+      /\ ActiveElevatorCalls' =
+          IF \E e \in Elevator :
+              /\ CanServiceCall[e, call]
+              /\ ElevatorState[e].doorsOpen
+          THEN ActiveElevatorCalls
+          ELSE ActiveElevatorCalls \cup {call}
+      /\ PersonState' = [PersonState EXCEPT ![p] = [@ EXCEPT !.waiting = TRUE]]
+      /\ UNCHANGED <<ElevatorState>>
+  
+  OpenElevatorDoors(e) == \* Open the elevator doors if there is a call on this floor or the button for this floor was pressed.
+      LET eState == ElevatorState[e] IN
+      /\ ~eState.doorsOpen
+      /\  \/ \E call \in ActiveElevatorCalls : CanServiceCall[e, call]
+          \/ eState.floor \in eState.buttonsPressed
+      /\ ElevatorState' = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.doorsOpen = TRUE, !.buttonsPressed = @ \ {eState.floor}]]
+      /\ ActiveElevatorCalls' = ActiveElevatorCalls \ {[floor |-> eState.floor, direction |-> eState.direction]}
+      /\ UNCHANGED <<PersonState>>
+      
+  EnterElevator(e) == \* All people on this floor who are waiting for the elevator and travelling the same direction enter the elevator.
+      LET eState == ElevatorState[e] IN
+      LET gettingOn == PeopleWaiting[eState.floor, eState.direction] IN
+      LET destinations == {PersonState[p].destination : p \in gettingOn} IN
+      /\ eState.doorsOpen
+      /\ eState.direction /= "Stationary"
+      /\ gettingOn /= {}
+      /\ PersonState' = [p \in Person |->
+          IF p \in gettingOn
+          THEN [PersonState[p] EXCEPT !.location = e]
+          ELSE PersonState[p]]
+      /\ ElevatorState' = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.buttonsPressed = @ \cup destinations]]
+      /\ UNCHANGED <<ActiveElevatorCalls>>
+  
+  ExitElevator(e) ==  \* All people whose destination is this floor exit the elevator.
+      LET eState == ElevatorState[e] IN
+      LET gettingOff == {p \in Person : PersonState[p].location = e /\ PersonState[p].destination = eState.floor} IN
+      /\ eState.doorsOpen
+      /\ gettingOff /= {}
+      /\ PersonState' = [p \in Person |->
+          IF p \in gettingOff
+          THEN [PersonState[p] EXCEPT !.location = eState.floor, !.waiting = FALSE]
+          ELSE PersonState[p]]
+      /\ UNCHANGED <<ActiveElevatorCalls, ElevatorState>>
+  
+  CloseElevatorDoors(e) ==    \* Close the elevator doors once all people have entered and exited the elevator on this floor.
+      LET eState == ElevatorState[e] IN
+      /\ ~ENABLED EnterElevator(e)
+      /\ ~ENABLED ExitElevator(e)
+      /\ eState.doorsOpen
+      /\ ElevatorState' = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.doorsOpen = FALSE]]
+      /\ UNCHANGED <<PersonState, ActiveElevatorCalls>>
+  
+  MoveElevator(e) ==  \* Move the elevator to the next floor unless we have to open the doors here.
+      LET eState == ElevatorState[e] IN
+      LET nextFloor == IF eState.direction = "Up" THEN eState.floor + 1 ELSE eState.floor - 1 IN
+      /\ eState.direction /= "Stationary"
+      /\ ~eState.doorsOpen
+      /\ eState.floor \notin eState.buttonsPressed
+      /\ \A call \in ActiveElevatorCalls : \* Can move only if other elevator servicing call
+          /\ CanServiceCall[e, call] =>
+              /\ \E e2 \in Elevator :
+                  /\ e /= e2
+                  /\ CanServiceCall[e2, call]
+      /\ nextFloor \in Floor
+      /\ ElevatorState' = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.floor = nextFloor]]
+      /\ UNCHANGED <<PersonState, ActiveElevatorCalls>>
+  
+  StopElevator(e) == \* Stops the elevator if it's moved as far as it can in one direction
+      LET eState == ElevatorState[e] IN
+      LET nextFloor == IF eState.direction = "Up" THEN eState.floor + 1 ELSE eState.floor - 1 IN
+      /\ ~ENABLED OpenElevatorDoors(e)
+      /\ ~eState.doorsOpen
+      /\ nextFloor \notin Floor
+      /\ ElevatorState' = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.direction = "Stationary"]]
+      /\ UNCHANGED <<PersonState, ActiveElevatorCalls>>
+  
+  (***************************************************************************)
+  (* This action chooses an elevator to service the call. The simple         *)
+  (* algorithm picks the closest elevator which is either stationary or      *)
+  (* already moving toward the call floor in the same direction as the call. *)
+  (* The system keeps no record of assigning an elevator to service a call.  *)
+  (* It is possible no elevator is able to service a call, but we are        *)
+  (* guaranteed an elevator will eventually become available.                *)
+  (***************************************************************************)
+  DispatchElevator(c) ==
+      LET stationary == {e \in Elevator : ElevatorState[e].direction = "Stationary"} IN
+      LET approaching == {e \in Elevator :
+          /\ ElevatorState[e].direction = c.direction
+          /\  \/ ElevatorState[e].floor = c.floor
+              \/ GetDirection[ElevatorState[e].floor, c.floor] = c.direction } IN
+      /\ c \in ActiveElevatorCalls
+      /\ stationary \cup approaching /= {}
+      /\ ElevatorState' = 
+          LET closest == CHOOSE e \in stationary \cup approaching :
+              /\ \A e2 \in stationary \cup approaching :
+                  /\ GetDistance[ElevatorState[e].floor, c.floor] <= GetDistance[ElevatorState[e2].floor, c.floor] IN
+          IF closest \in stationary
+          THEN [ElevatorState EXCEPT ![closest] = [@ EXCEPT !.floor = c.floor, !.direction = c.direction]]
+          ELSE ElevatorState
+      /\ UNCHANGED <<PersonState, ActiveElevatorCalls>>
+  
+  Init == \* Initializes people and elevators to arbitrary floors
+      /\ PersonState \in [Person -> [location : Floor, destination : Floor, waiting : {FALSE}]]
+      /\ ActiveElevatorCalls = {}
+      /\ ElevatorState \in [Elevator -> [floor : Floor, direction : {"Stationary"}, doorsOpen : {FALSE}, buttonsPressed : {{}}]]
+  
+  Next == \* The next-state relation
+      \/ \E p \in Person : PickNewDestination(p)
+      \/ \E p \in Person : CallElevator(p)
+      \/ \E e \in Elevator : OpenElevatorDoors(e)
+      \/ \E e \in Elevator : EnterElevator(e)
+      \/ \E e \in Elevator : ExitElevator(e)
+      \/ \E e \in Elevator : CloseElevatorDoors(e)
+      \/ \E e \in Elevator : MoveElevator(e)
+      \/ \E e \in Elevator : StopElevator(e)
+      \/ \E c \in ElevatorCall : DispatchElevator(c)
+  
+  TemporalAssumptions ==  \* Assumptions about how elevators and people will behave
+      /\ \A p \in Person : WF_Vars(CallElevator(p))
+      /\ \A e \in Elevator : WF_Vars(OpenElevatorDoors(e))
+      /\ \A e \in Elevator : WF_Vars(EnterElevator(e))
+      /\ \A e \in Elevator : WF_Vars(ExitElevator(e))
+      /\ \A e \in Elevator : SF_Vars(CloseElevatorDoors(e))
+      /\ \A e \in Elevator : SF_Vars(MoveElevator(e))
+      /\ \A e \in Elevator : WF_Vars(StopElevator(e))
+      /\ \A c \in ElevatorCall : SF_Vars(DispatchElevator(c))
+  
+  Spec == \* Initialize state with Init and transition with Next, subject to TemporalAssumptions
+      /\ Init
+      /\ [][Next]_Vars
+      /\ TemporalAssumptions
+  
+  THEOREM Spec => [](TypeInvariant /\ SafetyInvariant /\ TemporalInvariant)
+  
+  =============================================================================
+ related java latex ascii eclipse-editor isabelle aws azure alloy z-notation
+ summary TLA+ (pronounced as tee ell a plus, ) is a formal specification language developed by Leslie Lamport. It is used to design, model, document, and verify concurrent systems. TLA+ has been described as exhaustively-testable pseudocode, and its use likened to drawing blueprints for software systems; TLA is an acronym for Temporal Logic of Actions. For design and documentation, TLA+ fulfills the same purpose as informal technical specifications. However, TLA+ specifications are written in a formal language of logic and mathematics, and the precision of specifications written in this language is intended to uncover design flaws before system implementation is underway.Since TLA+ specifications are written in a formal language, they are amenable to finite model checking. The model checker finds all possible system behaviours up to some number of execution steps, and examines them for violations of desired invariance properties such as safety and liveness. TLA+ specifications use basic set theory to define safety (bad things won't happen) and temporal logic to define liveness (good things eventually happen). TLA+ is also used to write machine-checked proofs of correctness both for algorithms and mathematical theorems. The proofs are written in a declarative, hierarchical style independent of any single theorem prover backend. Both formal and informal structured mathematical proofs can be written in TLA+; the language is similar to LaTeX, and tools exist to translate TLA+ specifications to LaTeX documents.TLA+ was introduced in 1999, following several decades of research into a verification method for concurrent systems. A toolchain has since developed, including an IDE and distributed model checker. The pseudocode-like language PlusCal was created in 2009; it transpiles to TLA+ and is useful for specifying sequential algorithms. TLA+2 was announced in 2014, expanding language support for proof constructs. The current TLA+ reference is The TLA+ Hyperbook by Leslie Lamport.
+ backlinksCount 22
+ pageId 28752673
+ created 2004
+ revisionCount 203
+ dailyPageViews 167
+ appeared 1999
 
-startColumns 4
+githubLanguage TLA
+ fileExtensions tla
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.tla
+ repos 680
+githubBigQuery TLA
+ repos 89
+ users 85
 
-<div class="trueBaseThemeQuickLinks"><a href="https://lamport.azurewebsites.net/tla/learning.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/TLA+"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=tla" class="material-symbols-outlined">edit</a></div>
-
-* TLA is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999 by Leslie Lamport.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
- link ../lists/creators.html#leslieLamport Leslie Lamport
-
-dashboard
- #278 <span title="TotalRank: 673 Jobs: 103 Users: 530 Facts: 40 Links: 986">on PLDB</span>
- 25 Years Old
- 680 <span title="TLA repos on GitHub.">Repos</span>
-
-* TLA+ (pronounced as tee ell a plus, ) is a formal specification language developed by Leslie Lamport. It is used to design, model, document, and verify concurrent systems. TLA+ has been described as exhaustively-testable pseudocode, and its use likened to drawing blueprints for software systems; TLA is an acronym for Temporal Logic of Actions. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/TLA+ Read more on Wikipedia...
-
-- TLA Wikipedia page
- https://en.wikipedia.org/wiki/TLA+
-- TLA docs
- https://lamport.azurewebsites.net/tla/learning.html
-- There are at least 680 TLA repos on <a href="https://github.com/search?q=language:TLA">GitHub</a>
-- file extensions for TLA include tla
-- The  Google BigQuery Public Dataset GitHub snapshot shows 85 users using TLA in 89 repos on <a href="https://api.github.com/search/repositories?q=language:TLA">GitHub</a>
-- GitHub supports <a href="https://github.com/agentultra/TLAGrammar" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for TLA
-- See also: (9 related languages)<a href="java.html">Java</a>, <a href="latex.html">LaTeX</a>, <a href="ascii.html">ASCII</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="isabelle.html">Isabelle</a>, <a href="aws.html">AWS</a>, <a href="azure.html">Microsoft Azure</a>, <a href="alloy.html">Alloy</a>, <a href="z-notation.html">Z notation</a>
-- Read more about TLA on the web: 1.
- https://lamport.azurewebsites.net/tla/tla.html 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/agentultra/TLAGrammar'>Linguist</a>:
- --------------------------- MODULE AsyncInterface ---------------------------
- EXTENDS Naturals
- 
- CONSTANT Data
- VARIABLE chan
- 
- Values == &lt;&lt;&quot;foo&quot;, &quot;bar&quot;, &quot;baz&quot;&gt;&gt;
- 
- TypeInvariant == chan \in [val: Data, rdy: {0,1}, ack: {0,1}]
-                  
- Init == /\ TypeInvariant
-         /\ chan.ack = chan.rdy
+linguistGrammarRepo https://github.com/agentultra/TLAGrammar
+ firstCommit 2016
+ lastCommit 2017
+ committerCount 3
+ commitCount 15
+ sampleCount 2
+ example
+  --------------------------- MODULE AsyncInterface ---------------------------
+  EXTENDS Naturals
+  
+  CONSTANT Data
+  VARIABLE chan
+  
+  Values == <<"foo", "bar", "baz">>
+  
+  TypeInvariant == chan \in [val: Data, rdy: {0,1}, ack: {0,1}]
+                   
+  Init == /\ TypeInvariant
+          /\ chan.ack = chan.rdy
+          
+  Send(d) == /\ chan.rdy = chan.ack
+             /\ chan' = [chan EXCEPT !.val = d, !.rdy = 1 - @]
+          
+  Rcv == /\ chan.rdy # chan.ack
+         /\ chan' = [chan EXCEPT !.ack = 1 - @]
          
- Send(d) == /\ chan.rdy = chan.ack
-            /\ chan&#39; = [chan EXCEPT !.val = d, !.rdy = 1 - @]
-         
- Rcv == /\ chan.rdy # chan.ack
-        /\ chan&#39; = [chan EXCEPT !.ack = 1 - @]
-        
- Next == (\E d \in Data : Send(d)) \/ Rcv
- 
- Spec == Init /\ [][Next]_chan
- 
- THEOREM Spec =&gt; []TypeInvariant
- 
- =============================================================================
+  Next == (\E d \in Data : Send(d)) \/ Rcv
+  
+  Spec == Init /\ [][Next]_chan
+  
+  THEOREM Spec => []TypeInvariant
+  
+  =============================================================================
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/TLA+'>Wikipedia</a>:
- ------------------------------ MODULE Elevator ------------------------------
- (***************************************************************************)
- (* This spec describes a simple multi-car elevator system. The actions in  *)
- (* this spec are unsurprising and common to all such systems except for    *)
- (* DispatchElevator, which contains the logic to determine which elevator  *)
- (* ought to service which call. The algorithm used is very simple and does *)
- (* not optimize for global throughput or average wait time. The            *)
- (* TemporalInvariant definition ensures this specification provides        *)
- (* capabilities expected of any elevator system, such as people eventually *)
- (* reaching their destination floor.                                       *)
- (***************************************************************************)
- 
- EXTENDS     Integers
- 
- CONSTANTS   Person,     \* The set of all people using the elevator system
-             Elevator,   \* The set of all elevators
-             FloorCount  \* The number of floors serviced by the elevator system
- 
- VARIABLES   PersonState,            \* The state of each person
-             ActiveElevatorCalls,    \* The set of all active elevator calls
-             ElevatorState           \* The state of each elevator
- 
- Vars == \* Tuple of all specification variables
-     &lt;&lt;PersonState, ActiveElevatorCalls, ElevatorState&gt;&gt;
- 
- Floor ==    \* The set of all floors
-     1 .. FloorCount
- 
- Direction ==    \* Directions available to this elevator system
-     {&quot;Up&quot;, &quot;Down&quot;}
- 
- ElevatorCall == \* The set of all elevator calls
-     [floor : Floor, direction : Direction]
- 
- ElevatorDirectionState ==   \* Elevator movement state; it is either moving in a direction or stationary
-     Direction \cup {&quot;Stationary&quot;}
- 
- GetDistance[f1, f2 \in Floor] ==    \* The distance between two floors
-     IF f1 &gt; f2 THEN f1 - f2 ELSE f2 - f1
-     
- GetDirection[current, destination \in Floor] == \* Direction of travel required to move between current and destination floors
-     IF destination &gt; current THEN &quot;Up&quot; ELSE &quot;Down&quot;
- 
- CanServiceCall[e \in Elevator, c \in ElevatorCall] ==   \* Whether elevator is in position to immediately service call
-     LET eState == ElevatorState[e] IN
-     /\ c.floor = eState.floor
-     /\ c.direction = eState.direction
- 
- PeopleWaiting[f \in Floor, d \in Direction] ==  \* The set of all people waiting on an elevator call
-     {p \in Person :
-         /\ PersonState[p].location = f
-         /\ PersonState[p].waiting
-         /\ GetDirection[PersonState[p].location, PersonState[p].destination] = d}
- 
- TypeInvariant ==    \* Statements about the variables which we expect to hold in every system state
-     /\ PersonState \in [Person -&gt; [location : Floor \cup Elevator, destination : Floor, waiting : BOOLEAN]]
-     /\ ActiveElevatorCalls \subseteq ElevatorCall
-     /\ ElevatorState \in [Elevator -&gt; [floor : Floor, direction : ElevatorDirectionState, doorsOpen : BOOLEAN, buttonsPressed : SUBSET Floor]]
- 
- SafetyInvariant ==   \* Some more comprehensive checks beyond the type invariant
-     /\ \A e \in Elevator :  \* An elevator has a floor button pressed only if a person in that elevator is going to that floor
-         /\ \A f \in ElevatorState[e].buttonsPressed :
-             /\ \E p \in Person :
-                 /\ PersonState[p].location = e
-                 /\ PersonState[p].destination = f
-     /\ \A p \in Person :    \* A person is in an elevator only if the elevator is moving toward their destination floor
-         /\ \A e \in Elevator :
-             /\ (PersonState[p].location = e /\ ElevatorState[e].floor /= PersonState[p].destination) =&gt; 
-                 /\ ElevatorState[e].direction = GetDirection[ElevatorState[e].floor, PersonState[p].destination]
-     /\ \A c \in ActiveElevatorCalls : PeopleWaiting[c.floor, c.direction] /= {} \* No ghost calls
- 
- TemporalInvariant ==  \* Expectations about elevator system capabilities
-     /\ \A c \in ElevatorCall :  \* Every call is eventually serviced by an elevator
-         /\ c \in ActiveElevatorCalls ~&gt; \E e \in Elevator : CanServiceCall[e, c]
-     /\ \A p \in Person :    \* If a person waits for their elevator, they&#39;ll eventually arrive at their floor
-         /\ PersonState[p].waiting ~&gt; PersonState[p].location = PersonState[p].destination
- 
- PickNewDestination(p) ==    \* Person decides they need to go to a different floor
-     LET pState == PersonState[p] IN
-     /\ ~pState.waiting
-     /\ pState.location \in Floor
-     /\ \E f \in Floor :
-         /\ f /= pState.location
-         /\ PersonState&#39; = [PersonState EXCEPT ![p] = [@ EXCEPT !.destination = f]]
-     /\ UNCHANGED &lt;&lt;ActiveElevatorCalls, ElevatorState&gt;&gt;
- 
- CallElevator(p) ==  \* Person calls the elevator to go in a certain direction from their floor
-     LET pState == PersonState[p] IN
-     LET call == [floor |-&gt; pState.location, direction |-&gt; GetDirection[pState.location, pState.destination]] IN
-     /\ ~pState.waiting
-     /\ pState.location /= pState.destination
-     /\ ActiveElevatorCalls&#39; =
-         IF \E e \in Elevator :
-             /\ CanServiceCall[e, call]
-             /\ ElevatorState[e].doorsOpen
-         THEN ActiveElevatorCalls
-         ELSE ActiveElevatorCalls \cup {call}
-     /\ PersonState&#39; = [PersonState EXCEPT ![p] = [@ EXCEPT !.waiting = TRUE]]
-     /\ UNCHANGED &lt;&lt;ElevatorState&gt;&gt;
- 
- OpenElevatorDoors(e) == \* Open the elevator doors if there is a call on this floor or the button for this floor was pressed.
-     LET eState == ElevatorState[e] IN
-     /\ ~eState.doorsOpen
-     /\  \/ \E call \in ActiveElevatorCalls : CanServiceCall[e, call]
-         \/ eState.floor \in eState.buttonsPressed
-     /\ ElevatorState&#39; = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.doorsOpen = TRUE, !.buttonsPressed = @ \ {eState.floor}]]
-     /\ ActiveElevatorCalls&#39; = ActiveElevatorCalls \ {[floor |-&gt; eState.floor, direction |-&gt; eState.direction]}
-     /\ UNCHANGED &lt;&lt;PersonState&gt;&gt;
-     
- EnterElevator(e) == \* All people on this floor who are waiting for the elevator and travelling the same direction enter the elevator.
-     LET eState == ElevatorState[e] IN
-     LET gettingOn == PeopleWaiting[eState.floor, eState.direction] IN
-     LET destinations == {PersonState[p].destination : p \in gettingOn} IN
-     /\ eState.doorsOpen
-     /\ eState.direction /= &quot;Stationary&quot;
-     /\ gettingOn /= {}
-     /\ PersonState&#39; = [p \in Person |-&gt;
-         IF p \in gettingOn
-         THEN [PersonState[p] EXCEPT !.location = e]
-         ELSE PersonState[p]]
-     /\ ElevatorState&#39; = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.buttonsPressed = @ \cup destinations]]
-     /\ UNCHANGED &lt;&lt;ActiveElevatorCalls&gt;&gt;
- 
- ExitElevator(e) ==  \* All people whose destination is this floor exit the elevator.
-     LET eState == ElevatorState[e] IN
-     LET gettingOff == {p \in Person : PersonState[p].location = e /\ PersonState[p].destination = eState.floor} IN
-     /\ eState.doorsOpen
-     /\ gettingOff /= {}
-     /\ PersonState&#39; = [p \in Person |-&gt;
-         IF p \in gettingOff
-         THEN [PersonState[p] EXCEPT !.location = eState.floor, !.waiting = FALSE]
-         ELSE PersonState[p]]
-     /\ UNCHANGED &lt;&lt;ActiveElevatorCalls, ElevatorState&gt;&gt;
- 
- CloseElevatorDoors(e) ==    \* Close the elevator doors once all people have entered and exited the elevator on this floor.
-     LET eState == ElevatorState[e] IN
-     /\ ~ENABLED EnterElevator(e)
-     /\ ~ENABLED ExitElevator(e)
-     /\ eState.doorsOpen
-     /\ ElevatorState&#39; = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.doorsOpen = FALSE]]
-     /\ UNCHANGED &lt;&lt;PersonState, ActiveElevatorCalls&gt;&gt;
- 
- MoveElevator(e) ==  \* Move the elevator to the next floor unless we have to open the doors here.
-     LET eState == ElevatorState[e] IN
-     LET nextFloor == IF eState.direction = &quot;Up&quot; THEN eState.floor + 1 ELSE eState.floor - 1 IN
-     /\ eState.direction /= &quot;Stationary&quot;
-     /\ ~eState.doorsOpen
-     /\ eState.floor \notin eState.buttonsPressed
-     /\ \A call \in ActiveElevatorCalls : \* Can move only if other elevator servicing call
-         /\ CanServiceCall[e, call] =&gt;
-             /\ \E e2 \in Elevator :
-                 /\ e /= e2
-                 /\ CanServiceCall[e2, call]
-     /\ nextFloor \in Floor
-     /\ ElevatorState&#39; = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.floor = nextFloor]]
-     /\ UNCHANGED &lt;&lt;PersonState, ActiveElevatorCalls&gt;&gt;
- 
- StopElevator(e) == \* Stops the elevator if it&#39;s moved as far as it can in one direction
-     LET eState == ElevatorState[e] IN
-     LET nextFloor == IF eState.direction = &quot;Up&quot; THEN eState.floor + 1 ELSE eState.floor - 1 IN
-     /\ ~ENABLED OpenElevatorDoors(e)
-     /\ ~eState.doorsOpen
-     /\ nextFloor \notin Floor
-     /\ ElevatorState&#39; = [ElevatorState EXCEPT ![e] = [@ EXCEPT !.direction = &quot;Stationary&quot;]]
-     /\ UNCHANGED &lt;&lt;PersonState, ActiveElevatorCalls&gt;&gt;
- 
- (***************************************************************************)
- (* This action chooses an elevator to service the call. The simple         *)
- (* algorithm picks the closest elevator which is either stationary or      *)
- (* already moving toward the call floor in the same direction as the call. *)
- (* The system keeps no record of assigning an elevator to service a call.  *)
- (* It is possible no elevator is able to service a call, but we are        *)
- (* guaranteed an elevator will eventually become available.                *)
- (***************************************************************************)
- DispatchElevator(c) ==
-     LET stationary == {e \in Elevator : ElevatorState[e].direction = &quot;Stationary&quot;} IN
-     LET approaching == {e \in Elevator :
-         /\ ElevatorState[e].direction = c.direction
-         /\  \/ ElevatorState[e].floor = c.floor
-             \/ GetDirection[ElevatorState[e].floor, c.floor] = c.direction } IN
-     /\ c \in ActiveElevatorCalls
-     /\ stationary \cup approaching /= {}
-     /\ ElevatorState&#39; = 
-         LET closest == CHOOSE e \in stationary \cup approaching :
-             /\ \A e2 \in stationary \cup approaching :
-                 /\ GetDistance[ElevatorState[e].floor, c.floor] &lt;= GetDistance[ElevatorState[e2].floor, c.floor] IN
-         IF closest \in stationary
-         THEN [ElevatorState EXCEPT ![closest] = [@ EXCEPT !.floor = c.floor, !.direction = c.direction]]
-         ELSE ElevatorState
-     /\ UNCHANGED &lt;&lt;PersonState, ActiveElevatorCalls&gt;&gt;
- 
- Init == \* Initializes people and elevators to arbitrary floors
-     /\ PersonState \in [Person -&gt; [location : Floor, destination : Floor, waiting : {FALSE}]]
-     /\ ActiveElevatorCalls = {}
-     /\ ElevatorState \in [Elevator -&gt; [floor : Floor, direction : {&quot;Stationary&quot;}, doorsOpen : {FALSE}, buttonsPressed : {{}}]]
- 
- Next == \* The next-state relation
-     \/ \E p \in Person : PickNewDestination(p)
-     \/ \E p \in Person : CallElevator(p)
-     \/ \E e \in Elevator : OpenElevatorDoors(e)
-     \/ \E e \in Elevator : EnterElevator(e)
-     \/ \E e \in Elevator : ExitElevator(e)
-     \/ \E e \in Elevator : CloseElevatorDoors(e)
-     \/ \E e \in Elevator : MoveElevator(e)
-     \/ \E e \in Elevator : StopElevator(e)
-     \/ \E c \in ElevatorCall : DispatchElevator(c)
- 
- TemporalAssumptions ==  \* Assumptions about how elevators and people will behave
-     /\ \A p \in Person : WF_Vars(CallElevator(p))
-     /\ \A e \in Elevator : WF_Vars(OpenElevatorDoors(e))
-     /\ \A e \in Elevator : WF_Vars(EnterElevator(e))
-     /\ \A e \in Elevator : WF_Vars(ExitElevator(e))
-     /\ \A e \in Elevator : SF_Vars(CloseElevatorDoors(e))
-     /\ \A e \in Elevator : SF_Vars(MoveElevator(e))
-     /\ \A e \in Elevator : WF_Vars(StopElevator(e))
-     /\ \A c \in ElevatorCall : SF_Vars(DispatchElevator(c))
- 
- Spec == \* Initialize state with Init and transition with Next, subject to TemporalAssumptions
-     /\ Init
-     /\ [][Next]_Vars
-     /\ TemporalAssumptions
- 
- THEOREM Spec =&gt; [](TypeInvariant /\ SafetyInvariant /\ TemporalInvariant)
- 
- =============================================================================
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-endColumns
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Specifying Systems: The TLA+ Language and Tools for Hardware and Software Engineers|2002|Leslie Lamport|2164642|4.10|21|2
+ Practical Tla+: Design-Driven Programming||Hillel Wayne|63014032|4.50|2|0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token TRUE FALSE
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (* *)
-  Example
-   (* A comment
-   *)
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   \* A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token \*
-  Example
-   \* A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav symbol.html yara.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 20181011|Springer Nature|Practical TLA|Hillel Wayne|9781484238295

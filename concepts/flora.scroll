@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Flora
+import ../measures/conceptPage.scroll
+id Flora
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/6e627842de1712e960c3289af9894ee75f404d13
+country France
+originCommunity National Institute for Research in Digital Science and Technology
 
-title Flora - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2836
 
-html
- <a class="trueBaseThemePreviousItem" href="flexbuffers.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="foogol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flora.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=flora" class="material-symbols-outlined">edit</a></div>
-
-* Flora is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3666 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- Flora first developed in <a href="../lists/originCommunities.html#nationalInstituteForResearchInDigitalScienceAndTechnology">National Institute for Research in Digital Science and Technology</a>
-- Flora on HOPL
- https://hopl.info/showlanguage.prx?exp=2836
-- Read more about Flora on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6e627842de1712e960c3289af9894ee75f404d13 1.
-
-<br>
-
-endColumns
-
-keyboardNav flexbuffers.html foogol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

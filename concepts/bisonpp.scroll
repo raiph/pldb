@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bison++
+import ../measures/conceptPage.scroll
+id Bison++
+appeared 1998
+type grammarLanguage
+reference http://www.kohsuke.org/flex++bison++/
+country United States
 
-title Bison++ - Grammar language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4654
 
-html
- <a class="trueBaseThemePreviousItem" href="axcess.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blade-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bisonpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bisonpp" class="material-symbols-outlined">edit</a></div>
-
-* Bison++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3362 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Bison++ on HOPL
- https://hopl.info/showlanguage.prx?exp=4654
-- Read more about Bison++ on the web: 1.
- http://www.kohsuke.org/flex++bison++/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav axcess.html blade-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lucid representations
+import ../measures/conceptPage.scroll
+id Lucid representations
+appeared 1991
+type pl
+reference https://cs.nyu.edu/media/publications/TR1995-714.pdf
+reference https://semanticscholar.org/paper/31983782c4c2d558f7256080b96e38bd42e6910f
+country United States
+originCommunity Courant Institute
 
-title Lucid representations - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6832
 
-html
- <a class="trueBaseThemePreviousItem" href="lore.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lygon.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lucid-representations.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lucid-representations" class="material-symbols-outlined">edit</a></div>
-
-* Lucid representations is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4209 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Lucid representations first developed in <a href="../lists/originCommunities.html#courantInstitute">Courant Institute</a>
-- Lucid representations on HOPL
- https://hopl.info/showlanguage.prx?exp=6832
-- Read more about Lucid representations on Semantic Scholar: 1.
- https://semanticscholar.org/paper/31983782c4c2d558f7256080b96e38bd42e6910f 1.
-- Read more about Lucid representations on the web: 1.
- https://cs.nyu.edu/media/publications/TR1995-714.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav lore.html lygon.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

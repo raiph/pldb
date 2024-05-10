@@ -1,173 +1,49 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title C2
+import ../measures/conceptPage.scroll
+id C2
+appeared 2012
+type pl
+creators Bas van den Berg
+website http://www.c2lang.org/
+country The Netherlands
+domainName c2lang.org
+ registered 2012
 
-title C2 - Programming language
- hidden
+relatedConcepts c c3
 
-html
- <a class="trueBaseThemePreviousItem" href="helang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="speedcoding.html">&gt;</a>
+hasAccessModifiers true
+hasAssignment true
+hasBinaryOperators true
+hasBitWiseOperators true
+hasBlobs false
+hasBooleans true
+hasBreak true
+hasBuiltInRegex false
+hasCaseInsensitiveIdentifiers false
+hasClasses false
+hasComments true
+hasConditionals true
+hasConstants true
+hasConstructors false
+hasContinue true
+hasDirectives true
+hasEnums true
+hasStructs true
+hasStrings true
+hasUnionTypes true
+hasUnaryOperators true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/c2.pldb
+githubRepo https://github.com/c2lang/c2compiler
+ firstCommit 2013
+ stars 618
+ forks 45
+ subscribers 44
+ created 2013
+ updated 2022
+ description the C2 programming language
+ issues 16
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.c2lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/c2lang/c2compiler" class="material-symbols-outlined">code</a> <a href="/edit.html?id=c2" class="material-symbols-outlined">edit</a></div>
-
-* C2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Bas van den Berg.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#basVanDenBerg Bas van den Berg
-
-codeWithHeader Source code:
- git clone https://github.com/c2lang/c2compiler
-
-dashboard
- #853 <span title="TotalRank: 1417 Jobs: 103 Users: 647 Facts: 736 Links: 667">on PLDB</span>
- 12 Years Old
-
-* the C2 programming language
-
-- C2 website
- http://www.c2lang.org/
-- C2 is developed on <a href="https://github.com/c2lang/c2compiler">GitHub</a> and has 618 stars
-- <a href="http://www.c2lang.org/">c2lang.org</a> was registered in 2012
-- See also: (2 related languages)<a href="c.html">C</a>, <a href="c3.html">C3</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Unary Operators
-  FeatureLink ../features/hasUnaryOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Union Types
-  FeatureLink ../features/hasUnionTypes.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Structs
-  FeatureLink ../features/hasStructs.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Enums
-  FeatureLink ../features/hasEnums.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Directives
-  FeatureLink ../features/hasDirectives.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature hasContinue
-  FeatureLink ../features/hasContinue.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Constants
-  FeatureLink ../features/hasConstants.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature hasBreak
-  FeatureLink ../features/hasBreak.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Bitwise Operators
-  FeatureLink ../features/hasBitWiseOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Binary Operators
-  FeatureLink ../features/hasBinaryOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Access Modifiers
-  FeatureLink ../features/hasAccessModifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Constructors
-  FeatureLink ../features/hasConstructors.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Classes
-  FeatureLink ../features/hasClasses.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature hasBuiltInRegex
-  FeatureLink ../features/hasBuiltInRegex.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature hasBlobs
-  FeatureLink ../features/hasBlobs.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav helang.html speedcoding.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 1343
+ committers 18
+ files 1291

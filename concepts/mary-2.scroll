@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mary/2
+import ../measures/conceptPage.scroll
+id Mary/2
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/8b32b46d71095dfe0a005ba7fe146532d09bb58d
+country United States
+originCommunity Penobscot Research Center
 
-title Mary/2 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5980
 
-html
- <a class="trueBaseThemePreviousItem" href="marlais.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="masim.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mary-2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mary-2" class="material-symbols-outlined">edit</a></div>
-
-* Mary/2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3810 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Mary/2 first developed in <a href="../lists/originCommunities.html#penobscotResearchCenter">Penobscot Research Center</a>
-- Mary/2 on HOPL
- https://hopl.info/showlanguage.prx?exp=5980
-- Read more about Mary/2 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8b32b46d71095dfe0a005ba7fe146532d09bb58d 1.
-
-<br>
-
-endColumns
-
-keyboardNav marlais.html masim.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

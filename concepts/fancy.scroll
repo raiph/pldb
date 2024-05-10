@@ -1,102 +1,78 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fancy
+import ../measures/conceptPage.scroll
+id Fancy
+appeared 2010
+type pl
+website http://www.fancy-lang.org/
+country Germany
+originCommunity https://github.com/bakkdoor/fancy/issues
+domainName fancy-lang.org
+ registered 2010
 
-title Fancy - Programming language
- hidden
+hasComments true
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasFloats true
+hasIntegers true
+hasLineComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="carth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="meson.html">&gt;</a>
+printToken println
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fancy.pldb
+githubRepo https://github.com/bakkdoor/fancy
+ firstCommit 2010
+ stars 260
+ forks 25
+ subscribers 14
+ created 2010
+ updated 2022
+ description Fancy is a dynamic, object-oriented programming language inspired by Smalltalk, Ruby, Io and Erlang that runs on the Rubinius VM.
+ issues 5
 
-startColumns 4
+repoStats
+ firstCommit 2010
+ commits 2993
+ committers 17
+ files 332
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.fancy-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/bakkdoor/fancy" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/Fancy_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=fancy" class="material-symbols-outlined">edit</a></div>
+wikipedia https://en.wikipedia.org/wiki/Fancy_(programming_language)
 
-* Fancy is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
+githubLanguage Fancy
+ fileExtensions fy fancypack
+ trendingProjectsCount 0
+ type programming
+ filenames Fakefile
+ aceMode text
+ tmScope source.fancy
+ repos 27
+githubBigQuery Fancy
+ repos 113
+ users 108
 
-codeWithHeader Source code:
- git clone https://github.com/bakkdoor/fancy
+pygmentsHighlighter Fancy
+ filename ruby.py
+ fileExtensions fy fancypack
+linguistGrammarRepo https://github.com/fancy-lang/fancy-tmbundle
+ firstCommit 2010
+ lastCommit 2017
+ committerCount 6
+ commitCount 37
 
-dashboard
- #744 <span title="TotalRank: 1309 Jobs: 103 Users: 731 Facts: 475 Links: 986">on PLDB</span>
- 14 Years Old
- 27 <span title="Fancy repos on GitHub.">Repos</span>
+leachim6 Fancy
+ filepath f/Fancy.fy
+ fileExtensions fy
+ example
+  "Hello World" println 
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Fancy
 
-* Fancy is a dynamic, object-oriented programming language inspired by Smalltalk, Ruby, Io and Erlang that runs on the Rubinius VM.
+fileType text
+wordRank 6823
+isOpenSource true
+centralPackageRepositoryCount 0
 
-- Fancy website
- http://www.fancy-lang.org/
-- Fancy Wikipedia page
- https://en.wikipedia.org/wiki/Fancy_(programming_language)
-- Fancy is developed on <a href="https://github.com/bakkdoor/fancy">GitHub</a> and has 260 stars
-- There are at least 27 Fancy repos on <a href="https://github.com/search?q=language:Fancy">GitHub</a>
-- Fancy first developed in <a href="../lists/originCommunities.html#httpsGithubComBakkdoorFancyIssues">https://github.com/bakkdoor/fancy/issues</a>
-- file extensions for Fancy include fy and fancypack
-- The  Google BigQuery Public Dataset GitHub snapshot shows 108 users using Fancy in 113 repos on <a href="https://api.github.com/search/repositories?q=language:Fancy">GitHub</a>
-- Explore Fancy snippets on <a href="http://www.rosettacode.org/wiki/Category:Fancy">Rosetta Code</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ruby.py">syntax highlighting</a> for Fancy
-- GitHub supports <a href="https://github.com/fancy-lang/fancy-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Fancy
-- <a href="http://www.fancy-lang.org/">fancy-lang.org</a> was registered in 2010
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/f/Fancy.fy'>hello-world</a>:
- &quot;Hello World&quot; println 
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav carth.html meson.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 1984|Reston Pub. Co|Fancy Programming In Ibm Pc Basic|Gabriel Cuellar|9780835918602
+ 1984|Workman Publishing Company|Digital Deli: The Comprehensive, User-Lovable Menu of Computer Lore, Culture, Lifestyles and Fancy|Lunch Group|9780894805912

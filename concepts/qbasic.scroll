@@ -1,97 +1,85 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title QBasic
+import ../measures/conceptPage.scroll
+id QBasic
+appeared 1991
+type pl
+documentation https://hwiegman.home.xs4all.nl/qbasic3.html
+standsFor Quick Beginners All purpose Symbolic Instruction Code
+country United States
+originCommunity Microsoft
 
-title QBasic - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
+hasFloats true
+hasIntegers true
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="sass.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="si.html">&gt;</a>
+printToken PRINT
+stringToken "
+keywords ACCESS ALIAS ANY APPEND AS BASE BINARY BYVAL CASE CDECL DOUBLE ELSE ELSEIF ENDIF INTEGER IS LIST LOCAL LONG LOOP MOD NEXT OFF ON OUTPUT RANDOM SIGNAL SINGLE STEP STRING THEN TO UNTIL USING WEND
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/qbasic.pldb
+wikipedia https://en.wikipedia.org/wiki/QBasic
+ related quickbasic gw-basic qb64 microsoft-small-basic linux freebsd
+ summary QBasic (Quick Beginners All purpose Symbolic Instruction Code) is an IDE and interpreter for a variety of the BASIC programming language which is based on QuickBASIC. Code entered into the IDE is compiled to an intermediate representation, and this IR is immediately interpreted on demand within the IDE. It can run under nearly all versions of DOS and 32-bit versions of Windows, or through emulation via DOSBox/DOSEMU on Linux, FreeBSD, and 64-bit versions of Windows. (QBasic is a DOS program and requires DOS or a DOS emulator. Windows XP comes with an emulator called DOS Virtual Machine, subsequent versions of Windows require an emulator such as DosBox.) For its time, QBasic provided a state-of-the-art IDE, including a debugger with features such as on-the-fly expression evaluation and code modification. It supports various inbuilt functions. Like QuickBASIC, but unlike earlier versions of Microsoft BASIC, QBasic is a structured programming language, supporting constructs such as subroutines and while loops. Line numbers, a concept often associated with BASIC, are supported for compatibility, but are not considered good form, having been replaced by descriptive line labels. QBasic has limited support for user-defined data types (structures), and several primitive types used to contain strings of text or numeric data.
+ pageId 23712097
+ dailyPageViews 378
+ created 2001
+ backlinksCount 385
+ revisionCount 921
+ appeared 1991
 
-startColumns 4
+pygmentsHighlighter QBasic
+ filename basic.py
+ fileExtensions BAS bas
 
-<div class="trueBaseThemeQuickLinks"><a href="https://repl.it/languages/qbasic" class="material-symbols-outlined">terminal</a> <a href="https://hwiegman.home.xs4all.nl/qbasic3.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/QBasic"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=qbasic" class="material-symbols-outlined">edit</a></div>
+leachim6 QBasic
+ filepath q/QBasic.bas
+ fileExtensions bas
+ example
+  
+  PRINT "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:QBasic
 
-* QBasic, aka Quick Beginners All purpose Symbolic Instruction Code, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
+replit https://repl.it/languages/qbasic
 
-dashboard
- #228 <span title="TotalRank: 586 Jobs: 103 Users: 370 Facts: 421 Links: 113">on PLDB</span>
- 33 Years Old
+fileType text
+isOpenSource false
+centralPackageRepositoryCount 0
 
-* Try now: <a href="https://repl.it/languages/qbasic">Replit</a>
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ QBASIC Programming for Dummies|1994|Douglas Hergert|223808|4.33|6|1
+ QBASIC Programming|1991|Peter Norton|2177275|4.00|1|0
 
-* QBasic (Quick Beginners All purpose Symbolic Instruction Code) is an IDE and interpreter for a variety of the BASIC programming language which is based on QuickBASIC. Code entered into the IDE is compiled to an intermediate representation, and this IR is immediately interpreted on demand within the IDE. It can run under nearly all versions of DOS and 32-bit versions of Windows, or through emulation via DOSBox/DOSEMU on Linux, FreeBSD, and 64-bit versions of Windows. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/QBasic Read more on Wikipedia...
+isbndb 26
+ year|publisher|title|authors|isbn13
+ 1993|Que Publishing|QBasic By Example, Special Edition|Que Publishing|9781565294394
+ 1995|Irwin Professional Publishing|Quickbasic and Qbasic Using Modular Structure Alternate Edition With Visual Basic|Bradley, Julia Case|9780256207972
+ 1998|Prentice Hall|QBASIC with an Introduction to Visual BASIC 5.0 (4th Edition)|Schneider, David I.|9780139738760
+ 1994|Harpercollins College Div|Structured Programming With Microsoft Qbasic|Larry Joel Goldstein|9780065018387
+ 1994|Que Pub|Qbasic by Example (Programming Series)|Perry, Greg M.|9781565294547
+ 1994|For Dummies|QBasic Programming for Dummies|Hergert, Douglas|9781568840932
+ 2009-12-15T00:00:01Z|lulu.com|A course in programming with QBASIC|Hawken, Tony|9781445240695
+ 1991|Que Pub|Using Qbasic|Feldman, Phil and Rugg, Tom|9780880227131
+ 1994|Dellen Pub Co|A Brief Course in QBASIC with An Introduction to Visual BASIC (2nd Edition)|Schneider, David I.|9780024077417
+ 1995|Harpercollins College Div|Fundamentals of Qbasic Programming: Problem Solving and Application Development|Nickerson, Robert C.|9780673993786
+ 1994-06-01T00:00:01Z|Boyd & Fraser Pub Co|Complete Computer Concepts and Programming in Microsoft Qbasic (Shelly Cashman Series)|Shelly, Gary B. and Cashman, Thomas J. and Waggoner, Gloria A.|9780877096559
+ 1993|Que|Crash course in QBasic (Programming series)|Perry, Greg M.|9781565291652
+ 1991|Sams|Qbasic Programming|David I. Schneider|9780136587668
+ 1993|Sams|Qbasic Programming 101|Perry and Greg|9780672302817
+ 1994|Diane Pub Co|Qbasic Programming For Dummies|Douglas Hergert|9780788156724
+ 1994|Mis Pr|Teach Yourself Qbasic|Chuck Butkus|9781558283411
+ 1992|Que|Qbasic By Example|Greg M. Perry|9780880228114
+ 1993/02/25|Longman|QBASIC Programming: Structured Applications|Robert C. Nickerson|9780065013450
+ 1994|Que Pub|Easy Programming With Qbasic|Tory Stephen Toupin|9781565299955
+ 1993|West Pub. Co|Introduction To Programming In Qbasic|Susan K Baumann|9780314025371
+ 1996|Cengage Learning|Qbasic An Introduction To Programming|Gary B. Shelly and Thomas J. Cashman and Kevin M. Gleason|9780789503848
+ 1993|Harpercollins College Div|Structured Programming With Microsoft Qbasic|Larry Joel Goldstein|9780065018394
+ 1991|Brady|Qbasic Programming (peter Norton Programming Series)|David I. Schneider|9780136630227
+ 1999|Prentice Hall|Programming In Qbasic For Engineering Technology|Kenneth Craven|9780136227489
+ 1997|Hello World Pub|Hello Program Design: Introduction To Programming With Qbasic & Flowcharts|Janet E. Joy|9780964816046
+ 1993|Business One Irwin Computer|Ibm Pc And Compatibles: An Introduction To The Operating System, Qbasic Programming, And Applications|Larry Joel Goldstein|9781556239069
 
-- QBasic Wikipedia page
- https://en.wikipedia.org/wiki/QBasic
-- QBasic docs
- https://hwiegman.home.xs4all.nl/qbasic3.html
-- QBasic first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- file extensions for QBasic include BAS and bas
-- Explore QBasic snippets on <a href="http://www.rosettacode.org/wiki/Category:QBasic">Rosetta Code</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/basic.py">syntax highlighting</a> for QBasic
-- See also: (6 related languages)<a href="quickbasic.html">QuickBASIC</a>, <a href="gw-basic.html">GW-BASIC</a>, <a href="qb64.html">QB64</a>, <a href="microsoft-small-basic.html">Microsoft Small Basic</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/q/QBasic.bas'>hello-world</a>:
- 
- PRINT &quot;Hello World&quot;
- 
-
-<div class="keywordsBlock">
-codeWithHeader QBasic <a href="../lists/keywords.html?filter=qbasic">Keywords</a>
- ACCESS ALIAS ANY APPEND AS BASE BINARY BYVAL CASE CDECL DOUBLE ELSE ELSEIF ENDIF INTEGER IS LIST LOCAL LONG LOOP MOD NEXT OFF ON OUTPUT RANDOM SIGNAL SINGLE STEP STRING THEN TO UNTIL USING WEND
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token PRINT
-  Example
-
-keyboardNav sass.html si.html
-
-import ../footer.scroll
+semanticScholar 0

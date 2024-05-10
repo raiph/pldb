@@ -1,76 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pointless
+import ../measures/conceptPage.scroll
+id pointless
+appeared 2020
+type pl
+creators Avery N. Nortonsmith
+website https://ptls.dev/
+reference https://news.ycombinator.com/item?id=22838255
+country United States
+originCommunity https://github.com/pointless-lang
+domainName ptls.dev
 
-title pointless - Programming language
- hidden
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="ldpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ld-json.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pointless.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ptls.dev/" class="material-symbols-outlined">home</a> <a href="https://ptls.dev/online" class="material-symbols-outlined">terminal</a> <a href="https://github.com/pointless-lang/pointless" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pointless" class="material-symbols-outlined">edit</a></div>
-
-* pointless is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Avery N. Nortonsmith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#averyNNortonsmith Avery N. Nortonsmith
-
-codeWithHeader Source code:
- git clone https://github.com/pointless-lang/pointless
-
-dashboard
- #1389 <span title="TotalRank: 1921 Jobs: 103 Users: 1302 Facts: 832 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://tio.run/#https://ptls.dev/online">TIO</a>
-
-* Pointless: a scripting language for learning and fun
-
-- pointless website
- https://ptls.dev/
-- pointless is developed on <a href="https://github.com/pointless-lang/pointless">GitHub</a> and has 121 stars
-- pointless first developed in <a href="../lists/originCommunities.html#httpsGithubComPointlessLang">https://github.com/pointless-lang</a>
-- file extensions for pointless include ptls
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/pointless.py">syntax highlighting</a> for pointless
-- Read more about pointless on the web: 1.
- https://news.ycombinator.com/item?id=22838255 1.
-
-<br>
-
-codeWithHeader Example from the web:
- import &quot;chart.ptls&quot; as chart
+example
+ import "chart.ptls" as chart
   
  output =
    iterate(collatzStep, 175)
-   |&gt; takeWhile(greaterThan(1))
-   |&gt; chart.scale(8)
-   |&gt; println
+   |> takeWhile(greaterThan(1))
+   |> chart.scale(8)
+   |> println
  
  collatzStep(n) =
    if n % 2 == 0 then n / 2 else n * 3 + 1
 
-endColumns
+githubRepo https://github.com/pointless-lang/pointless
+ firstCommit 2020
+ stars 121
+ forks 8
+ subscribers 6
+ created 2020
+ updated 2022
+ description Pointless: a scripting language for learning and fun
+ issues 6
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2020
+ commits 108
+ committers 6
+ files 81
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
+pygmentsHighlighter Pointless
+ filename pointless.py
+ fileExtensions ptls
 
-keyboardNav ldpl.html ld-json.html
-
-import ../footer.scroll
+tryItOnline https://ptls.dev/online

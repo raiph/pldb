@@ -1,125 +1,86 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Coconut
+import ../measures/conceptPage.scroll
+id Coconut
+appeared 2014
+type pl
+website http://coconut-lang.org/
+webRepl https://cs121-team-panda.github.io/coconut-interpreter/
+reference https://news.ycombinator.com/item?id=23759721
+country Various
+originCommunity http://coconut-lang.org
+domainName coconut-lang.org
+ registered 2016
+ awisRank
+  2017 4032050
 
-title Coconut - Programming language
- hidden
+compilesTo python
+writtenIn python
 
-html
- <a class="trueBaseThemePreviousItem" href="objective-j.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clipper.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coconut.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://coconut-lang.org/" class="material-symbols-outlined">home</a> <a href="https://cs121-team-panda.github.io/coconut-interpreter/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/evhub/coconut" class="material-symbols-outlined">code</a> <a href="/edit.html?id=coconut" class="material-symbols-outlined">edit</a></div>
-
-* Coconut is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/evhub/coconut
-
-dashboard
- #323 <span title="TotalRank: 754 Jobs: 103 Users: 238 Facts: 413 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Try now: <a href="https://cs121-team-panda.github.io/coconut-interpreter/">Web</a> · <a href="https://riju.codes/coconut">Riju</a> · <a href="https://tio.run/#coconut">TIO</a>
-
-* Simple, elegant, Pythonic functional programming.
-
-- Coconut website
- http://coconut-lang.org/
-- Coconut is developed on <a href="https://github.com/evhub/coconut">GitHub</a> and has 3,495 stars
-- Coconut first developed in <a href="../lists/originCommunities.html#httpCoconutLangOrg">http://coconut-lang.org</a>
-- Coconut compiles to <a href="python.html">Python</a>
-- Coconut is written in <a href="python.html">Python</a>
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="http://coconut-lang.org/">Kernel</a> for Coconut
-- <a href="http://coconut-lang.org/">coconut-lang.org</a> was registered in 2016
-- Read more about Coconut on the web: 1.
- https://news.ycombinator.com/item?id=23759721 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/coconut'>Riju</a>:
- print(&quot;Hello, world!&quot;)
+hasPatternMatching true
+ match [head] + tail in [0, 1, 2, 3]:
+    print(head, tail)
+hasInfixNotation true
+ 5 `mod` 3 == 2
+hasAnonymousFunctions true
+ x -> x ** 2
+hasDestructuring true
+ {"list": [0] + rest} = {"list": [0, 1, 2, 3]}
+hasFunctionComposition true
+ (f..g..h)(x, y, z)
+hasAlgebraicTypes true
+ data Empty()
+ data Leaf(n)
+ data Node(l, r)
  
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Coconut.coc'>hello-world</a>:
- &quot;Hello World&quot; |&gt; print
+ def size(Empty()) = 0
  
+ addpattern def size(Leaf(n)) = 1
+ 
+ addpattern def size(Node(l, r)) = size(l) + size(r)
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-endColumns
+printToken print
+stringToken "
 
-## Language <a href="../lists/features.html">features</a>
+githubRepo https://github.com/evhub/coconut
+ stars 3495
+ forks 104
+ subscribers 63
+ created 2014
+ updated 2022
+ firstCommit 2014
+ description Simple, elegant, Pythonic functional programming.
+ issues 71
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Algebraic Data Type
-  FeatureLink ../features/hasAlgebraicTypes.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   data Empty()
-   data Leaf(n)
-   data Node(l, r)
-   
-   def size(Empty()) = 0
-   
-   addpattern def size(Leaf(n)) = 1
-   
-   addpattern def size(Node(l, r)) = size(l) + size(r)
- row
-  Feature Function Composition
-  FeatureLink ../features/hasFunctionComposition.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (f..g..h)(x, y, z)
- row
-  Feature Destructuring
-  FeatureLink ../features/hasDestructuring.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   {"list": [0] + rest} = {"list": [0, 1, 2, 3]}
- row
-  Feature Anonymous Functions
-  FeatureLink ../features/hasAnonymousFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   x -> x ** 2
- row
-  Feature Infix Notation
-  FeatureLink ../features/hasInfixNotation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   5 `mod` 3 == 2
- row
-  Feature Pattern Matching
-  FeatureLink ../features/hasPatternMatching.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   match [head] + tail in [0, 1, 2, 3]:
-      print(head, tail)
+repoStats
+ firstCommit 2014
+ commits 4855
+ committers 34
+ files 89
 
-keyboardNav objective-j.html clipper.html
+leachim6 Coconut
+ filepath c/Coconut.coc
+ fileExtensions coc
+ example
+  "Hello World" |> print
+  
 
-import ../footer.scroll
+rijuRepl https://riju.codes/coconut
+ example
+  print("Hello, world!")
+  
+ description Simple, elegant, Pythonic functional programming
+ fileExtensions coco
+ website https://coconut-lang.org/
+ gitRepo https://github.com/evhub/coconut
+tryItOnline coconut
+
+jupyterKernel http://coconut-lang.org/
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0
+
+semanticScholar 0

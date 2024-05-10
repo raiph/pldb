@@ -1,50 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mimix-stream-language
+import ../measures/conceptPage.scroll
+id mimix-stream-language
+appeared 2018
+type pl
+creators Rommel MARTINEZ
+conceptDescription MSL is built from Lisp style s-expressions. MSL differs from Lisp in the way it processes functions and arguments, so Lisp expressions cannot be directly included inside MSL nor vice-versa. MSL code can only contain other MSL.
+website https://mimix.io/dev/msl
+reference https://mimix.io/wp-content/uploads/2020/01/MSL-Specifications-2020.pdf
+aka msl
+country United States
+originCommunity https://github.com/themimixcompany
 
-title mimix-stream-language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="strat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="brightscript-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mimix-stream-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mimix.io/dev/msl" class="material-symbols-outlined">home</a> <a href="https://github.com/themimixcompany/msl-engine" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mimix-stream-language" class="material-symbols-outlined">edit</a></div>
-
-* mimix-stream-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Rommel MARTINEZ.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#rommelMartinez Rommel MARTINEZ
-
-codeWithHeader Source code:
- git clone https://github.com/themimixcompany/msl-engine
-
-dashboard
- #1727 <span title="TotalRank: 2248 Jobs: 103 Users: 2402 Facts: 1159 Links: 986">on PLDB</span>
- 6 Years Old
-
-* MSL is built from Lisp style s-expressions. MSL differs from Lisp in the way it processes functions and arguments, so Lisp expressions cannot be directly included inside MSL nor vice-versa. MSL code can only contain other MSL.
-
-- mimix-stream-language website
- https://mimix.io/dev/msl
-- mimix-stream-language is developed on <a href="https://github.com/themimixcompany/msl-engine">GitHub</a> and has 1 stars
-- mimix-stream-language first developed in <a href="../lists/originCommunities.html#httpsGithubComThemimixcompany">https://github.com/themimixcompany</a>
-- Read more about mimix-stream-language on the web: 1.
- https://mimix.io/wp-content/uploads/2020/01/MSL-Specifications-2020.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (@lonely-planet Lonely Planet (@Hawaii)
  (@intro The goddess (@Pele) …)
  (@chapter 1 (@p1 When the ancient (@Hawaii Hawaiians)…) (@p2 ...))
  (@chapter 2 …)))
 
-endColumns
+githubRepo https://github.com/themimixcompany/msl-engine
+ firstCommit 2019
+ stars 1
+ forks 0
+ subscribers 3
+ created 2019
+ updated 2021
+ description MSL Engine
+ issues 0
 
-keyboardNav strat.html brightscript-lang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 1371
+ committers 2
+ files 36

@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title english-programming-language
+import ../measures/conceptPage.scroll
+id english-programming-language
+appeared 1973
+type pl
+reference https://en.wikipedia.org/wiki/Microdata_Corporation
+country United States
+originCommunity Microdata Corporation
 
-title english-programming-language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="elastic-query-dsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="esp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/english-programming-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=english-programming-language" class="material-symbols-outlined">edit</a></div>
-
-* english-programming-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3379 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- english-programming-language first developed in <a href="../lists/originCommunities.html#microdataCorporation">Microdata Corporation</a>
-- Read more about english-programming-language on the web: 1.
- https://en.wikipedia.org/wiki/Microdata_Corporation 1.
-
-<br>
-
-endColumns
-
-keyboardNav elastic-query-dsl.html esp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

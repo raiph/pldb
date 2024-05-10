@@ -1,39 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ACSI-Matic
+import ../measures/conceptPage.scroll
+id ACSI-Matic
+appeared 1959
+type pl
+reference https://apps.dtic.mil/docs/citations/AD0442338
+originCommunity University of Pennsylvania && Radio Corporation of America
 
-title ACSI-Matic - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="teasharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aleph.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/acsi-matic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=acsi-matic" class="material-symbols-outlined">edit</a></div>
-
-* ACSI-Matic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3155 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- ACSI-Matic first developed in <a href="../lists/originCommunities.html#universityOfPennsylvania">University of Pennsylvania</a> and <a href="../lists/originCommunities.html#radioCorporationOfAmerica">Radio Corporation of America</a>
-- ACSI-Matic on HOPL
- https://hopl.info/showlanguage.prx?exp=2799
-- Read more about ACSI-Matic on the web: 1.
- https://apps.dtic.mil/docs/citations/AD0442338 1.
-
-<br>
-
-endColumns
-
-keyboardNav teasharp.html aleph.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=2799

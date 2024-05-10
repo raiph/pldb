@@ -1,70 +1,44 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title muon
+import ../measures/conceptPage.scroll
+id muon
+appeared 2019
+type pl
+country Unknown
+originCommunity https://github.com/nickmqb/muon/issues
 
-title muon - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="iswim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="avr.html">&gt;</a>
+printToken printf
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/muon.pldb
+githubRepo https://github.com/nickmqb/muon
+ firstCommit 2019
+ stars 758
+ forks 23
+ subscribers 27
+ created 2019
+ updated 2022
+ description Modern low-level programming language
+ issues 9
 
-startColumns 4
+repoStats
+ firstCommit 2019
+ commits 124
+ committers 3
+ files 114
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/nickmqb/muon" class="material-symbols-outlined">code</a> <a href="/edit.html?id=muon" class="material-symbols-outlined">edit</a></div>
+leachim6 Muon
+ filepath m/Muon.mu
+ fileExtensions mu
+ example
+  printf(fmt cstring) int #Foreign("printf") #VarArgs
+  
+  main() {
+  	printf("Hello World")
+  }
+  
 
-* muon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/nickmqb/muon
-
-dashboard
- #1062 <span title="TotalRank: 1626 Jobs: 103 Users: 608 Facts: 915 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Modern low-level programming language
-
-- muon is developed on <a href="https://github.com/nickmqb/muon">GitHub</a> and has 758 stars
-- muon first developed in <a href="../lists/originCommunities.html#httpsGithubComNickmqbMuonIssues">https://github.com/nickmqb/muon/issues</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Muon.mu'>hello-world</a>:
- printf(fmt cstring) int #Foreign(&quot;printf&quot;) #VarArgs
- 
- main() {
- 	printf(&quot;Hello World&quot;)
- }
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printf
-  Example
-
-## HackerNews discussions of muon
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Muon, a low-level programming language inspired by C, C# and Go|https://news.ycombinator.com/item?id=19598592|04/07/2019|175|114
-
-keyboardNav iswim.html avr.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 19598592|Show HN: Muon, a low-level programming language inspired by C, C# and Go|2019-04-07 18:00:10 UTC|1554660010|nickmqb|114|175

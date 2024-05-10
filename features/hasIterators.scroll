@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasInterfaces.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasLabels.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/java.html">Java</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>:
+codeWithHeader Example from <a href="../concepts/java.html">Java</a>:
  Iterator iter = list.iterator();
  //Iterator&lt;MyType&gt; iter = list.iterator();    in J2SE 5.0
  while (iter.hasNext()) {
@@ -22,10 +22,10 @@ codeWithHeader Example from <a href="../concepts/java.html">Java</a>, <a href=".
          System.out.print(&quot;, &quot;);
  }
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/cython.html">Cython</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>:
  https://www.w3schools.com/python/python_iterators.asp
 
-codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>:
+codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
  std::vector&lt;int&gt; items;
  items.push_back(5);  // Append integer value &#39;5&#39; to vector &#39;items&#39;.
  items.push_back(2);  // Append integer value &#39;2&#39; to vector &#39;items&#39;.
@@ -59,11 +59,9 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  for i in items
   printline i
 
-* Languages *with* Iterators include <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
+* Languages *with* Iterators include <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Languages *without* Iterators include <a href="../concepts/progsbase.html">progsbase</a>
-
-* This question asks: Does this language have iterators?
 
 * Read more about Iterators on the web: 1.
  https://en.wikipedia.org/wiki/Iterator 1.

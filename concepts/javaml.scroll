@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JavaML
+import ../measures/conceptPage.scroll
+id JavaML
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/0244a8d6d45302ecf0c0c5ec47bfd0b10ba94c82
+country United States
+originCommunity University of Washington
 
-title JavaML - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5562
 
-html
- <a class="trueBaseThemePreviousItem" href="isac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="josie.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/javaml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=javaml" class="material-symbols-outlined">edit</a></div>
-
-* JavaML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #4180 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- JavaML first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- JavaML on HOPL
- https://hopl.info/showlanguage.prx?exp=5562
-- Read more about JavaML on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0244a8d6d45302ecf0c0c5ec47bfd0b10ba94c82 1.
-
-<br>
-
-endColumns
-
-keyboardNav isac.html josie.html
-
-import ../footer.scroll
+semanticScholar 0

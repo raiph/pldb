@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LiSEB
+import ../measures/conceptPage.scroll
+id LiSEB
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/31ccdcc8e9d4e4837298a321c255ad0f36b3ade7
+country Italy
+originCommunity Centre for Theoretical Medicine Studies University of Rome && University of Milan
 
-title LiSEB - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2161
 
-html
- <a class="trueBaseThemePreviousItem" href="lingua-graphica.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lisp-a.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/liseb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=liseb" class="material-symbols-outlined">edit</a></div>
-
-* LiSEB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3786 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- LiSEB first developed in <a href="../lists/originCommunities.html#centreForTheoreticalMedicineStudiesUniversityOfRome">Centre for Theoretical Medicine Studies University of Rome</a> and <a href="../lists/originCommunities.html#universityOfMilan">University of Milan</a>
-- LiSEB on HOPL
- https://hopl.info/showlanguage.prx?exp=2161
-- Read more about LiSEB on Semantic Scholar: 1.
- https://semanticscholar.org/paper/31ccdcc8e9d4e4837298a321c255ad0f36b3ade7 1.
-
-<br>
-
-endColumns
-
-keyboardNav lingua-graphica.html lisp-a.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

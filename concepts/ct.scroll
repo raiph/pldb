@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cT
+import ../measures/conceptPage.scroll
+id cT
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/02f9fa25ea213983601a5f855221ee3d42da3616
+country United States
+originCommunity Carnegie Mellon University
 
-title cT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2777
 
-html
- <a class="trueBaseThemePreviousItem" href="cope.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="educe.html">&gt;</a>
+wordRank 2358
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ct.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ct" class="material-symbols-outlined">edit</a></div>
-
-* cT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3028 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- cT first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a>
-- cT on HOPL
- https://hopl.info/showlanguage.prx?exp=2777
-- Read more about cT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/02f9fa25ea213983601a5f855221ee3d42da3616 1.
-
-<br>
-
-endColumns
-
-keyboardNav cope.html educe.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2020|CRC Press|3D Image Reconstruction for CT and PET: A Practical Guide with Python (Focus Series in Medical Physics and Biomedical Engineering)|Panetta, Daniele and Camarlinghi, Niccolo|9780367219970

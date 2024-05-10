@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kaleidoquery
+import ../measures/conceptPage.scroll
+id Kaleidoquery
+appeared 1998
+type pl
+reference https://pdfs.semanticscholar.org/fab9/29854929ffe94372fe0f69a252e476392c65.pdf
+country United Kingdom
+originCommunity University of Salford && University of Manchester && University of Central Lancashire
 
-title Kaleidoquery - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4984
 
-html
- <a class="trueBaseThemePreviousItem" href="kail.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kaleidoscope90.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaleidoquery.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kaleidoquery" class="material-symbols-outlined">edit</a></div>
-
-* Kaleidoquery is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3757 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Kaleidoquery first developed in <a href="../lists/originCommunities.html#universityOfSalford">University of Salford</a> and <a href="../lists/originCommunities.html#universityOfManchester">University of Manchester</a> and <a href="../lists/originCommunities.html#universityOfCentralLancashire">University of Central Lancashire</a>
-- Kaleidoquery on HOPL
- https://hopl.info/showlanguage.prx?exp=4984
-- Read more about Kaleidoquery on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/fab9/29854929ffe94372fe0f69a252e476392c65.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav kail.html kaleidoscope90.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

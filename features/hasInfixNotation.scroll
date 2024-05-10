@@ -9,14 +9,14 @@ html
  <a class="trueBaseThemePreviousItem" href="hasIncrementAndDecrementOperators.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasInheritance.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  const six = 2 + 2 + 2
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>:
  seven = 3 + 4
 
 codeWithHeader Example from <a href="../concepts/coconut.html">Coconut</a>:
@@ -25,9 +25,7 @@ codeWithHeader Example from <a href="../concepts/coconut.html">Coconut</a>:
 codeWithHeader Example from <a href="../concepts/hope.html">HOPE</a>:
  max(10,20) + max(1,max(2,3));
 
-* Languages *with* Infix Notation include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/hope.html">HOPE</a>, <a href="../concepts/aardvark.html">Aardvark</a>
-
-* This question asks: Does this language use operators between operands?
+* Languages *with* Infix Notation include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/hope.html">HOPE</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Infix Notation on the web: 1.
  https://en.wikipedia.org/wiki/Infix_notation 1.

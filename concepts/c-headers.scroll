@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title C Header Files
+import ../measures/conceptPage.scroll
+id C Header Files
+appeared 1972
+type headerLang
+conceptDescription A header file is a file containing C declarations and macro definitions (see Macros) to be shared between several source files. You request the use of a header file in your program by including it, with the C preprocessing directive ‘#include’.
+reference https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
+fileExtensions h
 
-title C Header Files - Header lang
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bytelisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cabal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/c-headers.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=c-headers" class="material-symbols-outlined">edit</a></div>
-
-* C Header Files is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+headerLang">header lang</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3540 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 52 Years Old
-
-* A header file is a file containing C declarations and macro definitions (see Macros) to be shared between several source files. You request the use of a header file in your program by including it, with the C preprocessing directive ‘#include’.
-
-- file extensions for C Header Files include h
-- See also: (1 related languages)<a href="c.html">C</a>
-- Read more about C Header Files on the web: 1.
- https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav bytelisp.html cabal.html
-
-import ../footer.scroll
+subsetOf c
+relatedConcepts c

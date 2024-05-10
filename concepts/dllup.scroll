@@ -1,55 +1,36 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dllup
+import ../measures/conceptPage.scroll
+id dllup
+appeared 2015
+type textMarkup
+creators Daniel Lawrence Lu
+website http://www.dllu.net/programming/dllup/
+country United States
+originCommunity https://github.com/dllu
+domainName dllu.net
 
-title dllup - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="blz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dashrep.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dllup.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.dllu.net/programming/dllup/" class="material-symbols-outlined">home</a> <a href="https://github.com/dllu/dllup" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dllup" class="material-symbols-outlined">edit</a></div>
-
-* dllup is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2015 by Daniel Lawrence Lu.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#danielLawrenceLu Daniel Lawrence Lu
-
-codeWithHeader Source code:
- git clone https://github.com/dllu/dllup
-
-dashboard
- #1668 <span title="TotalRank: 2181 Jobs: 103 Users: 2337 Facts: 1092 Links: 986">on PLDB</span>
- 9 Years Old
-
-* my markup language
-
-- dllup website
- http://www.dllu.net/programming/dllup/
-- dllup is developed on <a href="https://github.com/dllu/dllup">GitHub</a> and has 6 stars
-- dllup first developed in <a href="../lists/originCommunities.html#httpsGithubComDllu">https://github.com/dllu</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ===
  
  # Introduction
  
  **dllup** is a lightweight markup language...
 
-endColumns
+githubRepo https://github.com/dllu/dllup
+ firstCommit 2015
+ stars 6
+ forks 1
+ subscribers 1
+ created 2021
+ updated 2022
+ description my markup language
+ issues 0
 
-## HackerNews discussions of dllup
+repoStats
+ firstCommit 2015
+ commits 12
+ committers 4
+ files 17
 
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Dllup markup language – Lightweight markup for mathy blogs|https://news.ycombinator.com/item?id=9196157|03/13/2015|2|1
-
-keyboardNav blz.html dashrep.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 9196157|Show HN: Dllup markup language – Lightweight markup for mathy blogs|2015-03-13 08:40:22 UTC|1426236022|dllu|1|2

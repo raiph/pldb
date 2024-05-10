@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Chimera
+import ../measures/conceptPage.scroll
+id Chimera
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/489859de40c0e609b0cf40925aacb8971928f70c
+country Italy and The Netherlands
+originCommunity Università di Genova && Università di Milano && University of Twente
 
-title Chimera - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2945
 
-html
- <a class="trueBaseThemePreviousItem" href="ccs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="descartes.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chimera.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=chimera" class="material-symbols-outlined">edit</a></div>
-
-* Chimera is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3008 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- Chimera first developed in <a href="../lists/originCommunities.html#universitaDiGenova">Università di Genova</a> and <a href="../lists/originCommunities.html#universitaDiMilano">Università di Milano</a> and <a href="../lists/originCommunities.html#universityOfTwente">University of Twente</a>
-- Chimera on HOPL
- https://hopl.info/showlanguage.prx?exp=2945
-- Read more about Chimera on Semantic Scholar: 1.
- https://semanticscholar.org/paper/489859de40c0e609b0cf40925aacb8971928f70c 1.
-
-<br>
-
-endColumns
-
-keyboardNav ccs.html descartes.html
-
-import ../footer.scroll
+isbndb 3
+ year|publisher|title|authors|isbn13
+ 2012|Momentum|The Chimera Vector: The Fifth Column 1|Nathan M Farrugia|9781743340332
+ 20140729|Taylor & Francis|Computational and Visualization Techniques for Structural Bioinformatics Using Chimera|Forbes J. Burkowski|9781482262346
+ 20140729|Taylor & Francis|Computational and Visualization Techniques for Structural Bioinformatics Using Chimera|Forbes J. Burkowski|9781439836620

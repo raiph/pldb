@@ -1,41 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kuin
+import ../measures/conceptPage.scroll
+id Kuin
+appeared 2016
+type pl
+country Japan
+originCommunity https://github.com/kuina
 
-title Kuin - Programming language
- hidden
+githubRepo https://github.com/kuina/Kuin
+ firstCommit 2016
+ stars 261
+ forks 17
+ subscribers 19
+ created 2016
+ updated 2022
+ description Kuin Programming Language
+ issues 19
 
-html
- <a class="trueBaseThemePreviousItem" href="python-for-s60.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="color-basic.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 880
+ committers 10
+ files 625
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kuin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kuina/Kuin" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kuin" class="material-symbols-outlined">edit</a></div>
-
-* Kuin is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/kuina/Kuin
-
-dashboard
- #1530 <span title="TotalRank: 2040 Jobs: 103 Users: 951 Facts: 1591 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Kuin Programming Language
-
-- Kuin is developed on <a href="https://github.com/kuina/Kuin">GitHub</a> and has 261 stars
-- Kuin first developed in <a href="../lists/originCommunities.html#httpsGithubComKuina">https://github.com/kuina</a>
-- file extensions for Kuin include kn
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/kuin.py">syntax highlighting</a> for Kuin
-
-<br>
-
-endColumns
-
-keyboardNav python-for-s60.html color-basic.html
-
-import ../footer.scroll
+pygmentsHighlighter Kuin
+ filename kuin.py
+ fileExtensions kn

@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Viron
+import ../measures/conceptPage.scroll
+id Viron
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/eae7d2b929bcbbfa653f2ed964a080cd243f7b0f
 
-title Viron - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1063
 
-html
- <a class="trueBaseThemePreviousItem" href="viptran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visavis.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/viron.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=viron" class="material-symbols-outlined">edit</a></div>
-
-* Viron is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3277 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- Viron on HOPL
- https://hopl.info/showlanguage.prx?exp=1063
-- Read more about Viron on Semantic Scholar: 1.
- https://semanticscholar.org/paper/eae7d2b929bcbbfa653f2ed964a080cd243f7b0f 1.
-
-<br>
-
-endColumns
-
-keyboardNav viptran.html visavis.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

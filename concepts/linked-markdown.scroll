@@ -1,37 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Linked Markdown
+import ../measures/conceptPage.scroll
+id Linked Markdown
+appeared 2022
+type textMarkup
+creators Luis Cuende
+conceptDescription The main intended use is writing legal agreements and law. A Linked Markdown file has a first sections containing definitions, and a second section containing Markdown. They are separated by three lines.
+website https://linked.md/
+country Nation3
+originCommunity https://nation3.org
 
-title Linked Markdown - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="freefem.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="loom.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linked-markdown.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://linked.md/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=linked-markdown" class="material-symbols-outlined">edit</a></div>
-
-* Linked Markdown is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2022 by Luis Cuende.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#luisCuende Luis Cuende
-
-dashboard
- #2648 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 2 Years Old
-
-* The main intended use is writing legal agreements and law. A Linked Markdown file has a first sections containing definitions, and a second section containing Markdown. They are separated by three lines.
-
-- Linked Markdown website
- https://linked.md/
-- Linked Markdown first developed in <a href="../lists/originCommunities.html#httpsNation3Org">https://nation3.org</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Definition Name
  : Definition content.
  
@@ -39,9 +16,3 @@ codeWithHeader Example from the web:
  
  # Markdown content
  Any Markdown _text_.
-
-endColumns
-
-keyboardNav freefem.html loom.html
-
-import ../footer.scroll

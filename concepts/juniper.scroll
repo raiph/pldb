@@ -1,43 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title juniper
+import ../measures/conceptPage.scroll
+id juniper
+appeared 2016
+type pl
+creators Caleb Helbling
+conceptDescription <a href='http://www.juniper-lang.org/'>Juniper</a> is a functional reactive programming language for the Arduino and other related platforms.
+website http://www.juniper-lang.org/
+country United States
+originCommunity https://github.com/calebh/Juniper/issues
+domainName juniper-lang.org
+ registered 2016
 
-title juniper - Programming language
- hidden
+githubRepo https://github.com/calebh/Juniper
+ firstCommit 2016
+ stars 49
+ forks 5
+ subscribers 5
+ created 2019
+ updated 2022
+ description FRP (Functional Reactive Programming) for the Arduino and other microcontrollers
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="sing-sharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pnuts.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 190
+ committers 8
+ files 48
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/juniper.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.juniper-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/calebh/Juniper" class="material-symbols-outlined">code</a> <a href="/edit.html?id=juniper" class="material-symbols-outlined">edit</a></div>
-
-* juniper is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Caleb Helbling.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#calebHelbling Caleb Helbling
-
-codeWithHeader Source code:
- git clone https://github.com/calebh/Juniper
-
-dashboard
- #1814 <span title="TotalRank: 2345 Jobs: 103 Users: 1693 Facts: 1256 Links: 986">on PLDB</span>
- 8 Years Old
-
-* <a href='http://www.juniper-lang.org/'>Juniper</a> is a functional reactive programming language for the Arduino and other related platforms.
-
-- juniper website
- http://www.juniper-lang.org/
-- juniper is developed on <a href="https://github.com/calebh/Juniper">GitHub</a> and has 49 stars
-- juniper first developed in <a href="../lists/originCommunities.html#httpsGithubComCalebhJuniperIssues">https://github.com/calebh/Juniper/issues</a>
-- <a href="http://www.juniper-lang.org/">juniper-lang.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-keyboardNav sing-sharp.html pnuts.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

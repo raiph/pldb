@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BrightScript
+import ../measures/conceptPage.scroll
+id BrightScript
+appeared 2008
+type pl
+conceptDescription BrightScript is a powerful scripting language for building media and networked applications for embedded devices. This language features integrated support for a lightweight library of BrightScript objects, which are used to expose the API of the platform (device) that is running BrightScript. The BrightScript language connects generalized script functionality with underlying components for networking, media playback, UI screens, and interactive interfaces; BrightScript is optimized for generating user-friendly applications with minimal programmer effort. Now part of Roku.
+website http://docs.brightsign.biz/display/DOC/BrightScript
+country Australia
+originCommunity Atlassian
 
-title BrightScript - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mimix-stream-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hspec.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/brightscript-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://docs.brightsign.biz/display/DOC/BrightScript" class="material-symbols-outlined">home</a> <a href="/edit.html?id=brightscript-lang" class="material-symbols-outlined">edit</a></div>
-
-* BrightScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1728 <span title="TotalRank: 2248 Jobs: 103 Users: 2442 Facts: 1159 Links: 986">on PLDB</span>
- 16 Years Old
-
-* BrightScript is a powerful scripting language for building media and networked applications for embedded devices. This language features integrated support for a lightweight library of BrightScript objects, which are used to expose the API of the platform (device) that is running BrightScript. The BrightScript language connects generalized script functionality with underlying components for networking, media playback, UI screens, and interactive interfaces; BrightScript is optimized for generating user-friendly applications with minimal programmer effort. Now part of Roku.
-
-- BrightScript website
- http://docs.brightsign.biz/display/DOC/BrightScript
-- BrightScript first developed in <a href="../lists/originCommunities.html#atlassian">Atlassian</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  REM
  REM The game of Snake
  REM demonstrates BrightScript programming concepts
@@ -52,8 +29,4 @@ codeWithHeader Example from the web:
      End While
  End Sub
 
-endColumns
-
-keyboardNav mimix-stream-language.html hspec.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,74 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PromQL
+import ../measures/conceptPage.scroll
+id PromQL
+appeared 2014
+type queryLanguage
+website https://prometheus.io/docs/prometheus/latest/querying/basics/
+reference https://timber.io/blog/promql-for-humans/
+cheatSheetUrl https://files.timber.io/pdfs/PromQL+Cheatsheet.pdf
+country Germany
+originCommunity https://github.com/prometheus
 
-title PromQL - Query language
- hidden
+hasFloats true
+hasIntegers true
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="links.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qed-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/promql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://prometheus.io/docs/prometheus/latest/querying/basics/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=promql" class="material-symbols-outlined">edit</a></div>
-
-* PromQL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #2501 <span title="TotalRank: 3071 Jobs: 103 Users: 2442 Facts: 1982 Links: 986">on PLDB</span>
- 10 Years Old
-
-* 
-
-- PromQL website
- https://prometheus.io/docs/prometheus/latest/querying/basics/
-- PromQL first developed in <a href="../lists/originCommunities.html#httpsGithubComPrometheus">https://github.com/prometheus</a>
-- file extensions for PromQL include promql
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/promql.py">syntax highlighting</a> for PromQL
-- PromQL cheat sheet
- https://files.timber.io/pdfs/PromQL+Cheatsheet.pdf
-- Read more about PromQL on the web: 1.
- https://timber.io/blog/promql-for-humans/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  topk(3, sum by (app, proc) (rate(instance_cpu_time_ns[5m])))
 
-endColumns
+pygmentsHighlighter PromQL
+ filename promql.py
+ fileExtensions promql
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav links.html qed-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

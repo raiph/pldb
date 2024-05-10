@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LinkText
-
-title LinkText - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lambda-obliv.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lll.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linktext.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=linktext" class="material-symbols-outlined">edit</a></div>
-
-* LinkText is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3397 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Preview of LinkText, A Data Modeling Language
-
-- LinkText first developed in <a href="../lists/originCommunities.html#httpsGithubComTunebond">https://github.com/tunebond</a>
-- Read more about LinkText on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/ueggue/preview_of_linktext_a_data_modeling_language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav lambda-obliv.html lll.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id LinkText
+appeared 2022
+type pl
+conceptDescription Preview of LinkText, A Data Modeling Language
+reference https://reddit.com/r/ProgrammingLanguages/comments/ueggue/preview_of_linktext_a_data_modeling_language/
+country United States
+originCommunity https://github.com/tunebond

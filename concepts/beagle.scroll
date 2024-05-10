@@ -1,41 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title beagle
+import ../measures/conceptPage.scroll
+id beagle
+appeared 2019
+type pl
+isDead true
+creators Alex Couch
+reference https://github.com/AlexCouch/beagle-lang-specifications
 
-title beagle - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bistro-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bitc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/beagle.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/AlexCouch/beagle-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=beagle" class="material-symbols-outlined">edit</a></div>
-
-* beagle is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Alex Couch.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#alexCouch Alex Couch
-
-codeWithHeader Source code:
- git clone https://github.com/AlexCouch/beagle-lang
-
-dashboard
- #2674 <span title="TotalRank: 3344 Jobs: 103 Users: 2255 Facts: 2321 Links: 986">on PLDB</span>
- 5 Years Old
-
-* The old official source code for the beagle programming language. New repo here: https://github.com/beaglelang/beagle-lang
-
-- beagle is developed on <a href="https://github.com/AlexCouch/beagle-lang">GitHub</a> and has 15 stars
-- Read more about beagle on the web: 1.
- https://github.com/AlexCouch/beagle-lang-specifications 1.
-
-<br>
-
-endColumns
-
-keyboardNav bistro-programming-language.html bitc.html
-
-import ../footer.scroll
+githubRepo https://github.com/AlexCouch/beagle-lang
+ firstCommit 2019
+ stars 15
+ subscribers 1
+ created 2019
+ updated 2022
+ description The old official source code for the beagle programming language. New repo here: https://github.com/beaglelang/beagle-lang
+ forks 0
+ issues 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SEVAL
+import ../measures/conceptPage.scroll
+id SEVAL
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/201c3578661625d11503886631409a7e81e96bdd
+country The Netherlands
+originCommunity Twente University of Technologic
 
-title SEVAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4155
 
-html
- <a class="trueBaseThemePreviousItem" href="setlog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shapeup.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/seval.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=seval" class="material-symbols-outlined">edit</a></div>
-
-* SEVAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #4011 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- SEVAL first developed in <a href="../lists/originCommunities.html#twenteUniversityOfTechnologic">Twente University of Technologic</a>
-- SEVAL on HOPL
- https://hopl.info/showlanguage.prx?exp=4155
-- Read more about SEVAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/201c3578661625d11503886631409a7e81e96bdd 1.
-
-<br>
-
-endColumns
-
-keyboardNav setlog.html shapeup.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

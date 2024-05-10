@@ -1,44 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title erg
+import ../measures/conceptPage.scroll
+id erg
+appeared 2022
+type pl
+creators Shunsuke Shibayama
+conceptDescription erg: A Python-compatible statically typed language written in Rust
+website http://erg-lang.github.io/
+reference https://reddit.com/r/ProgrammingLanguages/comments/wo9u8j/erg_a_pythoncompatible_statically_typed_language/
+country China and Japan
+originCommunity https://github.com/erg-lang
 
-title erg - Programming language
- hidden
+githubRepo https://github.com/erg-lang/erg
+ firstCommit 2022
+ stars 1864
+ forks 41
+ subscribers 20
+ created 2022
+ updated 2022
+ description A statically typed language that can deeply improve the Python ecosystem
+ issues 20
 
-html
- <a class="trueBaseThemePreviousItem" href="lamdu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cycript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/erg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://erg-lang.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/erg-lang/erg" class="material-symbols-outlined">code</a> <a href="/edit.html?id=erg" class="material-symbols-outlined">edit</a></div>
-
-* erg is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Shunsuke Shibayama.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#shunsukeShibayama Shunsuke Shibayama
-
-codeWithHeader Source code:
- git clone https://github.com/erg-lang/erg
-
-dashboard
- #888 <span title="TotalRank: 1452 Jobs: 103 Users: 363 Facts: 1502 Links: 986">on PLDB</span>
- 2 Years Old
-
-* erg: A Python-compatible statically typed language written in Rust
-
-- erg website
- http://erg-lang.github.io/
-- erg is developed on <a href="https://github.com/erg-lang/erg">GitHub</a> and has 1,864 stars
-- erg first developed in <a href="../lists/originCommunities.html#httpsGithubComErgLang">https://github.com/erg-lang</a>
-- Read more about erg on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/wo9u8j/erg_a_pythoncompatible_statically_typed_language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav lamdu.html cycript.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 2883
+ committers 25
+ files 1251

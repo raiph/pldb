@@ -1,38 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Red
+import ../measures/conceptPage.scroll
+id Red
+appeared 1972
+type pl
+creators John Backus
+conceptDescription interested in pure functional programming, with no side-effects on storage or the external world.
+reference http://www.mcjones.org/dustydecks/archives/2007/04/01/60/
+country United States
+originCommunity IBM
 
-title Red - Programming language
- hidden
+fileType text
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="mmix.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ssl-lang.html">&gt;</a>
+isbndb 4
+ year|publisher|title|authors|isbn13
+ 1997|Sams|Red Hat Linux Unleashed|Pitts, David|9780672311734
+ 2005|Sams|Red Hat Fedora 4: Unleashed|Hudson, Paul and Ball, Bill and Duff, Hoyt|9780672327926
+ 2003|For Dummies|Red Hat Linux All-in-One Desk Reference For Dummies|Barkakati, Naba|9780764524424
+ 2004|Sams|Red Hat Linux Fedora Unleashed|Ball, Bill and Duff, Hoyt|9780672326295
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/red-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=red-lang" class="material-symbols-outlined">edit</a></div>
-
-* Red is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972 by John Backus.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
- link ../lists/creators.html#johnBackus John Backus
-
-dashboard
- #2448 <span title="TotalRank: 2979 Jobs: 103 Users: 2838 Facts: 1890 Links: 986">on PLDB</span>
- 52 Years Old
-
-* interested in pure functional programming, with no side-effects on storage or the external world.
-
-- Red first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- Read more about Red on the web: 1.
- http://www.mcjones.org/dustydecks/archives/2007/04/01/60/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav mmix.html ssl-lang.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2011|Research on red wave and green wave coordinated control model in arterial road for different traffic demands|10.1109/ICMT.2011.6003197|3|0|Shujian Zheng and Jian-min Xu|6724aad495f178db0c31374d4677ed7ac4c81ee6

@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title imf
+import ../measures/conceptPage.scroll
+id imf
+appeared 2008
+type textDataFormat
+reference https://www.loc.gov/preservation/digital/formats/fdd/fdd000393.shtml
+aka EML
+country United States
+originCommunity Qualcomm Inc
 
-title imf - Text data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="image.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ina-jo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/imf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=imf" class="material-symbols-outlined">edit</a></div>
-
-* imf is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #4173 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 16 Years Old
-
-* 
-
-- imf first developed in <a href="../lists/originCommunities.html#qualcommInc">Qualcomm Inc</a>
-- Read more about imf on the web: 1.
- https://www.loc.gov/preservation/digital/formats/fdd/fdd000393.shtml 1.
-
-<br>
-
-endColumns
-
-keyboardNav image.html ina-jo.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

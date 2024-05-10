@@ -1,49 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title plumb
+import ../measures/conceptPage.scroll
+id plumb
+appeared 2014
+type pl
+website http://chriswarbo.net/plumb
+webRepl http://www.chriswarbo.net/projects/plumb/try.html
+documentation http://www.chriswarbo.net/projects/plumb/using.html
+reference https://github.com/Warbo
+country Unknown
+originCommunity http://www.chriswarbo.net
 
-title plumb - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 8213721|Show HN: Plumb, a functional language embedded in PHP, JS and Python|2014-08-22 20:11:17 UTC|1408738277|chriswarbo|6|7
 
-html
- <a class="trueBaseThemePreviousItem" href="pickcode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pseint.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plumb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://chriswarbo.net/plumb" class="material-symbols-outlined">home</a> <a href="http://www.chriswarbo.net/projects/plumb/try.html" class="material-symbols-outlined">terminal</a> <a href="http://www.chriswarbo.net/projects/plumb/using.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=plumb" class="material-symbols-outlined">edit</a></div>
-
-* plumb is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #2963 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Try now: <a href="http://www.chriswarbo.net/projects/plumb/try.html">Web</a>
-
-* 
-
-- plumb website
- http://chriswarbo.net/plumb
-- plumb docs
- http://www.chriswarbo.net/projects/plumb/using.html
-- plumb first developed in <a href="../lists/originCommunities.html#httpWwwChriswarboNet">http://www.chriswarbo.net</a>
-- Read more about plumb on the web: 1.
- https://github.com/Warbo 1.
-
-<br>
-
-endColumns
-
-## HackerNews discussions of plumb
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Plumb, a functional language embedded in PHP, JS and Python|https://news.ycombinator.com/item?id=8213721|08/22/2014|7|6
-
-keyboardNav pickcode.html pseint.html
-
-import ../footer.scroll
+semanticScholar 0

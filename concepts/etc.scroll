@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ETC
+import ../measures/conceptPage.scroll
+id ETC
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/2bce48117d8589af931d1610338fa3b2599bf2d1
+country United States
+originCommunity Bell Telephone Laboratories
 
-title ETC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=547
 
-html
- <a class="trueBaseThemePreviousItem" href="dribble.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fable.html">&gt;</a>
+wordRank 1603
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/etc.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=etc" class="material-symbols-outlined">edit</a></div>
-
-* ETC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3055 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- ETC first developed in <a href="../lists/originCommunities.html#bellTelephoneLaboratories">Bell Telephone Laboratories</a>
-- ETC on HOPL
- https://hopl.info/showlanguage.prx?exp=547
-- Read more about ETC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2bce48117d8589af931d1610338fa3b2599bf2d1 1.
-
-<br>
-
-endColumns
-
-keyboardNav dribble.html fable.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pλ⍵NK
-
-title Pλ⍵NK - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pl-x.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="protosynthex.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plunk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=plunk" class="material-symbols-outlined">edit</a></div>
-
-* Pλ⍵NK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #3416 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 4 Years Old
-
-* This work presents Pλ⍵NK, a functional probabilistic network programming language that extends Probabilistic NetKAT (PNK). Like PNK, it enables probabilistic modelling of network behaviour, by providing probabilistic choice and infinite iteration (to simulate looping network packets). Yet, unlike PNK, it also offers abstraction and higher-order functions to make programming much more convenient.
-
-- Pλ⍵NK first developed in <a href="../lists/originCommunities.html#katholiekeUniversiteitLeuven">Katholieke Universiteit Leuven</a>
-- Read more about Pλ⍵NK on the web: 1.
- https://dl.acm.org/doi/pdf/10.1145/3371107?download=true 1.
-
-<br>
-
-endColumns
-
-keyboardNav pl-x.html protosynthex.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Pλ⍵NK
+appeared 2020
+type pl
+conceptDescription This work presents Pλ⍵NK, a functional probabilistic network programming language that extends Probabilistic NetKAT (PNK). Like PNK, it enables probabilistic modelling of network behaviour, by providing probabilistic choice and infinite iteration (to simulate looping network packets). Yet, unlike PNK, it also offers abstraction and higher-order functions to make programming much more convenient.
+reference https://dl.acm.org/doi/pdf/10.1145/3371107?download=true
+country Belgium
+originCommunity Katholieke Universiteit Leuven

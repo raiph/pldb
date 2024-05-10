@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 3DComposer
+import ../measures/conceptPage.scroll
+id 3DComposer
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/6128962c90a401b57ce9a25b4b6f8d902c0ef869
+originCommunity The University of Auckland
 
-title 3DComposer - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5542
 
-html
- <a class="trueBaseThemePreviousItem" href="3-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="3rip.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/3dcomposer.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=3dcomposer" class="material-symbols-outlined">edit</a></div>
-
-* 3DComposer is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3306 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- 3DComposer first developed in <a href="../lists/originCommunities.html#theUniversityOfAuckland">The University of Auckland</a>
-- 3DComposer on HOPL
- https://hopl.info/showlanguage.prx?exp=5542
-- Read more about 3DComposer on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6128962c90a401b57ce9a25b4b6f8d902c0ef869 1.
-
-<br>
-
-endColumns
-
-keyboardNav 3-lisp.html 3rip.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

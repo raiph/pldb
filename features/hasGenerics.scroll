@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasGenerators.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasGlobalScope.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/java.html">Java</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>:
+codeWithHeader Example from <a href="../concepts/java.html">Java</a>:
  List&lt;String&gt; v = new ArrayList&lt;String&gt;();
  v.add(&quot;test&quot;);
  Integer i = v.get(0); // (type error)  compilation-time error
@@ -43,6 +43,11 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
      }
  }
 
+codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>:
+ function identity&lt;T&gt;(arg: T): T {
+    return arg;
+ }
+
 codeWithHeader Example from <a href="../concepts/ada.html">Ada</a>:
  generic
     Max_Size : Natural; -- a generic formal value
@@ -65,11 +70,6 @@ codeWithHeader Example from <a href="../concepts/ada.html">Ada</a>:
     end record;
  end Stacks;
 
-codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>:
- function identity&lt;T&gt;(arg: T): T {
-    return arg;
- }
-
 codeWithHeader Example from <a href="../concepts/felix.html">Felix</a>:
  // generics
  fun g (x) =&gt; f (f x);
@@ -81,11 +81,9 @@ codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
      // ...
  }
 
-* Languages *with* Generics include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/felix.html">Felix</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>
+* Languages *with* Generics include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/felix.html">Felix</a>, <a href="../concepts/jule.html">Jule</a>
 
 * Languages *without* Generics include <a href="../concepts/progsbase.html">progsbase</a>
-
-* This question asks: Does the language have generics?
 
 * Read more about Generics on the web: 1.
  https://en.wikipedia.org/wiki/Generic_programming 1.

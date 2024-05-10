@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Borneo
+import ../measures/conceptPage.scroll
+id Borneo
+appeared 1998
+type pl
+reference http://sonic.net/~jddarcy/Borneo/
+country United States
+originCommunity University of California, Berkeley
 
-title Borneo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8518
 
-html
- <a class="trueBaseThemePreviousItem" href="booster.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bounce.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/borneo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=borneo" class="material-symbols-outlined">edit</a></div>
-
-* Borneo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3529 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Borneo first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- Borneo on HOPL
- https://hopl.info/showlanguage.prx?exp=8518
-- Read more about Borneo on the web: 1.
- http://sonic.net/~jddarcy/Borneo/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav booster.html bounce.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

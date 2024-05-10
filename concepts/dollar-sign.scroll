@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title $
+import ../measures/conceptPage.scroll
+id $
+appeared 1983
+type pl
+conceptDescription The $ language is the simplest form of functional programming, consisting as it does in the iterative application of a simple substitution rule on well-formed strings of the language.
+reference https://semanticscholar.org/paper/9d8ff3bef2cbc659ff5de49241ee4815c253136d
+country United States
+originCommunity Prime Computer, Inc.
 
-title $ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4350
 
-html
- <a class="trueBaseThemePreviousItem" href="dna.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dopl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dollar-sign.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dollar-sign" class="material-symbols-outlined">edit</a></div>
-
-* $ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #4127 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 41 Years Old
-
-* The $ language is the simplest form of functional programming, consisting as it does in the iterative application of a simple substitution rule on well-formed strings of the language.
-
-- $ first developed in <a href="../lists/originCommunities.html#primeComputerInc">Prime Computer, Inc.</a>
-- $ on HOPL
- https://hopl.info/showlanguage.prx?exp=4350
-- Read more about $ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9d8ff3bef2cbc659ff5de49241ee4815c253136d 1.
-
-<br>
-
-endColumns
-
-keyboardNav dna.html dopl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

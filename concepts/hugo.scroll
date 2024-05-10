@@ -1,49 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HUGO
+import ../measures/conceptPage.scroll
+id HUGO
+appeared 1995
+type pl
+creators Juhana Leinonen
+website https://hugoif.github.io/
+documentation https://github.com/hugoif/hugo-by-example/blob/gh-pages/README.md
+reference http://ifwiki.org/index.php/Hugo
+reference https://en.wikipedia.org/wiki/Interactive_fiction#Software
+country Unknown
+originCommunity https://github.com/hugoif
 
-title HUGO - Programming language
- hidden
+githubRepo https://github.com/hugoif/library-contributions
+ firstCommit 2021
+ stars 0
+ forks 0
+ subscribers 3
+ created 2021
+ updated 2021
+ description Library contributions from the Hugo interactive fiction community
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="lila-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bla.html">&gt;</a>
+repoStats
+ firstCommit 2021
+ commits 31
+ committers 2
+ files 35
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hugo.pldb
+hopl https://hopl.info/showlanguage.prx?exp=2099
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hugoif.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/hugoif/library-contributions" class="material-symbols-outlined">code</a> <a href="https://github.com/hugoif/hugo-by-example/blob/gh-pages/README.md" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=hugo" class="material-symbols-outlined">edit</a></div>
-
-* HUGO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995 by Juhana Leinonen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
- link ../lists/creators.html#juhanaLeinonen Juhana Leinonen
-
-codeWithHeader Source code:
- git clone https://github.com/hugoif/library-contributions
-
-dashboard
- #1827 <span title="TotalRank: 2345 Jobs: 103 Users: 2415 Facts: 1256 Links: 986">on PLDB</span>
- 29 Years Old
-
-* Library contributions from the Hugo interactive fiction community
-
-- HUGO website
- https://hugoif.github.io/
-- HUGO is developed on <a href="https://github.com/hugoif/library-contributions">GitHub</a> and has 0 stars
-- HUGO docs
- https://github.com/hugoif/hugo-by-example/blob/gh-pages/README.md
-- HUGO first developed in <a href="../lists/originCommunities.html#httpsGithubComHugoif">https://github.com/hugoif</a>
-- HUGO on HOPL
- https://hopl.info/showlanguage.prx?exp=2099
-- Read more about HUGO on the web: 1. 2.
- http://ifwiki.org/index.php/Hugo 1.
- https://en.wikipedia.org/wiki/Interactive_fiction#Software 2.
-
-<br>
-
-endColumns
-
-keyboardNav lila-lang.html bla.html
-
-import ../footer.scroll
+wordRank 9966
+centralPackageRepositoryCount 0

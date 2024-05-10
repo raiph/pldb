@@ -1,39 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DINO
+import ../measures/conceptPage.scroll
+id DINO
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/b531d1cac6ef5d6f778524425c60378980eeef2b
+country United States
+originCommunity University of Colorado
 
-title DINO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1162
 
-html
- <a class="trueBaseThemePreviousItem" href="descartes.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dlp.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dino.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dino" class="material-symbols-outlined">edit</a></div>
-
-* DINO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3010 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- DINO first developed in <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- DINO on HOPL
- https://hopl.info/showlanguage.prx?exp=1162
-- Read more about DINO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b531d1cac6ef5d6f778524425c60378980eeef2b 1.
-
-<br>
-
-endColumns
-
-keyboardNav descartes.html dlp.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1991|The DINO Parallel Programming Language|10.1016/0743-7315(91)90107-K|127|4|M. Rosing and Bobby Schnabel and R. P. Weaver|a7cfd45541f035caf89c632ee7d9e060febb4221
+ 1990|The DINO User's Manual|10.21236/ada606429|2|0|T. Derby and E. Eskow and R. Neves and M. Rosing and R. Schnabel and R. P. Weaver|69a2741ed0f33042ed824f2434c43c48b421ca93

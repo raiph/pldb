@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COGO
+import ../measures/conceptPage.scroll
+id COGO
+appeared 1962
+type pl
+country United States
+originCommunity IBM
 
-title COGO - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cigale.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="concept-script.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cogo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cogo" class="material-symbols-outlined">edit</a></div>
-
-* COGO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1962.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1962 1962
-
-dashboard
- #3175 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 62 Years Old
-
-* 
-
-- COGO first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- COGO on HOPL
- https://hopl.info/showlanguage.prx?exp=280
-
-<br>
-
-endColumns
-
-keyboardNav cigale.html concept-script.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=280

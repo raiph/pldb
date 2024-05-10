@@ -1,39 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Darcs Advanced Revision Control System
+import ../measures/conceptPage.scroll
+id Darcs Advanced Revision Control System
+appeared 2003
+type application
+conceptDescription Darcs is a distributed version control system created by David Roundy.
+reference https://en.wikipedia.org/wiki/Darcs
+standsFor Darcs Advanced Revision Control System
+country United States
+originCommunity https://www.gnu.org/software/gnu-arch/
 
-title Darcs Advanced Revision Control System - Application
- hidden
+githubLanguage Darcs Patch
+ fileExtensions darcspatch dpatch
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope none
+ aliases dpatch
 
-html
- <a class="trueBaseThemePreviousItem" href="cp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emerald.html">&gt;</a>
+pygmentsHighlighter Darcs Patch
+ filename diff.py
+ fileExtensions dpatch darcspatch
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/darcs-patch.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=darcs-patch" class="material-symbols-outlined">edit</a></div>
-
-* Darcs Advanced Revision Control System, aka Darcs Advanced Revision Control System, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2657 on PLDB
- 21 Years Old
-
-* Darcs is a distributed version control system created by David Roundy.
-
-- Darcs Advanced Revision Control System first developed in <a href="../lists/originCommunities.html#httpsWwwGnuOrgSoftwareGnuArch">https://www.gnu.org/software/gnu-arch/</a>
-- file extensions for Darcs Advanced Revision Control System include darcspatch and dpatch
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/diff.py">syntax highlighting</a> for Darcs Advanced Revision Control System
-- Read more about Darcs Advanced Revision Control System on the web: 1.
- https://en.wikipedia.org/wiki/Darcs 1.
-
-<br>
-
-endColumns
-
-keyboardNav cp.html emerald.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -1,44 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tao
+import ../measures/conceptPage.scroll
+id Tao
+appeared 2020
+type pl
+creators Joshua Barretto
+conceptDescription A statically-typed functional language with polymorphism, typeclasses, sum types, pattern-matching, first-class functions, currying, good diagnostics, and much more!
 
-title Tao - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="theos-multi-user-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="poplog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tao-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/zesterer/tao" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tao-lang" class="material-symbols-outlined">edit</a></div>
-
-* Tao is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Joshua Barretto.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#joshuaBarretto Joshua Barretto
-
-codeWithHeader Source code:
- git clone https://github.com/zesterer/tao
-
-dashboard
- #1348 <span title="TotalRank: 1889 Jobs: 103 Users: 800 Facts: 1256 Links: 986">on PLDB</span>
- 4 Years Old
-
-* A statically-typed functional language with polymorphism, typeclasses, sum types, pattern-matching, first-class functions, currying, good diagnostics, and much more!
-
-- Tao is developed on <a href="https://github.com/zesterer/tao">GitHub</a> and has 408 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  fn factorial =
-    | 0 =&gt; 1
-    \ y ~ x + 1 =&gt; y * factorial(x)
+    | 0 => 1
+    \ y ~ x + 1 => y * factorial(x)
 
-endColumns
+githubRepo https://github.com/zesterer/tao
+ stars 408
+ forks 13
+ subscribers 10
+ created 2020
+ updated 2022
+ description A statically-typed functional language with generics, typeclasses, sum types, pattern-matching, first-class functions, currying, algebraic effects, associated types, good diagnostics, etc.
+ issues 6
+ firstCommit 2020
 
-keyboardNav theos-multi-user-basic.html poplog.html
+repoStats
+ firstCommit 2020
+ commits 412
+ committers 8
+ files 143
 
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2012|lulu.com|Tao Te Programming|Burns, Patrick|9781291130454
+ 2004|Addison-Wesley Professional|Tao of Network Security Monitoring, The: Beyond Intrusion Detection|Bejtlich, Richard|9780321246776

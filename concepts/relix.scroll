@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Relix
+import ../measures/conceptPage.scroll
+id Relix
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/c941521abbeed0baeeed57311f02e3051ab5e78a
+country Canada
+originCommunity McGill University
 
-title Relix - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1882
 
-html
- <a class="trueBaseThemePreviousItem" href="rel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="reuse-description-language.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/relix.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=relix" class="material-symbols-outlined">edit</a></div>
-
-* Relix is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #4283 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Relix first developed in <a href="../lists/originCommunities.html#mcGillUniversity">McGill University</a>
-- Relix on HOPL
- https://hopl.info/showlanguage.prx?exp=1882
-- Read more about Relix on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c941521abbeed0baeeed57311f02e3051ab5e78a 1.
-
-<br>
-
-endColumns
-
-keyboardNav rel.html reuse-description-language.html
-
-import ../footer.scroll
+semanticScholar 0

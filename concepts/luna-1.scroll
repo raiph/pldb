@@ -1,47 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Luna
+import ../measures/conceptPage.scroll
+id Luna
+appeared 2011
+type pl
+creators TJ Holowaychuk
+conceptDescription Luna is an expressive, minimalistic, elegant programming language implemented in C. With cooperative thread concurrency at its core, async I/O, and influences derived from languages such as Lua, io, Rust, Ruby, and C. Luna favours unification and minimalism over minor obscure conveniences, providing the true convenience of a simple effective language. This includes omitting features which facilitate magic such as getters/setters, method_missing-style delegation etc. This project is very much a work in progress, as I explore the wonderful world of VMs! feel free to join.
+website https://github.com/tj/luna
+country United Kingdom
+originCommunity https://github.com/tj/luna/issues
 
-title Luna - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="p.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="speakeasy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/luna-1.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/tj/luna" class="material-symbols-outlined">home</a> <a href="https://github.com/tj/luna" class="material-symbols-outlined">code</a> <a href="/edit.html?id=luna-1" class="material-symbols-outlined">edit</a></div>
-
-* Luna is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by TJ Holowaychuk.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#tjHolowaychuk TJ Holowaychuk
-
-codeWithHeader Source code:
- git clone https://github.com/tj/luna
-
-dashboard
- #823 <span title="TotalRank: 1382 Jobs: 103 Users: 293 Facts: 1450 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Luna is an expressive, minimalistic, elegant programming language implemented in C. With cooperative thread concurrency at its core, async I/O, and influences derived from languages such as Lua, io, Rust, Ruby, and C. Luna favours unification and minimalism over minor obscure conveniences, providing the true convenience of a simple effective language. This includes omitting features which facilitate magic such as getters/setters, method_missing-style delegation etc. This project is very much a work in progress, as I explore the wonderful world of VMs! feel free to join.
-
-- Luna website
- https://github.com/tj/luna
-- Luna is developed on <a href="https://github.com/tj/luna">GitHub</a> and has 2,400 stars
-- Luna first developed in <a href="../lists/originCommunities.html#httpsGithubComTjLunaIssues">https://github.com/tj/luna/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def greet(name:string)
-   return &quot;Hello &quot; + name
+   return "Hello " + name
  end
 
-endColumns
+githubRepo https://github.com/tj/luna
+ stars 2400
+ forks 160
+ subscribers 132
+ created 2011
+ updated 2017
+ description luna programming language - a small, elegant VM implemented in C
 
-keyboardNav p.html speakeasy.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 639
+ committers 16
+ files 78

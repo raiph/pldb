@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SMART
+import ../measures/conceptPage.scroll
+id SMART
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/cb1d8b313870c05983bee1c94c2e799bcdc63f29
+country United States
+originCommunity Harvard University
 
-title SMART - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2511
 
-html
- <a class="trueBaseThemePreviousItem" href="smallvdm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smsl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smart.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=smart" class="material-symbols-outlined">edit</a></div>
-
-* SMART is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #4311 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- SMART first developed in <a href="../lists/originCommunities.html#harvardUniversity">Harvard University</a>
-- SMART on HOPL
- https://hopl.info/showlanguage.prx?exp=2511
-- Read more about SMART on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cb1d8b313870c05983bee1c94c2e799bcdc63f29 1.
-
-<br>
-
-endColumns
-
-keyboardNav smallvdm.html smsl.html
-
-import ../footer.scroll
+wordRank 2207
+centralPackageRepositoryCount 0

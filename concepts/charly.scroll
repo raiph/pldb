@@ -1,43 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title charly
+import ../measures/conceptPage.scroll
+id charly
+appeared 2017
+type pl
+website https://github.com/charly-lang
+country Switzerland
+originCommunity Eastern Switzerland University of Applied Sciences
+domainName charly-lang.github.io
 
-title charly - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 14092907|The Charly programming language|https://charly-lang.github.io/charly/|2017-04-11 22:01:23 UTC|1491948083|mabynogy|0|2
 
-html
- <a class="trueBaseThemePreviousItem" href="bjou.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="circa.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/charly.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/charly-lang" class="material-symbols-outlined">home</a> <a href="/edit.html?id=charly" class="material-symbols-outlined">edit</a></div>
-
-* charly is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2891 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- charly website
- https://github.com/charly-lang
-- charly first developed in <a href="../lists/originCommunities.html#easternSwitzerlandUniversityOfAppliedSciences">Eastern Switzerland University of Applied Sciences</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of charly
-
-pipeTable
- title|titleLink|date|score|comments
- The Charly programming language|https://news.ycombinator.com/item?id=14092907|04/11/2017|2|0
-
-keyboardNav bjou.html circa.html
-
-import ../footer.scroll
+isbndb 0

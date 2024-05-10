@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Soar Markup Language
+import ../measures/conceptPage.scroll
+id Soar Markup Language
+appeared 2014
+type xmlFormat
+creators Nate Derbinsky and Rico Angell
+reference http://web.eecs.umich.edu/~soar/tutorial16/Tutorial-2016-SW-sml.pdf
+aka SML
+country United States
+originCommunity University of Michigan, Ann Arbor
 
-title Soar Markup Language - Xml format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="soaplang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spec.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/soar-ml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=soar-ml" class="material-symbols-outlined">edit</a></div>
-
-* Soar Markup Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2014 by Nate Derbinsky and Rico Angell.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#nateDerbinsky Nate Derbinsky
- link ../lists/creators.html#ricoAngell Rico Angell
-
-dashboard
- #4314 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 10 Years Old
-
-* 
-
-- Soar Markup Language first developed in <a href="../lists/originCommunities.html#universityOfMichiganAnnArbor">University of Michigan, Ann Arbor</a>
-- Read more about Soar Markup Language on the web: 1.
- http://web.eecs.umich.edu/~soar/tutorial16/Tutorial-2016-SW-sml.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav soaplang.html spec.html
-
-import ../footer.scroll
+semanticScholar 0

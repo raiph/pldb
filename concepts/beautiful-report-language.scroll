@@ -1,51 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title beautiful-report-language
+import ../measures/conceptPage.scroll
+id beautiful-report-language
+appeared 2003
+type pl
+website http://brl.sourceforge.net/
+reference http://brl.sourceforge.net/brl_toc.html
+aka BRL
+domainName brl.sourceforge.net
 
-title beautiful-report-language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="avro.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="copilot.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/beautiful-report-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://brl.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=beautiful-report-language" class="material-symbols-outlined">edit</a></div>
-
-* beautiful-report-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2365 <span title="TotalRank: 2876 Jobs: 103 Users: 2442 Facts: 1787 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- beautiful-report-language website
- http://brl.sourceforge.net/
-- Read more about beautiful-report-language on the web: 1.
- http://brl.sourceforge.net/brl_toc.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
- [(define myname &quot;Bruce&quot;)
- (define my &quot;Bruce&#39;s&quot;)]
+example
+ [(define myname "Bruce")
+ (define my "Bruce's")]
  
- &lt;pre&gt;
+ <pre>
  This is [my] web page.
  [myname myname
   myname myname]
  
  [my] favorite person is [[your name here].
  [my] favorite number is [(brl-random 2)].
- &lt;/pre&gt;
+ </pre>
 
-endColumns
-
-keyboardNav avro.html copilot.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

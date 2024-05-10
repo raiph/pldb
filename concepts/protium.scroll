@@ -1,54 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title protium
+import ../measures/conceptPage.scroll
+id protium
+appeared 2007
+type pl
+creators Diarmuid Pigott
+website http://www.protiumblue.com/
+reference http://enacademic.com/dic.nsf/enwiki/3468524
+country Australia
+originCommunity Strapper
+domainName protiumblue.com
+ registered 2019
 
-title protium - Programming language
- hidden
+example
+ <@ DEFAREFLE>pleac</@>
+ <@ DEFFLELIT>pleac|C:\Documents and Settings\All Users\Documents\Projects\PLEAC\pleac_perl.data</@>
+ <@ ITEENUFLELIT>pleac|
+ <@ LETVARELTFLE>aLine|...</@>
+ <@ TSTRXPVARLIT>aLine|# \^\^PLEAC\^\^_(\d+\.\d+)</@>
+ <@ IFF><@ LETVARKEY>number|__Reg1</@>
+ <@ ACTSNKLIT>__Off</@>
+ <@ ACTSNKEMMLIT>pleac_perl_&number;.p</@>
+ </@>
+ <@ SAYVAR>aLine</@>
+ </@>
 
-html
- <a class="trueBaseThemePreviousItem" href="objective-s.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/protium.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.protiumblue.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=protium" class="material-symbols-outlined">edit</a></div>
-
-* protium is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007 by Diarmuid Pigott.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
- link ../lists/creators.html#diarmuidPigott Diarmuid Pigott
-
-dashboard
- #2035 <span title="TotalRank: 2539 Jobs: 103 Users: 2442 Facts: 1450 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- protium website
- http://www.protiumblue.com/
-- protium first developed in <a href="../lists/originCommunities.html#strapper">Strapper</a>
-- <a href="http://www.protiumblue.com/">protiumblue.com</a> was registered in 2019
-- Read more about protium on the web: 1.
- http://enacademic.com/dic.nsf/enwiki/3468524 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;@ DEFAREFLE&gt;pleac&lt;/@&gt;
- &lt;@ DEFFLELIT&gt;pleac|C:\Documents and Settings\All Users\Documents\Projects\PLEAC\pleac_perl.data&lt;/@&gt;
- &lt;@ ITEENUFLELIT&gt;pleac|
- &lt;@ LETVARELTFLE&gt;aLine|...&lt;/@&gt;
- &lt;@ TSTRXPVARLIT&gt;aLine|# \^\^PLEAC\^\^_(\d+\.\d+)&lt;/@&gt;
- &lt;@ IFF&gt;&lt;@ LETVARKEY&gt;number|__Reg1&lt;/@&gt;
- &lt;@ ACTSNKLIT&gt;__Off&lt;/@&gt;
- &lt;@ ACTSNKEMMLIT&gt;pleac_perl_&amp;number;.p&lt;/@&gt;
- &lt;/@&gt;
- &lt;@ SAYVAR&gt;aLine&lt;/@&gt;
- &lt;/@&gt;
-
-endColumns
-
-keyboardNav objective-s.html bml.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

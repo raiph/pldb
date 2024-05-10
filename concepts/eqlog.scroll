@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EQLog
+import ../measures/conceptPage.scroll
+id EQLog
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/c946a2375e4d29dcf4b687397b72265bf3c06980
+country United States
+originCommunity SRI International
 
-title EQLog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1222
 
-html
- <a class="trueBaseThemePreviousItem" href="epilog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="equate.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eqlog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=eqlog" class="material-symbols-outlined">edit</a></div>
-
-* EQLog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3656 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- EQLog first developed in <a href="../lists/originCommunities.html#sriInternational">SRI International</a>
-- EQLog on HOPL
- https://hopl.info/showlanguage.prx?exp=1222
-- Read more about EQLog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c946a2375e4d29dcf4b687397b72265bf3c06980 1.
-
-<br>
-
-endColumns
-
-keyboardNav epilog.html equate.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

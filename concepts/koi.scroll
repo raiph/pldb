@@ -1,43 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title koi
+import ../measures/conceptPage.scroll
+id koi
+appeared 2010
+type pl
+website http://thingsaaronmade.com/blog/introducing-koi.html
+country Canada
+originCommunity https://github.com/aarongough/koi/issues
 
-title koi - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kogut.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="minihaskell.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/koi.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://thingsaaronmade.com/blog/introducing-koi.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=koi" class="material-symbols-outlined">edit</a></div>
-
-* koi is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2824 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 14 Years Old
-
-* 
-
-- koi website
- http://thingsaaronmade.com/blog/introducing-koi.html
-- koi first developed in <a href="../lists/originCommunities.html#httpsGithubComAarongoughKoiIssues">https://github.com/aarongough/koi/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of koi
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Koi - a programming language that teaches language implementation.|https://news.ycombinator.com/item?id=1741367|09/29/2010|70|12
-
-keyboardNav kogut.html minihaskell.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 1741367|Show HN: Koi - a programming language that teaches language implementation.|2010-09-29 22:20:14 UTC|1285798814|aarongough|12|70

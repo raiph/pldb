@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lesma
+import ../measures/conceptPage.scroll
+id Lesma
+appeared 2022
+type pl
+creators Alin Ali Hassan
+website https://lesma-lang.com/
+country The Netherlands
+originCommunity https://github.com/alinalihassan/Lesma/issues
 
-title Lesma - Programming language
- hidden
+githubRepo https://github.com/alinalihassan/Lesma
+ firstCommit 2022
+ stars 9
+ forks 1
+ subscribers 1
+ created 2022
+ updated 2022
+ description The Lesma Programming Language
+ issues 7
 
-html
- <a class="trueBaseThemePreviousItem" href="blue-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="huwcode.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lesma.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://lesma-lang.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/alinalihassan/Lesma" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lesma" class="material-symbols-outlined">edit</a></div>
-
-* Lesma is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Alin Ali Hassan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#alinAliHassan Alin Ali Hassan
-
-codeWithHeader Source code:
- git clone https://github.com/alinalihassan/Lesma
-
-dashboard
- #2256 <span title="TotalRank: 2758 Jobs: 103 Users: 2315 Facts: 1669 Links: 986">on PLDB</span>
- 2 Years Old
-
-* The Lesma Programming Language
-
-- Lesma website
- https://lesma-lang.com/
-- Lesma is developed on <a href="https://github.com/alinalihassan/Lesma">GitHub</a> and has 9 stars
-- Lesma first developed in <a href="../lists/originCommunities.html#httpsGithubComAlinalihassanLesmaIssues">https://github.com/alinalihassan/Lesma/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav blue-programming-language.html huwcode.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 770
+ committers 5
+ files 116

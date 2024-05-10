@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Boomerang Decompiler
+import ../measures/conceptPage.scroll
+id Boomerang Decompiler
+appeared 2002
+type decompiler
+country Australia
+originCommunity Queensland University of Technology
 
-title Boomerang Decompiler - Decompiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="wmlscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="n-triples.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/boomerang-decompiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/BoomerangDecompiler/boomerang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=boomerang-decompiler" class="material-symbols-outlined">edit</a></div>
-
-* Boomerang Decompiler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+decompiler">decompiler</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-codeWithHeader Source code:
- git clone https://github.com/BoomerangDecompiler/boomerang
-
-dashboard
- #1729 on PLDB
- 22 Years Old
-
-* Boomerang Decompiler - Fighting the code-rot :)
-
-- Boomerang Decompiler is developed on <a href="https://github.com/BoomerangDecompiler/boomerang">GitHub</a> and has 314 stars
-- Boomerang Decompiler first developed in <a href="../lists/originCommunities.html#queenslandUniversityOfTechnology">Queensland University of Technology</a>
-
-<br>
-
-endColumns
-
-keyboardNav wmlscript.html n-triples.html
-
-import ../footer.scroll
+githubRepo https://github.com/BoomerangDecompiler/boomerang
+ firstCommit 2002
+ stars 314
+ forks 54
+ subscribers 27
+ created 2013
+ updated 2022
+ description Boomerang Decompiler - Fighting the code-rot :)
+ issues 36

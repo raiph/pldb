@@ -1,40 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title multicodec
+import ../measures/conceptPage.scroll
+id multicodec
+appeared 2015
+type standard
+creators Juan Batiz-Benet
+country Various
+originCommunity https://github.com/multiformats
 
-title multicodec - Standard
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="msx-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="property-specification-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/multicodec.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/multiformats/multicodec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=multicodec" class="material-symbols-outlined">edit</a></div>
-
-* multicodec is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+standard">standard</a> created in 2015 by Juan Batiz-Benet.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#juanBatizBenet Juan Batiz-Benet
-
-codeWithHeader Source code:
- git clone https://github.com/multiformats/multicodec
-
-dashboard
- #1565 on PLDB
- 9 Years Old
-
-* Compact self-describing codecs. Save space by using predefined multicodec tables.
-
-- multicodec is developed on <a href="https://github.com/multiformats/multicodec">GitHub</a> and has 250 stars
-- multicodec first developed in <a href="../lists/originCommunities.html#httpsGithubComMultiformats">https://github.com/multiformats</a>
-
-<br>
-
-endColumns
-
-keyboardNav msx-basic.html property-specification-language.html
-
-import ../footer.scroll
+githubRepo https://github.com/multiformats/multicodec
+ firstCommit 2015
+ stars 250
+ forks 166
+ subscribers 44
+ created 2015
+ updated 2022
+ description Compact self-describing codecs. Save space by using predefined multicodec tables.
+ issues 64

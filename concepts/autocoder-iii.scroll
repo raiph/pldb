@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AUTOCODER III
+import ../measures/conceptPage.scroll
+id AUTOCODER III
+appeared 1958
+type assembly
+country United States
+originCommunity IBM
 
-title AUTOCODER III - Assembly language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3872
 
-html
- <a class="trueBaseThemePreviousItem" href="arezzo-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="axcess.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/autocoder-iii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=autocoder-iii" class="material-symbols-outlined">edit</a></div>
-
-* AUTOCODER III is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3360 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- AUTOCODER III first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- AUTOCODER III on HOPL
- https://hopl.info/showlanguage.prx?exp=3872
-
-<br>
-
-endColumns
-
-keyboardNav arezzo-notation.html axcess.html
-
-import ../footer.scroll
+isbndb 0

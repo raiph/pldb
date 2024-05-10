@@ -1,101 +1,74 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ColdFusion Components
+import ../measures/conceptPage.scroll
+id ColdFusion Components
+appeared 1995
+type xmlFormat
+reference https://helpx.adobe.com/coldfusion/developing-applications/building-blocks-of-coldfusion-applications/building-and-using-coldfusion-components.html
+reference https://helpx.adobe.com/coldfusion/developing-applications/building-blocks-of-coldfusion-applications/building-and-using-coldfusion-components/cfc-variables-and-scope.html
+country United States
+originCommunity Adobe
 
-title ColdFusion Components - Xml format
- hidden
+relatedConcepts cfml coldfusion
 
-html
- <a class="trueBaseThemePreviousItem" href="arden-syntax.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="asciimath.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coldfusion-components.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=coldfusion-components" class="material-symbols-outlined">edit</a></div>
-
-* ColdFusion Components is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #975 <span title="TotalRank: 1534 Jobs: 103 Users: 2838 Facts: 445 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- ColdFusion Components first developed in <a href="../lists/originCommunities.html#adobe">Adobe</a>
-- file extensions for ColdFusion Components include cfc
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for ColdFusion Components
-- See also: (2 related languages)<a href="cfml.html">CFML</a>, <a href="coldfusion.html">ColdFusion</a>
-- Read more about ColdFusion Components on the web: 1. 2.
- https://helpx.adobe.com/coldfusion/developing-applications/building-blocks-of-coldfusion-applications/building-and-using-coldfusion-components.html 1.
- https://helpx.adobe.com/coldfusion/developing-applications/building-blocks-of-coldfusion-applications/building-and-using-coldfusion-components/cfc-variables-and-scope.html 2.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;cfcomponent&gt; 
- &lt;cffunction name=&quot;allemployees&quot; access=&quot;public&quot; output=&quot;false&quot; 
- returntype=&quot;query&quot;&gt; 
- &lt;cfset var getNames=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;getNames&quot; datasource=&quot;cfdocexamples&quot;&gt; 
+example
+ <cfcomponent> 
+ <cffunction name="allemployees" access="public" output="false" 
+ returntype="query"> 
+ <cfset var getNames=""> 
+ <cfquery name="getNames" datasource="cfdocexamples"> 
  SELECT * FROM Employee 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;cffunction name=&quot;namesalarycontract&quot; access=&quot;public&quot; output=&quot;false&quot; 
- returntype=&quot;query&quot;&gt; 
- &lt;cfset var EmpList=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;EmpList&quot; datasource=&quot;cfdocexamples&quot;&gt; 
+ </cfquery> 
+ </cffunction> 
+ <cffunction name="namesalarycontract" access="public" output="false" 
+ returntype="query"> 
+ <cfset var EmpList=""> 
+ <cfquery name="EmpList" datasource="cfdocexamples"> 
  SELECT Firstname, Lastname, Salary, Contract 
  FROM Employee 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;cffunction name=&quot;fullname&quot; access=&quot;public&quot; output=&quot;false&quot; 
- returntype=&quot;query&quot;&gt; 
- &lt;cfset var engquery=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;engquery&quot; datasource=&quot;cfdocexamples&quot;&gt; 
- SELECT FirstName || &#39; &#39; || LastName AS FullName 
+ </cfquery> 
+ </cffunction> 
+ <cffunction name="fullname" access="public" output="false" 
+ returntype="query"> 
+ <cfset var engquery=""> 
+ <cfquery name="engquery" datasource="cfdocexamples"> 
+ SELECT FirstName || ' ' || LastName AS FullName 
  FROM Employee 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;cffunction name=&quot;bydept&quot; access=&quot;public&quot; output=&quot;false&quot; returntype=&quot;query&quot;&gt; 
- &lt;cfset var deptquery=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;deptquery&quot; datasource=&quot;cfdocexamples&quot;&gt; 
- SELECT Dept_ID, FirstName || &#39; &#39; || LastName 
+ </cfquery> 
+ </cffunction> 
+ <cffunction name="bydept" access="public" output="false" returntype="query"> 
+ <cfset var deptquery=""> 
+ <cfquery name="deptquery" datasource="cfdocexamples"> 
+ SELECT Dept_ID, FirstName || ' ' || LastName 
  AS FullName 
  FROM Employee 
  ORDER BY Dept_ID 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;cffunction name=&quot;employeebyURLID&quot; access=&quot;public&quot; output=&quot;false&quot; 
- returntype=&quot;query&quot;&gt; 
- &lt;cfset var GetRecordtoUpdate=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;GetRecordtoUpdate&quot; datasource=&quot;cfdocexamples&quot;&gt; 
+ </cfquery> 
+ </cffunction> 
+ <cffunction name="employeebyURLID" access="public" output="false" 
+ returntype="query"> 
+ <cfset var GetRecordtoUpdate=""> 
+ <cfquery name="GetRecordtoUpdate" datasource="cfdocexamples"> 
  SELECT * FROM Employee 
  WHERE Emp_ID = #URL.Emp_ID# 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;cffunction name=&quot;deleteemployee&quot; access=&quot;public&quot; output=&quot;false&quot; 
- returntype=&quot;void&quot;&gt; 
- &lt;cfset var DeleteEmployee=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;DeleteEmployee&quot; datasource=&quot;cfdocexamples&quot;&gt; 
+ </cfquery> 
+ </cffunction> 
+ <cffunction name="deleteemployee" access="public" output="false" 
+ returntype="void"> 
+ <cfset var DeleteEmployee=""> 
+ <cfquery name="DeleteEmployee" datasource="cfdocexamples"> 
  DELETE FROM Employee 
  WHERE Emp_ID = #Form.Emp_ID# 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;cffunction name=&quot;distinctlocs&quot;access=&quot;public&quot; output=&quot;false&quot; 
- returntype=&quot;query&quot;&gt; 
- &lt;cfset var GetDepartments=&quot;&quot;&gt; 
- &lt;cfquery name=&quot;GetDepartments&quot; datasource=&quot;cfdocexamples&quot;&gt; 
+ </cfquery> 
+ </cffunction> 
+ <cffunction name="distinctlocs"access="public" output="false" 
+ returntype="query"> 
+ <cfset var GetDepartments=""> 
+ <cfquery name="GetDepartments" datasource="cfdocexamples"> 
  SELECT DISTINCT Location 
  FROM Departmt 
- &lt;/cfquery&gt; 
- &lt;/cffunction&gt; 
- &lt;/cfcomponent&gt;
+ </cfquery> 
+ </cffunction> 
+ </cfcomponent>
 
-endColumns
-
-keyboardNav arden-syntax.html asciimath.html
-
-import ../footer.scroll
+pygmentsHighlighter Coldfusion CFC
+ filename templates.py
+ fileExtensions cfc

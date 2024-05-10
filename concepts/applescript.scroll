@@ -1,182 +1,161 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Applescript
+import ../measures/conceptPage.scroll
+id Applescript
+appeared 1993
+type pl
+website https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html
+documentation https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
+fileExtensions scpt scptd AppleScript
+country United States
+originCommunity Apple
 
-title Applescript - Programming language
- hidden
+influencedBy hypertalk
 
-html
- <a class="trueBaseThemePreviousItem" href="lasso.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vbscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/applescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html" class="material-symbols-outlined">home</a> <a href="https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/AppleScript"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=applescript" class="material-symbols-outlined">edit</a></div>
-
-* Applescript is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #126 <span title="TotalRank: 379 Jobs: 92 Users: 492 Facts: 139 Links: 148">on PLDB</span>
- 31 Years Old
- 3k <span title="Applescript repos on GitHub.">Repos</span>
-
-* AppleScript is a scripting language created by Apple Inc. and built into the Classic Mac OS since System 7 and into all versions of macOS. The term "AppleScript" may refer to the scripting system itself, to an individual script written in the AppleScript language, or to the language itself.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/AppleScript Read more on Wikipedia...
-
-- Applescript website
- https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html
-- Applescript Wikipedia page
- https://en.wikipedia.org/wiki/AppleScript
-- Applescript docs
- https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
-- There are at least 3,425 Applescript repos on <a href="https://github.com/search?q=language:AppleScript">GitHub</a>
-- Applescript first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- file extensions for Applescript include scpt, scptd, AppleScript and applescript
-- The  Google BigQuery Public Dataset GitHub snapshot shows 4k users using Applescript in 4k repos on <a href="https://api.github.com/search/repositories?q=language:AppleScript">GitHub</a>
-- Explore Applescript snippets on <a href="http://www.rosettacode.org/wiki/Category:AppleScript">Rosetta Code</a>
-- Applescript on HOPL
- https://hopl.info/showlanguage.prx?exp=1830
-- Applescript appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/scripting.py">syntax highlighting</a> for Applescript
-- GitHub supports <a href="https://github.com/textmate/applescript.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Applescript
-- Indeed.com has 6 matches for <a href="https://www.indeed.com/jobs?q=applescript developer">"applescript developer"</a>.
-- See also: (10 related languages)<a href="hypertalk.html">HyperTalk</a>, <a href="rexx.html">Rexx</a>, <a href="hypercard.html">HyperCard</a>, <a href="ios.html">iOS</a>, <a href="xpath.html">XPath</a>, <a href="javascript.html">JavaScript</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="tcl.html">Tcl</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/a/AppleScript.scpt'>hello-world</a>:
- display dialog &quot;Hello World&quot;  
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Applescript'>the Hello World Collection</a>:
- -- &quot;Hello World&quot; in AppleScript:
- 
- display dialog &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/textmate/applescript.tmbundle'>Linguist</a>:
- (*
- Get User Name
- 
- This script uses UI element scripting to get the name for the
- current user.
- 
- If &quot;Enable access for assistive devices&quot; is not checked,
- this script will open the Universal Access System Preference and ask
- the user to check the checkbox.
- 
- Copyright 2007 Apple Inc.
- 
- You may incorporate this Apple sample code into your program(s) without
- restriction.  This Apple sample code has been provided &quot;AS IS&quot; and the
- responsibility for its operation is yours.  You are not permitted to
- redistribute this Apple sample code as &quot;Apple sample code&quot; after having
- made changes.  If you&#39;re going to redistribute the code, we require
- that you make it clear that the code was descended from Apple sample
- code, but that you&#39;ve made changes.
+hasComments true
+hasGarbageCollection true
+hasMessagePassing true
+hasLineComments true
+ -- A comment
+hasPrintDebugging true
+hasMultiLineComments true
+ (* A comment
  *)
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasFloats true
+ -- [-+]?(\d+\.\d*|\d*\.\d+)(E[-+][0-9]+)?
+hasIntegers true
+ -- [-+]?\d+
+
+lineCommentToken --
+multiLineCommentTokens (* *)
+printToken display dialog
+stringToken "
+
+wikipedia https://en.wikipedia.org/wiki/AppleScript
+ example
+  tell application "Finder"
+  	set anyNumber to my (random number from 5 to 50)
+  end tell
+ related hypertalk rexx hypercard ios xpath javascript perl python ruby tcl
+ summary AppleScript is a scripting language created by Apple Inc. and built into the Classic Mac OS since System 7 and into all versions of macOS. The term "AppleScript" may refer to the scripting system itself, to an individual script written in the AppleScript language, or to the language itself.
+ pageId 88392
+ dailyPageViews 200
+ created 2002
+ backlinksCount 496
+ revisionCount 791
+ appeared 1993
+ fileExtensions scpt scptd AppleScript
+
+githubLanguage AppleScript
+ fileExtensions applescript scpt
+ trendingProjectsCount 0
+ type programming
+ interpreters osascript
+ aceMode applescript
+ tmScope source.applescript
+ aliases osascript
+ repos 3425
+githubBigQuery AppleScript
+ repos 4075
+ users 3803
+
+pygmentsHighlighter AppleScript
+ filename scripting.py
+ fileExtensions applescript
+linguistGrammarRepo https://github.com/textmate/applescript.tmbundle
+ firstCommit 2006
+ lastCommit 2017
+ committerCount 12
+ commitCount 198
+ sampleCount 7
+ example
+  (*
+  Get User Name
+  
+  This script uses UI element scripting to get the name for the
+  current user.
+  
+  If "Enable access for assistive devices" is not checked,
+  this script will open the Universal Access System Preference and ask
+  the user to check the checkbox.
+  
+  Copyright 2007 Apple Inc.
+  
+  You may incorporate this Apple sample code into your program(s) without
+  restriction.  This Apple sample code has been provided "AS IS" and the
+  responsibility for its operation is yours.  You are not permitted to
+  redistribute this Apple sample code as "Apple sample code" after having
+  made changes.  If you're going to redistribute the code, we require
+  that you make it clear that the code was descended from Apple sample
+  code, but that you've made changes.
+  *)
+  
+  tell application "System Preferences"
+  	activate
+  	set current pane to pane "com.apple.preferences.users"
+  end tell
+  
+  tell application "System Events"
+  	if UI elements enabled then
+  		tell tab group 1 of window "Accounts" of process "System Preferences"
+  			click radio button 1
+  			delay 2
+  			get value of text field 1
+  		end tell
+  	else
+  		tell application "System Preferences"
+  			activate
+  			set current pane to pane "com.apple.preference.universalaccess"
+  			display dialog "UI element scripting is not enabled. Check \"Enable access for assistive devices\""
+  		end tell
+  	end if
+  end tell
+
+helloWorldCollection Applescript
+ -- "Hello World" in AppleScript:
  
- tell application &quot;System Preferences&quot;
- 	activate
- 	set current pane to pane &quot;com.apple.preferences.users&quot;
- end tell
+ display dialog "Hello World"
  
- tell application &quot;System Events&quot;
- 	if UI elements enabled then
- 		tell tab group 1 of window &quot;Accounts&quot; of process &quot;System Preferences&quot;
- 			click radio button 1
- 			delay 2
- 			get value of text field 1
- 		end tell
- 	else
- 		tell application &quot;System Preferences&quot;
- 			activate
- 			set current pane to pane &quot;com.apple.preference.universalaccess&quot;
- 			display dialog &quot;UI element scripting is not enabled. Check \&quot;Enable access for assistive devices\&quot;&quot;
- 		end tell
- 	end if
- end tell
+leachim6 AppleScript
+ filepath a/AppleScript.scpt
+ fileExtensions scpt
+ example
+  display dialog "Hello World"  
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:AppleScript
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/AppleScript'>Wikipedia</a>:
- tell application &quot;Finder&quot;
- 	set anyNumber to my (random number from 5 to 50)
- end tell
+indeedJobs applescript developer
+ 2022 6
 
-endColumns
+tiobe Applescript
+hopl https://hopl.info/showlanguage.prx?exp=1830
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+isOpenSource false
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- [-+]?\d+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- [-+]?(\d+\.\d*|\d*\.\d+)(E[-+][0-9]+)?
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (* *)
-  Example
-   (* A comment
-   *)
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token display dialog
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Message Passing
-  FeatureLink ../features/hasMessagePassing.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ AppleScript for Dummies|1995|Tom Trinko|2171980|3.75|4|1
+ AppleScript Programming for the Absolute Beginner|2007|Jerry Lee Ford Jr.|3055205|3.20|5|0
+ AppleScript Pocket Reference: The Essential AppleScript Language Reference|2006|Matt Neuburg|6294483|0.0|0|0
 
-keyboardNav lasso.html vbscript.html
+isbndb 12
+ year|publisher|title|authors|isbn13
+ 2009|Peachpit Press|Apple Training Series: AppleScript 1-2-3|Soghoian, Sal and Cheeseman, Bill|9780321149312
+ 2004|John Wiley &Sons|Beginning AppleScript|Kochan, Stephen G.|9780764574009
+ 2004|For Dummies|AppleScript For Dummies|Trinko, Tom|9780764574948
+ 2007|Cengage Learning PTR|AppleScript Programming for the Absolute Beginner|Ford Jr., Jerry Lee|9781598633849
+ 2006|Cengage Learning PTR|AppleScript Studio Programming for the Absolute Beginner|Ford, Jr.  Jerry Lee|9781598633030
+ 2001|O'Reilly Media|AppleScript in a Nutshell: A Desktop Quick Reference (In a Nutshell (O'Reilly))|Perry, Bruce W.|9781565928411
+ 2001|Peachpit Pr|AppleScript for Applications (Visual QuickStart Guide)|Wilde, Ethan|9780201716139
+ 2006|O'reilly|Applescript|Neuburg, Matt.|
+ 20010606|O'Reilly Media, Inc.|AppleScript in a Nutshell|Bruce W. Perry|9781491946374
+ 20010606|O'Reilly Media, Inc.|AppleScript in a Nutshell|Bruce W. Perry|9781491946367
+ 2009-10-29|Wiley|Apple Automator with AppleScript Bible|Thomas Myer|9780470604311
+ 2007|Course Technology Ptr|Applescript Programming For The Absolute Beginner|Jerry Lee Jr. Ford|9781598636208
 
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2007|AppleScript|10.1145/1238844.1238845|19|1|W. Cook|04216be6bacdea717c7ac6e2838f4227884626a3

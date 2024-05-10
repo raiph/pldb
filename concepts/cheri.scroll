@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cheri
-
-title Cheri - Instruction set architecture
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ctalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cheri.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=cheri" class="material-symbols-outlined">edit</a></div>
-
-* Cheri, aka Capability Hardware Enhanced RISC Instructions, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+isa">instruction set architecture</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2788 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 14 Years Old
-
-* CHERI extends conventional hardware Instruction-Set Architectures (ISAs) with new architectural features to enable fine-grained memory protection and highly scalable software compartmentalization.
-
-- Cheri website
- https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/
-- Cheri first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a>
-
-<br>
-
-endColumns
-
-keyboardNav bx.html ctalk.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Cheri
+appeared 2010
+type isa
+conceptDescription CHERI extends conventional hardware Instruction-Set Architectures (ISAs) with new architectural features to enable fine-grained memory protection and highly scalable software compartmentalization.
+website https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/
+standsFor Capability Hardware Enhanced RISC Instructions
+country England
+originCommunity University of Cambridge

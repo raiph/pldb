@@ -1,38 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chocolatey-pm
+import ../measures/conceptPage.scroll
+id chocolatey-pm
+appeared 2011
+type packageManager
+conceptDescription Chocolatey is a package manager for Windows (like apt-get or yum but for Windows).
+website https://chocolatey.org/
+country United States
+originCommunity Chocolatey Software
+domainName chocolatey.org
+ registered 2011
+ awisRank
+  2022 21292
 
-title chocolatey-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="chartio-app.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clausal-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chocolatey-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://chocolatey.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=chocolatey-pm" class="material-symbols-outlined">edit</a></div>
-
-* chocolatey-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3476 on PLDB
- 13 Years Old
-
-* Chocolatey is a package manager for Windows (like apt-get or yum but for Windows).
-
-- chocolatey-pm website
- https://chocolatey.org/
-- chocolatey-pm first developed in <a href="../lists/originCommunities.html#chocolateySoftware">Chocolatey Software</a>
-- <a href="https://chocolatey.org/">chocolatey.org</a> was registered in 2011
-
-<br>
-
-endColumns
-
-keyboardNav chartio-app.html clausal-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

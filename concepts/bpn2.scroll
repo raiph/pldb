@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Basic Petri Net Programming Notation
+import ../measures/conceptPage.scroll
+id Basic Petri Net Programming Notation
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/16b8846f75a43d31c19530d08cf3e4826f91878e
+country Germany and United Kingdom
+originCommunity Universit/it Hildesheim && Newcastle University
 
-title Basic Petri Net Programming Notation - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5671
 
-html
- <a class="trueBaseThemePreviousItem" href="bpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="brisk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bpn2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bpn2" class="material-symbols-outlined">edit</a></div>
-
-* Basic Petri Net Programming Notation is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3533 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Basic Petri Net Programming Notation first developed in <a href="../lists/originCommunities.html#universitItHildesheim">Universit/it Hildesheim</a> and <a href="../lists/originCommunities.html#newcastleUniversity">Newcastle University</a>
-- Basic Petri Net Programming Notation on HOPL
- https://hopl.info/showlanguage.prx?exp=5671
-- Read more about Basic Petri Net Programming Notation on Semantic Scholar: 1.
- https://semanticscholar.org/paper/16b8846f75a43d31c19530d08cf3e4826f91878e 1.
-
-<br>
-
-endColumns
-
-keyboardNav bpl.html brisk.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

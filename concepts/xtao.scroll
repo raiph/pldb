@@ -1,63 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title xTAO Modeling Language
+import ../measures/conceptPage.scroll
+id xTAO Modeling Language
+appeared 2005
+type xmlFormat
+conceptDescription Enabling a declarative approach to the specification of multi-agent systems
+reference https://dl.acm.org/doi/abs/10.1145/1082983.1082968
+reference https://doi.org/10.1145/1082983.1082968
+aka xTAO
 
-title xTAO Modeling Language - Xml format
- hidden
+relatedConcepts netlogo
 
-html
- <a class="trueBaseThemePreviousItem" href="tremor-query.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="comit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xtao.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xtao" class="material-symbols-outlined">edit</a></div>
-
-* xTAO Modeling Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #1646 <span title="TotalRank: 2147 Jobs: 103 Users: 2838 Facts: 1058 Links: 986">on PLDB</span>
- 19 Years Old
-
-* Enabling a declarative approach to the specification of multi-agent systems
-
-- See also: (1 related languages)<a href="netlogo.html">NetLogo</a>
-- Read more about xTAO Modeling Language on the web: 1. 2.
- https://dl.acm.org/doi/abs/10.1145/1082983.1082968 1.
- https://doi.org/10.1145/1082983.1082968 2.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;Goal&gt;
-  &lt;Name&gt;table_comparison&lt;/Name&gt;
-  &lt;DesiredState&gt;
-  &lt;Description&gt;
-  &lt;Name&gt;compareOK&lt;/Name&gt;
-  &lt;LanguageName&gt;TAOLanguage&lt;/LanguageName&gt;
-  &lt;Data&gt;srcTable EQ destTable |
-  srcTable NEQ destTable | NO&lt;/Data&gt;
-  &lt;/Description&gt;
-  &lt;/DesiredState&gt;
-  &lt;Params&gt;
-  &lt;Description&gt;
-  &lt;Name&gt;srcTable&lt;/Name&gt;
-  &lt;LanguageName/&gt;
-  &lt;Data/&gt;
-  &lt;/Description&gt;
-  &lt;Description&gt;
-  &lt;Name&gt;destTable&lt;/Name&gt;
-  &lt;LanguageName/&gt;
-  &lt;Data/&gt;
-  &lt;/Description&gt;
-  &lt;/Params&gt;
- &lt;/Goal&gt;
-
-endColumns
-
-keyboardNav tremor-query.html comit.html
-
-import ../footer.scroll
+example
+ <Goal>
+  <Name>table_comparison</Name>
+  <DesiredState>
+  <Description>
+  <Name>compareOK</Name>
+  <LanguageName>TAOLanguage</LanguageName>
+  <Data>srcTable EQ destTable |
+  srcTable NEQ destTable | NO</Data>
+  </Description>
+  </DesiredState>
+  <Params>
+  <Description>
+  <Name>srcTable</Name>
+  <LanguageName/>
+  <Data/>
+  </Description>
+  <Description>
+  <Name>destTable</Name>
+  <LanguageName/>
+  <Data/>
+  </Description>
+  </Params>
+ </Goal>

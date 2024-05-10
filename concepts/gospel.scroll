@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GOSPEL
+import ../measures/conceptPage.scroll
+id GOSPEL
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/9815bba8e5f83a38d3ac9891f9039ebb8cfdf0a4
+country United States
+originCommunity Church of the Nazarene
 
-title GOSPEL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7985
 
-html
- <a class="trueBaseThemePreviousItem" href="goql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gps.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gospel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gospel" class="material-symbols-outlined">edit</a></div>
-
-* GOSPEL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #4153 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- GOSPEL first developed in <a href="../lists/originCommunities.html#churchOfTheNazarene">Church of the Nazarene</a>
-- GOSPEL on HOPL
- https://hopl.info/showlanguage.prx?exp=7985
-- Read more about GOSPEL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9815bba8e5f83a38d3ac9891f9039ebb8cfdf0a4 1.
-
-<br>
-
-endColumns
-
-keyboardNav goql.html gps.html
-
-import ../footer.scroll
+wordRank 5219
+centralPackageRepositoryCount 0

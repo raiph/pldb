@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title v8torque
+import ../measures/conceptPage.scroll
+id v8torque
+appeared 2018
+type pl
+reference https://v8project.blogspot.com/2018/09/dataview.html
 
-title v8torque - Programming language
- hidden
+compilesTo csa
 
-html
- <a class="trueBaseThemePreviousItem" href="pbm-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/v8torque.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=v8torque" class="material-symbols-outlined">edit</a></div>
-
-* v8torque is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #1836 <span title="TotalRank: 2345 Jobs: 103 Users: 2838 Facts: 1256 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- v8torque compiles to <a href="csa.html">CodeStudAssembler</a>
-- Read more about v8torque on the web: 1.
- https://v8project.blogspot.com/2018/09/dataview.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
   macro LoadDataViewUint32(buffer: JSArrayBuffer, offset: intptr,
                     requested_little_endian: bool,
                     signed: constexpr bool): Number {
@@ -43,16 +19,13 @@ codeWithHeader Example from the web:
    let result: uint32;
  
    if (requested_little_endian) {
-     result = (b3 &lt;&lt; 24) | (b2 &lt;&lt; 16) | (b1 &lt;&lt; 8) | b0;
+     result = (b3 << 24) | (b2 << 16) | (b1 << 8) | b0;
    } else {
-     result = (b0 &lt;&lt; 24) | (b1 &lt;&lt; 16) | (b2 &lt;&lt; 8) | b3;
+     result = (b0 << 24) | (b1 << 16) | (b2 << 8) | b3;
    }
  
-   return convert&lt;Number&gt;(result);
+   return convert<Number>(result);
  }
 
-endColumns
-
-keyboardNav pbm-format.html zil.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

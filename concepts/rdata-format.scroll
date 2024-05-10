@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rdata-format
+import ../measures/conceptPage.scroll
+id rdata-format
+appeared 2000
+type binaryDataFormat
+reference https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/save
+fileExtensions Rdata rdata rda RData
+country Various
+originCommunity https://github.com/datacamp
 
-title rdata-format - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="rcpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="real-time-euclid.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rdata-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rdata-format" class="material-symbols-outlined">edit</a></div>
-
-* rdata-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #4803 on PLDB
- 24 Years Old
-
-* 
-
-- rdata-format first developed in <a href="../lists/originCommunities.html#httpsGithubComDatacamp">https://github.com/datacamp</a>
-- file extensions for rdata-format include Rdata, rdata, rda and RData
-- Read more about rdata-format on the web: 1.
- https://www.rdocumentation.org/packages/base/versions/3.5.1/topics/save 1.
-
-<br>
-
-endColumns
-
-keyboardNav rcpp.html real-time-euclid.html
-
-import ../footer.scroll
+fileType binary
+centralPackageRepositoryCount 0

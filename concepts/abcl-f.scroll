@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ABCL/f
+import ../measures/conceptPage.scroll
+id ABCL/f
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/16d7acd6ce54c0fddd5f85dec14291f6b41d7db7
+originCommunity University of Tokyo && Tokyo Institute of Technology
 
-title ABCL/f - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3575
 
-html
- <a class="trueBaseThemePreviousItem" href="abcl-cp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abcpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abcl-f.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=abcl-f" class="material-symbols-outlined">edit</a></div>
-
-* ABCL/f is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3310 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- ABCL/f first developed in <a href="../lists/originCommunities.html#universityOfTokyo">University of Tokyo</a> and <a href="../lists/originCommunities.html#tokyoInstituteOfTechnology">Tokyo Institute of Technology</a>
-- ABCL/f on HOPL
- https://hopl.info/showlanguage.prx?exp=3575
-- Read more about ABCL/f on Semantic Scholar: 1.
- https://semanticscholar.org/paper/16d7acd6ce54c0fddd5f85dec14291f6b41d7db7 1.
-
-<br>
-
-endColumns
-
-keyboardNav abcl-cp.html abcpp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -9,18 +9,16 @@ html
  <a class="trueBaseThemePreviousItem" href="hasWhileLoops.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasZippers.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  printline [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;][0] // prints &quot;a&quot;
 
-* Languages *with* Zero-based numbering include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/tick-c.html">Tick C</a>
+* Languages *with* Zero-based numbering include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/speedie.html">Speedie</a>
 
-* Languages *without* Zero-based numbering include <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/r.html">R</a>, <a href="../concepts/cobol.html">COBOL</a>
-
-* This question asks: Does the language start counting from 0, rather than 1?
+* Languages *without* Zero-based numbering include <a href="../concepts/r.html">R</a>, <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/cobol.html">COBOL</a>
 
 * Read more about Zero-based numbering on the web: 1.
  https://en.wikipedia.org/wiki/Zero-based_numbering 1.

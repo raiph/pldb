@@ -1,58 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title swizzle
+import ../measures/conceptPage.scroll
+id swizzle
+appeared 2018
+type esolang
+creators Robert Swierczek
 
-title swizzle - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gura.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jsync.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/swizzle.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/rswier/swizzle" class="material-symbols-outlined">code</a> <a href="/edit.html?id=swizzle" class="material-symbols-outlined">edit</a></div>
-
-* swizzle is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2018 by Robert Swierczek.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#robertSwierczek Robert Swierczek
-
-codeWithHeader Source code:
- git clone https://github.com/rswier/swizzle
-
-dashboard
- #1487 <span title="TotalRank: 2004 Jobs: 103 Users: 2087 Facts: 915 Links: 986">on PLDB</span>
- 6 Years Old
-
-* An esoteric programming language
-
-- swizzle is developed on <a href="https://github.com/rswier/swizzle">GitHub</a> and has 22 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {M
      1=i
-     (i 100 &lt;=?
+     (i 100 <=?
          (i 15 % 0 ==?
-             &quot;FizzBuzz&quot; P;
+             "FizzBuzz" P;
          :(i 3 % 0 ==?
-             &quot;Fizz&quot; P;
+             "Fizz" P;
          :(i 5 % 0 ==?
-             &quot;Buzz&quot; P;
+             "Buzz" P;
          :
-             i &quot;%d&quot; P;;
+             i "%d" P;;
          )))
-         10 &quot;%c&quot; P;;
+         10 "%c" P;;
          i++;
      @)
  }
  M
 
-endColumns
+githubRepo https://github.com/rswier/swizzle
+ firstCommit 2018
+ stars 22
+ subscribers 5
+ created 2018
+ updated 2022
+ description An esoteric programming language
+ forks 2
+ issues 1
 
-keyboardNav gura.html jsync.html
+repoStats
+ firstCommit 2018
+ commits 27
+ committers 5
+ files 21
 
-import ../footer.scroll
+isbndb 0

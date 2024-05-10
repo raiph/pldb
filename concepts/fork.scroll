@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORK
+import ../measures/conceptPage.scroll
+id FORK
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/1ff61850e40f8113cdad150a25263578eb4be943
+country Germany
+originCommunity Universitat des Saarlandes && Universitat Trier
 
-title FORK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2843
 
-html
- <a class="trueBaseThemePreviousItem" href="flownet.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortransit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fork.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fork" class="material-symbols-outlined">edit</a></div>
-
-* FORK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #4139 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- FORK first developed in <a href="../lists/originCommunities.html#universitatDesSaarlandes">Universitat des Saarlandes</a> and <a href="../lists/originCommunities.html#universitatTrier">Universitat Trier</a>
-- FORK on HOPL
- https://hopl.info/showlanguage.prx?exp=2843
-- Read more about FORK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1ff61850e40f8113cdad150a25263578eb4be943 1.
-
-<br>
-
-endColumns
-
-keyboardNav flownet.html fortransit.html
-
-import ../footer.scroll
+wordRank 7405
+centralPackageRepositoryCount 0

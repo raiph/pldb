@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NSS
-
-title NSS - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nassi-shneiderman-charts.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ndl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/native-structured-storage.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=native-structured-storage" class="material-symbols-outlined">edit</a></div>
-
-* NSS, aka Native Structured Storage, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #4380 on PLDB
- 25 Years Old
-
-* Native Structured Storage (NSS) was a method to transparently store ActiveX document files in a multi-stream format on NTFS volumes
-
-- NSS first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- Read more about NSS on the web: 1.
- https://web.archive.org/web/20070927212324/http://www.windowsitpro.com/Article/ArticleID/13785/13785.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav nassi-shneiderman-charts.html ndl.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id NSS
+appeared 1999
+type binaryDataFormat
+conceptDescription Native Structured Storage (NSS) was a method to transparently store ActiveX document files in a multi-stream format on NTFS volumes
+reference https://web.archive.org/web/20070927212324/http://www.windowsitpro.com/Article/ArticleID/13785/13785.html
+standsFor Native Structured Storage
+country United States
+originCommunity Microsoft

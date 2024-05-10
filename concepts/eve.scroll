@@ -1,80 +1,56 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Eve
+import ../measures/conceptPage.scroll
+id Eve
+appeared 2016
+type pl
+website http://witheve.com/
+webRepl http://play.witheve.com/#/examples/quickstart.eve
+country United States
+originCommunity https://github.com/witheve
+domainName witheve.com
+ registered 2014
+ awisRank
+  2022 2683795
+  2017 1167011
 
-title Eve - Programming language
- hidden
+writtenIn typescript
 
-html
- <a class="trueBaseThemePreviousItem" href="mps.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fasta-format.html">&gt;</a>
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eve.pldb
+lineCommentToken //
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://witheve.com/" class="material-symbols-outlined">home</a> <a href="http://play.witheve.com/#/examples/quickstart.eve" class="material-symbols-outlined">terminal</a> <a href="https://github.com/witheve/Eve" class="material-symbols-outlined">code</a> <a href="https://twitter.com/with_eve"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=eve" class="material-symbols-outlined">edit</a></div>
-
-* Eve is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/witheve/Eve
-
-dashboard
- #424 <span title="TotalRank: 930 Jobs: 103 Users: 135 Facts: 692 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Try now: <a href="http://play.witheve.com/#/examples/quickstart.eve">Web</a>
-
-* Better tools for thought
-
-- Eve website
- http://witheve.com/
-- Eve is developed on <a href="https://github.com/witheve/Eve">GitHub</a> and has 7,057 stars
-- Eve first developed in <a href="../lists/originCommunities.html#httpsGithubComWitheve">https://github.com/witheve</a>
-- Eve is written in <a href="typescript.html">TypeScript</a>
-- Eve on Twitter
- https://twitter.com/with_eve
-- <a href="http://witheve.com/">witheve.com</a> was registered in 2014
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // People older than 30
- [#person age &gt; 30]
+ [#person age > 30]
  // The same as above
  [#person age]
- age &gt; 30
+ age > 30
  // Also the same as above
  people = [#person]
 
-endColumns
+githubRepo https://github.com/witheve/Eve
+ stars 7057
+ forks 257
+ subscribers 200
+ created 2013
+ updated 2022
+ firstCommit 2016
+ description Better tools for thought
+ issues 76
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2016
+ commits 3250
+ committers 45
+ files 71
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+twitter https://twitter.com/with_eve
+fileType text
+wordRank 5008
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav mps.html fasta-format.html
-
-import ../footer.scroll
+isbndb 0

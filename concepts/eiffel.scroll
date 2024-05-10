@@ -1,259 +1,220 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Eiffel
+import ../measures/conceptPage.scroll
+id Eiffel
+appeared 1986
+type pl
+creators Bertrand Meyer
+website https://dev.eiffel.com/Main_Page
+documentation https://www.eiffel.org/documentation
+reference https://www.eiffel.org/doc/eiffel/Eiffel_programming_language_syntax
+fileExtensions e
+country Various
+originCommunity Eiffel Software
+domainName eiffel.org
+ registered 2001
+ awisRank
+  2022 2460343
+releaseNotesUrl https://www.eiffel.org/doc/eiffelstudio/EiffelStudio_release_notes
 
-title Eiffel - Programming language
- hidden
+hasPointers true
+hasComments true
+hasMultipleInheritance true
+hasOperatorOverloading true
+hasMultiLineComments false
+hasLineComments true
+ -- A comment
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers true
+hasAssignment true
+hasStrings true
+ "Hello world"
+hasOctals true
+ -- 0[cC][0-7]+
+hasHexadecimals true
+ -- 0[xX][a-fA-F0-9]+
+hasFloats true
+ -- ([0-9]+\.[0-9]*)|([0-9]*\.[0-9]+)
+hasIntegers true
+ -- [0-9]+
+hasBinaryNumbers true
+ -- 0[bB][01]+
 
-html
- <a class="trueBaseThemePreviousItem" href="powerpc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ocaml.html">&gt;</a>
+lineCommentToken --
+assignmentToken :=
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eiffel.pldb
+githubRepo https://github.com/EiffelSoftware/EiffelStudio
+ stars 39
+ forks 24
+ subscribers 13
+ created 2016
+ updated 2023
+ description Public mirror of https://svn.eiffel.com/eiffelstudio-public/trunk, see https://github.com/EiffelSoftware/libraries  for libraries
+ issues 3
 
-startColumns 4
+repoStats
+ firstCommit 1993
+ commits 97200
+ committers 107
+ files 73291
 
-<div class="trueBaseThemeQuickLinks"><a href="https://dev.eiffel.com/Main_Page" class="material-symbols-outlined">home</a> <a href="https://github.com/EiffelSoftware/EiffelStudio" class="material-symbols-outlined">code</a> <a href="https://www.eiffel.org/documentation" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Eiffel_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/eiffel_language"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=eiffel" class="material-symbols-outlined">edit</a></div>
+wikipedia https://en.wikipedia.org/wiki/Eiffel_(programming_language)
+ example
+  class
+      HELLO_WORLD
+  create
+      make
+  feature
+     make
+        do
+           print ("Hello, world!")
+        end
+  end
+ related freebsd linux solaris ada simula z-notation csharp d java lisaac racket ruby sather scala algol pascal visual-studio-editor isbn smalltalk c cil java-bytecode
+ summary Eiffel is an object-oriented programming language designed by Bertrand Meyer (an object-orientation proponent and author of Object-Oriented Software Construction) and Eiffel Software. Meyer conceived the language in 1985 with the goal of increasing the reliability of commercial software development; the first version becoming available in 1986. In 2005, Eiffel became an ISO-standardized language. The design of the language is closely connected with the Eiffel programming method. Both are based on a set of principles, including design by contract, command–query separation, the uniform-access principle, the single-choice principle, the open–closed principle, and option–operand separation. Many concepts initially introduced by Eiffel later found their way into Java, C#, and other languages. New language design ideas, particularly through the Ecma/ISO standardization process, continue to be incorporated into the Eiffel language.
+ pageId 9838
+ dailyPageViews 240
+ created 2001
+ backlinksCount 262
+ revisionCount 909
+ appeared 1986
+ fileExtensions e
 
-* Eiffel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986 by Bertrand Meyer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
- link ../lists/creators.html#bertrandMeyer Bertrand Meyer
+githubLanguage Eiffel
+ fileExtensions e
+ trendingProjectsCount 0
+ type programming
+ aceMode eiffel
+ codemirrorMode eiffel
+ codemirrorMimeType text/x-eiffel
+ tmScope source.eiffel
+ repos 913
+githubBigQuery Eiffel
+ repos 721
+ users 653
 
-codeWithHeader Source code:
- git clone https://github.com/EiffelSoftware/EiffelStudio
+codeMirror eiffel
+pygmentsHighlighter Eiffel
+ filename eiffel.py
+ fileExtensions e
+linguistGrammarRepo https://github.com/textmate/eiffel.tmbundle
+ firstCommit 2006
+ lastCommit 2011
+ committerCount 4
+ commitCount 13
+ sampleCount 3
+ example
+  note
+  	description: "Git checkout command."
+  	author: "Olivier Ligot"
+  
+  class
+  	GIT_CHECKOUT_COMMAND
+  
+  inherit
+  	GIT_COMMAND
+  
+  create
+  	make,
+  	make_master
+  
+  feature {NONE} -- Initialization
+  
+  	make (a_branch: STRING)
+  			-- Checkout the branch `a_branch'.
+  		do
+  			initialize
+  			arguments.force_last (a_branch)
+  			branch := a_branch
+  		ensure
+  			branch_set: branch = a_branch
+  		end
+  
+  	make_master
+  			-- Checkout the master branch.
+  		do
+  			make ("master")
+  		end
+  
+  feature -- Access
+  
+  	branch: STRING
+  			-- Branch to checkout
+  
+  	name: STRING = "checkout"
+  			-- Git subcommand name
+  
+  end
+  
 
-dashboard
- #70 <span title="TotalRank: 252 Jobs: 103 Users: 415 Facts: 81 Links: 68">on PLDB</span>
- 38 Years Old
- 913 <span title="Eiffel repos on GitHub.">Repos</span>
-
-* Eiffel is an object-oriented programming language designed by Bertrand Meyer (an object-orientation proponent and author of Object-Oriented Software Construction) and Eiffel Software. Meyer conceived the language in 1985 with the goal of increasing the reliability of commercial software development; the first version becoming available in 1986. In 2005, Eiffel became an ISO-standardized language. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Eiffel_(programming_language) Read more on Wikipedia...
-
-- Eiffel website
- https://dev.eiffel.com/Main_Page
-- Eiffel downloads page
- https://www.eiffel.org/downloads
-- Eiffel Wikipedia page
- https://en.wikipedia.org/wiki/Eiffel_(programming_language)
-- Eiffel is developed on <a href="https://github.com/EiffelSoftware/EiffelStudio">GitHub</a> and has 39 stars
-- Eiffel docs
- https://www.eiffel.org/documentation
-- There are at least 913 Eiffel repos on <a href="https://github.com/search?q=language:Eiffel">GitHub</a>
-- Eiffel first developed in <a href="../lists/originCommunities.html#eiffelSoftware">Eiffel Software</a>
-- file extensions for Eiffel include e
-- Eiffel on Twitter
- https://twitter.com/eiffel_language
-- The  Google BigQuery Public Dataset GitHub snapshot shows 653 users using Eiffel in 721 repos on <a href="https://api.github.com/search/repositories?q=language:Eiffel">GitHub</a>
-- Explore Eiffel snippets on <a href="http://www.rosettacode.org/wiki/Category:Eiffel">Rosetta Code</a>
-- Eiffel on HOPL
- https://hopl.info/showlanguage.prx?exp=1220
-- Eiffel appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/eiffel">package</a> for syntax highlighting Eiffel
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/eiffel.py">syntax highlighting</a> for Eiffel
-- GitHub supports <a href="https://github.com/textmate/eiffel.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Eiffel
-- Release Notes for Eiffel
- https://www.eiffel.org/doc/eiffelstudio/EiffelStudio_release_notes
-- Official Blog page for Eiffel
- https://www.eiffel.org/blogs
-- <a href="https://dev.eiffel.com/Main_Page">eiffel.org</a> was registered in 2001
-- See also: (22 related languages)<a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>, <a href="ada.html">Ada</a>, <a href="simula.html">Simula</a>, <a href="z-notation.html">Z notation</a>, <a href="csharp.html">C#</a>, <a href="d.html">D</a>, <a href="java.html">Java</a>, <a href="lisaac.html">Lisaac</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="sather.html">Sather</a>, <a href="scala.html">Scala</a>, <a href="algol.html">Algol</a>, <a href="pascal.html">Pascal</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="isbn.html">ISBN</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="c.html">C</a>, <a href="cil.html">CIL</a>, <a href="java-bytecode.html">Java Bytecode</a>
-- Read more about Eiffel on the web: 1.
- https://www.eiffel.org/doc/eiffel/Eiffel_programming_language_syntax 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Eiffel.eiff'>hello-world</a>:
- indexing &quot;Hello World in Eiffel , from http://roesler-ac.de/wolfram/hello.htm#Eiffel&quot;
- 
- class HELLO
- 
- creation
- 	run
- 
- feature
- 
- 	run is
- 		local
- 			io : BASIC_IO;
- 		do
- 			!!io;
- 			io.put_string(&quot;Hello World&quot;);
- 			io.put_newline
- 		end; -- run
- end; -- class HELLO
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Eiffel'>the Hello World Collection</a>:
- note &quot;Hello World in Eiffel&quot;
+helloWorldCollection Eiffel
+ note "Hello World in Eiffel"
  class HELLO
  create run
  feature run
         do
-                print (&quot;Hello World!%N&quot;)
+                print ("Hello World!%N")
         end
  end
  
+leachim6 Eiffel
+ filepath e/Eiffel.eiff
+ fileExtensions eiff
+ example
+  indexing "Hello World in Eiffel , from http://roesler-ac.de/wolfram/hello.htm#Eiffel"
+  
+  class HELLO
+  
+  creation
+  	run
+  
+  feature
+  
+  	run is
+  		local
+  			io : BASIC_IO;
+  		do
+  			!!io;
+  			io.put_string("Hello World");
+  			io.put_newline
+  		end; -- run
+  end; -- class HELLO
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Eiffel
 
-codeWithHeader Example from <a href='https://github.com/textmate/eiffel.tmbundle'>Linguist</a>:
- note
- 	description: &quot;Git checkout command.&quot;
- 	author: &quot;Olivier Ligot&quot;
- 
- class
- 	GIT_CHECKOUT_COMMAND
- 
- inherit
- 	GIT_COMMAND
- 
- create
- 	make,
- 	make_master
- 
- feature {NONE} -- Initialization
- 
- 	make (a_branch: STRING)
- 			-- Checkout the branch `a_branch&#39;.
- 		do
- 			initialize
- 			arguments.force_last (a_branch)
- 			branch := a_branch
- 		ensure
- 			branch_set: branch = a_branch
- 		end
- 
- 	make_master
- 			-- Checkout the master branch.
- 		do
- 			make (&quot;master&quot;)
- 		end
- 
- feature -- Access
- 
- 	branch: STRING
- 			-- Branch to checkout
- 
- 	name: STRING = &quot;checkout&quot;
- 			-- Git subcommand name
- 
- end
- 
+officialBlogUrl https://www.eiffel.org/blogs
+downloadPageUrl https://www.eiffel.org/downloads
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Eiffel_(programming_language)'>Wikipedia</a>:
- class
-     HELLO_WORLD
- create
-     make
- feature
-    make
-       do
-          print (&quot;Hello, world!&quot;)
-       end
- end
+tiobe Eiffel
+hopl https://hopl.info/showlanguage.prx?exp=1220
 
-endColumns
+twitter https://twitter.com/eiffel_language
+fileType text
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 10
+ year|publisher|title|authors|isbn13
+ 1995|Addison-Wesley|Object-Oriented Programming in Eiffel (International Computer Science Series)|Thomas, Peter G. and Weedon, Raymond A.|9780201593877
+ 1991|Prentice Hall|Eiffel : The Language (PRENTICE HALL OBJECT-ORIENTED SERIES)|Meyer, Bertrand|9780132479257
+ 1995|Palgrave HE UK|Eiffel Object-Oriented Programming|Tyrrell, A.J.|9780333645543
+ 2008|Pearson|An Object-Oriented Introduction to Computer Science Using Eiffel|Wiener, Richard|9780131838727
+ 1997|Prentice Hall|Object Technology for Scientific Computing: Object-Oriented Numerical Software in Eiffel and C (Prentice Hall Object-Oriented Series)|Dubois, Paul F.|9780132678087
+ 2008|Pearson|Object-Oriented Introduction to Data Structures Using Eiffel|Wiener, Richard|9780131855885
+ 1997|Addison-Wesley|Object-Oriented Programming in Eiffel (2nd Edition) (International Computer Science Series)|Thomas, P. and Weedon, Ray|9780201331318
+ 2000|Prentice Hall|Windows Programming Made Easy: Using Object Technology, COM, and the Windows Eiffel Library|Maughan, Glenn and Simon, Raphael|9780130289773
+ 20151230|Bloomsbury UK|Eiffel Object-Oriented Programming|A.J. Tyrrell|9781349138753
+ 1995|Prentice Hall|Object Oriented Programming In Eiffel|Robert Rist and Robert Terwilliger|9780132059312
 
-treeTable
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- 0[bB][01]+
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- [0-9]+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- ([0-9]+\.[0-9]*)|([0-9]*\.[0-9]+)
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- 0[xX][a-fA-F0-9]+
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- 0[cC][0-7]+
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token :=
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Multiple Inheritance
-  FeatureLink ../features/hasMultipleInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Pointers
-  FeatureLink ../features/hasPointers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav powerpc.html ocaml.html
-
-import ../footer.scroll
+semanticScholar 12
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2001|The .NET Contract Wizard: adding Design by Contract to languages other than Eiffel|10.1109/TOOLS.2001.941655|48|1|Karine Arnout and Raphael Simon|d83b6439361c65f0fcbdf2b4e0226c3ff6a67549
+ 2011|A Refactoring Constraint Language and Its Application to Eiffel|10.1007/978-3-642-22655-7_13|31|3|F. Steimann and Christian Kollee and Jens Henning von Pilgrim|4b697347a0c3bb777507afb2f16dde238e71df10
+ 1990|Eiffel Linda: an object-oriented Linda dialect|10.1145/122193.122199|25|0|Robert Jellinghaus|acd7766cd77fa70b7816831ef6fd7d31a196cd92
+ 1994|From MooZ to Eiffel - A Rigorous Approach to System Development|10.1007/3-540-58555-9_102|9|0|Virgínia A. O. Cordeiro and A. Sampaio and S. Meira|91e08ceefe330c9604955973bef08d4f0c7f869b
+ 2011|Automated Translation of Java Source Code to Eiffel|10.1007/978-3-642-21952-8_4|8|0|Marco Trudel and M. Oriol and Carlo A. Furia and M. Nordio|eb6ea3708feb35cbed41eda76ccd62d1f7b4b364
+ 2009|Cameo: an alternative model of concurrency for Eiffel|10.1007/s00165-008-0096-1|6|0|P. Brooke and R. Paige|725ab15b853bb5b7306a601539f839a4f1d3c8e8
+ 1994|FLOO: A Strong Coupling Between Eiffel Language and 02 DBMS|10.1142/9789812831163_0014|4|0|R. Chignoli and J. Farré and Philippe Lahire and R. Rousseau|7c1d2e732791df18daf2efb61bcd0670036359c7
+ 1997|Eiffel in Lehre und Forschung –  Erfahrungen und Perspektiven|10.1007/s002870050078|2|0|Michael Rybe and Stefan Leboch|11390a69d1e7f4daadbedc5cc6680768fba27438
+ 1999|Experiences Teaching Eiffel as a First Programming Language to Economy Students|10.1109/TOOLS.1999.10060|2|0|G. Dedene|99bbe1714f80e75a7cdb280280fb3cc797ed8f97
+ 2012|Bertrand Meyer: Software Engineering and the Eiffel Programming Language|10.1109/MC.2012.299|2|1|C. Severance|b0bbfedfd5d842a7da41b1c171c41221d568761c
+ 2018|Mapping Event-B Machines into Eiffel Programming Language|10.1007/978-3-030-14687-0_23|2|0|V. Rivera and Jooyoung Lee and M. Mazzara|443e48249684dc85951aec996bbad84f729b727a
+ 2018|Translation from Event-B into Eiffel|10.18255/1818-1015-2018-6-623-636|1|0|Sofia Reznikova and V. Rivera and Joo Young Lee and M. Mazzara|99272bfe795dd435d057c7aa2255fe5f8c340584

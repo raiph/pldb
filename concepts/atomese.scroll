@@ -1,82 +1,38 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Atomese
+import ../measures/conceptPage.scroll
+id Atomese
+appeared 2007
+type pl
+conceptDescription Atomese was originally intended to be a language for knowledge representation (KR): that is, a way of encoding facts and hypothesis, in a machine-readable way, such that the knowledge can be manipulated, data-mined, reasoned with. This language subset was vaguely inspired by Prolog and Datalog. More correctly, it was constructed by layering concepts from mathematical logic onto a graph database: representing logical, symbolic statements as graphs.
+website https://wiki.opencog.org/w/Atomese
+reference https://arxiv.org/pdf/2004.05267.pdf
+reference https://opencog.org/
+country Various
+originCommunity OpenCog Foundation
 
-title Atomese - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="kumir.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mint.html">&gt;</a>
+lineCommentToken ;
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/atomese.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://wiki.opencog.org/w/Atomese" class="material-symbols-outlined">home</a> <a href="/edit.html?id=atomese" class="material-symbols-outlined">edit</a></div>
-
-* Atomese is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #1607 <span title="TotalRank: 2121 Jobs: 103 Users: 2442 Facts: 1032 Links: 986">on PLDB</span>
- 17 Years Old
-
-* Atomese was originally intended to be a language for knowledge representation (KR): that is, a way of encoding facts and hypothesis, in a machine-readable way, such that the knowledge can be manipulated, data-mined, reasoned with. This language subset was vaguely inspired by Prolog and Datalog. More correctly, it was constructed by layering concepts from mathematical logic onto a graph database: representing logical, symbolic statements as graphs.
-
-- Atomese website
- https://wiki.opencog.org/w/Atomese
-- Atomese first developed in <a href="../lists/originCommunities.html#openCogFoundation">OpenCog Foundation</a>
-- Read more about Atomese on the web: 1. 2.
- https://arxiv.org/pdf/2004.05267.pdf 1.
- https://opencog.org/ 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (define find-animals
    (BindLink
      ;; The variable to be bound
-     (VariableNode &quot;$var&quot;)
+     (VariableNode "$var")
      ;; The pattern to be searched for
      (InheritanceLink
-        (VariableNode &quot;$var&quot;)
-        (ConceptNode &quot;animal&quot;)
+        (VariableNode "$var")
+        (ConceptNode "animal")
      )
      ;; The value to be returned.
-     (VariableNode &quot;$var&quot;)
+     (VariableNode "$var")
    )
  )
   
  ;; Run the above pattern
  (cog-bind find-animals)
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav kumir.html mint.html
-
-import ../footer.scroll
+semanticScholar 0

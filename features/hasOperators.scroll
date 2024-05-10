@@ -9,21 +9,19 @@ html
  <a class="trueBaseThemePreviousItem" href="hasOperatorOverloading.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasPairs.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  1 + 1
 
-codeWithHeader Example from <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/tick-c.html">Tick C</a>:
+codeWithHeader Example from <a href="../concepts/c.html">C</a>:
  1 + 1;
 
-* Languages *with* Operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/tick-c.html">Tick C</a>
+* Languages *with* Operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 * Languages *without* Operators include <a href="../concepts/html.html">HTML</a>
-
-* This question asks: Does the language have operators?
 
 * Read more about Operators on the web: 1.
  https://en.wikipedia.org/wiki/Operator_(computer_programming) 1.

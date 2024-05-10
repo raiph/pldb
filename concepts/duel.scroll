@@ -1,41 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DUEL
+import ../measures/conceptPage.scroll
+id DUEL
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/0627fd0f54b81b4f4fa96a61db19b508ab9e3af1
+country United States
+originCommunity Princeton University
 
-title DUEL - Programming language
- hidden
+pygmentsHighlighter Duel
+ filename webmisc.py
+ fileExtensions duel jbst
 
-html
- <a class="trueBaseThemePreviousItem" href="bed-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eqs.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=5445
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/duel.pldb
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=duel" class="material-symbols-outlined">edit</a></div>
-
-* DUEL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #2985 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- DUEL first developed in <a href="../lists/originCommunities.html#princetonUniversity">Princeton University</a>
-- file extensions for DUEL include duel and jbst
-- DUEL on HOPL
- https://hopl.info/showlanguage.prx?exp=5445
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/webmisc.py">syntax highlighting</a> for DUEL
-- Read more about DUEL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0627fd0f54b81b4f4fa96a61db19b508ab9e3af1 1.
-
-<br>
-
-endColumns
-
-keyboardNav bed-format.html eqs.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2012|Round-Robin Duel Discriminative Language Models|10.1109/TASL.2011.2174225|27|1|T. Oba and Takaaki Hori and A. Nakamura and A. Ito|caeaf086c7388b1f37637e15c4080d34bb6c4939

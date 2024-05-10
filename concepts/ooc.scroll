@@ -1,110 +1,78 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ooc
+import ../measures/conceptPage.scroll
+id ooc
+appeared 2009
+type pl
+creators Amos Wenger
+website https://ooc-lang.org/
+country United States and Germany and Switzerland
+originCommunity https://github.com/ooc-lang
+domainName ooc-lang.org
+ registered 2009
+ awisRank
+  2022 4397938
 
-title ooc - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
+hasOctals true
+hasHexadecimals true
+hasFloats true
+hasBinaryNumbers true
+hasMultiLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="tiddlywiki.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lookml.html">&gt;</a>
+printToken println
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ooc.pldb
+githubRepo https://github.com/ooc-lang/rock
+ firstCommit 2009
+ stars 382
+ forks 42
+ subscribers 32
+ created 2009
+ updated 2022
+ description :ocean: self-hosted ooc compiler that generates c99
+ issues 76
 
-startColumns 4
+repoStats
+ firstCommit 2009
+ commits 4013
+ committers 59
+ files 767
 
-<div class="trueBaseThemeQuickLinks"><a href="https://ooc-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/ooc-lang/rock" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ooc" class="material-symbols-outlined">edit</a></div>
+githubLanguage ooc
+ fileExtensions ooc
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.ooc
+ repos 227
+githubBigQuery ooc
+ repos 126
+ users 69
 
-* ooc is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Amos Wenger.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#amosWenger Amos Wenger
+pygmentsHighlighter Ooc
+ filename ooc.py
+ fileExtensions ooc
+linguistGrammarRepo https://github.com/nilium/ooc.tmbundle
+ firstCommit 2009
+ lastCommit 2014
+ committerCount 3
+ commitCount 20
 
-codeWithHeader Source code:
- git clone https://github.com/ooc-lang/rock
+leachim6 Ooc
+ filepath o/Ooc.ooc
+ fileExtensions ooc
+ example
+  main: func {
+      "Hello World" println()
+  }
+  
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:OOC
 
-dashboard
- #642 <span title="TotalRank: 1224 Jobs: 103 Users: 661 Facts: 460 Links: 986">on PLDB</span>
- 15 Years Old
- 227 <span title="ooc repos on GitHub.">Repos</span>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* :ocean: self-hosted ooc compiler that generates c99
-
-- ooc website
- https://ooc-lang.org/
-- ooc is developed on <a href="https://github.com/ooc-lang/rock">GitHub</a> and has 382 stars
-- There are at least 227 ooc repos on <a href="https://github.com/search?q=language:ooc">GitHub</a>
-- ooc first developed in <a href="../lists/originCommunities.html#httpsGithubComOocLang">https://github.com/ooc-lang</a>
-- file extensions for ooc include ooc
-- The  Google BigQuery Public Dataset GitHub snapshot shows 69 users using ooc in 126 repos on <a href="https://api.github.com/search/repositories?q=language:ooc">GitHub</a>
-- Explore ooc snippets on <a href="http://www.rosettacode.org/wiki/Category:OOC">Rosetta Code</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ooc.py">syntax highlighting</a> for ooc
-- GitHub supports <a href="https://github.com/nilium/ooc.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for ooc
-- <a href="https://ooc-lang.org/">ooc-lang.org</a> was registered in 2009
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/o/Ooc.ooc'>hello-world</a>:
- main: func {
-     &quot;Hello World&quot; println()
- }
- 
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
-
-keyboardNav tiddlywiki.html lookml.html
-
-import ../footer.scroll
+isbndb 0

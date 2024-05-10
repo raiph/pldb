@@ -1,38 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BALGOL
+import ../measures/conceptPage.scroll
+id BALGOL
+appeared 1959
+type pl
+creators Bob Barton
+reference https://datatron.blogspot.com/2018/08/balgol-burroughs-algebraic-compiler.html
+reference https://www.digm.com/UNITE/2019/2019-Origins-Burroughs-Algol.pdf
+originCommunity Burroughs
 
-title BALGOL - Programming language
- hidden
+influencedBy algol-58 fortran
 
-html
- <a class="trueBaseThemePreviousItem" href="fizz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="net-format.html">&gt;</a>
+hasIntegers true
+hasFloats true
+hasBooleans true
+hasLists true
+ ARRAY MONTHDAYS(12) = (31,28,31,30,31,30,31,31,30,31,30,31)$
+hasFunctions true
+ FUNCTION TORADS(DEGREES) = DEGREES . 3.1415926/180$
+hasExpressions true
+ ALPHA + BETA / GAMMA
+hasAssignment true
+ ALPHA = BETA = GAMMA = 2DELTA + 1$
+hasConditionals true
+ EITHER IF A > B$ FWD = 1$ OTHERWISE$ FWD = 0$
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/balgol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=balgol" class="material-symbols-outlined">edit</a></div>
-
-* BALGOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959 by Bob Barton.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
- link ../lists/creators.html#bobBarton Bob Barton
-
-dashboard
- #1523 <span title="TotalRank: 2033 Jobs: 103 Users: 2838 Facts: 944 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- BALGOL first developed in <a href="../lists/originCommunities.html#burroughs">Burroughs</a>
-- Read more about BALGOL on the web: 1. 2.
- https://datatron.blogspot.com/2018/08/balgol-burroughs-algebraic-compiler.html 1.
- https://www.digm.com/UNITE/2019/2019-Origins-Burroughs-Algol.pdf 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  INTEGER I..., J..., K..., L..., M..., N...$
  BOOLEAN KEEP, LAST$
  REAL MAT..., JOULES$
@@ -42,71 +33,8 @@ codeWithHeader Example from the web:
  FOR I = 1, 3, 5, 7, 11, (13, 7, 99), 101, (103, 1, 125)$
     A(I) = I$
  
- UNTIL A &gt; 125 OR OUTTAHERE$
+ UNTIL A > 125 OR OUTTAHERE$
     BEGIN
     OUTTAHERE = A EQL 77$
     A = A + 3
     END$
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   EITHER IF A > B$ FWD = 1$ OTHERWISE$ FWD = 0$
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ALPHA = BETA = GAMMA = 2DELTA + 1$
- row
-  Feature Expressions
-  FeatureLink ../features/hasExpressions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ALPHA + BETA / GAMMA
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   FUNCTION TORADS(DEGREES) = DEGREES . 3.1415926/180$
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ARRAY MONTHDAYS(12) = (31,28,31,30,31,30,31,31,30,31,30,31)$
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav fizz.html net-format.html
-
-import ../footer.scroll

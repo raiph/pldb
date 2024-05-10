@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BrouHaHa
+import ../measures/conceptPage.scroll
+id BrouHaHa
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/96e9bf5ca274c5ac6d729e55659e9133c466c835
+country England
+originCommunity University of London,QueenMary College
 
-title BrouHaHa - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7759
 
-html
- <a class="trueBaseThemePreviousItem" href="blaze-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-flat.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/brouhaha.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=brouhaha" class="material-symbols-outlined">edit</a></div>
-
-* BrouHaHa is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4090 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- BrouHaHa first developed in <a href="../lists/originCommunities.html#universityOfLondonQueenMaryCollege">University of London,QueenMary College</a>
-- BrouHaHa on HOPL
- https://hopl.info/showlanguage.prx?exp=7759
-- Read more about BrouHaHa on Semantic Scholar: 1.
- https://semanticscholar.org/paper/96e9bf5ca274c5ac6d729e55659e9133c466c835 1.
-
-<br>
-
-endColumns
-
-keyboardNav blaze-2.html c-flat.html
-
-import ../footer.scroll
+isbndb 0

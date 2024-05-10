@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jBC
+import ../measures/conceptPage.scroll
+id jBC
+appeared 1989
+type pl
+reference https://www.scribd.com/document/354474528/Jbc-language-JBC-Programmers-Reference-Guide
+country Switzerland
+originCommunity https://github.com/temenostech
 
-title jBC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6861
 
-html
- <a class="trueBaseThemePreviousItem" href="jacal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jfugue.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jbc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=jbc" class="material-symbols-outlined">edit</a></div>
-
-* jBC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3750 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- jBC first developed in <a href="../lists/originCommunities.html#httpsGithubComTemenostech">https://github.com/temenostech</a>
-- jBC on HOPL
- https://hopl.info/showlanguage.prx?exp=6861
-- Read more about jBC on the web: 1.
- https://www.scribd.com/document/354474528/Jbc-language-JBC-Programmers-Reference-Guide 1.
-
-<br>
-
-endColumns
-
-keyboardNav jacal.html jfugue.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Keep It Short and Simple
+import ../measures/conceptPage.scroll
+id Keep It Short and Simple
+appeared 1959
+type pl
+reference http://www.columbia.edu/cu/computinghistory/650.html
+standsFor Keep It Short and Simple
+country United States
+originCommunity Columbia University
 
-title Keep It Short and Simple - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=85
 
-html
- <a class="trueBaseThemePreviousItem" href="kate.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kl1.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kiss.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kiss" class="material-symbols-outlined">edit</a></div>
-
-* Keep It Short and Simple, aka Keep It Short and Simple, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #4187 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- Keep It Short and Simple first developed in <a href="../lists/originCommunities.html#columbiaUniversity">Columbia University</a>
-- Keep It Short and Simple on HOPL
- https://hopl.info/showlanguage.prx?exp=85
-- Read more about Keep It Short and Simple on the web: 1.
- http://www.columbia.edu/cu/computinghistory/650.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav kate.html kl1.html
-
-import ../footer.scroll
+wordRank 4618

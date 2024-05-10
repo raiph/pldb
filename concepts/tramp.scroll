@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TRAMP
+import ../measures/conceptPage.scroll
+id TRAMP
+appeared 1968
+type pl
+reference https://semanticscholar.org/paper/fd593f8a787d734c5872046eed158af00e99b380
 
-title TRAMP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5341
 
-html
- <a class="trueBaseThemePreviousItem" href="traits.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tranquil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tramp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tramp" class="material-symbols-outlined">edit</a></div>
-
-* TRAMP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #3247 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- TRAMP on HOPL
- https://hopl.info/showlanguage.prx?exp=5341
-- Read more about TRAMP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fd593f8a787d734c5872046eed158af00e99b380 1.
-
-<br>
-
-endColumns
-
-keyboardNav traits.html tranquil.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title phorth
+import ../measures/conceptPage.scroll
+id phorth
+appeared 2016
+type pl
+creators Joe Jevnik
+country United States
+originCommunity https://github.com/llllllllll/phorth/issues
 
-title phorth - Programming language
- hidden
+githubRepo https://github.com/llllllllll/phorth
+ firstCommit 2016
+ stars 48
+ forks 3
+ subscribers 1
+ created 2016
+ updated 2022
+ description A small forth-like language that targets the CPython VM.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="fjs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cms-pipelines.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 13
+ committers 1
+ files 17
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/phorth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/llllllllll/phorth" class="material-symbols-outlined">code</a> <a href="/edit.html?id=phorth" class="material-symbols-outlined">edit</a></div>
-
-* phorth is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Joe Jevnik.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#joeJevnik Joe Jevnik
-
-codeWithHeader Source code:
- git clone https://github.com/llllllllll/phorth
-
-dashboard
- #2070 <span title="TotalRank: 2591 Jobs: 103 Users: 1800 Facts: 1502 Links: 986">on PLDB</span>
- 8 Years Old
-
-* A small forth-like language that targets the CPython VM.
-
-- phorth is developed on <a href="https://github.com/llllllllll/phorth">GitHub</a> and has 48 stars
-- phorth first developed in <a href="../lists/originCommunities.html#httpsGithubComLlllllllllPhorthIssues">https://github.com/llllllllll/phorth/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of phorth
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Phorth – A Forth-like language on the Python VM|https://news.ycombinator.com/item?id=13445357|01/20/2017|62|14
-
-keyboardNav fjs.html cms-pipelines.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 13445357|Show HN: Phorth – A Forth-like language on the Python VM|2017-01-20 17:33:17 UTC|1484933597|joejev|14|62

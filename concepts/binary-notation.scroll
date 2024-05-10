@@ -1,60 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Binary notation
+import ../measures/conceptPage.scroll
+id Binary notation
+appeared 1689
+type notation
+photo https://pldb.io/photos/binary-notation.png
+demoVideo https://www.youtube.com/watch?v=wgbV6DLVezo
+creators Gottfried Leibniz
+reference https://pdfs.semanticscholar.org/4e42/8d4918e7da3adc468c5b7cc3958b1fe21fc2.pdf
+reference https://writings.stephenwolfram.com/2013/05/dropping-in-on-gottfried-leibniz/
 
-title Binary notation - Notation
- hidden
+wikipedia https://en.wikipedia.org/wiki/Binary_code
+ example
+  100101 = [ ( 1 ) × 2^5 ] + [ ( 0 ) × 2^4 ] + [ ( 0 ) × 2^3 ] + [ ( 1 ) × 2^2 ] + [ ( 0 ) × 2^1 ] + [ ( 1 ) × 2^0 ]
+  100101 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
+  100101 = 37
+ summary A binary code represents text, computer processor instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the binary number system. The binary code assigns a pattern of binary digits, also known as bits, to each character, instruction, etc. For example, a binary string of eight bits can represent any of 256 possible values and can, therefore, represent a wide variety of different items. In computing and telecommunications, binary codes are used for various methods of encoding data, such as character strings, into bit strings. Those methods may use fixed-width or variable-width strings. In a fixed-width binary code, each letter, digit, or other character is represented by a bit string of the same length; that bit string, interpreted as a binary number, is usually displayed in code tables in octal, decimal or hexadecimal notation. There are many character sets and many character encodings for them. A bit string, interpreted as a binary number, can be translated into a decimal number. For example, the lower case a, if represented by the bit string 01100001 (as it is in the standard ASCII code), can also be represented as the decimal number "97".
+ backlinksCount 447
+ pageId 219202
+ dailyPageViews 939
+ appeared 1971
 
-html
- <a class="trueBaseThemePreviousItem" href="dartmouth-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="omgrofl.html">&gt;</a>
+conference https://binary-tools.net/summit.html
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/binary-notation.pldb
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 30539292|How I See Numbers|https://www.csun.io/2022/03/03/how-i-see-numbers.html|2022-03-03 10:24:28 UTC|1646283268|igpay|194|300
 
-startColumns 4
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Binary Numbers|1977| Clyde Watson, Wendy Watson|1110018|4.17|12|3
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Binary_code"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=binary-notation" class="material-symbols-outlined">edit</a></div>
+isbndb 0
 
-* Binary notation is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+notation">notation</a> created in 1689 by Gottfried Leibniz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1689 1689
- link ../lists/creators.html#gottfriedLeibniz Gottfried Leibniz
-
-dashboard
- #739 <span title="TotalRank: 1303 Jobs: 103 Users: 214 Facts: 1123 Links: 986">on PLDB</span>
- 335 Years Old
-
-openGraphImage https://pldb.io/photos/binary-notation.png
-image ../photos/binary-notation.png
- caption A photo of Binary notation.
-
-* A binary code represents text, computer processor instructions, or any other data using a two-symbol system. The two-symbol system used is often "0" and "1" from the binary number system. The binary code assigns a pattern of binary digits, also known as bits, to each character, instruction, etc. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Binary_code Read more on Wikipedia...
-
-- Binary notation Wikipedia page
- https://en.wikipedia.org/wiki/Binary_code
-- Video demo of Binary notation
- https://www.youtube.com/watch?v=wgbV6DLVezo
-- Recurring conference about Binary notation: <a href="https://binary-tools.net/summit.html"></a>
-- Read more about Binary notation on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/4e42/8d4918e7da3adc468c5b7cc3958b1fe21fc2.pdf 1.
-- Read more about Binary notation on the web: 1.
- https://writings.stephenwolfram.com/2013/05/dropping-in-on-gottfried-leibniz/ 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Binary_code'>Wikipedia</a>:
- 100101 = [ ( 1 ) × 2^5 ] + [ ( 0 ) × 2^4 ] + [ ( 0 ) × 2^3 ] + [ ( 1 ) × 2^2 ] + [ ( 0 ) × 2^1 ] + [ ( 1 ) × 2^0 ]
- 100101 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
- 100101 = 37
-
-endColumns
-
-## HackerNews discussions of Binary notation
-
-pipeTable
- title|titleLink|date|score|comments
- How I See Numbers|https://news.ycombinator.com/item?id=30539292|03/03/2022|300|194
-
-keyboardNav dartmouth-basic.html omgrofl.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2018|Binary Numbers|10.5951/mathteacmiddscho.24.1.0006|2|0|J. Ryu|68c823ef9fa80e960022ad7a61cefcac369cb354
+ 2017|The Universe of Binary Numbers|10.1007/978-3-319-64807-1_1|0|0|V. Moret-Bonillo|4f3a9d920a68b601d732b4ea68061e9e46bb630b

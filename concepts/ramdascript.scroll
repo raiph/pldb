@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RamdaScript
+import ../measures/conceptPage.scroll
+id RamdaScript
+appeared 2016
+type pl
+creators Yosbel Marín
+website https://yosbelms.github.io/ramdascript/
+country United States
 
-title RamdaScript - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="cecil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hivemind.html">&gt;</a>
+githubRepo https://github.com/yosbelms/ramdascript
+ stars 132
+ forks 5
+ subscribers 4
+ created 2016
+ updated 2018
+ description ram Lisp that compiles to JavaScript in the Ramda way
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ramdascript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://yosbelms.github.io/ramdascript/" class="material-symbols-outlined">home</a> <a href="https://github.com/yosbelms/ramdascript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ramdascript" class="material-symbols-outlined">edit</a></div>
-
-* RamdaScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Yosbel Marín.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#yosbelMarin Yosbel Marín
-
-codeWithHeader Source code:
- git clone https://github.com/yosbelms/ramdascript
-
-dashboard
- #1873 <span title="TotalRank: 2389 Jobs: 103 Users: 1300 Facts: 1890 Links: 986">on PLDB</span>
- 8 Years Old
-
-* ram Lisp that compiles to JavaScript in the Ramda way
-
-- RamdaScript website
- https://yosbelms.github.io/ramdascript/
-- RamdaScript is developed on <a href="https://github.com/yosbelms/ramdascript">GitHub</a> and has 132 stars
-- RamdaScript compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav cecil.html hivemind.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 64
+ committers 6
+ files 39

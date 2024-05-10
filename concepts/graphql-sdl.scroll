@@ -1,36 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GraphQL Schema Definition Language
+import ../measures/conceptPage.scroll
+id GraphQL Schema Definition Language
+appeared 2018
+type idl
+conceptDescription A type definition syntax to the GraphQL specification.
+reference https://github.com/graphql/graphql-spec/pull/90
+country Various
+originCommunity https://github.com/graphql/
 
-title GraphQL Schema Definition Language - Interface design language
- hidden
+hasComments true
+hasMultiLineComments false
+hasLineComments true
+ “”” A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="epsilon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wmlscript.html">&gt;</a>
+lineCommentToken #
+lineCommentToken “””
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/graphql-sdl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=graphql-sdl" class="material-symbols-outlined">edit</a></div>
-
-* GraphQL Schema Definition Language is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #1336 <span title="TotalRank: 1869 Jobs: 103 Users: 2838 Facts: 780 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A type definition syntax to the GraphQL specification.
-
-- GraphQL Schema Definition Language first developed in <a href="../lists/originCommunities.html#httpsGithubComGraphql">https://github.com/graphql/</a>
-- Read more about GraphQL Schema Definition Language on the web: 1.
- https://github.com/graphql/graphql-spec/pull/90 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Enumeration type for a level of priority
  enum Priority {
    LOW
@@ -58,38 +44,3 @@ codeWithHeader Example from the web:
    query: Query
    mutation: Mutation
  }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token “””
-  Example
-   “”” A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav epsilon.html wmlscript.html
-
-import ../footer.scroll

@@ -9,16 +9,14 @@ html
  <a class="trueBaseThemePreviousItem" href="hasBinaryNumbers.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasBitWiseOperators.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  1 + 1
 
-* Languages *with* Binary Operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c2.html">C2</a>
-
-* This question asks: Does the language have operators for operating on binary types?
+* Languages *with* Binary Operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c2.html">C2</a>
 
 * Read more about Binary Operators on the web: 1.
  https://en.wikipedia.org/wiki/Binary_operation 1.

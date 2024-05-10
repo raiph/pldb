@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DOE Macsyma
+import ../measures/conceptPage.scroll
+id DOE Macsyma
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/a77ab50f5daa2f9e64a49fb203e3635f3c57eac2
+country United States
+originCommunity Paradigm Associates, Inc
 
-title DOE Macsyma - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3621
 
-html
- <a class="trueBaseThemePreviousItem" href="dmap.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dolphin.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/doe-macsyma.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=doe-macsyma" class="material-symbols-outlined">edit</a></div>
-
-* DOE Macsyma is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3634 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- DOE Macsyma first developed in <a href="../lists/originCommunities.html#paradigmAssociatesInc">Paradigm Associates, Inc</a>
-- DOE Macsyma on HOPL
- https://hopl.info/showlanguage.prx?exp=3621
-- Read more about DOE Macsyma on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a77ab50f5daa2f9e64a49fb203e3635f3c57eac2 1.
-
-<br>
-
-endColumns
-
-keyboardNav dmap.html dolphin.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

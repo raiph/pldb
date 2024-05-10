@@ -1,53 +1,61 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SaltStack
+import ../measures/conceptPage.scroll
+id SaltStack
+appeared 2011
+type pl
+creators Thomas S Hatch
+website https://repo.saltstack.com/
+country United States
+originCommunity https://github.com/saltstack
+domainName repo.saltstack.com
 
-title SaltStack - Programming language
- hidden
+githubRepo https://github.com/saltstack/salt
+ firstCommit 2011
+ stars 12572
+ forks 5315
+ subscribers 553
+ created 2011
+ updated 2022
+ description Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package repository here: 
+ issues 2964
 
-html
- <a class="trueBaseThemePreviousItem" href="datalog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hypercard.html">&gt;</a>
+repoStats
+ firstCommit 2011
+ commits 128810
+ committers 4025
+ files 6539
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/saltstack.pldb
+githubLanguage SaltStack
+ fileExtensions sls
+ trendingProjectsCount 0
+ type programming
+ aceMode yaml
+ codemirrorMode yaml
+ codemirrorMimeType text/x-yaml
+ tmScope source.yaml.salt
+ aliases saltstate or salt
+ repos 4398
+githubBigQuery SaltStack
+ repos 1680
+ users 1413
 
-startColumns 4
+linguistGrammarRepo https://github.com/saltstack/atom-salt
+ firstCommit 2013
+ lastCommit 2015
+ committerCount 6
+ commitCount 25
+ sampleCount 6
+ example
+  base:
+    '*':
+      - packages
+      - coffeestats
 
-<div class="trueBaseThemeQuickLinks"><a href="https://repo.saltstack.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/saltstack/salt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=saltstack" class="material-symbols-outlined">edit</a></div>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* SaltStack is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Thomas S Hatch.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#thomasSHatch Thomas S Hatch
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2016|Packt Publishing|Mastering SaltStack - Second Edition|Hall, Joseph|9781786467027
 
-codeWithHeader Source code:
- git clone https://github.com/saltstack/salt
-
-dashboard
- #333 <span title="TotalRank: 774 Jobs: 103 Users: 61 Facts: 610 Links: 986">on PLDB</span>
- 13 Years Old
- 4k <span title="SaltStack repos on GitHub.">Repos</span>
-
-* Software to automate the management and configuration of any infrastructure or application at scale. Get access to the Salt software package repository here: 
-
-- SaltStack website
- https://repo.saltstack.com/
-- SaltStack is developed on <a href="https://github.com/saltstack/salt">GitHub</a> and has 12,572 stars
-- There are at least 4,398 SaltStack repos on <a href="https://github.com/search?q=language:SaltStack">GitHub</a>
-- SaltStack first developed in <a href="../lists/originCommunities.html#httpsGithubComSaltstack">https://github.com/saltstack</a>
-- file extensions for SaltStack include sls
-- The  Google BigQuery Public Dataset GitHub snapshot shows 1k users using SaltStack in 2k repos on <a href="https://api.github.com/search/repositories?q=language:SaltStack">GitHub</a>
-- GitHub supports <a href="https://github.com/saltstack/atom-salt" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SaltStack
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/saltstack/atom-salt'>Linguist</a>:
- base:
-   &#39;*&#39;:
-     - packages
-     - coffeestats
-
-endColumns
-
-keyboardNav datalog.html hypercard.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,51 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hoot-smalltalk
+import ../measures/conceptPage.scroll
+id hoot-smalltalk
+appeared 2018
+type pl
+creators Nikolas S. Boyd
+conceptDescription Hoot is a variation of Smalltalk that integrates the best features of Smalltalk with those of a host language and its virtual machine VM. The initial target platforms include Java (and its JVM), and C# (and its CLR). Hoot is an experimental new programming language which builds on experience and understanding gained during the development of Bistro Smalltalk. Thus, Hoot Smalltalk is the natural and conceptual successor of Bistro Smalltalk.
+country United States
+originCommunity https://gitlab.com/hoot-smalltalk/hoot-smalltalk
 
-title hoot-smalltalk - Programming language
- hidden
+hasThreads true
 
-html
- <a class="trueBaseThemePreviousItem" href="holo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hybrid.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hoot-smalltalk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gitlab.com/hoot-smalltalk/hoot-smalltalk" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hoot-smalltalk" class="material-symbols-outlined">edit</a></div>
-
-* hoot-smalltalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Nikolas S. Boyd.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#nikolasSBoyd Nikolas S. Boyd
-
-codeWithHeader Source code:
- git clone https://gitlab.com/hoot-smalltalk/hoot-smalltalk
-
-dashboard
- #4165 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Hoot is a variation of Smalltalk that integrates the best features of Smalltalk with those of a host language and its virtual machine VM. The initial target platforms include Java (and its JVM), and C# (and its CLR). Hoot is an experimental new programming language which builds on experience and understanding gained during the development of Bistro Smalltalk. Thus, Hoot Smalltalk is the natural and conceptual successor of Bistro Smalltalk.
-
-- hoot-smalltalk on GitLab
- https://gitlab.com/hoot-smalltalk/hoot-smalltalk
-- hoot-smalltalk first developed in <a href="../lists/originCommunities.html#httpsGitlabComHootSmalltalkHootSmalltalk">https://gitlab.com/hoot-smalltalk/hoot-smalltalk</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Threads
-  FeatureLink ../features/hasThreads.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav holo.html hybrid.html
-
-import ../footer.scroll
+gitlabRepo https://gitlab.com/hoot-smalltalk/hoot-smalltalk

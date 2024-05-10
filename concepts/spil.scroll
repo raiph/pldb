@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SPIL
+import ../measures/conceptPage.scroll
+id SPIL
+appeared 1973
+type pl
+creators Barbara H. Liskov and Leroy A. Smith
+reference https://semanticscholar.org/paper/0d03b10638a96002b64bfb64d9a51350d13bf2c6
+country United States
+originCommunity Massachusetts Institute of Technology and  The MITRE Corporation
 
-title SPIL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3900
 
-html
- <a class="trueBaseThemePreviousItem" href="specol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="splaw.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=spil" class="material-symbols-outlined">edit</a></div>
-
-* SPIL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973 by Barbara H. Liskov and Leroy A. Smith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
- link ../lists/creators.html#barbaraHLiskov Barbara H. Liskov
- link ../lists/creators.html#leroyASmith Leroy A. Smith
-
-dashboard
- #4317 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- SPIL first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnologyAndTheMitreCorporation">Massachusetts Institute of Technology and  The MITRE Corporation</a>
-- SPIL on HOPL
- https://hopl.info/showlanguage.prx?exp=3900
-- Read more about SPIL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0d03b10638a96002b64bfb64d9a51350d13bf2c6 1.
-
-<br>
-
-endColumns
-
-keyboardNav specol.html splaw.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Clear Language for Expressing Orders
+import ../measures/conceptPage.scroll
+id Clear Language for Expressing Orders
+appeared 1963
+type pl
+standsFor Clear Language for Expressing Orders
+country United Kingdom
+originCommunity English Electric LEO Co
 
-title Clear Language for Expressing Orders - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=318
 
-html
- <a class="trueBaseThemePreviousItem" href="classic-ada.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cleogo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cleo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cleo" class="material-symbols-outlined">edit</a></div>
-
-* Clear Language for Expressing Orders, aka Clear Language for Expressing Orders, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3572 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- Clear Language for Expressing Orders first developed in <a href="../lists/originCommunities.html#englishElectricLeoCo">English Electric LEO Co</a>
-- Clear Language for Expressing Orders on HOPL
- https://hopl.info/showlanguage.prx?exp=318
-
-<br>
-
-endColumns
-
-keyboardNav classic-ada.html cleogo.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title weebasic
+import ../measures/conceptPage.scroll
+id weebasic
+appeared 2021
+type pl
+creators Maxime Chevalier-Boisvert
+website https://github.com/maximecm/weebasic/
+country Canada
 
-title weebasic - Programming language
- hidden
+writtenIn rust freebasic
 
-html
- <a class="trueBaseThemePreviousItem" href="wats.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="futurescript.html">&gt;</a>
+githubRepo https://github.com/maximecb/weebasic/
+ stars 8
+ forks 1
+ subscribers 1
+ created 2021
+ updated 2022
+ description weebasic
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/weebasic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/maximecm/weebasic/" class="material-symbols-outlined">home</a> <a href="https://github.com/maximecb/weebasic/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=weebasic" class="material-symbols-outlined">edit</a></div>
-
-* weebasic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Maxime Chevalier-Boisvert.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#maximeChevalierBoisvert Maxime Chevalier-Boisvert
-
-codeWithHeader Source code:
- git clone https://github.com/maximecb/weebasic/
-
-dashboard
- #2432 <span title="TotalRank: 2979 Jobs: 103 Users: 2320 Facts: 1890 Links: 986">on PLDB</span>
- 3 Years Old
-
-* weebasic
-
-- weebasic website
- https://github.com/maximecm/weebasic/
-- weebasic is developed on <a href="https://github.com/maximecb/weebasic/">GitHub</a> and has 8 stars
-- weebasic is written in <a href="rust.html">Rust</a> & <a href="freebasic.html">FreeBASIC</a>
-
-<br>
-
-endColumns
-
-keyboardNav wats.html futurescript.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 61
+ committers 5
+ files 6

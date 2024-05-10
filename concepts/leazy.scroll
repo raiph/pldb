@@ -1,40 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Leazy
+import ../measures/conceptPage.scroll
+id Leazy
+appeared 1990
+type compiler
+creators Jochen L. Leidner
+country United Kingdom
+originCommunity https://github.com/jochenleidner/leazy/issues
 
-title Leazy - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lasp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="melpha-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/leazy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/jochenleidner/leazy" class="material-symbols-outlined">code</a> <a href="/edit.html?id=leazy" class="material-symbols-outlined">edit</a></div>
-
-* Leazy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 1990 by Jochen L. Leidner.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
- link ../lists/creators.html#jochenLLeidner Jochen L. Leidner
-
-codeWithHeader Source code:
- git clone https://github.com/jochenleidner/leazy
-
-dashboard
- #3202 on PLDB
- 34 Years Old
-
-* 
-
-- Leazy is developed on <a href="https://github.com/jochenleidner/leazy">GitHub</a> and has 0 stars
-- Leazy first developed in <a href="../lists/originCommunities.html#httpsGithubComJochenleidnerLeazyIssues">https://github.com/jochenleidner/leazy/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav lasp.html melpha-pm.html
-
-import ../footer.scroll
+githubRepo https://github.com/jochenleidner/leazy
+ stars 0
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ issues 0

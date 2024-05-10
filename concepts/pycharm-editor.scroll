@@ -1,35 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pycharm-editor
-
-title pycharm-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="komodo-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="runescript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pycharm-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pycharm-editor" class="material-symbols-outlined">edit</a></div>
-
-* pycharm-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #3656 on PLDB
- 8 Years Old
-
-* 
-
-- pycharm-editor first developed in <a href="../lists/originCommunities.html#jetBrainsSRO">JetBrains s.r.o</a>
-
-<br>
-
-endColumns
-
-keyboardNav komodo-editor.html runescript.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id pycharm-editor
+appeared 2016
+type editor
+country Czechia
+originCommunity JetBrains s.r.o

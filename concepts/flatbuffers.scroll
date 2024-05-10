@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FlatBuffers
+import ../measures/conceptPage.scroll
+id FlatBuffers
+appeared 2014
+type idl
+website https://google.github.io/flatbuffers/
+originCommunity Google
 
-title FlatBuffers - Interface design language
- hidden
+githubRepo https://github.com/google/flatbuffers
+ firstCommit 2014
+ stars 18105
+ forks 2826
+ subscribers 641
+ created 2014
+ updated 2022
+ description FlatBuffers: Memory Efficient Serialization Library
+ issues 166
 
-html
- <a class="trueBaseThemePreviousItem" href="csp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wren.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 3108
+ committers 690
+ files 1707
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flatbuffers.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://google.github.io/flatbuffers/" class="material-symbols-outlined">home</a> <a href="https://github.com/google/flatbuffers" class="material-symbols-outlined">code</a> <a href="/edit.html?id=flatbuffers" class="material-symbols-outlined">edit</a></div>
-
-* FlatBuffers is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/google/flatbuffers
-
-dashboard
- #269 <span title="TotalRank: 661 Jobs: 103 Users: 67 Facts: 1787 Links: 491">on PLDB</span>
- 10 Years Old
-
-* FlatBuffers: Memory Efficient Serialization Library
-
-- FlatBuffers website
- https://google.github.io/flatbuffers/
-- FlatBuffers is developed on <a href="https://github.com/google/flatbuffers">GitHub</a> and has 18,105 stars
-- FlatBuffers first developed in <a href="../lists/originCommunities.html#google">Google</a>
-
-<br>
-
-endColumns
-
-keyboardNav csp.html wren.html
-
-import ../footer.scroll
+semanticScholar 0

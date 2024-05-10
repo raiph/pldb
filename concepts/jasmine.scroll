@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jasmine
+import ../measures/conceptPage.scroll
+id jasmine
+appeared 2008
+type library
+website https://jasmine.github.io/
+country United States
+originCommunity https://github.com/jasmine/jasmine
+domainName jasmine.github.io
+ awisRank
+  2022 317709
 
-title jasmine - Library
- hidden
+githubRepo https://github.com/jasmine/jasmine
+ firstCommit 2008
+ stars 15387
+ forks 2265
+ subscribers 450
+ created 2008
+ updated 2022
+ description Simple JavaScript testing framework for browsers and node.js
+ issues 31
 
-html
- <a class="trueBaseThemePreviousItem" href="csv.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ssb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jasmine.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://jasmine.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/jasmine/jasmine" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jasmine" class="material-symbols-outlined">edit</a></div>
-
-* jasmine is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-codeWithHeader Source code:
- git clone https://github.com/jasmine/jasmine
-
-dashboard
- #727 on PLDB
- 16 Years Old
-
-* Simple JavaScript testing framework for browsers and node.js
-
-- jasmine website
- https://jasmine.github.io/
-- jasmine is developed on <a href="https://github.com/jasmine/jasmine">GitHub</a> and has 15,387 stars
-- jasmine first developed in <a href="../lists/originCommunities.html#httpsGithubComJasmineJasmine">https://github.com/jasmine/jasmine</a>
-
-<br>
-
-endColumns
-
-keyboardNav csv.html ssb.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

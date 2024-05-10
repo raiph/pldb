@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AUTOCODER II
+import ../measures/conceptPage.scroll
+id AUTOCODER II
+appeared 1958
+type assembly
+country United States
+originCommunity IBM
 
-title AUTOCODER II - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="arta.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beebasic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/autocoder-ii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=autocoder-ii" class="material-symbols-outlined">edit</a></div>
-
-* AUTOCODER II is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3169 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- AUTOCODER II first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- AUTOCODER II on HOPL
- https://hopl.info/showlanguage.prx?exp=3873
-
-<br>
-
-endColumns
-
-keyboardNav arta.html beebasic.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=3873

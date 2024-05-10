@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pgql
+import ../measures/conceptPage.scroll
+id pgql
+appeared 2016
+type pl
+website http://pgql-lang.org
+country United States
+originCommunity Oracle Corporation
+domainName pgql-lang.org
+ registered 2016
+ awisRank
+  2022 7505312
 
-title pgql - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pbt-omega.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pickcode.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pgql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://pgql-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pgql" class="material-symbols-outlined">edit</a></div>
-
-* pgql is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2961 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- pgql website
- http://pgql-lang.org
-- pgql first developed in <a href="../lists/originCommunities.html#oracleCorporation">Oracle Corporation</a>
-- <a href="http://pgql-lang.org">pgql-lang.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-## HackerNews discussions of pgql
-
-pipeTable
- title|titleLink|date|score|comments
- Property Graph Query Language|https://news.ycombinator.com/item?id=12353993|08/24/2016|4|1
-
-keyboardNav pbt-omega.html pickcode.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 12353993|Property Graph Query Language|http://pgql-lang.org/|2016-08-24 18:09:08 UTC|1472062148|stunksys|1|4

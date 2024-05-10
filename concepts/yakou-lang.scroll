@@ -1,39 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Yakou Lang
+import ../measures/conceptPage.scroll
+id Yakou Lang
+appeared 2021
+type pl
+creators KyleLin921021
 
-title Yakou Lang - Programming language
- hidden
+githubRepo https://github.com/CASC-Lang/CASC
+ firstCommit 2021
+ stars 32
+ forks 2
+ subscribers 2
+ created 2021
+ updated 2022
+ description A Go Lang / V Lang / Rust syntax approach in JVM language.
+ issues 9
 
-html
- <a class="trueBaseThemePreviousItem" href="brown-university-interactive-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="diana.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yakou-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/CASC-Lang/CASC" class="material-symbols-outlined">code</a> <a href="/edit.html?id=yakou-lang" class="material-symbols-outlined">edit</a></div>
-
-* Yakou Lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by KyleLin921021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#kyleLin921021 KyleLin921021
-
-codeWithHeader Source code:
- git clone https://github.com/CASC-Lang/CASC
-
-dashboard
- #2479 <span title="TotalRank: 3071 Jobs: 103 Users: 1985 Facts: 1982 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A Go Lang / V Lang / Rust syntax approach in JVM language.
-
-- Yakou Lang is developed on <a href="https://github.com/CASC-Lang/CASC">GitHub</a> and has 32 stars
-
-<br>
-
-endColumns
-
-keyboardNav brown-university-interactive-language.html diana.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 794
+ committers 6
+ files 64

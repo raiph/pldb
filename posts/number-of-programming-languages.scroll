@@ -4,7 +4,7 @@ groups index
 date 9/2/2022
 openGraphImage https://pldb.io/posts/images/languageTrends.png
 
-author https://github.com/breck7 Breck Yunits
+byLine https://github.com/breck7 Breck Yunits
 
 * 
  dateline
@@ -14,7 +14,9 @@ image images/languageTrends.svg
   link images/languageTrends.png png
 
 * The code for the visualization above was written in the Explorer language.
- link code explorers/number-of-programming-languages.explorer
+ link explorers/number-of-programming-languages.explorer code
  link BASE_URL/concepts/explorer.html Explorer language
+
+endSnippet
 
 import ../footer.scroll

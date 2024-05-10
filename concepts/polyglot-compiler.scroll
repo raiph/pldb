@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title polyglot-compiler
+import ../measures/conceptPage.scroll
+id polyglot-compiler
+appeared 2003
+type compiler
+creators Nick Mathewson
+website https://www.cs.cornell.edu/projects/polyglot/
+country United States
+originCommunity Defense Advanced Research Projects Agency && US Air Force
 
-title polyglot-compiler - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cecil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ana.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/polyglot-compiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.cs.cornell.edu/projects/polyglot/" class="material-symbols-outlined">home</a> <a href="https://github.com/polyglot-compiler/polyglot" class="material-symbols-outlined">code</a> <a href="/edit.html?id=polyglot-compiler" class="material-symbols-outlined">edit</a></div>
-
-* polyglot-compiler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2003 by Nick Mathewson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#nickMathewson Nick Mathewson
-
-codeWithHeader Source code:
- git clone https://github.com/polyglot-compiler/polyglot
-
-dashboard
- #2282 on PLDB
- 21 Years Old
-
-* Polyglot Extensible Compiler Framework for Java
-
-- polyglot-compiler website
- https://www.cs.cornell.edu/projects/polyglot/
-- polyglot-compiler is developed on <a href="https://github.com/polyglot-compiler/polyglot">GitHub</a> and has 92 stars
-- polyglot-compiler first developed in <a href="../lists/originCommunities.html#defenseAdvancedResearchProjectsAgency">Defense Advanced Research Projects Agency</a> and <a href="../lists/originCommunities.html#usAirForce">US Air Force</a>
-
-<br>
-
-endColumns
-
-keyboardNav cecil.html ana.html
-
-import ../footer.scroll
+githubRepo https://github.com/polyglot-compiler/polyglot
+ firstCommit 1999
+ stars 92
+ forks 21
+ subscribers 18
+ created 2014
+ updated 2022
+ description Polyglot Extensible Compiler Framework for Java
+ issues 2

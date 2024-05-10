@@ -1,49 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title little
+import ../measures/conceptPage.scroll
+id little
+appeared 2016
+type pl
+creators Larry McVoy
+website http://www.little-lang.org
+country United States
+originCommunity https://www.little-lang.org/community.html
+domainName little-lang.org
+ registered 2016
 
-title little - Programming language
- hidden
+githubRepo https://github.com/bitkeeper-scm/little-lang
+ firstCommit 2016
+ stars 216
+ forks 16
+ subscribers 10
+ created 2016
+ updated 2022
+ description The Little Programming Language
+ issues 9
 
-html
- <a class="trueBaseThemePreviousItem" href="3mf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mheg-5.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 30
+ committers 11
+ files 18
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/little.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.little-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/bitkeeper-scm/little-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=little" class="material-symbols-outlined">edit</a></div>
-
-* little is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Larry McVoy.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#larryMcVoy Larry McVoy
-
-codeWithHeader Source code:
- git clone https://github.com/bitkeeper-scm/little-lang
-
-dashboard
- #1592 <span title="TotalRank: 2104 Jobs: 103 Users: 1015 Facts: 1311 Links: 986">on PLDB</span>
- 8 Years Old
-
-* The Little Programming Language
-
-- little website
- http://www.little-lang.org
-- little is developed on <a href="https://github.com/bitkeeper-scm/little-lang">GitHub</a> and has 216 stars
-- little first developed in <a href="../lists/originCommunities.html#httpsWwwLittleLangOrgCommunityHtml">https://www.little-lang.org/community.html</a>
-- <a href="http://www.little-lang.org">little-lang.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-## HackerNews discussions of little
-
-pipeTable
- title|titleLink|date|score|comments
- Little: a tcl-based c-like scripting language|https://news.ycombinator.com/item?id=11530097|04/19/2016|101|57
-
-keyboardNav 3mf.html mheg-5.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 11530097|Little: a tcl-based c-like scripting language|http://www.little-lang.org/index.html|2016-04-19 20:31:53 UTC|1461097913|cisstrd|57|101

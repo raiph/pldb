@@ -1,39 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIL
+import ../measures/conceptPage.scroll
+id SIL
+appeared 2012
+type ir
+conceptDescription SIL is an SSA-form IR with high-level semantic information designed to implement the Swift programming language. In contrast to LLVM IR, SIL is a generally target-independent format representation that can be used for code distribution, but it can also express target-specific concepts as well as LLVM can.
+website https://github.com/apple/swift/blob/master/docs/SIL.rst
+standsFor Swift Intermediate Language
+fileExtensions sil
+originCommunity Apple
 
-title SIL - Intermediate representation language
- hidden
+relatedConcepts cir llvmir
 
-html
- <a class="trueBaseThemePreviousItem" href="musicxml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kml.html">&gt;</a>
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/swift-il.pldb
+lineCommentToken //
+printToken print
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/apple/swift/blob/master/docs/SIL.rst" class="material-symbols-outlined">home</a> <a href="/edit.html?id=swift-il" class="material-symbols-outlined">edit</a></div>
-
-* SIL, aka Swift Intermediate Language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #503 <span title="TotalRank: 1039 Jobs: 103 Users: 2442 Facts: 445 Links: 491">on PLDB</span>
- 12 Years Old
-
-* SIL is an SSA-form IR with high-level semantic information designed to implement the Swift programming language. In contrast to LLVM IR, SIL is a generally target-independent format representation that can be used for code distribution, but it can also express target-specific concepts as well as LLVM can.
-
-- SIL website
- https://github.com/apple/swift/blob/master/docs/SIL.rst
-- SIL first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- file extensions for SIL include sil
-- See also: (2 related languages)<a href="cir.html">CIR</a>, <a href="llvmir.html">LLVM IR</a>
-
-<br>
-
-codeWithHeader Example from the web:
- // SIL is reliant on Swift&#39;s type system and declarations, so SIL syntax is an extension of Swift&#39;s. A .sil file is a Swift source file with added SIL definitions. The Swift source is parsed only for its declarations; Swift func bodies (except for nested declarations) and top-level code are ignored by the SIL parser. In a .sil file, there are no implicit imports; the swift and/or Builtin standard modules must be imported explicitly if used.
+example
+ // SIL is reliant on Swift's type system and declarations, so SIL syntax is an extension of Swift's. A .sil file is a Swift source file with added SIL definitions. The Swift source is parsed only for its declarations; Swift func bodies (except for nested declarations) and top-level code are ignored by the SIL parser. In a .sil file, there are no implicit imports; the swift and/or Builtin standard modules must be imported explicitly if used.
  sil_stage canonical
  
  import Swift
@@ -52,20 +40,20 @@ codeWithHeader Example from the web:
  }
  
  // Declare a Swift function. The body is ignored by SIL.
- func taxicabNorm(_ a:Point) -&gt; Double {
+ func taxicabNorm(_ a:Point) -> Double {
    return a.x + a.y
  }
  
  // Define a SIL function.
  // The name @_T5norms11taxicabNormfT1aV5norms5Point_Sd is the mangled name
  // of the taxicabNorm Swift function.
- sil @_T5norms11taxicabNormfT1aV5norms5Point_Sd : $(Point) -&gt; Double {
+ sil @_T5norms11taxicabNormfT1aV5norms5Point_Sd : $(Point) -> Double {
  bb0(%0 : $Point):
-   // func Swift.+(Double, Double) -&gt; Double
+   // func Swift.+(Double, Double) -> Double
    %1 = function_ref @_Tsoi1pfTSdSd_Sd
    %2 = struct_extract %0 : $Point, #Point.x
    %3 = struct_extract %0 : $Point, #Point.y
-   %4 = apply %1(%2, %3) : $(Double, Double) -&gt; Double
+   %4 = apply %1(%2, %3) : $(Double, Double) -> Double
    return %4 : Double
  }
  
@@ -77,42 +65,14 @@ codeWithHeader Example from the web:
    #Button.onMouseUp: @_TC5norms6Button9onMouseUpfS0_FT_T_
  }
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/SIL.SIL'>hello-world</a>:
- print Hello World
- 
+leachim6 SIL
+ filepath s/SIL.SIL
+ fileExtensions SIL
+ example
+  print Hello World
+  
 
-endColumns
+fileType text
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav musicxml.html kml.html
-
-import ../footer.scroll
+isbndb 0

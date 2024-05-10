@@ -1,42 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hashlink
+import ../measures/conceptPage.scroll
+id hashlink
+appeared 2015
+type bytecode
+creators Nicolas Cannasse
+website https://hashlink.haxe.org/
+country Various
+originCommunity https://github.com/HaxeFoundation
+domainName hashlink.haxe.org
 
-title hashlink - Bytecode format
- hidden
+githubRepo https://github.com/HaxeFoundation/hashlink
+ firstCommit 2015
+ stars 674
+ forks 124
+ subscribers 42
+ created 2015
+ updated 2022
+ description A virtual machine for Haxe
+ issues 74
 
-html
- <a class="trueBaseThemePreviousItem" href="gwl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="caramel.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 1564
+ committers 68
+ files 645
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hashlink.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hashlink.haxe.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/HaxeFoundation/hashlink" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hashlink" class="material-symbols-outlined">edit</a></div>
-
-* hashlink is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+bytecode">bytecode format</a> created in 2015 by Nicolas Cannasse.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#nicolasCannasse Nicolas Cannasse
-
-codeWithHeader Source code:
- git clone https://github.com/HaxeFoundation/hashlink
-
-dashboard
- #1059 <span title="TotalRank: 1622 Jobs: 103 Users: 533 Facts: 1381 Links: 986">on PLDB</span>
- 9 Years Old
-
-* A virtual machine for Haxe
-
-- hashlink website
- https://hashlink.haxe.org/
-- hashlink is developed on <a href="https://github.com/HaxeFoundation/hashlink">GitHub</a> and has 674 stars
-- hashlink first developed in <a href="../lists/originCommunities.html#httpsGithubComHaxeFoundation">https://github.com/HaxeFoundation</a>
-
-<br>
-
-endColumns
-
-keyboardNav gwl.html caramel.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

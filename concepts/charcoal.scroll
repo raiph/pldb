@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Charcoal
+import ../measures/conceptPage.scroll
+id Charcoal
+appeared 2016
+type esolang
+creators somebody1234
+website https://github.com/somebody1234/Charcoal/
+country Unknown
+originCommunity https://github.com/somebody1234
 
-title Charcoal - Esoteric programming language
- hidden
+writtenIn python
 
-html
- <a class="trueBaseThemePreviousItem" href="dcalgol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="neliac.html">&gt;</a>
+githubRepo https://github.com/somebody1234/Charcoal/
+ stars 178
+ forks 8
+ subscribers 4
+ created 2016
+ updated 2022
+ description A concise language for sketching ASCII art.
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/charcoal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/somebody1234/Charcoal/" class="material-symbols-outlined">home</a> <a href="https://github.com/somebody1234/Charcoal/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=charcoal" class="material-symbols-outlined">edit</a></div>
-
-* Charcoal is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2016 by somebody1234.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#somebody1234 somebody1234
-
-codeWithHeader Source code:
- git clone https://github.com/somebody1234/Charcoal/
-
-dashboard
- #1706 <span title="TotalRank: 2214 Jobs: 103 Users: 1125 Facts: 1787 Links: 986">on PLDB</span>
- 8 Years Old
-
-* A concise language for sketching ASCII art.
-
-- Charcoal website
- https://github.com/somebody1234/Charcoal/
-- Charcoal is developed on <a href="https://github.com/somebody1234/Charcoal/">GitHub</a> and has 178 stars
-- Charcoal first developed in <a href="../lists/originCommunities.html#httpsGithubComSomebody1234">https://github.com/somebody1234</a>
-- Charcoal is written in <a href="python.html">Python</a>
-
-<br>
-
-endColumns
-
-keyboardNav dcalgol.html neliac.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 264
+ committers 10
+ files 46

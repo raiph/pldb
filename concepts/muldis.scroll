@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Muldis
+import ../measures/conceptPage.scroll
+id Muldis
+appeared 2007
+type queryLanguage
+creators Darren Duncan
+conceptDescription Muldis Data Language is an industrial-strength computationally complete high-level application programming language with fully integrated database functionality; you can use it to define, query, and update ("object") relational databases, as well as write general purpose applications. The language's paradigm is a mixture of declarative, homoiconic, functional, imperative, and object-oriented. Muldis Data Language is currently under development.
+website https://muldis.com/Muldis_Data_Language.html
 
-title Muldis - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="smarts.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="boa.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/muldis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://muldis.com/Muldis_Data_Language.html" class="material-symbols-outlined">home</a> <a href="https://github.com/muldis/Muldis_Data_Language" class="material-symbols-outlined">code</a> <a href="/edit.html?id=muldis" class="material-symbols-outlined">edit</a></div>
-
-* Muldis is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2007 by Darren Duncan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
- link ../lists/creators.html#darrenDuncan Darren Duncan
-
-codeWithHeader Source code:
- git clone https://github.com/muldis/Muldis_Data_Language
-
-dashboard
- #2644 <span title="TotalRank: 3273 Jobs: 103 Users: 2415 Facts: 2184 Links: 986">on PLDB</span>
- 17 Years Old
-
-* Muldis Data Language is an industrial-strength computationally complete high-level application programming language with fully integrated database functionality; you can use it to define, query, and update ("object") relational databases, as well as write general purpose applications. The language's paradigm is a mixture of declarative, homoiconic, functional, imperative, and object-oriented. Muldis Data Language is currently under development.
-
-- Muldis website
- https://muldis.com/Muldis_Data_Language.html
-- Muldis is developed on <a href="https://github.com/muldis/Muldis_Data_Language">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
    if ?people
      then (
        people
@@ -44,8 +16,4 @@ codeWithHeader Example from the web:
      )
      else \?%( age, ctry, count_by_age_ctry )
 
-endColumns
-
-keyboardNav smarts.html boa.html
-
-import ../footer.scroll
+githubRepo https://github.com/muldis/Muldis_Data_Language

@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kate-editor
-
-title kate-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="joker.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kima.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kate-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://kate-editor.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=kate-editor" class="material-symbols-outlined">edit</a></div>
-
-* kate-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3449 on PLDB
- 24 Years Old
-
-* Kate is a multi-document editor part of KDE since release 2.2. Being a KDE application, Kate ships with network transparency, as well as integration with the outstanding features of KDE. Choose it for viewing HTML sources from konqueror, editing configuration files, writing new applications or any other text editing task. You still need just one running instance of Kate.
-
-- kate-editor website
- https://kate-editor.org/
-- kate-editor first developed in <a href="../lists/originCommunities.html#kdeEV">KDE e.V.</a>
-- <a href="https://kate-editor.org/">kate-editor.org</a> was registered in 2005
-
-<br>
-
-endColumns
-
-keyboardNav joker.html kima.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id kate-editor
+appeared 2000
+type editor
+conceptDescription Kate is a multi-document editor part of KDE since release 2.2. Being a KDE application, Kate ships with network transparency, as well as integration with the outstanding features of KDE. Choose it for viewing HTML sources from konqueror, editing configuration files, writing new applications or any other text editing task. You still need just one running instance of Kate.
+website https://kate-editor.org/
+country Germany
+originCommunity KDE e.V.
+domainName kate-editor.org
+ registered 2005
+ awisRank
+  2022 412280

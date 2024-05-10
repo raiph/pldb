@@ -1,41 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ColorForth
+import ../measures/conceptPage.scroll
+id ColorForth
+appeared 1992
+type pl
+creators Charles H. Moore
+conceptDescription In Forth, a new word is defined by a preceding colon, words inside a definition are compiled, outside are executed. In colorForth a new word is red, green words are compiled, yellow executed. This use of color further reduces the syntax, or punctuation, needed. It also makes explicit how the computer will interpret each word.
+website https://colorforth.github.io/cf.htm
+country United States
+originCommunity https://github.com/colorforth
 
-title ColorForth - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/ColorForth
+ summary colorForth is a programming language from the Forth language's original designer, Charles H. Moore, developed in the 1990s. There was an earlier predecessor called 386 OK which appeared for sale at Silicon Valley Forth Interest Group (SVFIG) meetings in 1992.An idiosyncratic programming environment, the colors simplify Forth's semantics, speed compiling, and are said to aid Moore's own poor eyesight: colorForth uses different colors in its source code (replacing some of the punctuation in standard Forth) to determine how different words are treated. colorForth was originally developed as the scripting language for Moore's own homebrew VLSI CAD program OKAD, with which he develops custom Forth processors. As the language gained utility, he rewrote his CAD program in it, spruced up the environment, and released it to the public. It has since gained a small following, spurred much debate in the Forth community, and sprung offshoots for other processors and operating environments. The language's roots are closer to the Forth machine languages Moore develops for his processors than to the mainstream standardized Forths in more widespread use. The language comes with its own tiny (63K) operating system. Practically everything is stored as source code and compiled as and when needed. The current colorForth environment is limited to running on Pentium grade PCs with limited support for lowest-common-denominator motherboards, AGP video, disk, and network hardware. Coloring in colorForth has semantic meaning. Red words start a definition and green words are compiled into the current definition. Thus, colorForth would be rendered in standard Forth as:   : color forth ;  Moore developed Forth in the early 1970s and created a series of implementations of the language. In the 1980s he diverged from (or rather ignored) the standardization of the language, instead continuing to evolve it. He developed a series of Forth-like languages, each fairly extreme in its simplicity: Machine Forth, OK, colorForth. There is some controversy about colorForth marginalizing color blind programmers, but Moore has stated that color is only one option for displaying the language. One of Moore's papers on colorForth was printed in black and white, but used italics and other typographical conventions to present source code.
+ backlinksCount 7
+ pageId 436740
+ dailyPageViews 13
+ appeared 1990
 
-html
- <a class="trueBaseThemePreviousItem" href="cperl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ttcn.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/colorforth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://colorforth.github.io/cf.htm" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/ColorForth"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=colorforth" class="material-symbols-outlined">edit</a></div>
-
-* ColorForth is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992 by Charles H. Moore.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
- link ../lists/creators.html#charlesHMoore Charles H. Moore
-
-dashboard
- #1792 <span title="TotalRank: 2313 Jobs: 103 Users: 1543 Facts: 2321 Links: 667">on PLDB</span>
- 32 Years Old
-
-* colorForth is a programming language from the Forth language's original designer, Charles H. Moore, developed in the 1990s. There was an earlier predecessor called 386 OK which appeared for sale at Silicon Valley Forth Interest Group (SVFIG) meetings in 1992.An idiosyncratic programming environment, the colors simplify Forth's semantics, speed compiling, and are said to aid Moore's own poor eyesight: colorForth uses different colors in its source code (replacing some of the punctuation in standard Forth) to determine how different words are treated. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/ColorForth Read more on Wikipedia...
-
-- ColorForth website
- https://colorforth.github.io/cf.htm
-- ColorForth Wikipedia page
- https://en.wikipedia.org/wiki/ColorForth
-- ColorForth first developed in <a href="../lists/originCommunities.html#httpsGithubComColorforth">https://github.com/colorforth</a>
-
-<br>
-
-endColumns
-
-keyboardNav cperl.html ttcn.html
-
-import ../footer.scroll
+isbndb 0

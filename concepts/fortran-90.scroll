@@ -1,65 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fortran 90
+import ../measures/conceptPage.scroll
+id Fortran 90
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/d896513025079fa1e7a8d6aa44843c39bbf2b6ff
+country United Kingdom
+originCommunity University of Liverpool
 
-title Fortran 90 - Programming language
- hidden
+supersetOf fortran-77
 
-html
- <a class="trueBaseThemePreviousItem" href="chain-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pgm-format.html">&gt;</a>
+hasPointers true
+ type real_list_t
+   real :: sample_data(100)
+   type (real_list_t), pointer :: next => null ()
+ end type
+ 
+ type (real_list_t), target :: my_real_list
+ type (real_list_t), pointer :: real_list_temp
+ 
+ real_list_temp => my_real_list
+ do
+   read (1,iostat=ioerr) real_list_temp%sample_data
+   if (ioerr /= 0) exit
+   allocate (real_list_temp%next)
+   real_list_temp => real_list_temp%next
+ end do
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortran-90.pldb
+hopl https://hopl.info/showlanguage.prx?exp=1627
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fortran-90" class="material-symbols-outlined">edit</a></div>
-
-* Fortran 90 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #1969 <span title="TotalRank: 2470 Jobs: 103 Users: 2838 Facts: 1381 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Fortran 90 is a superset of <a href="/concepts/fortran-77.html">FORTRAN 77</a>
-- Fortran 90 first developed in <a href="../lists/originCommunities.html#universityOfLiverpool">University of Liverpool</a>
-- Fortran 90 on HOPL
- https://hopl.info/showlanguage.prx?exp=1627
-- Read more about Fortran 90 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d896513025079fa1e7a8d6aa44843c39bbf2b6ff 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Pointers
-  FeatureLink ../features/hasPointers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   type real_list_t
-     real :: sample_data(100)
-     type (real_list_t), pointer :: next => null ()
-   end type
-   
-   type (real_list_t), target :: my_real_list
-   type (real_list_t), pointer :: real_list_temp
-   
-   real_list_temp => my_real_list
-   do
-     read (1,iostat=ioerr) real_list_temp%sample_data
-     if (ioerr /= 0) exit
-     allocate (real_list_temp%next)
-     real_list_temp => real_list_temp%next
-   end do
-
-keyboardNav chain-format.html pgm-format.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

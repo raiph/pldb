@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Seque
+import ../measures/conceptPage.scroll
+id Seque
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/3dba059eef95967127526055454cf5cd969a6221
+country United States
+originCommunity The University of Arizona
 
-title Seque - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1433
 
-html
- <a class="trueBaseThemePreviousItem" href="semanol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sequel-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/seque.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=seque" class="material-symbols-outlined">edit</a></div>
-
-* Seque is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4006 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- Seque first developed in <a href="../lists/originCommunities.html#theUniversityOfArizona">The University of Arizona</a>
-- Seque on HOPL
- https://hopl.info/showlanguage.prx?exp=1433
-- Read more about Seque on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3dba059eef95967127526055454cf5cd969a6221 1.
-
-<br>
-
-endColumns
-
-keyboardNav semanol.html sequel-2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

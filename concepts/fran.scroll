@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FRAN
+import ../measures/conceptPage.scroll
+id FRAN
+appeared 1997
+type pl
+conceptDescription Dialect of Haskell for interactive programming of animation.
+country United States
+originCommunity Microsoft && Yale University
 
-title FRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3754
 
-html
- <a class="trueBaseThemePreviousItem" href="fp2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="g-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fran" class="material-symbols-outlined">edit</a></div>
-
-* FRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3679 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* Dialect of Haskell for interactive programming of animation.
-
-- FRAN first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a> and <a href="../lists/originCommunities.html#yaleUniversity">Yale University</a>
-- FRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=3754
-
-<br>
-
-endColumns
-
-keyboardNav fp2.html g-2.html
-
-import ../footer.scroll
+semanticScholar https://www.semanticscholar.org/paper/Functional-reactive-animation-Elliott-Hudak/37410b4f1753caa70769645a34a7fc3e3af32b7d

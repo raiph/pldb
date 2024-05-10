@@ -1,56 +1,53 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jq
+import ../measures/conceptPage.scroll
+id jq
+appeared 2012
+type queryLanguage
+creators Stephen Dolan
+website https://stedolan.github.io/jq/
+reference https://jqplay.org/
+country Unknown
+originCommunity https://github.com/stedolan/jq/issues
 
-title jq - Query language
- hidden
+githubRepo https://github.com/stedolan/jq
+ firstCommit 2012
+ stars 22398
+ forks 1314
+ subscribers 314
+ created 2012
+ updated 2022
+ description Command-line JSON processor
+ issues 737
 
-html
- <a class="trueBaseThemePreviousItem" href="livecode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="peg.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 1495
+ committers 154
+ files 216
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jq.pldb
+githubLanguage jq
+ type programming
+ fileExtensions jq
+ aceMode text
+ tmScope source.jq
+ repos 60
+githubBigQuery jq
+ repos 39
+ users 36
 
-startColumns 4
+projectEuler jq
+ memberCount
+  2022 5
+rosettaCode http://www.rosettacode.org/wiki/Category:Jq
 
-<div class="trueBaseThemeQuickLinks"><a href="https://stedolan.github.io/jq/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/jq" class="material-symbols-outlined">terminal</a> <a href="https://github.com/stedolan/jq" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jq" class="material-symbols-outlined">edit</a></div>
+rijuRepl https://riju.codes/jq
+ example
+  "Hello, world!"
+  
+tryItOnline jq
 
-* jq is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2012 by Stephen Dolan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#stephenDolan Stephen Dolan
+isOpenSource true
+centralPackageRepositoryCount 0
 
-codeWithHeader Source code:
- git clone https://github.com/stedolan/jq
+isbndb 0
 
-dashboard
- #407 <span title="TotalRank: 908 Jobs: 103 Users: 69 Facts: 736 Links: 986">on PLDB</span>
- 12 Years Old
- 60 <span title="jq repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/jq">Riju</a> · <a href="https://tio.run/#jq">TIO</a>
-
-* Command-line JSON processor
-
-- jq website
- https://stedolan.github.io/jq/
-- jq is developed on <a href="https://github.com/stedolan/jq">GitHub</a> and has 22,398 stars
-- There are at least 60 jq repos on <a href="https://github.com/search?q=language:jq">GitHub</a>
-- jq first developed in <a href="../lists/originCommunities.html#httpsGithubComStedolanJqIssues">https://github.com/stedolan/jq/issues</a>
-- file extensions for jq include jq
-- The  Google BigQuery Public Dataset GitHub snapshot shows 36 users using jq in 39 repos on <a href="https://api.github.com/search/repositories?q=language:jq">GitHub</a>
-- There are 5 <a href="https://projecteuler.net/language=jq">Project Euler</a> users using jq
-- Explore jq snippets on <a href="http://www.rosettacode.org/wiki/Category:Jq">Rosetta Code</a>
-- Read more about jq on the web: 1.
- https://jqplay.org/ 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/jq'>Riju</a>:
- &quot;Hello, world!&quot;
- 
-
-endColumns
-
-keyboardNav livecode.html peg.html
-
-import ../footer.scroll
+semanticScholar 0

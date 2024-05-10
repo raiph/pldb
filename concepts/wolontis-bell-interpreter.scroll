@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Wolontis-Bell Interpreter
+import ../measures/conceptPage.scroll
+id Wolontis-Bell Interpreter
+appeared 1955
+type pl
+reference https://semanticscholar.org/paper/8258aed6f5233fa66f3484d0d6774839f23c7746
 
-title Wolontis-Bell Interpreter - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6497
 
-html
- <a class="trueBaseThemePreviousItem" href="wizml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xl.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wolontis-bell-interpreter.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wolontis-bell-interpreter" class="material-symbols-outlined">edit</a></div>
-
-* Wolontis-Bell Interpreter is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1955.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1955 1955
-
-dashboard
- #4058 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 69 Years Old
-
-* 
-
-- Wolontis-Bell Interpreter on HOPL
- https://hopl.info/showlanguage.prx?exp=6497
-- Read more about Wolontis-Bell Interpreter on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8258aed6f5233fa66f3484d0d6774839f23c7746 1.
-
-<br>
-
-endColumns
-
-keyboardNav wizml.html xl.html
-
-import ../footer.scroll
+semanticScholar 0

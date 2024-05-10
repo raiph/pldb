@@ -1,48 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Typoscript
+import ../measures/conceptPage.scroll
+id Typoscript
+appeared 1998
+type dataNotation
+conceptDescription TypoScript is a syntax for defining information in a hierarchical structure using simple ASCII text content.
+website http://docs.typo3.org/typo3cms/TyposcriptReference/
+reference https://en.wikipedia.org/wiki/TYPO3
 
-title Typoscript - Data notation
- hidden
+writtenIn php
 
-html
- <a class="trueBaseThemePreviousItem" href="ttsneo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ascii-armor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/typoscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://docs.typo3.org/typo3cms/TyposcriptReference/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=typoscript" class="material-symbols-outlined">edit</a></div>
-
-* Typoscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #2548 <span title="TotalRank: 3156 Jobs: 103 Users: 2442 Facts: 2067 Links: 986">on PLDB</span>
- 26 Years Old
-
-* TypoScript is a syntax for defining information in a hierarchical structure using simple ASCII text content.
-
-- Typoscript website
- http://docs.typo3.org/typo3cms/TyposcriptReference/
-- file extensions for Typoscript include typoscript
-- Typoscript is written in <a href="php.html">PHP</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/typoscript.py">syntax highlighting</a> for Typoscript
-- Read more about Typoscript on the web: 1.
- https://en.wikipedia.org/wiki/TYPO3 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  asdf {
   zxcvbnm = uiop
   backgroundColor = blue
   backgroundColor.transparency = 95%
  }
 
-endColumns
+pygmentsHighlighter TypoScript
+ filename typoscript.py
+ fileExtensions typoscript
 
-keyboardNav ttsneo.html ascii-armor.html
-
-import ../footer.scroll
+isbndb 0

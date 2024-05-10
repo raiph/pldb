@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mockingbird-notation
+import ../measures/conceptPage.scroll
+id mockingbird-notation
+appeared 1996
+type notation
+creators David C. Keenan
+website http://dkeenan.com/Lambda/
+country Australia
+originCommunity https://dkeenan.com
 
-title mockingbird-notation - Notation
- hidden
+relatedConcepts lisp
 
-html
- <a class="trueBaseThemePreviousItem" href="graphql-plus-minus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kernel.html">&gt;</a>
+visualParadigm true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mockingbird-notation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://dkeenan.com/Lambda/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mockingbird-notation" class="material-symbols-outlined">edit</a></div>
-
-* mockingbird-notation is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+notation">notation</a> created in 1996 by David C. Keenan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
- link ../lists/creators.html#davidCKeenan David C. Keenan
-
-dashboard
- #2564 <span title="TotalRank: 3212 Jobs: 103 Users: 2442 Facts: 2816 Links: 667">on PLDB</span>
- 28 Years Old
-
-* 
-
-- mockingbird-notation website
- http://dkeenan.com/Lambda/
-- mockingbird-notation first developed in <a href="../lists/originCommunities.html#httpsDkeenanCom">https://dkeenan.com</a>
-- See also: (1 related languages)<a href="lisp.html">Lisp</a>
-
-<br>
-
-endColumns
-
-keyboardNav graphql-plus-minus.html kernel.html
-
-import ../footer.scroll
+semanticScholar 0

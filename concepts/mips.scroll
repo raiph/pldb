@@ -1,132 +1,74 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MIPS architecture
+import ../measures/conceptPage.scroll
+id MIPS architecture
+appeared 1985
+type isa
+documentation https://www.mips.com/products/architectures/mips32-2/
+originCommunity MIPS Technologies && Imagination Technologies
 
-title MIPS architecture - Instruction set architecture
- hidden
+hasStrings true
+hasRegularExpressionsSyntaxSugar true
+hasLineComments true
+ # A comment
+hasMultiLineComments true
+ ### A comment
+ ###
+hasComments true
+ # A comment
 
-html
- <a class="trueBaseThemePreviousItem" href="forth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ml.html">&gt;</a>
+lineCommentToken #
+multiLineCommentTokens ###
+stringToken "
+keywords .data .text syscall trap add addu addi addiu and andi div divu mult multu nor or ori sll slv sra srav srl srlv sub subu xor xori lhi lho lhi llo slt slti sltu sltiu beq bgtz blez bne j jal jalr jr lb lbu lh lhu lw li la sb sh sw mfhi mflo mthi mtlo move
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mips.pldb
+wikipedia https://en.wikipedia.org/wiki/MIPS_architecture
+ summary MIPS is a reduced instruction set computer (RISC) instruction set architecture (ISA) developed by MIPS Technologies (formerly MIPS Computer Systems). The early MIPS architectures were 32-bit, with 64-bit versions added later. There are multiple versions of MIPS: including MIPS I, II, III, IV, and V; as well as five releases of MIPS32/64 (for 32- and 64-bit implementations, respectively). As of April 2017, the current version is MIPS32/64 Release 6. MIPS32/64 primarily differs from MIPS I–V by defining the privileged kernel mode System Control Coprocessor in addition to the user mode architecture. Several optional extensions are also available, including MIPS-3D which is a simple set of floating-point SIMD instructions dedicated to common 3D tasks, MDMX (MaDMaX) which is a more extensive integer SIMD instruction set using the 64-bit floating-point registers, MIPS16e which adds compression to the instruction stream to make programs take up less room, and MIPS MT, which adds multithreading capability. Computer architecture courses in universities and technical schools often study the MIPS architecture. The architecture greatly influenced later RISC architectures such as Alpha. As of April 2017, MIPS processors are used in embedded systems such as residential gateways and routers. Originally, MIPS was designed for general-purpose computing, and during the 1980s and 1990s, MIPS processors for personal, workstation, and server computers were used by many companies such as Digital Equipment Corporation, MIPS Computer Systems, NEC, Pyramid Technology, SiCortex, Siemens Nixdorf, Silicon Graphics, and Tandem Computers. Historically, video game consoles such as the Nintendo 64, Sony PlayStation, PlayStation 2 and PlayStation Portable use MIPS processors. MIPS processors also used to be popular in supercomputers during the 1990s, but all such systems have dropped off the TOP500 list. These uses were complemented by embedded applications at first, but during the 1990s, MIPS became a major presence in the embedded processor market, and by the 2000s, most MIPS processors were for these applications. In the mid- to late-1990s, it was estimated that one in three RISC microprocessors produced was a MIPS processor. MIPS is a modular architecture supporting up to four coprocessors (CP0/1/2/3). In MIPS terminology, CP0 is the System Control Coprocessor (an essential part of the processor that is implementation-defined in MIPS I–V), CP1 is an optional floating-point unit (FPU) and CP2/3 are optional implementation-defined coprocessors (MIPS III removed CP3 and reused its opcodes for other purposes). For example, in the PlayStation video game console, CP2 is the Geometry Transformation Engine (GTE), which accelerates the processing of geometry in 3D computer graphics.
+ pageId 20170
+ dailyPageViews 1025
+ created 2001
+ backlinksCount 1013
+ revisionCount 1553
+ appeared 1985
 
-startColumns 4
+monaco mips
 
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/mips" class="material-symbols-outlined">terminal</a> <a href="https://www.mips.com/products/architectures/mips32-2/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/MIPS_architecture"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=mips" class="material-symbols-outlined">edit</a></div>
+leachim6 Mips
+ filepath m/Mips.s
+ fileExtensions s
+ example
+  .data
+  hello_world: .asciiz "Hello World"
+  
+  .text
+  main:
+    li $v0, 4            # Load syscommand print_string
+    la $a0, hello_world  # Load hello_world string into register $a0
+    syscall              # Print the string
+    jr $ra               # Return
+  
 
-* MIPS architecture is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+isa">instruction set architecture</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
+rijuRepl https://riju.codes/mips
+ example
+  	.text
+  	.global main
+  main:
+  	li $v0, 5001
+  	li $a0, 1
+  	dla $a1, message
+  	li $a2, 14
+  	syscall
+  	li $v0, 5058
+  	li $a0, 0
+  	syscall
+  	.data
+  message:
+  	.string "Hello, world!\n"
 
-dashboard
- #123 <span title="TotalRank: 367 Jobs: 89 Users: 205 Facts: 507 Links: 73">on PLDB</span>
- 39 Years Old
+indeedJobs mips engineer
+ 2022 12
 
-* Try now: <a href="https://riju.codes/mips">Riju</a>
+fileType na
+centralPackageRepositoryCount 0
 
-monacoEditor mips
- 	.text
- 	.global main
- main:
- 	li $v0, 5001
- 	li $a0, 1
- 	dla $a1, message
- 	li $a2, 14
- 	syscall
- 	li $v0, 5058
- 	li $a0, 0
- 	syscall
- 	.data
- message:
- 	.string "Hello, world!\n"
+isbndb 0
 
-* MIPS is a reduced instruction set computer (RISC) instruction set architecture (ISA) developed by MIPS Technologies (formerly MIPS Computer Systems). The early MIPS architectures were 32-bit, with 64-bit versions added later. There are multiple versions of MIPS: including MIPS I, II, III, IV, and V; as well as five releases of MIPS32/64 (for 32- and 64-bit implementations, respectively). Read more on Wikipedia...
- https://en.wikipedia.org/wiki/MIPS_architecture Read more on Wikipedia...
-
-- MIPS architecture Wikipedia page
- https://en.wikipedia.org/wiki/MIPS_architecture
-- MIPS architecture docs
- https://www.mips.com/products/architectures/mips32-2/
-- MIPS architecture first developed in <a href="../lists/originCommunities.html#mipsTechnologies">MIPS Technologies</a> and <a href="../lists/originCommunities.html#imaginationTechnologies">Imagination Technologies</a>
-- PLDB estimates there are currently 12 job openings for MIPS architecture programmers.
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/mips">package</a> for syntax highlighting MIPS architecture
-- Indeed.com has 12 matches for <a href="https://www.indeed.com/jobs?q=mips engineer">"mips engineer"</a>.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/mips'>Riju</a>:
- 	.text
- 	.global main
- main:
- 	li $v0, 5001
- 	li $a0, 1
- 	dla $a1, message
- 	li $a2, 14
- 	syscall
- 	li $v0, 5058
- 	li $a0, 0
- 	syscall
- 	.data
- message:
- 	.string &quot;Hello, world!\n&quot;
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Mips.s'>hello-world</a>:
- .data
- hello_world: .asciiz &quot;Hello World&quot;
- 
- .text
- main:
-   li $v0, 4            # Load syscommand print_string
-   la $a0, hello_world  # Load hello_world string into register $a0
-   syscall              # Print the string
-   jr $ra               # Return
- 
-
-<div class="keywordsBlock">
-codeWithHeader MIPS architecture <a href="../lists/keywords.html?filter=mips">Keywords</a>
- .data .text syscall trap add addu addi addiu and andi div divu mult multu nor or ori sll slv sra srav srl srlv sub subu xor xori lhi lho lhi llo slt slti sltu sltiu beq bgtz blez bne j jal jalr jr lb lbu lh lhu lw li la sb sh sw mfhi mflo mthi mtlo move
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ###
-  Example
-   ### A comment
-   ###
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Regular Expression Syntax Sugar
-  FeatureLink ../features/hasRegularExpressionsSyntaxSugar.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-
-keyboardNav forth.html ml.html
-
-import ../footer.scroll
+semanticScholar 0

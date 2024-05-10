@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PGen
-
-title PGen - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pclos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pl-as.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pgen.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pgen" class="material-symbols-outlined">edit</a></div>
-
-* PGen is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3208 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- PGen first developed in <a href="../lists/originCommunities.html#httpsGithubComPython">https://github.com/python</a>
-- Read more about PGen on the web: 1.
- http://python-history.blogspot.com/2018/05/the-origins-of-pgen.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav pclos.html pl-as.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id PGen
+appeared 2015
+type grammarLanguage
+reference http://python-history.blogspot.com/2018/05/the-origins-of-pgen.html
+country Various
+originCommunity https://github.com/python

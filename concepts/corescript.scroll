@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title corescript
+import ../measures/conceptPage.scroll
+id corescript
+appeared 2018
+type pl
+creators Stephan Bruny
+country Germany
+originCommunity https://www.stephanbruny.de/
 
-title corescript - Programming language
- hidden
+githubRepo https://github.com/stephanbruny/corescript
+ firstCommit 2018
+ stars 19
+ subscribers 4
+ created 2018
+ updated 2020
+ description A dynamically typed, functional-first, object-oriented, concurrent, general-purpose, embeddable scipting and programming language (for dotnet core 2.0).
+ forks 0
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="ramen.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xpm-format.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 14
+ committers 1
+ files 70
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/corescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/stephanbruny/corescript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=corescript" class="material-symbols-outlined">edit</a></div>
-
-* corescript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Stephan Bruny.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#stephanBruny Stephan Bruny
-
-codeWithHeader Source code:
- git clone https://github.com/stephanbruny/corescript
-
-dashboard
- #2084 <span title="TotalRank: 2591 Jobs: 103 Users: 2146 Facts: 1502 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A dynamically typed, functional-first, object-oriented, concurrent, general-purpose, embeddable scipting and programming language (for dotnet core 2.0).
-
-- corescript is developed on <a href="https://github.com/stephanbruny/corescript">GitHub</a> and has 19 stars
-- corescript first developed in <a href="../lists/originCommunities.html#httpsWwwStephanbrunyDe">https://www.stephanbruny.de/</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of corescript
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: CoreScript – a scripting language for dotnet core|https://news.ycombinator.com/item?id=16419144|02/20/2018|2|0
-
-keyboardNav ramen.html xpm-format.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 16419144|Show HN: CoreScript – a scripting language for dotnet core|2018-02-20 10:09:49 UTC|1519121389|sbruny|0|2

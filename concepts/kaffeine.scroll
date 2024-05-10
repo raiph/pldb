@@ -1,43 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kaffeine
+import ../measures/conceptPage.scroll
+id Kaffeine
+appeared 2010
+type pl
+creators Jonah Fox
+website https://web.archive.org/web/20201111200507/http://learn-krft.studioamplify.com/kaffeine/
+fileExtensions k
+country Ireland
+originCommunity Studio Amplify
 
-title Kaffeine - Programming language
- hidden
+githubRepo https://github.com/weepy/kaffeine
+ stars 182
+ forks 16
+ subscribers 10
+ created 2010
+ updated 2012
+ description Extended Javascript for Pros
 
-html
- <a class="trueBaseThemePreviousItem" href="m-expressions.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gema.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaffeine.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20201111200507/http://learn-krft.studioamplify.com/kaffeine/" class="material-symbols-outlined">home</a> <a href="https://github.com/weepy/kaffeine" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kaffeine" class="material-symbols-outlined">edit</a></div>
-
-* Kaffeine is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Jonah Fox.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#jonahFox Jonah Fox
-
-codeWithHeader Source code:
- git clone https://github.com/weepy/kaffeine
-
-dashboard
- #1650 <span title="TotalRank: 2160 Jobs: 103 Users: 1071 Facts: 1787 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Extended Javascript for Pros
-
-- Kaffeine website
- https://web.archive.org/web/20201111200507/http://learn-krft.studioamplify.com/kaffeine/
-- Kaffeine is developed on <a href="https://github.com/weepy/kaffeine">GitHub</a> and has 182 stars
-- Kaffeine first developed in <a href="../lists/originCommunities.html#studioAmplify">Studio Amplify</a>
-- file extensions for Kaffeine include k
-
-<br>
-
-endColumns
-
-keyboardNav m-expressions.html gema.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 235
+ committers 13
+ files 315

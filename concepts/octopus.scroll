@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Octopus
+import ../measures/conceptPage.scroll
+id Octopus
+appeared 1993
+type pl
+reference https://link.springer.com/chapter/10.1007/978-1-4471-3564-7_4
+country Australia
+originCommunity University of Adelaide
 
-title Octopus - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3537
 
-html
- <a class="trueBaseThemePreviousItem" href="occam-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ohaskell.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/octopus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=octopus" class="material-symbols-outlined">edit</a></div>
-
-* Octopus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3884 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Octopus first developed in <a href="../lists/originCommunities.html#universityOfAdelaide">University of Adelaide</a>
-- Octopus on HOPL
- https://hopl.info/showlanguage.prx?exp=3537
-- Read more about Octopus on the web: 1.
- https://link.springer.com/chapter/10.1007/978-1-4471-3564-7_4 1.
-
-<br>
-
-endColumns
-
-keyboardNav occam-2.html ohaskell.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,70 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSYNC
+import ../measures/conceptPage.scroll
+id JSYNC
+appeared 2010
+type dataNotation
+creators Ingy döt Net
+conceptDescription JSYNC is a simple data serialization language. It takes the simplicity of JSON and combines it with the completeness of YAML.
+website http://jsync.org/
+reference https://web.archive.org/web/20110723231221/http://jsync.org/
 
-title JSYNC - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="swizzle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="verifpal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jsync.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://jsync.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=jsync" class="material-symbols-outlined">edit</a></div>
-
-* JSYNC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2010 by Ingy döt Net.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#ingyDotNet Ingy döt Net
-
-dashboard
- #1488 <span title="TotalRank: 2004 Jobs: 103 Users: 2442 Facts: 915 Links: 986">on PLDB</span>
- 14 Years Old
-
-* JSYNC is a simple data serialization language. It takes the simplicity of JSON and combines it with the completeness of YAML.
-
-- JSYNC website
- http://jsync.org/
-- Read more about JSYNC on the web: 1.
- https://web.archive.org/web/20110723231221/http://jsync.org/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [
-     &quot;!records&quot;,
+     "!records",
      {
-         &quot;!&quot;: &quot;record&quot;,
-         &quot;game&quot;: {
-             &quot;!&quot;: &quot;game&quot;,
-             &quot;&amp;&quot;: &quot;001&quot;,
-             &quot;date&quot;: &quot;!!date March 2, 1962&quot;,
-             &quot;versus&quot;: &quot;New York&quot;
+         "!": "record",
+         "game": {
+             "!": "game",
+             "&": "001",
+             "date": "!!date March 2, 1962",
+             "versus": "New York"
          },
-         &quot;notes&quot;: &quot;.!!! Awesome !!!&quot;,
-         &quot;number&quot;: 100,
-         &quot;player&quot;: {
-             &quot;!&quot;: &quot;player&quot;,
-             &quot;&amp;&quot;: &quot;002&quot;,
-             &quot;name&quot;: &quot;Wilt Chamberlain&quot;,
-             &quot;team&quot;: &quot;Philadelphia&quot;
+         "notes": ".!!! Awesome !!!",
+         "number": 100,
+         "player": {
+             "!": "player",
+             "&": "002",
+             "name": "Wilt Chamberlain",
+             "team": "Philadelphia"
          },
-         &quot;record&quot;: &quot;Most points single game&quot;
+         "record": "Most points single game"
      },
      {
-         &quot;!&quot;: &quot;record&quot;,
-         &quot;game&quot;: &quot;*001&quot;,
-         &quot;notes&quot;: &quot;... add note here ...&quot;,
-         &quot;number&quot;: 59,
-         &quot;player&quot;: &quot;*002&quot;,
-         &quot;record&quot;: &quot;Most points, one half&quot;
+         "!": "record",
+         "game": "*001",
+         "notes": "... add note here ...",
+         "number": 59,
+         "player": "*002",
+         "record": "Most points, one half"
      }
  ]
-
-endColumns
-
-keyboardNav swizzle.html verifpal.html
-
-import ../footer.scroll

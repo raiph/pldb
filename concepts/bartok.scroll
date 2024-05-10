@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bartok
+import ../measures/conceptPage.scroll
+id Bartok
+appeared 2001
+type pl
+reference https://en.wikipedia.org/wiki/Bartok_(compiler)
+country United States
+originCommunity Microsoft
 
-title Bartok - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3712
 
-html
- <a class="trueBaseThemePreviousItem" href="baltik.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="basic-pdp-1-lisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bartok.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bartok" class="material-symbols-outlined">edit</a></div>
-
-* Bartok is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3510 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- Bartok first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- Bartok on HOPL
- https://hopl.info/showlanguage.prx?exp=3712
-- Read more about Bartok on the web: 1.
- https://en.wikipedia.org/wiki/Bartok_(compiler) 1.
-
-<br>
-
-endColumns
-
-keyboardNav baltik.html basic-pdp-1-lisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

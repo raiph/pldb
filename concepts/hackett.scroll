@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hackett
+import ../measures/conceptPage.scroll
+id Hackett
+appeared 2017
+type pl
+creators Alexis King
+conceptDescription Hackett is an attempt to implement a Haskell-like language with support for Racket’s macro system, built using the techniques described in the paper Type Systems as Macros.
+website https://lexi-lambda.github.io/hackett/
+country United States
+originCommunity https://github.com/lexi-lambda/hackett/issues
 
-title Hackett - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cartocss.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="observable-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hackett.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://lexi-lambda.github.io/hackett/" class="material-symbols-outlined">home</a> <a href="https://github.com/lexi-lambda/hackett" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hackett" class="material-symbols-outlined">edit</a></div>
-
-* Hackett is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Alexis King.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#alexisKing Alexis King
-
-codeWithHeader Source code:
- git clone https://github.com/lexi-lambda/hackett
-
-dashboard
- #761 <span title="TotalRank: 1327 Jobs: 103 Users: 488 Facts: 736 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Hackett is an attempt to implement a Haskell-like language with support for Racket’s macro system, built using the techniques described in the paper Type Systems as Macros.
-
-- Hackett website
- https://lexi-lambda.github.io/hackett/
-- Hackett is developed on <a href="https://github.com/lexi-lambda/hackett">GitHub</a> and has 1,094 stars
-- Hackett first developed in <a href="../lists/originCommunities.html#httpsGithubComLexiLambdaHackettIssues">https://github.com/lexi-lambda/hackett/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #lang hackett
  
  (data (Maybe a)
@@ -48,14 +21,30 @@ codeWithHeader Example from the web:
      {y + z}))
  
  (class (Show a)
-   [show : {a -&gt; String}])
+   [show : {a -> String}])
  
- (instance (forall [a] (Show a) =&gt; (Show (Maybe a)))
-   [show (λ* [[(Just x)] {&quot;(Just &quot; ++ (show x) ++ &quot;)&quot;}]
-             [[Nothing ] &quot;Nothing&quot;])])
+ (instance (forall [a] (Show a) => (Show (Maybe a)))
+   [show (λ* [[(Just x)] {"(Just " ++ (show x) ++ ")"}]
+             [[Nothing ] "Nothing"])])
 
-endColumns
+githubRepo https://github.com/lexi-lambda/hackett
+ firstCommit 2017
+ stars 1094
+ forks 47
+ subscribers 67
+ created 2016
+ updated 2022
+ description WIP implementation of a Haskell-like Lisp in Racket
+ issues 34
 
-keyboardNav cartocss.html observable-lang.html
+repoStats
+ firstCommit 2017
+ commits 293
+ committers 11
+ files 86
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0

@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PO
+import ../measures/conceptPage.scroll
+id PO
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/69ae26efe248b3a4c8bdcbcbaf07cbe84d5ac38c
+country Italy
+originCommunity Universita' di Bologna
 
-title PO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6305
 
-html
- <a class="trueBaseThemePreviousItem" href="perfectscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prosper.html">&gt;</a>
+wordRank 1997
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/po.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=po" class="material-symbols-outlined">edit</a></div>
-
-* PO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3037 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- PO first developed in <a href="../lists/originCommunities.html#universitaDiBologna">Universita' di Bologna</a>
-- PO on HOPL
- https://hopl.info/showlanguage.prx?exp=6305
-- Read more about PO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/69ae26efe248b3a4c8bdcbcbaf07cbe84d5ac38c 1.
-
-<br>
-
-endColumns
-
-keyboardNav perfectscript.html prosper.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 1992|Moskovskai︠a︡ Mezhdunar. Shkola Perevodchikov|Anglo-russkiĭ slovarʹ po programmirovanii︠u︡ i informatike: s tolkovanii︠a︡mi : okolo 6,000 terminov|Borkovskiĭ, A. B. (arkadiĭ Borisovich)|9785823400039

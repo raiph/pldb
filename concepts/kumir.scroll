@@ -1,59 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kumir
+import ../measures/conceptPage.scroll
+id kumir
+appeared 2011
+type pl
+conceptDescription KuMir, which is used in some Russian schools for education. KuMir" is a game of words, literally “Kumir" means “Idol", but developers of this language say that this is abbreviature: “K" - Set, “u" - of Educational, “Mir" - WORLDs (КуМир - Комплект Учебных МИРов).
+website https://www.niisi.ru/kumir/
+country Russia
+originCommunity https://github.com/a-a-maly/kumir2/issues
 
-title kumir - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="jiyu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="atomese.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kumir.pldb
+githubRepo https://github.com/a-a-maly/kumir2
+ firstCommit 2011
+ stars 11
+ forks 6
+ subscribers 2
+ created 2018
+ updated 2022
+ description New home for Kumir2.
+ issues 23
 
-startColumns 4
+repoStats
+ firstCommit 2011
+ commits 3785
+ committers 23
+ files 9027
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.niisi.ru/kumir/" class="material-symbols-outlined">home</a> <a href="https://github.com/a-a-maly/kumir2" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kumir" class="material-symbols-outlined">edit</a></div>
-
-* kumir is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/a-a-maly/kumir2
-
-dashboard
- #1606 <span title="TotalRank: 2121 Jobs: 103 Users: 2050 Facts: 1032 Links: 986">on PLDB</span>
- 13 Years Old
-
-* KuMir, which is used in some Russian schools for education. KuMir" is a game of words, literally “Kumir" means “Idol", but developers of this language say that this is abbreviature: “K" - Set, “u" - of Educational, “Mir" - WORLDs (КуМир - Комплект Учебных МИРов).
-
-- kumir website
- https://www.niisi.ru/kumir/
-- kumir is developed on <a href="https://github.com/a-a-maly/kumir2">GitHub</a> and has 11 stars
-- kumir first developed in <a href="../lists/originCommunities.html#httpsGithubComAAMalyKumir2Issues">https://github.com/a-a-maly/kumir2/issues</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/k/Kumir.kum'>hello-world</a>:
- алг 
- нач
-     вывод &quot;Hello World&quot;
- кон
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav jiyu.html atomese.html
-
-import ../footer.scroll
+leachim6 Kumir
+ filepath k/Kumir.kum
+ fileExtensions kum
+ example
+  алг 
+  нач
+      вывод "Hello World"
+  кон
+  

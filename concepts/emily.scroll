@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Emily
-
-title Emily - Operating system
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="elmol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="epilog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emily.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=emily" class="material-symbols-outlined">edit</a></div>
-
-* Emily is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+os">operating system</a> created in 1970 by Wilfred J. Hansen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
- link ../lists/creators.html#wilfredJHansen Wilfred J. Hansen
-
-dashboard
- #4166 on PLDB
- 54 Years Old
-
-* 
-
-- Emily first developed in <a href="../lists/originCommunities.html#argonneNationalLaboratory">Argonne National Laboratory</a>
-- Read more about Emily on the web: 1.
- https://digital.library.unt.edu/ark:/67531/metadc1028926/m2/1/high_res_d/4721186.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav elmol.html epilog.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Emily
+appeared 1970
+type os
+creators Wilfred J. Hansen
+reference https://digital.library.unt.edu/ark:/67531/metadc1028926/m2/1/high_res_d/4721186.pdf
+country United States
+originCommunity Argonne National Laboratory
+announcementMethod dissertation

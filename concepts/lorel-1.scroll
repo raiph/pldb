@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lorel
+import ../measures/conceptPage.scroll
+id Lorel
+appeared 1974
+type pl
+conceptDescription A high level language for processing n-ary relations.
+reference https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=7873
+reference https://cir.nii.ac.jp/crid/1050564287833367040
+country Japan
+originCommunity Kanagawa Institute of Technology && Science University of Tokyo && Tokyo Institute of Technology
 
-title Lorel - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5037
 
-html
- <a class="trueBaseThemePreviousItem" href="lisp-1-5.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="maps.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lorel-1.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lorel-1" class="material-symbols-outlined">edit</a></div>
-
-* Lorel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3106 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 50 Years Old
-
-* A high level language for processing n-ary relations.
-
-- Lorel first developed in <a href="../lists/originCommunities.html#kanagawaInstituteOfTechnology">Kanagawa Institute of Technology</a> and <a href="../lists/originCommunities.html#scienceUniversityOfTokyo">Science University of Tokyo</a> and <a href="../lists/originCommunities.html#tokyoInstituteOfTechnology">Tokyo Institute of Technology</a>
-- Lorel on HOPL
- https://hopl.info/showlanguage.prx?exp=5037
-- Read more about Lorel on the web: 1. 2.
- https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=7873 1.
- https://cir.nii.ac.jp/crid/1050564287833367040 2.
-
-<br>
-
-endColumns
-
-keyboardNav lisp-1-5.html maps.html
-
-import ../footer.scroll
+isbndb 0

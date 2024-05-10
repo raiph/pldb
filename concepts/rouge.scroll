@@ -1,45 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Rouge
+import ../measures/conceptPage.scroll
+id Rouge
+appeared 2012
+type pl
+creators Arlen Cuss
+country Australia
+originCommunity https://web.archive.org/web/20120730121447/http://len.me
 
-title Rouge - Programming language
- hidden
+githubRepo https://github.com/vic/rouge
+ firstCommit 2012
+ stars 9
+ forks 18
+ subscribers 2
+ created 2012
+ updated 2021
+ description Ruby + Clojure = Rouge
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="kal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="popr.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 173
+ committers 2
+ files 40
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rouge.pldb
+githubLanguage Rouge
+ fileExtensions rg
+ trendingProjectsCount 0
+ type programming
+ aceMode clojure
+ codemirrorMode clojure
+ codemirrorMimeType text/x-clojure
+ tmScope source.clojure
+ repos 78
+githubBigQuery Rouge
+ repos 12
+ users 11
 
-startColumns 4
+linguistGrammarRepo https://github.com/atom/language-clojure
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 36
+ commitCount 149
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/vic/rouge" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rouge" class="material-symbols-outlined">edit</a></div>
-
-* Rouge is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Arlen Cuss.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#arlenCuss Arlen Cuss
-
-codeWithHeader Source code:
- git clone https://github.com/vic/rouge
-
-dashboard
- #1352 <span title="TotalRank: 1891 Jobs: 103 Users: 1022 Facts: 802 Links: 986">on PLDB</span>
- 12 Years Old
- 78 <span title="Rouge repos on GitHub.">Repos</span>
-
-* Ruby + Clojure = Rouge
-
-- Rouge is developed on <a href="https://github.com/vic/rouge">GitHub</a> and has 9 stars
-- There are at least 78 Rouge repos on <a href="https://github.com/search?q=language:Rouge">GitHub</a>
-- Rouge first developed in <a href="../lists/originCommunities.html#httpsWebArchiveOrgWeb20120730121447HttpLenMe">https://web.archive.org/web/20120730121447/http://len.me</a>
-- file extensions for Rouge include rg
-- The  Google BigQuery Public Dataset GitHub snapshot shows 11 users using Rouge in 12 repos on <a href="https://api.github.com/search/repositories?q=language:Rouge">GitHub</a>
-- GitHub supports <a href="https://github.com/atom/language-clojure" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Rouge
-
-<br>
-
-endColumns
-
-keyboardNav kal.html popr.html
-
-import ../footer.scroll
+fileType text
+wordRank 8822
+isOpenSource true
+centralPackageRepositoryCount 0

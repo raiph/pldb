@@ -1,52 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hexagony
+import ../measures/conceptPage.scroll
+id hexagony
+appeared 2015
+type esolang
+creators Martin Büttner
+country Germany
+originCommunity https://github.com/m-ender/hexagony/issues
 
-title hexagony - Esoteric programming language
- hidden
+githubRepo https://github.com/m-ender/hexagony
+ stars 278
+ forks 4
+ subscribers 13
+ created 2015
+ updated 2022
+ firstCommit 2015
+ description A two-dimensional, hexagonal programming language.
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="simons-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="euclid.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 32
+ committers 6
+ files 20
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hexagony.pldb
+rijuRepl https://riju.codes/hexagony
+ example
+     H ; e ;
+    l ; d ; *
+   ; r ; o ; w
+  l ; ; o ; * 4
+   3 3 ; @ . >
+    ; 2 3 < \
+     4 ; * /
+  
+tryItOnline hexagony
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/hexagony" class="material-symbols-outlined">terminal</a> <a href="https://github.com/m-ender/hexagony" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hexagony" class="material-symbols-outlined">edit</a></div>
-
-* hexagony is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2015 by Martin Büttner.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#martinButtner Martin Büttner
-
-codeWithHeader Source code:
- git clone https://github.com/m-ender/hexagony
-
-dashboard
- #1558 <span title="TotalRank: 2067 Jobs: 103 Users: 978 Facts: 995 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Try now: <a href="https://riju.codes/hexagony">Riju</a> · <a href="https://tio.run/#hexagony">TIO</a>
-
-* A two-dimensional, hexagonal programming language.
-
-- hexagony is developed on <a href="https://github.com/m-ender/hexagony">GitHub</a> and has 278 stars
-- hexagony first developed in <a href="../lists/originCommunities.html#httpsGithubComMEnderHexagonyIssues">https://github.com/m-ender/hexagony/issues</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/hexagony'>Riju</a>:
-    H ; e ;
-   l ; d ; *
-  ; r ; o ; w
- l ; ; o ; * 4
-  3 3 ; @ . &gt;
-   ; 2 3 &lt; \
-    4 ; * /
- 
-
-endColumns
-
-keyboardNav simons-basic.html euclid.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

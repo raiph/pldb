@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GXL
+import ../measures/conceptPage.scroll
+id GXL
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/00cfa907c2772a0a2b5d63d7678e7fb01b3cd0da
+country Canada and Germany
+originCommunity University of Waterloo && University of Koblenz-Landau && University Bw, Munchen
 
-title GXL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5566
 
-html
- <a class="trueBaseThemePreviousItem" href="gvl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gypsy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gxl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gxl" class="material-symbols-outlined">edit</a></div>
-
-* GXL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3709 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- GXL first developed in <a href="../lists/originCommunities.html#universityOfWaterloo">University of Waterloo</a> and <a href="../lists/originCommunities.html#universityOfKoblenzLandau">University of Koblenz-Landau</a> and <a href="../lists/originCommunities.html#universityBwMunchen">University Bw, Munchen</a>
-- GXL on HOPL
- https://hopl.info/showlanguage.prx?exp=5566
-- Read more about GXL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/00cfa907c2772a0a2b5d63d7678e7fb01b3cd0da 1.
-
-<br>
-
-endColumns
-
-keyboardNav gvl.html gypsy.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

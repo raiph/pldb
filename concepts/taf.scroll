@@ -1,76 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title taf
+import ../measures/conceptPage.scroll
+id taf
+appeared 2012
+type pl
+creators Manuel Simoni
+conceptDescription A Lisp with row polymorphism, delimited continuations, and hygienic macros. [vaporware]
+reference http://www.manuelsimoni.net/taf/doc/plan.html
 
-title taf - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="heron-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cspydr.html">&gt;</a>
+lineCommentToken ;
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/taf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/manuel/taf" class="material-symbols-outlined">code</a> <a href="/edit.html?id=taf" class="material-symbols-outlined">edit</a></div>
-
-* taf is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Manuel Simoni.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#manuelSimoni Manuel Simoni
-
-codeWithHeader Source code:
- git clone https://github.com/manuel/taf
-
-dashboard
- #1514 <span title="TotalRank: 2033 Jobs: 103 Users: 1741 Facts: 944 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A Lisp with row polymorphism, delimited continuations, and hygienic macros. [vaporware]
-
-- taf is developed on <a href="https://github.com/manuel/taf">GitHub</a> and has 56 stars
-- Read more about taf on the web: 1.
- http://www.manuelsimoni.net/taf/doc/plan.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (define (make-person name email)
    #(person :name name :email email)) ; creates a person record with name and email fields
  
  (define-generic (to-string obj))
  (define-method (to-string (obj #(person :name :email))) ; matches persons and binds name and email field to local variables
-   (concat (list name &quot; &lt;&quot; email &quot;&gt;&quot;)))
+   (concat (list name " <" email ">")))
  
- (to-string (make-person &quot;Manuel&quot; &quot;msimoni@gmail.com&quot;))
- ; ==&gt; &quot;Manuel &lt;msimoni@gmail.com&gt;&quot;
+ (to-string (make-person "Manuel" "msimoni@gmail.com"))
+ ; ==> "Manuel <msimoni@gmail.com>"
 
-endColumns
+githubRepo https://github.com/manuel/taf
+ firstCommit 2012
+ stars 56
+ forks 2
+ subscribers 9
+ created 2012
+ updated 2022
+ description A Lisp with row polymorphism, delimited continuations, and hygienic macros. [vaporware]
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav heron-lang.html cspydr.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 13
+ committers 1
+ files 12

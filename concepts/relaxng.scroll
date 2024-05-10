@@ -1,40 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RELAX NG
+import ../measures/conceptPage.scroll
+id RELAX NG
+appeared 2001
+type grammarLanguage
+website https://relaxng.org/
+country Japan
+originCommunity https://relaxng.org
+domainName relaxng.org
+ registered 2001
+ awisRank
+  2022 2914903
 
-title RELAX NG - Grammar language
- hidden
+hasComments true
+ # Comments start with a # and continue to the end of the line:
+hasLineComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="jank.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="astro.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/relaxng.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://relaxng.org/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/RELAX_NG"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=relaxng" class="material-symbols-outlined">edit</a></div>
-
-* RELAX NG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #1179 <span title="TotalRank: 1722 Jobs: 103 Users: 633 Facts: 1032 Links: 986">on PLDB</span>
- 23 Years Old
-
-* In computing, RELAX NG (REgular LAnguage for XML Next Generation) is a schema language for XML - a RELAX NG schema specifies a pattern for the structure and content of an XML document. A RELAX NG schema is itself an XML document but RELAX NG also offers a popular compact, non-XML syntax. Compared to other XML schema languages  RELAX NG is considered relatively simple. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/RELAX_NG Read more on Wikipedia...
-
-- RELAX NG website
- https://relaxng.org/
-- RELAX NG Wikipedia page
- https://en.wikipedia.org/wiki/RELAX_NG
-- RELAX NG first developed in <a href="../lists/originCommunities.html#httpsRelaxngOrg">https://relaxng.org</a>
-- <a href="https://relaxng.org/">relaxng.org</a> was registered in 2001
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # A RELAX NG compact syntax pattern
  # for an address book.
  element addressBook {
@@ -45,32 +29,11 @@ codeWithHeader Example from the web:
    }*
  }
 
-endColumns
+wikipedia https://en.wikipedia.org/wiki/RELAX_NG
+ summary In computing, RELAX NG (REgular LAnguage for XML Next Generation) is a schema language for XML - a RELAX NG schema specifies a pattern for the structure and content of an XML document. A RELAX NG schema is itself an XML document but RELAX NG also offers a popular compact, non-XML syntax. Compared to other XML schema languages  RELAX NG is considered relatively simple. It was defined by a committee specification of the OASIS RELAX NG technical committee in 2001 and 2002, based on Murata Makoto's RELAX and James Clark's TREX, and also by part two of the international standard ISO/IEC 19757: Document Schema Definition Languages (DSDL). ISO/IEC 19757-2 was developed by ISO/IEC JTC1/SC34 and published in its first version in 2003.
+ backlinksCount 815
+ pageId 347005
+ dailyPageViews 152
+ appeared 2001
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # Comments start with a # and continue to the end of the line:
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav jank.html astro.html
-
-import ../footer.scroll
+isbndb 0

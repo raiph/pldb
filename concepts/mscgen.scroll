@@ -1,73 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mscgen
+import ../measures/conceptPage.scroll
+id Mscgen
+appeared 2016
+type textMarkup
+website http://www.mcternan.me.uk/mscgen/
+country United Kingdom
+originCommunity https://code.google.com/archive/p/mscgen/issues
 
-title Mscgen - Text markup language
- hidden
+relatedConcepts dot
 
-html
- <a class="trueBaseThemePreviousItem" href="jevko.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="picat.html">&gt;</a>
+hasBooleans true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mscgen.pldb
+booleanTokens TRUE FALSE
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.mcternan.me.uk/mscgen/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mscgen" class="material-symbols-outlined">edit</a></div>
-
-* Mscgen is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #1580 <span title="TotalRank: 2084 Jobs: 103 Users: 2442 Facts: 995 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- Mscgen website
- http://www.mcternan.me.uk/mscgen/
-- Mscgen first developed in <a href="../lists/originCommunities.html#httpsCodeGoogleComArchivePMscgenIssues">https://code.google.com/archive/p/mscgen/issues</a>
-- file extensions for Mscgen include msc
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dsls.py">syntax highlighting</a> for Mscgen
-- See also: (1 related languages)<a href="dot.html">DOT</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # MSC for some fictional process
  msc {
-   hscale = &quot;2&quot;;
+   hscale = "2";
  
    a,b,c;
  
-   a-&gt;b [ label = &quot;ab()&quot; ] ;
-   b-&gt;c [ label = &quot;bc(TRUE)&quot;];
-   c=&gt;c [ label = &quot;process(1)&quot; ];
-   c=&gt;c [ label = &quot;process(2)&quot; ];
+   a->b [ label = "ab()" ] ;
+   b->c [ label = "bc(TRUE)"];
+   c=>c [ label = "process(1)" ];
+   c=>c [ label = "process(2)" ];
    ...;
-   c=&gt;c [ label = &quot;process(n)&quot; ];
-   c=&gt;c [ label = &quot;process(END)&quot; ];
-   a&lt;&lt;=c [ label = &quot;callback()&quot;];
-   ---  [ label = &quot;If more to run&quot;, ID=&quot;*&quot; ];
-   a-&gt;a [ label = &quot;next()&quot;];
-   a-&gt;c [ label = &quot;ac1()\nac2()&quot;];
-   b&lt;-c [ label = &quot;cb(TRUE)&quot;];
-   b-&gt;b [ label = &quot;stalled(...)&quot;];
-   a&lt;-b [ label = &quot;ab() = FALSE&quot;];
+   c=>c [ label = "process(n)" ];
+   c=>c [ label = "process(END)" ];
+   a<<=c [ label = "callback()"];
+   ---  [ label = "If more to run", ID="*" ];
+   a->a [ label = "next()"];
+   a->c [ label = "ac1()\nac2()"];
+   b<-c [ label = "cb(TRUE)"];
+   b->b [ label = "stalled(...)"];
+   a<-b [ label = "ab() = FALSE"];
  }
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token TRUE FALSE
-  Example
-
-keyboardNav jevko.html picat.html
-
-import ../footer.scroll
+pygmentsHighlighter Mscgen
+ filename dsls.py
+ fileExtensions msc

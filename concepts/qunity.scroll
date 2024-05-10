@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Qunity
-
-title Qunity - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="qlisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="quty.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/qunity.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=qunity" class="material-symbols-outlined">edit</a></div>
-
-* Qunity is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3972 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Qunity: A Unified Language for Quantum and Classical Computing
-
-- Qunity first developed in <a href="../lists/originCommunities.html#universityOfMaryland">University of Maryland</a> and <a href="../lists/originCommunities.html#universityOfChicago">University of Chicago</a> and <a href="../lists/originCommunities.html#amazon">Amazon</a>
-- Read more about Qunity on the web: 1. 2.
- https://reddit.com/r/ProgrammingLanguages/comments/ud33h4/qunity_a_unified_language_for_quantum_and/ 1.
- https://arxiv.org/abs/2204.12384 2.
-
-<br>
-
-endColumns
-
-keyboardNav qlisp.html quty.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Qunity
+appeared 2022
+type pl
+conceptDescription Qunity: A Unified Language for Quantum and Classical Computing
+reference https://reddit.com/r/ProgrammingLanguages/comments/ud33h4/qunity_a_unified_language_for_quantum_and/
+reference https://arxiv.org/abs/2204.12384
+country United States
+originCommunity University of Maryland && University of Chicago && Amazon

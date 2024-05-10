@@ -1,163 +1,136 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ShaderLab
+import ../measures/conceptPage.scroll
+id ShaderLab
+appeared 2000
+type pl
+reference https://docs.unity3d.com/Manual/SL-Shader.html
+country United Kingdom
+originCommunity https://github.com/tgjones/shaders-tmLanguage/issues
 
-title ShaderLab - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="hasklig.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="arkscript.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shaderlab.pldb
+githubLanguage ShaderLab
+ fileExtensions shader
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  unity3d-jp UnityChanToonShaderVer2_Project https://github.com/unity3d-jp.png https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project ShaderLab #ccc 561 104 64 "UnityChanToonShaderVer2 Project / v.2.0.7 Release"
+  candycat1992 Unity_Shaders_Book https://github.com/candycat1992.png https://github.com/candycat1992/Unity_Shaders_Book ShaderLab #ccc 1835 741 83 "📖 书籍《Unity Shader入门精要》源代码"
+ trendingProjectsCount 3
+ type programming
+ aceMode text
+ tmScope source.shaderlab
+ repos 59455
+githubBigQuery ShaderLab
+ repos 1210
+ users 1132
 
-startColumns 4
+linguistGrammarRepo https://github.com/tgjones/shaders-tmLanguage
+ firstCommit 2017
+ lastCommit 2017
+ committerCount 2
+ commitCount 5
+ sampleCount 3
+ example
+  // From https://github.com/Unity-Technologies/PostProcessing,
+  // licensed under MIT licence.
+  
+  Shader "Hidden/Post FX/Depth Of Field"
+  {
+      Properties
+      {
+          _MainTex ("", 2D) = "black"
+      }
+  
+      CGINCLUDE
+          #pragma exclude_renderers d3d11_9x
+          #pragma target 3.0
+      ENDCG
+  
+      SubShader
+      {
+          Cull Off ZWrite Off ZTest Always
+  
+          // (0) Downsampling, prefiltering & CoC
+          Pass
+          {
+              CGPROGRAM
+                  #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
+                  #pragma vertex VertDOF
+                  #pragma fragment FragPrefilter
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+  
+          // (1) Pass 0 + temporal antialiasing
+          Pass
+          {
+              CGPROGRAM
+                  #pragma vertex VertDOF
+                  #pragma fragment FragPrefilter
+                  #define PREFILTER_TAA
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+  
+          // (2-5) Bokeh filter with disk-shaped kernels
+          Pass
+          {
+              CGPROGRAM
+                  #pragma vertex VertDOF
+                  #pragma fragment FragBlur
+                  #define KERNEL_SMALL
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+  
+          Pass
+          {
+              CGPROGRAM
+                  #pragma vertex VertDOF
+                  #pragma fragment FragBlur
+                  #define KERNEL_MEDIUM
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+  
+          Pass
+          {
+              CGPROGRAM
+                  #pragma vertex VertDOF
+                  #pragma fragment FragBlur
+                  #define KERNEL_LARGE
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+  
+          Pass
+          {
+              CGPROGRAM
+                  #pragma vertex VertDOF
+                  #pragma fragment FragBlur
+                  #define KERNEL_VERYLARGE
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+  
+          // (6) Postfilter blur
+          Pass
+          {
+              CGPROGRAM
+                  #pragma vertex VertDOF
+                  #pragma fragment FragPostBlur
+                  #include "DepthOfField.cginc"
+              ENDCG
+          }
+      }
+  
+      FallBack Off
+  }
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=shaderlab" class="material-symbols-outlined">edit</a></div>
-
-* ShaderLab is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #710 <span title="TotalRank: 1273 Jobs: 103 Users: 1151 Facts: 184 Links: 986">on PLDB</span>
- 24 Years Old
- 59k <span title="ShaderLab repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 59,455 ShaderLab repos on <a href="https://github.com/search?q=language:ShaderLab">GitHub</a>
-- ShaderLab first developed in <a href="../lists/originCommunities.html#httpsGithubComTgjonesShadersTmLanguageIssues">https://github.com/tgjones/shaders-tmLanguage/issues</a>
-- file extensions for ShaderLab include shader
-- The  Google BigQuery Public Dataset GitHub snapshot shows 1k users using ShaderLab in 1k repos on <a href="https://api.github.com/search/repositories?q=language:ShaderLab">GitHub</a>
-- GitHub supports <a href="https://github.com/tgjones/shaders-tmLanguage" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for ShaderLab
-- Read more about ShaderLab on the web: 1.
- https://docs.unity3d.com/Manual/SL-Shader.html 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/tgjones/shaders-tmLanguage'>Linguist</a>:
- // From https://github.com/Unity-Technologies/PostProcessing,
- // licensed under MIT licence.
- 
- Shader &quot;Hidden/Post FX/Depth Of Field&quot;
- {
-     Properties
-     {
-         _MainTex (&quot;&quot;, 2D) = &quot;black&quot;
-     }
- 
-     CGINCLUDE
-         #pragma exclude_renderers d3d11_9x
-         #pragma target 3.0
-     ENDCG
- 
-     SubShader
-     {
-         Cull Off ZWrite Off ZTest Always
- 
-         // (0) Downsampling, prefiltering &amp; CoC
-         Pass
-         {
-             CGPROGRAM
-                 #pragma multi_compile __ UNITY_COLORSPACE_GAMMA
-                 #pragma vertex VertDOF
-                 #pragma fragment FragPrefilter
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
- 
-         // (1) Pass 0 + temporal antialiasing
-         Pass
-         {
-             CGPROGRAM
-                 #pragma vertex VertDOF
-                 #pragma fragment FragPrefilter
-                 #define PREFILTER_TAA
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
- 
-         // (2-5) Bokeh filter with disk-shaped kernels
-         Pass
-         {
-             CGPROGRAM
-                 #pragma vertex VertDOF
-                 #pragma fragment FragBlur
-                 #define KERNEL_SMALL
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
- 
-         Pass
-         {
-             CGPROGRAM
-                 #pragma vertex VertDOF
-                 #pragma fragment FragBlur
-                 #define KERNEL_MEDIUM
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
- 
-         Pass
-         {
-             CGPROGRAM
-                 #pragma vertex VertDOF
-                 #pragma fragment FragBlur
-                 #define KERNEL_LARGE
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
- 
-         Pass
-         {
-             CGPROGRAM
-                 #pragma vertex VertDOF
-                 #pragma fragment FragBlur
-                 #define KERNEL_VERYLARGE
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
- 
-         // (6) Postfilter blur
-         Pass
-         {
-             CGPROGRAM
-                 #pragma vertex VertDOF
-                 #pragma fragment FragPostBlur
-                 #include &quot;DepthOfField.cginc&quot;
-             ENDCG
-         }
-     }
- 
-     FallBack Off
- }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav hasklig.html arkscript.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -1,161 +1,128 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title REBOL
+import ../measures/conceptPage.scroll
+id REBOL
+appeared 1997
+type pl
+creators Carl Sassenrath
+website http://www.rebol.com
+documentation http://www.rebol.com/docs.html
+standsFor Relative Expression-Based Object Language
+fileExtensions r reb
+originCommunity REBOL Technologies
+domainName rebol.com
+ registered 1997
+ awisRank
+  2022 1353792
 
-title REBOL - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="game.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mime.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rebol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.rebol.com" class="material-symbols-outlined">home</a> <a href="https://riju.codes/rebol" class="material-symbols-outlined">terminal</a> <a href="http://www.rebol.com/docs.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/REBOL"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=rebol" class="material-symbols-outlined">edit</a></div>
-
-* REBOL, aka Relative Expression-Based Object Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997 by Carl Sassenrath.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
- link ../lists/creators.html#carlSassenrath Carl Sassenrath
-
-dashboard
- #158 <span title="TotalRank: 450 Jobs: 103 Users: 934 Facts: 224 Links: 123">on PLDB</span>
- 27 Years Old
- 30k <span title="REBOL repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/rebol">Riju</a> · <a href="https://tio.run/#rebol">TIO</a>
-
-* Rebol ( REB-əl; historically REBOL) is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:  Although it can be used for programming, writing functions, and performing processes, its greatest strength is the ability to easily create domain-specific languages or dialects  Douglas Crockford, known for his involvement in the development of JavaScript, has described Rebol as "a more modern language, but with some very similar ideas to Lisp, in that it's all built upon a representation of data which is then executable as programs" and as one of JSON's influences. Originally, the language and its official implementation were proprietary and closed source, developed by REBOL Technologies. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/REBOL Read more on Wikipedia...
-
-- REBOL website
- http://www.rebol.com
-- REBOL Wikipedia page
- https://en.wikipedia.org/wiki/REBOL
-- REBOL docs
- http://www.rebol.com/docs.html
-- There are at least 30,469 REBOL repos on <a href="https://github.com/search?q=language:Rebol">GitHub</a>
-- REBOL first developed in <a href="../lists/originCommunities.html#rebolTechnologies">REBOL Technologies</a>
-- file extensions for REBOL include r, reb, r2, r3 and rebol
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using REBOL in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Rebol">GitHub</a>
-- There are 15 <a href="https://projecteuler.net/language=REBOL">Project Euler</a> users using REBOL
-- Explore REBOL snippets on <a href="http://www.rosettacode.org/wiki/Category:REBOL">Rosetta Code</a>
-- REBOL on HOPL
- https://hopl.info/showlanguage.prx?exp=2438
-- REBOL appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rebol.py">syntax highlighting</a> for REBOL
-- GitHub supports <a href="https://github.com/Oldes/Sublime-REBOL" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for REBOL
-- Indeed.com has 0 matches for <a href="https://www.indeed.com/jobs?q=rebol developer">"rebol developer"</a>.
-- <a href="http://www.rebol.com">rebol.com</a> was registered in 1997
-- See also: (11 related languages)<a href="self.html">Self</a>, <a href="forth.html">Forth</a>, <a href="lisp.html">Lisp</a>, <a href="logo.html">Logo</a>, <a href="json.html">JSON</a>, <a href="red.html">Red</a>, <a href="javascript.html">JavaScript</a>, <a href="c.html">C</a>, <a href="algol.html">Algol</a>, <a href="s-expressions.html">S-expressions</a>, <a href="peg.html">PEG</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/rebol'>Riju</a>:
- REBOL [Title: &quot;Main&quot;]
- print &quot;Hello, world!&quot;
+canWriteToDisk true
+ write %helloworld.txt "Hello, world!^/"
+hasComments true
+hasExceptions true
+ catch [throw 22 print "You'll never see this."]
  
+ try/except [read %does_not_exist] [print "File not found"]
+hasGarbageCollection true
+hasHomoiconicity true
+hasLineComments true
+ ; A comment
+hasLists true
+ my-list: [1 two 3.0 "four"]
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+ {He said "That looks good!"}
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/r/Rebol.reb'>hello-world</a>:
- print &quot;Hello World&quot;
- 
+lineCommentToken ;
+printToken print probe
+stringToken " { }
+booleanTokens true false
 
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Relative'>the Hello World Collection</a>:
+wikipedia https://en.wikipedia.org/wiki/REBOL
+ example
+  Digit: charset [#"0" - #"9"]
+  Value: [some Digit | "(" Expr ")"]
+  Product: [Value any [["*"| "/"] Value]]
+  Sum: [Product any [["+"| "-"] Product]]
+  Expr: Sum
+  parse/all "12+13" Expr
+ related self forth lisp logo json red javascript c algol s-expressions peg
+ summary Rebol ( REB-əl; historically REBOL) is a cross-platform data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data, which is also the most notable property of the language according to its designer Carl Sassenrath:  Although it can be used for programming, writing functions, and performing processes, its greatest strength is the ability to easily create domain-specific languages or dialects  Douglas Crockford, known for his involvement in the development of JavaScript, has described Rebol as "a more modern language, but with some very similar ideas to Lisp, in that it's all built upon a representation of data which is then executable as programs" and as one of JSON's influences. Originally, the language and its official implementation were proprietary and closed source, developed by REBOL Technologies. Following discussion with Lawrence Rosen, the Rebol version 3 interpreter was released under the Apache 2.0 license on December 12, 2012. Older versions are only available in binary form, and no source release for them is planned. Rebol has been used to program Internet applications (both client- and server-side), database applications, utilities, and multimedia applications.
+ pageId 26384
+ dailyPageViews 21
+ created 2013
+ backlinksCount 77
+ revisionCount 1
+ appeared 1997
+ fileExtensions r reb
+
+githubLanguage Rebol
+ fileExtensions reb r r2 r3 rebol
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.rebol
+ repos 30469
+githubBigQuery Rebol
+ repos 1647
+ users 1543
+
+pygmentsHighlighter REBOL
+ filename rebol.py
+ fileExtensions r r3 reb
+linguistGrammarRepo https://github.com/Oldes/Sublime-REBOL
+ firstCommit 2014
+ lastCommit 2015
+ committerCount 1
+ commitCount 7
+ sampleCount 6
+ example
+  Rebol []
+  hello: func [] [
+      print "hello, world!"
+  ]
+  hello
+  
+
+projectEuler REBOL
+ memberCount
+  2019 14
+  2022 15
+helloWorldCollection Relative Expression-Based Object Language
  ; Hello World in REBOL
  
- print &quot;Hello World!&quot;
+ print "Hello World!"
+leachim6 Rebol
+ filepath r/Rebol.reb
+ fileExtensions reb
+ example
+  print "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:REBOL
 
-codeWithHeader Example from <a href='https://github.com/Oldes/Sublime-REBOL'>Linguist</a>:
- Rebol []
- hello: func [] [
-     print &quot;hello, world!&quot;
- ]
- hello
- 
+rijuRepl https://riju.codes/rebol
+ example
+  REBOL [Title: "Main"]
+  print "Hello, world!"
+  
+tryItOnline rebol
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/REBOL'>Wikipedia</a>:
- Digit: charset [#&quot;0&quot; - #&quot;9&quot;]
- Value: [some Digit | &quot;(&quot; Expr &quot;)&quot;]
- Product: [Value any [[&quot;*&quot;| &quot;/&quot;] Value]]
- Sum: [Product any [[&quot;+&quot;| &quot;-&quot;] Product]]
- Expr: Sum
- parse/all &quot;12+13&quot; Expr
+indeedJobs rebol developer
+ 2022 0
 
-endColumns
+tiobe REBOL
+hopl https://hopl.info/showlanguage.prx?exp=2438
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token " { }
-  Example
-   "Hello world"
-   {He said "That looks good!"}
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print probe
-  Example
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   my-list: [1 two 3.0 "four"]
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Homoiconicity
-  FeatureLink ../features/hasHomoiconicity.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Exceptions
-  FeatureLink ../features/hasExceptions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   catch [throw 22 print "You'll never see this."]
-   
-   try/except [read %does_not_exist] [print "File not found"]
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Disk Output
-  FeatureLink ../features/canWriteToDisk.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   write %helloworld.txt "Hello, world!^/"
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Rebol for Dummies [With Rebol for 37 Systems]|2000|Ralph Roberts|2387078|3.00|5|0
+ Rebol Programming||Olivier Auverlot|5823181|0.0|0|0
 
-keyboardNav game.html mime.html
+isbndb 1
+ year|publisher|title|authors|isbn13
+ |Wiley Technology Publishing|Rebol Programming|Olivier Auverlot|9780470846759
 
-import ../footer.scroll
+semanticScholar 0

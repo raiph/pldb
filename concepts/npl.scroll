@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NPL
+import ../measures/conceptPage.scroll
+id NPL
+appeared 1963
+type pl
+reference https://semanticscholar.org/paper/ea0c28e0c80c8d3741001d3defc703af4a8370bb
+country United States
+originCommunity IBM
 
-title NPL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=446
 
-html
- <a class="trueBaseThemePreviousItem" href="nop-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="numerica.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/npl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=npl" class="material-symbols-outlined">edit</a></div>
-
-* NPL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3875 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- NPL first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- NPL on HOPL
- https://hopl.info/showlanguage.prx?exp=446
-- Read more about NPL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ea0c28e0c80c8d3741001d3defc703af4a8370bb 1.
-
-<br>
-
-endColumns
-
-keyboardNav nop-2.html numerica.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

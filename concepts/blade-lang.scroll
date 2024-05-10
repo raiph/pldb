@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Blade
-
-title Blade - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bisonpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bolin.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blade-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=blade-lang" class="material-symbols-outlined">edit</a></div>
-
-* Blade is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3363 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Blade Programming Language v0.0.73
-
-- Blade first developed in <a href="../lists/originCommunities.html#mcfriendsLimited">Mcfriends Limited</a>
-- Read more about Blade on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/wb11jv/blade_programming_language_v0073/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav bisonpp.html bolin.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Blade
+appeared 2022
+type pl
+conceptDescription Blade Programming Language v0.0.73
+reference https://reddit.com/r/ProgrammingLanguages/comments/wb11jv/blade_programming_language_v0073/
+country Nigeria
+originCommunity Mcfriends Limited

@@ -1,55 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Streem
+import ../measures/conceptPage.scroll
+id Streem
+appeared 2014
+type pl
+creators Yukihiro Matsumoto
+conceptDescription Streem is a stream based concurrent scripting language. It is based on a programming model similar to the shell, with influences from Ruby, Erlang, and other functional programming languages.
+website https://github.com/matz/streem
+country Japan
+originCommunity Ruby Association,NaCl
 
-title Streem - Programming language
- hidden
+keywords case class def else emit false if import method namespace new nil return skip true
 
-html
- <a class="trueBaseThemePreviousItem" href="gold.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="motif-software.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/streem.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/matz/streem" class="material-symbols-outlined">home</a> <a href="https://github.com/matz/streem" class="material-symbols-outlined">code</a> <a href="/edit.html?id=streem" class="material-symbols-outlined">edit</a></div>
-
-* Streem is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Yukihiro Matsumoto.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#yukihiroMatsumoto Yukihiro Matsumoto
-
-codeWithHeader Source code:
- git clone https://github.com/matz/streem
-
-dashboard
- #721 <span title="TotalRank: 1287 Jobs: 103 Users: 198 Facts: 1256 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Streem is a stream based concurrent scripting language. It is based on a programming model similar to the shell, with influences from Ruby, Erlang, and other functional programming languages.
-
-- Streem website
- https://github.com/matz/streem
-- Streem is developed on <a href="https://github.com/matz/streem">GitHub</a> and has 4,600 stars
-- Streem first developed in <a href="../lists/originCommunities.html#rubyAssociationNaCl">Ruby Association,NaCl</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # channel to broadcast to all clients
  broadcast = chan()
- tcp_server(8008) | {s -&gt;
+ tcp_server(8008) | {s ->
    broadcast | s   # connect to broadcast channel
    s | broadcast   # broadcast incoming message
  }
 
-<div class="keywordsBlock">
-codeWithHeader Streem <a href="../lists/keywords.html?filter=streem">Keywords</a>
- case class def else emit false if import method namespace new nil return skip true
-</div>
+githubRepo https://github.com/matz/streem
+ stars 4600
+ forks 258
+ subscribers 366
+ created 2014
+ updated 2022
 
-endColumns
-
-keyboardNav gold.html motif-software.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 986
+ committers 41
+ files 63

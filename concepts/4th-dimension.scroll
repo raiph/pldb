@@ -1,60 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 4th Dimension
+import ../measures/conceptPage.scroll
+id 4th Dimension
+appeared 1987
+type pl
+reference https://en.wikipedia.org/wiki/4th_Dimension_(software)
+aka 4D
+originCommunity 4D SAS
 
-title 4th Dimension - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="slick.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chain-format.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/4th-dimension.pldb
+githubLanguage 4D
+ type programming
+ fileExtensions 4dm
+ aceMode text
+ tmScope source.4dm
+ repos 365
 
-startColumns 4
+leachim6 4th Dimension
+ filepath #/4th Dimension.4dd
+ example
+  OPEN WINDOW (10;45;500;330;0;"Hello Window")
+  While (True)
+    MESSAGE ("Hello World")
+  End while
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=4th-dimension" class="material-symbols-outlined">edit</a></div>
+hopl https://hopl.info/showlanguage.prx?exp=2471
 
-* 4th Dimension is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #1967 <span title="TotalRank: 2470 Jobs: 103 Users: 2838 Facts: 1381 Links: 986">on PLDB</span>
- 37 Years Old
- 365 <span title="4th Dimension repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 365 4th Dimension repos on <a href="https://github.com/search?q=language:4D">GitHub</a>
-- 4th Dimension first developed in <a href="../lists/originCommunities.html#4DSas">4D SAS</a>
-- file extensions for 4th Dimension include 4dm
-- 4th Dimension on HOPL
- https://hopl.info/showlanguage.prx?exp=2471
-- Read more about 4th Dimension on the web: 1.
- https://en.wikipedia.org/wiki/4th_Dimension_(software) 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/#/4th Dimension.4dd'>hello-world</a>:
- OPEN WINDOW (10;45;500;330;0;&quot;Hello Window&quot;)
- While (True)
-   MESSAGE (&quot;Hello World&quot;)
- End while
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav slick.html chain-format.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

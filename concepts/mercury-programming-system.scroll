@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mercury Programming System
+import ../measures/conceptPage.scroll
+id Mercury Programming System
+appeared 1960
+type pl
+reference https://semanticscholar.org/paper/ffa3769faabefb5c4acfa4edca2520834bbb56dc
+country United States
+originCommunity IBM
 
-title Mercury Programming System - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7994
 
-html
- <a class="trueBaseThemePreviousItem" href="megalog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="meroon.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mercury-programming-system.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mercury-programming-system" class="material-symbols-outlined">edit</a></div>
-
-* Mercury Programming System is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #3818 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 64 Years Old
-
-* 
-
-- Mercury Programming System first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- Mercury Programming System on HOPL
- https://hopl.info/showlanguage.prx?exp=7994
-- Read more about Mercury Programming System on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ffa3769faabefb5c4acfa4edca2520834bbb56dc 1.
-
-<br>
-
-endColumns
-
-keyboardNav megalog.html meroon.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

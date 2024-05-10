@@ -1,63 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title verve
+import ../measures/conceptPage.scroll
+id verve
+appeared 2017
+type pl
+website https://verve-lang.org
+domainName verve-lang.org
+ registered 2020
 
-title verve - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="sweet-expressions.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eden.html">&gt;</a>
+printToken print
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/verve.pldb
+leachim6 Verve
+ filepath v/Verve.vrv
+ fileExtensions vrv
+ example
+  print("Hello World")
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://verve-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=verve" class="material-symbols-outlined">edit</a></div>
-
-* verve is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2444 <span title="TotalRank: 2979 Jobs: 103 Users: 2442 Facts: 1890 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- verve website
- https://verve-lang.org
-- <a href="https://verve-lang.org">verve-lang.org</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/v/Verve.vrv'>hello-world</a>:
- print(&quot;Hello World&quot;)
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-## HackerNews discussions of verve
-
-pipeTable
- title|titleLink|date|score|comments
- Verve – a functional language for the working hacker|https://news.ycombinator.com/item?id=15809432|11/29/2017|2|0
-
-keyboardNav sweet-expressions.html eden.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 15809432|Verve – a functional language for the working hacker|https://verve-lang.org/|2017-11-29 18:30:55 UTC|1511980255|kasbah|0|2

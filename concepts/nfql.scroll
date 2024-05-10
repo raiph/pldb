@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NFQL
+import ../measures/conceptPage.scroll
+id NFQL
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/d4eef3fa0f4aa184c86350a97663ae24e2c80288
+country United States
+originCommunity Kansas State University && Brigham Young University
 
-title NFQL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1504
 
-html
- <a class="trueBaseThemePreviousItem" href="neuronc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nikl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nfql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nfql" class="material-symbols-outlined">edit</a></div>
-
-* NFQL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3870 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- NFQL first developed in <a href="../lists/originCommunities.html#kansasStateUniversity">Kansas State University</a> and <a href="../lists/originCommunities.html#brighamYoungUniversity">Brigham Young University</a>
-- NFQL on HOPL
- https://hopl.info/showlanguage.prx?exp=1504
-- Read more about NFQL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d4eef3fa0f4aa184c86350a97663ae24e2c80288 1.
-
-<br>
-
-endColumns
-
-keyboardNav neuronc.html nikl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

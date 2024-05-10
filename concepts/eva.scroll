@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Eva
+import ../measures/conceptPage.scroll
+id Eva
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/8e4b65512b8ed7b71622ffb614fe691f51b6c49f
+country France
+originCommunity Faculté des Sciences et Technologies l'Université de Lille
 
-title Eva - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2021
 
-html
- <a class="trueBaseThemePreviousItem" href="emma.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="exel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eva.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=eva" class="material-symbols-outlined">edit</a></div>
-
-* Eva is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #4134 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Eva first developed in <a href="../lists/originCommunities.html#faculteDesSciencesEtTechnologiesLUniversiteDeLille">Faculté des Sciences et Technologies l'Université de Lille</a>
-- Eva on HOPL
- https://hopl.info/showlanguage.prx?exp=2021
-- Read more about Eva on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8e4b65512b8ed7b71622ffb614fe691f51b6c49f 1.
-
-<br>
-
-endColumns
-
-keyboardNav emma.html exel.html
-
-import ../footer.scroll
+wordRank 8312
+centralPackageRepositoryCount 0

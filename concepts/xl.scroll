@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title xl
+import ../measures/conceptPage.scroll
+id xl
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/36672d537f358aba50a2728a18acba20df6003fa
 
-title xl - Programming language
- hidden
+rosettaCode http://www.rosettacode.org/wiki/Category:XL
 
-html
- <a class="trueBaseThemePreviousItem" href="wolontis-bell-interpreter.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xql.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=791
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xl" class="material-symbols-outlined">edit</a></div>
-
-* xl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #4059 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- Explore xl snippets on <a href="http://www.rosettacode.org/wiki/Category:XL">Rosetta Code</a>
-- xl on HOPL
- https://hopl.info/showlanguage.prx?exp=791
-- Read more about xl on Semantic Scholar: 1.
- https://semanticscholar.org/paper/36672d537f358aba50a2728a18acba20df6003fa 1.
-
-<br>
-
-endColumns
-
-keyboardNav wolontis-bell-interpreter.html xql.html
-
-import ../footer.scroll
+wordRank 5578
+centralPackageRepositoryCount 0

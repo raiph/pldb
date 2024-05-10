@@ -1,44 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title empirical
+import ../measures/conceptPage.scroll
+id empirical
+appeared 2019
+type pl
+website https://www.empirical-soft.com/
+country United States
+originCommunity Empirical Software Solutions, LLC
+domainName empirical-soft.com
+ registered 2018
 
-title empirical - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 19969390|Show HN: Empirical – a language for time-series analysis|2019-05-21 12:13:54 UTC|1558440834|chrisaycock|29|111
 
-html
- <a class="trueBaseThemePreviousItem" href="albatross.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="golfscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/empirical.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.empirical-soft.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=empirical" class="material-symbols-outlined">edit</a></div>
-
-* empirical is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #2495 <span title="TotalRank: 3071 Jobs: 103 Users: 2442 Facts: 1982 Links: 986">on PLDB</span>
- 5 Years Old
-
-* 
-
-- empirical website
- https://www.empirical-soft.com/
-- empirical first developed in <a href="../lists/originCommunities.html#empiricalSoftwareSolutionsLlc">Empirical Software Solutions, LLC</a>
-- <a href="https://www.empirical-soft.com/">empirical-soft.com</a> was registered in 2018
-
-<br>
-
-endColumns
-
-## HackerNews discussions of empirical
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Empirical – a language for time-series analysis|https://news.ycombinator.com/item?id=19969390|05/21/2019|111|29
-
-keyboardNav albatross.html golfscript.html
-
-import ../footer.scroll
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 20120202|Springer Nature|Empirical Software Engineering and Verification|Cédric Bonnafé|9783642252310
+ 2015|John Wiley & Sons|Repeated Measures Design For Empirical Researchers|J. P. Verma|9781119052692
+ 1992|Springer|The Psychology Of Expertise: Cognitive Research And Empirical Ai|Editor-robert R. Hoffman|9780387976860
+ 1996|Intellect Ltd|Empirical Studies Of Programmers: Sixth Workshop (human-computer Interaction Series)|Gray, Wayne D.|9781567502626
+ 2016|Chapman and Hall/CRC|Empirical Research in Software Engineering: Concepts, Analysis, and Applications|Malhotra, Ruchika|9781498719735

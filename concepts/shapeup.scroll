@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ShapeUp
+import ../measures/conceptPage.scroll
+id ShapeUp
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/43b485d56606e188e24563d8ae2fe520ad555bf4
+country Japan
+originCommunity NEC Corporation
 
-title ShapeUp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6350
 
-html
- <a class="trueBaseThemePreviousItem" href="seval.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shared-prolog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shapeup.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=shapeup" class="material-symbols-outlined">edit</a></div>
-
-* ShapeUp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #4012 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- ShapeUp first developed in <a href="../lists/originCommunities.html#necCorporation">NEC Corporation</a>
-- ShapeUp on HOPL
- https://hopl.info/showlanguage.prx?exp=6350
-- Read more about ShapeUp on Semantic Scholar: 1.
- https://semanticscholar.org/paper/43b485d56606e188e24563d8ae2fe520ad555bf4 1.
-
-<br>
-
-endColumns
-
-keyboardNav seval.html shared-prolog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SSL
+import ../measures/conceptPage.scroll
+id SSL
+appeared 1994
+type protocol
+reference https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0_and_3.0
+standsFor Secure Sockets Layer
+country United States
+originCommunity Netscape Communications Corporation
 
-title SSL - Protocol
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sqlmp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stoical.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ssl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ssl" class="material-symbols-outlined">edit</a></div>
-
-* SSL, aka Secure Sockets Layer, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+protocol">protocol</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3137 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- SSL first developed in <a href="../lists/originCommunities.html#netscapeCommunicationsCorporation">Netscape Communications Corporation</a>
-- Read more about SSL on the web: 1.
- https://en.wikipedia.org/wiki/Transport_Layer_Security#SSL_1.0,_2.0_and_3.0 1.
-
-<br>
-
-endColumns
-
-keyboardNav sqlmp.html stoical.html
-
-import ../footer.scroll
+fileType na
+wordRank 5835
+centralPackageRepositoryCount 0

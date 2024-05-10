@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DMAP
+import ../measures/conceptPage.scroll
+id DMAP
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/64d26992737da7d0f2364a30843a2227b04b5d07
+country United States
+originCommunity PRC Information Sciences Company
 
-title DMAP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1619
 
-html
- <a class="trueBaseThemePreviousItem" href="ditroff.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="doe-macsyma.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dmap.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dmap" class="material-symbols-outlined">edit</a></div>
-
-* DMAP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3633 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- DMAP first developed in <a href="../lists/originCommunities.html#prcInformationSciencesCompany">PRC Information Sciences Company</a>
-- DMAP on HOPL
- https://hopl.info/showlanguage.prx?exp=1619
-- Read more about DMAP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/64d26992737da7d0f2364a30843a2227b04b5d07 1.
-
-<br>
-
-endColumns
-
-keyboardNav ditroff.html doe-macsyma.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

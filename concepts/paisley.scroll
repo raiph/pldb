@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PAISley
+import ../measures/conceptPage.scroll
+id PAISley
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/83b4bfa6f2c5cb24bf41aded6d41d64dfb570b51
+country United States
+originCommunity AT&T Bell Laboratories
 
-title PAISley - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1004
 
-html
- <a class="trueBaseThemePreviousItem" href="methodology-description-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="relational-data-file.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/paisley.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=paisley" class="material-symbols-outlined">edit</a></div>
-
-* PAISley is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3016 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- PAISley first developed in <a href="../lists/originCommunities.html#atTBellLaboratories">AT&T Bell Laboratories</a>
-- PAISley on HOPL
- https://hopl.info/showlanguage.prx?exp=1004
-- Read more about PAISley on Semantic Scholar: 1.
- https://semanticscholar.org/paper/83b4bfa6f2c5cb24bf41aded6d41d64dfb570b51 1.
-
-<br>
-
-endColumns
-
-keyboardNav methodology-description-language.html relational-data-file.html
-
-import ../footer.scroll
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2013|Some Experiments on Light-Weight Object-Functional-Logic Programming in Java with Paisley|10.1007/978-3-319-08909-6_14|4|0|B. T. Widemann and M. Lepper|b3373d0e33771471ae105b8abbbb153a01f0f3d5
+ 2017|A Practical Study of Control in Objected-Oriented-Functional-Logic Programming with Paisley|10.4204/EPTCS.234.11|2|0|B. T. Widemann and M. Lepper|9e8ae4bd268d35b642cfb12bddd7988669d47af3
+ 2019|Improving the Performance of the Paisley Pattern-Matching EDSL by Staged Combinatorial Compilation|10.1007/978-3-030-46714-2_17|1|0|B. T. Widemann and M. Lepper|828518848408eafe083d1193040d2ac70b675acb

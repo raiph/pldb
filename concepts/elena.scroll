@@ -1,70 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title elena
+import ../measures/conceptPage.scroll
+id elena
+appeared 2013
+type pl
+creators Alex Rakov
+website http://elenalang.sourceforge.net/
+reference https://news.ycombinator.com/item?id=24222038
+country Germany
+originCommunity ELENA Language Project
+domainName elenalang.sourceforge.net
 
-title elena - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="cuneiform.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="augeas.html">&gt;</a>
+printToken writeLine
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/elena.pldb
+githubRepo https://github.com/ELENA-LANG/elena-lang
+ firstCommit 2013
+ stars 81
+ forks 8
+ subscribers 9
+ created 2013
+ updated 2019
+ description ELENA is a dynamic object-oriented programming language. It features message dispatching, mixins and a script engine
+ issues 87
 
-startColumns 4
+repoStats
+ firstCommit 2013
+ commits 6099
+ committers 11
+ files 1462
 
-<div class="trueBaseThemeQuickLinks"><a href="http://elenalang.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/ELENA-LANG/elena-lang" class="material-symbols-outlined">code</a> <a href="https://twitter.com/elena_language"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=elena" class="material-symbols-outlined">edit</a></div>
+leachim6 Elena
+ filepath e/Elena.elena
+ fileExtensions elena
+ example
+  public program
+  [
+      console writeLine("Hello World").
+  ]
+  
 
-* elena is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by Alex Rakov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#alexRakov Alex Rakov
-
-codeWithHeader Source code:
- git clone https://github.com/ELENA-LANG/elena-lang
-
-dashboard
- #1454 <span title="TotalRank: 1980 Jobs: 103 Users: 1437 Facts: 891 Links: 986">on PLDB</span>
- 11 Years Old
-
-* ELENA is a dynamic object-oriented programming language. It features message dispatching, mixins and a script engine
-
-- elena website
- http://elenalang.sourceforge.net/
-- elena is developed on <a href="https://github.com/ELENA-LANG/elena-lang">GitHub</a> and has 81 stars
-- elena first developed in <a href="../lists/originCommunities.html#elenaLanguageProject">ELENA Language Project</a>
-- elena on Twitter
- https://twitter.com/elena_language
-- Read more about elena on the web: 1.
- https://news.ycombinator.com/item?id=24222038 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Elena.elena'>hello-world</a>:
- public program
- [
-     console writeLine(&quot;Hello World&quot;).
- ]
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token writeLine
-  Example
-
-keyboardNav cuneiform.html augeas.html
-
-import ../footer.scroll
+twitter https://twitter.com/elena_language

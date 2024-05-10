@@ -1,44 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASDF
+import ../measures/conceptPage.scroll
+id ASDF
+appeared 2015
+type pl
+creators Perry Greenfield and Michael Droettboom and Erik M. Bray
+website https://asdf.readthedocs.io/
+country United States
+originCommunity Space Telescope Science Institute
 
-title ASDF - Programming language
- hidden
+githubRepo https://github.com/asdf-format/asdf
+ firstCommit 2011
+ stars 423
+ forks 48
+ subscribers 24
+ created 2014
+ updated 2022
+ description ASDF (Advanced Scientific Data Format) is a next generation interchange format for scientific data
+ issues 77
 
-html
- <a class="trueBaseThemePreviousItem" href="myia.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fen-notation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asdf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://asdf.readthedocs.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/asdf-format/asdf" class="material-symbols-outlined">code</a> <a href="/edit.html?id=asdf" class="material-symbols-outlined">edit</a></div>
-
-* ASDF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Perry Greenfield and Michael Droettboom and Erik M. Bray.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#perryGreenfield Perry Greenfield
- link ../lists/creators.html#michaelDroettboom Michael Droettboom
- link ../lists/creators.html#erikMBray Erik M. Bray
-
-codeWithHeader Source code:
- git clone https://github.com/asdf-format/asdf
-
-dashboard
- #1284 <span title="TotalRank: 1815 Jobs: 103 Users: 726 Facts: 1669 Links: 986">on PLDB</span>
- 9 Years Old
-
-* ASDF (Advanced Scientific Data Format) is a next generation interchange format for scientific data
-
-- ASDF website
- https://asdf.readthedocs.io/
-- ASDF is developed on <a href="https://github.com/asdf-format/asdf">GitHub</a> and has 423 stars
-- ASDF first developed in <a href="../lists/originCommunities.html#spaceTelescopeScienceInstitute">Space Telescope Science Institute</a>
-
-<br>
-
-endColumns
-
-keyboardNav myia.html fen-notation.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 4129
+ committers 63
+ files 239

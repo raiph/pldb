@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GAMS
+import ../measures/conceptPage.scroll
+id GAMS
+appeared 1988
+type pl
+conceptDescription The General Algebraic Modeling System (GAMS) is a high-level modeling system for mathematical programming and optimization. It consists of a language compiler and a stable of integrated high-performance solvers. GAMS is tailored for complex, large scale modeling applications, and allows you to build large maintainable models that can be adapted quickly to new situations. GAMS is specifically designed for modeling linear, nonlinear and mixed integer optimization problems.
+website https://www.gams.com/products/introduction/
+reference https://semanticscholar.org/paper/cb3e367dc06962b67e543cf02481ac804e85234e
+country United States
+originCommunity GAMS Development Corp
 
-title GAMS - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="aith.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="runoff.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gams.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.gams.com/products/introduction/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=gams" class="material-symbols-outlined">edit</a></div>
-
-* GAMS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #551 <span title="TotalRank: 1114 Jobs: 103 Users: 2442 Facts: 622 Links: 389">on PLDB</span>
- 36 Years Old
-
-* The General Algebraic Modeling System (GAMS) is a high-level modeling system for mathematical programming and optimization. It consists of a language compiler and a stable of integrated high-performance solvers. GAMS is tailored for complex, large scale modeling applications, and allows you to build large maintainable models that can be adapted quickly to new situations. GAMS is specifically designed for modeling linear, nonlinear and mixed integer optimization problems.
-
-- GAMS website
- https://www.gams.com/products/introduction/
-- GAMS first developed in <a href="../lists/originCommunities.html#gamsDevelopmentCorp">GAMS Development Corp</a>
-- There are 3 <a href="https://projecteuler.net/language=GAMS">Project Euler</a> users using GAMS
-- GAMS on HOPL
- https://hopl.info/showlanguage.prx?exp=4914
-- Read more about GAMS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cb3e367dc06962b67e543cf02481ac804e85234e 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Sets
         i   canning plants   / Seattle, San-Diego /
         j   markets          / New-York, Chicago, Topeka / ;
@@ -69,8 +42,17 @@ codeWithHeader Example from the web:
  Model transport /all/ ;
  Solve transport using LP minimizing z ;
 
-endColumns
+projectEuler GAMS
+ memberCount
+  2022 3
 
-keyboardNav aith.html runoff.html
+hopl https://hopl.info/showlanguage.prx?exp=4914
 
-import ../footer.scroll
+centralPackageRepositoryCount 0
+
+isbndb 4
+ year|publisher|title|authors|isbn13
+ 2010|Wiley-Blackwell|Practical Financial Optimization: A Library of GAMS Models|Nielson, Soren S and Consiglio, Andrea|9781405133715
+ 20171204|Springer Nature|Continuous Nonlinear Optimization for Engineering Applications in GAMS Technology|Neculai Andrei|9783319583563
+ |Springer International Publishing :|Continuous Nonlinear Optimization For Engineering Applications In Gams Technology|Andrei, Neculai (author.)|9783319583563
+ 2013|Springer|Nonlinear Optimization Applications Using The Gams Technology (springer Optimization And Its Applications)|Neculai Andrei|9781461467960

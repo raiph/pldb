@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title M-LISP
+import ../measures/conceptPage.scroll
+id M-LISP
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/770ed6c27f192a139325c49769da2749cc54f7e0
+country United States
+originCommunity Harvard University
 
-title M-LISP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1644
 
-html
- <a class="trueBaseThemePreviousItem" href="lucinda.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="macaims.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/m-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=m-lisp" class="material-symbols-outlined">edit</a></div>
-
-* M-LISP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3799 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- M-LISP first developed in <a href="../lists/originCommunities.html#harvardUniversity">Harvard University</a>
-- M-LISP on HOPL
- https://hopl.info/showlanguage.prx?exp=1644
-- Read more about M-LISP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/770ed6c27f192a139325c49769da2749cc54f7e0 1.
-
-<br>
-
-endColumns
-
-keyboardNav lucinda.html macaims.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

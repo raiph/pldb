@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Khepri
+import ../measures/conceptPage.scroll
+id Khepri
+appeared 2012
+type pl
+creators Matt Bierner
+website https://web.archive.org/web/20200122120931/http://khepri-lang.com/
+country United States
+originCommunity https://github.com/mattbierner/khepri/issues
 
-title Khepri - Programming language
- hidden
+githubRepo https://github.com/mattbierner/khepri
+ stars 65
+ forks 3
+ subscribers 7
+ created 2012
+ updated 2015
+ description ECMAScript derived programming language
 
-html
- <a class="trueBaseThemePreviousItem" href="rye.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tymshare-superbasic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/khepri.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20200122120931/http://khepri-lang.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/mattbierner/khepri" class="material-symbols-outlined">code</a> <a href="/edit.html?id=khepri" class="material-symbols-outlined">edit</a></div>
-
-* Khepri is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Matt Bierner.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#mattBierner Matt Bierner
-
-codeWithHeader Source code:
- git clone https://github.com/mattbierner/khepri
-
-dashboard
- #2195 <span title="TotalRank: 2694 Jobs: 103 Users: 1605 Facts: 1890 Links: 986">on PLDB</span>
- 12 Years Old
-
-* ECMAScript derived programming language
-
-- Khepri website
- https://web.archive.org/web/20200122120931/http://khepri-lang.com/
-- Khepri is developed on <a href="https://github.com/mattbierner/khepri">GitHub</a> and has 65 stars
-- Khepri first developed in <a href="../lists/originCommunities.html#httpsGithubComMattbiernerKhepriIssues">https://github.com/mattbierner/khepri/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav rye.html tymshare-superbasic.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 643
+ committers 1
+ files 31

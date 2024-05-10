@@ -1,52 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Devicetree
+import ../measures/conceptPage.scroll
+id Devicetree
+appeared 2009
+type dataNotation
+website https://www.devicetree.org/
+country England
+originCommunity Linaro Limited
+domainName devicetree.org
+ registered 2009
+ awisRank
+  2022 11082616
 
-title Devicetree - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kerf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="g-portugol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/devicetree.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.devicetree.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=devicetree" class="material-symbols-outlined">edit</a></div>
-
-* Devicetree is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2031 <span title="TotalRank: 2539 Jobs: 103 Users: 2442 Facts: 1450 Links: 986">on PLDB</span>
- 15 Years Old
-
-* 
-
-- Devicetree website
- https://www.devicetree.org/
-- Devicetree first developed in <a href="../lists/originCommunities.html#linaroLimited">Linaro Limited</a>
-- file extensions for Devicetree include dts and dtsi
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/devicetree.py">syntax highlighting</a> for Devicetree
-- <a href="https://www.devicetree.org/">devicetree.org</a> was registered in 2009
-
-<br>
-
-codeWithHeader Example from the web:
+example
  soc {
-    #address-cells = &lt;1&gt;;
-    #size-cells = &lt;1&gt;;
+    #address-cells = <1>;
+    #size-cells = <1>;
     serial@4600 {
-        compatible = &quot;ns16550&quot;;
-        reg = &lt;0x4600 0x100&gt;;
-        clock-frequency = &lt;0&gt;;
-        interrupts = &lt;0xA 0x8&gt;;
-        interrupt-parent = &lt;&amp;ipic&gt;;
+        compatible = "ns16550";
+        reg = <0x4600 0x100>;
+        clock-frequency = <0>;
+        interrupts = <0xA 0x8>;
+        interrupt-parent = <&ipic>;
     };
 
-endColumns
-
-keyboardNav kerf.html g-portugol.html
-
-import ../footer.scroll
+pygmentsHighlighter Devicetree
+ filename devicetree.py
+ fileExtensions dts dtsi

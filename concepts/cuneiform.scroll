@@ -1,68 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cuneiform
+import ../measures/conceptPage.scroll
+id cuneiform
+appeared 2015
+type pl
+website http://www.cuneiform-lang.org
+country European Union
+originCommunity BiobankCloud
+domainName cuneiform-lang.org
+ registered 2015
 
-title cuneiform - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="newp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="elena.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cuneiform.pldb
+githubRepo https://github.com/joergen7/cuneiform/
+ stars 203
+ forks 15
+ subscribers 13
+ created 2014
+ updated 2022
+ description Cuneiform distributed programming language
+ issues 8
 
-startColumns 4
+repoStats
+ firstCommit 2014
+ commits 553
+ committers 11
+ files 11
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.cuneiform-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/joergen7/cuneiform/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cuneiform" class="material-symbols-outlined">edit</a></div>
+leachim6 Cuneiform
+ filepath c/Cuneiform.cfl
+ fileExtensions cfl
+ example
+  def greet() -> <out : Str>
+  in Bash *{
+    out="Hello World"
+  }*
+  
+  ( greet()|out );
+  
 
-* cuneiform is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/joergen7/cuneiform/
-
-dashboard
- #1453 <span title="TotalRank: 1980 Jobs: 103 Users: 1044 Facts: 891 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Cuneiform distributed programming language
-
-- cuneiform website
- http://www.cuneiform-lang.org
-- cuneiform is developed on <a href="https://github.com/joergen7/cuneiform/">GitHub</a> and has 203 stars
-- cuneiform first developed in <a href="../lists/originCommunities.html#biobankCloud">BiobankCloud</a>
-- <a href="http://www.cuneiform-lang.org">cuneiform-lang.org</a> was registered in 2015
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Cuneiform.cfl'>hello-world</a>:
- def greet() -&gt; &lt;out : Str&gt;
- in Bash *{
-   out=&quot;Hello World&quot;
- }*
- 
- ( greet()|out );
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-## HackerNews discussions of cuneiform
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Cuneiform – A Functional Workflow Language|https://news.ycombinator.com/item?id=11025942|02/03/2016|39|10
-
-keyboardNav newp.html elena.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 11025942|Show HN: Cuneiform – A Functional Workflow Language|http://www.cuneiform-lang.org/|2016-02-03 11:45:56 UTC|1454499956|joergen7|10|39

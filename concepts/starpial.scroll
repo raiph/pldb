@@ -1,49 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title starpial
+import ../measures/conceptPage.scroll
+id starpial
+appeared 2012
+type pl
+conceptDescription <a href='https://github.com/ColonelJ/Starpial'>Starpial</a> is a stack-oriented functional logic programming language with OOP, recursive regex, dependent types, refinement types, and automatic parallelization based on transactions.
+country Unknown
+originCommunity https://github.com/ColonelJ/Starpial/issues
 
-title starpial - Programming language
- hidden
+hasDependentTypes true
 
-html
- <a class="trueBaseThemePreviousItem" href="plink-ped-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kaml.html">&gt;</a>
+githubRepo https://github.com/ColonelJ/Starpial
+ stars 7
+ forks 0
+ subscribers 3
+ created 2012
+ updated 2020
+ firstCommit 2012
+ description Description of Starpial plus example programs
+ issues 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/starpial.pldb
+repoStats
+ firstCommit 2012
+ commits 15
+ committers 2
+ files 10
 
-startColumns 4
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ColonelJ/Starpial" class="material-symbols-outlined">code</a> <a href="/edit.html?id=starpial" class="material-symbols-outlined">edit</a></div>
-
-* starpial is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/ColonelJ/Starpial
-
-dashboard
- #1959 <span title="TotalRank: 2470 Jobs: 103 Users: 2358 Facts: 1381 Links: 986">on PLDB</span>
- 12 Years Old
-
-* <a href='https://github.com/ColonelJ/Starpial'>Starpial</a> is a stack-oriented functional logic programming language with OOP, recursive regex, dependent types, refinement types, and automatic parallelization based on transactions.
-
-- starpial is developed on <a href="https://github.com/ColonelJ/Starpial">GitHub</a> and has 7 stars
-- starpial first developed in <a href="../lists/originCommunities.html#httpsGithubComColonelJStarpialIssues">https://github.com/ColonelJ/Starpial/issues</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Dependent types
-  FeatureLink ../features/hasDependentTypes.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav plink-ped-format.html kaml.html
-
-import ../footer.scroll
+semanticScholar 0

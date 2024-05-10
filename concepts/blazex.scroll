@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BlazeX
+import ../measures/conceptPage.scroll
+id BlazeX
+appeared 2020
+type pl
+creators RoMeAh
+website https://www.blazex.blazify.rocks/
+country Unknown
+originCommunity Blazify
 
-title BlazeX - Programming language
- hidden
+githubRepo https://github.com/BlazifyOrg/blazex
+ firstCommit 2020
+ stars 47
+ forks 5
+ subscribers 2
+ created 2020
+ updated 2022
+ description AOT compiled object oriented programming language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="sbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="setlx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blazex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.blazex.blazify.rocks/" class="material-symbols-outlined">home</a> <a href="https://github.com/BlazifyOrg/blazex" class="material-symbols-outlined">code</a> <a href="/edit.html?id=blazex" class="material-symbols-outlined">edit</a></div>
-
-* BlazeX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by RoMeAh.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#roMeAh RoMeAh
-
-codeWithHeader Source code:
- git clone https://github.com/BlazifyOrg/blazex
-
-dashboard
- #2233 <span title="TotalRank: 2758 Jobs: 103 Users: 1739 Facts: 1669 Links: 986">on PLDB</span>
- 4 Years Old
-
-* AOT compiled object oriented programming language
-
-- BlazeX website
- https://www.blazex.blazify.rocks/
-- BlazeX is developed on <a href="https://github.com/BlazifyOrg/blazex">GitHub</a> and has 47 stars
-- BlazeX first developed in <a href="../lists/originCommunities.html#blazify">Blazify</a>
-
-<br>
-
-endColumns
-
-keyboardNav sbasic.html setlx.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 285
+ committers 8
+ files 69

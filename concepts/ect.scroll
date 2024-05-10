@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ECT
+import ../measures/conceptPage.scroll
+id ECT
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/ec95c43c281fd93c42eda6d97caa1010daec2cc4
+country Canada and Australia
+originCommunity McMaster University && IP Computer Consultants
 
-title ECT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3700
 
-html
- <a class="trueBaseThemePreviousItem" href="eclectic-csp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edinburgh-lcf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ect.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ect" class="material-symbols-outlined">edit</a></div>
-
-* ECT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3646 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- ECT first developed in <a href="../lists/originCommunities.html#mcMasterUniversity">McMaster University</a> and <a href="../lists/originCommunities.html#ipComputerConsultants">IP Computer Consultants</a>
-- ECT on HOPL
- https://hopl.info/showlanguage.prx?exp=3700
-- Read more about ECT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ec95c43c281fd93c42eda6d97caa1010daec2cc4 1.
-
-<br>
-
-endColumns
-
-keyboardNav eclectic-csp.html edinburgh-lcf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,72 +1,56 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CSVw
+import ../measures/conceptPage.scroll
+id CSVw
+appeared 2014
+type dataValidationLanguage
+creators Ivan Herman
+conceptDescription The CSV on the Web Working Group has developed standard ways to express useful metadata about CSV files and other kinds of tabular data.
+reference https://www.w3.org/TR/tabular-data-primer/
+standsFor CSV on the Web
+country Various
+originCommunity CSV on the Web Working Group && CSV on the Web Community Group
 
-title CSVw - Data validation language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bitbake.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sweave.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/csvw.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/w3c/csvw" class="material-symbols-outlined">code</a> <a href="/edit.html?id=csvw" class="material-symbols-outlined">edit</a></div>
-
-* CSVw, aka CSV on the Web, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataValidationLanguage">data validation language</a> created in 2014 by Ivan Herman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#ivanHerman Ivan Herman
-
-codeWithHeader Source code:
- git clone https://github.com/w3c/csvw
-
-dashboard
- #1129 <span title="TotalRank: 1685 Jobs: 103 Users: 960 Facts: 622 Links: 986">on PLDB</span>
- 10 Years Old
-
-* The CSV on the Web Working Group has developed standard ways to express useful metadata about CSV files and other kinds of tabular data.
-
-- CSVw is developed on <a href="https://github.com/w3c/csvw">GitHub</a> and has 145 stars
-- CSVw first developed in <a href="../lists/originCommunities.html#csvOnTheWebWorkingGroup">CSV on the Web Working Group</a> and <a href="../lists/originCommunities.html#csvOnTheWebCommunityGroup">CSV on the Web Community Group</a>
-- Read more about CSVw on the web: 1.
- https://www.w3.org/TR/tabular-data-primer/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-   &quot;@context&quot;: &quot;http://www.w3.org/ns/csvw&quot;,
-   &quot;url&quot;: &quot;countries.csv&quot;,
-   &quot;tableSchema&quot;: {
-     &quot;aboutUrl&quot;: &quot;http://example.org/country/{code}&quot;,
-     &quot;columns&quot;: [{
-       &quot;titles&quot;: &quot;country&quot;,
-       &quot;name&quot;: &quot;code&quot;
+   "@context": "http://www.w3.org/ns/csvw",
+   "url": "countries.csv",
+   "tableSchema": {
+     "aboutUrl": "http://example.org/country/{code}",
+     "columns": [{
+       "titles": "country",
+       "name": "code"
      },{
-       &quot;titles&quot;: &quot;country group&quot;
+       "titles": "country group"
      },{
-       &quot;titles&quot;: &quot;name (en)&quot;,
-       &quot;lang&quot;: &quot;en&quot;
+       "titles": "name (en)",
+       "lang": "en"
      },{
-       &quot;titles&quot;: &quot;name (fr)&quot;,
-       &quot;lang&quot;: &quot;fr&quot;
+       "titles": "name (fr)",
+       "lang": "fr"
      },{
-       &quot;titles&quot;: &quot;name (de)&quot;,
-       &quot;lang&quot;: &quot;de&quot;
+       "titles": "name (de)",
+       "lang": "de"
      },{
-       &quot;titles&quot;: &quot;latitude&quot;,
-       &quot;datatype&quot;: &quot;number&quot;
+       "titles": "latitude",
+       "datatype": "number"
      },{
-       &quot;titles&quot;: &quot;longitude&quot;,
-       &quot;datatype&quot;: &quot;number&quot;
+       "titles": "longitude",
+       "datatype": "number"
      }]
    }
  }
 
-endColumns
+githubRepo https://github.com/w3c/csvw
+ firstCommit 2014
+ stars 145
+ forks 53
+ subscribers 54
+ created 2014
+ updated 2022
+ description Documents produced by the CSV on the Web Working Group
+ issues 35
 
-keyboardNav bitbake.html sweave.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 2468
+ committers 29
+ files 1737

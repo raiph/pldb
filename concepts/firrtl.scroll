@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title firrtl
+import ../measures/conceptPage.scroll
+id firrtl
+appeared 2015
+type ir
+website https://www.chisel-lang.org/firrtl/
+country United States and China
+originCommunity https://github.com/freechipsproject
 
-title firrtl - Intermediate representation language
- hidden
+githubRepo https://github.com/freechipsproject/firrtl
+ firstCommit 2015
+ stars 539
+ forks 159
+ subscribers 62
+ created 2015
+ updated 2022
+ description Flexible Intermediate Representation for RTL
+ issues 251
 
-html
- <a class="trueBaseThemePreviousItem" href="gfa-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lingo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/firrtl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.chisel-lang.org/firrtl/" class="material-symbols-outlined">home</a> <a href="https://github.com/freechipsproject/firrtl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=firrtl" class="material-symbols-outlined">edit</a></div>
-
-* firrtl is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/freechipsproject/firrtl
-
-dashboard
- #1068 <span title="TotalRank: 1631 Jobs: 103 Users: 542 Facts: 1787 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Flexible Intermediate Representation for RTL
-
-- firrtl website
- https://www.chisel-lang.org/firrtl/
-- firrtl is developed on <a href="https://github.com/freechipsproject/firrtl">GitHub</a> and has 539 stars
-- firrtl first developed in <a href="../lists/originCommunities.html#httpsGithubComFreechipsproject">https://github.com/freechipsproject</a>
-
-<br>
-
-endColumns
-
-keyboardNav gfa-basic.html lingo.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 4196
+ committers 116
+ files 522

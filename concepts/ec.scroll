@@ -1,486 +1,472 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title eC
+import ../measures/conceptPage.scroll
+id eC
+appeared 2004
+type pl
+creators Jérôme Jacovella-St-Louis
+website http://ec-lang.org/
+standsFor Ecere C
+country Canada
+originCommunity Ecere Corporation
+domainName ec-lang.org
+ registered 2014
+ awisRank
+  2022 5961071
 
-title eC - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="ecr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="csound.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
+printToken PrintLn
+stringToken "
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ec.pldb
+githubRepo https://github.com/ecere/ecere-sdk/
+ stars 298
+ forks 90
+ subscribers 47
+ created 2011
+ updated 2022
+ description Ecere SDK (eC Language, Ecere IDE, Cross platform GUI, graphics, and more) — http://ec-lang.org — 
+ issues 7
 
-startColumns 4
+repoStats
+ firstCommit 2011
+ commits 7491
+ committers 20
+ files 5837
 
-<div class="trueBaseThemeQuickLinks"><a href="http://ec-lang.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/ec" class="material-symbols-outlined">terminal</a> <a href="https://github.com/ecere/ecere-sdk/" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/EC_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=ec" class="material-symbols-outlined">edit</a></div>
+wikipedia https://en.wikipedia.org/wiki/EC_(programming_language)
+ example
+  import "ecere"
+  
+  class HelloForm : Window
+  {
+     caption = "My First eC Application";
+     borderStyle = sizable;
+     clientSize = { 304, 162 };
+     hasClose = true;
+  
+     Label label
+     {
+        this, position = { 10, 10 }, font = { "Arial", 30 },
+        caption = "Hello, World!!"
+     };
+  };
+  
+  HelloForm hello { };
+ related c python llvmir linux freebsd android javascript wasm
+ summary eC (Ecere C) is an object-oriented programming language, defined as a super-set of the C language. eC was initially developed as part of the Ecere Cross-platform Software Development Kit project. The goals of the language are to provide object-oriented constructs, reflection, properties and dynamic modules on top of the C language while maintaining C compatibility and optimal native performance.eC currently relies on GCC or Clang to perform the final steps of compilation, using C as an intermediate language. There are, however, plans to integrate directly with LLVM to skip the intermediate C files.eC is available as part of the ecere-sdk package in Debian/Ubuntu and other derived Linux distributions. A Windows installer also bundling MinGW-w64 is available from the main website. The free and open-source SDK including the eC compiler can also be built for a number of other platforms, including OS X, FreeBSD and Android.It is also possible to deploy eC applications to the web by compiling them to JavaScript through Emscripten, or to WebAssembly through Binaryen.
+ pageId 48971282
+ created 2016
+ backlinksCount 23
+ revisionCount 76
+ dailyPageViews 22
+ appeared 2004
+ fileExtensions ec eh
 
-* eC, aka Ecere C, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004 by Jérôme Jacovella-St-Louis.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
- link ../lists/creators.html#jeromeJacovellaStLouis Jérôme Jacovella-St-Louis
+githubLanguage eC
+ fileExtensions ec eh
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.c.ec
+ repos 139
+githubBigQuery eC
+ repos 920
+ users 894
 
-codeWithHeader Source code:
- git clone https://github.com/ecere/ecere-sdk/
+pygmentsHighlighter eC
+ filename c_like.py
+ fileExtensions ec eh
+linguistGrammarRepo https://github.com/ecere/ec.tmbundle
+ firstCommit 2015
+ lastCommit 2015
+ committerCount 2
+ commitCount 12
+ sampleCount 1
+ example
+  import "ide"
+  
+  class Designer : DesignerBase
+  {
+     ~Designer()
+     {
+        if(GetActiveDesigner() == this)
+        {
+           SetActiveDesigner(null);
+        }
+        if(classDesigner)
+           delete classDesigner;
+     }
+  
+     // *** DesignerBase Implementation ***
+  
+     void ModifyCode()
+     {
+        codeEditor.ModifyCode();
+     }
+  
+     void UpdateProperties()
+     {
+        codeEditor.DesignerModifiedObject();
+     }
+  
+     void CodeAddObject(Instance instance, ObjectInfo * object)
+     {
+        codeEditor.AddObject(instance, object);
+     }
+  
+     void SheetAddObject(ObjectInfo object)
+     {
+        codeEditor.sheet.AddObject(object, object.name, typeData, true); //className, true);
+     }
+  
+     void AddToolBoxClass(Class _class)
+     {
+        ((IDEWorkSpace)master).toolBox.AddControl(_class);
+     }
+  
+     void AddDefaultMethod(Instance instance, Instance classInstance)
+     {
+        Class _class = instance._class;
+        Method defaultMethod = null;
+  
+        for( ; _class; _class = _class.base)
+        {
+           Method method;
+           int minID = MAXINT;
+           for(method = (Method)_class.methods.first; method; method = (Method)((BTNode)method).next)
+           {
+              if(method.type == virtualMethod)
+              {
+                 if(!method.dataType)
+                    method.dataType = ProcessTypeString(method.dataTypeString, false);
+                 if(method.vid < minID && (instance == classInstance || (method.dataType.thisClass && eClass_IsDerived(classInstance._class, method.dataType.thisClass.registered))))
+                 {
+                    defaultMethod = method;
+                    minID = method.vid;
+                 }
+              }
+           }
+           if(defaultMethod)
+              break;
+        }
+        codeEditor.AddMethod(defaultMethod);
+     }
+  
+     bool ObjectContainsCode(ObjectInfo object)
+     {
+        // Confirmation if control contains code
+        if(object.instCode)
+        {
+           MembersInit members;
+           if(object.instCode.members)
+           {
+              for(members = object.instCode.members->first; members; members = members.next)
+              {
+                 if(members.type == methodMembersInit)
+                 {
+                    //if(!Code_IsFunctionEmpty(members.function))
+                    {
+                       return true;
+                    }
+                 }
+              }
+           }
+        }
+        return false;
+     }
+  
+     void DeleteObject(ObjectInfo object)
+     {
+        if(codeEditor)
+           codeEditor.DeleteObject(object);
+     }
+  
+     void RenameObject(ObjectInfo object, const char * name)
+     {
+        if(object && (name || !object.classDefinition))
+           codeEditor.RenameObject(object, name);
+     }
+  
+     bool FindObject(Instance * object, const char * string)
+     {
+        ObjectInfo classObject;
+        for(classObject = codeEditor.classes.first; classObject; classObject = classObject.next)
+        {
+           ObjectInfo check;
+           if(classObject.name && !strcmp(string, classObject.name))
+           {
+              *object = classObject.instance;
+              break;
+           }
+           for(check = classObject.instances.first; check; check = check.next)
+           {
+              if(check.name && !strcmp(string, check.name))
+              {
+                 *object = check.instance;
+                 break;
+              }
+           }
+           if(check)
+              return true;
+        }
+        return false;
+     }
+  
+     void SelectObjectFromDesigner(ObjectInfo object)
+     {
+        codeEditor.SelectObjectFromDesigner(object);
+     }
+  
+     borderStyle = sizable;
+     isActiveClient = true;
+     hasVertScroll = true;
+     hasHorzScroll = true;
+     hasClose = true;
+     hasMaximize = true;
+     hasMinimize = true;
+     text = $"Designer";
+     menu = Menu { };
+     anchor = Anchor { left = 300, right = 150, top = 0, bottom = 0 };
+  
+     ToolBox toolBox;
+     CodeEditor codeEditor;
+  
+     Menu fileMenu { menu, $"File", f };
+     MenuItem fileSaveItem
+     {
+        fileMenu, $"Save", s, ctrlS;
+        bool NotifySelect(MenuItem selection, Modifiers mods)
+        {
+           return codeEditor.MenuFileSave(selection, mods);
+        }
+     };
+     MenuItem fileSaveAsItem
+     {
+        fileMenu, $"Save As...", a;
+        bool NotifySelect(MenuItem selection, Modifiers mods)
+        {
+           return codeEditor.MenuFileSaveAs(selection, mods);
+        }
+     };
+     bool debugClosing;
+  
+     bool OnClose(bool parentClosing)
+     {
+        if(!parentClosing)
+        {
+           if(codeEditor && codeEditor.inUseDebug && !debugClosing)
+           {
+              debugClosing = true;
+              closing = false;
+              if(CloseConfirmation(false))
+              {
+                 visible = false;
+                 if(modifiedDocument)
+                    OnFileModified({ modified = true }, null);
+              }
+              debugClosing = false;
+              return false;
+           }
+           if(codeEditor && !codeEditor.closing && !debugClosing)
+           {
+              if(!codeEditor.visible)
+              {
+                 if(!codeEditor.Destroy(0))
+                    return false;
+                 else
+                    codeEditor = null;
+              }
+              else
+              {
+                 visible = false;
+                 return false;
+              }
+           }
+        }
+        return true;
+     }
+  
+     bool OnActivate(bool active, Window previous, bool * goOnWithActivation, bool direct)
+     {
+        if(active)
+        {
+           codeEditor.EnsureUpToDate();
+           codeEditor.fixCaret = true;
+           /*
+           if(classDesigner)
+              classDesigner.Activate();
+           */
+        }
+        return true;
+     }
+  
+     bool OnKeyHit(Key key, unichar ch)
+     {
+        return codeEditor.sheet.OnKeyHit(key, ch);
+     }
+  
+     watch(modifiedDocument)
+     {
+        fileSaveItem.disabled = !modifiedDocument && codeEditor.fileName;
+     };
+  
+     // *** METHODS ACCESSED FROM PROPERTY SHEET/TOOLBOX/CODE EDITOR ***
+     void Reset()
+     {
+        if(classDesigner)
+        {
+           classDesigner.Reset();
+           classDesigner.SelectObject(null, null);
+           classDesigner.Destroy(0);
+           delete classDesigner;
+        }
+     }
+  
+     void FillToolBox()
+     {
+        if(this && classDesigner)
+           classDesigner.ListToolBoxClasses(this);
+     }
+  
+     void SelectObject(ObjectInfo object, Instance instance)
+     {
+        ClassDesignerBase classDesigner = this.classDesigner;
+  #ifdef _DEBUG
+        if(instance && instance._class.module.application != codeEditor.privateModule)
+           printf("warning: SelectObject: instance._class.module.application != codeEditor.privateModule\n");
+  #endif
+        if(!classDesigner || !instance || classDesigner._class != (Class)eInstance_GetDesigner(instance))
+        {
+           if(classDesigner)
+           {
+              classDesigner.SelectObject(null, null);
+              classDesigner.Destroy(0);
+              classDesigner = null;
+              delete this.classDesigner;
+           }
+           if(instance)
+           {
+              this.classDesigner = classDesigner = eInstance_New(eInstance_GetDesigner(instance));
+              incref classDesigner;
+              //if(!classDesigner.parent)
+              {
+                 classDesigner.parent = this;
+                 classDesigner.anchor = Anchor { left = 0, right = 0, top = 0, bottom = 0 };
+              }
+              classDesigner.Create();
+           }
+        }
+        // Call class editor SelectObject
+        if(classDesigner)
+           classDesigner.SelectObject(object, instance);
+     }
+  
+     void AddObject()
+     {
+        // Call class editor AddObject
+        if(classDesigner)
+           classDesigner.AddObject();
+        if(visible)
+           Activate();
+        else
+           codeEditor.Activate();
+     }
+  
+     void CreateObject(Instance instance, ObjectInfo object, bool isClass, Instance iclass)
+     {
+        subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
+  
+        // Call class editor CreateObject
+        if(designerClass)
+           designerClass.CreateObject(this, instance, object, isClass, iclass);
+     }
+  
+     void ::PostCreateObject(Instance instance, ObjectInfo object, bool isClass, Instance iclass)
+     {
+        subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
+  
+        // Call class editor PostCreateObject
+        if(designerClass)
+           designerClass.PostCreateObject(instance, object, isClass, iclass);
+     }
+  
+     void ::DroppedObject(Instance instance, ObjectInfo object, bool isClass, Instance iclass)
+     {
+        subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
+  
+        // Call class editor PostCreateObject
+        if(designerClass)
+           designerClass.DroppedObject(instance, object, isClass, iclass);
+     }
+  
+     void PrepareTestObject(Instance instance)
+     {
+        subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
+        if(designerClass)
+           designerClass.PrepareTestObject(this, instance);
+     }
+  
+     void ::DestroyObject(Instance instance)
+     {
+        subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
+        if(designerClass)
+           designerClass.DestroyObject(instance);
+     }
+  
+     void ::FixProperty(Property prop, Instance instance)
+     {
+        subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
+        if(designerClass)
+           designerClass.FixProperty(prop, instance);
+     }
+  }
+  
 
-dashboard
- #291 <span title="TotalRank: 699 Jobs: 103 Users: 588 Facts: 8 Links: 986">on PLDB</span>
- 20 Years Old
- 139 <span title="eC repos on GitHub.">Repos</span>
+leachim6 Ec
+ filepath e/Ec.ec
+ fileExtensions ec
+ example
+  class HelloWorldApp : Application
+  {
+     void Main()
+     {
+        PrintLn("Hello World");
+     }
+  }
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:EC
 
-* Try now: <a href="https://riju.codes/ec">Riju</a> · <a href="https://tio.run/#ec">TIO</a>
+rijuRepl https://riju.codes/ec
+ example
+  class Main : Application
+  {
+     void Main()
+     {
+        PrintLn("Hello, world!");
+     }
+  }
+  
+tryItOnline ec
 
-* eC (Ecere C) is an object-oriented programming language, defined as a super-set of the C language. eC was initially developed as part of the Ecere Cross-platform Software Development Kit project. The goals of the language are to provide object-oriented constructs, reflection, properties and dynamic modules on top of the C language while maintaining C compatibility and optimal native performance.eC currently relies on GCC or Clang to perform the final steps of compilation, using C as an intermediate language. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/EC_(programming_language) Read more on Wikipedia...
+fileType text
+wordRank 4684
+isOpenSource true
+centralPackageRepositoryCount 0
 
-- eC website
- http://ec-lang.org/
-- eC Wikipedia page
- https://en.wikipedia.org/wiki/EC_(programming_language)
-- eC is developed on <a href="https://github.com/ecere/ecere-sdk/">GitHub</a> and has 298 stars
-- There are at least 139 eC repos on <a href="https://github.com/search?q=language:eC">GitHub</a>
-- eC first developed in <a href="../lists/originCommunities.html#ecereCorporation">Ecere Corporation</a>
-- file extensions for eC include ec and eh
-- The  Google BigQuery Public Dataset GitHub snapshot shows 894 users using eC in 920 repos on <a href="https://api.github.com/search/repositories?q=language:eC">GitHub</a>
-- Explore eC snippets on <a href="http://www.rosettacode.org/wiki/Category:EC">Rosetta Code</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_like.py">syntax highlighting</a> for eC
-- GitHub supports <a href="https://github.com/ecere/ec.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for eC
-- <a href="http://ec-lang.org/">ec-lang.org</a> was registered in 2014
-- See also: (8 related languages)<a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="llvmir.html">LLVM IR</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="android.html">Android</a>, <a href="javascript.html">JavaScript</a>, <a href="wasm.html">WebAssembly</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/ec'>Riju</a>:
- class Main : Application
- {
-    void Main()
-    {
-       PrintLn(&quot;Hello, world!&quot;);
-    }
- }
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Ec.ec'>hello-world</a>:
- class HelloWorldApp : Application
- {
-    void Main()
-    {
-       PrintLn(&quot;Hello World&quot;);
-    }
- }
- 
-
-codeWithHeader Example from <a href='https://github.com/ecere/ec.tmbundle'>Linguist</a>:
- import &quot;ide&quot;
- 
- class Designer : DesignerBase
- {
-    ~Designer()
-    {
-       if(GetActiveDesigner() == this)
-       {
-          SetActiveDesigner(null);
-       }
-       if(classDesigner)
-          delete classDesigner;
-    }
- 
-    // *** DesignerBase Implementation ***
- 
-    void ModifyCode()
-    {
-       codeEditor.ModifyCode();
-    }
- 
-    void UpdateProperties()
-    {
-       codeEditor.DesignerModifiedObject();
-    }
- 
-    void CodeAddObject(Instance instance, ObjectInfo * object)
-    {
-       codeEditor.AddObject(instance, object);
-    }
- 
-    void SheetAddObject(ObjectInfo object)
-    {
-       codeEditor.sheet.AddObject(object, object.name, typeData, true); //className, true);
-    }
- 
-    void AddToolBoxClass(Class _class)
-    {
-       ((IDEWorkSpace)master).toolBox.AddControl(_class);
-    }
- 
-    void AddDefaultMethod(Instance instance, Instance classInstance)
-    {
-       Class _class = instance._class;
-       Method defaultMethod = null;
- 
-       for( ; _class; _class = _class.base)
-       {
-          Method method;
-          int minID = MAXINT;
-          for(method = (Method)_class.methods.first; method; method = (Method)((BTNode)method).next)
-          {
-             if(method.type == virtualMethod)
-             {
-                if(!method.dataType)
-                   method.dataType = ProcessTypeString(method.dataTypeString, false);
-                if(method.vid &lt; minID &amp;&amp; (instance == classInstance || (method.dataType.thisClass &amp;&amp; eClass_IsDerived(classInstance._class, method.dataType.thisClass.registered))))
-                {
-                   defaultMethod = method;
-                   minID = method.vid;
-                }
-             }
-          }
-          if(defaultMethod)
-             break;
-       }
-       codeEditor.AddMethod(defaultMethod);
-    }
- 
-    bool ObjectContainsCode(ObjectInfo object)
-    {
-       // Confirmation if control contains code
-       if(object.instCode)
-       {
-          MembersInit members;
-          if(object.instCode.members)
-          {
-             for(members = object.instCode.members-&gt;first; members; members = members.next)
-             {
-                if(members.type == methodMembersInit)
-                {
-                   //if(!Code_IsFunctionEmpty(members.function))
-                   {
-                      return true;
-                   }
-                }
-             }
-          }
-       }
-       return false;
-    }
- 
-    void DeleteObject(ObjectInfo object)
-    {
-       if(codeEditor)
-          codeEditor.DeleteObject(object);
-    }
- 
-    void RenameObject(ObjectInfo object, const char * name)
-    {
-       if(object &amp;&amp; (name || !object.classDefinition))
-          codeEditor.RenameObject(object, name);
-    }
- 
-    bool FindObject(Instance * object, const char * string)
-    {
-       ObjectInfo classObject;
-       for(classObject = codeEditor.classes.first; classObject; classObject = classObject.next)
-       {
-          ObjectInfo check;
-          if(classObject.name &amp;&amp; !strcmp(string, classObject.name))
-          {
-             *object = classObject.instance;
-             break;
-          }
-          for(check = classObject.instances.first; check; check = check.next)
-          {
-             if(check.name &amp;&amp; !strcmp(string, check.name))
-             {
-                *object = check.instance;
-                break;
-             }
-          }
-          if(check)
-             return true;
-       }
-       return false;
-    }
- 
-    void SelectObjectFromDesigner(ObjectInfo object)
-    {
-       codeEditor.SelectObjectFromDesigner(object);
-    }
- 
-    borderStyle = sizable;
-    isActiveClient = true;
-    hasVertScroll = true;
-    hasHorzScroll = true;
-    hasClose = true;
-    hasMaximize = true;
-    hasMinimize = true;
-    text = $&quot;Designer&quot;;
-    menu = Menu { };
-    anchor = Anchor { left = 300, right = 150, top = 0, bottom = 0 };
- 
-    ToolBox toolBox;
-    CodeEditor codeEditor;
- 
-    Menu fileMenu { menu, $&quot;File&quot;, f };
-    MenuItem fileSaveItem
-    {
-       fileMenu, $&quot;Save&quot;, s, ctrlS;
-       bool NotifySelect(MenuItem selection, Modifiers mods)
-       {
-          return codeEditor.MenuFileSave(selection, mods);
-       }
-    };
-    MenuItem fileSaveAsItem
-    {
-       fileMenu, $&quot;Save As...&quot;, a;
-       bool NotifySelect(MenuItem selection, Modifiers mods)
-       {
-          return codeEditor.MenuFileSaveAs(selection, mods);
-       }
-    };
-    bool debugClosing;
- 
-    bool OnClose(bool parentClosing)
-    {
-       if(!parentClosing)
-       {
-          if(codeEditor &amp;&amp; codeEditor.inUseDebug &amp;&amp; !debugClosing)
-          {
-             debugClosing = true;
-             closing = false;
-             if(CloseConfirmation(false))
-             {
-                visible = false;
-                if(modifiedDocument)
-                   OnFileModified({ modified = true }, null);
-             }
-             debugClosing = false;
-             return false;
-          }
-          if(codeEditor &amp;&amp; !codeEditor.closing &amp;&amp; !debugClosing)
-          {
-             if(!codeEditor.visible)
-             {
-                if(!codeEditor.Destroy(0))
-                   return false;
-                else
-                   codeEditor = null;
-             }
-             else
-             {
-                visible = false;
-                return false;
-             }
-          }
-       }
-       return true;
-    }
- 
-    bool OnActivate(bool active, Window previous, bool * goOnWithActivation, bool direct)
-    {
-       if(active)
-       {
-          codeEditor.EnsureUpToDate();
-          codeEditor.fixCaret = true;
-          /*
-          if(classDesigner)
-             classDesigner.Activate();
-          */
-       }
-       return true;
-    }
- 
-    bool OnKeyHit(Key key, unichar ch)
-    {
-       return codeEditor.sheet.OnKeyHit(key, ch);
-    }
- 
-    watch(modifiedDocument)
-    {
-       fileSaveItem.disabled = !modifiedDocument &amp;&amp; codeEditor.fileName;
-    };
- 
-    // *** METHODS ACCESSED FROM PROPERTY SHEET/TOOLBOX/CODE EDITOR ***
-    void Reset()
-    {
-       if(classDesigner)
-       {
-          classDesigner.Reset();
-          classDesigner.SelectObject(null, null);
-          classDesigner.Destroy(0);
-          delete classDesigner;
-       }
-    }
- 
-    void FillToolBox()
-    {
-       if(this &amp;&amp; classDesigner)
-          classDesigner.ListToolBoxClasses(this);
-    }
- 
-    void SelectObject(ObjectInfo object, Instance instance)
-    {
-       ClassDesignerBase classDesigner = this.classDesigner;
- #ifdef _DEBUG
-       if(instance &amp;&amp; instance._class.module.application != codeEditor.privateModule)
-          printf(&quot;warning: SelectObject: instance._class.module.application != codeEditor.privateModule\n&quot;);
- #endif
-       if(!classDesigner || !instance || classDesigner._class != (Class)eInstance_GetDesigner(instance))
-       {
-          if(classDesigner)
-          {
-             classDesigner.SelectObject(null, null);
-             classDesigner.Destroy(0);
-             classDesigner = null;
-             delete this.classDesigner;
-          }
-          if(instance)
-          {
-             this.classDesigner = classDesigner = eInstance_New(eInstance_GetDesigner(instance));
-             incref classDesigner;
-             //if(!classDesigner.parent)
-             {
-                classDesigner.parent = this;
-                classDesigner.anchor = Anchor { left = 0, right = 0, top = 0, bottom = 0 };
-             }
-             classDesigner.Create();
-          }
-       }
-       // Call class editor SelectObject
-       if(classDesigner)
-          classDesigner.SelectObject(object, instance);
-    }
- 
-    void AddObject()
-    {
-       // Call class editor AddObject
-       if(classDesigner)
-          classDesigner.AddObject();
-       if(visible)
-          Activate();
-       else
-          codeEditor.Activate();
-    }
- 
-    void CreateObject(Instance instance, ObjectInfo object, bool isClass, Instance iclass)
-    {
-       subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
- 
-       // Call class editor CreateObject
-       if(designerClass)
-          designerClass.CreateObject(this, instance, object, isClass, iclass);
-    }
- 
-    void ::PostCreateObject(Instance instance, ObjectInfo object, bool isClass, Instance iclass)
-    {
-       subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
- 
-       // Call class editor PostCreateObject
-       if(designerClass)
-          designerClass.PostCreateObject(instance, object, isClass, iclass);
-    }
- 
-    void ::DroppedObject(Instance instance, ObjectInfo object, bool isClass, Instance iclass)
-    {
-       subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
- 
-       // Call class editor PostCreateObject
-       if(designerClass)
-          designerClass.DroppedObject(instance, object, isClass, iclass);
-    }
- 
-    void PrepareTestObject(Instance instance)
-    {
-       subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
-       if(designerClass)
-          designerClass.PrepareTestObject(this, instance);
-    }
- 
-    void ::DestroyObject(Instance instance)
-    {
-       subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
-       if(designerClass)
-          designerClass.DestroyObject(instance);
-    }
- 
-    void ::FixProperty(Property prop, Instance instance)
-    {
-       subclass(ClassDesignerBase) designerClass = eInstance_GetDesigner(instance);
-       if(designerClass)
-          designerClass.FixProperty(prop, instance);
-    }
- }
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/EC_(programming_language)'>Wikipedia</a>:
- import &quot;ecere&quot;
- 
- class HelloForm : Window
- {
-    caption = &quot;My First eC Application&quot;;
-    borderStyle = sizable;
-    clientSize = { 304, 162 };
-    hasClose = true;
- 
-    Label label
-    {
-       this, position = { 10, 10 }, font = { &quot;Arial&quot;, 30 },
-       caption = &quot;Hello, World!!&quot;
-    };
- };
- 
- HelloForm hello { };
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token PrintLn
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ecr.html csound.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2006|Springer|Early Nutrition And Its Later Consequences: New Opportunities: Perinatal Programming Of Adult Health - Ec Supported Research (advances In Experimental Medicine And Biology)|Berthold Koletzko and Margaret Ashwell and Peter Dodds and Hans Akerblom|9781402035340
+ 2006|Springer|Early Nutrition and its Later Consequences: New Opportunities: Perinatal Programming of Adult Health - EC Supported Research (Advances in Experimental Medicine and Biology Book 569)|Abdelghani Bellouquid; Marcello Delitala|9781402035357

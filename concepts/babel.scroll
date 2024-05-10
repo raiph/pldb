@@ -1,50 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BABEL
+import ../measures/conceptPage.scroll
+id BABEL
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/68794aaac6109aef1a841dd4eb3ee45b93784583
+country Spain and Germany
+originCommunity University of Münster && Universidad Politécnica de Madrid
 
-title BABEL - Programming language
- hidden
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="argos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bridgetalk.html">&gt;</a>
+rosettaCode http://www.rosettacode.org/wiki/Category:Babel
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/babel.pldb
+hopl https://hopl.info/showlanguage.prx?exp=1537
 
-startColumns 4
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=babel" class="material-symbols-outlined">edit</a></div>
-
-* BABEL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3049 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- BABEL first developed in <a href="../lists/originCommunities.html#universityOfMunster">University of Münster</a> and <a href="../lists/originCommunities.html#universidadPolitecnicaDeMadrid">Universidad Politécnica de Madrid</a>
-- Explore BABEL snippets on <a href="http://www.rosettacode.org/wiki/Category:Babel">Rosetta Code</a>
-- BABEL on HOPL
- https://hopl.info/showlanguage.prx?exp=1537
-- Read more about BABEL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/68794aaac6109aef1a841dd4eb3ee45b93784583 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav argos.html bridgetalk.html
-
-import ../footer.scroll
+isbndb 0

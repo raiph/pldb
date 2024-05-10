@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title REL English
+import ../measures/conceptPage.scroll
+id REL English
+appeared 1975
+type pl
+reference https://www.rand.org/pubs/authors/h/henisz-dostert_bozena.html
+reference https://semanticscholar.org/paper/8444ce1af42bd88e2c4c581f67f20efc65b3a1bf
+country United States
+originCommunity RAND Corporation
 
-title REL English - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=693
 
-html
- <a class="trueBaseThemePreviousItem" href="refined-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rel-english.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rel-english" class="material-symbols-outlined">edit</a></div>
-
-* REL English is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #4281 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- REL English first developed in <a href="../lists/originCommunities.html#randCorporation">RAND Corporation</a>
-- REL English on HOPL
- https://hopl.info/showlanguage.prx?exp=693
-- Read more about REL English on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8444ce1af42bd88e2c4c581f67f20efc65b3a1bf 1.
-- Read more about REL English on the web: 1.
- https://www.rand.org/pubs/authors/h/henisz-dostert_bozena.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav refined-c.html rel.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ForgeBox
+import ../measures/conceptPage.scroll
+id ForgeBox
+appeared 2015
+type packageManager
+website https://www.forgebox.io
+country United States
+originCommunity Ortus Solutions, Corp
+domainName forgebox.io
+ awisRank
+  2022 1723973
 
-title ForgeBox - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="eno.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ghidra-decompiler.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/forgebox-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.forgebox.io" class="material-symbols-outlined">home</a> <a href="/edit.html?id=forgebox-pm" class="material-symbols-outlined">edit</a></div>
-
-* ForgeBox is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3440 on PLDB
- 9 Years Old
-
-* 
-
-- ForgeBox website
- https://www.forgebox.io
-- ForgeBox first developed in <a href="../lists/originCommunities.html#ortusSolutionsCorp">Ortus Solutions, Corp</a>
-
-<br>
-
-endColumns
-
-keyboardNav eno.html ghidra-decompiler.html
-
-import ../footer.scroll
+packageCount 519
+forLanguages coldfusion

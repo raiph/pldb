@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ada 9X
+import ../measures/conceptPage.scroll
+id Ada 9X
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/1c016f9bd990ba1122af7fc1cdc69e83940aae32
+originCommunity Vrije Universiteit
 
-title Ada 9X - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1380
 
-html
- <a class="trueBaseThemePreviousItem" href="ada-95.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ada-tl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ada-9x.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ada-9x" class="material-symbols-outlined">edit</a></div>
-
-* Ada 9X is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #3325 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- Ada 9X first developed in <a href="../lists/originCommunities.html#vrijeUniversiteit">Vrije Universiteit</a>
-- Ada 9X on HOPL
- https://hopl.info/showlanguage.prx?exp=1380
-- Read more about Ada 9X on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1c016f9bd990ba1122af7fc1cdc69e83940aae32 1.
-
-<br>
-
-endColumns
-
-keyboardNav ada-95.html ada-tl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

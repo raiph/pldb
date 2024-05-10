@@ -1,47 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title STON
+import ../measures/conceptPage.scroll
+id STON
+appeared 2012
+type application
+creators Sven Van Caekenberghe
+country Belgium
+originCommunity https://github.com/svenvc/ston/issues
 
-title STON - Application
- hidden
+githubRepo https://github.com/svenvc/ston
+ firstCommit 2012
+ stars 131
+ forks 28
+ subscribers 14
+ created 2012
+ updated 2022
+ description STON - Smalltalk Object Notation - A lightweight text-based, human-readable data interchange format for class-based object-oriented languages like Smalltalk.
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="interchange-file-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visual-objects.html">&gt;</a>
+githubLanguage STON
+ fileExtensions ston
+ trendingProjectsCount 0
+ type data
+ group Smalltalk
+ aceMode text
+ tmScope source.smalltalk
+ repos 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ston.pldb
+linguistGrammarRepo https://github.com/tomas-stefano/smalltalk-tmbundle
+ firstCommit 2011
+ lastCommit 2017
+ committerCount 5
+ commitCount 22
+ sampleCount 7
+ example
+  [1, 2, 3]
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/svenvc/ston" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ston" class="material-symbols-outlined">edit</a></div>
-
-* STON is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2012 by Sven Van Caekenberghe.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#svenVanCaekenberghe Sven Van Caekenberghe
-
-codeWithHeader Source code:
- git clone https://github.com/svenvc/ston
-
-dashboard
- #1738 on PLDB
- 12 Years Old
- 0 <span title="STON repos on GitHub.">Repos</span>
-
-* STON - Smalltalk Object Notation - A lightweight text-based, human-readable data interchange format for class-based object-oriented languages like Smalltalk.
-
-- STON is developed on <a href="https://github.com/svenvc/ston">GitHub</a> and has 131 stars
-- There are at least 0 STON repos on <a href="https://github.com/search?q=language:STON">GitHub</a>
-- STON first developed in <a href="../lists/originCommunities.html#httpsGithubComSvenvcStonIssues">https://github.com/svenvc/ston/issues</a>
-- file extensions for STON include ston
-- GitHub supports <a href="https://github.com/tomas-stefano/smalltalk-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for STON
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/tomas-stefano/smalltalk-tmbundle'>Linguist</a>:
- [1, 2, 3]
-
-endColumns
-
-keyboardNav interchange-file-format.html visual-objects.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

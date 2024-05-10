@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Grapheasy
+import ../measures/conceptPage.scroll
+id Grapheasy
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/38f092856bb2852a8da9b253b6cce4b4d7d2e9ca
+country United States
+originCommunity Argonne National Laboratory
 
-title Grapheasy - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8045
 
-html
- <a class="trueBaseThemePreviousItem" href="gpss-85.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="green.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/grapheasy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=grapheasy" class="material-symbols-outlined">edit</a></div>
-
-* Grapheasy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #4156 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- Grapheasy first developed in <a href="../lists/originCommunities.html#argonneNationalLaboratory">Argonne National Laboratory</a>
-- Grapheasy on HOPL
- https://hopl.info/showlanguage.prx?exp=8045
-- Read more about Grapheasy on Semantic Scholar: 1.
- https://semanticscholar.org/paper/38f092856bb2852a8da9b253b6cce4b4d7d2e9ca 1.
-
-<br>
-
-endColumns
-
-keyboardNav gpss-85.html green.html
-
-import ../footer.scroll
+semanticScholar 0

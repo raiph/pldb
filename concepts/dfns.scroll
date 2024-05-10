@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dfns
-
-title dfns - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="coffeepp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dss.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dfns.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://dfns.dyalog.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=dfns" class="material-symbols-outlined">edit</a></div>
-
-* dfns is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #2817 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 10 Years Old
-
-* The dfns language is a functionally oriented, lexically scoped dialect of APL.
-
-- dfns website
- http://dfns.dyalog.com/
-- dfns first developed in <a href="../lists/originCommunities.html#dyalogLtd">Dyalog Ltd</a>
-- Read more about dfns on the web: 1.
- http://dfns.dyalog.com/n_contents.htm 1.
-
-<br>
-
-endColumns
-
-keyboardNav coffeepp.html dss.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id dfns
+appeared 2014
+type pl
+conceptDescription The dfns language is a functionally oriented, lexically scoped dialect of APL.
+website http://dfns.dyalog.com/
+reference http://dfns.dyalog.com/n_contents.htm
+country United Kingdom
+originCommunity Dyalog Ltd
+domainName dfns.dyalog.com

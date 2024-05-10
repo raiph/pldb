@@ -1,58 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Rita
+import ../measures/conceptPage.scroll
+id Rita
+appeared 2019
+type pl
+creators Šarūnas Navickas
+country Lithuania
+originCommunity https://github.com/zaibacu/rita-dsl/issues
 
-title Rita - Programming language
- hidden
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="dolittle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="leda.html">&gt;</a>
+githubRepo https://github.com/zaibacu/rita-dsl
+ firstCommit 2019
+ stars 60
+ forks 3
+ subscribers 4
+ created 2019
+ updated 2022
+ description A Domain Specific Language (DSL) for building language patterns. These can be later compiled into spaCy patterns, pure regex, or any other format
+ issues 7
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rita.pldb
+repoStats
+ firstCommit 2019
+ commits 611
+ committers 9
+ files 78
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/zaibacu/rita-dsl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rita" class="material-symbols-outlined">edit</a></div>
-
-* Rita is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Šarūnas Navickas.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#sarunasNavickas Šarūnas Navickas
-
-codeWithHeader Source code:
- git clone https://github.com/zaibacu/rita-dsl
-
-dashboard
- #1943 <span title="TotalRank: 2470 Jobs: 103 Users: 1648 Facts: 1381 Links: 986">on PLDB</span>
- 5 Years Old
-
-* A Domain Specific Language (DSL) for building language patterns. These can be later compiled into spaCy patterns, pure regex, or any other format
-
-- Rita is developed on <a href="https://github.com/zaibacu/rita-dsl">GitHub</a> and has 60 stars
-- Rita first developed in <a href="../lists/originCommunities.html#httpsGithubComZaibacuRitaDslIssues">https://github.com/zaibacu/rita-dsl/issues</a>
-- file extensions for Rita include rita
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/rita.py">syntax highlighting</a> for Rita
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav dolittle.html leda.html
-
-import ../footer.scroll
+pygmentsHighlighter Rita
+ filename rita.py
+ fileExtensions rita

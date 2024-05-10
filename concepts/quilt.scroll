@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title QUILT
+import ../measures/conceptPage.scroll
+id QUILT
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/a7e4c4dcea0774d202731133b6839b373cc694ba
+country United States
+originCommunity San Diego State University
 
-title QUILT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4447
 
-html
- <a class="trueBaseThemePreviousItem" href="quick-macros.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rack.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quilt.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=quilt" class="material-symbols-outlined">edit</a></div>
-
-* QUILT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #4275 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- QUILT first developed in <a href="../lists/originCommunities.html#sanDiegoStateUniversity">San Diego State University</a>
-- QUILT on HOPL
- https://hopl.info/showlanguage.prx?exp=4447
-- Read more about QUILT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a7e4c4dcea0774d202731133b6839b373cc694ba 1.
-
-<br>
-
-endColumns
-
-keyboardNav quick-macros.html rack.html
-
-import ../footer.scroll
+wordRank 9825
+centralPackageRepositoryCount 0

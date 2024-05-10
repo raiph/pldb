@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SMoLCS
+import ../measures/conceptPage.scroll
+id SMoLCS
+appeared 1986
+type pl
+reference https://www.osti.gov/biblio/5384759
+country United States
+originCommunity IBM
 
-title SMoLCS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1275
 
-html
- <a class="trueBaseThemePreviousItem" href="smalltalk-80.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snobat.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smolcs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=smolcs" class="material-symbols-outlined">edit</a></div>
-
-* SMoLCS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4034 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- SMoLCS first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- SMoLCS on HOPL
- https://hopl.info/showlanguage.prx?exp=1275
-- Read more about SMoLCS on the web: 1.
- https://www.osti.gov/biblio/5384759 1.
-
-<br>
-
-endColumns
-
-keyboardNav smalltalk-80.html snobat.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

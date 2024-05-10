@@ -1,40 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title g-fu
+import ../measures/conceptPage.scroll
+id g-fu
+appeared 2019
+type pl
+country Unknown
+originCommunity https://github.com/codr7/g-fu/issues
 
-title g-fu - Programming language
- hidden
+githubRepo https://github.com/codr7/g-fu
+ firstCommit 2019
+ stars 244
+ forks 10
+ subscribers 10
+ created 2019
+ updated 2022
+ description Lisp 2 Go
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="mlab.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sac-programming-language.html">&gt;</a>
+repoStats
+ firstCommit 2019
+ commits 903
+ committers 3
+ files 100
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/g-fu.pldb
+rosettaCode http://www.rosettacode.org/wiki/Category:G-fu
 
-startColumns 4
+isbndb 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/codr7/g-fu" class="material-symbols-outlined">code</a> <a href="/edit.html?id=g-fu" class="material-symbols-outlined">edit</a></div>
-
-* g-fu is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/codr7/g-fu
-
-dashboard
- #1588 <span title="TotalRank: 2090 Jobs: 103 Users: 1001 Facts: 1591 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Lisp 2 Go
-
-- g-fu is developed on <a href="https://github.com/codr7/g-fu">GitHub</a> and has 244 stars
-- g-fu first developed in <a href="../lists/originCommunities.html#httpsGithubComCodr7GFuIssues">https://github.com/codr7/g-fu/issues</a>
-- Explore g-fu snippets on <a href="http://www.rosettacode.org/wiki/Category:G-fu">Rosetta Code</a>
-
-<br>
-
-endColumns
-
-keyboardNav mlab.html sac-programming-language.html
-
-import ../footer.scroll
+semanticScholar 0

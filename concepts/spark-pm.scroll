@@ -1,40 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title spark-pm
+import ../measures/conceptPage.scroll
+id spark-pm
+appeared 2014
+type packageManager
+website https://spark-packages.org/
+reference https://spark.apache.org/contributing.html
+country United States
+originCommunity University of California, Berkeley
+domainName spark-packages.org
+ registered 2014
+ awisRank
+  2022 2327190
 
-title spark-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="souffle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="statebox.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spark-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://spark-packages.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=spark-pm" class="material-symbols-outlined">edit</a></div>
-
-* spark-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3216 on PLDB
- 10 Years Old
-
-* 
-
-- spark-pm website
- https://spark-packages.org/
-- spark-pm first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- <a href="https://spark-packages.org/">spark-packages.org</a> was registered in 2014
-- Read more about spark-pm on the web: 1.
- https://spark.apache.org/contributing.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav souffle.html statebox.html
-
-import ../footer.scroll
+packageCount 441
+forLanguages spark

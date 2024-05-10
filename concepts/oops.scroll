@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OOPS
+import ../measures/conceptPage.scroll
+id OOPS
+appeared 1986
+type pl
+creators Els Laenens and Dirk Vermeir
+conceptDescription OOPS: A Knowledge Representation Language
+country The Netherlands and Belgium
+originCommunity Philips International && University of Antwerp
 
-title OOPS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1249
 
-html
- <a class="trueBaseThemePreviousItem" href="oolp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="openada.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/oops.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=oops" class="material-symbols-outlined">edit</a></div>
-
-* OOPS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986 by Els Laenens and Dirk Vermeir.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
- link ../lists/creators.html#elsLaenens Els Laenens
- link ../lists/creators.html#dirkVermeir Dirk Vermeir
-
-dashboard
- #4242 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* OOPS: A Knowledge Representation Language
-
-- OOPS first developed in <a href="../lists/originCommunities.html#philipsInternational">Philips International</a> and <a href="../lists/originCommunities.html#universityOfAntwerp">University of Antwerp</a>
-- OOPS on HOPL
- https://hopl.info/showlanguage.prx?exp=1249
-
-<br>
-
-endColumns
-
-keyboardNav oolp.html openada.html
-
-import ../footer.scroll
+wordRank 7564

@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alambik
+import ../measures/conceptPage.scroll
+id Alambik
+appeared 2011
+type pl
+reference http://light.alambik.com/intro.htm
+originCommunity Alambik Limited
 
-title Alambik - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8507
 
-html
- <a class="trueBaseThemePreviousItem" href="aladin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alba.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alambik.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=alambik" class="material-symbols-outlined">edit</a></div>
-
-* Alambik is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3339 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- Alambik first developed in <a href="../lists/originCommunities.html#alambikLimited">Alambik Limited</a>
-- Alambik on HOPL
- https://hopl.info/showlanguage.prx?exp=8507
-- Read more about Alambik on the web: 1.
- http://light.alambik.com/intro.htm 1.
-
-<br>
-
-endColumns
-
-keyboardNav aladin.html alba.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

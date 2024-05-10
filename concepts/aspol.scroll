@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASPOL
+import ../measures/conceptPage.scroll
+id ASPOL
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/c9c2b7e181f63216162aa030f3c20eba555dc76e
+country United States
+originCommunity Apple Computer
 
-title ASPOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=668
 
-html
- <a class="trueBaseThemePreviousItem" href="ashmedai.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="atomos.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aspol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aspol" class="material-symbols-outlined">edit</a></div>
-
-* ASPOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #4070 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- ASPOL first developed in <a href="../lists/originCommunities.html#appleComputer">Apple Computer</a>
-- ASPOL on HOPL
- https://hopl.info/showlanguage.prx?exp=668
-- Read more about ASPOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c9c2b7e181f63216162aa030f3c20eba555dc76e 1.
-
-<br>
-
-endColumns
-
-keyboardNav ashmedai.html atomos.html
-
-import ../footer.scroll
+isbndb 0

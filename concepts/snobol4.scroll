@@ -1,59 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SNOBOL4
+import ../measures/conceptPage.scroll
+id SNOBOL4
+appeared 1967
+type pl
+creators David J. Farber and Ralph E. Griswold
+website https://www.regressive.org/snobol4/
+documentation https://www.regressive.org/snobol4/docs/burks/manual/contents.htm
+reference https://semanticscholar.org/paper/32d6dba909eeb71b93305b407c0332fce43ecc7b
+country United States
+originCommunity Bell Telephone Laboratories
 
-title SNOBOL4 - Programming language
- hidden
+supersetOf snobol3
 
-html
- <a class="trueBaseThemePreviousItem" href="iitran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mentat.html">&gt;</a>
+hasComments true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snobol4.pldb
+rosettaCode http://www.rosettacode.org/wiki/Category:SNOBOL4
 
-startColumns 4
+tryItOnline snobol4
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.regressive.org/snobol4/" class="material-symbols-outlined">home</a> <a href="snobol4" class="material-symbols-outlined">terminal</a> <a href="https://www.regressive.org/snobol4/docs/burks/manual/contents.htm" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=snobol4" class="material-symbols-outlined">edit</a></div>
+hopl https://hopl.info/showlanguage.prx?exp=303
 
-* SNOBOL4 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967 by David J. Farber and Ralph E. Griswold.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
- link ../lists/creators.html#davidJFarber David J. Farber
- link ../lists/creators.html#ralphEGriswold Ralph E. Griswold
-
-dashboard
- #2525 <span title="TotalRank: 3091 Jobs: 103 Users: 2442 Facts: 2321 Links: 667">on PLDB</span>
- 57 Years Old
-
-* Try now: <a href="https://tio.run/#snobol4">TIO</a>
-
-* 
-
-- SNOBOL4 website
- https://www.regressive.org/snobol4/
-- SNOBOL4 docs
- https://www.regressive.org/snobol4/docs/burks/manual/contents.htm
-- SNOBOL4 is a superset of <a href="/concepts/snobol3.html">SNOBOL3</a>
-- SNOBOL4 first developed in <a href="../lists/originCommunities.html#bellTelephoneLaboratories">Bell Telephone Laboratories</a>
-- Explore SNOBOL4 snippets on <a href="http://www.rosettacode.org/wiki/Category:SNOBOL4">Rosetta Code</a>
-- SNOBOL4 on HOPL
- https://hopl.info/showlanguage.prx?exp=303
-- Read more about SNOBOL4 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/32d6dba909eeb71b93305b407c0332fce43ecc7b 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav iitran.html mentat.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Insitux
+import ../measures/conceptPage.scroll
+id Insitux
+appeared 2021
+type pl
+creators Patrick Bowen
+website https://insitux.github.io/
+country United Kingdom
+originCommunity https://github.com/phunanon/Insitux/issues
 
-title Insitux - Programming language
- hidden
+githubRepo https://github.com/phunanon/Insitux
+ firstCommit 2021
+ stars 26
+ forks 4
+ subscribers 4
+ created 2021
+ updated 2022
+ description An extensible scripting language made to be situated in tough spots like Roblox games.
+ issues 7
 
-html
- <a class="trueBaseThemePreviousItem" href="lil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cane.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/insitux.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://insitux.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/phunanon/Insitux" class="material-symbols-outlined">code</a> <a href="/edit.html?id=insitux" class="material-symbols-outlined">edit</a></div>
-
-* Insitux is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Patrick Bowen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#patrickBowen Patrick Bowen
-
-codeWithHeader Source code:
- git clone https://github.com/phunanon/Insitux
-
-dashboard
- #2241 <span title="TotalRank: 2758 Jobs: 103 Users: 1955 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* An extensible scripting language made to be situated in tough spots like Roblox games.
-
-- Insitux website
- https://insitux.github.io/
-- Insitux is developed on <a href="https://github.com/phunanon/Insitux">GitHub</a> and has 26 stars
-- Insitux first developed in <a href="../lists/originCommunities.html#httpsGithubComPhunanonInsituxIssues">https://github.com/phunanon/Insitux/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav lil.html cane.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 384
+ committers 6
+ files 55

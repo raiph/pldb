@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Active-U-Datalog
+import ../measures/conceptPage.scroll
+id Active-U-Datalog
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/5078911ff4231663723797b23e0583742fba6919
+originCommunity University of Milano && University of Pisa
 
-title Active-U-Datalog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5796
 
-html
- <a class="trueBaseThemePreviousItem" href="active-language-i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="actus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/active-u-datalog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=active-u-datalog" class="material-symbols-outlined">edit</a></div>
-
-* Active-U-Datalog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3322 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Active-U-Datalog first developed in <a href="../lists/originCommunities.html#universityOfMilano">University of Milano</a> and <a href="../lists/originCommunities.html#universityOfPisa">University of Pisa</a>
-- Active-U-Datalog on HOPL
- https://hopl.info/showlanguage.prx?exp=5796
-- Read more about Active-U-Datalog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5078911ff4231663723797b23e0583742fba6919 1.
-
-<br>
-
-endColumns
-
-keyboardNav active-language-i.html actus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

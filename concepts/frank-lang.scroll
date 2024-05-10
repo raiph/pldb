@@ -1,46 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Frank
+import ../measures/conceptPage.scroll
+id Frank
+appeared 2017
+type pl
+creators Sam Lindley and Conor McBride and Craig McLaughlin and Lukas Convent
+website https://github.com/frank-lang/frank/
+fileExtensions fk
+country United Kingdom
+originCommunity https://github.com/frank-lang/
 
-title Frank - Programming language
- hidden
+githubRepo https://github.com/frank-lang/frank/
+ stars 229
+ forks 8
+ subscribers 25
+ created 2016
+ updated 2022
+ description Franck compiler
 
-html
- <a class="trueBaseThemePreviousItem" href="gdata.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clarity.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/frank-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/frank-lang/frank/" class="material-symbols-outlined">home</a> <a href="https://github.com/frank-lang/frank/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=frank-lang" class="material-symbols-outlined">edit</a></div>
-
-* Frank is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Sam Lindley and Conor McBride and Craig McLaughlin and Lukas Convent.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#samLindley Sam Lindley
- link ../lists/creators.html#conorMcBride Conor McBride
- link ../lists/creators.html#craigMcLaughlin Craig McLaughlin
- link ../lists/creators.html#lukasConvent Lukas Convent
-
-codeWithHeader Source code:
- git clone https://github.com/frank-lang/frank/
-
-dashboard
- #1612 <span title="TotalRank: 2124 Jobs: 103 Users: 1035 Facts: 1787 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Franck compiler
-
-- Frank website
- https://github.com/frank-lang/frank/
-- Frank is developed on <a href="https://github.com/frank-lang/frank/">GitHub</a> and has 229 stars
-- Frank first developed in <a href="../lists/originCommunities.html#httpsGithubComFrankLang">https://github.com/frank-lang/</a>
-- file extensions for Frank include fk
-
-<br>
-
-endColumns
-
-keyboardNav gdata.html clarity.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 320
+ committers 9
+ files 168

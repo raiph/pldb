@@ -1,39 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lunar
-
-title lunar - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="iqr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="marten.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lunar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://users.rcn.com/david-moon/Lunar/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=lunar" class="material-symbols-outlined">edit</a></div>
-
-* lunar is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by David A. Moon.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#davidAMoon David A. Moon
-
-dashboard
- #2756 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 4110 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- lunar website
- http://users.rcn.com/david-moon/Lunar/
-- Read more about lunar on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/f1jcdf/lunar_programming_language_by_david_a_moon/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav iqr.html marten.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id lunar
+appeared 2017
+type pl
+creators David A. Moon
+website http://users.rcn.com/david-moon/Lunar/
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/f1jcdf/lunar_programming_language_by_david_a_moon/

@@ -1,47 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mochi
+import ../measures/conceptPage.scroll
+id mochi
+appeared 2014
+type pl
+conceptDescription Mochi is a dynamically typed programming language for functional programming and actor-style programming. Its interpreter is written in Python3. The interpreter translates a program written in Mochi to Python3's AST / bytecode.
+country Japan
+originCommunity https://github.com/i2y/mochi/issues
 
-title mochi - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lisp-machine-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="f-script.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mochi.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/i2y/mochi" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mochi" class="material-symbols-outlined">edit</a></div>
-
-* mochi is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/i2y/mochi
-
-dashboard
- #1080 <span title="TotalRank: 1638 Jobs: 103 Users: 549 Facts: 1123 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Mochi is a dynamically typed programming language for functional programming and actor-style programming. Its interpreter is written in Python3. The interpreter translates a program written in Mochi to Python3's AST / bytecode.
-
-- mochi is developed on <a href="https://github.com/i2y/mochi">GitHub</a> and has 909 stars
-- mochi first developed in <a href="../lists/originCommunities.html#httpsGithubComI2YMochiIssues">https://github.com/i2y/mochi/issues</a>
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/pya/mochi-kernel">Kernel</a> for mochi
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def factorial(n, m):
     if n == 1:
         m
     else:
         factorial(n - 1, n * m)
 
-endColumns
+githubRepo https://github.com/i2y/mochi
+ firstCommit 2014
+ stars 909
+ forks 32
+ subscribers 48
+ created 2014
+ updated 2022
+ description Dynamically typed functional programming language
+ issues 14
 
-keyboardNav lisp-machine-lisp.html f-script.html
+repoStats
+ firstCommit 2014
+ commits 402
+ committers 14
+ files 93
 
-import ../footer.scroll
+jupyterKernel https://github.com/pya/mochi-kernel
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

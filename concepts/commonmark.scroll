@@ -1,43 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title commonmark
+import ../measures/conceptPage.scroll
+id commonmark
+appeared 2014
+type textMarkup
+creators John MacFarlane
+conceptDescription A strongly defined, highly compatible specification of Markdown
+website https://commonmark.org/
+country United States
+originCommunity codinghorror.com && github && University of California,Berkeley
+domainName commonmark.org
+ registered 2014
+ awisRank
+  2022 184319
 
-title commonmark - Text markup language
- hidden
+githubRepo https://github.com/commonmark/commonmark-spec
+ firstCommit 2014
+ stars 4585
+ forks 561
+ subscribers 147
+ created 2014
+ updated 2022
+ description CommonMark spec, with reference implementations in C and JavaScript
+ issues 87
 
-html
- <a class="trueBaseThemePreviousItem" href="fasta-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vim-script.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/commonmark.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://commonmark.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/commonmark/commonmark-spec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=commonmark" class="material-symbols-outlined">edit</a></div>
-
-* commonmark is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2014 by John MacFarlane.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#johnMacFarlane John MacFarlane
-
-codeWithHeader Source code:
- git clone https://github.com/commonmark/commonmark-spec
-
-dashboard
- #426 <span title="TotalRank: 931 Jobs: 103 Users: 161 Facts: 1311 Links: 667">on PLDB</span>
- 10 Years Old
-
-* A strongly defined, highly compatible specification of Markdown
-
-- commonmark website
- https://commonmark.org/
-- commonmark is developed on <a href="https://github.com/commonmark/commonmark-spec">GitHub</a> and has 4,585 stars
-- commonmark first developed in <a href="../lists/originCommunities.html#codinghorrorCom">codinghorror.com</a> and <a href="../lists/originCommunities.html#github">github</a> and <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California,Berkeley</a>
-- <a href="https://commonmark.org/">commonmark.org</a> was registered in 2014
-
-<br>
-
-endColumns
-
-keyboardNav fasta-format.html vim-script.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 1848
+ committers 108
+ files 22

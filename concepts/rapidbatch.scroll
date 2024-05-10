@@ -1,46 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RapidBatch
+import ../measures/conceptPage.scroll
+id RapidBatch
+appeared 2017
+type pl
+creators Jan Max Meyer
+website http://www.rapidbatch.com
+reference https://www.phorward-software.com/download/MUSEUM/jmksf/rb/rb_linux/manuals/
+country Germany
+originCommunity Phorward Software Technologies
 
-title RapidBatch - Programming language
- hidden
+githubRepo https://github.com/phorward/rapidbatch
+ firstCommit 2017
+ stars 6
+ forks 0
+ subscribers 3
+ created 2017
+ updated 2022
+ description Scripting language; compiler and virtual machine
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="juicy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kerf.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 22
+ committers 2
+ files 95
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rapidbatch.pldb
+hopl https://hopl.info/showlanguage.prx?exp=8637
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.rapidbatch.com" class="material-symbols-outlined">home</a> <a href="https://github.com/phorward/rapidbatch" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rapidbatch" class="material-symbols-outlined">edit</a></div>
-
-* RapidBatch is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Jan Max Meyer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#janMaxMeyer Jan Max Meyer
-
-codeWithHeader Source code:
- git clone https://github.com/phorward/rapidbatch
-
-dashboard
- #2029 <span title="TotalRank: 2539 Jobs: 103 Users: 2358 Facts: 1450 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Scripting language; compiler and virtual machine
-
-- RapidBatch website
- http://www.rapidbatch.com
-- RapidBatch is developed on <a href="https://github.com/phorward/rapidbatch">GitHub</a> and has 6 stars
-- RapidBatch first developed in <a href="../lists/originCommunities.html#phorwardSoftwareTechnologies">Phorward Software Technologies</a>
-- RapidBatch on HOPL
- https://hopl.info/showlanguage.prx?exp=8637
-- Read more about RapidBatch on the web: 1.
- https://www.phorward-software.com/download/MUSEUM/jmksf/rb/rb_linux/manuals/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav juicy.html kerf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sapphire
+import ../measures/conceptPage.scroll
+id Sapphire
+appeared 1995
+type pl
+reference https://ibiblio.org/pub/linux/apps/sound/editors/sapphire.lsm
+reference http://wiki.c2.com/?SapphireLanguage
+reference https://web.archive.org/web/20060925114845/http://smallwiki.unibe.ch/sapphire
+reference https://timthompson.com/plum/cgi/showlist.cgi?oneid=97
+country Unknown
+originCommunity elf.dircon.co.uk
 
-title Sapphire - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6451
 
-html
- <a class="trueBaseThemePreviousItem" href="prosper.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shadow.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sapphire.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sapphire" class="material-symbols-outlined">edit</a></div>
-
-* Sapphire is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3039 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- Sapphire first developed in <a href="../lists/originCommunities.html#elfDirconCoUk">elf.dircon.co.uk</a>
-- Sapphire on HOPL
- https://hopl.info/showlanguage.prx?exp=6451
-- Read more about Sapphire on the web: 1. 2. 3. 4.
- https://ibiblio.org/pub/linux/apps/sound/editors/sapphire.lsm 1.
- http://wiki.c2.com/?SapphireLanguage 2.
- https://web.archive.org/web/20060925114845/http://smallwiki.unibe.ch/sapphire 3.
- https://timthompson.com/plum/cgi/showlist.cgi?oneid=97 4.
-
-<br>
-
-endColumns
-
-keyboardNav prosper.html shadow.html
-
-import ../footer.scroll
+wordRank 9170
+centralPackageRepositoryCount 0

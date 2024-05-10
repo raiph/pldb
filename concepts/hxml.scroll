@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HXML
+import ../measures/conceptPage.scroll
+id HXML
+appeared 2009
+type application
+conceptDescription Haxe compiler arguments can be stored in a .hxml file and can be executed with haxe <file.hxml>. In hxml it is possible to use newlines and comments which makes it easier to maintain Haxe build configurations. It is possible to supply more arguments after the hxml file, e.g. haxe build.hxml -debug.
+reference https://haxe.org/manual/compiler-usage-hxml.html
+country Unknown
+originCommunity Haxe Foundation
 
-title HXML - Application
- hidden
+hasLineComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="mirc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jal-compiler.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hxml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hxml" class="material-symbols-outlined">edit</a></div>
-
-* HXML is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #1294 on PLDB
- 15 Years Old
- 0 <span title="HXML repos on GitHub.">Repos</span>
-
-* Haxe compiler arguments can be stored in a .hxml file and can be executed with haxe <file.hxml>. In hxml it is possible to use newlines and comments which makes it easier to maintain Haxe build configurations. It is possible to supply more arguments after the hxml file, e.g. haxe build.hxml -debug.
-
-- There are at least 0 HXML repos on <a href="https://github.com/search?q=language:HXML">GitHub</a>
-- HXML first developed in <a href="../lists/originCommunities.html#haxeFoundation">Haxe Foundation</a>
-- file extensions for HXML include hxml
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haxe.py">syntax highlighting</a> for HXML
-- GitHub supports <a href="https://github.com/vshaxe/haxe-TmLanguage" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for HXML
-- Read more about HXML on the web: 1.
- https://haxe.org/manual/compiler-usage-hxml.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  -cp src
  -dce full
  
@@ -54,30 +28,33 @@ codeWithHeader Example from the web:
  -js bin/contact.js
  -main website.ContactPage
 
-codeWithHeader Example from <a href='https://github.com/vshaxe/haxe-TmLanguage'>Linguist</a>:
- buildGlobal.hxml
- -lib mcover:2.1.1
- -D unittest
- -x TestMain
- --macro mcover.MCover.coverage([&#39;checkstyle&#39;], [&#39;src&#39;], [&#39;checkstyle.reporter&#39;, &#39;checkstyle.Main&#39;])
- 
- --next
- -cmd neko run -s src -s test -p resources/static-analysis.txt
- -cmd neko run --default-config resources/default-config.json
- -cmd neko run -c resources/default-config.json
+githubLanguage HXML
+ fileExtensions hxml
+ type data
+ aceMode text
+ tmScope source.hxml
+ repos 0
 
-endColumns
+pygmentsHighlighter Hxml
+ filename haxe.py
+ fileExtensions hxml
+linguistGrammarRepo https://github.com/vshaxe/haxe-TmLanguage
+ firstCommit 2017
+ lastCommit 2018
+ committerCount 4
+ commitCount 109
+ sampleCount 2
+ example
+  buildGlobal.hxml
+  -lib mcover:2.1.1
+  -D unittest
+  -x TestMain
+  --macro mcover.MCover.coverage(['checkstyle'], ['src'], ['checkstyle.reporter', 'checkstyle.Main'])
+  
+  --next
+  -cmd neko run -s src -s test -p resources/static-analysis.txt
+  -cmd neko run --default-config resources/default-config.json
+  -cmd neko run -c resources/default-config.json
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav mirc.html jal-compiler.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

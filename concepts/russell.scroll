@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RUSSELL
+import ../measures/conceptPage.scroll
+id RUSSELL
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/d640e15b414fcefd14a28b243f22bdfae0002bd2
+country United States
+originCommunity Cornell University
 
-title RUSSELL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=527
 
-html
- <a class="trueBaseThemePreviousItem" href="runcible.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ruth.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/russell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=russell" class="material-symbols-outlined">edit</a></div>
-
-* RUSSELL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #4288 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- RUSSELL first developed in <a href="../lists/originCommunities.html#cornellUniversity">Cornell University</a>
-- RUSSELL on HOPL
- https://hopl.info/showlanguage.prx?exp=527
-- Read more about RUSSELL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d640e15b414fcefd14a28b243f22bdfae0002bd2 1.
-
-<br>
-
-endColumns
-
-keyboardNav runcible.html ruth.html
-
-import ../footer.scroll
+wordRank 4448
+centralPackageRepositoryCount 0

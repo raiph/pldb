@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALTAC
+import ../measures/conceptPage.scroll
+id ALTAC
+appeared 1959
+type pl
+reference https://semanticscholar.org/paper/f8fec59ed32d82d62b2e62c7c453e17463aa2aca
 
-title ALTAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=364
 
-html
- <a class="trueBaseThemePreviousItem" href="alphapop.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amanda.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/altac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=altac" class="material-symbols-outlined">edit</a></div>
-
-* ALTAC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3353 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- ALTAC on HOPL
- https://hopl.info/showlanguage.prx?exp=364
-- Read more about ALTAC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f8fec59ed32d82d62b2e62c7c453e17463aa2aca 1.
-
-<br>
-
-endColumns
-
-keyboardNav alphapop.html amanda.html
-
-import ../footer.scroll
+semanticScholar 0

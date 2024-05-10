@@ -1,52 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alumina
+import ../measures/conceptPage.scroll
+id Alumina
+appeared 2021
+type pl
+website https://docs.alumina-lang.net
+webRepl https://play.alumina-lang.net/
+documentation https://docs.alumina-lang.net/
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/x4xhdj/alumina_programming_language/
 
-title Alumina - Programming language
- hidden
+compilesTo c
+influencedBy rust
 
-html
- <a class="trueBaseThemePreviousItem" href="ici.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tuplemarkup.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alumina.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://docs.alumina-lang.net" class="material-symbols-outlined">home</a> <a href="https://play.alumina-lang.net/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/tibordp/alumina" class="material-symbols-outlined">code</a> <a href="https://docs.alumina-lang.net/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=alumina" class="material-symbols-outlined">edit</a></div>
-
-* Alumina is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-codeWithHeader Source code:
- git clone https://github.com/tibordp/alumina
-
-dashboard
- #1819 <span title="TotalRank: 2345 Jobs: 103 Users: 1986 Facts: 1256 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Try now: <a href="https://play.alumina-lang.net/">Web</a>
-
-* A general purpose programming language
-
-- Alumina website
- https://docs.alumina-lang.net
-- Alumina is developed on <a href="https://github.com/tibordp/alumina">GitHub</a> and has 33 stars
-- Alumina docs
- https://docs.alumina-lang.net/
-- Alumina compiles to <a href="c.html">C</a>
-- Read more about Alumina on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/x4xhdj/alumina_programming_language/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  fn main() {
-     println!(&quot;Hello, world!&quot;);
+     println!("Hello, world!");
  }
 
-endColumns
+githubRepo https://github.com/tibordp/alumina
+ firstCommit 2021
+ stars 33
+ forks 1
+ subscribers 3
+ created 2021
+ updated 2022
+ description A general purpose programming language
+ issues 0
 
-keyboardNav ici.html tuplemarkup.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 252
+ committers 1
+ files 204

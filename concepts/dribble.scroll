@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dribble
+import ../measures/conceptPage.scroll
+id Dribble
+appeared 2003
+type pl
+reference https://semanticscholar.org/paper/4fc2642d0c499a0149feedf3b4d159ab22a7a6f0
+country The Netherlands and United Kingdom
+originCommunity Utrecht University && University of Liverpool
 
-title Dribble - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7801
 
-html
- <a class="trueBaseThemePreviousItem" href="demeter.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="etc.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dribble.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dribble" class="material-symbols-outlined">edit</a></div>
-
-* Dribble is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #3054 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- Dribble first developed in <a href="../lists/originCommunities.html#utrechtUniversity">Utrecht University</a> and <a href="../lists/originCommunities.html#universityOfLiverpool">University of Liverpool</a>
-- Dribble on HOPL
- https://hopl.info/showlanguage.prx?exp=7801
-- Read more about Dribble on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4fc2642d0c499a0149feedf3b4d159ab22a7a6f0 1.
-
-<br>
-
-endColumns
-
-keyboardNav demeter.html etc.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2009|Verifying Dribble Agents|10.1007/978-3-642-11355-0_15|4|0|Doan Thu Trang and B. Logan and N. Alechina|57b90483026c1d2d01db57cc17017d6b8b8e4619

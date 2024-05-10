@@ -1,75 +1,61 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Caml
+import ../measures/conceptPage.scroll
+id Caml
+appeared 1985
+type pl
+creators Gérard Huet and Guy Cousineau and Ascánder Suárez and Pierre Weis and Michel Mauny
+website https://caml.inria.fr
+standsFor Categorical abstract machine language
+country France
+originCommunity INRIA
+domainName caml.inria.fr
 
-title Caml - Programming language
- hidden
+relatedConcepts ocaml
 
-html
- <a class="trueBaseThemePreviousItem" href="hla.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortress.html">&gt;</a>
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/caml.pldb
+printToken print_endline
+stringToken "
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/Caml
+ example
+  # haar [1; 2; 3; 4; -4; -3; -2; -1];;
+     - : int list = [0; 20; 4; 4; -1; -1; -1; -1]
+ related ocaml ml f-sharp lisp c standard-ml
+ summary Caml (originally an acronym for Categorical abstract machine language) is a multi-paradigm, general-purpose programming language which is a dialect of the ML programming language family. Caml was developed in France at INRIA and ENS. Like many descendants of ML, Caml is statically typed, strictly evaluated, and uses automatic memory management. OCaml, as of 2017 the main implementation of Caml, adds many features to the language, including an object layer.
+ pageId 2362118
+ dailyPageViews 84
+ created 2005
+ backlinksCount 31
+ revisionCount 124
+ appeared 1985
 
-<div class="trueBaseThemeQuickLinks"><a href="https://caml.inria.fr" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Caml"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=caml" class="material-symbols-outlined">edit</a></div>
+leachim6 CAML
+ filepath c/CAML.ml
+ fileExtensions ml
+ example
+  print_endline "Hello World";;
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Caml
 
-* Caml, aka Categorical abstract machine language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985 by Gérard Huet and Guy Cousineau and Ascánder Suárez and Pierre Weis and Michel Mauny.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#gerardHuet Gérard Huet
- link ../lists/creators.html#guyCousineau Guy Cousineau
- link ../lists/creators.html#ascanderSuarez Ascánder Suárez
- link ../lists/creators.html#pierreWeis Pierre Weis
- link ../lists/creators.html#michelMauny Michel Mauny
+tiobe Caml
+hopl https://hopl.info/showlanguage.prx?exp=1460
 
-dashboard
- #488 <span title="TotalRank: 1022 Jobs: 103 Users: 809 Facts: 647 Links: 272">on PLDB</span>
- 39 Years Old
+fileType text
+centralPackageRepositoryCount 0
 
-* Caml (originally an acronym for Categorical abstract machine language) is a multi-paradigm, general-purpose programming language which is a dialect of the ML programming language family. Caml was developed in France at INRIA and ENS. Like many descendants of ML, Caml is statically typed, strictly evaluated, and uses automatic memory management. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Caml Read more on Wikipedia...
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ The Objective Caml Programming Language||Tim Rentsch|14474263|5.00|1|0
+ Functional programming using Caml Light||Michel Mauny|58185709|4.00|1|0
 
-- Caml website
- https://caml.inria.fr
-- Caml Wikipedia page
- https://en.wikipedia.org/wiki/Caml
-- Caml first developed in <a href="../lists/originCommunities.html#inria">INRIA</a>
-- Explore Caml snippets on <a href="http://www.rosettacode.org/wiki/Category:Caml">Rosetta Code</a>
-- Caml on HOPL
- https://hopl.info/showlanguage.prx?exp=1460
-- Caml appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- See also: (7 related languages)<a href="ocaml.html">OCaml</a>, <a href="ml.html">ML</a>, <a href="f-sharp.html">F#</a>, <a href="lisp.html">Lisp</a>, <a href="c.html">C</a>, <a href="standard-ml.html">Standard ML</a>, <a href="ocaml.html">OCaml</a>
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2010|LAP LAMBERT Academic Publishing|Creating High-Performance, Statically Type-Safe Network Applications: Domain-Specific Languages for constructing network applications using Objective Caml|Madhavapeddy, Anil|9783838355870
+ 2008|Abscissa Press|The Objective Caml Programming Language|Tim Rentsch|9780981599205
 
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CAML.ml'>hello-world</a>:
- print_endline &quot;Hello World&quot;;;
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Caml'>Wikipedia</a>:
- # haar [1; 2; 3; 4; -4; -3; -2; -1];;
-    - : int list = [0; 20; 4; 4; -1; -1; -1; -1]
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print_endline
-  Example
-
-keyboardNav hla.html fortress.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2008|Caml trading – experiences with functional programming on Wall Street|10.1017/S095679680800676X|18|1|Y. Minsky and Stephen Weeks|44a9c723abf93c6237068cc853449598943699c7
+ 2008|Caml trading|10.1145/1328897.1328441|2|0|Y. Minsky|73c6801a4412becd2f1cf0536e9bf9381e565b39

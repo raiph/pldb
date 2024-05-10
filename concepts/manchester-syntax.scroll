@@ -1,36 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Manchester syntax
+import ../measures/conceptPage.scroll
+id Manchester syntax
+appeared 2006
+type dataNotation
+conceptDescription The Manchester syntax is a user-friendly compact syntax for OWL 2 ontologies; it is frame-based, as opposed to the axiom-based other syntaxes for OWL 2. The Manchester Syntax is used in the OWL 2 Primer, and this document provides the language used there. It is expected that tools will extend the Manchester Syntax for their own purposes, and tool builders may collaboratively extend the common language.
+reference http://webont.org/owled/2006/acceptedLong/submission_9.pdf
+country United Kingdom
+originCommunity The University of Manchester
 
-title Manchester syntax - Data notation
- hidden
+hasSemanticIndentation false
+hasComments true
+hasMultiLineComments true
+ /* A comment
+ */
 
-html
- <a class="trueBaseThemePreviousItem" href="pml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gdata.html">&gt;</a>
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/manchester-syntax.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=manchester-syntax" class="material-symbols-outlined">edit</a></div>
-
-* Manchester syntax is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #1610 <span title="TotalRank: 2121 Jobs: 103 Users: 2838 Facts: 1032 Links: 986">on PLDB</span>
- 18 Years Old
-
-* The Manchester syntax is a user-friendly compact syntax for OWL 2 ontologies; it is frame-based, as opposed to the axiom-based other syntaxes for OWL 2. The Manchester Syntax is used in the OWL 2 Primer, and this document provides the language used there. It is expected that tools will extend the Manchester Syntax for their own purposes, and tool builders may collaboratively extend the common language.
-
-- Manchester syntax first developed in <a href="../lists/originCommunities.html#theUniversityOfManchester">The University of Manchester</a>
-- Read more about Manchester syntax on the web: 1.
- http://webont.org/owled/2006/acceptedLong/submission_9.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  /**
   * @rdfs:comment A vegetarian pizza is a pizza that only has cheese toppings
   * and tomato toppings.
@@ -50,32 +35,4 @@ codeWithHeader Example from the web:
   
   NonVegetarianPizza
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav pml.html gdata.html
-
-import ../footer.scroll
+isbndb 0

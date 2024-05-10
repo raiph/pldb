@@ -1,44 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AGC
+import ../measures/conceptPage.scroll
+id AGC
+appeared 1966
+type assembly
+documentation https://www.ibiblio.org/apollo/assembly_language_manual.html
+standsFor Apollo Guidance Computer
+country United States
+originCommunity MIT Instrumentation Laboratory && Charles Stark Draper Laboratory && Raytheon
 
-title AGC - Assembly language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="wsdl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ooxml.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apollo-guidance-computer.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.ibiblio.org/apollo/assembly_language_manual.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=apollo-guidance-computer" class="material-symbols-outlined">edit</a></div>
-
-* AGC, aka Apollo Guidance Computer, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #256 <span title="TotalRank: 635 Jobs: 103 Users: 282 Facts: 250 Links: 986">on PLDB</span>
- 58 Years Old
- 210 <span title="AGC repos on GitHub.">Repos</span>
-
-* The Apollo Guidance Computer (AGC) was a digital computer produced for the Apollo program that was installed on board each Apollo Command Module (CM) and Lunar Module (LM). The AGC provided computation and electronic interfaces for guidance, navigation, and control of the spacecraft. The AGC has a 16-bit word length, with 15 data bits and one parity bit. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Apollo_Guidance_Computer Read more on Wikipedia...
-
-- AGC Wikipedia page
- https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
-- AGC docs
- https://www.ibiblio.org/apollo/assembly_language_manual.html
-- There are at least 210 AGC repos on <a href="https://github.com/search?q=language:Apollo Guidance Computer">GitHub</a>
-- AGC first developed in <a href="../lists/originCommunities.html#mitInstrumentationLaboratory">MIT Instrumentation Laboratory</a> and <a href="../lists/originCommunities.html#charlesStarkDraperLaboratory">Charles Stark Draper Laboratory</a> and <a href="../lists/originCommunities.html#raytheon">Raytheon</a>
-- file extensions for AGC include agc
-- GitHub supports <a href="https://github.com/Alhadis/language-agc" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for AGC
-- See also: (2 related languages)<a href="si.html">SI</a>, <a href="assembly-language.html">Assembly language</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  SWCHSET     STORE   NOMTPI
  INTLOOP     DLOAD   DAD
              TTPI
@@ -58,77 +35,85 @@ codeWithHeader Example from the web:
          TC  P34/P74A    # PROCEED
          TC  -7      # V32
 
-codeWithHeader Example from <a href='https://github.com/Alhadis/language-agc'>Linguist</a>:
- # Copyright:	Public domain.
- # Filename:	BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc
- # Purpose: 	Part of the source code for Luminary 1A build 099.
- #		It is part of the source code for the Lunar Module&#39;s (LM)
- #		Apollo Guidance Computer (AGC), for Apollo 11.
- # Assembler:	yaYUL
- # Contact:	Ron Burkey &lt;info@sandroid.org&gt;.
- # Website:	www.ibiblio.org/apollo.
- # Pages:	731-751
- # Mod history:	2009-05-19 RSB	Adapted from the corresponding 
- #				Luminary131 file, using page 
- #				images from Luminary 1A.
- #		2009-06-07 RSB	Corrected 3 typos.
- #		2009-07-23 RSB	Added Onno&#39;s notes on the naming
- #				of this function, which he got from
- #				Don Eyles.
- #
- # This source code has been transcribed or otherwise adapted from
- # digitized images of a hardcopy from the MIT Museum.  The digitization
- # was performed by Paul Fjeld, and arranged for by Deborah Douglas of
- # the Museum.  Many thanks to both.  The images (with suitable reduction
- # in storage size and consequent reduction in image quality as well) are
- # available online at www.ibiblio.org/apollo.  If for some reason you
- # find that the images are illegible, contact me at info@sandroid.org
- # about getting access to the (much) higher-quality images which Paul
- # actually created.
- #
- # Notations on the hardcopy document read, in part:
- #
- #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
- #	16:27 JULY 14, 1969 
- 
- # Page 731
- ## At the get-together of the AGC developers celebrating the 40th anniversary
- ## of the first moonwalk, Don Eyles (one of the authors of this routine along
- ## with Peter Adler) has related to us a little interesting history behind the
- ## naming of the routine.&lt;br&gt;
- ## &lt;br&gt;
- ## It traces back to 1965 and the Los Angeles riots, and was inspired 
- ## by disc jockey extraordinaire and radio station owner Magnificent Montague.
- ## Magnificent Montague used the phrase &quot;Burn, baby! BURN!&quot; when spinning the 
- ## hottest new records. Magnificent Montague was the charismatic voice of
- ## soul music in Chicago, New York, and
+wikipedia https://en.wikipedia.org/wiki/Apollo_Guidance_Computer
+ related si assembly-language
+ summary The Apollo Guidance Computer (AGC) was a digital computer produced for the Apollo program that was installed on board each Apollo Command Module (CM) and Lunar Module (LM). The AGC provided computation and electronic interfaces for guidance, navigation, and control of the spacecraft. The AGC has a 16-bit word length, with 15 data bits and one parity bit. Most of the software on the AGC is stored in a special read-only memory known as core rope memory, fashioned by weaving wires through magnetic cores, though a small amount of read-write core memory is available. Astronauts communicated with the AGC using a numeric display and keyboard called the DSKY (DiSplay&KeYboard, pronounced 'DISS-key'). The AGC and its DSKY user interface were developed in the early 1960s for the Apollo program by the MIT Instrumentation Laboratory and first flew in 1966. The AGC was one of the first integrated circuit-based computers. The computer's performance was comparable to the first generation of home computers from the late 1970s, such as the Apple II, TRS-80, and Commodore PET.
+ backlinksCount 174
+ pageId 188887
+ created 2003
+ revisionCount 733
+ dailyPageViews 561
+ appeared 1966
 
-endColumns
+githubLanguage Apollo Guidance Computer
+ fileExtensions agc
+ trendingProjectsCount 0
+ type programming
+ group Assembly
+ aceMode assembly_x86
+ tmScope source.agc
+ repos 210
 
-## Language <a href="../lists/features.html">features</a>
+linguistGrammarRepo https://github.com/Alhadis/language-agc
+ firstCommit 2016
+ lastCommit 2017
+ committerCount 1
+ commitCount 17
+ sampleCount 1
+ example
+  # Copyright:	Public domain.
+  # Filename:	BURN_BABY_BURN--MASTER_IGNITION_ROUTINE.agc
+  # Purpose: 	Part of the source code for Luminary 1A build 099.
+  #		It is part of the source code for the Lunar Module's (LM)
+  #		Apollo Guidance Computer (AGC), for Apollo 11.
+  # Assembler:	yaYUL
+  # Contact:	Ron Burkey <info@sandroid.org>.
+  # Website:	www.ibiblio.org/apollo.
+  # Pages:	731-751
+  # Mod history:	2009-05-19 RSB	Adapted from the corresponding 
+  #				Luminary131 file, using page 
+  #				images from Luminary 1A.
+  #		2009-06-07 RSB	Corrected 3 typos.
+  #		2009-07-23 RSB	Added Onno's notes on the naming
+  #				of this function, which he got from
+  #				Don Eyles.
+  #
+  # This source code has been transcribed or otherwise adapted from
+  # digitized images of a hardcopy from the MIT Museum.  The digitization
+  # was performed by Paul Fjeld, and arranged for by Deborah Douglas of
+  # the Museum.  Many thanks to both.  The images (with suitable reduction
+  # in storage size and consequent reduction in image quality as well) are
+  # available online at www.ibiblio.org/apollo.  If for some reason you
+  # find that the images are illegible, contact me at info@sandroid.org
+  # about getting access to the (much) higher-quality images which Paul
+  # actually created.
+  #
+  # Notations on the hardcopy document read, in part:
+  #
+  #	Assemble revision 001 of AGC program LMY99 by NASA 2021112-61
+  #	16:27 JULY 14, 1969 
+  
+  # Page 731
+  ## At the get-together of the AGC developers celebrating the 40th anniversary
+  ## of the first moonwalk, Don Eyles (one of the authors of this routine along
+  ## with Peter Adler) has related to us a little interesting history behind the
+  ## naming of the routine.<br>
+  ## <br>
+  ## It traces back to 1965 and the Los Angeles riots, and was inspired 
+  ## by disc jockey extraordinaire and radio station owner Magnificent Montague.
+  ## Magnificent Montague used the phrase "Burn, baby! BURN!" when spinning the 
+  ## hottest new records. Magnificent Montague was the charismatic voice of
+  ## soul music in Chicago, New York, and
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+fileType text
+centralPackageRepositoryCount 0
 
-keyboardNav wsdl.html ooxml.html
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ The Apollo Guidance Computer: Architecture And Operation (Springer Praxis Books / Space Exploration)|2010|Frank O'Brien|10605768|4.26|69|9
+ Noise margin testing of the Apollo guidance computer||J.J. Rocchio|16376445|0.0|0|0
+ Apollo guidance computer and associated ground support equipment Quarterly technical report, 1 Apr. - 30 Jun. 1964||NoN|16376441|0.0|0|0
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 0

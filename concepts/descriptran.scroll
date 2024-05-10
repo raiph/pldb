@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DESCRIPTRAN
+import ../measures/conceptPage.scroll
+id DESCRIPTRAN
+appeared 1963
+type pl
+reference https://semanticscholar.org/paper/1ebc80a4d292ec6971a98f1e1113b2a483cc5197
+country United States
+originCommunity Northwestern University && Argonne National Laboratory
 
-title DESCRIPTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6610
 
-html
- <a class="trueBaseThemePreviousItem" href="dem.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="detab-65.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/descriptran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=descriptran" class="material-symbols-outlined">edit</a></div>
-
-* DESCRIPTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3620 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- DESCRIPTRAN first developed in <a href="../lists/originCommunities.html#northwesternUniversity">Northwestern University</a> and <a href="../lists/originCommunities.html#argonneNationalLaboratory">Argonne National Laboratory</a>
-- DESCRIPTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=6610
-- Read more about DESCRIPTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1ebc80a4d292ec6971a98f1e1113b2a483cc5197 1.
-
-<br>
-
-endColumns
-
-keyboardNav dem.html detab-65.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

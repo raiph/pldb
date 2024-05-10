@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASPEN
+import ../measures/conceptPage.scroll
+id ASPEN
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/d255ba8420cac03b439d866d0893639836837bdf
+country United States
+originCommunity University of Illinois
 
-title ASPEN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=749
 
-html
- <a class="trueBaseThemePreviousItem" href="asf-sdf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="associons.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aspen.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aspen" class="material-symbols-outlined">edit</a></div>
-
-* ASPEN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3495 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- ASPEN first developed in <a href="../lists/originCommunities.html#universityOfIllinois">University of Illinois</a>
-- ASPEN on HOPL
- https://hopl.info/showlanguage.prx?exp=749
-- Read more about ASPEN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d255ba8420cac03b439d866d0893639836837bdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav asf-sdf.html associons.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

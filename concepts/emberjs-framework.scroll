@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title emberjs-framework
+import ../measures/conceptPage.scroll
+id emberjs-framework
+appeared 2011
+type framework
+website https://emberjs.com/
+country United States
+originCommunity https://github.com/emberjs
+domainName emberjs.com
+ registered 2011
+ awisRank
+  2022 186897
 
-title emberjs-framework - Framework
- hidden
+githubRepo https://github.com/emberjs/ember.js
+ firstCommit 2011
+ stars 22215
+ forks 4287
+ subscribers 890
+ created 2011
+ updated 2022
+ description Ember.js - A JavaScript framework for creating ambitious web applications
+ issues 429
 
-html
- <a class="trueBaseThemePreviousItem" href="uno.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="json-stat.html">&gt;</a>
+languageServerProtocolProject https://github.com/emberwatch/ember-language-server
+ writtenIn typescript
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emberjs-framework.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://emberjs.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/emberjs/ember.js" class="material-symbols-outlined">code</a> <a href="https://twitter.com/emberjs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=emberjs-framework" class="material-symbols-outlined">edit</a></div>
-
-* emberjs-framework is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+framework">framework</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/emberjs/ember.js
-
-dashboard
- #679 on PLDB
- 13 Years Old
-
-* Ember.js - A JavaScript framework for creating ambitious web applications
-
-- emberjs-framework website
- https://emberjs.com/
-- emberjs-framework is developed on <a href="https://github.com/emberjs/ember.js">GitHub</a> and has 22,215 stars
-- emberjs-framework first developed in <a href="../lists/originCommunities.html#httpsGithubComEmberjs">https://github.com/emberjs</a>
-- emberjs-framework on Twitter
- https://twitter.com/emberjs
-- emberjs-framework <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/emberwatch/ember-language-server">implementation</a>
-- <a href="https://emberjs.com/">emberjs.com</a> was registered in 2011
-
-<br>
-
-endColumns
-
-keyboardNav uno.html json-stat.html
-
-import ../footer.scroll
+twitter https://twitter.com/emberjs

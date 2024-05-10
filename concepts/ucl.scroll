@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UCL
+import ../measures/conceptPage.scroll
+id UCL
+appeared 2013
+type dataNotation
+standsFor Universal Configuration Language
 
-title UCL - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="praat-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="penrose.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ucl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/vstakhov/libucl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ucl" class="material-symbols-outlined">edit</a></div>
-
-* UCL, aka Universal Configuration Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-codeWithHeader Source code:
- git clone https://github.com/vstakhov/libucl
-
-dashboard
- #684 <span title="TotalRank: 1258 Jobs: 103 Users: 375 Facts: 780 Links: 986">on PLDB</span>
- 11 Years Old
-
-* Universal configuration library parser
-
-- UCL is developed on <a href="https://github.com/vstakhov/libucl">GitHub</a> and has 1,443 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  param = value;
  section {
      param = value;
@@ -39,21 +12,37 @@ codeWithHeader Example from the web:
      flag = true;
      number = 10k;
      time = 0.2s;
-     string = &quot;something&quot;;
+     string = "something";
      subsection {
          host = {
-             host = &quot;hostname&quot;;
+             host = "hostname";
              port = 900;
          }
          host = {
-             host = &quot;hostname&quot;;
+             host = "hostname";
              port = 901;
          }
      }
  }
 
-endColumns
+githubRepo https://github.com/vstakhov/libucl
+ stars 1443
+ forks 139
+ subscribers 53
+ created 2013
+ updated 2022
+ firstCommit 2013
+ description Universal configuration library parser
+ issues 67
 
-keyboardNav praat-script.html penrose.html
+repoStats
+ firstCommit 2013
+ commits 1078
+ committers 56
+ files 170
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0

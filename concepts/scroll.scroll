@@ -1,77 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Scroll
+import ../measures/conceptPage.scroll
+id Scroll
+appeared 2020
+type textMarkup
+isPublicDomain true
+creators Breck Yunits
+conceptDescription An extensible alternative to Markdown built on Tree Notation.
+website https://scroll.pub/
+webRepl https://try.scroll.pub/
+country United States 
+originCommunity https://github.com/breck7/scroll/issues 
+domainName scroll.pub
+ registered 2021
 
-title Scroll - Text markup language
- hidden
+subsetOf treenotation
+relatedConcepts markdown treenotation grammar
 
-html
- <a class="trueBaseThemePreviousItem" href="alef.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="islisp.html">&gt;</a>
+hasImports true
+ import settings.scroll
+hasTernaryOperators false
+hasSemanticIndentation true
+ * A link to PLDB
+  https://pldb.io
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scroll.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://scroll.pub/" class="material-symbols-outlined">home</a> <a href="https://try.scroll.pub/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/breck7/scroll" class="material-symbols-outlined">code</a> <a href="/edit.html?id=scroll" class="material-symbols-outlined">edit</a></div>
-
-* Scroll is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2020 by Breck Yunits.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#breckYunits Breck Yunits
-
-codeWithHeader Source code:
- git clone https://github.com/breck7/scroll
-
-dashboard
- #861 <span title="TotalRank: 1426 Jobs: 103 Users: 989 Facts: 832 Links: 491">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://try.scroll.pub/">Web</a>
-
-* An extensible alternative to Markdown built on Tree Notation.
-
-- Scroll website
- https://scroll.pub/
-- Scroll is developed on <a href="https://github.com/breck7/scroll">GitHub</a> and has 268 stars
-- Scroll first developed in <a href="../lists/originCommunities.html#httpsGithubComBreck7ScrollIssues">https://github.com/breck7/scroll/issues </a>
-- <a href="https://scroll.pub/">scroll.pub</a> was registered in 2021
-- See also: (3 related languages)<a href="markdown.html">Markdown</a>, <a href="treenotation.html">Tree Notation</a>, <a href="grammar.html">Grammar</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  title This is Scroll. The keyword for title is title.
  
  paragraph
   Scroll is an extensible alternative to Markdown.
 
-endColumns
+githubRepo https://github.com/breck7/scroll
+ firstCommit 2019
+ stars 268
+ forks 5
+ subscribers 7
+ created 2019
+ updated 2022
+ description The extensible alternative to Markdown.
+ issues 6
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2019
+ commits 953
+ committers 6
+ files 97
 
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   * A link to PLDB
-    https://pldb.io
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   import settings.scroll
- row
-  Feature Ternary operators
-  FeatureLink ../features/hasTernaryOperators.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav alef.html islisp.html
-
-import ../footer.scroll
+isOpenSource true

@@ -1,38 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title crates-pm
+import ../measures/conceptPage.scroll
+id crates-pm
+appeared 2014
+type packageManager
+website https://crates.io/
+country Various
+originCommunity https://github.com/rust-lang
+domainName crates.io
+ registered 2014
+ awisRank
+  2022 55057
 
-title crates-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cpan-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ctan-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/crates-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://crates.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=crates-pm" class="material-symbols-outlined">edit</a></div>
-
-* crates-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3191 on PLDB
- 10 Years Old
-
-* 
-
-- crates-pm website
- https://crates.io/
-- crates-pm first developed in <a href="../lists/originCommunities.html#httpsGithubComRustLang">https://github.com/rust-lang</a>
-- <a href="https://crates.io/">crates.io</a> was registered in 2014
-
-<br>
-
-endColumns
-
-keyboardNav cpan-pm.html ctan-pm.html
-
-import ../footer.scroll
+packageCount 22486
+packageInstallCount 770549116
+forLanguages rust

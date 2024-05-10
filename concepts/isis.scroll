@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ISIS
+import ../measures/conceptPage.scroll
+id ISIS
+appeared 1995
+type pl
+reference http://web.media.mit.edu/~stefan/isis/
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title ISIS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2124
 
-html
- <a class="trueBaseThemePreviousItem" href="isabelle-hol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ispl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/isis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=isis" class="material-symbols-outlined">edit</a></div>
-
-* ISIS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3746 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- ISIS first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- ISIS on HOPL
- https://hopl.info/showlanguage.prx?exp=2124
-- Read more about ISIS on the web: 1.
- http://web.media.mit.edu/~stefan/isis/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav isabelle-hol.html ispl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

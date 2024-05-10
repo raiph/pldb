@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gintonic
+import ../measures/conceptPage.scroll
+id gintonic
+appeared 2018
+type queryLanguage
+creators Christian Budde Christensen
+country Norway
+originCommunity https://github.com/strise
 
-title gintonic - Query language
- hidden
+githubRepo https://github.com/mitoai/gintonic
+ firstCommit 2018
+ stars 28
+ subscribers 1
+ created 2018
+ updated 2022
+ description A declarative transformation language for GraphQL 🍸
+ issues 8
+ forks 0
 
-html
- <a class="trueBaseThemePreviousItem" href="rel-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jedlang.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 148
+ committers 2
+ files 50
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gintonic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mitoai/gintonic" class="material-symbols-outlined">code</a> <a href="/edit.html?id=gintonic" class="material-symbols-outlined">edit</a></div>
-
-* gintonic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2018 by Christian Budde Christensen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#christianBuddeChristensen Christian Budde Christensen
-
-codeWithHeader Source code:
- git clone https://github.com/mitoai/gintonic
-
-dashboard
- #2078 <span title="TotalRank: 2591 Jobs: 103 Users: 2087 Facts: 1502 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A declarative transformation language for GraphQL 🍸
-
-- gintonic is developed on <a href="https://github.com/mitoai/gintonic">GitHub</a> and has 28 stars
-- gintonic first developed in <a href="../lists/originCommunities.html#httpsGithubComStrise">https://github.com/strise</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of gintonic
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Gintonic – A declarative transformation language for GraphQL|https://news.ycombinator.com/item?id=18702064|12/17/2018|4|1
-
-keyboardNav rel-lang.html jedlang.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 18702064|Show HN: Gintonic – A declarative transformation language for GraphQL|2018-12-17 20:49:12 UTC|1545079752|alfffff|1|4

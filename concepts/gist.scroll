@@ -1,43 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Gist
+import ../measures/conceptPage.scroll
+id Gist
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/51e62e71588bce8b05c4b041561304062d656f38
+country United States
+originCommunity Information Sciences Institute
 
-title Gist - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/GiST
+ related postgresql
+ summary In computing, GiST or Generalized Search Tree, is a data structure and API that can be used to build a variety of disk-based search trees.  GiST is a generalization of the B+ tree, providing a concurrent and recoverable height-balanced search tree infrastructure without making any assumptions about the type of data being stored, or the queries being serviced.  GiST can be used to easily implement a range of well-known indexes, including B+ trees, R-trees, hB-trees, RD-trees, and many others; it also allows for easy development of specialized indexes for new data types. It cannot be used directly to implement non-height-balanced trees such as quad trees or prefix trees (tries), though like prefix trees it does support compression, including lossy compression. GiST can be used for any data type that can be naturally ordered into a hierarchy of supersets. Not only is it extensible in terms of data type support and tree layout, it allows the extension writer to support any query predicates that they choose.  The most widely used GiST implementation is in the PostgreSQL relational database; it was also implemented in the Informix Universal Server, and as a standalone library, libgist. GiST is an example of software extensibility in the context of database systems: it allows the easy evolution of a database system to support new tree-based indexes.  It achieves this by factoring out its core system infrastructure from a narrow API that is sufficient to capture the application-specific aspects of a wide variety of index designs. The GiST infrastructure code manages the layout of the index pages on disk, the algorithms for searching indexes and deleting from indexes, and complex transactional details such as page-level locking for high concurrency and write-ahead logging for crash recovery. This allows authors of new tree-based indexes to focus on implementing the novel features of the new index type — for example, the way in which subsets of the data should be described for search — without becoming experts in database system internals. Although originally designed for answering Boolean selection queries, GiST can also support nearest-neighbor search, and various forms of statistical approximation over large data sets. The PostgreSQL GiST implementation includes support for variable length keys, composite keys, concurrency control and recovery; these features are inherited by all GiST extensions. There are several contributed modules developed using GiST and distributed with PostgreSQL. For example:  rtree_gist, btree_gist - GiST implementation of R-tree and B-tree intarray - index support for one-dimensional array of int4's tsearch2 - a searchable (full text) data type with indexed access ltree - data types, indexed access methods and queries for data organized as a tree-like structures hstore - a storage for (key,value) data cube - data type, representing multidimensional cubesThe PostgreSQL GiST implementation provides the indexing support for the PostGIS (geographic information system) and the BioPostgres bioinformatics system.
+ backlinksCount 18
+ pageId 3003657
+ dailyPageViews 30
+ created 2005
+ appeared 1995
 
-html
- <a class="trueBaseThemePreviousItem" href="winbatch.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="never.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=3987
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gist.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/GiST"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=gist" class="material-symbols-outlined">edit</a></div>
-
-* Gist is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #1495 <span title="TotalRank: 2008 Jobs: 103 Users: 1238 Facts: 2184 Links: 667">on PLDB</span>
- 47 Years Old
-
-* In computing, GiST or Generalized Search Tree, is a data structure and API that can be used to build a variety of disk-based search trees.  GiST is a generalization of the B+ tree, providing a concurrent and recoverable height-balanced search tree infrastructure without making any assumptions about the type of data being stored, or the queries being serviced.  GiST can be used to easily implement a range of well-known indexes, including B+ trees, R-trees, hB-trees, RD-trees, and many others; it also allows for easy development of specialized indexes for new data types. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/GiST Read more on Wikipedia...
-
-- Gist Wikipedia page
- https://en.wikipedia.org/wiki/GiST
-- Gist first developed in <a href="../lists/originCommunities.html#informationSciencesInstitute">Information Sciences Institute</a>
-- Gist on HOPL
- https://hopl.info/showlanguage.prx?exp=3987
-- See also: (1 related languages)<a href="postgresql.html">PostgreSQL</a>
-- Read more about Gist on Semantic Scholar: 1.
- https://semanticscholar.org/paper/51e62e71588bce8b05c4b041561304062d656f38 1.
-
-<br>
-
-endColumns
-
-keyboardNav winbatch.html never.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

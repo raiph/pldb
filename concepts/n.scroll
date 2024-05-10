@@ -1,40 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title N
-
-title N - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="modl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ngql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/n.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=n" class="material-symbols-outlined">edit</a></div>
-
-* N is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990 by Gael de La Croix Vaubois and Catherine Moulinoux and BenoIt Derot.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
- link ../lists/creators.html#gaelDeLaCroixVaubois Gael de La Croix Vaubois
- link ../lists/creators.html#catherineMoulinoux Catherine Moulinoux
- link ../lists/creators.html#benoItDerot BenoIt Derot
-
-dashboard
- #3403 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- N first developed in <a href="../lists/originCommunities.html#thomsonCsf">Thomson-CSF</a>
-- Read more about N on the web: 1.
- https://link.springer.com/chapter/10.1007/978-3-642-76153-9_10 1.
-
-<br>
-
-endColumns
-
-keyboardNav modl.html ngql.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id N
+appeared 1990
+type pl
+creators Gael de La Croix Vaubois and Catherine Moulinoux and BenoIt Derot
+reference https://link.springer.com/chapter/10.1007/978-3-642-76153-9_10
+country France
+originCommunity Thomson-CSF

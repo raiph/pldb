@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hadoop Distributed File System
+import ../measures/conceptPage.scroll
+id Hadoop Distributed File System
+appeared 2011
+type filesystem
+reference https://en.wikipedia.org/wiki/Apache_Hadoop#Hadoop_distributed_file_system
+standsFor Hadoop Distributed File System
+country United States
+originCommunity Apache Software Foundation
 
-title Hadoop Distributed File System - Filesystem
- hidden
+writtenIn java
 
-html
- <a class="trueBaseThemePreviousItem" href="giotto.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="heron.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hdfs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hdfs" class="material-symbols-outlined">edit</a></div>
-
-* Hadoop Distributed File System, aka Hadoop Distributed File System, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+filesystem">filesystem</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3592 on PLDB
- 13 Years Old
-
-* 
-
-- Hadoop Distributed File System first developed in <a href="../lists/originCommunities.html#apacheSoftwareFoundation">Apache Software Foundation</a>
-- Hadoop Distributed File System is written in <a href="java.html">Java</a>
-- Read more about Hadoop Distributed File System on the web: 1.
- https://en.wikipedia.org/wiki/Apache_Hadoop#Hadoop_distributed_file_system 1.
-
-<br>
-
-endColumns
-
-keyboardNav giotto.html heron.html
-
-import ../footer.scroll
+fileType na
+centralPackageRepositoryCount 0

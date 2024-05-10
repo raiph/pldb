@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Descartes
+import ../measures/conceptPage.scroll
+id Descartes
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/b1e382625105bb88a32268134edbcf8d5ce5b217
+country United States
+originCommunity Carnegie-Mellon University
 
-title Descartes - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4354
 
-html
- <a class="trueBaseThemePreviousItem" href="chimera.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dino.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/descartes.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=descartes" class="material-symbols-outlined">edit</a></div>
-
-* Descartes is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3009 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- Descartes first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie-Mellon University</a>
-- Descartes on HOPL
- https://hopl.info/showlanguage.prx?exp=4354
-- Read more about Descartes on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b1e382625105bb88a32268134edbcf8d5ce5b217 1.
-
-<br>
-
-endColumns
-
-keyboardNav chimera.html dino.html
-
-import ../footer.scroll
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2017|Model-Based Self-Aware Performance and Resource Management Using the Descartes Modeling Language|10.1109/TSE.2016.2613863|46|4|Nikolaus Huber and Fabian Brosig and Simon Spinner and Samuel Kounev and Manuel Bähr|8d5be262a6b469fa6ce94db09cbdabb5ecdce488
+ 1998|How to reconcile formal specifications and automatic programming: the Descartes system|10.1109/APSEC.1998.733579|3|0|J. Lucas and Jean-Luc Dormoy and Bruno Ginoux and Claudia Jimenez-Dominguez and Laurent Pierre|fc18bb3d1cdcfc05e4290c8b1de18b72bb90012f
+ 2016|Automatic parallel programming using the descartes specification language|10.1109/IACS.2016.7476068|1|0|N. Sakhnini and Venkata N. Inukollu and J. E. Urban|e23d50c20b37ef78b607d5a819d791627b0a621a

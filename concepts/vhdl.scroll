@@ -1,68 +1,124 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title VHDL
+import ../measures/conceptPage.scroll
+id VHDL
+appeared 1983
+type hardwareDescriptionLanguage
+documentation https://vhdlguide.readthedocs.io/en/latest/
+standsFor VHSIC Hardware Description Language
+country United States
 
-title VHDL - Hardware description language
- hidden
+hasComments true
+hasLineComments true
+ -- A comment
+hasMultiLineComments false
+hasPrintDebugging true
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers true
+ signals some_signal : integer ;
+ signal some_other_signal : integer ;
+ signal result : integer ;
+ ReSULT <= SOME_SIGNAL + sOME_oTHer_SIGNal ; -- Although totally unrecommended - this is perfectly legal
+hasStrings true
+ "Hello world"
+hasWhileLoops true
+hasFunctions true
+hasConditionals true
+hasOctals true
+ -- O"[0-7_]+"
+hasHexadecimals true
+ -- X"[0-9a-f_]+"
+hasFloats true
+ -- (\d+\.\d*|\.\d+|\d+)E[+-]?\d+
+hasIntegers true
+ -- \d{1,2}#[0-9a-f_]+#?
+hasBinaryNumbers true
+ -- B"[01_]+"
 
-html
- <a class="trueBaseThemePreviousItem" href="latex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="markdown.html">&gt;</a>
+lineCommentToken --
+printToken write
+stringToken "
+keywords abs access after alias all and architecture array assert attribute begin block body buffer bus case component configuration constant disconnect downto else elsif end entity exit file for function generate generic group guarded if impure in inertial inout is label library linkage literal loop map mod nand new next nor not null of on open or others out package port postponed procedure process pure range record register reject rem report return rol ror select severity signal shared sla sll sra srl subtype then to transport type unaffected units until use variable wait when while with xnor xor
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vhdl.pldb
+wikipedia https://en.wikipedia.org/wiki/VHDL
+ example
+  process
+  begin
+    wait until START = '1'; -- wait until START is high
+    
+    for i in 1 to 10 loop -- then wait for a few clock periods...
+      wait until rising_edge(CLK);
+    end loop;
+  
+    for i in 1 to 10 loop 	-- write numbers 1 to 10 to DATA, 1 every cycle
+      DATA <= to_unsigned(i, 8);
+      wait until rising_edge(CLK);
+    end loop;
+  
+    -- wait until the output changes
+    wait on RESULT;
+    
+    -- now raise ACK for clock period
+    ACK <= '1';
+    wait until rising_edge(CLK);
+    ACK <= '0';
+  
+    -- and so on...
+  end process;
+ related verilog ada pascal vhdl-ams property-specification-language isbn
+ summary VHDL (VHSIC Hardware Description Language) is a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as field-programmable gate arrays and integrated circuits. VHDL can also be used as a general purpose parallel programming language.
+ pageId 43410
+ dailyPageViews 731
+ created 2002
+ backlinksCount 548
+ revisionCount 893
+ appeared 1980
 
-startColumns 4
+githubLanguage VHDL
+ fileExtensions vhdl vhd vhf vhi vho vhs vht vhw
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  ghdl ghdl https://github.com/ghdl.png https://github.com/ghdl/ghdl VHDL #adb2cb 777 147 24 "VHDL 2008/93/87 simulator"
+ trendingProjectsCount 2
+ type programming
+ aceMode vhdl
+ codemirrorMode vhdl
+ codemirrorMimeType text/x-vhdl
+ tmScope source.vhdl
+ repos 34211
+githubBigQuery VHDL
+ repos 2099
+ users 1748
 
-<div class="trueBaseThemeQuickLinks"><a href="https://vhdlguide.readthedocs.io/en/latest/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/VHDL"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://reddit.com/r/VHDL"><svg role="img" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 18.65625 4 C 16.558594 4 15 5.707031 15 7.65625 L 15 11.03125 C 12.242188 11.175781 9.742188 11.90625 7.71875 13.0625 C 6.945313 12.316406 5.914063 12 4.90625 12 C 3.816406 12 2.707031 12.355469 1.9375 13.21875 L 1.9375 13.25 L 1.90625 13.28125 C 1.167969 14.203125 0.867188 15.433594 1.0625 16.65625 C 1.242188 17.777344 1.898438 18.917969 3.03125 19.65625 C 3.023438 19.769531 3 19.882813 3 20 C 3 22.605469 4.574219 24.886719 6.9375 26.46875 C 9.300781 28.050781 12.488281 29 16 29 C 19.511719 29 22.699219 28.050781 25.0625 26.46875 C 27.425781 24.886719 29 22.605469 29 20 C 29 19.882813 28.976563 19.769531 28.96875 19.65625 C 30.101563 18.917969 30.757813 17.777344 30.9375 16.65625 C 31.132813 15.433594 30.832031 14.203125 30.09375 13.28125 L 30.0625 13.25 C 29.292969 12.386719 28.183594 12 27.09375 12 C 26.085938 12 25.054688 12.316406 24.28125 13.0625 C 22.257813 11.90625 19.757813 11.175781 17 11.03125 L 17 7.65625 C 17 6.675781 17.558594 6 18.65625 6 C 19.175781 6 19.820313 6.246094 20.8125 6.59375 C 21.65625 6.890625 22.75 7.21875 24.15625 7.3125 C 24.496094 8.289063 25.414063 9 26.5 9 C 27.875 9 29 7.875 29 6.5 C 29 5.125 27.875 4 26.5 4 C 25.554688 4 24.738281 4.535156 24.3125 5.3125 C 23.113281 5.242188 22.246094 4.992188 21.46875 4.71875 C 20.566406 4.402344 19.734375 4 18.65625 4 Z M 16 13 C 19.152344 13 21.964844 13.867188 23.9375 15.1875 C 25.910156 16.507813 27 18.203125 27 20 C 27 21.796875 25.910156 23.492188 23.9375 24.8125 C 21.964844 26.132813 19.152344 27 16 27 C 12.847656 27 10.035156 26.132813 8.0625 24.8125 C 6.089844 23.492188 5 21.796875 5 20 C 5 18.203125 6.089844 16.507813 8.0625 15.1875 C 10.035156 13.867188 12.847656 13 16 13 Z M 4.90625 14 C 5.285156 14 5.660156 14.09375 5.96875 14.25 C 4.882813 15.160156 4.039063 16.242188 3.53125 17.4375 C 3.277344 17.117188 3.125 16.734375 3.0625 16.34375 C 2.953125 15.671875 3.148438 14.976563 3.46875 14.5625 C 3.472656 14.554688 3.464844 14.539063 3.46875 14.53125 C 3.773438 14.210938 4.3125 14 4.90625 14 Z M 27.09375 14 C 27.6875 14 28.226563 14.210938 28.53125 14.53125 C 28.535156 14.535156 28.527344 14.558594 28.53125 14.5625 C 28.851563 14.976563 29.046875 15.671875 28.9375 16.34375 C 28.875 16.734375 28.722656 17.117188 28.46875 17.4375 C 27.960938 16.242188 27.117188 15.160156 26.03125 14.25 C 26.339844 14.09375 26.714844 14 27.09375 14 Z M 11 16 C 9.894531 16 9 16.894531 9 18 C 9 19.105469 9.894531 20 11 20 C 12.105469 20 13 19.105469 13 18 C 13 16.894531 12.105469 16 11 16 Z M 21 16 C 19.894531 16 19 16.894531 19 18 C 19 19.105469 19.894531 20 21 20 C 22.105469 20 23 19.105469 23 18 C 23 16.894531 22.105469 16 21 16 Z M 21.25 21.53125 C 20.101563 22.597656 18.171875 23.28125 16 23.28125 C 13.828125 23.28125 11.898438 22.589844 10.75 21.65625 C 11.390625 23.390625 13.445313 25 16 25 C 18.554688 25 20.609375 23.398438 21.25 21.53125 Z"/></svg></a> <a href="/edit.html?id=vhdl" class="material-symbols-outlined">edit</a></div>
+antlr https://github.com/antlr/grammars-v4/tree/master/vhdl
+codeMirror vhdl
+pygmentsHighlighter vhdl
+ filename hdl.py
+ fileExtensions vhdl vhd
+linguistGrammarRepo https://github.com/textmate/vhdl.tmbundle
+ firstCommit 2008
+ lastCommit 2017
+ committerCount 2
+ commitCount 23
+ sampleCount 1
+ example
+  -- VHDL example file
+  
+  library ieee;
+  use ieee.std_logic_1164.all;
+  
+  entity inverter is
+  	port(a : in std_logic;
+  	     b : out std_logic);
+  end entity;
+  
+  architecture rtl of inverter is
+  begin
+  	b <= not a;
+  end architecture;
+  
+languageServerProtocolProject https://github.com/kraigher/rust_hdl
+ writtenIn rust
 
-* VHDL, aka VHSIC Hardware Description Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+hardwareDescriptionLanguage">hardware description language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #89 <span title="TotalRank: 283 Jobs: 103 Users: 164 Facts: 57 Links: 123">on PLDB</span>
- 41 Years Old
- 34k <span title="VHDL repos on GitHub.">Repos</span>
-
-* VHDL (VHSIC Hardware Description Language) is a hardware description language used in electronic design automation to describe digital and mixed-signal systems such as field-programmable gate arrays and integrated circuits. VHDL can also be used as a general purpose parallel programming language.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/VHDL Read more on Wikipedia...
-
-- VHDL Wikipedia page
- https://en.wikipedia.org/wiki/VHDL
-- VHDL docs
- https://vhdlguide.readthedocs.io/en/latest/
-- There are at least 34,211 VHDL repos on <a href="https://github.com/search?q=language:VHDL">GitHub</a>
-- file extensions for VHDL include vhdl, vhd, vhf, vhi, vho, vhs, vht and vhw
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using VHDL in 2k repos on <a href="https://api.github.com/search/repositories?q=language:VHDL">GitHub</a>
-- There are 2,320 members in the <a href="https://reddit.com/r/VHDL">VHDL subreddit</a>
-- Explore VHDL snippets on <a href="http://www.rosettacode.org/wiki/Category:VHDL">Rosetta Code</a>
-- VHDL on HOPL
- https://hopl.info/showlanguage.prx?exp=1188
-- VHDL ranks #44 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/vhdl">grammar</a> for VHDL
-- VHDL <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/kraigher/rust_hdl">implementation</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/vhdl">package</a> for syntax highlighting VHDL
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/hdl.py">syntax highlighting</a> for VHDL
-- GitHub supports <a href="https://github.com/textmate/vhdl.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for VHDL
-- See also: (6 related languages)<a href="verilog.html">Verilog</a>, <a href="ada.html">Ada</a>, <a href="pascal.html">Pascal</a>, <a href="vhdl-ams.html">VHDL-AMS</a>, <a href="property-specification-language.html">Property Specification Language</a>, <a href="isbn.html">ISBN</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/v/VHDL.vhdl'>hello-world</a>:
- use std.textio.all;
- 
- entity hello_world is
- end hello_world;
- 
- architecture behaviour of hello_world is
- begin
- 	process
-     begin
-        write (output, String&#39;(&quot;Hello World&quot;));
-        wait;
-     end process;
- end behaviour;
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#VHSIC'>the Hello World Collection</a>:
+helloWorldCollection VHSIC Hardware Description Language
  --Hello World in VHDL
  
  ENTITY helloworld IS
@@ -73,166 +129,136 @@ codeWithHeader Example from <a href='http://helloworldcollection.de/#VHSIC'>the 
  BEGIN
  
  ASSERT FALSE
- REPORT &quot;HELLO, WORLD!&quot;
+ REPORT "HELLO, WORLD!"
  SEVERITY NOTE;
  
  END hw;
  
+leachim6 VHDL
+ filepath v/VHDL.vhdl
+ fileExtensions vhdl
+ example
+  use std.textio.all;
+  
+  entity hello_world is
+  end hello_world;
+  
+  architecture behaviour of hello_world is
+  begin
+  	process
+      begin
+         write (output, String'("Hello World"));
+         wait;
+      end process;
+  end behaviour;
+rosettaCode http://www.rosettacode.org/wiki/Category:VHDL
 
-codeWithHeader Example from <a href='https://github.com/textmate/vhdl.tmbundle'>Linguist</a>:
- -- VHDL example file
- 
- library ieee;
- use ieee.std_logic_1164.all;
- 
- entity inverter is
- 	port(a : in std_logic;
- 	     b : out std_logic);
- end entity;
- 
- architecture rtl of inverter is
- begin
- 	b &lt;= not a;
- end architecture;
- 
+subreddit https://reddit.com/r/VHDL
+ memberCount
+  2017 354
+  2022 2320
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/VHDL'>Wikipedia</a>:
- process
- begin
-   wait until START = &#39;1&#39;; -- wait until START is high
-   
-   for i in 1 to 10 loop -- then wait for a few clock periods...
-     wait until rising_edge(CLK);
-   end loop;
- 
-   for i in 1 to 10 loop 	-- write numbers 1 to 10 to DATA, 1 every cycle
-     DATA &lt;= to_unsigned(i, 8);
-     wait until rising_edge(CLK);
-   end loop;
- 
-   -- wait until the output changes
-   wait on RESULT;
-   
-   -- now raise ACK for clock period
-   ACK &lt;= &#39;1&#39;;
-   wait until rising_edge(CLK);
-   ACK &lt;= &#39;0&#39;;
- 
-   -- and so on...
- end process;
+tiobe VHDL
+ currentRank 44
+hopl https://hopl.info/showlanguage.prx?exp=1188
 
-<div class="keywordsBlock">
-codeWithHeader VHDL <a href="../lists/keywords.html?filter=vhdl">Keywords</a>
- abs access after alias all and architecture array assert attribute begin block body buffer bus case component configuration constant disconnect downto else elsif end entity exit file for function generate generic group guarded if impure in inertial inout is label library linkage literal loop map mod nand new next nor not null of on open or others out package port postponed procedure process pure range record register reject rem report return rol ror select severity signal shared sla sll sra srl subtype then to transport type unaffected units until use variable wait when while with xnor xor
-</div>
+fileType text
+centralPackageRepositoryCount 0
 
-endColumns
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ HDL Programming Fundamentals: VHDL and Verilog [With CD-ROM]|2005|Nazeih M. Botros|382542|4.15|55|5
+ VHDL: Programming by Example [With CDROM]|1990|Douglas L. Perry|1640016|3.36|14|1
+ VHDL for Engineers|2008|Kenneth L. Short|20450098|4.00|5|0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 47
+ year|publisher|title|authors|isbn13
+ 2002|Prentice Hall|Digital Fundamentals with VHDL|Floyd, Thomas L.|9780130995278
+ 2007|Cengage Learning|Digital Systems Design Using VHDL|Roth, Jr.  Charles H. and John, Lizy K.|9780534384623
+ 2008|Pearson|VHDL for Engineers|Short, Kenneth|9780131424784
+ 1993|Mcgraw-hill Inc|Vhdl Edition (Computer Engineering Series)|Perry, Douglas|9780070494343
+ 2005|Charles River Media|HDL Programming Fundamentals: VHDL and Verilog (DaVinci Engineering)|Botros, Nazeih M|9781584508557
+ 2000|Prentice Hall|VHDL Design Representation and Synthesis (2nd Edition)|Armstrong, James R. and Gray, F. Gail|9780130216700
+ 1992|Springer|VHDL for Simulation, Synthesis and Formal Proofs of Hardware (The Springer International Series in Engineering and Computer Science, 183)||9780792392538
+ 2002|Prentice Hall|Digital Logic Simulation And Cpld Programming With Vhdl|Steve Waterman|9780130967602
+ 2000|Wiley, John & Sons, Incorporated|The VHDL Reference: A Practical Guide to Computer-Aided Integrated Circuit Design including VHDL-AMS|Ulrich Heinkel and Werner Haas and Martin Padeffke and Thomas Buerner and Herbert Braisz|9780471899723
+ 2017|McGraw-Hill Education|Digital System Design with FPGA: Implementation Using Verilog and VHDL|Unsalan, Cem and Tar, Bora|9781259837913
+ 2010|Morgan Kaufmann|The Designer's Guide to VHDL (ISSN)|Ashenden, Peter J.|9780080568850
+ 1999|Wiley-IEEE Computer Society Pr|Digital Systems Design with VHDL and Synthesis: An Integrated Approach|Chang, K. C.|9780769500232
+ 2002|McGraw-Hill Education|VHDL : Programming By Example|Perry, Douglas|9780071400701
+ 2008|McGraw-Hill College|Fundamentals of Digital Logic with VHDL Design|Brown, Stephen D.|9780073529530
+ 2008|Morgan Kaufmann|Digital Electronics and Design with VHDL|Pedroni, Volnei A.|9780080557557
+ 2018|Springer|A Tutorial Introduction to VHDL Programming|Gazi, Orhan|9789811323096
+ 2007|Morgan Kaufmann|VHDL 2008: Just the New Stuff (Systems on Silicon)|Ashenden, Peter J. and Lewis, Jim|9780123742490
+ 2003|Pearson|Digital System Design with VHDL (2nd Edition)|Zwolinski, Mark|9780130399854
+ 2008|Morgan Kaufmann|Digital Electronics and Design with VHDL|Pedroni Ph.D. California Institute of Technology; former  visiting Professor Harvey Mudd College, Volnei A.|9780123742704
+ 1997|Prentice Hall|Vhdl Starter's Guide|Yalamanchili, Sudhakar|9780135198025
+ 2018|Springer|A Tutorial Introduction to VHDL Programming|Gazi, Orhan|9789811323089
+ 2011|Wiley|Introduction to Digital Systems: Modeling, Synthesis, and Simulation Using VHDL|Ferdjallah, Mohammed|9780470900550
+ 1708|Wiley India Private Limited|HDL Programming Fundamentals: VHDL and Verilog, w/CD|NAZEIH M.BOTROS|9788177226973
+ 1998|Wiley|VHDL for Logic Synthesis|Rushton, Andrew|9780471983255
+ 2000|Prentice Hall|Digital System Design and VHDL|Zwolinski, Mark|9780201360639
+ 2016|LAP LAMBERT Academic Publishing|Design of a Data Analyser for Ethernet Packets Using VHDL: Analysis and Representation of Ethernet Communication Protocol Using Finite State Machines with VHDL Programming|Gooroochurn, Mahendra|9783659826948
+ 2012|Springer|VHDL and FPLDs in Digital Systems Design, Prototyping and Customization|Salcic, Zoran|9781461376712
+ 2019|Springer|A Tutorial Introduction to VHDL Programming|Gazi, Orhan|9789811347641
+ 2021|Cengage Learning|HDL Programming Fundamentals: VHDL and Verilog (Davinci Engineering)|Botros|9788131502013
+ |John Wiley & Sons Inc|Vhdl Programming|L. Baker|9780471574125
+ 2019-07-24|LAP LAMBERT Academic Publishing|VHDL Programming|Syed Zaheeruddin and Baddiri Narsimha and Pudari Chiranjeevi|9783659753756
+ 20130128|De Gruyter|Kompaktkurs VHDL|Paul Molitor; Jörg Ritter|9783486719659
+ 20180611|De Gruyter|Prozessorentwurf mit VHDL|Dieter Wecker|9783110582833
+ 2011|Pearson Higher Ed|Vhdl For Engineers|Kenneth L. Short|9780133002560
+ 2010|Springer|A Guide To Vhdl|Patricia Langstraat; Stanley Mazor|9780792393870
+ 2001|Prentice Hall|Digital Electronics With Vhdl Programming|Brian Hemmelman|9780130867513
+ 2001|Elsevier|The Designer's Guide To Vhdl|Peter J. Ashenden|9780080477152
+ 20070330|Cengage Learning US|Digital Systems Design Using VHDL|Charles H. Roth, Jr.; Lizy K. John|9781305325098
+ 2018-08-18|Springer|A Tutorial Introduction to VHDL Programming|Orhan Gazi|9789811323096
+ 2020|Emereo|VHDL A Complete Guide - 2021 Edition|Gerardus Blokdyk|9781867469490
+ 2019-03-10|LAP LAMBERT Academic Publishing|VHDL based automated solar panel intensity controller|Beenish Habib and Rameesa Mufti|9786139460755
+ 03/2015|Mercury Learning and Information|HDL with Digital Design VHDL and Verilog|Nazeih Botros|9781942270287
+ 01/2012|McGraw-Hill Higher Education (US)|Fundamentals of Digital and Computer Design with VHDL|Sandige, Richard; Sandige, Michael|9780077418779
+ 1993|Wiley|Vhdl Programming With Advanced Topics (wiley Professional Computing)|Louis Baker|9780471574644
+ 2012|Springer-Verlag New York, LLC|Formal Semantics and Proof Techniques for Optimizing VHDL Models|Kothanda Umamageswaran and Sheetanshu L. Pandey and Philip A. Wilsey|9781461373315
+ 1998|Not Avail|Contemporary Logic Design 32703 And Vhdl For Programming Logic Package|Katz|9780201308624
+ 2002||Design Automation. Behavioural Languages. Vhdl Multilogic System For Model Interoperability|British Standards Institute Staff|9780580392665
 
-treeTable
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- B"[01_]+"
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- \d{1,2}#[0-9a-f_]+#?
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- (\d+\.\d*|\.\d+|\d+)E[+-]?\d+
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- X"[0-9a-f_]+"
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- O"[0-7_]+"
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   signals some_signal : integer ;
-   signal some_other_signal : integer ;
-   signal result : integer ;
-   ReSULT <= SOME_SIGNAL + sOME_oTHer_SIGNal ; -- Although totally unrecommended - this is perfectly legal
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token write
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav latex.html markdown.html
-
-import ../footer.scroll
+semanticScholar 39
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2000|HML, a novel hardware description language and its translation to VHDL|10.1109/92.820756|53|5|Yanbing Li and M. Leeser|d171064b70be10228ba7e60166178338eca52e33
+ 1992|A Guide to VHDL|10.1007/978-1-4757-2114-0|48|2|S. Mazor and Patricia Langstraat|bc6cb7714dd879a58faaf0fc43b0afa6a25ee747
+ 1995|HML: an innovative hardware description language and its translation to VHDL|10.1109/ASPDAC.1995.486388|36|6|Yanbing Li and M. Leeser|5f4ae80a4ebc9b1b9220b5bbd15545b9d1e5d502
+ 2016|VHDL Descriptions for the FPGA Implementation of PWL-Function-Based Multi-Scroll Chaotic Oscillators|10.1371/journal.pone.0168300|26|0|E. Tlelo-Cuautle and A. Quintas-Valles and L. G. de la Fraga and J. Rangel-Magdaleno|1c0543b665dc8cc209d7aa2fa24b8e771baa0af0
+ 1995|A simple denotational semantics, proof theory and a validation condition generator for unit-delay VHDL|10.1007/BF01383872|22|2|Peter T. Breuer and Luis Sánchez-Fernández and C. D. Kloos|97ff0ba97f9aab90c3174a0b378d9fc254ddc1a3
+ 1989|A VHDL compiler based on attribute grammar methodology|10.1145/73141.74829|19|0|Rodney Farrow and A. Stanculescu|e853bf2bec84a2d6ce9fab94e926c95728d6df9a
+ 1997|A refinement calculus for the synthesis of verified hardware descriptions in VHDL|10.1145/262004.262007|18|1|Peter T. Breuer and C. D. Kloos and Andrés Marín López and N. M. Madrid and Luis Sánchez-Fernández|f50caba2299a8bf297514ae2905d4c42530fcaed
+ 2001|An educational environment for VHDL hardware description language using the WWW and specific workbench|10.1109/FIE.2001.963876|17|0|A. Etxebarria and I. Oleagordía and M. Sanchez|89b28bbfc98b8e80ca2f252a61b9308ff5e3f334
+ 2001|VHDL Standards|10.1109/54.953280|15|1|P. Ashenden|7c22efdebce1575636a6a95679cb7e9d2d7633ba
+ 2010|Fuzzy logic controller implementation on a FPGA using VHDL|10.1109/NAFIPS.2010.5548192|14|1|Davi Nunes Oliveira and Arthur Plínio De Souza Braga and Otacílio da Mota Almeida|5c673b78d1e63ac6f73f1fb15b22553283684b07
+ 1995|Denotational semantics of a synchronous VHDL subset|10.1007/BF01383873|11|0|D. Borrione and A. Salem|b3319c892c5b0aa69e41336736ba99dcac9f378c
+ 1997|Source level optimisation of VHDL for behavioural synthesis|10.1049/IP-CDT:19970631|11|1|T.P.K. Nijhar and A. D. Brown|9827364efb7a253c1a87cc62ba4afee22fa17fe4
+ 2003|Transformation of VHDL descriptions into DEVS models for fault modeling|10.1109/ICSMC.2003.1244575|11|0|L. Capocchi and F. Bernardi and D. Federici and P. Bisgambiglia|4bcf61f8160baf127294d5ffc953e13a860b7d49
+ 2010|Design and implementation of a Mamdani Fuzzy Inference System on an FPGA using VHDL|10.1109/NAFIPS.2010.5548190|10|0|Davi Nunes Oliveira and Gustavo Alves de Lima Henn and Otacílio da Mota Almeida|4ee9497b4f706152da5636a3987af3bc8e4bd3bc
+ 2012|Design of FPGA based 8-bit RISC controller IP core using VHDL|10.1109/INDCON.2012.6420656|10|0|R. P. Aneesh and K. Jiju|62bd019dba43b3f6b3b5cab7334d72b362504650
+ 2012|A plug-in to Eclipse for VHDL source codes: functionalities|10.1117/12.2005981|10|0|B. Niton and K. Pozniak and R. Romaniuk|0ba95c75ef89ebce2659c69d6f3c16ed745ea947
+ 1986|VHDL Critique|10.1109/MDT.1986.294917|8|0|J. Nash and Larry F. Saunders|10ba492a9ded9528ca7f5b4d6df99bce5eb0430b
+ 2014|VHDL implementation of IEEE 754 floating point unit|10.1109/ICICES.2014.7033999|8|1|Anjana Sasidharan and P. Nagarajan|afe2bd78298d7258f69eb1581ae6eb7e27d686d8
+ 1998|Application of VHDL to software radio technology|10.1109/IVC.1998.660686|7|0|J. Mccloskey|927431223f02e58668a914d55d6faa4b08e05b4e
+ 2009|Automatic generation of VHDL code from traditional ladder diagrams applying a model-driven engineering approach|10.1109/IECON.2009.5415234|6|0|D. Alonso and J. Suardíaz and P. Navarro and P. Alcover and J.A. Lopez|12b965d688d8e375aef891f3e2e2622ddb1c0684
+ 2010|C to VHDL compiler|10.1117/12.872194|6|0|Piotr P. Berdychowski and Wojciech Zabolotny|bea42052cbc824efc37434c44b6323b7534cd0f5
+ 2016|VHDL models e-assessment in Moodle environment|10.1109/ICETA.2016.7802048|6|0|K. Jelemenska and P. Cicak and M. Gazik|e913e62d72a68bd16d56634dbfef1d1a46eed2d6
+ 1997|ADVISE. Performance evaluation of parallel VHDL simulation|10.1109/SIMSYM.1997.586510|5|0|Wilco Van Hoogstraeten and H. Corporaal|619d7479d26d842136db0820e702e753c867ca60
+ 2013|Combining Software and Hardware Test Generation Methods to Verify VHDL Models|10.5755/j01.itc.42.4.4261|5|0|V. Jusas and Tomas Neverdauskas|c3949af30fa7264f3bd729071d4100878231c350
+ 2013|VHDL Design and Synthesis of 64 bit RISC Processor System on Chip (SoC)|10.9790/4200-0353142|5|1|Navneet Kaur|821c2318b84642225f7331d29696557ea593c591
+ 2018|Designing Digital Systems Using Cartesian Genetic Programming and VHDL|10.1007/978-3-319-67997-6_3|5|0|B. Henson and James Alfred Walker and M. Trefzer and A. Tyrrell|ba08c62f55a4419829df71ed00d91ec02bfc4379
+ 2006|VHDL Implementation of a (255,191) Reed Solomon Coder for DVB-H|10.1109/ISCE.2006.1689531|4|0|M. Mehnert and D.F. von Droste and D. Schiel|a84c91e63422218fbcd63c5ddcf0b7997e489fdb
+ 2017|FPGA implementation of RS codec with interleaver in DVB-T using VHDL|10.14419/IJET.V6I4.8205|4|0|Sara Kamar and Abdelmoniem Fouda and A. Zekry and Abdelmoniem Elmahdy|9fcc6c848e25e67caae95cd73981816adf525ac6
+ 1992|Incremental Design—Application of a Software-based Method for High-level Hardware Design with VHDL|10.1007/978-1-4615-3562-1_19|3|0|A. Hohl|4324a5fd9e183857e2e91c26ba378118687524c4
+ 1998|Modeling digital systems using VHDL|10.1109/45.666643|3|0|P. Ashenden|e3d647aeda4ca7b3e1750fdf67e375b70a6cffbc
+ 2017|VHDL based circuits design and synthesis on FPGA: A dice game example for education|10.1109/SIPROCESS.2017.8124575|3|0|Sarah Toonsi and Miznan G. Behri and S. Qaisar and Enas Melibari and Sarah Alolyan|ef425611ac69bf5c274d1dae140e5310dc19a901
+ 2004|A Small, Effective Vhdl Subset For The Digital Systems Course|10.18260/1-2--14054|2|0|P. Chu|2925c4b23f4999b7dd0f7bfb3e0785788a963be9
+ 2006|Design and Implementation of ARP Functionality Based on VHDL|10.1109/ITST.2006.288751|2|0|Liu Tian-hua and Zhu Hong-feng and Liu Jun and Zhou Chuan-sheng and Chang Gui-ran|d3256a02faa4ef6e74bc14d39a1c39eb29c80cd9
+ 2011|Diseño de un codificador y decodificador digital Reed-Solomon usando programación en VHDL|10.5377/NEXO.V21I01.393|2|0|C. Sandoval and A. Fedón|e8a949fc5db30c8c50626484b32fc063a8e486ae
+ 1999|Adaptive microphone array beamforming for teleconferencing using VHDL and parallel architectures|10.1109/EMPDP.1999.746639|1|0|Tony P. W. Price and D. Howard and A. Lewis and A. Tyrrell|8f65de0ae2550eaee525474b7f1715ed7c9b705e
+ 1991|Switch-Level Modeling in VHDL|10.1007/978-1-4615-3964-3_1|1|0|A. Stanculescu|fdd422be9e2a8914b714d3e459724cd73d6e05fe
+ 2013|Novel Method to Generate Tests for VHDL|10.1007/978-3-642-41947-8_31|1|0|V. Jusas and Tomas Neverdauskas|b1d27adda018659ac9677eb7ed9611680b6408cc
+ 2016|FBDtoVHDL: An Automatic Translation from FBD into VHDL for FPGA Development|10.5626/JOK.2016.43.5.569|1|0|Jaeyeob Kim and Eui-Sub Kim and Junbeom Yoo and Young Jun Lee and J. Choi|b0e3a7ef375095f962ecfcf7f1c604e7a1e042c4
+ 2018|Electronic Circuit and System Design using Python and VHDL|10.1109/ECTICON.2018.8620048|1|0|I. Grout|f502562d4a5352a7ca67872a30fb187587da7712

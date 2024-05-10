@@ -1,116 +1,67 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Maxima
+import ../measures/conceptPage.scroll
+id Maxima
+appeared 1982
+type pl
+website http://maxima.sourceforge.net/
+country United States
+originCommunity Massachusetts Institute of Technology
+domainName maxima.sourceforge.net
 
-title Maxima - Programming language
- hidden
+hasComments true
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasWhileLoops true
+hasConditionals true
+hasFloats true
+hasIntegers true
+hasMultiLineComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="quickbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nasm.html">&gt;</a>
+printToken print
+stringToken "
+keywords if then else elseif do while repeat until for from to downto step thru
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/maxima.pldb
+wikipedia https://en.wikipedia.org/wiki/Maxima_(software)
+ related common-lisp unix linux android algol lisp gnuplot fortran jupyter-editor python qt sagemath r lyx-editor emacs-editor isbn
+ summary Maxima is a computer algebra system (CAS) based on a 1982 version of Macsyma. It is written in Common Lisp and runs on all POSIX platforms such as macOS, Unix, BSD, and Linux, as well as under Microsoft Windows and Android. It is free software released under the terms of the GNU General Public License (GPL).
+ pageId 95925
+ created 2002
+ backlinksCount 250
+ revisionCount 380
+ dailyPageViews 134
+ appeared 1982
 
-startColumns 4
+pygmentsHighlighter Maxima
+ filename maxima.py
+ fileExtensions mac max
 
-<div class="trueBaseThemeQuickLinks"><a href="http://maxima.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="maxima" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/Maxima_(software)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=maxima" class="material-symbols-outlined">edit</a></div>
+projectEuler Maxima
+ memberCount
+  2022 19
+leachim6 Maxima
+ filepath m/Maxima.max
+ fileExtensions max
+ example
+  print("Hello World")$
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Maxima
 
-* Maxima is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
+tryItOnline maxima
 
-dashboard
- #394 <span title="TotalRank: 876 Jobs: 103 Users: 668 Facts: 566 Links: 207">on PLDB</span>
- 42 Years Old
+jupyterKernel https://github.com/robert-dodier/maxima-jupyter
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* Try now: <a href="https://tio.run/#maxima">TIO</a>
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 20190521|Springer Nature|Finite Elements Using Maxima|Andreas Öchsner; Resam Makvandi|9783030171995
+ 2011-10-14|Wiley|Maxima and Minima with Applications|Wilfred Kaplan|9781118031049
 
-* Maxima is a computer algebra system (CAS) based on a 1982 version of Macsyma. It is written in Common Lisp and runs on all POSIX platforms such as macOS, Unix, BSD, and Linux, as well as under Microsoft Windows and Android. It is free software released under the terms of the GNU General Public License (GPL).. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Maxima_(software) Read more on Wikipedia...
-
-- Maxima website
- http://maxima.sourceforge.net/
-- Maxima Wikipedia page
- https://en.wikipedia.org/wiki/Maxima_(software)
-- Maxima first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- file extensions for Maxima include mac and max
-- There are 19 <a href="https://projecteuler.net/language=Maxima">Project Euler</a> users using Maxima
-- Explore Maxima snippets on <a href="http://www.rosettacode.org/wiki/Category:Maxima">Rosetta Code</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/maxima.py">syntax highlighting</a> for Maxima
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/robert-dodier/maxima-jupyter">Kernel</a> for Maxima
-- See also: (16 related languages)<a href="common-lisp.html">Common Lisp</a>, <a href="unix.html">Unix</a>, <a href="linux.html">Linux</a>, <a href="android.html">Android</a>, <a href="algol.html">Algol</a>, <a href="lisp.html">Lisp</a>, <a href="gnuplot.html">Gnuplot</a>, <a href="fortran.html">Fortran</a>, <a href="jupyter-editor.html">Project Jupyter</a>, <a href="python.html">Python</a>, <a href="qt.html">Qt</a>, <a href="sagemath.html">Sage</a>, <a href="r.html">R</a>, <a href="lyx-editor.html">LyX</a>, <a href="emacs-editor.html">Emacs</a>, <a href="isbn.html">ISBN</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Maxima.max'>hello-world</a>:
- print(&quot;Hello World&quot;)$
- 
-
-<div class="keywordsBlock">
-codeWithHeader Maxima <a href="../lists/keywords.html?filter=maxima">Keywords</a>
- if then else elseif do while repeat until for from to downto step thru
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav quickbasic.html nasm.html
-
-import ../footer.scroll
+semanticScholar 4
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2020|FPGA implementation of an Islanding detection technique for microgrid using periodic maxima of superimposed voltage components|10.1049/iet-gtd.2018.5914|7|0|Praveen Kumar and Vishal Kumar and R. Pratap|9e8dc4076a7c78f146cbe5aba3db98a29a178bbf
+ 2019|Search for Global Maxima in Multimodal Functions by Applying Numerical Optimization Algorithms: A Comparison between Golden Section and Simulated Annealing|10.3390/COMPUTATION7030043|7|0|J. Guillot and Diego Restrepo-Leal and Carlos Robles-Algarín and I. Oliveros|4ca5a3622c6d50e7ebc4dc712d27d4d7c7eafa1c
+ 2014|Maxima and Octave in Development of Online Applications: Service Based Approach|10.3991/ijet.v9i5.3848|4|0|K. Žáková|c86ee6956b04e96664e6f5916faa59ede6d5fc96
+ 2017|Clifford Algebra Implementations in Maxima|10.7546/JGSP-43-2017-73-105|1|0|D. Prodanov|7fb000ff96109cd89c76ba039641fee09e2d254d

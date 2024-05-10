@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LAMINA
+import ../measures/conceptPage.scroll
+id LAMINA
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/320c20d18cc4d1770e07df96c84cad64d92b1135
+country United States
+originCommunity Digital Equipment Corporation
 
-title LAMINA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1405
 
-html
- <a class="trueBaseThemePreviousItem" href="kris.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="language-for-class-description.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lamina.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lamina" class="material-symbols-outlined">edit</a></div>
-
-* LAMINA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4191 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- LAMINA first developed in <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a>
-- LAMINA on HOPL
- https://hopl.info/showlanguage.prx?exp=1405
-- Read more about LAMINA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/320c20d18cc4d1770e07df96c84cad64d92b1135 1.
-
-<br>
-
-endColumns
-
-keyboardNav kris.html language-for-class-description.html
-
-import ../footer.scroll
+semanticScholar 0

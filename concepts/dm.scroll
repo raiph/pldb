@@ -1,176 +1,149 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DM
+import ../measures/conceptPage.scroll
+id DM
+appeared 1994
+type pl
+conceptDescription DM is a programming language for the creation of multi-user worlds. By `world' I mean a virtual multi-media environment where people assume personae through which they interact with one another and computer-controlled objects. This could take the form of a competitive game, a role-playing adventure, a discussion board, or something we haven't even imagined.
+website http://www.byond.com/docs/guide/
+reference http://www.byond.com/developer
+fileExtensions dm dmf
+country Unknown
+originCommunity BYOND Software
 
-title DM - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="emberscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cobra.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.byond.com/docs/guide/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=dm" class="material-symbols-outlined">edit</a></div>
-
-* DM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #665 <span title="TotalRank: 1244 Jobs: 103 Users: 1127 Facts: 155 Links: 986">on PLDB</span>
- 30 Years Old
- 2k <span title="DM repos on GitHub.">Repos</span>
-
-* DM is a programming language for the creation of multi-user worlds. By `world' I mean a virtual multi-media environment where people assume personae through which they interact with one another and computer-controlled objects. This could take the form of a competitive game, a role-playing adventure, a discussion board, or something we haven't even imagined.
-
-- DM website
- http://www.byond.com/docs/guide/
-- There are at least 2,108 DM repos on <a href="https://github.com/search?q=language:DM">GitHub</a>
-- DM first developed in <a href="../lists/originCommunities.html#byondSoftware">BYOND Software</a>
-- file extensions for DM include dm and dmf
-- The  Google BigQuery Public Dataset GitHub snapshot shows 338 users using DM in 394 repos on <a href="https://api.github.com/search/repositories?q=language:DM">GitHub</a>
-- Explore DM snippets on <a href="http://www.rosettacode.org/wiki/Category:DM">Rosetta Code</a>
-- GitHub supports <a href="https://github.com/PJB3005/atomic-dreams" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for DM
-- Read more about DM on the web: 1.
- http://www.byond.com/developer 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  mob
    verb
       smile()
-         world &lt;&lt; &quot;[usr] grins.&quot;
+         world << "[usr] grins."
       giggle()
-         world &lt;&lt; &quot;[usr] giggles.&quot;
+         world << "[usr] giggles."
       cry()
-         world &lt;&lt; &quot;[usr] cries \his heart out.&quot;
+         world << "[usr] cries \his heart out."
 
-codeWithHeader Example from <a href='https://github.com/PJB3005/atomic-dreams'>Linguist</a>:
- // This is a single line comment.
- /*
- 	This is a multi-line comment
- */
- 
- // Pre-processor keywords
- 
- #define PI 3.1415
- 
- #if PI == 4
- 
- #define G 5
- 
- #elif PI == 3
- 
- #define I 6
- 
- #else
- 
- #define K 7
- 
- #endif
- 
- 
- var/GlobalCounter = 0
- var/const/CONST_VARIABLE = 2
- var/list/MyList = list(&quot;anything&quot;, 1, new /datum/entity)
- var/list/EmptyList[99] // creates a list of 99 null entries
- var/list/NullList = null
- 
- /*
- 	Entity Class
- */
- 
- /datum/entity
- 	var/name = &quot;Entity&quot;
- 	var/number = 0
- 
- /datum/entity/proc/myFunction()
- 	world.log &lt;&lt; &quot;Entity has called myFunction&quot;
- 
- /datum/entity/New()
- 	number = GlobalCounter++
- 
- /*
- 	Unit Class, Extends from Entity
- */
- 
- /datum/entity/unit
- 	name = &quot;Unit&quot;
- 
- /datum/entity/unit/New()
- 	..() // calls the parent&#39;s proc; equal to super() and base() in other languages
- 	number = rand(1, 99)
- 
- /datum/entity/unit/myFunction()
- 	world.log &lt;&lt; &quot;Unit has overriden and called myFunction&quot;
- 
- // Global Function
- /proc/ReverseList(var/list/input)
- 	var/list/output = list()
- 	for(var/i = input.len; i &gt;= 1; i--) // IMPORTANT: List Arrays count from 1.
- 		output += input[i] // &quot;+= x&quot; is &quot;.Add(x)&quot;
- 	return output
- 
- // Bitflags
- /proc/DoStuff()
- 	var/bitflag = 0
- 	bitflag |= 8
- 	return bitflag
- 
- /proc/DoOtherStuff()
- 	var/bitflag = 65535 // 16 bits is the maximum amount
- 	bitflag &amp;= ~8
- 	return bitflag
- 
- // Logic
- /proc/DoNothing()
- 	var/pi = PI
- 	if(pi == 4)
- 		world.log &lt;&lt; &quot;PI is 4&quot;
- 	else if(pi == CONST_VARIABLE)
- 		world.log &lt;&lt; &quot;PI is [CONST_VARIABLE]!&quot;
- 	else
- 		world.log &lt;&lt; &quot;PI is approximety [pi]&quot;
- 
- #undef PI // Undefine PI
+githubLanguage DM
+ fileExtensions dm
+ trendingProjectsCount 0
+ type programming
+ aceMode c_cpp
+ tmScope source.dm
+ aliases byond
+ repos 2108
+githubBigQuery DM
+ repos 394
+ users 338
 
-endColumns
+linguistGrammarRepo https://github.com/PJB3005/atomic-dreams
+ firstCommit 2016
+ lastCommit 2016
+ committerCount 1
+ commitCount 24
+ sampleCount 1
+ example
+  // This is a single line comment.
+  /*
+  	This is a multi-line comment
+  */
+  
+  // Pre-processor keywords
+  
+  #define PI 3.1415
+  
+  #if PI == 4
+  
+  #define G 5
+  
+  #elif PI == 3
+  
+  #define I 6
+  
+  #else
+  
+  #define K 7
+  
+  #endif
+  
+  
+  var/GlobalCounter = 0
+  var/const/CONST_VARIABLE = 2
+  var/list/MyList = list("anything", 1, new /datum/entity)
+  var/list/EmptyList[99] // creates a list of 99 null entries
+  var/list/NullList = null
+  
+  /*
+  	Entity Class
+  */
+  
+  /datum/entity
+  	var/name = "Entity"
+  	var/number = 0
+  
+  /datum/entity/proc/myFunction()
+  	world.log << "Entity has called myFunction"
+  
+  /datum/entity/New()
+  	number = GlobalCounter++
+  
+  /*
+  	Unit Class, Extends from Entity
+  */
+  
+  /datum/entity/unit
+  	name = "Unit"
+  
+  /datum/entity/unit/New()
+  	..() // calls the parent's proc; equal to super() and base() in other languages
+  	number = rand(1, 99)
+  
+  /datum/entity/unit/myFunction()
+  	world.log << "Unit has overriden and called myFunction"
+  
+  // Global Function
+  /proc/ReverseList(var/list/input)
+  	var/list/output = list()
+  	for(var/i = input.len; i >= 1; i--) // IMPORTANT: List Arrays count from 1.
+  		output += input[i] // "+= x" is ".Add(x)"
+  	return output
+  
+  // Bitflags
+  /proc/DoStuff()
+  	var/bitflag = 0
+  	bitflag |= 8
+  	return bitflag
+  
+  /proc/DoOtherStuff()
+  	var/bitflag = 65535 // 16 bits is the maximum amount
+  	bitflag &= ~8
+  	return bitflag
+  
+  // Logic
+  /proc/DoNothing()
+  	var/pi = PI
+  	if(pi == 4)
+  		world.log << "PI is 4"
+  	else if(pi == CONST_VARIABLE)
+  		world.log << "PI is [CONST_VARIABLE]!"
+  	else
+  		world.log << "PI is approximety [pi]"
+  
+  #undef PI // Undefine PI
 
-## Language <a href="../lists/features.html">features</a>
+rosettaCode http://www.rosettacode.org/wiki/Category:DM
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+fileType text
+wordRank 7101
+centralPackageRepositoryCount 0
 
-keyboardNav emberscript.html cobra.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2009|Apress|Pro SpringSource dm Server (Expert's Voice in Open Source)|Mak, Gary and Rubio, Daniel|9781430216407

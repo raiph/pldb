@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Magic Paper
+import ../measures/conceptPage.scroll
+id Magic Paper
+appeared 1963
+type pl
+creators Jean E. Sammet
+conceptDescription Early interactive symbolic math system.
+country United States
+originCommunity IBM
 
-title Magic Paper - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=432
 
-html
- <a class="trueBaseThemePreviousItem" href="mads.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mapquery.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/magic-paper.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=magic-paper" class="material-symbols-outlined">edit</a></div>
-
-* Magic Paper is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963 by Jean E. Sammet.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
- link ../lists/creators.html#jeanESammet Jean E. Sammet
-
-dashboard
- #4214 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 61 Years Old
-
-* Early interactive symbolic math system.
-
-- Magic Paper first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- Magic Paper on HOPL
- https://hopl.info/showlanguage.prx?exp=432
-
-<br>
-
-endColumns
-
-keyboardNav mads.html mapquery.html
-
-import ../footer.scroll
+semanticScholar https://www.semanticscholar.org/paper/Survey-of-formula-manipulation-Sammet/90b223f69107e0b9e6d8bf4815ac8f95aaa63a3b

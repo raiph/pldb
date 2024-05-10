@@ -1,50 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Forml
+import ../measures/conceptPage.scroll
+id Forml
+appeared 2011
+type pl
+creators Andrew Stein
+conceptDescription A contemporary programming language for the discriminating programmer, intended to approximate the safety of Haskell and the expressiveness of Ruby. Should such an approximation turn out to exist.
+website http://texodus.github.io/forml/
+country United States
+originCommunity https://github.com/texodus
 
-title Forml - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="savi.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="webdna.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/forml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://texodus.github.io/forml/" class="material-symbols-outlined">home</a> <a href="https://github.com/texodus/forml/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=forml" class="material-symbols-outlined">edit</a></div>
-
-* Forml is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Andrew Stein.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#andrewStein Andrew Stein
-
-codeWithHeader Source code:
- git clone https://github.com/texodus/forml/
-
-dashboard
- #1809 <span title="TotalRank: 2345 Jobs: 103 Users: 1374 Facts: 1256 Links: 986">on PLDB</span>
- 13 Years Old
-
-* A contemporary programming language for the discriminating programmer, intended to approximate the safety of Haskell and the expressiveness of Ruby. Should such an approximation turn out to exist.
-
-- Forml website
- http://texodus.github.io/forml/
-- Forml is developed on <a href="https://github.com/texodus/forml/">GitHub</a> and has 76 stars
-- Forml first developed in <a href="../lists/originCommunities.html#httpsGithubComTexodus">https://github.com/texodus</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
      hello_world = do
-         `console.log(&quot;Hello World&quot;)` -- Calls to Javascript always return type `JS a`
-         x &lt;- `Math.sqrt(9)`          -- `x` is inferred to be the unrestricted type `a`
+         `console.log("Hello World")` -- Calls to Javascript always return type `JS a`
+         x <- `Math.sqrt(9)`          -- `x` is inferred to be the unrestricted type `a`
          let z = x + 1                -- `x` is now restricted to type `Num`
          return (z + 1)                  -- type of `hello_world` is inferred to be `JS Num`
-     8 == do! hello_world &gt;&gt;= λx = `x + 3`
+     8 == do! hello_world >>= λx = `x + 3`
 
-endColumns
+githubRepo https://github.com/texodus/forml/
+ stars 76
+ forks 15
+ subscribers 9
+ created 2011
+ updated 2013
+ description A programming language
 
-keyboardNav savi.html webdna.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 327
+ committers 14
+ files 57

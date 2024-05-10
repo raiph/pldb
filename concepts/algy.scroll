@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALGY
+import ../measures/conceptPage.scroll
+id ALGY
+appeared 1961
+type pl
+reference https://semanticscholar.org/paper/203833984d0cac5c9c4eedddd80e435812fdb23b
+originCommunity Philco Corporation
 
-title ALGY - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=363
 
-html
- <a class="trueBaseThemePreviousItem" href="algol-e.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alma-o.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=algy" class="material-symbols-outlined">edit</a></div>
-
-* ALGY is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1961.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1961 1961
-
-dashboard
- #3348 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 63 Years Old
-
-* 
-
-- ALGY first developed in <a href="../lists/originCommunities.html#philcoCorporation">Philco Corporation</a>
-- ALGY on HOPL
- https://hopl.info/showlanguage.prx?exp=363
-- Read more about ALGY on Semantic Scholar: 1.
- https://semanticscholar.org/paper/203833984d0cac5c9c4eedddd80e435812fdb23b 1.
-
-<br>
-
-endColumns
-
-keyboardNav algol-e.html alma-o.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

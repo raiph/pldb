@@ -1,40 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Aardappel
+import ../measures/conceptPage.scroll
+id Aardappel
+appeared 1997
+type pl
+creators Wouter Van Oortmerssen
+reference https://semanticscholar.org/paper/24495ce84438ba182e1b1bf006d61d7cc7757211
+originCommunity University of Southampton
 
-title Aardappel - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5743
 
-html
- <a class="trueBaseThemePreviousItem" href="a51.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abc-algol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aardappel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aardappel" class="material-symbols-outlined">edit</a></div>
-
-* Aardappel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997 by Wouter Van Oortmerssen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
- link ../lists/creators.html#wouterVanOortmerssen Wouter Van Oortmerssen
-
-dashboard
- #3459 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Aardappel first developed in <a href="../lists/originCommunities.html#universityOfSouthampton">University of Southampton</a>
-- Aardappel on HOPL
- https://hopl.info/showlanguage.prx?exp=5743
-- Read more about Aardappel on Semantic Scholar: 1.
- https://semanticscholar.org/paper/24495ce84438ba182e1b1bf006d61d7cc7757211 1.
-
-<br>
-
-endColumns
-
-keyboardNav a51.html abc-algol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

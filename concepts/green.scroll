@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Green
+import ../measures/conceptPage.scroll
+id Green
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/7ebc66016de5b80c08e8ec63305a899acec795af
+country Brazil
+originCommunity Universidade Federal de São Carlos
 
-title Green - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2075
 
-html
- <a class="trueBaseThemePreviousItem" href="grapheasy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="groove.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/green.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=green" class="material-symbols-outlined">edit</a></div>
-
-* Green is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #4157 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Green first developed in <a href="../lists/originCommunities.html#universidadeFederalDeSaoCarlos">Universidade Federal de São Carlos</a>
-- Green on HOPL
- https://hopl.info/showlanguage.prx?exp=2075
-- Read more about Green on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7ebc66016de5b80c08e8ec63305a899acec795af 1.
-
-<br>
-
-endColumns
-
-keyboardNav grapheasy.html groove.html
-
-import ../footer.scroll
+wordRank 733
+centralPackageRepositoryCount 0

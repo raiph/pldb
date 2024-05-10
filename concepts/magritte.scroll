@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title magritte
-
-title magritte - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="magma2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="malus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/magritte.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=magritte" class="material-symbols-outlined">edit</a></div>
-
-* magritte is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Jeanine Adkisson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#jeanineAdkisson Jeanine Adkisson
-
-dashboard
- #3805 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 5 Years Old
-
-* This work proposes Magritte, a general-purpose language that is viable as a shell scripting language
-
-- magritte first developed in <a href="../lists/originCommunities.html#tokyoInstituteOfTechnology">Tokyo Institute Of Technology</a>
-- Read more about magritte on the web: 1.
- http://files.jneen.net/academic/thesis.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav magma2.html malus.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id magritte
+appeared 2019
+type pl
+creators Jeanine Adkisson
+conceptDescription This work proposes Magritte, a general-purpose language that is viable as a shell scripting language
+reference http://files.jneen.net/academic/thesis.pdf
+country Japan
+originCommunity Tokyo Institute Of Technology

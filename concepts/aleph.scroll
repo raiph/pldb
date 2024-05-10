@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALEPH
+import ../measures/conceptPage.scroll
+id ALEPH
+appeared 1992
+type pl
+reference http://wiki.c2.com/?AlephLanguage
 
-title ALEPH - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1801
 
-html
- <a class="trueBaseThemePreviousItem" href="acsi-matic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algol-68-rt.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aleph.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aleph" class="material-symbols-outlined">edit</a></div>
-
-* ALEPH is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3156 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- ALEPH on HOPL
- https://hopl.info/showlanguage.prx?exp=1801
-- Read more about ALEPH on the web: 1.
- http://wiki.c2.com/?AlephLanguage 1.
-
-<br>
-
-endColumns
-
-keyboardNav acsi-matic.html algol-68-rt.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

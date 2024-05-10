@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ROSCOE
+import ../measures/conceptPage.scroll
+id ROSCOE
+appeared 1979
+type pl
+reference https://openlibrary.org/books/OL14165919M/ROSCOE_programming_language_(RPF)_handbook.
+standsFor Remote OS Conversational Operating Environment
+country United States
+originCommunity Applied Data Research, Inc
 
-title ROSCOE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2378
 
-html
- <a class="trueBaseThemePreviousItem" href="robotalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="runcible.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/roscoe.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=roscoe" class="material-symbols-outlined">edit</a></div>
-
-* ROSCOE, aka Remote OS Conversational Operating Environment, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #4286 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- ROSCOE first developed in <a href="../lists/originCommunities.html#appliedDataResearchInc">Applied Data Research, Inc</a>
-- ROSCOE on HOPL
- https://hopl.info/showlanguage.prx?exp=2378
-- Read more about ROSCOE on the web: 1.
- https://openlibrary.org/books/OL14165919M/ROSCOE_programming_language_(RPF)_handbook. 1.
-
-<br>
-
-endColumns
-
-keyboardNav robotalk.html runcible.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

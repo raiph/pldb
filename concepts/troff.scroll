@@ -1,49 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Troff
+import ../measures/conceptPage.scroll
+id Troff
+appeared 1973
+type textMarkup
+conceptDescription The Text Processor for Typesetters
+website https://www.troff.org/
+country United States
+domainName troff.org
 
-title Troff - Text markup language
- hidden
+wikipedia https://en.wikipedia.org/wiki/Troff
+ related unix bcpl assembly-language c latex scheme unicode tex scribe
+ summary troff  is the major component of a document processing system developed by AT&T Corporation for the Unix operating system. troff features commands to designate fonts, spacing, paragraphs, margins, footnotes and more. Unlike many other text formatters, troff can position characters arbitrarily on a page, even overlapping them, and has a fully programmable input language. Separate preprocessors are used for more convenient production of tables, diagrams, and mathematics. Inputs to troff are plain text files that can be created by any text editor. Extensive macro packages have been created for various document styles. A typical distribution of troff includes the me macros for formatting research papers, man and mdoc macros for creating Unix man pages, mv macros for creating mountable transparencies, and the ms and mm macros for letters, books, technical memoranda, and reports.
+ pageId 30811
+ dailyPageViews 94
+ created 2001
+ backlinksCount 134
+ revisionCount 186
+ appeared 1960
 
-html
- <a class="trueBaseThemePreviousItem" href="objective-cpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rpl.html">&gt;</a>
+codeMirror troff
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/troff.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.troff.org/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Troff"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=troff" class="material-symbols-outlined">edit</a></div>
-
-* Troff is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #508 <span title="TotalRank: 1048 Jobs: 103 Users: 738 Facts: 1123 Links: 207">on PLDB</span>
- 51 Years Old
-
-* troff  is the major component of a document processing system developed by AT&T Corporation for the Unix operating system. troff features commands to designate fonts, spacing, paragraphs, margins, footnotes and more. Unlike many other text formatters, troff can position characters arbitrarily on a page, even overlapping them, and has a fully programmable input language. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Troff Read more on Wikipedia...
-
-- Troff website
- https://www.troff.org/
-- Troff Wikipedia page
- https://en.wikipedia.org/wiki/Troff
-- Troff on HOPL
- https://hopl.info/showlanguage.prx?exp=2589
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/troff">package</a> for syntax highlighting Troff
-- See also: (9 related languages)<a href="unix.html">Unix</a>, <a href="bcpl.html">BCPL</a>, <a href="assembly-language.html">Assembly language</a>, <a href="c.html">C</a>, <a href="latex.html">LaTeX</a>, <a href="scheme.html">Scheme</a>, <a href="unicode.html">Unicode</a>, <a href="tex.html">Tex</a>, <a href="scribe.html">Scribe</a>
-
-<br>
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#TROFF'>the Hello World Collection</a>:
- \&quot;	&quot;Hello, world!&quot; in troff
+helloWorldCollection TROFF
+ \"	"Hello, world!" in troff
  
  Hello, world!
  
 
-endColumns
+hopl https://hopl.info/showlanguage.prx?exp=2589
 
-keyboardNav objective-cpp.html rpl.html
+fileType text
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Free Typesetting Software: LaTeX, Troff, Scribus, FIGlet, Lout, Noweb, FreeType, Graphite, Groff,|2010|Books LLC|16221131|0.0|0|0
+
+isbndb 0
+
+semanticScholar 0

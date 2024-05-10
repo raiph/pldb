@@ -1,44 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UnQL
+import ../measures/conceptPage.scroll
+id UnQL
+appeared 2000
+type queryLanguage
+creators Peter Buneman and Mary Fernandez and Dan Suciu
+conceptDescription A Query Language and Algebra for Semistructured Data Based on Structural Recursion
+reference https://www.researchgate.net/publication/2458246_UnQL_A_Query_Language_and_Algebra_for_Semistructured_Data_Based_on_Structural_Recursion
 
-title UnQL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tl-isa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="watfor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=unql" class="material-symbols-outlined">edit</a></div>
-
-* UnQL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2000 by Peter Buneman and Mary Fernandez and Dan Suciu.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#peterBuneman Peter Buneman
- link ../lists/creators.html#maryFernandez Mary Fernandez
- link ../lists/creators.html#danSuciu Dan Suciu
-
-dashboard
- #3022 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 24 Years Old
-
-* A Query Language and Algebra for Semistructured Data Based on Structural Recursion
-
-- Read more about UnQL on the web: 1.
- https://www.researchgate.net/publication/2458246_UnQL_A_Query_Language_and_Algebra_for_Semistructured_Data_Based_on_Structural_Recursion 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  query Q1 :=
   select {result: E}
-  where {country: {name: &quot;France&quot;, people: {ethnicGroup: E}}} in db
+  where {country: {name: "France", people: {ethnicGroup: E}}} in db
 
-endColumns
-
-keyboardNav tl-isa.html watfor.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2015|Iteration Algebras for UnQL Graphs and Completeness for Bisimulation|10.4204/EPTCS.191.8|3|0|Makoto Hamana|00b6072ba7ecf7d1281c1aaa7bac7a82bc6a277e

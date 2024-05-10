@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lincoln Reckoner
+import ../measures/conceptPage.scroll
+id Lincoln Reckoner
+appeared 1965
+type pl
+reference https://semanticscholar.org/paper/fdcb44164e2ba9bf6132ef5eec4412fe119b598a
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title Lincoln Reckoner - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=229
 
-html
- <a class="trueBaseThemePreviousItem" href="libra.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lingua-graphica.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lincoln-reckoner.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lincoln-reckoner" class="material-symbols-outlined">edit</a></div>
-
-* Lincoln Reckoner is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #3784 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- Lincoln Reckoner first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- Lincoln Reckoner on HOPL
- https://hopl.info/showlanguage.prx?exp=229
-- Read more about Lincoln Reckoner on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fdcb44164e2ba9bf6132ef5eec4412fe119b598a 1.
-
-<br>
-
-endColumns
-
-keyboardNav libra.html lingua-graphica.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

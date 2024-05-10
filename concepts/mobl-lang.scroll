@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mobl
+import ../measures/conceptPage.scroll
+id Mobl
+appeared 2010
+type pl
+creators Zef Hemel
+website https://www.mobl-lang.org/
+country The Netherlands
+originCommunity https://github.com/mobl
 
-title Mobl - Programming language
- hidden
+githubRepo https://github.com/mobl/mobl
+ stars 110
+ forks 22
+ subscribers 8
+ created 2010
+ updated 2013
+ description Domain-specific language for mobile (web) applications. This repository contains the compiler sources and Eclipse project.
 
-html
- <a class="trueBaseThemePreviousItem" href="croma.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cperl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mobl-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.mobl-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/mobl/mobl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mobl-lang" class="material-symbols-outlined">edit</a></div>
-
-* Mobl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Zef Hemel.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#zefHemel Zef Hemel
-
-codeWithHeader Source code:
- git clone https://github.com/mobl/mobl
-
-dashboard
- #1790 <span title="TotalRank: 2310 Jobs: 103 Users: 1221 Facts: 1890 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Domain-specific language for mobile (web) applications. This repository contains the compiler sources and Eclipse project.
-
-- Mobl website
- https://www.mobl-lang.org/
-- Mobl is developed on <a href="https://github.com/mobl/mobl">GitHub</a> and has 110 stars
-- Mobl first developed in <a href="../lists/originCommunities.html#httpsGithubComMobl">https://github.com/mobl</a>
-
-<br>
-
-endColumns
-
-keyboardNav croma.html cperl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 663
+ committers 15
+ files 388

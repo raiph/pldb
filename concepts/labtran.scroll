@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LABTRAN
+import ../measures/conceptPage.scroll
+id LABTRAN
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/63cd2c71567ce68a860614381f5256bf1086aad4
+country United States
+originCommunity University of Wisconsin System
 
-title LABTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3701
 
-html
- <a class="trueBaseThemePreviousItem" href="kylix.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="larch.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/labtran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=labtran" class="material-symbols-outlined">edit</a></div>
-
-* LABTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3773 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- LABTRAN first developed in <a href="../lists/originCommunities.html#universityOfWisconsinSystem">University of Wisconsin System</a>
-- LABTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=3701
-- Read more about LABTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/63cd2c71567ce68a860614381f5256bf1086aad4 1.
-
-<br>
-
-endColumns
-
-keyboardNav kylix.html larch.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

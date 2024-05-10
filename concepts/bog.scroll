@@ -1,146 +1,82 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title bog
+import ../measures/conceptPage.scroll
+id bog
+appeared 2020
+type pl
+conceptDescription Small, strongly typed, embeddable language.
+country Finland
+originCommunity https://github.com/Vexu/bog/issues
 
-title bog - Programming language
- hidden
+writtenIn zig
 
-html
- <a class="trueBaseThemePreviousItem" href="mesa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="maxscript.html">&gt;</a>
+hasPrintDebugging true
+hasAssignment true
+ let pldb = "pldb"
+hasStrings true
+ "pldb"
+hasImports true
+ let {print} = import "std.io"
+hasSemanticIndentation true
+hasDestructuring true
+ let add = fn ((a,b)) a + b
+ let tuplify = fn (a,b) (a,b)
+ return add(tuplify(1,2)) # 3
+hasTryCatch true
+ let foo = fn(arg)
+   try
+       fails_on_1(arg)
+       fails_on_2(arg)
+       fails_on_3(arg)
+   catch let err
+       return err
+   return 99
+hasForLoops true
+ let mut sum = 0
+ for let c in "hellö wörld"
+   match c
+       "h" => sum += 1
+       "e" => sum += 2
+       "l" => sum += 3
+       "ö" => sum += 4
+       "w" => sum += 5
+       "d" => sum += 6
+hasAsyncAwait true
+ let {print} = import "std.io"
+ let foo = fn()
+     print("foo started")
+     let bar_frame = async bar()
+     print("in foo")
+     let bar_res = await bar_frame
+     print("foo finished")
+     return bar_res
+ let bar = fn()
+     print("bar started")
+     suspend
+     print("bar resumed")
+     suspend
+     print("bar finished")
+     return 1
+ print("main started")
+ let foo_frame = async foo()
+ print("in main")
+ let res = await foo_frame
+ print("main finished:", res)
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bog.pldb
+example
+ let {print} = import "std.io"
+ let world = "world"
+ print(f"hello {world}!")
 
-startColumns 4
+githubRepo https://github.com/Vexu/bog
+ stars 254
+ forks 5
+ subscribers 10
+ created 2020
+ updated 2023
+ description Small, strongly typed, embeddable language.
+ issues 5
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Vexu/bog" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bog" class="material-symbols-outlined">edit</a></div>
-
-* bog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/Vexu/bog
-
-dashboard
- #924 <span title="TotalRank: 1494 Jobs: 103 Users: 1010 Facts: 405 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Small, strongly typed, embeddable language.
-
-- bog is developed on <a href="https://github.com/Vexu/bog">GitHub</a> and has 254 stars
-- bog first developed in <a href="../lists/originCommunities.html#httpsGithubComVexuBogIssues">https://github.com/Vexu/bog/issues</a>
-- bog is written in <a href="zig.html">Zig</a>
-
-<br>
-
-codeWithHeader Example from the web:
- let {print} = import &quot;std.io&quot;
- let world = &quot;world&quot;
- print(f&quot;hello {world}!&quot;)
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Async Await
-  FeatureLink ../features/hasAsyncAwait.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   let {print} = import "std.io"
-   let foo = fn()
-       print("foo started")
-       let bar_frame = async bar()
-       print("in foo")
-       let bar_res = await bar_frame
-       print("foo finished")
-       return bar_res
-   let bar = fn()
-       print("bar started")
-       suspend
-       print("bar resumed")
-       suspend
-       print("bar finished")
-       return 1
-   print("main started")
-   let foo_frame = async foo()
-   print("in main")
-   let res = await foo_frame
-   print("main finished:", res)
- row
-  Feature hasForLoops
-  FeatureLink ../features/hasForLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   let mut sum = 0
-   for let c in "hellö wörld"
-     match c
-         "h" => sum += 1
-         "e" => sum += 2
-         "l" => sum += 3
-         "ö" => sum += 4
-         "w" => sum += 5
-         "d" => sum += 6
- row
-  Feature hasTryCatch
-  FeatureLink ../features/hasTryCatch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   let foo = fn(arg)
-     try
-         fails_on_1(arg)
-         fails_on_2(arg)
-         fails_on_3(arg)
-     catch let err
-         return err
-     return 99
- row
-  Feature Destructuring
-  FeatureLink ../features/hasDestructuring.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   let add = fn ((a,b)) a + b
-   let tuplify = fn (a,b) (a,b)
-   return add(tuplify(1,2)) # 3
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   let {print} = import "std.io"
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   "pldb"
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   let pldb = "pldb"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav mesa.html maxscript.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 441
+ committers 8
+ files 52

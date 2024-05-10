@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GPSS FORTRAN
+import ../measures/conceptPage.scroll
+id GPSS FORTRAN
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/cdb06406fcc97553711a7bfc5b8543313ed8d375
+country Germany
+originCommunity University of Erlangen-Nuremberg
 
-title GPSS FORTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6137
 
-html
- <a class="trueBaseThemePreviousItem" href="gpss-360.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gpss-fortran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gpss-fortran" class="material-symbols-outlined">edit</a></div>
-
-* GPSS FORTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3700 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- GPSS FORTRAN first developed in <a href="../lists/originCommunities.html#universityOfErlangenNuremberg">University of Erlangen-Nuremberg</a>
-- GPSS FORTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=6137
-- Read more about GPSS FORTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cdb06406fcc97553711a7bfc5b8543313ed8d375 1.
-
-<br>
-
-endColumns
-
-keyboardNav gpss-360.html gql.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

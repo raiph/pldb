@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title httplang
+import ../measures/conceptPage.scroll
+id httplang
+appeared 2015
+type pl
+country United States and Kazakhstan
+originCommunity https://github.com/f-prime
 
-title httplang - Programming language
- hidden
+githubRepo https://github.com/Max00355/HTTPLang
+ firstCommit 2015
+ stars 504
+ forks 26
+ subscribers 19
+ created 2015
+ updated 2021
+ description A scripting langauge to do HTTP routines. 
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="spec-sharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algebraic-modeling-language.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 49
+ committers 11
+ files 21
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/httplang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Max00355/HTTPLang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=httplang" class="material-symbols-outlined">edit</a></div>
-
-* httplang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/Max00355/HTTPLang
-
-dashboard
- #1272 <span title="TotalRank: 1805 Jobs: 103 Users: 716 Facts: 1591 Links: 986">on PLDB</span>
- 9 Years Old
-
-* A scripting langauge to do HTTP routines. 
-
-- httplang is developed on <a href="https://github.com/Max00355/HTTPLang">GitHub</a> and has 504 stars
-- httplang first developed in <a href="../lists/originCommunities.html#httpsGithubComFPrime">https://github.com/f-prime</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of httplang
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: HTTPLang – a scripting language for making HTTP requests|https://news.ycombinator.com/item?id=9598443|05/25/2015|44|8
-
-keyboardNav spec-sharp.html algebraic-modeling-language.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 9598443|Show HN: HTTPLang – a scripting language for making HTTP requests|2015-05-25 02:58:33 UTC|1432522713|max0563|8|44

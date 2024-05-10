@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pebble
+import ../measures/conceptPage.scroll
+id Pebble
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/81af48482535018e2ae3a6b34f5e6995f1844850
+country United States and Scotland
+originCommunity Digital Equipment Corporation && University of Edinburgh
 
-title Pebble - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1107
 
-html
- <a class="trueBaseThemePreviousItem" href="pdl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pei.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pebble.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pebble" class="material-symbols-outlined">edit</a></div>
-
-* Pebble is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3926 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Pebble first developed in <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a> and <a href="../lists/originCommunities.html#universityOfEdinburgh">University of Edinburgh</a>
-- Pebble on HOPL
- https://hopl.info/showlanguage.prx?exp=1107
-- Read more about Pebble on Semantic Scholar: 1.
- https://semanticscholar.org/paper/81af48482535018e2ae3a6b34f5e6995f1844850 1.
-
-<br>
-
-endColumns
-
-keyboardNav pdl.html pei.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KRS
+import ../measures/conceptPage.scroll
+id KRS
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/a83fe3e15a15b154c0198a9680f9ad3de81e55cb
+country Canada
+originCommunity University of Calgary
 
-title KRS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2147
 
-html
- <a class="trueBaseThemePreviousItem" href="krl-0.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="krypton.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/krs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=krs" class="material-symbols-outlined">edit</a></div>
-
-* KRS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3769 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- KRS first developed in <a href="../lists/originCommunities.html#universityOfCalgary">University of Calgary</a>
-- KRS on HOPL
- https://hopl.info/showlanguage.prx?exp=2147
-- Read more about KRS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a83fe3e15a15b154c0198a9680f9ad3de81e55cb 1.
-
-<br>
-
-endColumns
-
-keyboardNav krl-0.html krypton.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

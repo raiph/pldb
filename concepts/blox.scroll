@@ -1,52 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Blox
+import ../measures/conceptPage.scroll
+id Blox
+appeared 2018
+type pl
 
-title Blox - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="texti.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rosette-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blox.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ciromoraismedeiros/blox-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=blox" class="material-symbols-outlined">edit</a></div>
-
-* Blox is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/ciromoraismedeiros/blox-lang
-
-dashboard
- #1702 <span title="TotalRank: 2212 Jobs: 103 Users: 2392 Facts: 1123 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Blox programming language
-
-- Blox is developed on <a href="https://github.com/ciromoraismedeiros/blox-lang">GitHub</a> and has 0 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  print(1+2*3/4)
  
  print(3.0-1.5)
  
- print(1 &gt; 0)
- print(1 &lt; 0)
- print(1 &gt;= 0)
- print(1 &lt;= 0)
+ print(1 > 0)
+ print(1 < 0)
+ print(1 >= 0)
+ print(1 <= 0)
  print(1 == 0)
  print(1 != 0)
  
  print(not TRUE and FALSE or TRUE)
 
-endColumns
+githubRepo https://github.com/ciromoraismedeiros/blox-lang
+ stars 0
+ forks 1
+ subscribers 1
+ created 2018
+ updated 2018
+ description Blox programming language
+ issues 0
 
-keyboardNav texti.html rosette-lang.html
+repoStats
+ firstCommit 2018
+ commits 47
+ committers 2
+ files 25
 
-import ../footer.scroll
+centralPackageRepositoryCount 0

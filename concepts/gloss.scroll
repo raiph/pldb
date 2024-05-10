@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GLOSS
+import ../measures/conceptPage.scroll
+id GLOSS
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/7d081b13a518486bc3b26c1931a51c1b509c7bbb
+country United States
+originCommunity University of Washington
 
-title GLOSS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4380
 
-html
- <a class="trueBaseThemePreviousItem" href="gel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="herbrand.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gloss.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gloss" class="material-symbols-outlined">edit</a></div>
-
-* GLOSS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3059 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- GLOSS first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- GLOSS on HOPL
- https://hopl.info/showlanguage.prx?exp=4380
-- Read more about GLOSS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7d081b13a518486bc3b26c1931a51c1b509c7bbb 1.
-
-<br>
-
-endColumns
-
-keyboardNav gel.html herbrand.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2013|Toward a new transcription model in XML for Sign Language Processing based on gloss annotation system|10.1109/ICTA.2013.6815317|3|0|Achraf Othman and Raouia Hamdoun|baa968e36807320be26d233ed2f1f1f5360392b0

@@ -1,39 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bounce
+import ../measures/conceptPage.scroll
+id Bounce
+appeared 2016
+type pl
+country United Kingdom
+originCommunity https://github.com/orionrobots
 
-title Bounce - Programming language
- hidden
+githubRepo https://github.com/orionrobots/Bounce
+ stars 53
+ forks 20
+ subscribers 17
+ created 2016
+ updated 2022
+ description Visual Programming System For Esp8266 running NodeMCU
+ issues 15
 
-html
- <a class="trueBaseThemePreviousItem" href="macbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pascal-script.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bounce-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/orionrobots/Bounce" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bounce-lang" class="material-symbols-outlined">edit</a></div>
-
-* Bounce is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/orionrobots/Bounce
-
-dashboard
- #1988 <span title="TotalRank: 2502 Jobs: 103 Users: 1413 Facts: 1982 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Visual Programming System For Esp8266 running NodeMCU
-
-- Bounce is developed on <a href="https://github.com/orionrobots/Bounce">GitHub</a> and has 53 stars
-- Bounce first developed in <a href="../lists/originCommunities.html#httpsGithubComOrionrobots">https://github.com/orionrobots</a>
-
-<br>
-
-endColumns
-
-keyboardNav macbasic.html pascal-script.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 360
+ committers 6
+ files 204

@@ -1,43 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title skulpt
+import ../measures/conceptPage.scroll
+id skulpt
+appeared 2009
+type pl
+creators Scott Graham
+conceptDescription Skulpt is an entirely in-browser implementation of Python.
+website http://www.skulpt.org/
+domainName skulpt.org
+ registered 2009
+ awisRank
+  2022 2261322
 
-title skulpt - Programming language
- hidden
+githubRepo https://github.com/skulpt/skulpt
+ firstCommit 2009
+ stars 3164
+ forks 877
+ subscribers 114
+ created 2012
+ updated 2022
+ description Skulpt is a Javascript implementation of the Python programming language
+ issues 255
 
-html
- <a class="trueBaseThemePreviousItem" href="lisaac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hasklig.html">&gt;</a>
+repoStats
+ firstCommit 2009
+ commits 5615
+ committers 138
+ files 3215
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/skulpt.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.skulpt.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/skulpt/skulpt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=skulpt" class="material-symbols-outlined">edit</a></div>
-
-* skulpt is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Scott Graham.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#scottGraham Scott Graham
-
-codeWithHeader Source code:
- git clone https://github.com/skulpt/skulpt
-
-dashboard
- #708 <span title="TotalRank: 1272 Jobs: 103 Users: 183 Facts: 1203 Links: 986">on PLDB</span>
- 15 Years Old
-
-* Skulpt is an entirely in-browser implementation of Python.
-
-- skulpt website
- http://www.skulpt.org/
-- skulpt is developed on <a href="https://github.com/skulpt/skulpt">GitHub</a> and has 3,164 stars
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Calysto/skulpt_python">Kernel</a> for skulpt
-- <a href="http://www.skulpt.org/">skulpt.org</a> was registered in 2009
-
-<br>
-
-endColumns
-
-keyboardNav lisaac.html hasklig.html
-
-import ../footer.scroll
+jupyterKernel https://github.com/Calysto/skulpt_python
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

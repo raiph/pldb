@@ -1,86 +1,90 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RobotFramework
+import ../measures/conceptPage.scroll
+id RobotFramework
+appeared 2013
+type pl
+website http://robotframework.org/
+documentation https://robotframework.org/robotframework/
+country Finland
+originCommunity Robot Framework ry
+domainName robotframework.org
+ registered 2007
+ awisRank
+  2022 146514
 
-title RobotFramework - Programming language
- hidden
+githubRepo https://github.com/robotframework/robotframework
+ stars 7076
+ forks 1980
+ subscribers 473
+ created 2014
+ updated 2022
+ description Generic automation framework for acceptance testing and RPA
+ issues 237
+ firstCommit 2013
 
-html
- <a class="trueBaseThemePreviousItem" href="io.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xbase.html">&gt;</a>
+repoStats
+ firstCommit 2013
+ commits 14154
+ committers 204
+ files 2336
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/robotframework.pldb
+githubLanguage RobotFramework
+ fileExtensions robot
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope text.robot
+ repos 7602
+githubBigQuery RobotFramework
+ repos 515
+ users 447
 
-startColumns 4
+pygmentsHighlighter RobotFramework
+ filename robotframework.py
+ fileExtensions robot resource
+linguistGrammarRepo https://github.com/shellderp/sublime-robot-plugin
+ firstCommit 2012
+ lastCommit 2016
+ committerCount 7
+ commitCount 83
+ sampleCount 3
+ example
+  *** Settings ***
+  Documentation     Example test case using the gherkin syntax.
+  ...
+  ...               This test has a workflow similar to the keyword-driven
+  ...               examples. The difference is that the keywords use higher
+  ...               abstraction level and their arguments are embedded into
+  ...               the keyword names.
+  ...
+  ...               This kind of _gherkin_ syntax has been made popular by
+  ...               [http://cukes.info|Cucumber]. It works well especially when
+  ...               tests act as examples that need to be easily understood also
+  ...               by the business people.
+  Library           CalculatorLibrary
+  
+  *** Test Cases ***
+  Addition
+      Given calculator has been cleared
+      When user types "1 + 1"
+      and user pushes equals
+      Then result is "2"
+  
+  *** Keywords ***
+  Calculator has been cleared
+      Push button    C
+  
+  User types "${expression}"
+      Push buttons    ${expression}
+  
+  User pushes equals
+      Push button    =
+  
+  Result is "${result}"
+      Result should be    ${result}
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="http://robotframework.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/robotframework/robotframework" class="material-symbols-outlined">code</a> <a href="https://robotframework.org/robotframework/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=robotframework" class="material-symbols-outlined">edit</a></div>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* RobotFramework is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-codeWithHeader Source code:
- git clone https://github.com/robotframework/robotframework
-
-dashboard
- #220 <span title="TotalRank: 577 Jobs: 103 Users: 104 Facts: 370 Links: 986">on PLDB</span>
- 11 Years Old
- 8k <span title="RobotFramework repos on GitHub.">Repos</span>
-
-* Generic automation framework for acceptance testing and RPA
-
-- RobotFramework website
- http://robotframework.org/
-- RobotFramework is developed on <a href="https://github.com/robotframework/robotframework">GitHub</a> and has 7,076 stars
-- RobotFramework docs
- https://robotframework.org/robotframework/
-- There are at least 7,602 RobotFramework repos on <a href="https://github.com/search?q=language:RobotFramework">GitHub</a>
-- RobotFramework first developed in <a href="../lists/originCommunities.html#robotFrameworkRy">Robot Framework ry</a>
-- file extensions for RobotFramework include robot and resource
-- The  Google BigQuery Public Dataset GitHub snapshot shows 447 users using RobotFramework in 515 repos on <a href="https://api.github.com/search/repositories?q=language:RobotFramework">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/robotframework.py">syntax highlighting</a> for RobotFramework
-- GitHub supports <a href="https://github.com/shellderp/sublime-robot-plugin" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for RobotFramework
-- <a href="http://robotframework.org/">robotframework.org</a> was registered in 2007
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/shellderp/sublime-robot-plugin'>Linguist</a>:
- *** Settings ***
- Documentation     Example test case using the gherkin syntax.
- ...
- ...               This test has a workflow similar to the keyword-driven
- ...               examples. The difference is that the keywords use higher
- ...               abstraction level and their arguments are embedded into
- ...               the keyword names.
- ...
- ...               This kind of _gherkin_ syntax has been made popular by
- ...               [http://cukes.info|Cucumber]. It works well especially when
- ...               tests act as examples that need to be easily understood also
- ...               by the business people.
- Library           CalculatorLibrary
- 
- *** Test Cases ***
- Addition
-     Given calculator has been cleared
-     When user types &quot;1 + 1&quot;
-     and user pushes equals
-     Then result is &quot;2&quot;
- 
- *** Keywords ***
- Calculator has been cleared
-     Push button    C
- 
- User types &quot;${expression}&quot;
-     Push buttons    ${expression}
- 
- User pushes equals
-     Push button    =
- 
- Result is &quot;${result}&quot;
-     Result should be    ${result}
- 
-
-endColumns
-
-keyboardNav io.html xbase.html
-
-import ../footer.scroll
+semanticScholar 0

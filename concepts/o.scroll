@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title O
+import ../measures/conceptPage.scroll
+id O
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/7f3deda8653959368b739f4b5f969893351775d4
+country France and United States
+originCommunity GIP Altair group && Université de Paris-Sud && Brown University
 
-title O - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2915
 
-html
- <a class="trueBaseThemePreviousItem" href="nut.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ofl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/o.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=o" class="material-symbols-outlined">edit</a></div>
-
-* O is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4234 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- O first developed in <a href="../lists/originCommunities.html#gipAltairGroup">GIP Altair group</a> and <a href="../lists/originCommunities.html#universiteDeParisSud">Université de Paris-Sud</a> and <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-- O on HOPL
- https://hopl.info/showlanguage.prx?exp=2915
-- Read more about O on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7f3deda8653959368b739f4b5f969893351775d4 1.
-
-<br>
-
-endColumns
-
-keyboardNav nut.html ofl.html
-
-import ../footer.scroll
+wordRank 269
+centralPackageRepositoryCount 0

@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CUPID
+import ../measures/conceptPage.scroll
+id CUPID
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/2f7456398ed58b2945cdf27f5a86644742ae9a2b
+reference https://dsf.berkeley.edu/papers/pacific75-cupid.pdf
+country United States
+originCommunity University of California, Berkeley
 
-title CUPID - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=676
 
-html
- <a class="trueBaseThemePreviousItem" href="cube.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="damn.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cupid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cupid" class="material-symbols-outlined">edit</a></div>
-
-* CUPID is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #4113 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- CUPID first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- CUPID on HOPL
- https://hopl.info/showlanguage.prx?exp=676
-- Read more about CUPID on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2f7456398ed58b2945cdf27f5a86644742ae9a2b 1.
-- Read more about CUPID on the web: 1.
- https://dsf.berkeley.edu/papers/pacific75-cupid.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav cube.html damn.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,46 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title manticore
+import ../measures/conceptPage.scroll
+id manticore
+appeared 2009
+type pl
+conceptDescription The Manticore project is an effort to design and implement a new functional language for parallel programming. Unlike many earlier parallel languages, Manticore is a heterogeneous language that supports parallelism at multiple levels. Specifically, the Manticore language combines Concurrent ML-style explicit concurrency with fine-grain, implicitly threaded, parallel constructs. These lectures will introduce the Manticore language and explore a variety of programs written to take advantage of heterogeneous parallelism. At the explicit-concurrency level, Manticore supports the creation distinct threads of control and the coordination of threads through first-class synchronous-message passing. Message-passing synchronization, in contrast to shared-memory synchronization, fits naturally with the functional-programming paradigm. At the implicit-parallelism level, Manticore supports a diverse collection of parallel constructs for different granularities of work. Many of these constructs are inspired by common functional-programming idioms. In addition to describing the basic mechanisms, we will present a number of useful programming techniques that are enabled by these mechanisms. Finally, we will briefly discuss some of the implementation techniques used to execute Manticore programs on commodity multicore computers.
+reference http://manticore.cs.uchicago.edu/papers/cefp09-notes.pdf
+country United States
+originCommunity University of Chicago
 
-title manticore - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="iikuse.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nelua.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/manticore.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=manticore" class="material-symbols-outlined">edit</a></div>
-
-* manticore is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2728 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 15 Years Old
-
-* The Manticore project is an effort to design and implement a new functional language for parallel programming. Unlike many earlier parallel languages, Manticore is a heterogeneous language that supports parallelism at multiple levels. Specifically, the Manticore language combines Concurrent ML-style explicit concurrency with fine-grain, implicitly threaded, parallel constructs. These lectures will introduce the Manticore language and explore a variety of programs written to take advantage of heterogeneous parallelism. At the explicit-concurrency level, Manticore supports the creation distinct threads of control and the coordination of threads through first-class synchronous-message passing. Message-passing synchronization, in contrast to shared-memory synchronization, fits naturally with the functional-programming paradigm. At the implicit-parallelism level, Manticore supports a diverse collection of parallel constructs for different granularities of work. Many of these constructs are inspired by common functional-programming idioms. In addition to describing the basic mechanisms, we will present a number of useful programming techniques that are enabled by these mechanisms. Finally, we will briefly discuss some of the implementation techniques used to execute Manticore programs on commodity multicore computers.
-
-- manticore first developed in <a href="../lists/originCommunities.html#universityOfChicago">University of Chicago</a>
-- Read more about manticore on the web: 1.
- http://manticore.cs.uchicago.edu/papers/cefp09-notes.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
- fun forever (init : ’a) (f: ’a -&gt; ’a) : unit =
+example
+ fun forever (init : ’a) (f: ’a -> ’a) : unit =
   let
     fun loop s = loop (f s)
     val _ = spawn (loop init)
   in
     ()
   end
-
-endColumns
-
-keyboardNav iikuse.html nelua.html
-
-import ../footer.scroll

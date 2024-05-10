@@ -1,42 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Logos
+import ../measures/conceptPage.scroll
+id Logos
+appeared 2010
+type pl
+conceptDescription Logos is a component of the Theos development suite that allows method hooking code to be written easily and clearly, using a set of special preprocessor directives. Theos is a cross-platform suite of development tools for managing, developing, and deploying iOS software without the use of Xcode. It is an important tool for people building extensions (tweaks) for jailbroken iOS; most extension developers use Theos.
+reference https://github.com/DHowett/theos-logos-examples
+country United States
+originCommunity https://github.com/DHowett/theos-logos-examples/issues
 
-title Logos - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="maya.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="exkited.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/logos.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=logos" class="material-symbols-outlined">edit</a></div>
-
-* Logos is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #1030 <span title="TotalRank: 1596 Jobs: 103 Users: 1151 Facts: 507 Links: 986">on PLDB</span>
- 14 Years Old
- 6k <span title="Logos repos on GitHub.">Repos</span>
-
-* Logos is a component of the Theos development suite that allows method hooking code to be written easily and clearly, using a set of special preprocessor directives. Theos is a cross-platform suite of development tools for managing, developing, and deploying iOS software without the use of Xcode. It is an important tool for people building extensions (tweaks) for jailbroken iOS; most extension developers use Theos.
-
-- There are at least 6,281 Logos repos on <a href="https://github.com/search?q=language:Logos">GitHub</a>
-- Logos first developed in <a href="../lists/originCommunities.html#httpsGithubComDHowettTheosLogosExamplesIssues">https://github.com/DHowett/theos-logos-examples/issues</a>
-- file extensions for Logos include xm, x, xi and xmi
-- The  Google BigQuery Public Dataset GitHub snapshot shows 4k users using Logos in 4k repos on <a href="https://api.github.com/search/repositories?q=language:Logos">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/objective.py">syntax highlighting</a> for Logos
-- GitHub supports <a href="https://github.com/Cykey/Sublime-Logos" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Logos
-- Read more about Logos on the web: 1.
- https://github.com/DHowett/theos-logos-examples 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  %group iOS8
  %hook IOS8_SPECIFIC_CLASS
    // your code here
@@ -50,47 +29,43 @@ codeWithHeader Example from the web:
  %end // end group ios9
  
  %ctor {
-   if (kCFCoreFoundationVersionNumber &gt; 1200) {
+   if (kCFCoreFoundationVersionNumber > 1200) {
      %init(iOS9);
    } else {
      %init(iOS8);
    }
  }
 
-codeWithHeader Example from <a href='https://github.com/Cykey/Sublime-Logos'>Linguist</a>:
- # APPLE LOCAL file string workaround 4943900
- if { [istarget &quot;*-*-darwin\[9123\]*&quot;] } {
-   set additional_flags &quot;-framework Foundation -fconstant-cfstrings&quot;
- }
- return 0
- 
+githubLanguage Logos
+ fileExtensions xm x xi
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.logos
+ repos 6281
+githubBigQuery Logos
+ repos 4497
+ users 3774
 
-endColumns
+pygmentsHighlighter Logos
+ filename objective.py
+ fileExtensions x xi xm xmi
+linguistGrammarRepo https://github.com/Cykey/Sublime-Logos
+ firstCommit 2013
+ lastCommit 2016
+ committerCount 6
+ commitCount 10
+ sampleCount 5
+ example
+  # APPLE LOCAL file string workaround 4943900
+  if { [istarget "*-*-darwin\[9123\]*"] } {
+    set additional_flags "-framework Foundation -fconstant-cfstrings"
+  }
+  return 0
+  
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+wordRank 3920
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav maya.html exkited.html
-
-import ../footer.scroll
+isbndb 0

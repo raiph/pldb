@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Knight
+import ../measures/conceptPage.scroll
+id Knight
+appeared 2021
+type pl
+creators Sam Westerman
+country United States
+originCommunity https://github.com/knight-lang
 
-title Knight - Programming language
- hidden
+githubRepo https://github.com/knight-lang/knight-lang
+ firstCommit 2021
+ stars 46
+ forks 5
+ subscribers 3
+ created 2021
+ updated 2022
+ description The Knight Programming Language
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="universe.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="post-canonical-system.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/knight.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/knight-lang/knight-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=knight" class="material-symbols-outlined">edit</a></div>
-
-* Knight is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Sam Westerman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#samWesterman Sam Westerman
-
-codeWithHeader Source code:
- git clone https://github.com/knight-lang/knight-lang
-
-dashboard
- #2313 <span title="TotalRank: 2834 Jobs: 103 Users: 1745 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* The Knight Programming Language
-
-- Knight is developed on <a href="https://github.com/knight-lang/knight-lang">GitHub</a> and has 46 stars
-- Knight first developed in <a href="../lists/originCommunities.html#httpsGithubComKnightLang">https://github.com/knight-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav universe.html post-canonical-system.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 149
+ committers 10
+ files 78

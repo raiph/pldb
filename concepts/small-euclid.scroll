@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Small Euclid
+import ../measures/conceptPage.scroll
+id Small Euclid
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/91c78fc5a7433421f5f9a1fb0ebfbf1ceae84d6a
+country Greece
+originCommunity Computer Technology Institute and University of Patras and EGL-Western Greece Paper-Mills
 
-title Small Euclid - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7312
 
-html
- <a class="trueBaseThemePreviousItem" href="smalgol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="small-x.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/small-euclid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=small-euclid" class="material-symbols-outlined">edit</a></div>
-
-* Small Euclid is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4030 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- Small Euclid first developed in <a href="../lists/originCommunities.html#computerTechnologyInstituteAndUniversityOfPatrasAndEglWesternGreecePaperMills">Computer Technology Institute and University of Patras and EGL-Western Greece Paper-Mills</a>
-- Small Euclid on HOPL
- https://hopl.info/showlanguage.prx?exp=7312
-- Read more about Small Euclid on Semantic Scholar: 1.
- https://semanticscholar.org/paper/91c78fc5a7433421f5f9a1fb0ebfbf1ceae84d6a 1.
-
-<br>
-
-endColumns
-
-keyboardNav smalgol.html small-x.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

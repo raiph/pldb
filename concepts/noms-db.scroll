@@ -1,39 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title noms-db
+import ../measures/conceptPage.scroll
+id noms-db
+appeared 2015
+type database
+conceptDescription Noms is a decentralized database philosophically descendant from the Git version control system.
+country United States
+originCommunity https://github.com/attic-labs
 
-title noms-db - Database
- hidden
+githubRepo https://github.com/attic-labs/noms
+ firstCommit 2015
+ stars 7478
+ forks 281
+ subscribers 203
+ created 2015
+ updated 2022
+ description The versioned, forkable, syncable database
+ issues 295
 
-html
- <a class="trueBaseThemePreviousItem" href="semver.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jsf.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 4016
+ committers 56
+ files 451
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/noms-db.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/attic-labs/noms" class="material-symbols-outlined">code</a> <a href="/edit.html?id=noms-db" class="material-symbols-outlined">edit</a></div>
-
-* noms-db is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/attic-labs/noms
-
-dashboard
- #637 <span title="TotalRank: 1218 Jobs: 103 Users: 129 Facts: 1669 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Noms is a decentralized database philosophically descendant from the Git version control system.
-
-- noms-db is developed on <a href="https://github.com/attic-labs/noms">GitHub</a> and has 7,478 stars
-- noms-db first developed in <a href="../lists/originCommunities.html#httpsGithubComAtticLabs">https://github.com/attic-labs</a>
-
-<br>
-
-endColumns
-
-keyboardNav semver.html jsf.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,61 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Terra
+import ../measures/conceptPage.scroll
+id Terra
+appeared 2012
+type pl
+conceptDescription Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language:
+website http://terralang.org/
+documentation https://docs.terra.money/
+domainName terralang.org
+ awisRank
+  2022 6480289
 
-title Terra - Programming language
- hidden
+hasLineComments true
+ -- A comment
+hasComments true
+ -- A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="dot.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="idyll.html">&gt;</a>
+lineCommentToken --
+printToken print
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/terra.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://terralang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/zdevito/terra" class="material-symbols-outlined">code</a> <a href="https://docs.terra.money/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=terra" class="material-symbols-outlined">edit</a></div>
-
-* Terra is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/zdevito/terra
-
-dashboard
- #165 <span title="TotalRank: 468 Jobs: 103 Users: 274 Facts: 91 Links: 986">on PLDB</span>
- 12 Years Old
- 410 <span title="Terra repos on GitHub.">Repos</span>
-
-* Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language:
-
-- Terra website
- http://terralang.org/
-- Terra is developed on <a href="https://github.com/zdevito/terra">GitHub</a> and has 2,432 stars
-- Terra docs
- https://docs.terra.money/
-- There are at least 410 Terra repos on <a href="https://github.com/search?q=language:Terra">GitHub</a>
-- file extensions for Terra include t
-- The  Google BigQuery Public Dataset GitHub snapshot shows 195 users using Terra in 206 repos on <a href="https://api.github.com/search/repositories?q=language:Terra">GitHub</a>
-- Explore Terra snippets on <a href="http://www.rosettacode.org/wiki/Category:Terra">Rosetta Code</a>
-- GitHub supports <a href="https://github.com/pyk/sublime-terra" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Terra
-
-<br>
-
-codeWithHeader Example from the web:
+example
  -- This top-level code is plain Lua code.
  function printhello()
      -- This is a plain Lua function
-     print(&quot;Hello, Lua!&quot;)
+     print("Hello, Lua!")
  end
  printhello()
  
- -- Terra is backwards compatible with C, we&#39;ll use C&#39;s io library in our example.
- C = terralib.includec(&quot;stdio.h&quot;)
+ -- Terra is backwards compatible with C, we'll use C's io library in our example.
+ C = terralib.includec("stdio.h")
  
- -- The keyword &#39;terra&#39; introduces a new Terra function.
- terra hello(argc : int, argv : &amp;rawstring)
+ -- The keyword 'terra' introduces a new Terra function.
+ terra hello(argc : int, argv : &rawstring)
      -- Here we call a C function from Terra
-     C.printf(&quot;Hello, Terra!\n&quot;)
+     C.printf("Hello, Terra!\n")
      return 0
  end
  
@@ -79,128 +60,138 @@ codeWithHeader Example from the web:
  
  -- You can save Terra code as executables, object files, or shared libraries 
  -- and link them into existing programs
- terralib.saveobj(&quot;helloterra&quot;,{ main = hello })
+ terralib.saveobj("helloterra",{ main = hello })
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/t/Terra.t'>hello-world</a>:
- print(&quot;Hello World&quot;)
- 
+githubRepo https://github.com/zdevito/terra
+ firstCommit 2012
+ stars 2432
+ forks 187
+ subscribers 100
+ created 2012
+ updated 2022
+ description Terra is a low-level system programming language that is embedded in and meta-programmed by the Lua programming language.
+ issues 110
 
-codeWithHeader Example from <a href='https://github.com/pyk/sublime-terra'>Linguist</a>:
- C = terralib.includecstring [[
- 	#include &lt;stdio.h&gt;
- 	#include &lt;stdlib.h&gt;
- ]]
- local arraytypes = {}
- function Array(T)
- 	local struct ArrayImpl {
- 		data : &amp;T;
- 		N : int;
- 	}
- 	function ArrayImpl.metamethods.__typename(self)
- 	    return &quot;Array(&quot;..tostring(T)..&quot;)&quot;
- 	end
- 	arraytypes[ArrayImpl] = true
- 	terra ArrayImpl:init(N : int)
- 		self.data = [&amp;T](C.malloc(N*sizeof(T)))
- 		self.N = N
- 	end
- 	terra ArrayImpl:free()
- 		C.free(self.data)
- 	end
- 	ArrayImpl.metamethods.__apply = macro(function(self,idx)
- 		return `self.data[idx]
- 	end)
- 	ArrayImpl.metamethods.__methodmissing = macro(function(methodname,selfexp,...)
- 		local args = terralib.newlist {...}
- 		local i = symbol(int)
- 		local promotedargs = args:map(function(a)
- 			if arraytypes[a:gettype()] then
- 				return `a(i)
- 			else
- 				return a
- 			end
- 		end)
- 		return quote
- 			var self = selfexp
- 			var r : ArrayImpl
- 			r:init(self.N)
- 			for [i] = 0,r.N do
- 				r.data[i] = self.data[i]:[methodname](promotedargs)
- 			end
- 		in
- 			r
- 		end
- 	end)
- 	return ArrayImpl
- end
- 
- struct Complex {
- 	real : float;
- 	imag : float;
- }
- 
- terra Complex:add(c : Complex) 
- 	return Complex { self.real + c.real, self.imag + c.imag }
- end
- 
- ComplexArray = Array(Complex)
- N = 10
- terra testit()
- 	var ca : ComplexArray
- 	ca:init(N)
- 	for i = 0,N do
- 		ca(i) = Complex { i, i + 1 }
- 	end
- 	var ra = ca:add(ca)
- 	return ra
- end
- local r = testit()
- assert(r.N == N)
- for i = 0,N-1 do
- 	assert(r.data[i].real == 2*i)
- 	assert(r.data[i].imag == 2*(i+1))
- end
- assert(tostring(Array(int)) == &quot;Array(int32)&quot;)
+repoStats
+ firstCommit 2012
+ commits 1590
+ committers 68
+ files 740
 
-endColumns
+githubLanguage Terra
+ fileExtensions t
+ trendingProjectsCount 0
+ type programming
+ interpreters lua
+ aceMode lua
+ codemirrorMode lua
+ codemirrorMimeType text/x-lua
+ tmScope source.terra
+ repos 410
+githubBigQuery Terra
+ repos 206
+ users 195
 
-## Language <a href="../lists/features.html">features</a>
+linguistGrammarRepo https://github.com/pyk/sublime-terra
+ firstCommit 2016
+ lastCommit 2016
+ committerCount 1
+ commitCount 3
+ sampleCount 3
+ example
+  C = terralib.includecstring [[
+  	#include <stdio.h>
+  	#include <stdlib.h>
+  ]]
+  local arraytypes = {}
+  function Array(T)
+  	local struct ArrayImpl {
+  		data : &T;
+  		N : int;
+  	}
+  	function ArrayImpl.metamethods.__typename(self)
+  	    return "Array("..tostring(T)..")"
+  	end
+  	arraytypes[ArrayImpl] = true
+  	terra ArrayImpl:init(N : int)
+  		self.data = [&T](C.malloc(N*sizeof(T)))
+  		self.N = N
+  	end
+  	terra ArrayImpl:free()
+  		C.free(self.data)
+  	end
+  	ArrayImpl.metamethods.__apply = macro(function(self,idx)
+  		return `self.data[idx]
+  	end)
+  	ArrayImpl.metamethods.__methodmissing = macro(function(methodname,selfexp,...)
+  		local args = terralib.newlist {...}
+  		local i = symbol(int)
+  		local promotedargs = args:map(function(a)
+  			if arraytypes[a:gettype()] then
+  				return `a(i)
+  			else
+  				return a
+  			end
+  		end)
+  		return quote
+  			var self = selfexp
+  			var r : ArrayImpl
+  			r:init(self.N)
+  			for [i] = 0,r.N do
+  				r.data[i] = self.data[i]:[methodname](promotedargs)
+  			end
+  		in
+  			r
+  		end
+  	end)
+  	return ArrayImpl
+  end
+  
+  struct Complex {
+  	real : float;
+  	imag : float;
+  }
+  
+  terra Complex:add(c : Complex) 
+  	return Complex { self.real + c.real, self.imag + c.imag }
+  end
+  
+  ComplexArray = Array(Complex)
+  N = 10
+  terra testit()
+  	var ca : ComplexArray
+  	ca:init(N)
+  	for i = 0,N do
+  		ca(i) = Complex { i, i + 1 }
+  	end
+  	var ra = ca:add(ca)
+  	return ra
+  end
+  local r = testit()
+  assert(r.N == N)
+  for i = 0,N-1 do
+  	assert(r.data[i].real == 2*i)
+  	assert(r.data[i].imag == 2*(i+1))
+  end
+  assert(tostring(Array(int)) == "Array(int32)")
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+leachim6 Terra
+ filepath t/Terra.t
+ fileExtensions t
+ example
+  print("Hello World")
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Terra
 
-keyboardNav dot.html idyll.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 4
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2013|Modeling the Earth with Fatiando a Terra|10.25080/MAJORA-8B375195-010|63|4|L. Uieda and V. C. Oliveira and V. Barbosa|ba6db75613a2daf1b9f5bb19602e67d5a281b124
+ 2016|Inversion of Land Surface Temperature (LST) Using Terra ASTER Data: A Comparison of Three Algorithms|10.3390/rs8120993|30|3|M. Ndossi and U. Avdan|be8ab3dc51a616ca6646f3f800239e33607e32b8
+ 2015|Terra|10.1145/2811267|24|0|Adriano Branco and Francisco Sant'anna and R. Ierusalimschy and Noemi Rodriguez and Silvana Rossetto|cb2405872210975b446017f54f115c45b5d4cda8
+ 2019|Delft Advanced Research Terra Simulator: General Purpose Reservoir Simulator with Operator-Based Linearization|10.4233/UUID:5F0F9B80-A7D6-488D-9BD2-D68B9D7B4B87|4|1|M. Khait|3986f7b8dd67a9c80b8b57c84accf6dcd94d2099

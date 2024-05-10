@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MarkLogic
-
-title MarkLogic - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="maria-db-column-store.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="memcached.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/marklogic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=marklogic" class="material-symbols-outlined">edit</a></div>
-
-* MarkLogic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3195 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 23 Years Old
-
-* Document-oriented database management system
-
-- MarkLogic first developed in <a href="../lists/originCommunities.html#markLogicCorporation">MarkLogic Corporation</a>
-
-<br>
-
-endColumns
-
-keyboardNav maria-db-column-store.html memcached.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id MarkLogic
+appeared 2001
+type database
+conceptDescription Document-oriented database management system
+country United States
+originCommunity MarkLogic Corporation

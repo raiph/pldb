@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title miso-framework
-
-title miso-framework - Framework
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mathworks-file-exchange-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="objective-modula-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/miso-framework.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://haskell-miso.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=miso-framework" class="material-symbols-outlined">edit</a></div>
-
-* miso-framework is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+framework">framework</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #3308 on PLDB
- 8 Years Old
-
-* 
-
-- miso-framework website
- https://haskell-miso.org/
-- miso-framework first developed in <a href="../lists/originCommunities.html#httpsGithubComDmjioMisoIssues">https://github.com/dmjio/miso/issues</a>
-- <a href="https://haskell-miso.org/">haskell-miso.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-keyboardNav mathworks-file-exchange-pm.html objective-modula-2.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id miso-framework
+appeared 2016
+type framework
+website https://haskell-miso.org/
+country United States
+originCommunity https://github.com/dmjio/miso/issues
+domainName haskell-miso.org
+ registered 2016

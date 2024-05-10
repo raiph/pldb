@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ARK
+import ../measures/conceptPage.scroll
+id ARK
+appeared 2002
+type pl
+reference https://semanticscholar.org/paper/b61d5f1346e7a4b76c49853fa20e387e253046d1
+country United Kingdom
+originCommunity University of Glasgow
 
-title ARK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3540
 
-html
- <a class="trueBaseThemePreviousItem" href="arjuna.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="armani.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ark.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ark" class="material-symbols-outlined">edit</a></div>
-
-* ARK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3492 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 22 Years Old
-
-* 
-
-- ARK first developed in <a href="../lists/originCommunities.html#universityOfGlasgow">University of Glasgow</a>
-- ARK on HOPL
- https://hopl.info/showlanguage.prx?exp=3540
-- Read more about ARK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b61d5f1346e7a4b76c49853fa20e387e253046d1 1.
-
-<br>
-
-endColumns
-
-keyboardNav arjuna.html armani.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

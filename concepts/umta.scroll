@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UMTA
+import ../measures/conceptPage.scroll
+id UMTA
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/2c9a9dec8db1ed1ba8c083e9c23daef13118ccd3
 
-title UMTA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5153
 
-html
- <a class="trueBaseThemePreviousItem" href="ufo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unicorn.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/umta.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=umta" class="material-symbols-outlined">edit</a></div>
-
-* UMTA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3264 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- UMTA on HOPL
- https://hopl.info/showlanguage.prx?exp=5153
-- Read more about UMTA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2c9a9dec8db1ed1ba8c083e9c23daef13118ccd3 1.
-
-<br>
-
-endColumns
-
-keyboardNav ufo.html unicorn.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

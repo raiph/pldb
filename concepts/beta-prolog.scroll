@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Beta-Prolog
+import ../measures/conceptPage.scroll
+id Beta-Prolog
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/bf615fd2ea5daad2e10d16d919923c8352d416ba
+country Japan
+originCommunity Kyushu Institute of Technology
 
-title Beta-Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5028
 
-html
- <a class="trueBaseThemePreviousItem" href="besys.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bgraf2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/beta-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=beta-prolog" class="material-symbols-outlined">edit</a></div>
-
-* Beta-Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3517 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Beta-Prolog first developed in <a href="../lists/originCommunities.html#kyushuInstituteOfTechnology">Kyushu Institute of Technology</a>
-- Beta-Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=5028
-- Read more about Beta-Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bf615fd2ea5daad2e10d16d919923c8352d416ba 1.
-
-<br>
-
-endColumns
-
-keyboardNav besys.html bgraf2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

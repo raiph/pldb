@@ -1,47 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title runiq
+import ../measures/conceptPage.scroll
+id runiq
+appeared 2015
+type pl
+website http://matthewtoast.github.io/runiq/
+country United States
+originCommunity https://github.com/matthewtoast/runiq/issues
 
-title runiq - Programming language
- hidden
+githubRepo https://github.com/matthewtoast/runiq
+ firstCommit 2015
+ stars 22
+ forks 1
+ subscribers 1
+ created 2015
+ updated 2020
+ description :aquarius: A Lisp-esque, JS-interpreted scripting language
+ issues 5
 
-html
- <a class="trueBaseThemePreviousItem" href="jedlang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blur-markup-language.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 35
+ committers 1
+ files 88
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/runiq.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://matthewtoast.github.io/runiq/" class="material-symbols-outlined">home</a> <a href="https://github.com/matthewtoast/runiq" class="material-symbols-outlined">code</a> <a href="/edit.html?id=runiq" class="material-symbols-outlined">edit</a></div>
-
-* runiq is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/matthewtoast/runiq
-
-dashboard
- #2080 <span title="TotalRank: 2591 Jobs: 103 Users: 2094 Facts: 1502 Links: 986">on PLDB</span>
- 9 Years Old
-
-* :aquarius: A Lisp-esque, JS-interpreted scripting language
-
-- runiq website
- http://matthewtoast.github.io/runiq/
-- runiq is developed on <a href="https://github.com/matthewtoast/runiq">GitHub</a> and has 22 stars
-- runiq first developed in <a href="../lists/originCommunities.html#httpsGithubComMatthewtoastRuniqIssues">https://github.com/matthewtoast/runiq/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of runiq
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Runiq, a little Lisp-inspired language that runs on JavaScript|https://news.ycombinator.com/item?id=10797249|12/27/2015|24|3
-
-keyboardNav jedlang.html blur-markup-language.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 10797249|Show HN: Runiq, a little Lisp-inspired language that runs on JavaScript|2015-12-27 12:29:51 UTC|1451219391|matthewtoast|3|24

@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pyret
+import ../measures/conceptPage.scroll
+id Pyret
+appeared 2012
+type pl
+creators Ben Lerner and Joe Gibbs Politz
+website https://www.pyret.org/
+country United States
+originCommunity Brown University
 
-title Pyret - Programming language
- hidden
+githubRepo https://github.com/brownplt/pyret-lang
+ firstCommit 2012
+ stars 924
+ forks 105
+ subscribers 42
+ created 2012
+ updated 2022
+ description The Pyret language.
+ issues 439
 
-html
- <a class="trueBaseThemePreviousItem" href="fable-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="llhd.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pyret-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.pyret.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/brownplt/pyret-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pyret-lang" class="material-symbols-outlined">edit</a></div>
-
-* Pyret is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Ben Lerner and Joe Gibbs Politz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#benLerner Ben Lerner
- link ../lists/creators.html#joeGibbsPolitz Joe Gibbs Politz
-
-codeWithHeader Source code:
- git clone https://github.com/brownplt/pyret-lang
-
-dashboard
- #1009 <span title="TotalRank: 1572 Jobs: 103 Users: 483 Facts: 1669 Links: 986">on PLDB</span>
- 12 Years Old
-
-* The Pyret language.
-
-- Pyret website
- https://www.pyret.org/
-- Pyret is developed on <a href="https://github.com/brownplt/pyret-lang">GitHub</a> and has 924 stars
-- Pyret first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-
-<br>
-
-endColumns
-
-keyboardNav fable-lang.html llhd.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 10731
+ committers 85
+ files 631

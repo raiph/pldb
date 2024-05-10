@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Combined Log Format
+import ../measures/conceptPage.scroll
+id Combined Log Format
+appeared 2002
+type textDataFormat
+conceptDescription Common Log Format plus referrer and user agent columns.
+reference https://documentation.softwareag.com/webmethods/microservices_container/msc10-11/10-11_MSC_PIE_webhelp/index.html#page/integration-server-integrated-webhelp/to-http_log_4.html
+reference http://justsolve.archiveteam.org/wiki/Combined_Log_Format
+country United States
+originCommunity University of Illinois at Urbana–Champaign
 
-title Combined Log Format - Text data format
- hidden
+forkOf common-log-format
 
-html
- <a class="trueBaseThemePreviousItem" href="bridgetalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ddfcsv.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/combined-log-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=combined-log-format" class="material-symbols-outlined">edit</a></div>
-
-* Combined Log Format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3051 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 22 Years Old
-
-* Common Log Format plus referrer and user agent columns.
-
-- Combined Log Format first developed in <a href="../lists/originCommunities.html#universityOfIllinoisAtUrbanaChampaign">University of Illinois at Urbana–Champaign</a>
-- Read more about Combined Log Format on the web: 1. 2.
- https://documentation.softwareag.com/webmethods/microservices_container/msc10-11/10-11_MSC_PIE_webhelp/index.html#page/integration-server-integrated-webhelp/to-http_log_4.html 1.
- http://justsolve.archiveteam.org/wiki/Combined_Log_Format 2.
-
-<br>
-
-codeWithHeader Example from the web:
- 0:0:0:0:0:0:0:1 - Administrator [17/Sep/2021:13:51:27 -0400] &quot;GET /invoke/pub.flow/getTransportInfo&quot; 200 2502 https://mycompany.com/test/webapp &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36&quot;
-
-endColumns
-
-keyboardNav bridgetalk.html ddfcsv.html
-
-import ../footer.scroll
+example
+ 0:0:0:0:0:0:0:1 - Administrator [17/Sep/2021:13:51:27 -0400] "GET /invoke/pub.flow/getTransportInfo" 200 2502 https://mycompany.com/test/webapp "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GVL
+import ../measures/conceptPage.scroll
+id GVL
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/c126478f89cdb4fd4fcb959dbf80e1fe3e855d6e
+country Canada and Germany
+originCommunity Queen's University at Kingston && Universität Karlsruhe
 
-title GVL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1554
 
-html
- <a class="trueBaseThemePreviousItem" href="gsbl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gxl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gvl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gvl" class="material-symbols-outlined">edit</a></div>
-
-* GVL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3708 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- GVL first developed in <a href="../lists/originCommunities.html#queensUniversityAtKingston">Queen's University at Kingston</a> and <a href="../lists/originCommunities.html#universitatKarlsruhe">Universität Karlsruhe</a>
-- GVL on HOPL
- https://hopl.info/showlanguage.prx?exp=1554
-- Read more about GVL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c126478f89cdb4fd4fcb959dbf80e1fe3e855d6e 1.
-
-<br>
-
-endColumns
-
-keyboardNav gsbl.html gxl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

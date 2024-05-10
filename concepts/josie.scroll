@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JOSIE
+import ../measures/conceptPage.scroll
+id JOSIE
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/4fefd3bc276c6d02fe2caf6e29594843f8a5e73e
+country United States
+originCommunity Price Water house Technology Centre
 
-title JOSIE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7706
 
-html
- <a class="trueBaseThemePreviousItem" href="javaml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="joyce.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/josie.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=josie" class="material-symbols-outlined">edit</a></div>
-
-* JOSIE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4181 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- JOSIE first developed in <a href="../lists/originCommunities.html#priceWaterHouseTechnologyCentre">Price Water house Technology Centre</a>
-- JOSIE on HOPL
- https://hopl.info/showlanguage.prx?exp=7706
-- Read more about JOSIE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4fefd3bc276c6d02fe2caf6e29594843f8a5e73e 1.
-
-<br>
-
-endColumns
-
-keyboardNav javaml.html joyce.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title xsharp
+import ../measures/conceptPage.scroll
+id xsharp
+appeared 2015
+type pl
+conceptDescription X# is an open source development language for .NET, based on the xBase language.
+website https://www.xsharp.info
+domainName xsharp.info
+ registered 2015
 
-title xsharp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="markdeep.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="linc-4gl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xsharp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.xsharp.info" class="material-symbols-outlined">home</a> <a href="/edit.html?id=xsharp" class="material-symbols-outlined">edit</a></div>
-
-* xsharp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #1731 <span title="TotalRank: 2248 Jobs: 103 Users: 2442 Facts: 1159 Links: 986">on PLDB</span>
- 9 Years Old
-
-* X# is an open source development language for .NET, based on the xBase language.
-
-- xsharp website
- https://www.xsharp.info
-- <a href="https://www.xsharp.info">xsharp.info</a> was registered in 2015
-
-<br>
-
-codeWithHeader Example from the web:
+example
  FUNCTION start AS VOID 
   LOCAL oErr AS OBJECT
   LOCAL nI AS LONG
@@ -52,9 +29,3 @@ codeWithHeader Example from the web:
   NEXT 
   ? Seconds() - f, nI
   WAIT
-
-endColumns
-
-keyboardNav markdeep.html linc-4gl.html
-
-import ../footer.scroll

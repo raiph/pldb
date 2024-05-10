@@ -1,39 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title frtime
-
-title frtime - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="domino.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/frtime.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://docs.racket-lang.org/frtime/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=frtime" class="material-symbols-outlined">edit</a></div>
-
-* frtime is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2769 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 20 Years Old
-
-* 
-
-- frtime website
- https://docs.racket-lang.org/frtime/
-- frtime first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-- Read more about frtime on the web: 1.
- https://cs.brown.edu/people/ghcooper/thesis.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav domino.html hac.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id frtime
+appeared 2004
+type pl
+website https://docs.racket-lang.org/frtime/
+reference https://cs.brown.edu/people/ghcooper/thesis.pdf
+country United States
+originCommunity Brown University

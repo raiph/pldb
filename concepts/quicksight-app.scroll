@@ -1,39 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title quicksight-app
-
-title quicksight-app - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="powerloom-knowledgebase.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rlmeta.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quicksight-app.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://aws.amazon.com/quicksight/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=quicksight-app" class="material-symbols-outlined">edit</a></div>
-
-* quicksight-app is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3284 on PLDB
- 9 Years Old
-
-* 
-
-- quicksight-app website
- https://aws.amazon.com/quicksight/
-- quicksight-app first developed in <a href="../lists/originCommunities.html#amazonWebServicesInc">Amazon Web Services, Inc</a>
-- Read more about quicksight-app on the web: 1.
- https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-quicksight-now-in-preview/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav powerloom-knowledgebase.html rlmeta.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id quicksight-app
+appeared 2015
+type application
+website https://aws.amazon.com/quicksight/
+reference https://aws.amazon.com/about-aws/whats-new/2015/10/introducing-amazon-quicksight-now-in-preview/
+country United States
+originCommunity Amazon Web Services, Inc

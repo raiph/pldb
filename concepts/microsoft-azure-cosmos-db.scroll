@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Microsoft Azure Cosmos DB
-
-title Microsoft Azure Cosmos DB - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="microsoft-access.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="microsoft-mysql-server.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microsoft-azure-cosmos-db.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microsoft-azure-cosmos-db" class="material-symbols-outlined">edit</a></div>
-
-* Microsoft Azure Cosmos DB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3198 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Multi-model NoSQL database management system
-
-- Microsoft Azure Cosmos DB first developed in <a href="../lists/originCommunities.html#microsoftCorporation">Microsoft Corporation</a>
-
-<br>
-
-endColumns
-
-keyboardNav microsoft-access.html microsoft-mysql-server.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Microsoft Azure Cosmos DB
+appeared 2017
+type database
+conceptDescription Multi-model NoSQL database management system
+country United States
+originCommunity Microsoft Corporation

@@ -1,103 +1,88 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PostCSS
+import ../measures/conceptPage.scroll
+id PostCSS
+appeared 2013
+type textMarkup
+website https://postcss.org/
+documentation https://postcss.org/docs/
+country Various
+originCommunity https://github.com/postcss
+domainName postcss.org
+ registered 2015
+ awisRank
+  2022 257386
 
-title PostCSS - Text markup language
- hidden
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ /* A comment
+ */
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="qml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="micropython.html">&gt;</a>
+multiLineCommentTokens /* */
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/postcss.pldb
+githubRepo https://github.com/postcss/postcss
+ firstCommit 2013
+ stars 26406
+ forks 1505
+ subscribers 525
+ created 2013
+ updated 2022
+ description Transforming styles with JS plugins
+ issues 12
 
-startColumns 4
+repoStats
+ firstCommit 2013
+ commits 3913
+ committers 432
+ files 102
 
-<div class="trueBaseThemeQuickLinks"><a href="https://postcss.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/postcss/postcss" class="material-symbols-outlined">code</a> <a href="https://postcss.org/docs/" class="material-symbols-outlined">menu_book</a> <a href="https://twitter.com/postcss"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=postcss" class="material-symbols-outlined">edit</a></div>
+githubLanguage PostCSS
+ fileExtensions pcss postcss
+ trendingProjectsCount 0
+ type markup
+ group CSS
+ aceMode text
+ tmScope source.postcss
+ repos 0
 
-* PostCSS is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
+linguistGrammarRepo https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS
+ firstCommit 2013
+ lastCommit 2017
+ committerCount 10
+ commitCount 231
+ sampleCount 1
+ example
+  @define-mixin size $size {
+    width: $size;
+  }
+  
+  $big: 100px;
+  
+  /* Main block */
+  .block {
+    &_logo {
+      background: inline("./logo.png");
+      @mixin size $big;
+    }
+  }
 
-codeWithHeader Source code:
- git clone https://github.com/postcss/postcss
+leachim6 PostCSS
+ filepath p/PostCSS.pcss
+ fileExtensions pcss
+ example
+  body::before {
+      content: "Hello World";
+  }
 
-dashboard
- #209 <span title="TotalRank: 560 Jobs: 103 Users: 58 Facts: 399 Links: 986">on PLDB</span>
- 11 Years Old
- 0 <span title="PostCSS repos on GitHub.">Repos</span>
+twitter https://twitter.com/postcss
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* Transforming styles with JS plugins
+isbndb 0
 
-- PostCSS website
- https://postcss.org/
-- PostCSS is developed on <a href="https://github.com/postcss/postcss">GitHub</a> and has 26,406 stars
-- PostCSS docs
- https://postcss.org/docs/
-- There are at least 0 PostCSS repos on <a href="https://github.com/search?q=language:PostCSS">GitHub</a>
-- PostCSS first developed in <a href="../lists/originCommunities.html#httpsGithubComPostcss">https://github.com/postcss</a>
-- file extensions for PostCSS include pcss and postcss
-- PostCSS on Twitter
- https://twitter.com/postcss
-- GitHub supports <a href="https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PostCSS
-- <a href="https://postcss.org/">postcss.org</a> was registered in 2015
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/PostCSS.pcss'>hello-world</a>:
- body::before {
-     content: &quot;Hello World&quot;;
- }
-
-codeWithHeader Example from <a href='https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS'>Linguist</a>:
- @define-mixin size $size {
-   width: $size;
- }
- 
- $big: 100px;
- 
- /* Main block */
- .block {
-   &amp;_logo {
-     background: inline(&quot;./logo.png&quot;);
-     @mixin size $big;
-   }
- }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   /* A comment
-   */
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav qml.html micropython.html
-
-import ../footer.scroll
+semanticScholar 0

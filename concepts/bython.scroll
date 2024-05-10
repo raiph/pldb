@@ -1,64 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bython
+import ../measures/conceptPage.scroll
+id Bython
+appeared 2016
+type pl
+conceptDescription Python with braces. Because python is awesome, but whitespace is awful.
+country Norway
 
-title Bython - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="lustre.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jsparagus.html">&gt;</a>
+printToken print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bython.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/bython" class="material-symbols-outlined">terminal</a> <a href="https://github.com/mathialo/bython" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bython" class="material-symbols-outlined">edit</a></div>
-
-* Bython is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/mathialo/bython
-
-dashboard
- #1344 <span title="TotalRank: 1883 Jobs: 103 Users: 794 Facts: 995 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Try now: <a href="https://riju.codes/bython">Riju</a>
-
-* Python with braces. Because python is awesome, but whitespace is awful.
-
-- Bython is developed on <a href="https://github.com/mathialo/bython">GitHub</a> and has 393 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def print_message(num_of_times) {
      for i in range(num_of_times) {
-         print(&quot;Bython is awesome!&quot;);
+         print("Bython is awesome!");
      }
  }
  
- if __name__ == &quot;__main__&quot; {
+ if __name__ == "__main__" {
      print_message(10);
  }
 
-codeWithHeader Example from <a href='https://riju.codes/bython'>Riju</a>:
- print(&quot;Hello, world!&quot;)
+githubRepo https://github.com/mathialo/bython
+ firstCommit 2016
+ stars 393
+ forks 21
+ subscribers 14
+ created 2016
+ updated 2022
+ description Python with braces. Because python is awesome, but whitespace is awful.
+ issues 17
 
-endColumns
+repoStats
+ firstCommit 2016
+ commits 170
+ committers 4
+ files 33
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-keyboardNav lustre.html jsparagus.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/bython
+ example
+  print("Hello, world!")

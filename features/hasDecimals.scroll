@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasContinue.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasDefaultParameters.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  12345
@@ -24,9 +24,7 @@ codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
  -0d-1             // Decimal maintains precision: -0. != -0.0
  -0d0              // Negative zero decimal (distinct from positive zero)
 
-* Languages *with* Decimals include <a href="../concepts/ion.html">Ion</a>, <a href="../concepts/jule.html">Jule</a>
-
-* This question asks: Does the language have a decimal data type?
+* Languages *with* Decimals include <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/ion.html">Ion</a>
 
 * Read more about Decimals on the web: 1.
  https://en.wikipedia.org/wiki/Decimal_data_type 1.

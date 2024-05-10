@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CONSIM
+import ../measures/conceptPage.scroll
+id CONSIM
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/93f0a7a8fb873dc3cf322944a3cd8d36a600e981
+reference https://collections.lib.utah.edu/ark:/87278/s6f4869g
+country United States
+originCommunity Texas A & M University && University of Utah
 
-title CONSIM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5500
 
-html
- <a class="trueBaseThemePreviousItem" href="connection-machine-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="constraints.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/consim.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=consim" class="material-symbols-outlined">edit</a></div>
-
-* CONSIM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #4108 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- CONSIM first developed in <a href="../lists/originCommunities.html#texasAMUniversity">Texas A & M University</a> and <a href="../lists/originCommunities.html#universityOfUtah">University of Utah</a>
-- CONSIM on HOPL
- https://hopl.info/showlanguage.prx?exp=5500
-- Read more about CONSIM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/93f0a7a8fb873dc3cf322944a3cd8d36a600e981 1.
-- Read more about CONSIM on the web: 1.
- https://collections.lib.utah.edu/ark:/87278/s6f4869g 1.
-
-<br>
-
-endColumns
-
-keyboardNav connection-machine-lisp.html constraints.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

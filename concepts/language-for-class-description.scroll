@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Language for Class Description
+import ../measures/conceptPage.scroll
+id Language for Class Description
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/5ddcea747bb18a2a5038eee966987117da881993
+country United States
+originCommunity Case Western Reserve University
 
-title Language for Class Description - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5346
 
-html
- <a class="trueBaseThemePreviousItem" href="lamina.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lap.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/language-for-class-description.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=language-for-class-description" class="material-symbols-outlined">edit</a></div>
-
-* Language for Class Description is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #4192 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- Language for Class Description first developed in <a href="../lists/originCommunities.html#caseWesternReserveUniversity">Case Western Reserve University</a>
-- Language for Class Description on HOPL
- https://hopl.info/showlanguage.prx?exp=5346
-- Read more about Language for Class Description on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5ddcea747bb18a2a5038eee966987117da881993 1.
-
-<br>
-
-endColumns
-
-keyboardNav lamina.html lap.html
-
-import ../footer.scroll
+semanticScholar 0

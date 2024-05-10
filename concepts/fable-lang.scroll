@@ -1,37 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fable
+import ../measures/conceptPage.scroll
+id Fable
+appeared 2012
+type pl
+conceptDescription Fable is a compiler that brings F# into the JavaScript ecosystem
+website https://fable.io/
+country Various
+originCommunity https://github.com/fable-compiler
+domainName fable.io
+ registered 2012
+ awisRank
+  2022 1587455
 
-title Fable - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="vhdl-ams.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pyret-lang.html">&gt;</a>
+lineCommentToken //
+printToken printfn
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fable-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://fable.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=fable-lang" class="material-symbols-outlined">edit</a></div>
-
-* Fable is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #1008 <span title="TotalRank: 1572 Jobs: 103 Users: 2442 Facts: 802 Links: 667">on PLDB</span>
- 12 Years Old
-
-* Fable is a compiler that brings F# into the JavaScript ecosystem
-
-- Fable website
- https://fable.io/
-- Fable first developed in <a href="../lists/originCommunities.html#httpsGithubComFableCompiler">https://github.com/fable-compiler</a>
-- <a href="https://fable.io/">fable.io</a> was registered in 2012
-
-<br>
-
-codeWithHeader Example from the web:
+example
  type Face =
      | Ace | King | Queen | Jack
      | Number of int
@@ -42,47 +32,15 @@ codeWithHeader Example from the web:
  let aceOfHearts = Ace, Hearts
  let tenOfSpades = (Number 10), Spades
  match card with
- | Ace, Hearts -&gt; printfn &quot;Ace Of Hearts!&quot;
- | _, Hearts -&gt; printfn &quot;A lovely heart&quot;
- | (Number 10), Spades -&gt; printfn &quot;10 of Spades&quot;
- | _, (Diamonds|Clubs) -&gt; printfn &quot;Diamonds or clubs&quot;
+ | Ace, Hearts -> printfn "Ace Of Hearts!"
+ | _, Hearts -> printfn "A lovely heart"
+ | (Number 10), Spades -> printfn "10 of Spades"
+ | _, (Diamonds|Clubs) -> printfn "Diamonds or clubs"
  // Warning:
  // Incomplete pattern matches on this expression.
- // For example, the value &#39;(_,Spades)&#39; may indicate
+ // For example, the value '(_,Spades)' may indicate
  // a case not covered by the pattern(s).
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printfn
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav vhdl-ams.html pyret-lang.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2015|Fable II: Design of a modular robot for creative learning|10.1109/ICRA.2015.7140060|14|4|Moises Pacheco and Rune Fogh and H. Lund and D. Christensen|c80b749e59a1554af30e0aa2df59ae2a0827e2e7

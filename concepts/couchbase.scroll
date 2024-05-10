@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Couchbase
-
-title Couchbase - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="couchbase-mobile.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cymbal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/couchbase.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=couchbase" class="material-symbols-outlined">edit</a></div>
-
-* Couchbase is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3179 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 13 Years Old
-
-* NoSQL document-oriented database management system
-
-- Couchbase first developed in <a href="../lists/originCommunities.html#couchbaseInc">Couchbase Inc.</a>
-
-<br>
-
-endColumns
-
-keyboardNav couchbase-mobile.html cymbal.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Couchbase
+appeared 2011
+type database
+conceptDescription NoSQL document-oriented database management system
+country United States
+originCommunity Couchbase Inc.

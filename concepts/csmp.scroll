@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CSMP
+import ../measures/conceptPage.scroll
+id CSMP
+appeared 1965
+type pl
+reference https://semanticscholar.org/paper/201dcc0e571cc267e50d31d2ed183c791ddccbe8
+country The Netherlands
+originCommunity Wageningen Agricultural University
 
-title CSMP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=714
 
-html
- <a class="trueBaseThemePreviousItem" href="cqlpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="csp-oz-dc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/csmp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=csmp" class="material-symbols-outlined">edit</a></div>
-
-* CSMP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #3603 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- CSMP first developed in <a href="../lists/originCommunities.html#wageningenAgriculturalUniversity">Wageningen Agricultural University</a>
-- CSMP on HOPL
- https://hopl.info/showlanguage.prx?exp=714
-- Read more about CSMP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/201dcc0e571cc267e50d31d2ed183c791ddccbe8 1.
-
-<br>
-
-endColumns
-
-keyboardNav cqlpp.html csp-oz-dc.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

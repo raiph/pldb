@@ -1,48 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SubL
+import ../measures/conceptPage.scroll
+id SubL
+appeared 1989
+type pl
+reference https://cyc.com/archives/glossary/subl/
+aka SubLisp
+originCommunity Cycorp
 
-title SubL - Programming language
- hidden
+writtenIn allegro-common-lisp
 
-html
- <a class="trueBaseThemePreviousItem" href="stress.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="surge.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/subl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=subl" class="material-symbols-outlined">edit</a></div>
-
-* SubL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #4052 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- SubL first developed in <a href="../lists/originCommunities.html#cycorp">Cycorp</a>
-- SubL is written in <a href="allegro-common-lisp.html">Allegro Common Lisp</a>
-- Read more about SubL on the web: 1.
- https://cyc.com/archives/glossary/subl/ 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Lispy
-  FeatureLink ../features/isLisp.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav stress.html surge.html
-
-import ../footer.scroll
+isLisp true

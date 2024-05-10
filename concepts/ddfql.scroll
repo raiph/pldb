@@ -1,98 +1,52 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ddfql
+import ../measures/conceptPage.scroll
+id ddfql
+appeared 2016
+type queryLanguage
+reference https://docs.google.com/document/d/1olFm-XXjWxQ4LrTCfM42an6LbjbIgnt__V1DZxSmnuQ/edit#
+country Various
+originCommunity https://github.com/open-numbers/
 
-title ddfql - Query language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ligo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cir.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ddfql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ddfql" class="material-symbols-outlined">edit</a></div>
-
-* ddfql is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #1223 <span title="TotalRank: 1764 Jobs: 103 Users: 2838 Facts: 675 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- ddfql first developed in <a href="../lists/originCommunities.html#httpsGithubComOpenNumbers">https://github.com/open-numbers/</a>
-- Read more about ddfql on the web: 1.
- https://docs.google.com/document/d/1olFm-XXjWxQ4LrTCfM42an6LbjbIgnt__V1DZxSmnuQ/edit# 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-  &quot;select&quot;: {
-    &quot;key&quot;: [&quot;geo&quot;, &quot;year&quot;],
-    &quot;value&quot;: [
-      &quot;population&quot;, &quot;life_expectancy&quot;, &quot;gdp_per_cap&quot;, &quot;gov_type&quot;
+  "select": {
+    "key": ["geo", "year"],
+    "value": [
+      "population", "life_expectancy", "gdp_per_cap", "gov_type"
  ]
   },
-  &quot;from&quot;: &quot;datapoints&quot;,
-  &quot;where&quot;: {
-    &quot;$or&quot;: [
+  "from": "datapoints",
+  "where": {
+    "$or": [
  { // implicit $and
-        &quot;geo&quot;: &quot;$geo&quot;,
-        &quot;year&quot;: { &quot;$eq&quot;: 2015 },
+        "geo": "$geo",
+        "year": { "$eq": 2015 },
       },
- { &quot;population&quot;: { &quot;$gt&quot;: 100000 } },
- { &quot;gdp_per_cap&quot;: { &quot;$gt&quot;: 1000 } },
- { &quot;$and&quot;: [ // explicit $and
- { &quot;$and&quot;: [ { &quot;geo&quot;: “$geo” } ], // redundant and
- { &quot;gdp_per_cap&quot;: { &quot;$gt&quot;: 400, &quot;$lt&quot;: 500 } },
- { &quot;life_expectancy&quot;: { &quot;$gt&quot;: 30, &quot;$lt&quot;: 70 } }
+ { "population": { "$gt": 100000 } },
+ { "gdp_per_cap": { "$gt": 1000 } },
+ { "$and": [ // explicit $and
+ { "$and": [ { "geo": “$geo” } ], // redundant and
+ { "gdp_per_cap": { "$gt": 400, "$lt": 500 } },
+ { "life_expectancy": { "$gt": 30, "$lt": 70 } }
  ]}
  ]
   },
-  &quot;order_by&quot;: [&quot;life_expectancy&quot;, &quot;population&quot;],
-  &quot;join&quot;: {
-    &quot;$geo&quot;: {
-      key: &quot;geo&quot;,
+  "order_by": ["life_expectancy", "population"],
+  "join": {
+    "$geo": {
+      key: "geo",
       where: {
-          &quot;is--country&quot;: true,
-        &quot;latitude&quot;: { &quot;$lte&quot;: 0 }, 
+          "is--country": true,
+        "latitude": { "$lte": 0 }, 
       }
     }
   },
-  &quot;language&quot;: &quot;en&quot;
+  "language": "en"
  }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ligo.html cir.html
-
-import ../footer.scroll

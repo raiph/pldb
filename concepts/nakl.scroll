@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NAKL
+import ../measures/conceptPage.scroll
+id NAKL
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/2b3750267744a90e81e6bed54c22e84da70a7c2c
+standsFor Not Another Keypunch Language
+country United States
+originCommunity University of Arkansas
 
-title NAKL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7306
 
-html
- <a class="trueBaseThemePreviousItem" href="msl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nodal.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nakl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nakl" class="material-symbols-outlined">edit</a></div>
-
-* NAKL, aka Not Another Keypunch Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3110 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- NAKL first developed in <a href="../lists/originCommunities.html#universityOfArkansas">University of Arkansas</a>
-- NAKL on HOPL
- https://hopl.info/showlanguage.prx?exp=7306
-- Read more about NAKL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2b3750267744a90e81e6bed54c22e84da70a7c2c 1.
-
-<br>
-
-endColumns
-
-keyboardNav msl.html nodal.html
-
-import ../footer.scroll
+isbndb 0

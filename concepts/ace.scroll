@@ -1,45 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ace Editor
+import ../measures/conceptPage.scroll
+id Ace Editor
+appeared 2010
+type editor
+creators Fabian Jakobs
+conceptDescription Ace is an embeddable code editor written in JavaScript. It matches the features and performance of native editors such as Sublime, Vim and TextMate. It can be easily embedded in any web page and JavaScript application. Ace is maintained as the primary editor for Cloud9 IDE and is the successor of the Mozilla Skywriter (Bespin) project.
+website https://ace.c9.io
+webRepl https://ace.c9.io/build/kitchen-sink.html
+originCommunity Mozilla Labs && Cloud9
+domainName ace.c9.io
 
-title Ace Editor - Editor
- hidden
+relatedConcepts codemirror monaco highlightjs pygments
 
-html
- <a class="trueBaseThemePreviousItem" href="minid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="d3.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ace.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ace.c9.io" class="material-symbols-outlined">home</a> <a href="https://ace.c9.io/build/kitchen-sink.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/ajaxorg/ace" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ace" class="material-symbols-outlined">edit</a></div>
-
-* Ace Editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2010 by Fabian Jakobs.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#fabianJakobs Fabian Jakobs
-
-codeWithHeader Source code:
- git clone https://github.com/ajaxorg/ace
-
-dashboard
- #306 on PLDB
- 14 Years Old
-
-* Try now: <a href="https://ace.c9.io/build/kitchen-sink.html">Web</a>
-
-* Ace is an embeddable code editor written in JavaScript. It matches the features and performance of native editors such as Sublime, Vim and TextMate. It can be easily embedded in any web page and JavaScript application. Ace is maintained as the primary editor for Cloud9 IDE and is the successor of the Mozilla Skywriter (Bespin) project.
-
-- Ace Editor website
- https://ace.c9.io
-- Ace Editor is developed on <a href="https://github.com/ajaxorg/ace">GitHub</a> and has 24,621 stars
-- Ace Editor first developed in <a href="../lists/originCommunities.html#mozillaLabs">Mozilla Labs</a> and <a href="../lists/originCommunities.html#cloud9">Cloud9</a>
-- See also: (4 related languages)<a href="codemirror.html">CodeMirror</a>, <a href="monaco.html">Monaco Editor</a>, <a href="highlightjs.html">highlight.js</a>, <a href="pygments.html">Pygments</a>
-
-<br>
-
-endColumns
-
-keyboardNav minid.html d3.html
-
-import ../footer.scroll
+githubRepo https://github.com/ajaxorg/ace
+ firstCommit 2010
+ stars 24621
+ forks 5182
+ subscribers 629
+ created 2010
+ updated 2022
+ description Ace (Ajax.org Cloud9 Editor)
+ issues 210

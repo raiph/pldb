@@ -1,43 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title leo-editor
+import ../measures/conceptPage.scroll
+id leo-editor
+appeared 2013
+type editor
+creators vivainio2
+website https://leoeditor.com
+country United States and Canada
+originCommunity https://github.com/leo-editor
+domainName leoeditor.com
+ registered 2013
+ awisRank
+  2022 2845365
 
-title leo-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="1620sps.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="txt2tags.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/leo-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://leoeditor.com" class="material-symbols-outlined">home</a> <a href="https://github.com/leo-editor/leo-editor" class="material-symbols-outlined">code</a> <a href="/edit.html?id=leo-editor" class="material-symbols-outlined">edit</a></div>
-
-* leo-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2013 by vivainio2.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#vivainio2 vivainio2
-
-codeWithHeader Source code:
- git clone https://github.com/leo-editor/leo-editor
-
-dashboard
- #1185 on PLDB
- 11 Years Old
-
-* Leo is an Outliner, Editor, IDE and PIM written in 100% Python.
-
-- leo-editor website
- https://leoeditor.com
-- leo-editor is developed on <a href="https://github.com/leo-editor/leo-editor">GitHub</a> and has 1,363 stars
-- leo-editor first developed in <a href="../lists/originCommunities.html#httpsGithubComLeoEditor">https://github.com/leo-editor</a>
-- <a href="https://leoeditor.com">leoeditor.com</a> was registered in 2013
-
-<br>
-
-endColumns
-
-keyboardNav 1620sps.html txt2tags.html
-
-import ../footer.scroll
+githubRepo https://github.com/leo-editor/leo-editor
+ firstCommit 2008
+ stars 1363
+ forks 162
+ subscribers 49
+ created 2014
+ updated 2022
+ description Leo is an Outliner, Editor, IDE and PIM written in 100% Python.
+ issues 7

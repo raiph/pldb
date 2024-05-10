@@ -1,44 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Monaco Editor
+import ../measures/conceptPage.scroll
+id Monaco Editor
+appeared 2016
+type editor
+conceptDescription The Monaco Editor is the code editor that powers VS Code.
+website https://microsoft.github.io/monaco-editor/
+webRepl https://microsoft.github.io/monaco-editor/playground.html
+country United States
+originCommunity Microsoft
 
-title Monaco Editor - Editor
- hidden
+relatedConcepts codemirror
 
-html
- <a class="trueBaseThemePreviousItem" href="svg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algol.html">&gt;</a>
+githubRepo https://github.com/Microsoft/monaco-editor
+ firstCommit 2016
+ stars 30060
+ forks 2875
+ subscribers 511
+ created 2016
+ updated 2022
+ description A browser based code editor
+ issues 704
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/monaco.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://microsoft.github.io/monaco-editor/" class="material-symbols-outlined">home</a> <a href="https://microsoft.github.io/monaco-editor/playground.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/Microsoft/monaco-editor" class="material-symbols-outlined">code</a> <a href="/edit.html?id=monaco" class="material-symbols-outlined">edit</a></div>
-
-* Monaco Editor is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/Microsoft/monaco-editor
-
-dashboard
- #184 on PLDB
- 8 Years Old
-
-* Try now: <a href="https://microsoft.github.io/monaco-editor/playground.html">Web</a>
-
-* The Monaco Editor is the code editor that powers VS Code.
-
-- Monaco Editor website
- https://microsoft.github.io/monaco-editor/
-- Monaco Editor is developed on <a href="https://github.com/Microsoft/monaco-editor">GitHub</a> and has 30,060 stars
-- Monaco Editor first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- See also: (1 related languages)<a href="codemirror.html">CodeMirror</a>
-
-<br>
-
-endColumns
-
-keyboardNav svg.html algol.html
-
-import ../footer.scroll
+fileType na
+isOpenSource true
+centralPackageRepositoryCount 0

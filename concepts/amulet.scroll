@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Amulet
+import ../measures/conceptPage.scroll
+id Amulet
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/46c9a1b21e678a617893cb5443425738ee8dc4a0
+originCommunity Carnegie Mellon University
 
-title Amulet - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7464
 
-html
- <a class="trueBaseThemePreviousItem" href="amppl-i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="and-or.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/amulet.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=amulet" class="material-symbols-outlined">edit</a></div>
-
-* Amulet is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3472 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- Amulet first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a>
-- Amulet on HOPL
- https://hopl.info/showlanguage.prx?exp=7464
-- Read more about Amulet on Semantic Scholar: 1.
- https://semanticscholar.org/paper/46c9a1b21e678a617893cb5443425738ee8dc4a0 1.
-
-<br>
-
-endColumns
-
-keyboardNav amppl-i.html and-or.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Memcached
-
-title Memcached - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="marklogic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="microsoft-access.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/memcached.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=memcached" class="material-symbols-outlined">edit</a></div>
-
-* Memcached is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #3196 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 21 Years Old
-
-* Distributed memory caching system, used as a database
-
-- Memcached first developed in <a href="../lists/originCommunities.html#dangaInteractive">Danga Interactive</a>
-
-<br>
-
-endColumns
-
-keyboardNav marklogic.html microsoft-access.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Memcached
+appeared 2003
+type database
+conceptDescription Distributed memory caching system, used as a database
+country United States
+originCommunity Danga Interactive

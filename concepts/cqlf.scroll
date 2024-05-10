@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CQLF
+import ../measures/conceptPage.scroll
+id CQLF
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/8589fd3f54e4e5598b5e5b73f8a9bc35df77e7e3
+country United States
+originCommunity Computer Corporation of America
 
-title CQLF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5596
 
-html
- <a class="trueBaseThemePreviousItem" href="cosmo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cqlpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cqlf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cqlf" class="material-symbols-outlined">edit</a></div>
-
-* CQLF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3601 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- CQLF first developed in <a href="../lists/originCommunities.html#computerCorporationOfAmerica">Computer Corporation of America</a>
-- CQLF on HOPL
- https://hopl.info/showlanguage.prx?exp=5596
-- Read more about CQLF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8589fd3f54e4e5598b5e5b73f8a9bc35df77e7e3 1.
-
-<br>
-
-endColumns
-
-keyboardNav cosmo.html cqlpp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

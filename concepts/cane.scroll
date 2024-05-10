@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cane
+import ../measures/conceptPage.scroll
+id Cane
+appeared 2022
+type musicalNotation
+creators Jack Clarke
+website https://github.com/Jackojc/cane
+country Ireland
+originCommunity Hopson Community
 
-title Cane - Musical notation
- hidden
+githubRepo https://github.com/Jackojc/cane
+ firstCommit 2022
+ stars 26
+ forks 3
+ subscribers 1
+ created 2022
+ updated 2022
+ description A small MIDI sequencer DSL designed around vectors and euclidean rhythms
+ issues 7
 
-html
- <a class="trueBaseThemePreviousItem" href="insitux.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="daplex.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cane.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Jackojc/cane" class="material-symbols-outlined">home</a> <a href="https://github.com/Jackojc/cane" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cane" class="material-symbols-outlined">edit</a></div>
-
-* Cane is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+musicalNotation">musical notation</a> created in 2022 by Jack Clarke.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#jackClarke Jack Clarke
-
-codeWithHeader Source code:
- git clone https://github.com/Jackojc/cane
-
-dashboard
- #2242 <span title="TotalRank: 2758 Jobs: 103 Users: 1992 Facts: 1669 Links: 986">on PLDB</span>
- 2 Years Old
-
-* A small MIDI sequencer DSL designed around vectors and euclidean rhythms
-
-- Cane website
- https://github.com/Jackojc/cane
-- Cane is developed on <a href="https://github.com/Jackojc/cane">GitHub</a> and has 26 stars
-- Cane first developed in <a href="../lists/originCommunities.html#hopsonCommunity">Hopson Community</a>
-
-<br>
-
-endColumns
-
-keyboardNav insitux.html daplex.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 225
+ committers 3
+ files 47

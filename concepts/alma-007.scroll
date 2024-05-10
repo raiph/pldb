@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alma
+import ../measures/conceptPage.scroll
+id Alma
+appeared 2014
+type pl
+creators Carl Mäsak
+conceptDescription Alma is a small language created as a testbed for Raku macros.
+website http://masak.github.io/alma/
+aka 007
+country Sweden
+originCommunity http://strangelyconsistent.org/
 
-title Alma - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-shell.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alma-007.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://masak.github.io/alma/" class="material-symbols-outlined">home</a> <a href="https://github.com/masak/alma" class="material-symbols-outlined">code</a> <a href="/edit.html?id=alma-007" class="material-symbols-outlined">edit</a></div>
-
-* Alma is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Carl Mäsak.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#carlMasak Carl Mäsak
-
-codeWithHeader Source code:
- git clone https://github.com/masak/alma
-
-dashboard
- #1329 <span title="TotalRank: 1869 Jobs: 103 Users: 1232 Facts: 780 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Alma is a small language created as a testbed for Raku macros.
-
-- Alma website
- http://masak.github.io/alma/
-- Alma is developed on <a href="https://github.com/masak/alma">GitHub</a> and has 130 stars
-- Alma first developed in <a href="../lists/originCommunities.html#httpStrangelyconsistentOrg">http://strangelyconsistent.org/</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  macro swap(a, b) {
      return quasi {
          my t = {{{a}}};
@@ -49,16 +23,24 @@ codeWithHeader Example from the web:
      }
      return a.abs();
  }
- my bigger = +prompt(&quot;Enter the bigger integer: &quot;);
- my smaller = +prompt(&quot;Enter the smaller integer: &quot;);
- if bigger &lt; smaller {
+ my bigger = +prompt("Enter the bigger integer: ");
+ my smaller = +prompt("Enter the smaller integer: ");
+ if bigger < smaller {
      swap(bigger, smaller);
  }
  say();
- say(&quot;Greatest common denominator: &quot;, gcd(bigger, smaller));
+ say("Greatest common denominator: ", gcd(bigger, smaller));
 
-endColumns
+githubRepo https://github.com/masak/alma
+ stars 130
+ forks 14
+ subscribers 1
+ created 2014
+ updated 2021
+ description ALgoloid with MAcros -- a language with Algol-family syntax where macros take center stage
 
-keyboardNav kit.html c-shell.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 1721
+ committers 18
+ files 126

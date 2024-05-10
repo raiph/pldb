@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title henk
+import ../measures/conceptPage.scroll
+id henk
+appeared 1997
+type pl
+reference https://www.microsoft.com/en-us/research/publication/henk-a-typed-intermediate-language/
+country Scotland and The Netherlands and United States
+originCommunity University of Glasgow && Utrecht University && Oregon Graduate Institute of Science & Technology
 
-title henk - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3565
 
-html
- <a class="trueBaseThemePreviousItem" href="helper.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hi-visual.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/henk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=henk" class="material-symbols-outlined">edit</a></div>
-
-* henk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #4162 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- henk first developed in <a href="../lists/originCommunities.html#universityOfGlasgow">University of Glasgow</a> and <a href="../lists/originCommunities.html#utrechtUniversity">Utrecht University</a> and <a href="../lists/originCommunities.html#oregonGraduateInstituteOfScienceTechnology">Oregon Graduate Institute of Science & Technology</a>
-- henk on HOPL
- https://hopl.info/showlanguage.prx?exp=3565
-- Read more about henk on the web: 1.
- https://www.microsoft.com/en-us/research/publication/henk-a-typed-intermediate-language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav helper.html hi-visual.html
-
-import ../footer.scroll
+semanticScholar https://semanticscholar.org/paper/bdc5aaa5ba7ca518912ab7da8979cb017115ed0b

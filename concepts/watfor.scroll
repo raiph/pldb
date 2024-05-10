@@ -1,38 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WATFOR
+import ../measures/conceptPage.scroll
+id WATFOR
+appeared 1966
+type pl
+reference https://semanticscholar.org/paper/875772c3e7e35782162b8c03f636b7dd78c43412
 
-title WATFOR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=307
 
-html
- <a class="trueBaseThemePreviousItem" href="unql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wikitax.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/watfor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=watfor" class="material-symbols-outlined">edit</a></div>
-
-* WATFOR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #3023 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 58 Years Old
-
-* 
-
-- WATFOR on HOPL
- https://hopl.info/showlanguage.prx?exp=307
-- Read more about WATFOR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/875772c3e7e35782162b8c03f636b7dd78c43412 1.
-
-<br>
-
-endColumns
-
-keyboardNav unql.html wikitax.html
-
-import ../footer.scroll
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 1974-12-01T00:00:01Z|Pearson College Div|Ten Statement Fortran Plus Fortran IV: Sensible, Modular, and Structured Programming With Watfor and Watfiv|Kennedy, Michael|9780139033858
+ 1975|Prentice-hall|Ten Statement Fortran Plus Fortran Iv: Sensible, Modular, And Structured Programming With Watfor And Watfiv, Second Edition, [by] Michael Kenndy, Martin B. Solomon : Instructor's Manual|Bowdon, Edward K|9780139034275
+ 1968|Goodyear|Introduction To Fortran Iv Programming: Using Watfor Compiler|John M Blatt|9780876204382
+ 1973|Merrill|An Introduction To The Watfor And Watfiv Programming Languages|David T Basso and Ronald D Schwartz|9780675089449
+ 1973|Wiley|Digital Computing And Numerical Methods: With Fortran-iv, Watfor And Watfiv Programming|Brice Carnahan|9780471135005

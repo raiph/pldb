@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Scrimshaw
+import ../measures/conceptPage.scroll
+id Scrimshaw
+appeared 1993
+type pl
+reference http://cajun.cs.nott.ac.uk/compsci/epo/papers/volume6/issue4/ep6x4dsa.pdf
+country United States 
+originCommunity Xerox PARC
 
-title Scrimshaw - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4966
 
-html
- <a class="trueBaseThemePreviousItem" href="scratchpad-ii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scriptx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scrimshaw.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=scrimshaw" class="material-symbols-outlined">edit</a></div>
-
-* Scrimshaw is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #4002 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Scrimshaw first developed in <a href="../lists/originCommunities.html#xeroxParc">Xerox PARC</a>
-- Scrimshaw on HOPL
- https://hopl.info/showlanguage.prx?exp=4966
-- Read more about Scrimshaw on the web: 1.
- http://cajun.cs.nott.ac.uk/compsci/epo/papers/volume6/issue4/ep6x4dsa.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav scratchpad-ii.html scriptx.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

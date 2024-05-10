@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OpenAda
+import ../measures/conceptPage.scroll
+id OpenAda
+appeared 2000
+type pl
+creators Patrick Rogers and Andy Wellings
+reference https://semanticscholar.org/paper/1fdbcde71a7e1509d5676d10d39d2a77d831b7bd
+country United States and United Kingdom
+originCommunity Ada Core Technologies && University of York
 
-title OpenAda - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3611
 
-html
- <a class="trueBaseThemePreviousItem" href="oops.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="orient84-k.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/openada.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=openada" class="material-symbols-outlined">edit</a></div>
-
-* OpenAda is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000 by Patrick Rogers and Andy Wellings.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#patrickRogers Patrick Rogers
- link ../lists/creators.html#andyWellings Andy Wellings
-
-dashboard
- #4243 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- OpenAda first developed in <a href="../lists/originCommunities.html#adaCoreTechnologies">Ada Core Technologies</a> and <a href="../lists/originCommunities.html#universityOfYork">University of York</a>
-- OpenAda on HOPL
- https://hopl.info/showlanguage.prx?exp=3611
-- Read more about OpenAda on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1fdbcde71a7e1509d5676d10d39d2a77d831b7bd 1.
-
-<br>
-
-endColumns
-
-keyboardNav oops.html orient84-k.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

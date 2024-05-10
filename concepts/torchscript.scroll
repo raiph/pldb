@@ -1,42 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title torchscript
+import ../measures/conceptPage.scroll
+id torchscript
+appeared 2018
+type pl
+conceptDescription The PyTorch 1.0 release candidate introduces Torch Script, a Python subset that can be JIT-compiled into C++ or other high-speed code.
+reference https://pytorch.org/docs/stable/jit.html
 
-title torchscript - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="topaz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tutorial-d.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/torchscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=torchscript" class="material-symbols-outlined">edit</a></div>
-
-* torchscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #3080 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 6 Years Old
-
-* The PyTorch 1.0 release candidate introduces Torch Script, a Python subset that can be JIT-compiled into C++ or other high-speed code.
-
-- Read more about torchscript on the web: 1.
- https://pytorch.org/docs/stable/jit.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import torch
  def foo(x, y):
      return 2*x + y
  traced_foo = torch.jit.trace(foo, (torch.rand(3), torch.rand(3)))
 
-endColumns
-
-keyboardNav topaz.html tutorial-d.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

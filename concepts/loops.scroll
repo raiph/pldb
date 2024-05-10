@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lisp Object-Oriented Programming System
+import ../measures/conceptPage.scroll
+id Lisp Object-Oriented Programming System
+appeared 1983
+type pl
+reference https://www.markstefik.com/wp-content/uploads/2011/04/1983-loops-manual-Bobrow-Stefik-part-1.pdf
+standsFor Lisp Object-Oriented Programming System
+country United States
+originCommunity Xerox PARC
 
-title Lisp Object-Oriented Programming System - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1042
 
-html
- <a class="trueBaseThemePreviousItem" href="lighttpd-configuration-file.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="madcap-vi.html">&gt;</a>
+wordRank 9535
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/loops.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=loops" class="material-symbols-outlined">edit</a></div>
-
-* Lisp Object-Oriented Programming System, aka Lisp Object-Oriented Programming System, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3065 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- Lisp Object-Oriented Programming System first developed in <a href="../lists/originCommunities.html#xeroxParc">Xerox PARC</a>
-- Lisp Object-Oriented Programming System on HOPL
- https://hopl.info/showlanguage.prx?exp=1042
-- Read more about Lisp Object-Oriented Programming System on the web: 1.
- https://www.markstefik.com/wp-content/uploads/2011/04/1983-loops-manual-Bobrow-Stefik-part-1.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav lighttpd-configuration-file.html madcap-vi.html
-
-import ../footer.scroll
+semanticScholar 0

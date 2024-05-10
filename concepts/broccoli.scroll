@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Broccoli
+import ../measures/conceptPage.scroll
+id Broccoli
+appeared 2008
+type pl
+creators Fogus
+website https://blog.fogus.me/2008/03/26/broccoli-abominable/
+country United States
+originCommunity https://github.com/broccoli-lang/
 
-title Broccoli - Programming language
- hidden
+githubRepo https://github.com/broccoli-lang/broccoli/
+ stars 7
+ forks 0
+ subscribers 6
+ created 2018
+ updated 2018
+ description An interpreter for the broccoli 0.0.x language: http://blog.fogus.me/?s=broccoli
 
-html
- <a class="trueBaseThemePreviousItem" href="textframe.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="leaf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/broccoli.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://blog.fogus.me/2008/03/26/broccoli-abominable/" class="material-symbols-outlined">home</a> <a href="https://github.com/broccoli-lang/broccoli/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=broccoli" class="material-symbols-outlined">edit</a></div>
-
-* Broccoli is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Fogus.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#fogus Fogus
-
-codeWithHeader Source code:
- git clone https://github.com/broccoli-lang/broccoli/
-
-dashboard
- #2435 <span title="TotalRank: 2979 Jobs: 103 Users: 2347 Facts: 1890 Links: 986">on PLDB</span>
- 16 Years Old
-
-* An interpreter for the broccoli 0.0.x language: http://blog.fogus.me/?s=broccoli
-
-- Broccoli website
- https://blog.fogus.me/2008/03/26/broccoli-abominable/
-- Broccoli is developed on <a href="https://github.com/broccoli-lang/broccoli/">GitHub</a> and has 7 stars
-- Broccoli first developed in <a href="../lists/originCommunities.html#httpsGithubComBroccoliLang">https://github.com/broccoli-lang/</a>
-
-<br>
-
-endColumns
-
-keyboardNav textframe.html leaf.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 163
+ committers 8
+ files 31

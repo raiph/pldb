@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Libra
+import ../measures/conceptPage.scroll
+id Libra
+appeared 2020
+type pl
+reference https://www.researchgate.net/publication/2274015_Relational_Programming_in_Libra
+country Australia
+originCommunity University of Adelaide
 
-title Libra - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8595
 
-html
- <a class="trueBaseThemePreviousItem" href="lgdf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lincoln-reckoner.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/libra.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=libra" class="material-symbols-outlined">edit</a></div>
-
-* Libra is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #3783 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 4 Years Old
-
-* 
-
-- Libra first developed in <a href="../lists/originCommunities.html#universityOfAdelaide">University of Adelaide</a>
-- Libra on HOPL
- https://hopl.info/showlanguage.prx?exp=8595
-- Read more about Libra on the web: 1.
- https://www.researchgate.net/publication/2274015_Relational_Programming_in_Libra 1.
-
-<br>
-
-endColumns
-
-keyboardNav lgdf.html lincoln-reckoner.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GLIDE
+import ../measures/conceptPage.scroll
+id GLIDE
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/25cab0356223441ebedd2983044d680286560746
+country United States
+originCommunity Carnegie Mellon University
 
-title GLIDE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4141
 
-html
- <a class="trueBaseThemePreviousItem" href="gks.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/glide.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=glide" class="material-symbols-outlined">edit</a></div>
-
-* GLIDE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3694 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- GLIDE first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a>
-- GLIDE on HOPL
- https://hopl.info/showlanguage.prx?exp=4141
-- Read more about GLIDE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/25cab0356223441ebedd2983044d680286560746 1.
-
-<br>
-
-endColumns
-
-keyboardNav gks.html glu.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

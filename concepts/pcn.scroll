@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PCN
+import ../measures/conceptPage.scroll
+id PCN
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/a40bc8206f1cb0064f89f8c03ab55191a6adfb9a
+country United States
+originCommunity Argonne National Laboratory
 
-title PCN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1702
 
-html
- <a class="trueBaseThemePreviousItem" href="path-pascal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pcol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pcn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pcn" class="material-symbols-outlined">edit</a></div>
-
-* PCN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3920 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- PCN first developed in <a href="../lists/originCommunities.html#argonneNationalLaboratory">Argonne National Laboratory</a>
-- PCN on HOPL
- https://hopl.info/showlanguage.prx?exp=1702
-- Read more about PCN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a40bc8206f1cb0064f89f8c03ab55191a6adfb9a 1.
-
-<br>
-
-endColumns
-
-keyboardNav path-pascal.html pcol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

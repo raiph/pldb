@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Parallel ELLPACK
+import ../measures/conceptPage.scroll
+id Parallel ELLPACK
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/394dfd721925c2faf160c851de2df7b5b67a2e8d
+country United States
+originCommunity Purdue University
 
-title Parallel ELLPACK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6931
 
-html
- <a class="trueBaseThemePreviousItem" href="panon-1b.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="parallel-pascal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/parallel-ellpack.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=parallel-ellpack" class="material-symbols-outlined">edit</a></div>
-
-* Parallel ELLPACK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3911 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- Parallel ELLPACK first developed in <a href="../lists/originCommunities.html#purdueUniversity">Purdue University</a>
-- Parallel ELLPACK on HOPL
- https://hopl.info/showlanguage.prx?exp=6931
-- Read more about Parallel ELLPACK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/394dfd721925c2faf160c851de2df7b5b67a2e8d 1.
-
-<br>
-
-endColumns
-
-keyboardNav panon-1b.html parallel-pascal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

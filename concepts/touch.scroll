@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Touch
+import ../measures/conceptPage.scroll
+id Touch
+appeared 2020
+type textMarkup
+website http://touchlabs.io/play
 
-title Touch - Text markup language
- hidden
+relatedConcepts markdown
 
-html
- <a class="trueBaseThemePreviousItem" href="treelang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autocode.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/touch.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://touchlabs.io/play" class="material-symbols-outlined">home</a> <a href="https://github.com/touchmarine/to" class="material-symbols-outlined">code</a> <a href="/edit.html?id=touch" class="material-symbols-outlined">edit</a></div>
-
-* Touch is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/touchmarine/to
-
-dashboard
- #959 <span title="TotalRank: 1525 Jobs: 103 Users: 2255 Facts: 436 Links: 986">on PLDB</span>
- 4 Years Old
-
-* 📜 Touch Lightweight Markup Language; Familiar, Extendable, Auto-Formattable
-
-- Touch website
- http://touchlabs.io/play
-- Touch is developed on <a href="https://github.com/touchmarine/to">GitHub</a> and has 14 stars
-- See also: (1 related languages)<a href="markdown.html">Markdown</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  / this is a block comment
  
  = Title
@@ -47,7 +19,7 @@ codeWithHeader Example from the web:
  ## h2
  ### h3
  
- &gt; blockquote
+ > blockquote
  * note
  - list
  1. numbered list
@@ -60,19 +32,18 @@ codeWithHeader Example from the web:
  `
  
  / preformatted block
- &#39;
+ '
        ___________________________
-     &lt; I&#39;m an expert in my field. &gt;
+     < I'm an expert in my field. >
        ---------------------------
            \   ^__^
             \  (oo)\_______
                (__)\       )\/\
                    ||----w |
                    ||     ||
- &#39;
+ '
  / art from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre#example
-
-codeWithHeader Example from the web:
+example
  // an inline comment //
  __emphasis__ // italics //
  **strong**   // bold //
@@ -88,8 +59,18 @@ codeWithHeader Example from the web:
  http://example.test
  https://example.test
 
-endColumns
+githubRepo https://github.com/touchmarine/to
+ firstCommit 2020
+ stars 14
+ forks 0
+ subscribers 1
+ created 2020
+ updated 2022
+ description 📜 Touch Lightweight Markup Language; Familiar, Extendable, Auto-Formattable
+ issues 1
 
-keyboardNav treelang.html autocode.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 272
+ committers 2
+ files 1125

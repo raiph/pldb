@@ -1,44 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lobster
+import ../measures/conceptPage.scroll
+id lobster
+appeared 2011
+type pl
+creators Wouter van Oortmerssen
+website http://strlen.com/lobster/
+country United States
+originCommunity https://github.com/aardappel/lobster/issues
 
-title lobster - Programming language
- hidden
+writtenIn cpp
 
-html
- <a class="trueBaseThemePreviousItem" href="maxscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xc.html">&gt;</a>
+githubRepo https://github.com/aardappel/lobster
+ stars 1387
+ forks 79
+ subscribers 48
+ created 2013
+ updated 2022
+ firstCommit 2013
+ description The Lobster Programming Language
+ issues 20
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lobster.pldb
+repoStats
+ firstCommit 2013
+ commits 1714
+ committers 45
+ files 2006
 
-startColumns 4
+rosettaCode http://www.rosettacode.org/wiki/Category:Lobster
 
-<div class="trueBaseThemeQuickLinks"><a href="http://strlen.com/lobster/" class="material-symbols-outlined">home</a> <a href="https://github.com/aardappel/lobster" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lobster" class="material-symbols-outlined">edit</a></div>
-
-* lobster is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Wouter van Oortmerssen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#wouterVanOortmerssen Wouter van Oortmerssen
-
-codeWithHeader Source code:
- git clone https://github.com/aardappel/lobster
-
-dashboard
- #926 <span title="TotalRank: 1497 Jobs: 103 Users: 408 Facts: 1311 Links: 986">on PLDB</span>
- 13 Years Old
-
-* The Lobster Programming Language
-
-- lobster website
- http://strlen.com/lobster/
-- lobster is developed on <a href="https://github.com/aardappel/lobster">GitHub</a> and has 1,387 stars
-- lobster first developed in <a href="../lists/originCommunities.html#httpsGithubComAardappelLobsterIssues">https://github.com/aardappel/lobster/issues</a>
-- lobster is written in <a href="cpp.html">C++</a>
-- Explore lobster snippets on <a href="http://www.rosettacode.org/wiki/Category:Lobster">Rosetta Code</a>
-
-<br>
-
-endColumns
-
-keyboardNav maxscript.html xc.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

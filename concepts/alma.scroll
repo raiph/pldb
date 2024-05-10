@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alma
+import ../measures/conceptPage.scroll
+id Alma
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/18eb460dc8133e0f9cfc972a68ac3bb5effe52a2
+originCommunity Centrum Wiskunde & Informatica && University of Amsterdam && Universit`a di Udine
 
-title Alma - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3739
 
-html
- <a class="trueBaseThemePreviousItem" href="wikitax.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alphard.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alma.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=alma" class="material-symbols-outlined">edit</a></div>
-
-* Alma is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3025 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Alma first developed in <a href="../lists/originCommunities.html#centrumWiskundeInformatica">Centrum Wiskunde & Informatica</a> and <a href="../lists/originCommunities.html#universityOfAmsterdam">University of Amsterdam</a> and <a href="../lists/originCommunities.html#universitADiUdine">Universit`a di Udine</a>
-- Alma on HOPL
- https://hopl.info/showlanguage.prx?exp=3739
-- Read more about Alma on Semantic Scholar: 1.
- https://semanticscholar.org/paper/18eb460dc8133e0f9cfc972a68ac3bb5effe52a2 1.
-
-<br>
-
-endColumns
-
-keyboardNav wikitax.html alphard.html
-
-import ../footer.scroll
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1999|The Alma Project, or How First-Order Logic Can Help Us in Imperative Programming|10.1007/3-540-48092-7_5|14|1|K. Apt and Andrea Schaerf|022dd2b2b6b2719663ffa8b6090c999b58a73a60
+ 2012|From Scilab to High Performance Embedded Multicore Systems: The ALMA Approach|10.1109/DSD.2012.65|7|0|J. Becker and T. Stripf and Oliver Oey and M. Hübner and Steven Derrien and D. Ménard and O. Sentieys and G. Rauwerda and K. Sunesen and N. Kavvadias and K. Masselos and G. Goulas and P. Alefragis and N. Voros and D. Kritharidis and N. Mitas and D. Göhringer|3748b2f30f012d47c128d29aecf39846e4dc9b16
+ 2008|ALMA versus DDD|10.2298/CSIS0802119d|2|0|Daniela Carneiro da Cruz and P. Henriques and M. J. Pereira|b579c48a43b17fc0e1149f138dc382913d202e2a

@@ -1,67 +1,51 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title roy
+import ../measures/conceptPage.scroll
+id roy
+appeared 2011
+type pl
+creators Brian McKenna
+website http://roy.brianmckenna.org/
+country Australia
+originCommunity https://github.com/puffnfresh/roy/issues
+domainName roy.brianmckenna.org
 
-title roy - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="openedge-advanced-business-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chef.html">&gt;</a>
+printToken console.log
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/roy.pldb
+githubRepo https://github.com/puffnfresh/roy
+ firstCommit 2011
+ stars 830
+ forks 74
+ subscribers 47
+ created 2011
+ updated 2022
+ description Small functional language that compiles to JavaScript.
+ issues 64
 
-startColumns 4
+repoStats
+ firstCommit 2011
+ commits 569
+ committers 39
+ files 128
 
-<div class="trueBaseThemeQuickLinks"><a href="http://roy.brianmckenna.org/" class="material-symbols-outlined">home</a> <a href="https://repl.it/languages/roy" class="material-symbols-outlined">terminal</a> <a href="https://github.com/puffnfresh/roy" class="material-symbols-outlined">code</a> <a href="https://twitter.com/roylangjs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=roy" class="material-symbols-outlined">edit</a></div>
+leachim6 Roy
+ filepath r/Roy.roy
+ fileExtensions roy
+ example
+  console.log "Hello World"
+  
 
-* roy is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Brian McKenna.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#brianMcKenna Brian McKenna
+replit https://repl.it/languages/roy
 
-codeWithHeader Source code:
- git clone https://github.com/puffnfresh/roy
+twitter https://twitter.com/roylangjs
+fileType text
+wordRank 5386
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #850 <span title="TotalRank: 1414 Jobs: 103 Users: 531 Facts: 780 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Try now: <a href="https://repl.it/languages/roy">Replit</a>
-
-* Small functional language that compiles to JavaScript.
-
-- roy website
- http://roy.brianmckenna.org/
-- roy is developed on <a href="https://github.com/puffnfresh/roy">GitHub</a> and has 830 stars
-- roy first developed in <a href="../lists/originCommunities.html#httpsGithubComPuffnfreshRoyIssues">https://github.com/puffnfresh/roy/issues</a>
-- roy on Twitter
- https://twitter.com/roylangjs
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/r/Roy.roy'>hello-world</a>:
- console.log &quot;Hello World&quot;
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token console.log
-  Example
-
-keyboardNav openedge-advanced-business-language.html chef.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2001|Springer|Aiding Decisions with Multiple Criteria: Essays in Honor of Bernard Roy (International Series in Operations Research & Management Science, 44)|Bouyssou, Denis and Jacquet-Lagrèze, Eric and Perny, Patrice and Slowiński, Roman and Vanderpooten, Daniel and Vincke, P.|9780792376118

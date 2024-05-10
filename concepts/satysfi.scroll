@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SATySFi
+import ../measures/conceptPage.scroll
+id SATySFi
+appeared 2015
+type textMarkup
+creators Takashi Suwa
+country Japan
+originCommunity https://github.com/gfngfn/SATySFi/issues
 
-title SATySFi - Text markup language
- hidden
+githubRepo https://github.com/gfngfn/SATySFi
+ firstCommit 2015
+ stars 969
+ forks 75
+ subscribers 53
+ created 2015
+ updated 2022
+ description A statically-typed, functional typesetting system
+ issues 90
 
-html
- <a class="trueBaseThemePreviousItem" href="basic-programming.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="parrot-assembly.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/satysfi.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/gfngfn/SATySFi" class="material-symbols-outlined">code</a> <a href="/edit.html?id=satysfi" class="material-symbols-outlined">edit</a></div>
-
-* SATySFi is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2015 by Takashi Suwa.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#takashiSuwa Takashi Suwa
-
-codeWithHeader Source code:
- git clone https://github.com/gfngfn/SATySFi
-
-dashboard
- #1018 <span title="TotalRank: 1583 Jobs: 103 Users: 494 Facts: 1787 Links: 986">on PLDB</span>
- 9 Years Old
-
-* A statically-typed, functional typesetting system
-
-- SATySFi is developed on <a href="https://github.com/gfngfn/SATySFi">GitHub</a> and has 969 stars
-- SATySFi first developed in <a href="../lists/originCommunities.html#httpsGithubComGfngfnSaTySFiIssues">https://github.com/gfngfn/SATySFi/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav basic-programming.html parrot-assembly.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 3551
+ committers 54
+ files 326

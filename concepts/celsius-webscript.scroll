@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Celsius WebScript
+import ../measures/conceptPage.scroll
+id Celsius WebScript
+appeared 2006
+type pl
+reference http://celsiusws.sourceforge.net/
 
-title Celsius WebScript - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8678
 
-html
- <a class="trueBaseThemePreviousItem" href="bullfrog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cigale.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/celsius-webscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=celsius-webscript" class="material-symbols-outlined">edit</a></div>
-
-* Celsius WebScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #3173 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 18 Years Old
-
-* 
-
-- Celsius WebScript on HOPL
- https://hopl.info/showlanguage.prx?exp=8678
-- Read more about Celsius WebScript on the web: 1.
- http://celsiusws.sourceforge.net/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav bullfrog.html cigale.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

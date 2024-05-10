@@ -1,46 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tablam
+import ../measures/conceptPage.scroll
+id tablam
+appeared 2020
+type queryLanguage
+creators Mario Montoya
+website http://www.tablam.org/
+domainName tablam.org
+ registered 2014
+ awisRank
+  2022 9825009
 
-title tablam - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mythryl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="upic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tablam.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.tablam.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/Tablam/TablaM" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tablam" class="material-symbols-outlined">edit</a></div>
-
-* tablam is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2020 by Mario Montoya.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#marioMontoya Mario Montoya
-
-codeWithHeader Source code:
- git clone https://github.com/Tablam/TablaM
-
-dashboard
- #1878 <span title="TotalRank: 2393 Jobs: 103 Users: 1304 Facts: 1311 Links: 986">on PLDB</span>
- 4 Years Old
-
-* The practical relational programing language for data-oriented applications
-
-- tablam website
- http://www.tablam.org/
-- tablam is developed on <a href="https://github.com/Tablam/TablaM">GitHub</a> and has 132 stars
-- <a href="http://www.tablam.org/">tablam.org</a> was registered in 2014
-
-<br>
-
-codeWithHeader Example from the web:
- city ?where .population &gt; 100_000 ?select .name, .country
+example
+ city ?where .population > 100_000 ?select .name, .country
  points ?sort .x
 
-endColumns
+githubRepo https://github.com/Tablam/TablaM
+ firstCommit 2020
+ stars 132
+ forks 4
+ subscribers 7
+ created 2020
+ updated 2022
+ description The practical relational programing language for data-oriented applications
+ issues 2
 
-keyboardNav mythryl.html upic.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 230
+ committers 5
+ files 82

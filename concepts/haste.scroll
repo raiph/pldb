@@ -1,49 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title haste
+import ../measures/conceptPage.scroll
+id haste
+appeared 2014
+type pl
+creators Anton Ekblad
+website http://haste-lang.org
+country Sweden
+originCommunity https://github.com/valderman/haste-compiler/issues
+domainName haste-lang.org
+ registered 2014
 
-title haste - Programming language
- hidden
+githubRepo https://github.com/valderman/haste-compiler
+ firstCommit 2012
+ stars 1447
+ forks 115
+ subscribers 57
+ created 2012
+ updated 2022
+ description A GHC-based Haskell to JavaScript compiler
+ issues 63
 
-html
- <a class="trueBaseThemePreviousItem" href="perl-data-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ezhil.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 1887
+ committers 48
+ files 710
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/haste.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://haste-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/valderman/haste-compiler" class="material-symbols-outlined">code</a> <a href="/edit.html?id=haste" class="material-symbols-outlined">edit</a></div>
-
-* haste is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Anton Ekblad.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#antonEkblad Anton Ekblad
-
-codeWithHeader Source code:
- git clone https://github.com/valderman/haste-compiler
-
-dashboard
- #903 <span title="TotalRank: 1470 Jobs: 103 Users: 381 Facts: 1311 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A GHC-based Haskell to JavaScript compiler
-
-- haste website
- http://haste-lang.org
-- haste is developed on <a href="https://github.com/valderman/haste-compiler">GitHub</a> and has 1,447 stars
-- haste first developed in <a href="../lists/originCommunities.html#httpsGithubComValdermanHasteCompilerIssues">https://github.com/valderman/haste-compiler/issues</a>
-- <a href="http://haste-lang.org">haste-lang.org</a> was registered in 2014
-
-<br>
-
-endColumns
-
-## HackerNews discussions of haste
-
-pipeTable
- title|titleLink|date|score|comments
- Haste language|https://news.ycombinator.com/item?id=7513516|04/02/2014|259|73
-
-keyboardNav perl-data-language.html ezhil.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 7513516|Haste language|http://haste-lang.org/|2014-04-02 04:10:26 UTC|1396411826|kruipen|73|259

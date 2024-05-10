@@ -1,55 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Freefem
+import ../measures/conceptPage.scroll
+id Freefem
+appeared 2000
+type pl
+website https://freefem.org/
+country France
+originCommunity Université Pierre et Marie Curie && Université Paris City
+domainName freefem.org
+ registered 2000
+ awisRank
+  2022 547407
 
-title Freefem - Programming language
- hidden
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="entropy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="linked-markdown.html">&gt;</a>
+booleanTokens true false
+keywords nuEdge N rfind endl ARGV bordermeasure BoundaryEdge precision fixed mpiBAND ndof mpiLAND mpiBXOR mpiLOR showbase qf1pE nt z qfnbpE InternalEdge P qf1pTlump n false m imax nuTriangle version qfV2 true length qf1pElump adj nv ndofK volume x mpiMIN UMFPACK qfV5 sum binary showpos qf4pE searchMethod mpiCommWorld area qf2pT4P1 lenEdge quantile CG min default noshowpos qf2pE y Crout notaregion find nTonEdge max tellp whoinElement re FILE qf5pT measure qf5pE scientific mpisize qf9pT cout im qfV1 qf3pE mpirank imin label hTriangle pi qf2pT diag qf1pT l1 mpiPROD LU qf7pT unused flush edgeOrientation mpiSUM good mpiLXOR linfty mpiMAX sparsesolver ffind l2 region mpiUndefined mpiAnySource be append qfV1lump verbosity Cholesky LINE GMRES setw noshowbase cin nbe
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/freefem.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://freefem.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=freefem" class="material-symbols-outlined">edit</a></div>
-
-* Freefem is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #2647 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- Freefem website
- https://freefem.org/
-- Freefem first developed in <a href="../lists/originCommunities.html#universitePierreEtMarieCurie">Université Pierre et Marie Curie</a> and <a href="../lists/originCommunities.html#universiteParisCity">Université Paris City</a>
-- file extensions for Freefem include edp
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/freefem.py">syntax highlighting</a> for Freefem
-- <a href="https://freefem.org/">freefem.org</a> was registered in 2000
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader Freefem <a href="../lists/keywords.html?filter=freefem">Keywords</a>
- nuEdge N rfind endl ARGV bordermeasure BoundaryEdge precision fixed mpiBAND ndof mpiLAND mpiBXOR mpiLOR showbase qf1pE nt z qfnbpE InternalEdge P qf1pTlump n false m imax nuTriangle version qfV2 true length qf1pElump adj nv ndofK volume x mpiMIN UMFPACK qfV5 sum binary showpos qf4pE searchMethod mpiCommWorld area qf2pT4P1 lenEdge quantile CG min default noshowpos qf2pE y Crout notaregion find nTonEdge max tellp whoinElement re FILE qf5pT measure qf5pE scientific mpisize qf9pT cout im qfV1 qf3pE mpirank imin label hTriangle pi qf2pT diag qf1pT l1 mpiPROD LU qf7pT unused flush edgeOrientation mpiSUM good mpiLXOR linfty mpiMAX sparsesolver ffind l2 region mpiUndefined mpiAnySource be append qfV1lump verbosity Cholesky LINE GMRES setw noshowbase cin nbe
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
-
-keyboardNav entropy.html linked-markdown.html
-
-import ../footer.scroll
+pygmentsHighlighter Freefem
+ filename freefem.py
+ fileExtensions edp

@@ -1,45 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GRIN
+import ../measures/conceptPage.scroll
+id GRIN
+appeared 1977
+type pl
+documentation https://cds.cern.ch/record/310380/files/197709192.pdf
+reference https://semanticscholar.org/paper/7dd68e11247d81ae481744a745c7859d802aea94
+country Switzerland
+originCommunity CERN
 
-title GRIN - Programming language
- hidden
+leachim6 Grin
+ filepath g/Grin.grin
+ fileExtensions grin
+ example
+  (Hello World)
+  
 
-html
- <a class="trueBaseThemePreviousItem" href="everparse3d.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="guru.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=7979
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/grin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://cds.cern.ch/record/310380/files/197709192.pdf" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=grin" class="material-symbols-outlined">edit</a></div>
-
-* GRIN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #2725 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- GRIN docs
- https://cds.cern.ch/record/310380/files/197709192.pdf
-- GRIN first developed in <a href="../lists/originCommunities.html#cern">CERN</a>
-- GRIN on HOPL
- https://hopl.info/showlanguage.prx?exp=7979
-- Read more about GRIN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7dd68e11247d81ae481744a745c7859d802aea94 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/g/Grin.grin'>hello-world</a>:
- (Hello World)
- 
-
-endColumns
-
-keyboardNav everparse3d.html guru.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

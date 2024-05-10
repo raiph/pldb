@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Coral
+import ../measures/conceptPage.scroll
+id Coral
+appeared 2017
+type pl
+website https://corallanguage.org/
+country United States
+originCommunity University of California, Riverside && University of Arizona
 
-title Coral - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="clickpath.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="domino.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coral-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://corallanguage.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=coral-lang" class="material-symbols-outlined">edit</a></div>
-
-* Coral is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2767 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- Coral website
- https://corallanguage.org/
-- Coral first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaRiverside">University of California, Riverside</a> and <a href="../lists/originCommunities.html#universityOfArizona">University of Arizona</a>
-
-<br>
-
-endColumns
-
-keyboardNav clickpath.html domino.html
-
-import ../footer.scroll
+visualParadigm true

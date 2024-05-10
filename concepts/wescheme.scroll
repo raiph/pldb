@@ -1,69 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title wescheme
+import ../measures/conceptPage.scroll
+id wescheme
+appeared 2009
+type pl
+website https://www.wescheme.org/
+domainName wescheme.org
+ registered 2009
+ awisRank
+  2022 3536115
 
-title wescheme - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="usd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="apl2.html">&gt;</a>
+lineCommentToken ;
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wescheme.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.wescheme.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=wescheme" class="material-symbols-outlined">edit</a></div>
-
-* wescheme is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2280 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 15 Years Old
-
-* 
-
-- wescheme website
- https://www.wescheme.org/
-- <a href="https://www.wescheme.org/">wescheme.org</a> was registered in 2009
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ;; The world is a number
- ;; tick: world -&gt; world
+ ;; tick: world -> world
  (define (tick world)
   (add1 world))
  (big-bang 0
           (on-tick tick 2)) ;; tick every two seconds
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav usd.html apl2.html
-
-import ../footer.scroll

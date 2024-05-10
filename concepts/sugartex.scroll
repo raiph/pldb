@@ -1,44 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title sugartex
+import ../measures/conceptPage.scroll
+id sugartex
+appeared 2018
+type textMarkup
 
-title sugartex - Text markup language
- hidden
+githubRepo https://github.com/kiwi0fruit/sugartex
+ firstCommit 2018
+ stars 74
+ subscribers 2
+ created 2018
+ updated 2020
+ description SugarTeX is a more readable LaTeX language extension and transcompiler to LaTeX. Fast Unicode autocomplete in Atom editor via https://github.com/kiwi0fruit/atom-sugartex-completions
+ issues 3
+ forks 0
 
-html
- <a class="trueBaseThemePreviousItem" href="renderman-shading-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ncar-command-language.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 95
+ committers 2
+ files 25
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sugartex.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 17172953|Show HN: SugarTeX – readable LaTeX language extension and transcompiler to LaTeX|2018-05-28 15:31:45 UTC|1527521505|kiwi0fruit|49|53
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kiwi0fruit/sugartex" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sugartex" class="material-symbols-outlined">edit</a></div>
-
-* sugartex is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/kiwi0fruit/sugartex
-
-dashboard
- #2206 <span title="TotalRank: 2699 Jobs: 103 Users: 1610 Facts: 1669 Links: 986">on PLDB</span>
- 6 Years Old
-
-* SugarTeX is a more readable LaTeX language extension and transcompiler to LaTeX. Fast Unicode autocomplete in Atom editor via https://github.com/kiwi0fruit/atom-sugartex-completions
-
-- sugartex is developed on <a href="https://github.com/kiwi0fruit/sugartex">GitHub</a> and has 74 stars
-
-<br>
-
-endColumns
-
-## HackerNews discussions of sugartex
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: SugarTeX – readable LaTeX language extension and transcompiler to LaTeX|https://news.ycombinator.com/item?id=17172953|05/28/2018|53|49
-
-keyboardNav renderman-shading-language.html ncar-command-language.html
-
-import ../footer.scroll
+semanticScholar 0

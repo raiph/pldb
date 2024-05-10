@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title nML
+import ../measures/conceptPage.scroll
+id nML
+appeared 1991
+type pl
+reference https://mfx.dasburo.com/old-home/w/nml.html
+reference http://archive.www6.in.tum.de/www6/Main/Publications/Freericks1991a.pdf
+reference https://semanticscholar.org/paper/022c8bfaf28c0d0ceb9dc7d819d7fd98e4ca775e
+country Germany
+originCommunity Forschungsberichte Des Fachbereichs Informatik
 
-title nML - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7457
 
-html
- <a class="trueBaseThemePreviousItem" href="mendel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="patchwork.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nml" class="material-symbols-outlined">edit</a></div>
-
-* nML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3068 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- nML first developed in <a href="../lists/originCommunities.html#forschungsberichteDesFachbereichsInformatik">Forschungsberichte Des Fachbereichs Informatik</a>
-- nML on HOPL
- https://hopl.info/showlanguage.prx?exp=7457
-- Read more about nML on Semantic Scholar: 1.
- https://semanticscholar.org/paper/022c8bfaf28c0d0ceb9dc7d819d7fd98e4ca775e 1.
-- Read more about nML on the web: 1. 2.
- https://mfx.dasburo.com/old-home/w/nml.html 1.
- http://archive.www6.in.tum.de/www6/Main/Publications/Freericks1991a.pdf 2.
-
-<br>
-
-endColumns
-
-keyboardNav mendel.html patchwork.html
-
-import ../footer.scroll
+isbndb 0

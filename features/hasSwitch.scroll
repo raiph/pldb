@@ -9,18 +9,18 @@ html
  <a class="trueBaseThemePreviousItem" href="hasStructs.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasSymbolTables.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  var animal = &quot;dog&quot;
  switch (animal) {
   case &quot;dog&quot;: console.log(&quot;yay&quot;); break;
   case &quot;cat&quot;: console.log(&quot;oh&quot;); break;
  }
 
-codeWithHeader Example from <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/tick-c.html">Tick C</a>:
+codeWithHeader Example from <a href="../concepts/c.html">C</a>:
  switch(expression) {
     case true  :
        break;
@@ -39,6 +39,13 @@ codeWithHeader Example from <a href="../concepts/pug.html">Pug</a>:
    default
      p you have #{friends} friends
 
+codeWithHeader Example from <a href="../concepts/wolfram.html">Wolfram Language</a>:
+ Switch[expr,
+  pattern1, code1,
+  pattern2, code2,
+  pattern3, code3
+ ]
+
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  switch(expression) 
  {
@@ -51,13 +58,6 @@ codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
        foo();
  }
  
-
-codeWithHeader Example from <a href="../concepts/wolfram.html">Wolfram Language</a>:
- Switch[expr,
-  pattern1, code1,
-  pattern2, code2,
-  pattern3, code3
- ]
 
 codeWithHeader Example from <a href="../concepts/slope.html">Slope</a>:
  (case my-num
@@ -73,11 +73,9 @@ codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  |:           outln(&quot;X is not Y, Z, A, B and C&quot;)
  }
 
-* Languages *with* Switch Statements include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/reason.html">Reason</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/wolfram.html">Wolfram Language</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/angelscript.html">Angelscript</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/flow9.html">Flow9</a>, <a href="../concepts/jspp.html">JS++</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/tick-c.html">Tick C</a>, <a href="../concepts/cooc.html">cooC</a>
+* Languages *with* Switch Statements include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/reason.html">Reason</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/wolfram.html">Wolfram Language</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/flow9.html">Flow9</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/angelscript.html">Angelscript</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/jspp.html">JS++</a>
 
 * Languages *without* Switch Statements include <a href="../concepts/progsbase.html">progsbase</a>
-
-* This question asks: Does the language have switch statements or expressions?
 
 * Read more about Switch Statements on the web: 1.
  https://en.wikipedia.org/wiki/Switch_statement 1.

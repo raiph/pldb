@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pegasus AUTOCODE
+import ../measures/conceptPage.scroll
+id Pegasus AUTOCODE
+appeared 1959
+type pl
+reference https://academic.oup.com/comjnl/article/1/4/192/430774
+country United Kingdom
+originCommunity Ferranti Ltd
 
-title Pegasus AUTOCODE - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="parse-tree-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="peridot.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pegasus-autocode.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pegasus-autocode" class="material-symbols-outlined">edit</a></div>
-
-* Pegasus AUTOCODE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3411 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- Pegasus AUTOCODE first developed in <a href="../lists/originCommunities.html#ferrantiLtd">Ferranti Ltd</a>
-- Pegasus AUTOCODE on HOPL
- https://hopl.info/showlanguage.prx?exp=2898
-- Read more about Pegasus AUTOCODE on the web: 1.
- https://academic.oup.com/comjnl/article/1/4/192/430774 1.
-
-<br>
-
-endColumns
-
-keyboardNav parse-tree-notation.html peridot.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=2898

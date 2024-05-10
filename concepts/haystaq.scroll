@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HAYSTAQ
+import ../measures/conceptPage.scroll
+id HAYSTAQ
+appeared 1959
+type queryLanguage
+reference https://nap.nationalacademies.org/read/10866/chapter/72
+country United States
+originCommunity National Institute of Standards and Technology
 
-title HAYSTAQ - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hackppl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="honu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/haystaq.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=haystaq" class="material-symbols-outlined">edit</a></div>
-
-* HAYSTAQ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3389 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- HAYSTAQ first developed in <a href="../lists/originCommunities.html#nationalInstituteOfStandardsAndTechnology">National Institute of Standards and Technology</a>
-- HAYSTAQ on HOPL
- https://hopl.info/showlanguage.prx?exp=6193
-- Read more about HAYSTAQ on the web: 1.
- https://nap.nationalacademies.org/read/10866/chapter/72 1.
-
-<br>
-
-endColumns
-
-keyboardNav hackppl.html honu.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=6193

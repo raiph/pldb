@@ -1,92 +1,67 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Aith
+import ../measures/conceptPage.scroll
+id Aith
+appeared 2020
+type pl
+creators Superstar64
+conceptDescription Aith is a perfomant systems programming language with am empathises on type systems. As of now Aith is very early stages and very little is implemented.
+website https://github.com/Superstar64/aith
+country Unknown
+originCommunity https://github.com/Superstar64/aith
 
-title Aith - Programming language
- hidden
+keywords as bool borrow boxed break byte capacity continue copy else existence extern false function if in inline int integer invariant io kind let linear long loop module multiarg multiplicity native opaque pointer pretype region representation short signed signedness size step struct subtypable transparent true type ubyte uint ulong union unique unrestricted unsigned unwrap used uses ushort word wrap wrapper
 
-html
- <a class="trueBaseThemePreviousItem" href="uno.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gams.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aith.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Superstar64/aith" class="material-symbols-outlined">home</a> <a href="https://github.com/Superstar64/aith" class="material-symbols-outlined">code</a> <a href="/edit.html?id=aith" class="material-symbols-outlined">edit</a></div>
-
-* Aith is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Superstar64.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#superstar64 Superstar64
-
-codeWithHeader Source code:
- git clone https://github.com/Superstar64/aith
-
-dashboard
- #550 <span title="TotalRank: 1113 Jobs: 103 Users: 1947 Facts: 24 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Aith is a perfomant systems programming language with am empathises on type systems. As of now Aith is very early stages and very little is implemented.
-
-- Aith website
- https://github.com/Superstar64/aith
-- Aith is developed on <a href="https://github.com/Superstar64/aith">GitHub</a> and has 41 stars
-- Aith first developed in <a href="../lists/originCommunities.html#httpsGithubComSuperstar64Aith">https://github.com/Superstar64/aith</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  module ::
  
- inline runtimeCall = \f =&gt; \x =&gt; f (x);
+ inline runtimeCall = \f => \x => f (x);
  
  module combinators = {
-     inline flip = \f =&gt; \x =&gt; \y =&gt; f !y !x;
-     inline compose = \f =&gt; \g =&gt; \x =&gt; f !(g !x);
+     inline flip = \f => \x => \y => f !y !x;
+     inline compose = \f => \g => \x => f !(g !x);
      
-     inline readerPure = \x =&gt; \r =&gt; x;
-     inline readerBind = \m =&gt; \f =&gt; \r =&gt; f !(m !r) !r;
-     inline readerMap = \f =&gt; \m =&gt; readerBind !m !(compose !readerPure !f);
+     inline readerPure = \x => \r => x;
+     inline readerBind = \m => \f => \r => f !(m !r) !r;
+     inline readerMap = \f => \m => readerBind !m !(compose !readerPure !f);
  };
  
  module systemf = {
-     inline ignored &lt;B : type&gt; : &lt;A : type&gt; B -&gt; B;
-     inline ignored &lt;B : type&gt; = &lt;A : type&gt; \(x : B) =&gt; x;
+     inline ignored <B : type> : <A : type> B -> B;
+     inline ignored <B : type> = <A : type> \(x : B) => x;
  
-     inline idSysF = &lt;A : type&gt; \x : A =&gt; x;
+     inline idSysF = <A : type> \x : A => x;
  
      inline runIdSysF = \f {
-         |&lt; f : &lt;A : type&gt; A -&gt; A &gt;|
+         |< f : <A : type> A -> A >|
      };
  
      inline id = runIdSysF !idSysF;
  
-     type natural = &lt;A : type&gt; A -&gt; (A -&gt; A) -&gt; A;
+     type natural = <A : type> A -> (A -> A) -> A;
  
-     inline zero&lt;&gt; : natural;
-     inline zero = &lt;A : type&gt; \z : A =&gt; \inc : A -&gt; A =&gt; z;
+     inline zero<> : natural;
+     inline zero = <A : type> \z : A => \inc : A -> A => z;
  
-     inline inc&lt;&gt; : natural -&gt; natural;
-     inline inc = \n =&gt; &lt;A : type&gt; \z : A =&gt; \inc : A -&gt; A =&gt; inc !(|&lt; n : natural &gt;| !z !inc);
+     inline inc<> : natural -> natural;
+     inline inc = \n => <A : type> \z : A => \inc : A -> A => inc !(|< n : natural >| !z !inc);
  
-     inline one&lt;&gt; : natural;
+     inline one<> : natural;
      inline one = inc !zero;
  
-     inline two&lt;&gt; : natural;
+     inline two<> : natural;
      inline two = inc !one;
  };
  
  module varSub = {
-     inline sub&lt;R : pretype&lt;pointer, unrestricted&gt;, A : region, B : region &gt;= A, C:type&gt;
-     : R in A -&gt; R in B -&gt; C -[linear]&gt; C;
-     inline sub = \a =&gt; \b =&gt; \x =&gt; x;
+     inline sub<R : pretype<pointer, unrestricted>, A : region, B : region >= A, C:type>
+     : R in A -> R in B -> C -[linear]> C;
+     inline sub = \a => \b => \x => x;
  
  
-     inline cycle = \a =&gt; \b =&gt; \c {
+     inline cycle = \a => \b => \c {
          sub !a !b !(
              sub !b !c !(
                  sub !c !a !(
-                     \x =&gt; x
+                     \x => x
                  )
              )
          )
@@ -138,14 +113,14 @@ codeWithHeader Example from the web:
      };
  
      inBounds = function(x1, x2, x3) {
-         x1 &lt;= x2 &amp; x2 &lt; x3
+         x1 <= x2 & x2 < x3
      };
  };
  
  module pair = {
-     fst = function(x, y) =&gt; x;
+     fst = function(x, y) => x;
  
-     snd = function(x, y) =&gt; y;
+     snd = function(x, y) => y;
      
      pattern = function (pair) {
          (fst(pair), snd(pair))
@@ -157,13 +132,13 @@ codeWithHeader Example from the web:
          ***x
      };
  
-     deref &lt;RA : region, RB : region &gt;= RA, T : pretype&lt;pointer, unrestricted&gt;&gt; : function (T* @ RA) =&gt; T uses RB;
-     deref &lt;RA : region, RB : region &gt;= RA, T : pretype&lt;pointer, unrestricted&gt;&gt; = function (x) {
+     deref <RA : region, RB : region >= RA, T : pretype<pointer, unrestricted>> : function (T* @ RA) => T uses RB;
+     deref <RA : region, RB : region >= RA, T : pretype<pointer, unrestricted>> = function (x) {
          *x
      };
  
-     write&lt;A:region, B:region &gt;= A&gt; : function(int* @ A) =&gt; () uses B;
-     write&lt;A:region, B:region &gt;= A&gt; = function(x :: int* @ A) {
+     write<A:region, B:region >= A> : function(int* @ A) => () uses B;
+     write<A:region, B:region >= A> = function(x :: int* @ A) {
          *x = (1 :: int)
      };
  
@@ -183,13 +158,13 @@ codeWithHeader Example from the web:
  module number = {
      type point = (int, int, int);
  
-     dotProduct &lt;R : region&gt; : function(point, point) =&gt; int uses R;
+     dotProduct <R : region> : function(point, point) => int uses R;
      dotProduct = function((x1,y1,z1), (x2, y2, z2)) {
          (x1 * x2 + y1 * y2 + z1 * z2)
      };
    
-     mid &lt;R : region&gt; : function(uint, uint) =&gt; uint uses R;
-     mid &lt;R : region&gt; = function(x,y) {
+     mid <R : region> : function(uint, uint) => uint uses R;
+     mid <R : region> = function(x,y) {
          (x + y) / 2
      };
  
@@ -200,11 +175,11 @@ codeWithHeader Example from the web:
      div = divGen;
  
      lessEqual = function(x,y) {
-         x &lt;= y
+         x <= y
      };
  
-     factorial&lt;R : region&gt; : function(ulong) =&gt; ulong uses R; 
-     factorial&lt;R : region&gt; = function(x) {
+     factorial<R : region> : function(ulong) => ulong uses R; 
+     factorial<R : region> = function(x) {
          if (x == 0) {
              1
          } else {
@@ -218,35 +193,35 @@ codeWithHeader Example from the web:
          f (1)
      };
  
-     callUnit &lt;R : region&gt; : function(function*(uint) =&gt; () uses R) =&gt; () uses R;
-     callUnit &lt;R : region&gt; = function(f) {
+     callUnit <R : region> : function(function*(uint) => () uses R) => () uses R;
+     callUnit <R : region> = function(f) {
          f (2)
      };
  };
  
  module recurse = {
-     explode&lt;L : multiplicity, R:region, A:pretype&lt;pointer, L&gt;&gt; : function() =&gt; A uses R;
-     explode&lt;L : multiplicity, R:region, A:pretype&lt;pointer, L&gt;&gt; = function() {
+     explode<L : multiplicity, R:region, A:pretype<pointer, L>> : function() => A uses R;
+     explode<L : multiplicity, R:region, A:pretype<pointer, L>> = function() {
          explode ()
      };
  };
  
  module world = {
-     inline putchar&lt;A:region&gt; : function*(int) =&gt; int uses io in A;
-     inline putchar&lt;A:region&gt; = extern &quot;putchar&quot;;
+     inline putchar<A:region> : function*(int) => int uses io in A;
+     inline putchar<A:region> = extern "putchar";
  
-     putPtr&lt;A:region &gt;= io&gt; : function(int* @ A) =&gt; int uses A;
+     putPtr<A:region >= io> : function(int* @ A) => int uses A;
      putPtr = function(ptr) {
          putchar (*ptr)
      };
  };
  module arrays = {
-     inline get = \x =&gt; \i {
-         * &amp;* &amp;x[i]
+     inline get = \x => \i {
+         * &* &x[i]
      };
  
-     inline set = \x =&gt; \i =&gt; \a {
-         * &amp;* &amp;x[i] = a
+     inline set = \x => \i => \a {
+         * &* &x[i] = a
      };
  
      swap = function(a, b, i) {
@@ -259,8 +234,8 @@ codeWithHeader Example from the web:
      memcpyPtr = function(dst, src, i) {
          loop (let (dst, src, i) = (dst, src, i)) {
              if(i != 0) {
-                 * &amp;* dst = (* &amp;* src);
-                 continue (&amp;dst[1], &amp;src[1], i - 1)
+                 * &* dst = (* &* src);
+                 continue (&dst[1], &src[1], i - 1)
              } else {
                  break ()
              }
@@ -274,10 +249,10 @@ codeWithHeader Example from the web:
  
      inline set = /arrays/set;
  
-     insert&lt;R : region&gt; : function(int[] @ R, unsigned integer(native)) =&gt; () uses R;
-     insert&lt;R : region&gt; = function(array, index) {
+     insert<R : region> : function(int[] @ R, unsigned integer(native)) => () uses R;
+     insert<R : region> = function(array, index) {
          loop (let (array, index) = (array,index)) {
-             if (index &gt; 0 &amp; get !array !index &lt; get !array !(index - 1) ) {
+             if (index > 0 & get !array !index < get !array !(index - 1) ) {
                  let tmp = get !array !index;
                  set !array !index !(get !array !(index - 1));
                  set !array !(index - 1) !tmp;
@@ -288,9 +263,9 @@ codeWithHeader Example from the web:
          }
      };
  
-     sort &lt;R : region&gt; : function(int[] @ R, unsigned integer(native)) =&gt; () uses R;
-     sort &lt;R : region&gt; = function(array, length) {
-         if (length &gt; 1) {
+     sort <R : region> : function(int[] @ R, unsigned integer(native)) => () uses R;
+     sort <R : region> = function(array, length) {
+         if (length > 1) {
              sort(array, length - 1);
              insert(array, length - 1)
          } else {
@@ -300,9 +275,9 @@ codeWithHeader Example from the web:
  };
  
  module borrowed = {
-     increment &lt;R : region&gt; : function(unique int*) =&gt; unique int* uses R;
-     increment &lt;R : region&gt; = function(p :: unique int*) {
-         let ((), p) = borrow p as &lt;A : region &gt;= R&gt;(x :: int* @ A) {
+     increment <R : region> : function(unique int*) => unique int* uses R;
+     increment <R : region> = function(p :: unique int*) {
+         let ((), p) = borrow p as <A : region >= R>(x :: int* @ A) {
              *x = (*x + 1)
          };
          p
@@ -310,30 +285,30 @@ codeWithHeader Example from the web:
  };
  
  module partial = {
-     inline auto = \x =&gt; x;
+     inline auto = \x => x;
      
-     inline semi&lt;A : type&gt; = \x : A =&gt; x;
+     inline semi<A : type> = \x : A => x;
  
-     inline scoped&lt;A : type&gt; : A -&gt; A;
-     inline scoped = \x : A =&gt; x;
+     inline scoped<A : type> : A -> A;
+     inline scoped = \x : A => x;
  
-     inline manual&lt;A : type&gt; : A -&gt; A;
-     inline manual&lt;A : type&gt; = \x =&gt; x;
+     inline manual<A : type> : A -> A;
+     inline manual<A : type> = \x => x;
  };
  
  module import = {
-     inline id = \x =&gt; x;
+     inline id = \x => x;
      module b = {
-         inline const = \y =&gt; /import/id;
+         inline const = \y => /import/id;
      };
  };
  
  module levity = {
-     idPolyPair&lt;A : pretype&lt;struct(pointer, 32bit word) ,linear&gt;&gt; = function(x :: A) {
+     idPolyPair<A : pretype<struct(pointer, 32bit word) ,linear>> = function(x :: A) {
          x
      };
  
-     idPolyUnion&lt;A : pretype&lt;union(pointer, 32bit word) ,linear&gt;&gt; = function(x :: A) {
+     idPolyUnion<A : pretype<union(pointer, 32bit word) ,linear>> = function(x :: A) {
          x
      };
  
@@ -345,7 +320,7 @@ codeWithHeader Example from the web:
  module sum = {
      triangular = function(start, end) {
          loop (let (i, total) = (start, 0)) {
-             if (i &lt;= end) {
+             if (i <= end) {
                  continue (i + 1, total + i)
              } else {
                  break (total)
@@ -355,7 +330,7 @@ codeWithHeader Example from the web:
  };
  
  module newtype = {
-     wrapper num : pretype&lt;32bit word, unrestricted&gt;;
+     wrapper num : pretype<32bit word, unrestricted>;
      wrapper num = int;
  
      makeNum = function() {
@@ -363,7 +338,7 @@ codeWithHeader Example from the web:
      };
  
  
-     wrapper linked : pretype&lt;pointer, unrestricted&gt;;
+     wrapper linked : pretype<pointer, unrestricted>;
      wrapper linked = linked2* @ io;
  
      type linked2 = linked;
@@ -373,13 +348,16 @@ codeWithHeader Example from the web:
      };
  };
 
-<div class="keywordsBlock">
-codeWithHeader Aith <a href="../lists/keywords.html?filter=aith">Keywords</a>
- as bool borrow boxed break byte capacity continue copy else existence extern false function if in inline int integer invariant io kind let linear long loop module multiarg multiplicity native opaque pointer pretype region representation short signed signedness size step struct subtypable transparent true type ubyte uint ulong union unique unrestricted unsigned unwrap used uses ushort word wrap wrapper
-</div>
+githubRepo https://github.com/Superstar64/aith
+ stars 41
+ forks 0
+ subscribers 5
+ created 2020
+ updated 2022
+ description [Early Stages] Low level functional programming language with linear types, first class inline functions, levity polymorphism and regions.
 
-endColumns
-
-keyboardNav uno.html gams.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 349
+ committers 1
+ files 33

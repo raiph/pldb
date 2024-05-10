@@ -1,38 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UIML
+import ../measures/conceptPage.scroll
+id UIML
+appeared 2005
+type xmlFormat
+aka UsiXML
 
-title UIML - Xml format
- hidden
+wikipedia https://en.wikipedia.org/wiki/UIML
+ related xml xaml java
+ summary UIML (User Interface Markup Language) is an XML-based user interface markup language for defining user interfaces on computers. Basically UIML tries to reduce the work needed to develop user interfaces. It allows you to describe the user interface in declarative terms (i.e. as text) and abstract it. Abstracting means that you don't exactly specify how the user interface is going to look, but rather what elements are to be shown, and how should they behave. For example, to describe a message window, you could write:  In theory then you could use that description to generate user interfaces for different platforms, like PDAs. In practice, the different capabilities of those different platforms make a complete translation difficult. Other less ambitious domain-specific programming languages attempt only to describe the user interfaces (or other parts of the application or process) in a domain (for example Windows). See for example the Microsoft language XAML. These languages do a better job usually, but are less flexible. Today, UIML is being standardized by OASIS.A separate effort with the same goals as UIML is UsiXML.
+ backlinksCount 100
+ pageId 2995509
+ created 2005
+ revisionCount 40
+ dailyPageViews 12
+ appeared 2007
 
-html
- <a class="trueBaseThemePreviousItem" href="sp-k.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chomski.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/uiml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/UIML"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=uiml" class="material-symbols-outlined">edit</a></div>
-
-* UIML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #1840 <span title="TotalRank: 2347 Jobs: 103 Users: 1577 Facts: 2460 Links: 667">on PLDB</span>
- 19 Years Old
-
-* UIML (User Interface Markup Language) is an XML-based user interface markup language for defining user interfaces on computers. Basically UIML tries to reduce the work needed to develop user interfaces. It allows you to describe the user interface in declarative terms (i.e. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/UIML Read more on Wikipedia...
-
-- UIML Wikipedia page
- https://en.wikipedia.org/wiki/UIML
-- See also: (3 related languages)<a href="xml.html">XML</a>, <a href="xaml.html">XAML</a>, <a href="java.html">Java</a>
-
-<br>
-
-endColumns
-
-keyboardNav sp-k.html chomski.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

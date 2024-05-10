@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title polymath
+import ../measures/conceptPage.scroll
+id polymath
+appeared 2020
+type textMarkup
+creators JL
+conceptDescription Polymath is a markup language (like Markdown, LaTeX, or HTML) and a static site generator specialized in aesthetically presenting a wide variety of information: text, mathematics, code, photos, videos, you name it.
+website https://jwmza.com/polymath/
+country Unknown
+originCommunity https://github.com/jwmza/polymath/issues
 
-title polymath - Text markup language
- hidden
+githubRepo https://github.com/jwmza/polymath
+ firstCommit 2020
+ stars 12
+ forks 0
+ subscribers 4
+ created 2020
+ updated 2022
+ description Polymath is a human readable, interoperable, long-term focused markup language for information storage and display
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="ad-hoc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edina.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/polymath.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://jwmza.com/polymath/" class="material-symbols-outlined">home</a> <a href="https://github.com/jwmza/polymath" class="material-symbols-outlined">code</a> <a href="/edit.html?id=polymath" class="material-symbols-outlined">edit</a></div>
-
-* polymath is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2020 by JL.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#jl JL
-
-codeWithHeader Source code:
- git clone https://github.com/jwmza/polymath
-
-dashboard
- #2173 <span title="TotalRank: 2680 Jobs: 103 Users: 2315 Facts: 1591 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Polymath is a markup language (like Markdown, LaTeX, or HTML) and a static site generator specialized in aesthetically presenting a wide variety of information: text, mathematics, code, photos, videos, you name it.
-
-- polymath website
- https://jwmza.com/polymath/
-- polymath is developed on <a href="https://github.com/jwmza/polymath">GitHub</a> and has 12 stars
-- polymath first developed in <a href="../lists/originCommunities.html#httpsGithubComJwmzaPolymathIssues">https://github.com/jwmza/polymath/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav ad-hoc.html edina.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 20
+ committers 3
+ files 4

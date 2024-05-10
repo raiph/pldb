@@ -1,209 +1,193 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Scheme
+import ../measures/conceptPage.scroll
+id Scheme
+appeared 1970
+type pl
+creators Guy Steele and Gerald Jay Sussman
+website http://www.scheme-reports.org/
+documentation https://docs.scheme.org/
+fileExtensions scm ss
+country United States
+originCommunity https://community.scheme.org/
+domainName scheme-reports.org
+ registered 2009
+releaseNotesUrl https://www.scheme.com/csv6.9c/6.9c.html
 
-title Scheme - Programming language
- hidden
+isLisp true
+hasComments true
+hasLineComments true
+ ; A comment
+hasMacros true
+ (define-syntax backwards
+  (syntax-rules ()
+    ((_) (syntax-error "(backwards) not allowed"))
+    ((_ e) e)
+    ((_ e1 ... e2)
+     (begin e2 (backwards e1 ...)))))
+hasPrefixNotation true
+ (+ 1 2 3)
+hasHomoiconicity true
+hasPrintDebugging true
+hasMultiLineComments true
+ #| A comment
+ |#
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers false
+hasStrings true
+ "Hello world"
+hasConditionals true
 
-html
- <a class="trueBaseThemePreviousItem" href="cuda.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dart.html">&gt;</a>
+lineCommentToken ;
+multiLineCommentTokens #| |#
+printToken display
+stringToken "
+keywords case do let loop if else when cons car cdr cond lambda lambda* syntax-rules format set! quote eval append list list? member? load
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scheme.pldb
+wikipedia https://en.wikipedia.org/wiki/Scheme_(programming_language)
+ example
+  (set! +
+        (let ((original+ +))
+          (lambda args
+            (if (and (not (null? args)) (string? (car args)))
+                (apply string-append args)
+                (apply original+ args)))))
+  (+ 1 2 3)
+  ===> 6
+  (+ "1" "2" "3")
+  ===> "123"
+ related t lisp algol clojure common-lisp dylan eulisp haskell javascript julia lua r s racket ruby rust scala planner ikarus larceny unicode s-expressions fortran c guile emacs-lisp android
+ summary Scheme is a functional programming language and one of the two main dialects of the programming language Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension. Scheme was created during the 1970s at the MIT AI Lab and released by its developers, Guy L. Steele and Gerald Jay Sussman, via a series of memos now known as the Lambda Papers. It was the first dialect of Lisp to choose lexical scope and the first to require implementations to perform tail-call optimization, giving stronger support for functional programming and associated techniques such as recursive algorithms. It was also one of the first programming languages to support first-class continuations. It had a significant influence on the effort that led to the development of Common Lisp. The Scheme language is standardized in the official IEEE standard and a de facto standard called the Revisedn Report on the Algorithmic Language Scheme (RnRS). The most widely implemented standard is R5RS (1998); a new standard, R6RS, was ratified in 2007. Scheme has a diverse user base due to its compactness and elegance, but its minimalist philosophy has also caused wide divergence between practical implementations, so much that the Scheme Steering Committee calls it "the world's most unportable programming language" and "a family of dialects" rather than a single language.
+ pageId 28119
+ dailyPageViews 705
+ created 2001
+ backlinksCount 929
+ revisionCount 1710
+ appeared 1970
+ fileExtensions scm ss
 
-startColumns 4
+githubLanguage Scheme
+ fileExtensions scm sch sld sls sps ss
+ trendingProjectsCount 0
+ type programming
+ interpreters scheme guile bigloo chicken csi gosh r6rs
+ aceMode scheme
+ codemirrorMode scheme
+ codemirrorMimeType text/x-scheme
+ tmScope source.scheme
+ repos 16742
+githubBigQuery Scheme
+ repos 7221
+ users 5469
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.scheme-reports.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/scheme" class="material-symbols-outlined">terminal</a> <a href="https://docs.scheme.org/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Scheme_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=scheme" class="material-symbols-outlined">edit</a></div>
+monaco scheme
+codeMirror scheme
+pygmentsHighlighter Scheme
+ filename lisp.py
+ fileExtensions scm ss
+linguistGrammarRepo https://github.com/textmate/scheme.tmbundle
+ firstCommit 2006
+ lastCommit 2014
+ committerCount 10
+ commitCount 42
+ sampleCount 4
+ example
+  (define-library (libs basic)
+      (export list2 x)
+      (begin
+          (define (list2 . objs)  objs)
+          (define x 'libs-basic)
+          (define not-exported 'should-not-be-exported)
+          ))
+  
 
-* Scheme is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970 by Guy Steele and Gerald Jay Sussman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
- link ../lists/creators.html#guySteele Guy Steele
- link ../lists/creators.html#geraldJaySussman Gerald Jay Sussman
-
-dashboard
- #50 <span title="TotalRank: 162 Jobs: 44 Users: 239 Facts: 100 Links: 18">on PLDB</span>
- 54 Years Old
- 17k <span title="Scheme repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/scheme">Riju</a> · <a href="https://repl.it/languages/scheme">Replit</a>
-
-monacoEditor scheme
- (display "Hello, world!")
- (newline)
- 
-
-* Scheme is a functional programming language and one of the two main dialects of the programming language Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension. Scheme was created during the 1970s at the MIT AI Lab and released by its developers, Guy L. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Scheme_(programming_language) Read more on Wikipedia...
-
-- Scheme website
- http://www.scheme-reports.org/
-- Scheme Wikipedia page
- https://en.wikipedia.org/wiki/Scheme_(programming_language)
-- Scheme docs
- https://docs.scheme.org/
-- There are at least 16,742 Scheme repos on <a href="https://github.com/search?q=language:Scheme">GitHub</a>
-- Scheme first developed in <a href="../lists/originCommunities.html#httpsCommunitySchemeOrg">https://community.scheme.org/</a>
-- PLDB estimates there are currently 1k job openings for Scheme programmers.
-- file extensions for Scheme include scm, ss, sch, sld, sls and sps
-- The  Google BigQuery Public Dataset GitHub snapshot shows 5k users using Scheme in 7k repos on <a href="https://api.github.com/search/repositories?q=language:Scheme">GitHub</a>
-- There are 817 <a href="https://projecteuler.net/language=Scheme">Project Euler</a> users using Scheme
-- Explore Scheme snippets on <a href="http://www.rosettacode.org/wiki/Category:Scheme">Rosetta Code</a>
-- Scheme on HOPL
- https://hopl.info/showlanguage.prx?exp=694
-- Scheme appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- Scheme Ubuntu package
- https://packages.ubuntu.com/jammy/guile-2.0
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/scheme">package</a> for syntax highlighting Scheme
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/scheme">package</a> for syntax highlighting Scheme
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/lisp.py">syntax highlighting</a> for Scheme
-- GitHub supports <a href="https://github.com/textmate/scheme.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Scheme
-- Scheme appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Calysto/calysto_scheme">Kernel</a> for Scheme
-- Release Notes for Scheme
- https://www.scheme.com/csv6.9c/6.9c.html
-- Official Blog page for Scheme
- https://planet.scheme.org/
-- Events page for Scheme
- https://events.scheme.org/
-- Frequently Asked Questions for Scheme
- http://community.schemewiki.org/?scheme-faq
-- Indeed.com has 1,174 matches for <a href="https://www.indeed.com/jobs?q=scheme engineer">"scheme engineer"</a>.
-- <a href="http://www.scheme-reports.org/">scheme-reports.org</a> was registered in 2009
-- See also: (27 related languages)<a href="t.html">T</a>, <a href="lisp.html">Lisp</a>, <a href="algol.html">Algol</a>, <a href="clojure.html">Clojure</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="dylan.html">Dylan</a>, <a href="eulisp.html">EuLisp</a>, <a href="haskell.html">Haskell</a>, <a href="javascript.html">JavaScript</a>, <a href="julia.html">Julia</a>, <a href="lua.html">Lua</a>, <a href="r.html">R</a>, <a href="s.html">S</a>, <a href="racket.html">Racket</a>, <a href="ruby.html">Ruby</a>, <a href="rust.html">Rust</a>, <a href="scala.html">Scala</a>, <a href="planner.html">PLANNER</a>, <a href="ikarus.html">Ikarus Scheme implementation</a>, <a href="larceny.html">Larceny Scheme implementation</a>, <a href="unicode.html">Unicode</a>, <a href="s-expressions.html">S-expressions</a>, <a href="fortran.html">Fortran</a>, <a href="c.html">C</a>, <a href="guile.html">Guile</a>, <a href="emacs-lisp.html">Emacs Lisp</a>, <a href="android.html">Android</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/scheme'>Riju</a>:
- (display &quot;Hello, world!&quot;)
- (newline)
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Scheme.scm'>hello-world</a>:
- (display &quot;Hello World&quot;) (newline)
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Scheme'>the Hello World Collection</a>:
+projectEuler Scheme
+ memberCount
+  2019 791
+  2022 817
+helloWorldCollection Scheme
  ; Hello World in Scheme
  
- (display &quot;Hello, world!&quot;)
+ (display "Hello, world!")
  (newline)
+leachim6 Scheme
+ filepath s/Scheme.scm
+ fileExtensions scm
+ example
+  (display "Hello World") (newline)
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Scheme
+quineRelay Scheme
 
-codeWithHeader Example from <a href='https://github.com/textmate/scheme.tmbundle'>Linguist</a>:
- (define-library (libs basic)
-     (export list2 x)
-     (begin
-         (define (list2 . objs)  objs)
-         (define x &#39;libs-basic)
-         (define not-exported &#39;should-not-be-exported)
-         ))
- 
+rijuRepl https://riju.codes/scheme
+ example
+  (display "Hello, world!")
+  (newline)
+  
+replit https://repl.it/languages/scheme
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Scheme_(programming_language)'>Wikipedia</a>:
- (set! +
-       (let ((original+ +))
-         (lambda args
-           (if (and (not (null? args)) (string? (car args)))
-               (apply string-append args)
-               (apply original+ args)))))
- (+ 1 2 3)
- ===&gt; 6
- (+ &quot;1&quot; &quot;2&quot; &quot;3&quot;)
- ===&gt; &quot;123&quot;
+indeedJobs scheme engineer
+ 2017 1174
+officialBlogUrl https://planet.scheme.org/
+eventsPageUrl https://events.scheme.org/
+faqPageUrl http://community.schemewiki.org/?scheme-faq
 
-<div class="keywordsBlock">
-codeWithHeader Scheme <a href="../lists/keywords.html?filter=scheme">Keywords</a>
- case do let loop if else when cons car cdr cond lambda lambda* syntax-rules format set! quote eval append list list? member? load
-</div>
+tiobe Scheme
+hopl https://hopl.info/showlanguage.prx?exp=694
 
-endColumns
+ubuntuPackage guile-2.0
+jupyterKernel https://github.com/Calysto/calysto_scheme
+fileType text
+wordRank 2803
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 24
+ year|publisher|title|authors|isbn13
+ 1997|Springer-verlag New York Inc.|Programming And Meta-programming In Scheme|Jon Pearce and D. Gries and F. B. Schneider|9780387983202
+ 1989|Mit Pr|Scheme and the Art of Programming|Springer, George and Friedman, Daniel P.|9780262192880
+ 2003|The MIT Press|The Scheme Programming Language|Dybvig, R. Kent|9780262541480
+ 2003|Kendall Hunt Publishing|INTRODUCTION TO PROGRAMMING LANGUAGES: PRINCIPLES, C, C++, SCHEME AND PROLOG|Yinong Chen|9780757503672
+ 1996|Prentice Hall|The Scheme Programming Language,  ANSI Scheme|Dybvig, R. Kent|9780134546469
+ 2022|PHI Publisher|SCHEME PROGRAMMING LANGUAGE, THE, 4TH ED. [Paperback] DYBVIG|DYBVIG|9788120343009
+ 1988|Prentice Hall|An Introduction to Scheme|Smith, Jerry D.|9780134967127
+ 1989|The Mit Press 1989-09-13|Scheme And The Art Of Programming|Springer and George|9780262691369
+ 2021|Linus Publications, Inc.|An Introduction to Functional Programming with Scheme||9781934188996
+ 2012|LAP LAMBERT Academic Publishing|Chaos-based Encryption: A highly preferable Encryption Scheme|Sohail, Shahab Saquib and Ahmad, Musheer|9783659193880
+ 2019-11-15T00:00:01Z|Kendall Hunt Pub Co|Introduction to Programming Languages: Programming in C C++ Scheme Prolog C# and Python|Chen, Yinong|9781792407994
+ 2009|The MIT Press|The Scheme Programming Language, fourth edition|Dybvig, R. Kent|9780262258166
+ 2009|The MIT Press|The Scheme Programming Language, fourth edition (The MIT Press)|Dybvig, R. Kent|9780262512985
+ 1999|The MIT Press|Simply Scheme - 2nd Edition: Introducing Computer Science|Harvey, Brian and Wright, Matthew|9780262082815
+ 1990|The MIT Press|Programming in Scheme (The MIT Press)|Eisenberg, Michael|9780262550178
+ 2012|Springer|Programming and Meta-Programming in Scheme (Undergraduate Texts in Computer Science)|Pearce, Jon|9781461216827
+ 1998|Course Technology|Concrete Abstractions: An Introduction to Computer Science Using Scheme|Hailperin, Max and Kaiser, Barbara and Knight, Karl|9780534952112
+ 2012-01-26T00:00:01Z|Kendall Hunt Publishing|INTRODUCTION TO PROGRAMMING LANGUAGES: PRINCIPLES, C, C++, SCHEME AND PROLOG|CHEN  YINONG and TSAI  WEI-TEK|9780757529740
+ 1983-05-01T00:00:01Z|Mcgraw Hill|Scheme and the Art of Programming|George Springer and Daniel P. Friedman|9780070605220
+ 2013|Springer|Exploring Computer Science with Scheme (Undergraduate Texts in Computer Science)|Grillmeyer, Oliver|9781475729375
+ 2012|Springer|Programming and Meta-Programming in Scheme (Undergraduate Texts in Computer Science)|Pearce, Jon|9781461272434
+ 1995|Prentice Hall|The Scheme Programming Language|Dybvig, R. Kent|9780137918645
+ 1991-05-01T00:00:01Z|Inst of Elect & Electronic|IEEE Standard for the Scheme Programming Language/Std 1178-1990||9781559371254
+ 2015|LAP LAMBERT Academic Publishing|Subcarrier/Power allocation Scheme for OFDMA Networks: Load Adaptive, Decentralized and Time Efficient|Shahzad, Muhammad Adil and Hasan Ali, Aamir|9783659804083
 
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #| |#
-  Example
-   #| A comment
-   |#
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token display
-  Example
- row
-  Feature Homoiconicity
-  FeatureLink ../features/hasHomoiconicity.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Prefix Notation
-  FeatureLink ../features/hasPrefixNotation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (+ 1 2 3)
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (define-syntax backwards
-    (syntax-rules ()
-      ((_) (syntax-error "(backwards) not allowed"))
-      ((_ e) e)
-      ((_ e1 ... e2)
-       (begin e2 (backwards e1 ...)))))
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Lispy
-  FeatureLink ../features/isLisp.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav cuda.html dart.html
-
-import ../footer.scroll
+semanticScholar 23
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1986|Revised5 Report on the Algorithmic Language Scheme|10.1145/290229.290234|570|60|H. Abelson and R. K. Dybvig and C. T. Haynes and G. Rozas and IV N.I.Adams and D. Friedman and E. Kohlbecker and G. Steele and D. H. Bartley and R. Halstead and D. Oxley and G. Sussman and G. Brooks and C. Hanson and K. Pitman and M. Wand|cb447a69faf544c9047492fdb44e4c47c1cfdee1
+ 1991|Revised4 report on the algorithmic language scheme|10.1145/382130.382133|440|24|H. Abelson and R. K. Dybvig and C. T. Haynes and G. Rozas and N. Adams and D. Friedman and E. Kohlbecker and G. Steele and D. H. Bartley and R. Halstead and D. Oxley and G. Sussman and G. Brooks and C. Hanson and K. Pitman and M. Wand and W. Clinger and J. Rees|23cc11e91a6eb4c748995a8b7f5641930372d267
+ 2002|DrScheme: a programming environment for Scheme|10.1017/S0956796801004208|328|19|R. Findler and John Clements and C. Flanagan and M. Flatt and S. Krishnamurthi and P. Steckler and M. Felleisen|d8086b8d23801013482c2e571b387dee81bc1817
+ 2008|The design and implementation of typed scheme|10.1145/1328438.1328486|297|35|Sam Tobin-Hochstadt and M. Felleisen|1b4df92d7f0d9393103cafbdbc512c52a90296b8
+ 1986|Revised3 report on the algorithmic language scheme|10.1145/15042.15043|209|20|J. Rees and W. Clinger|43b2bcd702c7a2228814f59e393ab6c730c3ca29
+ 2009|Revised6 Report on the Algorithmic Language Scheme|10.1017/S0956796809990074|151|14|Michael Sperber and R. K. Dybvig and M. Flatt and A. V. Straaten and R. Findler and Jacob Matthews|b22d0c0a48e755098ff3bb4cf185a79847e32464
+ 1991|IEEE standard for the Scheme programming language|10.1109/ieeestd.1991.101032|117|6|Microcomputer Standards Subcommittee|41289b96500579c567de1ad9a62b26e9bc9c35ae
+ 2019|Adaptive Protection Coordination Scheme Using Numerical Directional Overcurrent Relays|10.1109/TII.2018.2834474|84|1|M. Alam|5d4f3a0aa3980cfe18f5e7081b421684258719fd
+ 2011|inGAP-sv: a novel scheme to identify and visualize structural variation from paired end mapping data|10.1093/nar/gkr506|79|4|J. Qi and F. Zhao|bf96c20e3672fb6bed09e9db4b1986f84c61bb6f
+ 2011|Partitioned EDF scheduling for multiprocessors using a C=D task splitting scheme|10.1007/s11241-011-9126-9|76|8|A. Burns and Robert I. Davis and P. Wang and Fengxiang Zhang|0087e4167285d7c66c067de4a87567764ee99a17
+ 1969|An automatic grading scheme for simple programming exercises|10.1145/362946.362981|56|3|J. Hext and J. W. Winings|cbbc8f3d96d80a67bbb44b98b982a1af6281fe48
+ 1988|Object-oriented programming in scheme|10.1145/62678.62720|52|1|N. Adams and J. Rees|ee3bcdeccb98e446d3b9933a59600e511f0afbb9
+ 2006|Concurrency oriented programming in termite scheme|10.1145/1159789.1159795|45|3|G. Germain|55088ec7fa27a01ddfe42566baacb2c7ca6e7e4c
+ 2010|A Modular Scheme for Deadlock Prevention in an Object-Oriented Programming Model|10.1007/978-3-642-16901-4_39|22|0|Scott West and Sebastian Nanz and B. Meyer|851892ef4cf5ce2dc4e75cac11552dfcedefc2db
+ 2005|An Equational Specification for the Scheme Language|10.3217/jucs-011-07-1327|19|2|Marcelo d’Amorim and G. Rosu|ea7c32092b5674db19f7283d04ae2feb33252333
+ 1999|Programming World Wide Web pages in scheme|10.1145/344283.344292|17|2|K. Nørmark|5b85af04e42aad6999c822a7dd49d15bb0487a3e
+ 2012|An adaptive, agent-based protection scheme for radial distribution networks based on IEC 61850 and IEC 61499|10.1049/CP.2012.0764|15|0|D. Pala and C. Tornelli and G. Proserpio|ab95c06583442609ca79bacdc9c77b20dc9e1ca8
+ 2000|Bee: an integrated development environment for the Scheme programming language|10.1017/S0956796800003725|14|0|M. Serrano|f0250b025f5405ddfeace27d5064c7e2ed84b210
+ 2009|Towards Compatible and Interderivable Semantic Specifications for the Scheme Programming Language, Part II: Reduction Semantics and Abstract Machines|10.1007/978-3-642-04164-8_10|11|0|Malgorzata Biernacka and O. Danvy|ba374a28af09de2b858218ce61505622d8d4657a
+ 2012|Compiling a Functional Logic Language: The Basic Scheme|10.1007/978-3-642-29822-6_5|8|0|S. Antoy and Arthur Peters|7f9e1f99f01557d9f77a5507f075cad3e76086e2
+ 2012|Bringing Scheme programming to the iPhone—Experience|10.1002/spe.1073|4|0|Engineer Bainomugisha and Jorge Vallejos and E. G. Boix and Pascal Costanza and T. D'Hondt and W. Meuter|e4fafba1a9b6cceb6900afbe58b7d2fe0e5dfef9
+ 2003|Programming graphical user interfaces with Scheme|10.1017/S0956796802004537|3|0|Erick Gallesio and M. Serrano|412762582c8b78d290f9a7a6a17de3e904b89249
+ 1992|The Scheme Programming Language|10.1016/B978-0-444-88135-9.50013-9|1|0|J. Franco and D. Friedman and O. Danvy|e7273e4b345308eebaecead6e8306215da661ebe

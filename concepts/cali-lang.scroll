@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cali-Lang
+import ../measures/conceptPage.scroll
+id Cali-Lang
+appeared 2015
+type pl
+conceptDescription Cali is an object oriented interpreted programming language written in Java. It is an efficiency (glue) language that is loosely typed. Cali has it's own standard library but anyone can create external Java modules to extend Cali. In fact, the entire standard library was written by wrapping Java code.
+website https://web.archive.org/web/20160820093952/http://cali-lang.com/
+country Unknown
+originCommunity https://github.com/cali-lang
 
-title Cali-Lang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="macro-10.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="em.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cali-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20160820093952/http://cali-lang.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/cali-lang/cali.lang.base" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cali-lang" class="material-symbols-outlined">edit</a></div>
-
-* Cali-Lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/cali-lang/cali.lang.base
-
-dashboard
- #1075 <span title="TotalRank: 1632 Jobs: 103 Users: 2402 Facts: 543 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Cali is an object oriented interpreted programming language written in Java. It is an efficiency (glue) language that is loosely typed. Cali has it's own standard library but anyone can create external Java modules to extend Cali. In fact, the entire standard library was written by wrapping Java code.
-
-- Cali-Lang website
- https://web.archive.org/web/20160820093952/http://cali-lang.com/
-- Cali-Lang is developed on <a href="https://github.com/cali-lang/cali.lang.base">GitHub</a> and has 1 stars
-- Cali-Lang first developed in <a href="../lists/originCommunities.html#httpsGithubComCaliLang">https://github.com/cali-lang</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  include console;
  include net.rpc;
  include rpcDemoObj;        // Include demo object.
@@ -44,9 +17,9 @@ codeWithHeader Example from the web:
      {
          rd = new rpcDemoServer();
          console
-             .println(&#39;Starting up rpcDemoServer on localhost:9090&#39;)
-             .println(&#39;Hit ctrl-c to kill the server.&#39;)
-             .println(&#39;Waiting for calls ...\n&#39;)
+             .println('Starting up rpcDemoServer on localhost:9090')
+             .println('Hit ctrl-c to kill the server.')
+             .println('Waiting for calls ...\n')
          ;
          rd.start();
      }
@@ -54,29 +27,37 @@ codeWithHeader Example from the web:
      public rpcDemoServer()
      {
          this    // Hosted methods
-             .add(&#39;addToCart&#39;)
-             .add(&#39;getCart&#39;)
+             .add('addToCart')
+             .add('getCart')
          ;
      }
      public addToCart(object Item)
      {
-         if(Item instanceof &#39;rpcDemoObj&#39;)
+         if(Item instanceof 'rpcDemoObj')
          {
-             console.println(&quot;Adding item &#39;&quot; + Item.getModelName() + &quot;&#39; to cart.&quot;);
+             console.println("Adding item '" + Item.getModelName() + "' to cart.");
              this.cart @= Item;
              return true;
          }
-         else { throw &quot;Unexpected object found.&quot;; }
+         else { throw "Unexpected object found."; }
      }
      public getCart()
      {
-         console.println(&#39;Returning shopping cart.&#39;);
+         console.println('Returning shopping cart.');
          return this.cart;
      }
  }
 
-endColumns
+githubRepo https://github.com/cali-lang/cali.lang.base
+ stars 1
+ forks 0
+ subscribers 2
+ created 2017
+ updated 2021
+ description Base implementation of Cali interpreter.
 
-keyboardNav macro-10.html em.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 39
+ committers 5
+ files 104

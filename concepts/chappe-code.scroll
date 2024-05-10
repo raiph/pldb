@@ -1,36 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chappe-code
-
-title chappe-code - Notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="argon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="concordance.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chappe-code.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=chappe-code" class="material-symbols-outlined">edit</a></div>
-
-* chappe-code is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+notation">notation</a> created in 1792.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1792 1792
-
-dashboard
- #3149 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4298 Links: 986">on PLDB</span>
- 232 Years Old
-
-* An optical telegraph notation.
-
-- Read more about chappe-code on the web: 1.
- https://en.wikipedia.org/wiki/Optical_telegraph 1.
-
-<br>
-
-endColumns
-
-keyboardNav argon.html concordance.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id chappe-code
+appeared 1792
+type notation
+conceptDescription An optical telegraph notation.
+reference https://en.wikipedia.org/wiki/Optical_telegraph

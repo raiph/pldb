@@ -1,52 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title YESS
+import ../measures/conceptPage.scroll
+id YESS
+appeared 2022
+type protocol
+creators Paul Gordon
+conceptDescription YESS: A Reboot Of RSS. The protocol is a subset of HTML and CSS. It's central design idea is to split static HTML files up into small single-screen components, called Scenes.
+standsFor You Easily Syndicate Scenes
 
-title YESS - Protocol
- hidden
+influencedBy rss
 
-html
- <a class="trueBaseThemePreviousItem" href="ceemac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ceu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yess.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/paul-go/YESS-Specification" class="material-symbols-outlined">code</a> <a href="/edit.html?id=yess" class="material-symbols-outlined">edit</a></div>
-
-* YESS, aka You Easily Syndicate Scenes, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+protocol">protocol</a> created in 2022 by Paul Gordon.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#paulGordon Paul Gordon
-
-codeWithHeader Source code:
- git clone https://github.com/paul-go/YESS-Specification
-
-dashboard
- #1638 <span title="TotalRank: 2147 Jobs: 103 Users: 2373 Facts: 1058 Links: 986">on PLDB</span>
- 2 Years Old
-
-* YESS: A Reboot Of RSS. The protocol is a subset of HTML and CSS. It's central design idea is to split static HTML files up into small single-screen components, called Scenes.
-
-- YESS is developed on <a href="https://github.com/paul-go/YESS-Specification">GitHub</a> and has 5 stars
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;section&gt;
+example
+ <section>
  	HTML for section 1
- &lt;/section&gt;
- &lt;embed src=&quot;section-2-and-3.html&quot;&gt;
- &lt;section&gt;
+ </section>
+ <embed src="section-2-and-3.html">
+ <section>
  	HTML for section 4
- &lt;/section&gt;
- &lt;section&gt;
+ </section>
+ <section>
  	HTML for section 5
- &lt;/section&gt;
- &lt;embed src=&quot;section-6.html&quot;&gt;
+ </section>
+ <embed src="section-6.html">
 
-endColumns
+githubRepo https://github.com/paul-go/YESS-Specification
+ stars 5
+ forks 0
+ subscribers 2
+ created 2022
+ updated 2022
+ description Official specification document for the YESS protocol.
+ issues 0
 
-keyboardNav ceemac.html ceu.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 18
+ committers 1
+ files 4

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GROUPLOG
+import ../measures/conceptPage.scroll
+id GROUPLOG
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/9d8b9a36ff09a2719018416c7e95208100d2fb11
+country Portugal
+originCommunity Universidade Nova de Lisboa
 
-title GROUPLOG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7804
 
-html
- <a class="trueBaseThemePreviousItem" href="graqula.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gsbl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/grouplog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=grouplog" class="material-symbols-outlined">edit</a></div>
-
-* GROUPLOG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3706 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- GROUPLOG first developed in <a href="../lists/originCommunities.html#universidadeNovaDeLisboa">Universidade Nova de Lisboa</a>
-- GROUPLOG on HOPL
- https://hopl.info/showlanguage.prx?exp=7804
-- Read more about GROUPLOG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9d8b9a36ff09a2719018416c7e95208100d2fb11 1.
-
-<br>
-
-endColumns
-
-keyboardNav graqula.html gsbl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

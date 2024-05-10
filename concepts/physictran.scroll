@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PHYSICTRAN
+import ../measures/conceptPage.scroll
+id PHYSICTRAN
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/2788136771757c8c046bafad9afec0ba8a88183e
+country France
+originCommunity French Ministry of Defence Computing Center
 
-title PHYSICTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5472
 
-html
- <a class="trueBaseThemePreviousItem" href="pgolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pi-calculus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/physictran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=physictran" class="material-symbols-outlined">edit</a></div>
-
-* PHYSICTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3932 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- PHYSICTRAN first developed in <a href="../lists/originCommunities.html#frenchMinistryOfDefenceComputingCenter">French Ministry of Defence Computing Center</a>
-- PHYSICTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=5472
-- Read more about PHYSICTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2788136771757c8c046bafad9afec0ba8a88183e 1.
-
-<br>
-
-endColumns
-
-keyboardNav pgolog.html pi-calculus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

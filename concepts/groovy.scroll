@@ -1,207 +1,189 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Groovy
+import ../measures/conceptPage.scroll
+id Groovy
+appeared 2003
+type pl
+creators James Strachan
+website http://groovy-lang.org/
+documentation https://groovy-lang.org/documentation.html
+documentation https://devdocs.io/groovy~3.0/
+fileExtensions groovy
+country United States and Spain and France
+originCommunity https://github.com/grails
+domainName groovy-lang.org
+ registered 2011
+ awisRank
+  2022 143901
+  2017 88374
+releaseNotesUrl http://groovy-lang.org/releases.html
 
-title Groovy - Programming language
- hidden
+runsOnVm jvm
 
-html
- <a class="trueBaseThemePreviousItem" href="soap.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="graphql.html">&gt;</a>
+hasOperatorOverloading true
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasPrintDebugging true
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasBooleans true
+hasWhileLoops true
+hasClasses true
+hasConstants true
+hasExceptions true
+hasFunctions true
+hasSwitch true
+hasInheritance true
+hasConditionals true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/groovy.pldb
+lineCommentToken //
+multiLineCommentTokens /* */
+printToken println
+stringToken "
+booleanTokens true false
+keywords as assert break case catch class const continue def default do else enum extends false finally for goto if implements import in instanceof interface new null package return super switch this throw throws trait true try while
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/Groovy_(programming_language)
+ example
+  class Bird implements FlyingAbility {} /* Adds the trait FlyingAbility to the Bird class capabilities */
+  def bird = new Bird() /* instantiate a new Bird */
+  assert bird.fly() == "I'm flying!" /* the Bird class automatically gets the behavior of the FlyingAbility trait */
+ related java python ruby perl smalltalk objective-c kotlin jvm regex xml html json android eclipse-editor emacs-editor textmate-editor visual-studio-code-editor javascript
+ summary Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries. Groovy uses a Java-like curly-bracket syntax. Most Java code is also syntactically valid Groovy, although semantics may be different. Groovy 1.0 was released on January 2, 2007, and Groovy 2.0 in July, 2012. Since version 2, Groovy can also be compiled statically, offering type inference, and performance near that of Java. Groovy 2.4 was the last major release under Pivotal Software's sponsorship which ended in March 2015. Groovy has since changed its governance structure to a Project Management Committee (PMC) in the Apache Software Foundation.
+ pageId 508401
+ dailyPageViews 577
+ created 2018
+ backlinksCount 583
+ revisionCount 1
+ appeared 2003
+ fileExtensions groovy
 
-<div class="trueBaseThemeQuickLinks"><a href="http://groovy-lang.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/groovy" class="material-symbols-outlined">terminal</a> <a href="https://devdocs.io/groovy~3.0/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Groovy_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://reddit.com/r/groovy"><svg role="img" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 18.65625 4 C 16.558594 4 15 5.707031 15 7.65625 L 15 11.03125 C 12.242188 11.175781 9.742188 11.90625 7.71875 13.0625 C 6.945313 12.316406 5.914063 12 4.90625 12 C 3.816406 12 2.707031 12.355469 1.9375 13.21875 L 1.9375 13.25 L 1.90625 13.28125 C 1.167969 14.203125 0.867188 15.433594 1.0625 16.65625 C 1.242188 17.777344 1.898438 18.917969 3.03125 19.65625 C 3.023438 19.769531 3 19.882813 3 20 C 3 22.605469 4.574219 24.886719 6.9375 26.46875 C 9.300781 28.050781 12.488281 29 16 29 C 19.511719 29 22.699219 28.050781 25.0625 26.46875 C 27.425781 24.886719 29 22.605469 29 20 C 29 19.882813 28.976563 19.769531 28.96875 19.65625 C 30.101563 18.917969 30.757813 17.777344 30.9375 16.65625 C 31.132813 15.433594 30.832031 14.203125 30.09375 13.28125 L 30.0625 13.25 C 29.292969 12.386719 28.183594 12 27.09375 12 C 26.085938 12 25.054688 12.316406 24.28125 13.0625 C 22.257813 11.90625 19.757813 11.175781 17 11.03125 L 17 7.65625 C 17 6.675781 17.558594 6 18.65625 6 C 19.175781 6 19.820313 6.246094 20.8125 6.59375 C 21.65625 6.890625 22.75 7.21875 24.15625 7.3125 C 24.496094 8.289063 25.414063 9 26.5 9 C 27.875 9 29 7.875 29 6.5 C 29 5.125 27.875 4 26.5 4 C 25.554688 4 24.738281 4.535156 24.3125 5.3125 C 23.113281 5.242188 22.246094 4.992188 21.46875 4.71875 C 20.566406 4.402344 19.734375 4 18.65625 4 Z M 16 13 C 19.152344 13 21.964844 13.867188 23.9375 15.1875 C 25.910156 16.507813 27 18.203125 27 20 C 27 21.796875 25.910156 23.492188 23.9375 24.8125 C 21.964844 26.132813 19.152344 27 16 27 C 12.847656 27 10.035156 26.132813 8.0625 24.8125 C 6.089844 23.492188 5 21.796875 5 20 C 5 18.203125 6.089844 16.507813 8.0625 15.1875 C 10.035156 13.867188 12.847656 13 16 13 Z M 4.90625 14 C 5.285156 14 5.660156 14.09375 5.96875 14.25 C 4.882813 15.160156 4.039063 16.242188 3.53125 17.4375 C 3.277344 17.117188 3.125 16.734375 3.0625 16.34375 C 2.953125 15.671875 3.148438 14.976563 3.46875 14.5625 C 3.472656 14.554688 3.464844 14.539063 3.46875 14.53125 C 3.773438 14.210938 4.3125 14 4.90625 14 Z M 27.09375 14 C 27.6875 14 28.226563 14.210938 28.53125 14.53125 C 28.535156 14.535156 28.527344 14.558594 28.53125 14.5625 C 28.851563 14.976563 29.046875 15.671875 28.9375 16.34375 C 28.875 16.734375 28.722656 17.117188 28.46875 17.4375 C 27.960938 16.242188 27.117188 15.160156 26.03125 14.25 C 26.339844 14.09375 26.714844 14 27.09375 14 Z M 11 16 C 9.894531 16 9 16.894531 9 18 C 9 19.105469 9.894531 20 11 20 C 12.105469 20 13 19.105469 13 18 C 13 16.894531 12.105469 16 11 16 Z M 21 16 C 19.894531 16 19 16.894531 19 18 C 19 19.105469 19.894531 20 21 20 C 22.105469 20 23 19.105469 23 18 C 23 16.894531 22.105469 16 21 16 Z M 21.25 21.53125 C 20.101563 22.597656 18.171875 23.28125 16 23.28125 C 13.828125 23.28125 11.898438 22.589844 10.75 21.65625 C 11.390625 23.390625 13.445313 25 16 25 C 18.554688 25 20.609375 23.398438 21.25 21.53125 Z"/></svg></a> <a href="https://twitter.com/apachegroovy"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=groovy" class="material-symbols-outlined">edit</a></div>
+githubLanguage Groovy
+ fileExtensions groovy grt gtpl gvy
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  jenkinsci pipeline-examples https://github.com/jenkinsci.png https://github.com/jenkinsci/pipeline-examples Groovy #e69f56 2979 1833 67 "A collection of examples, tips and tricks and snippets of scripting for the Jenkins Pipeline plugin"
+  ben-manes gradle-versions-plugin https://github.com/ben-manes.png https://github.com/ben-manes/gradle-versions-plugin Groovy #e69f56 2012 111 52 "Gradle plugin to discover dependency updates"
+ trendingProjectsCount 3
+ type programming
+ filenames Jenkinsfile
+ interpreters groovy
+ aceMode groovy
+ codemirrorMode groovy
+ codemirrorMimeType text/x-groovy
+ tmScope source.groovy
+ repos 76001
+githubBigQuery Groovy
+ repos 27223
+ users 19506
 
-* Groovy is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003 by James Strachan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#jamesStrachan James Strachan
+codeMirror groovy
+pygmentsHighlighter Groovy
+ filename jvm.py
+ fileExtensions groovy gradle
+linguistGrammarRepo https://github.com/textmate/groovy.tmbundle
+ firstCommit 2007
+ lastCommit 2014
+ committerCount 9
+ commitCount 113
+ sampleCount 5
+ example
+  #!/usr/bin/env groovy
+  println "Groovy!"
+  
+languageServerProtocolProject https://github.com/palantir/groovy-language-server/
+ writtenIn java
 
-dashboard
- #85 <span title="TotalRank: 274 Jobs: 103 Users: 177 Facts: 113 Links: 58">on PLDB</span>
- 21 Years Old
- 76k <span title="Groovy repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/groovy">Riju</a> · <a href="https://tio.run/#groovy">TIO</a>
-
-* Apache Groovy is an object-oriented programming language for the Java platform. It is a dynamic language with features similar to those of Python, Ruby, Perl, and Smalltalk. It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Groovy_(programming_language) Read more on Wikipedia...
-
-- Groovy website
- http://groovy-lang.org/
-- Groovy downloads page
- https://groovy.apache.org/download.html
-- Groovy Wikipedia page
- https://en.wikipedia.org/wiki/Groovy_(programming_language)
-- PLDB has 2 documentation sites for Groovy: <a href="https://groovy-lang.org/documentation.html">groovy-lang.org</a>, <a href="https://devdocs.io/groovy~3.0/">devdocs.io</a>
-- There are at least 76,001 Groovy repos on <a href="https://github.com/search?q=language:Groovy">GitHub</a>
-- Groovy first developed in <a href="../lists/originCommunities.html#httpsGithubComGrails">https://github.com/grails</a>
-- file extensions for Groovy include groovy, grt, gtpl, gvy and gradle
-- Groovy on Twitter
- https://twitter.com/apachegroovy
-- The  Google BigQuery Public Dataset GitHub snapshot shows 20k users using Groovy in 27k repos on <a href="https://api.github.com/search/repositories?q=language:Groovy">GitHub</a>
-- Check out the 49 <a href="https://www.meetup.com/topics/groovy-programming-language/">Groovy meetup groups</a> on Meetup.com.
-- There are 2,900 members in the <a href="https://reddit.com/r/groovy">Groovy subreddit</a>
-- There are 121 <a href="https://projecteuler.net/language=Groovy">Project Euler</a> users using Groovy
-- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Groovy programmers reported a median salary of $75,002. 3% of respondents reported using Groovy. 2,479 programmers reported using Groovy, and 1,177 said they wanted to use it
-- Explore Groovy snippets on <a href="http://www.rosettacode.org/wiki/Category:Groovy">Rosetta Code</a>
-- Groovy ranks #29 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- Groovy Ubuntu package
- https://packages.ubuntu.com/jammy/groovy
-- Groovy <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/palantir/groovy-language-server/">implementation</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/groovy">package</a> for syntax highlighting Groovy
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Groovy
-- GitHub supports <a href="https://github.com/textmate/groovy.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Groovy
-- Groovy appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- Release Notes for Groovy
- http://groovy-lang.org/releases.html
-- Official Blog page for Groovy
- https://blogs.apache.org/groovy/
-- Frequently Asked Questions for Groovy
- https://groovy-lang.org/faq.html
-- <a href="http://groovy-lang.org/">groovy-lang.org</a> was registered in 2011
-- See also: (18 related languages)<a href="java.html">Java</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="perl.html">Perl</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="objective-c.html">Objective-C</a>, <a href="kotlin.html">Kotlin</a>, <a href="jvm.html">JVM</a>, <a href="regex.html">Regular Expressions</a>, <a href="xml.html">XML</a>, <a href="html.html">HTML</a>, <a href="json.html">JSON</a>, <a href="android.html">Android</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="emacs-editor.html">Emacs</a>, <a href="textmate-editor.html">TextMate</a>, <a href="visual-studio-code-editor.html">Visual Studio Code</a>, <a href="javascript.html">JavaScript</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/groovy'>Riju</a>:
- print &quot;Hello, world!&quot;;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/g/Groovy.groovy'>hello-world</a>:
- println &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Groovy'>the Hello World Collection</a>:
+projectEuler Groovy
+ memberCount
+  2019 114
+  2022 121
+helloWorldCollection Groovy
  // Hello World in Groovy
  
- println &quot;Hello World&quot;
+ println "Hello World"
  
+leachim6 Groovy
+ filepath g/Groovy.groovy
+ fileExtensions groovy
+ example
+  println "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Groovy
+quineRelay Groovy
 
-codeWithHeader Example from <a href='https://github.com/textmate/groovy.tmbundle'>Linguist</a>:
- #!/usr/bin/env groovy
- println &quot;Groovy!&quot;
- 
+rijuRepl https://riju.codes/groovy
+ example
+  print "Hello, world!";
+  
+tryItOnline groovy
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Groovy_(programming_language)'>Wikipedia</a>:
- class Bird implements FlyingAbility {} /* Adds the trait FlyingAbility to the Bird class capabilities */
- def bird = new Bird() /* instantiate a new Bird */
- assert bird.fly() == &quot;I&#39;m flying!&quot; /* the Bird class automatically gets the behavior of the FlyingAbility trait */
+stackOverflowSurvey
+ 2021
+  users 2479
+  medianSalary 75002
+  fans 1177
+  percentageUsing 0.03
+officialBlogUrl https://blogs.apache.org/groovy/
+faqPageUrl https://groovy-lang.org/faq.html
+downloadPageUrl https://groovy.apache.org/download.html
 
-<div class="keywordsBlock">
-codeWithHeader Groovy <a href="../lists/keywords.html?filter=groovy">Keywords</a>
- as assert break case catch class const continue def default do else enum extends false finally for goto if implements import in instanceof interface new null package return super switch this throw throws trait true try while
-</div>
+subreddit https://reddit.com/r/groovy
+ memberCount
+  2017 1784
+  2022 2900
+meetup https://www.meetup.com/topics/groovy-programming-language
+ memberCount 24522
+ groupCount 49
 
-endColumns
+tiobe Groovy
+ currentRank 29
+pypl Groovy
 
-## Language <a href="../lists/features.html">features</a>
+twitter https://twitter.com/apachegroovy
+ubuntuPackage groovy
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Inheritance
-  FeatureLink ../features/hasInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Switch Statements
-  FeatureLink ../features/hasSwitch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Exceptions
-  FeatureLink ../features/hasExceptions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Constants
-  FeatureLink ../features/hasConstants.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Classes
-  FeatureLink ../features/hasClasses.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Programming Groovy|2008|Venkat Subramaniam|2695005|3.81|121|13
 
-keyboardNav soap.html graphql.html
+isbndb 21
+ year|publisher|title|authors|isbn13
+ 2014|Apress|Scripting in Java: Integrating with Groovy and JavaScript|Sharan, Kishori|9781484207147
+ 2013|Packt Publishing|Groovy 2 Cookbook|Adamovich, Andrey and Fiandesio, Luciano|9781849519366
+ 2008|Pragmatic Bookshelf|Groovy Recipes: Greasing the Wheels of Java (Pragmatic Programmers)|Davis, Scott|9780978739294
+ 2019|Apress|Learning Groovy 3: Java-Based Dynamic Scripting|Davis, Adam L.|9781484250587
+ 2013|Pragmatic Bookshelf|Programming Groovy 2: Dynamic Productivity for the Java Developer (Pragmatic Programmers)|Subramaniam, Venkat|9781937785307
+ 2007|Manning Publications|Groovy in Action|Dierk Koenig and Andrew Glover and Paul King and Guillaume Laforge and Jon Skeet|9781932394849
+ 2006|Morgan Kaufmann|Groovy Programming: An Introduction for Java Developers|Barclay, Kenneth and Savage, John|9780123725073
+ 2008|Apress|Beginning Groovy and Grails: From Novice to Professional|Christopher M. Judd and Joseph Faisal Nusairat and James Shingler|9781430210450
+ 2017|Packt Publishing|Introduction to JVM Languages: Get familiar with the world of Java, Scala, Clojure, Kotlin, and Groovy|Leun, Vincent van der|9781787126589
+ 2010|Packt Publishing|Groovy for Domain-Specific Languages|Dearle,Fergal|9781847196903
+ |San Francisco, CA : Morgan Kaufmann Publishers, 2006.|Groovy programming||9786610751563
+ 20160805|Springer Nature|Learning Groovy|Adam L. Davis|9781484221174
+ 20100727|Elsevier S & T|Groovy Programming|Kenneth Barclay|9780080471594
+ 2010||Groovy (programming Language)|Miller and Frederic P. and Vandome and Agnes F. and McBrewster and John|9786133734975
+ 20130918|Simon & Schuster|Making Java Groovy|Kenneth Kousen|9781638352266
+ 20131022|Packt Publishing|Groovy 2 Cookbook|Andrey Adamovich; Luciano Fiandesio|9781849519373
+ 20150603|Simon & Schuster|Groovy in Action|Cédric Champeau; Dierk Koenig; Hamlet D'Arcy; Paul King|9781638352877
+ 2010-06-01|Packt Publishing|Groovy for Domain-Specific Languages|Fergal Dearle|9781847196910
+ 20150928|Packt Publishing|Groovy for Domain-specific Languages - Second Edition|Fergal Dearle|9781849695411
+ |The Pragmatic Programmers|Programming Groovy 2: dynamic productivity for the Java developer|Subramaniam, Venkat.|9781937785307
+ |Packt Pub.|Unity 4.x Game Development By Example Beginner's Guide: A Seat-of-your-pants Manual For Building Fun, Groovy Little Games Quickly With Unity 4.x|Creighton, Ryan Henson.|9781849695268
 
-import ../footer.scroll
+semanticScholar 7
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2009|Groovy package templates: supporting reuse and runtime adaption of class hierarchies|10.1145/1640134.1640139|14|2|Eyvind W. Axelsen and S. Krogdahl|6d32b1e21b79b56e6970eca79df12539a7090851
+ 2008|Groovy AOP: a dynamic AOP system for a JVM-based language|10.1145/1408647.1408650|10|1|Chanwit Kaewkasi and J. Gurd|b9125c558cb65125be9dc25ffd2d8ec967aea36e
+ 2006|A crash overview of groovy|10.1145/1144366.1144371|8|3|K. Henry|752a78ce9f5af6994d923ca7fe45cf154d3e7357
+ 2008|Groovy and Grails Recipes|10.1007/978-1-4302-1601-8|5|1|Bashar Abdul-Jawad|71f9838bf73355f59f64428147dcbc8244277377
+ 2013|Implementing patient recruitment on EURECA semantic integration platform through a Groovy query engine|10.1109/BIBE.2013.6701645|2|0|B. Claerhout and Kristof de Schepper and D. Pérez-Rey and R. Alonso-Calvo and J. V. Leeuwen and A. Bucur|439d4a11b11be4326401b13fce2e755f0fe99a3f
+ 2020|A history of the Groovy programming language|10.1145/3386326|2|0|Paul King|87b32a739617b59dee229021e92709b399426c47
+ 2017|Feature oriented programming in Groovy|10.1145/3141848.3141851|1|0|G. T. Assis and Gustavo Vale and Eduardo Figueiredo|61d2c11296a483800dea25917c23e878a87097cb

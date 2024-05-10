@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ferret
+import ../measures/conceptPage.scroll
+id ferret
+appeared 2017
+type pl
+creators Nurullah Akkaya
+website http://ferret-lang.org
+country North Cyprus
+originCommunity Near East University
+domainName ferret-lang.org
+ registered 2017
 
-title ferret - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="superjson.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ferret.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://ferret-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/nakkaya/ferret" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ferret" class="material-symbols-outlined">edit</a></div>
-
-* ferret is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Nurullah Akkaya.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#nurullahAkkaya Nurullah Akkaya
-
-codeWithHeader Source code:
- git clone https://github.com/nakkaya/ferret
-
-dashboard
- #928 <span title="TotalRank: 1500 Jobs: 103 Users: 506 Facts: 891 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Ferret is a free software lisp implementation for real time embedded control systems.
-
-- ferret website
- http://ferret-lang.org
-- ferret is developed on <a href="https://github.com/nakkaya/ferret">GitHub</a> and has 1,008 stars
-- ferret first developed in <a href="../lists/originCommunities.html#nearEastUniversity">Near East University</a>
-- <a href="http://ferret-lang.org">ferret-lang.org</a> was registered in 2017
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ;;; lazy-sum.clj
  (defn positive-numbers
    ([]
@@ -44,19 +17,27 @@ codeWithHeader Example from the web:
    ([n]
     (cons n (lazy-seq (positive-numbers (inc n))))))
  
- (println (-&gt;&gt; (positive-numbers)
+ (println (->> (positive-numbers)
                (take 5)
                (apply +)))
  
 
-endColumns
+githubRepo https://github.com/nakkaya/ferret
+ firstCommit 2015
+ stars 1008
+ forks 43
+ subscribers 39
+ created 2016
+ updated 2022
+ description Ferret is a free software lisp implementation for real time embedded control systems.
+ issues 12
 
-## HackerNews discussions of ferret
+repoStats
+ firstCommit 2015
+ commits 1645
+ committers 10
+ files 8
 
-pipeTable
- title|titleLink|date|score|comments
- Ferret – A free software Clojure implementation|https://news.ycombinator.com/item?id=14951116|08/07/2017|266|79
-
-keyboardNav xc.html superjson.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 14951116|Ferret – A free software Clojure implementation|http://ferret-lang.org/|2017-08-07 20:45:21 UTC|1502138721|greydius|79|266

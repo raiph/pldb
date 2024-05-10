@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Andante
+import ../measures/conceptPage.scroll
+id Andante
+appeared 1980
+type pl
+reference https://www.george.andante.no/
+country United States and Sweden
+originCommunity Massachusetts Institute of Technology && Terje Dahl
 
-title Andante - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7208
 
-html
- <a class="trueBaseThemePreviousItem" href="and-or.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="andorra-i.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/andante.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=andante" class="material-symbols-outlined">edit</a></div>
-
-* Andante is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1980.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1980 1980
-
-dashboard
- #3474 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 44 Years Old
-
-* 
-
-- Andante first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a> and <a href="../lists/originCommunities.html#terjeDahl">Terje Dahl</a>
-- Andante on HOPL
- https://hopl.info/showlanguage.prx?exp=7208
-- Read more about Andante on the web: 1.
- https://www.george.andante.no/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav and-or.html andorra-i.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

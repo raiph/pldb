@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Shared Prolog
+import ../measures/conceptPage.scroll
+id Shared Prolog
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/0e2bd2386d4b9a2ec012c40359884c83793acfe5
+country Italy
+originCommunity Universitci di Pisa and Universitci di Udine
 
-title Shared Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6621
 
-html
- <a class="trueBaseThemePreviousItem" href="shapeup.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="si-library.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shared-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=shared-prolog" class="material-symbols-outlined">edit</a></div>
-
-* Shared Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #4013 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Shared Prolog first developed in <a href="../lists/originCommunities.html#universitciDiPisaAndUniversitciDiUdine">Universitci di Pisa and Universitci di Udine</a>
-- Shared Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=6621
-- Read more about Shared Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0e2bd2386d4b9a2ec012c40359884c83793acfe5 1.
-
-<br>
-
-endColumns
-
-keyboardNav shapeup.html si-library.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LESK
+import ../measures/conceptPage.scroll
+id LESK
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/ef2ae5b9ce93337cf4d0c413735b479deb9786de
+country Canada
+originCommunity University of Ottawa
 
-title LESK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3379
 
-html
- <a class="trueBaseThemePreviousItem" href="kb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lighttpd-configuration-file.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lesk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lesk" class="material-symbols-outlined">edit</a></div>
-
-* LESK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3063 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- LESK first developed in <a href="../lists/originCommunities.html#universityOfOttawa">University of Ottawa</a>
-- LESK on HOPL
- https://hopl.info/showlanguage.prx?exp=3379
-- Read more about LESK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ef2ae5b9ce93337cf4d0c413735b479deb9786de 1.
-
-<br>
-
-endColumns
-
-keyboardNav kb.html lighttpd-configuration-file.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2012|Combination of information retrieval methods with LESK algorithm for Arabic word sense disambiguation|10.1007/s10462-011-9249-3|47|1|A. Zouaghi and L. Merhbene and M. Zrigui|c8a3201a5b8f0b88da93902adcca0985cfac015f

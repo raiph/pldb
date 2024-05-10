@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OrientDB
-
-title OrientDB - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="oracle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pclos.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/orient-db.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=orient-db" class="material-symbols-outlined">edit</a></div>
-
-* OrientDB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3206 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Multi-model NoSQL database management system
-
-- OrientDB first developed in <a href="../lists/originCommunities.html#orientDbLtd">OrientDB LTD</a>
-
-<br>
-
-endColumns
-
-keyboardNav oracle.html pclos.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id OrientDB
+appeared 2010
+type database
+conceptDescription Multi-model NoSQL database management system
+country Italy
+originCommunity OrientDB LTD

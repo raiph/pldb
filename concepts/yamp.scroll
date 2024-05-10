@@ -1,88 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title YAMP
+import ../measures/conceptPage.scroll
+id YAMP
+appeared 2019
+type dataNotation
+standsFor Yet Another Macro Processor
 
-title YAMP - Data notation
- hidden
+supersetOf yaml
 
-html
- <a class="trueBaseThemePreviousItem" href="sako.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="h-lang.html">&gt;</a>
+hasMacros true
+ - defmacro:
+   name: foo
+   args: [who]
+   value:
+       Hello: who
+ - foo:
+   who: World
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yamp.pldb
+githubRepo https://github.com/birchb1024/yamp
+ stars 11
+ forks 3
+ subscribers 3
+ created 2019
+ updated 2022
+ description Yet Another Macro Processor - for YAML - Superseded by Goyamp
+ issues 2
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/birchb1024/yamp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=yamp" class="material-symbols-outlined">edit</a></div>
-
-* YAMP, aka Yet Another Macro Processor, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/birchb1024/yamp
-
-dashboard
- #1893 <span title="TotalRank: 2400 Jobs: 103 Users: 2130 Facts: 1311 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Yet Another Macro Processor - for YAML - Superseded by Goyamp
-
-- YAMP is developed on <a href="https://github.com/birchb1024/yamp">GitHub</a> and has 11 stars
-- YAMP is a superset of <a href="/concepts/yaml.html">YAML</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   - defmacro:
-     name: foo
-     args: [who]
-     value:
-         Hello: who
-   - foo:
-     who: World
- row
-  Feature Sets
-  FeatureLink ../features/hasSets.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # Explicitly typed set.
-   baseball players: !!set
-     ? Mark McGwire
-     ? Sammy Sosa
-     ? Ken Griffey
-   # Flow style
-   baseball teams: !!set { Boston Red Sox, Detroit Tigers, New York Yankees }
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav sako.html h-lang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 114
+ committers 3
+ files 59

@@ -1,45 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pep8
+import ../measures/conceptPage.scroll
+id Pep8
+appeared 2009
+type assembly
+reference http://computersystemsbook.com/4th-edition/pep8/
+country United States
+originCommunity Pepperdine University
 
-title Pep8 - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ternary-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="logtalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pep8.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/StanWarford/pep8" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pep8" class="material-symbols-outlined">edit</a></div>
-
-* Pep8 is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-codeWithHeader Source code:
- git clone https://github.com/StanWarford/pep8
-
-dashboard
- #906 <span title="TotalRank: 1473 Jobs: 103 Users: 1070 Facts: 384 Links: 986">on PLDB</span>
- 15 Years Old
- 165 <span title="Pep8 repos on GitHub.">Repos</span>
-
-* Pep/8 assembler and simulator for the textbook Computer Systems, J. Stanley Warford, Fourth edition
-
-- Pep8 is developed on <a href="https://github.com/StanWarford/pep8">GitHub</a> and has 20 stars
-- There are at least 165 Pep8 repos on <a href="https://github.com/search?q=language:Pep8">GitHub</a>
-- Pep8 first developed in <a href="../lists/originCommunities.html#pepperdineUniversity">Pepperdine University</a>
-- file extensions for Pep8 include pep
-- The  Google BigQuery Public Dataset GitHub snapshot shows 32 users using Pep8 in 33 repos on <a href="https://api.github.com/search/repositories?q=language:Pep8">GitHub</a>
-- GitHub supports <a href="https://github.com/R4PaSs/Sublime-Pep8" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Pep8
-- Read more about Pep8 on the web: 1.
- http://computersystemsbook.com/4th-edition/pep8/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
   BR main
   num: .EQUATE 0 
   main: SUBSP 2,i 
@@ -52,38 +19,69 @@ codeWithHeader Example from the web:
   else: STRO odd_msg,d 
   endIf: ADDSP 2,i 
   STOP
-  odd_msg: .ASCII &quot;The number is: Odd\x00&quot;
-  even_msg: .ASCII &quot;The number is: Even\x00&quot;
+  odd_msg: .ASCII "The number is: Odd\x00"
+  even_msg: .ASCII "The number is: Even\x00"
   .END
 
-codeWithHeader Example from <a href='https://github.com/R4PaSs/Sublime-Pep8'>Linguist</a>:
- _start:	LDA	0,i
- 	LDX	0,i
- 	LDA	20, i
- 	ADDA	51, i
- 	CPA	0,i
- 	BRLT	s3
- 	BR	s4
- s1:	LDBYTEA	s3, x
- 	NOTA
- 	STBYTEA s3, x
- 	ADDX	1,i
- 	CPX	12, i
- 	BRNE	s1
- s2:	STOP
- s4:	LDA	31, d
- 	LDX	50, d
- 	RET0
- 	STOP
- s3:	CPX	-27746, d
- 	ANDX	-8241, i
- 	SUBA	-12337, sxf
- 	LDX	-12289, sx
- 	.END
- 
+githubRepo https://github.com/StanWarford/pep8
+ firstCommit 2009
+ stars 20
+ forks 4
+ subscribers 8
+ created 2015
+ updated 2022
+ description Pep/8 assembler and simulator for the textbook Computer Systems, J. Stanley Warford, Fourth edition
+ issues 0
 
-endColumns
+repoStats
+ firstCommit 2009
+ commits 490
+ committers 8
+ files 265
 
-keyboardNav ternary-notation.html logtalk.html
+githubLanguage Pep8
+ fileExtensions pep
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.pep8
+ repos 165
+githubBigQuery Pep8
+ repos 33
+ users 32
 
-import ../footer.scroll
+linguistGrammarRepo https://github.com/R4PaSs/Sublime-Pep8
+ firstCommit 2015
+ lastCommit 2017
+ committerCount 1
+ commitCount 3
+ sampleCount 7
+ example
+  _start:	LDA	0,i
+  	LDX	0,i
+  	LDA	20, i
+  	ADDA	51, i
+  	CPA	0,i
+  	BRLT	s3
+  	BR	s4
+  s1:	LDBYTEA	s3, x
+  	NOTA
+  	STBYTEA s3, x
+  	ADDX	1,i
+  	CPX	12, i
+  	BRNE	s1
+  s2:	STOP
+  s4:	LDA	31, d
+  	LDX	50, d
+  	RET0
+  	STOP
+  s3:	CPX	-27746, d
+  	ANDX	-8241, i
+  	SUBA	-12337, sxf
+  	LDX	-12289, sx
+  	.END
+  
+
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

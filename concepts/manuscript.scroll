@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ManuScript
+import ../measures/conceptPage.scroll
+id ManuScript
+appeared 2009
+type pl
+reference http://www.sibelius.com/download/software/win/ManuScriptLanguage.pdf
+country United States
+originCommunity Avid Technology, Inc
 
-title ManuScript - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6402
 
-html
- <a class="trueBaseThemePreviousItem" href="malus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="map.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/manuscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=manuscript" class="material-symbols-outlined">edit</a></div>
-
-* ManuScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #3807 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 15 Years Old
-
-* 
-
-- ManuScript first developed in <a href="../lists/originCommunities.html#avidTechnologyInc">Avid Technology, Inc</a>
-- ManuScript on HOPL
- https://hopl.info/showlanguage.prx?exp=6402
-- Read more about ManuScript on the web: 1.
- http://www.sibelius.com/download/software/win/ManuScriptLanguage.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav malus.html map.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

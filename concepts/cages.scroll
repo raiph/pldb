@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CAGES
+import ../measures/conceptPage.scroll
+id CAGES
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/8226f1d402f5a322b8da84593dbeba5b26592f29
+country United States
+originCommunity University of North Carolina
 
-title CAGES - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7350
 
-html
- <a class="trueBaseThemePreviousItem" href="cado-systems-technical-information.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="caisys.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cages.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cages" class="material-symbols-outlined">edit</a></div>
-
-* CAGES is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3544 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- CAGES first developed in <a href="../lists/originCommunities.html#universityOfNorthCarolina">University of North Carolina</a>
-- CAGES on HOPL
- https://hopl.info/showlanguage.prx?exp=7350
-- Read more about CAGES on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8226f1d402f5a322b8da84593dbeba5b26592f29 1.
-
-<br>
-
-endColumns
-
-keyboardNav cado-systems-technical-information.html caisys.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

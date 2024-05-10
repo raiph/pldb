@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SPECOL
+import ../measures/conceptPage.scroll
+id SPECOL
+appeared 1968
+type pl
+creators Bernard Smith
+reference https://semanticscholar.org/paper/cfbe65b69c50cf500260f3bf2434c04f90387e7e
+country United Kingdom
+originCommunity United Kingdom Governments Civil Service
 
-title SPECOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3229
 
-html
- <a class="trueBaseThemePreviousItem" href="spec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/specol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=specol" class="material-symbols-outlined">edit</a></div>
-
-* SPECOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968 by Bernard Smith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
- link ../lists/creators.html#bernardSmith Bernard Smith
-
-dashboard
- #4316 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- SPECOL first developed in <a href="../lists/originCommunities.html#unitedKingdomGovernmentsCivilService">United Kingdom Governments Civil Service</a>
-- SPECOL on HOPL
- https://hopl.info/showlanguage.prx?exp=3229
-- Read more about SPECOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cfbe65b69c50cf500260f3bf2434c04f90387e7e 1.
-
-<br>
-
-endColumns
-
-keyboardNav spec.html spil.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

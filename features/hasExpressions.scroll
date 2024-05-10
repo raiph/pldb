@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasExports.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasFirstClassFunctions.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  1 + 1
 
 codeWithHeader Example from <a href="../concepts/bel.html">Bel</a>:
@@ -22,9 +22,7 @@ codeWithHeader Example from <a href="../concepts/bel.html">Bel</a>:
 codeWithHeader Example from <a href="../concepts/balgol.html">BALGOL</a>:
  ALPHA + BETA / GAMMA
 
-* Languages *with* Expressions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/bel.html">Bel</a>, <a href="../concepts/balgol.html">BALGOL</a>, <a href="../concepts/scrapscript.html">Scrapscript</a>
-
-* This question asks: Does the language have a concept of expressions?
+* Languages *with* Expressions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/bel.html">Bel</a>, <a href="../concepts/balgol.html">BALGOL</a>, <a href="../concepts/scrapscript.html">Scrapscript</a>
 
 * Read more about Expressions on the web: 1.
  https://en.wikipedia.org/wiki/Expression_(computer_science) 1.

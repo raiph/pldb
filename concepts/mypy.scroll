@@ -1,46 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mypy
+import ../measures/conceptPage.scroll
+id mypy
+appeared 2012
+type pl
+website http://www.mypy-lang.org
+country United Kingdom
+originCommunity University of Cambridge
+domainName mypy-lang.org
+ registered 2012
+ awisRank
+  2022 898482
 
-title mypy - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 4561973|Mypy - An experimental Python variant with dynamic and static typing|http://www.mypy-lang.org/|2012-09-23 20:41:51 UTC|1348432911|room606|39|108
 
-html
- <a class="trueBaseThemePreviousItem" href="liquidity.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shakti.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mypy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.mypy-lang.org" class="material-symbols-outlined">home</a> <a href="https://twitter.com/mypyproject"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=mypy" class="material-symbols-outlined">edit</a></div>
-
-* mypy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #2979 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2460 Links: 986">on PLDB</span>
- 12 Years Old
-
-* 
-
-- mypy website
- http://www.mypy-lang.org
-- mypy first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a>
-- mypy on Twitter
- https://twitter.com/mypyproject
-- <a href="http://www.mypy-lang.org">mypy-lang.org</a> was registered in 2012
-
-<br>
-
-endColumns
-
-## HackerNews discussions of mypy
-
-pipeTable
- title|titleLink|date|score|comments
- Mypy - An experimental Python variant with dynamic and static typing|https://news.ycombinator.com/item?id=4561973|09/23/2012|108|39
-
-keyboardNav liquidity.html shakti.html
-
-import ../footer.scroll
+twitter https://twitter.com/mypyproject

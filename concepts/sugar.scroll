@@ -1,55 +1,36 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sugar
+import ../measures/conceptPage.scroll
+id Sugar
+appeared 2006
+type pl
+creators Sébastien Pierre
+conceptDescription Makes JavaScript development sweeter !
+website https://github.com/sebastien/sugar/blob/master/Documentation/sugar-quickref.pdf
+fileExtensions sjs
+country New Zealand
 
-title Sugar - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kamby.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ten.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sugar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/sebastien/sugar/blob/master/Documentation/sugar-quickref.pdf" class="material-symbols-outlined">home</a> <a href="https://github.com/sebastien/sugar" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sugar" class="material-symbols-outlined">edit</a></div>
-
-* Sugar is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006 by Sébastien Pierre.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#sebastienPierre Sébastien Pierre
-
-codeWithHeader Source code:
- git clone https://github.com/sebastien/sugar
-
-dashboard
- #1632 <span title="TotalRank: 2147 Jobs: 103 Users: 1805 Facts: 1058 Links: 986">on PLDB</span>
- 18 Years Old
-
-* Makes JavaScript development sweeter !
-
-- Sugar website
- https://github.com/sebastien/sugar/blob/master/Documentation/sugar-quickref.pdf
-- Sugar is developed on <a href="https://github.com/sebastien/sugar">GitHub</a> and has 45 stars
-- file extensions for Sugar include sjs
-
-<br>
-
-codeWithHeader Example from the web:
+example
     @module helloworld
     @class HelloWorld
     | This is a docstring for my hello world
         @property message
         @constructor
-            message = &quot;Hello, World !&quot;
+            message = "Hello, World !"
         @end
         @method say
             alert ( message )
         @end
     @end
 
-endColumns
+githubRepo https://github.com/sebastien/sugar
+ stars 45
+ forks 3
+ subscribers 4
+ created 2006
+ updated 2017
+ description Makes JavaScript development sweeter !
 
-keyboardNav kamby.html ten.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2006
+ commits 311
+ committers 9
+ files 528

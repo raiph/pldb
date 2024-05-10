@@ -1,46 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chisel
+import ../measures/conceptPage.scroll
+id chisel
+appeared 2015
+type hardwareDescriptionLanguage
+website https://www.chisel-lang.org/
+reference https://chisel.eecs.berkeley.edu/
+country United States
+originCommunity University of California, Berkeley
+domainName chisel-lang.org
+ registered 2016
+ awisRank
+  2022 517528
 
-title chisel - Hardware description language
- hidden
+githubRepo https://github.com/freechipsproject/chisel3
+ firstCommit 2015
+ stars 2602
+ forks 456
+ subscribers 150
+ created 2015
+ updated 2022
+ description Chisel 3: A Modern Hardware Design Language
+ issues 297
 
-html
- <a class="trueBaseThemePreviousItem" href="hyperscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mun-lang.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 7906
+ committers 196
+ files 627
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chisel.pldb
+twitter https://twitter.com/chisel_lang
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.chisel-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/freechipsproject/chisel3" class="material-symbols-outlined">code</a> <a href="https://twitter.com/chisel_lang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=chisel" class="material-symbols-outlined">edit</a></div>
-
-* chisel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+hardwareDescriptionLanguage">hardware description language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/freechipsproject/chisel3
-
-dashboard
- #756 <span title="TotalRank: 1324 Jobs: 103 Users: 235 Facts: 1256 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Chisel 3: A Modern Hardware Design Language
-
-- chisel website
- https://www.chisel-lang.org/
-- chisel is developed on <a href="https://github.com/freechipsproject/chisel3">GitHub</a> and has 2,602 stars
-- chisel first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- chisel on Twitter
- https://twitter.com/chisel_lang
-- <a href="https://www.chisel-lang.org/">chisel-lang.org</a> was registered in 2016
-- Read more about chisel on the web: 1.
- https://chisel.eecs.berkeley.edu/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav hyperscript.html mun-lang.html
-
-import ../footer.scroll
+isbndb 0

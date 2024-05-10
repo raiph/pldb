@@ -1,39 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sheep
+import ../measures/conceptPage.scroll
+id Sheep
+appeared 2000
+type pl
+creators Wouter Van Oortmerssen
+conceptDescription New scripting/querying/ipc/programming language I created for Amiga Inc. There is no publicly available material right now, except for an introductory article at Amiga World, an interview at OSNews.com, and this released screenshot of an early sheep beta in action: SHEEP was planned to have familiar beginner friendly syntax and semantics coupled with multimethods, automatic memory management without garbage collection (linearity), powerful datatypes, pattern matching, strong and dynamic typing living together in harmony, integrated access to all the new Amiga OS features, and optional compiled output comparable to C in speed and size.
+website http://strlen.com/sheep-language/
+reference https://www.osnews.com/story/169/interview-wouter-van-oortmerssen-on-sheep/
+country United States
+originCommunity https://strlen.com/sheep-language
 
-title Sheep - Programming language
- hidden
+hasSemanticIndentation true
+ define pythtree ax:real ay:real bx:real by:real depth:int do
+    cx = ax-ay+by
+  end
 
-html
- <a class="trueBaseThemePreviousItem" href="quaint.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="circle-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sheep-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://strlen.com/sheep-language/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sheep-lang" class="material-symbols-outlined">edit</a></div>
-
-* Sheep is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000 by Wouter Van Oortmerssen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#wouterVanOortmerssen Wouter Van Oortmerssen
-
-dashboard
- #987 <span title="TotalRank: 1544 Jobs: 103 Users: 2442 Facts: 455 Links: 986">on PLDB</span>
- 24 Years Old
-
-* New scripting/querying/ipc/programming language I created for Amiga Inc. There is no publicly available material right now, except for an introductory article at Amiga World, an interview at OSNews.com, and this released screenshot of an early sheep beta in action: SHEEP was planned to have familiar beginner friendly syntax and semantics coupled with multimethods, automatic memory management without garbage collection (linearity), powerful datatypes, pattern matching, strong and dynamic typing living together in harmony, integrated access to all the new Amiga OS features, and optional compiled output comparable to C in speed and size.
-
-- Sheep website
- http://strlen.com/sheep-language/
-- Sheep first developed in <a href="../lists/originCommunities.html#httpsStrlenComSheepLanguage">https://strlen.com/sheep-language</a>
-- Read more about Sheep on the web: 1.
- https://www.osnews.com/story/169/interview-wouter-van-oortmerssen-on-sheep/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  — Tree of Pythagoras
  
  — based on an old E example by Raymond Hoving
@@ -70,7 +51,7 @@ codeWithHeader Example from the web:
  
    ave_line ex ey dx dy c
  
-   if depth &lt; 12 then
+   if depth < 12 then
      pythtree cx cy ex ey depth+1
      pythtree ex ey dx dy depth+1
    end
@@ -79,29 +60,14 @@ codeWithHeader Example from the web:
  width = 640
  height = 480
  
- ave_openwindow &quot;Pythagoras Tree&quot; width height 0
+ ave_openwindow "Pythagoras Tree" width height 0
  
  pythtree width/2-width/12 height-20 width/2+width/12 height-20 0
  
  ave_update
  repeat
- until ave_getmessage = &#39;Q&#39;
+ until ave_getmessage = 'Q'
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   define pythtree ax:real ay:real bx:real by:real depth:int do
-      cx = ax-ay+by
-    end
-
-keyboardNav quaint.html circle-lang.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 1985|Butterworth-Heinemann|Genetics of Reproduction in Sheep|Land, R. B.|9780407003026

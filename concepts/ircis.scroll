@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ircis
+import ../measures/conceptPage.scroll
+id ircis
+appeared 2019
+type esolang
+creators Arjun Nair
+country Germany
+originCommunity https://github.com/batman-nair/IRCIS/issues
 
-title ircis - Esoteric programming language
- hidden
+githubRepo https://github.com/batman-nair/IRCIS
+ firstCommit 2019
+ stars 101
+ forks 3
+ subscribers 3
+ created 2019
+ updated 2022
+ description I Run Chars I See(IRCIS) - a 2d grid based esoteric programming language.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="pascal-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simpl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ircis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/batman-nair/IRCIS" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ircis" class="material-symbols-outlined">edit</a></div>
-
-* ircis is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2019 by Arjun Nair.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#arjunNair Arjun Nair
-
-codeWithHeader Source code:
- git clone https://github.com/batman-nair/IRCIS
-
-dashboard
- #1990 <span title="TotalRank: 2503 Jobs: 103 Users: 1414 Facts: 1787 Links: 986">on PLDB</span>
- 5 Years Old
-
-* I Run Chars I See(IRCIS) - a 2d grid based esoteric programming language.
-
-- ircis is developed on <a href="https://github.com/batman-nair/IRCIS">GitHub</a> and has 101 stars
-- ircis first developed in <a href="../lists/originCommunities.html#httpsGithubComBatmanNairIrcisIssues">https://github.com/batman-nair/IRCIS/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav pascal-script.html simpl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 111
+ committers 2
+ files 71

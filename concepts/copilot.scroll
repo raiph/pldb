@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Copilot
+import ../measures/conceptPage.scroll
+id Copilot
+appeared 2021
+type pl
+conceptDescription Copilot is a realtime programming language and Runtime Verification framework. It allows users to write concise programs in a simple but powerful way using a stream-based approach. Programs can be interpreted for testing, or translated C99 code to be incorporated in a project, or as a standalone application. The C99 backend ensures us that the output is constant in memory and time, making it suitable for systems with hard realtime requirements.
+website https://copilot-language.github.io/
+country United States
+originCommunity NASA && https://github.com/Copilot-Language
 
-title Copilot - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="beautiful-report-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lain.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/copilot.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://copilot-language.github.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=copilot" class="material-symbols-outlined">edit</a></div>
-
-* Copilot is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-dashboard
- #2366 <span title="TotalRank: 2876 Jobs: 103 Users: 2442 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Copilot is a realtime programming language and Runtime Verification framework. It allows users to write concise programs in a simple but powerful way using a stream-based approach. Programs can be interpreted for testing, or translated C99 code to be incorporated in a project, or as a standalone application. The C99 backend ensures us that the output is constant in memory and time, making it suitable for systems with hard realtime requirements.
-
-- Copilot website
- https://copilot-language.github.io/
-- Copilot first developed in <a href="../lists/originCommunities.html#nasa">NASA</a> and <a href="../lists/originCommunities.html#httpsGithubComCopilotLanguage">https://github.com/Copilot-Language</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  -- Raw temperature from sensor, range -50.0C to 100.0C.
  temp :: Stream Word8
- temp = extern &quot;temperature&quot; Nothing
+ temp = extern "temperature" Nothing
  
  -- Transform the temperature to Celsius.
  ctemp :: Stream Float
@@ -41,11 +18,5 @@ codeWithHeader Example from the web:
  
  -- Bind two triggers with a 3.0C hysteresis.
  spec = do
-   trigger &quot;heaton&quot;  (ctemp &lt; 18.0) [arg ctemp]
-   trigger &quot;heatoff&quot; (ctemp &gt; 21.0) [arg ctemp]
-
-endColumns
-
-keyboardNav beautiful-report-language.html lain.html
-
-import ../footer.scroll
+   trigger "heaton"  (ctemp < 18.0) [arg ctemp]
+   trigger "heatoff" (ctemp > 21.0) [arg ctemp]

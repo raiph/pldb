@@ -1,45 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title g-expressions
+import ../measures/conceptPage.scroll
+id g-expressions
+appeared 2012
+type pl
+conceptDescription The GNU Guix project invented G-Expressions to make it easier to "stage" data or code, in the form of S-Expressions, for later manipulation or evaluation. They are similar to S-Expressions, hence the name, but they provide useful code staging features beyond what can be easily accomplished with just "quasiquote" and "unquote". A high-level object (such as a Guix package) can be included in a G-Expression; the transitive dependencies of that high-level object will then be automatically carried along with the G-Expression. When the G-Expression is converted to an S-Expression and stored on disk for later manipulation or evaluation, the high-level object will be automatically "lowered" to an appropriate representation (such as the package's output path) via a "compiler". Compared to direct manipulation of S-Expressions, G-Expressions can provide a simpler and more intuitive way to stage data or code.
+reference https://fosdem.org/2020/schedule/event/gexpressionsguile/
+aka gexp
+country Various
+originCommunity https://guix.gnu.org/en/contact/
 
-title g-expressions - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="das.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="metaweb-query-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/g-expressions.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=g-expressions" class="material-symbols-outlined">edit</a></div>
-
-* g-expressions is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #2658 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 12 Years Old
-
-* The GNU Guix project invented G-Expressions to make it easier to "stage" data or code, in the form of S-Expressions, for later manipulation or evaluation. They are similar to S-Expressions, hence the name, but they provide useful code staging features beyond what can be easily accomplished with just "quasiquote" and "unquote". A high-level object (such as a Guix package) can be included in a G-Expression; the transitive dependencies of that high-level object will then be automatically carried along with the G-Expression. When the G-Expression is converted to an S-Expression and stored on disk for later manipulation or evaluation, the high-level object will be automatically "lowered" to an appropriate representation (such as the package's output path) via a "compiler". Compared to direct manipulation of S-Expressions, G-Expressions can provide a simpler and more intuitive way to stage data or code.
-
-- g-expressions first developed in <a href="../lists/originCommunities.html#httpsGuixGnuOrgEnContact">https://guix.gnu.org/en/contact/</a>
-- Read more about g-expressions on the web: 1.
- https://fosdem.org/2020/schedule/event/gexpressionsguile/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (define build-exp
    #~(begin
        (mkdir #$output)
        (chdir #$output)
-       (symlink (string-append #$coreutils &quot;/bin/ls&quot;)
-                &quot;list-files&quot;)))
+       (symlink (string-append #$coreutils "/bin/ls")
+                "list-files")))
 
-endColumns
-
-keyboardNav das.html metaweb-query-language.html
-
-import ../footer.scroll
+semanticScholar 0

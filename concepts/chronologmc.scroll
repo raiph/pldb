@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ChronologMC
+import ../measures/conceptPage.scroll
+id ChronologMC
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/ce15ef3881d751edca92faab9ba4f641c171876b
+country Australia
+originCommunity Macquarie University
 
-title ChronologMC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6819
 
-html
- <a class="trueBaseThemePreviousItem" href="chronolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chronologz.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chronologmc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=chronologmc" class="material-symbols-outlined">edit</a></div>
-
-* ChronologMC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3565 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- ChronologMC first developed in <a href="../lists/originCommunities.html#macquarieUniversity">Macquarie University</a>
-- ChronologMC on HOPL
- https://hopl.info/showlanguage.prx?exp=6819
-- Read more about ChronologMC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ce15ef3881d751edca92faab9ba4f641c171876b 1.
-
-<br>
-
-endColumns
-
-keyboardNav chronolog.html chronologz.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

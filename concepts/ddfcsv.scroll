@@ -1,43 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DDF
+import ../measures/conceptPage.scroll
+id DDF
+appeared 2016
+type dataNotation
+conceptDescription DDF is a data model for collaborative harmonization of multidimensional statistics.
+reference https://open-numbers.github.io/ddf.html
 
-title DDF - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="combined-log-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="demeter.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ddfcsv.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ddfcsv" class="material-symbols-outlined">edit</a></div>
-
-* DDF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #3052 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 8 Years Old
-
-* DDF is a data model for collaborative harmonization of multidimensional statistics.
-
-- Read more about DDF on the web: 1.
- https://open-numbers.github.io/ddf.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ddf--datapoints--population--by--geo--year.csv
  ddf--datapoints--gdp--gdp_per_cap--by--geo--year--gender.csv    
  ddf--datapoints--population--by--geo-usa-swe--year.csv    
  ddf--datapoints--population--by--geo--year-2000.csv   
  ddf--datapoints--population--by--geo-ukr--year-2001.csv
-
-endColumns
-
-keyboardNav combined-log-format.html demeter.html
-
-import ../footer.scroll

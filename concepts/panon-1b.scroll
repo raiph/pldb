@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PANON-1B
+import ../measures/conceptPage.scroll
+id PANON-1B
+appeared 1965
+type pl
+reference https://semanticscholar.org/paper/558c3be32d038f51e0f87f8bc815ab5b04d155de
+country Italy
+originCommunity Universita di pisa
 
-title PANON-1B - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3166
 
-html
- <a class="trueBaseThemePreviousItem" href="panon-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="parallel-ellpack.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/panon-1b.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=panon-1b" class="material-symbols-outlined">edit</a></div>
-
-* PANON-1B is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #3910 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- PANON-1B first developed in <a href="../lists/originCommunities.html#universitaDiPisa">Universita di pisa</a>
-- PANON-1B on HOPL
- https://hopl.info/showlanguage.prx?exp=3166
-- Read more about PANON-1B on Semantic Scholar: 1.
- https://semanticscholar.org/paper/558c3be32d038f51e0f87f8bc815ab5b04d155de 1.
-
-<br>
-
-endColumns
-
-keyboardNav panon-1.html parallel-ellpack.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

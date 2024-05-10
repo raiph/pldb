@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cactus
+import ../measures/conceptPage.scroll
+id Cactus
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/d5fce60f47169d0ad35715b575f8182063e40c26
+country Greece
+originCommunity National && Kapodistrian University of Athens && Ionian University
 
-title Cactus - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2852
 
-html
- <a class="trueBaseThemePreviousItem" href="cabal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cado-systems-technical-information.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cactus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cactus" class="material-symbols-outlined">edit</a></div>
-
-* Cactus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3542 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Cactus first developed in <a href="../lists/originCommunities.html#national">National</a> and <a href="../lists/originCommunities.html#kapodistrianUniversityOfAthens">Kapodistrian University of Athens</a> and <a href="../lists/originCommunities.html#ionianUniversity">Ionian University</a>
-- Cactus on HOPL
- https://hopl.info/showlanguage.prx?exp=2852
-- Read more about Cactus on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d5fce60f47169d0ad35715b575f8182063e40c26 1.
-
-<br>
-
-endColumns
-
-keyboardNav cabal.html cado-systems-technical-information.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

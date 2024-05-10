@@ -1,49 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title whalecalf
+import ../measures/conceptPage.scroll
+id whalecalf
+appeared 2000
+type grammarLanguage
+creators Alexander Okhotin
+conceptDescription Whale Calf is a research-level parser generator for Boolean grammars, which are context-free grammars augmented with Boolean operations. It is written by Alexander Okhotin in C++, and is mainly aimed at demonstrating different parsing algorithms, of which the most practically useful is the Generalized LR (GLR). The main development took place in 2000-2004, though (as of April 2017) some occasional corrections are still being made.
+website http://users.utu.fi/aleokh/whalecalf/
+reference https://medium.com/@mikhail.barash.mikbar/grammars-for-programming-languages-fae3a72a22c6
 
-title whalecalf - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="suneido.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algae.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/whalecalf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://users.utu.fi/aleokh/whalecalf/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=whalecalf" class="material-symbols-outlined">edit</a></div>
-
-* whalecalf is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2000 by Alexander Okhotin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#alexanderOkhotin Alexander Okhotin
-
-dashboard
- #2655 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 24 Years Old
-
-* Whale Calf is a research-level parser generator for Boolean grammars, which are context-free grammars augmented with Boolean operations. It is written by Alexander Okhotin in C++, and is mainly aimed at demonstrating different parsing algorithms, of which the most practically useful is the Generalized LR (GLR). The main development took place in 2000-2004, though (as of April 2017) some occasional corrections are still being made.
-
-- whalecalf website
- http://users.utu.fi/aleokh/whalecalf/
-- Read more about whalecalf on the web: 1.
- https://medium.com/@mikhail.barash.mikbar/grammars-for-programming-languages-fae3a72a22c6 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  algorithm=trellis;
  terminal a, b, c;
- S -&gt; C &amp; D;
- C -&gt; a C a | a C b | b C a | b C b | c;
- D -&gt; a A &amp; a D | b B &amp; b D | c E;
- A -&gt; a A a | a A b | b A a | b A b | c E a;
- B -&gt; a B a | a B b | b B a | b B b | c E b;
- E -&gt; a E | b E | e;
-
-endColumns
-
-keyboardNav suneido.html algae.html
-
-import ../footer.scroll
+ S -> C & D;
+ C -> a C a | a C b | b C a | b C b | c;
+ D -> a A & a D | b B & b D | c E;
+ A -> a A a | a A b | b A a | b A b | c E a;
+ B -> a B a | a B b | b B a | b B b | c E b;
+ E -> a E | b E | e;

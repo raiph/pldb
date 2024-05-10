@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title prodel
+import ../measures/conceptPage.scroll
+id prodel
+appeared 2014
+type pl
+conceptDescription Another Japanese programming language
+website https://rdr.utopiat.net/
+country Japan
+nativeLanguage Japanese
+originCommunity https://rdr.utopiat.net/cgi/bbs2/wforum-rdr.cgi
+domainName rdr.utopiat.net
 
-title prodel - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="potential.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sather-k.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prodel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://rdr.utopiat.net/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=prodel" class="material-symbols-outlined">edit</a></div>
-
-* prodel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #2914 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Another Japanese programming language
-
-- prodel website
- https://rdr.utopiat.net/
-- prodel first developed in <a href="../lists/originCommunities.html#httpsRdrUtopiatNetCgiBbs2WforumRdrCgi">https://rdr.utopiat.net/cgi/bbs2/wforum-rdr.cgi</a>
-- prodel is written with the native language of Japanese
-
-<br>
-
-endColumns
-
-keyboardNav potential.html sather-k.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

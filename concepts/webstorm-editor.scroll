@@ -1,36 +1,5 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WebStorm
-
-title WebStorm - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="unlws.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="floral.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/webstorm-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.jetbrains.com/webstorm/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=webstorm-editor" class="material-symbols-outlined">edit</a></div>
-
-* WebStorm is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3241 on PLDB
- 14 Years Old
-
-* 
-
-- WebStorm website
- https://www.jetbrains.com/webstorm/
-
-<br>
-
-endColumns
-
-keyboardNav unlws.html floral.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id WebStorm
+appeared 2010
+type editor
+website https://www.jetbrains.com/webstorm/

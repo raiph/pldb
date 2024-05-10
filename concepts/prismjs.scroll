@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Prism
+import ../measures/conceptPage.scroll
+id Prism
+appeared 2012
+type library
+creators Lea Verou
+conceptDescription Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in millions of websites, including some of those you visit daily.
+website https://prismjs.com/
+country United States and Germany
+originCommunity https://github.com/PrismJS
+domainName prismjs.com
+ registered 2012
+ awisRank
+  2022 142007
 
-title Prism - Library
- hidden
+writtenIn javascript
+relatedConcepts codemirror monaco highlightjs ace pygments
 
-html
- <a class="trueBaseThemePreviousItem" href="dm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="capybara.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prismjs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://prismjs.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/PrismJS/prism" class="material-symbols-outlined">code</a> <a href="/edit.html?id=prismjs" class="material-symbols-outlined">edit</a></div>
-
-* Prism is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2012 by Lea Verou.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#leaVerou Lea Verou
-
-codeWithHeader Source code:
- git clone https://github.com/PrismJS/prism
-
-dashboard
- #769 on PLDB
- 12 Years Old
-
-* Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind. It’s used in millions of websites, including some of those you visit daily.
-
-- Prism website
- https://prismjs.com/
-- Prism is developed on <a href="https://github.com/PrismJS/prism">GitHub</a> and has 10,432 stars
-- Prism first developed in <a href="../lists/originCommunities.html#httpsGithubComPrismJs">https://github.com/PrismJS</a>
-- Prism is written in <a href="javascript.html">JavaScript</a>
-- <a href="https://prismjs.com/">prismjs.com</a> was registered in 2012
-- See also: (5 related languages)<a href="codemirror.html">CodeMirror</a>, <a href="monaco.html">Monaco Editor</a>, <a href="highlightjs.html">highlight.js</a>, <a href="ace.html">Ace Editor</a>, <a href="pygments.html">Pygments</a>
-
-<br>
-
-endColumns
-
-keyboardNav dm.html capybara.html
-
-import ../footer.scroll
+githubRepo https://github.com/PrismJS/prism
+ stars 10432
+ forks 1215
+ subscribers 112
+ created 2012
+ updated 2022
+ description Lightweight, robust, elegant syntax highlighting.
+ issues 219
+ firstCommit 2012

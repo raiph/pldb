@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KRYPTON
+import ../measures/conceptPage.scroll
+id KRYPTON
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/5b5d9f7c71a30599b1b44687403ada7991614c33
+country United States
+originCommunity Fairchild Laboratory for Artificial Intelligence && University of Toronto
 
-title KRYPTON - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1157
 
-html
- <a class="trueBaseThemePreviousItem" href="krs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kvikkalkul.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/krypton.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=krypton" class="material-symbols-outlined">edit</a></div>
-
-* KRYPTON is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3770 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- KRYPTON first developed in <a href="../lists/originCommunities.html#fairchildLaboratoryForArtificialIntelligence">Fairchild Laboratory for Artificial Intelligence</a> and <a href="../lists/originCommunities.html#universityOfToronto">University of Toronto</a>
-- KRYPTON on HOPL
- https://hopl.info/showlanguage.prx?exp=1157
-- Read more about KRYPTON on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5b5d9f7c71a30599b1b44687403ada7991614c33 1.
-
-<br>
-
-endColumns
-
-keyboardNav krs.html kvikkalkul.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

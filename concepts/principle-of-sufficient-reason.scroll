@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Principle of sufficient reason
+import ../measures/conceptPage.scroll
+id Principle of sufficient reason
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/10bf7c2d65e868efc8065cf1909bf3adf58e7685
+country United States
+originCommunity Binghamton University
 
-title Principle of sufficient reason - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2141
 
-html
- <a class="trueBaseThemePreviousItem" href="presto.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prism.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/principle-of-sufficient-reason.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=principle-of-sufficient-reason" class="material-symbols-outlined">edit</a></div>
-
-* Principle of sufficient reason is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3951 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- Principle of sufficient reason first developed in <a href="../lists/originCommunities.html#binghamtonUniversity">Binghamton University</a>
-- Principle of sufficient reason on HOPL
- https://hopl.info/showlanguage.prx?exp=2141
-- Read more about Principle of sufficient reason on Semantic Scholar: 1.
- https://semanticscholar.org/paper/10bf7c2d65e868efc8065cf1909bf3adf58e7685 1.
-
-<br>
-
-endColumns
-
-keyboardNav presto.html prism.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

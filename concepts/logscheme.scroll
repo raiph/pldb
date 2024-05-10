@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LogScheme
+import ../measures/conceptPage.scroll
+id LogScheme
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/31ce52854607592e4eb7e2d8e830fb1417d73370
+country United States
+originCommunity Stanford University
 
-title LogScheme - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4018
 
-html
- <a class="trueBaseThemePreviousItem" href="logres.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lola-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/logscheme.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=logscheme" class="material-symbols-outlined">edit</a></div>
-
-* LogScheme is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3792 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- LogScheme first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- LogScheme on HOPL
- https://hopl.info/showlanguage.prx?exp=4018
-- Read more about LogScheme on Semantic Scholar: 1.
- https://semanticscholar.org/paper/31ce52854607592e4eb7e2d8e830fb1417d73370 1.
-
-<br>
-
-endColumns
-
-keyboardNav logres.html lola-2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

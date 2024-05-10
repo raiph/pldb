@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title unseemly
+import ../measures/conceptPage.scroll
+id unseemly
+appeared 2016
+type pl
+creators Paul Stansifer
+website http://unseemly.github.io/
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/eq26iu/unseemly_a_typed_macro_language/
+domainName unseemly.github.io
 
-title unseemly - Programming language
- hidden
+githubRepo https://github.com/paulstansifer/unseemly
+ firstCommit 2016
+ stars 121
+ forks 4
+ subscribers 5
+ created 2016
+ updated 2022
+ description Macros have types!                  
+ issues 40
 
-html
- <a class="trueBaseThemePreviousItem" href="genexus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="work-flow-language.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 626
+ committers 5
+ files 84
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unseemly.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://unseemly.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/paulstansifer/unseemly" class="material-symbols-outlined">code</a> <a href="/edit.html?id=unseemly" class="material-symbols-outlined">edit</a></div>
-
-* unseemly is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Paul Stansifer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#paulStansifer Paul Stansifer
-
-codeWithHeader Source code:
- git clone https://github.com/paulstansifer/unseemly
-
-dashboard
- #1922 <span title="TotalRank: 2416 Jobs: 103 Users: 1327 Facts: 1591 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Macros have types!                  
-
-- unseemly website
- http://unseemly.github.io/
-- unseemly is developed on <a href="https://github.com/paulstansifer/unseemly">GitHub</a> and has 121 stars
-- Read more about unseemly on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/eq26iu/unseemly_a_typed_macro_language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav genexus.html work-flow-language.html
-
-import ../footer.scroll
+semanticScholar 0

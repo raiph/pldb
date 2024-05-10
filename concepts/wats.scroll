@@ -1,41 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title wats
+import ../measures/conceptPage.scroll
+id wats
+appeared 2017
+type pl
+creators Pierre Rossouw
+website https://pierrerossouw.github.io/wats/
 
-title wats - Programming language
- hidden
+githubRepo https://github.com/PierreRossouw/wats
+ firstCommit 2017
+ stars 11
+ subscribers 2
+ created 2017
+ updated 2021
+ description A simple WebAssembly compiler
+ forks 0
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="tridash.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="weebasic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wats.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pierrerossouw.github.io/wats/" class="material-symbols-outlined">home</a> <a href="https://github.com/PierreRossouw/wats" class="material-symbols-outlined">code</a> <a href="/edit.html?id=wats" class="material-symbols-outlined">edit</a></div>
-
-* wats is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Pierre Rossouw.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#pierreRossouw Pierre Rossouw
-
-codeWithHeader Source code:
- git clone https://github.com/PierreRossouw/wats
-
-dashboard
- #2431 <span title="TotalRank: 2979 Jobs: 103 Users: 2320 Facts: 1890 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A simple WebAssembly compiler
-
-- wats website
- https://pierrerossouw.github.io/wats/
-- wats is developed on <a href="https://github.com/PierreRossouw/wats">GitHub</a> and has 11 stars
-
-<br>
-
-endColumns
-
-keyboardNav tridash.html weebasic.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 386
+ committers 1
+ files 7

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title VoxML
+import ../measures/conceptPage.scroll
+id VoxML
+appeared 1998
+type pl
+reference http://xml.coverpages.org/voxML.html
+reference https://www.acronymfinder.com/Voice-Markup-Language-(Motorola)-(VOXML).html
 
-title VoxML - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6200
 
-html
- <a class="trueBaseThemePreviousItem" href="taktentus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vtl.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/voxml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=voxml" class="material-symbols-outlined">edit</a></div>
-
-* VoxML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #4055 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- VoxML on HOPL
- https://hopl.info/showlanguage.prx?exp=6200
-- Read more about VoxML on the web: 1. 2.
- http://xml.coverpages.org/voxML.html 1.
- https://www.acronymfinder.com/Voice-Markup-Language-(Motorola)-(VOXML).html 2.
-
-<br>
-
-endColumns
-
-keyboardNav taktentus.html vtl.html
-
-import ../footer.scroll
+semanticScholar 0

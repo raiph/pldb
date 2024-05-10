@@ -1,41 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mentat
+import ../measures/conceptPage.scroll
+id Mentat
+appeared 1987
+type pl
+creators Andrew S. Grimshaw and Jane W.S. Liu
+conceptDescription An object-oriented macro data flow system
+reference https://semanticscholar.org/paper/c93218fb458dc2a06a04d6a4d265bffbf70e7b43
+country United States
+originCommunity University of Illinois Urbana-Champaign
 
-title Mentat - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1339
 
-html
- <a class="trueBaseThemePreviousItem" href="snobol4.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mawk.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mentat.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mentat" class="material-symbols-outlined">edit</a></div>
-
-* Mentat is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987 by Andrew S. Grimshaw and Jane W.S. Liu.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
- link ../lists/creators.html#andrewSGrimshaw Andrew S. Grimshaw
- link ../lists/creators.html#janeWSLiu Jane W.S. Liu
-
-dashboard
- #2526 <span title="TotalRank: 3091 Jobs: 103 Users: 2838 Facts: 2321 Links: 667">on PLDB</span>
- 37 Years Old
-
-* An object-oriented macro data flow system
-
-- Mentat first developed in <a href="../lists/originCommunities.html#universityOfIllinoisUrbanaChampaign">University of Illinois Urbana-Champaign</a>
-- Mentat on HOPL
- https://hopl.info/showlanguage.prx?exp=1339
-- Read more about Mentat on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c93218fb458dc2a06a04d6a4d265bffbf70e7b43 1.
-
-<br>
-
-endColumns
-
-keyboardNav snobol4.html mawk.html
-
-import ../footer.scroll
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1993|Easy-to-use object-oriented parallel processing with Mentat|10.1109/2.211896|240|16|A. Grimshaw|d6a10312e9132e4ce959ee2ee9ea3952c5a90386
+ 1989|Real-Time Mentat programming language and architecture|10.1109/GLOCOM.1989.63956|22|0|A. Grimshaw and A. Silberman and J.W.-S. Liu|faed7ee4901b4a18b1704db121f0737ef2c9337e
+ 1988|The Mentat programming language and architecture|10.1109/FTDCS.1988.26725|4|0|A. Grimshaw and J.W.-S. Liu|62042bca6ed064865648d99e80f2856bce183245

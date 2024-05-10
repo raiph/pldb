@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SYNTOL
+import ../measures/conceptPage.scroll
+id SYNTOL
+appeared 1960
+type pl
+reference https://semanticscholar.org/paper/a800ceddfe61a39c743837a36521d0b0ae3662dc
 
-title SYNTOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2721
 
-html
- <a class="trueBaseThemePreviousItem" href="synproc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tablog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/syntol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=syntol" class="material-symbols-outlined">edit</a></div>
-
-* SYNTOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #3218 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 64 Years Old
-
-* 
-
-- SYNTOL on HOPL
- https://hopl.info/showlanguage.prx?exp=2721
-- Read more about SYNTOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a800ceddfe61a39c743837a36521d0b0ae3662dc 1.
-
-<br>
-
-endColumns
-
-keyboardNav synproc.html tablog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

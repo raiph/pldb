@@ -1,38 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SCAT
+import ../measures/conceptPage.scroll
+id SCAT
+appeared 1957
+type assembly
+reference http://bitsavers.org/pdf/ibm/share/SOS_Reference_Manual_Jun61.pdf
+standsFor SHARE Compiler-Assembler-Translator
 
-title SCAT - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sap-hana.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simplescript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scat.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=scat" class="material-symbols-outlined">edit</a></div>
-
-* SCAT, aka SHARE Compiler-Assembler-Translator, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1957.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1957 1957
-
-dashboard
- #3211 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 67 Years Old
-
-* 
-
-- SCAT on HOPL
- https://hopl.info/showlanguage.prx?exp=3197
-- Read more about SCAT on the web: 1.
- http://bitsavers.org/pdf/ibm/share/SOS_Reference_Manual_Jun61.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav sap-hana.html simplescript.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=3197

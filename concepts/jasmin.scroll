@@ -1,145 +1,116 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jasmin
+import ../measures/conceptPage.scroll
+id Jasmin
+appeared 1997
+type pl
+conceptDescription Jasmin is an assembler for the Java Virtual Machine. It takes ASCII descriptions of Java classes, written in a simple assembler-like syntax using the Java Virtual Machine instruction set. It converts them into binary Java class files, suitable for loading by a Java runtime system.
+website http://jasmin.sourceforge.net/
+country United States
+originCommunity https://jasmin.sourceforge.net/
+domainName jasmin.sourceforge.net
 
-title Jasmin - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="colascript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="renderscript.html">&gt;</a>
+lineCommentToken ;
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jasmin.pldb
+githubLanguage Jasmin
+ fileExtensions j
+ trendingProjectsCount 0
+ type programming
+ aceMode java
+ tmScope source.jasmin
+ repos 74
+githubBigQuery Jasmin
+ repos 204
+ users 194
 
-startColumns 4
+pygmentsHighlighter Jasmin
+ filename jvm.py
+ fileExtensions j
+linguistGrammarRepo https://github.com/atmarksharp/jasmin-sublime
+ firstCommit 2014
+ lastCommit 2014
+ committerCount 3
+ commitCount 12
+ sampleCount 8
+ example
+  .class public op2
+  .super java/lang/Object
+  ;
+  ; standard initializer (calls java.lang.Object's initializer)
+  ;
+  .method public <init>()V
+  aload_0
+  invokenonvirtual java/lang/Object/<init>()V
+  return
+  .end method
+  
+  .method public static main([Ljava/lang/String;)V
+  
+  .limit locals 1
+  .limit stack 5
+  BeginGlobal:
+  	.line 2
+  		getstatic		java/lang/System/out Ljava/io/PrintStream;
+  		ldc		0x1
+  		ldc		0x0
+  		iand
+  		invokevirtual		java/io/PrintStream/println(Z)V
+  
+  	.line 3
+  		getstatic		java/lang/System/out Ljava/io/PrintStream;
+  		ldc		0x1
+  		ldc		0x0
+  		ior
+  		invokevirtual		java/io/PrintStream/println(Z)V
+  
+  EndGlobal:
+  return
+  .end method
+  
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="http://jasmin.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/jasmin" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=jasmin" class="material-symbols-outlined">edit</a></div>
+leachim6 Jasmin
+ filepath j/Jasmin.j
+ fileExtensions j
+ example
+  .class public Jasmin
+  .super java/lang/Object
+  
+  .method public static main([Ljava/lang/String;)V
+  	.limit stack 2
+  	getstatic java/lang/System/out Ljava/io/PrintStream;
+  	ldc "Hello World"
+  	invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
+  	return	
+  .end method
+  
 
-* Jasmin is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
+rijuRepl https://riju.codes/jasmin
+ example
+  .class public Main
+  .super java/lang/Object
+  
+  .method public <init>()V
+      aload_0
+      invokenonvirtual java/lang/Object/<init>()V
+      return
+  .end method
+  
+  .method public static main([Ljava/lang/String;)V
+      .limit stack 2
+      getstatic java/lang/System/out Ljava/io/PrintStream;
+      ldc "Hello, world!"
+      invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
+      return
+  .end method
+  
 
-dashboard
- #768 <span title="TotalRank: 1339 Jobs: 103 Users: 1127 Facts: 250 Links: 986">on PLDB</span>
- 27 Years Old
- 74 <span title="Jasmin repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/jasmin">Riju</a>
-
-* Jasmin is an assembler for the Java Virtual Machine. It takes ASCII descriptions of Java classes, written in a simple assembler-like syntax using the Java Virtual Machine instruction set. It converts them into binary Java class files, suitable for loading by a Java runtime system.
-
-- Jasmin website
- http://jasmin.sourceforge.net/
-- There are at least 74 Jasmin repos on <a href="https://github.com/search?q=language:Jasmin">GitHub</a>
-- Jasmin first developed in <a href="../lists/originCommunities.html#httpsJasminSourceforgeNet">https://jasmin.sourceforge.net/</a>
-- file extensions for Jasmin include j
-- The  Google BigQuery Public Dataset GitHub snapshot shows 194 users using Jasmin in 204 repos on <a href="https://api.github.com/search/repositories?q=language:Jasmin">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jvm.py">syntax highlighting</a> for Jasmin
-- GitHub supports <a href="https://github.com/atmarksharp/jasmin-sublime" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Jasmin
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/jasmin'>Riju</a>:
- .class public Main
- .super java/lang/Object
- 
- .method public &lt;init&gt;()V
-     aload_0
-     invokenonvirtual java/lang/Object/&lt;init&gt;()V
-     return
- .end method
- 
- .method public static main([Ljava/lang/String;)V
-     .limit stack 2
-     getstatic java/lang/System/out Ljava/io/PrintStream;
-     ldc &quot;Hello, world!&quot;
-     invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
-     return
- .end method
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/j/Jasmin.j'>hello-world</a>:
- .class public Jasmin
- .super java/lang/Object
- 
- .method public static main([Ljava/lang/String;)V
- 	.limit stack 2
- 	getstatic java/lang/System/out Ljava/io/PrintStream;
- 	ldc &quot;Hello World&quot;
- 	invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
- 	return	
- .end method
- 
-
-codeWithHeader Example from <a href='https://github.com/atmarksharp/jasmin-sublime'>Linguist</a>:
- .class public op2
- .super java/lang/Object
- ;
- ; standard initializer (calls java.lang.Object&#39;s initializer)
- ;
- .method public &lt;init&gt;()V
- aload_0
- invokenonvirtual java/lang/Object/&lt;init&gt;()V
- return
- .end method
- 
- .method public static main([Ljava/lang/String;)V
- 
- .limit locals 1
- .limit stack 5
- BeginGlobal:
- 	.line 2
- 		getstatic		java/lang/System/out Ljava/io/PrintStream;
- 		ldc		0x1
- 		ldc		0x0
- 		iand
- 		invokevirtual		java/io/PrintStream/println(Z)V
- 
- 	.line 3
- 		getstatic		java/lang/System/out Ljava/io/PrintStream;
- 		ldc		0x1
- 		ldc		0x0
- 		ior
- 		invokevirtual		java/io/PrintStream/println(Z)V
- 
- EndGlobal:
- return
- .end method
- 
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav colascript.html renderscript.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

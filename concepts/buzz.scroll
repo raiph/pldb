@@ -1,51 +1,36 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title buzz
+import ../measures/conceptPage.scroll
+id buzz
+appeared 2021
+type pl
+screenshot https://raw.githubusercontent.com/buzz-language/buzz/main/example.png
+photo https://raw.githubusercontent.com/ziglang/logo/master/zig-logo-dark.svg
+creators Benoit Giannangeli
+conceptDescription A small/lightweight typed scripting language (in development)
+documentation https://github.com/buzz-language/buzz/blob/main/README.md
+fileExtensions buzz
+country France
+originCommunity https://github.com/buzz-language/
+releaseNotesUrl https://github.com/buzz-language/buzz/releases
+versions
+ 2022 0.1.0-rc.1
 
-title buzz - Programming language
- hidden
+writtenIn zig
+influencedBy lua
 
-html
- <a class="trueBaseThemePreviousItem" href="kuka.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cat.html">&gt;</a>
+githubRepo https://github.com/buzz-language/buzz
+ firstCommit 2021
+ stars 407
+ forks 5
+ subscribers 9
+ created 2021
+ updated 2022
+ description 👨‍🚀  buzz, A small/lightweight typed scripting language (in development)
+ issues 45
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/buzz.pldb
+repoStats
+ firstCommit 2021
+ commits 676
+ committers 8
+ files 162
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/buzz-language/buzz" class="material-symbols-outlined">code</a> <a href="https://github.com/buzz-language/buzz/blob/main/README.md" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=buzz" class="material-symbols-outlined">edit</a></div>
-
-* buzz is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Benoit Giannangeli.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#benoitGiannangeli Benoit Giannangeli
-
-codeWithHeader Source code:
- git clone https://github.com/buzz-language/buzz
-
-dashboard
- #1386 <span title="TotalRank: 1921 Jobs: 103 Users: 832 Facts: 1092 Links: 986">on PLDB</span>
- 3 Years Old
-
-openGraphImage https://raw.githubusercontent.com/buzz-language/buzz/main/example.png
-image https://raw.githubusercontent.com/buzz-language/buzz/main/example.png
- caption A screenshot of the visual language buzz.
-  link /search.html?q=select+type%0D%0Awhere+type+%3D+visual visual language
-
-* A small/lightweight typed scripting language (in development)
-
-- buzz is developed on <a href="https://github.com/buzz-language/buzz">GitHub</a> and has 407 stars
-- buzz docs
- https://github.com/buzz-language/buzz/blob/main/README.md
-- buzz first developed in <a href="../lists/originCommunities.html#httpsGithubComBuzzLanguage">https://github.com/buzz-language/</a>
-- file extensions for buzz include buzz
-- buzz is written in <a href="zig.html">Zig</a>
-- Release Notes for buzz
- https://github.com/buzz-language/buzz/releases
-
-<br>
-
-endColumns
-
-keyboardNav kuka.html cat.html
-
-import ../footer.scroll
+isOpenSource true

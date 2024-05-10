@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hyperlisp
+import ../measures/conceptPage.scroll
+id Hyperlisp
+appeared 1971
+type pl
+reference http://www.nosuch.com/plum/cgi/showlist.cgi?sort=name&concise=yes
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title Hyperlisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6389
 
-html
- <a class="trueBaseThemePreviousItem" href="hyperflow.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperlog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hyperlisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hyperlisp" class="material-symbols-outlined">edit</a></div>
-
-* Hyperlisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3727 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- Hyperlisp first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- Hyperlisp on HOPL
- https://hopl.info/showlanguage.prx?exp=6389
-- Read more about Hyperlisp on the web: 1.
- http://www.nosuch.com/plum/cgi/showlist.cgi?sort=name&concise=yes 1.
-
-<br>
-
-endColumns
-
-keyboardNav hyperflow.html hyperlog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

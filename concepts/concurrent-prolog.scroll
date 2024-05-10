@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Concurrent Prolog
+import ../measures/conceptPage.scroll
+id Concurrent Prolog
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/ffd05630d00bd0f03e261fa9c67d14d571835c21
+country Italy
+originCommunity crai-supermercati
 
-title Concurrent Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1309
 
-html
- <a class="trueBaseThemePreviousItem" href="concurrent-cpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="conlan.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/concurrent-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=concurrent-prolog" class="material-symbols-outlined">edit</a></div>
-
-* Concurrent Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #4105 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- Concurrent Prolog first developed in <a href="../lists/originCommunities.html#craiSupermercati">crai-supermercati</a>
-- Concurrent Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=1309
-- Read more about Concurrent Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ffd05630d00bd0f03e261fa9c67d14d571835c21 1.
-
-<br>
-
-endColumns
-
-keyboardNav concurrent-cpp.html conlan.html
-
-import ../footer.scroll
+semanticScholar 0

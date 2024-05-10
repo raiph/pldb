@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pSather
+import ../measures/conceptPage.scroll
+id pSather
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/c1f6a05ddd3edddb8a16f78cc1c2aee494423077
+country Germany
+originCommunity University of California, Berkeley && Universität Saarbrücken
 
-title pSather - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2415
 
-html
- <a class="trueBaseThemePreviousItem" href="prow.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="psg.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/psather.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=psather" class="material-symbols-outlined">edit</a></div>
-
-* pSather is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3964 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- pSather first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a> and <a href="../lists/originCommunities.html#universitatSaarbrucken">Universität Saarbrücken</a>
-- pSather on HOPL
- https://hopl.info/showlanguage.prx?exp=2415
-- Read more about pSather on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c1f6a05ddd3edddb8a16f78cc1c2aee494423077 1.
-
-<br>
-
-endColumns
-
-keyboardNav prow.html psg.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

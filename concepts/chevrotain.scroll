@@ -1,41 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chevrotain
+import ../measures/conceptPage.scroll
+id chevrotain
+appeared 2015
+type library
+website http://sap.github.io/chevrotain/
+country Germany
+originCommunity SAP
 
-title chevrotain - Library
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pegjs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ninja.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chevrotain.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://sap.github.io/chevrotain/" class="material-symbols-outlined">home</a> <a href="https://github.com/SAP/chevrotain" class="material-symbols-outlined">code</a> <a href="/edit.html?id=chevrotain" class="material-symbols-outlined">edit</a></div>
-
-* chevrotain is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/SAP/chevrotain
-
-dashboard
- #372 on PLDB
- 9 Years Old
-
-* Parser Building Toolkit for JavaScript
-
-- chevrotain website
- http://sap.github.io/chevrotain/
-- chevrotain is developed on <a href="https://github.com/SAP/chevrotain">GitHub</a> and has 1,957 stars
-- chevrotain first developed in <a href="../lists/originCommunities.html#sap">SAP</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &quot;use strict&quot;
+example
+ "use strict"
  /**
   * An Example of implementing a CSV Grammar with Chevrotain.
   *
@@ -43,16 +15,16 @@ codeWithHeader Example from the web:
   *
   * Note that this is a pure grammar without any actions (either embedded or via a CST Visitor).
   */
- const { createToken, Lexer, Parser, EMPTY_ALT } = require(&quot;chevrotain&quot;)
+ const { createToken, Lexer, Parser, EMPTY_ALT } = require("chevrotain")
  
  // ----------------- lexer -----------------
- const Text = createToken({ name: &quot;Text&quot;, pattern: /[^,\n\r&quot;]+/ })
- const Comma = createToken({ name: &quot;Comma&quot;, pattern: /,/ })
+ const Text = createToken({ name: "Text", pattern: /[^,\n\r"]+/ })
+ const Comma = createToken({ name: "Comma", pattern: /,/ })
  const NewLine = createToken({
-     name: &quot;NewLine&quot;,
+     name: "NewLine",
      pattern: /\r?\n/
  })
- const String = createToken({ name: &quot;String&quot;, pattern: /&quot;(?:&quot;&quot;|[^&quot;])*&quot;/ })
+ const String = createToken({ name: "String", pattern: /"(?:""|[^"])*"/ })
  
  const allTokens = [Text, String, Comma, NewLine]
  const CsvLexer = new Lexer(allTokens)
@@ -65,31 +37,31 @@ codeWithHeader Example from the web:
          // not mandatory, using $ (or any other sign) to reduce verbosity
          const $ = this
  
-         $.RULE(&quot;csvFile&quot;, () =&gt; {
+         $.RULE("csvFile", () => {
              $.SUBRULE($.hdr)
-             $.AT_LEAST_ONE(() =&gt; {
+             $.AT_LEAST_ONE(() => {
                  $.SUBRULE2($.row)
              })
          })
  
-         $.RULE(&quot;hdr&quot;, () =&gt; {
+         $.RULE("hdr", () => {
              $.SUBRULE($.row)
          })
  
-         $.RULE(&quot;row&quot;, () =&gt; {
+         $.RULE("row", () => {
              $.SUBRULE($.field)
-             $.MANY(() =&gt; {
+             $.MANY(() => {
                  $.CONSUME(Comma)
                  $.SUBRULE2($.field)
              })
              $.CONSUME(NewLine)
          })
  
-         $.RULE(&quot;field&quot;, () =&gt; {
+         $.RULE("field", () => {
              $.OR([
-                 { ALT: () =&gt; $.CONSUME(Text) },
-                 { ALT: () =&gt; $.CONSUME(String) },
-                 { ALT: EMPTY_ALT(&quot;empty field&quot;) }
+                 { ALT: () => $.CONSUME(Text) },
+                 { ALT: () => $.CONSUME(String) },
+                 { ALT: EMPTY_ALT("empty field") }
              ])
          })
  
@@ -108,7 +80,7 @@ codeWithHeader Example from the web:
      // 1. Tokenize the input.
      const lexResult = CsvLexer.tokenize(text)
  
-     // 2. Set the Parser&#39;s input
+     // 2. Set the Parser's input
      parser.input = lexResult.tokens
  
      // 3. invoke the desired parser rule
@@ -121,8 +93,16 @@ codeWithHeader Example from the web:
      }
  }
 
-endColumns
+githubRepo https://github.com/SAP/chevrotain
+ stars 1957
+ forks 176
+ subscribers 29
+ created 2015
+ updated 2022
+ firstCommit 2015
+ description Parser Building Toolkit for JavaScript
+ issues 47
 
-keyboardNav pegjs.html ninja.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

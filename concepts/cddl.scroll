@@ -1,80 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CBOR data definition language
+import ../measures/conceptPage.scroll
+id CBOR data definition language
+appeared 2017
+type idl
+conceptDescription Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures
+reference https://tools.ietf.org/html/draft-ietf-cbor-cddl-00
+standsFor CBOR data definition language
+country Germany
+originCommunity Fraunhofer-Institut für Sichere Informationstechnologie SIT && Technologie-Zentrum Informatik und Informationstechnik
 
-title CBOR data definition language - Interface design language
- hidden
+hasOctals true
+hasHexadecimals true
+hasFloats true
+hasIntegers true
+hasBinaryNumbers true
 
-html
- <a class="trueBaseThemePreviousItem" href="s-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hop.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cddl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cddl" class="material-symbols-outlined">edit</a></div>
-
-* CBOR data definition language, aka CBOR data definition language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2185 <span title="TotalRank: 2680 Jobs: 103 Users: 2838 Facts: 1591 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Concise Data Definition Language (CDDL): A Notational Convention to Express Concise Binary Object Representation (CBOR) and JSON Data Structures
-
-- CBOR data definition language first developed in <a href="../lists/originCommunities.html#fraunhoferInstitutFurSichereInformationstechnologieSit">Fraunhofer-Institut für Sichere Informationstechnologie SIT</a> and <a href="../lists/originCommunities.html#technologieZentrumInformatikUndInformationstechnik">Technologie-Zentrum Informatik und Informationstechnik</a>
-- file extensions for CBOR data definition language include cddl
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/cddl.py">syntax highlighting</a> for CBOR data definition language
-- Read more about CBOR data definition language on the web: 1.
- https://tools.ietf.org/html/draft-ietf-cbor-cddl-00 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  pii = (
    age: int,
    name: tstr,
    employer: tstr,
  )
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav s-lang.html hop.html
-
-import ../footer.scroll
+pygmentsHighlighter CDDL
+ filename cddl.py
+ fileExtensions cddl

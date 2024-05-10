@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CokeScript
+import ../measures/conceptPage.scroll
+id CokeScript
+appeared 2015
+type pl
+creators Batiste Bieler
+website https://batiste.github.io/CokeScript/
+country Switzerland
+originCommunity https://batiste.github.io/
 
-title CokeScript - Programming language
- hidden
+githubRepo https://github.com/batiste/CokeScript
+ stars 41
+ forks 5
+ subscribers 4
+ created 2015
+ updated 2022
+ description CokeScript is a whitespace sensitive language that compile to JavaScript
 
-html
- <a class="trueBaseThemePreviousItem" href="webql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xgmml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cokescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://batiste.github.io/CokeScript/" class="material-symbols-outlined">home</a> <a href="https://github.com/batiste/CokeScript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cokescript" class="material-symbols-outlined">edit</a></div>
-
-* CokeScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Batiste Bieler.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#batisteBieler Batiste Bieler
-
-codeWithHeader Source code:
- git clone https://github.com/batiste/CokeScript
-
-dashboard
- #2383 <span title="TotalRank: 2889 Jobs: 103 Users: 1800 Facts: 1890 Links: 986">on PLDB</span>
- 9 Years Old
-
-* CokeScript is a whitespace sensitive language that compile to JavaScript
-
-- CokeScript website
- https://batiste.github.io/CokeScript/
-- CokeScript is developed on <a href="https://github.com/batiste/CokeScript">GitHub</a> and has 41 stars
-- CokeScript first developed in <a href="../lists/originCommunities.html#httpsBatisteGithubIo">https://batiste.github.io/</a>
-
-<br>
-
-endColumns
-
-keyboardNav webql.html xgmml.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 117
+ committers 5
+ files 28

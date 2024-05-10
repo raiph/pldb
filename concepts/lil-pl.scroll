@@ -1,45 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lil
+import ../measures/conceptPage.scroll
+id Lil
+appeared 2022
+type pl
+conceptDescription Lil is part of the technology that powers Decker, a multimedia creative tool inspired by HyperCard. Decker uses Lil for adding custom behavior to decks and the widgets within. Lil is designed to be learned in layers, but it is a richly multi-paradigm language which incorporates ideas from imperative, functional, declarative, and vector-oriented languages.
+website https://beyondloom.com/decker/lil.html
+webRepl https://beyondloom.com/decker/tour.html
+documentation https://beyondloom.com/decker/lil.html
+country United States
+originCommunity https://github.com/JohnEarnest/Decker/issues
 
-title Lil - Programming language
- hidden
+relatedConcepts sql lua
+influencedBy hypercard
 
-html
- <a class="trueBaseThemePreviousItem" href="algebraic-modeling-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hacspec.html">&gt;</a>
+hasStrings true
+hasLists true
+ emptyList = ()
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lil-pl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://beyondloom.com/decker/lil.html" class="material-symbols-outlined">home</a> <a href="https://beyondloom.com/decker/tour.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/JohnEarnest/Decker" class="material-symbols-outlined">code</a> <a href="https://beyondloom.com/decker/lil.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=lil-pl" class="material-symbols-outlined">edit</a></div>
-
-* Lil is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-codeWithHeader Source code:
- git clone https://github.com/JohnEarnest/Decker
-
-dashboard
- #1274 <span title="TotalRank: 1809 Jobs: 103 Users: 791 Facts: 915 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Try now: <a href="https://beyondloom.com/decker/tour.html">Web</a>
-
-* Lil is part of the technology that powers Decker, a multimedia creative tool inspired by HyperCard. Decker uses Lil for adding custom behavior to decks and the widgets within. Lil is designed to be learned in layers, but it is a richly multi-paradigm language which incorporates ideas from imperative, functional, declarative, and vector-oriented languages.
-
-- Lil website
- https://beyondloom.com/decker/lil.html
-- Lil is developed on <a href="https://github.com/JohnEarnest/Decker">GitHub</a> and has 396 stars
-- Lil docs
- https://beyondloom.com/decker/lil.html
-- Lil first developed in <a href="../lists/originCommunities.html#httpsGithubComJohnEarnestDeckerIssues">https://github.com/JohnEarnest/Decker/issues</a>
-- See also: (2 related languages)<a href="sql.html">SQL</a>, <a href="lua.html">Lua</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  on mode a do   # line comment
      r:()
      each x in a
@@ -50,25 +27,17 @@ codeWithHeader Example from the web:
  
  mode[1,2,2,3,4,2,1]
 
-endColumns
+githubRepo https://github.com/JohnEarnest/Decker
+ stars 396
+ forks 21
+ subscribers 16
+ created 2022
+ updated 2023
+ description A multimedia sketchpad
+ issues 2
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   emptyList = ()
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav algebraic-modeling-language.html hacspec.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 284
+ committers 8
+ files 156

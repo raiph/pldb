@@ -1,51 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Binary Lambda Calculus
+import ../measures/conceptPage.scroll
+id Binary Lambda Calculus
+appeared 2004
+type esolang
+creators John Tromp
+conceptDescription Binary lambda calculus (BLC) is a minimal, pure functional programming language invented by John Tromp in 2004,[1] based on a binary encoding of the untyped lambda calculus in De Bruijn index notation.
+website http://tromp.github.io/cl/Binary_lambda_calculus.html
+country Netherlands
+originCommunity Centrum Wiskunde & Informatica
 
-title Binary Lambda Calculus - Esoteric programming language
- hidden
+leachim6 BLC
+ filepath b/BLC.Blc
+ fileExtensions Blc
+ example
+   Hello World
+  
 
-html
- <a class="trueBaseThemePreviousItem" href="kami.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="myrddin.html">&gt;</a>
+rijuRepl https://riju.codes/blc
+ example
+  001010100100100001100101011011000110110001101111001011000010
+  000001110111011011110111001001101100011001000010000100001010
+  
+ description Minimal, pure functional programming language invented by John Tromp in 2004, based on a binary encoding of the untyped lambda calculus in De Bruijn index notation
+ fileExtensions blc
+ website https://tromp.github.io/cl/Binary_lambda_calculus.html
+ gitRepo https://www.ioccc.org/2012/tromp/tromp.c
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blc.pldb
+esolang https://esolangs.org/wiki/Binary_lambda_calculus
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://tromp.github.io/cl/Binary_lambda_calculus.html" class="material-symbols-outlined">home</a> <a href="https://riju.codes/blc" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=blc" class="material-symbols-outlined">edit</a></div>
-
-* Binary Lambda Calculus is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2004 by John Tromp.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
- link ../lists/creators.html#johnTromp John Tromp
-
-dashboard
- #1962 <span title="TotalRank: 2470 Jobs: 103 Users: 2442 Facts: 1381 Links: 986">on PLDB</span>
- 20 Years Old
-
-* Try now: <a href="https://riju.codes/blc">Riju</a>
-
-* Binary lambda calculus (BLC) is a minimal, pure functional programming language invented by John Tromp in 2004,[1] based on a binary encoding of the untyped lambda calculus in De Bruijn index notation.
-
-- Binary Lambda Calculus website
- http://tromp.github.io/cl/Binary_lambda_calculus.html
-- Binary Lambda Calculus first developed in <a href="../lists/originCommunities.html#centrumWiskundeInformatica">Centrum Wiskunde & Informatica</a>
-- Binary Lambda Calculus on Esolang
- https://esolangs.org/wiki/Binary_lambda_calculus
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/blc'>Riju</a>:
- 001010100100100001100101011011000110110001101111001011000010
- 000001110111011011110111001001101100011001000010000100001010
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/b/BLC.Blc'>hello-world</a>:
-  Hello World
- 
-
-endColumns
-
-keyboardNav kami.html myrddin.html
-
-import ../footer.scroll
+isbndb 0

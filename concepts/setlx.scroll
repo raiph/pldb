@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title setlx
+import ../measures/conceptPage.scroll
+id setlx
+appeared 2011
+type pl
+conceptDescription setlX is an interpreter for the high level programming language SetlX (set language extended). The most distinguishing feature of this language is the support it offers for sets and lists. As set theory is the language of mathematics, many mathematical algorithms that are formulated in terms of set theory have very straightforward implementations in SetlX. Designed mostly by Karl Stroetmann, the SetlX language is an evolution of Setl by Jack Schwartz. It was specifically conceived to make the unique features of Setl more accessible to today's computer science students. This interpreter is currently the SetlX reference implementation.
+website https://randoom.org/Software/SetlX/
+country Germany
+originCommunity https://github.com/herrmanntom/setlX/issues
 
-title setlx - Programming language
- hidden
+githubRepo https://github.com/herrmanntom/setlX
+ firstCommit 2011
+ stars 24
+ forks 12
+ subscribers 7
+ created 2014
+ updated 2022
+ description setlX is an interpreter for the high level programming-language SetlX (set language extended).
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="blazex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flame-ir.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/setlx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://randoom.org/Software/SetlX/" class="material-symbols-outlined">home</a> <a href="https://github.com/herrmanntom/setlX" class="material-symbols-outlined">code</a> <a href="/edit.html?id=setlx" class="material-symbols-outlined">edit</a></div>
-
-* setlx is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/herrmanntom/setlX
-
-dashboard
- #2234 <span title="TotalRank: 2758 Jobs: 103 Users: 1745 Facts: 1669 Links: 986">on PLDB</span>
- 13 Years Old
-
-* setlX is an interpreter for the high level programming language SetlX (set language extended). The most distinguishing feature of this language is the support it offers for sets and lists. As set theory is the language of mathematics, many mathematical algorithms that are formulated in terms of set theory have very straightforward implementations in SetlX. Designed mostly by Karl Stroetmann, the SetlX language is an evolution of Setl by Jack Schwartz. It was specifically conceived to make the unique features of Setl more accessible to today's computer science students. This interpreter is currently the SetlX reference implementation.
-
-- setlx website
- https://randoom.org/Software/SetlX/
-- setlx is developed on <a href="https://github.com/herrmanntom/setlX">GitHub</a> and has 24 stars
-- setlx first developed in <a href="../lists/originCommunities.html#httpsGithubComHerrmanntomSetlXIssues">https://github.com/herrmanntom/setlX/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav blazex.html flame-ir.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 1728
+ committers 25
+ files 1253

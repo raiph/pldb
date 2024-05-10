@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasImports.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasInfixNotation.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  let i = 0
  i++
  i--
@@ -26,11 +26,6 @@ codeWithHeader Example from <a href="../concepts/go.html">Go</a>:
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  i++; --j;
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- || x = 1
- x++
- x--
-
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  ++
  --
@@ -38,11 +33,14 @@ codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
 codeWithHeader Example from <a href="../concepts/aardvark.html">Aardvark</a>:
  ++ and --
 
-* Languages *with* Increment and decrement operators include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/tick-c.html">Tick C</a>
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ || x = 1
+ x++
+ x--
+
+* Languages *with* Increment and decrement operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Languages *without* Increment and decrement operators include <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/slope.html">Slope</a>
-
-* This question asks: Does this language have increment and decrement operators?
 
 * Read more about Increment and decrement operators on the web: 1.
  https://en.wikipedia.org/wiki/Increment_and_decrement_operators 1.

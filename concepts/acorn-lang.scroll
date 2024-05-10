@@ -1,41 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title acorn-lang
+import ../measures/conceptPage.scroll
+id acorn-lang
+appeared 2015
+type pl
+creators Jonathan Goodwin
+website http://web3d.jondgoodwin.com/acorn/index.html
 
-title acorn-lang - Programming language
- hidden
+githubRepo https://github.com/jondgoodwin/acornvm
+ firstCommit 2015
+ stars 9
+ forks 0
+ subscribers 1
+ created 2017
+ updated 2022
+ description Acorn Virtual Machine
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="taxa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="newclay.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 110
+ committers 1
+ files 68
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/acorn-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://web3d.jondgoodwin.com/acorn/index.html" class="material-symbols-outlined">home</a> <a href="https://github.com/jondgoodwin/acornvm" class="material-symbols-outlined">code</a> <a href="/edit.html?id=acorn-lang" class="material-symbols-outlined">edit</a></div>
-
-* acorn-lang is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Jonathan Goodwin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#jonathanGoodwin Jonathan Goodwin
-
-codeWithHeader Source code:
- git clone https://github.com/jondgoodwin/acornvm
-
-dashboard
- #2260 <span title="TotalRank: 2758 Jobs: 103 Users: 2337 Facts: 1669 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Acorn Virtual Machine
-
-- acorn-lang website
- http://web3d.jondgoodwin.com/acorn/index.html
-- acorn-lang is developed on <a href="https://github.com/jondgoodwin/acornvm">GitHub</a> and has 9 stars
-
-<br>
-
-endColumns
-
-keyboardNav taxa.html newclay.html
-
-import ../footer.scroll
+isOpenSource true
+centralPackageRepositoryCount 0

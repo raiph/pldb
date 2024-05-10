@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CLOVER
+import ../measures/conceptPage.scroll
+id CLOVER
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/4402741aa70e4cae37839f196b5741fd6b843428
+country United Kingdom
+originCommunity University College London
 
-title CLOVER - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4707
 
-html
- <a class="trueBaseThemePreviousItem" href="cleopatra.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clp-star.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clover.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=clover" class="material-symbols-outlined">edit</a></div>
-
-* CLOVER is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3575 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- CLOVER first developed in <a href="../lists/originCommunities.html#universityCollegeLondon">University College London</a>
-- CLOVER on HOPL
- https://hopl.info/showlanguage.prx?exp=4707
-- Read more about CLOVER on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4402741aa70e4cae37839f196b5741fd6b843428 1.
-
-<br>
-
-endColumns
-
-keyboardNav cleopatra.html clp-star.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

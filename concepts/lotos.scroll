@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LOTOS
+import ../measures/conceptPage.scroll
+id LOTOS
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/207b973bfac2d68956a87b803bd6d2921f536bb2
+country Spain
+originCommunity UPM Escuela Técnica Superior de Ingenieros de Telecomunicación
 
-title LOTOS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1493
 
-html
- <a class="trueBaseThemePreviousItem" href="lotis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lpl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lotos.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lotos" class="material-symbols-outlined">edit</a></div>
-
-* LOTOS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3795 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- LOTOS first developed in <a href="../lists/originCommunities.html#upmEscuelaTecnicaSuperiorDeIngenierosDeTelecomunicacion">UPM Escuela Técnica Superior de Ingenieros de Telecomunicación</a>
-- LOTOS on HOPL
- https://hopl.info/showlanguage.prx?exp=1493
-- Read more about LOTOS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/207b973bfac2d68956a87b803bd6d2921f536bb2 1.
-
-<br>
-
-endColumns
-
-keyboardNav lotis.html lpl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

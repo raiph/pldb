@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Common Authentication Protocol Specification Language
+import ../measures/conceptPage.scroll
+id Common Authentication Protocol Specification Language
+appeared 1996
+type pl
+conceptDescription a high-level language to support security analysis of cryptographic authentication and key distribution protocols. It is translated to CIL, an intermediate language expressing state transitions with term-rewriting rules. Connectors are being written to adapt CIL to supply input to different security analysis tools, including PVS for inductive verification and Maude for model-checking.
+reference https://pdfs.semanticscholar.org/696d/b0556e653f96d0de57c5e6d1ca1634de08fb.pdf
+country United States
+originCommunity SRI International
 
-title Common Authentication Protocol Specification Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cantor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="capsule.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/capsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=capsl" class="material-symbols-outlined">edit</a></div>
-
-* Common Authentication Protocol Specification Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3549 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* a high-level language to support security analysis of cryptographic authentication and key distribution protocols. It is translated to CIL, an intermediate language expressing state transitions with term-rewriting rules. Connectors are being written to adapt CIL to supply input to different security analysis tools, including PVS for inductive verification and Maude for model-checking.
-
-- Common Authentication Protocol Specification Language first developed in <a href="../lists/originCommunities.html#sriInternational">SRI International</a>
-- Read more about Common Authentication Protocol Specification Language on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/696d/b0556e653f96d0de57c5e6d1ca1634de08fb.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav cantor.html capsule.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

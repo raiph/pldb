@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ILU
+import ../measures/conceptPage.scroll
+id ILU
+appeared 1994
+type pl
+reference https://ftp.icm.edu.pl/packages/ILU/2.0b1/manual-html/manual_19.html
+standsFor Inter-Language Unification
+country United States
+originCommunity Xerox PARC
 
-title ILU - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3631
 
-html
- <a class="trueBaseThemePreviousItem" href="icml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ilx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ilu.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ilu" class="material-symbols-outlined">edit</a></div>
-
-* ILU, aka Inter-Language Unification, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #4170 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- ILU first developed in <a href="../lists/originCommunities.html#xeroxParc">Xerox PARC</a>
-- ILU on HOPL
- https://hopl.info/showlanguage.prx?exp=3631
-- Read more about ILU on the web: 1.
- https://ftp.icm.edu.pl/packages/ILU/2.0b1/manual-html/manual_19.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav icml.html ilx.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jonprl
+import ../measures/conceptPage.scroll
+id jonprl
+appeared 2015
+type pl
+creators Jonathan Sterling
+website https://www.jonprl.org/
+country Denmark and United Kingdom and Australia and United States
+originCommunity https://github.com/jonsterling/JonPRL/issues
+domainName jonprl.org
+ registered 2021
 
-title jonprl - Programming language
- hidden
+githubRepo https://github.com/jonsterling/jonprl
+ firstCommit 2015
+ stars 107
+ forks 9
+ subscribers 18
+ created 2015
+ updated 2022
+ description An proof refinement logic for computational type theory. Inspired by Nuprl. [For up-to-date development, see JonPRL's successor, RedPRL: https://github.com/redprl/sml-redprl]
+ issues 32
 
-html
- <a class="trueBaseThemePreviousItem" href="edgelisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="d-data-language-specification.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jonprl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.jonprl.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/jonsterling/jonprl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jonprl" class="material-symbols-outlined">edit</a></div>
-
-* jonprl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Jonathan Sterling.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#jonathanSterling Jonathan Sterling
-
-codeWithHeader Source code:
- git clone https://github.com/jonsterling/jonprl
-
-dashboard
- #1918 <span title="TotalRank: 2413 Jobs: 103 Users: 1324 Facts: 1502 Links: 986">on PLDB</span>
- 9 Years Old
-
-* An proof refinement logic for computational type theory. Inspired by Nuprl. [For up-to-date development, see JonPRL's successor, RedPRL: https://github.com/redprl/sml-redprl]
-
-- jonprl website
- https://www.jonprl.org/
-- jonprl is developed on <a href="https://github.com/jonsterling/jonprl">GitHub</a> and has 107 stars
-- jonprl first developed in <a href="../lists/originCommunities.html#httpsGithubComJonsterlingJonPrlIssues">https://github.com/jonsterling/JonPRL/issues</a>
-- <a href="https://www.jonprl.org/">jonprl.org</a> was registered in 2021
-
-<br>
-
-endColumns
-
-keyboardNav edgelisp.html d-data-language-specification.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 1179
+ committers 11
+ files 193

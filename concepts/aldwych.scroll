@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Aldwych
+import ../measures/conceptPage.scroll
+id Aldwych
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/14d06667f8244f4863ab4b970a9671fa7f0c9042
+originCommunity Queen Mary && Westfield College
 
-title Aldwych - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6179
 
-html
- <a class="trueBaseThemePreviousItem" href="aldat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alec.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aldwych.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aldwych" class="material-symbols-outlined">edit</a></div>
-
-* Aldwych is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3342 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- Aldwych first developed in <a href="../lists/originCommunities.html#queenMary">Queen Mary</a> and <a href="../lists/originCommunities.html#westfieldCollege">Westfield College</a>
-- Aldwych on HOPL
- https://hopl.info/showlanguage.prx?exp=6179
-- Read more about Aldwych on Semantic Scholar: 1.
- https://semanticscholar.org/paper/14d06667f8244f4863ab4b970a9671fa7f0c9042 1.
-
-<br>
-
-endColumns
-
-keyboardNav aldat.html alec.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,45 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Rockstar
+import ../measures/conceptPage.scroll
+id Rockstar
+appeared 2018
+type esolang
+creators Dylan Beattie
+conceptDescription Rockstar is a dynamically typed Turing-complete programming language. Rockstar is designed for creating computer programs that are also song lyrics, and is heavily influenced by the lyrical conventions of 1980s hard rock and power ballads.
+website https://codewithrockstar.com/
+country United Kingdom
+originCommunity https://github.com/RockstarLang
+domainName codewithrockstar.com
+ registered 2018
+ awisRank
+  2022 2809374
 
-title Rockstar - Esoteric programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="s3.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dat-protocol.html">&gt;</a>
+printToken Scream
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rockstar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://codewithrockstar.com/" class="material-symbols-outlined">home</a> <a href="rockstar" class="material-symbols-outlined">terminal</a> <a href="https://github.com/dylanbeattie/rockstar" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rockstar" class="material-symbols-outlined">edit</a></div>
-
-* Rockstar is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2018 by Dylan Beattie.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#dylanBeattie Dylan Beattie
-
-codeWithHeader Source code:
- git clone https://github.com/dylanbeattie/rockstar
-
-dashboard
- #627 <span title="TotalRank: 1206 Jobs: 103 Users: 1642 Facts: 436 Links: 667">on PLDB</span>
- 6 Years Old
-
-* Try now: <a href="https://tio.run/#rockstar">TIO</a>
-
-* Rockstar is a dynamically typed Turing-complete programming language. Rockstar is designed for creating computer programs that are also song lyrics, and is heavily influenced by the lyrical conventions of 1980s hard rock and power ballads.
-
-- Rockstar website
- https://codewithrockstar.com/
-- Rockstar is developed on <a href="https://github.com/dylanbeattie/rockstar">GitHub</a> and has 63 stars
-- Rockstar first developed in <a href="../lists/originCommunities.html#httpsGithubComRockstarLang">https://github.com/RockstarLang</a>
-- Explore Rockstar snippets on <a href="http://www.rosettacode.org/wiki/Category:Rockstar">Rosetta Code</a>
-- <a href="https://codewithrockstar.com/">codewithrockstar.com</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Midnight takes your heart and your soul
  While your heart is as high as your soul
  Put your heart without your soul into your heart
@@ -54,42 +34,49 @@ codeWithHeader Example from the web:
  Until my world is Desire,
  Build my world up
  If Midnight taking my world, Fire is nothing and Midnight taking my world, Hate is nothing
- Shout &quot;FizzBuzz!&quot;
+ Shout "FizzBuzz!"
  Take it to the top
  
  If Midnight taking my world, Fire is nothing
- Shout &quot;Fizz!&quot;
+ Shout "Fizz!"
  Take it to the top
  
  If Midnight taking my world, Hate is nothing
- Say &quot;Buzz!&quot;
+ Say "Buzz!"
  Take it to the top
  
  Whisper my world 
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/r/Rockstar.rock'>hello-world</a>:
- Scream &quot;Hello World&quot;
- 
+githubRepo https://github.com/dylanbeattie/rockstar
+ firstCommit 2018
+ stars 63
+ forks 2
+ subscribers 2
+ created 2021
+ updated 2022
+ description The Rockstar programming language specification
+ issues 0
 
-endColumns
+repoStats
+ firstCommit 2018
+ commits 471
+ committers 54
+ files 237
 
-## Language <a href="../lists/features.html">features</a>
+leachim6 Rockstar
+ filepath r/Rockstar.rock
+ fileExtensions rock
+ example
+  Scream "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Rockstar
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token Scream
-  Example
+tryItOnline rockstar
 
-keyboardNav s3.html dat-protocol.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 0

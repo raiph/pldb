@@ -1,35 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gedit-editor
-
-title gedit-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="csvpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="imaginary-number-equation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gedit-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gedit-editor" class="material-symbols-outlined">edit</a></div>
-
-* gedit-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3652 on PLDB
- 25 Years Old
-
-* 
-
-- gedit-editor first developed in <a href="../lists/originCommunities.html#gnomeFoundation">GNOME Foundation</a>
-
-<br>
-
-endColumns
-
-keyboardNav csvpp.html imaginary-number-equation.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id gedit-editor
+appeared 1999
+type editor
+country United States
+originCommunity GNOME Foundation

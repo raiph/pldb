@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SA
+import ../measures/conceptPage.scroll
+id SA
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/609bace390ed9ec85c01605a04c135fd10896794
+country United States
+originCommunity SofTech, Inc.
 
-title SA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6661
 
-html
- <a class="trueBaseThemePreviousItem" href="ruth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="salem.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sa.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sa" class="material-symbols-outlined">edit</a></div>
-
-* SA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #4290 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- SA first developed in <a href="../lists/originCommunities.html#sofTechInc">SofTech, Inc.</a>
-- SA on HOPL
- https://hopl.info/showlanguage.prx?exp=6661
-- Read more about SA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/609bace390ed9ec85c01605a04c135fd10896794 1.
-
-<br>
-
-endColumns
-
-keyboardNav ruth.html salem.html
-
-import ../footer.scroll
+wordRank 2195
+centralPackageRepositoryCount 0

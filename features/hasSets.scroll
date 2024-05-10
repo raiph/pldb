@@ -9,15 +9,15 @@ html
  <a class="trueBaseThemePreviousItem" href="hasSemanticIndentation.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasSingleDispatch.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  set = new Set()
  set.add(&quot;foo&quot;)
 
-codeWithHeader Example from <a href="../concepts/yaml.html">YAML</a>, <a href="../concepts/yamp.html">YAMP</a>:
+codeWithHeader Example from <a href="../concepts/yaml.html">YAML</a>:
  # Explicitly typed set.
  baseball players: !!set
    ? Mark McGwire
@@ -26,11 +26,9 @@ codeWithHeader Example from <a href="../concepts/yaml.html">YAML</a>, <a href=".
  # Flow style
  baseball teams: !!set { Boston Red Sox, Detroit Tigers, New York Yankees }
 
-* Languages *with* Sets include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/yaml.html">YAML</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/yamp.html">YAMP</a>
+* Languages *with* Sets include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/yaml.html">YAML</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 * Languages *without* Sets include <a href="../concepts/bash.html">Bash</a>
-
-* This question asks: Does the language come with a Set data structure?
 
 * Read more about Sets on the web: 1.
  https://en.wikipedia.org/wiki/Set_(abstract_data_type) 1.

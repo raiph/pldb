@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title floorplan
-
-title floorplan - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="filetab-d.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortran-iii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/floorplan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=floorplan" class="material-symbols-outlined">edit</a></div>
-
-* floorplan is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #3383 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 5 Years Old
-
-* In this paper we introduce Floorplan, a declarative language for specifying memory layouts at a high level. Constraints formerly implemented by describing how to compute locations are, in Floorplan, defined declaratively using explicit layout constructs.
-
-- floorplan first developed in <a href="../lists/originCommunities.html#tuftsUniversity">Tufts University</a>
-- Read more about floorplan on the web: 1.
- https://cronburg.com/papers/floorplan19.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav filetab-d.html fortran-iii.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id floorplan
+appeared 2019
+type pl
+conceptDescription In this paper we introduce Floorplan, a declarative language for specifying memory layouts at a high level. Constraints formerly implemented by describing how to compute locations are, in Floorplan, defined declaratively using explicit layout constructs.
+reference https://cronburg.com/papers/floorplan19.pdf
+country United States
+originCommunity Tufts University

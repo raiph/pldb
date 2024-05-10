@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NJCL
+import ../measures/conceptPage.scroll
+id NJCL
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/2b9636ca3bcee91b6fb07a12109f599ec1f49e87
 
-title NJCL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=649
 
-html
- <a class="trueBaseThemePreviousItem" href="ngql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nul-lang.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/njcl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=njcl" class="material-symbols-outlined">edit</a></div>
-
-* NJCL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3405 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- NJCL on HOPL
- https://hopl.info/showlanguage.prx?exp=649
-- Read more about NJCL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2b9636ca3bcee91b6fb07a12109f599ec1f49e87 1.
-
-<br>
-
-endColumns
-
-keyboardNav ngql.html nul-lang.html
-
-import ../footer.scroll
+semanticScholar 0

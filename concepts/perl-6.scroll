@@ -1,105 +1,80 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Perl 6
+import ../measures/conceptPage.scroll
+id Perl 6
+appeared 2015
+type pl
+creators Larry Wall
+website https://perl6.org/
+aka Raku perl6
+country Various
+originCommunity https://raku.org/community
+domainName perl6.org
 
-title Perl 6 - Programming language
- hidden
+visualParadigm false
 
-html
- <a class="trueBaseThemePreviousItem" href="b.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alloy.html">&gt;</a>
+hasMultipleInheritance true
+hasOperatorOverloading true
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/perl-6.pldb
+lineCommentToken #
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/Perl_6
+ example
+  multi sub hanoi(0, $, $, $) { }                         # No disk, so do not do anything
+   multi sub hanoi($n, $a = 'A', $b = 'B', $c = 'C') {     # Start with $n disks and three pegs A, B, C
+       hanoi $n - 1, $a, $c, $b;                           # firstly move top $n - 1 disks from A to B
+       say "Move disk $n from peg $a to peg $c";           # then move last disk from A to C
+       hanoi $n - 1, $b, $a, $c;                           # lastly move $n - 1 disks from B to C
+   }
+ related perl haskell javascript ruby smalltalk rfc python java squeak regex peg antlr icon isbn
+ summary Perl 6 (also known as Raku) is a member of the Perl family of programming languages.While historically several interpreter and compiler implementations were being written, today only the Rakudo Perl 6 implementation is in active development. It is introducing elements of many modern and historical languages. Compatibility with Perl 5 is not a goal, though a compatibility mode is part of the specification. The design process for Perl 6 began in 2000. In February 2015 a post on The Perl Foundation blog stated that "The Perl6 team will attempt to get a development release of version 1.0 available for Larry's birthday in September and a Version 1.0 release by Christmas", and on 25 December 2015, the first stable version of the specification was announced.Development on Pugs, the first high-traction implementation, began in 2005, and there have been multiple Perl 6 implementation projects. Rakudo Perl 6 is based on NQP (Not Quite Perl) and can use MoarVM or the Java Virtual Machine as a runtime environment, and releases a new version every month (including precompiled GNU/Linux packages); in July 2010, the project released the first Rakudo Star distribution, a collection of a Perl 6 implementation and related materials. Larry Wall maintains a reference grammar known as STD.pm6, written in Perl 6 and bootstrapped with Perl 5.
+ backlinksCount 180
+ pageId 1146638
+ created 2004
+ revisionCount 893
+ dailyPageViews 148
+ appeared 2018
 
-<div class="trueBaseThemeQuickLinks"><a href="https://perl6.org/" class="material-symbols-outlined">home</a> <a href="perl6" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/Perl_6"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=perl-6" class="material-symbols-outlined">edit</a></div>
+githubLanguage Perl 6
+ fileExtensions 6pl 6pm nqp p6 p6l p6m pl pl6 pm pm6 t
+ trendingProjectsCount 0
+ repos 966
+githubBigQuery Perl 6
+ repos 2002
+ users 1750
 
-* Perl 6 is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Larry Wall.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#larryWall Larry Wall
-
-dashboard
- #302 <span title="TotalRank: 711 Jobs: 103 Users: 568 Facts: 460 Links: 148">on PLDB</span>
- 9 Years Old
- 966 <span title="Perl 6 repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://tio.run/#perl6">TIO</a>
-
-* Perl 6 (also known as Raku) is a member of the Perl family of programming languages.While historically several interpreter and compiler implementations were being written, today only the Rakudo Perl 6 implementation is in active development. It is introducing elements of many modern and historical languages. Compatibility with Perl 5 is not a goal, though a compatibility mode is part of the specification. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Perl_6 Read more on Wikipedia...
-
-- Perl 6 website
- https://perl6.org/
-- Perl 6 Wikipedia page
- https://en.wikipedia.org/wiki/Perl_6
-- There are at least 966 Perl 6 repos on <a href="https://github.com/search?q=language:Perl 6">GitHub</a>
-- Perl 6 first developed in <a href="../lists/originCommunities.html#httpsRakuOrgCommunity">https://raku.org/community</a>
-- file extensions for Perl 6 include 6pl, 6pm, nqp, p6, p6l, p6m, pl, pl6, pm, pm6 and t
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using Perl 6 in 2k repos on <a href="https://api.github.com/search/repositories?q=language:Perl 6">GitHub</a>
-- GitHub supports <a href="https://github.com/perl6/atom-language-perl6" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Perl 6
-- See also: (14 related languages)<a href="perl.html">Perl</a>, <a href="haskell.html">Haskell</a>, <a href="javascript.html">JavaScript</a>, <a href="ruby.html">Ruby</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="rfc.html">RFC</a>, <a href="python.html">Python</a>, <a href="java.html">Java</a>, <a href="squeak.html">Squeak</a>, <a href="regex.html">Regular Expressions</a>, <a href="peg.html">PEG</a>, <a href="antlr.html">ANTLR</a>, <a href="icon.html">Icon</a>, <a href="isbn.html">ISBN</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/perl6/atom-language-perl6'>Linguist</a>:
- # used in t/spec/S11-modules/nested.t 
- 
- BEGIN { @*INC.push(&#39;t/spec/packages&#39;) };
- 
- module A::A {
-     use A::B;
- }
- 
- # vim: ft=perl6
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Perl_6'>Wikipedia</a>:
- multi sub hanoi(0, $, $, $) { }                         # No disk, so do not do anything
-  multi sub hanoi($n, $a = &#39;A&#39;, $b = &#39;B&#39;, $c = &#39;C&#39;) {     # Start with $n disks and three pegs A, B, C
-      hanoi $n - 1, $a, $c, $b;                           # firstly move top $n - 1 disks from A to B
-      say &quot;Move disk $n from peg $a to peg $c&quot;;           # then move last disk from A to C
-      hanoi $n - 1, $b, $a, $c;                           # lastly move $n - 1 disks from B to C
+linguistGrammarRepo https://github.com/perl6/atom-language-perl6
+ firstCommit 2015
+ lastCommit 2017
+ committerCount 6
+ commitCount 510
+ sampleCount 22
+ example
+  # used in t/spec/S11-modules/nested.t 
+  
+  BEGIN { @*INC.push('t/spec/packages') };
+  
+  module A::A {
+      use A::B;
   }
+  
+  # vim: ft=perl6
+  
 
-endColumns
+tryItOnline perl6
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Multiple Inheritance
-  FeatureLink ../features/hasMultipleInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Think Perl 6: How to Think Like a Computer Scientist|2017|Laurent Rosenfeld|54910137|4.00|2|0
+ Learning to program with Perl 6: First Steps: Getting into programming without leaving the command line.||J.J. Merelo|56847882|3.50|2|0
 
-keyboardNav b.html alloy.html
+isbndb 0
 
-import ../footer.scroll
+semanticScholar 0

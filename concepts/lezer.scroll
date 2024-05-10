@@ -1,42 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lezer
+import ../measures/conceptPage.scroll
+id lezer
+appeared 2019
+type grammarLanguage
+creators Marijn Haverbeke
+website https://lezer.codemirror.net/
+country Germany
+originCommunity https://github.com/lezer-parser
+domainName lezer.codemirror.net
 
-title lezer - Grammar language
- hidden
+githubRepo https://github.com/lezer-parser/lezer
+ firstCommit 2019
+ stars 15
+ subscribers 1
+ created 2021
+ updated 2022
+ description Dev utils and issues for the Lezer core packages
+ issues 9
+ forks 0
 
-html
- <a class="trueBaseThemePreviousItem" href="microarchitecture-description-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emesh.html">&gt;</a>
+repoStats
+ firstCommit 2020
+ commits 12
+ committers 1
+ files 4
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lezer.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://lezer.codemirror.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/lezer-parser/lezer" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lezer" class="material-symbols-outlined">edit</a></div>
-
-* lezer is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2019 by Marijn Haverbeke.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#marijnHaverbeke Marijn Haverbeke
-
-codeWithHeader Source code:
- git clone https://github.com/lezer-parser/lezer
-
-dashboard
- #2087 <span title="TotalRank: 2591 Jobs: 103 Users: 2248 Facts: 1502 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Dev utils and issues for the Lezer core packages
-
-- lezer website
- https://lezer.codemirror.net/
-- lezer is developed on <a href="https://github.com/lezer-parser/lezer">GitHub</a> and has 15 stars
-- lezer first developed in <a href="../lists/originCommunities.html#httpsGithubComLezerParser">https://github.com/lezer-parser</a>
-
-<br>
-
-endColumns
-
-keyboardNav microarchitecture-description-language.html emesh.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,70 +1,50 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cor
+import ../measures/conceptPage.scroll
+id cor
+appeared 2016
+type pl
+creators Yosbel Marin
+website http://yosbelms.github.io/cor/
+country United States
+originCommunity https://github.com/yosbelms/cor
 
-title cor - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="sophia.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="project-mentat.html">&gt;</a>
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cor.pldb
+printToken console.log
+stringToken "
 
-startColumns 4
+githubRepo https://github.com/yosbelms/cor
+ stars 52
+ forks 3
+ subscribers 9
+ created 2015
+ updated 2022
+ firstCommit 2016
+ description Straightforward language for the Web.
+ issues 0
 
-<div class="trueBaseThemeQuickLinks"><a href="http://yosbelms.github.io/cor/" class="material-symbols-outlined">home</a> <a href="https://github.com/yosbelms/cor" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cor" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2016
+ commits 419
+ committers 3
+ files 144
 
-* cor is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Yosbel Marin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#yosbelMarin Yosbel Marin
+leachim6 Cor
+ filepath c/Cor.cor
+ fileExtensions cor
+ example
+  func main() console.log("Hello World")
+  
 
-codeWithHeader Source code:
- git clone https://github.com/yosbelms/cor
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 10555178|Show HN: Cor - the language of the web|2015-11-12 18:41:20 UTC|1447353680|yosbelms|7|4
 
-dashboard
- #1393 <span title="TotalRank: 1921 Jobs: 103 Users: 1741 Facts: 832 Links: 986">on PLDB</span>
- 8 Years Old
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* Straightforward language for the Web.
-
-- cor website
- http://yosbelms.github.io/cor/
-- cor is developed on <a href="https://github.com/yosbelms/cor">GitHub</a> and has 52 stars
-- cor first developed in <a href="../lists/originCommunities.html#httpsGithubComYosbelmsCor">https://github.com/yosbelms/cor</a>
-- cor compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Cor.cor'>hello-world</a>:
- func main() console.log(&quot;Hello World&quot;)
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token console.log
-  Example
-
-## HackerNews discussions of cor
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Cor - the language of the web|https://news.ycombinator.com/item?id=10555178|11/12/2015|4|7
-
-keyboardNav sophia.html project-mentat.html
-
-import ../footer.scroll
+isbndb 0

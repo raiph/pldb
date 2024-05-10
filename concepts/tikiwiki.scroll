@@ -1,45 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tiki Wiki Markup
+import ../measures/conceptPage.scroll
+id Tiki Wiki Markup
+appeared 2002
+type wikiMarkup
+conceptDescription Tiki Wiki's Wiki Syntax.
+documentation https://doc.tiki.org/Wiki-Syntax
+reference https://en.wikipedia.org/wiki/Tiki_Wiki_CMS_Groupware
+reference https://tiki.org/History
 
-title Tiki Wiki Markup - Wiki markup
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tick-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="topaz.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tikiwiki.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/tikiwiki" class="material-symbols-outlined">terminal</a> <a href="https://doc.tiki.org/Wiki-Syntax" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=tikiwiki" class="material-symbols-outlined">edit</a></div>
-
-* Tiki Wiki Markup is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+wikiMarkup">wiki markup</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3078 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 22 Years Old
-
-* Try now: <a href="https://riju.codes/tikiwiki">Riju</a>
-
-* Tiki Wiki's Wiki Syntax.
-
-- Tiki Wiki Markup docs
- https://doc.tiki.org/Wiki-Syntax
-- Read more about Tiki Wiki Markup on the web: 1. 2.
- https://en.wikipedia.org/wiki/Tiki_Wiki_CMS_Groupware 1.
- https://tiki.org/History 2.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/tikiwiki'>Riju</a>:
- Hello, world!
- 
-
-endColumns
-
-keyboardNav tick-c.html topaz.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/tikiwiki
+ example
+  Hello, world!
+  

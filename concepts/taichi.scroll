@@ -1,42 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Taichi
+import ../measures/conceptPage.scroll
+id Taichi
+appeared 2019
+type pl
+creators Yuanming Hu
+conceptDescription Taichi Lang is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks, for example LLVM, to offload the compute-intensive Python code to the native GPU or CPU instructions.
+website https://taichi-lang.org/
+reference http://taichi.graphics/wp-content/uploads/2019/09/taichi_lang.pdf
 
-title Taichi - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="hope.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algol-58.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/taichi.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://taichi-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/taichi-dev/taichi" class="material-symbols-outlined">code</a> <a href="/edit.html?id=taichi" class="material-symbols-outlined">edit</a></div>
-
-* Taichi is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Yuanming Hu.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#yuanmingHu Yuanming Hu
-
-codeWithHeader Source code:
- git clone https://github.com/taichi-dev/taichi
-
-dashboard
- #500 <span title="TotalRank: 1035 Jobs: 103 Users: 70 Facts: 862 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Taichi Lang is an open-source, imperative, parallel programming language for high-performance numerical computation. It is embedded in Python and uses just-in-time (JIT) compiler frameworks, for example LLVM, to offload the compute-intensive Python code to the native GPU or CPU instructions.
-
-- Taichi website
- https://taichi-lang.org/
-- Taichi is developed on <a href="https://github.com/taichi-dev/taichi">GitHub</a> and has 20,126 stars
-- Read more about Taichi on the web: 1.
- http://taichi.graphics/wp-content/uploads/2019/09/taichi_lang.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // For CPU
  Parallelize(int num_threads) // Multi-threading
  Vectorize(int width) // Loop vectorization
@@ -49,32 +28,18 @@ codeWithHeader Example from the web:
  CacheL1(Expr)
  More discussions on h
 
-endColumns
+githubRepo https://github.com/taichi-dev/taichi
+ firstCommit 2016
+ stars 20126
+ forks 2031
+ subscribers 394
+ created 2016
+ updated 2022
+ description Productive & portable high-performance programming in Python.
+ issues 581
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav hope.html algol-58.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 11171
+ committers 272
+ files 1524

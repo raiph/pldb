@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BALG
+import ../measures/conceptPage.scroll
+id BALG
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/f9ff034f17aaa88ae42e8a258982265e4af29d4b
+country Germany
+originCommunity Karlsruhe Institute of Technology
 
-title BALG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6523
 
-html
- <a class="trueBaseThemePreviousItem" href="b4tran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="balm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/balg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=balg" class="material-symbols-outlined">edit</a></div>
-
-* BALG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3506 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- BALG first developed in <a href="../lists/originCommunities.html#karlsruheInstituteOfTechnology">Karlsruhe Institute of Technology</a>
-- BALG on HOPL
- https://hopl.info/showlanguage.prx?exp=6523
-- Read more about BALG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f9ff034f17aaa88ae42e8a258982265e4af29d4b 1.
-
-<br>
-
-endColumns
-
-keyboardNav b4tran.html balm.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

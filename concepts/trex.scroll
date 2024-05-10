@@ -1,52 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Trex
+import ../measures/conceptPage.scroll
+id Trex
+appeared 2001
+type grammarLanguage
+creators James Clark
+conceptDescription TREX is a new language for validating XML documents. A TREX pattern specifies a pattern for the structure and content of an XML document. A TREX pattern thus identifies a class of XML documents consisting of those documents that match the pattern. A TREX pattern is itself an XML document.
+website http://www.thaiopensource.com/trex/
+standsFor Tree Regular Expressions for XML
 
-title Trex - Grammar language
- hidden
+relatedConcepts dtd
 
-html
- <a class="trueBaseThemePreviousItem" href="srv.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="usd.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/trex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.thaiopensource.com/trex/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=trex" class="material-symbols-outlined">edit</a></div>
-
-* Trex, aka Tree Regular Expressions for XML, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2001 by James Clark.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
- link ../lists/creators.html#jamesClark James Clark
-
-dashboard
- #2278 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 23 Years Old
-
-* TREX is a new language for validating XML documents. A TREX pattern specifies a pattern for the structure and content of an XML document. A TREX pattern thus identifies a class of XML documents consisting of those documents that match the pattern. A TREX pattern is itself an XML document.
-
-- Trex website
- http://www.thaiopensource.com/trex/
-- See also: (1 related languages)<a href="dtd.html">DTD</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;element name=&quot;addressBook&quot;&gt;
-   &lt;zeroOrMore&gt;
-     &lt;element name=&quot;card&quot;&gt;
-       &lt;element name=&quot;name&quot;&gt;
-         &lt;anyString/&gt;
-       &lt;/element&gt;
-       &lt;element name=&quot;email&quot;&gt;
-         &lt;anyString/&gt;
-       &lt;/element&gt;
-     &lt;/element&gt;
-   &lt;/zeroOrMore&gt;
- &lt;/element&gt;
-
-endColumns
-
-keyboardNav srv.html usd.html
-
-import ../footer.scroll
+example
+ <element name="addressBook">
+   <zeroOrMore>
+     <element name="card">
+       <element name="name">
+         <anyString/>
+       </element>
+       <element name="email">
+         <anyString/>
+       </element>
+     </element>
+   </zeroOrMore>
+ </element>

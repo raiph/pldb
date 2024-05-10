@@ -1,39 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TextFrame
+import ../measures/conceptPage.scroll
+id TextFrame
+appeared 2008
+type textMarkup
+creators Mark Norman Francis
 
-title TextFrame - Text markup language
- hidden
+githubRepo https://github.com/norm/textframe
+ firstCommit 2008
+ stars 10
+ forks 0
+ subscribers 4
+ created 2008
+ updated 2021
+ description Yet another lightweight markup language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="futurescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="broccoli.html">&gt;</a>
+repoStats
+ firstCommit 2008
+ commits 71
+ committers 2
+ files 50
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/textframe.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/norm/textframe" class="material-symbols-outlined">code</a> <a href="/edit.html?id=textframe" class="material-symbols-outlined">edit</a></div>
-
-* TextFrame is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2008 by Mark Norman Francis.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#markNormanFrancis Mark Norman Francis
-
-codeWithHeader Source code:
- git clone https://github.com/norm/textframe
-
-dashboard
- #2434 <span title="TotalRank: 2979 Jobs: 103 Users: 2337 Facts: 1890 Links: 986">on PLDB</span>
- 16 Years Old
-
-* Yet another lightweight markup language
-
-- TextFrame is developed on <a href="https://github.com/norm/textframe">GitHub</a> and has 10 stars
-
-<br>
-
-endColumns
-
-keyboardNav futurescript.html broccoli.html
-
-import ../footer.scroll
+semanticScholar 0

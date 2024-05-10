@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CafeObj
+import ../measures/conceptPage.scroll
+id CafeObj
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/07dc369fd161797123658430ae376b0ac800bce1
+country Japan
+originCommunity Japan Advanced Institute of Science and Technology
 
-title CafeObj - Programming language
- hidden
+rosettaCode http://www.rosettacode.org/wiki/Category:CafeOBJ
 
-html
- <a class="trueBaseThemePreviousItem" href="c-flat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cajole.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=3677
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cafeobj.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cafeobj" class="material-symbols-outlined">edit</a></div>
-
-* CafeObj is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #4092 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- CafeObj first developed in <a href="../lists/originCommunities.html#japanAdvancedInstituteOfScienceAndTechnology">Japan Advanced Institute of Science and Technology</a>
-- Explore CafeObj snippets on <a href="http://www.rosettacode.org/wiki/Category:CafeOBJ">Rosetta Code</a>
-- CafeObj on HOPL
- https://hopl.info/showlanguage.prx?exp=3677
-- Read more about CafeObj on Semantic Scholar: 1.
- https://semanticscholar.org/paper/07dc369fd161797123658430ae376b0ac800bce1 1.
-
-<br>
-
-endColumns
-
-keyboardNav c-flat.html cajole.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

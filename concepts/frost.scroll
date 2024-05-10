@@ -1,42 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Frost
+import ../measures/conceptPage.scroll
+id Frost
+appeared 2017
+type pl
+creators Ethan Nicholas
+website https://www.frostlang.org/
+country Unknown
+originCommunity https://github.com/ethannicholas/Frost/issues
+domainName frostlang.org
+ registered 2019
 
-title Frost - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="krl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="q-sharp.html">&gt;</a>
+printToken Console.printLine
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/frost.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.frostlang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/ethannicholas/Frost" class="material-symbols-outlined">code</a> <a href="/edit.html?id=frost" class="material-symbols-outlined">edit</a></div>
-
-* Frost is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Ethan Nicholas.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#ethanNicholas Ethan Nicholas
-
-codeWithHeader Source code:
- git clone https://github.com/ethannicholas/Frost
-
-dashboard
- #1086 <span title="TotalRank: 1641 Jobs: 103 Users: 1892 Facts: 552 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Frost is a powerful, general purpose, multi-paradigm programming language
-
-- Frost website
- https://www.frostlang.org/
-- Frost is developed on <a href="https://github.com/ethannicholas/Frost">GitHub</a> and has 36 stars
-- Frost first developed in <a href="../lists/originCommunities.html#httpsGithubComEthannicholasFrostIssues">https://github.com/ethannicholas/Frost/issues</a>
-- <a href="https://www.frostlang.org/">frostlang.org</a> was registered in 2019
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ========================================================
  Simple version of the Unix `head` utility. Reads a file
  and outputs the first `count` lines from it to the
@@ -59,29 +36,29 @@ codeWithHeader Example from the web:
      System.exit(1)
  }
  
- method main(args:ListView&lt;String&gt;) {
+ method main(args:ListView<String>) {
      if args.count != 3 {
-         abort(&quot;usage: head &lt;path&gt; &lt;count&gt;&quot;)
+         abort("usage: head <path> <count>")
      }
      def count := args[2].asInt
      if count == null {
-         abort(&quot;error: &#39;\{args[2]}&#39; is not an integer&quot;)
+         abort("error: '\{args[2]}' is not an integer")
      }
      head(File(args[1]), count)
  }
 
-endColumns
+githubRepo https://github.com/ethannicholas/Frost
+ firstCommit 2017
+ stars 36
+ forks 3
+ subscribers 3
+ created 2014
+ updated 2022
+ description Frost is a powerful, general purpose, multi-paradigm programming language
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token Console.printLine
-  Example
-
-keyboardNav krl.html q-sharp.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 465
+ committers 3
+ files 1259

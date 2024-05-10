@@ -1,41 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title clox
+import ../measures/conceptPage.scroll
+id clox
+appeared 2020
+type pl
+website https://craftinginterpreters.com/
+country Italy
+originCommunity https://github.com/evacchi
 
-title clox - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="shill.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rlox.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clox.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://craftinginterpreters.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/evacchi/crafting-interpreters/tree/main/clox" class="material-symbols-outlined">code</a> <a href="/edit.html?id=clox" class="material-symbols-outlined">edit</a></div>
-
-* clox is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/evacchi/crafting-interpreters/tree/main/clox
-
-dashboard
- #2746 <span title="TotalRank: 3504 Jobs: 103 Users: 2415 Facts: 2460 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Crafting Interpreters (clox)
-
-- clox website
- https://craftinginterpreters.com/
-- clox is developed on <a href="https://github.com/evacchi/crafting-interpreters/tree/main/clox">GitHub</a> and has 0 stars
-- clox first developed in <a href="../lists/originCommunities.html#httpsGithubComEvacchi">https://github.com/evacchi</a>
-
-<br>
-
-endColumns
-
-keyboardNav shill.html rlox.html
-
-import ../footer.scroll
+githubRepo https://github.com/evacchi/crafting-interpreters/tree/main/clox
+ stars 0
+ forks 0
+ subscribers 2
+ created 2020
+ updated 2022
+ description Crafting Interpreters (clox)
+ issues 0

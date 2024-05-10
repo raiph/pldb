@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CogMap
+import ../measures/conceptPage.scroll
+id CogMap
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/b2d15340dc6750d68749bcfb4a02646712448933
+country United Kingdom
+originCommunity University of Cambridge
 
-title CogMap - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5536
 
-html
- <a class="trueBaseThemePreviousItem" href="codil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="colasl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cogmap.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cogmap" class="material-symbols-outlined">edit</a></div>
-
-* CogMap is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3580 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- CogMap first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a>
-- CogMap on HOPL
- https://hopl.info/showlanguage.prx?exp=5536
-- Read more about CogMap on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b2d15340dc6750d68749bcfb4a02646712448933 1.
-
-<br>
-
-endColumns
-
-keyboardNav codil.html colasl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

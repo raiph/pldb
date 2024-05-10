@@ -1,45 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dslx
+import ../measures/conceptPage.scroll
+id dslx
+appeared 2020
+type pl
+conceptDescription DSLX is a domain specific, functional language to build hardware that can also run effectively as host software. The DSL targets the XLS compiler (by conversion to XLS IR) to enable flows for FPGAs and ASICs (note that other frontends will become available in the future). DSLX mimics Rust, while being an immutable expression-based dataflow DSL with hardware-oriented features; e.g. arbitrary bitwidths, entirely fixed size objects, fully analyzeable call graph, etc. To avoid arbitrary new syntax/semantics choices the DSL mimics Rust where it is reasonably possible; for example, integer conversions all follow the same semantics as Rust.
+reference https://google.github.io/xls/dslx_reference/
+country United States
+originCommunity Google
 
-title dslx - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="rapira.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plz.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dslx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dslx" class="material-symbols-outlined">edit</a></div>
-
-* dslx is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #1109 <span title="TotalRank: 1664 Jobs: 103 Users: 2838 Facts: 575 Links: 986">on PLDB</span>
- 4 Years Old
-
-* DSLX is a domain specific, functional language to build hardware that can also run effectively as host software. The DSL targets the XLS compiler (by conversion to XLS IR) to enable flows for FPGAs and ASICs (note that other frontends will become available in the future). DSLX mimics Rust, while being an immutable expression-based dataflow DSL with hardware-oriented features; e.g. arbitrary bitwidths, entirely fixed size objects, fully analyzeable call graph, etc. To avoid arbitrary new syntax/semantics choices the DSL mimics Rust where it is reasonably possible; for example, integer conversions all follow the same semantics as Rust.
-
-- dslx first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- Read more about dslx on the web: 1.
- https://google.github.io/xls/dslx_reference/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
- fn cast_to_array(x: u6) -&gt; u2[3] {
+example
+ fn cast_to_array(x: u6) -> u2[3] {
    x as u2[3]
  }
  
- fn cast_from_array(a: u2[3]) -&gt; u6 {
+ fn cast_from_array(a: u2[3]) -> u6 {
    a as u6
  }
  
- fn concat_arrays(a: u2[3], b: u2[3]) -&gt; u2[6] {
+ fn concat_arrays(a: u2[3], b: u2[3]) -> u2[6] {
    a ++ b
  }
  
@@ -65,7 +50,7 @@ codeWithHeader Example from the web:
    let concat_array: u2[6] = concat_value as u2[6];
    let _ = assert_eq(concat_array, concat_arrays(a_array, b_array));
  
-   // Show a few classic &quot;endianness&quot; example using 8-bit array values.
+   // Show a few classic "endianness" example using 8-bit array values.
    let x = u32:0xdeadbeef;
    let _ = assert_eq(x as u8[4], u8[4]:[0xde, 0xad, 0xbe, 0xef]);
    let y = u16:0xbeef;
@@ -73,33 +58,3 @@ codeWithHeader Example from the web:
  
    ()
  }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav rapira.html plz.html
-
-import ../footer.scroll

@@ -1,60 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title quorum
+import ../measures/conceptPage.scroll
+id quorum
+appeared 2013
+type pl
+website https://quorumlanguage.com/
+reference https://bitbucket.org/stefika/quorum-language
+country United States
+originCommunity University of Washington
+domainName quorumlanguage.com
+ awisRank
+  2022 7434304
 
-title quorum - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="procfile.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="srv.html">&gt;</a>
+printToken output
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quorum.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://quorumlanguage.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=quorum" class="material-symbols-outlined">edit</a></div>
-
-* quorum is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-dashboard
- #2276 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 11 Years Old
-
-* 
-
-- quorum website
- https://quorumlanguage.com/
-- quorum first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- Read more about quorum on the web: 1.
- https://bitbucket.org/stefika/quorum-language 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/q/Quorum.quorum'>hello-world</a>:
- output &quot;Hello World&quot;
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token output
-  Example
-
-keyboardNav procfile.html srv.html
-
-import ../footer.scroll
+leachim6 Quorum
+ filepath q/Quorum.quorum
+ fileExtensions quorum
+ example
+  output "Hello World"
+  

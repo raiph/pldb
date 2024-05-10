@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hybrid
+import ../measures/conceptPage.scroll
+id Hybrid
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/2720feaa7fc5d25e99055f59254170fcd5f4a229
+country Switzerland
+originCommunity Institut für Angewandte Mathematik
 
-title Hybrid - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1327
 
-html
- <a class="trueBaseThemePreviousItem" href="hoot-smalltalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hycom.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hybrid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hybrid" class="material-symbols-outlined">edit</a></div>
-
-* Hybrid is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4166 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Hybrid first developed in <a href="../lists/originCommunities.html#institutFurAngewandteMathematik">Institut für Angewandte Mathematik</a>
-- Hybrid on HOPL
- https://hopl.info/showlanguage.prx?exp=1327
-- Read more about Hybrid on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2720feaa7fc5d25e99055f59254170fcd5f4a229 1.
-
-<br>
-
-endColumns
-
-keyboardNav hoot-smalltalk.html hycom.html
-
-import ../footer.scroll
+wordRank 5023
+centralPackageRepositoryCount 0

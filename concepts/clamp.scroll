@@ -1,42 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Common Lisp with Arc Macros and Procedures
+import ../measures/conceptPage.scroll
+id Common Lisp with Arc Macros and Procedures
+appeared 2014
+type pl
+standsFor Common Lisp with Arc Macros and Procedures
+country United States
+originCommunity https://github.com/malisper
 
-title Common Lisp with Arc Macros and Procedures - Programming language
- hidden
+example
+ (map [+ _ 1] '(1 2 3))
 
-html
- <a class="trueBaseThemePreviousItem" href="pact-i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="i.html">&gt;</a>
+githubRepo https://github.com/malisper/Clamp
+ firstCommit 2014
+ stars 68
+ forks 4
+ subscribers 9
+ created 2014
+ updated 2022
+ description Common Lisp with Arc Macros and Procedures
+ issues 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clamp.pldb
+repoStats
+ firstCommit 2014
+ commits 675
+ committers 5
+ files 65
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/malisper/Clamp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=clamp" class="material-symbols-outlined">edit</a></div>
-
-* Common Lisp with Arc Macros and Procedures, aka Common Lisp with Arc Macros and Procedures, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/malisper/Clamp
-
-dashboard
- #2063 <span title="TotalRank: 2591 Jobs: 103 Users: 1571 Facts: 1502 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Common Lisp with Arc Macros and Procedures
-
-- Common Lisp with Arc Macros and Procedures is developed on <a href="https://github.com/malisper/Clamp">GitHub</a> and has 68 stars
-- Common Lisp with Arc Macros and Procedures first developed in <a href="../lists/originCommunities.html#httpsGithubComMalisper">https://github.com/malisper</a>
-
-<br>
-
-codeWithHeader Example from the web:
- (map [+ _ 1] &#39;(1 2 3))
-
-endColumns
-
-keyboardNav pact-i.html i.html
-
-import ../footer.scroll
+semanticScholar 0

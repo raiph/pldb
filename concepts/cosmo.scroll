@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COSMO
+import ../measures/conceptPage.scroll
+id COSMO
+appeared 2001
+type pl
+reference https://semanticscholar.org/paper/aaf8047fcab399d36cc38dafbed5a4d35f58d44f
+country Czech Republic
+originCommunity Charles University
 
-title COSMO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3027
 
-html
- <a class="trueBaseThemePreviousItem" href="cosmicos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cqlf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cosmo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cosmo" class="material-symbols-outlined">edit</a></div>
-
-* COSMO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3600 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- COSMO first developed in <a href="../lists/originCommunities.html#charlesUniversity">Charles University</a>
-- COSMO on HOPL
- https://hopl.info/showlanguage.prx?exp=3027
-- Read more about COSMO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/aaf8047fcab399d36cc38dafbed5a4d35f58d44f 1.
-
-<br>
-
-endColumns
-
-keyboardNav cosmicos.html cqlf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

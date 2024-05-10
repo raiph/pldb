@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CAMIL
+import ../measures/conceptPage.scroll
+id CAMIL
+appeared 1978
+type pl
+reference https://semanticscholar.org/paper/5f58fb7451e50e8d5d76ab871430c10942d42cac
+country United States
+originCommunity McDonnell Douglas Automation Company
 
-title CAMIL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=793
 
-html
- <a class="trueBaseThemePreviousItem" href="camac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cantor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/camil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=camil" class="material-symbols-outlined">edit</a></div>
-
-* CAMIL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #3547 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 46 Years Old
-
-* 
-
-- CAMIL first developed in <a href="../lists/originCommunities.html#mcDonnellDouglasAutomationCompany">McDonnell Douglas Automation Company</a>
-- CAMIL on HOPL
- https://hopl.info/showlanguage.prx?exp=793
-- Read more about CAMIL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5f58fb7451e50e8d5d76ab871430c10942d42cac 1.
-
-<br>
-
-endColumns
-
-keyboardNav camac.html cantor.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

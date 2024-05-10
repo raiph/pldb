@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Concurrent Pascal
+import ../measures/conceptPage.scroll
+id Concurrent Pascal
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/7c50b456ac72914cc88b7454517f00f96548e834
+country United States
+originCommunity Stony Brook University && The University of Texas
 
-title Concurrent Pascal - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=578
 
-html
- <a class="trueBaseThemePreviousItem" href="concur.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="congolog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/concurrent-pascal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=concurrent-pascal" class="material-symbols-outlined">edit</a></div>
-
-* Concurrent Pascal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3589 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- Concurrent Pascal first developed in <a href="../lists/originCommunities.html#stonyBrookUniversity">Stony Brook University</a> and <a href="../lists/originCommunities.html#theUniversityOfTexas">The University of Texas</a>
-- Concurrent Pascal on HOPL
- https://hopl.info/showlanguage.prx?exp=578
-- Read more about Concurrent Pascal on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7c50b456ac72914cc88b7454517f00f96548e834 1.
-
-<br>
-
-endColumns
-
-keyboardNav concur.html congolog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

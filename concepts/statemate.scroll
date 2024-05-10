@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Statemate
+import ../measures/conceptPage.scroll
+id Statemate
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/23937871cf955d5ea9a48bd419465e3b3a6ff1c0
+country United States
+originCommunity University of Colorado
 
-title Statemate - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2535
 
-html
- <a class="trueBaseThemePreviousItem" href="social-networks-query-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tick-c.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/statemate.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=statemate" class="material-symbols-outlined">edit</a></div>
-
-* Statemate is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3076 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Statemate first developed in <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- Statemate on HOPL
- https://hopl.info/showlanguage.prx?exp=2535
-- Read more about Statemate on Semantic Scholar: 1.
- https://semanticscholar.org/paper/23937871cf955d5ea9a48bd419465e3b3a6ff1c0 1.
-
-<br>
-
-endColumns
-
-keyboardNav social-networks-query-language.html tick-c.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1996|The STATEMATE semantics of statecharts|10.1145/235321.235322|1244|111|D. Harel and A. Naamad|4f271da140018025b8bede3e2ac91afa546f2c31

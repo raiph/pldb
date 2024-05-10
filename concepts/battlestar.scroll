@@ -1,66 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Battlestar
+import ../measures/conceptPage.scroll
+id Battlestar
+appeared 2014
+type pl
+creators Alexander Rødseth
+country Norway
+originCommunity Arch Linux
 
-title Battlestar - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="parenthetic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kai.html">&gt;</a>
+printToken print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/battlestar.pldb
+githubRepo https://github.com/xyproto/battlestar
+ firstCommit 2014
+ stars 70
+ forks 5
+ subscribers 3
+ created 2014
+ updated 2022
+ description :dizzy: A different take on Assembly, with the goal of creating tiny executables.
+ issues 0
 
-startColumns 4
+repoStats
+ firstCommit 2014
+ commits 367
+ committers 7
+ files 128
 
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/battlestar" class="material-symbols-outlined">terminal</a> <a href="https://github.com/xyproto/battlestar" class="material-symbols-outlined">code</a> <a href="/edit.html?id=battlestar" class="material-symbols-outlined">edit</a></div>
+leachim6 Battlestar
+ filepath b/Battlestar.bts
+ fileExtensions bts
+ example
+  #!/usr/bin/bts
+  const hello = "Hello World\n"
+  print(hello)
+  
 
-* Battlestar is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Alexander Rødseth.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#alexanderRodseth Alexander Rødseth
-
-codeWithHeader Source code:
- git clone https://github.com/xyproto/battlestar
-
-dashboard
- #1358 <span title="TotalRank: 1891 Jobs: 103 Users: 1543 Facts: 802 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Try now: <a href="https://riju.codes/battlestar">Riju</a>
-
-* :dizzy: A different take on Assembly, with the goal of creating tiny executables.
-
-- Battlestar is developed on <a href="https://github.com/xyproto/battlestar">GitHub</a> and has 70 stars
-- Battlestar first developed in <a href="../lists/originCommunities.html#archLinux">Arch Linux</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/battlestar'>Riju</a>:
- const message = &quot;Hello, world!\n&quot;
- 
- fun main
-     syscall(1, 1, message, len(message))
- end
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/b/Battlestar.bts'>hello-world</a>:
- #!/usr/bin/bts
- const hello = &quot;Hello World\n&quot;
- print(hello)
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-keyboardNav parenthetic.html kai.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/battlestar
+ example
+  const message = "Hello, world!\n"
+  
+  fun main
+      syscall(1, 1, message, len(message))
+  end
+  
+ description A different take on assembly, with the goal of creating tiny executables
+ fileExtensions bts
+ gitRepo https://github.com/xyproto/battlestar

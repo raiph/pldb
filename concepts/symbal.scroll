@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SYMBAL
+import ../measures/conceptPage.scroll
+id SYMBAL
+appeared 1972
+type pl
+conceptDescription Formula Manipulation Language
+reference https://dl.acm.org/doi/10.1145/1086793.1086799
 
-title SYMBAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=350
 
-html
- <a class="trueBaseThemePreviousItem" href="svl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="symbmath.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/symbal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=symbal" class="material-symbols-outlined">edit</a></div>
-
-* SYMBAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3432 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 52 Years Old
-
-* Formula Manipulation Language
-
-- SYMBAL on HOPL
- https://hopl.info/showlanguage.prx?exp=350
-- Read more about SYMBAL on the web: 1.
- https://dl.acm.org/doi/10.1145/1086793.1086799 1.
-
-<br>
-
-endColumns
-
-keyboardNav svl.html symbmath.html
-
-import ../footer.scroll
+semanticScholar 0

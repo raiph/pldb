@@ -1,42 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OpenSpice
+import ../measures/conceptPage.scroll
+id OpenSpice
+appeared 2005
+type pl
+creators Stephen Leach
+conceptDescription OpenSpice is an openly available specification of the Spice language - a modern programming language with some nice XML processing features. It is designed with the needs of part-time or occasional programmers in mind. The language features are properly separated and their corner cases have been eliminated. This design means that if you only use Spice occasionally, you're likely to find it easy to come back to despite the breaks. The most similar well-known language is probably Common LISP together with CLOS. But Spice has a rich Algol-like external syntax, an XML transport form, and makes multiple values a key feature. The way Spice deals with multiple values is, we think, the feature that will strike most programmers as special.
+website https://web.archive.org/web/20050204011930/https://www.openspice.org
+reference http://lambda-the-ultimate.org/node/516
+country United Kingdom
+originCommunity The OpenSpice Group
 
-title OpenSpice - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8619
 
-html
- <a class="trueBaseThemePreviousItem" href="none.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="par.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/openspice.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20050204011930/https://www.openspice.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=openspice" class="material-symbols-outlined">edit</a></div>
-
-* OpenSpice is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005 by Stephen Leach.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
- link ../lists/creators.html#stephenLeach Stephen Leach
-
-dashboard
- #2908 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 19 Years Old
-
-* OpenSpice is an openly available specification of the Spice language - a modern programming language with some nice XML processing features. It is designed with the needs of part-time or occasional programmers in mind. The language features are properly separated and their corner cases have been eliminated. This design means that if you only use Spice occasionally, you're likely to find it easy to come back to despite the breaks. The most similar well-known language is probably Common LISP together with CLOS. But Spice has a rich Algol-like external syntax, an XML transport form, and makes multiple values a key feature. The way Spice deals with multiple values is, we think, the feature that will strike most programmers as special.
-
-- OpenSpice website
- https://web.archive.org/web/20050204011930/https://www.openspice.org
-- OpenSpice first developed in <a href="../lists/originCommunities.html#theOpenSpiceGroup">The OpenSpice Group</a>
-- OpenSpice on HOPL
- https://hopl.info/showlanguage.prx?exp=8619
-- Read more about OpenSpice on the web: 1.
- http://lambda-the-ultimate.org/node/516 1.
-
-<br>
-
-endColumns
-
-keyboardNav none.html par.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

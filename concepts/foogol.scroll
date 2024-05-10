@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title foogol
+import ../measures/conceptPage.scroll
+id foogol
+appeared 1985
+type pl
+reference https://www.gaertner.de/~schoenfr/foogol.html
+country Germany
+originCommunity https://www.bertnase.de
 
-title foogol - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1145
 
-html
- <a class="trueBaseThemePreviousItem" href="flora.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="foral-lp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/foogol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=foogol" class="material-symbols-outlined">edit</a></div>
-
-* foogol is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3667 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- foogol first developed in <a href="../lists/originCommunities.html#httpsWwwBertnaseDe">https://www.bertnase.de</a>
-- foogol on HOPL
- https://hopl.info/showlanguage.prx?exp=1145
-- Read more about foogol on the web: 1.
- https://www.gaertner.de/~schoenfr/foogol.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav flora.html foral-lp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

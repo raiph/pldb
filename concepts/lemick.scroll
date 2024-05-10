@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lemick
+import ../measures/conceptPage.scroll
+id Lemick
+appeared 2004
+type pl
+creators Alexei Iliasov
+reference http://lemick.sourceforge.net/sintro.html
+country United Kingdom
+originCommunity https://sourceforge.net/p/lemick/mailman/lemick-design/
 
-title Lemick - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8591
 
-html
- <a class="trueBaseThemePreviousItem" href="ldl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lg.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lemick.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lemick" class="material-symbols-outlined">edit</a></div>
-
-* Lemick is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004 by Alexei Iliasov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
- link ../lists/creators.html#alexeiIliasov Alexei Iliasov
-
-dashboard
- #4197 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 20 Years Old
-
-* 
-
-- Lemick first developed in <a href="../lists/originCommunities.html#httpsSourceforgeNetPLemickMailmanLemickDesign">https://sourceforge.net/p/lemick/mailman/lemick-design/</a>
-- Lemick on HOPL
- https://hopl.info/showlanguage.prx?exp=8591
-- Read more about Lemick on the web: 1.
- http://lemick.sourceforge.net/sintro.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav ldl.html lg.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

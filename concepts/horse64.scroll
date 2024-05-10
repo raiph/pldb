@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Horse64
+import ../measures/conceptPage.scroll
+id Horse64
+appeared 2020
+type pl
+creators Ellie
+website https://horse64.org/
+country Unknown
+originCommunity https://codeberg.org/Horse64/core.horse64.org/issues
 
-title Horse64 - Programming language
- hidden
+githubRepo https://github.com/horse64/core.horse64.org
+ firstCommit 2022
+ stars 2
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description THIS IS A MIRROR, CHECK https://codeberg.org/Horse64/core.horse64.org
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="esoteric-reaction.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="passambler.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/horse64.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://horse64.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/horse64/core.horse64.org" class="material-symbols-outlined">code</a> <a href="/edit.html?id=horse64" class="material-symbols-outlined">edit</a></div>
-
-* Horse64 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Ellie.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#ellie Ellie
-
-codeWithHeader Source code:
- git clone https://github.com/horse64/core.horse64.org
-
-dashboard
- #2267 <span title="TotalRank: 2758 Jobs: 103 Users: 2392 Facts: 1669 Links: 986">on PLDB</span>
- 4 Years Old
-
-* THIS IS A MIRROR, CHECK https://codeberg.org/Horse64/core.horse64.org
-
-- Horse64 website
- https://horse64.org/
-- Horse64 is developed on <a href="https://github.com/horse64/core.horse64.org">GitHub</a> and has 2 stars
-- Horse64 first developed in <a href="../lists/originCommunities.html#httpsCodebergOrgHorse64CoreHorse64OrgIssues">https://codeberg.org/Horse64/core.horse64.org/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav esoteric-reaction.html passambler.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 424
+ committers 1
+ files 96

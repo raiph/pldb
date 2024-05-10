@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MDL
+import ../measures/conceptPage.scroll
+id MDL
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/316a014b05ac38bff81c97d622172252d88acc28
+aka mdl
+country Taiwan and United States
+originCommunity National Chiao-Tung University && University of Texas at Arlington
 
-title MDL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2840
 
-html
- <a class="trueBaseThemePreviousItem" href="lorel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="paisley.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/methodology-description-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=methodology-description-language" class="material-symbols-outlined">edit</a></div>
-
-* MDL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3015 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- MDL first developed in <a href="../lists/originCommunities.html#nationalChiaoTungUniversity">National Chiao-Tung University</a> and <a href="../lists/originCommunities.html#universityOfTexasAtArlington">University of Texas at Arlington</a>
-- MDL on HOPL
- https://hopl.info/showlanguage.prx?exp=2840
-- Read more about MDL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/316a014b05ac38bff81c97d622172252d88acc28 1.
-
-<br>
-
-endColumns
-
-keyboardNav lorel.html paisley.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 1995|Onword Pr|Programming With Mdl|Mach N. Dinh-vu|9780934605892
+ ||Mdl (programming Language)|Surhone and Lambert M. and Tennoe and Mariam T. and Henssonow and Susan F.|9786133176805

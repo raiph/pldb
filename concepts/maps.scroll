@@ -1,41 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MAPS
+import ../measures/conceptPage.scroll
+id MAPS
+appeared 1993
+type pl
+reference https://www.researchgate.net/publication/2413221_MAPS_An_Efficient_Parallel_Language_for_Scientific_Computing/link/0deec53b954e2f0244000000/download
+reference https://semanticscholar.org/paper/b0a6eff0ad7b0fee4ee36f715d428053bd9b1d9b
+country United States
+originCommunity California Institute of Technology && Argonne National Laboratory
 
-title MAPS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4990
 
-html
- <a class="trueBaseThemePreviousItem" href="lorel-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="moose.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/maps.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=maps" class="material-symbols-outlined">edit</a></div>
-
-* MAPS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3107 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- MAPS first developed in <a href="../lists/originCommunities.html#californiaInstituteOfTechnology">California Institute of Technology</a> and <a href="../lists/originCommunities.html#argonneNationalLaboratory">Argonne National Laboratory</a>
-- MAPS on HOPL
- https://hopl.info/showlanguage.prx?exp=4990
-- Read more about MAPS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b0a6eff0ad7b0fee4ee36f715d428053bd9b1d9b 1.
-- Read more about MAPS on the web: 1.
- https://www.researchgate.net/publication/2413221_MAPS_An_Efficient_Parallel_Language_for_Scientific_Computing/link/0deec53b954e2f0244000000/download 1.
-
-<br>
-
-endColumns
-
-keyboardNav lorel-1.html moose.html
-
-import ../footer.scroll
+wordRank 1272
+centralPackageRepositoryCount 0

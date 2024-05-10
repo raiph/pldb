@@ -1,36 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Context Diff
+import ../measures/conceptPage.scroll
+id Context Diff
+appeared 1981
+type diffFormat
+reference https://en.wikipedia.org/wiki/Diff#Context_format
+originCommunity University of California, Berkeley
 
-title Context Diff - Diff format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="edje-data-collection.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="turbo-basic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/context-diff.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=context-diff" class="material-symbols-outlined">edit</a></div>
-
-* Context Diff is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+diffFormat">diff format</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #804 <span title="TotalRank: 1367 Jobs: 103 Users: 2838 Facts: 597 Links: 667">on PLDB</span>
- 43 Years Old
-
-* 
-
-- Context Diff first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- Read more about Context Diff on the web: 1.
- https://en.wikipedia.org/wiki/Diff#Context_format 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  *** /path/to/original	timestamp
  --- /path/to/new	timestamp
  ***************
@@ -58,7 +33,7 @@ codeWithHeader Example from the web:
    It is important to spell
  ! check this dokument. On
    the other hand, a
-   misspelled word isn&#39;t
+   misspelled word isn't
    the end of the world.
  --- 14,21 ----
    compress the size of the
@@ -67,7 +42,7 @@ codeWithHeader Example from the web:
    It is important to spell
  ! check this document. On
    the other hand, a
-   misspelled word isn&#39;t
+   misspelled word isn't
    the end of the world.
  ***************
  *** 22,24 ****
@@ -79,9 +54,3 @@ codeWithHeader Example from the web:
  + This paragraph contains
  + important new additions
  + to this document.
-
-endColumns
-
-keyboardNav edje-data-collection.html turbo-basic.html
-
-import ../footer.scroll

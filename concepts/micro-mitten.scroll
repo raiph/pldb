@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title micro-mitten
+import ../measures/conceptPage.scroll
+id micro-mitten
+appeared 2020
+type pl
+website https://mitten-lang.org/
+country United Kingdom
+originCommunity https://github.com/doctorn/micro-mitten/issues
+domainName mitten-lang.org
 
-title micro-mitten - Programming language
- hidden
+githubRepo https://github.com/doctorn/micro-mitten
+ firstCommit 2020
+ stars 497
+ forks 11
+ subscribers 18
+ created 2020
+ updated 2022
+ description You might not need your garbage collector
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="gwion.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="json-lambda.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/micro-mitten.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mitten-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/doctorn/micro-mitten" class="material-symbols-outlined">code</a> <a href="/edit.html?id=micro-mitten" class="material-symbols-outlined">edit</a></div>
-
-* micro-mitten is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/doctorn/micro-mitten
-
-dashboard
- #1305 <span title="TotalRank: 1835 Jobs: 103 Users: 746 Facts: 1669 Links: 986">on PLDB</span>
- 4 Years Old
-
-* You might not need your garbage collector
-
-- micro-mitten website
- https://mitten-lang.org/
-- micro-mitten is developed on <a href="https://github.com/doctorn/micro-mitten">GitHub</a> and has 497 stars
-- micro-mitten first developed in <a href="../lists/originCommunities.html#httpsGithubComDoctornMicroMittenIssues">https://github.com/doctorn/micro-mitten/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav gwion.html json-lambda.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 5
+ committers 2
+ files 95

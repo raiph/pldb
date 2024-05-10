@@ -1,48 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title c-talk
+import ../measures/conceptPage.scroll
+id c-talk
+appeared 1999
+type pl
+creators Konstantin Knizhnik
+conceptDescription C-Talk is interpreted scripting language with C-like syntax and dynamic type checking. Variables in C-Talk have no type. So there is no compile time type checking in C-Talk, all checking is performed at runtime. To preserve reference integrity, explicit memory deallocation is prohibited in C-Talk, unused objects are automatically deallocated by garbage collector.
+website http://www.garret.ru/ctalk.html
+country Russia
+originCommunity Moscow State Industrial University
 
-title c-talk - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="codeflow.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hilbert.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/c-talk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.garret.ru/ctalk.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=c-talk" class="material-symbols-outlined">edit</a></div>
-
-* c-talk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999 by Konstantin Knizhnik.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
- link ../lists/creators.html#konstantinKnizhnik Konstantin Knizhnik
-
-dashboard
- #2542 <span title="TotalRank: 3156 Jobs: 103 Users: 2442 Facts: 2067 Links: 986">on PLDB</span>
- 25 Years Old
-
-* C-Talk is interpreted scripting language with C-like syntax and dynamic type checking. Variables in C-Talk have no type. So there is no compile time type checking in C-Talk, all checking is performed at runtime. To preserve reference integrity, explicit memory deallocation is prohibited in C-Talk, unused objects are automatically deallocated by garbage collector.
-
-- c-talk website
- http://www.garret.ru/ctalk.html
-- c-talk first developed in <a href="../lists/originCommunities.html#moscowStateIndustrialUniversity">Moscow State Industrial University</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  CtkObject myPrimitive(int nArgs, CtkObject* args) {
      char*       s;
      ctk_integer i;
      ctk_real    r;
      CtkObject   o;
-     ctkParseArguments(nArgs, args, &quot;siro&quot;, &amp;s, &amp;i, &amp;r, &amp;o);
+     ctkParseArguments(nArgs, args, "siro", &s, &i, &r, &o);
      ...
  }
-
-endColumns
-
-keyboardNav codeflow.html hilbert.html
-
-import ../footer.scroll

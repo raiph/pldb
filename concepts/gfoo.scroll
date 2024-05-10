@@ -1,39 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gfoo
+import ../measures/conceptPage.scroll
+id gfoo
+appeared 2020
+type pl
+country Unknown
+originCommunity https://github.com/codr7/gfoo/issues
 
-title gfoo - Programming language
- hidden
+githubRepo https://github.com/codr7/gfoo
+ firstCommit 2020
+ stars 12
+ subscribers 2
+ created 2020
+ updated 2021
+ description a Go scripting language
+ forks 1
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="swym.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ferite.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gfoo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/codr7/gfoo" class="material-symbols-outlined">code</a> <a href="/edit.html?id=gfoo" class="material-symbols-outlined">edit</a></div>
-
-* gfoo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/codr7/gfoo
-
-dashboard
- #2427 <span title="TotalRank: 2979 Jobs: 103 Users: 2255 Facts: 1890 Links: 986">on PLDB</span>
- 4 Years Old
-
-* a Go scripting language
-
-- gfoo is developed on <a href="https://github.com/codr7/gfoo">GitHub</a> and has 12 stars
-- gfoo first developed in <a href="../lists/originCommunities.html#httpsGithubComCodr7GfooIssues">https://github.com/codr7/gfoo/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav swym.html ferite.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 233
+ committers 2
+ files 123

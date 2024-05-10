@@ -1,46 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rosie
+import ../measures/conceptPage.scroll
+id rosie
+appeared 2015
+type queryLanguage
+conceptDescription RPL is a variant of modern Regular Expressions (regex) that is designed to scale to big data, many developers, and large collections of patterns.  If you use regex, you already know a lot of RPL.
+website https://rosie-lang.org
+country United States
+originCommunity https://gitlab.com/rosie-pattern-language
+domainName rosie-lang.org
+ registered 2016
 
-title rosie - Query language
- hidden
+example
+ rosie --rpl 'd = [:digit:]' -o json match d
 
-html
- <a class="trueBaseThemePreviousItem" href="plantuml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="timpani.html">&gt;</a>
+gitlabRepo https://gitlab.com/rosie-pattern-language/rosie
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rosie.pldb
+repoStats
+ firstCommit 2016
+ commits 3871
+ committers 21
+ files 386
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://rosie-lang.org" class="material-symbols-outlined">home</a> <a href="https://gitlab.com/rosie-pattern-language/rosie" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rosie" class="material-symbols-outlined">edit</a></div>
-
-* rosie is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://gitlab.com/rosie-pattern-language/rosie
-
-dashboard
- #2373 <span title="TotalRank: 2876 Jobs: 103 Users: 2442 Facts: 1787 Links: 986">on PLDB</span>
- 9 Years Old
-
-* RPL is a variant of modern Regular Expressions (regex) that is designed to scale to big data, many developers, and large collections of patterns.  If you use regex, you already know a lot of RPL.
-
-- rosie website
- https://rosie-lang.org
-- rosie on GitLab
- https://gitlab.com/rosie-pattern-language/rosie
-- rosie first developed in <a href="../lists/originCommunities.html#httpsGitlabComRosiePatternLanguage">https://gitlab.com/rosie-pattern-language</a>
-- <a href="https://rosie-lang.org">rosie-lang.org</a> was registered in 2016
-
-<br>
-
-codeWithHeader Example from the web:
- rosie --rpl &#39;d = [:digit:]&#39; -o json match d
-
-endColumns
-
-keyboardNav plantuml.html timpani.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

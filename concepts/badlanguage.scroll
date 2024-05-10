@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title badlanguage
+import ../measures/conceptPage.scroll
+id badlanguage
+appeared 2017
+type pl
+creators Martin Capodici
+country Australia
+originCommunity Martin Capodici
 
-title badlanguage - Programming language
- hidden
+githubRepo https://github.com/mcapodici/badlanguage
+ firstCommit 2017
+ stars 28
+ forks 1
+ subscribers 1
+ created 2017
+ updated 2021
+ description A lisp-looking language with interpreter and compiler to JS
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="sill.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rel-lang.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 3
+ committers 2
+ files 19
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/badlanguage.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mcapodici/badlanguage" class="material-symbols-outlined">code</a> <a href="/edit.html?id=badlanguage" class="material-symbols-outlined">edit</a></div>
-
-* badlanguage is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Martin Capodici.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#martinCapodici Martin Capodici
-
-codeWithHeader Source code:
- git clone https://github.com/mcapodici/badlanguage
-
-dashboard
- #2076 <span title="TotalRank: 2591 Jobs: 103 Users: 2045 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A lisp-looking language with interpreter and compiler to JS
-
-- badlanguage is developed on <a href="https://github.com/mcapodici/badlanguage">GitHub</a> and has 28 stars
-- badlanguage first developed in <a href="../lists/originCommunities.html#martinCapodici">Martin Capodici</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of badlanguage
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Bad Language: A lisp-looking language with interpreter and JS compiler|https://news.ycombinator.com/item?id=16918315|04/25/2018|6|2
-
-keyboardNav sill.html rel-lang.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 16918315|Show HN: Bad Language: A lisp-looking language with interpreter and JS compiler|2018-04-25 02:46:53 UTC|1524624413|quickthrower2|2|6

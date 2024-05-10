@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MUSYS
+import ../measures/conceptPage.scroll
+id MUSYS
+appeared 1969
+type pl
+reference https://semanticscholar.org/paper/f2751da6da60ec6092b92430c768536068db80b5
+country England
+originCommunity Alcock Shearing and Partners
 
-title MUSYS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8015
 
-html
- <a class="trueBaseThemePreviousItem" href="mpsx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="n-prolog.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/musys.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=musys" class="material-symbols-outlined">edit</a></div>
-
-* MUSYS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #4225 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- MUSYS first developed in <a href="../lists/originCommunities.html#alcockShearingAndPartners">Alcock Shearing and Partners</a>
-- MUSYS on HOPL
- https://hopl.info/showlanguage.prx?exp=8015
-- Read more about MUSYS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f2751da6da60ec6092b92430c768536068db80b5 1.
-
-<br>
-
-endColumns
-
-keyboardNav mpsx.html n-prolog.html
-
-import ../footer.scroll
+semanticScholar 0

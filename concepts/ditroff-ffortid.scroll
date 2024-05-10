@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DITROFF/FFORTID
+import ../measures/conceptPage.scroll
+id DITROFF/FFORTID
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/1338c33cb63a6ad0800f8433b621e2b81d1c6bda
+country Israel
+originCommunity Israel Institute of Technology
 
-title DITROFF/FFORTID - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5669
 
-html
- <a class="trueBaseThemePreviousItem" href="ditran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ditroff.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ditroff-ffortid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ditroff-ffortid" class="material-symbols-outlined">edit</a></div>
-
-* DITROFF/FFORTID is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3631 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- DITROFF/FFORTID first developed in <a href="../lists/originCommunities.html#israelInstituteOfTechnology">Israel Institute of Technology</a>
-- DITROFF/FFORTID on HOPL
- https://hopl.info/showlanguage.prx?exp=5669
-- Read more about DITROFF/FFORTID on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1338c33cb63a6ad0800f8433b621e2b81d1c6bda 1.
-
-<br>
-
-endColumns
-
-keyboardNav ditran.html ditroff.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

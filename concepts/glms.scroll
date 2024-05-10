@@ -1,56 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GLMS
+import ../measures/conceptPage.scroll
+id GLMS
+appeared 2022
+type pl
+creators Sebastian Karlsson
+standsFor Generalized Linear Model Script
+country Sweden
+originCommunity https://github.com/sebbekarlsson/glms/issues
 
-title GLMS - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cspydr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="buddyscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/glms.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/sebbekarlsson/glms" class="material-symbols-outlined">code</a> <a href="/edit.html?id=glms" class="material-symbols-outlined">edit</a></div>
-
-* GLMS, aka Generalized Linear Model Script, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Sebastian Karlsson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#sebastianKarlsson Sebastian Karlsson
-
-codeWithHeader Source code:
- git clone https://github.com/sebbekarlsson/glms
-
-dashboard
- #1516 <span title="TotalRank: 2033 Jobs: 103 Users: 1986 Facts: 944 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Generalized Linear Model Script
-
-- GLMS is developed on <a href="https://github.com/sebbekarlsson/glms">GitHub</a> and has 34 stars
-- GLMS first developed in <a href="../lists/originCommunities.html#httpsGithubComSebbekarlssonGlmsIssues">https://github.com/sebbekarlsson/glms/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  number w = 640;
  number h = 480;
  
  image img = image.make(w, h);
  
- img.shade((vec3 uv, vec3 fragCoord, vec3 resolution) =&gt; {
+ img.shade((vec3 uv, vec3 fragCoord, vec3 resolution) => {
    vec3 center = resolution * 0.5;
    number d = abs(distance(fragCoord, center));
-   number g = 255 * (d &lt; TAU * 6.0 * (1.0 + random()));
+   number g = 255 * (d < TAU * 6.0 * (1.0 + random()));
    vec3 color = mix(vec3(0.1, 0.3, 0.9), vec3(1), g);
    return vec4(color.xyz, 1.0);
  });
  
- img.save(&quot;test.png&quot;);
+ img.save("test.png");
 
-endColumns
+githubRepo https://github.com/sebbekarlsson/glms
+ firstCommit 2022
+ stars 34
+ forks 1
+ subscribers 2
+ created 2022
+ updated 2023
+ description Generalized Linear Model Script
+ issues 1
 
-keyboardNav cspydr.html buddyscript.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 135
+ committers 4
+ files 145

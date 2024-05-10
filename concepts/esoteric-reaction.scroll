@@ -1,43 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Esoteric Reaction
+import ../measures/conceptPage.scroll
+id Esoteric Reaction
+appeared 2020
+type esolang
+country Unknown
+originCommunity https://bigyihsuan.github.io
 
-title Esoteric Reaction - Esoteric programming language
- hidden
+example
+  <code>	   ::= <equation> | <equation> <code>
+  <equation> ::= <reagent> <rhs> | <COMMENT> | <reagent> <rhs> <COMMENT>
 
-html
- <a class="trueBaseThemePreviousItem" href="storymatic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="horse64.html">&gt;</a>
+githubRepo https://github.com/bigyihsuan/EsotericReaction
+ stars 3
+ forks 0
+ subscribers 1
+ created 2020
+ updated 2022
+ description Esolang using chemical "formulas" as code
+ issues 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/esoteric-reaction.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/bigyihsuan/EsotericReaction" class="material-symbols-outlined">code</a> <a href="/edit.html?id=esoteric-reaction" class="material-symbols-outlined">edit</a></div>
-
-* Esoteric Reaction is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/bigyihsuan/EsotericReaction
-
-dashboard
- #2266 <span title="TotalRank: 2758 Jobs: 103 Users: 2392 Facts: 1669 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Esolang using chemical "formulas" as code
-
-- Esoteric Reaction is developed on <a href="https://github.com/bigyihsuan/EsotericReaction">GitHub</a> and has 3 stars
-- Esoteric Reaction first developed in <a href="../lists/originCommunities.html#httpsBigyihsuanGithubIo">https://bigyihsuan.github.io</a>
-
-<br>
-
-codeWithHeader Example from the web:
-  &lt;code&gt;	   ::= &lt;equation&gt; | &lt;equation&gt; &lt;code&gt;
-  &lt;equation&gt; ::= &lt;reagent&gt; &lt;rhs&gt; | &lt;COMMENT&gt; | &lt;reagent&gt; &lt;rhs&gt; &lt;COMMENT&gt;
-
-endColumns
-
-keyboardNav storymatic.html horse64.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 62
+ committers 1
+ files 43

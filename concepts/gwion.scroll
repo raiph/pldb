@@ -1,46 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Gwion
+import ../measures/conceptPage.scroll
+id Gwion
+appeared 2016
+type pl
+conceptDescription <a href='https://github.com/fennecdjay/Gwion'>Gwion</a> is a strongly-timed musical programming language .
+website https://Gwion.github.io/Gwion
+reference https://reddit.com/r/ProgrammingLanguages/comments/wu6qtw/language_showcase_gwion/
+reference https://compilerspotlight.substack.com/p/language-showcase-gwion?sd=pf
+country The Netherlands and United States and Turkey and France
+originCommunity https://github.com/Gwion
 
-title Gwion - Programming language
- hidden
+githubRepo https://github.com/fennecdjay/Gwion
+ stars 422
+ forks 37
+ subscribers 18
+ created 2016
+ updated 2022
+ firstCommit 2016
+ description :musical_note: strongly-timed musical programming language
+ issues 6
 
-html
- <a class="trueBaseThemePreviousItem" href="function-block-diagram.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="micro-mitten.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 8335
+ committers 31
+ files 1011
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gwion.pldb
+tryItOnline gwion
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://Gwion.github.io/Gwion" class="material-symbols-outlined">home</a> <a href="gwion" class="material-symbols-outlined">terminal</a> <a href="https://github.com/fennecdjay/Gwion" class="material-symbols-outlined">code</a> <a href="/edit.html?id=gwion" class="material-symbols-outlined">edit</a></div>
-
-* Gwion is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/fennecdjay/Gwion
-
-dashboard
- #1304 <span title="TotalRank: 1832 Jobs: 103 Users: 743 Facts: 1256 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Try now: <a href="https://tio.run/#gwion">TIO</a>
-
-* <a href='https://github.com/fennecdjay/Gwion'>Gwion</a> is a strongly-timed musical programming language .
-
-- Gwion website
- https://Gwion.github.io/Gwion
-- Gwion is developed on <a href="https://github.com/fennecdjay/Gwion">GitHub</a> and has 422 stars
-- Gwion first developed in <a href="../lists/originCommunities.html#httpsGithubComGwion">https://github.com/Gwion</a>
-- Read more about Gwion on the web: 1. 2.
- https://reddit.com/r/ProgrammingLanguages/comments/wu6qtw/language_showcase_gwion/ 1.
- https://compilerspotlight.substack.com/p/language-showcase-gwion?sd=pf 2.
-
-<br>
-
-endColumns
-
-keyboardNav function-block-diagram.html micro-mitten.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

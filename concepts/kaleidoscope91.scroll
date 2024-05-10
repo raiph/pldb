@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kaleidoscope'91
+import ../measures/conceptPage.scroll
+id Kaleidoscope'91
+appeared 1991
+type pl
+reference https://pdfs.semanticscholar.org/b017/832ad395f70322f99152bc40504bcd290ea7.pdf
+country United States
+originCommunity University of Washington
 
-title Kaleidoscope'91 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4183
 
-html
- <a class="trueBaseThemePreviousItem" href="kaleidoscope90.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kee.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaleidoscope91.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kaleidoscope91" class="material-symbols-outlined">edit</a></div>
-
-* Kaleidoscope'91 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3759 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Kaleidoscope'91 first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- Kaleidoscope'91 on HOPL
- https://hopl.info/showlanguage.prx?exp=4183
-- Read more about Kaleidoscope'91 on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/b017/832ad395f70322f99152bc40504bcd290ea7.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav kaleidoscope90.html kee.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,35 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sclipting
+import ../measures/conceptPage.scroll
+id Sclipting
+appeared 2011
+type esolang
+conceptDescription Sclipting is a stack-based golf language, inspired by GolfScript, that uses Chinese characters for instructions and Hangul syllables for data (strings and integers). The basic idea is that to minimise the number of characters in a program, the language should provide as many single-character instructions as possible. It was invented by Timwi in 2011. Sclipting is not considered finished as it can trivially be extended with more and more instructions assigned to new Chinese characters.
+country Unknown 
+originCommunity https://github.com/Timwi/EsotericIDE/issues
 
-title Sclipting - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="scil-vp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scratchpad-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sclipting.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sclipting" class="material-symbols-outlined">edit</a></div>
-
-* Sclipting is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #4000 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Sclipting is a stack-based golf language, inspired by GolfScript, that uses Chinese characters for instructions and Hangul syllables for data (strings and integers). The basic idea is that to minimise the number of characters in a program, the language should provide as many single-character instructions as possible. It was invented by Timwi in 2011. Sclipting is not considered finished as it can trivially be extended with more and more instructions assigned to new Chinese characters.
-
-- Sclipting first developed in <a href="../lists/originCommunities.html#httpsGithubComTimwiEsotericIdeIssues">https://github.com/Timwi/EsotericIDE/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav scil-vp.html scratchpad-ii.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

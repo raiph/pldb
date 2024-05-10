@@ -1,102 +1,82 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PEG.js
+import ../measures/conceptPage.scroll
+id PEG.js
+appeared 2010
+type grammarLanguage
+creators David Majda
+conceptDescription PEG.js is a simple parser generator for JavaScript that produces fast parsers with excellent error reporting. You can use it to process complex data or computer languages and build transformers, interpreters, compilers and other tools easily.
+website https://pegjs.org/
+webRepl https://pegjs.org/online
+country Germany and United Kingdom
+originCommunity https://github.com/pegjs
+domainName pegjs.org
+ awisRank
+  2022 804820
+  2017 1244889
 
-title PEG.js - Grammar language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="xojo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gw-basic.html">&gt;</a>
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pegjs.pldb
+lineCommentToken //
+multiLineCommentTokens /* */
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pegjs.org/" class="material-symbols-outlined">home</a> <a href="https://pegjs.org/online" class="material-symbols-outlined">terminal</a> <a href="https://github.com/pegjs/pegjs" class="material-symbols-outlined">code</a> <a href="https://twitter.com/pegjs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=pegjs" class="material-symbols-outlined">edit</a></div>
-
-* PEG.js is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2010 by David Majda.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#davidMajda David Majda
-
-codeWithHeader Source code:
- git clone https://github.com/pegjs/pegjs
-
-dashboard
- #309 <span title="TotalRank: 721 Jobs: 103 Users: 186 Facts: 432 Links: 986">on PLDB</span>
- 14 Years Old
- 72 <span title="PEG.js repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://pegjs.org/online">Web</a>
-
-* PEG.js is a simple parser generator for JavaScript that produces fast parsers with excellent error reporting. You can use it to process complex data or computer languages and build transformers, interpreters, compilers and other tools easily.
-
-- PEG.js website
- https://pegjs.org/
-- PEG.js is developed on <a href="https://github.com/pegjs/pegjs">GitHub</a> and has 4,410 stars
-- There are at least 72 PEG.js repos on <a href="https://github.com/search?q=language:PEG.js">GitHub</a>
-- PEG.js first developed in <a href="../lists/originCommunities.html#httpsGithubComPegjs">https://github.com/pegjs</a>
-- file extensions for PEG.js include pegjs
-- PEG.js compiles to <a href="javascript.html">JavaScript</a>
-- PEG.js on Twitter
- https://twitter.com/pegjs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 63 users using PEG.js in 63 repos on <a href="https://api.github.com/search/repositories?q=language:PEG.js">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  start
   = additive
  
  additive
-   = left:multiplicative &quot;+&quot; right:additive { return left + right; }
+   = left:multiplicative "+" right:additive { return left + right; }
    / multiplicative
  
  multiplicative
-   = left:primary &quot;*&quot; right:multiplicative { return left * right; }
+   = left:primary "*" right:multiplicative { return left * right; }
    / primary
  
  primary
    = integer
-   / &quot;(&quot; additive:additive &quot;)&quot; { return additive; }
+   / "(" additive:additive ")" { return additive; }
  
- integer &quot;integer&quot;
-   = digits:[0-9]+ { return parseInt(digits.join(&quot;&quot;), 10); }
+ integer "integer"
+   = digits:[0-9]+ { return parseInt(digits.join(""), 10); }
 
-endColumns
+githubRepo https://github.com/pegjs/pegjs
+ stars 4410
+ forks 437
+ subscribers 91
+ created 2010
+ updated 2022
+ firstCommit 2010
+ description PEG.js: Parser generator for JavaScript
+ issues 116
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2010
+ commits 1417
+ committers 29
+ files 178
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+githubLanguage PEG.js
+ type programming
+ fileExtensions pegjs
+ aceMode javascript
+ codemirrorMode javascript
+ codemirrorMimeType text/javascript
+ tmScope source.pegjs
+ repos 72
+githubBigQuery PEG.js
+ repos 63
+ users 63
 
-keyboardNav xojo.html gw-basic.html
+twitter https://twitter.com/pegjs
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+semanticScholar 0

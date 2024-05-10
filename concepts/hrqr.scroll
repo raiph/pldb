@@ -1,43 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hrqr
+import ../measures/conceptPage.scroll
+id hrqr
+appeared 2015
+type barCodeFormat
+creators Valentin Heun
+website http://hrqr.org/
+country United States
+originCommunity https://github.com/hrqr
+domainName hrqr.org
+ registered 2015
+ awisRank
+  2022 11916151
 
-title hrqr - Bar code format
- hidden
+githubRepo https://github.com/hrqr/hrqr.github.io
+ firstCommit 2015
+ stars 81
+ forks 9
+ subscribers 8
+ created 2015
+ updated 2021
+ description Human Readable Quick Response
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="chill.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dolittle.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hrqr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://hrqr.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/hrqr/hrqr.github.io" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hrqr" class="material-symbols-outlined">edit</a></div>
-
-* hrqr is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+barCodeFormat">bar code format</a> created in 2015 by Valentin Heun.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#valentinHeun Valentin Heun
-
-codeWithHeader Source code:
- git clone https://github.com/hrqr/hrqr.github.io
-
-dashboard
- #1941 <span title="TotalRank: 2470 Jobs: 103 Users: 1422 Facts: 1381 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Human Readable Quick Response
-
-- hrqr website
- http://hrqr.org/
-- hrqr is developed on <a href="https://github.com/hrqr/hrqr.github.io">GitHub</a> and has 81 stars
-- hrqr first developed in <a href="../lists/originCommunities.html#httpsGithubComHrqr">https://github.com/hrqr</a>
-- <a href="http://hrqr.org/">hrqr.org</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav chill.html dolittle.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 89
+ committers 3
+ files 385

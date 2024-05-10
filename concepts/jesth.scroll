@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jesth
+import ../measures/conceptPage.scroll
+id Jesth
+appeared 2022
+type dataNotation
+reference https://news.ycombinator.com/item?id=35991018
+standsFor Just Extract Sections Then Hack !
+country Unknown
+originCommunity https://github.com/pyrustic 
 
-title Jesth - Data notation
- hidden
+relatedConcepts toml json yaml
 
-html
- <a class="trueBaseThemePreviousItem" href="indental.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="links.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jesth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/pyrustic/jesth" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jesth" class="material-symbols-outlined">edit</a></div>
-
-* Jesth, aka Just Extract Sections Then Hack !, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-codeWithHeader Source code:
- git clone https://github.com/pyrustic/jesth
-
-dashboard
- #2499 <span title="TotalRank: 3071 Jobs: 103 Users: 2442 Facts: 1982 Links: 986">on PLDB</span>
- 2 Years Old
-
-* 
-
-- Jesth is developed on <a href="https://github.com/pyrustic/jesth">GitHub</a>
-- Jesth first developed in <a href="../lists/originCommunities.html#httpsGithubComPyrustic">https://github.com/pyrustic </a>
-- See also: (3 related languages)<a href="toml.html">TOML</a>, <a href="json.html">JSON</a>, <a href="yaml.html">YAML</a>
-- Read more about Jesth on the web: 1.
- https://news.ycombinator.com/item?id=35991018 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  This text actually belongs to an anonymous section,
  which happens to also be the first section of this document
  
@@ -45,8 +19,4 @@ codeWithHeader Example from the web:
  If the very first section of a document is anonymous, it can
  ignore to define its header.
 
-endColumns
-
-keyboardNav indental.html links.html
-
-import ../footer.scroll
+githubRepo https://github.com/pyrustic/jesth

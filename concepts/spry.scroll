@@ -1,47 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title spry
+import ../measures/conceptPage.scroll
+id spry
+appeared 2015
+type pl
+creators Göran Krampe
+conceptDescription Spry borrows homoiconicity from Rebol and Lisp, free form syntax from Forth and Rebol, the word of different types from Rebol, good data structure literal support from JavaScript and the general coding experience and style from Smalltalk. It also has a few ideas of its own, like an interesting argument passing mechanism and a relatively novel take on OO.
+website http://sprylang.se/
+aka ni
+country Sweden
+originCommunity https://sprylang.se/about.html
+domainName sprylang.se
 
-title spry - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="speedcoding.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ssi.html">&gt;</a>
+lineCommentToken #
+booleanTokens True False
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spry.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://sprylang.se/" class="material-symbols-outlined">home</a> <a href="https://github.com/gokr/spry" class="material-symbols-outlined">code</a> <a href="/edit.html?id=spry" class="material-symbols-outlined">edit</a></div>
-
-* spry is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Göran Krampe.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#goranKrampe Göran Krampe
-
-codeWithHeader Source code:
- git clone https://github.com/gokr/spry
-
-dashboard
- #855 <span title="TotalRank: 1419 Jobs: 103 Users: 799 Facts: 517 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Spry borrows homoiconicity from Rebol and Lisp, free form syntax from Forth and Rebol, the word of different types from Rebol, good data structure literal support from JavaScript and the general coding experience and style from Smalltalk. It also has a few ideas of its own, like an interesting argument passing mechanism and a relatively novel take on OO.
-
-- spry website
- http://sprylang.se/
-- spry is developed on <a href="https://github.com/gokr/spry">GitHub</a> and has 378 stars
-- spry first developed in <a href="../lists/originCommunities.html#httpsSprylangSeAboutHtml">https://sprylang.se/about.html</a>
-
-<br>
-
-codeWithHeader Example from the web:
- # Let&#39;s add a method to:do: that works as in Smalltalk.
- # Methods take the first argument, the &quot;receiver&quot;, from the left
- # and binds it to &quot;self&quot;.
+example
+ # Let's add a method to:do: that works as in Smalltalk.
+ # Methods take the first argument, the "receiver", from the left
+ # and binds it to "self".
  to:do: = method [:to :block
    n = self
-   [n &lt;= to] whileTrue: [
+   [n <= to] whileTrue: [
      do block n
      ..n = (n + 1)]]
  
@@ -58,44 +43,27 @@ codeWithHeader Example from the web:
    ^result]
  
  # Then use it to produce [3 4]
- echo ([1 2 3 4] select: [:x &gt; 2])
+ echo ([1 2 3 4] select: [:x > 2])
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/n/Ni.nic'>hello-world</a>:
- #48!#65!#6c!#6c!#6f!#20!#57!#6f!#72!#6c!#64!
- 
+githubRepo https://github.com/gokr/spry
+ firstCommit 2015
+ stars 378
+ forks 23
+ subscribers 28
+ created 2015
+ updated 2022
+ description A Smalltalk and Rebol inspired language implemented as an AST interpreter in Nim
+ issues 1
 
-endColumns
+repoStats
+ firstCommit 2015
+ commits 386
+ committers 4
+ files 106
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token True False
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav speedcoding.html ssi.html
-
-import ../footer.scroll
+leachim6 Ni
+ filepath n/Ni.nic
+ fileExtensions nic
+ example
+  #48!#65!#6c!#6c!#6f!#20!#57!#6f!#72!#6c!#64!
+  

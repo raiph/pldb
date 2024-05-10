@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nail
+import ../measures/conceptPage.scroll
+id Nail
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/2247a9af4172b74267e2fe8bf8283860d6e285f7
+country United States
+originCommunity Stanford University
 
-title Nail - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5795
 
-html
- <a class="trueBaseThemePreviousItem" href="n-prolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="netbasic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nail.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nail" class="material-symbols-outlined">edit</a></div>
-
-* Nail is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4227 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Nail first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- Nail on HOPL
- https://hopl.info/showlanguage.prx?exp=5795
-- Read more about Nail on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2247a9af4172b74267e2fe8bf8283860d6e285f7 1.
-
-<br>
-
-endColumns
-
-keyboardNav n-prolog.html netbasic.html
-
-import ../footer.scroll
+wordRank 6667
+centralPackageRepositoryCount 0

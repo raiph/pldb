@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Agent-K
+import ../measures/conceptPage.scroll
+id Agent-K
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/0e668fd124b3007549edfb9d873db7271fef66a0
+originCommunity University of Aberdeen
 
-title Agent-K - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8163
 
-html
- <a class="trueBaseThemePreviousItem" href="aesop.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="agl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/agent-k.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=agent-k" class="material-symbols-outlined">edit</a></div>
-
-* Agent-K is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3334 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- Agent-K first developed in <a href="../lists/originCommunities.html#universityOfAberdeen">University of Aberdeen</a>
-- Agent-K on HOPL
- https://hopl.info/showlanguage.prx?exp=8163
-- Read more about Agent-K on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0e668fd124b3007549edfb9d873db7271fef66a0 1.
-
-<br>
-
-endColumns
-
-keyboardNav aesop.html agl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

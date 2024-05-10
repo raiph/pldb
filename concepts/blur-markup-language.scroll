@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title blur-markup-language
+import ../measures/conceptPage.scroll
+id blur-markup-language
+appeared 2017
+type textMarkup
+creators Andrew Yoon
+website http://www.bml-lang.org/
+country United States
+originCommunity https://nothing-to-say.org/
+domainName bml-lang.org
+ registered 2018
 
-title blur-markup-language - Text markup language
- hidden
+githubRepo https://github.com/ajyoon/bml
+ firstCommit 2017
+ stars 21
+ subscribers 2
+ created 2017
+ updated 2022
+ description a stochastic markup language
+ forks 0
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="runiq.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="formality.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blur-markup-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.bml-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/ajyoon/bml" class="material-symbols-outlined">code</a> <a href="/edit.html?id=blur-markup-language" class="material-symbols-outlined">edit</a></div>
-
-* blur-markup-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2017 by Andrew Yoon.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#andrewYoon Andrew Yoon
-
-codeWithHeader Source code:
- git clone https://github.com/ajyoon/bml
-
-dashboard
- #2081 <span title="TotalRank: 2591 Jobs: 103 Users: 2124 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* a stochastic markup language
-
-- blur-markup-language website
- http://www.bml-lang.org/
-- blur-markup-language is developed on <a href="https://github.com/ajyoon/bml">GitHub</a> and has 21 stars
-- blur-markup-language first developed in <a href="../lists/originCommunities.html#httpsNothingToSayOrg">https://nothing-to-say.org/</a>
-- <a href="http://www.bml-lang.org/">bml-lang.org</a> was registered in 2018
-
-<br>
-
-endColumns
-
-keyboardNav runiq.html formality.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 336
+ committers 3
+ files 59

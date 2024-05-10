@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DITROFF
+import ../measures/conceptPage.scroll
+id DITROFF
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/e6144b0d28f0e491941b35a2a2f483703cc046ef
+country United States and Israel
+originCommunity University of California, Los Angeles && Hebrew University
 
-title DITROFF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5644
 
-html
- <a class="trueBaseThemePreviousItem" href="ditroff-ffortid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dmap.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ditroff.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ditroff" class="material-symbols-outlined">edit</a></div>
-
-* DITROFF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3632 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- DITROFF first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaLosAngeles">University of California, Los Angeles</a> and <a href="../lists/originCommunities.html#hebrewUniversity">Hebrew University</a>
-- DITROFF on HOPL
- https://hopl.info/showlanguage.prx?exp=5644
-- Read more about DITROFF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e6144b0d28f0e491941b35a2a2f483703cc046ef 1.
-
-<br>
-
-endColumns
-
-keyboardNav ditroff-ffortid.html dmap.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

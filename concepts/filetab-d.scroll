@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title filetab-d
-
-title filetab-d - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="extran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="floorplan.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/filetab-d.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=filetab-d" class="material-symbols-outlined">edit</a></div>
-
-* filetab-d is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #3382 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 46 Years Old
-
-* Variant of Filetab for x86 and PDP-11. A decision based language which was unusual in that it consisted predominantly of matrices. Users included developers writing insurance software at a company in Manchester.
-
-- filetab-d first developed in <a href="../lists/originCommunities.html#nationalComputingCentre">National Computing Centre</a>
-- Read more about filetab-d on the web: 1.
- https://en.wikipedia.org/wiki/Filetab 1.
-
-<br>
-
-endColumns
-
-keyboardNav extran.html floorplan.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id filetab-d
+appeared 1978
+type pl
+conceptDescription Variant of Filetab for x86 and PDP-11. A decision based language which was unusual in that it consisted predominantly of matrices. Users included developers writing insurance software at a company in Manchester.
+reference https://en.wikipedia.org/wiki/Filetab
+country United States
+originCommunity National Computing Centre

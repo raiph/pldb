@@ -1,44 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nimskull
+import ../measures/conceptPage.scroll
+id Nimskull
+appeared 2021
+type pl
+creators Andreas Rumpf
+website https://nim-works.github.io/nimskull/index.html
+reference https://news.ycombinator.com/item?id=32021299
+country Various
+originCommunity https://github.com/nim-works
 
-title Nimskull - Programming language
- hidden
+forkOf nim
 
-html
- <a class="trueBaseThemePreviousItem" href="linc-4gl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="obj.html">&gt;</a>
+githubRepo https://github.com/nim-works/nimskull
+ firstCommit 2008
+ stars 137
+ forks 20
+ subscribers 11
+ created 2021
+ updated 2022
+ description An in development statically typed systems programming language; with sustainability at its core. We, the community of users, maintain it.
+ issues 51
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nimskull.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://nim-works.github.io/nimskull/index.html" class="material-symbols-outlined">home</a> <a href="https://github.com/nim-works/nimskull" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nimskull" class="material-symbols-outlined">edit</a></div>
-
-* Nimskull is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Andreas Rumpf.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#andreasRumpf Andreas Rumpf
-
-codeWithHeader Source code:
- git clone https://github.com/nim-works/nimskull
-
-dashboard
- #1733 <span title="TotalRank: 2271 Jobs: 103 Users: 1182 Facts: 1502 Links: 986">on PLDB</span>
- 3 Years Old
-
-* An in development statically typed systems programming language; with sustainability at its core. We, the community of users, maintain it.
-
-- Nimskull website
- https://nim-works.github.io/nimskull/index.html
-- Nimskull is developed on <a href="https://github.com/nim-works/nimskull">GitHub</a> and has 137 stars
-- Nimskull first developed in <a href="../lists/originCommunities.html#httpsGithubComNimWorks">https://github.com/nim-works</a>
-- Read more about Nimskull on the web: 1.
- https://news.ycombinator.com/item?id=32021299 1.
-
-<br>
-
-endColumns
-
-keyboardNav linc-4gl.html obj.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2008
+ commits 21400
+ committers 884
+ files 2964

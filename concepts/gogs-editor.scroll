@@ -1,47 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gogs-editor
+import ../measures/conceptPage.scroll
+id gogs-editor
+appeared 2014
+type editor
+creators Joe Chen
+conceptDescription Gogs is a painless self-hosted Git service
+website https://gogs.io/
+webRepl https://try.gogs.io/user/login
+documentation https://gogs.io/docs
+country China
+originCommunity https://github.com/gogs
+domainName gogs.io
 
-title gogs-editor - Editor
- hidden
+writtenIn go java
 
-html
- <a class="trueBaseThemePreviousItem" href="vrml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pawn.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gogs-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gogs.io/" class="material-symbols-outlined">home</a> <a href="https://try.gogs.io/user/login" class="material-symbols-outlined">terminal</a> <a href="https://github.com/gogs/gogs" class="material-symbols-outlined">code</a> <a href="https://gogs.io/docs" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=gogs-editor" class="material-symbols-outlined">edit</a></div>
-
-* gogs-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2014 by Joe Chen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#joeChen Joe Chen
-
-codeWithHeader Source code:
- git clone https://github.com/gogs/gogs
-
-dashboard
- #663 on PLDB
- 10 Years Old
-
-* Try now: <a href="https://try.gogs.io/user/login">Web</a>
-
-* Gogs is a painless self-hosted Git service
-
-- gogs-editor website
- https://gogs.io/
-- gogs-editor is developed on <a href="https://github.com/gogs/gogs">GitHub</a> and has 41,224 stars
-- gogs-editor docs
- https://gogs.io/docs
-- gogs-editor first developed in <a href="../lists/originCommunities.html#httpsGithubComGogs">https://github.com/gogs</a>
-- gogs-editor is written in <a href="go.html">Go</a> & <a href="java.html">Java</a>
-
-<br>
-
-endColumns
-
-keyboardNav vrml.html pawn.html
-
-import ../footer.scroll
+githubRepo https://github.com/gogs/gogs
+ firstCommit 2014
+ stars 41224
+ forks 4655
+ subscribers 1041
+ created 2014
+ updated 2022
+ description Gogs is a painless self-hosted Git service
+ issues 826

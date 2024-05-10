@@ -1,67 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hurl
+import ../measures/conceptPage.scroll
+id hurl
+appeared 2020
+type application
+screenshot https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/assets/img/hurl-html-file.png
+photo https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/assets/img/hurl-html-report.png
+demoVideo https://hurl.dev/#also-an-http-test-tool
+creators Orange S.A
+conceptDescription Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can perform requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for both fetching data and testing HTTP sessions
+website https://hurl.dev/
+documentation https://hurl.dev/docs/manual.html
+reference https://hurl.dev/docs/running-tests.html
+cheatSheetUrl https://hurl.dev/docs/samples.html
+standsFor The name Hurl is a tribute to the awesome curl, with a focus on the HTTP protocol.
+country France
+originCommunity https://github.com/Orange-OpenSource
+domainName hurl.dev
+versions
+ 2022 2.0.1
 
-title hurl - Application
- hidden
+supersetOf curl
+relatedConcepts curl
+influencedBy curl
 
-html
- <a class="trueBaseThemePreviousItem" href="grass.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="teco.html">&gt;</a>
+githubRepo https://github.com/Orange-OpenSource/hurl
+ firstCommit 2020
+ stars 1980
+ forks 59
+ subscribers 21
+ created 2020
+ updated 2022
+ description Hurl, run and test HTTP requests with plain text.
+ issues 51
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hurl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hurl.dev/" class="material-symbols-outlined">home</a> <a href="https://github.com/Orange-OpenSource/hurl" class="material-symbols-outlined">code</a> <a href="https://hurl.dev/docs/manual.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=hurl" class="material-symbols-outlined">edit</a></div>
-
-* hurl, aka The name Hurl is a tribute to the awesome curl, with a focus on the HTTP protocol., is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2020 by Orange S.A.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#orangeSA Orange S.A
-
-codeWithHeader Source code:
- git clone https://github.com/Orange-OpenSource/hurl
-
-dashboard
- #1134 on PLDB
- 4 Years Old
-
-openGraphImage https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/assets/img/hurl-html-file.png
-image https://raw.githubusercontent.com/Orange-OpenSource/hurl/master/docs/assets/img/hurl-html-file.png
- caption A screenshot of the visual language hurl.
-  link /search.html?q=select+type%0D%0Awhere+type+%3D+visual visual language
-
-* Hurl is a command line tool that runs HTTP requests defined in a simple plain text format. It can perform requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for both fetching data and testing HTTP sessions
-
-- hurl website
- https://hurl.dev/
-- hurl is developed on <a href="https://github.com/Orange-OpenSource/hurl">GitHub</a> and has 1,980 stars
-- hurl docs
- https://hurl.dev/docs/manual.html
-- Video demo of hurl
- https://hurl.dev/#also-an-http-test-tool
-- hurl is a superset of <a href="/concepts/curl.html">Curl</a>
-- hurl first developed in <a href="../lists/originCommunities.html#httpsGithubComOrangeOpenSource">https://github.com/Orange-OpenSource</a>
-- hurl cheat sheet
- https://hurl.dev/docs/samples.html
-- See also: (1 related languages)<a href="curl.html">Curl</a>
-- Read more about hurl on the web: 1.
- https://hurl.dev/docs/running-tests.html 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Multiple Inheritance
-  FeatureLink ../features/hasMultipleInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav grass.html teco.html
-
-import ../footer.scroll
+isOpenSource true

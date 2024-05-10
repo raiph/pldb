@@ -1,40 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title clike
+import ../measures/conceptPage.scroll
+id clike
+appeared 2014
+type pl
+originCommunity https://github.com/combinatorylogic/
 
-title clike - Programming language
- hidden
+githubRepo https://github.com/combinatorylogic/clike
+ stars 128
+ forks 6
+ subscribers 6
+ created 2014
+ updated 2022
+ firstCommit 2014
+ description A simple C-like language compiler with an extensible syntax and typed macros support
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="praxis-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tynker.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 22
+ committers 2
+ files 66
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clike.pldb
+codeMirror clike
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/combinatorylogic/clike" class="material-symbols-outlined">code</a> <a href="/edit.html?id=clike" class="material-symbols-outlined">edit</a></div>
-
-* clike is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/combinatorylogic/clike
-
-dashboard
- #1739 <span title="TotalRank: 2274 Jobs: 103 Users: 1185 Facts: 1591 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A simple C-like language compiler with an extensible syntax and typed macros support
-
-- clike is developed on <a href="https://github.com/combinatorylogic/clike">GitHub</a> and has 128 stars
-- clike first developed in <a href="../lists/originCommunities.html#httpsGithubComCombinatorylogic">https://github.com/combinatorylogic/</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/clike">package</a> for syntax highlighting clike
-
-<br>
-
-endColumns
-
-keyboardNav praxis-lang.html tynker.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

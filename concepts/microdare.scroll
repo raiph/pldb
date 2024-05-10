@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MICRODARE
+import ../measures/conceptPage.scroll
+id MICRODARE
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/14487fc9909f9fad6bc1d21c3eb04074d1f54f3d
+country United States
+originCommunity University of Arizona Tucson
 
-title MICRODARE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6945
 
-html
- <a class="trueBaseThemePreviousItem" href="micro-flowcharts.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="microtal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microdare.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microdare" class="material-symbols-outlined">edit</a></div>
-
-* MICRODARE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3827 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- MICRODARE first developed in <a href="../lists/originCommunities.html#universityOfArizonaTucson">University of Arizona Tucson</a>
-- MICRODARE on HOPL
- https://hopl.info/showlanguage.prx?exp=6945
-- Read more about MICRODARE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/14487fc9909f9fad6bc1d21c3eb04074d1f54f3d 1.
-
-<br>
-
-endColumns
-
-keyboardNav micro-flowcharts.html microtal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

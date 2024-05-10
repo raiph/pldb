@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIMNET
+import ../measures/conceptPage.scroll
+id SIMNET
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/a64f348cba3877c5a15e3ca894b02a2e27d8ef7d
+country United States
+originCommunity University of Arkansas
 
-title SIMNET - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4739
 
-html
- <a class="trueBaseThemePreviousItem" href="siml-i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simpas.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simnet.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=simnet" class="material-symbols-outlined">edit</a></div>
-
-* SIMNET is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4020 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- SIMNET first developed in <a href="../lists/originCommunities.html#universityOfArkansas">University of Arkansas</a>
-- SIMNET on HOPL
- https://hopl.info/showlanguage.prx?exp=4739
-- Read more about SIMNET on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a64f348cba3877c5a15e3ca894b02a2e27d8ef7d 1.
-
-<br>
-
-endColumns
-
-keyboardNav siml-i.html simpas.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,33 +1,4 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title brackets-editor
-
-title brackets-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="appcode-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clion-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/brackets-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=brackets-editor" class="material-symbols-outlined">edit</a></div>
-
-* brackets-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #3638 on PLDB
- 12 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav appcode-editor.html clion-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id brackets-editor
+appeared 2012
+type editor

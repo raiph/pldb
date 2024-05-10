@@ -1,70 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSLT
+import ../measures/conceptPage.scroll
+id JSLT
+appeared 2017
+type pl
+creators Lars Marius Garshol
+country Norway
+originCommunity https://github.com/schibsted
 
-title JSLT - Programming language
- hidden
+hasFloats true
+hasIntegers true
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="astro.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mako.html">&gt;</a>
+githubRepo https://github.com/schibsted/jslt
+ firstCommit 2017
+ stars 468
+ forks 101
+ subscribers 32
+ created 2018
+ updated 2022
+ description JSON query and transformation language
+ issues 66
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jslt.pldb
+repoStats
+ firstCommit 2017
+ commits 510
+ committers 15
+ files 178
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/schibsted/jslt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jslt" class="material-symbols-outlined">edit</a></div>
-
-* JSLT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Lars Marius Garshol.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#larsMariusGarshol Lars Marius Garshol
-
-codeWithHeader Source code:
- git clone https://github.com/schibsted/jslt
-
-dashboard
- #1181 <span title="TotalRank: 1726 Jobs: 103 Users: 637 Facts: 1256 Links: 986">on PLDB</span>
- 7 Years Old
-
-* JSON query and transformation language
-
-- JSLT is developed on <a href="https://github.com/schibsted/jslt">GitHub</a> and has 468 stars
-- JSLT first developed in <a href="../lists/originCommunities.html#httpsGithubComSchibsted">https://github.com/schibsted</a>
-- file extensions for JSLT include jslt
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/jslt.py">syntax highlighting</a> for JSLT
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav astro.html mako.html
-
-import ../footer.scroll
+pygmentsHighlighter JSLT
+ filename jslt.py
+ fileExtensions jslt

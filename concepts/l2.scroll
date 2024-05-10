@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title l2
+import ../measures/conceptPage.scroll
+id l2
+appeared 2017
+type pl
+country Unknown
+originCommunity https://github.com/murisi/L2/issues
 
-title l2 - Programming language
- hidden
+githubRepo https://github.com/murisi/L2
+ firstCommit 2017
+ stars 127
+ forks 9
+ subscribers 8
+ created 2017
+ updated 2022
+ description A minimalist type-inferred programming language with procedural macro support
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="scratchpad.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jisp.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 1492
+ committers 3
+ files 69
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/l2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/murisi/L2" class="material-symbols-outlined">code</a> <a href="/edit.html?id=l2" class="material-symbols-outlined">edit</a></div>
-
-* l2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/murisi/L2
-
-dashboard
- #1864 <span title="TotalRank: 2363 Jobs: 103 Users: 1274 Facts: 1591 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A minimalist type-inferred programming language with procedural macro support
-
-- l2 is developed on <a href="https://github.com/murisi/L2">GitHub</a> and has 127 stars
-- l2 first developed in <a href="../lists/originCommunities.html#httpsGithubComMurisiL2Issues">https://github.com/murisi/L2/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of l2
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: L2: An experiment/programming language|https://news.ycombinator.com/item?id=14510073|06/07/2017|2|0
-
-keyboardNav scratchpad.html jisp.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 14510073|Show HN: L2: An experiment/programming language|2017-06-07 21:38:32 UTC|1496871512|murisitarusenga|0|2

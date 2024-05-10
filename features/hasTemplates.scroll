@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasSymbols.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasTernaryOperators.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>:
+codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
  template &lt;int length&gt;
  Vector&lt;length&gt;&amp; Vector&lt;length&gt;::operator+=(const Vector&lt;length&gt;&amp; rhs)
  {
@@ -21,6 +21,14 @@ codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>, <a href="../
          value[i] += rhs.value[i];
      return *this;
  }
+
+codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
+ # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
+ template debug*(args: varargs[string, `$`]) =
+ if logLevel &lt;= Level.debug:
+   const module = instantiationInfo().filename[0 .. ^5]
+   echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
+     module, join args]
 
 codeWithHeader Example from <a href="../concepts/d.html">D</a>:
  template TCopy(T)
@@ -33,19 +41,9 @@ codeWithHeader Example from <a href="../concepts/d.html">D</a>:
  int i;
  TCopy!(int).copy(i, 3);
 
-codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
- # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
- template debug*(args: varargs[string, `$`]) =
- if logLevel &lt;= Level.debug:
-   const module = instantiationInfo().filename[0 .. ^5]
-   echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
-     module, join args]
+* Languages *with* Templates include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/xl-lang.html">XL</a>
 
-* Languages *with* Templates include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/xl-lang.html">XL</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
-
-* Languages *without* Templates include <a href="../concepts/c.html">C</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/tick-c.html">Tick C</a>
-
-* This question asks: Does the language support templates?
+* Languages *without* Templates include <a href="../concepts/c.html">C</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Templates on the web: 1.
  https://en.wikipedia.org/wiki/Template_metaprogramming 1.

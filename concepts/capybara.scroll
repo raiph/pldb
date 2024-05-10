@@ -1,43 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title capybara
+import ../measures/conceptPage.scroll
+id capybara
+appeared 2009
+type library
+creators Jonas Nicklas and Kevin Fitzpatrick
+website http://teamcapybara.github.io/capybara/
+country United States
+originCommunity teamcapybara
 
-title capybara - Library
- hidden
+githubRepo https://github.com/teamcapybara/capybara
+ firstCommit 2009
+ stars 9606
+ forks 1413
+ subscribers 221
+ created 2009
+ updated 2022
+ description Acceptance test framework for web applications
+ issues 21
 
-html
- <a class="trueBaseThemePreviousItem" href="prismjs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="semver.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/capybara.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://teamcapybara.github.io/capybara/" class="material-symbols-outlined">home</a> <a href="https://github.com/teamcapybara/capybara" class="material-symbols-outlined">code</a> <a href="/edit.html?id=capybara" class="material-symbols-outlined">edit</a></div>
-
-* capybara is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2009 by Jonas Nicklas and Kevin Fitzpatrick.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#jonasNicklas Jonas Nicklas
- link ../lists/creators.html#kevinFitzpatrick Kevin Fitzpatrick
-
-codeWithHeader Source code:
- git clone https://github.com/teamcapybara/capybara
-
-dashboard
- #770 on PLDB
- 15 Years Old
-
-* Acceptance test framework for web applications
-
-- capybara website
- http://teamcapybara.github.io/capybara/
-- capybara is developed on <a href="https://github.com/teamcapybara/capybara">GitHub</a> and has 9,606 stars
-- capybara first developed in <a href="../lists/originCommunities.html#teamcapybara">teamcapybara</a>
-
-<br>
-
-endColumns
-
-keyboardNav prismjs.html semver.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

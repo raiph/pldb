@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Reko
+import ../measures/conceptPage.scroll
+id Reko
+appeared 2007
+type decompiler
+creators John Källén
+website https://uxmal.github.io/reko
+country Sweden
+originCommunity https://github.com/uxmal/reko/issues
 
-title Reko - Decompiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="crush.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="query-by-example.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/reko-decompiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://uxmal.github.io/reko" class="material-symbols-outlined">home</a> <a href="https://github.com/uxmal/reko" class="material-symbols-outlined">code</a> <a href="/edit.html?id=reko-decompiler" class="material-symbols-outlined">edit</a></div>
-
-* Reko is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+decompiler">decompiler</a> created in 2007 by John Källén.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
- link ../lists/creators.html#johnKallen John Källén
-
-codeWithHeader Source code:
- git clone https://github.com/uxmal/reko
-
-dashboard
- #1172 on PLDB
- 17 Years Old
-
-* Reko is a binary decompiler.
-
-- Reko website
- https://uxmal.github.io/reko
-- Reko is developed on <a href="https://github.com/uxmal/reko">GitHub</a> and has 1,374 stars
-- Reko first developed in <a href="../lists/originCommunities.html#httpsGithubComUxmalRekoIssues">https://github.com/uxmal/reko/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav crush.html query-by-example.html
-
-import ../footer.scroll
+githubRepo https://github.com/uxmal/reko
+ firstCommit 2007
+ stars 1374
+ forks 178
+ subscribers 69
+ created 2015
+ updated 2022
+ description Reko is a binary decompiler.
+ issues 167

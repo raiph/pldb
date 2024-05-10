@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ARABLAN
+import ../measures/conceptPage.scroll
+id ARABLAN
+appeared 1995
+type pl
+reference https://dl.acm.org/citation.cfm?id=2245799
+country Bahrain
+originCommunity University of Bahrain
 
-title ARABLAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2788
 
-html
- <a class="trueBaseThemePreviousItem" href="aquarius-prolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="archi.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/arablan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=arablan" class="material-symbols-outlined">edit</a></div>
-
-* ARABLAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3489 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- ARABLAN first developed in <a href="../lists/originCommunities.html#universityOfBahrain">University of Bahrain</a>
-- ARABLAN on HOPL
- https://hopl.info/showlanguage.prx?exp=2788
-- Read more about ARABLAN on the web: 1.
- https://dl.acm.org/citation.cfm?id=2245799 1.
-
-<br>
-
-endColumns
-
-keyboardNav aquarius-prolog.html archi.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

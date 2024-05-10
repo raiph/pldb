@@ -1,38 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Portable Bit Map Format
+import ../measures/conceptPage.scroll
+id Portable Bit Map Format
+appeared 1986
+type textDataFormat
+conceptDescription The PBM format is a lowest common denominator monochrome file format. It serves as the common language of a large family of bitmap image conversion filters. Because the format pays no heed to efficiency, it is simple and general enough that one can easily develop programs to convert to and from just about any other graphics format, or to manipulate the image. The name "PBM" is an acronym derived from "Portable Bit Map."
+reference http://netpbm.sourceforge.net/doc/pbm.html
+country Unknown
+originCommunity https://netpbm.sourceforge.net/history.html
 
-title Portable Bit Map Format - Text data format
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="guide.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="v8torque.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pbm-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pbm-format" class="material-symbols-outlined">edit</a></div>
-
-* Portable Bit Map Format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #1835 <span title="TotalRank: 2345 Jobs: 103 Users: 2838 Facts: 1256 Links: 986">on PLDB</span>
- 38 Years Old
-
-* The PBM format is a lowest common denominator monochrome file format. It serves as the common language of a large family of bitmap image conversion filters. Because the format pays no heed to efficiency, it is simple and general enough that one can easily develop programs to convert to and from just about any other graphics format, or to manipulate the image. The name "PBM" is an acronym derived from "Portable Bit Map."
-
-- Portable Bit Map Format first developed in <a href="../lists/originCommunities.html#httpsNetpbmSourceforgeNetHistoryHtml">https://netpbm.sourceforge.net/history.html</a>
-- Read more about Portable Bit Map Format on the web: 1.
- http://netpbm.sourceforge.net/doc/pbm.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  P1
- # This is an example bitmap of the letter &quot;J&quot;
+ # This is an example bitmap of the letter "J"
  6 10
  0 0 0 0 1 0
  0 0 0 0 1 0
@@ -44,33 +29,3 @@ codeWithHeader Example from the web:
  0 1 1 1 0 0
  0 0 0 0 0 0
  0 0 0 0 0 0
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav guide.html v8torque.html
-
-import ../footer.scroll

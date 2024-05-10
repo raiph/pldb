@@ -1,38 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Low*
+import ../measures/conceptPage.scroll
+id Low*
+appeared 2008
+type pl
+website https://fstarlang.github.io/lowstar/html/LowStar.html
+aka low-star
+country United States and France
+originCommunity Microsoft Research && Institut national de recherche en sciences et technologies du numérique
+firstAnnouncement https://arxiv.org/abs/1703.00053
+announcementMethod paper
 
-title Low* - Programming language
- hidden
+compilesTo c
+subsetOf fstar
 
-html
- <a class="trueBaseThemePreviousItem" href="dbml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="opengraph.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lowstar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://fstarlang.github.io/lowstar/html/LowStar.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=lowstar" class="material-symbols-outlined">edit</a></div>
-
-* Low* is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1771 <span title="TotalRank: 2292 Jobs: 103 Users: 2442 Facts: 1203 Links: 986">on PLDB</span>
- 16 Years Old
-
-* 
-
-- Low* website
- https://fstarlang.github.io/lowstar/html/LowStar.html
-- Low* first developed in <a href="../lists/originCommunities.html#microsoftResearch">Microsoft Research</a> and <a href="../lists/originCommunities.html#institutNationalDeRechercheEnSciencesEtTechnologiesDuNumerique">Institut national de recherche en sciences et technologies du numérique</a>
-- Low* compiles to <a href="c.html">C</a>
-- <a href="https://arxiv.org/abs/1703.00053">First announcement of</a> Low* via paper
-
-<br>
-
-codeWithHeader Example from the web:
+example
  let chacha20
   (len: uint32{len ≤ blocklen})
   (output: bytes{len = output.length})
@@ -49,9 +29,3 @@ codeWithHeader Example from the web:
    chacha20_init block key nonce counter;
    chacha20_update output state len;
    pop_frame ()
-
-endColumns
-
-keyboardNav dbml.html opengraph.html
-
-import ../footer.scroll

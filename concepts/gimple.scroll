@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GCC GIMPLE
+import ../measures/conceptPage.scroll
+id GCC GIMPLE
+appeared 2003
+type ir
+conceptDescription GCC is a widely used compiler infrastructure that supports a variety of input languages, e.g., C, C++, Fortran, Java, and Ada, and over 30 different target machine architectures. GCC translates each of its front-end languages into a language-independent intermediate representation, called GIMPLE, which then gets translated to machine code for one of GCC’s many target architectures. A subset of GENERIC.
+reference https://en.wikipedia.org/wiki/GNU_Compiler_Collection#GENERIC_and_GIMPLE
+country United States
+originCommunity GNU Project
 
-title GCC GIMPLE - Intermediate representation language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gentran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gitignore.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gimple.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gimple" class="material-symbols-outlined">edit</a></div>
-
-* GCC GIMPLE is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #3691 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 21 Years Old
-
-* GCC is a widely used compiler infrastructure that supports a variety of input languages, e.g., C, C++, Fortran, Java, and Ada, and over 30 different target machine architectures. GCC translates each of its front-end languages into a language-independent intermediate representation, called GIMPLE, which then gets translated to machine code for one of GCC’s many target architectures. A subset of GENERIC.
-
-- GCC GIMPLE first developed in <a href="../lists/originCommunities.html#gnuProject">GNU Project</a>
-- Read more about GCC GIMPLE on the web: 1.
- https://en.wikipedia.org/wiki/GNU_Compiler_Collection#GENERIC_and_GIMPLE 1.
-
-<br>
-
-endColumns
-
-keyboardNav gentran.html gitignore.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

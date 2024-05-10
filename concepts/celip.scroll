@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CELIP
+import ../measures/conceptPage.scroll
+id CELIP
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/a7fed1aa9ac988b98f9e945e45a9fa3d78bd4d79
+country Germany
+originCommunity University of Duisburg-Essen
 
-title CELIP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1539
 
-html
- <a class="trueBaseThemePreviousItem" href="cedar-fortran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cellsim.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/celip.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=celip" class="material-symbols-outlined">edit</a></div>
-
-* CELIP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3556 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- CELIP first developed in <a href="../lists/originCommunities.html#universityOfDuisburgEssen">University of Duisburg-Essen</a>
-- CELIP on HOPL
- https://hopl.info/showlanguage.prx?exp=1539
-- Read more about CELIP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a7fed1aa9ac988b98f9e945e45a9fa3d78bd4d79 1.
-
-<br>
-
-endColumns
-
-keyboardNav cedar-fortran.html cellsim.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Squire
+import ../measures/conceptPage.scroll
+id Squire
+appeared 2021
+type pl
+creators Sam Westerman
+country United States
+originCommunity https://github.com/sampersand/squire/issues
 
-title Squire - Programming language
- hidden
+githubRepo https://github.com/sampersand/squire
+ firstCommit 2021
+ stars 47
+ forks 6
+ subscribers 2
+ created 2021
+ updated 2022
+ description The medieval language held together by twine.
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="subtext.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/squire.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/sampersand/squire" class="material-symbols-outlined">code</a> <a href="/edit.html?id=squire" class="material-symbols-outlined">edit</a></div>
-
-* Squire is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Sam Westerman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#samWesterman Sam Westerman
-
-codeWithHeader Source code:
- git clone https://github.com/sampersand/squire
-
-dashboard
- #2294 <span title="TotalRank: 2782 Jobs: 103 Users: 1693 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* The medieval language held together by twine.
-
-- Squire is developed on <a href="https://github.com/sampersand/squire">GitHub</a> and has 47 stars
-- Squire first developed in <a href="../lists/originCommunities.html#httpsGithubComSampersandSquireIssues">https://github.com/sampersand/squire/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav subtext.html cal.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 322
+ committers 5
+ files 111

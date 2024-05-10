@@ -1,39 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jsparagus
+import ../measures/conceptPage.scroll
+id jsparagus
+appeared 2018
+type grammarLanguage
+conceptDescription A JavaScript parser written in Rust
+country United States
+originCommunity Mozilla Foundation
 
-title jsparagus - Grammar language
- hidden
+githubRepo https://github.com/mozilla-spidermonkey/jsparagus
+ stars 386
+ forks 21
+ subscribers 17
+ created 2018
+ updated 2023
+ description Experimental JS parser-generator project.
+ issues 110
 
-html
- <a class="trueBaseThemePreviousItem" href="bython.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visual-objects.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jsparagus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mozilla-spidermonkey/jsparagus" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jsparagus" class="material-symbols-outlined">edit</a></div>
-
-* jsparagus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/mozilla-spidermonkey/jsparagus
-
-dashboard
- #1345 <span title="TotalRank: 1885 Jobs: 103 Users: 796 Facts: 1890 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A JavaScript parser written in Rust
-
-- jsparagus is developed on <a href="https://github.com/mozilla-spidermonkey/jsparagus">GitHub</a> and has 386 stars
-- jsparagus first developed in <a href="../lists/originCommunities.html#mozillaFoundation">Mozilla Foundation</a>
-
-<br>
-
-endColumns
-
-keyboardNav bython.html visual-objects.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 7125
+ committers 17
+ files 177

@@ -1,48 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Argdown
+import ../measures/conceptPage.scroll
+id Argdown
+appeared 2014
+type textMarkup
+website https://argdown.org/
+webRepl https://argdown.org/sandbox/html
+country Germany
+originCommunity Karlsruhe Institute of Technology
+domainName argdown.org
+ registered 2018
 
-title Argdown - Text markup language
- hidden
+visualParadigm true
 
-html
- <a class="trueBaseThemePreviousItem" href="cilk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="geojson.html">&gt;</a>
+hasSemanticIndentation true
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasMultiLineComments true
+ <!-- A comment
+ -->
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/argdown.pldb
+lineCommentToken //
+multiLineCommentTokens <!-- -->
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://argdown.org/" class="material-symbols-outlined">home</a> <a href="https://argdown.org/sandbox/html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/christianvoigt/argdown" class="material-symbols-outlined">code</a> <a href="/edit.html?id=argdown" class="material-symbols-outlined">edit</a></div>
-
-* Argdown is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/christianvoigt/argdown
-
-dashboard
- #462 <span title="TotalRank: 986 Jobs: 103 Users: 683 Facts: 200 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Try now: <a href="https://argdown.org/sandbox/html">Web</a>
-
-* a simple syntax for complex argumentation
-
-- Argdown website
- https://argdown.org/
-- Argdown is developed on <a href="https://github.com/christianvoigt/argdown">GitHub</a> and has 583 stars
-- Argdown first developed in <a href="../lists/originCommunities.html#karlsruheInstituteOfTechnology">Karlsruhe Institute of Technology</a>
-- <a href="https://argdown.org/">argdown.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
+example
   # Welcome to Argdown!
  
   [Intro]: Argdown is a simple syntax for defining argumentative 
   structures, inspired by Markdown.
-    + Writing a *pro &amp; contra list* in Argdown is as 
+    + Writing a *pro & contra list* in Argdown is as 
       simple as writing a twitter message (actually we are 
       right in the middle of one).
     + But you can also 
@@ -53,10 +39,10 @@ codeWithHeader Example from the web:
       **argument maps** of whole debates.
  
   This Argdown document only demonstrates the basic syntax elements. 
-  The argument map produced is a &quot;bogus debate&quot;. 
+  The argument map produced is a "bogus debate". 
  
   To read a reconstruction of a *real* debate, select one of the 
-  **example debates** by moving your mouse to the *&quot;Examples&quot;* button 
+  **example debates** by moving your mouse to the *"Examples"* button 
   on the upper left, above the text editor.
  
   ## Argdown Basics
@@ -69,23 +55,23 @@ codeWithHeader Example from the web:
   We can use the title to refer to this statement later 
   or mention it in other statements. #(Another tag)
  
-  [Statement 2]: Let&#39;s do that now: The previous 
+  [Statement 2]: Let's do that now: The previous 
   statement was @[Statement 1].
-    + &lt;Argument title&gt;: Statements can be supported 
+    + <Argument title>: Statements can be supported 
       by __arguments__. Arguments are defined by 
       using angle brackets. #tag
-    - &lt;Another argument&gt;: This arguments attacks @[Statement 2]. #tag
-      - &lt;Yet another argument&gt;: Arguments can also 
+    - <Another argument>: This arguments attacks @[Statement 2]. #tag
+      - <Yet another argument>: Arguments can also 
         be supported or attacked. #yet-another-tag
-        &lt;!--
+        <!--
         By the way,
         this is a multiline comment.
-        --&gt;
+        -->
  
   We can also do that the other way around:
  
   [Intro]
-    -&gt; &lt;Argument 1&gt;
+    -> <Argument 1>
  
   Headings can be used to group arguments and statements together. 
   In the map these groups are visualized as grey boxes.
@@ -98,7 +84,7 @@ codeWithHeader Example from the web:
   consist of premises from which conclusions are inferred. We can precisely 
   define this premise-conclusion structure with Argdown:
  
-  &lt;Argument 1&gt;
+  <Argument 1>
  
   (1) First premise (this is is a normal statement 
       and you can do everything with it, we have done 
@@ -106,63 +92,41 @@ codeWithHeader Example from the web:
   (2) [Statement 2]: We have already defined a statement 
       with this title.
       Argdown allows you to add multiple statements 
-      to the same &quot;equivalence class&quot; by giving them 
+      to the same "equivalence class" by giving them 
       the same title. The statements will then be treated 
       as logically equivalent.
   --
   Some inference rule (Some additional info: 1,2)
   --
   (3) And now the conclusion 
-    -&gt; Outgoing relations of the conclusion, 
+    -> Outgoing relations of the conclusion, 
     are also interpreted as outgoing relations of 
     the whole argument.
-    +&gt; &lt;Yet another argument&gt;
-    &lt;!--
-    The second relation is only &quot;sketched&quot;,
+    +> <Yet another argument>
+    <!--
+    The second relation is only "sketched",
     because it does not declare which premise
-    of @&lt;Argument 2&gt; is supported.
+    of @<Argument 2> is supported.
     (At this point this is not possible,
-    as we have not yet reconstructed @&lt;Argument 2&gt;)
-    --&gt;
-    -&gt; [Statement 1]
+    as we have not yet reconstructed @<Argument 2>)
+    -->
+    -> [Statement 1]
  
     We can also link to headings: 
     [Back to top](#heading-welcome-to-argdown)
 
-endColumns
+githubRepo https://github.com/christianvoigt/argdown
+ firstCommit 2014
+ stars 583
+ forks 20
+ subscribers 22
+ created 2014
+ updated 2022
+ description a simple syntax for complex argumentation
+ issues 98
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token <!-- -->
-  Example
-   <!-- A comment
-   -->
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav cilk.html geojson.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 987
+ committers 6
+ files 661

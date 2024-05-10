@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OWL DL
+import ../measures/conceptPage.scroll
+id OWL DL
+appeared 2007
+type xmlFormat
+conceptDescription A subset of OWL.
+reference https://www.w3.org/2007/OWL/wiki/images/9/9a/Pfps-f2f1.pdf
+country United States
+originCommunity Bell Labs Research
 
-title OWL DL - Xml format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="otter.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="p-prolog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/owl-dl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=owl-dl" class="material-symbols-outlined">edit</a></div>
-
-* OWL DL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3900 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 17 Years Old
-
-* A subset of OWL.
-
-- OWL DL first developed in <a href="../lists/originCommunities.html#bellLabsResearch">Bell Labs Research</a>
-- See also: (1 related languages)<a href="owl.html">OWL</a>
-- Read more about OWL DL on the web: 1.
- https://www.w3.org/2007/OWL/wiki/images/9/9a/Pfps-f2f1.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav otter.html p-prolog.html
-
-import ../footer.scroll
+relatedConcepts owl

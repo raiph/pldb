@@ -1,113 +1,133 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OWL
+import ../measures/conceptPage.scroll
+id OWL
+appeared 2004
+type xmlFormat
+documentation https://www.w3.org/TR/owl-guide/
+standsFor One World Language
+country United States
+originCommunity World Wide Web Consortium
 
-title OWL - Xml format
- hidden
+hasLineComments false
 
-html
- <a class="trueBaseThemePreviousItem" href="mime.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nearley.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/Web_Ontology_Language
+ example
+  <http://example.org/tea.owl> rdf:type owl:Ontology .
+   :Tea  rdf:type            owl:Class .
+ related rdf xml html axiom turtle sql prolog uml
+ summary The Web Ontology Language (OWL) is a family of knowledge representation languages for authoring ontologies. Ontologies are a formal way to describe taxonomies and classification networks, essentially defining the structure of knowledge for various domains: the nouns representing classes of objects and the verbs representing relations between the objects. Ontologies resemble class hierarchies in object-oriented programming but there are several critical differences. Class hierarchies are meant to represent structures used in source code that evolve fairly slowly (typically monthly revisions) whereas ontologies are meant to represent information on the Internet and are expected to be evolving almost constantly. Similarly, ontologies are typically far more flexible as they are meant to represent information on the Internet coming from all sorts of heterogeneous data sources. Class hierarchies on the other hand are meant to be fairly static and rely on far less diverse and more structured sources of data such as corporate databases. The OWL languages are characterized by formal semantics. They are built upon the World Wide Web Consortium's (W3C) XML standard for objects called the Resource Description Framework (RDF). OWL and RDF have attracted significant academic, medical and commercial interest. In October 2007, a new W3C working group was started to extend OWL with several new features as proposed in the OWL 1.1 member submission. W3C announced the new version of OWL on 27 October 2009. This new version, called OWL 2, soon found its way into semantic editors such as Protégé and semantic reasoners such as Pellet, RacerPro, FaCT++ and HermiT. The OWL family contains many species, serializations, syntaxes and specifications with similar names. OWL and OWL2 are used to refer to the 2004 and 2009 specifications, respectively. Full species names will be used, including specification version (for example, OWL2 EL). When referring more generally, OWL Family will be used.
+ pageId 248001
+ dailyPageViews 443
+ created 2003
+ backlinksCount 506
+ revisionCount 706
+ appeared 2004
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/owl.pldb
+githubLanguage Web Ontology Language
+ fileExtensions owl
+ trendingProjectsCount 0
+ type data
+ aceMode xml
+ tmScope text.xml
+ repos 199
+githubBigQuery Web Ontology Language
+ repos 642
+ users 524
 
-startColumns 4
+linguistGrammarRepo https://github.com/textmate/xml.tmbundle
+ firstCommit 2004
+ lastCommit 2018
+ committerCount 12
+ commitCount 97
+ sampleCount 1
+ example
+  <?xml version="1.0"?>
+  
+  
+  <!DOCTYPE rdf:RDF [
+      <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+      <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+      <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+      <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+  ]>
+  
+  
+  <rdf:RDF xmlns="http://www.co-ode.org/ontologies/pizza/pizza.owl#"
+       xml:base="http://www.co-ode.org/ontologies/pizza/pizza.owl"
+       xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+       xmlns:owl="http://www.w3.org/2002/07/owl#">
+      <owl:Ontology rdf:about="">
+          <owl:versionInfo xml:lang="en"
+              >v.1.4. Added Food class (used in domain/range of hasIngredient), Added several hasCountryOfOrigin restrictions on pizzas, Made hasTopping invers functional</owl:versionInfo>
+          <owl:versionInfo rdf:datatype="&xsd;string">version 1.5</owl:versionInfo>
+          <owl:versionInfo xml:lang="en"
+              >v.1.5. Removed protege.owl import and references. Made ontology URI date-independent</owl:versionInfo>
+          <rdfs:comment xml:lang="en"
+              >An example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://www.co-ode.org/resources/tutorials/)</rdfs:comment>
+      </owl:Ontology>
+      
+  
+  
+      <!-- 
+      ///////////////////////////////////////////////////////////////////////////
+      //
+      //   OWL Classes
+      //
+      ///////////////////////////////////////////////////////////////////////////
+       -->
+  
+      
+  
+  
+      <!-- Class: http://www.co-ode.org/ontologies/pizza/pizza.owl#American -->
+  
+      <owl:Class rdf:about="#American">
+          <rdfs:label xml:lang="pt">Americana</rdfs:label>
+          <rdfs:subClassOf>
+              <owl:Restriction>
+                  <owl:onProperty rdf:resource="#hasTopping"/>
+                  <owl:someValuesFrom rdf:resource="#TomatoTopping"/>
+              </owl:Re
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.w3.org/TR/owl-guide/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Web_Ontology_Language"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=owl" class="material-symbols-outlined">edit</a></div>
+hopl https://hopl.info/showlanguage.prx?exp=4934
 
-* OWL, aka One World Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
+fileType text
+centralPackageRepositoryCount 0
 
-dashboard
- #160 <span title="TotalRank: 455 Jobs: 103 Users: 319 Facts: 204 Links: 148">on PLDB</span>
- 20 Years Old
- 199 <span title="OWL repos on GitHub.">Repos</span>
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Owl: Representing Information Using the Web Ontology Language|2004|Lee W. Lacy|1653014|3.11|9|0
+ OWL : Representing Information Using the Web Ontology Language|2005|Lee W. Lacy|27295675|4.00|1|0
 
-* The Web Ontology Language (OWL) is a family of knowledge representation languages for authoring ontologies. Ontologies are a formal way to describe taxonomies and classification networks, essentially defining the structure of knowledge for various domains: the nouns representing classes of objects and the verbs representing relations between the objects. Ontologies resemble class hierarchies in object-oriented programming but there are several critical differences. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Web_Ontology_Language Read more on Wikipedia...
+isbndb 6
+ year|publisher|title|authors|isbn13
+ 2011|Morgan Kaufmann|Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL|Allemang, Dean and Hendler, James|9780123859655
+ 2008|Morgan Kaufmann|Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL|Allemang, Dean and Hendler, James|9780123735560
+ 1997|Manning Pubns Co|Core Owl 5.0: Owl Internals for Advanced Programmers|Neward, Ted|9781884777509
+ 2020-12-18T00:00:01Z|Apress|Ontologies with Python: Programming OWL 2.0 Ontologies with Python and Owlready2|Jean-Baptiste, Lamy|9781484265512
+ 2011|Morgan Kaufmann|Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL|Allemang, Dean and Hendler, James|9780123859662
+ 2020|Apress|Ontologies with Python: Programming OWL 2.0 Ontologies with Python and Owlready2|Jean-Baptiste, Lamy|9781484265529
 
-- OWL Wikipedia page
- https://en.wikipedia.org/wiki/Web_Ontology_Language
-- OWL docs
- https://www.w3.org/TR/owl-guide/
-- There are at least 199 OWL repos on <a href="https://github.com/search?q=language:Web Ontology Language">GitHub</a>
-- OWL first developed in <a href="../lists/originCommunities.html#worldWideWebConsortium">World Wide Web Consortium</a>
-- file extensions for OWL include owl
-- The  Google BigQuery Public Dataset GitHub snapshot shows 524 users using OWL in 642 repos on <a href="https://api.github.com/search/repositories?q=language:Web Ontology Language">GitHub</a>
-- OWL on HOPL
- https://hopl.info/showlanguage.prx?exp=4934
-- GitHub supports <a href="https://github.com/textmate/xml.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for OWL
-- See also: (8 related languages)<a href="rdf.html">RDF</a>, <a href="xml.html">XML</a>, <a href="html.html">HTML</a>, <a href="axiom.html">AXIOM</a>, <a href="turtle.html">Turtle</a>, <a href="sql.html">SQL</a>, <a href="prolog.html">Prolog</a>, <a href="uml.html">UML</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/textmate/xml.tmbundle'>Linguist</a>:
- &lt;?xml version=&quot;1.0&quot;?&gt;
- 
- 
- &lt;!DOCTYPE rdf:RDF [
-     &lt;!ENTITY owl &quot;http://www.w3.org/2002/07/owl#&quot; &gt;
-     &lt;!ENTITY xsd &quot;http://www.w3.org/2001/XMLSchema#&quot; &gt;
-     &lt;!ENTITY rdfs &quot;http://www.w3.org/2000/01/rdf-schema#&quot; &gt;
-     &lt;!ENTITY rdf &quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; &gt;
- ]&gt;
- 
- 
- &lt;rdf:RDF xmlns=&quot;http://www.co-ode.org/ontologies/pizza/pizza.owl#&quot;
-      xml:base=&quot;http://www.co-ode.org/ontologies/pizza/pizza.owl&quot;
-      xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema#&quot;
-      xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot;
-      xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
-      xmlns:owl=&quot;http://www.w3.org/2002/07/owl#&quot;&gt;
-     &lt;owl:Ontology rdf:about=&quot;&quot;&gt;
-         &lt;owl:versionInfo xml:lang=&quot;en&quot;
-             &gt;v.1.4. Added Food class (used in domain/range of hasIngredient), Added several hasCountryOfOrigin restrictions on pizzas, Made hasTopping invers functional&lt;/owl:versionInfo&gt;
-         &lt;owl:versionInfo rdf:datatype=&quot;&amp;xsd;string&quot;&gt;version 1.5&lt;/owl:versionInfo&gt;
-         &lt;owl:versionInfo xml:lang=&quot;en&quot;
-             &gt;v.1.5. Removed protege.owl import and references. Made ontology URI date-independent&lt;/owl:versionInfo&gt;
-         &lt;rdfs:comment xml:lang=&quot;en&quot;
-             &gt;An example ontology that contains all constructs required for the various versions of the Pizza Tutorial run by Manchester University (see http://www.co-ode.org/resources/tutorials/)&lt;/rdfs:comment&gt;
-     &lt;/owl:Ontology&gt;
-     
- 
- 
-     &lt;!-- 
-     ///////////////////////////////////////////////////////////////////////////
-     //
-     //   OWL Classes
-     //
-     ///////////////////////////////////////////////////////////////////////////
-      --&gt;
- 
-     
- 
- 
-     &lt;!-- Class: http://www.co-ode.org/ontologies/pizza/pizza.owl#American --&gt;
- 
-     &lt;owl:Class rdf:about=&quot;#American&quot;&gt;
-         &lt;rdfs:label xml:lang=&quot;pt&quot;&gt;Americana&lt;/rdfs:label&gt;
-         &lt;rdfs:subClassOf&gt;
-             &lt;owl:Restriction&gt;
-                 &lt;owl:onProperty rdf:resource=&quot;#hasTopping&quot;/&gt;
-                 &lt;owl:someValuesFrom rdf:resource=&quot;#TomatoTopping&quot;/&gt;
-             &lt;/owl:Re
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Web_Ontology_Language'>Wikipedia</a>:
- &lt;http://example.org/tea.owl&gt; rdf:type owl:Ontology .
-  :Tea  rdf:type            owl:Class .
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav mime.html nearley.html
-
-import ../footer.scroll
+semanticScholar 20
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2004|OWL Pizzas: Practical Experience of Teaching OWL-DL: Common Errors & Common Patterns|10.1007/978-3-540-30202-5_5|365|26|A. Rector and N. Drummond and M. Horridge and J. Rogers and H. Knublauch and R. Stevens and Hai Wang and C. Wroe|9b4b59789aa92386ccc13964339b71fc348a4b7a
+ 2006|Can OWL and Logic Programming Live Together Happily Ever After?|10.1007/11926078_36|148|11|B. Motik and I. Horrocks and R. Rosati and U. Sattler|4b6727c71efc34d393f567c48647dab45abadc15
+ 2008|ELP: Tractable Rules for OWL 2|10.1007/978-3-540-88564-1_41|129|7|M. Krötzsch and S. Rudolph and P. Hitzler|de3b00f44b0bd830254747790326d7288342fcaa
+ 2011|Using OWL ontologies for adaptive patient information modelling and preoperative clinical decision support|10.1007/s10115-010-0351-7|52|4|Matt-Mouley Bouamrane and A. Rector and M. Hurrell|e5a5b24e46bfabe8569dde67275e7968cdb471b7
+ 2008|Integrating Object-Oriented and Ontological Representations: A Case Study in Java and OWL|10.1007/978-3-540-88564-1_9|46|1|Colin Puleston and B. Parsia and James A. Cunningham and A. Rector|aa4c6ec72d5690f7e9c0e21aaa74d7817f860a60
+ 2007|Translating OWL and semantic web rules into prolog: Moving toward description logic programs|10.1017/S1471068407003249|37|1|Ken Samuel and L. Obrst and S. Stoutenburg and Karen Fox and Paul Franklin and Adrian Johnson and K. Laskey and D. Nichols and Steve Lopez and Jason Peterson|fe8f8b351ee0bbe273742e0dc9373c080d9863c5
+ 2006|How to reason with OWL in a logic programming system|10.1109/RULEML.2006.14|33|1|M. Krötzsch and P. Hitzler and Denny Vrandečić and Michael Sintek|a022506f8daec551f86ec601b1e9e972a86271ee
+ 2010|Experience of Using OWL Ontologies for Automated Inference of Routine Pre-operative Screening Tests|10.1007/978-3-642-17749-1_4|20|1|Matt-Mouley Bouamrane and A. Rector and M. Hurrell|a8a00b39aeaf314a245ed804a83933019f0916bd
+ 2004|An Extension to OWL with General Rules|10.1007/978-3-540-30504-0_12|12|0|Jing Mei and Shengping Liu and A. Yue and Zuoquan Lin|57629ca0fcb754c0b3822f1f78181ea06defe407
+ 2006|Frequent Pattern Discovery from OWL DLP Knowledge Bases|10.1007/11891451_26|10|0|J. Józefowska and Agnieszka Lawrynowicz and T. Lukaszewski|4b9ce005761e0f29ffd872a7a67c9aa8b3020958
+ 2011|Zhi# - OWL Aware Compilation|10.1007/978-3-642-21064-8_22|10|0|A. Paar and Denny Vrandečić|f5ad00b924d1bbdacfd3fe471ca9c21227dce0fd
+ 1983|The design of OWL a language for walking|10.1145/800226.806861|8|0|Marc D. Donner|e280ac7364037fe961acaf16d63612720944663f
+ 2012|Recent Advances in Integrating OWL and Rules (Technical Communication)|10.1007/978-3-642-33203-6_20|6|0|Matthias Knorr and David Carral and P. Hitzler and Adila Alfa Krisnadhi and F. Maier and Cong Wang|4bc75f103bcff7a6090d16c14ad599cecba54fc7
+ 2011|Mooop - A Hybrid Integration of OWL and Java|10.1007/978-3-642-22056-2_47|4|1|C. Frenzel and B. Parsia and U. Sattler and B. Bauer|f5d765d5626df880beb35fe280c65035f17adddb
+ 2016|OntoJIT: Parsing Native OWL DL into Executable Ontologies in an Object Oriented Paradigm|10.1007/978-3-319-54627-8_1|3|0|S. Baset and K. Stoffel|cd9274a89973941ed38044c52ad1f2bdcb25f6a6
+ 2020|DaRLing: A Datalog rewriter for OWL 2 RL ontological reasoning under SPARQL queries|10.1017/S1471068420000204|2|0|A. Fiorentino and J. Zangari and M. Manna|a186269b94b12386891b504f5a886da8e23aac89
+ 2006|Programming Language Inherent Support for Constrained XML Schema Definition Data Types and OWL DL|10.1109/ASE.2006.56|2|0|A. Paar and W. Tichy|50ce71f47a268d4db25deeee35217bf984403985
+ 2016|Scowl: a Scala DSL for programming with the OWL API|10.21105/JOSS.00023|2|0|J. Balhoff|0e163b6bea8cd698c47661936fee17f6b061f637
+ 2009|OWL that can Choose to Inherit and Hide it Too|10.1109/ICSC.2009.96|1|0|S. Hosain and H. Jamil|177b9c75727edd97da6cf8be31034c6f9c60578f
+ 2016|Semantic-Web Architecture for Electronic Discharge Summary Based on OWL 2.0 Standard|10.5455/aim.2016.24.182-185|1|0|Shahram Tahmasebian and M. Langarizadeh and M. Ghazisaeidi and R. Safdari|eef0e3fd0fab65ed880806a15bf87f773faadc69

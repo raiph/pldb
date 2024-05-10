@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KRIS
+import ../measures/conceptPage.scroll
+id KRIS
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/c34199349a86a336f43a1b21d43d13067fa0eb5b
+country Germany
+originCommunity Deutsches Forschungszentrum für Künstliche Intelligenz
 
-title KRIS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7714
 
-html
- <a class="trueBaseThemePreviousItem" href="klaim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lamina.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kris.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kris" class="material-symbols-outlined">edit</a></div>
-
-* KRIS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4190 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- KRIS first developed in <a href="../lists/originCommunities.html#deutschesForschungszentrumFurKunstlicheIntelligenz">Deutsches Forschungszentrum für Künstliche Intelligenz</a>
-- KRIS on HOPL
- https://hopl.info/showlanguage.prx?exp=7714
-- Read more about KRIS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c34199349a86a336f43a1b21d43d13067fa0eb5b 1.
-
-<br>
-
-endColumns
-
-keyboardNav klaim.html lamina.html
-
-import ../footer.scroll
+semanticScholar 0

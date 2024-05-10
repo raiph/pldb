@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PLANNER-73
+import ../measures/conceptPage.scroll
+id PLANNER-73
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/692c91426fa930ce043bee9d1e80410927253139
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title PLANNER-73 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3346
 
-html
- <a class="trueBaseThemePreviousItem" href="planit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="playground.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/planner-73.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=planner-73" class="material-symbols-outlined">edit</a></div>
-
-* PLANNER-73 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3939 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- PLANNER-73 first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- PLANNER-73 on HOPL
- https://hopl.info/showlanguage.prx?exp=3346
-- Read more about PLANNER-73 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/692c91426fa930ce043bee9d1e80410927253139 1.
-
-<br>
-
-endColumns
-
-keyboardNav planit.html playground.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

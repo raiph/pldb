@@ -9,14 +9,14 @@ html
  <a class="trueBaseThemePreviousItem" href="hasCharacters.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasClobs.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
  class Person {}
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/cython.html">Cython</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>:
  class Person (object):
    def __init__(self, name):
      self.name = name
@@ -40,11 +40,9 @@ codeWithHeader Example from <a href="../concepts/ruby.html">Ruby</a>:
  person.age = 35
  puts person.age
 
-* Languages *with* Classes include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/haskell.html">Haskell</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/reason.html">Reason</a>, <a href="../concepts/crystal.html">Crystal</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/chapel.html">Chapel</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/clean.html">Clean</a>, <a href="../concepts/systemverilog.html">SystemVerilog</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/angelscript.html">Angelscript</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/jspp.html">JS++</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>, <a href="../concepts/static-typescript.html">Static Typescript</a>
+* Languages *with* Classes include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/haskell.html">Haskell</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/crystal.html">Crystal</a>, <a href="../concepts/chapel.html">Chapel</a>, <a href="../concepts/reason.html">Reason</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/systemverilog.html">SystemVerilog</a>, <a href="../concepts/clean.html">Clean</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/angelscript.html">Angelscript</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/jspp.html">JS++</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
 
-* Languages *without* Classes include <a href="../concepts/c.html">C</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/tick-c.html">Tick C</a>
-
-* This question asks: Does the language have a concept of classes?
+* Languages *without* Classes include <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/c2.html">C2</a>
 
 * Read more about Classes on the web: 1.
  https://en.wikipedia.org/wiki/Class_(computer_programming) 1.

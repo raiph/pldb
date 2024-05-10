@@ -1,107 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Modula-2+
+import ../measures/conceptPage.scroll
+id Modula-2+
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/d81c6d945138c6482837f0a98f2ef9ee3cf224a2
+country Canada
+originCommunity Uniiversity of Toronto
 
-title Modula-2+ - Programming language
- hidden
+supersetOf modula-2
 
-html
- <a class="trueBaseThemePreviousItem" href="metah.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="modula-3-star.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=1101
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/modula-2p.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=modula-2p" class="material-symbols-outlined">edit</a></div>
-
-* Modula-2+ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #4221 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Modula-2+ is a superset of <a href="/concepts/modula-2.html">Modula-2</a>
-- Modula-2+ first developed in <a href="../lists/originCommunities.html#uniiversityOfToronto">Uniiversity of Toronto</a>
-- Modula-2+ on HOPL
- https://hopl.info/showlanguage.prx?exp=1101
-- Read more about Modula-2+ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d81c6d945138c6482837f0a98f2ef9ee3cf224a2 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (* A comment
-   *)
- row
-  Feature Pointers
-  FeatureLink ../features/hasPointers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav metah.html modula-3-star.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

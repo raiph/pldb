@@ -1,45 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SLANG
+import ../measures/conceptPage.scroll
+id SLANG
+appeared 1960
+type pl
+reference https://semanticscholar.org/paper/202c377173b5f557336cab1580222977bec16509
+country United States
+originCommunity IBM
 
-title SLANG - Programming language
- hidden
+rijuRepl https://riju.codes/slang
+ example
+  message("Hello, world!");
+  
 
-html
- <a class="trueBaseThemePreviousItem" href="sheep.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unql-lang.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=154
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/slang" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=slang" class="material-symbols-outlined">edit</a></div>
-
-* SLANG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #3042 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 64 Years Old
-
-* Try now: <a href="https://riju.codes/slang">Riju</a>
-
-* 
-
-- SLANG first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- SLANG on HOPL
- https://hopl.info/showlanguage.prx?exp=154
-- Read more about SLANG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/202c377173b5f557336cab1580222977bec16509 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/slang'>Riju</a>:
- message(&quot;Hello, world!&quot;);
- 
-
-endColumns
-
-keyboardNav sheep.html unql-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

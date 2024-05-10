@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sassy
+import ../measures/conceptPage.scroll
+id Sassy
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/2399ac583e177c9db84bf451910f313269e2e632
+country United States
+originCommunity Colorado State University
 
-title Sassy - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3571
 
-html
- <a class="trueBaseThemePreviousItem" href="sartex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sb-one.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sassy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sassy" class="material-symbols-outlined">edit</a></div>
-
-* Sassy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3995 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- Sassy first developed in <a href="../lists/originCommunities.html#coloradoStateUniversity">Colorado State University</a>
-- Sassy on HOPL
- https://hopl.info/showlanguage.prx?exp=3571
-- Read more about Sassy on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2399ac583e177c9db84bf451910f313269e2e632 1.
-
-<br>
-
-endColumns
-
-keyboardNav sartex.html sb-one.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

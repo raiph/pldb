@@ -1,126 +1,106 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LaTeX
+import ../measures/conceptPage.scroll
+id LaTeX
+appeared 1985
+type textMarkup
+creators Leslie Lamport
+website http://latex-project.org/
+documentation https://www.latex-project.org/help/documentation/
+documentation https://devdocs.io/latex/
+country United States
+originCommunity https://www.latex-project.org/about/team/
+domainName latex-project.org
+ registered 1998
+ awisRank
+  2022 72488
 
-title LaTeX - Text markup language
- hidden
+hasComments true
+hasMultiLineComments false
+hasLineComments true
+ % A comment
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers false
 
-html
- <a class="trueBaseThemePreviousItem" href="common-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vhdl.html">&gt;</a>
+lineCommentToken %
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/latex.pldb
+wikipedia https://en.wikipedia.org/wiki/LaTeX
+ example
+  \documentclass{article}
+  \usepackage{amsmath}
+  \title{\LaTeX}
+  
+  \begin{document}
+    \maketitle
+    \LaTeX{} is a document preparation system for
+    the \TeX{} typesetting program. It offers
+    programmable desktop publishing features and
+    extensive facilities for automating most
+    aspects of typesetting and desktop publishing,
+    including numbering and  cross-referencing,
+    tables and figures, page layout,
+    bibliographies, and much more. \LaTeX{} was
+    originally written in 1984 by Leslie Lamport
+    and has become the  dominant method for using
+    \TeX; few people write in plain \TeX{} anymore.
+    The current version is \LaTeXe.
+  
+    % This is a comment, not shown in final output.
+    % The following shows typesetting  power of LaTeX:
+    \begin{align}
+      E_0 &= mc^2 \\
+      E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
+    \end{align}  
+  \end{document}
+ related tex pdf xml css html xetex solaris freebsd linux postscript lyx-editor perl unix bibtex
+ summary LaTeX (IPA: , LAH-tekh, also pronounced as , LAY-tekh, a shortening of Lamport TeX) is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in WYSIWYG word processors like Microsoft Word, LibreOffice Writer and Apple Pages. The writer uses markup tagging conventions to define the general structure of a document (such as article, book, and letter), to stylise text throughout a document (such as bold and italics), and to add citations and cross-references. A TeX distribution such as TeX Live or MikTeX is used to produce an output file (such as PDF or DVI) suitable for printing or digital distribution. Within the typesetting system, its name is stylised as LaTeX. LaTeX is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, statistics, computer science, engineering, chemistry, physics, economics, linguistics, quantitative psychology, philosophy, and political science. It also has a prominent role in the preparation and publication of books and articles that contain complex multilingual materials, such as Tamil, Sanskrit and Greek. LaTeX uses the TeX typesetting program for formatting its output, and is itself written in the TeX macro language. LaTeX can be used as a standalone document preparation system or as an intermediate format. In the latter role, for example, it is sometimes used as part of a pipeline for translating DocBook and other XML-based formats to PDF. The typesetting system offers programmable desktop publishing features and extensive facilities for automating most aspects of typesetting and desktop publishing, including numbering and cross-referencing of tables and figures, chapter and section headings, the inclusion of graphics, page layout, indexing and bibliographies. Like TeX, LaTeX started as a writing tool for mathematicians and computer scientists, but from early in its development it has also been taken up by scholars who needed to write documents that include complex math expressions or non-Latin scripts, such as Arabic, Sanskrit and Chinese. LaTeX is intended to provide a high-level language that accesses the power of TeX in an easier way for writers. In short, TeX handles the layout side, while LaTeX handles the content side for document processing. LaTeX comprises a collection of TeX macros and a program to process LaTeX documents. Because the plain TeX formatting commands are elementary, it provides authors with ready-made commands for formatting and layout requirements such as chapter headings, footnotes, cross-references and bibliographies. LaTeX was originally written in the early 1980s by Leslie Lamport at SRI International. The current version is LaTeX2e (stylised as LaTeX2ε). LaTeX is free software and is distributed under the LaTeX Project Public License (LPPL).
+ pageId 18195
+ dailyPageViews 1540
+ created 2001
+ backlinksCount 2605
+ revisionCount 1914
+ appeared 1980
 
-startColumns 4
+languageServerProtocolProject https://github.com/efoerster/texlab
 
-<div class="trueBaseThemeQuickLinks"><a href="http://latex-project.org/" class="material-symbols-outlined">home</a> <a href="https://devdocs.io/latex/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/LaTeX"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=latex" class="material-symbols-outlined">edit</a></div>
-
-* LaTeX is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 1985 by Leslie Lamport.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#leslieLamport Leslie Lamport
-
-dashboard
- #88 <span title="TotalRank: 281 Jobs: 103 Users: 136 Facts: 313 Links: 42">on PLDB</span>
- 39 Years Old
-
-* LaTeX (IPA: , LAH-tekh, also pronounced as , LAY-tekh, a shortening of Lamport TeX) is a document preparation system. When writing, the writer uses plain text as opposed to the formatted text found in WYSIWYG word processors like Microsoft Word, LibreOffice Writer and Apple Pages. The writer uses markup tagging conventions to define the general structure of a document (such as article, book, and letter), to stylise text throughout a document (such as bold and italics), and to add citations and cross-references. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/LaTeX Read more on Wikipedia...
-
-- LaTeX website
- http://latex-project.org/
-- LaTeX Wikipedia page
- https://en.wikipedia.org/wiki/LaTeX
-- PLDB has 2 documentation sites for LaTeX: <a href="https://www.latex-project.org/help/documentation/">www.latex-project.org</a>, <a href="https://devdocs.io/latex/">devdocs.io</a>
-- LaTeX first developed in <a href="../lists/originCommunities.html#httpsWwwLatexProjectOrgAboutTeam">https://www.latex-project.org/about/team/</a>
-- Explore LaTeX snippets on <a href="http://www.rosettacode.org/wiki/Category:LaTeX">Rosetta Code</a>
-- LaTeX on HOPL
- https://hopl.info/showlanguage.prx?exp=2157
-- LaTeX <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/efoerster/texlab">implementation</a>
-- <a href="http://latex-project.org/">latex-project.org</a> was registered in 1998
-- See also: (14 related languages)<a href="tex.html">Tex</a>, <a href="pdf.html">PDF</a>, <a href="xml.html">XML</a>, <a href="css.html">CSS</a>, <a href="html.html">HTML</a>, <a href="xetex.html">XeTeX</a>, <a href="solaris.html">Solaris</a>, <a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="postscript.html">PostScript</a>, <a href="lyx-editor.html">LyX</a>, <a href="perl.html">Perl</a>, <a href="unix.html">Unix</a>, <a href="bibtex.html">BibTeX</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/l/LaTeX.tex'>hello-world</a>:
- \documentclass{article}
- \begin{document}
- Hello World
- \end{document}
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#LaTeX'>the Hello World Collection</a>:
+helloWorldCollection LaTeX
  % Hello World! in LaTeX
  \documentclass{article}
  \begin{document}
  Hello World!
  \end{document}
  
+leachim6 LaTeX
+ filepath l/LaTeX.tex
+ fileExtensions tex
+ example
+  \documentclass{article}
+  \begin{document}
+  Hello World
+  \end{document}
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:LaTeX
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/LaTeX'>Wikipedia</a>:
- \documentclass{article}
- \usepackage{amsmath}
- \title{\LaTeX}
- 
- \begin{document}
-   \maketitle
-   \LaTeX{} is a document preparation system for
-   the \TeX{} typesetting program. It offers
-   programmable desktop publishing features and
-   extensive facilities for automating most
-   aspects of typesetting and desktop publishing,
-   including numbering and  cross-referencing,
-   tables and figures, page layout,
-   bibliographies, and much more. \LaTeX{} was
-   originally written in 1984 by Leslie Lamport
-   and has become the  dominant method for using
-   \TeX; few people write in plain \TeX{} anymore.
-   The current version is \LaTeXe.
- 
-   % This is a comment, not shown in final output.
-   % The following shows typesetting  power of LaTeX:
-   \begin{align}
-     E_0 &amp;= mc^2 \\
-     E &amp;= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
-   \end{align}  
- \end{document}
+hopl https://hopl.info/showlanguage.prx?exp=2157
 
-endColumns
+fileType text
+wordRank 5960
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 8
+ year|publisher|title|authors|isbn13
+ 2016|Springer|More Math Into LaTeX|Grätzer, George|9783319237954
+ 2015|Packt Publishing|LaTeX Cookbook|Kottwitz, Stefan|9781784395148
+ 2003|Addison-Wesley Professional|Guide to LaTeX (4th Edition)|Kopka, Helmut and Daly, Patrick W.|9780321173850
+ 2017|Springer|LaTeX in 24 Hours: A Practical Guide for Scientific Writing|Datta, Dilip|9783319478319
+ 28-10-2015|Packt Publishing|LaTeX Cookbook|Stefan Kottwitz|9781784396305
+ 20220131|Springer Nature|Advanced LaTeX in Academia|Marco Öchsner; Andreas Öchsner|9783030889562
+ |Springer International Publishing :|More Math Into LaTeX|Grätzer, George (author.)|9783319237954
+ |Springer International Publishing :|Latex In 24 Hours: A Practical Guide For Scientific Writing|Datta, Dilip (author.)|9783319478319
 
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token %
-  Example
-   % A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav common-lisp.html vhdl.html
-
-import ../footer.scroll
+semanticScholar 5
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2018|An integrated platform for intuitive mathematical programming modeling using LaTeX|10.7717/peerj-cs.161|3|1|Charalampos P. Triantafyllidis and L. Papageorgiou|dc4b0f26004a18d579807090c02cc50ee0838d04
+ 2019|Development and Regression Modeling of Dirt Resistive Latex Façade Paint|10.3390/COATINGS9030150|2|0|Sheraz Ahmed Qureshi and A. Shafeeq and A. Ijaz and Muhammad Moeen Butt|57504ba030e18612a102bd6cbe08ae85cf986bc4
+ 2019|Development of a generator of practical tasks in higher mathematics using the Microsoft Office suite and LaTeX digital typesetting system|10.2991/iscde-19.2019.123|1|0|S. Mukhanov and A. Arkhangelsky and A. Mukhanova|9e5acf9a3b7bb1f7d10c3336314189348af433d3
+ 2019|Development and Statistical Modeling of Dirt Resistive Latex Façade Paint|10.20944/PREPRINTS201901.0076.V1|1|0|Sheraz Ahmad Qureshi and A. Shafeeq and A. Ijaz and Muhammad Moeen Butt|a0d5427c55e5e2e4fb24cf17ef229dfb2e0b2a1b
+ 2020|Reproducible Science with LaTeX|10.6339/21-JDS998|1|0|H. Bar and HaiYing Wang|4408ed3c457007ecfb5917c5e5aa1bde6e73bf38

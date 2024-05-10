@@ -1,61 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 2-pak
+import ../measures/conceptPage.scroll
+id 2-pak
+appeared 1975
+type pl
+reference https://www.ijcai.org/Proceedings/75/Papers/082.pdf
+originCommunity Department of Computer Science, University of Toronto
 
-title 2-pak - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="opengraph.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rbs.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/2-pak.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=2-pak" class="material-symbols-outlined">edit</a></div>
-
-* 2-pak is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #1773 <span title="TotalRank: 2292 Jobs: 103 Users: 2838 Facts: 1203 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- 2-pak first developed in <a href="../lists/originCommunities.html#departmentOfComputerScienceUniversityOfToronto">Department of Computer Science, University of Toronto</a>
-- 2-pak on HOPL
- https://hopl.info/showlanguage.prx?exp=663
-- Read more about 2-pak on the web: 1.
- https://www.ijcai.org/Proceedings/75/Papers/082.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  coroutine FRUIT_GEN()
   begin
   strin g FRUIT ;
-  FRUIT :- &#39;CHERRY1
+  FRUIT :- 'CHERRY1
    ;
   detach ;
   whil e tru e do
   case FRUIT of
-  &#39;CHERRY1
-  : FRUIT := &#39;LEMON1
+  'CHERRY1
+  : FRUIT := 'LEMON1
    ;
-  &#39;LEMON&#39;: FRUIT := &#39;ORANGE?
+  'LEMON': FRUIT := 'ORANGE?
    ;
-  &#39;ORANGE1
-  : FRUIT :- &#39;APPLE&#39; ;
-  &#39;APPLE&#39;: FRUIT :- &#39;CHERRY&#39; ;
+  'ORANGE1
+  : FRUIT :- 'APPLE' ;
+  'APPLE': FRUIT :- 'CHERRY' ;
   end ;
   detach ;
   end ;
   end ;
 
-endColumns
+hopl https://hopl.info/showlanguage.prx?exp=663
 
-keyboardNav opengraph.html rbs.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

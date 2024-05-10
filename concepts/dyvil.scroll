@@ -1,67 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dyvil
+import ../measures/conceptPage.scroll
+id dyvil
+appeared 2014
+type pl
+conceptDescription <a href='https://github.com/Dyvil/Dyvil'>Dyvil</a> is a multi-paradigm, general purpose programming language that is based on Java and the JVM. It is a compiled, statically and strongly typed language that supports object-oriented, functional and imperative programming styles. The language features many high-level constructs as well as an extensible and expressive syntax, making it highly useful for both rapid and safe prototyping, and the creation of domain-specific languages.
+website https://reddit.com/r/Dyvil
+country Germany
+originCommunity https://github.com/Dyvil
 
-title dyvil - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ 'Hello world'
 
-html
- <a class="trueBaseThemePreviousItem" href="genius-extension-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="judoscript.html">&gt;</a>
+printToken print
+stringToken '
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dyvil.pldb
+githubRepo https://github.com/Dyvil/Dyvil
+ stars 55
+ forks 2
+ subscribers 5
+ created 2014
+ updated 2022
+ firstCommit 2014
+ description The Dyvil programming language
+ issues 47
 
-startColumns 4
+repoStats
+ firstCommit 2014
+ commits 4593
+ committers 5
+ files 928
 
-<div class="trueBaseThemeQuickLinks"><a href="https://reddit.com/r/Dyvil" class="material-symbols-outlined">home</a> <a href="dyvil" class="material-symbols-outlined">terminal</a> <a href="https://github.com/Dyvil/Dyvil" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dyvil" class="material-symbols-outlined">edit</a></div>
+leachim6 Dyvil
+ filepath d/Dyvil.dyv
+ fileExtensions dyv
+ example
+  class Dyvil
+  {
+  	static func main(args: [String]) = print 'Hello World'
+  }
+  
 
-* dyvil is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
+tryItOnline dyvil
 
-codeWithHeader Source code:
- git clone https://github.com/Dyvil/Dyvil
-
-dashboard
- #1424 <span title="TotalRank: 1951 Jobs: 103 Users: 1741 Facts: 862 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Try now: <a href="https://tio.run/#dyvil">TIO</a>
-
-* <a href='https://github.com/Dyvil/Dyvil'>Dyvil</a> is a multi-paradigm, general purpose programming language that is based on Java and the JVM. It is a compiled, statically and strongly typed language that supports object-oriented, functional and imperative programming styles. The language features many high-level constructs as well as an extensible and expressive syntax, making it highly useful for both rapid and safe prototyping, and the creation of domain-specific languages.
-
-- dyvil website
- https://reddit.com/r/Dyvil
-- dyvil is developed on <a href="https://github.com/Dyvil/Dyvil">GitHub</a> and has 55 stars
-- dyvil first developed in <a href="../lists/originCommunities.html#httpsGithubComDyvil">https://github.com/Dyvil</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/d/Dyvil.dyv'>hello-world</a>:
- class Dyvil
- {
- 	static func main(args: [String]) = print &#39;Hello World&#39;
- }
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   'Hello world'
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-keyboardNav genius-extension-language.html judoscript.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title astroml
+import ../measures/conceptPage.scroll
+id astroml
+appeared 2012
+type library
+creators Jacob Vanderplas
+website http://www.astroml.org/
+country United States
+originCommunity Google
+domainName astroml.org
+ registered 2013
+ awisRank
+  2022 1299900
 
-title astroml - Library
- hidden
+githubRepo https://github.com/astroML/astroML
+ stars 833
+ forks 283
+ subscribers 93
+ created 2012
+ updated 2022
+ firstCommit 2012
+ description Machine learning, statistics, and data mining for astronomy and astrophysics
+ issues 63
 
-html
- <a class="trueBaseThemePreviousItem" href="ark-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eex.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/astroml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.astroml.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/astroML/astroML" class="material-symbols-outlined">code</a> <a href="/edit.html?id=astroml" class="material-symbols-outlined">edit</a></div>
-
-* astroml is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2012 by Jacob Vanderplas.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#jacobVanderplas Jacob Vanderplas
-
-codeWithHeader Source code:
- git clone https://github.com/astroML/astroML
-
-dashboard
- #1207 on PLDB
- 12 Years Old
-
-* Machine learning, statistics, and data mining for astronomy and astrophysics
-
-- astroml website
- http://www.astroml.org/
-- astroml is developed on <a href="https://github.com/astroML/astroML">GitHub</a> and has 833 stars
-- astroml first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- <a href="http://www.astroml.org/">astroml.org</a> was registered in 2013
-
-<br>
-
-endColumns
-
-keyboardNav ark-lang.html eex.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

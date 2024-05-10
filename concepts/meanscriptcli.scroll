@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MeanscriptCLI
+import ../measures/conceptPage.scroll
+id MeanscriptCLI
+appeared 2020
+type pl
+creators jussehoo
+country Unknown
+originCommunity https://github.com/Meanwhale/MeanscriptCLI/issues
 
-title MeanscriptCLI - Programming language
- hidden
+githubRepo https://github.com/Meanwhale/MeanscriptCLI
+ firstCommit 2020
+ stars 2
+ forks 1
+ subscribers 2
+ created 2020
+ updated 2021
+ description Command line interface for Meanscript
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="fern.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mountain.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/meanscriptcli.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Meanwhale/MeanscriptCLI" class="material-symbols-outlined">code</a> <a href="/edit.html?id=meanscriptcli" class="material-symbols-outlined">edit</a></div>
-
-* MeanscriptCLI is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by jussehoo.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#jussehoo jussehoo
-
-codeWithHeader Source code:
- git clone https://github.com/Meanwhale/MeanscriptCLI
-
-dashboard
- #2358 <span title="TotalRank: 2876 Jobs: 103 Users: 2373 Facts: 1787 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Command line interface for Meanscript
-
-- MeanscriptCLI is developed on <a href="https://github.com/Meanwhale/MeanscriptCLI">GitHub</a> and has 2 stars
-- MeanscriptCLI first developed in <a href="../lists/originCommunities.html#httpsGithubComMeanwhaleMeanscriptCliIssues">https://github.com/Meanwhale/MeanscriptCLI/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav fern.html mountain.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 93
+ committers 5
+ files 1

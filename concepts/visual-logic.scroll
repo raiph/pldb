@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Visual Logic
+import ../measures/conceptPage.scroll
+id Visual Logic
+appeared 2005
+type visual
+website https://www.visuallogic.org/
+domainName visuallogic.org
+ registered 2005
+ awisRank
+  2022 2528639
 
-title Visual Logic - Visual programming language
- hidden
+relatedConcepts flowgorithm
 
-html
- <a class="trueBaseThemePreviousItem" href="ugnis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="woofjs.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visual-logic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.visuallogic.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=visual-logic" class="material-symbols-outlined">edit</a></div>
-
-* Visual Logic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #2885 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 19 Years Old
-
-* 
-
-- Visual Logic website
- https://www.visuallogic.org/
-- <a href="https://www.visuallogic.org/">visuallogic.org</a> was registered in 2005
-- See also: (1 related languages)<a href="flowgorithm.html">Flowgorithm</a>
-
-<br>
-
-endColumns
-
-keyboardNav ugnis.html woofjs.html
-
-import ../footer.scroll
+visualParadigm true

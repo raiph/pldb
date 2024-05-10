@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FLIC
+import ../measures/conceptPage.scroll
+id FLIC
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/66e4059997c3f09b65fc65f630cac128c2521aa8
+country United Kingdom
+originCommunity University College London
 
-title FLIC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3531
 
-html
- <a class="trueBaseThemePreviousItem" href="extended-pascal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flownet.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=flic" class="material-symbols-outlined">edit</a></div>
-
-* FLIC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4137 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- FLIC first developed in <a href="../lists/originCommunities.html#universityCollegeLondon">University College London</a>
-- FLIC on HOPL
- https://hopl.info/showlanguage.prx?exp=3531
-- Read more about FLIC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/66e4059997c3f09b65fc65f630cac128c2521aa8 1.
-
-<br>
-
-endColumns
-
-keyboardNav extended-pascal.html flownet.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sampletalk
+import ../measures/conceptPage.scroll
+id Sampletalk
+appeared 1991
+type pl
+reference https://sampletalk.github.io
+reference https://www.researchgate.net/publication/228631878_Knowledge_representation_via_verbal_description_generalization_alternative_programming_in_sampletalk_language
+country Unknown
+originCommunity https://github.com/sampletalk
 
-title Sampletalk - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2941
 
-html
- <a class="trueBaseThemePreviousItem" href="salem.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scenic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sampletalk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sampletalk" class="material-symbols-outlined">edit</a></div>
-
-* Sampletalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4292 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Sampletalk first developed in <a href="../lists/originCommunities.html#httpsGithubComSampletalk">https://github.com/sampletalk</a>
-- Sampletalk on HOPL
- https://hopl.info/showlanguage.prx?exp=2941
-- Read more about Sampletalk on the web: 1. 2.
- https://sampletalk.github.io 1.
- https://www.researchgate.net/publication/228631878_Knowledge_representation_via_verbal_description_generalization_alternative_programming_in_sampletalk_language 2.
-
-<br>
-
-endColumns
-
-keyboardNav salem.html scenic.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

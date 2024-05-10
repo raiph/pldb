@@ -1,43 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SCROLL
+import ../measures/conceptPage.scroll
+id SCROLL
+appeared 1970
+type pl
+conceptDescription A pattern recording language.
+reference https://semanticscholar.org/paper/06a2ad826a19844977fa42f5e7081fbbff967a15
+country United States 
+originCommunity University of Arizona
 
-title SCROLL - Programming language
- hidden
+relatedConcepts troff
 
-html
- <a class="trueBaseThemePreviousItem" href="ruri.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="squidconf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scroll-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=scroll-lang" class="material-symbols-outlined">edit</a></div>
-
-* SCROLL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3019 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 54 Years Old
-
-* A pattern recording language.
-
-- SCROLL first developed in <a href="../lists/originCommunities.html#universityOfArizona">University of Arizona</a>
-- SCROLL on HOPL
- https://hopl.info/showlanguage.prx?exp=530
-- See also: (1 related languages)<a href="troff.html">Troff</a>
-- Read more about SCROLL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/06a2ad826a19844977fa42f5e7081fbbff967a15 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  A$/BCD$IEF$
 
-endColumns
+hopl https://hopl.info/showlanguage.prx?exp=530
 
-keyboardNav ruri.html squidconf.html
-
-import ../footer.scroll
+wordRank 6842
+centralPackageRepositoryCount 0

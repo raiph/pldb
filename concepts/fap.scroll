@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORTRAN assembly program
+import ../measures/conceptPage.scroll
+id FORTRAN assembly program
+appeared 1959
+type assembly
+reference http://bitsavers.org/pdf/ibm/7090/C28-6235-2_7090_FAP.pdf
+standsFor FORTRAN assembly program
+aka FAP
+country United States
+originCommunity IBM
 
-title FORTRAN assembly program - Assembly language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3357
 
-html
- <a class="trueBaseThemePreviousItem" href="explor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="far.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fap.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fap" class="material-symbols-outlined">edit</a></div>
-
-* FORTRAN assembly program, aka FORTRAN assembly program, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3096 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- FORTRAN assembly program first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- FORTRAN assembly program on HOPL
- https://hopl.info/showlanguage.prx?exp=3357
-- Read more about FORTRAN assembly program on the web: 1.
- http://bitsavers.org/pdf/ibm/7090/C28-6235-2_7090_FAP.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav explor.html far.html
-
-import ../footer.scroll
+isbndb 0

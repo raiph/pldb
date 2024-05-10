@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SMALL-X
+import ../measures/conceptPage.scroll
+id SMALL-X
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/51d74cfa7b2be7e090e07bcd967a2f564fa7ad08
+country United States
+originCommunity Villanova University
 
-title SMALL-X - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7644
 
-html
- <a class="trueBaseThemePreviousItem" href="small-euclid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smalltalk-76.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/small-x.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=small-x" class="material-symbols-outlined">edit</a></div>
-
-* SMALL-X is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #4031 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- SMALL-X first developed in <a href="../lists/originCommunities.html#villanovaUniversity">Villanova University</a>
-- SMALL-X on HOPL
- https://hopl.info/showlanguage.prx?exp=7644
-- Read more about SMALL-X on Semantic Scholar: 1.
- https://semanticscholar.org/paper/51d74cfa7b2be7e090e07bcd967a2f564fa7ad08 1.
-
-<br>
-
-endColumns
-
-keyboardNav small-euclid.html smalltalk-76.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

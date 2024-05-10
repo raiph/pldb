@@ -1,52 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title texti
+import ../measures/conceptPage.scroll
+id texti
+appeared 2017
+type textMarkup
+isPublicDomain true
+creators Gerald Bauer
+conceptDescription The Best of Markdown, Wikipedia Markup, LaTeX & Friends - All Together Now
+website https://texti.github.io
 
-title texti - Text markup language
- hidden
+relatedConcepts markdown mediawiki
 
-html
- <a class="trueBaseThemePreviousItem" href="ssml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blox.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/texti.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://texti.github.io" class="material-symbols-outlined">home</a> <a href="https://github.com/texti/texti.github.io" class="material-symbols-outlined">code</a> <a href="/edit.html?id=texti" class="material-symbols-outlined">edit</a></div>
-
-* texti is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2017 by Gerald Bauer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#geraldBauer Gerald Bauer
-
-codeWithHeader Source code:
- git clone https://github.com/texti/texti.github.io
-
-dashboard
- #1701 <span title="TotalRank: 2212 Jobs: 103 Users: 2328 Facts: 1123 Links: 986">on PLDB</span>
- 7 Years Old
-
-* The Best of Markdown, Wikipedia Markup, LaTeX & Friends - All Together Now
-
-- texti website
- https://texti.github.io
-- texti is developed on <a href="https://github.com/texti/texti.github.io">GitHub</a> and has 10 stars
-- See also: (2 related languages)<a href="markdown.html">Markdown</a>, <a href="mediawiki.html">MediaWiki</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  = Markup language =
  
- A &#39;&#39;&#39;markup language&#39;&#39;&#39; is a system for [[annotation|annotating]] a [[document]]
+ A '''markup language''' is a system for [[annotation|annotating]] a [[document]]
  in a way that is [[Syntax (logic)|syntactically distinguishable]] from the
  text.[^] The idea and terminology
- evolved from the &quot;marking up&quot; of paper manuscripts, i.e., the revision
+ evolved from the "marking up" of paper manuscripts, i.e., the revision
  instructions by editors, traditionally written with a [[blue pencil (editing)|blue pencil]]
- on authors&#39; [[manuscript]]s.
+ on authors' [[manuscript]]s.
 
-endColumns
+githubRepo https://github.com/texti/texti.github.io
+ stars 10
+ forks 0
+ subscribers 4
+ created 2017
+ updated 2021
+ description Website and Spec(ification) - Text with Instructions (.texti) - Structured Documents in Text with Formatting Conventions - The Best of Markdown, Wikipedia Markup, LaTeX & Friends - All Together Now
+ issues 0
 
-keyboardNav ssml.html blox.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 61
+ committers 1
+ files 13

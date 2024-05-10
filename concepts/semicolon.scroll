@@ -1,45 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title semicolon
+import ../measures/conceptPage.scroll
+id semicolon
+appeared 2012
+type esolang
+creators Pavan Kumar Sunkara
+conceptDescription An esoteric language made up of only semicolons. You can't escape the semicolon monster!
+website https://pksunkara.com/semicolon
+documentation https://esolangs.org/wiki/Semicolon
+country India
+originCommunity https://github.com/pksunkara/semicolon/pulls
+versions
+ 2015 v0.1.3
 
-title semicolon - Esoteric programming language
- hidden
+relatedConcepts brainfuck
+influencedBy brainfuck
 
-html
- <a class="trueBaseThemePreviousItem" href="wah.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lever.html">&gt;</a>
+githubRepo https://github.com/pksunkara/semicolon
+ firstCommit 2012
+ stars 128
+ forks 11
+ subscribers 5
+ created 2012
+ updated 2022
+ description A language of semicolons
+ issues 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/semicolon.pldb
+repoStats
+ firstCommit 2012
+ commits 29
+ committers 4
+ files 7
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pksunkara.com/semicolon" class="material-symbols-outlined">home</a> <a href="https://github.com/pksunkara/semicolon" class="material-symbols-outlined">code</a> <a href="https://esolangs.org/wiki/Semicolon" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=semicolon" class="material-symbols-outlined">edit</a></div>
-
-* semicolon is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2012 by Pavan Kumar Sunkara.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#pavanKumarSunkara Pavan Kumar Sunkara
-
-codeWithHeader Source code:
- git clone https://github.com/pksunkara/semicolon
-
-dashboard
- #1750 <span title="TotalRank: 2292 Jobs: 103 Users: 1256 Facts: 1203 Links: 986">on PLDB</span>
- 12 Years Old
-
-* An esoteric language made up of only semicolons. You can't escape the semicolon monster!
-
-- semicolon website
- https://pksunkara.com/semicolon
-- semicolon is developed on <a href="https://github.com/pksunkara/semicolon">GitHub</a> and has 128 stars
-- semicolon docs
- https://esolangs.org/wiki/Semicolon
-- semicolon first developed in <a href="../lists/originCommunities.html#httpsGithubComPksunkaraSemicolonPulls">https://github.com/pksunkara/semicolon/pulls</a>
-- See also: (1 related languages)<a href="brainfuck.html">Brainfuck</a>
-
-<br>
-
-endColumns
-
-keyboardNav wah.html lever.html
-
-import ../footer.scroll
+isOpenSource true

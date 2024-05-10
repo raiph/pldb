@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LG
+import ../measures/conceptPage.scroll
+id LG
+appeared 1969
+type pl
+reference https://semanticscholar.org/paper/863934afa9e8fd7021e1b4d8da8b408302bceeb0
+country Canada
+originCommunity University of Ottawa
 
-title LG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4699
 
-html
- <a class="trueBaseThemePreviousItem" href="lemick.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lisptalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lg" class="material-symbols-outlined">edit</a></div>
-
-* LG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #4198 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- LG first developed in <a href="../lists/originCommunities.html#universityOfOttawa">University of Ottawa</a>
-- LG on HOPL
- https://hopl.info/showlanguage.prx?exp=4699
-- Read more about LG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/863934afa9e8fd7021e1b4d8da8b408302bceeb0 1.
-
-<br>
-
-endColumns
-
-keyboardNav lemick.html lisptalk.html
-
-import ../footer.scroll
+wordRank 3522
+centralPackageRepositoryCount 0

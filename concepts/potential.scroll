@@ -1,44 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title potential
+import ../measures/conceptPage.scroll
+id potential
+appeared 2010
+type pl
+creators Tim Carstens
+website https://web.archive.org/web/20150714061208/https://potential-lang.org
+country United States
+originCommunity https://github.com/intoverflow/Potential/issues
+domainName potential-lang.org
 
-title potential - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="plink-fam-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prodel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/potential.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20150714061208/https://potential-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=potential" class="material-symbols-outlined">edit</a></div>
-
-* potential is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Tim Carstens.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#timCarstens Tim Carstens
-
-dashboard
- #2913 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 14 Years Old
-
-* 
-
-- potential website
- https://web.archive.org/web/20150714061208/https://potential-lang.org
-- potential first developed in <a href="../lists/originCommunities.html#httpsGithubComIntoverflowPotentialIssues">https://github.com/intoverflow/Potential/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of potential
-
-pipeTable
- title|titleLink|date|score|comments
- Monads in Potential: a type-safe x86-64 assembly language|https://news.ycombinator.com/item?id=1419278|06/10/2010|17|0
-
-keyboardNav plink-fam-format.html prodel.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 1419278|Monads in Potential: a type-safe x86-64 assembly language|http://potential-lang.org/2010/06/09/monads-in-potential/|2010-06-10 06:03:18 UTC|1276149798|mbrubeck|0|17

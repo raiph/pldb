@@ -1,148 +1,132 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DTrace
+import ../measures/conceptPage.scroll
+id DTrace
+appeared 2005
+type pl
+conceptDescription DTrace is a comprehensive dynamic tracing framework created by Sun Microsystems for troubleshooting kernel and application problems on production systems in real time.
+website http://dtrace.org/
+country United States
+originCommunity Sun Microsystems
+domainName dtrace.org
+ registered 2010
+ awisRank
+  2022 6607140
 
-title DTrace - Programming language
- hidden
+hasPrintDebugging true
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ /* A comment
+ */
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="slash.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mlir.html">&gt;</a>
+multiLineCommentTokens /* */
+printToken printf
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dtrace.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://dtrace.org/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/DTrace"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=dtrace" class="material-symbols-outlined">edit</a></div>
-
-* DTrace is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #400 <span title="TotalRank: 894 Jobs: 103 Users: 581 Facts: 210 Links: 667">on PLDB</span>
- 19 Years Old
- 534 <span title="DTrace repos on GitHub.">Repos</span>
-
-* DTrace is a comprehensive dynamic tracing framework created by Sun Microsystems for troubleshooting kernel and application problems on production systems in real time. Originally developed for Solaris, it has since been released under the free Common Development and Distribution License (CDDL) and has been ported to several other Unix-like systems. DTrace can be used to get a global overview of a running system, such as the amount of memory, CPU time, filesystem and network resources used by the active processes. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/DTrace Read more on Wikipedia...
-
-- DTrace website
- http://dtrace.org/
-- DTrace Wikipedia page
- https://en.wikipedia.org/wiki/DTrace
-- There are at least 534 DTrace repos on <a href="https://github.com/search?q=language:DTrace">GitHub</a>
-- DTrace first developed in <a href="../lists/originCommunities.html#sunMicrosystems">Sun Microsystems</a>
-- file extensions for DTrace include d
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using DTrace in 2k repos on <a href="https://api.github.com/search/repositories?q=language:DTrace">GitHub</a>
-- GitHub supports <a href="https://github.com/textmate/c.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for DTrace
-- <a href="http://dtrace.org/">dtrace.org</a> was registered in 2010
-- See also: (15 related languages)<a href="solaris.html">Solaris</a>, <a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="assembly-language.html">Assembly language</a>, <a href="java.html">Java</a>, <a href="erlang.html">Erlang</a>, <a href="javascript.html">JavaScript</a>, <a href="perl.html">Perl</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="tcl.html">Tcl</a>, <a href="mysql.html">MySQL</a>, <a href="postgresql.html">PostgreSQL</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Syscall count by syscall
- dtrace -n &#39;syscall:::entry { @num[probefunc] = count(); }&#39;
+ dtrace -n 'syscall:::entry { @num[probefunc] = count(); }'
  # Syscall count by process
- dtrace -n &#39;syscall:::entry { @num[pid,execname] = count(); }&#39;
+ dtrace -n 'syscall:::entry { @num[pid,execname] = count(); }'
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/d/DTrace.d'>hello-world</a>:
- #!/usr/sbin/dtrace -qs
- BEGIN {
- 	printf(&quot;Hello World&quot;);
- 	exit(0);
- }
- 
+wikipedia https://en.wikipedia.org/wiki/DTrace
+ example
+  # New processes with arguments
+  dtrace -n 'proc:::exec-success { trace(curpsinfo->pr_psargs); }'
+  
+  # Files opened by process
+  dtrace -n 'syscall::open*:entry { printf("%s %s",execname,copyinstr(arg0)); }'
+  
+  # Syscall count by program
+  dtrace -n 'syscall:::entry { @num[execname] = count(); }'
+  
+  # Syscall count by syscall
+  dtrace -n 'syscall:::entry { @num[probefunc] = count(); }'
+  
+  # Syscall count by process
+  dtrace -n 'syscall:::entry { @num[pid,execname] = count(); }'
+  
+  # Disk size by process
+  dtrace -n 'io:::start { printf("%d %s %d",pid,execname,args[0]->b_bcount); }'
+  
+  # Pages paged in by process
+  dtrace -n 'vminfo:::pgpgin { @pg[execname] = sum(arg0); }'
+ related solaris freebsd linux c assembly-language java erlang javascript perl php python ruby tcl mysql postgresql
+ summary DTrace is a comprehensive dynamic tracing framework created by Sun Microsystems for troubleshooting kernel and application problems on production systems in real time. Originally developed for Solaris, it has since been released under the free Common Development and Distribution License (CDDL) and has been ported to several other Unix-like systems. DTrace can be used to get a global overview of a running system, such as the amount of memory, CPU time, filesystem and network resources used by the active processes. It can also provide much more fine-grained information, such as a log of the arguments with which a specific function is being called, or a list of the processes accessing a specific file. In 2010, Oracle Corporation acquired Sun Microsystems. In October 2011, Oracle announced the porting of DTrace to Linux, but for several years only an unofficial DTrace port to Linux was available, with no changes in licensing terms.In August 2017, Oracle released DTrace kernel code under the GPLv2+ license, and user space code under GPLv2 and UPL licensing. In September 2018 Microsoft announced that they had ported DTrace from FreeBSD to Windows.In September 2016 the OpenDTrace effort began on github with both code and comprehensive documentation of the system's internals.  The OpenDTrace effort maintains the original CDDL licensing for the code from OpenSolaris with additional code contributions coming under a BSD 2 Clause license.  The goal of OpenDTrace is to provide an OS agnostic, portable implementation of DTrace that is acceptable to all consumers, including macOS, FreeBSD, OpenBSD, NetBSD, and Linux as well as embedded systems.
+ pageId 1179136
+ created 2004
+ backlinksCount 92
+ revisionCount 300
+ dailyPageViews 141
+ appeared 2010
 
-codeWithHeader Example from <a href='https://github.com/textmate/c.tmbundle'>Linguist</a>:
- /*
-  * This software is in the public domain.
-  *
-  * $Id: counts.d 10510 2005-08-15 01:46:19Z kateturner $
-  */
- 
- #pragma D option quiet
- 
- self int tottime;
- BEGIN {
- 	tottime = timestamp;
- }
- 
- php$target:::function-entry
- 	@counts[copyinstr(arg0)] = count();
- }
- 
- END {
- 	printf(&quot;Total time: %dus\n&quot;, (timestamp - tottime) / 1000);
- 	printf(&quot;# calls by function:\n&quot;);
- 	printa(&quot;%-40s %@d\n&quot;, @counts);
- }
- 
- 
+githubLanguage DTrace
+ fileExtensions d
+ trendingProjectsCount 0
+ type programming
+ interpreters dtrace
+ aceMode c_cpp
+ codemirrorMode clike
+ codemirrorMimeType text/x-csrc
+ tmScope source.c
+ aliases dtrace-script
+ repos 534
+githubBigQuery DTrace
+ repos 2080
+ users 1907
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/DTrace'>Wikipedia</a>:
- # New processes with arguments
- dtrace -n &#39;proc:::exec-success { trace(curpsinfo-&gt;pr_psargs); }&#39;
- 
- # Files opened by process
- dtrace -n &#39;syscall::open*:entry { printf(&quot;%s %s&quot;,execname,copyinstr(arg0)); }&#39;
- 
- # Syscall count by program
- dtrace -n &#39;syscall:::entry { @num[execname] = count(); }&#39;
- 
- # Syscall count by syscall
- dtrace -n &#39;syscall:::entry { @num[probefunc] = count(); }&#39;
- 
- # Syscall count by process
- dtrace -n &#39;syscall:::entry { @num[pid,execname] = count(); }&#39;
- 
- # Disk size by process
- dtrace -n &#39;io:::start { printf(&quot;%d %s %d&quot;,pid,execname,args[0]-&gt;b_bcount); }&#39;
- 
- # Pages paged in by process
- dtrace -n &#39;vminfo:::pgpgin { @pg[execname] = sum(arg0); }&#39;
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   /* A comment
+linguistGrammarRepo https://github.com/textmate/c.tmbundle
+ firstCommit 2005
+ lastCommit 2018
+ committerCount 23
+ commitCount 359
+ sampleCount 3
+ example
+  /*
+   * This software is in the public domain.
+   *
+   * $Id: counts.d 10510 2005-08-15 01:46:19Z kateturner $
    */
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printf
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+  
+  #pragma D option quiet
+  
+  self int tottime;
+  BEGIN {
+  	tottime = timestamp;
+  }
+  
+  php$target:::function-entry
+  	@counts[copyinstr(arg0)] = count();
+  }
+  
+  END {
+  	printf("Total time: %dus\n", (timestamp - tottime) / 1000);
+  	printf("# calls by function:\n");
+  	printa("%-40s %@d\n", @counts);
+  }
+  
+  
 
-keyboardNav slash.html mlir.html
+leachim6 DTrace
+ filepath d/DTrace.d
+ fileExtensions d
+ example
+  #!/usr/sbin/dtrace -qs
+  BEGIN {
+  	printf("Hello World");
+  	exit(0);
+  }
+  
 
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0
+
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Advanced Apple Debugging & Reverse Engineering: Exploring Apple code through LLDB, Python and DTrace||Derek Selander|56926999|5.00|2|0
+ Advanced Apple Debugging & Reverse Engineering Second Edition: Exploring Apple code through LLDB, Python and DTrace||raywenderlich.com Team|60459566|0.0|0|0
+
+isbndb 0

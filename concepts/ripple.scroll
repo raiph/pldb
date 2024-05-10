@@ -1,43 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ripple
+import ../measures/conceptPage.scroll
+id Ripple
+appeared 2014
+type pl
+creators Yuya Watari
+conceptDescription Ripple is a programming language which is well designed for numerical simulations.
+website https://github.com/Ripple-Lang/Ripple
+reference https://link.springer.com/chapter/10.1007/978-3-319-98809-2_9
+country Japan
+originCommunity Tokyo Institute of Technology
 
-title Ripple - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="vtl-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="maraca-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ripple.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Ripple-Lang/Ripple" class="material-symbols-outlined">home</a> <a href="https://github.com/Ripple-Lang/Ripple" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ripple" class="material-symbols-outlined">edit</a></div>
-
-* Ripple is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Yuya Watari.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#yuyaWatari Yuya Watari
-
-codeWithHeader Source code:
- git clone https://github.com/Ripple-Lang/Ripple
-
-dashboard
- #1519 <span title="TotalRank: 2033 Jobs: 103 Users: 2392 Facts: 944 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Ripple is a programming language which is well designed for numerical simulations.
-
-- Ripple website
- https://github.com/Ripple-Lang/Ripple
-- Ripple is developed on <a href="https://github.com/Ripple-Lang/Ripple">GitHub</a> and has 2 stars
-- Ripple first developed in <a href="../lists/originCommunities.html#tokyoInstituteOfTechnology">Tokyo Institute of Technology</a>
-- Read more about Ripple on the web: 1.
- https://link.springer.com/chapter/10.1007/978-3-319-98809-2_9 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // Stage
  //   - A target object of this simulation
  stage n as long; // the number of mice
@@ -45,16 +17,24 @@ codeWithHeader Example from the web:
  param c as int;  // the number of mice which one mouse gives birth to
  // Initialization
  init {
-     n&lt;0&gt; = 2; // n&lt;0&gt; means the value of n when time is 0
+     n<0> = 2; // n<0> means the value of n when time is 0
  }
  // Operation
  //   - Code which is executed every time (like recurrence formula)
  operation {
-     n&lt;next&gt; = n&lt;now&gt; * c; // &quot;now&quot; and &quot;next&quot; are keywords in Ripple. next == now + 1.
+     n<next> = n<now> * c; // "now" and "next" are keywords in Ripple. next == now + 1.
  }
 
-endColumns
+githubRepo https://github.com/Ripple-Lang/Ripple
+ stars 2
+ forks 0
+ subscribers 2
+ created 2014
+ updated 2017
+ description Programming Language "Ripple"
 
-keyboardNav vtl-lang.html maraca-lang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 20
+ committers 3
+ files 175

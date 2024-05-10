@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Refined C
+import ../measures/conceptPage.scroll
+id Refined C
+appeared 1984
+type pl
+creators Henry G. Dietz
+reference https://semanticscholar.org/paper/d7a4f792359ca2b47f15110c8a6a59c151e729ff
+country United States
+originCommunity Polytechnic University
 
-title Refined C - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1116
 
-html
- <a class="trueBaseThemePreviousItem" href="rebus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rel-english.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/refined-c.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=refined-c" class="material-symbols-outlined">edit</a></div>
-
-* Refined C is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984 by Henry G. Dietz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
- link ../lists/creators.html#henryGDietz Henry G. Dietz
-
-dashboard
- #4280 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Refined C first developed in <a href="../lists/originCommunities.html#polytechnicUniversity">Polytechnic University</a>
-- Refined C on HOPL
- https://hopl.info/showlanguage.prx?exp=1116
-- Read more about Refined C on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d7a4f792359ca2b47f15110c8a6a59c151e729ff 1.
-
-<br>
-
-endColumns
-
-keyboardNav rebus.html rel-english.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SYNTEX
+import ../measures/conceptPage.scroll
+id SYNTEX
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/ea6deec98c58f3bb38bfa0c6ede5490261fe822e
 
-title SYNTEX - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4131
 
-html
- <a class="trueBaseThemePreviousItem" href="symbmath.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tactics.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/syntex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=syntex" class="material-symbols-outlined">edit</a></div>
-
-* SYNTEX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3434 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- SYNTEX on HOPL
- https://hopl.info/showlanguage.prx?exp=4131
-- Read more about SYNTEX on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ea6deec98c58f3bb38bfa0c6ede5490261fe822e 1.
-
-<br>
-
-endColumns
-
-keyboardNav symbmath.html tactics.html
-
-import ../footer.scroll
+semanticScholar 0

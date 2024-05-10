@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title QLISP
+import ../measures/conceptPage.scroll
+id QLISP
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/34c3e2530d7543a7acce3053617f00bc195a24e5
+country United States
+originCommunity Lucid, Inc
 
-title QLISP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1426
 
-html
- <a class="trueBaseThemePreviousItem" href="qa4.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qunity.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/qlisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=qlisp" class="material-symbols-outlined">edit</a></div>
-
-* QLISP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #3971 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- QLISP first developed in <a href="../lists/originCommunities.html#lucidInc">Lucid, Inc</a>
-- QLISP on HOPL
- https://hopl.info/showlanguage.prx?exp=1426
-- Read more about QLISP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/34c3e2530d7543a7acce3053617f00bc195a24e5 1.
-
-<br>
-
-endColumns
-
-keyboardNav qa4.html qunity.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

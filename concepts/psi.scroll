@@ -1,39 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PSI
+import ../measures/conceptPage.scroll
+id PSI
+appeared 2013
+type pl
+reference http://departure.dk/files/pspl.pdf
+country Germany
+originCommunity http://departure.dk
 
-title PSI - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6348
 
-html
- <a class="trueBaseThemePreviousItem" href="pandora.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="push.html">&gt;</a>
+wordRank 8802
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/psi.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=psi" class="material-symbols-outlined">edit</a></div>
-
-* PSI is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-dashboard
- #2662 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 11 Years Old
-
-* 
-
-- PSI first developed in <a href="../lists/originCommunities.html#httpDepartureDk">http://departure.dk</a>
-- PSI on HOPL
- https://hopl.info/showlanguage.prx?exp=6348
-- Read more about PSI on the web: 1.
- http://departure.dk/files/pspl.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav pandora.html push.html
-
-import ../footer.scroll
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 2008|Springer|Perspectives of system informatics: 4th International Andrei Ershov Memorial Conference, PSI 2001, Akademgorodok, Novosibirsk, Russia, July 2-6, 2001 : revised papers|International Andrei Ershov Memorial Conference (4th : 2001 : Novosibirsk, Russia)|9783540430759
+ 2003|Springer|Perspectives Of Systems Informatics: 5th International Andrei Ershov Memorial Conference, Psi 2003, Akademgorodok, Novosibirsk, Russia, July 9-12, ... Papers (lecture Notes In Computer Science)|International Andrei Ershov Memorial Conference (5th : 2003 : Akademgorodok, Novosibirsk, Russia)|9783540208136
+ 2016|Springer|Perspectives of System Informatics: 10th International Andrei Ershov Informatics Conference, PSI 2015, in Memory of Helmut Veith, Kazan and Innopolis, ... Notes in Computer Science Book 9609)|Manuel Mazzara|9783319415796
+ 2010|Springer Netherlands|Multicriteria Analysis in Engineering: Using the PSI Method with MOVI 1.0|Statnikov, R.B. and Matusov, J.B.|9789401599689
+ 2015|Springer|Perspectives of System Informatics: 9th International Ershov Informatics Conference, PSI 2014, St. Petersburg, Russia, June 24-27, 2014. Revised Selected ... Notes in Computer Science Book 8974)|Andrei Voronkov|9783662468234

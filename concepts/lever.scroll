@@ -1,42 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lever
+import ../measures/conceptPage.scroll
+id lever
+appeared 2015
+type pl
+conceptDescription A dynamically typed language built to absorb features from other languages.
+website http://leverlanguage.com/
+country Finland
+originCommunity https://github.com/cheery/lever/issues
+domainName leverlanguage.com
+ registered 2015
+ awisRank
+  2022 9766630
 
-title lever - Programming language
- hidden
+githubRepo https://github.com/cheery/lever
+ stars 121
+ forks 11
+ subscribers 13
+ created 2015
+ updated 2022
+ firstCommit 2014
+ description A programming language in the Perl/Python/Ruby group
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="semicolon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wonkey.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 694
+ committers 6
+ files 669
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lever.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://leverlanguage.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/cheery/lever" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lever" class="material-symbols-outlined">edit</a></div>
-
-* lever is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/cheery/lever
-
-dashboard
- #1751 <span title="TotalRank: 2292 Jobs: 103 Users: 1269 Facts: 1203 Links: 986">on PLDB</span>
- 9 Years Old
-
-* A dynamically typed language built to absorb features from other languages.
-
-- lever website
- http://leverlanguage.com/
-- lever is developed on <a href="https://github.com/cheery/lever">GitHub</a> and has 121 stars
-- lever first developed in <a href="../lists/originCommunities.html#httpsGithubComCheeryLeverIssues">https://github.com/cheery/lever/issues</a>
-- <a href="http://leverlanguage.com/">leverlanguage.com</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav semicolon.html wonkey.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

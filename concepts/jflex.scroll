@@ -1,149 +1,138 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JFlex
+import ../measures/conceptPage.scroll
+id JFlex
+appeared 2003
+type grammarLanguage
+conceptDescription JFlex is a lexical analyzer generator (also known as scanner generator) for Java, written in Java.
+website http://jflex.de/
+country Switzerland and Australia
+originCommunity https://github.com/jflex-de/
+domainName jflex.de
+ awisRank
+  2022 2163823
 
-title JFlex - Grammar language
- hidden
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="malbolge.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="katex.html">&gt;</a>
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jflex.pldb
+githubRepo https://github.com/jflex-de/jflex
+ firstCommit 2003
+ stars 469
+ forks 101
+ subscribers 22
+ created 2015
+ updated 2022
+ description The fast scanner generator for Java™ with full Unicode support
+ issues 49
 
-startColumns 4
+repoStats
+ firstCommit 2003
+ commits 2496
+ committers 27
+ files 8186
 
-<div class="trueBaseThemeQuickLinks"><a href="http://jflex.de/" class="material-symbols-outlined">home</a> <a href="https://github.com/jflex-de/jflex" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jflex" class="material-symbols-outlined">edit</a></div>
+githubLanguage JFlex
+ fileExtensions flex jflex
+ trendingProjectsCount 0
+ type programming
+ group Lex
+ aceMode text
+ tmScope source.jflex
+ repos 2
+githubBigQuery JFlex
+ repos 39
+ users 38
 
-* JFlex is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
+linguistGrammarRepo https://github.com/jflex-de/jflex.tmbundle.git
+ firstCommit 2015
+ lastCommit 2017
+ committerCount 1
+ commitCount 5
+ sampleCount 2
+ example
+  /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+   * Copyright (C) 1998-2015  Gerwin Klein <lsf@jflex.de>                    *
+   * All rights reserved.                                                    *
+   *                                                                         *
+   * License: BSD                                                            *
+   *                                                                         *
+   * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+  
+  /* Java 1.2 language lexer specification */
+  
+  /* Use together with unicode.flex for Unicode preprocesssing */
+  /* and java12.cup for a Java 1.2 parser                      */
+  
+  /* Note that this lexer specification is not tuned for speed.
+     It is in fact quite slow on integer and floating point literals, 
+     because the input is read twice and the methods used to parse
+     the numbers are not very fast. 
+     For a production quality application (e.g. a Java compiler) 
+     this could be optimized */
+  
+  
+  import java_cup.runtime.*;
+  
+  %%
+  
+  %public
+  %class Scanner
+  %implements sym
+  
+  %unicode
+  
+  %line
+  %column
+  
+  %cup
+  %cupdebug
+  
+  %{
+    StringBuilder string = new StringBuilder();
+    
+    private Symbol symbol(int type) {
+      return new JavaSymbol(type, yyline+1, yycolumn+1);
+    }
+  
+    private Symbol symbol(int type, Object value) {
+      return new JavaSymbol(type, yyline+1, yycolumn+1, value);
+    }
+  
+    /** 
+     * assumes correct representation of a long value for 
+     * specified radix in scanner buffer from <code>start</code> 
+     * to <code>end</code> 
+     */
+    private long parseLong(int start, int end, int radix) {
+      long result = 0;
+      long digit;
+  
+      for (int i = start; i < end; i++) {
+        digit  = Character.digit(yycharat(i),radix);
+        result*= radix;
+        result+= digit;
+      }
+  
+      return result;
+    }
+  %}
+  
+  /* main character classes */
+  LineTerminator = \r|\n|\r\n
+  InputCharacter = [^\r\n]
+  
+  WhiteSpace = {LineTerminator} | [ \t\f]
+  
+  /* comments */
+  Comment = {Tradi
 
-codeWithHeader Source code:
- git clone https://github.com/jflex-de/jflex
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #377 <span title="TotalRank: 853 Jobs: 103 Users: 563 Facts: 187 Links: 986">on PLDB</span>
- 21 Years Old
- 2 <span title="JFlex repos on GitHub.">Repos</span>
-
-* JFlex is a lexical analyzer generator (also known as scanner generator) for Java, written in Java.
-
-- JFlex website
- http://jflex.de/
-- JFlex is developed on <a href="https://github.com/jflex-de/jflex">GitHub</a> and has 469 stars
-- There are at least 2 JFlex repos on <a href="https://github.com/search?q=language:JFlex">GitHub</a>
-- JFlex first developed in <a href="../lists/originCommunities.html#httpsGithubComJflexDe">https://github.com/jflex-de/</a>
-- file extensions for JFlex include flex and jflex
-- The  Google BigQuery Public Dataset GitHub snapshot shows 38 users using JFlex in 39 repos on <a href="https://api.github.com/search/repositories?q=language:JFlex">GitHub</a>
-- GitHub supports <a href="https://github.com/jflex-de/jflex.tmbundle.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for JFlex
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/jflex-de/jflex.tmbundle.git'>Linguist</a>:
- /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-  * Copyright (C) 1998-2015  Gerwin Klein &lt;lsf@jflex.de&gt;                    *
-  * All rights reserved.                                                    *
-  *                                                                         *
-  * License: BSD                                                            *
-  *                                                                         *
-  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
- 
- /* Java 1.2 language lexer specification */
- 
- /* Use together with unicode.flex for Unicode preprocesssing */
- /* and java12.cup for a Java 1.2 parser                      */
- 
- /* Note that this lexer specification is not tuned for speed.
-    It is in fact quite slow on integer and floating point literals, 
-    because the input is read twice and the methods used to parse
-    the numbers are not very fast. 
-    For a production quality application (e.g. a Java compiler) 
-    this could be optimized */
- 
- 
- import java_cup.runtime.*;
- 
- %%
- 
- %public
- %class Scanner
- %implements sym
- 
- %unicode
- 
- %line
- %column
- 
- %cup
- %cupdebug
- 
- %{
-   StringBuilder string = new StringBuilder();
-   
-   private Symbol symbol(int type) {
-     return new JavaSymbol(type, yyline+1, yycolumn+1);
-   }
- 
-   private Symbol symbol(int type, Object value) {
-     return new JavaSymbol(type, yyline+1, yycolumn+1, value);
-   }
- 
-   /** 
-    * assumes correct representation of a long value for 
-    * specified radix in scanner buffer from &lt;code&gt;start&lt;/code&gt; 
-    * to &lt;code&gt;end&lt;/code&gt; 
-    */
-   private long parseLong(int start, int end, int radix) {
-     long result = 0;
-     long digit;
- 
-     for (int i = start; i &lt; end; i++) {
-       digit  = Character.digit(yycharat(i),radix);
-       result*= radix;
-       result+= digit;
-     }
- 
-     return result;
-   }
- %}
- 
- /* main character classes */
- LineTerminator = \r|\n|\r\n
- InputCharacter = [^\r\n]
- 
- WhiteSpace = {LineTerminator} | [ \t\f]
- 
- /* comments */
- Comment = {Tradi
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   /* A comment
-   */
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav malbolge.html katex.html
-
-import ../footer.scroll
+isbndb 0

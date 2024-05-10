@@ -1,28 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PowerQuery M
+import ../measures/conceptPage.scroll
+id PowerQuery M
+appeared 2015
+type queryLanguage
+conceptDescription The Power Query M formula language is optimized for building highly flexible data mashup queries. It's a functional, case sensitive language similar to F#.
+website https://docs.microsoft.com/en-us/powerquery-m/
+reference https://docs.microsoft.com/en-us/powerquery-m/power-query-m-type-system
+aka m
+aka powerquery
+originCommunity Microsoft
 
-title PowerQuery M - Query language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasStrings true
+hasMultiLineComments true
+ /* A comment
+ */
+hasBooleans true
+hasConditionals true
 
-html
- <a class="trueBaseThemePreviousItem" href="dlvm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ren-notation.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
+stringToken "
+booleanTokens true false
+keywords as each else error false if in is let meta otherwise section shared then true try type
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/power-query-m.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://docs.microsoft.com/en-us/powerquery-m/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=power-query-m" class="material-symbols-outlined">edit</a></div>
-
-* PowerQuery M is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #1245 <span title="TotalRank: 1781 Jobs: 103 Users: 2442 Facts: 692 Links: 986">on PLDB</span>
- 9 Years Old
-
-monacoEditor powerquery
+example
  "Hello World"             // a text value 
  123                       // a number 
  1 + 2                     // sum of two numbers 
@@ -33,96 +38,17 @@ monacoEditor powerquery
  if 2 > 1 then 2 else 1    // a conditional expression 
  let x = 1 + 1  in x * 2   // a let expression 
  error "A"                 // error with message "A"
-
-* The Power Query M formula language is optimized for building highly flexible data mashup queries. It's a functional, case sensitive language similar to F#.
-
-- PowerQuery M website
- https://docs.microsoft.com/en-us/powerquery-m/
-- PowerQuery M first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/powerquery">package</a> for syntax highlighting PowerQuery M
-- Read more about PowerQuery M on the web: 1.
- https://docs.microsoft.com/en-us/powerquery-m/power-query-m-type-system 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &quot;Hello World&quot;             // a text value 
- 123                       // a number 
- 1 + 2                     // sum of two numbers 
- {1, 2, 3}                 // a list of three numbers 
- [ x = 1, y = 2 + 3 ]      // a record containing two fields: 
-                           //        x and y 
- (x, y) =&gt; x + y           // a function that computes a sum 
- if 2 &gt; 1 then 2 else 1    // a conditional expression 
- let x = 1 + 1  in x * 2   // a let expression 
- error &quot;A&quot;                 // error with message &quot;A&quot;
-
-codeWithHeader Example from the web:
+example
  let Orders = Table.FromRecords({  
-     [OrderID = 1, CustomerID = 1, Item = &quot;fishing rod&quot;, Price = 100.0],  
-     [OrderID = 2, CustomerID = 1, Item = &quot;1 lb. worms&quot;, Price = 5.0],  
-     [OrderID = 3, CustomerID = 2, Item = &quot;fishing net&quot;, Price = 25.0]}),  
-     #&quot;Capitalized Each Word&quot; = Table.TransformColumns(Orders, {&quot;Item&quot;, Text.Proper})  
+     [OrderID = 1, CustomerID = 1, Item = "fishing rod", Price = 100.0],  
+     [OrderID = 2, CustomerID = 1, Item = "1 lb. worms", Price = 5.0],  
+     [OrderID = 3, CustomerID = 2, Item = "fishing net", Price = 25.0]}),  
+     #"Capitalized Each Word" = Table.TransformColumns(Orders, {"Item", Text.Proper})  
  in  
-     #&quot;Capitalized Each Word&quot;
+     #"Capitalized Each Word"
 
-<div class="keywordsBlock">
-codeWithHeader PowerQuery M <a href="../lists/keywords.html?filter=power-query-m">Keywords</a>
- as each else error false if in is let meta otherwise section shared then true try type
-</div>
+monaco powerquery
 
-endColumns
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav dlvm.html ren-notation.html
-
-import ../footer.scroll
+isbndb 0

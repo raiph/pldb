@@ -1,36 +1,5 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title unlws
-
-title unlws - Notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="rlox.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="floral.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unlws.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://s.ai/nlws/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=unlws" class="material-symbols-outlined">edit</a></div>
-
-* unlws is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+notation">notation</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2748 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 4317 Links: 986">on PLDB</span>
- 14 Years Old
-
-* 
-
-- unlws website
- https://s.ai/nlws/
-
-<br>
-
-endColumns
-
-keyboardNav rlox.html floral.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id unlws
+appeared 2010
+type notation
+website https://s.ai/nlws/

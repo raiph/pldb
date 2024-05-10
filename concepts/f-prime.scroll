@@ -1,42 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title F Prime
+import ../measures/conceptPage.scroll
+id F Prime
+appeared 2017
+type library
+creators Timothy Canham
+conceptDescription F' - A flight software and embedded systems framework
+website https://nasa.github.io/fprime/
+aka F'
+country United States
+originCommunity https://github.com/nasa/
 
-title F Prime - Library
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="digital-command-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="z-shell.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/f-prime.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://nasa.github.io/fprime/" class="material-symbols-outlined">home</a> <a href="https://github.com/nasa/fprime" class="material-symbols-outlined">code</a> <a href="/edit.html?id=f-prime" class="material-symbols-outlined">edit</a></div>
-
-* F Prime is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2017 by Timothy Canham.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#timothyCanham Timothy Canham
-
-codeWithHeader Source code:
- git clone https://github.com/nasa/fprime
-
-dashboard
- #781 on PLDB
- 7 Years Old
-
-* F' - A flight software and embedded systems framework
-
-- F Prime website
- https://nasa.github.io/fprime/
-- F Prime is developed on <a href="https://github.com/nasa/fprime">GitHub</a> and has 8,970 stars
-- F Prime first developed in <a href="../lists/originCommunities.html#httpsGithubComNasa">https://github.com/nasa/</a>
-
-<br>
-
-endColumns
-
-keyboardNav digital-command-language.html z-shell.html
-
-import ../footer.scroll
+githubRepo https://github.com/nasa/fprime
+ firstCommit 2017
+ stars 8970
+ forks 1144
+ subscribers 272
+ created 2017
+ updated 2022
+ description F' - A flight software and embedded systems framework
+ issues 95

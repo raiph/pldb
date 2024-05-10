@@ -1,56 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MDX
+import ../measures/conceptPage.scroll
+id MDX
+appeared 2017
+type textMarkup
+creators John Otander
+conceptDescription MDX allows you to use JSX in your markdown content. You can import components, such as interactive charts or alerts, and embed them within your content.
+website https://mdxjs.com/
+webRepl https://mdxjs.com/playground/
+country Various
+originCommunity https://github.com/mdx-js
+domainName mdxjs.com
+ registered 2018
+ awisRank
+  2022 345081
 
-title MDX - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="fortress.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="imap-protocol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mdx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mdxjs.com/" class="material-symbols-outlined">home</a> <a href="https://mdxjs.com/playground/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/mdx-js/mdx" class="material-symbols-outlined">code</a> <a href="https://twitter.com/chrisbiscardi"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=mdx" class="material-symbols-outlined">edit</a></div>
-
-* MDX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2017 by John Otander.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#johnOtander John Otander
-
-codeWithHeader Source code:
- git clone https://github.com/mdx-js/mdx
-
-dashboard
- #490 <span title="TotalRank: 1024 Jobs: 103 Users: 89 Facts: 832 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Try now: <a href="https://mdxjs.com/playground/">Web</a>
-
-* MDX allows you to use JSX in your markdown content. You can import components, such as interactive charts or alerts, and embed them within your content.
-
-- MDX website
- https://mdxjs.com/
-- MDX is developed on <a href="https://github.com/mdx-js/mdx">GitHub</a> and has 13,350 stars
-- MDX first developed in <a href="../lists/originCommunities.html#httpsGithubComMdxJs">https://github.com/mdx-js</a>
-- MDX on Twitter
- https://twitter.com/chrisbiscardi
-- <a href="https://mdxjs.com/">mdxjs.com</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
- import { Chart } from &#39;../components/chart&#39;
+example
+ import { Chart } from '../components/chart'
  
  # Here’s a chart
  
  The chart is rendered inside our MDX document.
  
- &lt;Chart /&gt;
+ <Chart />
 
-endColumns
+githubRepo https://github.com/mdx-js/mdx
+ firstCommit 2017
+ stars 13350
+ forks 1109
+ subscribers 80
+ created 2017
+ updated 2022
+ description Markdown for the component era
+ issues 19
 
-keyboardNav fortress.html imap-protocol.html
+repoStats
+ firstCommit 2017
+ commits 1855
+ committers 182
+ files 196
 
-import ../footer.scroll
+twitter https://twitter.com/chrisbiscardi
+
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2013-08-26|Packt Publishing|Instant MDX Queries for SQL Server 2012|Nicholas Emond|9781782178071
+
+semanticScholar 0

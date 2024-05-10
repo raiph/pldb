@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Binary Ninja
-
-title Binary Ninja - Decompiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="arrow-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bjou.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/binary-ninja.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://binary.ninja/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=binary-ninja" class="material-symbols-outlined">edit</a></div>
-
-* Binary Ninja is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+decompiler">decompiler</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3431 on PLDB
- 9 Years Old
-
-* Binary Ninja is an interactive disassembler, decompiler, and binary analysis platform for reverse engineers, malware analysts, vulnerability researchers, and software developers that runs on Windows, macOS, Linux.
-
-- Binary Ninja website
- https://binary.ninja/
-- Binary Ninja first developed in <a href="../lists/originCommunities.html#vector35">Vector 35</a>
-- <a href="https://binary.ninja/">binary.ninja</a> was registered in 2014
-
-<br>
-
-endColumns
-
-keyboardNav arrow-format.html bjou.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Binary Ninja
+appeared 2015
+type decompiler
+conceptDescription Binary Ninja is an interactive disassembler, decompiler, and binary analysis platform for reverse engineers, malware analysts, vulnerability researchers, and software developers that runs on Windows, macOS, Linux.
+website https://binary.ninja/
+country United States
+originCommunity Vector 35
+domainName binary.ninja
+ registered 2014
+ awisRank
+  2022 1277213

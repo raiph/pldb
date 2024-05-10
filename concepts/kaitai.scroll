@@ -1,50 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kaitai
+import ../measures/conceptPage.scroll
+id kaitai
+appeared 2016
+type idl
+creators Mikhail Yakshin
+conceptDescription Kaitai Struct is a YAML-based declarative language used to describe various binary data structures, laid out in files or in memory: i.e. binary file formats, network stream packet formats, etc. The main idea is that a particular format is described in Kaitai Struct language (.ksy file) and then can be compiled with ksc into source files in one of the supported programming languages. These modules will include a generated code for a parser that can read described data structure from a file / stream and give access to it in a nice, easy-to-comprehend API.
+website http://kaitai.io/
+webRepl https://ide.kaitai.io/
+reference http://kaitai.io/
+fileExtensions ksy
+country Various
+originCommunity http://kaitai.io/
+domainName kaitai.io
+ registered 2016
+ awisRank
+  2022 1411715
 
-title kaitai - Interface design language
- hidden
+relatedConcepts protobuf
 
-html
- <a class="trueBaseThemePreviousItem" href="pawn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="codeql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaitai.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://kaitai.io/" class="material-symbols-outlined">home</a> <a href="https://ide.kaitai.io/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/kaitai-io/kaitai_struct" class="material-symbols-outlined">code</a> <a href="https://twitter.com/kaitai_io"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=kaitai" class="material-symbols-outlined">edit</a></div>
-
-* kaitai is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2016 by Mikhail Yakshin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#mikhailYakshin Mikhail Yakshin
-
-codeWithHeader Source code:
- git clone https://github.com/kaitai-io/kaitai_struct
-
-dashboard
- #520 <span title="TotalRank: 1064 Jobs: 103 Users: 256 Facts: 705 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Try now: <a href="https://ide.kaitai.io/">Web</a>
-
-* Kaitai Struct is a YAML-based declarative language used to describe various binary data structures, laid out in files or in memory: i.e. binary file formats, network stream packet formats, etc. The main idea is that a particular format is described in Kaitai Struct language (.ksy file) and then can be compiled with ksc into source files in one of the supported programming languages. These modules will include a generated code for a parser that can read described data structure from a file / stream and give access to it in a nice, easy-to-comprehend API.
-
-- kaitai website
- http://kaitai.io/
-- kaitai is developed on <a href="https://github.com/kaitai-io/kaitai_struct">GitHub</a> and has 3,040 stars
-- kaitai first developed in <a href="../lists/originCommunities.html#httpKaitaiIo">http://kaitai.io/</a>
-- file extensions for kaitai include ksy
-- kaitai on Twitter
- https://twitter.com/kaitai_io
-- <a href="http://kaitai.io/">kaitai.io</a> was registered in 2016
-- See also: (1 related languages)<a href="protobuf.html">Protocol Buffers</a>
-- Read more about kaitai on the web: 1.
- http://kaitai.io/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  meta:
    id: tcp_segment
    endian: be
@@ -58,8 +31,24 @@ codeWithHeader Example from the web:
    - id: ack_num
      type: u4
 
-endColumns
+githubRepo https://github.com/kaitai-io/kaitai_struct
+ firstCommit 2016
+ stars 3040
+ forks 154
+ subscribers 93
+ created 2016
+ updated 2022
+ description Kaitai Struct: declarative language to generate binary data parsers in C++ / C# / Go / Java / JavaScript / Lua / Perl / PHP / Python / Ruby
+ issues 449
 
-keyboardNav pawn.html codeql.html
+repoStats
+ firstCommit 2016
+ commits 943
+ committers 16
+ files 23
 
-import ../footer.scroll
+twitter https://twitter.com/kaitai_io
+
+isbndb 0
+
+semanticScholar 0

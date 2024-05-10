@@ -1,45 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title zz
+import ../measures/conceptPage.scroll
+id zz
+appeared 2019
+type pl
+creators Arvid E. Picciani
+aka drunk octopus
 
-title zz - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="joy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mckeeman-form.html">&gt;</a>
+printToken printf
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/aep/zz" class="material-symbols-outlined">code</a> <a href="/edit.html?id=zz" class="material-symbols-outlined">edit</a></div>
-
-* zz is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Arvid E. Picciani.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#arvidEPicciani Arvid E. Picciani
-
-codeWithHeader Source code:
- git clone https://github.com/aep/zz
-
-dashboard
- #752 <span title="TotalRank: 1321 Jobs: 103 Users: 386 Facts: 832 Links: 986">on PLDB</span>
- 5 Years Old
-
-* 🍺🐙  ZetZ a zymbolic verifier and tranzpiler to bare metal C
-
-- zz is developed on <a href="https://github.com/aep/zz">GitHub</a> and has 1,603 stars
-
-<br>
-
-codeWithHeader Example from the web:
- using &lt;stdio.h&gt;::{printf}
+example
+ using <stdio.h>::{printf}
  
- export fn main() -&gt; int {
+ export fn main() -> int {
      let r = Random{
          num: 42,
      };
-     printf(&quot;your lucky number: %u\n&quot;, r.gen());
+     printf("your lucky number: %u\n", r.gen());
      return 0;
  }
  
@@ -47,22 +24,24 @@ codeWithHeader Example from the web:
      u32 num;
  }
  
- fn gen(Random *self) -&gt; u32 {
-     return self-&gt;num;
+ fn gen(Random *self) -> u32 {
+     return self->num;
  }
 
-endColumns
+githubRepo https://github.com/aep/zz
+ firstCommit 2019
+ stars 1603
+ forks 45
+ subscribers 39
+ created 2019
+ updated 2022
+ description 🍺🐙  ZetZ a zymbolic verifier and tranzpiler to bare metal C
+ issues 32
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2019
+ commits 366
+ committers 18
+ files 482
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printf
-  Example
-
-keyboardNav joy.html mckeeman-form.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,70 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title False
+import ../measures/conceptPage.scroll
+id False
+appeared 1993
+type pl
+creators Wouter Van Oortmerssen
+website http://www.strlen.com/false-language/
+country United States
+originCommunity http://strlen.com
 
-title False - Programming language
- hidden
+hasComments true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="bla.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lexon.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/false.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.strlen.com/false-language/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/false" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=false" class="material-symbols-outlined">edit</a></div>
-
-* False is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993 by Wouter Van Oortmerssen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
- link ../lists/creators.html#wouterVanOortmerssen Wouter Van Oortmerssen
-
-dashboard
- #1829 <span title="TotalRank: 2345 Jobs: 103 Users: 2442 Facts: 1256 Links: 986">on PLDB</span>
- 31 Years Old
-
-* Try now: <a href="https://riju.codes/false">Riju</a> · <a href="https://tio.run/#false">TIO</a>
-
-* 
-
-- False website
- http://www.strlen.com/false-language/
-- False first developed in <a href="../lists/originCommunities.html#httpStrlenCom">http://strlen.com</a>
-- Explore False snippets on <a href="http://www.rosettacode.org/wiki/Category:FALSE">Rosetta Code</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  { writes all prime numbers between 0 and 100 }
- 99 9[1-$][$@$@$@$@/*=[1-$$[%1-$@]?0[$.&#39; ,]?]?]#
+ 99 9[1-$][$@$@$@$@/*=[1-$$[%1-$@]?0[$.' ,]?]?]#
 
-codeWithHeader Example from <a href='https://riju.codes/false'>Riju</a>:
- &quot;Hello, world!&quot;
- 
+leachim6 False
+ filepath f/False.f
+ fileExtensions f
+ example
+  "Hello World
+  "
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:FALSE
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/f/False.f'>hello-world</a>:
- &quot;Hello World
- &quot;
- 
+rijuRepl https://riju.codes/false
+ example
+  "Hello, world!"
+  
+tryItOnline false
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav bla.html lexon.html
-
-import ../footer.scroll
+wordRank 2392
+centralPackageRepositoryCount 0

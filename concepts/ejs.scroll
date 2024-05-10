@@ -1,65 +1,66 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EJS
+import ../measures/conceptPage.scroll
+id EJS
+appeared 2010
+type template
+creators Tj Holowaychuk
+country United Kingdom
+originCommunity https://apex.sh
 
-title EJS - Template language
- hidden
+example
+ <% if (user) { %>
+    <h2><%= user.name %></h2>
+ <% } %>
 
-html
- <a class="trueBaseThemePreviousItem" href="comtran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="befunge.html">&gt;</a>
+githubRepo https://github.com/tj/ejs
+ firstCommit 2010
+ stars 4441
+ forks 540
+ subscribers 140
+ created 2010
+ updated 2022
+ description Embedded JavaScript templates for node
+ issues 104
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ejs.pldb
+repoStats
+ firstCommit 2010
+ commits 228
+ committers 35
+ files 50
 
-startColumns 4
+githubLanguage EJS
+ fileExtensions ejs ect ejst jst
+ trendingProjectsCount 0
+ type markup
+ aceMode ejs
+ tmScope text.html.js
+ repos 92857
+githubBigQuery EJS
+ repos 614
+ users 560
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/tj/ejs" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ejs" class="material-symbols-outlined">edit</a></div>
+linguistGrammarRepo https://github.com/gregory-m/ejs-tmbundle
+ firstCommit 2011
+ lastCommit 2016
+ committerCount 3
+ commitCount 5
+ sampleCount 2
+ example
+  <% include parts/depend %>
+  
+  <div class="row">
+    <% if (user.primaryAccount == "teacher") { %>
+      <% include teacher/sidebar %>
+      <% include teacher/dashboard %>
+    <% } else if (user.primaryAccount == "student") { %>
+      <% include student/sidebar %>
+      <% include student/dashboard %>
+    <% } else { %>
+      <center><h2>There seems to be a problem</h2></center>
+    <% } %>
+  </div>
 
-* EJS is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2010 by Tj Holowaychuk.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#tjHolowaychuk Tj Holowaychuk
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-codeWithHeader Source code:
- git clone https://github.com/tj/ejs
-
-dashboard
- #356 <span title="TotalRank: 818 Jobs: 103 Users: 163 Facts: 552 Links: 986">on PLDB</span>
- 14 Years Old
- 93k <span title="EJS repos on GitHub.">Repos</span>
-
-* Embedded JavaScript templates for node
-
-- EJS is developed on <a href="https://github.com/tj/ejs">GitHub</a> and has 4,441 stars
-- There are at least 92,857 EJS repos on <a href="https://github.com/search?q=language:EJS">GitHub</a>
-- EJS first developed in <a href="../lists/originCommunities.html#httpsApexSh">https://apex.sh</a>
-- file extensions for EJS include ejs, ect, ejst and jst
-- The  Google BigQuery Public Dataset GitHub snapshot shows 560 users using EJS in 614 repos on <a href="https://api.github.com/search/repositories?q=language:EJS">GitHub</a>
-- GitHub supports <a href="https://github.com/gregory-m/ejs-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for EJS
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;% if (user) { %&gt;
-    &lt;h2&gt;&lt;%= user.name %&gt;&lt;/h2&gt;
- &lt;% } %&gt;
-
-codeWithHeader Example from <a href='https://github.com/gregory-m/ejs-tmbundle'>Linguist</a>:
- &lt;% include parts/depend %&gt;
- 
- &lt;div class=&quot;row&quot;&gt;
-   &lt;% if (user.primaryAccount == &quot;teacher&quot;) { %&gt;
-     &lt;% include teacher/sidebar %&gt;
-     &lt;% include teacher/dashboard %&gt;
-   &lt;% } else if (user.primaryAccount == &quot;student&quot;) { %&gt;
-     &lt;% include student/sidebar %&gt;
-     &lt;% include student/dashboard %&gt;
-   &lt;% } else { %&gt;
-     &lt;center&gt;&lt;h2&gt;There seems to be a problem&lt;/h2&gt;&lt;/center&gt;
-   &lt;% } %&gt;
- &lt;/div&gt;
-
-endColumns
-
-keyboardNav comtran.html befunge.html
-
-import ../footer.scroll
+isbndb 0

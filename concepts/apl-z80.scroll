@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APL/Z80
+import ../measures/conceptPage.scroll
+id APL/Z80
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/8530d52d22e6eb54eaf3326799682079f3514884
+country United States
+originCommunity Trinity University && Vanguard Systems Corporation
 
-title APL/Z80 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8253
 
-html
- <a class="trueBaseThemePreviousItem" href="aparel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aplgol-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apl-z80.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=apl-z80" class="material-symbols-outlined">edit</a></div>
-
-* APL/Z80 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3480 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- APL/Z80 first developed in <a href="../lists/originCommunities.html#trinityUniversity">Trinity University</a> and <a href="../lists/originCommunities.html#vanguardSystemsCorporation">Vanguard Systems Corporation</a>
-- APL/Z80 on HOPL
- https://hopl.info/showlanguage.prx?exp=8253
-- Read more about APL/Z80 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8530d52d22e6eb54eaf3326799682079f3514884 1.
-
-<br>
-
-endColumns
-
-keyboardNav aparel.html aplgol-2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

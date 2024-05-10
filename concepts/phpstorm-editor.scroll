@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PhpStorm
-
-title PhpStorm - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nova-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plush.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/phpstorm-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.jetbrains.com/phpstorm/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=phpstorm-editor" class="material-symbols-outlined">edit</a></div>
-
-* PhpStorm is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3254 on PLDB
- 13 Years Old
-
-* 
-
-- PhpStorm website
- https://www.jetbrains.com/phpstorm/
-- PhpStorm first developed in <a href="../lists/originCommunities.html#jetBrainsSRO">JetBrains s.r.o</a>
-
-<br>
-
-endColumns
-
-keyboardNav nova-editor.html plush.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id PhpStorm
+appeared 2011
+type editor
+website https://www.jetbrains.com/phpstorm/
+country Czech Republic
+originCommunity JetBrains s.r.o

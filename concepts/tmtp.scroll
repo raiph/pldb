@@ -1,43 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TMTP
+import ../measures/conceptPage.scroll
+id TMTP
+appeared 2017
+type protocol
+conceptDescription Site-specific Internet messaging
+website https://mnmnotmail.org
+reference https://news.ycombinator.com/item?id=32550328
 
-title TMTP - Protocol
- hidden
+relatedConcepts smtp
 
-html
- <a class="trueBaseThemePreviousItem" href="pyth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="de-bruijn-index-notation.html">&gt;</a>
+githubRepo https://github.com/networkimprov/mnm
+ firstCommit 2017
+ stars 216
+ forks 11
+ subscribers 12
+ created 2017
+ updated 2022
+ description mnm implements TMTP protocol. Let Internet sites message members directly, instead of unreliable, insecure email. Contributors welcome! (Server)
+ issues 7
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tmtp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mnmnotmail.org" class="material-symbols-outlined">home</a> <a href="https://github.com/networkimprov/mnm" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tmtp" class="material-symbols-outlined">edit</a></div>
-
-* TMTP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+protocol">protocol</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/networkimprov/mnm
-
-dashboard
- #1615 <span title="TotalRank: 2128 Jobs: 103 Users: 1039 Facts: 1669 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Site-specific Internet messaging
-
-- TMTP website
- https://mnmnotmail.org
-- TMTP is developed on <a href="https://github.com/networkimprov/mnm">GitHub</a> and has 216 stars
-- See also: (1 related languages)<a href="smtp.html">SMTP</a>
-- Read more about TMTP on the web: 1.
- https://news.ycombinator.com/item?id=32550328 1.
-
-<br>
-
-endColumns
-
-keyboardNav pyth.html de-bruijn-index-notation.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 297
+ committers 4
+ files 18

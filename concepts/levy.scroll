@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title levy
+import ../measures/conceptPage.scroll
+id levy
+appeared 2013
+type plzoo
+conceptDescription call-by-push value, statically typed
+website http://plzoo.andrej.com/language/levy.html
+reference https://github.com/andrejbauer/plzoo
+country Slovenia
+originCommunity https://github.com/andrejbauer/plzoo/issues
 
-title levy - Minilanguage
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lambda.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="loglo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/levy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://plzoo.andrej.com/language/levy.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=levy" class="material-symbols-outlined">edit</a></div>
-
-* levy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+plzoo">minilanguage</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-dashboard
- #2866 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 11 Years Old
-
-* call-by-push value, statically typed
-
-- levy website
- http://plzoo.andrej.com/language/levy.html
-- levy first developed in <a href="../lists/originCommunities.html#httpsGithubComAndrejbauerPlzooIssues">https://github.com/andrejbauer/plzoo/issues</a>
-- Read more about levy on the web: 1.
- https://github.com/andrejbauer/plzoo 1.
-
-<br>
-
-endColumns
-
-keyboardNav lambda.html loglo.html
-
-import ../footer.scroll
+wordRank 9288
+centralPackageRepositoryCount 0

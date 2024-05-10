@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Frenetic
+import ../measures/conceptPage.scroll
+id Frenetic
+appeared 2011
+type pl
+conceptDescription Frenetic: a network programming language
+reference https://www.semanticscholar.org/paper/Frenetic%3A-a-network-programming-language-Foster-Harrison/089b10645ee63cd9c5bb4ab661141dd813408e15
+country United States
+originCommunity Cornell University && Princeton University
 
-title Frenetic - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="frank.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fresco.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/frenetic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=frenetic" class="material-symbols-outlined">edit</a></div>
-
-* Frenetic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #4142 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Frenetic: a network programming language
-
-- Frenetic first developed in <a href="../lists/originCommunities.html#cornellUniversity">Cornell University</a> and <a href="../lists/originCommunities.html#princetonUniversity">Princeton University</a>
-- Read more about Frenetic on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/Frenetic%3A-a-network-programming-language-Foster-Harrison/089b10645ee63cd9c5bb4ab661141dd813408e15 1.
-
-<br>
-
-endColumns
-
-keyboardNav frank.html fresco.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

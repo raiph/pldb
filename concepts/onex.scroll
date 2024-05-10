@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title onex
-
-title onex - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="none.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="openspice.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/onex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://object.network/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=onex" class="material-symbols-outlined">edit</a></div>
-
-* onex is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3456 on PLDB
- 10 Years Old
-
-* This is the vision of the "Object Network" and its app and programming system called "Onex". Onex is a mobile app that will enable you to build your own programs and manage your own data, directly on your phone or tablet. It's as easy as spreadsheets, but can scale up over the network.
-
-- onex website
- http://object.network/
-- onex first developed in <a href="../lists/originCommunities.html#httpCiluxOrg">http://cilux.org</a>
-- <a href="http://object.network/">object.network</a> was registered in 2014
-- Read more about onex on the web: 1. 2.
- https://scholar.google.com/citations?user=NCfVEdoAAAAJ&hl=en 1.
- https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0 2.
-
-<br>
-
-endColumns
-
-keyboardNav none.html openspice.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id onex
+appeared 2014
+type application
+conceptDescription This is the vision of the "Object Network" and its app and programming system called "Onex". Onex is a mobile app that will enable you to build your own programs and manage your own data, directly on your phone or tablet. It's as easy as spreadsheets, but can scale up over the network.
+website http://object.network/
+reference https://scholar.google.com/citations?user=NCfVEdoAAAAJ&hl=en
+reference https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0
+country United Kingdom
+originCommunity http://cilux.org
+domainName object.network
+ registered 2014

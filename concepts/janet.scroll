@@ -1,128 +1,64 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title janet
+import ../measures/conceptPage.scroll
+id janet
+appeared 2018
+type pl
+creators Calvin Rose
+website https://janet-lang.org
+country Czech Republic and New Zealand and United States
+originCommunity https://github.com/janet-lang
+domainName janet-lang.org
+ registered 2018
+ awisRank
+  2022 3137783
 
-title janet - Programming language
- hidden
+hasComments true
+hasMultiLineComments false
+hasPrintDebugging true
+hasFloats true
+hasIntegers true
+hasBooleans true
+hasConditionals true
+hasLists true
+hasAssignment true
+hasFunctions true
 
-html
- <a class="trueBaseThemePreviousItem" href="txl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beef.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/janet.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://janet-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/janet-lang/janet" class="material-symbols-outlined">code</a> <a href="/edit.html?id=janet" class="material-symbols-outlined">edit</a></div>
-
-* janet is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Calvin Rose.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#calvinRose Calvin Rose
-
-codeWithHeader Source code:
- git clone https://github.com/janet-lang/janet
-
-dashboard
- #438 <span title="TotalRank: 941 Jobs: 103 Users: 272 Facts: 566 Links: 986">on PLDB</span>
- 6 Years Old
- 88 <span title="janet repos on GitHub.">Repos</span>
-
-* A dynamic language and bytecode vm
-
-- janet website
- https://janet-lang.org
-- janet is developed on <a href="https://github.com/janet-lang/janet">GitHub</a> and has 2,667 stars
-- There are at least 88 janet repos on <a href="https://github.com/search?q=language:Janet">GitHub</a>
-- janet first developed in <a href="../lists/originCommunities.html#httpsGithubComJanetLang">https://github.com/janet-lang</a>
-- file extensions for janet include janet
-- <a href="https://janet-lang.org">janet-lang.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import joy)
  
  (defn home [request]
-   (joy/render :text &quot;You found joy!&quot;))
+   (joy/render :text "You found joy!"))
  
- (def routes [[:get &quot;/&quot; home]])
+ (def routes [[:get "/" home]])
  
  (def app (joy/handler routes))
  
  (joy/server app 8000)
 
-endColumns
+githubRepo https://github.com/janet-lang/janet
+ stars 2667
+ forks 185
+ subscribers 57
+ created 2017
+ updated 2023
+ description A dynamic language and bytecode vm
+ issues 31
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 3737
+ committers 100
+ files 163
 
-treeTable
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+githubLanguage Janet
+ type programming
+ fileExtensions janet
+ interpreters janet
+ aceMode scheme
+ codemirrorMode scheme
+ codemirrorMimeType text/x-scheme
+ tmScope source.janet
+ repos 88
 
-## HackerNews discussions of janet
-
-pipeTable
- title|titleLink|date|score|comments
- Janet is a Lisp for scripting, or embedding in other programs|https://news.ycombinator.com/item?id=19171121|02/15/2019|3|0
-
-keyboardNav txl.html beef.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 19171121|Janet is a Lisp for scripting, or embedding in other programs|https://janet-lang.org/|2019-02-15 14:26:40 UTC|1550240800|rainygold|0|3

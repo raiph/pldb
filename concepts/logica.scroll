@@ -1,82 +1,55 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Logica
+import ../measures/conceptPage.scroll
+id Logica
+appeared 2020
+type queryLanguage
+creators Evgeny Skvortsov
+conceptDescription Logica is an open source declarative logic programming language for data manipulation. Logica is a successor to Yedalog, a language created at Google earlier.
+website https://logica.dev/
+country United States
+originCommunity https://github.com/EvgSkv/logica/issues
+domainName logica.dev
+ registered 2020
 
-title Logica - Query language
- hidden
+compilesTo sql
 
-html
- <a class="trueBaseThemePreviousItem" href="lotusscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="netlinx.html">&gt;</a>
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/logica.pldb
+lineCommentToken #
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://logica.dev/" class="material-symbols-outlined">home</a> <a href="https://github.com/evgskv/logica" class="material-symbols-outlined">code</a> <a href="/edit.html?id=logica" class="material-symbols-outlined">edit</a></div>
-
-* Logica is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2020 by Evgeny Skvortsov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#evgenySkvortsov Evgeny Skvortsov
-
-codeWithHeader Source code:
- git clone https://github.com/evgskv/logica
-
-dashboard
- #621 <span title="TotalRank: 1189 Jobs: 103 Users: 394 Facts: 692 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Logica is an open source declarative logic programming language for data manipulation. Logica is a successor to Yedalog, a language created at Google earlier.
-
-- Logica website
- https://logica.dev/
-- Logica is developed on <a href="https://github.com/evgskv/logica">GitHub</a> and has 1,440 stars
-- Logica first developed in <a href="../lists/originCommunities.html#httpsGithubComEvgSkvLogicaIssues">https://github.com/EvgSkv/logica/issues</a>
-- Logica compiles to <a href="sql.html">SQL</a>
-- <a href="https://logica.dev/">logica.dev</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Define natural numbers from 1 to 29.
  N(x) :- x in Range(30);
  # Define primes.
  Prime(prime: x) :-
    N(x),
-   x &gt; 1,
+   x > 1,
    ~(
      N(y),
-     y &gt; 1,
+     y > 1,
      y != x,
      Mod(x, y) == 0
    );
 
-endColumns
+githubRepo https://github.com/evgskv/logica
+ firstCommit 2020
+ stars 1440
+ forks 83
+ subscribers 31
+ created 2020
+ updated 2022
+ description Logica is a logic programming language that compiles to StandardSQL and runs on Google BigQuery.
+ issues 23
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2020
+ commits 428
+ committers 18
+ files 271
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav lotusscript.html netlinx.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2008|Springer|Towards Mathematical Philosophy: Papers from the Studia Logica conference Trends in Logic IV|Tshilidzi Marwala; Monica Lagazio|9781402090844

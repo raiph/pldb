@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIMCAL
+import ../measures/conceptPage.scroll
+id SIMCAL
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/b30700935ad38c0fdccd03deee80bb0d58863877
+country United States
+originCommunity Duquesne University and University of Pittsburgh
 
-title SIMCAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5748
 
-html
- <a class="trueBaseThemePreviousItem" href="siman-iv.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simdis.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simcal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=simcal" class="material-symbols-outlined">edit</a></div>
-
-* SIMCAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4016 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- SIMCAL first developed in <a href="../lists/originCommunities.html#duquesneUniversityAndUniversityOfPittsburgh">Duquesne University and University of Pittsburgh</a>
-- SIMCAL on HOPL
- https://hopl.info/showlanguage.prx?exp=5748
-- Read more about SIMCAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b30700935ad38c0fdccd03deee80bb0d58863877 1.
-
-<br>
-
-endColumns
-
-keyboardNav siman-iv.html simdis.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

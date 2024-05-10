@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HYPAC
+import ../measures/conceptPage.scroll
+id HYPAC
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/3eaac487214223479c700972308cdc434957173a
+country United States
+originCommunity Bell Telephone Laboratories
 
-title HYPAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7454
 
-html
- <a class="trueBaseThemePreviousItem" href="htel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperflow.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hypac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hypac" class="material-symbols-outlined">edit</a></div>
-
-* HYPAC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3725 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- HYPAC first developed in <a href="../lists/originCommunities.html#bellTelephoneLaboratories">Bell Telephone Laboratories</a>
-- HYPAC on HOPL
- https://hopl.info/showlanguage.prx?exp=7454
-- Read more about HYPAC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3eaac487214223479c700972308cdc434957173a 1.
-
-<br>
-
-endColumns
-
-keyboardNav htel.html hyperflow.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

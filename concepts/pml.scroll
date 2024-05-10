@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PML
+import ../measures/conceptPage.scroll
+id PML
+appeared 1986
+type textMarkup
+creators Christian Neumanns
+website https://www.pml-lang.dev/
+reference https://medium.com/@christian.ppl
+standsFor Practical Markup Language
+country Unknown
+originCommunity https://github.com/pml-lang
 
-title PML - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mint.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="manchester-syntax.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.pml-lang.dev/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pml" class="material-symbols-outlined">edit</a></div>
-
-* PML, aka Practical Markup Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 1986 by Christian Neumanns.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
- link ../lists/creators.html#christianNeumanns Christian Neumanns
-
-dashboard
- #1609 <span title="TotalRank: 2121 Jobs: 103 Users: 2442 Facts: 1032 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- PML website
- https://www.pml-lang.dev/
-- PML first developed in <a href="../lists/originCommunities.html#httpsGithubComPmlLang">https://github.com/pml-lang</a>
-- Read more about PML on the web: 1.
- https://medium.com/@christian.ppl 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [doc [title PML Demo]
  
      [ch [title Introduction]
@@ -52,14 +28,8 @@ codeWithHeader Example from the web:
          [code (lang=java)
              // Simple Java example
              public static void sayHello ( String name ) {
-                 System.out.println ( &quot;Hello &quot; + name );
+                 System.out.println ( "Hello " + name );
              }        
          code]
      ]
  ]
-
-endColumns
-
-keyboardNav mint.html manchester-syntax.html
-
-import ../footer.scroll

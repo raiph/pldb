@@ -1,47 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NumPad
+import ../measures/conceptPage.scroll
+id NumPad
+appeared 2022
+type editor
+website https://numpad.io/
+reference https://news.ycombinator.com/item?id=32493946
+country United Kingdom
+originCommunity https://numpad.io/about/
 
-title NumPad - Editor
- hidden
+relatedConcepts soulver
 
-html
- <a class="trueBaseThemePreviousItem" href="mypy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="package-control-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/numpad.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://numpad.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=numpad" class="material-symbols-outlined">edit</a></div>
-
-* NumPad is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3163 on PLDB
- 2 Years Old
-
-* 
-
-- NumPad website
- https://numpad.io/
-- NumPad first developed in <a href="../lists/originCommunities.html#httpsNumpadIoAbout">https://numpad.io/about/</a>
-- See also: (1 related languages)<a href="soulver.html">Soulver</a>
-- Read more about NumPad on the web: 1.
- https://news.ycombinator.com/item?id=32493946 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  3 × 3
  120 + 30
  100 EUR in USD
  30% of 700
  $30/day is what per year
-
-endColumns
-
-keyboardNav mypy.html package-control-pm.html
-
-import ../footer.scroll

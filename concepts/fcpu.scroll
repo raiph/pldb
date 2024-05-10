@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FCPU
+import ../measures/conceptPage.scroll
+id FCPU
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/f1011b3210e0b85e05584878a9bca716956f1271
+country Sweden
+originCommunity Saab-Scania AB
 
-title FCPU - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7921
 
-html
- <a class="trueBaseThemePreviousItem" href="fad.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fickle.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fcpu.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fcpu" class="material-symbols-outlined">edit</a></div>
-
-* FCPU is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3662 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- FCPU first developed in <a href="../lists/originCommunities.html#saabScaniaAb">Saab-Scania AB</a>
-- FCPU on HOPL
- https://hopl.info/showlanguage.prx?exp=7921
-- Read more about FCPU on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f1011b3210e0b85e05584878a9bca716956f1271 1.
-
-<br>
-
-endColumns
-
-keyboardNav fad.html fickle.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

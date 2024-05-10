@@ -1,57 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SQRL
+import ../measures/conceptPage.scroll
+id SQRL
+appeared 2018
+type queryLanguage
+creators Josh Yudaken and Pete Hunt and Julian Tempelsman and Paul Mou and Yunjing Xu and David Newman
+conceptDescription SQRL was the language designed by Smyte, and later acquired by Twitter in 2018. It is a safe, stateful language for event streams, designed to make it easy to enforce anti-abuse rules.
+website https://sqrl-lang.github.io/sqrl/
+webRepl https://websqrl.vercel.app/twitter
+reference https://websqrl.vercel.app/twitter
+reference https://news.ycombinator.com/item?id=34680269
+standsFor Smyte Query and Rules Language
+originCommunity Smyte
 
-title SQRL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="apescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="isetl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sqrl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sqrl-lang.github.io/sqrl/" class="material-symbols-outlined">home</a> <a href="https://websqrl.vercel.app/twitter" class="material-symbols-outlined">terminal</a> <a href="https://github.com/sqrl-lang/sqrl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sqrl" class="material-symbols-outlined">edit</a></div>
-
-* SQRL, aka Smyte Query and Rules Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2018 by Josh Yudaken and Pete Hunt and Julian Tempelsman and Paul Mou and Yunjing Xu and David Newman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#joshYudaken Josh Yudaken
- link ../lists/creators.html#peteHunt Pete Hunt
- link ../lists/creators.html#julianTempelsman Julian Tempelsman
- link ../lists/creators.html#paulMou Paul Mou
- link ../lists/creators.html#yunjingXu Yunjing Xu
- link ../lists/creators.html#davidNewman David Newman
-
-codeWithHeader Source code:
- git clone https://github.com/sqrl-lang/sqrl
-
-dashboard
- #1762 <span title="TotalRank: 2292 Jobs: 103 Users: 2093 Facts: 1203 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Try now: <a href="https://websqrl.vercel.app/twitter">Web</a>
-
-* SQRL was the language designed by Smyte, and later acquired by Twitter in 2018. It is a safe, stateful language for event streams, designed to make it easy to enforce anti-abuse rules.
-
-- SQRL website
- https://sqrl-lang.github.io/sqrl/
-- SQRL is developed on <a href="https://github.com/sqrl-lang/sqrl">GitHub</a> and has 17 stars
-- SQRL first developed in <a href="../lists/originCommunities.html#smyte">Smyte</a>
-- Read more about SQRL on the web: 1. 2.
- https://websqrl.vercel.app/twitter 1.
- https://news.ycombinator.com/item?id=34680269 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  LET Username := input();
- LET Message := concat(&quot;Hello, &quot;, Username, &quot;!&quot;);
+ LET Message := concat("Hello, ", Username, "!");
  EOF
 
-endColumns
+githubRepo https://github.com/sqrl-lang/sqrl
+ stars 17
+ forks 3
+ subscribers 1
+ created 2022
+ updated 2023
+ description A safe, stateful rules language for event streams
+ issues 4
 
-keyboardNav apescript.html isetl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 255
+ committers 12
+ files 685

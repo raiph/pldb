@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title nydp
+import ../measures/conceptPage.scroll
+id nydp
+appeared 2014
+type pl
+country United States
+originCommunity https://github.com/conanite/nydp/issues
 
-title nydp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tree-annotation-operator.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jlang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nydp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/conanite/nydp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nydp" class="material-symbols-outlined">edit</a></div>
-
-* nydp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/conanite/nydp
-
-dashboard
- #1898 <span title="TotalRank: 2400 Jobs: 103 Users: 2347 Facts: 1311 Links: 986">on PLDB</span>
- 10 Years Old
-
-* nydp - a modern, more dangerous kind of lisp
-
-- nydp is developed on <a href="https://github.com/conanite/nydp">GitHub</a> and has 8 stars
-- nydp first developed in <a href="../lists/originCommunities.html#httpsGithubComConaniteNydpIssues">https://github.com/conanite/nydp/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (def pre-compile (expr)
    (map pre-compile
      (if (mac-names (car expr))
@@ -40,8 +13,18 @@ codeWithHeader Example from the web:
          expr)))
  (mac yoyo (thing) `(do-yoyo ,thing))
 
-endColumns
+githubRepo https://github.com/conanite/nydp
+ firstCommit 2014
+ stars 8
+ subscribers 3
+ created 2014
+ updated 2021
+ description nydp - a modern, more dangerous kind of lisp
+ forks 0
+ issues 0
 
-keyboardNav tree-annotation-operator.html jlang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 968
+ committers 2
+ files 214

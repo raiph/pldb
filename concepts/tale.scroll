@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TALE
+import ../measures/conceptPage.scroll
+id TALE
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/6c47e00611809fa263c4c5ec9c93b3eba8c11361
 
-title TALE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1279
 
-html
- <a class="trueBaseThemePreviousItem" href="tactics.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tall.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tale.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tale" class="material-symbols-outlined">edit</a></div>
-
-* TALE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3436 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- TALE on HOPL
- https://hopl.info/showlanguage.prx?exp=1279
-- Read more about TALE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6c47e00611809fa263c4c5ec9c93b3eba8c11361 1.
-
-<br>
-
-endColumns
-
-keyboardNav tactics.html tall.html
-
-import ../footer.scroll
+wordRank 6089
+centralPackageRepositoryCount 0

@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WYLBUR
+import ../measures/conceptPage.scroll
+id WYLBUR
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/812624868235b06ec3122ed4308cdbe580a96651
 
-title WYLBUR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8280
 
-html
- <a class="trueBaseThemePreviousItem" href="writeacourse.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="x-klaim.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wylbur.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wylbur" class="material-symbols-outlined">edit</a></div>
-
-* WYLBUR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3290 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- WYLBUR on HOPL
- https://hopl.info/showlanguage.prx?exp=8280
-- Read more about WYLBUR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/812624868235b06ec3122ed4308cdbe580a96651 1.
-
-<br>
-
-endColumns
-
-keyboardNav writeacourse.html x-klaim.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

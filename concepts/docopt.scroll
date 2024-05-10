@@ -1,43 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title docopt
+import ../measures/conceptPage.scroll
+id docopt
+appeared 2012
+type pl
+creators Vladimir Keleshev
+conceptDescription Command-line interface description language
+website http://docopt.org/
+country Various
+originCommunity https://github.com/docopt
+domainName docopt.org
+ registered 2012
+ awisRank
+  2022 2604235
 
-title docopt - Programming language
- hidden
+githubRepo https://github.com/docopt/docopt
+ firstCommit 2012
+ stars 7638
+ forks 561
+ subscribers 168
+ created 2012
+ updated 2022
+ description Pythonic command line arguments parser, that will make you smile
+ issues 253
 
-html
- <a class="trueBaseThemePreviousItem" href="dat-protocol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bbc-basic.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 462
+ committers 37
+ files 31
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/docopt.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://docopt.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/docopt/docopt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=docopt" class="material-symbols-outlined">edit</a></div>
-
-* docopt is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Vladimir Keleshev.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#vladimirKeleshev Vladimir Keleshev
-
-codeWithHeader Source code:
- git clone https://github.com/docopt/docopt
-
-dashboard
- #629 <span title="TotalRank: 1207 Jobs: 103 Users: 118 Facts: 1256 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Command-line interface description language
-
-- docopt website
- http://docopt.org/
-- docopt is developed on <a href="https://github.com/docopt/docopt">GitHub</a> and has 7,638 stars
-- docopt first developed in <a href="../lists/originCommunities.html#httpsGithubComDocopt">https://github.com/docopt</a>
-- <a href="http://docopt.org/">docopt.org</a> was registered in 2012
-
-<br>
-
-endColumns
-
-keyboardNav dat-protocol.html bbc-basic.html
-
-import ../footer.scroll
+semanticScholar 0

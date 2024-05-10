@@ -1,77 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CIR
+import ../measures/conceptPage.scroll
+id CIR
+appeared 2020
+type ir
+conceptDescription Clang IR (CIR) is a new IR for Clang.
+website https://facebookincubator.github.io/clangir/
+reference https://news.ycombinator.com/item?id=31904624
+reference https://discourse.llvm.org/t/rfc-an-mlir-based-clang-ir-cir/63319
+standsFor Clang IR
+country United States
+originCommunity Engineering at Meta
 
-title CIR - Intermediate representation language
- hidden
+relatedConcepts llvmir
 
-html
- <a class="trueBaseThemePreviousItem" href="ddfql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lucid.html">&gt;</a>
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cir.pldb
+lineCommentToken //
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://facebookincubator.github.io/clangir/" class="material-symbols-outlined">home</a> <a href="https://github.com/facebookincubator/clangir" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cir" class="material-symbols-outlined">edit</a></div>
-
-* CIR, aka Clang IR, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/facebookincubator/clangir
-
-dashboard
- #1224 <span title="TotalRank: 1765 Jobs: 103 Users: 1245 Facts: 995 Links: 667">on PLDB</span>
- 4 Years Old
-
-* Clang IR (CIR) is a new IR for Clang.
-
-- CIR website
- https://facebookincubator.github.io/clangir/
-- CIR is developed on <a href="https://github.com/facebookincubator/clangir">GitHub</a> and has 150 stars
-- CIR first developed in <a href="../lists/originCommunities.html#engineeringAtMeta">Engineering at Meta</a>
-- See also: (1 related languages)<a href="llvmir.html">LLVM IR</a>
-- Read more about CIR on the web: 1. 2.
- https://news.ycombinator.com/item?id=31904624 1.
- https://discourse.llvm.org/t/rfc-an-mlir-based-clang-ir-cir/63319 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // Read from local variable, address in %0.
- %1 = cir.load %0 : !cir.ptr&lt;i32&gt;, i32
+ %1 = cir.load %0 : !cir.ptr<i32>, i32
  
  // Load address from memory at address %0. %3 is used by at least one
  // operation that dereferences a pointer.
- %3 = cir.load deref %0 : cir.ptr &lt;!cir.ptr&lt;i32&gt;&gt;
+ %3 = cir.load deref %0 : cir.ptr <!cir.ptr<i32>>
 
-endColumns
+githubRepo https://github.com/facebookincubator/clangir
+ firstCommit 2001
+ stars 150
+ forks 5
+ subscribers 9
+ created 2022
+ updated 2022
+ description A new high-level IR for clang.
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ddfql.html lucid.html
-
-import ../footer.scroll
+isbndb 0

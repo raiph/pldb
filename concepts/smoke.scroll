@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SMOKE
+import ../measures/conceptPage.scroll
+id SMOKE
+appeared 1992
+type pl
+creators Stephen Travis Pope
+reference https://www.semanticscholar.org/paper/The-SmOKE-Music-Representation%2C-Description-and-Pope/6d0d47dccc92d7baea5fe3d1f90a1c106b8562c2
+country United States
+originCommunity Stanford University
 
-title SMOKE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6457
 
-html
- <a class="trueBaseThemePreviousItem" href="smalltalk-yx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snostorm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smoke.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=smoke" class="material-symbols-outlined">edit</a></div>
-
-* SMOKE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992 by Stephen Travis Pope.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
- link ../lists/creators.html#stephenTravisPope Stephen Travis Pope
-
-dashboard
- #3134 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- SMOKE first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- SMOKE on HOPL
- https://hopl.info/showlanguage.prx?exp=6457
-- Read more about SMOKE on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/The-SmOKE-Music-Representation%2C-Description-and-Pope/6d0d47dccc92d7baea5fe3d1f90a1c106b8562c2 1.
-
-<br>
-
-endColumns
-
-keyboardNav smalltalk-yx.html snostorm.html
-
-import ../footer.scroll
+wordRank 4236
+centralPackageRepositoryCount 0

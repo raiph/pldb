@@ -1,60 +1,46 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Invisible XML
+import ../measures/conceptPage.scroll
+id Invisible XML
+appeared 2020
+type grammarLanguage
+creators Steven Pemberton
+conceptDescription Invisible XML is a language for describing the implicit structure of data, and a set of technologies for making that structure explicit as XML markup. It allows you to write a declarative description of the format of some text and then leverage that format to represent the text as structured information.
+website https://invisiblexml.org/
+reference https://news.ycombinator.com/item?id=32120230
+aka ixml
+country The Netherlands
+originCommunity https://github.com/invisibleXML
+domainName invisiblexml.org
+ registered 2020
+ awisRank
+  2022 6592461
 
-title Invisible XML - Grammar language
- hidden
+relatedConcepts xml
 
-html
- <a class="trueBaseThemePreviousItem" href="ucg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xidoc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ixml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://invisiblexml.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/invisiblexml/ixml/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ixml" class="material-symbols-outlined">edit</a></div>
-
-* Invisible XML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2020 by Steven Pemberton.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#stevenPemberton Steven Pemberton
-
-codeWithHeader Source code:
- git clone https://github.com/invisiblexml/ixml/
-
-dashboard
- #1361 <span title="TotalRank: 1891 Jobs: 103 Users: 1997 Facts: 802 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Invisible XML is a language for describing the implicit structure of data, and a set of technologies for making that structure explicit as XML markup. It allows you to write a declarative description of the format of some text and then leverage that format to represent the text as structured information.
-
-- Invisible XML website
- https://invisiblexml.org/
-- Invisible XML is developed on <a href="https://github.com/invisiblexml/ixml/">GitHub</a> and has 15 stars
-- Invisible XML first developed in <a href="../lists/originCommunities.html#httpsGithubComInvisibleXml">https://github.com/invisibleXML</a>
-- <a href="https://invisiblexml.org/">invisiblexml.org</a> was registered in 2020
-- See also: (1 related languages)<a href="xml.html">XML</a>
-- Read more about Invisible XML on the web: 1.
- https://news.ycombinator.com/item?id=32120230 1.
-
-<br>
-
-codeWithHeader Example from the web:
- url: scheme, &quot;:&quot;, authority, path.
+example
+ url: scheme, ":", authority, path.
  
  scheme: letter+.
  
- authority: &quot;//&quot;, host.
- host: sub++&quot;.&quot;.
+ authority: "//", host.
+ host: sub++".".
  sub: letter+.
  
- path: (&quot;/&quot;, seg)+.
+ path: ("/", seg)+.
  seg: fletter*.
- -letter: [&quot;a&quot;-&quot;z&quot;]; [&quot;A&quot;-&quot;Z&quot;]; [&quot;0&quot;-&quot;9&quot;].
- -fletter: letter; &quot;.&quot;.
+ -letter: ["a"-"z"]; ["A"-"Z"]; ["0"-"9"].
+ -fletter: letter; ".".
 
-endColumns
+githubRepo https://github.com/invisiblexml/ixml/
+ stars 15
+ forks 6
+ subscribers 9
+ created 2020
+ updated 2022
+ description Invisible XML
+ issues 7
 
-keyboardNav ucg.html xidoc.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 444
+ committers 5
+ files 859

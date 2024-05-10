@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cymbal
+import ../measures/conceptPage.scroll
+id Cymbal
+appeared 1999
+type pl
+reference https://www.semanticscholar.org/topic/Fourth-generation-programming-language/173316
 
-title Cymbal - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2720
 
-html
- <a class="trueBaseThemePreviousItem" href="couchbase.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="decision-model-notation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cymbal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cymbal" class="material-symbols-outlined">edit</a></div>
-
-* Cymbal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3180 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- Cymbal on HOPL
- https://hopl.info/showlanguage.prx?exp=2720
-- Read more about Cymbal on Semantic Scholar: 1.
- https://www.semanticscholar.org/topic/Fourth-generation-programming-language/173316 1.
-
-<br>
-
-endColumns
-
-keyboardNav couchbase.html decision-model-notation.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

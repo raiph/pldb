@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Boston College Statistical Software Components
+import ../measures/conceptPage.scroll
+id Boston College Statistical Software Components
+appeared 1996
+type packageManager
+website https://www.stata.com/manuals/rssc.pdf
+reference https://ideas.repec.org/s/boc/bocode.html
+reference http://fmwww.bc.edu/repec/bocode/s/sscstats.html
+country United Kingdom
+originCommunity UK Higher Education Funding Councils
 
-title Boston College Statistical Software Components - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sosl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="subscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ssc-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.stata.com/manuals/rssc.pdf" class="material-symbols-outlined">home</a> <a href="/edit.html?id=ssc-pm" class="material-symbols-outlined">edit</a></div>
-
-* Boston College Statistical Software Components is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3417 on PLDB
- 28 Years Old
-
-* 
-
-- Boston College Statistical Software Components website
- https://www.stata.com/manuals/rssc.pdf
-- Boston College Statistical Software Components first developed in <a href="../lists/originCommunities.html#ukHigherEducationFundingCouncils">UK Higher Education Funding Councils</a>
-- Read more about Boston College Statistical Software Components on the web: 1. 2.
- https://ideas.repec.org/s/boc/bocode.html 1.
- http://fmwww.bc.edu/repec/bocode/s/sscstats.html 2.
-
-<br>
-
-endColumns
-
-keyboardNav sosl.html subscript.html
-
-import ../footer.scroll
+packageCount 4608
+forLanguages stata

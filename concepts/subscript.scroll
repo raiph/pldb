@@ -1,43 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title subscript
+import ../measures/conceptPage.scroll
+id subscript
+appeared 2012
+type pl
+website http://subscript-lang.org
+domainName subscript-lang.org
+ registered 2012
 
-title subscript - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 4987582|SubScript: Programming with event driven math & concurrent fun|http://subscript-lang.org/|2012-12-30 23:43:30 UTC|1356911010|zoowar|0|2
 
-html
- <a class="trueBaseThemePreviousItem" href="sosl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="taql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/subscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://subscript-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=subscript" class="material-symbols-outlined">edit</a></div>
-
-* subscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #2880 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 12 Years Old
-
-* 
-
-- subscript website
- http://subscript-lang.org
-- <a href="http://subscript-lang.org">subscript-lang.org</a> was registered in 2012
-
-<br>
-
-endColumns
-
-## HackerNews discussions of subscript
-
-pipeTable
- title|titleLink|date|score|comments
- SubScript: Programming with event driven math & concurrent fun|https://news.ycombinator.com/item?id=4987582|12/30/2012|2|0
-
-keyboardNav sosl.html taql.html
-
-import ../footer.scroll
+isbndb 0

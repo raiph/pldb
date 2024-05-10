@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CHARM++
+import ../measures/conceptPage.scroll
+id CHARM++
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/5e50ffa96fa021c85ccedb1bb8b84b59ee268de8
+country United States
+originCommunity University of Illinois, Urbana-Champaign
 
-title CHARM++ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1895
 
-html
- <a class="trueBaseThemePreviousItem" href="champ.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="charrette-ada.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/charmpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=charmpp" class="material-symbols-outlined">edit</a></div>
-
-* CHARM++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3560 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- CHARM++ first developed in <a href="../lists/originCommunities.html#universityOfIllinoisUrbanaChampaign">University of Illinois, Urbana-Champaign</a>
-- CHARM++ on HOPL
- https://hopl.info/showlanguage.prx?exp=1895
-- Read more about CHARM++ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5e50ffa96fa021c85ccedb1bb8b84b59ee268de8 1.
-
-<br>
-
-endColumns
-
-keyboardNav champ.html charrette-ada.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

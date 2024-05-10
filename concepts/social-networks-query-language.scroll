@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SoQL
+import ../measures/conceptPage.scroll
+id SoQL
+appeared 2009
+type queryLanguage
+creators Royi Ronen and Oded Shmueli
+conceptDescription language for querying and creating data in social networks. The language is designed to meet the growing need of social networks participants to efficiently manage the large, and quickly growing, amounts of data available to them, as well as automate processes of creating new data.
+reference https://ieeexplore.ieee.org/document/4812579
+standsFor Social Networks Query language
+aka soql
+country Israel
+originCommunity Technion-Israel Institute of Technology
 
-title SoQL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="smdl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="statemate.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/social-networks-query-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=social-networks-query-language" class="material-symbols-outlined">edit</a></div>
-
-* SoQL, aka Social Networks Query language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2009 by Royi Ronen and Oded Shmueli.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#royiRonen Royi Ronen
- link ../lists/creators.html#odedShmueli Oded Shmueli
-
-dashboard
- #3075 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 15 Years Old
-
-* language for querying and creating data in social networks. The language is designed to meet the growing need of social networks participants to efficiently manage the large, and quickly growing, amounts of data available to them, as well as automate processes of creating new data.
-
-- SoQL first developed in <a href="../lists/originCommunities.html#technionIsraelInstituteOfTechnology">Technion-Israel Institute of Technology</a>
-- Read more about SoQL on the web: 1.
- https://ieeexplore.ieee.org/document/4812579 1.
-
-<br>
-
-endColumns
-
-keyboardNav smdl.html statemate.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

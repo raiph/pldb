@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KLIPA
+import ../measures/conceptPage.scroll
+id KLIPA
+appeared 1960
+type pl
+reference https://semanticscholar.org/paper/2b42fa947dbd72233d95dee1f4085b2bf156fbf0
+country Poland
+originCommunity Polish Academy of Science
 
-title KLIPA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2695
 
-html
- <a class="trueBaseThemePreviousItem" href="kl-one.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="krl-0.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/klipa.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=klipa" class="material-symbols-outlined">edit</a></div>
-
-* KLIPA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #3767 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 64 Years Old
-
-* 
-
-- KLIPA first developed in <a href="../lists/originCommunities.html#polishAcademyOfScience">Polish Academy of Science</a>
-- KLIPA on HOPL
- https://hopl.info/showlanguage.prx?exp=2695
-- Read more about KLIPA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2b42fa947dbd72233d95dee1f4085b2bf156fbf0 1.
-
-<br>
-
-endColumns
-
-keyboardNav kl-one.html krl-0.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

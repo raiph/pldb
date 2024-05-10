@@ -1,98 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title bawk
+import ../measures/conceptPage.scroll
+id bawk
+appeared 1994
+type pl
+creators Bob Brodt
+reference http://www.cs.columbia.edu/~sedwards/classes/2013/w4115-summer/lrms/bawk.pdf
+country United States
+originCommunity Columbia University
 
-title bawk - Programming language
- hidden
+supersetOf awk
 
-html
- <a class="trueBaseThemePreviousItem" href="arc-assembly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bird.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=1852
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bawk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bawk" class="material-symbols-outlined">edit</a></div>
-
-* bawk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994 by Bob Brodt.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
- link ../lists/creators.html#bobBrodt Bob Brodt
-
-dashboard
- #3087 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- bawk is a superset of <a href="/concepts/awk.html">awk</a>
-- bawk first developed in <a href="../lists/originCommunities.html#columbiaUniversity">Columbia University</a>
-- bawk on HOPL
- https://hopl.info/showlanguage.prx?exp=1852
-- Read more about bawk on the web: 1.
- http://www.cs.columbia.edu/~sedwards/classes/2013/w4115-summer/lrms/bawk.pdf 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # [0-9]+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # [0-9][0-9]*\.[0-9]+([eE][0-9]+)?[fd]?
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # 0x[0-9a-fA-F]+
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav arc-assembly.html bird.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

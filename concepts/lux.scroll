@@ -1,44 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lux
+import ../measures/conceptPage.scroll
+id Lux
+appeared 2014
+type pl
+creators Eduardo Julián
+website https://luxlang.github.io/lux/
+fileExtensions lux
+country Dominican Republic
+originCommunity https://github.com/LuxLang
 
-title Lux - Programming language
- hidden
+compilesTo javascript java php python r ruby scheme
 
-html
- <a class="trueBaseThemePreviousItem" href="kona.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dak.html">&gt;</a>
+githubRepo https://github.com/LuxLang/lux/
+ stars 1500
+ forks 51
+ subscribers 69
+ created 2014
+ updated 2022
+ description The Lux Programming Language
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lux.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://luxlang.github.io/lux/" class="material-symbols-outlined">home</a> <a href="https://github.com/LuxLang/lux/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lux" class="material-symbols-outlined">edit</a></div>
-
-* Lux is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Eduardo Julián.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#eduardoJulian Eduardo Julián
-
-codeWithHeader Source code:
- git clone https://github.com/LuxLang/lux/
-
-dashboard
- #917 <span title="TotalRank: 1488 Jobs: 103 Users: 399 Facts: 1669 Links: 986">on PLDB</span>
- 10 Years Old
-
-* The Lux Programming Language
-
-- Lux website
- https://luxlang.github.io/lux/
-- Lux is developed on <a href="https://github.com/LuxLang/lux/">GitHub</a> and has 1,500 stars
-- Lux first developed in <a href="../lists/originCommunities.html#httpsGithubComLuxLang">https://github.com/LuxLang</a>
-- file extensions for Lux include lux
-- Lux compiles to <a href="javascript.html">JavaScript</a> or <a href="java.html">Java</a> or <a href="php.html">PHP</a> or <a href="python.html">Python</a> or <a href="r.html">R</a> or <a href="ruby.html">Ruby</a> or <a href="scheme.html">Scheme</a>
-
-<br>
-
-endColumns
-
-keyboardNav kona.html dak.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 2504
+ committers 15
+ files 2004

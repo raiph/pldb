@@ -1,47 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rant
+import ../measures/conceptPage.scroll
+id rant
+appeared 2014
+type pl
+website http://berkin.me/rant
+country United States
+originCommunity https://github.com/TheBerkin/rant3/pulls
 
-title rant - Programming language
- hidden
+githubRepo https://github.com/TheBerkin/Rant
+ firstCommit 2014
+ stars 3021
+ forks 109
+ subscribers 80
+ created 2014
+ updated 2022
+ description (Obsolete) Archive of Rant 3.x.
+ issues 9
 
-html
- <a class="trueBaseThemePreviousItem" href="umple.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="manhood.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 991
+ committers 15
+ files 363
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rant.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 8711621|Show HN: Rant, a procedural text generation language|2014-12-07 08:01:54 UTC|1417939314|atlantique|36|155
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://berkin.me/rant" class="material-symbols-outlined">home</a> <a href="https://github.com/TheBerkin/Rant" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rant" class="material-symbols-outlined">edit</a></div>
-
-* rant is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/TheBerkin/Rant
-
-dashboard
- #783 <span title="TotalRank: 1350 Jobs: 103 Users: 261 Facts: 1450 Links: 986">on PLDB</span>
- 10 Years Old
-
-* (Obsolete) Archive of Rant 3.x.
-
-- rant website
- http://berkin.me/rant
-- rant is developed on <a href="https://github.com/TheBerkin/Rant">GitHub</a> and has 3,021 stars
-- rant first developed in <a href="../lists/originCommunities.html#httpsGithubComTheBerkinRant3Pulls">https://github.com/TheBerkin/rant3/pulls</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of rant
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Rant, a procedural text generation language|https://news.ycombinator.com/item?id=8711621|12/07/2014|155|36
-
-keyboardNav umple.html manhood.html
-
-import ../footer.scroll
+isbndb 0

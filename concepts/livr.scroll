@@ -1,55 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Livr
+import ../measures/conceptPage.scroll
+id Livr
+appeared 2012
+type dataValidationLanguage
+creators Viktor Turskyi
+website https://livr-spec.org/
+webRepl http://webbylab.github.io/livr-playground/
+standsFor Language Independent Validation Rules
+country United States
+originCommunity https://github.com/koorchik/LIVR/issues
+domainName livr-spec.org
+ registered 2013
 
-title Livr - Data validation language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="scribble.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cadence-skill.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/livr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://livr-spec.org/" class="material-symbols-outlined">home</a> <a href="http://webbylab.github.io/livr-playground/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/koorchik/LIVR" class="material-symbols-outlined">code</a> <a href="/edit.html?id=livr" class="material-symbols-outlined">edit</a></div>
-
-* Livr, aka Language Independent Validation Rules, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataValidationLanguage">data validation language</a> created in 2012 by Viktor Turskyi.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#viktorTurskyi Viktor Turskyi
-
-codeWithHeader Source code:
- git clone https://github.com/koorchik/LIVR
-
-dashboard
- #1141 <span title="TotalRank: 1693 Jobs: 103 Users: 923 Facts: 971 Links: 667">on PLDB</span>
- 12 Years Old
-
-* Try now: <a href="http://webbylab.github.io/livr-playground/">Web</a>
-
-* Language Independent Validation Rules Specification
-
-- Livr website
- https://livr-spec.org/
-- Livr is developed on <a href="https://github.com/koorchik/LIVR">GitHub</a> and has 277 stars
-- Livr first developed in <a href="../lists/originCommunities.html#httpsGithubComKoorchikLivrIssues">https://github.com/koorchik/LIVR/issues</a>
-- <a href="https://livr-spec.org/">livr-spec.org</a> was registered in 2013
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-     name: &#39;required&#39;,
+     name: 'required',
      phone: {max_length: 10},
      address: {nested_object: {
-         city: &#39;required&#39;,
-         zip: [&#39;required&#39;, &#39;positive_integer&#39;]
+         city: 'required',
+         zip: ['required', 'positive_integer']
      }}
  }
 
-endColumns
+githubRepo https://github.com/koorchik/LIVR
+ firstCommit 2012
+ stars 277
+ forks 20
+ subscribers 16
+ created 2012
+ updated 2022
+ description Language Independent Validation Rules Specification
+ issues 21
 
-keyboardNav scribble.html cadence-skill.html
+repoStats
+ firstCommit 2012
+ commits 251
+ committers 15
+ files 264
 
-import ../footer.scroll
+semanticScholar 0

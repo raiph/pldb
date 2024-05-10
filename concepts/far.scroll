@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FAR
+import ../measures/conceptPage.scroll
+id FAR
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/c9b0a41c947611f98f2a8ab5ea04c15bbbf68720
+country United States
+originCommunity Oregon State University && Hewlett-Packard
 
-title FAR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5682
 
-html
- <a class="trueBaseThemePreviousItem" href="fap.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flowlog.html">&gt;</a>
+wordRank 860
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/far.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=far" class="material-symbols-outlined">edit</a></div>
-
-* FAR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3097 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- FAR first developed in <a href="../lists/originCommunities.html#oregonStateUniversity">Oregon State University</a> and <a href="../lists/originCommunities.html#hewlettPackard">Hewlett-Packard</a>
-- FAR on HOPL
- https://hopl.info/showlanguage.prx?exp=5682
-- Read more about FAR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c9b0a41c947611f98f2a8ab5ea04c15bbbf68720 1.
-
-<br>
-
-endColumns
-
-keyboardNav fap.html flowlog.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,50 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Berry
+import ../measures/conceptPage.scroll
+id Berry
+appeared 2018
+type pl
+creators 官文亮
+conceptDescription Berry is a ultra-lightweight dynamically typed embedded scripting language. It is designed for lower-performance embedded devices. The Berry interpreter-core's code size is less than 40KiB and can run on less than 4KiB heap (on ARM Cortex M4 CPU, Thumb ISA and ARMCC compiler).
+website https://github.com/berry-lang/berry
+country China
+originCommunity https://github.com/berry-lang/
 
-title Berry - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pasukon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cito.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/berry.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/berry-lang/berry" class="material-symbols-outlined">home</a> <a href="https://github.com/berry-lang/berry" class="material-symbols-outlined">code</a> <a href="/edit.html?id=berry" class="material-symbols-outlined">edit</a></div>
-
-* Berry is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by 官文亮.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#官文亮 官文亮
-
-codeWithHeader Source code:
- git clone https://github.com/berry-lang/berry
-
-dashboard
- #948 <span title="TotalRank: 1515 Jobs: 103 Users: 426 Facts: 1256 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Berry is a ultra-lightweight dynamically typed embedded scripting language. It is designed for lower-performance embedded devices. The Berry interpreter-core's code size is less than 40KiB and can run on less than 4KiB heap (on ARM Cortex M4 CPU, Thumb ISA and ARMCC compiler).
-
-- Berry website
- https://github.com/berry-lang/berry
-- Berry is developed on <a href="https://github.com/berry-lang/berry">GitHub</a> and has 1,400 stars
-- Berry first developed in <a href="../lists/originCommunities.html#httpsGithubComBerryLang">https://github.com/berry-lang/</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def fib(x)
-     if (x &lt;= 1)
+     if (x <= 1)
          return x
      end
      return fib(x - 1) + fib(x - 2)
  end
 
-endColumns
+githubRepo https://github.com/berry-lang/berry
+ stars 1400
+ forks 40
+ subscribers 26
+ created 2018
+ updated 2022
+ description A ultra-lightweight embedded scripting language optimized for microcontrollers.
 
-keyboardNav pasukon.html cito.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 927
+ committers 31
+ files 199

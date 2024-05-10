@@ -1,58 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TextMate Language
+import ../measures/conceptPage.scroll
+id TextMate Language
+appeared 2004
+type grammarLanguage
+website https://macromates.com/manual/en/language_grammars
+fileExtensions tmLanguage
 
-title TextMate Language - Grammar language
- hidden
+relatedConcepts sublime-syntax
 
-html
- <a class="trueBaseThemePreviousItem" href="cfscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="austral.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tmlanguage.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://macromates.com/manual/en/language_grammars" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tmlanguage" class="material-symbols-outlined">edit</a></div>
-
-* TextMate Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #1377 <span title="TotalRank: 1905 Jobs: 103 Users: 2442 Facts: 1311 Links: 491">on PLDB</span>
- 20 Years Old
-
-* 
-
-- TextMate Language website
- https://macromates.com/manual/en/language_grammars
-- file extensions for TextMate Language include tmLanguage
-- See also: (1 related languages)<a href="sublime-syntax.html">Sublime Syntax</a>
-
-<br>
-
-codeWithHeader Example from the web:
- scopeName = &#39;source.untitled&#39;;
+example
+ scopeName = 'source.untitled';
  fileTypes = ( );
- foldingStartMarker = &#39;\{\s*$&#39;;
- foldingStopMarker = &#39;^\s*\}&#39;;
+ foldingStartMarker = '\{\s*$';
+ foldingStopMarker = '^\s*\}';
  patterns = (
-    {  name = &#39;keyword.control.untitled&#39;;
-       match = &#39;\b(if|while|for|return)\b&#39;;
+    {  name = 'keyword.control.untitled';
+       match = '\b(if|while|for|return)\b';
     },
-    {  name = &#39;string.quoted.double.untitled&#39;;
-       begin = &#39;&quot;&#39;;
-       end = &#39;&quot;&#39;;
+    {  name = 'string.quoted.double.untitled';
+       begin = '"';
+       end = '"';
        patterns = ( 
-          {  name = &#39;constant.character.escape.untitled&#39;;
-             match = &#39;\\.&#39;;
+          {  name = 'constant.character.escape.untitled';
+             match = '\\.';
           }
        );
     },
  );
 
-endColumns
-
-keyboardNav cfscript.html austral.html
-
-import ../footer.scroll
+semanticScholar 0

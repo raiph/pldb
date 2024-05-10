@@ -1,42 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title XML-GL
-
-title XML-GL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xcy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xml-query-algebra.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xml-gl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xml-gl" class="material-symbols-outlined">edit</a></div>
-
-* XML-GL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1998 by Stefano Ceri and Sara Comai and Ernesto Damiani and Piero Fraternali and Stefano Paraboschi and Letizia Tanca.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
- link ../lists/creators.html#stefanoCeri Stefano Ceri
- link ../lists/creators.html#saraComai Sara Comai
- link ../lists/creators.html#ernestoDamiani Ernesto Damiani
- link ../lists/creators.html#pieroFraternali Piero Fraternali
- link ../lists/creators.html#stefanoParaboschi Stefano Paraboschi
- link ../lists/creators.html#letiziaTanca Letizia Tanca
-
-dashboard
- #3295 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 26 Years Old
-
-* A Graphical Language for Querying and Reshaping XML Documents.  XML-GL is not a visual interface over a conventional, textual query language, but a graph-based query language with both its syntax and semantics defined in terms of graph structures and operations.
-
-- Read more about XML-GL on the web: 1.
- https://www.w3.org/TandS/QL/QL98/pp/xml-gl.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav xcy.html xml-query-algebra.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id XML-GL
+appeared 1998
+type queryLanguage
+creators Stefano Ceri and Sara Comai and Ernesto Damiani and Piero Fraternali and Stefano Paraboschi and Letizia Tanca
+conceptDescription A Graphical Language for Querying and Reshaping XML Documents.  XML-GL is not a visual interface over a conventional, textual query language, but a graph-based query language with both its syntax and semantics defined in terms of graph structures and operations.
+reference https://www.w3.org/TandS/QL/QL98/pp/xml-gl.html

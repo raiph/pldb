@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ACT ONE
+import ../measures/conceptPage.scroll
+id ACT ONE
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/3af3d0c1bd3bdde86b959ca285af5b49cf55620b
+originCommunity Technical University Berlin
 
-title ACT ONE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1027
 
-html
- <a class="trueBaseThemePreviousItem" href="acsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="actalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/act-one.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=act-one" class="material-symbols-outlined">edit</a></div>
-
-* ACT ONE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3319 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- ACT ONE first developed in <a href="../lists/originCommunities.html#technicalUniversityBerlin">Technical University Berlin</a>
-- ACT ONE on HOPL
- https://hopl.info/showlanguage.prx?exp=1027
-- Read more about ACT ONE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3af3d0c1bd3bdde86b959ca285af5b49cf55620b 1.
-
-<br>
-
-endColumns
-
-keyboardNav acsl.html actalk.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AUTASIM
+import ../measures/conceptPage.scroll
+id AUTASIM
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/b0336d934a38cd48e0b0c317a4ff234dca50b997
+country United States
+originCommunity General Research Corporation
 
-title AUTASIM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5437
 
-html
- <a class="trueBaseThemePreviousItem" href="atol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autodraft.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/autasim.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=autasim" class="material-symbols-outlined">edit</a></div>
-
-* AUTASIM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3500 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- AUTASIM first developed in <a href="../lists/originCommunities.html#generalResearchCorporation">General Research Corporation</a>
-- AUTASIM on HOPL
- https://hopl.info/showlanguage.prx?exp=5437
-- Read more about AUTASIM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b0336d934a38cd48e0b0c317a4ff234dca50b997 1.
-
-<br>
-
-endColumns
-
-keyboardNav atol.html autodraft.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

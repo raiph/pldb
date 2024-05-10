@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kvikkalkul
+import ../measures/conceptPage.scroll
+id Kvikkalkul
+appeared 2003
+type pl
+reference https://sv.wikipedia.org/wiki/Kvikkalkul
+country Sweden
+originCommunity Unknown
 
-title Kvikkalkul - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2052
 
-html
- <a class="trueBaseThemePreviousItem" href="krypton.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kylix.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kvikkalkul.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kvikkalkul" class="material-symbols-outlined">edit</a></div>
-
-* Kvikkalkul is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #3771 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- Kvikkalkul first developed in <a href="../lists/originCommunities.html#unknown">Unknown</a>
-- Kvikkalkul on HOPL
- https://hopl.info/showlanguage.prx?exp=2052
-- Read more about Kvikkalkul on the web: 1.
- https://sv.wikipedia.org/wiki/Kvikkalkul 1.
-
-<br>
-
-endColumns
-
-keyboardNav krypton.html kylix.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

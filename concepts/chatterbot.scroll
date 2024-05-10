@@ -1,42 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chatterbot
+import ../measures/conceptPage.scroll
+id chatterbot
+appeared 2014
+type library
+creators Gunther Cox
+website https://chatterbot.readthedocs.io
+country United States
+originCommunity salvius
+domainName chatterbot.readthedocs.io
+ awisRank
+  2022 685897
 
-title chatterbot - Library
- hidden
+githubRepo https://github.com/gunthercox/ChatterBot
+ stars 12366
+ forks 4097
+ subscribers 555
+ created 2014
+ updated 2022
+ firstCommit 2014
+ description ChatterBot is a machine learning, conversational dialog engine for creating chat bots
+ issues 338
 
-html
- <a class="trueBaseThemePreviousItem" href="netlinx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jai.html">&gt;</a>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chatterbot.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://chatterbot.readthedocs.io" class="material-symbols-outlined">home</a> <a href="https://github.com/gunthercox/ChatterBot" class="material-symbols-outlined">code</a> <a href="/edit.html?id=chatterbot" class="material-symbols-outlined">edit</a></div>
-
-* chatterbot is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2014 by Gunther Cox.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#guntherCox Gunther Cox
-
-codeWithHeader Source code:
- git clone https://github.com/gunthercox/ChatterBot
-
-dashboard
- #710 on PLDB
- 10 Years Old
-
-* ChatterBot is a machine learning, conversational dialog engine for creating chat bots
-
-- chatterbot website
- https://chatterbot.readthedocs.io
-- chatterbot is developed on <a href="https://github.com/gunthercox/ChatterBot">GitHub</a> and has 12,366 stars
-- chatterbot first developed in <a href="../lists/originCommunities.html#salvius">salvius</a>
-
-<br>
-
-endColumns
-
-keyboardNav netlinx.html jai.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Natural Language Parsing: Chatterbot|2010|Books LLC|15703851|0.0|0|0

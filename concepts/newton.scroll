@@ -1,39 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Newton
+import ../measures/conceptPage.scroll
+id Newton
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/8a7d217a8c701d3951d456b5e783ef5e5da66365
+country Switzerland
+originCommunity École polytechnique fédérale de Lausanne
 
-title Newton - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=965
 
-html
- <a class="trueBaseThemePreviousItem" href="metaweb-query-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pandora.html">&gt;</a>
+wordRank 6382
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/newton.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=newton" class="material-symbols-outlined">edit</a></div>
-
-* Newton is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #2660 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- Newton first developed in <a href="../lists/originCommunities.html#ecolePolytechniqueFederaleDeLausanne">École polytechnique fédérale de Lausanne</a>
-- Newton on HOPL
- https://hopl.info/showlanguage.prx?exp=965
-- Read more about Newton on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8a7d217a8c701d3951d456b5e783ef5e5da66365 1.
-
-<br>
-
-endColumns
-
-keyboardNav metaweb-query-language.html pandora.html
-
-import ../footer.scroll
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 1998|Cambridge University Press|Higher Order Operational Techniques in Semantics (Publications of the Newton Institute)|Andrew D. Gordon and Andrew M. Pitts and H. K. Moffatt and Nicholas Negroponte|9780521631686
+ 1996|Addison-Wesley|Newton 2.0 User Interface Guidelines|Apple Computer Inc and Apple Computer, Inc Staff|9780201488388
+ 1996|Addison-Wesley|Newton Programmer's Guide: For Newton 2.0|Apple Computer Inc|9780201479478
+ 1997|Cambridge University Press|Semantics and Logics of Computation (Publications of the Newton Institute, Series Number 14)|Pitts, Andrew M.|9780521580571
+ 1995|Morgan Kaufmann Pub|Basic for the Newton: Programming for the Newton With Ns Basic/Book and Disk|Schettino, John and O'Hara, Liz|9780126239553

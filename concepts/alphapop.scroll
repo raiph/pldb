@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AlphaPop
+import ../measures/conceptPage.scroll
+id AlphaPop
+appeared 1986
+type pl
+reference https://en.wikipedia.org/wiki/POP-2
+originCommunity University of Edinburgh
 
-title AlphaPop - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8157
 
-html
- <a class="trueBaseThemePreviousItem" href="alonzo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="altac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alphapop.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=alphapop" class="material-symbols-outlined">edit</a></div>
-
-* AlphaPop is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3352 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- AlphaPop first developed in <a href="../lists/originCommunities.html#universityOfEdinburgh">University of Edinburgh</a>
-- AlphaPop on HOPL
- https://hopl.info/showlanguage.prx?exp=8157
-- Read more about AlphaPop on the web: 1.
- https://en.wikipedia.org/wiki/POP-2 1.
-
-<br>
-
-endColumns
-
-keyboardNav alonzo.html altac.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

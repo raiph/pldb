@@ -1,46 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rapidgen-rpl
+import ../measures/conceptPage.scroll
+id rapidgen-rpl
+appeared 1983
+type pl
+conceptDescription RapidGen translates the XML into a concise and transparent format of decision tables for decision logic programming —RPL— a rich, purpose-built language developed by the company. Supports high speed execution of decision models. Is capable of processing large data volumes. Preserves traceability to the original DMN model.
+country United Kingdom
+originCommunity RapidGen Software Ltd
 
-title rapidgen-rpl - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="push.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spill.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rapidgen-rpl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rapidgen-rpl" class="material-symbols-outlined">edit</a></div>
-
-* rapidgen-rpl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #2664 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 41 Years Old
-
-* RapidGen translates the XML into a concise and transparent format of decision tables for decision logic programming —RPL— a rich, purpose-built language developed by the company. Supports high speed execution of decision models. Is capable of processing large data volumes. Preserves traceability to the original DMN model.
-
-- rapidgen-rpl first developed in <a href="../lists/originCommunities.html#rapidGenSoftwareLtd">RapidGen Software Ltd</a>
-
-<br>
-
-codeWithHeader Example from the web:
- Days_leave &lt;- 22
- AGE &lt; 18         Y N N N N ELSE
- AGE &gt;= 60        N Y - N N -
- SERVICE &gt;= 30    N - Y N N -
- SERVICE &gt;= 15    N - - Y N -
- AGE &gt;= 45        N - - - Y -
+example
+ Days_leave <- 22
+ AGE < 18         Y N N N N ELSE
+ AGE >= 60        N Y - N N -
+ SERVICE >= 30    N - Y N N -
+ SERVICE >= 15    N - - Y N -
+ AGE >= 45        N - - - Y -
  Days_leave + 5   X X X . . .
  Days_leave + 2   . . . X X .
  Days_leave + 3   . X X . . .
-
-endColumns
-
-keyboardNav push.html spill.html
-
-import ../footer.scroll

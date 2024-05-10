@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASF+SDF
+import ../measures/conceptPage.scroll
+id ASF+SDF
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/0d3d2fce141270ea72833e3f31982654c21ef954
+country Netherlands
+originCommunity Centrum Wiskunde & Informatica && Software Improvement Group && Utrecht University
 
-title ASF+SDF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5515
 
-html
- <a class="trueBaseThemePreviousItem" href="armani.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aspen.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asf-sdf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=asf-sdf" class="material-symbols-outlined">edit</a></div>
-
-* ASF+SDF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3494 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- ASF+SDF first developed in <a href="../lists/originCommunities.html#centrumWiskundeInformatica">Centrum Wiskunde & Informatica</a> and <a href="../lists/originCommunities.html#softwareImprovementGroup">Software Improvement Group</a> and <a href="../lists/originCommunities.html#utrechtUniversity">Utrecht University</a>
-- ASF+SDF on HOPL
- https://hopl.info/showlanguage.prx?exp=5515
-- Read more about ASF+SDF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0d3d2fce141270ea72833e3f31982654c21ef954 1.
-
-<br>
-
-endColumns
-
-keyboardNav armani.html aspen.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

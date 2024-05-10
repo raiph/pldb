@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title C'Dent
+import ../measures/conceptPage.scroll
+id C'Dent
+appeared 2010
+type ir
+creators Ingy döt Net
+conceptDescription When you write a module in C'Dent, you can use it in a dozen different programming languages. For instance, you could write a module in Python and use it in JavaScript, or you could write a module in JavaScript and use it in Perl 6, Ruby or Java. C'Dent has multiple input syntaxes. These syntaxes are strict subsets of common and popular object-oriented programming languages. The current implementation of C'Dent supports Python, JavaScript and Perl 6 inputs. Perl and Ruby will be added soon. C'Dent parses and analyzes the input into a well defined tree structure that is is known as C'Dent. The C'Dent format can be trivially serialized to disk as YAML or XML.
+website http://cdent.org/
 
-title C'Dent - Intermediate representation language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="archieml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vely.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cdent.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://cdent.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=cdent" class="material-symbols-outlined">edit</a></div>
-
-* C'Dent is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2010 by Ingy döt Net.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#ingyDotNet Ingy döt Net
-
-dashboard
- #1429 <span title="TotalRank: 1951 Jobs: 103 Users: 2442 Facts: 862 Links: 986">on PLDB</span>
- 14 Years Old
-
-* When you write a module in C'Dent, you can use it in a dozen different programming languages. For instance, you could write a module in Python and use it in JavaScript, or you could write a module in JavaScript and use it in Perl 6, Ruby or Java. C'Dent has multiple input syntaxes. These syntaxes are strict subsets of common and popular object-oriented programming languages. The current implementation of C'Dent supports Python, JavaScript and Perl 6 inputs. Perl and Ruby will be added soon. C'Dent parses and analyzes the input into a well defined tree structure that is is known as C'Dent. The C'Dent format can be trivially serialized to disk as YAML or XML.
-
-- C'Dent website
- http://cdent.org/
-
-<br>
-
-codeWithHeader Example from the web:
+example
  %TAG ! tag:cdent.org,2010:
  --- !AST
  has:
@@ -39,15 +15,15 @@ codeWithHeader Example from the web:
    - !Comment
      line: 1
      type: doc
-     val: &#39;This is World class :)
+     val: 'This is World class :)
  
-       &#39;
+       '
    - !Comment
      line: 4
      type: blank
-     val: &#39;
+     val: '
  
-       &#39;
+       '
    - !Class
      has:
      - !Method
@@ -63,9 +39,3 @@ codeWithHeader Example from the web:
      name: World
    line: 1
    name: Module
-
-endColumns
-
-keyboardNav archieml.html vely.html
-
-import ../footer.scroll

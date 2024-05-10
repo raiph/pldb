@@ -1,65 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title latino
+import ../measures/conceptPage.scroll
+id latino
+appeared 2015
+type pl
+creators Primitivo R. Montero
+website https://lenguaje-latino.org/
+country Mexico
+nativeLanguage Spanish
+originCommunity https://github.com/lenguaje-latino
+domainName lenguaje-latino.org
+ registered 2022
+ awisRank
+  2017 5444100
 
-title latino - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="jspp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="conceptual.html">&gt;</a>
+printToken escribir
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/latino.pldb
+githubRepo https://github.com/primitivorm/latino
+ stars 11
+ forks 1
+ subscribers 1
+ created 2020
+ updated 2021
+ firstCommit 2015
+ description Lenguaje de programación de código abierto para latinos y de habla hispana.
+ issues 0
 
-startColumns 4
+repoStats
+ firstCommit 2015
+ commits 1161
+ committers 33
+ files 389
 
-<div class="trueBaseThemeQuickLinks"><a href="https://lenguaje-latino.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/primitivorm/latino" class="material-symbols-outlined">code</a> <a href="/edit.html?id=latino" class="material-symbols-outlined">edit</a></div>
+leachim6 Latino
+ filepath l/Latino.lat
+ fileExtensions lat
+ example
+  escribir("Hello World")
+  
 
-* latino is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Primitivo R. Montero.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#primitivoRMontero Primitivo R. Montero
-
-codeWithHeader Source code:
- git clone https://github.com/primitivorm/latino
-
-dashboard
- #1364 <span title="TotalRank: 1891 Jobs: 103 Users: 2255 Facts: 802 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Lenguaje de programación de código abierto para latinos y de habla hispana.
-
-- latino website
- https://lenguaje-latino.org/
-- latino is developed on <a href="https://github.com/primitivorm/latino">GitHub</a> and has 11 stars
-- latino first developed in <a href="../lists/originCommunities.html#httpsGithubComLenguajeLatino">https://github.com/lenguaje-latino</a>
-- latino is written with the native language of Spanish
-- <a href="https://lenguaje-latino.org/">lenguaje-latino.org</a> was registered in 2022
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/l/Latino.lat'>hello-world</a>:
- escribir(&quot;Hello World&quot;)
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token escribir
-  Example
-
-keyboardNav jspp.html conceptual.html
-
-import ../footer.scroll
+fileType text
+wordRank 7415
+isOpenSource true
+centralPackageRepositoryCount 0

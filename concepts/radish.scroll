@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Radish
-
-title Radish - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="qbe.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="readable-lisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/radish.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://radishpl.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=radish" class="material-symbols-outlined">edit</a></div>
-
-* Radish is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #2798 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Radish Programming Language
-
-- Radish website
- https://radishpl.com/
-- Radish first developed in <a href="../lists/originCommunities.html#httpsGithubComTeo67RadishIssues">https://github.com/teo67/Radish/issues</a>
-- Read more about Radish on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/wn5vtm/radish_programming_language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav qbe.html readable-lisp.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Radish
+appeared 2022
+type pl
+conceptDescription Radish Programming Language
+website https://radishpl.com/
+reference https://reddit.com/r/ProgrammingLanguages/comments/wn5vtm/radish_programming_language/
+country United States
+originCommunity https://github.com/teo67/Radish/issues

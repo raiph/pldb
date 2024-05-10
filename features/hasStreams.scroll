@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasStaticTyping.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasStringConcatOperator.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/nodejs.html">Node.js</a>:
  const stream = require(&#39;stream&#39;);
@@ -20,8 +20,6 @@ codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
  https://hexdocs.pm/elixir/Stream.html
 
 * Languages *with* Streams include <a href="../concepts/nodejs.html">Node.js</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/bel.html">Bel</a>
-
-* This question asks: Does the language have a concept of streams?
 
 * Read more about Streams on the web: 1.
  https://en.wikipedia.org/wiki/Stream_(computing) 1.

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title METATEM
+import ../measures/conceptPage.scroll
+id METATEM
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/1f959cf5cdfa72f328fab0f836fe9e6715147f7f
+country United Kingdom
+originCommunity University of Manchester && Manchester Metropolitan University && Imperial College of Science, Technology and Medicine && Nomura Research Institute Europe Ltd.
 
-title METATEM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5660
 
-html
- <a class="trueBaseThemePreviousItem" href="metasim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="micro-flowcharts.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/metatem.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=metatem" class="material-symbols-outlined">edit</a></div>
-
-* METATEM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3825 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- METATEM first developed in <a href="../lists/originCommunities.html#universityOfManchester">University of Manchester</a> and <a href="../lists/originCommunities.html#manchesterMetropolitanUniversity">Manchester Metropolitan University</a> and <a href="../lists/originCommunities.html#imperialCollegeOfScienceTechnologyAndMedicine">Imperial College of Science, Technology and Medicine</a> and <a href="../lists/originCommunities.html#nomuraResearchInstituteEuropeLtd">Nomura Research Institute Europe Ltd.</a>
-- METATEM on HOPL
- https://hopl.info/showlanguage.prx?exp=5660
-- Read more about METATEM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1f959cf5cdfa72f328fab0f836fe9e6715147f7f 1.
-
-<br>
-
-endColumns
-
-keyboardNav metasim.html micro-flowcharts.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

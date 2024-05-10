@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Giotto
+import ../measures/conceptPage.scroll
+id Giotto
+appeared 2001
+type pl
+conceptDescription Giotto provides a programming abstraction for hard real-time applications that exhibit time-periodic and multimodal behavior, as in automotive, aerospace, and manufacturing control.
+reference https://pdfs.semanticscholar.org/f9b0/cf704c88bbd9d3accfae39a654cd14996e5a.pdf?_ga=2.263067596.1732224894.1541658055-1663431151.1540068998
+country United States
+originCommunity University of California, Berkeley
 
-title Giotto - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7780
 
-html
- <a class="trueBaseThemePreviousItem" href="flowlog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="heron.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/giotto.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=giotto" class="material-symbols-outlined">edit</a></div>
-
-* Giotto is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3099 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 23 Years Old
-
-* Giotto provides a programming abstraction for hard real-time applications that exhibit time-periodic and multimodal behavior, as in automotive, aerospace, and manufacturing control.
-
-- Giotto first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- Giotto on HOPL
- https://hopl.info/showlanguage.prx?exp=7780
-- Read more about Giotto on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/f9b0/cf704c88bbd9d3accfae39a654cd14996e5a.pdf?_ga=2.263067596.1732224894.1541658055-1663431151.1540068998 1.
-
-<br>
-
-endColumns
-
-keyboardNav flowlog.html heron.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

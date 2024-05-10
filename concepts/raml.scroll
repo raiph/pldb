@@ -1,90 +1,94 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RAML
+import ../measures/conceptPage.scroll
+id RAML
+appeared 2013
+type yamlFormat
+website http://raml.org/spec.html
+documentation https://raml.org/developers/document-your-api
+standsFor RESTful API Modeling Language
+country United States
+originCommunity https://github.com/raml-org
 
-title RAML - Yaml format
- hidden
+githubRepo https://github.com/raml-org/raml-spec
+ firstCommit 2013
+ stars 3780
+ forks 853
+ subscribers 160
+ created 2013
+ updated 2022
+ description RAML Specification
+ issues 223
 
-html
- <a class="trueBaseThemePreviousItem" href="clips.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stata.html">&gt;</a>
+repoStats
+ firstCommit 2013
+ commits 655
+ committers 41
+ files 11
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/raml.pldb
+githubLanguage RAML
+ fileExtensions raml
+ trendingProjectsCount 0
+ type markup
+ aceMode yaml
+ codemirrorMode yaml
+ codemirrorMimeType text/x-yaml
+ tmScope source.yaml
+ repos 4190
+githubBigQuery RAML
+ repos 472
+ users 416
 
-startColumns 4
+linguistGrammarRepo https://github.com/atom/language-yaml
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 25
+ commitCount 205
+ sampleCount 1
+ example
+  #%RAML 0.8
+  
+  title: World Music API
+  baseUri: http://example.api.com/{version}
+  version: v1
+  traits:
+    - paged:
+        queryParameters:
+          pages:
+            description: The number of pages to return
+            type: number
+    - secured: !include http://raml-example.com/secured.yml
+  /songs:
+    is: [ paged, secured ]
+    get:
+      queryParameters:
+        genre:
+          description: filter the songs by genre
+    post:
+    /{songId}:
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+                schema: |
+                  { "$schema": "http://json-schema.org/schema",
+                    "type": "object",
+                    "description": "A canonical song",
+                    "properties": {
+                      "title":  { "type": "string" },
+                      "artist": { "type": "string" }
+                    },
+                    "required": [ "title", "artist" ]
+                  }
+              application/xml:
+      delete:
+        description: |
+          This method will *delete* an **individual song**
+languageServerProtocolProject https://github.com/raml-org/raml-language-server
 
-<div class="trueBaseThemeQuickLinks"><a href="http://raml.org/spec.html" class="material-symbols-outlined">home</a> <a href="https://github.com/raml-org/raml-spec" class="material-symbols-outlined">code</a> <a href="https://raml.org/developers/document-your-api" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=raml" class="material-symbols-outlined">edit</a></div>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* RAML, aka RESTful API Modeling Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+yamlFormat">yaml format</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-codeWithHeader Source code:
- git clone https://github.com/raml-org/raml-spec
-
-dashboard
- #240 <span title="TotalRank: 608 Jobs: 103 Users: 156 Facts: 349 Links: 986">on PLDB</span>
- 11 Years Old
- 4k <span title="RAML repos on GitHub.">Repos</span>
-
-* RAML Specification
-
-- RAML website
- http://raml.org/spec.html
-- RAML is developed on <a href="https://github.com/raml-org/raml-spec">GitHub</a> and has 3,780 stars
-- RAML docs
- https://raml.org/developers/document-your-api
-- There are at least 4,190 RAML repos on <a href="https://github.com/search?q=language:RAML">GitHub</a>
-- RAML first developed in <a href="../lists/originCommunities.html#httpsGithubComRamlOrg">https://github.com/raml-org</a>
-- file extensions for RAML include raml
-- The  Google BigQuery Public Dataset GitHub snapshot shows 416 users using RAML in 472 repos on <a href="https://api.github.com/search/repositories?q=language:RAML">GitHub</a>
-- RAML <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/raml-org/raml-language-server">implementation</a>
-- GitHub supports <a href="https://github.com/atom/language-yaml" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for RAML
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/atom/language-yaml'>Linguist</a>:
- #%RAML 0.8
- 
- title: World Music API
- baseUri: http://example.api.com/{version}
- version: v1
- traits:
-   - paged:
-       queryParameters:
-         pages:
-           description: The number of pages to return
-           type: number
-   - secured: !include http://raml-example.com/secured.yml
- /songs:
-   is: [ paged, secured ]
-   get:
-     queryParameters:
-       genre:
-         description: filter the songs by genre
-   post:
-   /{songId}:
-     get:
-       responses:
-         200:
-           body:
-             application/json:
-               schema: |
-                 { &quot;$schema&quot;: &quot;http://json-schema.org/schema&quot;,
-                   &quot;type&quot;: &quot;object&quot;,
-                   &quot;description&quot;: &quot;A canonical song&quot;,
-                   &quot;properties&quot;: {
-                     &quot;title&quot;:  { &quot;type&quot;: &quot;string&quot; },
-                     &quot;artist&quot;: { &quot;type&quot;: &quot;string&quot; }
-                   },
-                   &quot;required&quot;: [ &quot;title&quot;, &quot;artist&quot; ]
-                 }
-             application/xml:
-     delete:
-       description: |
-         This method will *delete* an **individual song**
-
-endColumns
-
-keyboardNav clips.html stata.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2020|BPB Publications|Hands-on MuleSoft Anypoint platform Volume 1: Designing and Implementing RAML APIs with MuleSoft Anypoint Platform (English Edition)|Nachimuthu, Nanda|9789389898231

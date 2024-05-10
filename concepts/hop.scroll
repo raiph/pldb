@@ -1,59 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hop
+import ../measures/conceptPage.scroll
+id hop
+appeared 2006
+type pl
+reference https://www.lri.fr/~conchon/TER/2012/3/dls06.pdf
+country France
+originCommunity Inria Sophia Antipolis && Universit ́e de Nice
 
-title hop - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="cddl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="julia-lang.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hop.pldb
+leachim6 HOP
+ filepath h/HOP
+ example
+  (define-service (hello-world)
+    (<HTML>
+       (<HEAD>
+          (<TITLE> "Hello World"))
+       (<BODY>
+          "Hello World")))
+  
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=8576
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hop" class="material-symbols-outlined">edit</a></div>
-
-* hop is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #2186 <span title="TotalRank: 2680 Jobs: 103 Users: 2838 Facts: 1591 Links: 986">on PLDB</span>
- 18 Years Old
-
-* 
-
-- hop first developed in <a href="../lists/originCommunities.html#inriaSophiaAntipolis">Inria Sophia Antipolis</a> and <a href="../lists/originCommunities.html#universitEDeNice">Universit ́e de Nice</a>
-- hop on HOPL
- https://hopl.info/showlanguage.prx?exp=8576
-- Read more about hop on the web: 1.
- https://www.lri.fr/~conchon/TER/2012/3/dls06.pdf 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/HOP'>hello-world</a>:
- (define-service (hello-world)
-   (&lt;HTML&gt;
-      (&lt;HEAD&gt;
-         (&lt;TITLE&gt; &quot;Hello World&quot;))
-      (&lt;BODY&gt;
-         &quot;Hello World&quot;)))
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav cddl.html julia-lang.html
-
-import ../footer.scroll
+wordRank 3322
+centralPackageRepositoryCount 0

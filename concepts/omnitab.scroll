@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OMNITAB
+import ../measures/conceptPage.scroll
+id OMNITAB
+appeared 1963
+type pl
+reference https://www.govinfo.gov/content/pkg/GOVPUB-C13-daaa8e8e414a51b481ac1395f0f356d5/pdf/GOVPUB-C13-daaa8e8e414a51b481ac1395f0f356d5.pdf
+country United States
+originCommunity National Bureau of Standards
 
-title OMNITAB - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="omnitab-ii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oxide.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/omnitab.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=omnitab" class="material-symbols-outlined">edit</a></div>
-
-* OMNITAB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3408 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- OMNITAB first developed in <a href="../lists/originCommunities.html#nationalBureauOfStandards">National Bureau of Standards</a>
-- OMNITAB on HOPL
- https://hopl.info/showlanguage.prx?exp=559
-- Read more about OMNITAB on the web: 1.
- https://www.govinfo.gov/content/pkg/GOVPUB-C13-daaa8e8e414a51b481ac1395f0f356d5/pdf/GOVPUB-C13-daaa8e8e414a51b481ac1395f0f356d5.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav omnitab-ii.html oxide.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=559

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NUT
+import ../measures/conceptPage.scroll
+id NUT
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/032d0a3ee326b06e971c56b1858a8914a8d161c9
+country Sweden
+originCommunity Royal Institute of Technology
 
-title NUT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4011
 
-html
- <a class="trueBaseThemePreviousItem" href="nua-prolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="o.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nut.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nut" class="material-symbols-outlined">edit</a></div>
-
-* NUT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4233 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- NUT first developed in <a href="../lists/originCommunities.html#royalInstituteOfTechnology">Royal Institute of Technology</a>
-- NUT on HOPL
- https://hopl.info/showlanguage.prx?exp=4011
-- Read more about NUT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/032d0a3ee326b06e971c56b1858a8914a8d161c9 1.
-
-<br>
-
-endColumns
-
-keyboardNav nua-prolog.html o.html
-
-import ../footer.scroll
+wordRank 8494
+centralPackageRepositoryCount 0

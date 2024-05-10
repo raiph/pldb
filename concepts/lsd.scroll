@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lsd
+import ../measures/conceptPage.scroll
+id lsd
+appeared 2016
+type textMarkup
+country Unknown
+originCommunity https://github.com/fiatjaf/LSD/issues
 
-title lsd - Text markup language
- hidden
+githubRepo https://github.com/fiatjaf/LSD
+ firstCommit 2016
+ stars 3
+ forks 1
+ subscribers 2
+ created 2016
+ updated 2019
+ description Loose Structured Data
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="nlpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="calc4.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 3
+ committers 1
+ files 7
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lsd.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/fiatjaf/LSD" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lsd" class="material-symbols-outlined">edit</a></div>
-
-* lsd is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/fiatjaf/LSD
-
-dashboard
- #2178 <span title="TotalRank: 2680 Jobs: 103 Users: 2366 Facts: 1591 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Loose Structured Data
-
-- lsd is developed on <a href="https://github.com/fiatjaf/LSD">GitHub</a> and has 3 stars
-- lsd first developed in <a href="../lists/originCommunities.html#httpsGithubComFiatjafLsdIssues">https://github.com/fiatjaf/LSD/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of lsd
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: A very loose JSON-like markup language|https://news.ycombinator.com/item?id=12200000|08/01/2016|1|0
-
-keyboardNav nlpl.html calc4.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 12200000|Show HN: A very loose JSON-like markup language|2016-08-01 03:08:11 UTC|1470020891|fiatjaf|0|1

@@ -1,43 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dasm
+import ../measures/conceptPage.scroll
+id Dasm
+appeared 1988
+type assembly
+website https://dasm-assembler.github.io/
+country United States and Germany and Canada
+originCommunity https://github.com/dasm-assembler/
+domainName dasm-assembler.github.io
+ awisRank
+  2022 7232296
 
-title Dasm - Assembly language
- hidden
+githubRepo https://github.com/dasm-assembler/dasm
+ firstCommit 2019
+ stars 148
+ forks 25
+ subscribers 15
+ created 2019
+ updated 2022
+ description Macro assembler with support for several 8-bit microprocessors
+ issues 43
 
-html
- <a class="trueBaseThemePreviousItem" href="candor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lawvere.html">&gt;</a>
+repoStats
+ firstCommit 2019
+ commits 316
+ committers 25
+ files 364
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dasm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://dasm-assembler.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/dasm-assembler/dasm" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dasm" class="material-symbols-outlined">edit</a></div>
-
-* Dasm is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-codeWithHeader Source code:
- git clone https://github.com/dasm-assembler/dasm
-
-dashboard
- #1659 <span title="TotalRank: 2173 Jobs: 103 Users: 1084 Facts: 1311 Links: 986">on PLDB</span>
- 36 Years Old
-
-* Macro assembler with support for several 8-bit microprocessors
-
-- Dasm website
- https://dasm-assembler.github.io/
-- Dasm is developed on <a href="https://github.com/dasm-assembler/dasm">GitHub</a> and has 148 stars
-- Dasm first developed in <a href="../lists/originCommunities.html#httpsGithubComDasmAssembler">https://github.com/dasm-assembler/</a>
-- file extensions for Dasm include dasm16 and dasm
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/asm.py">syntax highlighting</a> for Dasm
-
-<br>
-
-endColumns
-
-keyboardNav candor.html lawvere.html
-
-import ../footer.scroll
+pygmentsHighlighter DASM16
+ filename asm.py
+ fileExtensions dasm16 dasm

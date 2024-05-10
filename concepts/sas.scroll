@@ -1,138 +1,238 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SAS
+import ../measures/conceptPage.scroll
+id SAS
+appeared 1976
+type pl
+creators Anthony James Barr
+website https://www.sas.com
+documentation https://support.sas.com/en/documentation.html
+standsFor Statistical Analysis System
+country United States
+originCommunity North Carolina State University
+domainName sas.com
+ registered 1990
+ awisRank
+  2022 8630
 
-title SAS - Programming language
- hidden
+hasComments true
+hasMultiLineComments true
+ /* A comment
+ */
+hasLineComments true
+ * A comment
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers true
 
-html
- <a class="trueBaseThemePreviousItem" href="http.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="assembly-language.html">&gt;</a>
+lineCommentToken *
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sas.pldb
+wikipedia https://en.wikipedia.org/wiki/SAS_language
+ related html linux
+ summary The SAS language is a computer programming language used for statistical analysis, created by Anthony James Barr at North Carolina State University. It can read in data from common spreadsheets and databases and output the results of statistical analyses in tables, graphs, and as RTF, HTML and PDF documents. The SAS language runs under compilers that can be used on Microsoft Windows, Linux, and various other UNIX and  mainframe computers. The SAS System and World Programming System (WPS) are SAS language compilers.
+ pageId 19060492
+ dailyPageViews 151
+ created 2008
+ backlinksCount 50
+ revisionCount 92
+ appeared 1976
 
-startColumns 4
+githubLanguage SAS
+ fileExtensions sas
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ codemirrorMode sas
+ codemirrorMimeType text/x-sas
+ tmScope source.sas
+ repos 8407
+githubBigQuery SAS
+ repos 1350
+ users 1240
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.sas.com" class="material-symbols-outlined">home</a> <a href="https://support.sas.com/en/documentation.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/SAS_language"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://reddit.com/r/sas"><svg role="img" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 18.65625 4 C 16.558594 4 15 5.707031 15 7.65625 L 15 11.03125 C 12.242188 11.175781 9.742188 11.90625 7.71875 13.0625 C 6.945313 12.316406 5.914063 12 4.90625 12 C 3.816406 12 2.707031 12.355469 1.9375 13.21875 L 1.9375 13.25 L 1.90625 13.28125 C 1.167969 14.203125 0.867188 15.433594 1.0625 16.65625 C 1.242188 17.777344 1.898438 18.917969 3.03125 19.65625 C 3.023438 19.769531 3 19.882813 3 20 C 3 22.605469 4.574219 24.886719 6.9375 26.46875 C 9.300781 28.050781 12.488281 29 16 29 C 19.511719 29 22.699219 28.050781 25.0625 26.46875 C 27.425781 24.886719 29 22.605469 29 20 C 29 19.882813 28.976563 19.769531 28.96875 19.65625 C 30.101563 18.917969 30.757813 17.777344 30.9375 16.65625 C 31.132813 15.433594 30.832031 14.203125 30.09375 13.28125 L 30.0625 13.25 C 29.292969 12.386719 28.183594 12 27.09375 12 C 26.085938 12 25.054688 12.316406 24.28125 13.0625 C 22.257813 11.90625 19.757813 11.175781 17 11.03125 L 17 7.65625 C 17 6.675781 17.558594 6 18.65625 6 C 19.175781 6 19.820313 6.246094 20.8125 6.59375 C 21.65625 6.890625 22.75 7.21875 24.15625 7.3125 C 24.496094 8.289063 25.414063 9 26.5 9 C 27.875 9 29 7.875 29 6.5 C 29 5.125 27.875 4 26.5 4 C 25.554688 4 24.738281 4.535156 24.3125 5.3125 C 23.113281 5.242188 22.246094 4.992188 21.46875 4.71875 C 20.566406 4.402344 19.734375 4 18.65625 4 Z M 16 13 C 19.152344 13 21.964844 13.867188 23.9375 15.1875 C 25.910156 16.507813 27 18.203125 27 20 C 27 21.796875 25.910156 23.492188 23.9375 24.8125 C 21.964844 26.132813 19.152344 27 16 27 C 12.847656 27 10.035156 26.132813 8.0625 24.8125 C 6.089844 23.492188 5 21.796875 5 20 C 5 18.203125 6.089844 16.507813 8.0625 15.1875 C 10.035156 13.867188 12.847656 13 16 13 Z M 4.90625 14 C 5.285156 14 5.660156 14.09375 5.96875 14.25 C 4.882813 15.160156 4.039063 16.242188 3.53125 17.4375 C 3.277344 17.117188 3.125 16.734375 3.0625 16.34375 C 2.953125 15.671875 3.148438 14.976563 3.46875 14.5625 C 3.472656 14.554688 3.464844 14.539063 3.46875 14.53125 C 3.773438 14.210938 4.3125 14 4.90625 14 Z M 27.09375 14 C 27.6875 14 28.226563 14.210938 28.53125 14.53125 C 28.535156 14.535156 28.527344 14.558594 28.53125 14.5625 C 28.851563 14.976563 29.046875 15.671875 28.9375 16.34375 C 28.875 16.734375 28.722656 17.117188 28.46875 17.4375 C 27.960938 16.242188 27.117188 15.160156 26.03125 14.25 C 26.339844 14.09375 26.714844 14 27.09375 14 Z M 11 16 C 9.894531 16 9 16.894531 9 18 C 9 19.105469 9.894531 20 11 20 C 12.105469 20 13 19.105469 13 18 C 13 16.894531 12.105469 16 11 16 Z M 21 16 C 19.894531 16 19 16.894531 19 18 C 19 19.105469 19.894531 20 21 20 C 22.105469 20 23 19.105469 23 18 C 23 16.894531 22.105469 16 21 16 Z M 21.25 21.53125 C 20.101563 22.597656 18.171875 23.28125 16 23.28125 C 13.828125 23.28125 11.898438 22.589844 10.75 21.65625 C 11.390625 23.390625 13.445313 25 16 25 C 18.554688 25 20.609375 23.398438 21.25 21.53125 Z"/></svg></a> <a href="https://twitter.com/sassoftware"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=sas" class="material-symbols-outlined">edit</a></div>
+pygmentsHighlighter SAS
+ filename sas.py
+ fileExtensions SAS sas
+linguistGrammarRepo https://github.com/rpardee/sas.tmbundle
+ firstCommit 2010
+ lastCommit 2018
+ committerCount 14
+ commitCount 142
+ sampleCount 3
+ example
+  /* Example DATA step code for linguist */
+  
+  libname source 'C:\path\to\file'
+  
+  data work.working_copy;
+  	set source.original_file.sas7bdat;
+  run;
+  
+  data work.working_copy;
+  	set work.working_copy;
+  	if Purge = 1 then delete;
+  run;
+  
+  data work.working_copy;
+  	set work.working_copy;
+  	if ImportantVariable = . then MissingFlag = 1;
+  run;
 
-* SAS, aka Statistical Analysis System, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976 by Anthony James Barr.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
- link ../lists/creators.html#anthonyJamesBarr Anthony James Barr
-
-dashboard
- #37 <span title="TotalRank: 119 Jobs: 29 Users: 20 Facts: 70 Links: 491">on PLDB</span>
- 48 Years Old
- 8k <span title="SAS repos on GitHub.">Repos</span>
-
-* The SAS language is a computer programming language used for statistical analysis, created by Anthony James Barr at North Carolina State University. It can read in data from common spreadsheets and databases and output the results of statistical analyses in tables, graphs, and as RTF, HTML and PDF documents. The SAS language runs under compilers that can be used on Microsoft Windows, Linux, and various other UNIX and  mainframe computers. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/SAS_language Read more on Wikipedia...
-
-- SAS website
- https://www.sas.com
-- SAS Wikipedia page
- https://en.wikipedia.org/wiki/SAS_language
-- SAS docs
- https://support.sas.com/en/documentation.html
-- There are at least 8,407 SAS repos on <a href="https://github.com/search?q=language:SAS">GitHub</a>
-- SAS first developed in <a href="../lists/originCommunities.html#northCarolinaStateUniversity">North Carolina State University</a>
-- PLDB estimates there are currently 5k job openings for SAS programmers.
-- file extensions for SAS include sas and SAS
-- SAS on Twitter
- https://twitter.com/sassoftware
-- The  Google BigQuery Public Dataset GitHub snapshot shows 1k users using SAS in 1k repos on <a href="https://api.github.com/search/repositories?q=language:SAS">GitHub</a>
-- There are 7,963 members in the <a href="https://reddit.com/r/sas">SAS subreddit</a>
-- There are 54 <a href="https://projecteuler.net/language=SAS">Project Euler</a> users using SAS
-- Explore SAS snippets on <a href="http://www.rosettacode.org/wiki/Category:SAS">Rosetta Code</a>
-- SAS on HOPL
- https://hopl.info/showlanguage.prx?exp=733
-- SAS ranks #21 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/sas.py">syntax highlighting</a> for SAS
-- GitHub supports <a href="https://github.com/rpardee/sas.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SAS
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/sassoftware/sas_kernel">Kernel</a> for SAS
-- Frequently Asked Questions for SAS
- https://www.sas.com/en_us/certification/faq.html
-- Indeed.com has 1,160 matches for <a href="https://www.indeed.com/jobs?q=sas programmer">"sas programmer"</a>.
-- <a href="https://www.sas.com">sas.com</a> was registered in 1990
-- See also: (2 related languages)<a href="html.html">HTML</a>, <a href="linux.html">Linux</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Sas.sas'>hello-world</a>:
- %macro putit( string= ); 
-      %put &amp;string; 
-      %mend; 
- 
- %putit(string=Hello World)
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Statistical'>the Hello World Collection</a>:
+projectEuler SAS
+ memberCount
+  2019 49
+  2022 54
+helloWorldCollection Statistical Analysis System
  /* Hello world in SAS */
  
  * Writes as output title;
- TITLE &quot;Hello World!&quot;;
+ TITLE "Hello World!";
  * writes to the log;
  data _null_;
-     PUT &quot;Hello world!&quot;;
+     PUT "Hello world!";
  run;
+leachim6 Sas
+ filepath s/Sas.sas
+ fileExtensions sas
+ example
+  %macro putit( string= ); 
+       %put &string; 
+       %mend; 
+  
+  %putit(string=Hello World)
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:SAS
 
-codeWithHeader Example from <a href='https://github.com/rpardee/sas.tmbundle'>Linguist</a>:
- /* Example DATA step code for linguist */
- 
- libname source &#39;C:\path\to\file&#39;
- 
- data work.working_copy;
- 	set source.original_file.sas7bdat;
- run;
- 
- data work.working_copy;
- 	set work.working_copy;
- 	if Purge = 1 then delete;
- run;
- 
- data work.working_copy;
- 	set work.working_copy;
- 	if ImportantVariable = . then MissingFlag = 1;
- run;
+indeedJobs sas programmer
+ 2022 1160
+linkedInSkill sas
+ 2018 352164
+faqPageUrl https://www.sas.com/en_us/certification/faq.html
 
-endColumns
+subreddit https://reddit.com/r/sas
+ memberCount
+  2017 2538
+  2022 7963
 
-## Language <a href="../lists/features.html">features</a>
+tiobe SAS
+ currentRank 21
+hopl https://hopl.info/showlanguage.prx?exp=733
 
-treeTable
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token *
-  Example
-   * A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+twitter https://twitter.com/sassoftware
+jupyterKernel https://github.com/sassoftware/sas_kernel
+fileType text
+wordRank 8860
+centralPackageRepositoryCount 0
 
-keyboardNav http.html assembly-language.html
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Learning SAS by Example: A Programmer's Guide|2007|Ron Cody|1320285|4.29|127|9
+ SAS For Dummies|2007|Stephen McDaniel|970688|3.57|28|4
 
-import ../footer.scroll
+isbndb 94
+ year|publisher|title|authors|isbn13
+ 2005|Pearson|Applied Statistics and the SAS Programming Language|Cody, Ron and Smith, Jeffrey|9780131465329
+ 1995|Duxbury Press|Quick Start to Data Analysis with SAS|DiIorio, Frank and Hardy, Kenneth A.|9780534237608
+ 2009|Duxbury Press|Learning SAS in the Computer Lab (Advanced (Cengage Learning))|Elliott, Rebecca J. and Morrell, Christopher H.|9780495559689
+ 2014|SAS Institute|SAS Macro Programming Made Easy, Third Edition|Burlew, Michele M.|9781612906935
+ 2008|Springer|SAS for Data Analysis: Intermediate Statistical Methods (Statistics and Computing)|Marasinghe, Mervyn G. and Kennedy, William J.|9780387773711
+ 2011|SAS Institute|SAS Certification Prep Guide: Advanced Programming for SAS 9, Third Edition|SAS Institute|9781607649250
+ 2007|SAS Publishing|SAS Certification Prep Guide: Advanced Programming for SAS 9|SAS Publishing|9781599945590
+ 2013||SAS Programming 2: Data Manipulation Techniques|Davetta Dunlap|9781612905280
+ |Sas Institute|SAS programming with Medicare administrative data|Gillingham, Matthew (author.)|9781612903224
+ 1996|SAS Institute|The SAS Workbook|Cody|9781555447571
+ 2012|Sas Institute|The Little Sas Book|Lora D. Delwiche and Susan J. Slaughter|9781629590134
+ 2008|SAS Institute|Stock Market Analysis Using the SAS System: Portfolio Selection and Evaluation|Institute, SAS|9781555446239
+ 1991|Appleton & Lange|Applied Statistics and the Sas Programming Language|Cody, Ronald P. and Smith Jeffrey K. and Smith, Jeffrey K.|9780135005545
+ 2000|Sas Inst|Introduction To Programming Concepts Using Sas Software Course Notes|Unknown|9781580256513
+ 20180905|SAS Institute Inc.|SAS Certification Prep Guide|Frank Voehl; H. James Harrington; Rick Fernandez; Brett Trusko|9781635269918
+ 2007|Wiley-interscience|Sas 9 Study Guide: Preparing For The Base Programming Certification Exam For Sas 9|Ali Hezaveh|9780470164983
+ 1997|Duxbury Resource Center|Sas Applications Programming: A Gentle Introduction|Frank C. Diiorio|9780534499709
+ 2000|Sas Inst|Sas Programming I: Essentials Course Notes|SAS institute|9781580256490
+ 2007|SAS Institute|SAS Graphics for Java: Examples Using SAS AppDev Studio and the Output Delivery System (SAS Press)|Wendy Bohnenkamp and Jackie Iverson|9781590476932
+ 2020|Routledge|SAS Programming for Elementary Statistics|Goad, Carla L.|9781138589025
+ 20190211|SAS Institute Inc.|SAS Certified Specialist Prep Guide|Lori M. Poloni-Staudinger; Michael R. Wolf|9781642951769
+ 2021|SPSS Inc.|SPSS Programming and Data Management: A Guide for SPSS and SAS Users, 3rd Edition|Raynald Levesque and SPSS Inc.|9781568273747
+ 2006|SAS Institute,|SAS Programming 1: Essentials: Course Notes|SAS|9781599947334
+ 2004|Sas Institute|Sas 9.1 Sql Procedure User's Guide|Inc Sas Institute and Sas Institute|9781590473344
+ 2020|Packt Publishing|Mastering SAS Programming for Data Warehousing: An advanced programming guide to designing and managing Data Warehouses using SAS|Wahi, Monika|9781789532371
+ 2008|SAS Institute|An Array of Challenges Test Your SAS Skills|Virgile, Robert|9781555448066
+ 2011|Springer|R for SAS and SPSS Users (Statistics and Computing)|Muenchen, Robert A.|9781461406853
+ 1994|Springer|Static Analysis: First International Static Analysis Symposium, SAS '94, Namur, Belgium, September 28 - 30, 1994. Proceedings (Lecture Notes in Computer Science, 864)||9783540584858
+ 20201207|SAS Institute Inc.|SAS Visual Analytics for SAS Viya|SAS Institute Inc.|9781952365102
+ 2000|Breakfast Communications Corp|Professional SAS Programming Logic|Aster, Rick|9781891957055
+ 1991|Pws-kent Publishing Co, Us|Sas Applications Programming: A Gentle Introduction|Frank C Diiorio|9780534984649
+ 2000|SAS Institute,|SAS SQL Procedure User's Guide,Version 8|SAS Institute Staff and Publishing SAS Publishing and SAS Publishing|9781580255998
+ 2012|SAS Institute|SAS Hash Object Programming Made Easy|Burlew, Michele M.|9781607648017
+ 20201125|SAS Institute Inc.|SAS Graphics for Clinical Trials by Example|Kriss Harris; Richann Watson|9781952365973
+ 20200626|SAS Institute Inc.|End-to-End Data Science with SAS|James Gearheart|9781642958065
+ 20170106|SAS Institute Inc.|Step-by-Step Programming with Base SAS 9.4|SAS Institute|9781629608068
+ 2005|Sas|Sas Programming Iii: Advanced Techniques Instructor-based Training|Sas|9781590478349
+ 2013|SAS Institute|PROC REPORT by Example: Techniques for Building Professional Reports Using SAS|Fine, Lisa|9781612907840
+ 2018|Vibrant Publishers|Sas Interview Questions You'll Most Likely Be Asked (job Interview Questions Series)|Publishers, Vibrant|9781949395129
+ 2019-02-11T00:00:01Z|SAS Institute|SAS Certified Specialist Prep Guide: Base Programming Using SAS 9.4||9781642951790
+ 2008|SAGE Publications, Inc|Data Analysis Using SAS|Peng, Chao-Ying Joanne|9781412956741
+ 2012|Springer|SAS for Epidemiologists: Applications and Methods|DiMaggio, Charles|9781461448549
+ 2007|SAS Institute|Learning SAS by Example: A Programmer's Guide|Cody, Ron|9781599941653
+ 2015|SAS Institute|Statistical Programming in SAS|Bailer, John|9781599946566
+ 2015-09-04T00:00:01Z|SAS Institute|SAS Certification Prep Guide: Base Programming for SAS 9, Third Edition||9781607649243
+ 2017-12-01T00:00:01Z|SAS Institute|SAS Certification Prep Guide: Base Programming for SAS 9, Fourth Edition|Institute, SAS|9781635263732
+ 2014|Notion Press|SAS Clinical Programming: In 18 Easy Steps|Prasad, Y. Lakshmi|9789384381639
+ 2019-10-16T00:00:01Z|SAS Institute|SAS Certified Professional Prep Guide: Advanced Programming Using SAS 9.4||9781642954678
+ 2017|SAS Institute|Practical and Efficient SAS Programming: The Insider's Guide|Messineo, Martha|9781635260236
+ 2014-03-01T00:00:01Z|SAS Institute|SAS Programming in the Pharmaceutical Industry, Second Edition|Shostak, Jack|9781612906041
+ 2019|SAS Institute|SAS Certified Professional Prep Guide: Advanced Programming Using SAS 9.4|Sas and Sas Institute|9781642956917
+ 2011|Springer|R for SAS and SPSS Users (Statistics and Computing)|Muenchen, Robert A.|9781461406846
+ 2019-02-11T00:00:01Z|SAS Institute|SAS Certified Specialist Prep Guide: Base Programming Using SAS 9.4||9781642951905
+ 2010|SAGE Publications Ltd|Discovering Statistics Using SAS|Field, Andy and Miles, Jeremy|9781849200929
+ 2008|SAS Institute|SAS Programming 2: Data Manipulation Techniques Course Notes|SAS|9781607642381
+ 2014|SAS Institute|Multiple Imputation of Missing Data Using SAS|Berglund, Patricia and Heeringa, Steven G.|9781612904528
+ 2015|SAS Institute|SAS Certification Prep Guide: Advanced Programming for SAS9, Fourth Edition||9781629593548
+ 2009|Jossey-Bass|SAS Essentials: A Guide to Mastering SAS for Research|Elliott, Alan C. and Woodward, Wayne A.|9780470461297
+ 2019|Chapman and Hall/CRC|Statistical Programming in SAS|Bailer, A. John|9780367358006
+ 2017|Packt Publishing|Big Data Analytics with SAS: Get actionable insights from your Big Data using the power of SAS|Pope, David|9781788294317
+ 2001|Psychology Press|Conducting Meta-Analysis Using SAS (Multivariate Applications Series)|Winfred Arthur Jr. and Winston Bennett Jr. and Allen I. Huffcutt|9780805838091
+ 2015-06-04T00:00:01Z|CreateSpace Independent Publishing Platform|Beginning SAS Programming: a true beginner's guide for learning SAS|Guo, Yufeng|9781514218990
+ 1997|Prentice Hall|Applied Statistics and the SAS Programming Language|Cody, Ronald P. and Smith, Jeffrey K.|9780137436422
+ 2009|SAS Publishing|SAS Certification Prep Guide SAS Certification Prep Guide: Advanced Programming for SAS 9, Second Edition|SAS Publishing|9781607640448
+ 2012|SAS Institute|Cody's Collection of Popular SAS Programming Tasks and How to Tackle Them|Cody, Ron|9781612903330
+ 2011|Breakfast Communications Corporation|Professional SAS Programmer's Pocket Reference|Rick Aster|9781891957185
+ 2019|Routledge|Statistical Programming in SAS|Bailer, A. John|9780367357979
+ 2005-09T|SAS Publishing|SAS Programming in the Pharmaceutical Industry|Jack Shostak|9781590477939
+ 2010-08-25T00:00:01Z|SAS Institute|SAS Programming for Enterprise Guide Users, Second Edition|Constable, Neil|9781607645283
+ 2018|SAS Institute|SAS Programming in the Pharmaceutical Industry, Second Edition|Shostak, Jack|9781635269147
+ 1995|SAS Publishing|SAS Programming by Example|Ronald P. Cody and Ray Pass|9781555446819
+ 2009|SAS Publishing|SAS Certification Prep Guide: Base Programming for SAS 9, Second Edition|SAS Publishing|9781607640455
+ 2017|SAS Institute|Step-by-Step Programming with Base SAS 9.4, Second Edition||9781629598949
+ 2012|Wiley|Using SAS for Principles of Econometrics, 4th Edition|Hill, R. Carter|9781118361726
+ 2012|SAS Institute|Data Quality for Analytics Using SAS|Svolba, Gerhard|9781612902272
+ 2006|SAS Publishing|SAS Macro Programming Made Easy, Second Edition|Michele M. Burlew|9781590478820
+ 2006|SAS Publishing|SAS Certification Prep Guide: Base Programming for SAS 9|SAS|9781590479223
+ 2008-12-03T00:00:01Z|SAS Institute|Step-By-Step Programming With Base SAS Software|Institute, SAS|9781580257916
+ 2005|Breakfast Communications Corp|Professional SAS Programming Shortcuts: Over 1,000 Ways to Improve Your SAS Programs|Aster, Rick|9781891957116
+ 2015-03-20|SAS Institute Inc.|SAS Programming 2: Data Manipulation Techniques|SAS Institute Inc.|9781629597508
+ 2007|SAS Institute|Basic Statistics Using SAS Enterprise Guide:: A Primer|Der, Geoff and Everitt, Brian S.|9781599945736
+ 1998|SAS Publishing|SAS Macro Programming Made Easy|Burlew, Michele M.|9781580253437
+ 1991|Cengage Learning|SAS Applications Programming: A Gentle Introduction (Duxbury Series in Statistics & Decision Sciences)|DiIorio, Frank C.|9780534923907
+ 2015|Apress|SAS Programming and Data Visualization Techniques: A Power User's Guide|Holland, Philip R.|9781484205693
+ 2011-07-01T00:00:01Z|Posts and Telecom Press|Applied Statistics and the SAS Programming Language (5th Edition) (Chinese Edition)|[Mei]Luo Na De·Ke Di Ling Jie Fu Li·Shi Mi Si|9787115252784
+ 1998|SAS Institute|SAS for Monte Carlo Studies: A Guide for Quantitative Researchers|Fan Ph.D., Xitao|9781590471418
+ 2021|SAS Institute|Getting Started with SAS Programming: Using SAS Studio in the Cloud (Hardcover edition)|Cody, Ron|9781953329202
+ 2018|SAS Institute|SAS Macro Programming Made Easy, Third Edition|Burlew, Michele M.|9781635269079
+ 2015|SAS Institute|Bayesian Analysis of Item Response Theory Models Using SAS|Stone, Clement A. and Zhu, Xiaowen|9781629596501
+ 2014|Wiley|Big Data, Big Innovation: Enabling Competitive Differentiation through Business Analytics (Wiley and SAS Business Series)|Stubbs, Evan|9781118925522
+ 2008|Springer|SAS for Data Analysis: Intermediate Statistical Methods (Statistics and Computing)|Marasinghe, Mervyn G. and William J. Kennedy|9780387773728
+ 2021|SAS Institute Inc.|SAS Programming 1:Essentials Course Notes|Bennett|9781629597355
+ 2016|CRC Press|Practical Statistical Methods: A SAS Programming Approach|Padgett, Lakshmi|9781439812549
+ 2007|Wiley-Interscience|Data Mining Using SAS Enterprise Miner|Matignon, Randall|9780470149010
+
+semanticScholar 10
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1986|Applied Statistics and the SAS Programming Language|10.2307/1271202|465|33|R. Cody and Jeffrey K. Smith|c0f9432b13bf1e85e5e647b9259e5164584f8220
+ 1990|What is the SAS System|10.1007/978-1-4615-9670-7_1|100|16|P. Herzberg|ccc9387e43de6ac9ec81b3144ce7735ac28409fa
+ 1986|Applied statistics and the SAS programming language (2nd ed.)|10.1037/025856|97|10|R. Cody and Jeffrey K. Smith|44ed2d49283af3772a79d7d2be46980e77d15e4f
+ 2007|Static Analysis, 14th International Symposium, SAS 2007, Kongens Lyngby, Denmark, August 22-24, 2007, Proceedings|10.1007/978-3-540-74061-2|57|0|H. R. Nielson and G. Filé|3f7c96ddded4474e87f9bc389e34ee6943e5429b
+ 2008|SAS for Data Analysis: Intermediate Statistical Methods|10.18637/jss.v028.b01|17|0|W. Hartmann|ef23a88c303f1aec557b2f8e879207e948b0b7d2
+ 2006|Applied Statistics and the SAS® Programming Language, Statistical Analysis of Medical Data Using SAS|10.1198/tech.2006.s418|7|1||59a2fa02065323cb7b8bd63ffc346cafe4b21b72
+ 2016|Applied Statistics And The Sas Programming Language|10.1080/00401706.1998.10485547|6|1|Steffen Beich|522574159223e99ca5ed977f22a03001f4802102
+ 2008|Introduction to the SAS Language|10.1007/978-0-387-77372-8_1|1|0|M. Marasinghe and W. J. Kennedy|0c9a658f80a626cdc628692e03ca1642ec9ebf87
+ 2020|Automated Test Assembly Using SAS Operations Research Software in a Medical Licensing Examination|10.1177/0146621619847169|1|0|Can Shao and Silu Liu and H. Yang and Tsung-hsun Tsai|08f1de70767e9d28d43b9ae6be6c83def88e3278
+ 2012|%PROC_R: A SAS Macro that Enables Native R Programming in the Base SAS Environment|10.18637/JSS.V046.C02|1|0|Xin Wei|193c9e1f3166bc06301dcf8b4a11ddaefa7bcb15

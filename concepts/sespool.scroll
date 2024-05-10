@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SESPOOL
+import ../measures/conceptPage.scroll
+id SESPOOL
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/ff3636dadf21444d09eb2edde32d8da834d326bb
+country United States
+originCommunity Washington State University
 
-title SESPOOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2811
 
-html
- <a class="trueBaseThemePreviousItem" href="sequential-pascal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="setlog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sespool.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sespool" class="material-symbols-outlined">edit</a></div>
-
-* SESPOOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #4009 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- SESPOOL first developed in <a href="../lists/originCommunities.html#washingtonStateUniversity">Washington State University</a>
-- SESPOOL on HOPL
- https://hopl.info/showlanguage.prx?exp=2811
-- Read more about SESPOOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ff3636dadf21444d09eb2edde32d8da834d326bb 1.
-
-<br>
-
-endColumns
-
-keyboardNav sequential-pascal.html setlog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

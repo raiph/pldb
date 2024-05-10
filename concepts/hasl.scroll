@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HASL
+import ../measures/conceptPage.scroll
+id HASL
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/4e9b1ede62fbcea2b406aded008a347332848f4c
+country Canada
+originCommunity University of British Columbia
 
-title HASL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1227
 
-html
- <a class="trueBaseThemePreviousItem" href="haskell-sharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="heraklit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hasl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hasl" class="material-symbols-outlined">edit</a></div>
-
-* HASL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3713 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- HASL first developed in <a href="../lists/originCommunities.html#universityOfBritishColumbia">University of British Columbia</a>
-- HASL on HOPL
- https://hopl.info/showlanguage.prx?exp=1227
-- Read more about HASL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4e9b1ede62fbcea2b406aded008a347332848f4c 1.
-
-<br>
-
-endColumns
-
-keyboardNav haskell-sharp.html heraklit.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

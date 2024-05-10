@@ -1,214 +1,194 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Click
+import ../measures/conceptPage.scroll
+id Click
+appeared 1999
+type pl
+website https://github.com/kohler/click/wiki/Language
+documentation https://click.palletsprojects.com/en/8.1.x/
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title Click - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="pl-i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edn.html">&gt;</a>
+lineCommentToken //
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/click.pldb
+githubRepo https://github.com/kohler/click
+ firstCommit 1999
+ stars 667
+ forks 316
+ subscribers 75
+ created 2010
+ updated 2022
+ description The Click modular router: fast modular packet processing and analysis
+ issues 140
 
-startColumns 4
+repoStats
+ firstCommit 1999
+ commits 10877
+ committers 144
+ files 1971
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kohler/click/wiki/Language" class="material-symbols-outlined">home</a> <a href="https://github.com/kohler/click" class="material-symbols-outlined">code</a> <a href="https://click.palletsprojects.com/en/8.1.x/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=click" class="material-symbols-outlined">edit</a></div>
+githubLanguage Click
+ fileExtensions click
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.click
+ repos 39
+githubBigQuery Click
+ repos 127
+ users 115
 
-* Click is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-codeWithHeader Source code:
- git clone https://github.com/kohler/click
-
-dashboard
- #216 <span title="TotalRank: 573 Jobs: 103 Users: 379 Facts: 91 Links: 986">on PLDB</span>
- 25 Years Old
- 39 <span title="Click repos on GitHub.">Repos</span>
-
-* The Click modular router: fast modular packet processing and analysis
-
-- Click website
- https://github.com/kohler/click/wiki/Language
-- Click is developed on <a href="https://github.com/kohler/click">GitHub</a> and has 667 stars
-- Click docs
- https://click.palletsprojects.com/en/8.1.x/
-- There are at least 39 Click repos on <a href="https://github.com/search?q=language:Click">GitHub</a>
-- Click first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- file extensions for Click include click
-- The  Google BigQuery Public Dataset GitHub snapshot shows 115 users using Click in 127 repos on <a href="https://api.github.com/search/repositories?q=language:Click">GitHub</a>
-- GitHub supports <a href="https://github.com/stenverbois/language-click.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Click
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/stenverbois/language-click.git'>Linguist</a>:
- rates :: AvailableRates
- elementclass sr2 {
-   $sr2_ip, $sr2_nm, $wireless_mac, $gateway, $probes|
- 
- 
- arp :: ARPTable();
- lt :: LinkTable(IP $sr2_ip);
- 
- 
- gw :: SR2GatewaySelector(ETHTYPE 0x062c,
- 		      IP $sr2_ip,
- 		      ETH $wireless_mac,
- 		      LT lt,
- 		      ARP arp,
- 		      PERIOD 15,
- 		      GW $gateway);
- 
- 
- gw -&gt; SR2SetChecksum -&gt; [0] output;
- 
- set_gw :: SR2SetGateway(SEL gw);
- 
- 
- es :: SR2ETTStat(ETHTYPE 0x0641, 
- 	      ETH $wireless_mac, 
- 	      IP $sr2_ip, 
- 	      PERIOD 30000,
- 	      TAU 300000,
- 	      ARP arp,
- 	      PROBES $probes,
- 	      ETT metric,
- 	      RT rates);
- 
- 
- metric :: SR2ETTMetric(LT lt);
- 
- 
- forwarder :: SR2Forwarder(ETHTYPE 0x0643, 
- 			      IP $sr2_ip, 
- 			      ETH $wireless_mac, 
- 			      ARP arp, 
- 			      LT lt);
- 
- 
- querier :: SR2Querier(ETH $wireless_mac, 
- 		     SR forwarder,
- 		     LT lt, 
- 		     ROUTE_DAMPENING true,
- 		     TIME_BEFORE_SWITCH 5,
- 		     DEBUG true);
- 
- 
- query_forwarder :: SR2MetricFlood(ETHTYPE 0x0644,
- 			       IP $sr2_ip, 
- 			       ETH $wireless_mac, 
- 			       LT lt, 
- 			       ARP arp,
- 			       DEBUG false);
- 
- query_responder :: SR2QueryResponder(ETHTYPE 0x0645,
- 				    IP $sr2_ip, 
- 				    ETH $wireless_mac, 
- 				    LT lt, 
- 				    ARP arp,
- 				    DEBUG true);
- 
- 
- query_responder -&gt; SR2SetChecksum -&gt; [0] output;
- query_forwarder -&gt; SR2SetChecksum -&gt; SR2Print(forwarding) -&gt; [0] output;
- query_forwarder [1] -&gt; query_responder;
- 
- data_ck :: SR2SetChecksum() 
- 
- input [1] 
- -&gt; host_cl :: IPClassifier(dst net $sr2_ip mask $sr2_nm,
- 				-)
- -&gt; querier
- -&gt; data_ck;
- 
- 
- host_cl [1] -&gt; [0] set_gw [0] -&gt; querier;
- 
- forwarder[0] 
-   -&gt; dt ::DecIPTTL
-   -&gt; data_ck
-   -&gt; [2] output;
- 
- 
- dt[1] 
- -&gt; Print(ttl-error) 
- -&gt; ICMPError($sr2_ip, timeexceeded, 0) 
- -&gt; querier;
- 
- 
- // queries
- querier [1] -&gt; [1] query_forwarder;
- es -&gt; SetTimestamp() -&gt; [1] output;
- 
- 
- forwarder[1] //ip packets to me
-   -&gt; SR2StripHeader()
-   -&gt; CheckIPHeader()
-   -&gt; from_gw_cl :: IPClassifier(src net $sr2_ip mask $sr2_nm,
- 				-)
-   -&gt; [3] output;
- 
- from_gw_cl [1] -&gt; [1] set_gw [1] -&gt; [3] output;
- 
-  input [0]
-    -&gt; ncl :: Classifier(
- 			12/0643 , //sr2_forwarder
- 			12/0644 , //sr2
- 			12/0645 , //replies
- 			12/0641 , //sr2_es
- 			12/062c , //sr2_gw
- 			);
+linguistGrammarRepo https://github.com/stenverbois/language-click.git
+ firstCommit 2015
+ lastCommit 2017
+ committerCount 4
+ commitCount 22
+ sampleCount 2
+ example
+  rates :: AvailableRates
+  elementclass sr2 {
+    $sr2_ip, $sr2_nm, $wireless_mac, $gateway, $probes|
   
   
-  ncl[0] -&gt; SR2CheckHeader() -&gt; [0] forwarder;
-  ncl[1] -&gt; SR2CheckHeader() -&gt; PrintSR(query) -&gt; query_forwarder
-  ncl[2] -&gt; SR2CheckHeader() -&gt; query_responder;
-  ncl[3] -&gt; es;
-  ncl[4] -&gt; SR2CheckHeader() -&gt; gw;
+  arp :: ARPTable();
+  lt :: LinkTable(IP $sr2_ip);
   
- }
- 
- 
- 
- Idle -&gt; s :: sr2(2.0.0.1, 255.0.0.0, 00:00:00:00:00:01, false, &quot;12 60 12 1500&quot;) -&gt; Discard;
- Idle -&gt; [1] s;
- s[1] -&gt; Discard;
- s[2] -&gt; Discard;
- s[3] -&gt; Discard;
- 
+  
+  gw :: SR2GatewaySelector(ETHTYPE 0x062c,
+  		      IP $sr2_ip,
+  		      ETH $wireless_mac,
+  		      LT lt,
+  		      ARP arp,
+  		      PERIOD 15,
+  		      GW $gateway);
+  
+  
+  gw -> SR2SetChecksum -> [0] output;
+  
+  set_gw :: SR2SetGateway(SEL gw);
+  
+  
+  es :: SR2ETTStat(ETHTYPE 0x0641, 
+  	      ETH $wireless_mac, 
+  	      IP $sr2_ip, 
+  	      PERIOD 30000,
+  	      TAU 300000,
+  	      ARP arp,
+  	      PROBES $probes,
+  	      ETT metric,
+  	      RT rates);
+  
+  
+  metric :: SR2ETTMetric(LT lt);
+  
+  
+  forwarder :: SR2Forwarder(ETHTYPE 0x0643, 
+  			      IP $sr2_ip, 
+  			      ETH $wireless_mac, 
+  			      ARP arp, 
+  			      LT lt);
+  
+  
+  querier :: SR2Querier(ETH $wireless_mac, 
+  		     SR forwarder,
+  		     LT lt, 
+  		     ROUTE_DAMPENING true,
+  		     TIME_BEFORE_SWITCH 5,
+  		     DEBUG true);
+  
+  
+  query_forwarder :: SR2MetricFlood(ETHTYPE 0x0644,
+  			       IP $sr2_ip, 
+  			       ETH $wireless_mac, 
+  			       LT lt, 
+  			       ARP arp,
+  			       DEBUG false);
+  
+  query_responder :: SR2QueryResponder(ETHTYPE 0x0645,
+  				    IP $sr2_ip, 
+  				    ETH $wireless_mac, 
+  				    LT lt, 
+  				    ARP arp,
+  				    DEBUG true);
+  
+  
+  query_responder -> SR2SetChecksum -> [0] output;
+  query_forwarder -> SR2SetChecksum -> SR2Print(forwarding) -> [0] output;
+  query_forwarder [1] -> query_responder;
+  
+  data_ck :: SR2SetChecksum() 
+  
+  input [1] 
+  -> host_cl :: IPClassifier(dst net $sr2_ip mask $sr2_nm,
+  				-)
+  -> querier
+  -> data_ck;
+  
+  
+  host_cl [1] -> [0] set_gw [0] -> querier;
+  
+  forwarder[0] 
+    -> dt ::DecIPTTL
+    -> data_ck
+    -> [2] output;
+  
+  
+  dt[1] 
+  -> Print(ttl-error) 
+  -> ICMPError($sr2_ip, timeexceeded, 0) 
+  -> querier;
+  
+  
+  // queries
+  querier [1] -> [1] query_forwarder;
+  es -> SetTimestamp() -> [1] output;
+  
+  
+  forwarder[1] //ip packets to me
+    -> SR2StripHeader()
+    -> CheckIPHeader()
+    -> from_gw_cl :: IPClassifier(src net $sr2_ip mask $sr2_nm,
+  				-)
+    -> [3] output;
+  
+  from_gw_cl [1] -> [1] set_gw [1] -> [3] output;
+  
+   input [0]
+     -> ncl :: Classifier(
+  			12/0643 , //sr2_forwarder
+  			12/0644 , //sr2
+  			12/0645 , //replies
+  			12/0641 , //sr2_es
+  			12/062c , //sr2_gw
+  			);
+   
+   
+   ncl[0] -> SR2CheckHeader() -> [0] forwarder;
+   ncl[1] -> SR2CheckHeader() -> PrintSR(query) -> query_forwarder
+   ncl[2] -> SR2CheckHeader() -> query_responder;
+   ncl[3] -> es;
+   ncl[4] -> SR2CheckHeader() -> gw;
+   
+  }
+  
+  
+  
+  Idle -> s :: sr2(2.0.0.1, 255.0.0.0, 00:00:00:00:00:01, false, "12 60 12 1500") -> Discard;
+  Idle -> [1] s;
+  s[1] -> Discard;
+  s[2] -> Discard;
+  s[3] -> Discard;
+  
 
-endColumns
+fileType text
+wordRank 94
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav pl-i.html edn.html
-
-import ../footer.scroll
+isbndb 0

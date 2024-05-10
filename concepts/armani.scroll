@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Armani
+import ../measures/conceptPage.scroll
+id Armani
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/bdf831dc0faa2839b9098c33839f583d6e1b16fa
+country United States
+originCommunity Wright Laboratory && Aeronautical Systems Center && Air Force Materiel Command, USAF && Advanced Research Projects Agency
 
-title Armani - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5804
 
-html
- <a class="trueBaseThemePreviousItem" href="ark.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="asf-sdf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/armani.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=armani" class="material-symbols-outlined">edit</a></div>
-
-* Armani is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3493 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- Armani first developed in <a href="../lists/originCommunities.html#wrightLaboratory">Wright Laboratory</a> and <a href="../lists/originCommunities.html#aeronauticalSystemsCenter">Aeronautical Systems Center</a> and <a href="../lists/originCommunities.html#airForceMaterielCommandUsaf">Air Force Materiel Command, USAF</a> and <a href="../lists/originCommunities.html#advancedResearchProjectsAgency">Advanced Research Projects Agency</a>
-- Armani on HOPL
- https://hopl.info/showlanguage.prx?exp=5804
-- Read more about Armani on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bdf831dc0faa2839b9098c33839f583d6e1b16fa 1.
-
-<br>
-
-endColumns
-
-keyboardNav ark.html asf-sdf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title webql
+import ../measures/conceptPage.scroll
+id webql
+appeared 2001
+type queryLanguage
+conceptDescription WebQL was developed by QL2 Softaware in 2006. It is used for data integration and collection of unstructured and structured sources including the Web, PDF and Word documents, spreadsheets, email repositories, corporate data stores and more. It is also capable of Optical Character Recognition that enables it to retrive text within images. WebQL also support XML data of arbitrary size, and APIs for embedding WebQL in C, Java or .NET programs.
+reference https://wikivisually.com/wiki/WebQL
+originCommunity QL2 Software
 
-title webql - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="subx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cokescript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/webql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=webql" class="material-symbols-outlined">edit</a></div>
-
-* webql is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #2382 <span title="TotalRank: 2876 Jobs: 103 Users: 2838 Facts: 1787 Links: 986">on PLDB</span>
- 23 Years Old
-
-* WebQL was developed by QL2 Softaware in 2006. It is used for data integration and collection of unstructured and structured sources including the Web, PDF and Word documents, spreadsheets, email repositories, corporate data stores and more. It is also capable of Optical Character Recognition that enables it to retrive text within images. WebQL also support XML data of arbitrary size, and APIs for embedding WebQL in C, Java or .NET programs.
-
-- webql first developed in <a href="../lists/originCommunities.html#ql2Software">QL2 Software</a>
-- Read more about webql on the web: 1.
- https://wikivisually.com/wiki/WebQL 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  select
    URL,
    clean(CONTENT) as TITLE
@@ -38,12 +14,11 @@ codeWithHeader Example from the web:
    links
  within
    http://blogsearch.google.com
-   submitting values &#39;wikipedia&#39; for &#39;q&#39;
+   submitting values 'wikipedia' for 'q'
  where
-   url_host(URL) not matching &#39;google&#39;
+   url_host(URL) not matching 'google'
 
-endColumns
+fileType text
+centralPackageRepositoryCount 0
 
-keyboardNav subx.html cokescript.html
-
-import ../footer.scroll
+isbndb 0

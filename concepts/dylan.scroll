@@ -1,75 +1,87 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dylan
+import ../measures/conceptPage.scroll
+id Dylan
+appeared 1992
+type pl
+website http://opendylan.org
+webRepl https://play.opendylan.org/
+documentation https://opendylan.org/documentation/
+country United Kingdom
+originCommunity Apple
+domainName opendylan.org
+ registered 2004
+ awisRank
+  2022 5393679
+  2017 4149488
 
-title Dylan - Programming language
- hidden
+visualParadigm false
 
-html
- <a class="trueBaseThemePreviousItem" href="bcpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="org.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dylan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://opendylan.org" class="material-symbols-outlined">home</a> <a href="https://play.opendylan.org/" class="material-symbols-outlined">terminal</a> <a href="https://opendylan.org/documentation/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Dylan_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=dylan" class="material-symbols-outlined">edit</a></div>
-
-* Dylan is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #152 <span title="TotalRank: 444 Jobs: 103 Users: 690 Facts: 207 Links: 134">on PLDB</span>
- 32 Years Old
- 150 <span title="Dylan repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://play.opendylan.org/">Web</a> · <a href="https://riju.codes/dylan">Riju</a>
-
-* Dylan  is a multi-paradigm programming language that includes support for functional and object-oriented programming, and is dynamic and reflective while providing a programming model designed to support efficient machine code generation, including fine-grained control over dynamic and static behaviors. It was created in the early 1990s by a group led by Apple Computer. A concise and thorough overview of the language may be found in the Dylan Reference Manual. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Dylan_(programming_language) Read more on Wikipedia...
-
-- Dylan website
- http://opendylan.org
-- Dylan Wikipedia page
- https://en.wikipedia.org/wiki/Dylan_(programming_language)
-- Dylan docs
- https://opendylan.org/documentation/
-- There are at least 150 Dylan repos on <a href="https://github.com/search?q=language:Dylan">GitHub</a>
-- Dylan first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- file extensions for Dylan include dylan, dyl, intr and lid
-- The  Google BigQuery Public Dataset GitHub snapshot shows 67 users using Dylan in 112 repos on <a href="https://api.github.com/search/repositories?q=language:Dylan">GitHub</a>
-- Explore Dylan snippets on <a href="http://www.rosettacode.org/wiki/Category:Dylan">Rosetta Code</a>
-- Dylan on HOPL
- https://hopl.info/showlanguage.prx?exp=1682
-- Dylan appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/dylan">package</a> for syntax highlighting Dylan
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dylan.py">syntax highlighting</a> for Dylan
-- GitHub supports <a href="https://github.com/textmate/dylan.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Dylan
-- <a href="http://opendylan.org">opendylan.org</a> was registered in 2004
-- See also: (10 related languages)<a href="algol.html">Algol</a>, <a href="scheme.html">Scheme</a>, <a href="eulisp.html">EuLisp</a>, <a href="lasso.html">Lasso</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="unix.html">Unix</a>, <a href="java.html">Java</a>, <a href="smalltalk.html">Smalltalk</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/dylan'>Riju</a>:
- Module: main
+hasMultipleDispatch true
+hasComments true
+hasMultipleInheritance true
+hasLineComments true
+ // A comment
+hasSemanticIndentation false
+hasAssignment true
+hasStrings true
+ "Hello world"
+hasWhileLoops true
+hasConditionals true
+hasMacros true
+ define macro table
+   { table(?table-class:expression, ?table-contents) }
+     => { let ht = make(?table-class); ?table-contents; ht; }
+   { table(?rest:*) } => { table(<table>, ?rest); }
  
- define function main
-     (name :: &lt;string&gt;, arguments :: &lt;vector&gt;)
-   format-out(&quot;Hello, world!\n&quot;);
-   exit-application(0);
- end function main;
- 
- main(application-name(), application-arguments());
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/d/Dylan.dl'>hello-world</a>:
- define method main (#rest args)
-   princ(&quot;Hello World&quot;);
- end;
- 
- main();
+   table-contents:
+   { } => { }
+   { ?key:expression => ?value:expression, ... }
+     => { ht[?key] := ?value; ... }
+ end macro table
  
 
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Dylan'>the Hello World Collection</a>:
+lineCommentToken //
+assignmentToken :=
+stringToken "
+keywords local in end below until from then for use case elseif else by cleanup finally when begin above select let if otherwise signal afterwards unless while define rename create to export
+
+wikipedia https://en.wikipedia.org/wiki/Dylan_(programming_language)
+ example
+  define method turn-blue (w :: <window>)
+    w.color := $blue;
+  end method;
+ related algol scheme eulisp lasso python ruby common-lisp unix java smalltalk
+ summary Dylan  is a multi-paradigm programming language that includes support for functional and object-oriented programming, and is dynamic and reflective while providing a programming model designed to support efficient machine code generation, including fine-grained control over dynamic and static behaviors. It was created in the early 1990s by a group led by Apple Computer. A concise and thorough overview of the language may be found in the Dylan Reference Manual. Dylan derives from Scheme and Common Lisp and adds an integrated object system derived from the Common Lisp Object System (CLOS). In Dylan, all values (including numbers, characters, functions, and classes) are first-class objects. Dylan supports multiple inheritance, polymorphism, multiple dispatch, keyword arguments, object introspection, pattern-based syntax extension macros, and many other advanced features. Programs can express fine-grained control over dynamism, admitting programs that occupy a continuum between dynamic and static programming and supporting evolutionary development (allowing for rapid prototyping followed by incremental refinement and optimization). Dylan's main design goal is to be a dynamic language well-suited for developing commercial software. Dylan attempts to address potential performance issues by introducing "natural" limits to the full flexibility of Lisp systems, allowing the compiler to clearly understand compilable units (i.e., libraries). Although deriving much of its semantics from Scheme and other Lisps—some implementations were in fact initially built within existing Lisp systems—Dylan has an ALGOL-like syntax rather than a Lisp-like prefix syntax.
+ pageId 8741
+ dailyPageViews 73
+ created 2002
+ backlinksCount 91
+ revisionCount 299
+ appeared 1992
+
+githubLanguage Dylan
+ fileExtensions dylan dyl intr lid
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ codemirrorMode dylan
+ codemirrorMimeType text/x-dylan
+ tmScope source.dylan
+ repos 150
+githubBigQuery Dylan
+ repos 112
+ users 67
+
+codeMirror dylan
+pygmentsHighlighter Dylan
+ filename dylan.py
+ fileExtensions dylan dyl intr
+linguistGrammarRepo https://github.com/textmate/dylan.tmbundle
+ firstCommit 2005
+ lastCommit 2011
+ committerCount 5
+ commitCount 20
+
+helloWorldCollection Dylan
  module:			hello-world
  author:			Homer
  copyright:		(c) 1994 Homer
@@ -78,101 +90,46 @@ codeWithHeader Example from <a href='http://helloworldcollection.de/#Dylan'>the 
  // Hello World in DYLAN
  
  define method main (#rest args)
-   princ(&quot;Hello world!&quot;);
+   princ("Hello world!");
  end;
  
  main();
  
+leachim6 Dylan
+ filepath d/Dylan.dl
+ fileExtensions dl
+ example
+  define method main (#rest args)
+    princ("Hello World");
+  end;
+  
+  main();
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Dylan
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Dylan_(programming_language)'>Wikipedia</a>:
- define method turn-blue (w :: &lt;window&gt;)
-   w.color := $blue;
- end method;
+rijuRepl https://riju.codes/dylan
+ example
+  Module: main
+  
+  define function main
+      (name :: <string>, arguments :: <vector>)
+    format-out("Hello, world!\n");
+    exit-application(0);
+  end function main;
+  
+  main(application-name(), application-arguments());
 
-<div class="keywordsBlock">
-codeWithHeader Dylan <a href="../lists/keywords.html?filter=dylan">Keywords</a>
- local in end below until from then for use case elseif else by cleanup finally when begin above select let if otherwise signal afterwards unless while define rename create to export
-</div>
+tiobe Dylan
+hopl https://hopl.info/showlanguage.prx?exp=1682
 
-endColumns
+fileType text
+wordRank 9298
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 1996|Addison-Wesley|Dylan Programming: An Object-Oriented and Dynamic Language|Keene, Sonya E. and Mathews, Robert O. and Withington, P. Tucker and Mathews, robert|9780201479768
 
-treeTable
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   define macro table
-     { table(?table-class:expression, ?table-contents) }
-       => { let ht = make(?table-class); ?table-contents; ht; }
-     { table(?rest:*) } => { table(<table>, ?rest); }
-   
-     table-contents:
-     { } => { }
-     { ?key:expression => ?value:expression, ... }
-       => { ht[?key] := ?value; ... }
-   end macro table
-   
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token :=
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Multiple Inheritance
-  FeatureLink ../features/hasMultipleInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Multiple Dispatch
-  FeatureLink ../features/hasMultipleDispatch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav bcpl.html org.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1996|Programming in Dylan|10.1007/978-1-4471-0929-7|17|0|I. Craig|2775ffcfb9963960af95dbdb1929d7fc20131f90

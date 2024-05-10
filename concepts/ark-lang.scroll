@@ -1,51 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ark
+import ../measures/conceptPage.scroll
+id Ark
+appeared 2014
+type pl
+website https://ark-lang.github.io/
+domainName ark-lang.github.io
 
-title Ark - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="stutter-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wireless-markup-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ark-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ark-lang.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/ark-lang/ark" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ark-lang" class="material-symbols-outlined">edit</a></div>
-
-* Ark is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/ark-lang/ark
-
-dashboard
- #943 <span title="TotalRank: 1511 Jobs: 103 Users: 606 Facts: 802 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A compiled systems programming language written in Go using the LLVM framework
-
-- Ark website
- https://ark-lang.github.io/
-- Ark is developed on <a href="https://github.com/ark-lang/ark">GitHub</a> and has 676 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // binding to printf
  [c] func printf(fmt: ^u8, ...);
  
- pub func main(argc: int, argv: ^^u8) -&gt; int {
+ pub func main(argc: int, argv: ^^u8) -> int {
      // accessed via the C module
-     C::printf(c&quot;Running %s\n&quot;, ^argv);
+     C::printf(c"Running %s\n", ^argv);
  
      // mutable i, type inferred
      mut i := 0;
  
-     for i &lt; 5 {
-         C::printf(c&quot;%d\n&quot;, i);
+     for i < 5 {
+         C::printf(c"%d\n", i);
  
          i += 1;
      }
@@ -53,14 +25,22 @@ codeWithHeader Example from the web:
  }
  
 
-endColumns
+githubRepo https://github.com/ark-lang/ark
+ firstCommit 2014
+ stars 676
+ forks 51
+ subscribers 42
+ created 2014
+ updated 2022
+ description A compiled systems programming language written in Go using the LLVM framework
+ issues 45
 
-## HackerNews discussions of Ark
+repoStats
+ firstCommit 2014
+ commits 3483
+ committers 48
+ files 233
 
-pipeTable
- title|titleLink|date|score|comments
- Show HN: A programming language I've been working on called Ark|https://news.ycombinator.com/item?id=10845659|01/05/2016|15|3
-
-keyboardNav stutter-lang.html wireless-markup-language.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 10845659|Show HN: A programming language I've been working on called Ark|2016-01-05 20:10:20 UTC|1452024620|felixangell1024|3|15

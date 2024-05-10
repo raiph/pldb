@@ -1,44 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NU-Prolog
+import ../measures/conceptPage.scroll
+id NU-Prolog
+appeared 1988
+type pl
+website https://people.eng.unimelb.edu.au/lee/papers/eq
+reference https://semanticscholar.org/paper/c487bf45def79989d28ea8218914bfa93492883b
+reference https://people.eng.unimelb.edu.au/lee
+reference https://lee-naish.github.io
+country Australia
+originCommunity University of Melbourne
 
-title NU-Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1412
 
-html
- <a class="trueBaseThemePreviousItem" href="np.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pacmanconf.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nu-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://people.eng.unimelb.edu.au/lee/papers/eq" class="material-symbols-outlined">home</a> <a href="/edit.html?id=nu-prolog" class="material-symbols-outlined">edit</a></div>
-
-* NU-Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #2939 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- NU-Prolog website
- https://people.eng.unimelb.edu.au/lee/papers/eq
-- NU-Prolog first developed in <a href="../lists/originCommunities.html#universityOfMelbourne">University of Melbourne</a>
-- NU-Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=1412
-- Read more about NU-Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c487bf45def79989d28ea8218914bfa93492883b 1.
-- Read more about NU-Prolog on the web: 1. 2.
- https://people.eng.unimelb.edu.au/lee 1.
- https://lee-naish.github.io 2.
-
-<br>
-
-endColumns
-
-keyboardNav np.html pacmanconf.html
-
-import ../footer.scroll
+isbndb 0

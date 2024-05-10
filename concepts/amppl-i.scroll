@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AMPPL-I
+import ../measures/conceptPage.scroll
+id AMPPL-I
+appeared 1968
+type pl
+reference https://semanticscholar.org/paper/4a4a7d6584c7a7b3351e01cc3de4903a10f86f70
+originCommunity State University of New York
 
-title AMPPL-I - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2968
 
-html
- <a class="trueBaseThemePreviousItem" href="ambush.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amulet.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/amppl-i.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=amppl-i" class="material-symbols-outlined">edit</a></div>
-
-* AMPPL-I is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #3471 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- AMPPL-I first developed in <a href="../lists/originCommunities.html#stateUniversityOfNewYork">State University of New York</a>
-- AMPPL-I on HOPL
- https://hopl.info/showlanguage.prx?exp=2968
-- Read more about AMPPL-I on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4a4a7d6584c7a7b3351e01cc3de4903a10f86f70 1.
-
-<br>
-
-endColumns
-
-keyboardNav ambush.html amulet.html
-
-import ../footer.scroll
+isbndb 0

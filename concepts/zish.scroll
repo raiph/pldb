@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title zish
-
-title zish - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="zed.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="a51.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zish.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=zish" class="material-symbols-outlined">edit</a></div>
-
-* zish is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2017 by Tony Locke.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#tonyLocke Tony Locke
-
-dashboard
- #3457 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A data serialization format, designed to be an improvement on JSON. It adds timestamp, bytes and decimal types, as well as multi-line strings.
-
-- Read more about zish on the web: 1.
- https://github.com/tlocke/zish/blob/master/README.adoc 1.
-
-<br>
-
-endColumns
-
-keyboardNav zed.html a51.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id zish
+appeared 2017
+type dataNotation
+creators Tony Locke
+conceptDescription A data serialization format, designed to be an improvement on JSON. It adds timestamp, bytes and decimal types, as well as multi-line strings.
+reference https://github.com/tlocke/zish/blob/master/README.adoc
+country United Kingdom

@@ -1,39 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title icarus
+import ../measures/conceptPage.scroll
+id icarus
+appeared 2015
+type pl
+conceptDescription <a href='https://github.com/mkfifo/icarus'>Icarus</a> is a minimum-viable type-safe imperative language designed to serve as a platform for exploring mutation and general side-effect control.
+country Australia
+originCommunity https://github.com/chrisosaurus/icarus/issues
 
-title icarus - Programming language
- hidden
+githubRepo https://github.com/mkfifo/icarus
+ stars 33
+ forks 2
+ subscribers 4
+ created 2015
+ updated 2020
+ firstCommit 2015
+ description Programming language designed as an experiment to explore mutation and aliasing control
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="devil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ham.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 1827
+ committers 3
+ files 297
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/icarus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mkfifo/icarus" class="material-symbols-outlined">code</a> <a href="/edit.html?id=icarus" class="material-symbols-outlined">edit</a></div>
-
-* icarus is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/mkfifo/icarus
-
-dashboard
- #2073 <span title="TotalRank: 2591 Jobs: 103 Users: 1955 Facts: 1502 Links: 986">on PLDB</span>
- 9 Years Old
-
-* <a href='https://github.com/mkfifo/icarus'>Icarus</a> is a minimum-viable type-safe imperative language designed to serve as a platform for exploring mutation and general side-effect control.
-
-- icarus is developed on <a href="https://github.com/mkfifo/icarus">GitHub</a> and has 33 stars
-- icarus first developed in <a href="../lists/originCommunities.html#httpsGithubComChrisosaurusIcarusIssues">https://github.com/chrisosaurus/icarus/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav devil.html ham.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

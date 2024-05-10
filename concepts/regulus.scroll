@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title REGULUS
+import ../measures/conceptPage.scroll
+id REGULUS
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/5389de78b1dd5daf85bb3bbfdd36e303de5bfaad
+country Canada
+originCommunity University of British Columbia
 
-title REGULUS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4109
 
-html
- <a class="trueBaseThemePreviousItem" href="regina.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="relational-production-language.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/regulus.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=regulus" class="material-symbols-outlined">edit</a></div>
-
-* REGULUS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3125 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- REGULUS first developed in <a href="../lists/originCommunities.html#universityOfBritishColumbia">University of British Columbia</a>
-- REGULUS on HOPL
- https://hopl.info/showlanguage.prx?exp=4109
-- Read more about REGULUS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5389de78b1dd5daf85bb3bbfdd36e303de5bfaad 1.
-
-<br>
-
-endColumns
-
-keyboardNav regina.html relational-production-language.html
-
-import ../footer.scroll
+semanticScholar 0

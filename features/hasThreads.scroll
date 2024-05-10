@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasTernaryOperators.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasTimestamps.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  fn my_thread() {
@@ -22,11 +22,9 @@ codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
      co my_thread()
  }
 
-* Languages *with* Threads include <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/pl-i.html">PL/I</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/boron.html">Boron</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>, <a href="../concepts/hoot-smalltalk.html">hoot-smalltalk</a>, <a href="../concepts/pl-i-formac.html">PL/I-FORMAC</a>
+* Languages *with* Threads include <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/boron.html">Boron</a>, <a href="../concepts/hoot-smalltalk.html">hoot-smalltalk</a>, <a href="../concepts/pl-i.html">PL/I</a>
 
 * Languages *without* Threads include <a href="../concepts/speedie.html">Speedie</a>
-
-* This question asks: Does the language support a concept of threads?
 
 * Read more about Threads on the web: 1.
  https://en.wikipedia.org/wiki/Thread_(computing) 1.

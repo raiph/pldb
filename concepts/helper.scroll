@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HELPER
+import ../measures/conceptPage.scroll
+id HELPER
+appeared 1969
+type pl
+reference https://semanticscholar.org/paper/72c413db046c4a51dcd5c4e425ca34dc3a8e379c
+country United States
+originCommunity Institute for Defense Analyses
 
-title HELPER - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4640
 
-html
- <a class="trueBaseThemePreviousItem" href="harvey.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="henk.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/helper.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=helper" class="material-symbols-outlined">edit</a></div>
-
-* HELPER is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #4161 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- HELPER first developed in <a href="../lists/originCommunities.html#instituteForDefenseAnalyses">Institute for Defense Analyses</a>
-- HELPER on HOPL
- https://hopl.info/showlanguage.prx?exp=4640
-- Read more about HELPER on Semantic Scholar: 1.
- https://semanticscholar.org/paper/72c413db046c4a51dcd5c4e425ca34dc3a8e379c 1.
-
-<br>
-
-endColumns
-
-keyboardNav harvey.html henk.html
-
-import ../footer.scroll
+isbndb 0

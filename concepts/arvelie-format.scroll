@@ -1,43 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title arvelie-format
+import ../measures/conceptPage.scroll
+id arvelie-format
+appeared 2017
+type timeFormat
+conceptDescription The Arvelie Calendar has 26 months of 14 days each. Each month has 2 weeks of 7 days, and each month's name is one of the 26 letters of the alphabet. The 365th day of the year is the Year Day(+01), preceded by the Leap Day(+02) on leap years.
+website https://wiki.xxiivv.com/#arvelie
+country Unknown
+originCommunity https://github.com/XXIIVV
+domainName wiki.xxiivv.com
 
-title arvelie-format - Time format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="8th.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flare.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/arvelie-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://wiki.xxiivv.com/#arvelie" class="material-symbols-outlined">home</a> <a href="/edit.html?id=arvelie-format" class="material-symbols-outlined">edit</a></div>
-
-* arvelie-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+timeFormat">time format</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2715 <span title="TotalRank: 3410 Jobs: 103 Users: 2442 Facts: 2321 Links: 986">on PLDB</span>
- 7 Years Old
-
-* The Arvelie Calendar has 26 months of 14 days each. Each month has 2 weeks of 7 days, and each month's name is one of the 26 letters of the alphabet. The 365th day of the year is the Year Day(+01), preceded by the Leap Day(+02) on leap years.
-
-- arvelie-format website
- https://wiki.xxiivv.com/#arvelie
-- arvelie-format first developed in <a href="../lists/originCommunities.html#httpsGithubComXxiivv">https://github.com/XXIIVV</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  02A01  2002-01-01  01D07 2001-02-18
  13B12  2013-01-26  02E07 2002-03-04
  24C01  2024-01-29  03+01 2003-12-31
  22D12  2022-02-23  19U07 Today
 
-endColumns
+isbndb 0
 
-keyboardNav 8th.html flare.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,29 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Handlebars
+import ../measures/conceptPage.scroll
+id Handlebars
+appeared 2010
+type template
+website http://handlebarsjs.com/
+country Austria and China
+originCommunity https://github.com/handlebars-lang
+domainName handlebarsjs.com
+ registered 2011
+ awisRank
+  2022 104731
+  2017 113602
 
-title Handlebars - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="chip-8.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nymph.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/handlebars.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://handlebarsjs.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=handlebars" class="material-symbols-outlined">edit</a></div>
-
-* Handlebars is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #1202 <span title="TotalRank: 1748 Jobs: 103 Users: 1039 Facts: 659 Links: 986">on PLDB</span>
- 14 Years Old
- 28k <span title="Handlebars repos on GitHub.">Repos</span>
-
-monacoEditor handlebars
+example
  <div class="entry">
   <h1>{{title}}</h1>
   <div class="body">
@@ -31,40 +19,37 @@ monacoEditor handlebars
   </div>
  </div>
 
-* 
+githubLanguage Handlebars
+ fileExtensions handlebars hbs
+ trendingProjectsCount 0
+ type markup
+ aceMode handlebars
+ tmScope text.html.handlebars
+ aliases hbs or htmlbars
+ repos 28186
+githubBigQuery Handlebars
+ repos 7598
+ users 5871
 
-- Handlebars website
- http://handlebarsjs.com/
-- There are at least 28,186 Handlebars repos on <a href="https://github.com/search?q=language:Handlebars">GitHub</a>
-- Handlebars first developed in <a href="../lists/originCommunities.html#httpsGithubComHandlebarsLang">https://github.com/handlebars-lang</a>
-- file extensions for Handlebars include handlebars and hbs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 6k users using Handlebars in 8k repos on <a href="https://api.github.com/search/repositories?q=language:Handlebars">GitHub</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/handlebars">package</a> for syntax highlighting Handlebars
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/handlebars">package</a> for syntax highlighting Handlebars
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for Handlebars
-- GitHub supports <a href="https://github.com/daaain/Handlebars" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Handlebars
-- <a href="http://handlebarsjs.com/">handlebarsjs.com</a> was registered in 2011
+monaco handlebars
+codeMirror handlebars
+pygmentsHighlighter Handlebars
+ filename templates.py
+linguistGrammarRepo https://github.com/daaain/Handlebars
+ firstCommit 2012
+ lastCommit 2017
+ committerCount 14
+ commitCount 153
+ sampleCount 2
+ example
+  <div class="entry">
+    <h1>{{title}}</h1>
+    <div class="body">
+      {{body}}
+    </div>
+  </div>
 
-<br>
+fileType text
+centralPackageRepositoryCount 0
 
-codeWithHeader Example from the web:
- &lt;div class=&quot;entry&quot;&gt;
-  &lt;h1&gt;{{title}}&lt;/h1&gt;
-  &lt;div class=&quot;body&quot;&gt;
-    {{body}}
-  &lt;/div&gt;
- &lt;/div&gt;
-
-codeWithHeader Example from <a href='https://github.com/daaain/Handlebars'>Linguist</a>:
- &lt;div class=&quot;entry&quot;&gt;
-   &lt;h1&gt;{{title}}&lt;/h1&gt;
-   &lt;div class=&quot;body&quot;&gt;
-     {{body}}
-   &lt;/div&gt;
- &lt;/div&gt;
-
-endColumns
-
-keyboardNav chip-8.html nymph.html
-
-import ../footer.scroll
+isbndb 0

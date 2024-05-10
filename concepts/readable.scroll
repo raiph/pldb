@@ -1,49 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Readable
+import ../measures/conceptPage.scroll
+id Readable
+appeared 2018
+type textMarkup
+creators Lépine Kong
+conceptDescription The ReAdABLE Human Format aims at Agile Documentation by making WRITING and READING document easier for End User and Developer alike, while allowing a high degree of flexibility. Its primary goal is to generate Markdown (and conversion to other formats in the future) while being even simpler (less code to memorize) and richer (adding meta-data is straightforward and creating new semantics is easy).
+website https://readablehumanformat.com/
+reference https://readable.red/
+country France
+originCommunity https://github.com/lepinekong/readablehumanformat/issues
+domainName readablehumanformat.com
 
-title Readable - Text markup language
- hidden
+writtenIn red
 
-html
- <a class="trueBaseThemePreviousItem" href="rholang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nushell.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/readable.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://readablehumanformat.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/lepinekong/readablehumanformat" class="material-symbols-outlined">code</a> <a href="/edit.html?id=readable" class="material-symbols-outlined">edit</a></div>
-
-* Readable is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2018 by Lépine Kong.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#lepineKong Lépine Kong
-
-codeWithHeader Source code:
- git clone https://github.com/lepinekong/readablehumanformat
-
-dashboard
- #590 <span title="TotalRank: 1161 Jobs: 103 Users: 2328 Facts: 72 Links: 986">on PLDB</span>
- 6 Years Old
-
-* The ReAdABLE Human Format aims at Agile Documentation by making WRITING and READING document easier for End User and Developer alike, while allowing a high degree of flexibility. Its primary goal is to generate Markdown (and conversion to other formats in the future) while being even simpler (less code to memorize) and richer (adding meta-data is straightforward and creating new semantics is easy).
-
-- Readable website
- https://readablehumanformat.com/
-- Readable is developed on <a href="https://github.com/lepinekong/readablehumanformat">GitHub</a> and has 7 stars
-- Readable first developed in <a href="../lists/originCommunities.html#httpsGithubComLepinekongReadablehumanformatIssues">https://github.com/lepinekong/readablehumanformat/issues</a>
-- Readable is written in <a href="red.html">Red</a>
-- Read more about Readable on the web: 1.
- https://readable.red/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Red [
-     Title: &quot;How to Write Good Article&quot;
+     Title: "How to Write Good Article"
      Build: 1.0.0.4
-     Credits: [&quot;Sibeesh Venu&quot;]
-     Owners: [&quot;Lépine Kong&quot;]
+     Credits: ["Sibeesh Venu"]
+     Owners: ["Lépine Kong"]
      References: [
          https://www.c-sharpcorner.com/article/how-to-write-good-articles/
      ]
@@ -55,7 +29,7 @@ codeWithHeader Example from the web:
          Creation: 2018-05-12 19:13:42
          Update: 2018-05-15 19:09:59
      ]
-     Languages: [&quot;english&quot;]
+     Languages: ["english"]
  ]
  
  Article: [
@@ -72,7 +46,7 @@ codeWithHeader Example from the web:
      Credit: [
          .title: {Credit}
          .text: {
-             [&quot;How To Write Good Articles&quot; by *Sibeesh Venu*](https://www.c-sharpcorner.com/article/how-to-write-good-articles/)
+             ["How To Write Good Articles" by *Sibeesh Venu*](https://www.c-sharpcorner.com/article/how-to-write-good-articles/)
          }
      ]
  
@@ -81,10 +55,10 @@ codeWithHeader Example from the web:
          .text: {
              Replace this paragraph with your own content, guidance and example are kept available in .guidance and .example fields (metadata) within the ReAdABLE source if you need to remember.
              *Guidance:*
-             &gt;An introduction is very important when you write an article. A good introduction can make the reader want to read further. Trust me, it is very useful too. In this part you can describe what exactly you are going to say/do in the rest of the article. It must be brief. And please never use any code blocks in your introduction, that is never meant to be there. This is the part which lets your readers understand where/what exactly you are intending to do.  
+             >An introduction is very important when you write an article. A good introduction can make the reader want to read further. Trust me, it is very useful too. In this part you can describe what exactly you are going to say/do in the rest of the article. It must be brief. And please never use any code blocks in your introduction, that is never meant to be there. This is the part which lets your readers understand where/what exactly you are intending to do.  
              *Example:*
              
-             &gt;I am neither an expert nor a guru. But still I suppose I have improved by writing articles for the past two years. I still remember my first article, there were so many mistakes. Remember one thing: “Mistakes are the key to success.” Here I will point out a few things which I follow while writing articles. Please feel free to add your own points to this article. I hope you will like this.
+             >I am neither an expert nor a guru. But still I suppose I have improved by writing articles for the past two years. I still remember my first article, there were so many mistakes. Remember one thing: “Mistakes are the key to success.” Here I will point out a few things which I follow while writing articles. Please feel free to add your own points to this article. I hope you will like this.
          }
  
          .image: https://i.imgur.com/rNmBuuv.png
@@ -107,7 +81,7 @@ codeWithHeader Example from the web:
              In this part, you can explain what made you write this article. You can explain the problems you faced here, or when you had this problem. This should be brief too, here you can also include source code. Please do remember that this is just the background, so it is not advisable to include full source code and explain it here.            
          }
          .example: {
-             Example: Last week one of my friends asked this question: &quot;How do you write good articles?&quot; I am dedicating this article to him. I hope he will like this.            
+             Example: Last week one of my friends asked this question: "How do you write good articles?" I am dedicating this article to him. I hope he will like this.            
          }
      ]
  
@@ -146,10 +120,10 @@ codeWithHeader Example from the web:
  
          .title: {Point 5: Always include output}
          .text: {
-             An output is the outcome of what we tried, right? So what if you don&#39;t include that? Isn’t that bad? You can include the output as an image or any content. It can be any result set too.
+             An output is the outcome of what we tried, right? So what if you don't include that? Isn’t that bad? You can include the output as an image or any content. It can be any result set too.
          }
          .guidance: {
-             An output is the outcome of what we tried, right? So what if you don&#39;t include that? Isn’t that bad? You can include the output as an image or any content. It can be any result set too.
+             An output is the outcome of what we tried, right? So what if you don't include that? Isn’t that bad? You can include the output as an image or any content. It can be any result set too.
          }        
      ]
  
@@ -217,7 +191,7 @@ codeWithHeader Example from the web:
  ]
  
  do read lib
- do read .to-file &quot;C:\rebol\.system.user\.code\.domains\.apps\Authoring\libraries\.system.user.apps.authoring.library.red&quot;
+ do read .to-file "C:\rebol\.system.user\.code\.domains\.apps\Authoring\libraries\.system.user.apps.authoring.library.red"
  
  markdown-gen
  
@@ -227,8 +201,25 @@ codeWithHeader Example from the web:
      .copy-file %howtowritegoodarticle.md 
  ]
 
-endColumns
+githubRepo https://github.com/lepinekong/readablehumanformat
+ firstCommit 2018
+ stars 7
+ forks 1
+ subscribers 4
+ created 2018
+ updated 2021
+ description ReAdABLE Human Format
+ issues 9
 
-keyboardNav rholang.html nushell.html
+repoStats
+ firstCommit 2018
+ commits 112
+ committers 2
+ files 23
 
-import ../footer.scroll
+isbndb 4
+ year|publisher|title|authors|isbn13
+ 2022|Packt Publishing|Crystal Programming: A project-based introduction to building efficient, safe, and readable web and CLI applications|Dietrich, George and Bernal, Guilherme|9781801818674
+ 2019-01-25T00:00:01Z|Packt Publishing|Hands-On Data Structures and Algorithms with Rust: Learn programming techniques to build effective, maintainable, and readable code in Rust 2018|Matzinger, Claus|9781788995528
+ 2012|O'Reilly Media|Maintainable JavaScript: Writing Readable Code|Zakas, Nicholas C.|9781449327682
+ 19940406|World Scientific Publishing|Machine Proofs In Geometry: Automated Production Of Readable Proofs For Geometry Theorems|ShangChing Chou; XiaoShan Gao; JingZhong Zhang|9789812798152

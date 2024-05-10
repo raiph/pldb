@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ConstraintLisp
+import ../measures/conceptPage.scroll
+id ConstraintLisp
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/da3a2e378ccc794a445277caa6fa980796484738
+country Singapore
+originCommunity National Computer Board
 
-title ConstraintLisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1678
 
-html
- <a class="trueBaseThemePreviousItem" href="conniver.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="contrans.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/constraintlisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=constraintlisp" class="material-symbols-outlined">edit</a></div>
-
-* ConstraintLisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3593 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- ConstraintLisp first developed in <a href="../lists/originCommunities.html#nationalComputerBoard">National Computer Board</a>
-- ConstraintLisp on HOPL
- https://hopl.info/showlanguage.prx?exp=1678
-- Read more about ConstraintLisp on Semantic Scholar: 1.
- https://semanticscholar.org/paper/da3a2e378ccc794a445277caa6fa980796484738 1.
-
-<br>
-
-endColumns
-
-keyboardNav conniver.html contrans.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

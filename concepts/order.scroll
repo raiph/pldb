@@ -1,43 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title order
+import ../measures/conceptPage.scroll
+id order
+appeared 2003
+type pl
+creators Vesa Karvonen
+conceptDescription Metalanguage for C Preprocessor Metaprogramming
+reference https://github.com/polytypic/order-pp
+country United Kingdom
+originCommunity https://www.devever.net/~hl
 
-title order - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="opp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="perfectscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/order.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=order" class="material-symbols-outlined">edit</a></div>
-
-* order is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003 by Vesa Karvonen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#vesaKarvonen Vesa Karvonen
-
-dashboard
- #3035 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 21 Years Old
-
-* Metalanguage for C Preprocessor Metaprogramming
-
-- order first developed in <a href="../lists/originCommunities.html#httpsWwwDeveverNetHl">https://www.devever.net/~hl</a>
-- Read more about order on the web: 1.
- https://github.com/polytypic/order-pp 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #define ORDER_PP_DEF_8fib                       \
  ORDER_PP_FN(8fn(8N,                             \
                  8fib_iter(8N, 0, 1)))
-
-endColumns
-
-keyboardNav opp.html perfectscript.html
-
-import ../footer.scroll

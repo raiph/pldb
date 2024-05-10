@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title titan
+import ../measures/conceptPage.scroll
+id titan
+appeared 2017
+type pl
+website http://titan-lang.org
+domainName titan-lang.org
+ registered 2021
 
-title titan - Programming language
- hidden
+githubRepo https://github.com/titan-lang/titan
+ firstCommit 2017
+ stars 402
+ forks 14
+ subscribers 31
+ created 2017
+ updated 2022
+ description The Titan programming language
+ issues 15
 
-html
- <a class="trueBaseThemePreviousItem" href="hmmm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rss.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/titan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://titan-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/titan-lang/titan" class="material-symbols-outlined">code</a> <a href="/edit.html?id=titan" class="material-symbols-outlined">edit</a></div>
-
-* titan is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/titan-lang/titan
-
-dashboard
- #1367 <span title="TotalRank: 1892 Jobs: 103 Users: 803 Facts: 1787 Links: 986">on PLDB</span>
- 7 Years Old
-
-* The Titan programming language
-
-- titan website
- http://titan-lang.org
-- titan is developed on <a href="https://github.com/titan-lang/titan">GitHub</a> and has 402 stars
-- <a href="http://titan-lang.org">titan-lang.org</a> was registered in 2021
-
-<br>
-
-endColumns
-
-keyboardNav hmmm.html rss.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 1144
+ committers 13
+ files 53

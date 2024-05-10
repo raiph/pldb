@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EPILOG
+import ../measures/conceptPage.scroll
+id EPILOG
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/c984a7d29a8f3bc5104eb1e91a8b27e0d9e75184
+country Portugal
+originCommunity University of Porto
 
-title EPILOG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1078
 
-html
- <a class="trueBaseThemePreviousItem" href="elmol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eqlog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/epilog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=epilog" class="material-symbols-outlined">edit</a></div>
-
-* EPILOG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3655 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- EPILOG first developed in <a href="../lists/originCommunities.html#universityOfPorto">University of Porto</a>
-- EPILOG on HOPL
- https://hopl.info/showlanguage.prx?exp=1078
-- Read more about EPILOG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c984a7d29a8f3bc5104eb1e91a8b27e0d9e75184 1.
-
-<br>
-
-endColumns
-
-keyboardNav elmol.html eqlog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

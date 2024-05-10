@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OBJ2
+import ../measures/conceptPage.scroll
+id OBJ2
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/af14c22d411e0b8a4c1e2536fdb903f946f5028c
+country United States
+originCommunity SRI Intternational
 
-title OBJ2 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1169
 
-html
- <a class="trueBaseThemePreviousItem" href="oaklisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="objectcharts.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/obj2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=obj2" class="material-symbols-outlined">edit</a></div>
-
-* OBJ2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3878 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- OBJ2 first developed in <a href="../lists/originCommunities.html#sriIntternational">SRI Intternational</a>
-- OBJ2 on HOPL
- https://hopl.info/showlanguage.prx?exp=1169
-- Read more about OBJ2 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/af14c22d411e0b8a4c1e2536fdb903f946f5028c 1.
-
-<br>
-
-endColumns
-
-keyboardNav oaklisp.html objectcharts.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

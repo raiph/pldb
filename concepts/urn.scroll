@@ -1,43 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title urn
+import ../measures/conceptPage.scroll
+id urn
+appeared 2017
+type pl
+website http://urn-lang.com
+domainName urn-lang.com
+ registered 2017
+ awisRank
+  2022 4207753
 
-title urn - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="typst.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-for-all.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/urn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://urn-lang.com" class="material-symbols-outlined">home</a> <a href="/edit.html?id=urn" class="material-symbols-outlined">edit</a></div>
-
-* urn is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2922 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- urn website
- http://urn-lang.com
-- <a href="http://urn-lang.com">urn-lang.com</a> was registered in 2017
-
-<br>
-
-endColumns
-
-## HackerNews discussions of urn
-
-pipeTable
- title|titleLink|date|score|comments
- Urn: A Lisp implementation for Lua|https://news.ycombinator.com/item?id=16566825|03/12/2018|156|47
-
-keyboardNav typst.html c-for-all.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 16566825|Urn: A Lisp implementation for Lua|http://urn-lang.com/|2018-03-12 08:38:03 UTC|1520843883|necrodome|47|156

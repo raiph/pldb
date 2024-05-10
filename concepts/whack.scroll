@@ -1,45 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title whack
+import ../measures/conceptPage.scroll
+id whack
+appeared 2018
+type pl
+creators Onchere Bironga
 
-title whack - Programming language
- hidden
+githubRepo https://github.com/onchere/whack
+ firstCommit 2018
+ stars 60
+ forks 3
+ subscribers 4
+ created 2018
+ updated 2022
+ description The Whack Programming Language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="proteus-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="quikscript.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 4
+ committers 1
+ files 128
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/whack.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/onchere/whack" class="material-symbols-outlined">code</a> <a href="/edit.html?id=whack" class="material-symbols-outlined">edit</a></div>
-
-* whack is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Onchere Bironga.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#onchereBironga Onchere Bironga
-
-codeWithHeader Source code:
- git clone https://github.com/onchere/whack
-
-dashboard
- #2230 <span title="TotalRank: 2737 Jobs: 103 Users: 1648 Facts: 1669 Links: 986">on PLDB</span>
- 6 Years Old
-
-* The Whack Programming Language
-
-- whack is developed on <a href="https://github.com/onchere/whack">GitHub</a> and has 60 stars
-
-<br>
-
-endColumns
-
-## HackerNews discussions of whack
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Whack – A simply-designed compiled programming language|https://news.ycombinator.com/item?id=18319468|10/28/2018|57|45
-
-keyboardNav proteus-programming-language.html quikscript.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 18319468|Show HN: Whack – A simply-designed compiled programming language|2018-10-28 07:01:55 UTC|1540710115|wycliffb|45|57

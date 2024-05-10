@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Turing Plus
+import ../measures/conceptPage.scroll
+id Turing Plus
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/f98916d981d5fbd39f8b9713e93c77831778f8aa
 
-title Turing Plus - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1373
 
-html
- <a class="trueBaseThemePreviousItem" href="tsql2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="turnstile-plus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/turing-plus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=turing-plus" class="material-symbols-outlined">edit</a></div>
-
-* Turing Plus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3254 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Turing Plus on HOPL
- https://hopl.info/showlanguage.prx?exp=1373
-- Read more about Turing Plus on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f98916d981d5fbd39f8b9713e93c77831778f8aa 1.
-
-<br>
-
-endColumns
-
-keyboardNav tsql2.html turnstile-plus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

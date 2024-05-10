@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COMMEN
+import ../measures/conceptPage.scroll
+id COMMEN
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/7f5200d593e5c162613ea3663f559ad2f5e244b3
+reference https://dl.acm.org/doi/pdf/10.1145/1465482.1465590
+country United States
+originCommunity Leo J. Cohen Associates
 
-title COMMEN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=281
 
-html
- <a class="trueBaseThemePreviousItem" href="cmix.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cooc.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/commen.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=commen" class="material-symbols-outlined">edit</a></div>
-
-* COMMEN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #3091 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- COMMEN first developed in <a href="../lists/originCommunities.html#leoJCohenAssociates">Leo J. Cohen Associates</a>
-- COMMEN on HOPL
- https://hopl.info/showlanguage.prx?exp=281
-- Read more about COMMEN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7f5200d593e5c162613ea3663f559ad2f5e244b3 1.
-- Read more about COMMEN on the web: 1.
- https://dl.acm.org/doi/pdf/10.1145/1465482.1465590 1.
-
-<br>
-
-endColumns
-
-keyboardNav cmix.html cooc.html
-
-import ../footer.scroll
+isbndb 0

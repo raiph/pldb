@@ -1,43 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title plink-ped-format
+import ../measures/conceptPage.scroll
+id plink-ped-format
+appeared 2007
+type textDataFormat
+conceptDescription The "ped" file is a commonly used format for holding pedigree and genotype data. Files in this format usually end in ".ped". There are several variants of the format. Used by plink.
+website https://www.cog-genomics.org/plink2/formats#ped
+reference https://www.sciencedirect.com/science/article/pii/S0002929707613524
+fileExtensions ped
+country South Korea
+originCommunity Kyung Hee University
 
-title plink-ped-format - Text data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="probevue.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="starpial.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plink-ped-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.cog-genomics.org/plink2/formats#ped" class="material-symbols-outlined">home</a> <a href="https://github.com/WonyoungCho/plink/issues" class="material-symbols-outlined">code</a> <a href="/edit.html?id=plink-ped-format" class="material-symbols-outlined">edit</a></div>
-
-* plink-ped-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-codeWithHeader Source code:
- git clone https://github.com/WonyoungCho/plink/issues
-
-dashboard
- #1958 <span title="TotalRank: 2470 Jobs: 103 Users: 2328 Facts: 1381 Links: 986">on PLDB</span>
- 17 Years Old
-
-* The "ped" file is a commonly used format for holding pedigree and genotype data. Files in this format usually end in ".ped". There are several variants of the format. Used by plink.
-
-- plink-ped-format website
- https://www.cog-genomics.org/plink2/formats#ped
-- plink-ped-format is developed on <a href="https://github.com/WonyoungCho/plink/issues">GitHub</a> and has 1 stars
-- plink-ped-format first developed in <a href="../lists/originCommunities.html#kyungHeeUniversity">Kyung Hee University</a>
-- file extensions for plink-ped-format include ped
-- Read more about plink-ped-format on the web: 1.
- https://www.sciencedirect.com/science/article/pii/S0002929707613524 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  1 1 0 0 1  0  G G  2 2  C C
  1 2 0 0 2  0  A A  0 0  A C
  1 3 1 2 1  2  0 0  1 2  A C
@@ -45,8 +17,13 @@ codeWithHeader Example from the web:
  2 2 0 0 2  2  A A  2 2  0 0
  2 3 1 2 1  2  A A  2 2  A A
 
-endColumns
+githubRepo https://github.com/WonyoungCho/plink/issues
+ stars 1
+ forks 3
+ subscribers 0
+ created 2019
+ updated 2022
+ issues 0
 
-keyboardNav probevue.html starpial.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

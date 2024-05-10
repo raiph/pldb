@@ -1,39 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title blue
+import ../measures/conceptPage.scroll
+id blue
+appeared 2009
+type pl
+reference https://www.ibm.com/developerworks/library/os-blue/index.html
+country United States
+originCommunity IBM
 
-title blue - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1863
 
-html
- <a class="trueBaseThemePreviousItem" href="apl2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="efl.html">&gt;</a>
+wordRank 618
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blue.pldb
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2007|A K Peters/CRC Press|Game Design: From Blue Sky to Green Light|Todd, Deborah|9781568813189
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=blue" class="material-symbols-outlined">edit</a></div>
-
-* blue is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2282 <span title="TotalRank: 2758 Jobs: 103 Users: 2838 Facts: 1669 Links: 986">on PLDB</span>
- 15 Years Old
-
-* 
-
-- blue first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- blue on HOPL
- https://hopl.info/showlanguage.prx?exp=1863
-- Read more about blue on the web: 1.
- https://www.ibm.com/developerworks/library/os-blue/index.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav apl2.html efl.html
-
-import ../footer.scroll
+semanticScholar 7
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2008|Fine-grained parallelization of the Car - Parrinello ab initio molecular dynamics method on the IBM Blue Gene/L supercomputer|10.1147/rd.521.0159|46|2|Eric J. Bohm and A. Bhatele and L. Kalé and M. Tuckerman and Sameer Kumar and John A. Gunnels and G. Martyna|40880700cd8fbee9c639c2b67eb4297e002163a6
+ 2014|Parallel Deep Neural Network Training for Big Data on Blue Gene/Q|10.1109/SC.2014.66|33|1|I. Chung and T. Sainath and B. Ramabhadran and M. Picheny and John A. Gunnels and V. Austel and U. Chaudhari and Brian Kingsbury|bac96c394bf6aed8aded20b3d5ff96825e074da9
+ 2005|Blue Gene/L advanced diagnostics environment|10.1147/rd.492.0319|24|3|M. Giampapa and R. Bellofatto and M. Blumrich and Dong Chen and M. B. Dombrowa and A. Gara and R. Haring and P. Heidelberger and D. Hoenicke and G. Kopcsay and B. J. Nathanson and B. Steinmacher-Burow and M. Ohmacht and V. Salapura and P. Vranas|f7f10b44a2313c51e3184057c0588e554ffef2c6
+ 2002|A C++ implementation of the co-array programming model for blue gene/L|10.1109/IPDPS.2002.1016489|6|0|M. Eleftheriou and S. Chatterjee and J. Moreira|fdaafa27b0141beb3001a89f84e9485c85d186f8
+ 1996|Blue - language for teaching object-oriented programming|10.1145/236462.236537|3|0|M. Kölling and J. Rosenberg|aff4b6fd9f4493cf3d0b643f7163ee1ad96cacac
+ 2015|"""Add Another Blue Stack of the Same Height!"": ASP Based Planning and Plan Failure Analysis"|10.1007/978-3-319-23264-5_11|2|0|Chitta Baral and Tran Cao Son|9a9dac5f940d3587611b98e5e44c4bda35a0f160
+ 2006|The Blue Gene, GCC and lattice QCD: a case study|10.1088/1742-6596/46/1/022|1|0|A. Pochinsky|3d707daa92b3c9fe9f6580b1be930b9c7704b8d6

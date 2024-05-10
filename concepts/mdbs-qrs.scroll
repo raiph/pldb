@@ -1,40 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MDBS-QRS
+import ../measures/conceptPage.scroll
+id MDBS-QRS
+appeared 1981
+type queryLanguage
+country United States
+originCommunity Computer Corporation of America
 
-title MDBS-QRS - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mcobol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="medic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mdbs-qrs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mdbs-qrs" class="material-symbols-outlined">edit</a></div>
-
-* MDBS-QRS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3815 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- MDBS-QRS first developed in <a href="../lists/originCommunities.html#computerCorporationOfAmerica">Computer Corporation of America</a>
-- MDBS-QRS on HOPL
- https://hopl.info/showlanguage.prx?exp=4539
-
-<br>
-
-codeWithHeader Example from the web:
+example
  disp i dept location
 
-endColumns
-
-keyboardNav mcobol.html medic.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=4539

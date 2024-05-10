@@ -1,177 +1,178 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Slash
+import ../measures/conceptPage.scroll
+id Slash
+appeared 2012
+type pl
+website http://slash-lang.org/
+country Australia
+originCommunity https://github.com/slash-lang/slash
+domainName slash-lang.org
 
-title Slash - Programming language
- hidden
+githubRepo https://github.com/slash-lang/slash
+ firstCommit 2012
+ stars 387
+ forks 23
+ subscribers 38
+ created 2012
+ updated 2022
+ description A new language for the web
+ issues 13
 
-html
- <a class="trueBaseThemePreviousItem" href="falcon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dtrace.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 1199
+ committers 8
+ files 232
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slash.pldb
+githubLanguage Slash
+ fileExtensions sl
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope text.html.slash
+ repos 572
+githubBigQuery Slash
+ repos 427
+ users 388
 
-startColumns 4
+pygmentsHighlighter Slash
+ filename slash.py
+ fileExtensions sla
+linguistGrammarRepo https://github.com/slash-lang/Slash.tmbundle
+ firstCommit 2013
+ lastCommit 2014
+ committerCount 1
+ commitCount 6
+ sampleCount 1
+ example
+  <%
+  
+  class Env {
+      def init {
+          @memory = [];
+          @ptr = 0;
+      }
+  
+      def ptr       { @ptr }
+      def ptr=(ptr) { @ptr = ptr }
+  
+      def current_value         { @memory[@ptr] || 0 }
+      def current_value=(value) { @memory[@ptr] = value }
+  }
+  
+  class AST {
+      class Next {
+          def eval(env) {
+              env.ptr++;
+          }
+      }
+  
+      class Prev {
+          def eval(env) {
+              env.ptr--;
+          }
+      }
+  
+      class Inc {
+          def eval(env) {
+              env.current_value++;
+          }
+      }
+  
+      class Dec {
+          def eval(env) {
+              env.current_value--;
+          }
+      }
+  
+      class Output {
+          def eval(env) {
+              print(env.current_value.char);
+          }
+      }
+  
+      class Input {
+          def eval(env) {
+              ...
+          }
+      }
+  
+      class Sequence {
+          def init(nodes) {
+              @nodes = nodes;
+          }
+  
+          def eval(env) {
+              for node in @nodes {
+                  node.eval(env);
+              }
+          }
+      }
+  
+      class Loop {
+          def init(seq) {
+              @seq = seq;
+          }
+  
+          def eval(env) {
+              while env.current_value != 0 {
+                  @seq.eval(env);
+              }
+          }
+      }
+  }
+  
+  class Parser {
+      def init(str) {
+          @chars = str.split("");
+      }
+  
+      def parse {
+          @stack = [[]];
+          for char in @chars {
+              _parse_char(char);
+          }
+          if @stack.length != 1 {
+              throw SyntaxError.new("unexpected end of input");
+          }
+          AST::Sequence.new(@stack.last);
+      }
+  
+      def _parse_char(char) {
+          switch char {
+              ">" { _add(AST::Next.new); }
+              "<" { _add(AST::Prev.new); }
+              "+" { _add(AST::Inc.new); }
+              "-" { _add(AST::Dec.new); }
+              "." { _add(AST::Output.new); }
+              "," { _add(AST::Input.new); }
+              "[" { _open_loop(); }
+              "]" { _close_loop(); }
+          }
+      }
+  
+      def _add(node) {
+          @stack.last.push(node);
+      }
+  
+      def _open_loop {
+          @stack.push([]);
+      }
+  
+      def _close_loop {
+          if @stack.length == 1 {
+              throw SyntaxError.new("unexpected ']'");
+          }
+  
+          nodes = @stack.pop;
+          _add(AST::Loop.new(AST::Sequence.new(nodes)));
+      }
+  }
+  
+  src = File.read(ARGV.first);
+  ast = Parser.new(src).parse;
+  ast.eval(Env.new);
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="http://slash-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/slash-lang/slash" class="material-symbols-outlined">code</a> <a href="/edit.html?id=slash" class="material-symbols-outlined">edit</a></div>
-
-* Slash is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/slash-lang/slash
-
-dashboard
- #399 <span title="TotalRank: 892 Jobs: 103 Users: 675 Facts: 114 Links: 986">on PLDB</span>
- 12 Years Old
- 572 <span title="Slash repos on GitHub.">Repos</span>
-
-* A new language for the web
-
-- Slash website
- http://slash-lang.org/
-- Slash is developed on <a href="https://github.com/slash-lang/slash">GitHub</a> and has 387 stars
-- There are at least 572 Slash repos on <a href="https://github.com/search?q=language:Slash">GitHub</a>
-- Slash first developed in <a href="../lists/originCommunities.html#httpsGithubComSlashLangSlash">https://github.com/slash-lang/slash</a>
-- file extensions for Slash include sl and sla
-- The  Google BigQuery Public Dataset GitHub snapshot shows 388 users using Slash in 427 repos on <a href="https://api.github.com/search/repositories?q=language:Slash">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/slash.py">syntax highlighting</a> for Slash
-- GitHub supports <a href="https://github.com/slash-lang/Slash.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Slash
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/slash-lang/Slash.tmbundle'>Linguist</a>:
- &lt;%
- 
- class Env {
-     def init {
-         @memory = [];
-         @ptr = 0;
-     }
- 
-     def ptr       { @ptr }
-     def ptr=(ptr) { @ptr = ptr }
- 
-     def current_value         { @memory[@ptr] || 0 }
-     def current_value=(value) { @memory[@ptr] = value }
- }
- 
- class AST {
-     class Next {
-         def eval(env) {
-             env.ptr++;
-         }
-     }
- 
-     class Prev {
-         def eval(env) {
-             env.ptr--;
-         }
-     }
- 
-     class Inc {
-         def eval(env) {
-             env.current_value++;
-         }
-     }
- 
-     class Dec {
-         def eval(env) {
-             env.current_value--;
-         }
-     }
- 
-     class Output {
-         def eval(env) {
-             print(env.current_value.char);
-         }
-     }
- 
-     class Input {
-         def eval(env) {
-             ...
-         }
-     }
- 
-     class Sequence {
-         def init(nodes) {
-             @nodes = nodes;
-         }
- 
-         def eval(env) {
-             for node in @nodes {
-                 node.eval(env);
-             }
-         }
-     }
- 
-     class Loop {
-         def init(seq) {
-             @seq = seq;
-         }
- 
-         def eval(env) {
-             while env.current_value != 0 {
-                 @seq.eval(env);
-             }
-         }
-     }
- }
- 
- class Parser {
-     def init(str) {
-         @chars = str.split(&quot;&quot;);
-     }
- 
-     def parse {
-         @stack = [[]];
-         for char in @chars {
-             _parse_char(char);
-         }
-         if @stack.length != 1 {
-             throw SyntaxError.new(&quot;unexpected end of input&quot;);
-         }
-         AST::Sequence.new(@stack.last);
-     }
- 
-     def _parse_char(char) {
-         switch char {
-             &quot;&gt;&quot; { _add(AST::Next.new); }
-             &quot;&lt;&quot; { _add(AST::Prev.new); }
-             &quot;+&quot; { _add(AST::Inc.new); }
-             &quot;-&quot; { _add(AST::Dec.new); }
-             &quot;.&quot; { _add(AST::Output.new); }
-             &quot;,&quot; { _add(AST::Input.new); }
-             &quot;[&quot; { _open_loop(); }
-             &quot;]&quot; { _close_loop(); }
-         }
-     }
- 
-     def _add(node) {
-         @stack.last.push(node);
-     }
- 
-     def _open_loop {
-         @stack.push([]);
-     }
- 
-     def _close_loop {
-         if @stack.length == 1 {
-             throw SyntaxError.new(&quot;unexpected &#39;]&#39;&quot;);
-         }
- 
-         nodes = @stack.pop;
-         _add(AST::Loop.new(AST::Sequence.new(nodes)));
-     }
- }
- 
- src = File.read(ARGV.first);
- ast = Parser.new(src).parse;
- ast.eval(Env.new);
- 
-
-endColumns
-
-keyboardNav falcon.html dtrace.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

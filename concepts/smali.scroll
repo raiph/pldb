@@ -1,55 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Smali
+import ../measures/conceptPage.scroll
+id Smali
+appeared 2010
+type assembly
+documentation https://github.com/JesusFreke/smali/wiki
+country United States
+originCommunity https://github.com/JesusFreke/smali/issues
 
-title Smali - Assembly language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="apl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nginx-config.html">&gt;</a>
+lineCommentToken #
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smali.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/JesusFreke/smali" class="material-symbols-outlined">code</a> <a href="https://github.com/JesusFreke/smali/wiki" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=smali" class="material-symbols-outlined">edit</a></div>
-
-* Smali is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-codeWithHeader Source code:
- git clone https://github.com/JesusFreke/smali
-
-dashboard
- #93 <span title="TotalRank: 292 Jobs: 103 Users: 125 Facts: 64 Links: 986">on PLDB</span>
- 14 Years Old
- 2k <span title="Smali repos on GitHub.">Repos</span>
-
-* smali/baksmali
-
-- Smali is developed on <a href="https://github.com/JesusFreke/smali">GitHub</a> and has 5,465 stars
-- Smali docs
- https://github.com/JesusFreke/smali/wiki
-- There are at least 2,479 Smali repos on <a href="https://github.com/search?q=language:Smali">GitHub</a>
-- Smali first developed in <a href="../lists/originCommunities.html#httpsGithubComJesusFrekeSmaliIssues">https://github.com/JesusFreke/smali/issues</a>
-- file extensions for Smali include smali
-- The  Google BigQuery Public Dataset GitHub snapshot shows 195 users using Smali in 212 repos on <a href="https://api.github.com/search/repositories?q=language:Smali">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dalvik.py">syntax highlighting</a> for Smali
-- GitHub supports <a href="https://github.com/ShaneWilton/sublime-smali" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Smali
-
-<br>
-
-codeWithHeader Example from the web:
+example
  .method public getTokens(I)I
   .locals 2
-  .param p1, &quot;amt&quot;    # I
+  .param p1, "amt"    # I
   
   .prologue
   const/4 v0, 0x0
   
   .line 512
-  iget-boolean v1, p0, Lcom/limbenjamin/Example;-&gt;isPaid:Z
+  iget-boolean v1, p0, Lcom/limbenjamin/Example;->isPaid:Z
   
   if-nez v1, :cond_1
   
@@ -60,196 +37,210 @@ codeWithHeader Example from the web:
   
   .line 513
   :cond_1
-  iget-object v1, p0, Lcom/limbenjamin/Example;-&gt;handler:Lcom/limbenjamin/ExampleHandler;
+  iget-object v1, p0, Lcom/limbenjamin/Example;->handler:Lcom/limbenjamin/ExampleHandler;
   
   if-eqz v1, :cond_0
   
   .line 514
   move v3, p1
   
-  iget-object v0, p0, Lcom/limbenjamin/Example;-&gt;handler:Lcom/limbenjamin/ExampleHandler;
+  iget-object v0, p0, Lcom/limbenjamin/Example;->handler:Lcom/limbenjamin/ExampleHandler;
   
-  invoke-interface {v0, v3}, Lcom/limbenjamin/ExampleHandler;-&gt;creditTokens(I)V
+  invoke-interface {v0, v3}, Lcom/limbenjamin/ExampleHandler;->creditTokens(I)V
   
   move-result v0
   
   goto :goto_0
  .end method
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Smali.smali'>hello-world</a>:
- .class public LHelloWorld;
- 
- .super Ljava/lang/Object;
- 
- .method public static main([Ljava/lang/String;)V
-     .registers 2
- 
-     sget-object v0, Ljava/lang/System;-&gt;out:Ljava/io/PrintStream;
- 
-     const-string	v1, &quot;Hello World&quot;
- 
-     invoke-virtual {v0, v1}, Ljava/io/PrintStream;-&gt;println(Ljava/lang/String;)V
- 
-     return-void
- .end method
- 
+githubRepo https://github.com/JesusFreke/smali
+ firstCommit 2009
+ stars 5465
+ forks 1021
+ subscribers 285
+ created 2012
+ updated 2022
+ description smali/baksmali
+ issues 121
 
-codeWithHeader Example from <a href='https://github.com/ShaneWilton/sublime-smali'>Linguist</a>:
- .class public Lcom/tdq/game/shootbubble/sprite/PenguinSprite;
- .super Lcom/tdq/game/shootbubble/sprite/Sprite;
- .source &quot;PenguinSprite.java&quot;
- 
- 
- # static fields
- .field public static final LOST_SEQUENCE:[[I
- 
- .field public static final STATE_FIRE:I = 0x2
- 
- .field public static final STATE_GAME_LOST:I = 0x5
- 
- .field public static final STATE_GAME_WON:I = 0x4
- 
- .field public static final STATE_TURN_LEFT:I = 0x0
- 
- .field public static final STATE_TURN_RIGHT:I = 0x1
- 
- .field public static final STATE_VOID:I = 0x3
- 
- .field public static final WON_SEQUENCE:[[I
- 
- 
- # instance fields
- .field private count:I
- 
- .field private currentPenguin:I
- 
- .field private finalState:I
- 
- .field private nextPosition:I
- 
- .field private rand:Ljava/util/Random;
- 
- .field private spritesImage:Lcom/tdq/game/shootbubble/sprite/BmpWrap;
- 
- 
- # direct methods
- .method static constructor &lt;clinit&gt;()V
-     .locals 8
- 
-     .prologue
-     const/4 v7, 0x4
- 
-     const/4 v6, 0x3
- 
-     const/4 v5, 0x1
- 
-     const/4 v4, 0x0
- 
-     const/4 v3, 0x2
- 
-     .line 67
-     const/16 v0, 0x8
- 
-     new-array v0, v0, [[I
- 
-     new-array v1, v3, [I
- 
-     fill-array-data v1, :array_0
- 
-     aput-object v1, v0, v4
- 
-     new-array v1, v3, [I
- 
-     fill-array-data v1, :array_1
- 
-     aput-object v1, v0, v5
- 
-     new-array v1, v3, [I
- 
-     fill-array-data v1, :array_2
- 
-     aput-object v1, v0, v3
- 
-     new-array v1, v3, [I
- 
-     fill-array-data v1, :array_3
- 
-     aput-object v1, v0, v6
- 
-     new-array v1, v3, [I
- 
-     fill-array-data v1, :array_4
- 
-     aput-object v1, v0, v7
- 
-     const/4 v1, 0x5
- 
-     new-array v2, v3, [I
- 
-     fill-array-data v2, :array_5
- 
-     aput-object v2, v0, v1
- 
-     const/4 v1, 0x6
- 
-     new-array v2, v3, [I
- 
-     fill-array-data v2, :array_6
- 
-     aput-object v2, v0, v1
- 
-     const/4 v1, 0x7
- 
-     new-array v2, v3, [I
- 
-     fill-array-data v2, :array_7
- 
-     aput-object v2, v0, v1
- 
-     sput-object v0, Lcom/tdq/game/shootbubble/sprite/PenguinSprite;-&gt;LOST_SEQUENCE:[[I
- 
-     .line 69
-     const/16 v0, 0x8
- 
-     new-array v0, v0, [[I
- 
-     new-array v1, v3, [I
- 
-     fil
+repoStats
+ firstCommit 2009
+ commits 1942
+ committers 49
+ files 930
 
-endColumns
+githubLanguage Smali
+ fileExtensions smali
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  AhMyth AhMyth-Android-RAT https://github.com/AhMyth.png https://github.com/AhMyth/AhMyth-Android-RAT Smali #ccc 1554 764 152 "Android Remote Administration Tool"
+  phhusson treble_experimentations https://github.com/phhusson.png https://github.com/phhusson/treble_experimentations Smali #ccc 827 200 36 "Notes about tinkering with Android Project Treble"
+ trendingProjectsCount 3
+ type programming
+ aceMode text
+ tmScope source.smali
+ repos 2479
+githubBigQuery Smali
+ repos 212
+ users 195
 
-## Language <a href="../lists/features.html">features</a>
+pygmentsHighlighter Smali
+ filename dalvik.py
+ fileExtensions smali
+linguistGrammarRepo https://github.com/ShaneWilton/sublime-smali
+ firstCommit 2013
+ lastCommit 2016
+ committerCount 4
+ commitCount 46
+ sampleCount 7
+ example
+  .class public Lcom/tdq/game/shootbubble/sprite/PenguinSprite;
+  .super Lcom/tdq/game/shootbubble/sprite/Sprite;
+  .source "PenguinSprite.java"
+  
+  
+  # static fields
+  .field public static final LOST_SEQUENCE:[[I
+  
+  .field public static final STATE_FIRE:I = 0x2
+  
+  .field public static final STATE_GAME_LOST:I = 0x5
+  
+  .field public static final STATE_GAME_WON:I = 0x4
+  
+  .field public static final STATE_TURN_LEFT:I = 0x0
+  
+  .field public static final STATE_TURN_RIGHT:I = 0x1
+  
+  .field public static final STATE_VOID:I = 0x3
+  
+  .field public static final WON_SEQUENCE:[[I
+  
+  
+  # instance fields
+  .field private count:I
+  
+  .field private currentPenguin:I
+  
+  .field private finalState:I
+  
+  .field private nextPosition:I
+  
+  .field private rand:Ljava/util/Random;
+  
+  .field private spritesImage:Lcom/tdq/game/shootbubble/sprite/BmpWrap;
+  
+  
+  # direct methods
+  .method static constructor <clinit>()V
+      .locals 8
+  
+      .prologue
+      const/4 v7, 0x4
+  
+      const/4 v6, 0x3
+  
+      const/4 v5, 0x1
+  
+      const/4 v4, 0x0
+  
+      const/4 v3, 0x2
+  
+      .line 67
+      const/16 v0, 0x8
+  
+      new-array v0, v0, [[I
+  
+      new-array v1, v3, [I
+  
+      fill-array-data v1, :array_0
+  
+      aput-object v1, v0, v4
+  
+      new-array v1, v3, [I
+  
+      fill-array-data v1, :array_1
+  
+      aput-object v1, v0, v5
+  
+      new-array v1, v3, [I
+  
+      fill-array-data v1, :array_2
+  
+      aput-object v1, v0, v3
+  
+      new-array v1, v3, [I
+  
+      fill-array-data v1, :array_3
+  
+      aput-object v1, v0, v6
+  
+      new-array v1, v3, [I
+  
+      fill-array-data v1, :array_4
+  
+      aput-object v1, v0, v7
+  
+      const/4 v1, 0x5
+  
+      new-array v2, v3, [I
+  
+      fill-array-data v2, :array_5
+  
+      aput-object v2, v0, v1
+  
+      const/4 v1, 0x6
+  
+      new-array v2, v3, [I
+  
+      fill-array-data v2, :array_6
+  
+      aput-object v2, v0, v1
+  
+      const/4 v1, 0x7
+  
+      new-array v2, v3, [I
+  
+      fill-array-data v2, :array_7
+  
+      aput-object v2, v0, v1
+  
+      sput-object v0, Lcom/tdq/game/shootbubble/sprite/PenguinSprite;->LOST_SEQUENCE:[[I
+  
+      .line 69
+      const/16 v0, 0x8
+  
+      new-array v0, v0, [[I
+  
+      new-array v1, v3, [I
+  
+      fil
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+leachim6 Smali
+ filepath s/Smali.smali
+ fileExtensions smali
+ example
+  .class public LHelloWorld;
+  
+  .super Ljava/lang/Object;
+  
+  .method public static main([Ljava/lang/String;)V
+      .registers 2
+  
+      sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+  
+      const-string	v1, "Hello World"
+  
+      invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+  
+      return-void
+  .end method
+  
 
-keyboardNav apl.html nginx-config.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2013|Slicing droids: program slicing for smali code|10.1145/2480362.2480706|112|18|Johannes Hoffmann and M. Ussath and Thorsten Holz and Michael Spreitzenbarth|501b2aa2c55dedef322fffe84054c9c9678a61a4

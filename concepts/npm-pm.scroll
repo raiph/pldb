@@ -1,49 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title npm
+import ../measures/conceptPage.scroll
+id npm
+appeared 2010
+type packageManager
+creators Isaac Z. Schlueter
+website http://npmjs.org
+country United States
+originCommunity npm, Inc
+domainName npmjs.org
+ registered 2010
+ awisRank
+  2022 114891
 
-title npm - Package manager
- hidden
+githubRepo https://github.com/npm/npm
+ firstCommit 2009
+ stars 17403
+ forks 3234
+ subscribers 867
+ created 2009
+ updated 2022
+ description This repository is moving to: https://github.com/npm/cli
+ issues 2167
 
-html
- <a class="trueBaseThemePreviousItem" href="csound.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="morse-code.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/Npm_(software)
+ related javascript php perl json
+ summary npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. The registry is accessed via the client, and the available packages can be browsed and searched via the npm website. The package manager and the registry are managed by npm, Inc.
+ pageId 32102343
+ created 2011
+ backlinksCount 158
+ revisionCount 231
+ dailyPageViews 492
+ appeared 2010
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/npm-pm.pldb
+packageCount 1029249
+packageInstallCount 991954002030
+forLanguages javascript nodejs typescript
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://npmjs.org" class="material-symbols-outlined">home</a> <a href="https://github.com/npm/npm" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/Npm_(software)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/npmjs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=npm-pm" class="material-symbols-outlined">edit</a></div>
-
-* npm is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2010 by Isaac Z. Schlueter.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#isaacZSchlueter Isaac Z. Schlueter
-
-codeWithHeader Source code:
- git clone https://github.com/npm/npm
-
-dashboard
- #321 on PLDB
- 14 Years Old
-
-* npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Npm_(software) Read more on Wikipedia...
-
-- npm website
- http://npmjs.org
-- npm Wikipedia page
- https://en.wikipedia.org/wiki/Npm_(software)
-- npm is developed on <a href="https://github.com/npm/npm">GitHub</a> and has 17,403 stars
-- npm first developed in <a href="../lists/originCommunities.html#npmInc">npm, Inc</a>
-- npm on Twitter
- https://twitter.com/npmjs
-- <a href="http://npmjs.org">npmjs.org</a> was registered in 2010
-- See also: (4 related languages)<a href="javascript.html">JavaScript</a>, <a href="php.html">PHP</a>, <a href="perl.html">Perl</a>, <a href="json.html">JSON</a>
-
-<br>
-
-endColumns
-
-keyboardNav csound.html morse-code.html
-
-import ../footer.scroll
+twitter https://twitter.com/npmjs
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

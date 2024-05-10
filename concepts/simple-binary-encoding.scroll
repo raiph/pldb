@@ -1,50 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Simple Binary Encoding
+import ../measures/conceptPage.scroll
+id Simple Binary Encoding
+appeared 2013
+type pl
+conceptDescription SBE is an OSI layer 6 presentation for encoding and decoding binary application messages for low-latency financial applications. This repository contains the reference implementations in Java, C++, Golang, C#, and Rust
+website https://yafetn.github.io/2023/01/12/sbe.html
+documentation https://github.com/real-logic/simple-binary-encoding/wiki
+reference https://github.com/real-logic/simple-binary-encoding
+originCommunity https://github.com/FIXTradingCommunity/fix-simple-binary-encoding
+releaseNotesUrl https://github.com/real-logic/simple-binary-encoding/wiki/Change-Log
 
-title Simple Binary Encoding - Programming language
- hidden
+relatedConcepts python java rust
 
-html
- <a class="trueBaseThemePreviousItem" href="pcre.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="filebench-wml.html">&gt;</a>
+githubRepo https://github.com/real-logic/simple-binary-encoding
+ stars 27780
+ forks 469
+ updated 2023
+ description Simple Binary Encoding (SBE) - High Performance Message Codec
+ issues 20
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simple-binary-encoding.pldb
+repoStats
+ firstCommit 2013
+ commits 3506
+ committers 111
+ files 360
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://yafetn.github.io/2023/01/12/sbe.html" class="material-symbols-outlined">home</a> <a href="https://github.com/real-logic/simple-binary-encoding" class="material-symbols-outlined">code</a> <a href="https://github.com/real-logic/simple-binary-encoding/wiki" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=simple-binary-encoding" class="material-symbols-outlined">edit</a></div>
-
-* Simple Binary Encoding is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-codeWithHeader Source code:
- git clone https://github.com/real-logic/simple-binary-encoding
-
-dashboard
- #583 <span title="TotalRank: 1149 Jobs: 103 Users: 60 Facts: 1591 Links: 986">on PLDB</span>
- 11 Years Old
-
-* SBE is an OSI layer 6 presentation for encoding and decoding binary application messages for low-latency financial applications. This repository contains the reference implementations in Java, C++, Golang, C#, and Rust
-
-- Simple Binary Encoding website
- https://yafetn.github.io/2023/01/12/sbe.html
-- Simple Binary Encoding is developed on <a href="https://github.com/real-logic/simple-binary-encoding">GitHub</a> and has 27,780 stars
-- Simple Binary Encoding docs
- https://github.com/real-logic/simple-binary-encoding/wiki
-- Simple Binary Encoding first developed in <a href="../lists/originCommunities.html#httpsGithubComFixTradingCommunityFixSimpleBinaryEncoding">https://github.com/FIXTradingCommunity/fix-simple-binary-encoding</a>
-- Release Notes for Simple Binary Encoding
- https://github.com/real-logic/simple-binary-encoding/wiki/Change-Log
-- Official Blog page for Simple Binary Encoding
- https://github.com/real-logic/simple-binary-encoding/wiki/Blogs-and-Announcements
-- See also: (3 related languages)<a href="python.html">Python</a>, <a href="java.html">Java</a>, <a href="rust.html">Rust</a>
-- Read more about Simple Binary Encoding on the web: 1.
- https://github.com/real-logic/simple-binary-encoding 1.
-
-<br>
-
-endColumns
-
-keyboardNav pcre.html filebench-wml.html
-
-import ../footer.scroll
+officialBlogUrl https://github.com/real-logic/simple-binary-encoding/wiki/Blogs-and-Announcements

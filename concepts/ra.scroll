@@ -1,43 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ra
+import ../measures/conceptPage.scroll
+id ra
+appeared 2015
+type pl
+creators Omar Ahmad
+website http://ra-lang.sourceforge.net
+domainName ra-lang.sourceforge.net
 
-title ra - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="python-format-spec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="redscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ra.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://ra-lang.sourceforge.net" class="material-symbols-outlined">home</a> <a href="/edit.html?id=ra" class="material-symbols-outlined">edit</a></div>
-
-* ra is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Omar Ahmad.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#omarAhmad Omar Ahmad
-
-dashboard
- #2832 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- ra website
- http://ra-lang.sourceforge.net
-
-<br>
-
-endColumns
-
-## HackerNews discussions of ra
-
-pipeTable
- title|titleLink|date|score|comments
- Ra|https://news.ycombinator.com/item?id=9087509|02/21/2015|2|0
-
-keyboardNav python-format-spec.html redscript.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 9087509|Ra|http://ra-lang.sourceforge.net/|2015-02-21 23:43:25 UTC|1424562205|oahmad04|0|2

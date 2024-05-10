@@ -1,39 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PLEASE
+import ../measures/conceptPage.scroll
+id PLEASE
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/67f0224194a4e35f6602d08ac0a013752b67c85d
+country United States
+originCommunity University of Illinois at Urbana-Champaign
 
-title PLEASE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6976
 
-html
- <a class="trueBaseThemePreviousItem" href="nelua.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rbscript.html">&gt;</a>
+wordRank 145
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/please.pldb
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 1994|Overlook Books|Please Stand By: A Prehistory of Television|Ritchie, Michael|9780879515461
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=please" class="material-symbols-outlined">edit</a></div>
-
-* PLEASE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #2730 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- PLEASE first developed in <a href="../lists/originCommunities.html#universityOfIllinoisAtUrbanaChampaign">University of Illinois at Urbana-Champaign</a>
-- PLEASE on HOPL
- https://hopl.info/showlanguage.prx?exp=6976
-- Read more about PLEASE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/67f0224194a4e35f6602d08ac0a013752b67c85d 1.
-
-<br>
-
-endColumns
-
-keyboardNav nelua.html rbscript.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2010|Sir, Please Step Away from the ASR-33!|10.1145/1866296.1871406|3|0|Poul-Henning Kamp|7d59de3f4c07a814af96ed69652498d2626b2fb8

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Gedanken
+import ../measures/conceptPage.scroll
+id Gedanken
+appeared 1969
+type pl
+reference https://semanticscholar.org/paper/539e079e1c7a23b69f3c336103f9ad51769898b8
+country United States
+originCommunity Argonne National Laboratory
 
-title Gedanken - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=508
 
-html
- <a class="trueBaseThemePreviousItem" href="gdpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="generic-haskell.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gedanken.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gedanken" class="material-symbols-outlined">edit</a></div>
-
-* Gedanken is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #3687 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- Gedanken first developed in <a href="../lists/originCommunities.html#argonneNationalLaboratory">Argonne National Laboratory</a>
-- Gedanken on HOPL
- https://hopl.info/showlanguage.prx?exp=508
-- Read more about Gedanken on Semantic Scholar: 1.
- https://semanticscholar.org/paper/539e079e1c7a23b69f3c336103f9ad51769898b8 1.
-
-<br>
-
-endColumns
-
-keyboardNav gdpl.html generic-haskell.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Elm Packages
+import ../measures/conceptPage.scroll
+id Elm Packages
+appeared 2012
+type packageManager
+website https://package.elm-lang.org/
+country United States and France
+originCommunity https://github.com/elm
+domainName package.elm-lang.org
 
-title Elm Packages - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dss.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/elm-packages-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://package.elm-lang.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=elm-packages-pm" class="material-symbols-outlined">edit</a></div>
-
-* Elm Packages is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #3337 on PLDB
- 12 Years Old
-
-* 
-
-- Elm Packages website
- https://package.elm-lang.org/
-- Elm Packages first developed in <a href="../lists/originCommunities.html#httpsGithubComElm">https://github.com/elm</a>
-
-<br>
-
-endColumns
-
-keyboardNav dss.html emu.html
-
-import ../footer.scroll
+packageCount 594
+forLanguages elm

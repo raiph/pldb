@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Chika
+import ../measures/conceptPage.scroll
+id Chika
+appeared 2019
+type pl
+creators Patrick
+website https://phunanon.github.io/Chika
+country United Kingdom
+originCommunity https://github.com/phunanon
 
-title Chika - Programming language
- hidden
+githubRepo https://github.com/phunanon/Chika
+ firstCommit 2019
+ stars 10
+ forks 2
+ subscribers 2
+ created 2019
+ updated 2022
+ description S-expression programming language with VM targeting both PC and Arduino.
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="vcard.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="latte-js.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chika.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://phunanon.github.io/Chika" class="material-symbols-outlined">home</a> <a href="https://github.com/phunanon/Chika" class="material-symbols-outlined">code</a> <a href="/edit.html?id=chika" class="material-symbols-outlined">edit</a></div>
-
-* Chika is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Patrick.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#patrick Patrick
-
-codeWithHeader Source code:
- git clone https://github.com/phunanon/Chika
-
-dashboard
- #2252 <span title="TotalRank: 2758 Jobs: 103 Users: 2245 Facts: 1669 Links: 986">on PLDB</span>
- 5 Years Old
-
-* S-expression programming language with VM targeting both PC and Arduino.
-
-- Chika website
- https://phunanon.github.io/Chika
-- Chika is developed on <a href="https://github.com/phunanon/Chika">GitHub</a> and has 10 stars
-- Chika first developed in <a href="../lists/originCommunities.html#httpsGithubComPhunanon">https://github.com/phunanon</a>
-
-<br>
-
-endColumns
-
-keyboardNav vcard.html latte-js.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 216
+ committers 3
+ files 64

@@ -9,13 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="letterFirstIdentifiers.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="supportsBreakpoints.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-* Languages *with* Merges Whitespace include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/hope.html">HOPE</a>
-
-* This question asks: Does this language merge whitespace, so N spaces is treated the same as a single space?
+* Languages *with* Merges Whitespace include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/hope.html">HOPE</a>
 
 * Read more about Merges Whitespace on the web: 1.
  http://wiki.c2.com/?SyntacticallySignificantWhitespaceConsideredHarmful 1.

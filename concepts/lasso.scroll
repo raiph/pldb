@@ -1,350 +1,337 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lasso
+import ../measures/conceptPage.scroll
+id Lasso
+appeared 1995
+type pl
+creators Kyle Jessup
+website http://www.lassosoft.com
+documentation https://docs.lassox.com/
+fileExtensions lasso LassoApp
+country Canada
+originCommunity LassoSoft Inc
+domainName lassosoft.com
+ registered 2005
+ awisRank
+  2022 12026019
 
-title Lasso - Programming language
- hidden
+hasComments true
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="ml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="applescript.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lasso.pldb
+wikipedia https://en.wikipedia.org/wiki/Lasso_(programming_language)
+ example
+  // Define type
+  define bottles_of_beer => type {
+  
+  	// Define internal data 
+  	data private bottles = 99
+  
+  	// Define private methods
+  	private br => '<br/>'
+  	private s => .bottles != 1 ? 's' | ''
+  	
+  	// Generate lyrics when object represented as a string
+  	public asstring => {
+  
+  		local(out = '')
+  	
+  		// Use Lasso query syntax to generate the lyrics
+  	
+  
+  		with n in 99 to 1 by -1 do {
+  			.bottles = #n
+  			#out +=  .bottles + ' bottle' + .s + ' of beer on the wall, ' + .br
+  			#out +=  .bottles + ' bottle' + .s + ' of beer; ' + .br
+  			.bottles--
+  			#out += 'Take one down, pass it around, ' + .br
+  			#out += .bottles + ' bottle' + .s + ' of beer on the wall. ' + (.br * 2) 
+  		}
+  
+  		// Return result
+  		return #out
+  	}
+  }
+  
+  bottles_of_beer
+ related c linux dylan smalltalk scala html php python java sql unicode utf-8 cfml applescript mysql eclipse-editor asp
+ summary Lasso is an application server and server management interface used to develop internet applications and is a general-purpose, high-level programming language. Originally a web datasource connection tool, for Filemaker and later included in Apple Computer's FileMaker 4.0 and Claris Homepage as CDML, it has since evolved into a complex language used to develop and serve large-scale internet applications and web pages. Lasso includes a simple template system allowing code to control generation of HTML and other content types. Lasso is object-oriented and every value is an object. It also supports procedural programming through unbound methods. The language uses traits and multiple dispatch extensively. Lasso has a dynamic type system, where objects can be loaded and augmented at runtime, automatic memory management, a comprehensive standard library, and three compiling methodologies: dynamic (comparable to PHP-Python), just-in-time compilation (comparable to Java or .NET Framework), and pre-compiled (comparable to C). Lasso also supports Query Expressions, allowing elements within arrays and other types of sequences to be iterated, filtered, and manipulated using a natural language syntax similar to SQL. Lasso includes full Unicode character support in the standard string object, allowing it to serve and support multi-byte characters such as Japanese and Swedish, and supports transparent UTF-8 conversion when writing string data to the network or file system. Lasso is often used as a scripting language, and also used in a wide range of non-scripting contexts. Lasso code can be packaged into standalone executable programs called "LassoApps", in which folder structures are compiled into single files. The Lasso Server application server runs as a system service and receives requests from the web server through FastCGI. It then hands the request off to the appropriate Lasso Instance, which formulates the response. Multiple individual instances are supported, allowing one server to handle multiple sites, each as separate processes. The server uses a high performance IO-based green threading system designed for multi-core systems. Lasso can be compared to the server-side scripting languages PHP and Python, ColdFusion, Ruby, etc. Free for development, Lasso allows partial access to its source code, allowing developers to add or change major components of the language (for example, Ke Carlton's DS implementation of the Lasso Inline). Licensing comes in both SAS and stand-alone versions.
+ pageId 524247
+ dailyPageViews 35
+ created 2004
+ backlinksCount 35
+ revisionCount 429
+ appeared 1995
+ fileExtensions lasso LassoApp
 
-startColumns 4
+githubLanguage Lasso
+ fileExtensions lasso las lasso8 lasso9
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  plotly dash-sample-apps https://github.com/plotly.png https://github.com/plotly/dash-sample-apps Lasso #999999 172 186 65 "Apps hosted in the Dash Gallery"
+ trendingProjectsCount 2
+ type programming
+ aceMode text
+ tmScope file.lasso
+ aliases lassoscript
+ repos 464
+githubBigQuery Lasso
+ repos 435
+ users 388
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.lassosoft.com" class="material-symbols-outlined">home</a> <a href="https://docs.lassox.com/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Lasso_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=lasso" class="material-symbols-outlined">edit</a></div>
+pygmentsHighlighter Lasso
+ filename javascript.py
+ fileExtensions lasso lasso[89]
+linguistGrammarRepo https://github.com/bfad/Sublime-Lasso
+ firstCommit 2013
+ lastCommit 2014
+ committerCount 1
+ commitCount 11
+ sampleCount 4
+ example
+  
+  /**
+  	trait_json_serialize
+  	Objects with this trait will be assumed to convert to json data
+  	when its ->asString method is called
+  */
+  define trait_json_serialize => trait {
+  	require asString()
+  }
+  
+  define json_serialize(e::bytes)::string => ('"' + (string(#e)->Replace(`\`, `\\`) & Replace('\"', '\\"') & Replace('\r', '\\r') & Replace('\n', '\\n') & Replace('\t', '\\t') & Replace('\f', '\\f') & Replace('\b', '\\b') &) + '"')
+  define json_serialize(e::string)::string => ('"' + (string(#e)->Replace(`\`, `\\`) & Replace('\"', '\\"') & Replace('\r', '\\r') & Replace('\n', '\\n') & Replace('\t', '\\t') & Replace('\f', '\\f') & Replace('\b', '\\b') &) + '"')
+  define json_serialize(e::json_literal)::string => (#e->asstring)
+  define json_serialize(e::integer)::string => (#e->asstring)
+  define json_serialize(e::decimal)::string => (#e->asstring)
+  define json_serialize(e::boolean)::string => (#e->asstring)
+  define json_serialize(e::null)::string => ('null')
+  define json_serialize(e::date)::string => ('"' + #e->format(#e->gmt ? '%QT%TZ' | '%Q%T') + '"')
+  /*
+  define json_serialize(e::array)::string => {
+  	local(output) = '';
+  	local(delimit) = '';
+  	#e->foreach => { #output += #delimit + json_serialize(#1); #delimit = ', '; }
+  	return('[' + #output + ']');
+  }
+  define json_serialize(e::staticarray)::string => {
+  	local(output) = '';
+  	local(delimit) = '';
+  	#e->foreach => { #output += #delimit + json_serialize(#1); #delimit = ', '; }
+  	return('[' + #output + ']');
+  }
+  */
+  define json_serialize(e::trait_forEach)::string => {
+  	local(output) = '';
+  	local(delimit) = '';
+  	#e->foreach => { #output += #delimit + json_serialize(#1); #delimit = ', '; }
+  	return('[' + #output + ']');
+  }
+  define json_serialize(e::map)::string => {
+  	local(output = with pr in #e->eachPair 
+  					select json_serialize(#pr->first->asString) + ': ' + json_serialize(#pr->second))
+  	return '{' + #output->join(',') + '}'
+  }
+  define json_serialize(e::json_object)::string => {
+  	local(output) = '';
+  	local(delimit) = '';
+  	#e->foreachpair => { #output += #delimit + #1->first + ': ' + json_serialize(#1->second); #delimit = ', '; }
+  	return('{' + #output + '}');
+  }
+  define json_serialize(e::trait_json_serialize) => #e->asString
+  define json_serialize(e::any)::string => json_serialize('<LassoNativeType>' + #e->serialize + '</LassoNativeType>')
+  
+  // Bil Corry fixes for decoding json
+  define json_consume_string(ibytes::bytes) => {
+  	local(obytes) = bytes;
+  	local(temp) = 0;
+  	while((#temp := #ibytes->export8bits) != 34);
+  		#obytes->import8bits(#temp);
+  		(#temp == 92) ? #obytes->import8bits(#ibytes->export8bits); // Escape \
+   	/while;
+  	local(output = string(#obytes)->unescape)
+  	//Replace('\\"', '\"') & Replace('\\r', '\r') & Replace('\\n', '\n') & Replace('\\t', '\t') & Replace('\\f', '\f') & Replace('\\b', '\b') &;
+  	if(#output->BeginsWith('<LassoNativeType>') && #output->EndsWith('</LassoNativeType>'));
+  		Protect;
+  			return serialization_reader(xml(#output - '<LassoNativeType>' - '</LassoNativeType>'))->read
+  		/Protect;
+  	else( (#output->size == 16 or #output->size == 15) and regexp(`\d{8}T\d{6}Z?`, '', #output)->matches)
+  		return date(#output, -Format=#output->size == 16?`yyyyMMdd'T'HHmmssZ`|`yyyyMMdd'T'HHmmss`)
+  	/if
+  	return #output
+  }
+  
+  // Bil Corry fix + Ke fix
+  define json_consume_token(ibytes::bytes, temp::integer) => {
+  
+  	local(obytes = bytes->import8bits(#temp) &,
+  		delimit = array(9, 10, 13, 32, 44, 58, 93, 125)) // \t\r\n ,:]}
+  
+  	while(#delimit !>> (#temp := #ibytes->export8bits))
+  		#obytes->import8bits(#temp)
+  	/while
+  
+  	#temp == 125? // }
+  		#ibytes->marker -= 1
+  //============================================================================
+  //	Is also end of token if end of array[]
+  	#temp == 93? // ]
+  		#ibytes->marker -= 1
+  //............................................................................		
+  
+  	local(output = string(#obytes))
+  	#output == 'true'?
+  		return true
+  	#output == 'false'?
+  		return false
+  	#output == 'null'?
+  		return null
+  	string_IsNumeric(#output)?
+  	return (#output >> '.')? decimal(#output) | integer(#output)
+  
+  	return #output
+  }
+  
+  // Bil Corry fix
+  define json_consume_array(ibytes::bytes)::array => {
+  	Local(output) = array;
+  	local(delimit) = array( 9, 10, 13, 32, 44); // \t\r\n ,
+  	local(temp) = 0;
+  	While((#temp := #ibytes->export8bits) != 93); // ]
+  		If(#delimit >> #temp);
+  			// Discard whitespace
+  		Else(#temp == 34); // "
+  			#output->insert(json_consume_string(#ibytes));
+  		Else(#temp == 91); // [
+  			#output->insert(json_consume_array(#ibytes));
+  		Else(#temp == 123); // {
+  			#output->insert(json_consume_object(#ibytes));
+  		Else;
+  			#output->insert(json_consume_token(#ibytes, #temp));
+  			(#temp == 93) ? Loop_Abort;
+  		/If;
+  	/While;
+  	Return(#output);
+  }
+  
+  // Bil Corry fix
+  define json_consume_object(ibytes::bytes)::map => {
+  	Local('output' = map,
+  		'delimit' = array( 9, 10, 13, 32, 44), // \t\r\n ,
+  		'temp' = 0,
+  		'key' = null,
+  		'val' = null);
+  	While((#temp := #ibytes->export8bits) != 125); // }
+  		If(#delimit >> #temp);
+  			// Discard whitespace
+  		Else((#key !== null) && (#temp == 34)); // "
+  			#output->insert(#key = json_consume_string(#ibytes));
+  			#key = null;
+  		Else((#key !== null) && (#temp == 91)); // [
+  			#output->insert(#key = json_consume_array(#ibytes));
+  			#key = null;
+  		Else((#key !== null) && (#temp == 123)); // {
+  			#output->insert(#key = json_consume_object(#ibytes));
+  			#key = null;
+  		Else((#key !== null));
+  			#output->insert(#key = json_consume_token(#ibytes, #temp));
+  			#key = null;
+  		Else;
+  			#key = json_consume_string(#ibytes);
+  			while(#delimit >> (#temp := #ibytes->export8bits));
+  			/while;
+  			#temp != 58 ? Loop_Abort;
+  		/If;
+  	/While;
+  
+  	If((#output >> '__jsonclass__') && (#output->Find('__jsonclass__')->isa('array')) && (#output->Find('__jsonclass__')->size >= 2) && (#output->Find('__jsonclass__')->First == 'deserialize'));
+  		Return(#output->find('__jsonclass__')->Second->First);
+  	Else((#output >> 'native') && (#output >> 'comment') && (#output->find('comment') == 'http://www.lassosoft.com/json'));
+  		Return(#output->find('native'));
+  	/If;
+  	Return(#output);
+  }
+  
+  // Bil Corry fix + Ke fix
+  define json_deserialize(ibytes::bytes)::any => {
+  	#ibytes->removeLeading(bom_utf8);
+  
+  //============================================================================
+  //	Reset marker on provided bytes
+  	#ibytes->marker = 0
+  //............................................................................		
+  	
+  	Local(temp) = #ibytes->export8bits;
+  	If(#temp == 91); // [
+  		Return(json_consume_array(#ibytes));
+  	Else(#temp == 123); // {
+  		Return(json_consume_object(#ibytes));
+  	else(#temp == 34) // "
+  		return json_consume_string(#ibytes)
+  	/If;
+  }
+  
+  define json_deserialize(s::string) => json_deserialize(bytes(#s))
+  
+  /**! json_literal - This is a subclass of String used for JSON encoding.
+  
+  	A json_literal works exactly like a string, but will be inserted directly
+  	rather than being encoded into JSON. This allows JavaScript elements
+  	like functions to be inserted into JSON objects. This is most useful
+  	when the JSON object will be used within a JavaScript on the local page.
+  	[Map: 'fn'=Literal('function(){ ...})] => {'fn': function(){ ...}}
+  **/
+  define json_literal => type {
+  	parent string
+  }
+  
+  /**! json_object - This is a subclass of Map used for JSON encoding.
+  
+  	An object works exactly like a map, but when it is encoded into JSON all
+  	of the keys will be inserted literally. This makes it easy to create a
+  	JavaScript object without extraneous quote marks.
+  	Object('name'='value') => {name: "value"}
+  **/
+  define json_object => type {
+  	parent map
+  	public onCreate(...) => ..onCreate(:#rest or (:))
+  }
+  
+  define json_rpccall(method::string, params=map, id='', host='') => {
+  	#id == '' ? #host = Lasso_UniqueID;
+  	#host == '' ? #host = 'http://localhost/lassoapps.8/rpc/rpc.lasso';
+  	Return(Decode_JSON(Include_URL(#host, -PostParams=Encode_JSON(Map('method' = #method, 'params' = #params, 'id' = #id)))));
+  }
+  
 
-* Lasso is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995 by Kyle Jessup.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
- link ../lists/creators.html#kyleJessup Kyle Jessup
-
-dashboard
- #125 <span title="TotalRank: 373 Jobs: 67 Users: 851 Facts: 34 Links: 272">on PLDB</span>
- 29 Years Old
- 464 <span title="Lasso repos on GitHub.">Repos</span>
-
-* Lasso is an application server and server management interface used to develop internet applications and is a general-purpose, high-level programming language. Originally a web datasource connection tool, for Filemaker and later included in Apple Computer's FileMaker 4.0 and Claris Homepage as CDML, it has since evolved into a complex language used to develop and serve large-scale internet applications and web pages. Lasso includes a simple template system allowing code to control generation of HTML and other content types. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Lasso_(programming_language) Read more on Wikipedia...
-
-- Lasso website
- http://www.lassosoft.com
-- Lasso Wikipedia page
- https://en.wikipedia.org/wiki/Lasso_(programming_language)
-- Lasso docs
- https://docs.lassox.com/
-- There are at least 464 Lasso repos on <a href="https://github.com/search?q=language:Lasso">GitHub</a>
-- Lasso first developed in <a href="../lists/originCommunities.html#lassoSoftInc">LassoSoft Inc</a>
-- PLDB estimates there are currently 142 job openings for Lasso programmers.
-- file extensions for Lasso include lasso, LassoApp, las, lasso8, lasso9 and lasso[89]
-- The  Google BigQuery Public Dataset GitHub snapshot shows 388 users using Lasso in 435 repos on <a href="https://api.github.com/search/repositories?q=language:Lasso">GitHub</a>
-- Explore Lasso snippets on <a href="http://www.rosettacode.org/wiki/Category:Lasso">Rosetta Code</a>
-- Lasso appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for Lasso
-- GitHub supports <a href="https://github.com/bfad/Sublime-Lasso" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Lasso
-- Official Blog page for Lasso
- http://www.lassosoft.com/Lasso-News
-- Indeed.com has 142 matches for <a href="https://www.indeed.com/jobs?q=lasso engineer">"lasso engineer"</a>.
-- <a href="http://www.lassosoft.com">lassosoft.com</a> was registered in 2005
-- See also: (17 related languages)<a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="dylan.html">Dylan</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="scala.html">Scala</a>, <a href="html.html">HTML</a>, <a href="php.html">PHP</a>, <a href="python.html">Python</a>, <a href="java.html">Java</a>, <a href="sql.html">SQL</a>, <a href="unicode.html">Unicode</a>, <a href="utf-8.html">UTF-8</a>, <a href="cfml.html">CFML</a>, <a href="applescript.html">Applescript</a>, <a href="mysql.html">MySQL</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="asp.html">ASP</a>
-
-<br>
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Lasso'>the Hello World Collection</a>:
+helloWorldCollection Lasso
  // Hello world in Lasso
  
  Hello world!
+rosettaCode http://www.rosettacode.org/wiki/Category:Lasso
 
-codeWithHeader Example from <a href='https://github.com/bfad/Sublime-Lasso'>Linguist</a>:
- 
- /**
- 	trait_json_serialize
- 	Objects with this trait will be assumed to convert to json data
- 	when its -&gt;asString method is called
- */
- define trait_json_serialize =&gt; trait {
- 	require asString()
- }
- 
- define json_serialize(e::bytes)::string =&gt; (&#39;&quot;&#39; + (string(#e)-&gt;Replace(`\`, `\\`) &amp; Replace(&#39;\&quot;&#39;, &#39;\\&quot;&#39;) &amp; Replace(&#39;\r&#39;, &#39;\\r&#39;) &amp; Replace(&#39;\n&#39;, &#39;\\n&#39;) &amp; Replace(&#39;\t&#39;, &#39;\\t&#39;) &amp; Replace(&#39;\f&#39;, &#39;\\f&#39;) &amp; Replace(&#39;\b&#39;, &#39;\\b&#39;) &amp;) + &#39;&quot;&#39;)
- define json_serialize(e::string)::string =&gt; (&#39;&quot;&#39; + (string(#e)-&gt;Replace(`\`, `\\`) &amp; Replace(&#39;\&quot;&#39;, &#39;\\&quot;&#39;) &amp; Replace(&#39;\r&#39;, &#39;\\r&#39;) &amp; Replace(&#39;\n&#39;, &#39;\\n&#39;) &amp; Replace(&#39;\t&#39;, &#39;\\t&#39;) &amp; Replace(&#39;\f&#39;, &#39;\\f&#39;) &amp; Replace(&#39;\b&#39;, &#39;\\b&#39;) &amp;) + &#39;&quot;&#39;)
- define json_serialize(e::json_literal)::string =&gt; (#e-&gt;asstring)
- define json_serialize(e::integer)::string =&gt; (#e-&gt;asstring)
- define json_serialize(e::decimal)::string =&gt; (#e-&gt;asstring)
- define json_serialize(e::boolean)::string =&gt; (#e-&gt;asstring)
- define json_serialize(e::null)::string =&gt; (&#39;null&#39;)
- define json_serialize(e::date)::string =&gt; (&#39;&quot;&#39; + #e-&gt;format(#e-&gt;gmt ? &#39;%QT%TZ&#39; | &#39;%Q%T&#39;) + &#39;&quot;&#39;)
- /*
- define json_serialize(e::array)::string =&gt; {
- 	local(output) = &#39;&#39;;
- 	local(delimit) = &#39;&#39;;
- 	#e-&gt;foreach =&gt; { #output += #delimit + json_serialize(#1); #delimit = &#39;, &#39;; }
- 	return(&#39;[&#39; + #output + &#39;]&#39;);
- }
- define json_serialize(e::staticarray)::string =&gt; {
- 	local(output) = &#39;&#39;;
- 	local(delimit) = &#39;&#39;;
- 	#e-&gt;foreach =&gt; { #output += #delimit + json_serialize(#1); #delimit = &#39;, &#39;; }
- 	return(&#39;[&#39; + #output + &#39;]&#39;);
- }
- */
- define json_serialize(e::trait_forEach)::string =&gt; {
- 	local(output) = &#39;&#39;;
- 	local(delimit) = &#39;&#39;;
- 	#e-&gt;foreach =&gt; { #output += #delimit + json_serialize(#1); #delimit = &#39;, &#39;; }
- 	return(&#39;[&#39; + #output + &#39;]&#39;);
- }
- define json_serialize(e::map)::string =&gt; {
- 	local(output = with pr in #e-&gt;eachPair 
- 					select json_serialize(#pr-&gt;first-&gt;asString) + &#39;: &#39; + json_serialize(#pr-&gt;second))
- 	return &#39;{&#39; + #output-&gt;join(&#39;,&#39;) + &#39;}&#39;
- }
- define json_serialize(e::json_object)::string =&gt; {
- 	local(output) = &#39;&#39;;
- 	local(delimit) = &#39;&#39;;
- 	#e-&gt;foreachpair =&gt; { #output += #delimit + #1-&gt;first + &#39;: &#39; + json_serialize(#1-&gt;second); #delimit = &#39;, &#39;; }
- 	return(&#39;{&#39; + #output + &#39;}&#39;);
- }
- define json_serialize(e::trait_json_serialize) =&gt; #e-&gt;asString
- define json_serialize(e::any)::string =&gt; json_serialize(&#39;&lt;LassoNativeType&gt;&#39; + #e-&gt;serialize + &#39;&lt;/LassoNativeType&gt;&#39;)
- 
- // Bil Corry fixes for decoding json
- define json_consume_string(ibytes::bytes) =&gt; {
- 	local(obytes) = bytes;
- 	local(temp) = 0;
- 	while((#temp := #ibytes-&gt;export8bits) != 34);
- 		#obytes-&gt;import8bits(#temp);
- 		(#temp == 92) ? #obytes-&gt;import8bits(#ibytes-&gt;export8bits); // Escape \
-  	/while;
- 	local(output = string(#obytes)-&gt;unescape)
- 	//Replace(&#39;\\&quot;&#39;, &#39;\&quot;&#39;) &amp; Replace(&#39;\\r&#39;, &#39;\r&#39;) &amp; Replace(&#39;\\n&#39;, &#39;\n&#39;) &amp; Replace(&#39;\\t&#39;, &#39;\t&#39;) &amp; Replace(&#39;\\f&#39;, &#39;\f&#39;) &amp; Replace(&#39;\\b&#39;, &#39;\b&#39;) &amp;;
- 	if(#output-&gt;BeginsWith(&#39;&lt;LassoNativeType&gt;&#39;) &amp;&amp; #output-&gt;EndsWith(&#39;&lt;/LassoNativeType&gt;&#39;));
- 		Protect;
- 			return serialization_reader(xml(#output - &#39;&lt;LassoNativeType&gt;&#39; - &#39;&lt;/LassoNativeType&gt;&#39;))-&gt;read
- 		/Protect;
- 	else( (#output-&gt;size == 16 or #output-&gt;size == 15) and regexp(`\d{8}T\d{6}Z?`, &#39;&#39;, #output)-&gt;matches)
- 		return date(#output, -Format=#output-&gt;size == 16?`yyyyMMdd&#39;T&#39;HHmmssZ`|`yyyyMMdd&#39;T&#39;HHmmss`)
- 	/if
- 	return #output
- }
- 
- // Bil Corry fix + Ke fix
- define json_consume_token(ibytes::bytes, temp::integer) =&gt; {
- 
- 	local(obytes = bytes-&gt;import8bits(#temp) &amp;,
- 		delimit = array(9, 10, 13, 32, 44, 58, 93, 125)) // \t\r\n ,:]}
- 
- 	while(#delimit !&gt;&gt; (#temp := #ibytes-&gt;export8bits))
- 		#obytes-&gt;import8bits(#temp)
- 	/while
- 
- 	#temp == 125? // }
- 		#ibytes-&gt;marker -= 1
- //============================================================================
- //	Is also end of token if end of array[]
- 	#temp == 93? // ]
- 		#ibytes-&gt;marker -= 1
- //............................................................................		
- 
- 	local(output = string(#obytes))
- 	#output == &#39;true&#39;?
- 		return true
- 	#output == &#39;false&#39;?
- 		return false
- 	#output == &#39;null&#39;?
- 		return null
- 	string_IsNumeric(#output)?
- 	return (#output &gt;&gt; &#39;.&#39;)? decimal(#output) | integer(#output)
- 
- 	return #output
- }
- 
- // Bil Corry fix
- define json_consume_array(ibytes::bytes)::array =&gt; {
- 	Local(output) = array;
- 	local(delimit) = array( 9, 10, 13, 32, 44); // \t\r\n ,
- 	local(temp) = 0;
- 	While((#temp := #ibytes-&gt;export8bits) != 93); // ]
- 		If(#delimit &gt;&gt; #temp);
- 			// Discard whitespace
- 		Else(#temp == 34); // &quot;
- 			#output-&gt;insert(json_consume_string(#ibytes));
- 		Else(#temp == 91); // [
- 			#output-&gt;insert(json_consume_array(#ibytes));
- 		Else(#temp == 123); // {
- 			#output-&gt;insert(json_consume_object(#ibytes));
- 		Else;
- 			#output-&gt;insert(json_consume_token(#ibytes, #temp));
- 			(#temp == 93) ? Loop_Abort;
- 		/If;
- 	/While;
- 	Return(#output);
- }
- 
- // Bil Corry fix
- define json_consume_object(ibytes::bytes)::map =&gt; {
- 	Local(&#39;output&#39; = map,
- 		&#39;delimit&#39; = array( 9, 10, 13, 32, 44), // \t\r\n ,
- 		&#39;temp&#39; = 0,
- 		&#39;key&#39; = null,
- 		&#39;val&#39; = null);
- 	While((#temp := #ibytes-&gt;export8bits) != 125); // }
- 		If(#delimit &gt;&gt; #temp);
- 			// Discard whitespace
- 		Else((#key !== null) &amp;&amp; (#temp == 34)); // &quot;
- 			#output-&gt;insert(#key = json_consume_string(#ibytes));
- 			#key = null;
- 		Else((#key !== null) &amp;&amp; (#temp == 91)); // [
- 			#output-&gt;insert(#key = json_consume_array(#ibytes));
- 			#key = null;
- 		Else((#key !== null) &amp;&amp; (#temp == 123)); // {
- 			#output-&gt;insert(#key = json_consume_object(#ibytes));
- 			#key = null;
- 		Else((#key !== null));
- 			#output-&gt;insert(#key = json_consume_token(#ibytes, #temp));
- 			#key = null;
- 		Else;
- 			#key = json_consume_string(#ibytes);
- 			while(#delimit &gt;&gt; (#temp := #ibytes-&gt;export8bits));
- 			/while;
- 			#temp != 58 ? Loop_Abort;
- 		/If;
- 	/While;
- 
- 	If((#output &gt;&gt; &#39;__jsonclass__&#39;) &amp;&amp; (#output-&gt;Find(&#39;__jsonclass__&#39;)-&gt;isa(&#39;array&#39;)) &amp;&amp; (#output-&gt;Find(&#39;__jsonclass__&#39;)-&gt;size &gt;= 2) &amp;&amp; (#output-&gt;Find(&#39;__jsonclass__&#39;)-&gt;First == &#39;deserialize&#39;));
- 		Return(#output-&gt;find(&#39;__jsonclass__&#39;)-&gt;Second-&gt;First);
- 	Else((#output &gt;&gt; &#39;native&#39;) &amp;&amp; (#output &gt;&gt; &#39;comment&#39;) &amp;&amp; (#output-&gt;find(&#39;comment&#39;) == &#39;http://www.lassosoft.com/json&#39;));
- 		Return(#output-&gt;find(&#39;native&#39;));
- 	/If;
- 	Return(#output);
- }
- 
- // Bil Corry fix + Ke fix
- define json_deserialize(ibytes::bytes)::any =&gt; {
- 	#ibytes-&gt;removeLeading(bom_utf8);
- 
- //============================================================================
- //	Reset marker on provided bytes
- 	#ibytes-&gt;marker = 0
- //............................................................................		
- 	
- 	Local(temp) = #ibytes-&gt;export8bits;
- 	If(#temp == 91); // [
- 		Return(json_consume_array(#ibytes));
- 	Else(#temp == 123); // {
- 		Return(json_consume_object(#ibytes));
- 	else(#temp == 34) // &quot;
- 		return json_consume_string(#ibytes)
- 	/If;
- }
- 
- define json_deserialize(s::string) =&gt; json_deserialize(bytes(#s))
- 
- /**! json_literal - This is a subclass of String used for JSON encoding.
- 
- 	A json_literal works exactly like a string, but will be inserted directly
- 	rather than being encoded into JSON. This allows JavaScript elements
- 	like functions to be inserted into JSON objects. This is most useful
- 	when the JSON object will be used within a JavaScript on the local page.
- 	[Map: &#39;fn&#39;=Literal(&#39;function(){ ...})] =&gt; {&#39;fn&#39;: function(){ ...}}
- **/
- define json_literal =&gt; type {
- 	parent string
- }
- 
- /**! json_object - This is a subclass of Map used for JSON encoding.
- 
- 	An object works exactly like a map, but when it is encoded into JSON all
- 	of the keys will be inserted literally. This makes it easy to create a
- 	JavaScript object without extraneous quote marks.
- 	Object(&#39;name&#39;=&#39;value&#39;) =&gt; {name: &quot;value&quot;}
- **/
- define json_object =&gt; type {
- 	parent map
- 	public onCreate(...) =&gt; ..onCreate(:#rest or (:))
- }
- 
- define json_rpccall(method::string, params=map, id=&#39;&#39;, host=&#39;&#39;) =&gt; {
- 	#id == &#39;&#39; ? #host = Lasso_UniqueID;
- 	#host == &#39;&#39; ? #host = &#39;http://localhost/lassoapps.8/rpc/rpc.lasso&#39;;
- 	Return(Decode_JSON(Include_URL(#host, -PostParams=Encode_JSON(Map(&#39;method&#39; = #method, &#39;params&#39; = #params, &#39;id&#39; = #id)))));
- }
- 
+indeedJobs lasso engineer
+ 2022 142
+officialBlogUrl http://www.lassosoft.com/Lasso-News
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Lasso_(programming_language)'>Wikipedia</a>:
- // Define type
- define bottles_of_beer =&gt; type {
- 
- 	// Define internal data 
- 	data private bottles = 99
- 
- 	// Define private methods
- 	private br =&gt; &#39;&lt;br/&gt;&#39;
- 	private s =&gt; .bottles != 1 ? &#39;s&#39; | &#39;&#39;
- 	
- 	// Generate lyrics when object represented as a string
- 	public asstring =&gt; {
- 
- 		local(out = &#39;&#39;)
- 	
- 		// Use Lasso query syntax to generate the lyrics
- 	
- 
- 		with n in 99 to 1 by -1 do {
- 			.bottles = #n
- 			#out +=  .bottles + &#39; bottle&#39; + .s + &#39; of beer on the wall, &#39; + .br
- 			#out +=  .bottles + &#39; bottle&#39; + .s + &#39; of beer; &#39; + .br
- 			.bottles--
- 			#out += &#39;Take one down, pass it around, &#39; + .br
- 			#out += .bottles + &#39; bottle&#39; + .s + &#39; of beer on the wall. &#39; + (.br * 2) 
- 		}
- 
- 		// Return result
- 		return #out
- 	}
- }
- 
- bottles_of_beer
+tiobe Lasso
 
-endColumns
+fileType text
+isOpenSource false
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 0
 
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ml.html applescript.html
-
-import ../footer.scroll
+semanticScholar 4
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2012|The Lasso Problem and Uniqueness|10.1214/13-EJS815|433|61|R. Tibshirani|e6676264d3af3604ee25f931aae78448b924fcf2
+ 2013|Efficient block-coordinate descent algorithms for the Group Lasso|10.1007/s12532-013-0051-x|177|15|Zhiwei Qin and K. Scheinberg and D. Goldfarb|07ec2f2a0bd383d4bc86c7292a98c1de6b8b75ee
+ 2013|A Dynamic Programming Algorithm for the Fused Lasso and L 0-Segmentation|10.1080/10618600.2012.681238|89|10|N. A. Johnson|0b49d72cc98f30f2cded046d98ebeae7789fc8ef
+ 2016|Algorithms for Fitting the Constrained Lasso|10.1080/10618600.2018.1473777|81|10|Brian R. Gaines and Juhyun Kim and Hua Zhou|8331af696e9f758928ed1b962d9efa160284b8ec

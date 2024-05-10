@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BHSL
+import ../measures/conceptPage.scroll
+id BHSL
+appeared 1966
+type pl
+reference https://semanticscholar.org/paper/2585e5a917cfd81d6c52f6f240def5101cd092ec
+country United States
+originCommunity Electronic Associates Inc
 
-title BHSL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3003
 
-html
- <a class="trueBaseThemePreviousItem" href="bgraf2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bigloo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bhsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bhsl" class="material-symbols-outlined">edit</a></div>
-
-* BHSL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #3519 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 58 Years Old
-
-* 
-
-- BHSL first developed in <a href="../lists/originCommunities.html#electronicAssociatesInc">Electronic Associates Inc</a>
-- BHSL on HOPL
- https://hopl.info/showlanguage.prx?exp=3003
-- Read more about BHSL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2585e5a917cfd81d6c52f6f240def5101cd092ec 1.
-
-<br>
-
-endColumns
-
-keyboardNav bgraf2.html bigloo.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

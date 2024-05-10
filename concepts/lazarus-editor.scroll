@@ -1,40 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lazarus-editor
+import ../measures/conceptPage.scroll
+id lazarus-editor
+appeared 2012
+type editor
+website https://www.lazarus-ide.org/
+country United States
+originCommunity https://wiki.lazarus.freepascal.org/History
 
-title lazarus-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lanai.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="listdown.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lazarus-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.lazarus-ide.org/" class="material-symbols-outlined">home</a> <a href="https://sourceforge.net/projects/lazarus/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lazarus-editor" class="material-symbols-outlined">edit</a></div>
-
-* lazarus-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://sourceforge.net/projects/lazarus/
-
-dashboard
- #3278 on PLDB
- 12 Years Old
-
-* 
-
-- lazarus-editor website
- https://www.lazarus-ide.org/
-- lazarus-editor first developed in <a href="../lists/originCommunities.html#httpsWikiLazarusFreepascalOrgHistory">https://wiki.lazarus.freepascal.org/History</a>
-
-<br>
-
-endColumns
-
-keyboardNav lanai.html listdown.html
-
-import ../footer.scroll
+gitRepo https://sourceforge.net/projects/lazarus/

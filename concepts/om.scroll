@@ -1,43 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Om
+import ../measures/conceptPage.scroll
+id Om
+appeared 2012
+type pl
+creators Jason Erb
+website https://www.om-language.org/
+country Canada
+originCommunity https://github.com/sparist/Om/issues
+domainName om-language.org
 
-title Om - Programming language
- hidden
+writtenIn cpp
 
-html
- <a class="trueBaseThemePreviousItem" href="litescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aadl.html">&gt;</a>
+githubRepo https://github.com/sparist/Om
+ firstCommit 2012
+ stars 145
+ forks 7
+ subscribers 15
+ created 2012
+ updated 2022
+ description The Om programming language.
+ issues 11
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/om.pldb
+repoStats
+ firstCommit 2012
+ commits 678
+ committers 2
+ files 277
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.om-language.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/sparist/Om" class="material-symbols-outlined">code</a> <a href="/edit.html?id=om" class="material-symbols-outlined">edit</a></div>
-
-* Om is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Jason Erb.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#jasonErb Jason Erb
-
-codeWithHeader Source code:
- git clone https://github.com/sparist/Om
-
-dashboard
- #1802 <span title="TotalRank: 2332 Jobs: 103 Users: 1243 Facts: 1450 Links: 986">on PLDB</span>
- 12 Years Old
-
-* The Om programming language.
-
-- Om website
- https://www.om-language.org/
-- Om is developed on <a href="https://github.com/sparist/Om">GitHub</a> and has 145 stars
-- Om first developed in <a href="../lists/originCommunities.html#httpsGithubComSparistOmIssues">https://github.com/sparist/Om/issues</a>
-- Om is written in <a href="cpp.html">C++</a>
-
-<br>
-
-endColumns
-
-keyboardNav litescript.html aadl.html
-
-import ../footer.scroll
+isOpenSource true

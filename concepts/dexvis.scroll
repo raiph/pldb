@@ -1,45 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dexvis
+import ../measures/conceptPage.scroll
+id dexvis
+appeared 2012
+type application
+creators Patrick Martin
+conceptDescription Dex : The Data Explorer -- A data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishing web visualizations.
+website http://dexvis.net/
+reference https://dexvis.wordpress.com/2012/11/19/261/
+country United States
+originCommunity https://github.com/PatMartin
+domainName dexvis.net
+ registered 2016
 
-title dexvis - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="extensible-embeddable-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="avi-synth.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dexvis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://dexvis.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/PatMartin/Dex" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dexvis" class="material-symbols-outlined">edit</a></div>
-
-* dexvis is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2012 by Patrick Martin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#patrickMartin Patrick Martin
-
-codeWithHeader Source code:
- git clone https://github.com/PatMartin/Dex
-
-dashboard
- #1131 on PLDB
- 12 Years Old
-
-* Dex : The Data Explorer -- A data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishing web visualizations.
-
-- dexvis website
- http://dexvis.net/
-- dexvis is developed on <a href="https://github.com/PatMartin/Dex">GitHub</a> and has 1,281 stars
-- dexvis first developed in <a href="../lists/originCommunities.html#httpsGithubComPatMartin">https://github.com/PatMartin</a>
-- <a href="http://dexvis.net/">dexvis.net</a> was registered in 2016
-- Read more about dexvis on the web: 1.
- https://dexvis.wordpress.com/2012/11/19/261/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav extensible-embeddable-language.html avi-synth.html
-
-import ../footer.scroll
+githubRepo https://github.com/PatMartin/Dex
+ firstCommit 2016
+ stars 1281
+ forks 314
+ subscribers 127
+ created 2016
+ updated 2022
+ description Dex : The Data Explorer -- A data visualization tool written in Java/Groovy/JavaFX capable of powerful ETL and publishing web visualizations.
+ issues 4

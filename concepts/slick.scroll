@@ -1,47 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Slick
+import ../measures/conceptPage.scroll
+id Slick
+appeared 2020
+type pl
+creators Kye W. Shi
+country United States
+originCommunity https://github.com/kwshi/slick/issues
 
-title Slick - Programming language
- hidden
+githubRepo https://github.com/kwshi/slick
+ firstCommit 2020
+ stars 0
+ forks 0
+ subscribers 2
+ created 2020
+ updated 2021
+ description cool language thing
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="plot-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="4th-dimension.html">&gt;</a>
+repoStats
+ firstCommit 2020
+ commits 231
+ committers 5
+ files 47
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slick.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/slick" class="material-symbols-outlined">terminal</a> <a href="https://github.com/kwshi/slick" class="material-symbols-outlined">code</a> <a href="/edit.html?id=slick" class="material-symbols-outlined">edit</a></div>
-
-* Slick is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Kye W. Shi.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#kyeWShi Kye W. Shi
-
-codeWithHeader Source code:
- git clone https://github.com/kwshi/slick
-
-dashboard
- #1966 <span title="TotalRank: 2470 Jobs: 103 Users: 2442 Facts: 1381 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://riju.codes/slick">Riju</a>
-
-* cool language thing
-
-- Slick is developed on <a href="https://github.com/kwshi/slick">GitHub</a> and has 0 stars
-- Slick first developed in <a href="../lists/originCommunities.html#httpsGithubComKwshiSlickIssues">https://github.com/kwshi/slick/issues</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/slick'>Riju</a>:
- def main:
-   print &quot;Hello, world!&quot;
- 
-
-endColumns
-
-keyboardNav plot-lang.html 4th-dimension.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/slick
+ example
+  def main:
+    print "Hello, world!"
+  

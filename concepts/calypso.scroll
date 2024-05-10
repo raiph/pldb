@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Calypso
+import ../measures/conceptPage.scroll
+id Calypso
+appeared 2020
+type pl
+creators ThePuzzlemaker
+website https://calypso-lang.github.io/
+country Unknown
+originCommunity teamisotope
 
-title Calypso - Programming language
- hidden
+githubRepo https://github.com/calypso-lang/calypso
+ firstCommit 2020
+ stars 57
+ forks 4
+ subscribers 3
+ created 2020
+ updated 2022
+ description Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
+ issues 8
 
-html
- <a class="trueBaseThemePreviousItem" href="tom.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zigzag.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/calypso.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://calypso-lang.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/calypso-lang/calypso" class="material-symbols-outlined">code</a> <a href="/edit.html?id=calypso" class="material-symbols-outlined">edit</a></div>
-
-* Calypso is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by ThePuzzlemaker.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#thePuzzlemaker ThePuzzlemaker
-
-codeWithHeader Source code:
- git clone https://github.com/calypso-lang/calypso
-
-dashboard
- #2213 <span title="TotalRank: 2731 Jobs: 103 Users: 1642 Facts: 1669 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
-
-- Calypso website
- https://calypso-lang.github.io/
-- Calypso is developed on <a href="https://github.com/calypso-lang/calypso">GitHub</a> and has 57 stars
-- Calypso first developed in <a href="../lists/originCommunities.html#teamisotope">teamisotope</a>
-
-<br>
-
-endColumns
-
-keyboardNav tom.html zigzag.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 527
+ committers 8
+ files 143

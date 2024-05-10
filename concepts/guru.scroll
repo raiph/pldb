@@ -1,45 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title guru
+import ../measures/conceptPage.scroll
+id guru
+appeared 2009
+type pl
+conceptDescription  OpTT has been implemented in the GURU verified programming language, which includes a type- and proof-checker, and a compiler to efficient C code. In addition to the core OpTT, GURU implements a number of extensions, including ones for verification of programs using mutable state and input/output. This paper gives an introduction to verified programming in GURU.
+reference http://homepage.divms.uiowa.edu/~astump/papers/plpv09.pdf
+country United States and Spain
+originCommunity The University of Iowa && Washington University && Universitat Polit`ecnica de Catalunya
 
-title guru - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="grin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="iikuse.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/guru.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=guru" class="material-symbols-outlined">edit</a></div>
-
-* guru is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2726 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 15 Years Old
-
-*  OpTT has been implemented in the GURU verified programming language, which includes a type- and proof-checker, and a compiler to efficient C code. In addition to the core OpTT, GURU implements a number of extensions, including ones for verification of programs using mutable state and input/output. This paper gives an introduction to verified programming in GURU.
-
-- guru first developed in <a href="../lists/originCommunities.html#theUniversityOfIowa">The University of Iowa</a> and <a href="../lists/originCommunities.html#washingtonUniversity">Washington University</a> and <a href="../lists/originCommunities.html#universitatPolitEcnicaDeCatalunya">Universitat Polit`ecnica de Catalunya</a>
-- Read more about guru on the web: 1.
- http://homepage.divms.uiowa.edu/~astump/papers/plpv09.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Inductive trie : Fun(A:type).type :=
- trie_none : Fun(A:type).&lt;trie A&gt;
- | trie_exact : Fun(A:type)(s:string)(a:A).&lt;trie A&gt;
- | trie_next : Fun(A:type)(o:&lt;option A&gt;)
- (unique l:&lt;charvec &lt;trie A&gt;&gt;).
- &lt;trie A&gt;.
+ trie_none : Fun(A:type).<trie A>
+ | trie_exact : Fun(A:type)(s:string)(a:A).<trie A>
+ | trie_next : Fun(A:type)(o:<option A>)
+ (unique l:<charvec <trie A>>).
+ <trie A>.
 
-endColumns
-
-keyboardNav grin.html iikuse.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Taijilang
+import ../measures/conceptPage.scroll
+id Taijilang
+appeared 2014
+type pl
+creators Simeon Chaos
+website https://github.com/taijiweb/taijilang
+country Unknown
 
-title Taijilang - Programming language
- hidden
+writtenIn javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="glush.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ralph.html">&gt;</a>
+githubRepo https://github.com/taijiweb/taijilang
+ stars 64
+ forks 7
+ subscribers 13
+ created 2014
+ updated 2015
+ description a customizable and extensible language with dynamic parser and meta compilation.
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/taijilang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/taijiweb/taijilang" class="material-symbols-outlined">home</a> <a href="https://github.com/taijiweb/taijilang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=taijilang" class="material-symbols-outlined">edit</a></div>
-
-* Taijilang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Simeon Chaos.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#simeonChaos Simeon Chaos
-
-codeWithHeader Source code:
- git clone https://github.com/taijiweb/taijilang
-
-dashboard
- #2126 <span title="TotalRank: 2629 Jobs: 103 Users: 1540 Facts: 1890 Links: 986">on PLDB</span>
- 10 Years Old
-
-* a customizable and extensible language with dynamic parser and meta compilation.
-
-- Taijilang website
- https://github.com/taijiweb/taijilang
-- Taijilang is developed on <a href="https://github.com/taijiweb/taijilang">GitHub</a> and has 64 stars
-- Taijilang is written in <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav glush.html ralph.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 96
+ committers 2
+ files 176

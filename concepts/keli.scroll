@@ -1,44 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title keli
+import ../measures/conceptPage.scroll
+id keli
+appeared 2018
+type pl
+creators Wong Jia Hau
+website https://keli-language.gitbook.io/doc/specification/
+reference https://news.ycombinator.com/item?id=24331635
+country Malaysia and Germany
+originCommunity https://github.com/KeliLanguage
 
-title keli - Programming language
- hidden
+githubRepo https://github.com/KeliLanguage/compiler
+ firstCommit 2018
+ stars 167
+ forks 2
+ subscribers 8
+ created 2018
+ updated 2022
+ description The compiler for Keli
+ issues 16
 
-html
- <a class="trueBaseThemePreviousItem" href="ttcn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="isbl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/keli.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://keli-language.gitbook.io/doc/specification/" class="material-symbols-outlined">home</a> <a href="https://github.com/KeliLanguage/compiler" class="material-symbols-outlined">code</a> <a href="/edit.html?id=keli" class="material-symbols-outlined">edit</a></div>
-
-* keli is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Wong Jia Hau.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#wongJiaHau Wong Jia Hau
-
-codeWithHeader Source code:
- git clone https://github.com/KeliLanguage/compiler
-
-dashboard
- #1794 <span title="TotalRank: 2315 Jobs: 103 Users: 1226 Facts: 1591 Links: 986">on PLDB</span>
- 6 Years Old
-
-* The compiler for Keli
-
-- keli website
- https://keli-language.gitbook.io/doc/specification/
-- keli is developed on <a href="https://github.com/KeliLanguage/compiler">GitHub</a> and has 167 stars
-- keli first developed in <a href="../lists/originCommunities.html#httpsGithubComKeliLanguage">https://github.com/KeliLanguage</a>
-- Read more about keli on the web: 1.
- https://news.ycombinator.com/item?id=24331635 1.
-
-<br>
-
-endColumns
-
-keyboardNav ttcn.html isbl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 224
+ committers 3
+ files 227

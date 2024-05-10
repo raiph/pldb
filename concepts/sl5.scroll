@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SL5
+import ../measures/conceptPage.scroll
+id SL5
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/2393fa7f1575958f9877a42ba1481cb31b13eaf5
+country United States
+originCommunity Yale University
 
-title SL5 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=783
 
-html
- <a class="trueBaseThemePreviousItem" href="sketchpad-iii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="slam-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sl5.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sl5" class="material-symbols-outlined">edit</a></div>
-
-* SL5 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #4025 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- SL5 first developed in <a href="../lists/originCommunities.html#yaleUniversity">Yale University</a>
-- SL5 on HOPL
- https://hopl.info/showlanguage.prx?exp=783
-- Read more about SL5 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2393fa7f1575958f9877a42ba1481cb31b13eaf5 1.
-
-<br>
-
-endColumns
-
-keyboardNav sketchpad-iii.html slam-ii.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

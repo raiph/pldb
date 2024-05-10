@@ -1,38 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TAO
+import ../measures/conceptPage.scroll
+id TAO
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/381ddea5aaa085d5021140af4bc7fe948837f546
 
-title TAO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1526
 
-html
- <a class="trueBaseThemePreviousItem" href="stoical.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="verse.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tao.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tao" class="material-symbols-outlined">edit</a></div>
-
-* TAO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3139 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- TAO on HOPL
- https://hopl.info/showlanguage.prx?exp=1526
-- Read more about TAO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/381ddea5aaa085d5021140af4bc7fe948837f546 1.
-
-<br>
-
-endColumns
-
-keyboardNav stoical.html verse.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2012|lulu.com|Tao Te Programming|Burns, Patrick|9781291130454
+ 2004|Addison-Wesley Professional|Tao of Network Security Monitoring, The: Beyond Intrusion Detection|Bejtlich, Richard|9780321246776

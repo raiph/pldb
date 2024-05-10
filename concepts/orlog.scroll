@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Orlog
+import ../measures/conceptPage.scroll
+id Orlog
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/5d0ba04059cdc5cf7f0f6f176e49885cd6675c84
+country United States and Canada
+originCommunity University of Idaho && University of British Columbia - Vancouver
 
-title Orlog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7155
 
-html
- <a class="trueBaseThemePreviousItem" href="oregano.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="osiris.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/orlog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=orlog" class="material-symbols-outlined">edit</a></div>
-
-* Orlog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3895 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Orlog first developed in <a href="../lists/originCommunities.html#universityOfIdaho">University of Idaho</a> and <a href="../lists/originCommunities.html#universityOfBritishColumbiaVancouver">University of British Columbia - Vancouver</a>
-- Orlog on HOPL
- https://hopl.info/showlanguage.prx?exp=7155
-- Read more about Orlog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5d0ba04059cdc5cf7f0f6f176e49885cd6675c84 1.
-
-<br>
-
-endColumns
-
-keyboardNav oregano.html osiris.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SQURL
+import ../measures/conceptPage.scroll
+id SQURL
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/11dbc983e5c48d88c62a91b4493db16b27145b0d
+country United States
+originCommunity Texas Christian University
 
-title SQURL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6252
 
-html
- <a class="trueBaseThemePreviousItem" href="sps.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stage2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/squrl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=squrl" class="material-symbols-outlined">edit</a></div>
-
-* SQURL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #4042 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- SQURL first developed in <a href="../lists/originCommunities.html#texasChristianUniversity">Texas Christian University</a>
-- SQURL on HOPL
- https://hopl.info/showlanguage.prx?exp=6252
-- Read more about SQURL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/11dbc983e5c48d88c62a91b4493db16b27145b0d 1.
-
-<br>
-
-endColumns
-
-keyboardNav sps.html stage2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

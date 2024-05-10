@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GKS
+import ../measures/conceptPage.scroll
+id GKS
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/4bbe9b7e85b0f714198a10e107958148e955e61b
+country United States
+originCommunity University of Michigan
 
-title GKS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2065
 
-html
- <a class="trueBaseThemePreviousItem" href="gitignore.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glide.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gks.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gks" class="material-symbols-outlined">edit</a></div>
-
-* GKS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3693 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- GKS first developed in <a href="../lists/originCommunities.html#universityOfMichigan">University of Michigan</a>
-- GKS on HOPL
- https://hopl.info/showlanguage.prx?exp=2065
-- Read more about GKS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4bbe9b7e85b0f714198a10e107958148e955e61b 1.
-
-<br>
-
-endColumns
-
-keyboardNav gitignore.html glide.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,41 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title INQUIRE
+import ../measures/conceptPage.scroll
+id INQUIRE
+appeared 1969
+type queryLanguage
+reference https://www.ibm.com/docs/en/txseries/9.1?topic=SSAL2T_9.1.0/com.ibm.cics.tx.doc/reference/r_inquire_program.htm
+reference https://www.ibm.com/support/knowledgecenter/en/SSGMGV_3.1.0/com.ibm.cics.ts31.doc/dfha8/dfha8db.htm
+reference https://www.ibm.com/support/pages/history-cics-transaction-server
+country United States
+originCommunity IBM
 
-title INQUIRE - Query language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4525
 
-html
- <a class="trueBaseThemePreviousItem" href="gnu-rtl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mcleyvier-command-language.html">&gt;</a>
+wordRank 8951
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/inquire.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=inquire" class="material-symbols-outlined">edit</a></div>
-
-* INQUIRE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #3031 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- INQUIRE first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- INQUIRE on HOPL
- https://hopl.info/showlanguage.prx?exp=4525
-- Read more about INQUIRE on the web: 1. 2. 3.
- https://www.ibm.com/docs/en/txseries/9.1?topic=SSAL2T_9.1.0/com.ibm.cics.tx.doc/reference/r_inquire_program.htm 1.
- https://www.ibm.com/support/knowledgecenter/en/SSGMGV_3.1.0/com.ibm.cics.ts31.doc/dfha8/dfha8db.htm 2.
- https://www.ibm.com/support/pages/history-cics-transaction-server 3.
-
-<br>
-
-endColumns
-
-keyboardNav gnu-rtl.html mcleyvier-command-language.html
-
-import ../footer.scroll
+isbndb 0

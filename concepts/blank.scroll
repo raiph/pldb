@@ -1,42 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title blank
+import ../measures/conceptPage.scroll
+id blank
+appeared 2018
+type esolang
+website https://esolangs.org/wiki/Blank
+country Poland
 
-title blank - Esoteric programming language
- hidden
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 16814993|Show HN: Blank – A stack-based programming language I wrote 21 years ago|2018-04-11 20:07:14 UTC|1523477234|aturley|11|73
 
-html
- <a class="trueBaseThemePreviousItem" href="b3-ir.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blueprints.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blank.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://esolangs.org/wiki/Blank" class="material-symbols-outlined">home</a> <a href="/edit.html?id=blank" class="material-symbols-outlined">edit</a></div>
-
-* blank is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2809 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- blank website
- https://esolangs.org/wiki/Blank
-
-<br>
-
-endColumns
-
-## HackerNews discussions of blank
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Blank – A stack-based programming language I wrote 21 years ago|https://news.ycombinator.com/item?id=16814993|04/11/2018|73|11
-
-keyboardNav b3-ir.html blueprints.html
-
-import ../footer.scroll
+isbndb 0

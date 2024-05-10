@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PICTOL
+import ../measures/conceptPage.scroll
+id PICTOL
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/9763fc35b3dec7962a862dd6798a0140b4987e7c
+country United States
+originCommunity Georgetown University Medical Center
 
-title PICTOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7362
 
-html
- <a class="trueBaseThemePreviousItem" href="pi-calculus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="picturebalm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pictol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pictol" class="material-symbols-outlined">edit</a></div>
-
-* PICTOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3934 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- PICTOL first developed in <a href="../lists/originCommunities.html#georgetownUniversityMedicalCenter">Georgetown University Medical Center</a>
-- PICTOL on HOPL
- https://hopl.info/showlanguage.prx?exp=7362
-- Read more about PICTOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9763fc35b3dec7962a862dd6798a0140b4987e7c 1.
-
-<br>
-
-endColumns
-
-keyboardNav pi-calculus.html picturebalm.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

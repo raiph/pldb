@@ -1,65 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title baysick
+import ../measures/conceptPage.scroll
+id baysick
+appeared 2009
+type esolang
+creators Michael Fogus
+website http://blog.fogus.me/2009/03/26/baysick-a-scala-dsl-implementing-basic/
+country United States
+originCommunity Cognitect, Inc
 
-title baysick - Esoteric programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="struql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="balanced-ternary-notation.html">&gt;</a>
+printToken PRINT
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/baysick.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://blog.fogus.me/2009/03/26/baysick-a-scala-dsl-implementing-basic/" class="material-symbols-outlined">home</a> <a href="https://github.com/fogus/baysick" class="material-symbols-outlined">code</a> <a href="https://twitter.com/fogus"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=baysick" class="material-symbols-outlined">edit</a></div>
-
-* baysick is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2009 by Michael Fogus.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#michaelFogus Michael Fogus
-
-codeWithHeader Source code:
- git clone https://github.com/fogus/baysick
-
-dashboard
- #1434 <span title="TotalRank: 1954 Jobs: 103 Users: 865 Facts: 995 Links: 986">on PLDB</span>
- 15 Years Old
-
-* An embedded Insane-specific Language for Scala implementing the BASIC programming language
-
-- baysick website
- http://blog.fogus.me/2009/03/26/baysick-a-scala-dsl-implementing-basic/
-- baysick is developed on <a href="https://github.com/fogus/baysick">GitHub</a> and has 244 stars
-- baysick first developed in <a href="../lists/originCommunities.html#cognitectInc">Cognitect, Inc</a>
-- baysick on Twitter
- https://twitter.com/fogus
-
-<br>
-
-codeWithHeader Example from the web:
+example
  object SquareRoot extends Baysick {
    def main(args:Array[String]) = {
-     10 PRINT &quot;Enter a number&quot;
-     20 INPUT &#39;n
-     30 PRINT &quot;Square root of &quot; % &quot;&#39;n is &quot; % SQRT(&#39;n)
+     10 PRINT "Enter a number"
+     20 INPUT 'n
+     30 PRINT "Square root of " % "'n is " % SQRT('n)
      40 END
      RUN
    }
  }
 
-endColumns
+githubRepo https://github.com/fogus/baysick
+ firstCommit 2009
+ stars 244
+ forks 46
+ subscribers 15
+ created 2009
+ updated 2022
+ description An embedded Insane-specific Language for Scala implementing the BASIC programming language
+ issues 5
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2009
+ commits 126
+ committers 6
+ files 8
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token PRINT
-  Example
-
-keyboardNav struql.html balanced-ternary-notation.html
-
-import ../footer.scroll
+twitter https://twitter.com/fogus

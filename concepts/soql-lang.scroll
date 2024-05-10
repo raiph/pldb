@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Socrata Query Language
-
-title Socrata Query Language - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="simplescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="status-quo-script.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/soql-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=soql-lang" class="material-symbols-outlined">edit</a></div>
-
-* Socrata Query Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #3213 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 12 Years Old
-
-* 
-
-- Socrata Query Language first developed in <a href="../lists/originCommunities.html#socrataInc">Socrata, Inc</a>
-- Read more about Socrata Query Language on the web: 1.
- https://dev.socrata.com/docs/queries/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav simplescript.html status-quo-script.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Socrata Query Language
+appeared 2012
+type queryLanguage
+reference https://dev.socrata.com/docs/queries/
+country United States
+originCommunity Socrata, Inc

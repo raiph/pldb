@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kilo-lisp
+import ../measures/conceptPage.scroll
+id kilo-lisp
+appeared 2019
+type pl
+conceptDescription Kilo LISP is a small interpreter for purely symbolic LISP. Its source consists of 25K bytes of comprehensible code (20KB C, 5KB LISP) and it runs in 64K bytes of memory. None the less it offers: lexical scoping, tail call elimination, macros, quasiquotation, variable-argument functions, constant-space garbage collection, image files, keyboard interrupt handling
+website https://www.t3x.org/klisp/index.html
+reference https://news.ycombinator.com/item?id=19415735
+aka klisp
+country Germany
+originCommunity https://www.t3x.org
 
-title kilo-lisp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="jmespath.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lasp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kilo-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.t3x.org/klisp/index.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=kilo-lisp" class="material-symbols-outlined">edit</a></div>
-
-* kilo-lisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #2958 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Kilo LISP is a small interpreter for purely symbolic LISP. Its source consists of 25K bytes of comprehensible code (20KB C, 5KB LISP) and it runs in 64K bytes of memory. None the less it offers: lexical scoping, tail call elimination, macros, quasiquotation, variable-argument functions, constant-space garbage collection, image files, keyboard interrupt handling
-
-- kilo-lisp website
- https://www.t3x.org/klisp/index.html
-- kilo-lisp first developed in <a href="../lists/originCommunities.html#httpsWwwT3XOrg">https://www.t3x.org</a>
-- Read more about kilo-lisp on the web: 1.
- https://news.ycombinator.com/item?id=19415735 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ((a . b) . c)
  (a . (b . c))
  ((a . b) . (c . d))
-
-endColumns
-
-keyboardNav jmespath.html lasp.html
-
-import ../footer.scroll

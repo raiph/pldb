@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LRLTRAN
+import ../measures/conceptPage.scroll
+id LRLTRAN
+appeared 1968
+type pl
+reference https://semanticscholar.org/paper/f399c9d4756b2e82e3de31b267b8bacb00b4c590
+country United States
+originCommunity University of California,Livermore
 
-title LRLTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=429
 
-html
- <a class="trueBaseThemePreviousItem" href="lpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lucinda.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lrltran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lrltran" class="material-symbols-outlined">edit</a></div>
-
-* LRLTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #3797 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- LRLTRAN first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaLivermore">University of California,Livermore</a>
-- LRLTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=429
-- Read more about LRLTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f399c9d4756b2e82e3de31b267b8bacb00b4c590 1.
-
-<br>
-
-endColumns
-
-keyboardNav lpl.html lucinda.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,49 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Djot
+import ../measures/conceptPage.scroll
+id Djot
+appeared 2022
+type textMarkup
+creators John MacFarlane
+conceptDescription  A light markup language
+website https://djot.net
+webRepl https://djot.net/playground/
+documentation https://github.com/jgm/djot/blob/main/README.md
+reference https://htmlpreview.github.io/?https://github.com/jgm/djot/blob/master/doc/syntax.html
+fileExtensions dj
+country United States
+originCommunity https://github.com/jgm/djot/issues
+domainName djot.net
+usesSemanticVersioning true
+versions
+ 2022 0.2.0
 
-title Djot - Text markup language
- hidden
+writtenIn lua
+influencedBy commonmark
+successorOf commonmark
 
-html
- <a class="trueBaseThemePreviousItem" href="ebnf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="asmjs.html">&gt;</a>
+multiLineCommentTokens {% %}
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/djot.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://djot.net" class="material-symbols-outlined">home</a> <a href="https://djot.net/playground/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/jgm/djot" class="material-symbols-outlined">code</a> <a href="https://github.com/jgm/djot/blob/main/README.md" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=djot" class="material-symbols-outlined">edit</a></div>
-
-* Djot is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2022 by John MacFarlane.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#johnMacFarlane John MacFarlane
-
-codeWithHeader Source code:
- git clone https://github.com/jgm/djot
-
-dashboard
- #482 <span title="TotalRank: 1014 Jobs: 103 Users: 604 Facts: 307 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Try now: <a href="https://djot.net/playground/">Web</a>
-
-*  A light markup language
-
-- Djot website
- https://djot.net
-- Djot is developed on <a href="https://github.com/jgm/djot">GitHub</a> and has 773 stars
-- Djot docs
- https://github.com/jgm/djot/blob/main/README.md
-- Djot first developed in <a href="../lists/originCommunities.html#httpsGithubComJgmDjotIssues">https://github.com/jgm/djot/issues</a>
-- file extensions for Djot include dj
-- Djot is written in <a href="lua.html">Lua</a>
-- Read more about Djot on the web: 1.
- https://htmlpreview.github.io/?https://github.com/jgm/djot/blob/master/doc/syntax.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  _italic_
  *bold*
  `code`
@@ -58,7 +37,7 @@ codeWithHeader Example from the web:
  
  Start a new paragraph with a blank line.
  
- &gt; A blockquote
+ > A blockquote
  
  {% look like this
  and can span multiple lines %}
@@ -81,12 +60,12 @@ codeWithHeader Example from the web:
  
  ```myLang
  func say-hello(nm) {
-     print(&quot;hello ${nm}!&quot;);
+     print("hello ${nm}!");
  }
  ```
  
  Links:
- &lt;https://example.com&gt;
+ <https://example.com>
  [read more](https://example.com)
  [read this too][foo bar]
  [one more link][]
@@ -107,8 +86,20 @@ codeWithHeader Example from the web:
  | orange | medium | orange |
  | grapefruit | large | yellow or pink |
 
-endColumns
+githubRepo https://github.com/jgm/djot
+ firstCommit 2022
+ stars 773
+ forks 25
+ subscribers 20
+ created 2022
+ updated 2022
+ description A light markup language
+ issues 58
 
-keyboardNav ebnf.html asmjs.html
+repoStats
+ firstCommit 2022
+ commits 470
+ committers 19
+ files 16
 
-import ../footer.scroll
+isOpenSource true

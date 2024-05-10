@@ -1,42 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title txr
+import ../measures/conceptPage.scroll
+id txr
+appeared 2009
+type pl
+creators Kaz Kylheku
+conceptDescription Programming Language for Convenient Data Munging
+website http://www.nongnu.org/txr/
 
-title txr - Programming language
- hidden
+hasComments true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="uxf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zimpl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/txr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.nongnu.org/txr/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=txr" class="material-symbols-outlined">edit</a></div>
-
-* txr is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Kaz Kylheku.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#kazKylheku Kaz Kylheku
-
-dashboard
- #1278 <span title="TotalRank: 1809 Jobs: 103 Users: 2442 Facts: 720 Links: 986">on PLDB</span>
- 15 Years Old
-
-* Programming Language for Convenient Data Munging
-
-- txr website
- http://www.nongnu.org/txr/
-- Explore txr snippets on <a href="http://www.rosettacode.org/wiki/Category:TXR">Rosetta Code</a>
-
-<br>
-
-codeWithHeader Example from the web:
- @(bind special-words (&quot;arch.&quot; &quot;var.&quot; &quot;ver.&quot; &quot;anci.&quot; &quot;fam.&quot;))
+example
+ @(bind special-words ("arch." "var." "ver." "anci." "fam."))
  @(bind ahash @(hash :equal-based))
  @(repeat)
  @id @@ @alpha @@ @animal @@ @words
- @  (rebind words @(split-str words &quot; &quot;))
+ @  (rebind words @(split-str words " "))
  @  (bind record (id alpha animal words))
  @  (do (push record [ahash alpha]))
  @(end)
@@ -46,7 +24,7 @@ codeWithHeader Example from the web:
       (let ((histogram [group-reduce (hash)
                                      third (do inc @1)
                                      recs 0]))
-       [sort recs &gt; [chain third histogram]]))
+       [sort recs > [chain third histogram]]))
  
     (dohash (key records ahash)
       (let (contains does-not combined)
@@ -63,29 +41,9 @@ codeWithHeader Example from the web:
  @(output)
  @  (repeat)
  @    (repeat)
- @(rep)@{sorted-rec-groups} @@ @(last)@{sorted-rec-groups &quot; &quot;}@(end)
+ @(rep)@{sorted-rec-groups} @@ @(last)@{sorted-rec-groups " "}@(end)
  @    (end)
  @  (end)
  @(end)
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav uxf.html zimpl.html
-
-import ../footer.scroll
+rosettaCode http://www.rosettacode.org/wiki/Category:TXR

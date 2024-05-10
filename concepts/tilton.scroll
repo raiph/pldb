@@ -1,43 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tilton
+import ../measures/conceptPage.scroll
+id tilton
+appeared 2000
+type pl
+creators Douglas Crockford
+website https://www.crockford.com/tilton/tilton.html
+reference https://www.crockford.com/tilton.html
 
-title tilton - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="thorn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="typedefs.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tilton.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.crockford.com/tilton/tilton.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tilton" class="material-symbols-outlined">edit</a></div>
-
-* tilton is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000 by Douglas Crockford.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#douglasCrockford Douglas Crockford
-
-dashboard
- #2848 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- tilton website
- https://www.crockford.com/tilton/tilton.html
-- Read more about tilton on the web: 1.
- https://www.crockford.com/tilton.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;~set~year~2000~&gt;
- &lt;~get~year~&gt;
-
-endColumns
-
-keyboardNav thorn.html typedefs.html
-
-import ../footer.scroll
+example
+ <~set~year~2000~>
+ <~get~year~>

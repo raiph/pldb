@@ -1,37 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Linker Script
+import ../measures/conceptPage.scroll
+id Linker Script
+appeared 1991
+type application
+conceptDescription ld combines a number of object and archive files, relocates their data and ties up symbol references. Usually the last step in compiling a program is to run ld. ld accepts Linker Command Language files written in a superset of AT&T’s Link Editor Command Language syntax, to provide explicit and total control over the linking process.
+reference https://www.eecs.umich.edu/courses/eecs373/readings/Linker.pdf
+country United States
+originCommunity Red Hat Inc && Free Software Foundation, Inc
 
-title Linker Script - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xsharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jinx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linker-script.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=linker-script" class="material-symbols-outlined">edit</a></div>
-
-* Linker Script is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #1963 on PLDB
- 33 Years Old
-
-* ld combines a number of object and archive files, relocates their data and ties up symbol references. Usually the last step in compiling a program is to run ld. ld accepts Linker Command Language files written in a superset of AT&T’s Link Editor Command Language syntax, to provide explicit and total control over the linking process.
-
-- Linker Script first developed in <a href="../lists/originCommunities.html#redHatInc">Red Hat Inc</a> and <a href="../lists/originCommunities.html#freeSoftwareFoundationInc">Free Software Foundation, Inc</a>
-- file extensions for Linker Script include ld, lds and x
-- Read more about Linker Script on the web: 1.
- https://www.eecs.umich.edu/courses/eecs373/readings/Linker.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  /*
  *  link.ld
  */
@@ -45,8 +21,13 @@ codeWithHeader Example from the web:
     .bss  : { *(.bss)  }
   }
 
-endColumns
+githubLanguage Linker Script
+ fileExtensions ld lds x
+ trendingProjectsCount 0
+ type data
+ filenames ld.script
+ aceMode text
+ tmScope none
 
-keyboardNav xsharp.html jinx.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

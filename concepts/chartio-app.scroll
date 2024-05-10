@@ -1,42 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chartio-app
+import ../measures/conceptPage.scroll
+id chartio-app
+appeared 2010
+type application
+website https://chartio.com/
+reference https://www.crunchbase.com/organization/chart-io
+country United States
+originCommunity chart-io
+domainName chartio.com
+ registered 2010
+ awisRank
+  2022 26655
 
-title chartio-app - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="c-for-all.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chocolatey-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chartio-app.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://chartio.com/" class="material-symbols-outlined">home</a> <a href="https://twitter.com/chartio"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=chartio-app" class="material-symbols-outlined">edit</a></div>
-
-* chartio-app is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3475 on PLDB
- 14 Years Old
-
-* 
-
-- chartio-app website
- https://chartio.com/
-- chartio-app first developed in <a href="../lists/originCommunities.html#chartIo">chart-io</a>
-- chartio-app on Twitter
- https://twitter.com/chartio
-- <a href="https://chartio.com/">chartio.com</a> was registered in 2010
-- Read more about chartio-app on the web: 1.
- https://www.crunchbase.com/organization/chart-io 1.
-
-<br>
-
-endColumns
-
-keyboardNav c-for-all.html chocolatey-pm.html
-
-import ../footer.scroll
+twitter https://twitter.com/chartio

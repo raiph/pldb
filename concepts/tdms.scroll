@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TDMS
+import ../measures/conceptPage.scroll
+id TDMS
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/c0beb1ae94c1f370f7fe1e9d417fe48a530f02b6
 
-title TDMS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3257
 
-html
- <a class="trueBaseThemePreviousItem" href="tdfl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="telefile-assembly.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tdms.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tdms" class="material-symbols-outlined">edit</a></div>
-
-* TDMS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3229 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- TDMS on HOPL
- https://hopl.info/showlanguage.prx?exp=3257
-- Read more about TDMS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c0beb1ae94c1f370f7fe1e9d417fe48a530f02b6 1.
-
-<br>
-
-endColumns
-
-keyboardNav tdfl.html telefile-assembly.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title V
+import ../measures/conceptPage.scroll
+id V
+appeared 2016
+type esolang
+creators DJMcMayhem
+website https://github.com/DJMcMayhem/V/
+country Unknown
 
-title V - Esoteric programming language
- hidden
+writtenIn vim-script
 
-html
- <a class="trueBaseThemePreviousItem" href="protel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tutor.html">&gt;</a>
+githubRepo https://github.com/DJMcMayhem/V/
+ stars 76
+ forks 9
+ subscribers 7
+ created 2016
+ updated 2019
+ description A golfing language inspired by everybody's favorite text editor, vim.
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/v-golf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/DJMcMayhem/V/" class="material-symbols-outlined">home</a> <a href="https://github.com/DJMcMayhem/V/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=v-golf" class="material-symbols-outlined">edit</a></div>
-
-* V is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2016 by DJMcMayhem.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#djMcMayhem DJMcMayhem
-
-codeWithHeader Source code:
- git clone https://github.com/DJMcMayhem/V/
-
-dashboard
- #2013 <span title="TotalRank: 2535 Jobs: 103 Users: 1446 Facts: 1890 Links: 986">on PLDB</span>
- 8 Years Old
-
-* A golfing language inspired by everybody's favorite text editor, vim.
-
-- V website
- https://github.com/DJMcMayhem/V/
-- V is developed on <a href="https://github.com/DJMcMayhem/V/">GitHub</a> and has 76 stars
-- V is written in <a href="vim-script.html">Vim script</a>
-
-<br>
-
-endColumns
-
-keyboardNav protel.html tutor.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 233
+ committers 14
+ files 17

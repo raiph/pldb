@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PolyTOIL
+import ../measures/conceptPage.scroll
+id PolyTOIL
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/97aabd8e34d7ecfe3220a9ec356625f15c996943
+country Canada
+originCommunity Williams College && Memorial University of Newfoundland
 
-title PolyTOIL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3368
 
-html
- <a class="trueBaseThemePreviousItem" href="polyp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="popsy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/polytoil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=polytoil" class="material-symbols-outlined">edit</a></div>
-
-* PolyTOIL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3946 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- PolyTOIL first developed in <a href="../lists/originCommunities.html#williamsCollege">Williams College</a> and <a href="../lists/originCommunities.html#memorialUniversityOfNewfoundland">Memorial University of Newfoundland</a>
-- PolyTOIL on HOPL
- https://hopl.info/showlanguage.prx?exp=3368
-- Read more about PolyTOIL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/97aabd8e34d7ecfe3220a9ec356625f15c996943 1.
-
-<br>
-
-endColumns
-
-keyboardNav polyp.html popsy.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

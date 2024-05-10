@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RLISP
+import ../measures/conceptPage.scroll
+id RLISP
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/8ad8c22437ef1803e838ccd8eea4a5428726f2d1
+country Former USSR or Russia
+originCommunity Moscow State University
 
-title RLISP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4020
 
-html
- <a class="trueBaseThemePreviousItem" href="pluk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ros-msg.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rlisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rlisp" class="material-symbols-outlined">edit</a></div>
-
-* RLISP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3072 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- RLISP first developed in <a href="../lists/originCommunities.html#moscowStateUniversity">Moscow State University</a>
-- RLISP on HOPL
- https://hopl.info/showlanguage.prx?exp=4020
-- Read more about RLISP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8ad8c22437ef1803e838ccd8eea4a5428726f2d1 1.
-
-<br>
-
-endColumns
-
-keyboardNav pluk.html ros-msg.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1984|An antitranslator of the RLISP language|10.1145/1089389.1089393|1|0|A. Kryukov|8ad8c22437ef1803e838ccd8eea4a5428726f2d1

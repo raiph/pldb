@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tampio
+import ../measures/conceptPage.scroll
+id tampio
+appeared 2017
+type pl
+creators Iikka Hauhio
+nativeLanguage Finnish
 
-title tampio - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="inko.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xxl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tampio.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/fergusq/tampio" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tampio" class="material-symbols-outlined">edit</a></div>
-
-* tampio is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Iikka Hauhio.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#iikkaHauhio Iikka Hauhio
-
-codeWithHeader Source code:
- git clone https://github.com/fergusq/tampio
-
-dashboard
- #1628 <span title="TotalRank: 2147 Jobs: 103 Users: 1104 Facts: 1058 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Tampio: An object-oriented programming language made to resemble Finnish
-
-- tampio is developed on <a href="https://github.com/fergusq/tampio">GitHub</a> and has 203 stars
-- tampio is written with the native language of Finnish
-
-<br>
-
-codeWithHeader Example from the web:
+example
   Pienen luvun kertoma on
        riippuen siitä, onko se pienempi tai yhtä suuri kuin yksi,
        joko yksi
@@ -47,8 +19,18 @@ codeWithHeader Example from the web:
        pieneen muuttujaan luetaan luku
        ja nykyinen sivu näyttää pienen muuttujan arvon kertoman.
 
-endColumns
+githubRepo https://github.com/fergusq/tampio
+ firstCommit 2017
+ stars 203
+ forks 4
+ subscribers 5
+ created 2017
+ updated 2022
+ description Tampio: An object-oriented programming language made to resemble Finnish
+ issues 0
 
-keyboardNav inko.html xxl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 228
+ committers 4
+ files 31

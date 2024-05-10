@@ -1,42 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ROS Message
+import ../measures/conceptPage.scroll
+id ROS Message
+appeared 2010
+type idl
+conceptDescription The format of this language is simple: a message description is a list of data field descriptions and constant definitions on separate lines.
+reference http://wiki.ros.org/msg
+fileExtensions msg
+country United States and Canada and Australia
+originCommunity https://github.com/ros-infrastructure
 
-title ROS Message - Interface design language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="rlisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smdl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ros-msg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ros-msg" class="material-symbols-outlined">edit</a></div>
-
-* ROS Message is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3073 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 14 Years Old
-
-* The format of this language is simple: a message description is a list of data field descriptions and constant definitions on separate lines.
-
-- ROS Message first developed in <a href="../lists/originCommunities.html#httpsGithubComRosInfrastructure">https://github.com/ros-infrastructure</a>
-- file extensions for ROS Message include msg
-- Read more about ROS Message on the web: 1.
- http://wiki.ros.org/msg 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  int32 x
  int32 y
-
-endColumns
-
-keyboardNav rlisp.html smdl.html
-
-import ../footer.scroll

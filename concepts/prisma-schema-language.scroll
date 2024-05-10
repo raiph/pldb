@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Prisma Schema Language
+import ../measures/conceptPage.scroll
+id Prisma Schema Language
+appeared 2019
+type idl
+conceptDescription The Prisma schema file (short: schema file, Prisma schema or schema) is the main configuration file for your Prisma setup. It is typically called schema.prisma and consists of the following parts:
+reference https://github.com/prisma/specs/tree/master/schema
+country Germany
+originCommunity Prisma Data,Inc
 
-title Prisma Schema Language - Interface design language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="prism.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="procol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prisma-schema-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prisma-schema-language" class="material-symbols-outlined">edit</a></div>
-
-* Prisma Schema Language is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #3953 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 5 Years Old
-
-* The Prisma schema file (short: schema file, Prisma schema or schema) is the main configuration file for your Prisma setup. It is typically called schema.prisma and consists of the following parts:
-
-- Prisma Schema Language first developed in <a href="../lists/originCommunities.html#prismaDataInc">Prisma Data,Inc</a>
-- Read more about Prisma Schema Language on the web: 1.
- https://github.com/prisma/specs/tree/master/schema 1.
-
-<br>
-
-endColumns
-
-keyboardNav prism.html procol.html
-
-import ../footer.scroll
+isbndb 0

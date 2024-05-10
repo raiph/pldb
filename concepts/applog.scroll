@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APPLOG
+import ../measures/conceptPage.scroll
+id APPLOG
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/2b53401af863b483a1ce5e21df0593322aa4319c
+country Israel
+originCommunity Hebrew University
 
-title APPLOG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1198
 
-html
- <a class="trueBaseThemePreviousItem" href="appl-a.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aprol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/applog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=applog" class="material-symbols-outlined">edit</a></div>
-
-* APPLOG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3485 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- APPLOG first developed in <a href="../lists/originCommunities.html#hebrewUniversity">Hebrew University</a>
-- APPLOG on HOPL
- https://hopl.info/showlanguage.prx?exp=1198
-- Read more about APPLOG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2b53401af863b483a1ce5e21df0593322aa4319c 1.
-
-<br>
-
-endColumns
-
-keyboardNav appl-a.html aprol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

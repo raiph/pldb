@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ParMod
+import ../measures/conceptPage.scroll
+id ParMod
+appeared 1987
+type pl
+reference https://link.springer.com/chapter/10.1007/3-540-55437-8_75
+country Germany
+originCommunity Technische Universität München
 
-title ParMod - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1348
 
-html
- <a class="trueBaseThemePreviousItem" href="paralog-e.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pascal-plus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/parmod.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=parmod" class="material-symbols-outlined">edit</a></div>
-
-* ParMod is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3914 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- ParMod first developed in <a href="../lists/originCommunities.html#technischeUniversitatMunchen">Technische Universität München</a>
-- ParMod on HOPL
- https://hopl.info/showlanguage.prx?exp=1348
-- Read more about ParMod on the web: 1.
- https://link.springer.com/chapter/10.1007/3-540-55437-8_75 1.
-
-<br>
-
-endColumns
-
-keyboardNav paralog-e.html pascal-plus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

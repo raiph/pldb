@@ -1,56 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sublime Syntax Test Lang
+import ../measures/conceptPage.scroll
+id Sublime Syntax Test Lang
+appeared 2008
+type grammarLanguage
+conceptDescription A language for testing sublime syntax files.
+website https://www.sublimetext.com/docs/3/syntax.html#testing
 
-title Sublime Syntax Test Lang - Grammar language
- hidden
+relatedConcepts sublime-syntax
 
-html
- <a class="trueBaseThemePreviousItem" href="topaz-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="x-bitmap-format.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sublime-syntax-test.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.sublimetext.com/docs/3/syntax.html#testing" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sublime-syntax-test" class="material-symbols-outlined">edit</a></div>
-
-* Sublime Syntax Test Lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1461 <span title="TotalRank: 1980 Jobs: 103 Users: 2442 Facts: 891 Links: 986">on PLDB</span>
- 16 Years Old
-
-* A language for testing sublime syntax files.
-
-- Sublime Syntax Test Lang website
- https://www.sublimetext.com/docs/3/syntax.html#testing
-- See also: (1 related languages)<a href="sublime-syntax.html">Sublime Syntax</a>
-
-<br>
-
-codeWithHeader Example from the web:
- // SYNTAX TEST &quot;Packages/C/C.sublime-syntax&quot;
+example
+ // SYNTAX TEST "Packages/C/C.sublime-syntax"
  #pragma once
- // &lt;- source.c meta.preprocessor.c++
-  // &lt;- keyword.control.import
+ // <- source.c meta.preprocessor.c++
+  // <- keyword.control.import
  
  // foo
  // ^ source.c comment.line
- // &lt;- punctuation.definition.comment
+ // <- punctuation.definition.comment
  
  /* foo */
  // ^ source.c comment.block
- // &lt;- punctuation.definition.comment.begin
+ // <- punctuation.definition.comment.begin
  //     ^ punctuation.definition.comment.end
  
- #include &quot;stdio.h&quot;
- // &lt;- meta.preprocessor.include.c++
+ #include "stdio.h"
+ // <- meta.preprocessor.include.c++
  //       ^ meta string punctuation.definition.string.begin
  //               ^ meta string punctuation.definition.string.end
  int square(int x)
- // &lt;- storage.type
+ // <- storage.type
  //  ^ meta.function entity.name.function
  //         ^ storage.type
  {
@@ -58,12 +35,8 @@ codeWithHeader Example from the web:
  //  ^^^^^^ keyword.control
  }
  
- &quot;Hello, World! // not a comment&quot;;
+ "Hello, World! // not a comment";
  // ^ string.quoted.double
  //                  ^ string.quoted.double - comment
 
-endColumns
-
-keyboardNav topaz-lang.html x-bitmap-format.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,36 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title zephyr-asdl
+import ../measures/conceptPage.scroll
+id zephyr-asdl
+appeared 1997
+type grammarLanguage
+reference https://github.com/python/cpython/blob/master/Parser/Python.asdl
 
-title zephyr-asdl - Grammar language
- hidden
+hasLineComments true
+ -- A comment
+hasComments true
+ -- A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="component-pascal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stan.html">&gt;</a>
+lineCommentToken --
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zephyr-asdl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=zephyr-asdl" class="material-symbols-outlined">edit</a></div>
-
-* zephyr-asdl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #747 <span title="TotalRank: 1316 Jobs: 103 Users: 2838 Facts: 227 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Read more about zephyr-asdl on the web: 1.
- https://github.com/python/cpython/blob/master/Parser/Python.asdl 1.
-
-<br>
-
-codeWithHeader Example from the web:
- -- ASDL&#39;s 5 builtin types are:
+example
+ -- ASDL's 5 builtin types are:
  -- identifier, int, string, object, constant
  module Python
  {
@@ -38,7 +21,7 @@ codeWithHeader Example from the web:
          | Interactive(stmt* body)
          | Expression(expr body)
          | FunctionType(expr* argtypes, expr returns)
-         -- not really an actual node but useful in Jython&#39;s typesystem.
+         -- not really an actual node but useful in Jython's typesystem.
          | Suite(stmt* body)
      stmt = FunctionDef(identifier name, arguments args,
                         stmt* body, expr* decorator_list, expr? returns,
@@ -55,9 +38,9 @@ codeWithHeader Example from the web:
            | Delete(expr* targets)
            | Assign(expr* targets, expr value, string? type_comment)
            | AugAssign(expr target, operator op, expr value)
-           -- &#39;simple&#39; indicates that we annotate simple name without parens
+           -- 'simple' indicates that we annotate simple name without parens
            | AnnAssign(expr target, expr annotation, expr? value, int simple)
-           -- use &#39;orelse&#39; because else is a keyword in target languages
+           -- use 'orelse' because else is a keyword in target languages
            | For(expr target, expr iter, stmt* body, stmt* orelse, string? type_comment)
            | AsyncFor(expr target, expr iter, stmt* body, stmt* orelse, string? type_comment)
            | While(expr test, stmt* body, stmt* orelse)
@@ -76,7 +59,7 @@ codeWithHeader Example from the web:
            -- XXX Jython will be different
            -- col_offset is the byte offset in the utf8 string the parser uses
            attributes (int lineno, int col_offset, int? end_lineno, int? end_col_offset)
-           -- BoolOp() can use left &amp; right?
+           -- BoolOp() can use left & right?
      expr = BoolOp(boolop op, expr* values)
           | NamedExpr(expr target, expr value)
           | BinOp(expr left, operator op, expr right)
@@ -94,7 +77,7 @@ codeWithHeader Example from the web:
           | Yield(expr? value)
           | YieldFrom(expr value)
           -- need sequences for compare to distinguish between
-          -- x &lt; 4 &lt; 3 and (x &lt; 4) &lt; 3
+          -- x < 4 < 3 and (x < 4) < 3
           | Compare(expr left, cmpop* ops, expr* comparators)
           | Call(expr func, expr* args, keyword* keywords)
           | FormattedValue(expr value, int? conversion, expr? format_spec)
@@ -127,38 +110,8 @@ codeWithHeader Example from the web:
             attributes (int lineno, int col_offset, int? end_lineno, int? end_col_offset)
      -- keyword arguments supplied to call (NULL identifier for **kwargs)
      keyword = (identifier? arg, expr value)
-     -- import name with optional &#39;as&#39; alias.
+     -- import name with optional 'as' alias.
      alias = (identifier name, identifier? asname)
      withitem = (expr context_expr, expr? optional_vars)
      type_ignore = TypeIgnore(int lineno, string tag)
  }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav component-pascal.html stan.html
-
-import ../footer.scroll

@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OpenType Feature File
+import ../measures/conceptPage.scroll
+id OpenType Feature File
+appeared 1996
+type application
+conceptDescription An OpenType feature file is a text file that contains the typographic layout feature specifications for an OpenType font in an easy-to-read format. It may also contain override values for certain fields in the font tables. It is read in during the creation or editing of an OpenType font.
+reference https://en.wikipedia.org/wiki/OpenType
+country United States
+originCommunity Microsoft && Adobe Systems
 
-title OpenType Feature File - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cuneiform.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="elena.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/opentype-feature-file.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=opentype-feature-file" class="material-symbols-outlined">edit</a></div>
-
-* OpenType Feature File is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #1649 on PLDB
- 28 Years Old
-
-* An OpenType feature file is a text file that contains the typographic layout feature specifications for an OpenType font in an easy-to-read format. It may also contain override values for certain fields in the font tables. It is read in during the creation or editing of an OpenType font.
-
-- OpenType Feature File first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a> and <a href="../lists/originCommunities.html#adobeSystems">Adobe Systems</a>
-- file extensions for OpenType Feature File include fea
-- GitHub supports <a href="https://github.com/Alhadis/language-fontforge" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for OpenType Feature File
-- Read more about OpenType Feature File on the web: 1.
- https://en.wikipedia.org/wiki/OpenType 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Script and language coverage
  languagesystem DFLT dflt;
  languagesystem latn dflt;
@@ -47,11 +22,22 @@ codeWithHeader Example from the web:
  feature kern {
       position A Y -100;
       position a y -80;
-      position s f&#39; &lt;0 0 10 0&gt; t;
+      position s f' <0 0 10 0> t;
  } kern;
 
-endColumns
+githubLanguage OpenType Feature File
+ fileExtensions fea
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope source.opentype
+ aliases AFDKO
 
-keyboardNav cuneiform.html elena.html
+linguistGrammarRepo https://github.com/Alhadis/language-fontforge
+ firstCommit 2016
+ lastCommit 2018
+ committerCount 2
+ commitCount 51
 
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

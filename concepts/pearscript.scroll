@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PearScript
+import ../measures/conceptPage.scroll
+id PearScript
+appeared 2016
+type pl
+creators Ondřej Kocián
+website https://github.com/kocisov/pearscript
+country Malta
+originCommunity https://github.com/kocisov/pearscript/issues
 
-title PearScript - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="iode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="woe.html">&gt;</a>
+githubRepo https://github.com/kocisov/pearscript
+ stars 9
+ forks 0
+ subscribers 3
+ created 2016
+ updated 2016
+ description Little language that compiles into Javascript
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pearscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kocisov/pearscript" class="material-symbols-outlined">home</a> <a href="https://github.com/kocisov/pearscript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pearscript" class="material-symbols-outlined">edit</a></div>
-
-* PearScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Ondřej Kocián.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#ondrejKocian Ondřej Kocián
-
-codeWithHeader Source code:
- git clone https://github.com/kocisov/pearscript
-
-dashboard
- #2351 <span title="TotalRank: 2876 Jobs: 103 Users: 2337 Facts: 1787 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Little language that compiles into Javascript
-
-- PearScript website
- https://github.com/kocisov/pearscript
-- PearScript is developed on <a href="https://github.com/kocisov/pearscript">GitHub</a> and has 9 stars
-- PearScript first developed in <a href="../lists/originCommunities.html#httpsGithubComKocisovPearscriptIssues">https://github.com/kocisov/pearscript/issues</a>
-- PearScript compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav iode.html woe.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 35
+ committers 2
+ files 11

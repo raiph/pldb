@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mlpolyr
+import ../measures/conceptPage.scroll
+id mlpolyr
+appeared 2016
+type pl
+creators Nicolas Ojeda Bar
+country France
+originCommunity https://github.com/owo-lang
 
-title mlpolyr - Programming language
- hidden
+githubRepo https://github.com/owo-lang/MLPolyR
+ firstCommit 2016
+ stars 21
+ forks 1
+ subscribers 5
+ created 2019
+ updated 2021
+ description The MLPolyR programming language, revived
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="octune.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cotton.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mlpolyr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/owo-lang/MLPolyR" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mlpolyr" class="material-symbols-outlined">edit</a></div>
-
-* mlpolyr is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Nicolas Ojeda Bar.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#nicolasOjedaBar Nicolas Ojeda Bar
-
-codeWithHeader Source code:
- git clone https://github.com/owo-lang/MLPolyR
-
-dashboard
- #2346 <span title="TotalRank: 2876 Jobs: 103 Users: 2101 Facts: 1787 Links: 986">on PLDB</span>
- 8 Years Old
-
-* The MLPolyR programming language, revived
-
-- mlpolyr is developed on <a href="https://github.com/owo-lang/MLPolyR">GitHub</a> and has 21 stars
-- mlpolyr first developed in <a href="../lists/originCommunities.html#httpsGithubComOwoLang">https://github.com/owo-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav octune.html cotton.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 59
+ committers 5
+ files 160

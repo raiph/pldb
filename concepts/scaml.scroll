@@ -1,48 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Scala Markup Language
+import ../measures/conceptPage.scroll
+id Scala Markup Language
+appeared 2010
+type template
+website https://scalate.github.io/scalate/documentation/scaml-reference.html
+country Japan and Greece
+originCommunity https://github.com/scalate
 
-title Scala Markup Language - Template language
- hidden
+githubLanguage Scaml
+ fileExtensions scaml
+ trendingProjectsCount 0
+ type markup
+ aceMode text
+ tmScope source.scaml
+ repos 0
+githubBigQuery Scaml
+ repos 7
+ users 7
 
-html
- <a class="trueBaseThemePreviousItem" href="margin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gren.html">&gt;</a>
+pygmentsHighlighter Scaml
+ filename html.py
+ fileExtensions scaml
+linguistGrammarRepo https://github.com/scalate/Scalate.tmbundle
+ firstCommit 2010
+ lastCommit 2015
+ committerCount 3
+ commitCount 7
+ sampleCount 1
+ example
+  %p
+    Hello,
+    World!
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scaml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://scalate.github.io/scalate/documentation/scaml-reference.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=scaml" class="material-symbols-outlined">edit</a></div>
-
-* Scala Markup Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #1662 <span title="TotalRank: 2181 Jobs: 103 Users: 1127 Facts: 1092 Links: 986">on PLDB</span>
- 14 Years Old
- 0 <span title="Scala Markup Language repos on GitHub.">Repos</span>
-
-* 
-
-- Scala Markup Language website
- https://scalate.github.io/scalate/documentation/scaml-reference.html
-- There are at least 0 Scala Markup Language repos on <a href="https://github.com/search?q=language:Scaml">GitHub</a>
-- Scala Markup Language first developed in <a href="../lists/originCommunities.html#httpsGithubComScalate">https://github.com/scalate</a>
-- file extensions for Scala Markup Language include scaml
-- The  Google BigQuery Public Dataset GitHub snapshot shows 7 users using Scala Markup Language in 7 repos on <a href="https://api.github.com/search/repositories?q=language:Scaml">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/html.py">syntax highlighting</a> for Scala Markup Language
-- GitHub supports <a href="https://github.com/scalate/Scalate.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Scala Markup Language
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/scalate/Scalate.tmbundle'>Linguist</a>:
- %p
-   Hello,
-   World!
-
-endColumns
-
-keyboardNav margin.html gren.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title desktop
+import ../measures/conceptPage.scroll
+id desktop
+appeared 2008
+type application
+reference https://wiki.archlinux.org/index.php/desktop_entries#File_example
+country United States
+originCommunity Arch Linux
 
-title desktop - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="jsil-compiler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="type-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/desktop.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=desktop" class="material-symbols-outlined">edit</a></div>
-
-* desktop is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1093 on PLDB
- 16 Years Old
-
-* 
-
-- desktop first developed in <a href="../lists/originCommunities.html#archLinux">Arch Linux</a>
-- file extensions for desktop include desktop, desktopin and service
-- GitHub supports <a href="https://github.com/Mailaender/desktop.tmbundle.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for desktop
-- Read more about desktop on the web: 1.
- https://wiki.archlinux.org/index.php/desktop_entries#File_example 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [Desktop Entry]
  
  # The type as listed above
@@ -62,31 +36,42 @@ codeWithHeader Example from the web:
  # Describes the categories in which this entry should be shown
  Categories=Education;Languages;Java; 
 
-codeWithHeader Example from <a href='https://github.com/Mailaender/desktop.tmbundle.git'>Linguist</a>:
- # http://standards.freedesktop.org/desktop-entry-spec/latest/apa.html
- 
- [Desktop Entry]
- Version=1.0
- Type=Application
- Name=Foo Viewer
- Comment=The best viewer for Foo objects available!
- TryExec=fooview
- Exec=fooview %F
- Icon=fooview
- MimeType=image/x-foo;
- Actions=Gallery;Create;
- 
- [Desktop Action Gallery]
- Exec=fooview --gallery
- Name=Browse Gallery
- 
- [Desktop Action Create]
- Exec=fooview --create-new
- Name=Create a new Foo!
- Icon=fooview-new
+githubLanguage desktop
+ fileExtensions desktop desktopin service
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope source.desktop
 
-endColumns
+linguistGrammarRepo https://github.com/Mailaender/desktop.tmbundle.git
+ firstCommit 2005
+ lastCommit 2014
+ committerCount 7
+ commitCount 27
+ sampleCount 1
+ example
+  # http://standards.freedesktop.org/desktop-entry-spec/latest/apa.html
+  
+  [Desktop Entry]
+  Version=1.0
+  Type=Application
+  Name=Foo Viewer
+  Comment=The best viewer for Foo objects available!
+  TryExec=fooview
+  Exec=fooview %F
+  Icon=fooview
+  MimeType=image/x-foo;
+  Actions=Gallery;Create;
+  
+  [Desktop Action Gallery]
+  Exec=fooview --gallery
+  Name=Browse Gallery
+  
+  [Desktop Action Create]
+  Exec=fooview --create-new
+  Name=Create a new Foo!
+  Icon=fooview-new
 
-keyboardNav jsil-compiler.html type-language.html
-
-import ../footer.scroll
+fileType text
+wordRank 1680
+centralPackageRepositoryCount 0

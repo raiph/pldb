@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title teal
+import ../measures/conceptPage.scroll
+id teal
+appeared 1987
+type pl
+website https://developer.algorand.org/docs/reference/teal/specification/
 
-title teal - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tab.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="underlay.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/teal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://developer.algorand.org/docs/reference/teal/specification/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=teal" class="material-symbols-outlined">edit</a></div>
-
-* teal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #2781 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- teal website
- https://developer.algorand.org/docs/reference/teal/specification/
-- file extensions for teal include teal
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/teal.py">syntax highlighting</a> for teal
-
-<br>
-
-endColumns
-
-keyboardNav tab.html underlay.html
-
-import ../footer.scroll
+pygmentsHighlighter teal
+ filename teal.py
+ fileExtensions teal

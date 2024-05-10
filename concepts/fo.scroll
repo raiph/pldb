@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title fo
+import ../measures/conceptPage.scroll
+id fo
+appeared 2018
+type pl
+creators Alex Browne
+country United States
+originCommunity https://github.com/albrow/fo/issues
 
-title fo - Programming language
- hidden
+githubRepo https://github.com/albrow/fo
+ firstCommit 2018
+ stars 1180
+ forks 29
+ subscribers 27
+ created 2018
+ updated 2022
+ description An experimental language which adds functional programming features to Go.
+ issues 15
 
-html
- <a class="trueBaseThemePreviousItem" href="ngs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sam-coupe.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 112
+ committers 4
+ files 237
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/albrow/fo" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fo" class="material-symbols-outlined">edit</a></div>
-
-* fo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Alex Browne.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#alexBrowne Alex Browne
-
-codeWithHeader Source code:
- git clone https://github.com/albrow/fo
-
-dashboard
- #1004 <span title="TotalRank: 1568 Jobs: 103 Users: 479 Facts: 1502 Links: 986">on PLDB</span>
- 6 Years Old
-
-* An experimental language which adds functional programming features to Go.
-
-- fo is developed on <a href="https://github.com/albrow/fo">GitHub</a> and has 1,180 stars
-- fo first developed in <a href="../lists/originCommunities.html#httpsGithubComAlbrowFoIssues">https://github.com/albrow/fo/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of fo
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Fo: An experimental language which adds generics on top of Go|https://news.ycombinator.com/item?id=17294548|06/12/2018|165|124
-
-keyboardNav ngs.html sam-coupe.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 17294548|Show HN: Fo: An experimental language which adds generics on top of Go|2018-06-12 15:58:46 UTC|1528819126|polymathist|124|165

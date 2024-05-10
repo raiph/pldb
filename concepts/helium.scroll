@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title helium
+import ../measures/conceptPage.scroll
+id helium
+appeared 2003
+type pl
+conceptDescription Helium is a functional programming language (a subset of Haskell) and a compiler designed especially for teaching.
+website http://web.archive.org/web/20120814120128/http://www.cs.uu.nl/wiki/Helium
+country The Netherlands
+originCommunity Utrecht University
 
-title helium - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="holonforth.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/helium.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://web.archive.org/web/20120814120128/http://www.cs.uu.nl/wiki/Helium" class="material-symbols-outlined">home</a> <a href="/edit.html?id=helium" class="material-symbols-outlined">edit</a></div>
-
-* helium is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2794 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 21 Years Old
-
-* Helium is a functional programming language (a subset of Haskell) and a compiler designed especially for teaching.
-
-- helium website
- http://web.archive.org/web/20120814120128/http://www.cs.uu.nl/wiki/Helium
-- helium first developed in <a href="../lists/originCommunities.html#utrechtUniversity">Utrecht University</a>
-
-<br>
-
-endColumns
-
-keyboardNav gp.html holonforth.html
-
-import ../footer.scroll
+subsetOf haskell

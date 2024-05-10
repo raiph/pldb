@@ -1,52 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Serious
+import ../measures/conceptPage.scroll
+id Serious
+appeared 2021
+type pl
+creators lorentzj
+website https://lorentzj.github.io/sirius
+webRepl https://lorentzj.github.io/sirius/demo.html
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/xttlp5/comment/iqrx0ri/
+reference https://kandi.openweaver.com/rust/lorentzj/sirius
+country Unknown
+originCommunity https://github.com/lorentzj/sirius/issues
 
-title Serious - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="link.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="acme.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/serious.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://lorentzj.github.io/sirius" class="material-symbols-outlined">home</a> <a href="https://lorentzj.github.io/sirius/demo.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/lorentzj/serious" class="material-symbols-outlined">code</a> <a href="/edit.html?id=serious" class="material-symbols-outlined">edit</a></div>
-
-* Serious is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by lorentzj.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#lorentzj lorentzj
-
-codeWithHeader Source code:
- git clone https://github.com/lorentzj/serious
-
-dashboard
- #1901 <span title="TotalRank: 2400 Jobs: 103 Users: 2415 Facts: 1311 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Try now: <a href="https://lorentzj.github.io/sirius/demo.html">Web</a>
-
-* A simple language for mathematical transformations
-
-- Serious website
- https://lorentzj.github.io/sirius
-- Serious is developed on <a href="https://github.com/lorentzj/serious">GitHub</a> and has 0 stars
-- Serious first developed in <a href="../lists/originCommunities.html#httpsGithubComLorentzjSiriusIssues">https://github.com/lorentzj/sirius/issues</a>
-- Read more about Serious on the web: 1. 2.
- https://www.reddit.com/r/ProgrammingLanguages/comments/xttlp5/comment/iqrx0ri/ 1.
- https://kandi.openweaver.com/rust/lorentzj/sirius 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  let x = 3;
  let y = 4;
  print (x^2 + y^2)^0.5;
 
-endColumns
+githubRepo https://github.com/lorentzj/serious
+ stars 0
+ forks 0
+ subscribers 1
+ created 2021
+ updated 2022
+ description A simple language for mathematical transformations
 
-keyboardNav link.html acme.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2023
+ commits 80
+ committers 1
+ files 65

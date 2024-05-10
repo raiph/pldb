@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Snit
-
-title Snit - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="fortran-77.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cish.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snit.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=snit" class="material-symbols-outlined">edit</a></div>
-
-* Snit is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002 by William H. Duquette.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
- link ../lists/creators.html#williamHDuquette William H. Duquette
-
-dashboard
- #3000 <span title="TotalRank: 3608 Jobs: 103 Users: 2838 Facts: 3284 Links: 667">on PLDB</span>
- 22 Years Old
-
-* 
-
-- Snit first developed in <a href="../lists/originCommunities.html#californiaInstituteOfTechnology">California Institute of Technology</a>
-- Read more about Snit on the web: 1. 2.
- https://manpages.ubuntu.com/manpages/impish/man3/snit.3tcl.html 1.
- http://npg.dl.ac.uk/MIDAS/manual/ActiveTcl8.4.9.0-html/tcllib/snit/snit.html#history 2.
-
-<br>
-
-endColumns
-
-keyboardNav fortran-77.html cish.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Snit
+appeared 2002
+type pl
+creators William H. Duquette
+reference https://manpages.ubuntu.com/manpages/impish/man3/snit.3tcl.html
+reference http://npg.dl.ac.uk/MIDAS/manual/ActiveTcl8.4.9.0-html/tcllib/snit/snit.html#history
+country United States
+originCommunity California Institute of Technology

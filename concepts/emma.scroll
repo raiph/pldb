@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EMMA
+import ../measures/conceptPage.scroll
+id EMMA
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/c84c4829ca2fa76a51b5cef9d0445826d9be58a4
+country Austria
+originCommunity University of Vienna
 
-title EMMA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8297
 
-html
- <a class="trueBaseThemePreviousItem" href="ellpack.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eva.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emma.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=emma" class="material-symbols-outlined">edit</a></div>
-
-* EMMA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #4133 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- EMMA first developed in <a href="../lists/originCommunities.html#universityOfVienna">University of Vienna</a>
-- EMMA on HOPL
- https://hopl.info/showlanguage.prx?exp=8297
-- Read more about EMMA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c84c4829ca2fa76a51b5cef9d0445826d9be58a4 1.
-
-<br>
-
-endColumns
-
-keyboardNav ellpack.html eva.html
-
-import ../footer.scroll
+wordRank 8306
+centralPackageRepositoryCount 0

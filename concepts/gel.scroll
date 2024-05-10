@@ -1,37 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Generic Expression Language
+import ../measures/conceptPage.scroll
+id Generic Expression Language
+appeared 2008
+type textMarkup
+conceptDescription Generic Expression Language (Gel) is a rich generic syntax that embodies many of the common syntactic conventions for operators, grouping and lists in widely-used languages. Prefix/infix operators are disambiguated by white-space, so that documents which violate common white-space conventions will not necessarily parse correctly with Gel. With some character replacements and adjusting for mismatch in operator precedence, Gel can extract meaningful structure from typical files in many languages, including Java, CSS, Smalltalk, and ANTLR grammars. This evaluation shows the expressive power of Gel, not that Gel can be used as a parser for existing languages. Gel is intended to serve as a generic language for creating composable domainspecific languages.
+reference https://www.cs.utexas.edu/~wcook/Drafts/2008/gel.pdf
+standsFor Generic Expression Language
+country United States
+originCommunity University of Texas at Austin
 
-title Generic Expression Language - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="feel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gloss.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gel" class="material-symbols-outlined">edit</a></div>
-
-* Generic Expression Language, aka Generic Expression Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #3058 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 16 Years Old
-
-* Generic Expression Language (Gel) is a rich generic syntax that embodies many of the common syntactic conventions for operators, grouping and lists in widely-used languages. Prefix/infix operators are disambiguated by white-space, so that documents which violate common white-space conventions will not necessarily parse correctly with Gel. With some character replacements and adjusting for mismatch in operator precedence, Gel can extract meaningful structure from typical files in many languages, including Java, CSS, Smalltalk, and ANTLR grammars. This evaluation shows the expressive power of Gel, not that Gel can be used as a parser for existing languages. Gel is intended to serve as a generic language for creating composable domainspecific languages.
-
-- Generic Expression Language first developed in <a href="../lists/originCommunities.html#universityOfTexasAtAustin">University of Texas at Austin</a>
-- Read more about Generic Expression Language on the web: 1.
- https://www.cs.utexas.edu/~wcook/Drafts/2008/gel.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav feel.html gloss.html
-
-import ../footer.scroll
+fileType text
+wordRank 6042
+centralPackageRepositoryCount 0

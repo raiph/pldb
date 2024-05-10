@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NSL
+import ../measures/conceptPage.scroll
+id NSL
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/2f1648fd377bc98a8840f83c5b29a485a813e248
+country United States
+originCommunity University of South Florida
 
-title NSL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4012
 
-html
- <a class="trueBaseThemePreviousItem" href="nil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nua-prolog.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nsl" class="material-symbols-outlined">edit</a></div>
-
-* NSL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4231 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- NSL first developed in <a href="../lists/originCommunities.html#universityOfSouthFlorida">University of South Florida</a>
-- NSL on HOPL
- https://hopl.info/showlanguage.prx?exp=4012
-- Read more about NSL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2f1648fd377bc98a8840f83c5b29a485a813e248 1.
-
-<br>
-
-endColumns
-
-keyboardNav nil.html nua-prolog.html
-
-import ../footer.scroll
+semanticScholar 0

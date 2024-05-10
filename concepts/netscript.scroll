@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Netscript
+import ../measures/conceptPage.scroll
+id Netscript
+appeared 2016
+type pl
+conceptDescription A programming language for packet-stream processing
+reference http://dl.acm.org/citation.cfm?id=959590
+country United States
+originCommunity Columbia University
 
-title Netscript - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8607
 
-html
- <a class="trueBaseThemePreviousItem" href="netbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/netscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=netscript" class="material-symbols-outlined">edit</a></div>
-
-* Netscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #4229 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 8 Years Old
-
-* A programming language for packet-stream processing
-
-- Netscript first developed in <a href="../lists/originCommunities.html#columbiaUniversity">Columbia University</a>
-- Netscript on HOPL
- https://hopl.info/showlanguage.prx?exp=8607
-- Read more about Netscript on the web: 1.
- http://dl.acm.org/citation.cfm?id=959590 1.
-
-<br>
-
-endColumns
-
-keyboardNav netbasic.html nil.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

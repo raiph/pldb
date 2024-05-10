@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ivy
+import ../measures/conceptPage.scroll
+id ivy
+appeared 2014
+type pl
+creators Rob Pike
+conceptDescription An APL-like calculator
 
-title ivy - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="shakespeare-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="creative-basic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ivy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/robpike/ivy" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ivy" class="material-symbols-outlined">edit</a></div>
-
-* ivy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Rob Pike.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#robPike Rob Pike
-
-codeWithHeader Source code:
- git clone https://github.com/robpike/ivy
-
-dashboard
- #937 <span title="TotalRank: 1503 Jobs: 103 Users: 414 Facts: 2629 Links: 986">on PLDB</span>
- 10 Years Old
-
-* An APL-like calculator
-
-- ivy is developed on <a href="https://github.com/robpike/ivy">GitHub</a> and has 1,288 stars
-
-<br>
-
-endColumns
-
-keyboardNav shakespeare-programming-language.html creative-basic.html
-
-import ../footer.scroll
+githubRepo https://github.com/robpike/ivy
+ stars 1288
+ forks 109
+ subscribers 59
+ created 2014
+ updated 2024
+ description ivy, an APL-like calculator

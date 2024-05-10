@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TABLOG
+import ../measures/conceptPage.scroll
+id TABLOG
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/feba5fea74f4bdaee572e422012d35da54aa6c4d
 
-title TABLOG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2705
 
-html
- <a class="trueBaseThemePreviousItem" href="syntol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tabsol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tablog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tablog" class="material-symbols-outlined">edit</a></div>
-
-* TABLOG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3219 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- TABLOG on HOPL
- https://hopl.info/showlanguage.prx?exp=2705
-- Read more about TABLOG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/feba5fea74f4bdaee572e422012d35da54aa6c4d 1.
-
-<br>
-
-endColumns
-
-keyboardNav syntol.html tabsol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

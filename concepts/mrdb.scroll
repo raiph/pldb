@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MRDB
+import ../measures/conceptPage.scroll
+id MRDB
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/01956df0de72e06987097b77b604d57ca634e12e
+country United States
+originCommunity Washington University
 
-title MRDB - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8087
 
-html
- <a class="trueBaseThemePreviousItem" href="mpgs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ms2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mrdb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mrdb" class="material-symbols-outlined">edit</a></div>
-
-* MRDB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3852 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- MRDB first developed in <a href="../lists/originCommunities.html#washingtonUniversity">Washington University</a>
-- MRDB on HOPL
- https://hopl.info/showlanguage.prx?exp=8087
-- Read more about MRDB on Semantic Scholar: 1.
- https://semanticscholar.org/paper/01956df0de72e06987097b77b604d57ca634e12e 1.
-
-<br>
-
-endColumns
-
-keyboardNav mpgs.html ms2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

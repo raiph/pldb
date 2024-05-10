@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CCS
+import ../measures/conceptPage.scroll
+id CCS
+appeared 1999
+type pl
+conceptDescription CCS is a proprietary scripting language for executing sequences of command-line interface (CLI) commands on NetMRI-supported network devices, to perform job automation tasks. If you know Cisco IOS, writing CCS scripts is relatively straightforward.
+reference https://www.infoblox.com/wp-content/uploads/infoblox-eval-download-netmri-NetMRI_CCS_Scripting_Guide.pdf
+country United States
+originCommunity Infoblox Inc
 
-title CCS - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bolt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chimera.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ccs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ccs" class="material-symbols-outlined">edit</a></div>
-
-* CCS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3007 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 25 Years Old
-
-* CCS is a proprietary scripting language for executing sequences of command-line interface (CLI) commands on NetMRI-supported network devices, to perform job automation tasks. If you know Cisco IOS, writing CCS scripts is relatively straightforward.
-
-- CCS first developed in <a href="../lists/originCommunities.html#infobloxInc">Infoblox Inc</a>
-- Read more about CCS on the web: 1.
- https://www.infoblox.com/wp-content/uploads/infoblox-eval-download-netmri-NetMRI_CCS_Scripting_Guide.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Script-Filter:
- $Vendor eq &quot;Cisco&quot; and
+ $Vendor eq "Cisco" and
  $sysDescr like /IOS/ and
  $Version like /^1[2-9]/ and
- $Type in [&#39;Router&#39;, &#39;Switch-Router&#39;]]
-
-endColumns
-
-keyboardNav bolt.html chimera.html
-
-import ../footer.scroll
+ $Type in ['Router', 'Switch-Router']]

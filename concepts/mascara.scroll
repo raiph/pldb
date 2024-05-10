@@ -1,38 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mascara
-
-title Mascara - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="listdown.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="paperalgo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mascara.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20170202011225/http://www.mascaraengine.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mascara" class="material-symbols-outlined">edit</a></div>
-
-* Mascara is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Olav Junker Kjær.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#olavJunkerKjaer Olav Junker Kjær
-
-dashboard
- #2776 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 15 Years Old
-
-* 
-
-- Mascara website
- https://web.archive.org/web/20170202011225/http://www.mascaraengine.com/
-- Mascara first developed in <a href="../lists/originCommunities.html#httpOlavDk">http://olav.dk/</a>
-
-<br>
-
-endColumns
-
-keyboardNav listdown.html paperalgo.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Mascara
+appeared 2009
+type pl
+creators Olav Junker Kjær
+website https://web.archive.org/web/20170202011225/http://www.mascaraengine.com/
+country Denmark
+originCommunity http://olav.dk/

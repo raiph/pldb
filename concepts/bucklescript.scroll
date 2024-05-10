@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bucklescript
+import ../measures/conceptPage.scroll
+id Bucklescript
+appeared 2010
+type pl
+creators Evan Martin
+website https://bucklescript.github.io
+country Unknown
+originCommunity ReScript Association
+domainName bucklescript.github.io
 
-title Bucklescript - Programming language
- hidden
+githubRepo https://github.com/BuckleScript/bucklescript
+ firstCommit 2010
+ stars 5798
+ forks 406
+ subscribers 131
+ created 2016
+ updated 2022
+ description The compiler for ReScript.
+ issues 334
 
-html
- <a class="trueBaseThemePreviousItem" href="jruby.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="telnet-protocol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bucklescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://bucklescript.github.io" class="material-symbols-outlined">home</a> <a href="https://github.com/BuckleScript/bucklescript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bucklescript" class="material-symbols-outlined">edit</a></div>
-
-* Bucklescript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Evan Martin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#evanMartin Evan Martin
-
-codeWithHeader Source code:
- git clone https://github.com/BuckleScript/bucklescript
-
-dashboard
- #657 <span title="TotalRank: 1237 Jobs: 103 Users: 148 Facts: 1591 Links: 986">on PLDB</span>
- 14 Years Old
-
-* The compiler for ReScript.
-
-- Bucklescript website
- https://bucklescript.github.io
-- Bucklescript is developed on <a href="https://github.com/BuckleScript/bucklescript">GitHub</a> and has 5,798 stars
-- Bucklescript first developed in <a href="../lists/originCommunities.html#reScriptAssociation">ReScript Association</a>
-
-<br>
-
-endColumns
-
-keyboardNav jruby.html telnet-protocol.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 14027
+ committers 415
+ files 5633

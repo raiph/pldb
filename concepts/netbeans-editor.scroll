@@ -1,44 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title netbeans-editor
+import ../measures/conceptPage.scroll
+id netbeans-editor
+appeared 2013
+type editor
+demoVideo https://www.youtube.com/user/NetBeansVideos
+creators pgebauer
+website https://netbeans.apache.org
+country United States
+originCommunity The Apache Software Foundation
 
-title netbeans-editor - Editor
- hidden
+githubRepo https://github.com/apache/netbeans
+ firstCommit 2017
+ stars 2111
+ forks 732
+ subscribers 153
+ created 2017
+ updated 2022
+ description Apache NetBeans
+ issues 530
 
-html
- <a class="trueBaseThemePreviousItem" href="alef.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shen.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/netbeans-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://netbeans.apache.org" class="material-symbols-outlined">home</a> <a href="https://github.com/apache/netbeans" class="material-symbols-outlined">code</a> <a href="/edit.html?id=netbeans-editor" class="material-symbols-outlined">edit</a></div>
-
-* netbeans-editor is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2013 by pgebauer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#pgebauer pgebauer
-
-codeWithHeader Source code:
- git clone https://github.com/apache/netbeans
-
-dashboard
- #963 on PLDB
- 11 Years Old
-
-* Apache NetBeans
-
-- netbeans-editor website
- https://netbeans.apache.org
-- netbeans-editor is developed on <a href="https://github.com/apache/netbeans">GitHub</a> and has 2,111 stars
-- Video demo of netbeans-editor
- https://www.youtube.com/user/NetBeansVideos
-- netbeans-editor first developed in <a href="../lists/originCommunities.html#theApacheSoftwareFoundation">The Apache Software Foundation</a>
-
-<br>
-
-endColumns
-
-keyboardNav alef.html shen.html
-
-import ../footer.scroll
+isOpenSource true

@@ -1,63 +1,53 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ApacheConf
+import ../measures/conceptPage.scroll
+id ApacheConf
+appeared 1995
+type application
+website https://httpd.apache.org/
+reference https://en.wikipedia.org/wiki/Apache_HTTP_Server
+country United States
+originCommunity Apache Software Foundation
+domainName httpd.apache.org
 
-title ApacheConf - Application
- hidden
+githubLanguage ApacheConf
+ fileExtensions apacheconf vhost
+ trendingProjectsCount 0
+ type data
+ filenames .htaccess apache2.conf httpd.conf
+ aceMode apache_conf
+ tmScope source.apache-config
+ aliases aconf or apache
+githubBigQuery ApacheConf
+ repos 68565
+ users 55081
 
-html
- <a class="trueBaseThemePreviousItem" href="objdump.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nymph.html">&gt;</a>
+pygmentsHighlighter ApacheConf
+ filename configs.py
+ fileExtensions .htaccess apache.conf apache2.conf
+linguistGrammarRepo https://github.com/textmate/apache.tmbundle
+ firstCommit 2005
+ lastCommit 2016
+ committerCount 10
+ commitCount 93
+ sampleCount 1
+ example
+  #######################
+  # HOSTNAME
+  ######################
+  
+  <VirtualHost 127.0.0.1:PORT>
+      ServerAdmin patrick@heysparkbox.com
+      DocumentRoot "/var/www/HOSTNAME"
+      ServerName HOSTNAME
+  
+      <Directory "/var/www/HOSTNAME">
+         Options Indexes MultiViews FollowSymLinks
+         AllowOverride All
+         Order allow,deny
+         Allow from all
+         DirectoryIndex index.php
+     </Directory>
+  </VirtualHost>
+  
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apacheconf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://httpd.apache.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=apacheconf" class="material-symbols-outlined">edit</a></div>
-
-* ApacheConf is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #1370 on PLDB
- 29 Years Old
-
-* 
-
-- ApacheConf website
- https://httpd.apache.org/
-- ApacheConf first developed in <a href="../lists/originCommunities.html#apacheSoftwareFoundation">Apache Software Foundation</a>
-- file extensions for ApacheConf include apacheconf, vhost, .htaccess, apache.conf and apache2.conf
-- The  Google BigQuery Public Dataset GitHub snapshot shows 55k users using ApacheConf in 69k repos on <a href="https://api.github.com/search/repositories?q=language:ApacheConf">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/configs.py">syntax highlighting</a> for ApacheConf
-- GitHub supports <a href="https://github.com/textmate/apache.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for ApacheConf
-- Read more about ApacheConf on the web: 1.
- https://en.wikipedia.org/wiki/Apache_HTTP_Server 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/textmate/apache.tmbundle'>Linguist</a>:
- #######################
- # HOSTNAME
- ######################
- 
- &lt;VirtualHost 127.0.0.1:PORT&gt;
-     ServerAdmin patrick@heysparkbox.com
-     DocumentRoot &quot;/var/www/HOSTNAME&quot;
-     ServerName HOSTNAME
- 
-     &lt;Directory &quot;/var/www/HOSTNAME&quot;&gt;
-        Options Indexes MultiViews FollowSymLinks
-        AllowOverride All
-        Order allow,deny
-        Allow from all
-        DirectoryIndex index.php
-    &lt;/Directory&gt;
- &lt;/VirtualHost&gt;
- 
-
-endColumns
-
-keyboardNav objdump.html nymph.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

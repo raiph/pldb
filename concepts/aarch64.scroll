@@ -1,37 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AArch64
+import ../measures/conceptPage.scroll
+id AArch64
+appeared 2011
+type assembly
+reference https://en.wikipedia.org/wiki/ARM_architecture#64.2F32-bit_architecture
+originCommunity Acorn Computers or Arm Ltd
 
-title AArch64 - Assembly language
- hidden
+fileType text
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="rql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="class.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aarch64.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aarch64" class="material-symbols-outlined">edit</a></div>
-
-* AArch64 is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #2720 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- AArch64 first developed in <a href="../lists/originCommunities.html#acornComputersOrArmLtd">Acorn Computers or Arm Ltd</a>
-- Read more about AArch64 on the web: 1.
- https://en.wikipedia.org/wiki/ARM_architecture#64.2F32-bit_architecture 1.
-
-<br>
-
-endColumns
-
-keyboardNav rql.html class.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ ARM Assembly Language Programming & Architecture (Mazidi & Naimi ARM Books)|2013|Muhammad Ali Mazidi|26863964|4.17|30|6
+ Digital Design and Computer Architecture: ARM Edition|2015|Sarah L. Harris|45521398|4.75|4|0
+ Arm Microprocessor Systems: Cortex-M Architecture, Programming, and Interfacing||Muhammad Tahir|52569166|3.50|2|0
+ Computer Organization and Design: The Hardware Software Interface: ARM Edition (The Morgan Kaufmann Series in Computer Architecture and Design)||David A. Patterson|50635907|4.22|9|1
+ ARM embedded microprocessor architecture and assembly language programming|2010|GUAN YONG DENG|46186950|0.0|0|0
+ Arm Architecture: RISC-Based Computer Design||Carlton Neuenfeldt|54116299|0.0|0|0

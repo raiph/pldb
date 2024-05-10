@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lllpg
+import ../measures/conceptPage.scroll
+id lllpg
+appeared 2012
+type library
+creators David Piepgrass
+conceptDescription LLLPG is a recursive-decent LL(k) parser generator for C# that generates efficient code and integrates with Visual Studio.
+website http://ecsharp.net/lllpg/
+country Canada
+originCommunity https://github.com/qwertie/ecsharp/issues
 
-title lllpg - Library
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="koi.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="maven-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lllpg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://ecsharp.net/lllpg/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=lllpg" class="material-symbols-outlined">edit</a></div>
-
-* lllpg is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2012 by David Piepgrass.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#davidPiepgrass David Piepgrass
-
-dashboard
- #3347 on PLDB
- 12 Years Old
-
-* LLLPG is a recursive-decent LL(k) parser generator for C# that generates efficient code and integrates with Visual Studio.
-
-- lllpg website
- http://ecsharp.net/lllpg/
-- lllpg first developed in <a href="../lists/originCommunities.html#httpsGithubComQwertieEcsharpIssues">https://github.com/qwertie/ecsharp/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav koi.html maven-pm.html
-
-import ../footer.scroll
+influencedBy antlr

@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ssl-lang
+import ../measures/conceptPage.scroll
+id ssl-lang
+appeared 1976
+type pl
+conceptDescription SSL (Software Specification Language) is a new formalism for the definition of specifications for software systems. The language provides a linear format for the representation of the information normally displayed in a two-dimensional module inter-dependency diagram. In comparing SSL to FORTRAN or ALGOL, it is found to be largely complementary to the algorithmic (procedural) languages. SSL is capable of representing explicitly module interconnections and global data flow, information which is deeply imbedded in the algorithmic languages. On the other hand, SSL is not designed to depict the control flow within modules. The SSL level of software design explicitly depicts intermodule data flow as a functional specification.
+reference https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19760014843.pdf
+country United States
+originCommunity Science Applications, Inc
 
-title ssl-lang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="red-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kermeta.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ssl-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ssl-lang" class="material-symbols-outlined">edit</a></div>
-
-* ssl-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #2449 <span title="TotalRank: 2979 Jobs: 103 Users: 2838 Facts: 1890 Links: 986">on PLDB</span>
- 48 Years Old
-
-* SSL (Software Specification Language) is a new formalism for the definition of specifications for software systems. The language provides a linear format for the representation of the information normally displayed in a two-dimensional module inter-dependency diagram. In comparing SSL to FORTRAN or ALGOL, it is found to be largely complementary to the algorithmic (procedural) languages. SSL is capable of representing explicitly module interconnections and global data flow, information which is deeply imbedded in the algorithmic languages. On the other hand, SSL is not designed to depict the control flow within modules. The SSL level of software design explicitly depicts intermodule data flow as a functional specification.
-
-- ssl-lang first developed in <a href="../lists/originCommunities.html#scienceApplicationsInc">Science Applications, Inc</a>
-- Read more about ssl-lang on the web: 1.
- https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19760014843.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  a+b*
  
  3.0 * sin ( r + 1.0)
@@ -41,8 +18,5 @@ codeWithHeader Example from the web:
  
  name set + [oe, fred)
 
-endColumns
-
-keyboardNav red-lang.html kermeta.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

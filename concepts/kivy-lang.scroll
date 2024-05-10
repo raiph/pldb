@@ -1,57 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kivy-lang
+import ../measures/conceptPage.scroll
+id kivy-lang
+appeared 2010
+type pl
+conceptDescription A meta language that look like QML in QT
+reference https://github.com/kivy/kivy/blob/master/kivy/data/style.kv
+country Various
+originCommunity https://github.com/kivy
 
-title kivy-lang - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="bossam.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="phylip.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kivy-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kivy-lang" class="material-symbols-outlined">edit</a></div>
-
-* kivy-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2506 <span title="TotalRank: 3071 Jobs: 103 Users: 2838 Facts: 1982 Links: 986">on PLDB</span>
- 14 Years Old
-
-* A meta language that look like QML in QT
-
-- kivy-lang first developed in <a href="../lists/originCommunities.html#httpsGithubComKivy">https://github.com/kivy</a>
-- Read more about kivy-lang on the web: 1.
- https://github.com/kivy/kivy/blob/master/kivy/data/style.kv 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #:kivy 1.0
  Widget:
      Button:
-         text: &quot;Hello World&quot;
+         text: "Hello World"
      Button:
-         text: &quot;I&#39;m another label&quot;
+         text: "I'm another label"
          pos: (200, 200)
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav bossam.html phylip.html
-
-import ../footer.scroll

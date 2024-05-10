@@ -1,62 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JCOF
+import ../measures/conceptPage.scroll
+id JCOF
+appeared 2022
+type dataNotation
+creators Martin Dørum
+reference https://news.ycombinator.com/item?id=32109406
+standsFor JSON-like Compact Object Format
+country Norway
+originCommunity https://github.com/mortie/jcof/issues
 
-title JCOF - Data notation
- hidden
+hasComments false
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="shacl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fardlang.html">&gt;</a>
+example
+ Programmer;"age""first-name""full-time""occupation";
+ {"people"[(0,iw"Bob"b"Plumber")(0,is"Alice"b,s0)(0,iA"Bernard"n,n)(0,iV"El"B,s0)]}
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jcof.pldb
+githubRepo https://github.com/mortie/jcof
+ firstCommit 2022
+ stars 12
+ forks 1
+ subscribers 1
+ created 2022
+ updated 2022
+ description An efficient drop-in replacement for JSON.
+ issues 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mortie/jcof" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jcof" class="material-symbols-outlined">edit</a></div>
-
-* JCOF, aka JSON-like Compact Object Format, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2022 by Martin Dørum.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#martinDorum Martin Dørum
-
-codeWithHeader Source code:
- git clone https://github.com/mortie/jcof
-
-dashboard
- #1824 <span title="TotalRank: 2345 Jobs: 103 Users: 2255 Facts: 1256 Links: 986">on PLDB</span>
- 2 Years Old
-
-* An efficient drop-in replacement for JSON.
-
-- JCOF is developed on <a href="https://github.com/mortie/jcof">GitHub</a> and has 12 stars
-- JCOF first developed in <a href="../lists/originCommunities.html#httpsGithubComMortieJcofIssues">https://github.com/mortie/jcof/issues</a>
-- Read more about JCOF on the web: 1.
- https://news.ycombinator.com/item?id=32109406 1.
-
-<br>
-
-codeWithHeader Example from the web:
- Programmer;&quot;age&quot;&quot;first-name&quot;&quot;full-time&quot;&quot;occupation&quot;;
- {&quot;people&quot;[(0,iw&quot;Bob&quot;b&quot;Plumber&quot;)(0,is&quot;Alice&quot;b,s0)(0,iA&quot;Bernard&quot;n,n)(0,iV&quot;El&quot;B,s0)]}
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav shacl.html fardlang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 14
+ committers 1
+ files 18

@@ -1,47 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Explorer
+import ../measures/conceptPage.scroll
+id Explorer
+appeared 2020
+type visual
+screenshot https://pldb.io/screenshots/explorer.png
+demoVideo https://www.youtube.com/watch?v=0l2QWH-iV3k
+creators Hannah Ritchie and Breck Yunits and Shahid Ahmad
+conceptDescription Programs are encoded as TSVs so are easy to read+write from a spreadsheet IDE, code, or plain text editor.
+reference https://github.com/owid/owid-grapher/tree/master/explorer
+aka Hannah
+originCommunity Our World In Data
 
-title Explorer - Visual programming language
- hidden
+relatedConcepts 6gunz
+influencedBy treesheets
 
-html
- <a class="trueBaseThemePreviousItem" href="picat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chicken.html">&gt;</a>
+visualParadigm true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/explorer.pldb
+hasTernaryOperators false
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=explorer" class="material-symbols-outlined">edit</a></div>
-
-* Explorer is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2020 by Hannah Ritchie and Breck Yunits and Shahid Ahmad.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#hannahRitchie Hannah Ritchie
- link ../lists/creators.html#breckYunits Breck Yunits
- link ../lists/creators.html#shahidAhmad Shahid Ahmad
-
-dashboard
- #1582 <span title="TotalRank: 2084 Jobs: 103 Users: 2838 Facts: 995 Links: 986">on PLDB</span>
- 4 Years Old
-
-openGraphImage https://pldb.io/screenshots/explorer.png
-image ../screenshots/explorer.png
- caption A screenshot of the visual language Explorer.
-  link /search.html?q=select+type%0D%0Awhere+type+%3D+visual visual language
-
-* Programs are encoded as TSVs so are easy to read+write from a spreadsheet IDE, code, or plain text editor.
-
-- Video demo of Explorer
- https://www.youtube.com/watch?v=0l2QWH-iV3k
-- Explorer first developed in <a href="../lists/originCommunities.html#ourWorldInData">Our World In Data</a>
-- See also: (1 related languages)<a href="6gunz.html">6gunz</a>
-- Read more about Explorer on the web: 1.
- https://github.com/owid/owid-grapher/tree/master/explorer 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  selection	Canada~India			
  title	Population of different countries			
  subtitle	How many people live in each country?			
@@ -61,18 +37,4 @@ codeWithHeader Example from the web:
  	Year	Year	Year	Unreviewed
  	MapleleafsInFlag	Numeric	MapleleafsInFlag	Unreviewed
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Ternary operators
-  FeatureLink ../features/hasTernaryOperators.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav picat.html chicken.html
-
-import ../footer.scroll
+isOpenSource true

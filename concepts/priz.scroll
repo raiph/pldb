@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PRIZ
+import ../measures/conceptPage.scroll
+id PRIZ
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/028c3b540466b1c2a86aed61c619c3fc76e657a3
+country Former Union of Soviet Socialist Republics or Estonia
+originCommunity Estonian Academy of Sciences
 
-title PRIZ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4010
 
-html
- <a class="trueBaseThemePreviousItem" href="pose.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="profit.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/priz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=priz" class="material-symbols-outlined">edit</a></div>
-
-* PRIZ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #4263 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- PRIZ first developed in <a href="../lists/originCommunities.html#estonianAcademyOfSciences">Estonian Academy of Sciences</a>
-- PRIZ on HOPL
- https://hopl.info/showlanguage.prx?exp=4010
-- Read more about PRIZ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/028c3b540466b1c2a86aed61c619c3fc76e657a3 1.
-
-<br>
-
-endColumns
-
-keyboardNav pose.html profit.html
-
-import ../footer.scroll
+semanticScholar 0

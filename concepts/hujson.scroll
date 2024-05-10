@@ -1,68 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HuJSON
+import ../measures/conceptPage.scroll
+id HuJSON
+appeared 2019
+type dataNotation
+creators David Crawshaw
+reference https://nigeltao.github.io/blog/2021/json-with-commas-comments.html
+country Various
+originCommunity https://github.com/tailscale
 
-title HuJSON - Data notation
- hidden
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ // A comment
 
-html
- <a class="trueBaseThemePreviousItem" href="poplog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kal.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hujson.pldb
+githubRepo https://github.com/tailscale/hujson
+ firstCommit 2019
+ stars 401
+ forks 15
+ subscribers 28
+ created 2019
+ updated 2022
+ description HuJSON: JSON for Humans (JWCC: JSON w/ comments and trailing commas)
+ issues 2
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/tailscale/hujson" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hujson" class="material-symbols-outlined">edit</a></div>
-
-* HuJSON is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2019 by David Crawshaw.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#davidCrawshaw David Crawshaw
-
-codeWithHeader Source code:
- git clone https://github.com/tailscale/hujson
-
-dashboard
- #1350 <span title="TotalRank: 1890 Jobs: 103 Users: 801 Facts: 1123 Links: 986">on PLDB</span>
- 5 Years Old
-
-* HuJSON: JSON for Humans (JWCC: JSON w/ comments and trailing commas)
-
-- HuJSON is developed on <a href="https://github.com/tailscale/hujson">GitHub</a> and has 401 stars
-- HuJSON first developed in <a href="../lists/originCommunities.html#httpsGithubComTailscale">https://github.com/tailscale</a>
-- Read more about HuJSON on the web: 1.
- https://nigeltao.github.io/blog/2021/json-with-commas-comments.html 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
-
-keyboardNav poplog.html kal.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 39
+ committers 10
+ files 21

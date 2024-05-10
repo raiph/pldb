@@ -1,47 +1,44 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Natural Language Toolkit
+import ../measures/conceptPage.scroll
+id Natural Language Toolkit
+appeared 2001
+type library
+website http://www.nltk.org/
+country Various
+originCommunity https://www.nltk.org/team.html
+domainName nltk.org
+ registered 2007
+ awisRank
+  2022 88205
 
-title Natural Language Toolkit - Library
- hidden
+writtenIn python
 
-html
- <a class="trueBaseThemePreviousItem" href="croc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hypercard.html">&gt;</a>
+githubRepo https://github.com/nltk/nltk
+ stars 10863
+ forks 2617
+ subscribers 470
+ created 2009
+ updated 2022
+ firstCommit 2001
+ description NLTK Source
+ issues 233
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nltk.pldb
+wikipedia https://en.wikipedia.org/wiki/Natural_Language_Toolkit
+ related python
+ summary The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in the Python programming language. It was developed by Steven Bird and Edward Loper in the Department of Computer and Information Science at the University of Pennsylvania. NLTK includes graphical demonstrations and sample data. It is accompanied by a book that explains the underlying concepts behind the language processing tasks supported by the toolkit, plus a cookbook. NLTK is intended to support research and teaching in NLP or closely related areas, including empirical linguistics, cognitive science, artificial intelligence, information retrieval, and machine learning. NLTK has been used successfully as a teaching tool, as an individual study tool, and as a platform for prototyping and building research systems. There are 32 universities in the US and 25 countries using NLTK in their courses. NLTK supports classification, tokenization, stemming, tagging, parsing, and semantic reasoning functionalities..
+ pageId 1661566
+ dailyPageViews 111
+ created 2005
+ backlinksCount 36
+ revisionCount 127
+ appeared 2007
 
-startColumns 4
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.nltk.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/nltk/nltk" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/Natural_Language_Toolkit"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=nltk" class="material-symbols-outlined">edit</a></div>
-
-* Natural Language Toolkit is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-codeWithHeader Source code:
- git clone https://github.com/nltk/nltk
-
-dashboard
- #453 on PLDB
- 23 Years Old
-
-* The Natural Language Toolkit, or more commonly NLTK, is a suite of libraries and programs for symbolic and statistical natural language processing (NLP) for English written in the Python programming language. It was developed by Steven Bird and Edward Loper in the Department of Computer and Information Science at the University of Pennsylvania. NLTK includes graphical demonstrations and sample data. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Natural_Language_Toolkit Read more on Wikipedia...
-
-- Natural Language Toolkit website
- http://www.nltk.org/
-- Natural Language Toolkit Wikipedia page
- https://en.wikipedia.org/wiki/Natural_Language_Toolkit
-- Natural Language Toolkit is developed on <a href="https://github.com/nltk/nltk">GitHub</a> and has 10,863 stars
-- Natural Language Toolkit first developed in <a href="../lists/originCommunities.html#httpsWwwNltkOrgTeamHtml">https://www.nltk.org/team.html</a>
-- Natural Language Toolkit is written in <a href="python.html">Python</a>
-- <a href="http://www.nltk.org/">nltk.org</a> was registered in 2007
-- See also: (1 related languages)<a href="python.html">Python</a>
-
-<br>
-
-endColumns
-
-keyboardNav croc.html hypercard.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Python Text Processing with NLTK 2.0 Cookbook: Over 80 Practical Recipes for Using Python's NLTK Suite of Libraries to Maximize Your Natural Language Processing Capabilities|2010|Jacob Perkins|14692614|3.91|43|2
+ Natural Language Processing: Python and Nltk||Nitin Hardeniya|53857081|0.0|0|0
+ Natural Language Processing: Python and NLTK||Nitin Hardeniya|54033345|3.00|1|0
+ Natural Language Processing With Python: Natural Language Processing Using NLTK||Frank Millstein|60775831|5.00|2|0

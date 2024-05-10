@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSyn
+import ../measures/conceptPage.scroll
+id JSyn
+appeared 2010
+type pl
+reference http://www.softsynth.com/jsyn/docs/compiling.php
+country United States
+originCommunity https://github.com/philburk/jsyn/issues
 
-title JSyn - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6396
 
-html
- <a class="trueBaseThemePreviousItem" href="joss-ii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="juno.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jsyn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=jsyn" class="material-symbols-outlined">edit</a></div>
-
-* JSyn is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3754 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 14 Years Old
-
-* 
-
-- JSyn first developed in <a href="../lists/originCommunities.html#httpsGithubComPhilburkJsynIssues">https://github.com/philburk/jsyn/issues</a>
-- JSyn on HOPL
- https://hopl.info/showlanguage.prx?exp=6396
-- Read more about JSyn on the web: 1.
- http://www.softsynth.com/jsyn/docs/compiling.php 1.
-
-<br>
-
-endColumns
-
-keyboardNav joss-ii.html juno.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

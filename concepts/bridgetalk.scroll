@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BridgeTalk
+import ../measures/conceptPage.scroll
+id BridgeTalk
+appeared 1987
+type pl
+creators Jeffrey G. Bonar and Blaise W. Liffick
+conceptDescription A Visual Programming Language for Novices
+reference http://www.dtic.mil/dtic/tr/fulltext/u2/a218940.pdf
+country United States
+originCommunity Defense Technical Information Center
 
-title BridgeTalk - Programming language
- hidden
+visualParadigm true
 
-html
- <a class="trueBaseThemePreviousItem" href="babel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="combined-log-format.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=1871
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bridgetalk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bridgetalk" class="material-symbols-outlined">edit</a></div>
-
-* BridgeTalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987 by Jeffrey G. Bonar and Blaise W. Liffick.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
- link ../lists/creators.html#jeffreyGBonar Jeffrey G. Bonar
- link ../lists/creators.html#blaiseWLiffick Blaise W. Liffick
-
-dashboard
- #3050 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 37 Years Old
-
-* A Visual Programming Language for Novices
-
-- BridgeTalk first developed in <a href="../lists/originCommunities.html#defenseTechnicalInformationCenter">Defense Technical Information Center</a>
-- BridgeTalk on HOPL
- https://hopl.info/showlanguage.prx?exp=1871
-- Read more about BridgeTalk on the web: 1.
- http://www.dtic.mil/dtic/tr/fulltext/u2/a218940.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav babel.html combined-log-format.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

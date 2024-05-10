@@ -1,44 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alpaca
+import ../measures/conceptPage.scroll
+id Alpaca
+appeared 2017
+type pl
+creators Jeremy Pierre
+website http://alpaca-lang.org
+reference https://github.com/j14159/abstract-alpaca
+oldName ML-flavoured Erlang
+country Canada
+originCommunity https://github.com/alpaca-lang
 
-title Alpaca - Programming language
- hidden
+compilesTo beam-bytecode
 
-html
- <a class="trueBaseThemePreviousItem" href="fuzuli.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="topaz-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alpaca.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://alpaca-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/alpaca-lang/alpaca" class="material-symbols-outlined">code</a> <a href="/edit.html?id=alpaca" class="material-symbols-outlined">edit</a></div>
-
-* Alpaca is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Jeremy Pierre.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#jeremyPierre Jeremy Pierre
-
-codeWithHeader Source code:
- git clone https://github.com/alpaca-lang/alpaca
-
-dashboard
- #1459 <span title="TotalRank: 1980 Jobs: 103 Users: 2415 Facts: 891 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- Alpaca website
- http://alpaca-lang.org
-- Alpaca is developed on <a href="https://github.com/alpaca-lang/alpaca">GitHub</a>
-- Alpaca first developed in <a href="../lists/originCommunities.html#httpsGithubComAlpacaLang">https://github.com/alpaca-lang</a>
-- Alpaca compiles to <a href="beam-bytecode.html">BEAM Bytecode</a>
-- Read more about Alpaca on the web: 1.
- https://github.com/j14159/abstract-alpaca 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example 
  module simple_example
  
  -- a basic top-level function:
@@ -52,22 +25,18 @@ codeWithHeader Example from the web:
    add2 x
  
  -- a polymorphic ADT:
- type messages &#39;x = &#39;x | Fetch pid &#39;x
+ type messages 'x = 'x | Fetch pid 'x
  
  {- A function that can be spawned to receive `messages int`
      messages, that increments its state by received integers
      and can be queried for its state.
  -}
  let will_be_a_process x = receive with
-     i -&gt; will_be_a_process (x + i)
-   | Fetch sender -&gt;
+     i -> will_be_a_process (x + i)
+   | Fetch sender ->
      let sent = send x sender in
      will_be_a_process x
  
  let start_a_process init = spawn will_be_a_process init
 
-endColumns
-
-keyboardNav fuzuli.html topaz-lang.html
-
-import ../footer.scroll
+githubRepo https://github.com/alpaca-lang/alpaca

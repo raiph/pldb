@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COMSKEE
+import ../measures/conceptPage.scroll
+id COMSKEE
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/36257298def4b321665a2841c5a6e33a19cd66b1
+country Unknown
+originCommunity electronic language research Innovative information infrastructure
 
-title COMSKEE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3808
 
-html
- <a class="trueBaseThemePreviousItem" href="computest.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="concurrent-cpp.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/comskee.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=comskee" class="material-symbols-outlined">edit</a></div>
-
-* COMSKEE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #4103 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- COMSKEE first developed in <a href="../lists/originCommunities.html#electronicLanguageResearchInnovativeInformationInfrastructure">electronic language research Innovative information infrastructure</a>
-- COMSKEE on HOPL
- https://hopl.info/showlanguage.prx?exp=3808
-- Read more about COMSKEE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/36257298def4b321665a2841c5a6e33a19cd66b1 1.
-
-<br>
-
-endColumns
-
-keyboardNav computest.html concurrent-cpp.html
-
-import ../footer.scroll
+isbndb 0

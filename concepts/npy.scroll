@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title npy
+import ../measures/conceptPage.scroll
+id npy
+appeared 2008
+type binaryDataFormat
+conceptDescription A simple format for saving numpy arrays to disk with the full information about them. The .npy format is the standard binary file format in NumPy for persisting a single arbitrary NumPy array on disk.
+reference https://docs.scipy.org/doc/numpy/reference/generated/numpy.lib.format.html#module-numpy.lib.format
+fileExtensions npy
+country Various
+originCommunity https://github.com/numpy
 
-title npy - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nsl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/npy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=npy" class="material-symbols-outlined">edit</a></div>
-
-* npy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #4754 on PLDB
- 16 Years Old
-
-* A simple format for saving numpy arrays to disk with the full information about them. The .npy format is the standard binary file format in NumPy for persisting a single arbitrary NumPy array on disk.
-
-- npy first developed in <a href="../lists/originCommunities.html#httpsGithubComNumpy">https://github.com/numpy</a>
-- file extensions for npy include npy
-- Read more about npy on the web: 1.
- https://docs.scipy.org/doc/numpy/reference/generated/numpy.lib.format.html#module-numpy.lib.format 1.
-
-<br>
-
-endColumns
-
-keyboardNav nil.html nsl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

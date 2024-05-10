@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Oaklisp
+import ../measures/conceptPage.scroll
+id Oaklisp
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/9ff0f14de60543923c8f9437edea50298d0ec73e
+country United States
+originCommunity Carnegie-Mellon University
 
-title Oaklisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1246
 
-html
- <a class="trueBaseThemePreviousItem" href="numerica.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="obj2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/oaklisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=oaklisp" class="material-symbols-outlined">edit</a></div>
-
-* Oaklisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3877 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Oaklisp first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie-Mellon University</a>
-- Oaklisp on HOPL
- https://hopl.info/showlanguage.prx?exp=1246
-- Read more about Oaklisp on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9ff0f14de60543923c8f9437edea50298d0ec73e 1.
-
-<br>
-
-endColumns
-
-keyboardNav numerica.html obj2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

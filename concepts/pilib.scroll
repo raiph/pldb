@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PiLib
+import ../measures/conceptPage.scroll
+id PiLib
+appeared 2002
+type pl
+reference https://semanticscholar.org/paper/38ae8b57d327d3dfa9a5d083488ff46dc8daab4a
+country Switzerland
+originCommunity Ecole Polytechnique Federale de Lausanne
 
-title PiLib - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6815
 
-html
- <a class="trueBaseThemePreviousItem" href="picturebalm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pl-exus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pilib.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pilib" class="material-symbols-outlined">edit</a></div>
-
-* PiLib is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3936 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 22 Years Old
-
-* 
-
-- PiLib first developed in <a href="../lists/originCommunities.html#ecolePolytechniqueFederaleDeLausanne">Ecole Polytechnique Federale de Lausanne</a>
-- PiLib on HOPL
- https://hopl.info/showlanguage.prx?exp=6815
-- Read more about PiLib on Semantic Scholar: 1.
- https://semanticscholar.org/paper/38ae8b57d327d3dfa9a5d083488ff46dc8daab4a 1.
-
-<br>
-
-endColumns
-
-keyboardNav picturebalm.html pl-exus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

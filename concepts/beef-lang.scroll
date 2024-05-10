@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BEEF
+import ../measures/conceptPage.scroll
+id BEEF
+appeared 1961
+type pl
+reference https://semanticscholar.org/paper/cc99ab4b69a92f11fdf90f40e3fed8e6fae361bd
+country United States
+originCommunity Westinghouse Electric Corporation
 
-title BEEF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3356
 
-html
- <a class="trueBaseThemePreviousItem" href="basel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beta-project.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/beef-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=beef-lang" class="material-symbols-outlined">edit</a></div>
-
-* BEEF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1961.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1961 1961
-
-dashboard
- #4083 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 63 Years Old
-
-* 
-
-- BEEF first developed in <a href="../lists/originCommunities.html#westinghouseElectricCorporation">Westinghouse Electric Corporation</a>
-- BEEF on HOPL
- https://hopl.info/showlanguage.prx?exp=3356
-- Read more about BEEF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cc99ab4b69a92f11fdf90f40e3fed8e6fae361bd 1.
-
-<br>
-
-endColumns
-
-keyboardNav basel.html beta-project.html
-
-import ../footer.scroll
+wordRank 5584
+centralPackageRepositoryCount 0

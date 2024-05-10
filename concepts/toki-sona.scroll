@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title toki sona
+import ../measures/conceptPage.scroll
+id toki sona
+appeared 2021
+type pl
+creators Dylan Madisetti
+conceptDescription `toki pona` is a constructed human language with 140 words: Introducing`toki sona` a toki pona inspired programming language with 14 tokens and a 1000 character interpreter
+website https://observablehq.com/@dmadisetti/sona
+reference https://reddit.com/r/ProgrammingLanguages/comments/pph5c3/toki_pona_is_a_constructed_human_language_with/
 
-title toki sona - Programming language
- hidden
+githubRepo https://github.com/dmadisetti/sona.js
+ firstCommit 2021
+ stars 57
+ forks 0
+ subscribers 1
+ created 2021
+ updated 2022
+ description a simple language with a 1000 character interpreter inspired by toki pona
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="flame-ir.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cgol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/toki-sona.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://observablehq.com/@dmadisetti/sona" class="material-symbols-outlined">home</a> <a href="https://github.com/dmadisetti/sona.js" class="material-symbols-outlined">code</a> <a href="/edit.html?id=toki-sona" class="material-symbols-outlined">edit</a></div>
-
-* toki sona is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Dylan Madisetti.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#dylanMadisetti Dylan Madisetti
-
-codeWithHeader Source code:
- git clone https://github.com/dmadisetti/sona.js
-
-dashboard
- #2236 <span title="TotalRank: 2758 Jobs: 103 Users: 1796 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* `toki pona` is a constructed human language with 140 words: Introducing`toki sona` a toki pona inspired programming language with 14 tokens and a 1000 character interpreter
-
-- toki sona website
- https://observablehq.com/@dmadisetti/sona
-- toki sona is developed on <a href="https://github.com/dmadisetti/sona.js">GitHub</a> and has 57 stars
-- Read more about toki sona on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/pph5c3/toki_pona_is_a_constructed_human_language_with/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav flame-ir.html cgol.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 14
+ committers 2
+ files 13

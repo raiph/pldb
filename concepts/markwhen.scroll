@@ -1,56 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Markwhen
+import ../measures/conceptPage.scroll
+id Markwhen
+appeared 2022
+type textMarkup
+creators Rob Koch
+conceptDescription Make a cascading timeline from Markdown-like text.
+website https://markwhen.com/
+webRepl https://markwhen.com/example
+country United States
+originCommunity https://github.com/mark-when
 
-title Markwhen - Text markup language
- hidden
+influencedBy markdown
 
-html
- <a class="trueBaseThemePreviousItem" href="yasnippet.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oxygene.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/markwhen.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://markwhen.com/" class="material-symbols-outlined">home</a> <a href="https://markwhen.com/example" class="material-symbols-outlined">terminal</a> <a href="https://github.com/mark-when/markwhen" class="material-symbols-outlined">code</a> <a href="/edit.html?id=markwhen" class="material-symbols-outlined">edit</a></div>
-
-* Markwhen is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2022 by Rob Koch.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#robKoch Rob Koch
-
-codeWithHeader Source code:
- git clone https://github.com/mark-when/markwhen
-
-dashboard
- #352 <span title="TotalRank: 814 Jobs: 103 Users: 312 Facts: 399 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Try now: <a href="https://markwhen.com/example">Web</a>
-
-* Make a cascading timeline from Markdown-like text.
-
-- Markwhen website
- https://markwhen.com/
-- Markwhen is developed on <a href="https://github.com/mark-when/markwhen">GitHub</a> and has 2,263 stars
-- Markwhen first developed in <a href="../lists/originCommunities.html#httpsGithubComMarkWhen">https://github.com/mark-when</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  title: Welcome to Markwhen 👋
  
  #Project1: #d336b1
  
  section Welcome #welcome
- now: This example timeline showcases some of markwhen&#39;s features.
+ now: This example timeline showcases some of markwhen's features.
  
  Feel free to delete everything to start making your own timeline #welcome
  
  
  now: You can also view this example timeline at [markwhen.com/example](https://markwhen.com/example) #welcome
  
- Or you can save this timeline so you can refer to it later, by going to Browser storage &amp; files, and clicking Save current.
+ Or you can save this timeline so you can refer to it later, by going to Browser storage & files, and clicking Save current.
  
  now: For more information, view the documentation [here](https://docs.markwhen.com) or join the [discord](https://discord.gg/kQbqP4uz)
  #welcome
@@ -92,8 +66,17 @@ codeWithHeader Example from the web:
  
  2023-01-03 every other week for 1 year: Biweekly meeting
 
-endColumns
+githubRepo https://github.com/mark-when/markwhen
+ stars 2263
+ forks 90
+ subscribers 24
+ created 2021
+ updated 2023
+ description Make a cascading timeline from markdown-like text. Supports simple American/European date styles, ISO8601, images, links, locations, and more.
+ issues 48
 
-keyboardNav yasnippet.html oxygene.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 378
+ committers 2
+ files 148

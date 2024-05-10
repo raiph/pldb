@@ -1,43 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pie-lang
+import ../measures/conceptPage.scroll
+id pie-lang
+appeared 2018
+type pl
+creators David Christiansen
+conceptDescription Pie: A Little Language with Dependent Types. Pie is a Racket language, requiring Racket version 6.5 or newer.
+website http://thelittletyper.com/
+country Denmark
+originCommunity https://github.com/the-little-typer
+domainName thelittletyper.com
+ registered 2017
 
-title pie-lang - Programming language
- hidden
+githubRepo https://github.com/the-little-typer/pie
+ stars 615
+ forks 47
+ subscribers 33
+ created 2018
+ updated 2022
+ description The Pie language, which accompanies The Little Typer by Friedman and Christiansen
+ issues 4
+ firstCommit 2018
 
-html
- <a class="trueBaseThemePreviousItem" href="umka.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="msx-basic.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 57
+ committers 7
+ files 31
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pie-lang.pldb
+isOpenSource true
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://thelittletyper.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/the-little-typer/pie" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pie-lang" class="material-symbols-outlined">edit</a></div>
-
-* pie-lang is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by David Christiansen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#davidChristiansen David Christiansen
-
-codeWithHeader Source code:
- git clone https://github.com/the-little-typer/pie
-
-dashboard
- #1190 <span title="TotalRank: 1732 Jobs: 103 Users: 643 Facts: 1256 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Pie: A Little Language with Dependent Types. Pie is a Racket language, requiring Racket version 6.5 or newer.
-
-- pie-lang website
- http://thelittletyper.com/
-- pie-lang is developed on <a href="https://github.com/the-little-typer/pie">GitHub</a> and has 615 stars
-- pie-lang first developed in <a href="../lists/originCommunities.html#httpsGithubComTheLittleTyper">https://github.com/the-little-typer</a>
-- <a href="http://thelittletyper.com/">thelittletyper.com</a> was registered in 2017
-
-<br>
-
-endColumns
-
-keyboardNav umka.html msx-basic.html
-
-import ../footer.scroll
+isbndb 0

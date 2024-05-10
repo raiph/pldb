@@ -1,77 +1,46 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Goal
+import ../measures/conceptPage.scroll
+id Goal
+appeared 2022
+type pl
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/zycdaq/goal_an_array_programming_language_written_in_go/
+country France
+originCommunity https://bardinflor.perso.aquilenet.fr/index-en
 
-title Goal - Programming language
- hidden
+writtenIn go
+influencedBy apl j k
 
-html
- <a class="trueBaseThemePreviousItem" href="incipit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ulisp.html">&gt;</a>
+hasRegularExpressionsSyntaxSugar true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/goal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://codeberg.org/anaseto/goal" class="material-symbols-outlined">code</a> <a href="/edit.html?id=goal" class="material-symbols-outlined">edit</a></div>
-
-* Goal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-codeWithHeader Source code:
- git clone https://codeberg.org/anaseto/goal
-
-dashboard
- #1397 <span title="TotalRank: 1921 Jobs: 103 Users: 2838 Facts: 832 Links: 986">on PLDB</span>
- 2 Years Old
-
-* 
-
-- Goal first developed in <a href="../lists/originCommunities.html#httpsBardinflorPersoAquilenetFrIndexEn">https://bardinflor.perso.aquilenet.fr/index-en</a>
-- Goal is written in <a href="go.html">Go</a>
-- Read more about Goal on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/zycdaq/goal_an_array_programming_language_written_in_go/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
- csvs:&quot;\n&quot;_`
+example
+ csvs:"\n"_`
  1,2,3
  4,5,6
  7,8,9
  `
- tsvs:&quot;\n&quot;_`
+ tsvs:"\n"_`
  1	2	3
  4	5	6
  7	8	9
  `
  (
-   (csv$&#39;&#39;-1+&quot;n&quot;$csv csvs) ~ &quot;\n&quot;_`
+   (csv$''-1+"n"$csv csvs) ~ "\n"_`
  0,1,2
  3,4,5
  6,7,8
  `
-   (&quot;\t&quot;csv$&#39;&#39;-1+&quot;n&quot;$&quot;\t&quot;csv tsvs) ~ &quot;\n&quot;_`
+   ("\t"csv$''-1+"n"$"\t"csv tsvs) ~ "\n"_`
  0	1	2
  3	4	5
  6	7	8
  `
-   (csv &quot;1,2,3&quot;) ~ (,&quot;1&quot; &quot;2&quot; &quot;3&quot;)
+   (csv "1,2,3") ~ (,"1" "2" "3")
  )
  /RESULT:
 
-endColumns
+gitRepo https://codeberg.org/anaseto/goal
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Regular Expression Syntax Sugar
-  FeatureLink ../features/hasRegularExpressionsSyntaxSugar.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav incipit.html ulisp.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 1341
+ committers 1
+ files 109

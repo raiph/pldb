@@ -1,68 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mint
+import ../measures/conceptPage.scroll
+id mint
+appeared 2018
+type pl
+website https://www.mint-lang.com
+country Poland and Hungary and United States
+originCommunity https://github.com/mint-lang
+domainName mint-lang.com
+ registered 2018
+ awisRank
+  2022 3066082
 
-title mint - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="atomese.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pml.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mint.pldb
+githubLanguage Mint
+ type programming
+ fileExtensions mint
+ aceMode text
+ tmScope source.mint
+ repos 19
 
-startColumns 4
+leachim6 Mint
+ filepath m/Mint.mint
+ fileExtensions mint
+ example
+  component Main {
+    fun render : Html {
+      <div>"Hello World"</div>
+    }
+  }
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.mint-lang.com" class="material-symbols-outlined">home</a> <a href="https://twitter.com/mint_lang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=mint" class="material-symbols-outlined">edit</a></div>
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 17161533|Mint-lang: a language for the front-end web|https://www.mint-lang.com/|2018-05-26 11:47:36 UTC|1527335256|galfarragem|106|112
 
-* mint is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #1608 <span title="TotalRank: 2121 Jobs: 103 Users: 2442 Facts: 1032 Links: 986">on PLDB</span>
- 6 Years Old
- 19 <span title="mint repos on GitHub.">Repos</span>
-
-* 
-
-- mint website
- https://www.mint-lang.com
-- There are at least 19 mint repos on <a href="https://github.com/search?q=language:Mint">GitHub</a>
-- mint first developed in <a href="../lists/originCommunities.html#httpsGithubComMintLang">https://github.com/mint-lang</a>
-- file extensions for mint include mint
-- mint on Twitter
- https://twitter.com/mint_lang
-- <a href="https://www.mint-lang.com">mint-lang.com</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Mint.mint'>hello-world</a>:
- component Main {
-   fun render : Html {
-     &lt;div&gt;&quot;Hello World&quot;&lt;/div&gt;
-   }
- }
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-## HackerNews discussions of mint
-
-pipeTable
- title|titleLink|date|score|comments
- Mint-lang: a language for the front-end web|https://news.ycombinator.com/item?id=17161533|05/26/2018|112|106
-
-keyboardNav atomese.html pml.html
-
-import ../footer.scroll
+twitter https://twitter.com/mint_lang

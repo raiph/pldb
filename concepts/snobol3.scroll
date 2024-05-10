@@ -1,41 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SNOBOL3
-
-title SNOBOL3 - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cish.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zeta.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snobol3.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=snobol3" class="material-symbols-outlined">edit</a></div>
-
-* SNOBOL3 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1966 by David J. Farber and Ralph E. Griswold.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
- link ../lists/creators.html#davidJFarber David J. Farber
- link ../lists/creators.html#ralphEGriswold Ralph E. Griswold
-
-dashboard
- #3002 <span title="TotalRank: 3608 Jobs: 103 Users: 2838 Facts: 2938 Links: 667">on PLDB</span>
- 58 Years Old
-
-* 
-
-- SNOBOL3 first developed in <a href="../lists/originCommunities.html#bellTelephoneLaboratories">Bell Telephone Laboratories</a>
-- Read more about SNOBOL3 on the web: 1. 2. 3.
- https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1966.tb04224.x 1.
- https://www.jstor.org/stable/30199238 2.
- https://www.snobol3.org/ 3.
-
-<br>
-
-endColumns
-
-keyboardNav cish.html zeta.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id SNOBOL3
+appeared 1966
+type pl
+creators David J. Farber and Ralph E. Griswold
+reference https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1538-7305.1966.tb04224.x
+reference https://www.jstor.org/stable/30199238
+reference https://www.snobol3.org/
+country United States
+originCommunity Bell Telephone Laboratories

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pC++
+import ../measures/conceptPage.scroll
+id pC++
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/f0d0e8e319f4f733d066f6490cee425a2d864d84
+country France and United States
+originCommunity University of Renne && Indiana University
 
-title pC++ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1654
 
-html
- <a class="trueBaseThemePreviousItem" href="pcol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pdel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pcpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pcpp" class="material-symbols-outlined">edit</a></div>
-
-* pC++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3922 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- pC++ first developed in <a href="../lists/originCommunities.html#universityOfRenne">University of Renne</a> and <a href="../lists/originCommunities.html#indianaUniversity">Indiana University</a>
-- pC++ on HOPL
- https://hopl.info/showlanguage.prx?exp=1654
-- Read more about pC++ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f0d0e8e319f4f733d066f6490cee425a2d864d84 1.
-
-<br>
-
-endColumns
-
-keyboardNav pcol.html pdel.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

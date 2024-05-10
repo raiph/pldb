@@ -1,95 +1,82 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Clipper
+import ../measures/conceptPage.scroll
+id Clipper
+appeared 1985
+type pl
+demoVideo https://www.youtube.com/watch?v=Opv647iFbAk
+website http://www.grafxsoft.com/clipper.htm
+country United States
+originCommunity Nantucket Corporation
 
-title Clipper - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="coconut.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wisp.html">&gt;</a>
+lineCommentToken //
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clipper.pldb
+wikipedia https://en.wikipedia.org/wiki/Clipper_(programming_language)
+ example
+  USE Customer SHARED NEW
+  clear
+  @  1, 0 SAY "CustNum" GET Customer->CustNum PICT "999999" VALID Customer->CustNum > 0
+  @  3, 0 SAY "Contact" GET Customer->Contact VALID !empty(Customer->Contact)
+  @  4, 0 SAY "Address" GET Customer->Address
+  READ
+ related xbase c visual-objects visual-basic delphi xbasepp linux unix visual-foxpro sql dbase
+ summary Clipper is an xBase compiler, which is a computer programming language, that is used to create software programs that originally operated primarily under MS-DOS. Although it is a powerful general-purpose programming language, it was primarily used to create database/business programs.
+ pageId 246367
+ dailyPageViews 99
+ created 2003
+ backlinksCount 70
+ revisionCount 235
+ appeared 1985
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.grafxsoft.com/clipper.htm" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Clipper_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=clipper" class="material-symbols-outlined">edit</a></div>
-
-* Clipper is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #324 <span title="TotalRank: 765 Jobs: 103 Users: 753 Facts: 425 Links: 237">on PLDB</span>
- 39 Years Old
-
-* Clipper is an xBase compiler, which is a computer programming language, that is used to create software programs that originally operated primarily under MS-DOS. Although it is a powerful general-purpose programming language, it was primarily used to create database/business programs.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Clipper_(programming_language) Read more on Wikipedia...
-
-- Clipper website
- http://www.grafxsoft.com/clipper.htm
-- Clipper Wikipedia page
- https://en.wikipedia.org/wiki/Clipper_(programming_language)
-- Video demo of Clipper
- https://www.youtube.com/watch?v=Opv647iFbAk
-- Clipper first developed in <a href="../lists/originCommunities.html#nantucketCorporation">Nantucket Corporation</a>
-- Explore Clipper snippets on <a href="http://www.rosettacode.org/wiki/Category:Clipper">Rosetta Code</a>
-- Clipper on HOPL
- https://hopl.info/showlanguage.prx?exp=1909
-- Clipper appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- See also: (11 related languages)<a href="xbase.html">xBase</a>, <a href="c.html">C</a>, <a href="visual-objects.html">Visual Objects</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="delphi.html">Delphi</a>, <a href="xbasepp.html">XBase++</a>, <a href="linux.html">Linux</a>, <a href="unix.html">Unix</a>, <a href="visual-foxpro.html">Visual FoxPro</a>, <a href="sql.html">SQL</a>, <a href="dbase.html">DBase</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/Clipper.prg'>hello-world</a>:
- ? &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Clipper'>the Hello World Collection</a>:
+helloWorldCollection Clipper
  // Hello World in Clipper
  
- ? &quot;Hello World&quot;
+ ? "Hello World"
+leachim6 Clipper
+ filepath c/Clipper.prg
+ fileExtensions prg
+ example
+  ? "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Clipper
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Clipper_(programming_language)'>Wikipedia</a>:
- USE Customer SHARED NEW
- clear
- @  1, 0 SAY &quot;CustNum&quot; GET Customer-&gt;CustNum PICT &quot;999999&quot; VALID Customer-&gt;CustNum &gt; 0
- @  3, 0 SAY &quot;Contact&quot; GET Customer-&gt;Contact VALID !empty(Customer-&gt;Contact)
- @  4, 0 SAY &quot;Address&quot; GET Customer-&gt;Address
- READ
+tiobe Clipper
+hopl https://hopl.info/showlanguage.prx?exp=1909
 
-endColumns
+fileType text
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 21
+ year|publisher|title|authors|isbn13
+ 1992|Microtrend|Clipper Programming Guide, Version 5.01 (Lance A. Leventhal Microtrend Series)|Spence, Rick|9780915391684
+ 1991|Holt, Henry & Company, Inc.|Clipper 5: A Developer&#39;s Guide|Joseph D. Booth and Greg Lief and Craig Yellick|9781558512429
+ 1988|Addison-Wesley|Programming in Clipper: The Definitive Guide to the Clipper dBASE Compiler|Straley, Stephen J.|9780201145830
+ 1991T|Microtrend Books|Clipper programming guide (The Data based advisor series)|Spence, Rick|9780915391417
+ 1991|Que Pub|Using Clipper (Programming Series)|Tiley, W. Edward|9780880228855
+ 1994|Butterworth-Heinemann|Clipper Programming by Example|Darling, Paul|9780750620819
+ 1995|Walnut Creek Cdrom|Clipper|Walnut Creek Cdrom (firm)|9781571760821
+ ||Clipper Programming|Beam and Gary|9780830635429
+ 1990|Mcgraw-hill Osborne Media|Clipper Programming|Dan Parsons|9780078816499
+ 1991|Mcgraw-hill Osborne Media|Clipper Programming|Brett Oliver and Jim Sheldon|9780078817588
+ 1992|Slawson Communications|Clipper Database Programming|Michael Towle|9781850581734
+ 1988/12/31|Pearson Scott Foresman|Programming in Clipper|Justin Werner and Bruce C. Donaldson and Margaret A. Zinky|9780673383617
+ 2004|Ediciones Diaz De Santos S A|Programacion En Clipper 5/ Programming In Clipper 5 (spanish Edition)|M. Schinkel and J. Kaster|9780201601213
+ 1988|Addison-wesley Pub. Co|Programming In Clipper: The Definitive Guide To The Clipper Dbase Compiler|Stephen J Straley|9780201119930
+ 1991|Que Pub|Clipper Programmer's Reference (programming Series)|W. Edward Tiley|9780880226776
+ 1990|Addison-wesley|Advanced Programming In Clipper With C|Straley, Stephen J. and Karasek, David.|9780201517354
+ 1993|Random House Electronic Publishing,U.S.|Straley&#39;s Programming with Clipper|Stephen J. Straley|9780679791546
+ 1992|Addison-wesley (c)|Programming In Clipper 5/includes Version 5.01|Mike Schinkel|9780201570182
+ 1994/11/01|Random House Electronic Publishing,U.S.|Straley&#39;s Object-Oriented Clipper Programming|Stephen J. Straley|9780679791409
+ 1989|Microtrend Books|Clipper Programming Guide (the Data Based Advisor Series)|Rick Spence|9780915391318
+ 1995|Richard D Irwin|Xbase Programming For The True Beginner: An Introduction To The Xbase Language In The Context Of Dbase Iii+, Iv, 5, Foxpro, And Clipper|Eugene Kaluzniacky and Vijay Kanabar|9780256204322
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav coconut.html wisp.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2017|Automating tasks in protein structure determination with the clipper python module|10.1002/pro.3299|5|0|S. McNicholas and T. Croll and T. Burnley and Colin M. Palmer and Soon Wen Hoh and H. Jenkins and Eleanor Dodson and K. Cowtan and J. Agirre|4c477e1555359e79f90e4184526893dbdce78028

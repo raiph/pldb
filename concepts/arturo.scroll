@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Arturo
+import ../measures/conceptPage.scroll
+id Arturo
+appeared 2019
+type pl
+creators Yanis Zafirópulos
+website https://arturo-lang.io
+domainName arturo-lang.io
+ registered 2019
 
-title Arturo - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="yinyang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="brl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/arturo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://arturo-lang.io" class="material-symbols-outlined">home</a> <a href="/edit.html?id=arturo" class="material-symbols-outlined">edit</a></div>
-
-* Arturo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Yanis Zafirópulos.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#yanisZafiropulos Yanis Zafirópulos
-
-dashboard
- #2784 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 5 Years Old
-
-* 
-
-- Arturo website
- https://arturo-lang.io
-- <a href="https://arturo-lang.io">arturo-lang.io</a> was registered in 2019
-
-<br>
-
-endColumns
-
-keyboardNav yinyang.html brl.html
-
-import ../footer.scroll
+semanticScholar 0

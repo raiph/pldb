@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nushell
+import ../measures/conceptPage.scroll
+id Nushell
+appeared 2019
+type pl
+creators Yehuda Katz
+website https://www.nushell.sh/
+country Ecuador
+originCommunity https://github.com/nushell
 
-title Nushell - Programming language
- hidden
+githubRepo https://github.com/nushell/nushell
+ firstCommit 2019
+ stars 21115
+ forks 1035
+ subscribers 160
+ created 2019
+ updated 2022
+ description A new type of shell
+ issues 472
 
-html
- <a class="trueBaseThemePreviousItem" href="readable.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spin.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nushell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.nushell.sh/" class="material-symbols-outlined">home</a> <a href="https://github.com/nushell/nushell" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nushell" class="material-symbols-outlined">edit</a></div>
-
-* Nushell is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Yehuda Katz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#yehudaKatz Yehuda Katz
-
-codeWithHeader Source code:
- git clone https://github.com/nushell/nushell
-
-dashboard
- #591 <span title="TotalRank: 1162 Jobs: 103 Users: 73 Facts: 1669 Links: 986">on PLDB</span>
- 5 Years Old
-
-* A new type of shell
-
-- Nushell website
- https://www.nushell.sh/
-- Nushell is developed on <a href="https://github.com/nushell/nushell">GitHub</a> and has 21,115 stars
-- Nushell first developed in <a href="../lists/originCommunities.html#httpsGithubComNushell">https://github.com/nushell</a>
-
-<br>
-
-endColumns
-
-keyboardNav readable.html spin.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 7183
+ committers 553
+ files 1363

@@ -1,37 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title C^3
+import ../measures/conceptPage.scroll
+id C^3
+appeared 2009
+type pl
+website http://c3wife.com/
+aka c3
+domainName c3wife.com
+ registered 2009
 
-title C^3 - Programming language
- hidden
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="blueprints.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-smile.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/c-cubed.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://c3wife.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=c-cubed" class="material-symbols-outlined">edit</a></div>
-
-* C^3 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2811 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 15 Years Old
-
-* 
-
-- C^3 website
- http://c3wife.com/
-- <a href="http://c3wife.com/">c3wife.com</a> was registered in 2009
-
-<br>
-
-endColumns
-
-keyboardNav blueprints.html c-smile.html
-
-import ../footer.scroll
+semanticScholar 0

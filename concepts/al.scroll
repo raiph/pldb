@@ -1,40 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AL
+import ../measures/conceptPage.scroll
+id AL
+appeared 2016
+type pl
+creators Microsoft
+originCommunity Microsoft
 
-title AL - Programming language
- hidden
+githubRepo https://github.com/microsoft/AL
+ firstCommit 2016
+ stars 574
+ forks 240
+ subscribers 150
+ created 2016
+ updated 2022
+ description AL language code samples for developing extensions for Dynamics 365 Business Central
+ issues 489
 
-html
- <a class="trueBaseThemePreviousItem" href="xsd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="basic-stamp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/al.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/microsoft/AL" class="material-symbols-outlined">code</a> <a href="/edit.html?id=al" class="material-symbols-outlined">edit</a></div>
-
-* AL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Microsoft.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#microsoft Microsoft
-
-codeWithHeader Source code:
- git clone https://github.com/microsoft/AL
-
-dashboard
- #995 <span title="TotalRank: 1561 Jobs: 103 Users: 472 Facts: 1890 Links: 986">on PLDB</span>
- 8 Years Old
-
-* AL language code samples for developing extensions for Dynamics 365 Business Central
-
-- AL is developed on <a href="https://github.com/microsoft/AL">GitHub</a> and has 574 stars
-- AL first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-
-<br>
-
-endColumns
-
-keyboardNav xsd.html basic-stamp.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 338
+ committers 63
+ files 100

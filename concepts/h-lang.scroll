@@ -1,48 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title h
+import ../measures/conceptPage.scroll
+id h
+appeared 2019
+type esolang
+creators Christine Dodrill
+website https://h.christine.website/
+reference https://xeiaso.net/blog/h-language-2019-06-30
+reference https://www.reddit.com/r/programming/comments/c7ch43/the_h_programming_language/
+country Canada
+originCommunity https://github.com/Xe/hlang/issues
+domainName h.christine.website
 
-title h - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="yamp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="icalendar-format.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/h-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://h.christine.website/" class="material-symbols-outlined">home</a> <a href="https://github.com/Xe/hlang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=h-lang" class="material-symbols-outlined">edit</a></div>
-
-* h is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2019 by Christine Dodrill.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#christineDodrill Christine Dodrill
-
-codeWithHeader Source code:
- git clone https://github.com/Xe/hlang
-
-dashboard
- #1894 <span title="TotalRank: 2400 Jobs: 103 Users: 2241 Facts: 1311 Links: 986">on PLDB</span>
- 5 Years Old
-
-* The h programming language
-
-- h website
- https://h.christine.website/
-- h is developed on <a href="https://github.com/Xe/hlang">GitHub</a> and has 14 stars
-- h first developed in <a href="../lists/originCommunities.html#httpsGithubComXeHlangIssues">https://github.com/Xe/hlang/issues</a>
-- Read more about h on the web: 1. 2.
- https://xeiaso.net/blog/h-language-2019-06-30 1.
- https://www.reddit.com/r/programming/comments/c7ch43/the_h_programming_language/ 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  h
 
-endColumns
+githubRepo https://github.com/Xe/hlang
+ firstCommit 2019
+ stars 14
+ forks 1
+ subscribers 2
+ created 2020
+ updated 2022
+ description The h programming language
+ issues 0
 
-keyboardNav yamp.html icalendar-format.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 6
+ committers 1
+ files 15

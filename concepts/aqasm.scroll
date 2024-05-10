@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title aQasm
+import ../measures/conceptPage.scroll
+id aQasm
+appeared 2017
+type assembly
+conceptDescription aQasm can be executed as of today on a quantum simulator but also on quantum accelerators or physical quantum computers as soon as they are developed.
+standsFor Atos Quantum Assembly
+originCommunity Atos
+firstAnnouncement https://atos.net/en/2017/press-release/general-press-releases_2017_07_04/atos-launches-highest-performing-quantum-simulator-world
+announcementMethod pressRelease
 
-title aQasm - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="apl-gpss.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="arc-assembly.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aqasm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aqasm" class="material-symbols-outlined">edit</a></div>
-
-* aQasm, aka Atos Quantum Assembly, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3085 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 7 Years Old
-
-* aQasm can be executed as of today on a quantum simulator but also on quantum accelerators or physical quantum computers as soon as they are developed.
-
-- aQasm first developed in <a href="../lists/originCommunities.html#atos">Atos</a>
-- <a href="https://atos.net/en/2017/press-release/general-press-releases_2017_07_04/atos-launches-highest-performing-quantum-simulator-world">First announcement of</a> aQasm via pressRelease
-
-<br>
-
-endColumns
-
-keyboardNav apl-gpss.html arc-assembly.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

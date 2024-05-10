@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Proxy
+import ../measures/conceptPage.scroll
+id Proxy
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/a6bb78b10ac4f7e191db3a784114b004767797e9
+country United States
+originCommunity EDL Software Design
 
-title Proxy - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5094
 
-html
- <a class="trueBaseThemePreviousItem" href="proverif-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="py.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/proxy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=proxy" class="material-symbols-outlined">edit</a></div>
-
-* Proxy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #4269 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Proxy first developed in <a href="../lists/originCommunities.html#edlSoftwareDesign">EDL Software Design</a>
-- Proxy on HOPL
- https://hopl.info/showlanguage.prx?exp=5094
-- Read more about Proxy on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a6bb78b10ac4f7e191db3a784114b004767797e9 1.
-
-<br>
-
-endColumns
-
-keyboardNav proverif-lang.html py.html
-
-import ../footer.scroll
+wordRank 5837
+centralPackageRepositoryCount 0

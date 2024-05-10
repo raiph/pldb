@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mewl
+import ../measures/conceptPage.scroll
+id Mewl
+appeared 2022
+type esolang
+creators Palash Bauri
+website https://bauripalash.github.io/mewlbook/
+country India
+originCommunity https://github.com/bauripalash/mewl/issues
 
-title Mewl - Esoteric programming language
- hidden
+githubRepo https://github.com/bauripalash/mewl
+ firstCommit 2022
+ stars 5
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description Mewl, program in cats' language; A just-for-fun language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="idio.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stacklang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mewl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://bauripalash.github.io/mewlbook/" class="material-symbols-outlined">home</a> <a href="https://github.com/bauripalash/mewl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mewl" class="material-symbols-outlined">edit</a></div>
-
-* Mewl is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2022 by Palash Bauri.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#palashBauri Palash Bauri
-
-codeWithHeader Source code:
- git clone https://github.com/bauripalash/mewl
-
-dashboard
- #2263 <span title="TotalRank: 2758 Jobs: 103 Users: 2366 Facts: 1669 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Mewl, program in cats' language; A just-for-fun language
-
-- Mewl website
- https://bauripalash.github.io/mewlbook/
-- Mewl is developed on <a href="https://github.com/bauripalash/mewl">GitHub</a> and has 5 stars
-- Mewl first developed in <a href="../lists/originCommunities.html#httpsGithubComBauripalashMewlIssues">https://github.com/bauripalash/mewl/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav idio.html stacklang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 57
+ committers 4
+ files 44

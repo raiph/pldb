@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CHAMP
+import ../measures/conceptPage.scroll
+id CHAMP
+appeared 1968
+type pl
+reference https://semanticscholar.org/paper/4bcf6e9dfca82fe8e30799bb246c7f9ede3a6c23
+country United States
+originCommunity University of Virginia
 
-title CHAMP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3015
 
-html
- <a class="trueBaseThemePreviousItem" href="ceprol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="charmpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/champ.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=champ" class="material-symbols-outlined">edit</a></div>
-
-* CHAMP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #3559 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- CHAMP first developed in <a href="../lists/originCommunities.html#universityOfVirginia">University of Virginia</a>
-- CHAMP on HOPL
- https://hopl.info/showlanguage.prx?exp=3015
-- Read more about CHAMP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4bcf6e9dfca82fe8e30799bb246c7f9ede3a6c23 1.
-
-<br>
-
-endColumns
-
-keyboardNav ceprol.html charmpp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

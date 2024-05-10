@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title co2
+import ../measures/conceptPage.scroll
+id co2
+appeared 2016
+type pl
+creators Dave Griffiths
+country United States
+originCommunity dustmop.io
 
-title co2 - Programming language
- hidden
+githubRepo https://github.com/dustmop/co2
+ firstCommit 2016
+ stars 165
+ subscribers 6
+ created 2017
+ updated 2022
+ description Lispy language for creating NES / Famicom software
+ issues 2
+ forks 6
 
-html
- <a class="trueBaseThemePreviousItem" href="spice-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ren-c.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/co2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/dustmop/co2" class="material-symbols-outlined">code</a> <a href="/edit.html?id=co2" class="material-symbols-outlined">edit</a></div>
-
-* co2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Dave Griffiths.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#daveGriffiths Dave Griffiths
-
-codeWithHeader Source code:
- git clone https://github.com/dustmop/co2
-
-dashboard
- #1786 <span title="TotalRank: 2303 Jobs: 103 Users: 1214 Facts: 1787 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Lispy language for creating NES / Famicom software
-
-- co2 is developed on <a href="https://github.com/dustmop/co2">GitHub</a> and has 165 stars
-- co2 first developed in <a href="../lists/originCommunities.html#dustmopIo">dustmop.io</a>
-
-<br>
-
-endColumns
-
-keyboardNav spice-lisp.html ren-c.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 311
+ committers 4
+ files 98

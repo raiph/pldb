@@ -1,43 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title polly
+import ../measures/conceptPage.scroll
+id polly
+appeared 2016
+type template
+website https://gitlab.com/Polly-lang/Polly
+country Unknown
+originCommunity https://gitlab.com/Polly-lang
 
-title polly - Template language
- hidden
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 11163438|Show HN: Polly: A templating language for Rust|2016-02-24 00:05:19 UTC|1456272319|Aaronepower|21|47
 
-html
- <a class="trueBaseThemePreviousItem" href="orca-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="poly.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/polly.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gitlab.com/Polly-lang/Polly" class="material-symbols-outlined">home</a> <a href="/edit.html?id=polly" class="material-symbols-outlined">edit</a></div>
-
-* polly is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2873 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- polly website
- https://gitlab.com/Polly-lang/Polly
-- polly first developed in <a href="../lists/originCommunities.html#httpsGitlabComPollyLang">https://gitlab.com/Polly-lang</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of polly
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Polly: A templating language for Rust|https://news.ycombinator.com/item?id=11163438|02/24/2016|47|21
-
-keyboardNav orca-lang.html poly.html
-
-import ../footer.scroll
+isbndb 0

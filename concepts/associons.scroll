@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title associons
+import ../measures/conceptPage.scroll
+id associons
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/df0d35d506cc25700b255481ce5e63fe2182931b
+country The Netherlands
+originCommunity Eindhoven University of Technology
 
-title associons - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6032
 
-html
- <a class="trueBaseThemePreviousItem" href="aspen.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="asspegique.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/associons.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=associons" class="material-symbols-outlined">edit</a></div>
-
-* associons is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3496 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- associons first developed in <a href="../lists/originCommunities.html#eindhovenUniversityOfTechnology">Eindhoven University of Technology</a>
-- associons on HOPL
- https://hopl.info/showlanguage.prx?exp=6032
-- Read more about associons on Semantic Scholar: 1.
- https://semanticscholar.org/paper/df0d35d506cc25700b255481ce5e63fe2182931b 1.
-
-<br>
-
-endColumns
-
-keyboardNav aspen.html asspegique.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

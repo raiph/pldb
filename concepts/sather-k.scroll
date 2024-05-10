@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sather-K
+import ../measures/conceptPage.scroll
+id Sather-K
+appeared 1995
+type pl
+creators David Stoutamire and Wolf Zimmermann and Martin Trapp
+website https://web.archive.org/web/20011117054314/http://i44s11.info.uni-karlsruhe.de/sather/index_engl.html
+reference http://www.sai.msu.su/sal/F/1/SATHER-K.html
+country United States and Germany
+originCommunity University of California, Berkeley and Karlsruher Institut für Technologie
 
-title Sather-K - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2472
 
-html
- <a class="trueBaseThemePreviousItem" href="prodel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sbol.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sather-k.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20011117054314/http://i44s11.info.uni-karlsruhe.de/sather/index_engl.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sather-k" class="material-symbols-outlined">edit</a></div>
-
-* Sather-K is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995 by David Stoutamire and Wolf Zimmermann and Martin Trapp.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
- link ../lists/creators.html#davidStoutamire David Stoutamire
- link ../lists/creators.html#wolfZimmermann Wolf Zimmermann
- link ../lists/creators.html#martinTrapp Martin Trapp
-
-dashboard
- #2915 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- Sather-K website
- https://web.archive.org/web/20011117054314/http://i44s11.info.uni-karlsruhe.de/sather/index_engl.html
-- Sather-K first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeleyAndKarlsruherInstitutFurTechnologie">University of California, Berkeley and Karlsruher Institut für Technologie</a>
-- Sather-K on HOPL
- https://hopl.info/showlanguage.prx?exp=2472
-- Read more about Sather-K on the web: 1.
- http://www.sai.msu.su/sal/F/1/SATHER-K.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav prodel.html sbol.html
-
-import ../footer.scroll
+isbndb 0

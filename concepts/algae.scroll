@@ -1,54 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Algae
+import ../measures/conceptPage.scroll
+id Algae
+appeared 1997
+type pl
+reference http://algae.sourceforge.net/
+originCommunity Boeing
 
-title Algae - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="whalecalf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="das.html">&gt;</a>
+printToken printf
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/algae.pldb
+leachim6 Algae
+ filepath a/Algae.algae
+ fileExtensions algae
+ example
+  printf("Hello World\n");
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Algae
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=2713
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=algae" class="material-symbols-outlined">edit</a></div>
-
-* Algae is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #2656 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Algae first developed in <a href="../lists/originCommunities.html#boeing">Boeing</a>
-- Explore Algae snippets on <a href="http://www.rosettacode.org/wiki/Category:Algae">Rosetta Code</a>
-- Algae on HOPL
- https://hopl.info/showlanguage.prx?exp=2713
-- Read more about Algae on the web: 1.
- http://algae.sourceforge.net/ 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/a/Algae.algae'>hello-world</a>:
- printf(&quot;Hello World\n&quot;);
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printf
-  Example
-
-keyboardNav whalecalf.html das.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

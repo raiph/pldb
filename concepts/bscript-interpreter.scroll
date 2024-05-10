@@ -1,36 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title bscript-interpreter
+import ../measures/conceptPage.scroll
+id bscript-interpreter
+appeared 1999
+type interpreter
+conceptDescription BScript is a (yet another) BASIC interpreter.
+website http://bscript.sourceforge.net/
+domainName bscript.sourceforge.net
 
-title bscript-interpreter - Interpreter
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="aur-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bscript-interpreter.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://bscript.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=bscript-interpreter" class="material-symbols-outlined">edit</a></div>
-
-* bscript-interpreter is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+interpreter">interpreter</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3264 on PLDB
- 25 Years Old
-
-* BScript is a (yet another) BASIC interpreter.
-
-- bscript-interpreter website
- http://bscript.sourceforge.net/
-
-<br>
-
-endColumns
-
-keyboardNav aur-pm.html bscript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BLAZE
+import ../measures/conceptPage.scroll
+id BLAZE
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/bfe1b6062b2e25f4025857f20ef8c87ff4365b3c
+country United States
+originCommunity Institute for Computer Applications in Science and Engineering && Purdue University
 
-title BLAZE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1299
 
-html
- <a class="trueBaseThemePreviousItem" href="biossim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blooms.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blaze.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=blaze" class="material-symbols-outlined">edit</a></div>
-
-* BLAZE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3523 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- BLAZE first developed in <a href="../lists/originCommunities.html#instituteForComputerApplicationsInScienceAndEngineering">Institute for Computer Applications in Science and Engineering</a> and <a href="../lists/originCommunities.html#purdueUniversity">Purdue University</a>
-- BLAZE on HOPL
- https://hopl.info/showlanguage.prx?exp=1299
-- Read more about BLAZE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bfe1b6062b2e25f4025857f20ef8c87ff4365b3c 1.
-
-<br>
-
-endColumns
-
-keyboardNav biossim.html blooms.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Navigational User's Language
-
-title Navigational User's Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="njcl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="omnitab-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nul-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nul-lang" class="material-symbols-outlined">edit</a></div>
-
-* Navigational User's Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3406 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- Navigational User's Language first developed in <a href="../lists/originCommunities.html#institutDInformatique">institut d'Informatique</a>
-- Read more about Navigational User's Language on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2e8ff22c4958300f63709502f87f5752e78dde5a 1.
-
-<br>
-
-endColumns
-
-keyboardNav njcl.html omnitab-ii.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Navigational User's Language
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/2e8ff22c4958300f63709502f87f5752e78dde5a
+aka nul
+country Canada
+originCommunity institut d'Informatique

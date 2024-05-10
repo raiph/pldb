@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title aubit-4gl
+import ../measures/conceptPage.scroll
+id aubit-4gl
+appeared 2001
+type pl
+website http://aubit4gl.sourceforge.net/aubit4gldoc/
+country England and Wales
+originCommunity Aubit Computing Limited
 
-title aubit-4gl - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="vortex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aubit-4gl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://aubit4gl.sourceforge.net/aubit4gldoc/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=aubit-4gl" class="material-symbols-outlined">edit</a></div>
-
-* aubit-4gl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #2762 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- aubit-4gl website
- http://aubit4gl.sourceforge.net/aubit4gldoc/
-- aubit-4gl first developed in <a href="../lists/originCommunities.html#aubitComputingLimited">Aubit Computing Limited</a>
-
-<br>
-
-endColumns
-
-keyboardNav vortex.html bscript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

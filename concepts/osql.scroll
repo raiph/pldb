@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Object-oriented Structured Query Language
+import ../measures/conceptPage.scroll
+id Object-oriented Structured Query Language
+appeared 1990
+type queryLanguage
+reference https://stason.org/TULARC/software/object-oriented-programming/9-3-Odapter-OpenODB-Odapter-Language.html
+standsFor Object-oriented Structured Query Language
+country United States
+originCommunity University of Michigan
 
-title Object-oriented Structured Query Language - Query language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2322
 
-html
- <a class="trueBaseThemePreviousItem" href="orient84-k.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="p-cl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/osql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=osql" class="material-symbols-outlined">edit</a></div>
-
-* Object-oriented Structured Query Language, aka Object-oriented Structured Query Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #4245 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Object-oriented Structured Query Language first developed in <a href="../lists/originCommunities.html#universityOfMichigan">University of Michigan</a>
-- Object-oriented Structured Query Language on HOPL
- https://hopl.info/showlanguage.prx?exp=2322
-- Read more about Object-oriented Structured Query Language on the web: 1.
- https://stason.org/TULARC/software/object-oriented-programming/9-3-Odapter-OpenODB-Odapter-Language.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav orient84-k.html p-cl.html
-
-import ../footer.scroll
+isbndb 0

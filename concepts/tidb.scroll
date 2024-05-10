@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TiDB
-
-title TiDB - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tics.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="timed-csp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tidb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tidb" class="material-symbols-outlined">edit</a></div>
-
-* TiDB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3240 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Distributed SQL database management system
-
-- TiDB first developed in <a href="../lists/originCommunities.html#pingCap">PingCAP</a>
-
-<br>
-
-endColumns
-
-keyboardNav tics.html timed-csp.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id TiDB
+appeared 2015
+type database
+conceptDescription Distributed SQL database management system
+country China
+originCommunity PingCAP

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PROW
+import ../measures/conceptPage.scroll
+id PROW
+appeared 1969
+type pl
+reference https://semanticscholar.org/paper/577e96521d62b9ebb5fd67412a21b02e9cd67b90
+country United States
+originCommunity Carnegie Mellon University && National Institute of Health
 
-title PROW - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8179
 
-html
- <a class="trueBaseThemePreviousItem" href="protos-l.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="psather.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prow.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prow" class="material-symbols-outlined">edit</a></div>
-
-* PROW is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #3963 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- PROW first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a> and <a href="../lists/originCommunities.html#nationalInstituteOfHealth">National Institute of Health</a>
-- PROW on HOPL
- https://hopl.info/showlanguage.prx?exp=8179
-- Read more about PROW on Semantic Scholar: 1.
- https://semanticscholar.org/paper/577e96521d62b9ebb5fd67412a21b02e9cd67b90 1.
-
-<br>
-
-endColumns
-
-keyboardNav protos-l.html psather.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

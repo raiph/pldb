@@ -1,45 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Genero Business Development Language
+import ../measures/conceptPage.scroll
+id Genero Business Development Language
+appeared 2010
+type pl
+conceptDescription Genero Business Development Language (BDL) is a program language designed to write an interactive database application.
+reference https://www.generomobile.com/techdocs/fjs-fgl-manual/#fgl-topics/c_fgl_intro_BDL_002.html
+country United States
+originCommunity Four Js Development Tools Inc
 
-title Genero Business Development Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="fun.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="holyc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/genero.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=genero" class="material-symbols-outlined">edit</a></div>
-
-* Genero Business Development Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #1260 <span title="TotalRank: 1794 Jobs: 103 Users: 2838 Facts: 705 Links: 986">on PLDB</span>
- 14 Years Old
- 52 <span title="Genero Business Development Language repos on GitHub.">Repos</span>
-
-* Genero Business Development Language (BDL) is a program language designed to write an interactive database application.
-
-- There are at least 52 Genero Business Development Language repos on <a href="https://github.com/search?q=language:Genero">GitHub</a>
-- Genero Business Development Language first developed in <a href="../lists/originCommunities.html#fourJsDevelopmentToolsInc">Four Js Development Tools Inc</a>
-- file extensions for Genero Business Development Language include 4gl
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2 users using Genero Business Development Language in 14 repos on <a href="https://api.github.com/search/repositories?q=language:Genero">GitHub</a>
-- Read more about Genero Business Development Language on the web: 1.
- https://www.generomobile.com/techdocs/fjs-fgl-manual/#fgl-topics/c_fgl_intro_BDL_002.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  OPTIONS SHORT CIRCUIT 
  IMPORT FGL cust_data
  SCHEMA stores
  
- PRIVATE CONSTANT c_title = &quot;Customer data form&quot;
+ PRIVATE CONSTANT c_title = "Customer data form"
  PUBLIC TYPE t_cust RECORD LIKE customer.*
  PRIVATE DEFINE cust_arr DYNAMIC ARRAY OF t_cust
  
@@ -65,8 +38,12 @@ codeWithHeader Example from the web:
     ...
  END REPORT
 
-endColumns
-
-keyboardNav fun.html holyc.html
-
-import ../footer.scroll
+githubLanguage Genero
+ type programming
+ fileExtensions 4gl
+ aceMode text
+ tmScope source.genero
+ repos 52
+githubBigQuery Genero
+ repos 14
+ users 2

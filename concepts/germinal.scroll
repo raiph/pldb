@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GERMINAL
+import ../measures/conceptPage.scroll
+id GERMINAL
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/440e85266a71d13fbd4cf6d0132c500652ea4bbe
+country France
+originCommunity Centre d'Études et de Recherches Fiscales
 
-title GERMINAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7098
 
-html
- <a class="trueBaseThemePreviousItem" href="gerald.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glish.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/germinal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=germinal" class="material-symbols-outlined">edit</a></div>
-
-* GERMINAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #4149 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- GERMINAL first developed in <a href="../lists/originCommunities.html#centreDEtudesEtDeRecherchesFiscales">Centre d'Études et de Recherches Fiscales</a>
-- GERMINAL on HOPL
- https://hopl.info/showlanguage.prx?exp=7098
-- Read more about GERMINAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/440e85266a71d13fbd4cf6d0132c500652ea4bbe 1.
-
-<br>
-
-endColumns
-
-keyboardNav gerald.html glish.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ISAC
+import ../measures/conceptPage.scroll
+id ISAC
+appeared 2003
+type pl
+reference http://www.ist.tugraz.at/isac/
+standsFor ISAbelle for Calculations in applied mathematics
+country United States
+originCommunity Ohio State University
 
-title ISAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7034
 
-html
- <a class="trueBaseThemePreviousItem" href="interactive.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="javaml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/isac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=isac" class="material-symbols-outlined">edit</a></div>
-
-* ISAC, aka ISAbelle for Calculations in applied mathematics, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #4179 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- ISAC first developed in <a href="../lists/originCommunities.html#ohioStateUniversity">Ohio State University</a>
-- ISAC on HOPL
- https://hopl.info/showlanguage.prx?exp=7034
-- Read more about ISAC on the web: 1.
- http://www.ist.tugraz.at/isac/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav interactive.html javaml.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

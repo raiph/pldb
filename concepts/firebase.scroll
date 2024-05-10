@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Firebase Realtime Database
-
-title Firebase Realtime Database - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="exapt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="google-cloud-mysql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/firebase.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=firebase" class="material-symbols-outlined">edit</a></div>
-
-* Firebase Realtime Database is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3185 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Cloud-hosted real-time document-oriented database
-
-- Firebase Realtime Database first developed in <a href="../lists/originCommunities.html#google">Google</a>
-
-<br>
-
-endColumns
-
-keyboardNav exapt.html google-cloud-mysql.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Firebase Realtime Database
+appeared 2011
+type database
+conceptDescription Cloud-hosted real-time document-oriented database
+country United States
+originCommunity Google

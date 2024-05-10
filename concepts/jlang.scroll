@@ -1,41 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JLang
+import ../measures/conceptPage.scroll
+id JLang
+appeared 2016
+type pl
+creators Joao Marcelo Brito
+website https://github.com/jmbrito01/jlang
+country Brazil
+originCommunity https://github.com/jmbrito01/jlang/issues
 
-title JLang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nydp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="link.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jlang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/jmbrito01/jlang" class="material-symbols-outlined">home</a> <a href="https://github.com/jmbrito01/jlang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jlang" class="material-symbols-outlined">edit</a></div>
-
-* JLang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Joao Marcelo Brito.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#joaoMarceloBrito Joao Marcelo Brito
-
-codeWithHeader Source code:
- git clone https://github.com/jmbrito01/jlang
-
-dashboard
- #1899 <span title="TotalRank: 2400 Jobs: 103 Users: 2383 Facts: 1311 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Just another programming language
-
-- JLang website
- https://github.com/jmbrito01/jlang
-- JLang is developed on <a href="https://github.com/jmbrito01/jlang">GitHub</a> and has 3 stars
-- JLang first developed in <a href="../lists/originCommunities.html#httpsGithubComJmbrito01JlangIssues">https://github.com/jmbrito01/jlang/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  func test param {
      this.id = 0;
      ret this;
@@ -43,8 +15,16 @@ codeWithHeader Example from the web:
  var testObj = test();
  i = testObj.id;
 
-endColumns
+githubRepo https://github.com/jmbrito01/jlang
+ stars 3
+ forks 0
+ subscribers 2
+ created 2016
+ updated 2016
+ description Just another programming language
 
-keyboardNav nydp.html link.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 17
+ committers 1
+ files 27

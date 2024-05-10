@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Consul
+import ../measures/conceptPage.scroll
+id Consul
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/d46bcfce44def084cebfb4aea31898f8a5a23a61
+country United States
+originCommunity University of Rochester
 
-title Consul - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1921
 
-html
- <a class="trueBaseThemePreviousItem" href="constraints.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cst.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/consul.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=consul" class="material-symbols-outlined">edit</a></div>
-
-* Consul is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #4110 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- Consul first developed in <a href="../lists/originCommunities.html#universityOfRochester">University of Rochester</a>
-- Consul on HOPL
- https://hopl.info/showlanguage.prx?exp=1921
-- Read more about Consul on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d46bcfce44def084cebfb4aea31898f8a5a23a61 1.
-
-<br>
-
-endColumns
-
-keyboardNav constraints.html cst.html
-
-import ../footer.scroll
+isbndb 0

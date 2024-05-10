@@ -1,49 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LinearML
+import ../measures/conceptPage.scroll
+id LinearML
+appeared 2010
+type pl
+creators Julien Verlaguet
+website https://github.com/pikatchu/LinearML
+fileExtensions lml
+country United States
+originCommunity Facebook
 
-title LinearML - Programming language
- hidden
+githubRepo https://github.com/pikatchu/LinearML
+ stars 401
+ forks 28
+ subscribers 25
+ created 2010
+ updated 2014
+ description Functional language for parallel programming
 
-html
- <a class="trueBaseThemePreviousItem" href="aimms.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cone.html">&gt;</a>
+repoStats
+ firstCommit 2010
+ commits 237
+ committers 15
+ files 116
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linearml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/pikatchu/LinearML" class="material-symbols-outlined">home</a> <a href="https://github.com/pikatchu/LinearML" class="material-symbols-outlined">code</a> <a href="/edit.html?id=linearml" class="material-symbols-outlined">edit</a></div>
-
-* LinearML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Julien Verlaguet.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#julienVerlaguet Julien Verlaguet
-
-codeWithHeader Source code:
- git clone https://github.com/pikatchu/LinearML
-
-dashboard
- #1321 <span title="TotalRank: 1860 Jobs: 103 Users: 771 Facts: 1502 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Functional language for parallel programming
-
-- LinearML website
- https://github.com/pikatchu/LinearML
-- LinearML is developed on <a href="https://github.com/pikatchu/LinearML">GitHub</a> and has 401 stars
-- LinearML first developed in <a href="../lists/originCommunities.html#facebook">Facebook</a>
-- file extensions for LinearML include lml
-
-<br>
-
-endColumns
-
-## HackerNews discussions of LinearML
-
-pipeTable
- title|titleLink|date|score|comments
- LinearML:a programming language designed to write efficient parallel programs.|https://news.ycombinator.com/item?id=2310587|03/10/2011|69|22
-
-keyboardNav aimms.html cone.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 2310587|LinearML:a programming language designed to write efficient parallel programs.|https://github.com/pikatchu/LinearML/|2011-03-10 20:18:22 UTC|1299784702|primodemus|22|69

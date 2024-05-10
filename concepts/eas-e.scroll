@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EAS-E
+import ../measures/conceptPage.scroll
+id EAS-E
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/8478e796108ca2dc235e12f803a320de139e7c07
+country United States
+originCommunity Baruch College
 
-title EAS-E - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3815
 
-html
- <a class="trueBaseThemePreviousItem" href="dystal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="easl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eas-e.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=eas-e" class="material-symbols-outlined">edit</a></div>
-
-* EAS-E is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3642 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- EAS-E first developed in <a href="../lists/originCommunities.html#baruchCollege">Baruch College</a>
-- EAS-E on HOPL
- https://hopl.info/showlanguage.prx?exp=3815
-- Read more about EAS-E on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8478e796108ca2dc235e12f803a320de139e7c07 1.
-
-<br>
-
-endColumns
-
-keyboardNav dystal.html easl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

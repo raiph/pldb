@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Py
+import ../measures/conceptPage.scroll
+id Py
+appeared 1991
+type pl
+creators David Cuny
+reference http://webs.lanset.com/dcuny/py.htm
+country United States
+originCommunity https://webs.lanset.com/dcuny/euphoria.htm
 
-title Py - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2417
 
-html
- <a class="trueBaseThemePreviousItem" href="proxy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qas.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/py.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=py" class="material-symbols-outlined">edit</a></div>
-
-* Py is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991 by David Cuny.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
- link ../lists/creators.html#davidCuny David Cuny
-
-dashboard
- #4270 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Py first developed in <a href="../lists/originCommunities.html#httpsWebsLansetComDcunyEuphoriaHtm">https://webs.lanset.com/dcuny/euphoria.htm</a>
-- Py on HOPL
- https://hopl.info/showlanguage.prx?exp=2417
-- Read more about Py on the web: 1.
- http://webs.lanset.com/dcuny/py.htm 1.
-
-<br>
-
-endColumns
-
-keyboardNav proxy.html qas.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

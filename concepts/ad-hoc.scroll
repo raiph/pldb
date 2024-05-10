@@ -1,40 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ad-hoc
+import ../measures/conceptPage.scroll
+id Ad-hoc
+appeared 2017
+type pl
+conceptDescription <a href='https://github.com/pera/ad-hoc'>Ad-hoc</a> is an experimental programming language currently supporting the following features: first-class functions, immutability, lambda terms, recursion, closures, strict and non-strict evaluation, lexical and dynamic scopes, and deep binding.
+website https://gitlab.com/trobador/ad-hoc
 
-title Ad-hoc - Programming language
- hidden
+githubRepo https://github.com/pera/ad-hoc
+ stars 9
+ forks 1
+ subscribers 3
+ created 2017
+ updated 2019
+ firstCommit 2017
+ description Ad-hoc programming language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="hcard.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="polymath.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 64
+ committers 2
+ files 19
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ad-hoc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gitlab.com/trobador/ad-hoc" class="material-symbols-outlined">home</a> <a href="https://github.com/pera/ad-hoc" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ad-hoc" class="material-symbols-outlined">edit</a></div>
-
-* Ad-hoc is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/pera/ad-hoc
-
-dashboard
- #2172 <span title="TotalRank: 2680 Jobs: 103 Users: 2315 Facts: 1591 Links: 986">on PLDB</span>
- 7 Years Old
-
-* <a href='https://github.com/pera/ad-hoc'>Ad-hoc</a> is an experimental programming language currently supporting the following features: first-class functions, immutability, lambda terms, recursion, closures, strict and non-strict evaluation, lexical and dynamic scopes, and deep binding.
-
-- Ad-hoc website
- https://gitlab.com/trobador/ad-hoc
-- Ad-hoc is developed on <a href="https://github.com/pera/ad-hoc">GitHub</a> and has 9 stars
-
-<br>
-
-endColumns
-
-keyboardNav hcard.html polymath.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

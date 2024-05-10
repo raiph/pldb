@@ -1,40 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CDL++
+import ../measures/conceptPage.scroll
+id CDL++
+appeared 1999
+type pl
+creators Christian Hochberger
+reference https://semanticscholar.org/paper/d2eb641aeddd364f5180b30421d7dc22bcf3788b
+country Germany
+originCommunity Technische Universität Darmstadt
 
-title CDL++ - Programming language
- hidden
+successorOf cdl
 
-html
- <a class="trueBaseThemePreviousItem" href="bird.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cmix.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=6254
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cdlpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cdlpp" class="material-symbols-outlined">edit</a></div>
-
-* CDL++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999 by Christian Hochberger.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
- link ../lists/creators.html#christianHochberger Christian Hochberger
-
-dashboard
- #3089 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- CDL++ first developed in <a href="../lists/originCommunities.html#technischeUniversitatDarmstadt">Technische Universität Darmstadt</a>
-- CDL++ on HOPL
- https://hopl.info/showlanguage.prx?exp=6254
-- Read more about CDL++ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d2eb641aeddd364f5180b30421d7dc22bcf3788b 1.
-
-<br>
-
-endColumns
-
-keyboardNav bird.html cmix.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

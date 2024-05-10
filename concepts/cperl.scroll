@@ -1,43 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cperl
+import ../measures/conceptPage.scroll
+id cperl
+appeared 2017
+type pl
+creators Reini Urban
+conceptDescription cperl is a better variant of Perl 5 with many Perl 6 based features and improvements, but without breaking compatibility. CPAN works. It is a "perl 11", 5 + 6 = 11.
+website http://perl11.github.io/
+country Various
+originCommunity https://github.com/perl11/
+domainName perl11.org
+ registered 2021
 
-title cperl - Programming language
- hidden
+githubRepo https://github.com/perl11/cperl
+ firstCommit 1987
+ stars 135
+ forks 13
+ subscribers 21
+ created 2015
+ updated 2022
+ description A perl5 with classes, types, compilable, company friendly, security
+ issues 116
 
-html
- <a class="trueBaseThemePreviousItem" href="mobl-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="colorforth.html">&gt;</a>
+repoStats
+ firstCommit 1987
+ commits 94417
+ committers 1592
+ files 7391
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cperl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://perl11.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/perl11/cperl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cperl" class="material-symbols-outlined">edit</a></div>
-
-* cperl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Reini Urban.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#reiniUrban Reini Urban
-
-codeWithHeader Source code:
- git clone https://github.com/perl11/cperl
-
-dashboard
- #1791 <span title="TotalRank: 2312 Jobs: 103 Users: 1223 Facts: 1381 Links: 986">on PLDB</span>
- 7 Years Old
-
-* cperl is a better variant of Perl 5 with many Perl 6 based features and improvements, but without breaking compatibility. CPAN works. It is a "perl 11", 5 + 6 = 11.
-
-- cperl website
- http://perl11.github.io/
-- cperl is developed on <a href="https://github.com/perl11/cperl">GitHub</a> and has 135 stars
-- cperl first developed in <a href="../lists/originCommunities.html#httpsGithubComPerl11">https://github.com/perl11/</a>
-- <a href="http://perl11.github.io/">perl11.org</a> was registered in 2021
-
-<br>
-
-endColumns
-
-keyboardNav mobl-lang.html colorforth.html
-
-import ../footer.scroll
+semanticScholar 0

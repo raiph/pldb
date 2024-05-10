@@ -1,86 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fibonacci
+import ../measures/conceptPage.scroll
+id Fibonacci
+appeared 1991
+type pl
+creators Antonio Albano and Giorgio Ghelli and and Renzo Orsini
+conceptDescription Fibonacci is an object-oriented database programming language characterized by static and strong typing, and by new mechanisms for modeling databases in terms of objects with roles, classes, and associations.
+reference https://dl.acm.org/doi/pdf/10.5555/615224.615227
+reference https://semanticscholar.org/paper/3b9aa468a7bd9d75811680a3a3db1a42b73dbdf7
+country Italy
+originCommunity Università di Pisa
 
-title Fibonacci - Programming language
- hidden
+hasComments true
+ (* query examples *)
+hasMultiLineComments true
+ (* A comment
+ *)
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="jison-lex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kona.html">&gt;</a>
+multiLineCommentTokens (* *)
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fibonacci.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fibonacci" class="material-symbols-outlined">edit</a></div>
-
-* Fibonacci is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991 by Antonio Albano and Giorgio Ghelli and and Renzo Orsini.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
- link ../lists/creators.html#antonioAlbano Antonio Albano
- link ../lists/creators.html#giorgioGhelli Giorgio Ghelli
- link ../lists/creators.html#andRenzoOrsini and Renzo Orsini
-
-dashboard
- #915 <span title="TotalRank: 1485 Jobs: 103 Users: 2838 Facts: 891 Links: 491">on PLDB</span>
- 33 Years Old
-
-* Fibonacci is an object-oriented database programming language characterized by static and strong typing, and by new mechanisms for modeling databases in terms of objects with roles, classes, and associations.
-
-- Fibonacci first developed in <a href="../lists/originCommunities.html#universitaDiPisa">Università di Pisa</a>
-- Fibonacci on HOPL
- https://hopl.info/showlanguage.prx?exp=5759
-- Read more about Fibonacci on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3b9aa468a7bd9d75811680a3a3db1a42b73dbdf7 1.
-- Read more about Fibonacci on the web: 1.
- https://dl.acm.org/doi/pdf/10.5555/615224.615227 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  let john = role Person
   private
-   let address = var (&quot;Darwin road, 123 - London&quot;) ;5
+   let address = var ("Darwin road, 123 - London") ;5
   methods
-   Name = &quot;John Daniels&quot;;
+   Name = "John Daniels";
    BirthYear = 1967;
    Age = currentYear() - me.BirthYear;
    Address = at (address);
    modAddress (newAddress: String) =
-       if stringLength(newAddress) &lt;= 0
-       then failwith &quot;incorrect address&quot;
+       if stringLength(newAddress) <= 0
+       then failwith "incorrect address"
        else address := newAddress
-   Introduce = &quot;My name is &quot; &amp; me.Name &amp;
-        &quot;and I was born in &quot; ~ intToString(me.BirthYear);
+   Introduce = "My name is " & me.Name &
+        "and I was born in " ~ intToString(me.BirthYear);
  end; 
 
-endColumns
+hopl https://hopl.info/showlanguage.prx?exp=5759
 
-## Language <a href="../lists/features.html">features</a>
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (* *)
-  Example
-   (* A comment
-   *)
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (* query examples *)
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav jison-lex.html kona.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 20200505|World Scientific Publishing|"Mathematics Of Harmony As A New Interdisciplinary Direction And ""Golden"" Paradigm Of Modern Science - Volume 1: The Golden Section, Fibonacci Numbers, Pascal Triangle, And Platonic Solids"|Alexey Stakhov|9789811206382
+ 20141011|Emereo|Fibonacci number 81 Success Secrets - 81 Most Asked Questions On Fibonacci number - What You Need To Know|Lois Mckay|9781488805868

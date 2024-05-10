@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIGMA 76
+import ../measures/conceptPage.scroll
+id SIGMA 76
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/86a91e01da17e7ac09865c907441e10bf471feae
+reference https://cds.cern.ch/record/310377/files/197709190.pdf
+country Switzerland
+originCommunity Conseil européen pour la recherche nucléaire or CERN
 
-title SIGMA 76 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7103
 
-html
- <a class="trueBaseThemePreviousItem" href="sidopsp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simodula.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sigma-76.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sigma-76" class="material-symbols-outlined">edit</a></div>
-
-* SIGMA 76 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #4300 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- SIGMA 76 first developed in <a href="../lists/originCommunities.html#conseilEuropeenPourLaRechercheNucleaireOrCern">Conseil européen pour la recherche nucléaire or CERN</a>
-- SIGMA 76 on HOPL
- https://hopl.info/showlanguage.prx?exp=7103
-- Read more about SIGMA 76 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/86a91e01da17e7ac09865c907441e10bf471feae 1.
-- Read more about SIGMA 76 on the web: 1.
- https://cds.cern.ch/record/310377/files/197709190.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav sidopsp.html simodula.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

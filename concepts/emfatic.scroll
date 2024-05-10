@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title emfatic
+import ../measures/conceptPage.scroll
+id emfatic
+appeared 2004
+type pl
+conceptDescription Emfatic is a language designed to represent EMF Ecore models in a textual form.
+website https://www.eclipse.org/epsilon/doc/articles/emfatic/
+country Canada
+originCommunity Eclipse Foundation, Inc
 
-title emfatic - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ambienttalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="larp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emfatic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.eclipse.org/epsilon/doc/articles/emfatic/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=emfatic" class="material-symbols-outlined">edit</a></div>
-
-* emfatic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2094 <span title="TotalRank: 2591 Jobs: 103 Users: 2442 Facts: 1502 Links: 986">on PLDB</span>
- 20 Years Old
-
-* Emfatic is a language designed to represent EMF Ecore models in a textual form.
-
-- emfatic website
- https://www.eclipse.org/epsilon/doc/articles/emfatic/
-- emfatic first developed in <a href="../lists/originCommunities.html#eclipseFoundationInc">Eclipse Foundation, Inc</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  package test;
  
  datatype D1 : int;
@@ -46,8 +23,4 @@ codeWithHeader Example from the web:
    attr String s2;
  }
 
-endColumns
-
-keyboardNav ambienttalk.html larp.html
-
-import ../footer.scroll
+semanticScholar 0

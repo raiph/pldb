@@ -1,49 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LookML
+import ../measures/conceptPage.scroll
+id LookML
+appeared 2012
+type pl
+website https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml
+reference https://docs.looker.com/relnotes/v1-release-notes#looker_1.10.13
+originCommunity Looker
 
-title LookML - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ooc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="neko.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lookml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml" class="material-symbols-outlined">home</a> <a href="/edit.html?id=lookml" class="material-symbols-outlined">edit</a></div>
-
-* LookML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #643 <span title="TotalRank: 1224 Jobs: 103 Users: 1127 Facts: 135 Links: 986">on PLDB</span>
- 12 Years Old
- 5k <span title="LookML repos on GitHub.">Repos</span>
-
-* 
-
-- LookML website
- https://docs.looker.com/data-modeling/learning-lookml/what-is-lookml
-- There are at least 5,427 LookML repos on <a href="https://github.com/search?q=language:LookML">GitHub</a>
-- LookML first developed in <a href="../lists/originCommunities.html#looker">Looker</a>
-- file extensions for LookML include lookml, modellkml and viewlkml
-- The  Google BigQuery Public Dataset GitHub snapshot shows 47 users using LookML in 185 repos on <a href="https://api.github.com/search/repositories?q=language:LookML">GitHub</a>
-- GitHub supports <a href="https://github.com/atom/language-yaml" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for LookML
-- Read more about LookML on the web: 1.
- https://docs.looker.com/relnotes/v1-release-notes#looker_1.10.13 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ######################################
  # FILE: ecommercestore.model.lkml    #
  # Define the explores and join logic #
  ######################################
  connection: order_database
- include: &quot;*.view.lkml&quot;
+ include: "*.view.lkml"
  explore: orders {
    join: customers {
      sql_on: ${orders.customer_id} = ${customers.id} ;;
@@ -65,7 +42,7 @@ codeWithHeader Example from the web:
    }
    dimension: amount {           # field: orders.amount
      type: number
-     value_format: &quot;0.00&quot;
+     value_format: "0.00"
      sql: ${TABLE}.amount ;;
    }
    dimension_group: created {                # generates fields:
@@ -75,7 +52,7 @@ codeWithHeader Example from the web:
    }
    measure: count {             # field: orders.count
      type: count                # creates a sql COUNT(*)
-     drill_fields: [drill_set*] # list of fields to show when someone clicks &#39;ORDERS Count&#39;
+     drill_fields: [drill_set*] # list of fields to show when someone clicks 'ORDERS Count'
    }
    measure: total_amount {
      type: sum
@@ -103,88 +80,80 @@ codeWithHeader Example from the web:
      sql: ${TABLE}.state ;;
    }
    dimension: name {
-     sql: CONCAT(${TABLE}.firstname, &quot; &quot;, ${TABLE}.lastname) ;;
+     sql: CONCAT(${TABLE}.firstname, " ", ${TABLE}.lastname) ;;
    }
    measure: count {             # field: customers.count
      type: count                # creates a sql COUNT(*)
-     drill_fields: [drill_set*] # fields to show when someone clicks &#39;CUSTOMERS Count&#39;
+     drill_fields: [drill_set*] # fields to show when someone clicks 'CUSTOMERS Count'
    }
    set: drill_set {                     # set: customers.drill_set
-     fields: [id, state, orders.count]  # list of fields to show when someone clicks &#39;CUSTOMERS Count&#39;
+     fields: [id, state, orders.count]  # list of fields to show when someone clicks 'CUSTOMERS Count'
    }
  }
 
-codeWithHeader Example from <a href='https://github.com/atom/language-yaml'>Linguist</a>:
- - view: comments
-   fields:
- 
-   - dimension: id
-     primary_key: true
-     type: int
-     sql: ${TABLE}.id
- 
-   - dimension: body
-     sql: ${TABLE}.body
- 
-   - dimension_group: created
-     type: time
-     timeframes: [time, date, week, month]
-     sql: ${TABLE}.created_at
- 
-   - dimension: headline_id
-     type: int
-     hidden: true
-     sql: ${TABLE}.headline_id
- 
-   - dimension_group: updated
-     type: time
-     timeframes: [time, date, week, month]
-     sql: ${TABLE}.updated_at
- 
-   - dimension: user_id
-     type: int
-     hidden: true
-     sql: ${TABLE}.user_id
- 
-   - measure: count
-     type: count
-     detail: detail*
- 
- 
-   # ----- Detail ------
-   sets:
-     detail:
-       - id
-       - headlines.id
-       - headlines.name
-       - users.id
+githubLanguage LookML
+ fileExtensions lookml modellkml viewlkml
+ trendingProjectsCount 0
+ type programming
+ aceMode yaml
+ codemirrorMode yaml
+ codemirrorMimeType text/x-yaml
+ tmScope source.yaml
+ repos 5427
+githubBigQuery LookML
+ repos 185
+ users 47
 
-endColumns
+linguistGrammarRepo https://github.com/atom/language-yaml
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 25
+ commitCount 205
+ sampleCount 3
+ example
+  - view: comments
+    fields:
+  
+    - dimension: id
+      primary_key: true
+      type: int
+      sql: ${TABLE}.id
+  
+    - dimension: body
+      sql: ${TABLE}.body
+  
+    - dimension_group: created
+      type: time
+      timeframes: [time, date, week, month]
+      sql: ${TABLE}.created_at
+  
+    - dimension: headline_id
+      type: int
+      hidden: true
+      sql: ${TABLE}.headline_id
+  
+    - dimension_group: updated
+      type: time
+      timeframes: [time, date, week, month]
+      sql: ${TABLE}.updated_at
+  
+    - dimension: user_id
+      type: int
+      hidden: true
+      sql: ${TABLE}.user_id
+  
+    - measure: count
+      type: count
+      detail: detail*
+  
+  
+    # ----- Detail ------
+    sets:
+      detail:
+        - id
+        - headlines.id
+        - headlines.name
+        - users.id
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ooc.html neko.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

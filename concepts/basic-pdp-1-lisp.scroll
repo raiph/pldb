@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Basic PDP-1 Lisp
+import ../measures/conceptPage.scroll
+id Basic PDP-1 Lisp
+appeared 1963
+type pl
+reference http://s3data.computerhistory.org/pdp-1/DEC.pdp_1.1964.102650371.pdf
+country United States
+originCommunity Digital Equipment Corporation
 
-title Basic PDP-1 Lisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3898
 
-html
- <a class="trueBaseThemePreviousItem" href="bartok.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="basil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/basic-pdp-1-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=basic-pdp-1-lisp" class="material-symbols-outlined">edit</a></div>
-
-* Basic PDP-1 Lisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3511 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- Basic PDP-1 Lisp first developed in <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a>
-- Basic PDP-1 Lisp on HOPL
- https://hopl.info/showlanguage.prx?exp=3898
-- Read more about Basic PDP-1 Lisp on the web: 1.
- http://s3data.computerhistory.org/pdp-1/DEC.pdp_1.1964.102650371.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav bartok.html basil.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

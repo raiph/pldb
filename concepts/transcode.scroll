@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TRANSCODE
+import ../measures/conceptPage.scroll
+id TRANSCODE
+appeared 1953
+type pl
+reference https://semanticscholar.org/paper/da36e7678ed0b3edc974657edd58e290f08a193a
 
-title TRANSCODE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=132
 
-html
- <a class="trueBaseThemePreviousItem" href="trace.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="translang.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/transcode.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=transcode" class="material-symbols-outlined">edit</a></div>
-
-* TRANSCODE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1953.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1953 1953
-
-dashboard
- #3442 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 71 Years Old
-
-* 
-
-- TRANSCODE on HOPL
- https://hopl.info/showlanguage.prx?exp=132
-- Read more about TRANSCODE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/da36e7678ed0b3edc974657edd58e290f08a193a 1.
-
-<br>
-
-endColumns
-
-keyboardNav trace.html translang.html
-
-import ../footer.scroll
+semanticScholar 0

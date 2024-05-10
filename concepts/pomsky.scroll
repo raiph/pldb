@@ -1,45 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pomsky
+import ../measures/conceptPage.scroll
+id Pomsky
+appeared 2022
+type pl
+creators Ludwig Stecher
+website https://pomsky-lang.org/
+oldName Rulex
+country Germany
+originCommunity https://github.com/rulex-rs
 
-title Pomsky - Programming language
- hidden
+example
+ 'Hello' ' '+ ('world' | 'pomsky')
 
-html
- <a class="trueBaseThemePreviousItem" href="etoys.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="handel-c.html">&gt;</a>
+githubRepo https://github.com/rulex-rs/pomsky
+ firstCommit 2022
+ stars 1068
+ forks 15
+ subscribers 6
+ created 2022
+ updated 2023
+ description A new, portable, regular expression language
+ issues 25
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pomsky.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pomsky-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/rulex-rs/pomsky" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pomsky" class="material-symbols-outlined">edit</a></div>
-
-* Pomsky is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Ludwig Stecher.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#ludwigStecher Ludwig Stecher
-
-codeWithHeader Source code:
- git clone https://github.com/rulex-rs/pomsky
-
-dashboard
- #1035 <span title="TotalRank: 1601 Jobs: 103 Users: 512 Facts: 1450 Links: 986">on PLDB</span>
- 2 Years Old
-
-* A new, portable, regular expression language
-
-- Pomsky website
- https://pomsky-lang.org/
-- Pomsky is developed on <a href="https://github.com/rulex-rs/pomsky">GitHub</a> and has 1,068 stars
-- Pomsky first developed in <a href="../lists/originCommunities.html#httpsGithubComRulexRs">https://github.com/rulex-rs</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &#39;Hello&#39; &#39; &#39;+ (&#39;world&#39; | &#39;pomsky&#39;)
-
-endColumns
-
-keyboardNav etoys.html handel-c.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 347
+ committers 6
+ files 481

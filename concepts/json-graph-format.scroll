@@ -1,84 +1,68 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title json-graph-format
+import ../measures/conceptPage.scroll
+id json-graph-format
+appeared 2014
+type jsonFormat
+website http://jsongraphformat.info/
+aka jgf
+country United States
+originCommunity https://github.com/jsongraph
+domainName jsongraphformat.info
+ registered 2015
 
-title json-graph-format - Json format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="freemarker.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cranelift-ir.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/json-graph-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://jsongraphformat.info/" class="material-symbols-outlined">home</a> <a href="https://github.com/jsongraph/json-graph-specification" class="material-symbols-outlined">code</a> <a href="/edit.html?id=json-graph-format" class="material-symbols-outlined">edit</a></div>
-
-* json-graph-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+jsonFormat">json format</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/jsongraph/json-graph-specification
-
-dashboard
- #801 <span title="TotalRank: 1365 Jobs: 103 Users: 765 Facts: 497 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A proposal for representing graph structure (nodes / edges) in JSON.
-
-- json-graph-format website
- http://jsongraphformat.info/
-- json-graph-format is developed on <a href="https://github.com/jsongraph/json-graph-specification">GitHub</a> and has 387 stars
-- json-graph-format first developed in <a href="../lists/originCommunities.html#httpsGithubComJsongraph">https://github.com/jsongraph</a>
-- <a href="http://jsongraphformat.info/">jsongraphformat.info</a> was registered in 2015
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-     &quot;graph&quot;: {
-         &quot;directed&quot;: false,
-         &quot;type&quot;: &quot;graph type&quot;,
-         &quot;label&quot;: &quot;graph label&quot;,
-         &quot;metadata&quot;: {
-             &quot;user-defined&quot;: &quot;values&quot;
+     "graph": {
+         "directed": false,
+         "type": "graph type",
+         "label": "graph label",
+         "metadata": {
+             "user-defined": "values"
          },
-         &quot;nodes&quot;: [
+         "nodes": [
              {
-                 &quot;id&quot;: &quot;0&quot;,
-                 &quot;type&quot;: &quot;node type&quot;,
-                 &quot;label&quot;: &quot;node label(0)&quot;,
-                 &quot;metadata&quot;: {
-                     &quot;user-defined&quot;: &quot;values&quot;
+                 "id": "0",
+                 "type": "node type",
+                 "label": "node label(0)",
+                 "metadata": {
+                     "user-defined": "values"
                  }
              },
              {
-                 &quot;id&quot;: &quot;1&quot;,
-                 &quot;type&quot;: &quot;node type&quot;,
-                 &quot;label&quot;: &quot;node label(1)&quot;,
-                 &quot;metadata&quot;: {
-                     &quot;user-defined&quot;: &quot;values&quot;
+                 "id": "1",
+                 "type": "node type",
+                 "label": "node label(1)",
+                 "metadata": {
+                     "user-defined": "values"
                  }
              }
          ],
-         &quot;edges&quot;: [
+         "edges": [
              {
-                 &quot;source&quot;: &quot;0&quot;,
-                 &quot;relation&quot;: &quot;edge relationship&quot;,
-                 &quot;target&quot;: &quot;1&quot;,
-                 &quot;directed&quot;: false,
-                 &quot;label&quot;: &quot;edge label&quot;,
-                 &quot;metadata&quot;: {
-                     &quot;user-defined&quot;: &quot;values&quot;
+                 "source": "0",
+                 "relation": "edge relationship",
+                 "target": "1",
+                 "directed": false,
+                 "label": "edge label",
+                 "metadata": {
+                     "user-defined": "values"
                  }
              }
          ]
      }
  }
 
-endColumns
+githubRepo https://github.com/jsongraph/json-graph-specification
+ firstCommit 2014
+ stars 387
+ forks 35
+ subscribers 22
+ created 2014
+ updated 2022
+ description A proposal for representing graph structure (nodes / edges) in JSON.
+ issues 5
 
-keyboardNav freemarker.html cranelift-ir.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 117
+ committers 12
+ files 22

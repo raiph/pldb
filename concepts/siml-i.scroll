@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIML/I
+import ../measures/conceptPage.scroll
+id SIML/I
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/7049c6dcdd8c23835dbc59dc57001864f46ce12c
+country United States
+originCommunity Amdahl Corporation
 
-title SIML/I - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=870
 
-html
- <a class="trueBaseThemePreviousItem" href="simfactory.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simnet.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/siml-i.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=siml-i" class="material-symbols-outlined">edit</a></div>
-
-* SIML/I is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #4019 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- SIML/I first developed in <a href="../lists/originCommunities.html#amdahlCorporation">Amdahl Corporation</a>
-- SIML/I on HOPL
- https://hopl.info/showlanguage.prx?exp=870
-- Read more about SIML/I on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7049c6dcdd8c23835dbc59dc57001864f46ce12c 1.
-
-<br>
-
-endColumns
-
-keyboardNav simfactory.html simnet.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

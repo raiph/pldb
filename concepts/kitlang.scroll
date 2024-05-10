@@ -1,46 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kitlang
+import ../measures/conceptPage.scroll
+id kitlang
+appeared 2018
+type pl
+creators Ben Morris
+conceptDescription A magical, high performance programming language for game development.
+website https://www.kitlang.org/
+country United States
+originCommunity https://github.com/kitlang
+domainName kitlang.org
 
-title kitlang - Programming language
- hidden
+githubRepo https://github.com/kitlang/kit
+ firstCommit 2018
+ stars 990
+ forks 30
+ subscribers 39
+ created 2018
+ updated 2022
+ description (INACTIVE) Kit: a magical, high performance programming language, designed for game development. Pre-alpha!
+ issues 19
 
-html
- <a class="trueBaseThemePreviousItem" href="xodio.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="passerine.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 488
+ committers 13
+ files 382
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kitlang.pldb
+tryItOnline https://www.kitlang.org/playground.html
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.kitlang.org/" class="material-symbols-outlined">home</a> <a href="https://www.kitlang.org/playground.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/kitlang/kit" class="material-symbols-outlined">code</a> <a href="https://twitter.com/kitlanguage"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=kitlang" class="material-symbols-outlined">edit</a></div>
-
-* kitlang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Ben Morris.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#benMorris Ben Morris
-
-codeWithHeader Source code:
- git clone https://github.com/kitlang/kit
-
-dashboard
- #1044 <span title="TotalRank: 1611 Jobs: 103 Users: 522 Facts: 1381 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Try now: <a href="https://tio.run/#https://www.kitlang.org/playground.html">TIO</a>
-
-* A magical, high performance programming language for game development.
-
-- kitlang website
- https://www.kitlang.org/
-- kitlang is developed on <a href="https://github.com/kitlang/kit">GitHub</a> and has 990 stars
-- kitlang first developed in <a href="../lists/originCommunities.html#httpsGithubComKitlang">https://github.com/kitlang</a>
-- kitlang on Twitter
- https://twitter.com/kitlanguage
-
-<br>
-
-endColumns
-
-keyboardNav xodio.html passerine.html
-
-import ../footer.scroll
+twitter https://twitter.com/kitlanguage

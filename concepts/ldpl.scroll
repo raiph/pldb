@@ -1,82 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ldpl
+import ../measures/conceptPage.scroll
+id ldpl
+appeared 2019
+type pl
+creators Martín del Río
+website https://www.ldpl-lang.org
+country Unknown
+originCommunity https://github.com/Lartu/ldpl/issues
+domainName ldpl-lang.org
 
-title ldpl - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="cat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pointless.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ldpl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.ldpl-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/Lartu/ldpl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ldpl" class="material-symbols-outlined">edit</a></div>
-
-* ldpl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Martín del Río.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#martinDelRio Martín del Río
-
-codeWithHeader Source code:
- git clone https://github.com/Lartu/ldpl
-
-dashboard
- #1388 <span title="TotalRank: 1921 Jobs: 103 Users: 1182 Facts: 832 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Compiled programming language for Unix systems, inspired by COBOL and designed to be expressive, fast, readable and easy to learn.
-
-- ldpl website
- https://www.ldpl-lang.org
-- ldpl is developed on <a href="https://github.com/Lartu/ldpl">GitHub</a> and has 128 stars
-- ldpl first developed in <a href="../lists/originCommunities.html#httpsGithubComLartuLdplIssues">https://github.com/Lartu/ldpl/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Hello There Example
  data: 
    name is number
  
  procedure: 
-   display &quot;Hello there, what&#39;s your name?&quot;
+   display "Hello there, what's your name?"
    accept name
-   display &quot;你好, &quot; name &quot;!&quot; crlf
+   display "你好, " name "!" crlf
 
-endColumns
+githubRepo https://github.com/Lartu/ldpl
+ firstCommit 2019
+ stars 128
+ forks 23
+ subscribers 12
+ created 2019
+ updated 2022
+ description Compiled programming language for Unix systems, inspired by COBOL and designed to be expressive, fast, readable and easy to learn.
+ issues 11
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2019
+ commits 928
+ committers 37
+ files 73
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-## HackerNews discussions of ldpl
-
-pipeTable
- title|titleLink|date|score|comments
- LDPL – A simple programming language in the likeness of COBOL|https://news.ycombinator.com/item?id=19740700|04/24/2019|1|0
-
-keyboardNav cat.html pointless.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 19740700|LDPL – A simple programming language in the likeness of COBOL|https://www.ldpl-lang.org/|2019-04-24 17:25:24 UTC|1556126724|lartu|0|1

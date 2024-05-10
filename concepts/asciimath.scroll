@@ -1,45 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AsciiMath
+import ../measures/conceptPage.scroll
+id AsciiMath
+appeared 2014
+type textMarkup
+creators Peter Krautzberger
+conceptDescription AsciiMath is an easy-to-write markup language for mathematics.
+website http://asciimath.org/
+domainName asciimath.org
+ awisRank
+  2022 1444282
 
-title AsciiMath - Text markup language
- hidden
+relatedConcepts latex
 
-html
- <a class="trueBaseThemePreviousItem" href="coldfusion-components.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="isq.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asciimath.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://asciimath.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/mathjax/asciimathml" class="material-symbols-outlined">code</a> <a href="/edit.html?id=asciimath" class="material-symbols-outlined">edit</a></div>
-
-* AsciiMath is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2014 by Peter Krautzberger.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#peterKrautzberger Peter Krautzberger
-
-codeWithHeader Source code:
- git clone https://github.com/mathjax/asciimathml
-
-dashboard
- #976 <span title="TotalRank: 1535 Jobs: 103 Users: 446 Facts: 1311 Links: 986">on PLDB</span>
- 10 Years Old
-
-* AsciiMath is an easy-to-write markup language for mathematics.
-
-- AsciiMath website
- http://asciimath.org/
-- AsciiMath is developed on <a href="https://github.com/mathjax/asciimathml">GitHub</a> and has 863 stars
-- See also: (1 related languages)<a href="latex.html">LaTeX</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  sum_(i=1)^n i^3=((n(n+1))/2)^2
 
-endColumns
+githubRepo https://github.com/mathjax/asciimathml
+ firstCommit 2014
+ stars 863
+ forks 194
+ subscribers 37
+ created 2014
+ updated 2022
+ description A new home for asciimathml
+ issues 47
 
-keyboardNav coldfusion-components.html isq.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 166
+ committers 16
+ files 29

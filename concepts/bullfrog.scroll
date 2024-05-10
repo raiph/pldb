@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BullFrog
+import ../measures/conceptPage.scroll
+id BullFrog
+appeared 2005
+type esolang
 
-title BullFrog - Esoteric programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8522
+esolang https://esolangs.org/wiki/Bullfrog
 
-html
- <a class="trueBaseThemePreviousItem" href="ber.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="celsius-webscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bullfrog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bullfrog" class="material-symbols-outlined">edit</a></div>
-
-* BullFrog is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #3172 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 19 Years Old
-
-* 
-
-- BullFrog on HOPL
- https://hopl.info/showlanguage.prx?exp=8522
-- BullFrog on Esolang
- https://esolangs.org/wiki/Bullfrog
-
-<br>
-
-endColumns
-
-keyboardNav ber.html celsius-webscript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

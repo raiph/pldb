@@ -1,106 +1,78 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sather
+import ../measures/conceptPage.scroll
+id Sather
+appeared 1990
+type pl
+creators Steve Omohundro
+website https://www.gnu.org/software/sather/
+country United States and New Zealand
+originCommunity University of California, Berkeley and University of Waikato and GNU project
 
-title Sather - Programming language
- hidden
+visualParadigm false
 
-html
- <a class="trueBaseThemePreviousItem" href="commodore-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="koka.html">&gt;</a>
+hasComments true
+hasLineComments true
+ -- A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sather.pldb
+lineCommentToken --
+printToken #OUT
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/Sather
+ example
+  upto!(once m:INT):SAME is
+      i: INT := self; -- initialise i to the value of self, 
+                      -- that is the integer of which this method is called
+      loop
+        if i>m then 
+          quit;  -- leave the loop when i goes beyond m
+        end;
+        yield i; -- else use i as return value and stay in the loop
+        i := i + 1; -- and increment
+      end;
+    end;
+ related eiffel clu common-lisp scheme cool rust c
+ summary Sather is an object-oriented programming language. It originated circa 1990 at the International Computer Science Institute (ICSI) at the University of California, Berkeley, developed by an international team led by Steve Omohundro. It supports garbage collection and generics by subtypes. Originally, it was based on Eiffel, but it has diverged, and now includes several functional programming features. It is probably best to view it as an object-oriented language, with many ideas borrowed from Eiffel. Even the name is inspired by Eiffel; the Sather Tower is a recognizable landmark at Berkeley, named after Jane Krom Sather, the widow of Peder Sather, who donated large sums to the foundation of the university. Sather also takes inspiration from other programming languages and paradigms: iterators, design by contract, abstract classes, multiple inheritance, anonymous functions, operator overloading, contravariant type system. The original Berkeley implementation (last stable version 1.1 was released in 1995, no longer maintained) has been adopted by the Free Software Foundation therefore becoming GNU Sather. Last stable GNU version (1.2.3) was released in July 2007 and the software is currently not maintained. There were several other variants: Sather-K from the University of Karlsruhe; Sather-W from the University of Waikato (implementation of Sather version 1.3); Peter Naulls' port of ICSI Sather 1.1 to RISC OS; and pSather, a parallel version of ICSI Sather addressing non-uniform memory access multiprocessor architectures but presenting a shared memory model to the programmer. The former ICSI Sather compiler (now GNU Sather) is implemented as a compiler to C, i.e., the compiler does not output object or machine code, but takes Sather source code and generates C source code as an intermediate language. Optimizing is left to the C compiler. The GNU Sather compiler, written in Sather itself, is dual licensed under the GNU GPL & LGPL.
+ pageId 28763
+ dailyPageViews 21
+ created 2001
+ backlinksCount 31
+ revisionCount 96
+ appeared 1990
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.gnu.org/software/sather/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Sather"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=sather" class="material-symbols-outlined">edit</a></div>
-
-* Sather is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990 by Steve Omohundro.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
- link ../lists/creators.html#steveOmohundro Steve Omohundro
-
-dashboard
- #448 <span title="TotalRank: 952 Jobs: 103 Users: 1352 Facts: 460 Links: 389">on PLDB</span>
- 34 Years Old
-
-* Sather is an object-oriented programming language. It originated circa 1990 at the International Computer Science Institute (ICSI) at the University of California, Berkeley, developed by an international team led by Steve Omohundro. It supports garbage collection and generics by subtypes. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Sather Read more on Wikipedia...
-
-- Sather website
- https://www.gnu.org/software/sather/
-- Sather Wikipedia page
- https://en.wikipedia.org/wiki/Sather
-- Sather first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeleyAndUniversityOfWaikatoAndGnuProject">University of California, Berkeley and University of Waikato and GNU project</a>
-- Explore Sather snippets on <a href="http://www.rosettacode.org/wiki/Category:Sather">Rosetta Code</a>
-- Sather on HOPL
- https://hopl.info/showlanguage.prx?exp=1659
-- Sather appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- See also: (7 related languages)<a href="eiffel.html">Eiffel</a>, <a href="clu.html">CLU</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="scheme.html">Scheme</a>, <a href="cool.html">Classroom Object Oriented Language</a>, <a href="rust.html">Rust</a>, <a href="c.html">C</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Sather.sa'>hello-world</a>:
- class MAIN is
-    main is 
-       loop 
-          #OUT + &quot;Hello World\n&quot; 
-       end 
-    end
- end
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Sather'>the Hello World Collection</a>:
+helloWorldCollection Sather
  -- Hello World in Sather
  
      class HELLO is
-        main is #OUT + &quot;Hello World!\n&quot; end
+        main is #OUT + "Hello World!\n" end
      end
  
+leachim6 Sather
+ filepath s/Sather.sa
+ fileExtensions sa
+ example
+  class MAIN is
+     main is 
+        loop 
+           #OUT + "Hello World\n" 
+        end 
+     end
+  end
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Sather
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Sather'>Wikipedia</a>:
- upto!(once m:INT):SAME is
-     i: INT := self; -- initialise i to the value of self, 
-                     -- that is the integer of which this method is called
-     loop
-       if i&gt;m then 
-         quit;  -- leave the loop when i goes beyond m
-       end;
-       yield i; -- else use i as return value and stay in the loop
-       i := i + 1; -- and increment
-     end;
-   end;
+tiobe Sather
+hopl https://hopl.info/showlanguage.prx?exp=1659
 
-endColumns
+fileType text
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2010||Class-based Programming Languages: Java, C++, Python, Eiffel, Smalltalk, Ruby, Simula, Common Lisp, Oberon, Clu, Objective-c, Squeak, Sather|Books and LLC|9781156829424
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token #OUT
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav commodore-basic.html koka.html
-
-import ../footer.scroll
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1994|Engineering a Programming Language: The Type and Class System of Sather|10.1007/3-540-57840-4_33|89|5|C. Szyperski and S. Omohundro and S. Murer|47859a3e075dddf97b090c2316b67bc591783c14
+ 1992|Sather Provides Nonproprietary Access to Object‐Oriented Programming|10.1063/1.4823098|9|0|S. Omohundro|d09b97715cb4b8a58cb8a16973406210394dd422
+ 1997|Efficient Extensible Synchronization in Sather|10.1007/3-540-63827-X_45|7|0|Jürgen Quittek and B. Weissman|a081fa7ad5c7a3bccb2baf18077bffd1fa36bbfe

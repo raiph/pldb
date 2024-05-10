@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title QA4
+import ../measures/conceptPage.scroll
+id QA4
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/854ae442f80f0438f10d3df929c15fd7ff9f3f85
+country United State
+originCommunity Stanford Research Institute
 
-title QA4 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=345
 
-html
- <a class="trueBaseThemePreviousItem" href="q-gert.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qlisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/qa4.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=qa4" class="material-symbols-outlined">edit</a></div>
-
-* QA4 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #3970 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- QA4 first developed in <a href="../lists/originCommunities.html#stanfordResearchInstitute">Stanford Research Institute</a>
-- QA4 on HOPL
- https://hopl.info/showlanguage.prx?exp=345
-- Read more about QA4 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/854ae442f80f0438f10d3df929c15fd7ff9f3f85 1.
-
-<br>
-
-endColumns
-
-keyboardNav q-gert.html qlisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

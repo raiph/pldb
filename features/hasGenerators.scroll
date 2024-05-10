@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasGarbageCollection.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasGenerics.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  function* fibonacci(limit) {
      let [prev, curr] = [0, 1];
      while (!limit || curr &lt;= limit) {
@@ -44,7 +44,7 @@ codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>
      if (n &gt; 10000) break;
  }
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/cython.html">Cython</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>:
  https://wiki.python.org/moin/Generators
 
 codeWithHeader Example from <a href="../concepts/ruby.html">Ruby</a>:
@@ -72,9 +72,7 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
      }
  }
 
-* Languages *with* Generators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/cython.html">Cython</a>
-
-* This question asks: Does the language have a concept of loops that yield?
+* Languages *with* Generators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>
 
 * Read more about Generators on the web: 1.
  https://en.wikipedia.org/wiki/Generator_(computer_programming) 1.

@@ -1,44 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title par
+import ../measures/conceptPage.scroll
+id par
+appeared 2018
+type pl
+website https://par-lang.org/
+country United States
+originCommunity https://github.com/karthikv/par/issues
+domainName par-lang.org
+ registered 2017
 
-title par - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="openspice.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pisc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/par.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://par-lang.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=par" class="material-symbols-outlined">edit</a></div>
-
-* par is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2909 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- par website
- https://par-lang.org/
-- par first developed in <a href="../lists/originCommunities.html#httpsGithubComKarthikvParIssues">https://github.com/karthikv/par/issues</a>
-- <a href="https://par-lang.org/">par-lang.org</a> was registered in 2017
-
-<br>
-
-endColumns
-
-## HackerNews discussions of par
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Par, a statically-typed, functional language focused on usability|https://news.ycombinator.com/item?id=17339290|06/18/2018|5|0
-
-keyboardNav openspice.html pisc.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 17339290|Show HN: Par, a statically-typed, functional language focused on usability|2018-06-18 16:02:51 UTC|1529337771|karthikksv|0|5

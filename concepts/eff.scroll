@@ -1,42 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title eff
+import ../measures/conceptPage.scroll
+id eff
+appeared 2012
+type pl
+website https://www.eff-lang.org/
+country Slovenia
+originCommunity University of Ljubljana
+domainName eff-lang.org
+ registered 2012
 
-title eff - Programming language
- hidden
+githubRepo https://github.com/matijapretnar/eff
+ firstCommit 2012
+ stars 751
+ forks 39
+ subscribers 32
+ created 2012
+ updated 2022
+ description A functional programming language based on algebraic effect handlers
+ issues 5
 
-html
- <a class="trueBaseThemePreviousItem" href="newspeak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gentoo-ebuild.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 2493
+ committers 24
+ files 392
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eff.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.eff-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/matijapretnar/eff" class="material-symbols-outlined">code</a> <a href="/edit.html?id=eff" class="material-symbols-outlined">edit</a></div>
-
-* eff is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/matijapretnar/eff
-
-dashboard
- #1132 <span title="TotalRank: 1686 Jobs: 103 Users: 597 Facts: 1502 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A functional programming language based on algebraic effect handlers
-
-- eff website
- https://www.eff-lang.org/
-- eff is developed on <a href="https://github.com/matijapretnar/eff">GitHub</a> and has 751 stars
-- eff first developed in <a href="../lists/originCommunities.html#universityOfLjubljana">University of Ljubljana</a>
-- <a href="https://www.eff-lang.org/">eff-lang.org</a> was registered in 2012
-
-<br>
-
-endColumns
-
-keyboardNav newspeak.html gentoo-ebuild.html
-
-import ../footer.scroll
+isbndb 0

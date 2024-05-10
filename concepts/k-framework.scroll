@@ -1,43 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title k-framework
+import ../measures/conceptPage.scroll
+id k-framework
+appeared 2013
+type grammarLanguage
+creators (no author)
+website http://www.kframework.org/
+country Various
+originCommunity Runtime Verification Inc.
+domainName kframework.org
+ registered 2013
+ awisRank
+  2022 4988305
 
-title k-framework - Grammar language
- hidden
+githubRepo https://github.com/runtimeverification/k
+ firstCommit 2010
+ stars 330
+ forks 102
+ subscribers 33
+ created 2016
+ updated 2022
+ description K Framework Tools 5.0
+ issues 103
 
-html
- <a class="trueBaseThemePreviousItem" href="forest-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ops5.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/k-framework.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.kframework.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/runtimeverification/k" class="material-symbols-outlined">code</a> <a href="/edit.html?id=k-framework" class="material-symbols-outlined">edit</a></div>
-
-* k-framework is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2013 by (no author).
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#noAuthor (no author)
-
-codeWithHeader Source code:
- git clone https://github.com/runtimeverification/k
-
-dashboard
- #1240 <span title="TotalRank: 1777 Jobs: 103 Users: 688 Facts: 1381 Links: 986">on PLDB</span>
- 11 Years Old
-
-* K Framework Tools 5.0
-
-- k-framework website
- http://www.kframework.org/
-- k-framework is developed on <a href="https://github.com/runtimeverification/k">GitHub</a> and has 330 stars
-- k-framework first developed in <a href="../lists/originCommunities.html#runtimeVerificationInc">Runtime Verification Inc.</a>
-- <a href="http://www.kframework.org/">kframework.org</a> was registered in 2013
-
-<br>
-
-endColumns
-
-keyboardNav forest-lang.html ops5.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2010
+ commits 19780
+ committers 165
+ files 6092

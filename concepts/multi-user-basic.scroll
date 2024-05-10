@@ -1,39 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Multi-user BASIC
+import ../measures/conceptPage.scroll
+id Multi-user BASIC
+appeared 1980
+type pl
+country United States
+originCommunity Digital Equipment Corporation
 
-title Multi-user BASIC - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/Multi-user_BASIC
+ related basic basic-11 basic-plus
+ summary Multi-user BASIC was a dialect of the BASIC language for the DEC PDP-11 running the RT-11 operating system.  One or more users were supported in separate address spaces sharing the same language interpreter.  The syntax of the language was similar to but not identical to BASIC-11.  A key language element was the support for virtual files.  These were similar to the virtual arrays in BASIC-PLUS in but more limited.  An array of integers, floatingpoint, or character strings of length 1, 2, 4, 8, 16, 32, or 64 could be placed in file and accessed with a subscript.  The file could actually be opened (or re-opened) with a different definition allowing integers, characters, and floating point numbers to be stored in the same file. Like BASIC-11, Multi-User BASIC provided some support for lab equipment, support for character terminals (LA30, VT100).  Because it was a multi-user system, it did not support real-time data collection.
+ created 2006
+ backlinksCount 3
+ pageId 5369818
+ revisionCount 16
+ dailyPageViews 1
+ appeared 1980
 
-html
- <a class="trueBaseThemePreviousItem" href="hbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="20-gate.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/multi-user-basic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Multi-user_BASIC"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=multi-user-basic" class="material-symbols-outlined">edit</a></div>
-
-* Multi-user BASIC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1980.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1980 1980
-
-dashboard
- #2561 <span title="TotalRank: 3190 Jobs: 103 Users: 2101 Facts: 2321 Links: 986">on PLDB</span>
- 44 Years Old
-
-* Multi-user BASIC was a dialect of the BASIC language for the DEC PDP-11 running the RT-11 operating system.  One or more users were supported in separate address spaces sharing the same language interpreter.  The syntax of the language was similar to but not identical to BASIC-11. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Multi-user_BASIC Read more on Wikipedia...
-
-- Multi-user BASIC Wikipedia page
- https://en.wikipedia.org/wiki/Multi-user_BASIC
-- Multi-user BASIC first developed in <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a>
-- See also: (3 related languages)<a href="basic.html">BASIC</a>, <a href="basic-11.html">BASIC-11</a>, <a href="basic-plus.html">BASIC-PLUS</a>
-
-<br>
-
-endColumns
-
-keyboardNav hbasic.html 20-gate.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

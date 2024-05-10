@@ -1,177 +1,168 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RDoc
+import ../measures/conceptPage.scroll
+id RDoc
+appeared 2004
+type textMarkup
+website https://ruby.github.io/rdoc/
+country Japan
+originCommunity https://github.com/ruby
 
-title RDoc - Text markup language
- hidden
+wikipedia https://en.wikipedia.org/wiki/RDoc
+ related ruby-document-format
+ summary RDoc, designed by Dave Thomas, is an embedded documentation generator for the Ruby programming language. It analyzes Ruby source code, generating a structured collection of pages for Ruby objects and methods. Code comments can be added in a natural style. RDoc is included as part of the Ruby core distribution. The RDoc software and format are successors to the Ruby Document format (with associated software RD). RDoc can produce usable documentation even if the target source code does not contain explicit comments as it will still parse the classes, modules, and methods, and list them in the generated API files. RDoc also provides the engine for creating Ruby ri data files, providing access to API information from the command line. RDoc and ri are currently maintained by Eric Hodel and Ryan Davis.
+ pageId 9599474
+ created 2007
+ backlinksCount 14
+ revisionCount 40
+ dailyPageViews 10
+ appeared 2017
 
-html
- <a class="trueBaseThemePreviousItem" href="intercal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="foxpro.html">&gt;</a>
+githubLanguage RDoc
+ fileExtensions rdoc
+ trendingProjectsCount 0
+ type prose
+ aceMode rdoc
+ tmScope text.rdoc
+ wrap true
+ repos 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rdoc.pldb
+linguistGrammarRepo https://github.com/joshaven/RDoc.tmbundle
+ firstCommit 2009
+ lastCommit 2010
+ committerCount 3
+ commitCount 13
+ sampleCount 1
+ example
+  = \RDoc - Ruby Documentation System
+  
+  home :: https://github.com/rdoc/rdoc
+  rdoc :: http://docs.seattlerb.org/rdoc
+  bugs :: https://github.com/rdoc/rdoc/issues
+  code quality :: {<img src="https://codeclimate.com/badge.png" alt="code climate">}[https://codeclimate.com/github/rdoc/rdoc]
+  
+  == Description
+  
+  RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
+  includes the +rdoc+ and +ri+ tools for generating and displaying documentation
+  from the command-line.
+  
+  == Generating Documentation
+  
+  Once installed, you can create documentation using the +rdoc+ command
+  
+    $ rdoc [options] [names...]
+  
+  For an up-to-date option summary, type
+  
+    $ rdoc --help
+  
+  A typical use might be to generate documentation for a package of Ruby
+  source (such as RDoc itself).
+  
+    $ rdoc
+  
+  This command generates documentation for all the Ruby and C source
+  files in and below the current directory.  These will be stored in a
+  documentation tree starting in the subdirectory +doc+.
+  
+  You can make this slightly more useful for your readers by having the
+  index page contain the documentation for the primary file.  In our
+  case, we could type
+  
+    % rdoc --main README.rdoc
+  
+  You'll find information on the various formatting tricks you can use
+  in comment blocks in the documentation this generates.
+  
+  RDoc uses file extensions to determine how to process each file.  File names
+  ending +.rb+ and +.rbw+ are assumed to be Ruby source.  Files
+  ending +.c+ are parsed as C files.  All other files are assumed to
+  contain just Markup-style markup (with or without leading '#' comment
+  markers).  If directory names are passed to RDoc, they are scanned
+  recursively for C and Ruby source files only.
+  
+  To generate documentation using +rake+ see RDoc::Task.
+  
+  To generate documentation programmatically:
+  
+    gem 'rdoc'
+    require 'rdoc/rdoc'
+  
+    options = RDoc::Options.new
+    # see RDoc::Options
+  
+    rdoc = RDoc::RDoc.new
+    rdoc.document options
+    # see RDoc::RDoc
+  
+  == Writing Documentation
+  
+  To write documentation for RDoc place a comment above the class, module,
+  method, constant, or attribute you want documented:
+  
+    ##
+    # This class represents an arbitrary shape by a series of points.
+  
+    class Shape
+  
+      ##
+      # Creates a new shape described by a +polyline+.
+      #
+      # If the +polyline+ does not end at the same point it started at the
+      # first pointed is copied and placed at the end of the line.
+      #
+      # An ArgumentError is raised if the line crosses itself, but shapes may
+      # be concave.
+  
+      def initialize polyline
+        # ...
+      end
+  
+    end
+  
+  The default comment markup format is the RDoc::Markup format.
+  TomDoc[rdoc-ref:RDoc::TomDoc], Markdown[rdoc-ref:RDoc::Markdown] and
+  RD[rdoc-ref:RDoc::RD] format comments are also supported.  You can set the
+  default comment format for your entire project by creating a
+  <tt>.rdoc_options</tt> file.  See RDoc::Options@Saved+Options for instructions
+  on creating one.  You can also set the comment format for a single file
+  through the +:markup:+ directive, but this is only recommended if you wish to
+  switch markup formats.  See RDoc::Markup@Other+directives.
+  
+  Comments can contain directives that tell RDoc information that it cannot
+  otherwise discover through parsing.  See RDoc::Markup@Directives to control
+  what is or is not documented, to define method arguments or to break up
+  methods in a class by topic.  See RDoc::Parser::Ruby for directives used to
+  teach RDoc about metaprogrammed methods.
+  
+  See RDoc::Parser::C for documenting C extensions with RDoc.
+  
+  To determine how well your project is documented run <tt>rdoc -C lib</tt> to
+  get a documentation coverage report.  <tt>rdoc -C1 lib</tt> includes parameter
+  names in the documentation coverage report.
+  
+  == Bugs
+  
+  See CONTRIBUTING@Bugs for information on filing a bug report.  It's OK to file
+  a bug report for anything you're having a problem with.  If you can't figure
+  out how to make RDoc produce the output you like that is probably a
+  documentation bug.
+  
+  == License
+  
+  RDoc is Copyright (c) 2001-2003 Dave Thomas, The Pragmatic Programmers.
+  Portions (c) 2007-2011 Eric Hodel.  Portions copyright others, see individual
+  files and LEGAL.rdoc for details.
+  
+  RDoc is free software, and may be redistributed under the terms specified in
+  LICENSE.rdoc.
+  
+  == Warranty
+  
+  This software is provided "as is" and without any express or implied
+  warranties, including, without limitation, the implied warranties of
+  merchantability and fitness for a particular purpose.
+  
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ruby.github.io/rdoc/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/RDoc"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=rdoc" class="material-symbols-outlined">edit</a></div>
-
-* RDoc is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #305 <span title="TotalRank: 717 Jobs: 103 Users: 1007 Facts: 123 Links: 491">on PLDB</span>
- 20 Years Old
- 0 <span title="RDoc repos on GitHub.">Repos</span>
-
-* RDoc, designed by Dave Thomas, is an embedded documentation generator for the Ruby programming language. It analyzes Ruby source code, generating a structured collection of pages for Ruby objects and methods. Code comments can be added in a natural style. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/RDoc Read more on Wikipedia...
-
-- RDoc website
- https://ruby.github.io/rdoc/
-- RDoc Wikipedia page
- https://en.wikipedia.org/wiki/RDoc
-- There are at least 0 RDoc repos on <a href="https://github.com/search?q=language:RDoc">GitHub</a>
-- RDoc first developed in <a href="../lists/originCommunities.html#httpsGithubComRuby">https://github.com/ruby</a>
-- file extensions for RDoc include rdoc
-- GitHub supports <a href="https://github.com/joshaven/RDoc.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for RDoc
-- See also: (1 related languages)<a href="ruby-document-format.html">Ruby Document format</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/joshaven/RDoc.tmbundle'>Linguist</a>:
- = \RDoc - Ruby Documentation System
- 
- home :: https://github.com/rdoc/rdoc
- rdoc :: http://docs.seattlerb.org/rdoc
- bugs :: https://github.com/rdoc/rdoc/issues
- code quality :: {&lt;img src=&quot;https://codeclimate.com/badge.png&quot; alt=&quot;code climate&quot;&gt;}[https://codeclimate.com/github/rdoc/rdoc]
- 
- == Description
- 
- RDoc produces HTML and command-line documentation for Ruby projects.  RDoc
- includes the +rdoc+ and +ri+ tools for generating and displaying documentation
- from the command-line.
- 
- == Generating Documentation
- 
- Once installed, you can create documentation using the +rdoc+ command
- 
-   $ rdoc [options] [names...]
- 
- For an up-to-date option summary, type
- 
-   $ rdoc --help
- 
- A typical use might be to generate documentation for a package of Ruby
- source (such as RDoc itself).
- 
-   $ rdoc
- 
- This command generates documentation for all the Ruby and C source
- files in and below the current directory.  These will be stored in a
- documentation tree starting in the subdirectory +doc+.
- 
- You can make this slightly more useful for your readers by having the
- index page contain the documentation for the primary file.  In our
- case, we could type
- 
-   % rdoc --main README.rdoc
- 
- You&#39;ll find information on the various formatting tricks you can use
- in comment blocks in the documentation this generates.
- 
- RDoc uses file extensions to determine how to process each file.  File names
- ending +.rb+ and +.rbw+ are assumed to be Ruby source.  Files
- ending +.c+ are parsed as C files.  All other files are assumed to
- contain just Markup-style markup (with or without leading &#39;#&#39; comment
- markers).  If directory names are passed to RDoc, they are scanned
- recursively for C and Ruby source files only.
- 
- To generate documentation using +rake+ see RDoc::Task.
- 
- To generate documentation programmatically:
- 
-   gem &#39;rdoc&#39;
-   require &#39;rdoc/rdoc&#39;
- 
-   options = RDoc::Options.new
-   # see RDoc::Options
- 
-   rdoc = RDoc::RDoc.new
-   rdoc.document options
-   # see RDoc::RDoc
- 
- == Writing Documentation
- 
- To write documentation for RDoc place a comment above the class, module,
- method, constant, or attribute you want documented:
- 
-   ##
-   # This class represents an arbitrary shape by a series of points.
- 
-   class Shape
- 
-     ##
-     # Creates a new shape described by a +polyline+.
-     #
-     # If the +polyline+ does not end at the same point it started at the
-     # first pointed is copied and placed at the end of the line.
-     #
-     # An ArgumentError is raised if the line crosses itself, but shapes may
-     # be concave.
- 
-     def initialize polyline
-       # ...
-     end
- 
-   end
- 
- The default comment markup format is the RDoc::Markup format.
- TomDoc[rdoc-ref:RDoc::TomDoc], Markdown[rdoc-ref:RDoc::Markdown] and
- RD[rdoc-ref:RDoc::RD] format comments are also supported.  You can set the
- default comment format for your entire project by creating a
- &lt;tt&gt;.rdoc_options&lt;/tt&gt; file.  See RDoc::Options@Saved+Options for instructions
- on creating one.  You can also set the comment format for a single file
- through the +:markup:+ directive, but this is only recommended if you wish to
- switch markup formats.  See RDoc::Markup@Other+directives.
- 
- Comments can contain directives that tell RDoc information that it cannot
- otherwise discover through parsing.  See RDoc::Markup@Directives to control
- what is or is not documented, to define method arguments or to break up
- methods in a class by topic.  See RDoc::Parser::Ruby for directives used to
- teach RDoc about metaprogrammed methods.
- 
- See RDoc::Parser::C for documenting C extensions with RDoc.
- 
- To determine how well your project is documented run &lt;tt&gt;rdoc -C lib&lt;/tt&gt; to
- get a documentation coverage report.  &lt;tt&gt;rdoc -C1 lib&lt;/tt&gt; includes parameter
- names in the documentation coverage report.
- 
- == Bugs
- 
- See CONTRIBUTING@Bugs for information on filing a bug report.  It&#39;s OK to file
- a bug report for anything you&#39;re having a problem with.  If you can&#39;t figure
- out how to make RDoc produce the output you like that is probably a
- documentation bug.
- 
- == License
- 
- RDoc is Copyright (c) 2001-2003 Dave Thomas, The Pragmatic Programmers.
- Portions (c) 2007-2011 Eric Hodel.  Portions copyright others, see individual
- files and LEGAL.rdoc for details.
- 
- RDoc is free software, and may be redistributed under the terms specified in
- LICENSE.rdoc.
- 
- == Warranty
- 
- This software is provided &quot;as is&quot; and without any express or implied
- warranties, including, without limitation, the implied warranties of
- merchantability and fitness for a particular purpose.
- 
-
-endColumns
-
-keyboardNav intercal.html foxpro.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

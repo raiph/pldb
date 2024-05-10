@@ -1,47 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lorel
+import ../measures/conceptPage.scroll
+id Lorel
+appeared 1996
+type queryLanguage
+creators Serge Abiteboul and Dallan Quass and Jason McHugh and Jennifer Widom and Janet L. Wiener
+conceptDescription Lorel Query Language for Semistructured Data
+reference http://infolab.stanford.edu/lore/pubs/lorel96.pdf
+country United States
+originCommunity Stanford University
 
-title Lorel - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lila.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="methodology-description-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lorel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lorel" class="material-symbols-outlined">edit</a></div>
-
-* Lorel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1996 by Serge Abiteboul and Dallan Quass and Jason McHugh and Jennifer Widom and Janet L. Wiener.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
- link ../lists/creators.html#sergeAbiteboul Serge Abiteboul
- link ../lists/creators.html#dallanQuass Dallan Quass
- link ../lists/creators.html#jasonMcHugh Jason McHugh
- link ../lists/creators.html#jenniferWidom Jennifer Widom
- link ../lists/creators.html#janetLWiener Janet L. Wiener
-
-dashboard
- #3014 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 28 Years Old
-
-* Lorel Query Language for Semistructured Data
-
-- Lorel first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- Read more about Lorel on the web: 1.
- http://infolab.stanford.edu/lore/pubs/lorel96.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  select Guide.restaurant.name,
     Guide.restaurant(.address)?.zipcode
-  where Guide.restaurant.% grep &quot;cheap&quot;
+  where Guide.restaurant.% grep "cheap"
 
-endColumns
-
-keyboardNav lila.html methodology-description-language.html
-
-import ../footer.scroll
+isbndb 0

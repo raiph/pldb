@@ -1,73 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Vigil
+import ../measures/conceptPage.scroll
+id Vigil
+appeared 2013
+type esolang
+creators Bob Nystrom
 
-title Vigil - Esoteric programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="xcard.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bliss.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vigil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/munificent/vigil" class="material-symbols-outlined">code</a> <a href="/edit.html?id=vigil" class="material-symbols-outlined">edit</a></div>
-
-* Vigil is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2013 by Bob Nystrom.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#bobNystrom Bob Nystrom
-
-codeWithHeader Source code:
- git clone https://github.com/munificent/vigil
-
-dashboard
- #832 <span title="TotalRank: 1390 Jobs: 103 Users: 301 Facts: 995 Links: 986">on PLDB</span>
- 11 Years Old
-
-* Vigil, the eternal morally vigilant programming language
-
-- Vigil is developed on <a href="https://github.com/munificent/vigil">GitHub</a> and has 2,574 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def fib(n):
-  if n &lt; 2:
+  if n < 2:
       result = n
   else:
       result = fib(n - 1) + fib(n - 2)
   # fib() never returns negative number.
-  swear result &gt;= 0
+  swear result >= 0
   return result
 
-endColumns
+githubRepo https://github.com/munificent/vigil
+ firstCommit 2013
+ stars 2574
+ forks 64
+ subscribers 75
+ created 2013
+ updated 2022
+ description Vigil, the eternal morally vigilant programming language
+ issues 21
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2013
+ commits 15
+ committers 7
+ files 6
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav xcard.html bliss.html
-
-import ../footer.scroll
+isbndb 0

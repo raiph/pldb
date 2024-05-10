@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BScript
+import ../measures/conceptPage.scroll
+id BScript
+appeared 1999
+type pl
+website https://www.softart.ch/en/bscriptm/about-bscript/
 
-title BScript - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8521
 
-html
- <a class="trueBaseThemePreviousItem" href="aubit-4gl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chicken-lang.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.softart.ch/en/bscriptm/about-bscript/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=bscript" class="material-symbols-outlined">edit</a></div>
-
-* BScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #2763 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- BScript website
- https://www.softart.ch/en/bscriptm/about-bscript/
-- BScript on HOPL
- https://hopl.info/showlanguage.prx?exp=8521
-
-<br>
-
-endColumns
-
-keyboardNav aubit-4gl.html chicken-lang.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,129 +1,159 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APL
+import ../measures/conceptPage.scroll
+id APL
+appeared 1964
+type pl
+creators Kenneth E. Iverson
+webRepl https://tryapl.org/
+documentation https://xosnitc.github.io/apl-spec.html
+standsFor A Programming Language
+country United States
+originCommunity Harvard University
 
-title APL - Programming language
- hidden
+visualParadigm false
 
-html
- <a class="trueBaseThemePreviousItem" href="tls.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smali.html">&gt;</a>
+hasComments true
+hasGarbageCollection true
+hasLineComments true
+ ⍝ A comment
+hasFunctionComposition true
+ foo←f∘g
+hasSemanticIndentation false
+hasStrings true
+ 'Hello world'
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apl.pldb
+lineCommentToken ⍝
+stringToken '
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/APL_(programming_language)
+ example
+  txt←'<html><body><p>This is <em>emphasized</em> text.</p></body></html>'
+  ⎕←{⍵/⍨~{⍵∨≠\⍵}⍵∊'<>'}txt
+ related aplx j go k matlab nial polymorphic-programming-language q s sac-programming-language speakeasy wolfram 1620sps basic music-sp unix isbn ascii cobol java linux ruby r unicode c fortran csharp cil excel-app octave scilab lyapas rpl
+ summary APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. It uses a large range of special graphic symbols to represent most functions and operators, leading to very concise code. It has been an important influence on the development of concept modeling, spreadsheets, functional programming, and computer math packages. It has also inspired several other programming languages. It is still used today for certain applications.
+ pageId 1451
+ dailyPageViews 680
+ created 2001
+ backlinksCount 388
+ revisionCount 1557
+ appeared 1964
 
-<div class="trueBaseThemeQuickLinks"><a href="https://tryapl.org/" class="material-symbols-outlined">terminal</a> <a href="https://xosnitc.github.io/apl-spec.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/APL_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=apl" class="material-symbols-outlined">edit</a></div>
+githubLanguage APL
+ fileExtensions apl dyalog
+ trendingProjectsCount 0
+ type programming
+ interpreters apl aplx dyalog
+ aceMode text
+ codemirrorMode apl
+ codemirrorMimeType text/apl
+ tmScope source.apl
+ repos 416
+githubBigQuery APL
+ repos 95
+ users 87
 
-* APL, aka A Programming Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964 by Kenneth E. Iverson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
- link ../lists/creators.html#kennethEIverson Kenneth E. Iverson
+codeMirror apl
+pygmentsHighlighter APL
+ filename apl.py
+ fileExtensions apl aplf aplo apln aplc apli dyalog
+linguistGrammarRepo https://github.com/Alhadis/language-apl.git
+ firstCommit 2016
+ lastCommit 2018
+ committerCount 1
+ commitCount 99
+ sampleCount 3
+ example
+  #!/usr/local/bin/apl --script
+  NEWLINE ← ⎕UCS 10
+  HEADERS ← 'Content-Type: text/plain', NEWLINE
+  HEADERS
+  ⍝ ⎕←HEADERS
+  ⍝ ⍕⎕TS
+  )OFF
+  
 
-dashboard
- #92 <span title="TotalRank: 292 Jobs: 103 Users: 246 Facts: 142 Links: 47">on PLDB</span>
- 60 Years Old
- 416 <span title="APL repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://tryapl.org/">Web</a> · <a href="https://riju.codes/apl">Riju</a> · <a href="https://repl.it/languages/apl">Replit</a>
-
-* APL (named after the book A Programming Language) is a programming language developed in the 1960s by Kenneth E. Iverson. Its central datatype is the multidimensional array. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/APL_(programming_language) Read more on Wikipedia...
-
-- APL Wikipedia page
- https://en.wikipedia.org/wiki/APL_(programming_language)
-- APL docs
- https://xosnitc.github.io/apl-spec.html
-- There are at least 416 APL repos on <a href="https://github.com/search?q=language:APL">GitHub</a>
-- APL first developed in <a href="../lists/originCommunities.html#harvardUniversity">Harvard University</a>
-- file extensions for APL include apl, dyalog, aplf, aplo, apln, aplc and apli
-- The  Google BigQuery Public Dataset GitHub snapshot shows 87 users using APL in 95 repos on <a href="https://api.github.com/search/repositories?q=language:APL">GitHub</a>
-- There are 2,478 <a href="https://projecteuler.net/language=APL/J/K">Project Euler</a> users using APL
-- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> APL programmers reported a median salary of $75,631. 1% of respondents reported using APL. 536 programmers reported using APL, and 568 said they wanted to use it
-- Explore APL snippets on <a href="http://www.rosettacode.org/wiki/Category:APL">Rosetta Code</a>
-- APL on HOPL
- https://hopl.info/showlanguage.prx?exp=18
-- APL appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/apl">package</a> for syntax highlighting APL
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/apl.py">syntax highlighting</a> for APL
-- GitHub supports <a href="https://github.com/Alhadis/language-apl.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for APL
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/Dyalog/dyalog-jupyter-kernel">Kernel</a> for APL
-- See also: (33 related languages)<a href="aplx.html">APLX</a>, <a href="j.html">J</a>, <a href="go.html">Go</a>, <a href="k.html">K</a>, <a href="matlab.html">MATLAB</a>, <a href="nial.html">Nial</a>, <a href="polymorphic-programming-language.html">Polymorphic Programming Language</a>, <a href="q.html">Q</a>, <a href="s.html">S</a>, <a href="sac-programming-language.html">SAC</a>, <a href="speakeasy.html">Speakeasy</a>, <a href="wolfram.html">Wolfram Language</a>, <a href="1620sps.html">IBM 1620</a>, <a href="basic.html">BASIC</a>, <a href="music-sp.html">MUSIC/SP</a>, <a href="unix.html">Unix</a>, <a href="isbn.html">ISBN</a>, <a href="ascii.html">ASCII</a>, <a href="cobol.html">COBOL</a>, <a href="java.html">Java</a>, <a href="linux.html">Linux</a>, <a href="ruby.html">Ruby</a>, <a href="r.html">R</a>, <a href="unicode.html">Unicode</a>, <a href="c.html">C</a>, <a href="fortran.html">Fortran</a>, <a href="csharp.html">C#</a>, <a href="cil.html">CIL</a>, <a href="excel-app.html">Microsoft Excel</a>, <a href="octave.html">GNU Octave</a>, <a href="scilab.html">Scilab</a>, <a href="lyapas.html">LYaPAS</a>, <a href="rpl.html">RPL</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/apl'>Riju</a>:
- &#39;Hello, world!&#39;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/a/APL.apl'>hello-world</a>:
- ⎕←&#39;Hello World&#39;
- 
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#A'>the Hello World Collection</a>:
+projectEuler APL/J/K
+ memberCount
+  2022 2478
+  2019 332
+helloWorldCollection A Programming Language
  ⍝ Hello World in APL
  
- ⎕←\&#39;Hello World\&#39;
+ ⎕←\'Hello World\'
+leachim6 APL
+ filepath a/APL.apl
+ fileExtensions apl
+ example
+  ⎕←'Hello World'
+  
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:APL
 
-codeWithHeader Example from <a href='https://github.com/Alhadis/language-apl.git'>Linguist</a>:
- #!/usr/local/bin/apl --script
- NEWLINE ← ⎕UCS 10
- HEADERS ← &#39;Content-Type: text/plain&#39;, NEWLINE
- HEADERS
- ⍝ ⎕←HEADERS
- ⍝ ⍕⎕TS
- )OFF
- 
+rijuRepl https://riju.codes/apl
+ example
+  'Hello, world!'
+  
+ description Array-based programming language using large range of special symbols for concision
+ fileExtensions apl
+ gitRepo https://savannah.gnu.org/svn/?group=apl
+replit https://repl.it/languages/apl
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/APL_(programming_language)'>Wikipedia</a>:
- txt←&#39;&lt;html&gt;&lt;body&gt;&lt;p&gt;This is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&#39;
- ⎕←{⍵/⍨~{⍵∨≠\⍵}⍵∊&#39;&lt;&gt;&#39;}txt
+stackOverflowSurvey
+ 2021
+  users 536
+  medianSalary 75631
+  fans 568
+  percentageUsing 0.01
 
-endColumns
+tiobe APL
+hopl https://hopl.info/showlanguage.prx?exp=18
 
-## Language <a href="../lists/features.html">features</a>
+jupyterKernel https://github.com/Dyalog/dyalog-jupyter-kernel
+fileType text
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   'Hello world'
- row
-  Feature Function Composition
-  FeatureLink ../features/hasFunctionComposition.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   foo←f∘g
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ⍝
-  Example
-   ⍝ A comment
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isbndb 13
+ year|publisher|title|authors|isbn13
+ 1988|Springer|An Apl Compiler|Timothy Budd|9780387966434
+ 1976|Winthrop Publishers|Structured programming in APL (Winthrop computer systems series)|Geller, Dennis P|9780876268599
+ 1970|Van Nost. Reinhold|Apl Programming and Computer Techniques|Katzan, Harry|9780442242510
+ 1981|Springer|Computing in Statistical Science through APL (Springer Series in Statistics)|Anscombe, Francis John|9780387905495
+ ||Apl Programming Language Family: Apl, J, Criticism Of Apl, Apl Syntax And Symbols, K, Apl, Scientific Time Sharing Corporation, Rank|Books and LLC|9781155513959
+ 2010||Apl (programming Language)|Miller and Frederic P. and Vandome and Agnes F. and McBrewster and John|9786132579935
+ 1978|Prentice-hall|Applied Apl Programming|Wilbur R Le Page|9780130400635
+ 1974|Petrocelli Books|Handbook Of Apl Programming|Clark Wiedmann|9780884050261
+ 1976|W. C. Brown Co. Publishers|Fundamentals Of Apl Programming|Paulman, Jack.|9780697081193
+ 1974|Petrocelli Books|Handbook Of Apl Programming|Clark Wiedmann|9780884050612
+ 2013|Springer-verlag|Einführung In Die Programmiersprache Apl|Peter P. Bothner and Wolf-Michael Kähler|9783663141617
+ 1977|Wiley|Introduction To Apl And Computer Programming|Edward Harms|9780471352013
+ 1992|Crc Press|Encyclopedia Of Microcomputers: Volume 9 - Icon Programming Language To Knowledge-based Systems: Apl Techniques (microcomputers Encyclopedia)|Allen Kent and James G. Williams|9780824727086
 
-keyboardNav tls.html smali.html
-
-import ../footer.scroll
+semanticScholar 28
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1979|Programming with idioms in APL|10.1145/800136.804466|30|0|A. Perlis and S. Rugaber|f623a6274d803e43b54f59aae1347980b68acb8e
+ 2002|The Agent-based Programming Language: APL|10.1145/508791.508799|19|0|Chang-Hyun Jo and Allen J. Arnold|41310f13f4382999687e63e8c1e8f47fab01f230
+ 1986|LOGOS: An APL programming environment|10.1145/22415.22054|7|0|D. B. Allen and Leslie H. Goldsmith and Mark R. Dempsey and Kevin L. Harrell|b7a312ddc5cee5a105176ea4e4e41f20159bfb93
+ 1979|Introduction to APL and computer programming|10.1145/586058.586070|5|0|E. R. Mullins|75247adbe4b630f5dfcdd873e12992af620697a2
+ 1974|APLGOL - A Structured Programming Language for APL|10.1007/3-540-07131-8_25|5|0|H. Kolsky|f086795fbe65790a3337afa004b9191eb9ca80fd
+ 1974|APLGOL-2 a structured programming language system for APL|10.1145/800269.810821|5|0|Robert A. Kelley and J. R. Walters|8685983c85e8bad6270373694ad2e12e6367315d
+ 1989|Object oriented programming in AIDA APL|10.1145/75144.75167|4|0|M. Gfeller|16c84df489224ba91ebae8ab89111fdecac5daf5
+ 1980|APL as a Software Design Specification Language|10.1093/comjnl/23.3.230|4|1|W. Jones and S. Kirk|ae89a6d335e30fdc78a0b3dd2d12c4b0046f41ef
+ 1975|Is APL a Viable Programming Language?|10.1093/comjnl/18.4.318|4|0|R. Earnshaw|70d0dcea9dd4deb149fea2eb158b0ba391352cd1
+ 1990|The A+ programming language, a different APL|10.1145/97808.97621|4|0|J. Girardot|d791aecd0f6fde993fcfe56fcf11d2ba16342166
+ 1986|Extending APL to logic programming|10.1145/22415.22047|3|0|M. Alfonseca and M. Tobar|b88e6ab10eec875de707100b77bf7853b8b33eb5
+ 1984|Logic programming in APL|10.1145/800058.801103|2|0|R. Jernigan|6c977a8df107b3d97bd154615338e8ea373a4543
+ 1991|APL as an embedded language: the ultimate application?|10.1145/114054.114075|2|0|J. Girardot|b6ec374fbf3e3adb65049c11d5b5c5b6b5ada232
+ 1990|Programming ecology or APL and the world at large|10.1145/97808.97853|2|0|J. Lucas|4598098f83d5892f8f7e82d2f0578cad6208496b
+ 1991|Notes on C programming for APL programmers|10.1145/114054.114069|2|0|Stephen Deerhake|794f33cd75666c9d23542818c9f5ecc60dfe1049
+ 1982|Mathematical Programming Algorithms in APL|10.1007/978-3-642-95406-1_28|2|0|H. Crowder|5e02bfe2fa2b0a24c7f8d8256c514289da8fa3d8
+ 1978|Is APL a Programming Language?|10.1093/comjnl/21.2.128|2|0|W. Holmes|5d7a1e874961fc12e9d5fafa2e395085208a6e73
+ 2015|Compiling APL to accelerate through a typed array intermediate language|10.1145/2774959.2774966|2|0|Michael Budde and M. Dybdal and M. Elsman|4cfa806596ed3791d36ba88144514ae20e2c8592
+ 1978|Programming errors in APL|10.1145/586040.586045|1|0|G. Kearsley|0147995cf57130132be872de384a631606a30422
+ 1974|Limitations of APL as a language for student-computer dialogs|10.1145/585882.585887|1|0|A. Bork|363a3b9c42043dedf70b61e2de540ff3986effa8
+ 1976|Functions in APL to assist the programming and servicing of CAI-Lessons|10.1145/800114.803684|1|0|Georg R. Lampl and Isolde Schell-Haungs|e94e979493cd406942651ab23da266be572eb62c
+ 1976|Structured Programming in APL|10.1145/585987.585995|1|0|K. Smillie|3b7628eed2465e2a464cc7415267f6effb7b0b1f
+ 1987|APL — a higher level language|10.1007/978-1-349-08004-5_6|1|0|A. N. Barrett and A. Mackay|4bd0a7eb39e11bfb82e9480deadd5f57fbe6d029
+ 1986|Japanese APL language system on IBM Multistation 5550|10.1145/22415.22055|1|0|M. Udo and Y. Akimoto and S. Kaneko and T. Sanuki and M. Alfonseca|c4cb6a9d03d8b209c486983e5c1358ff4a836289
+ 1983|The current programming language standards scene XIVA: APL|10.1016/0167-8051(83)90017-7|1|0|J. Sykes|8bb4c670776f3cc9352fca29e326201e13107eb9
+ 1979|Applied APL programming|10.1145/586058.586071|1|0|Michael C. Powell|24ec84c729ffce1b7237efd7d860fcebc9580dc8
+ 1979|Teaching Mathematics via APL (A Programming Language).|10.5951/MT.72.2.0097|1|0|H. Peelle|e1a1a024f948575b7413d5b7095dc84b189edaa7
+ 1992|The CTalk programming language: a strategic evolution of APL|10.1145/144045.144088|1|0|J. Girardot|5dc43e3ca62e86deabb707ff14aa6b47a2fd36b9

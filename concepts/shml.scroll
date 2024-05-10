@@ -1,47 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title shml
+import ../measures/conceptPage.scroll
+id shml
+appeared 2015
+type textMarkup
+website https://odb.github.io/shml/
+country United States
+originCommunity https://github.com/odb
 
-title shml - Text markup language
- hidden
+githubRepo https://github.com/odb/shml
 
-html
- <a class="trueBaseThemePreviousItem" href="sdms.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sentient.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://odb.github.io/shml/" class="material-symbols-outlined">home</a> <a href="https://github.com/odb/shml" class="material-symbols-outlined">code</a> <a href="/edit.html?id=shml" class="material-symbols-outlined">edit</a></div>
-
-* shml is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/odb/shml
-
-dashboard
- #2742 <span title="TotalRank: 3504 Jobs: 103 Users: 2415 Facts: 2816 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- shml website
- https://odb.github.io/shml/
-- shml is developed on <a href="https://github.com/odb/shml">GitHub</a>
-- shml first developed in <a href="../lists/originCommunities.html#httpsGithubComOdb">https://github.com/odb</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of shml
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: SHML (shell markup language)|https://news.ycombinator.com/item?id=10517290|11/06/2015|71|12
-
-keyboardNav sdms.html sentient.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 10517290|Show HN: SHML (shell markup language)|2015-11-06 01:14:58 UTC|1446772498|jdorfman|12|71

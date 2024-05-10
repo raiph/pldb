@@ -1,37 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title fizz
+import ../measures/conceptPage.scroll
+id fizz
+appeared 2017
+type pl
+conceptDescription fizz is an experimental language and runtime environment for the exploration of cognitive architectures and combined Machine Learning (ML) and Machine Reasoning (MR) solutions. It is based primarily on symbolic programming and fuzzy formal logic and it features a distributed (as in heterogeneous computer cluster), concurrent, asynchronous and responsive inference engine.
+website https://f1zz.org/
+country United States
+originCommunity https://f1zz.org
+domainName f1zz.org
+ registered 2017
 
-title fizz - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="aime.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="balgol.html">&gt;</a>
+lineCommentToken //
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fizz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://f1zz.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=fizz" class="material-symbols-outlined">edit</a></div>
-
-* fizz is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #1522 <span title="TotalRank: 2033 Jobs: 103 Users: 2442 Facts: 944 Links: 986">on PLDB</span>
- 7 Years Old
-
-* fizz is an experimental language and runtime environment for the exploration of cognitive architectures and combined Machine Learning (ML) and Machine Reasoning (MR) solutions. It is based primarily on symbolic programming and fuzzy formal logic and it features a distributed (as in heterogeneous computer cluster), concurrent, asynchronous and responsive inference engine.
-
-- fizz website
- https://f1zz.org/
-- fizz first developed in <a href="../lists/originCommunities.html#httpsF1ZzOrg">https://f1zz.org</a>
-- <a href="https://f1zz.org/">f1zz.org</a> was registered in 2017
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // Code ----------------------------------------------------------------------------------------------------------------------------------
  
  is.tree { // test if a term is a valid binary tree
@@ -50,39 +38,3 @@ codeWithHeader Example from the web:
                              sum(:l.n,:r.n,1,:n);
  
  }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav aime.html balgol.html
-
-import ../footer.scroll

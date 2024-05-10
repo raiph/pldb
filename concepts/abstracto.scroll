@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Abstracto
+import ../measures/conceptPage.scroll
+id Abstracto
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/85863dbe91ea270a5010d2edcc637e8647b61825
+originCommunity Center for Mathematics and Computer Science-Amsterdam
 
-title Abstracto - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3790
 
-html
- <a class="trueBaseThemePreviousItem" href="abcpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ac-toolbox.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abstracto.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=abstracto" class="material-symbols-outlined">edit</a></div>
-
-* Abstracto is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3312 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- Abstracto first developed in <a href="../lists/originCommunities.html#centerForMathematicsAndComputerScienceAmsterdam">Center for Mathematics and Computer Science-Amsterdam</a>
-- Abstracto on HOPL
- https://hopl.info/showlanguage.prx?exp=3790
-- Read more about Abstracto on Semantic Scholar: 1.
- https://semanticscholar.org/paper/85863dbe91ea270a5010d2edcc637e8647b61825 1.
-
-<br>
-
-endColumns
-
-keyboardNav abcpp.html ac-toolbox.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

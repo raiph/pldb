@@ -1,173 +1,143 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Isabelle
+import ../measures/conceptPage.scroll
+id Isabelle
+appeared 1986
+type pl
+conceptDescription Isabelle is a generic proof assistant. It allows mathematical formulas to be expressed in a formal language and provides tools for proving those formulas in a logical calculus. Isabelle was originally developed at the University of Cambridge and Technische Universität München, but now includes numerous contributions from institutions and individuals worldwide.
+website http://isabelle.in.tum.de/
+reference https://books.google.com/books?id=xwdqCQAAQBAJ&dq=isabelle+language+proof&lr=
+fileExtensions ROOT
+country United Kingdom and Germany
+originCommunity University Of Cambridge && Technische Universität München
+domainName isabelle.in.tum.de
 
-title Isabelle - Programming language
- hidden
+hasMultiLineComments true
+ (* A comment
+ *)
+hasComments true
+ (* A comment
+ *)
+hasSemanticIndentation false
+hasBooleans true
+hasOctals true
+hasHexadecimals true
+hasBinaryNumbers true
 
-html
- <a class="trueBaseThemePreviousItem" href="batch.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dafny.html">&gt;</a>
+multiLineCommentTokens (* *)
+booleanTokens True False
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/isabelle.pldb
+wikipedia https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)
+ example
+  theorem sqrt2_not_rational:
+    "sqrt (real 2) ∉ ℚ"
+  proof
+    let ?x = "sqrt (real 2)"
+    assume "?x ∈ ℚ"
+    then obtain m n :: nat where
+      sqrt_rat: "¦?x¦ = real m / real n" and lowest_terms: "coprime m n"
+      by (rule Rats_abs_nat_div_natE)
+    hence "real (m^2) = ?x^2 * real (n^2)" by (auto simp add: power2_eq_square)
+    hence eq: "m^2 = 2 * n^2" using of_nat_eq_iff power2_eq_square by fastforce
+    hence "2 dvd m^2" by simp
+    hence "2 dvd m" by simp
+    have "2 dvd n" proof-
+      from ‹2 dvd m› obtain k where "m = 2 * k" ..
+      with eq have "2 * n^2 = 2^2 * k^2" by simp
+      hence "2 dvd n^2" by simp
+      thus "2 dvd n" by simp
+    qed
+    with ‹2 dvd m› have "2 dvd gcd m n" by (rule gcd_greatest)
+    with lowest_terms have "2 dvd 1" by simp
+    thus False using odd_one by blast
+  qed
+ related standard-ml coq
+ summary The Isabelle theorem prover is an interactive theorem prover, a Higher Order Logic (HOL) theorem prover. It is an LCF-style theorem prover (written in Standard ML), so it is based on a small logical core to ease logical correctness. Isabelle is generic: it provides a meta-logic (a weak type theory), which is used to encode object logics like first-order logic (FOL), higher-order logic (HOL) or Zermelo–Fraenkel set theory (ZFC). Isabelle's main proof method is a higher-order version of resolution, based on higher-order unification. Though interactive, Isabelle also features efficient automatic reasoning tools, such as a term rewriting engine and a tableaux prover, as well as various decision procedures.  Isabelle has been used to formalize numerous theorems from mathematics and computer science, like Gödel's completeness theorem, Gödel's theorem about the consistency of the axiom of choice, the prime number theorem, correctness of security protocols, and properties of programming language semantics. The Isabelle theorem prover is free software, released under the revised BSD license. Isabelle was named by Lawrence Paulson after Gérard Huet's daughter.
+ created 2002
+ backlinksCount 32
+ pageId 161886
+ revisionCount 150
+ dailyPageViews 71
+ appeared 1986
 
-startColumns 4
+githubLanguage Isabelle
+ fileExtensions thy
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.isabelle.theory
+ repos 839
+githubBigQuery Isabelle
+ repos 137
+ users 115
 
-<div class="trueBaseThemeQuickLinks"><a href="http://isabelle.in.tum.de/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=isabelle" class="material-symbols-outlined">edit</a></div>
+pygmentsHighlighter Isabelle
+ filename theorem.py
+ fileExtensions thy
+linguistGrammarRepo https://github.com/lsf37/Isabelle.tmbundle
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 1
+ commitCount 9
+ sampleCount 1
+ example
+  theory HelloWorld
+  imports Main
+  begin
+  
+  section{*Playing around with Isabelle*}
+  
+  text{* creating a lemma with the name hello_world*}
+  lemma hello_world: "True" by simp
+  
+  (*inspecting it*)
+  thm hello_world
+  
+  text{* defining a string constant HelloWorld *}
+  
+  definition HelloWorld :: "string" where
+    "HelloWorld \<equiv> ''Hello World!''"
+  
+  (*reversing HelloWorld twice yilds HelloWorld again*)
+  theorem "rev (rev HelloWorld) = HelloWorld"
+    by (fact List.rev_rev_ident)
+  
+  text{*now we delete the already proven List.rev_rev_ident lema and show it by hand*}
+  declare List.rev_rev_ident[simp del]
+  hide_fact List.rev_rev_ident
+  
+  (*It's trivial since we can just 'execute' it*)
+  corollary "rev (rev HelloWorld) = HelloWorld"
+    apply(simp add: HelloWorld_def)
+    done
+  
+  text{*does it hold in general?*}
+  theorem rev_rev_ident:"rev (rev l) = l"
+    proof(induction l)
+    case Nil thus ?case by simp
+    next
+    case (Cons l ls)
+      assume IH: "rev (rev ls) = ls"
+      have "rev (l#ls) = (rev ls) @ [l]" by simp
+      hence "rev (rev (l#ls)) = rev ((rev ls) @ [l])" by simp
+      also have "\<dots> = [l] @ rev (rev ls)" by simp
+      finally show "rev (rev (l#ls)) = l#ls" using IH by simp
+    qed
+  
+  corollary "\<forall>(l::string). rev (rev l) = l" by(fastforce intro: rev_rev_ident)
+  
+  end
+  
+languageServerProtocolProject https://isabelle.in.tum.de/repos/isabelle/file/tip/src/Tools/VSCode
+ writtenIn scala
 
-* Isabelle is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #274 <span title="TotalRank: 663 Jobs: 103 Users: 719 Facts: 171 Links: 389">on PLDB</span>
- 38 Years Old
- 839 <span title="Isabelle repos on GitHub.">Repos</span>
+isbndb 0
 
-* The Isabelle theorem prover is an interactive theorem prover, a Higher Order Logic (HOL) theorem prover. It is an LCF-style theorem prover (written in Standard ML), so it is based on a small logical core to ease logical correctness. Isabelle is generic: it provides a meta-logic (a weak type theory), which is used to encode object logics like first-order logic (FOL), higher-order logic (HOL) or Zermelo–Fraenkel set theory (ZFC). Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Isabelle_(proof_assistant) Read more on Wikipedia...
-
-- Isabelle website
- http://isabelle.in.tum.de/
-- Isabelle Wikipedia page
- https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)
-- There are at least 839 Isabelle repos on <a href="https://github.com/search?q=language:Isabelle">GitHub</a>
-- Isabelle first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University Of Cambridge</a> and <a href="../lists/originCommunities.html#technischeUniversitatMunchen">Technische Universität München</a>
-- file extensions for Isabelle include ROOT and thy
-- The  Google BigQuery Public Dataset GitHub snapshot shows 115 users using Isabelle in 137 repos on <a href="https://api.github.com/search/repositories?q=language:Isabelle">GitHub</a>
-- Isabelle <a href="language-server-protocol.html">LSP</a> <a href="https://isabelle.in.tum.de/repos/isabelle/file/tip/src/Tools/VSCode">implementation</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/theorem.py">syntax highlighting</a> for Isabelle
-- GitHub supports <a href="https://github.com/lsf37/Isabelle.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Isabelle
-- See also: (2 related languages)<a href="standard-ml.html">Standard ML</a>, <a href="coq.html">Coq</a>
-- Read more about Isabelle on the web: 1.
- https://books.google.com/books?id=xwdqCQAAQBAJ&dq=isabelle+language+proof&lr= 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/lsf37/Isabelle.tmbundle'>Linguist</a>:
- theory HelloWorld
- imports Main
- begin
- 
- section{*Playing around with Isabelle*}
- 
- text{* creating a lemma with the name hello_world*}
- lemma hello_world: &quot;True&quot; by simp
- 
- (*inspecting it*)
- thm hello_world
- 
- text{* defining a string constant HelloWorld *}
- 
- definition HelloWorld :: &quot;string&quot; where
-   &quot;HelloWorld \&lt;equiv&gt; &#39;&#39;Hello World!&#39;&#39;&quot;
- 
- (*reversing HelloWorld twice yilds HelloWorld again*)
- theorem &quot;rev (rev HelloWorld) = HelloWorld&quot;
-   by (fact List.rev_rev_ident)
- 
- text{*now we delete the already proven List.rev_rev_ident lema and show it by hand*}
- declare List.rev_rev_ident[simp del]
- hide_fact List.rev_rev_ident
- 
- (*It&#39;s trivial since we can just &#39;execute&#39; it*)
- corollary &quot;rev (rev HelloWorld) = HelloWorld&quot;
-   apply(simp add: HelloWorld_def)
-   done
- 
- text{*does it hold in general?*}
- theorem rev_rev_ident:&quot;rev (rev l) = l&quot;
-   proof(induction l)
-   case Nil thus ?case by simp
-   next
-   case (Cons l ls)
-     assume IH: &quot;rev (rev ls) = ls&quot;
-     have &quot;rev (l#ls) = (rev ls) @ [l]&quot; by simp
-     hence &quot;rev (rev (l#ls)) = rev ((rev ls) @ [l])&quot; by simp
-     also have &quot;\&lt;dots&gt; = [l] @ rev (rev ls)&quot; by simp
-     finally show &quot;rev (rev (l#ls)) = l#ls&quot; using IH by simp
-   qed
- 
- corollary &quot;\&lt;forall&gt;(l::string). rev (rev l) = l&quot; by(fastforce intro: rev_rev_ident)
- 
- end
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)'>Wikipedia</a>:
- theorem sqrt2_not_rational:
-   &quot;sqrt (real 2) ∉ ℚ&quot;
- proof
-   let ?x = &quot;sqrt (real 2)&quot;
-   assume &quot;?x ∈ ℚ&quot;
-   then obtain m n :: nat where
-     sqrt_rat: &quot;¦?x¦ = real m / real n&quot; and lowest_terms: &quot;coprime m n&quot;
-     by (rule Rats_abs_nat_div_natE)
-   hence &quot;real (m^2) = ?x^2 * real (n^2)&quot; by (auto simp add: power2_eq_square)
-   hence eq: &quot;m^2 = 2 * n^2&quot; using of_nat_eq_iff power2_eq_square by fastforce
-   hence &quot;2 dvd m^2&quot; by simp
-   hence &quot;2 dvd m&quot; by simp
-   have &quot;2 dvd n&quot; proof-
-     from ‹2 dvd m› obtain k where &quot;m = 2 * k&quot; ..
-     with eq have &quot;2 * n^2 = 2^2 * k^2&quot; by simp
-     hence &quot;2 dvd n^2&quot; by simp
-     thus &quot;2 dvd n&quot; by simp
-   qed
-   with ‹2 dvd m› have &quot;2 dvd gcd m n&quot; by (rule gcd_greatest)
-   with lowest_terms have &quot;2 dvd 1&quot; by simp
-   thus False using odd_one by blast
- qed
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token True False
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (* A comment
-   *)
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (* *)
-  Example
-   (* A comment
-   *)
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav batch.html dafny.html
-
-import ../footer.scroll
+semanticScholar 4
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2011|General Bindings and Alpha-Equivalence in Nominal Isabelle|10.2168/LMCS-8(2:14)2012|66|12|Christian Urban and C. Kaliszyk|94d0fe2a93092044729ef1ee299e081087600f4c
+ 2012|Smart Testing of Functional Programs in Isabelle|10.1007/978-3-642-28717-6_14|26|4|Lukas Bulwahn|21c3307d6cf498c37d3503a71d11d5aaf351eb55
+ 2011|A Formalization of the C99 Standard in HOL, Isabelle and Coq|10.1007/978-3-642-22673-1_28|14|0|R. Krebbers and F. Wiedijk|4f5516f1cc9d97769e44abc5ea6250e050174839
+ 2017|Isabelle Formalization of Set Theoretic Structures and Set Comprehensions|10.1007/978-3-319-72453-9_12|5|0|C. Kaliszyk and Karol Pak|4296acda45f0a0b7b92991c2bf9e41a81ba38af8

@@ -1,47 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PgBouncer
+import ../measures/conceptPage.scroll
+id PgBouncer
+appeared 2007
+type application
+creators Frank McGeough
+conceptDescription PgBouncer is an open-source, lightweight, single-binary connection pooler for PostgreSQL. It can pool connections to one or more databases (on possibly different servers) and serve clients over TCP and Unix domain socket.
+website https://www.pgbouncer.org/
+documentation https://www.pgbouncer.org/faq.html
+reference https://wiki.postgresql.org/wiki/PgBouncer
+country unknown
+originCommunity https://github.com/pgbouncer/pgbouncer
+domainName pgbouncer.org
 
-title PgBouncer - Application
- hidden
+relatedConcepts c postgresql sql plpgsql
 
-html
- <a class="trueBaseThemePreviousItem" href="scoop-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lookml.html">&gt;</a>
+githubRepo https://github.com/pgbouncer/pgbouncer
+ stars 18000
+ forks 348
+ updated 2022
+ description Lightweight connection pooler for PostgreSQL
+ issues 141
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pgbouncer.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.pgbouncer.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/pgbouncer/pgbouncer" class="material-symbols-outlined">code</a> <a href="https://www.pgbouncer.org/faq.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=pgbouncer" class="material-symbols-outlined">edit</a></div>
-
-* PgBouncer is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2007 by Frank McGeough.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
- link ../lists/creators.html#frankMcGeough Frank McGeough
-
-codeWithHeader Source code:
- git clone https://github.com/pgbouncer/pgbouncer
-
-dashboard
- #742 on PLDB
- 17 Years Old
-
-* PgBouncer is an open-source, lightweight, single-binary connection pooler for PostgreSQL. It can pool connections to one or more databases (on possibly different servers) and serve clients over TCP and Unix domain socket.
-
-- PgBouncer website
- https://www.pgbouncer.org/
-- PgBouncer is developed on <a href="https://github.com/pgbouncer/pgbouncer">GitHub</a> and has 18,000 stars
-- PgBouncer docs
- https://www.pgbouncer.org/faq.html
-- PgBouncer first developed in <a href="../lists/originCommunities.html#httpsGithubComPgbouncerPgbouncer">https://github.com/pgbouncer/pgbouncer</a>
-- See also: (4 related languages)<a href="c.html">C</a>, <a href="postgresql.html">PostgreSQL</a>, <a href="sql.html">SQL</a>, <a href="plpgsql.html">PL/pgSQL</a>
-- Read more about PgBouncer on the web: 1.
- https://wiki.postgresql.org/wiki/PgBouncer 1.
-
-<br>
-
-endColumns
-
-keyboardNav scoop-pm.html lookml.html
-
-import ../footer.scroll
+isOpenSource true

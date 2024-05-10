@@ -1,82 +1,56 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hare
+import ../measures/conceptPage.scroll
+id Hare
+appeared 2020
+type pl
+conceptDescription Hare is a systems programming language designed to be simple, stable, and robust. Hare uses a static type system, manual memory management, and a minimal runtime. It is well-suited to writing operating systems, system tools, compilers, networking software, and other low-level, high performance tasks.
+website https://harelang.org/
+country Various
+originCommunity https://harelang.org/community/
+domainName harelang.org
+ registered 2020
+ awisRank
+  2022 1024701
 
-title Hare - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="lsif-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ligo.html">&gt;</a>
+printToken fmt::println
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hare.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://harelang.org/" class="material-symbols-outlined">home</a> <a href="https://git.sr.ht/~sircmpwn/hare" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hare" class="material-symbols-outlined">edit</a></div>
-
-* Hare is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://git.sr.ht/~sircmpwn/hare
-
-dashboard
- #1221 <span title="TotalRank: 1764 Jobs: 103 Users: 2442 Facts: 675 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Hare is a systems programming language designed to be simple, stable, and robust. Hare uses a static type system, manual memory management, and a minimal runtime. It is well-suited to writing operating systems, system tools, compilers, networking software, and other low-level, high performance tasks.
-
-- Hare website
- https://harelang.org/
-- Hare first developed in <a href="../lists/originCommunities.html#httpsHarelangOrgCommunity">https://harelang.org/community/</a>
-- <a href="https://harelang.org/">harelang.org</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from the web:
+example
  use fmt;
  
  export fn main() void = {
  	const greetings = [
- 		&quot;Hello, world!&quot;,
- 		&quot;¡Hola Mundo!&quot;,
- 		&quot;Γειά σου Κόσμε!&quot;,
- 		&quot;Привет, мир!&quot;,
- 		&quot;こんにちは世界！&quot;,
+ 		"Hello, world!",
+ 		"¡Hola Mundo!",
+ 		"Γειά σου Κόσμε!",
+ 		"Привет, мир!",
+ 		"こんにちは世界！",
  	];
- 	for (let i = 0z; i &lt; len(greetings); i += 1) {
+ 	for (let i = 0z; i < len(greetings); i += 1) {
  		fmt::println(greetings[i])!;
  	};
  };
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/Hare.ha'>hello-world</a>:
- use fmt;
- 
- export fn main() void = {
- 	fmt::println(&quot;Hello World&quot;)!;
- };
- 
+sourcehutRepo https://git.sr.ht/~sircmpwn/hare
 
-endColumns
+repoStats
+ firstCommit 2021
+ commits 2999
+ committers 84
+ files 674
 
-## Language <a href="../lists/features.html">features</a>
+leachim6 Hare
+ filepath h/Hare.ha
+ fileExtensions ha
+ example
+  use fmt;
+  
+  export fn main() void = {
+  	fmt::println("Hello World")!;
+  };
+  
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token fmt::println
-  Example
-
-keyboardNav lsif-format.html ligo.html
-
-import ../footer.scroll
+semanticScholar 0

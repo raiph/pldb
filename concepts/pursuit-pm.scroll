@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pursuit PureScript Package Repository
+import ../measures/conceptPage.scroll
+id Pursuit PureScript Package Repository
+appeared 2014
+type packageManager
+conceptDescription Pursuit hosts API documentation for PureScript packages.
+website https://pursuit.purescript.org/
+country Various
+originCommunity https://github.com/purescript
+domainName pursuit.purescript.org
 
-title Pursuit PureScript Package Repository - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="piccola.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pyke.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pursuit-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pursuit.purescript.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pursuit-pm" class="material-symbols-outlined">edit</a></div>
-
-* Pursuit PureScript Package Repository is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3355 on PLDB
- 10 Years Old
-
-* Pursuit hosts API documentation for PureScript packages.
-
-- Pursuit PureScript Package Repository website
- https://pursuit.purescript.org/
-- Pursuit PureScript Package Repository first developed in <a href="../lists/originCommunities.html#httpsGithubComPurescript">https://github.com/purescript</a>
-
-<br>
-
-endColumns
-
-keyboardNav piccola.html pyke.html
-
-import ../footer.scroll
+packageCount 800

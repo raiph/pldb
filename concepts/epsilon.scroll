@@ -1,54 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title epsilon
+import ../measures/conceptPage.scroll
+id epsilon
+appeared 1967
+type pl
+conceptDescription EOL is an imperative programming language for creating, querying and modifying EMF models. You can think of it as a mixture of Javascript and OCL, combining the best of both worlds. As such, it provides all the usual imperative features found in Javascript (e.g. statement sequencing, variables, for and while loops, if branches etc.) and all the nice features of OCL such as those handy collection querying functions.
+website https://www.eclipse.org/epsilon/doc/eol/
+fileExtensions eol
+country Canada
+originCommunity Eclipse Foundation, Inc
 
-title epsilon - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="owen-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="graphql-sdl.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/epsilon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.eclipse.org/epsilon/doc/eol/" class="material-symbols-outlined">home</a> <a href="https://twitter.com/eclipseepsilon"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=epsilon" class="material-symbols-outlined">edit</a></div>
-
-* epsilon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #1335 <span title="TotalRank: 1869 Jobs: 103 Users: 2442 Facts: 780 Links: 986">on PLDB</span>
- 57 Years Old
-
-* EOL is an imperative programming language for creating, querying and modifying EMF models. You can think of it as a mixture of Javascript and OCL, combining the best of both worlds. As such, it provides all the usual imperative features found in Javascript (e.g. statement sequencing, variables, for and while loops, if branches etc.) and all the nice features of OCL such as those handy collection querying functions.
-
-- epsilon website
- https://www.eclipse.org/epsilon/doc/eol/
-- epsilon first developed in <a href="../lists/originCommunities.html#eclipseFoundationInc">Eclipse Foundation, Inc</a>
-- file extensions for epsilon include eol
-- epsilon on Twitter
- https://twitter.com/eclipseepsilon
-
-<br>
-
-codeWithHeader Example from the web:
+example
  var m : new Model;
  
- m.name = &quot;m&quot;;
+ m.name = "m";
  
  // Create five packages
  for (i in 1.to(5)){
    var package : Package = new Package;
-   package.name = &quot;p&quot; + i;
+   package.name = "p" + i;
    package.package = m;
  
    // Create three classes in each package
    for (j in 1.to(3)) {
      
      var class : Class = new Class;
-     class.name = &quot;c&quot; + i + &quot;&quot; + j;
+     class.name = "c" + i + "" + j;
      class.isAbstract = false;
      class.package = package;
      
@@ -61,32 +44,4 @@ codeWithHeader Example from the web:
    c.extends = Class.allInstances.random();
  }
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav owen-lang.html graphql-sdl.html
-
-import ../footer.scroll
+twitter https://twitter.com/eclipseepsilon

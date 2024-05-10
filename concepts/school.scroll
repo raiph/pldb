@@ -1,39 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title School
+import ../measures/conceptPage.scroll
+id School
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/70905eb4d4aaae0e05e3082a98f46196fb6d2d98
+country Brazil
+originCommunity Universidade Federal Fluminense, Valonguinho and Pontificia Universidade CatSlica
 
-title School - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1746
 
-html
- <a class="trueBaseThemePreviousItem" href="rsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snql.html">&gt;</a>
+wordRank 165
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/school.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=school" class="material-symbols-outlined">edit</a></div>
-
-* School is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #2992 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- School first developed in <a href="../lists/originCommunities.html#universidadeFederalFluminenseValonguinhoAndPontificiaUniversidadeCatSlica">Universidade Federal Fluminense, Valonguinho and Pontificia Universidade CatSlica</a>
-- School on HOPL
- https://hopl.info/showlanguage.prx?exp=1746
-- Read more about School on Semantic Scholar: 1.
- https://semanticscholar.org/paper/70905eb4d4aaae0e05e3082a98f46196fb6d2d98 1.
-
-<br>
-
-endColumns
-
-keyboardNav rsl.html snql.html
-
-import ../footer.scroll
+isbndb 3
+ year|publisher|title|authors|isbn13
+ 2012|Pearson|Growing Up Gifted: Developing the Potential of Children at School and at Home|Clark, Barbara|9780132620666
+ 2013|ALA Editions|The Whole School Library Handbook 2|Blanche Woolls|9780838911273
+ 2014|O'Reilly Media|21st Century C: C Tips from the New School|Klemens, Ben|9781491903896

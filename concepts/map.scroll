@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MAP
+import ../measures/conceptPage.scroll
+id MAP
+appeared 1960
+type assembly
+reference http://bitsavers.org/pdf/ibm/7090/C28-6311-2_7090_MAP.pdf
+standsFor Macro Assembly Program Language
+originCommunity IBM
 
-title MAP - Assembly language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3116
 
-html
- <a class="trueBaseThemePreviousItem" href="manuscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="marlais.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/map.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=map" class="material-symbols-outlined">edit</a></div>
-
-* MAP, aka Macro Assembly Program Language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #3808 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 64 Years Old
-
-* 
-
-- MAP first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- MAP on HOPL
- https://hopl.info/showlanguage.prx?exp=3116
-- Read more about MAP on the web: 1.
- http://bitsavers.org/pdf/ibm/7090/C28-6311-2_7090_MAP.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav manuscript.html marlais.html
-
-import ../footer.scroll
+wordRank 197

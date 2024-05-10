@@ -1,41 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Vely
+import ../measures/conceptPage.scroll
+id Vely
+appeared 2022
+type pl
+conceptDescription Vely is an embedded programming language with C as a host language. It's precompiled into C, creating a native executable.
+website https://vely.dev/
+reference https://news.ycombinator.com/item?id=32231417
+domainName vely.dev
+ registered 2022
+ awisRank
+  2022 4820542
 
-title Vely - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cdent.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fsl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vely.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://vely.dev/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=vely" class="material-symbols-outlined">edit</a></div>
-
-* Vely is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #1430 <span title="TotalRank: 1951 Jobs: 103 Users: 2442 Facts: 862 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Vely is an embedded programming language with C as a host language. It's precompiled into C, creating a native executable.
-
-- Vely website
- https://vely.dev/
-- <a href="https://vely.dev/">vely.dev</a> was registered in 2022
-- Read more about Vely on the web: 1.
- https://news.ycombinator.com/item?id=32231417 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  void list_employees() {
      out-header default
-     @&lt;html&gt;&lt;body&gt;
+     @<html><body>
  
      char *header = make_header(); // write any C code
      p-out header
@@ -43,27 +21,21 @@ codeWithHeader Example from the web:
      // Create report in outmsg string and fill it with database query result
      write-string define outmsg
          // Get data from the database
-         run-query#get_emp@db=&quot;select name, salary from employees order by name&quot; output name, salary
-             @Name: &lt;&lt;query-result#get_emp, name&gt;&gt;
-             @&lt;br/&gt;
-             @Salary: &lt;&lt;query-result#get_emp, salary&gt;&gt;
-             @&lt;br/&gt;&lt;br/&gt;
+         run-query#get_emp@db="select name, salary from employees order by name" output name, salary
+             @Name: <<query-result#get_emp, name>>
+             @<br/>
+             @Salary: <<query-result#get_emp, salary>>
+             @<br/><br/>
          end-query
      end-write-string
  
      // Write report to a file and then to the client
-     write-file &quot;employees&quot; from outmsg status define st
-     if (st&lt;0) {
-         @Error in writing file (&lt;&lt;pf-out &quot;%lld&quot;, st&gt;&gt;)
+     write-file "employees" from outmsg status define st
+     if (st<0) {
+         @Error in writing file (<<pf-out "%lld", st>>)
          exit-request
      } else {
          p-out outmsg
      }
-     @&lt;/body&gt;&lt;/html&gt;
+     @</body></html>
  }
-
-endColumns
-
-keyboardNav cdent.html fsl.html
-
-import ../footer.scroll

@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dashrep
+import ../measures/conceptPage.scroll
+id Dashrep
+appeared 2011
+type pl
+creators Richard Fobes
+conceptDescription Dashrep™, the text-manipulation programming language that is powerful and fast, yet simple
+website http://www.dashrep.org/
+country United States
+originCommunity www.solutionscreative.com
 
-title Dashrep - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dllup.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ook.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dashrep.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.dashrep.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/cpsolver/Dashrep-language" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dashrep" class="material-symbols-outlined">edit</a></div>
-
-* Dashrep is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Richard Fobes.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#richardFobes Richard Fobes
-
-codeWithHeader Source code:
- git clone https://github.com/cpsolver/Dashrep-language
-
-dashboard
- #1669 <span title="TotalRank: 2181 Jobs: 103 Users: 2373 Facts: 1092 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Dashrep™, the text-manipulation programming language that is powerful and fast, yet simple
-
-- Dashrep website
- http://www.dashrep.org/
-- Dashrep is developed on <a href="https://github.com/cpsolver/Dashrep-language">GitHub</a> and has 4 stars
-- Dashrep first developed in <a href="../lists/originCommunities.html#wwwSolutionscreativeCom">www.solutionscreative.com</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  animal-type:
  dolphin
  ----
@@ -47,8 +20,16 @@ codeWithHeader Example from the web:
  fenambee animal-type amenn no-space .
  ----
 
-endColumns
+githubRepo https://github.com/cpsolver/Dashrep-language
+ stars 4
+ forks 0
+ subscribers 3
+ created 2011
+ updated 2022
+ description Dashrep is a versatile descriptive programming language based on hyphenated phrases being successively expanded into replacement text. It is a much more flexible alternative to using a template language.
 
-keyboardNav dllup.html ook.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 2760
+ committers 1
+ files 1944

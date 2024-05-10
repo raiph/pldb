@@ -1,49 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HyperCard
+import ../measures/conceptPage.scroll
+id HyperCard
+appeared 1987
+type pl
+country United States
+originCommunity Apple
 
-title HyperCard - Programming language
- hidden
+hasMessagePassing true
 
-html
- <a class="trueBaseThemePreviousItem" href="saltstack.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wolfram.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/HyperCard
+ related hypertalk delphi visual-basic html javascript livecode applescript
+ summary HyperCard was a piece of application software and a programming tool for Apple Macintosh and Apple IIGS computers. It was among the first successful hypermedia systems before the World Wide Web. HyperCard combined a flat-file database with a graphical, flexible, user-modifiable interface. HyperCard also included a built-in programming language called HyperTalk for manipulating data and the user interface. This combination of features – a database with simple form layout, flexible support for graphics, and ease of programming – led many people to use HyperCard for many different projects. Some people used HyperCard as a programming tool for rapid application development of applications and databases, others for building interactive applications with no database requirements, command and control systems, and many examples in the demoscene. HyperCard was originally released in 1987 for $49.95 and was included for free with all new Macs sold then. It was withdrawn from sale in March 2004 after its final update in 1998. HyperCard ran in the Classic Environment, but was not ported to Mac OS X.
+ created 2001
+ backlinksCount 469
+ pageId 13567
+ revisionCount 885
+ dailyPageViews 191
+ appeared 1987
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hypercard.pldb
+isOpenSource false
+centralPackageRepositoryCount 0
 
-startColumns 4
+isbndb 12
+ year|publisher|title|authors|isbn13
+ 1988|Sybex|Understanding HyperCard|Harvey, Greg|9780895885067
+ 1988-08-01T00:00:01Z|Addison-Wesley|Hypercard Script Language Guide: The Hypertalk Language|Apple Computer Inc.|9780201176322
+ 1991|Prentice Hall Ptr|Multimedia Design With Hypercard|Wilson, Stephen|9780134888910
+ 1994|West Group|Hypercard Today|Susan K. Baumann and Steven L. Mandell|9780314027351
+ 1988|Mis Pr|Xcmd's For Hypercard|Gary Bond|9780943518855
+ 1994|Addison-wesley|Hypercard 2.2 In A Hurry|George Beekman|9780201408874
+ 2010|General Books Llc|Domain-specific Programming Languages: Hypercard|Books LLC|9781156443033
+ 1988|Compute|Compute!'s Quick And Easy Guide To Hypercard|Steven Anzovin|9780874551877
+ 1988|Bantam Dell Pub Group|Danny Goodman's Hypercard Developer's Guide (macintosh Performance Library)|Danny Goodman|9780553345766
+ 1989|Scott Foresman Trade|Hypercard Made Easy (scott, Foresman Macintosh Computer Books)|William B. Sanders|9780673385772
+ 1988|Sams|Hypertalk Programming/covers Hypercard Version 1.2 (hayden Macintosh Library Books)|Dan Shafer|9780672484391
+ 1995|Wadsworth Publishing Co Inc|Hypercard 2.3 in a Hurry : The Fast Track to Multimedia|George Beekman|9780534513009
 
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/HyperCard"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=hypercard" class="material-symbols-outlined">edit</a></div>
-
-* HyperCard is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #334 <span title="TotalRank: 777 Jobs: 103 Users: 561 Facts: 862 Links: 113">on PLDB</span>
- 37 Years Old
-
-* HyperCard was a piece of application software and a programming tool for Apple Macintosh and Apple IIGS computers. It was among the first successful hypermedia systems before the World Wide Web. HyperCard combined a flat-file database with a graphical, flexible, user-modifiable interface. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/HyperCard Read more on Wikipedia...
-
-- HyperCard Wikipedia page
- https://en.wikipedia.org/wiki/HyperCard
-- HyperCard first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- See also: (7 related languages)<a href="hypertalk.html">HyperTalk</a>, <a href="delphi.html">Delphi</a>, <a href="visual-basic.html">Visual Basic</a>, <a href="html.html">HTML</a>, <a href="javascript.html">JavaScript</a>, <a href="livecode.html">LiveCode</a>, <a href="applescript.html">Applescript</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Message Passing
-  FeatureLink ../features/hasMessagePassing.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav saltstack.html wolfram.html
-
-import ../footer.scroll
+semanticScholar 6
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1997|The Effects of HyperCard Programming on Teacher Education Students' Problem-Solving Ability and Computer Anxiety.|10.1080/08886504.1997.10782197|43|0|Min Liu|6e4a33c1ea770653b2801f1e1a9909906ef6132a
+ 1991|The learnability of HyperCard as an object-oriented programming system|10.1080/01449299108924276|19|1|J. Nielsen and Ida Frehr and Hans Olav Nymand|db7b87e4485881a5286b41c91893ae84c394d530
+ 2013|On Developing HyperCard Stacks for the Study of Chinese Characters: KanjiCard|10.1558/CJ.V6I2.75-87|13|3|K. Nakajima|31ec9fa68971516070b0bc3e4c28783234c6b161
+ 1994|Case Study: The Use of a Hypercard Simulation to Aid in the Teaching of Laboratory Apparatus Operation|10.1080/0954730940310405|8|0|J. Waddick|b1656fa4d8f42d0483ada794730a126ecd70e64b
+ 1993|An interactive tutorial system for MC68000 assembly language using HyperCard|10.1145/152751.152756|7|0|W. Coey|437d2f3c6d061636e4defd2dd3c1e6f820d12e7d
+ 1989|Using HyperCard to rapidly prototype human-computer interfaces to CASE systems|10.1109/ICSMC.1989.71506|1|0|H. Sholl and R. Ammar and W.S. Weiss|d839842cc094ae03b6b324e1e490819253dae4d4

@@ -1,46 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MINI OBJECT-ORIENTED LANGUAGE
+import ../measures/conceptPage.scroll
+id MINI OBJECT-ORIENTED LANGUAGE
+appeared 2010
+type pl
+conceptDescription Mool is a mini object-oriented language in a Java-like style with support for concurrency, that allows programmers to specify class usage protocols as types.
+website http://rss.di.fc.ul.pt/tools/mool/
+reference http://gloss.di.fc.ul.pt/tryit/tools/Mool
+country Portugal
+originCommunity Universidade de Lisboa
 
-title MINI OBJECT-ORIENTED LANGUAGE - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="flare.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plasma.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mool.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://rss.di.fc.ul.pt/tools/mool/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mool" class="material-symbols-outlined">edit</a></div>
-
-* MINI OBJECT-ORIENTED LANGUAGE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2717 <span title="TotalRank: 3410 Jobs: 103 Users: 2442 Facts: 2321 Links: 986">on PLDB</span>
- 14 Years Old
-
-* Mool is a mini object-oriented language in a Java-like style with support for concurrency, that allows programmers to specify class usage protocols as types.
-
-- MINI OBJECT-ORIENTED LANGUAGE website
- http://rss.di.fc.ul.pt/tools/mool/
-- MINI OBJECT-ORIENTED LANGUAGE first developed in <a href="../lists/originCommunities.html#universidadeDeLisboa">Universidade de Lisboa</a>
-- Read more about MINI OBJECT-ORIENTED LANGUAGE on the web: 1.
- http://gloss.di.fc.ul.pt/tryit/tools/Mool 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  class File { 
     usage lin{open; Read} where 
-    Read = lin{eof; &lt;lin{close; end} + lin{read; Read}&gt;};
+    Read = lin{eof; <lin{close; end} + lin{read; Read}>};
   ...
  }
 
-endColumns
-
-keyboardNav flare.html plasma.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

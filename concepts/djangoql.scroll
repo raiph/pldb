@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title djangoql
+import ../measures/conceptPage.scroll
+id djangoql
+appeared 2017
+type pl
+creators Denis Stebunov
+country Russia and Ukraine amd Lithuania and Serbia
+originCommunity https://github.com/ivelum
 
-title djangoql - Programming language
- hidden
+githubRepo https://github.com/ivelum/djangoql
+ firstCommit 2017
+ stars 763
+ forks 81
+ subscribers 45
+ created 2017
+ updated 2022
+ description Advanced search language for Django
+ issues 21
 
-html
- <a class="trueBaseThemePreviousItem" href="bloom.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lisp-machine-lisp.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 327
+ committers 27
+ files 65
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/djangoql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ivelum/djangoql" class="material-symbols-outlined">code</a> <a href="/edit.html?id=djangoql" class="material-symbols-outlined">edit</a></div>
-
-* djangoql is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Denis Stebunov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#denisStebunov Denis Stebunov
-
-codeWithHeader Source code:
- git clone https://github.com/ivelum/djangoql
-
-dashboard
- #1078 <span title="TotalRank: 1637 Jobs: 103 Users: 548 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Advanced search language for Django
-
-- djangoql is developed on <a href="https://github.com/ivelum/djangoql">GitHub</a> and has 763 stars
-- djangoql first developed in <a href="../lists/originCommunities.html#httpsGithubComIvelum">https://github.com/ivelum</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of djangoql
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: DjangoQL – Advanced search language for Django|https://news.ycombinator.com/item?id=14050326|04/06/2017|8|0
-
-keyboardNav bloom.html lisp-machine-lisp.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 14050326|Show HN: DjangoQL – Advanced search language for Django|2017-04-06 13:35:01 UTC|1491485701|stebunovd|0|8

@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AlpHard
+import ../measures/conceptPage.scroll
+id AlpHard
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/a6805b97cc161473e0a607ec3b21700bccf095e2
+originCommunity Institut de Recherche en Informatique et Systèmes Aléatoires && Colorado State University && CNET or France telecom
 
-title AlpHard - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2242
 
-html
- <a class="trueBaseThemePreviousItem" href="alma.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cope.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alphard.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=alphard" class="material-symbols-outlined">edit</a></div>
-
-* AlpHard is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3026 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- AlpHard first developed in <a href="../lists/originCommunities.html#institutDeRechercheEnInformatiqueEtSystemesAleatoires">Institut de Recherche en Informatique et Systèmes Aléatoires</a> and <a href="../lists/originCommunities.html#coloradoStateUniversity">Colorado State University</a> and <a href="../lists/originCommunities.html#cnetOrFranceTelecom">CNET or France telecom</a>
-- AlpHard on HOPL
- https://hopl.info/showlanguage.prx?exp=2242
-- Read more about AlpHard on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a6805b97cc161473e0a607ec3b21700bccf095e2 1.
-
-<br>
-
-endColumns
-
-keyboardNav alma.html cope.html
-
-import ../footer.scroll
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1976|An introduction to the construction and verification of Alphard programs|10.1109/TSE.1976.233830|321|7|W. Wulf and R. L. London and M. Shaw|7d06bf84338e89456f609896de4e41f61086d98e
+ 1981|Preliminary) An Informal Definition of Alphard|10.1007/978-1-4612-5979-4_13|6|0|P. Hilfinger and G. Feldman and Robert P. Fitzgerald and I. Kimura and R. L. London and K. V. S. Prasad and V. R. Prasad and Jonathan Rosenberg and M. Shaw and W. Wulf|7f7a88dff66ffba91b67e4a5985f08eaf3977a9c
+ 1978|An informal definition of Alphard (Preliminary)|10.21236/ada058871|6|0|W. Wulf and P. Hilfinger and Robert P. Fitzgerald and I. Kimura and R. L. London|75f852ec34afda8a477bc3909118c2d37e3e514e

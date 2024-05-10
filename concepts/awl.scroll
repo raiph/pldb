@@ -1,48 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title awl
+import ../measures/conceptPage.scroll
+id awl
+appeared 2014
+type pl
+creators Zaven Muradyan
+website http://skepsi.me/awl/
+country United States
+originCommunity Zaven Muradyan
 
-title awl - Programming language
- hidden
+githubRepo https://github.com/voithos/awl
+ firstCommit 2014
+ stars 7
+ forks 2
+ subscribers 2
+ created 2014
+ updated 2021
+ description Experimental Lispy mini-language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="rpscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="juicy.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 185
+ committers 4
+ files 51
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/awl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://skepsi.me/awl/" class="material-symbols-outlined">home</a> <a href="https://github.com/voithos/awl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=awl" class="material-symbols-outlined">edit</a></div>
-
-* awl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Zaven Muradyan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#zavenMuradyan Zaven Muradyan
-
-codeWithHeader Source code:
- git clone https://github.com/voithos/awl
-
-dashboard
- #2027 <span title="TotalRank: 2539 Jobs: 103 Users: 2267 Facts: 1450 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Experimental Lispy mini-language
-
-- awl website
- http://skepsi.me/awl/
-- awl is developed on <a href="https://github.com/voithos/awl">GitHub</a> and has 7 stars
-- awl first developed in <a href="../lists/originCommunities.html#zavenMuradyan">Zaven Muradyan</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of awl
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Awl, a toy Lisp language written in C and transpiled to JavaScript|https://news.ycombinator.com/item?id=8173123|08/13/2014|8|1
-
-keyboardNav rpscript.html juicy.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 8173123|Show HN: Awl, a toy Lisp language written in C and transpiled to JavaScript|2014-08-13 14:46:55 UTC|1407941215|voithos|1|8

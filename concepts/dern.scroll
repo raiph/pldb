@@ -1,47 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dern
+import ../measures/conceptPage.scroll
+id Dern
+appeared 2008
+type pl
+conceptDescription A platform independent programming language in standard C99. It is a dialect of Lisp with influences from Scheme, Emacs Lisp and C. Runs in Amiga, Haiku, Plan9, Unix, Windows and almost anything between.
+website https://octaspire.io/dern-manual.html
+country Unknown
+originCommunity https://github.com/octaspire
 
-title Dern - Programming language
- hidden
+githubRepo https://github.com/octaspire/dern
+ firstCommit 2017
+ stars 23
+ forks 0
+ subscribers 1
+ created 2017
+ updated 2022
+ description Programming language
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="tuplemarkup.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="foaf.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 870
+ committers 1
+ files 327
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dern.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 14073664|Show HN: Octaspire Dern – Programming language|2017-04-09 18:35:42 UTC|1491762942|octaspire|15|47
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://octaspire.io/dern-manual.html" class="material-symbols-outlined">home</a> <a href="https://github.com/octaspire/dern" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dern" class="material-symbols-outlined">edit</a></div>
-
-* Dern is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-codeWithHeader Source code:
- git clone https://github.com/octaspire/dern
-
-dashboard
- #1821 <span title="TotalRank: 2345 Jobs: 103 Users: 2101 Facts: 1256 Links: 986">on PLDB</span>
- 16 Years Old
-
-* A platform independent programming language in standard C99. It is a dialect of Lisp with influences from Scheme, Emacs Lisp and C. Runs in Amiga, Haiku, Plan9, Unix, Windows and almost anything between.
-
-- Dern website
- https://octaspire.io/dern-manual.html
-- Dern is developed on <a href="https://github.com/octaspire/dern">GitHub</a> and has 23 stars
-- Dern first developed in <a href="../lists/originCommunities.html#httpsGithubComOctaspire">https://github.com/octaspire</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of Dern
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Octaspire Dern – Programming language|https://news.ycombinator.com/item?id=14073664|04/09/2017|47|15
-
-keyboardNav tuplemarkup.html foaf.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

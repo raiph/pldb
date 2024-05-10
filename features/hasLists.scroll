@@ -9,27 +9,39 @@ html
  <a class="trueBaseThemePreviousItem" href="hasLineComments.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasMacros.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  const list = [1,2,3]
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>:
+codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/speedie.html">Speedie</a>:
  myList = [1, 2, 3, 4, 5]
-
-codeWithHeader Example from <a href="../concepts/json.html">JSON</a>, <a href="../concepts/json5.html">JSON5</a>, <a href="../concepts/jsoniq.html">JSONiq</a>, <a href="../concepts/json-with-comments.html">JSON with Comments</a>, <a href="../concepts/superjson.html">Superjson</a>, <a href="../concepts/jsonnet.html">Jsonnet</a>, <a href="../concepts/hocon.html">Hocon</a>:
- [1, 2, 3]
 
 codeWithHeader Example from <a href="../concepts/go.html">Go</a>:
  myList := []int{1, 2, 3}
+
+codeWithHeader Example from <a href="../concepts/json.html">JSON</a>:
+ [1, 2, 3]
 
 codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
  my_list = [1, 2, 3, 4, 5]
 
 codeWithHeader Example from <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>:
  my-list: [1 two 3.0 &quot;four&quot;]
+
+codeWithHeader Example from <a href="../concepts/lil-pl.html">Lil</a>:
+ emptyList = ()
+
+codeWithHeader Example from <a href="../concepts/uxf.html">Uniform eXchange Format</a>:
+ [1 2]
+
+codeWithHeader Example from <a href="../concepts/bel.html">Bel</a>:
+ ; here is a list of a, b, and c:
+ (a . (b . (c . nil)))
+ ; can be written as
+ (a b c)
 
 codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
  null.list         // A null list value
@@ -40,26 +52,12 @@ codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
  [ 1.2, ]          // Trailing comma is legal in Ion (unlike JSON)
  [ 1, , 2 ]        // ERROR: missing element between commas
 
-codeWithHeader Example from <a href="../concepts/bel.html">Bel</a>:
- ; here is a list of a, b, and c:
- (a . (b . (c . nil)))
- ; can be written as
- (a b c)
-
-codeWithHeader Example from <a href="../concepts/lil-pl.html">Lil</a>:
- emptyList = ()
-
-codeWithHeader Example from <a href="../concepts/uxf.html">Uniform eXchange Format</a>:
- [1 2]
-
 codeWithHeader Example from <a href="../concepts/balgol.html">BALGOL</a>:
  ARRAY MONTHDAYS(12) = (31,28,31,30,31,30,31,31,30,31,30,31)$
 
-* Languages *with* Lists include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/json.html">JSON</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/json5.html">JSON5</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/ion.html">Ion</a>, <a href="../concepts/janet.html">janet</a>, <a href="../concepts/bel.html">Bel</a>, <a href="../concepts/jsoniq.html">JSONiq</a>, <a href="../concepts/json-with-comments.html">JSON with Comments</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/superjson.html">Superjson</a>, <a href="../concepts/jsonnet.html">Jsonnet</a>, <a href="../concepts/hocon.html">Hocon</a>, <a href="../concepts/lil-pl.html">Lil</a>, <a href="../concepts/uxf.html">Uniform eXchange Format</a>, <a href="../concepts/boron.html">Boron</a>, <a href="../concepts/balgol.html">BALGOL</a>, <a href="../concepts/fp3.html">fp</a>, <a href="../concepts/hecl.html">hecl</a>
+* Languages *with* Lists include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/json.html">JSON</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/janet.html">janet</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/lil-pl.html">Lil</a>, <a href="../concepts/uxf.html">Uniform eXchange Format</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/fp3.html">fp</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/boron.html">Boron</a>, <a href="../concepts/bel.html">Bel</a>, <a href="../concepts/hecl.html">hecl</a>, <a href="../concepts/ion.html">Ion</a>, <a href="../concepts/balgol.html">BALGOL</a>
 
 * Languages *without* Lists include <a href="../concepts/progsbase.html">progsbase</a>
-
-* This question asks: Does the language have lists?
 
 * Read more about Lists on the web: 1.
  https://en.wikipedia.org/wiki/List_(abstract_data_type) 1.

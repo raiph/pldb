@@ -1,47 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pygments
+import ../measures/conceptPage.scroll
+id Pygments
+appeared 2006
+type library
+creators Georg Brandl
+conceptDescription Pygments is a generic syntax highlighter suitable for use in code hosting, forums, wikis or other applications that need to prettify source code.
+website https://pygments.org/
+webRepl https://pygments.org/demo/
+country Germany
+originCommunity https://github.com/pygments
+domainName pygments.org
+ registered 2007
+ awisRank
+  2022 824052
 
-title Pygments - Library
- hidden
+writtenIn python
+relatedConcepts codemirror monaco highlightjs ace sublime-syntax tmlanguage
 
-html
- <a class="trueBaseThemePreviousItem" href="mermaid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mmx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pygments.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pygments.org/" class="material-symbols-outlined">home</a> <a href="https://pygments.org/demo/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/pygments/pygments" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pygments" class="material-symbols-outlined">edit</a></div>
-
-* Pygments is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2006 by Georg Brandl.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#georgBrandl Georg Brandl
-
-codeWithHeader Source code:
- git clone https://github.com/pygments/pygments
-
-dashboard
- #472 on PLDB
- 18 Years Old
-
-* Try now: <a href="https://pygments.org/demo/">Web</a>
-
-* Pygments is a generic syntax highlighter suitable for use in code hosting, forums, wikis or other applications that need to prettify source code.
-
-- Pygments website
- https://pygments.org/
-- Pygments is developed on <a href="https://github.com/pygments/pygments">GitHub</a> and has 990 stars
-- Pygments first developed in <a href="../lists/originCommunities.html#httpsGithubComPygments">https://github.com/pygments</a>
-- Pygments is written in <a href="python.html">Python</a>
-- <a href="https://pygments.org/">pygments.org</a> was registered in 2007
-- See also: (6 related languages)<a href="codemirror.html">CodeMirror</a>, <a href="monaco.html">Monaco Editor</a>, <a href="highlightjs.html">highlight.js</a>, <a href="ace.html">Ace Editor</a>, <a href="sublime-syntax.html">Sublime Syntax</a>, <a href="tmlanguage.html">TextMate Language</a>
-
-<br>
-
-endColumns
-
-keyboardNav mermaid.html mmx.html
-
-import ../footer.scroll
+githubRepo https://github.com/pygments/pygments
+ firstCommit 2006
+ stars 990
+ forks 432
+ subscribers 24
+ created 2019
+ updated 2022
+ description Pygments is a generic syntax highlighter written in Python
+ issues 385

@@ -1,42 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cloc
+import ../measures/conceptPage.scroll
+id cloc
+appeared 2006
+type application
+creators Al Danial
+reference http://cloc.sourceforge.net/
+standsFor Count Lines Of Code
+country United States
+originCommunity https://github.com/AlDanial
 
-title cloc - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="minidsdb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="volt.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cloc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/AlDanial/cloc" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cloc" class="material-symbols-outlined">edit</a></div>
-
-* cloc, aka Count Lines Of Code, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2006 by Al Danial.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#alDanial Al Danial
-
-codeWithHeader Source code:
- git clone https://github.com/AlDanial/cloc
-
-dashboard
- #749 on PLDB
- 18 Years Old
-
-* cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.
-
-- cloc is developed on <a href="https://github.com/AlDanial/cloc">GitHub</a> and has 14,319 stars
-- cloc first developed in <a href="../lists/originCommunities.html#httpsGithubComAlDanial">https://github.com/AlDanial</a>
-- Read more about cloc on the web: 1.
- http://cloc.sourceforge.net/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav minidsdb.html volt.html
-
-import ../footer.scroll
+githubRepo https://github.com/AlDanial/cloc
+ firstCommit 2015
+ stars 14319
+ forks 831
+ subscribers 205
+ created 2015
+ updated 2022
+ description cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.
+ issues 19

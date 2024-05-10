@@ -1,35 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dbml
+import ../measures/conceptPage.scroll
+id dbml
+appeared 2019
+type textMarkup
+website https://www.dbml-lang.org/
+domainName dbml-lang.org
 
-title dbml - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="d2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lowstar.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dbml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.dbml-lang.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=dbml" class="material-symbols-outlined">edit</a></div>
-
-* dbml is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #1770 <span title="TotalRank: 2292 Jobs: 103 Users: 2442 Facts: 1203 Links: 986">on PLDB</span>
- 5 Years Old
-
-* 
-
-- dbml website
- https://www.dbml-lang.org/
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Table users {
    id integer
    username varchar
@@ -39,7 +15,7 @@ codeWithHeader Example from the web:
  Table posts {
    id integer [primary key]
    title varchar
-   body text [note: &#39;Content of the post&#39;]
+   body text [note: 'Content of the post']
    user_id integer
    status post_status
    created_at timestamp
@@ -47,17 +23,9 @@ codeWithHeader Example from the web:
  Enum post_status {
    draft
    published
-   private [note: &#39;visible via URL only&#39;]
+   private [note: 'visible via URL only']
  }
 
-endColumns
-
-## HackerNews discussions of dbml
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: DBML – simple DSL language to document database schemas|https://news.ycombinator.com/item?id=20856347|09/02/2019|57|16
-
-keyboardNav d2.html lowstar.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 20856347|Show HN: DBML – simple DSL language to document database schemas|2019-09-02 02:26:46 UTC|1567391206|huy|16|57

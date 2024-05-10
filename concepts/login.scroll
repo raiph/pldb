@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LOGIN
+import ../measures/conceptPage.scroll
+id LOGIN
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/f487a24e7f7329da852d0638a130e00aae08a598
+country United States
+originCommunity Microelectronics and Computer Technology Corporation
 
-title LOGIN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1236
 
-html
- <a class="trueBaseThemePreviousItem" href="xduce.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="w.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/login.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=login" class="material-symbols-outlined">edit</a></div>
-
-* LOGIN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #2667 <span title="TotalRank: 3330 Jobs: 103 Users: 2838 Facts: 2938 Links: 389">on PLDB</span>
- 38 Years Old
-
-* 
-
-- LOGIN first developed in <a href="../lists/originCommunities.html#microelectronicsAndComputerTechnologyCorporation">Microelectronics and Computer Technology Corporation</a>
-- LOGIN on HOPL
- https://hopl.info/showlanguage.prx?exp=1236
-- Read more about LOGIN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f487a24e7f7329da852d0638a130e00aae08a598 1.
-
-<br>
-
-endColumns
-
-keyboardNav xduce.html w.html
-
-import ../footer.scroll
+wordRank 541
+centralPackageRepositoryCount 0

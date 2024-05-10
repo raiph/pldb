@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COMSL
+import ../measures/conceptPage.scroll
+id COMSL
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/6ec7db268d07e25991756c50be1cdbec19ca5e10
+country United States
+originCommunity Communications Satellite Corporation
 
-title COMSL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=498
 
-html
- <a class="trueBaseThemePreviousItem" href="computer-compiler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="conc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/comsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=comsl" class="material-symbols-outlined">edit</a></div>
-
-* COMSL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3585 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- COMSL first developed in <a href="../lists/originCommunities.html#communicationsSatelliteCorporation">Communications Satellite Corporation</a>
-- COMSL on HOPL
- https://hopl.info/showlanguage.prx?exp=498
-- Read more about COMSL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6ec7db268d07e25991756c50be1cdbec19ca5e10 1.
-
-<br>
-
-endColumns
-
-keyboardNav computer-compiler.html conc.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

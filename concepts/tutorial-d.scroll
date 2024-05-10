@@ -1,43 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tutorial D
+import ../measures/conceptPage.scroll
+id Tutorial D
+appeared 1994
+type queryLanguage
+reference https://reldb.org/c/wp-content/uploads/2017/12/Rel-and-Tutorial-D-Quickstart.pdf
 
-title Tutorial D - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="torchscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amtran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tutorial-d.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tutorial-d" class="material-symbols-outlined">edit</a></div>
-
-* Tutorial D is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3081 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- Read more about Tutorial D on the web: 1.
- https://reldb.org/c/wp-content/uploads/2017/12/Rel-and-Tutorial-D-Quickstart.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  INSERT myVariable RELATION {
-     TUPLE {x 1, y 2.3, z &#39;zap&#39;},
-     TUPLE {x 2, y 3.4, z &#39;zot&#39;},
-     TUPLE {x 3, y 4.2, z &#39;zaz&#39;}
+     TUPLE {x 1, y 2.3, z 'zap'},
+     TUPLE {x 2, y 3.4, z 'zot'},
+     TUPLE {x 3, y 4.2, z 'zaz'}
  };
 
-endColumns
-
-keyboardNav torchscript.html amtran.html
-
-import ../footer.scroll
+semanticScholar 0

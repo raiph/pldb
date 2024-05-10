@@ -1,104 +1,53 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Whitespace
+import ../measures/conceptPage.scroll
+id Whitespace
+appeared 2003
+type esolang
+documentation https://hackage.haskell.org/package/whitespace-0.4/src/docs/tutorial.html
 
-title Whitespace - Esoteric programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/Whitespace_(programming_language)
+ example
+  S S S T	S S T	S S S L
+  T	L
+  S S S S S T	T	S S T	S T	L
+  T	L
+  S S S S S T	T	S T	T	S S L
+  T	L
+  S S S S S T	T	S T	T	S S L
+  T	L
+  S S S S S T	T	S T	T	T	T	L
+  T	L
+  S S S S S T	S T	T	S S L
+  T	L
+  S S S S S T	S S S S S L
+  T	L
+  S S S S S T	T	T	S T	T	T	L
+  T	L
+  S S S S S T	T	S T	T	T	T	L
+  T	L
+  S S S S S T	T	T	S S T	S L
+  T	L
+  S S S S S T	T	S T	T	S S L
+  T	L
+  S S S S S T	T	S S T	S S L
+  T	L
+  S S S S S T	S S S S T	L
+  T	L
+  S S L
+  L
+  L
+ related idris python brainfuck intercal lolcode malbolge
+ summary Whitespace is an esoteric programming language developed by Edwin Brady and Chris Morris at the University of Durham (also developers of the Kaya and Idris programming languages). It was released on 1 April 2003 (April Fool's Day). Its name is a reference to whitespace characters. Unlike most programming languages, which ignore or assign little meaning to most whitespace characters, the Whitespace interpreter ignores any non-whitespace characters. Only spaces, tabs and linefeeds have meaning. An interesting consequence of this property is that a Whitespace program can easily be contained within the whitespace characters of a program written in another language, except possibly in languages which depend on spaces for syntax validity such as Python, making the text a polyglot. The language itself is an imperative stack-based language. The virtual machine on which the programs run has a stack and a heap. The programmer is free to push arbitrary-width integers onto the stack (currently there is no implementation of floating point numbers) and can also access the heap as a permanent store for variables and data structures.
+ pageId 205017
+ dailyPageViews 326
+ created 2003
+ backlinksCount 52
+ revisionCount 295
+ appeared 2003
 
-html
- <a class="trueBaseThemePreviousItem" href="mariadb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plpgsql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/whitespace.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/whitespace" class="material-symbols-outlined">terminal</a> <a href="https://hackage.haskell.org/package/whitespace-0.4/src/docs/tutorial.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Whitespace_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=whitespace" class="material-symbols-outlined">edit</a></div>
-
-* Whitespace is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #264 <span title="TotalRank: 650 Jobs: 103 Users: 401 Facts: 146 Links: 491">on PLDB</span>
- 21 Years Old
-
-* Try now: <a href="https://riju.codes/whitespace">Riju</a> · <a href="https://tio.run/#whitespace">TIO</a>
-
-* Whitespace is an esoteric programming language developed by Edwin Brady and Chris Morris at the University of Durham (also developers of the Kaya and Idris programming languages). It was released on 1 April 2003 (April Fool's Day). Its name is a reference to whitespace characters. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Whitespace_(programming_language) Read more on Wikipedia...
-
-- Whitespace Wikipedia page
- https://en.wikipedia.org/wiki/Whitespace_(programming_language)
-- Whitespace docs
- https://hackage.haskell.org/package/whitespace-0.4/src/docs/tutorial.html
-- Explore Whitespace snippets on <a href="http://www.rosettacode.org/wiki/Category:Whitespace">Rosetta Code</a>
-- Whitespace appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- Whitespace appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- See also: (6 related languages)<a href="idris.html">Idris</a>, <a href="python.html">Python</a>, <a href="brainfuck.html">Brainfuck</a>, <a href="intercal.html">INTERCAL</a>, <a href="lolcode.html">LOLCODE</a>, <a href="malbolge.html">Malbolge</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/whitespace'>Riju</a>:
- Hello, world  	  	   
- 	
-      		  	 	
- 	
-      		 		  
- 	
-      		 		  
- 	
-      		 				
- 	
-      	 		  
- 	
-      	     
- 	
-      			 			
- 	
-      		 				
- 	
-      			  	 
- 	
-      		 		  
- 	
-      		  	  
- 	
-   
- 
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/w/Whitespace.ws'>hello-world</a>:
-    	  	   
- 	
-      		  	 	
- 	
-      		 		  
- 	
-      		 		  
- 	
-      		 				
- 	
-       	     
- 	
-      	 	 			
- 	
-      		 				
- 	
-      			  	 
- 	
-      		 		  
- 	
-      		  	  
- 	
-   
- 
- 
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Whitespace'>the Hello World Collection</a>:
+helloWorldCollection Whitespace
  Hello #World #in #Whitespace	* # #	* # # #
  +	*[Space]
- + #is #marked #with&quot;#&quot; # #[tab]	#with&quot;*&quot;	*line-feed #with #&quot;+&quot;	* #	*so
+ + #is #marked #with"#" # #[tab]	#with"*"	*line-feed #with #"+"	* #	*so
  +it	#would
  +be #easier #to #write #again... #All	*the	*non-whitespace-characters #are	*ignored...	* # #
  +	*
@@ -127,40 +76,77 @@ codeWithHeader Example from <a href='http://helloworldcollection.de/#Whitespace'
  +
  +
  
+leachim6 Whitespace
+ filepath w/Whitespace.ws
+ fileExtensions ws
+ example
+     	  	   
+  	
+       		  	 	
+  	
+       		 		  
+  	
+       		 		  
+  	
+       		 				
+  	
+        	     
+  	
+       	 	 			
+  	
+       		 				
+  	
+       			  	 
+  	
+       		 		  
+  	
+       		  	  
+  	
+    
+  
+  
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Whitespace
+quineRelay Whitespace
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Whitespace_(programming_language)'>Wikipedia</a>:
- S S S T	S S T	S S S L
- T	L
- S S S S S T	T	S S T	S T	L
- T	L
- S S S S S T	T	S T	T	S S L
- T	L
- S S S S S T	T	S T	T	S S L
- T	L
- S S S S S T	T	S T	T	T	T	L
- T	L
- S S S S S T	S T	T	S S L
- T	L
- S S S S S T	S S S S S L
- T	L
- S S S S S T	T	T	S T	T	T	L
- T	L
- S S S S S T	T	S T	T	T	T	L
- T	L
- S S S S S T	T	T	S S T	S L
- T	L
- S S S S S T	T	S T	T	S S L
- T	L
- S S S S S T	T	S S T	S S L
- T	L
- S S S S S T	S S S S T	L
- T	L
- S S L
- L
- L
+rijuRepl https://riju.codes/whitespace
+ example
+  Hello, world  	  	   
+  	
+       		  	 	
+  	
+       		 		  
+  	
+       		 		  
+  	
+       		 				
+  	
+       	 		  
+  	
+       	     
+  	
+       			 			
+  	
+       		 				
+  	
+       			  	 
+  	
+       		 		  
+  	
+       		  	  
+  	
+    
+  
+  
+tryItOnline whitespace
 
-endColumns
+tiobe Whitespace
 
-keyboardNav mariadb.html plpgsql.html
+fileType text
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Whitespace (Programming Language)||Ronald Cohn|64602057|0.0|0|0
+
+isbndb 0

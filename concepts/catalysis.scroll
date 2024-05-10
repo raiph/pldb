@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Catalysis
+import ../measures/conceptPage.scroll
+id Catalysis
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/bf36bc3c33b51e1853cb99c30591712559137cff
+country United States
+originCommunity Platinum Technology Inc
 
-title Catalysis - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5691
 
-html
- <a class="trueBaseThemePreviousItem" href="cassandre.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cayley.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/catalysis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=catalysis" class="material-symbols-outlined">edit</a></div>
-
-* Catalysis is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3552 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Catalysis first developed in <a href="../lists/originCommunities.html#platinumTechnologyInc">Platinum Technology Inc</a>
-- Catalysis on HOPL
- https://hopl.info/showlanguage.prx?exp=5691
-- Read more about Catalysis on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bf36bc3c33b51e1853cb99c30591712559137cff 1.
-
-<br>
-
-endColumns
-
-keyboardNav cassandre.html cayley.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

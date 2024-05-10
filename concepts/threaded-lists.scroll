@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title THREADED LISTS
+import ../measures/conceptPage.scroll
+id THREADED LISTS
+appeared 1959
+type pl
+reference https://semanticscholar.org/paper/53605bf073df05fe0c25fa56789a0829be4c2483
 
-title THREADED LISTS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3254
 
-html
- <a class="trueBaseThemePreviousItem" href="the-message-system.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tics.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/threaded-lists.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=threaded-lists" class="material-symbols-outlined">edit</a></div>
-
-* THREADED LISTS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3238 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- THREADED LISTS on HOPL
- https://hopl.info/showlanguage.prx?exp=3254
-- Read more about THREADED LISTS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/53605bf073df05fe0c25fa56789a0829be4c2483 1.
-
-<br>
-
-endColumns
-
-keyboardNav the-message-system.html tics.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PACTOLUS
+import ../measures/conceptPage.scroll
+id PACTOLUS
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/6934c13c28c37f165cefe838c1f6ed6a1472a4e8
+country United States
+originCommunity IBM
 
-title PACTOLUS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=449
 
-html
- <a class="trueBaseThemePreviousItem" href="oopsp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pascal-xsc.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pactolus.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pactolus" class="material-symbols-outlined">edit</a></div>
-
-* PACTOLUS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #3114 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- PACTOLUS first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- PACTOLUS on HOPL
- https://hopl.info/showlanguage.prx?exp=449
-- Read more about PACTOLUS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6934c13c28c37f165cefe838c1f6ed6a1472a4e8 1.
-
-<br>
-
-endColumns
-
-keyboardNav oopsp.html pascal-xsc.html
-
-import ../footer.scroll
+semanticScholar 0

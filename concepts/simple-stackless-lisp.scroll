@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Simple Stackless Lisp
-
-title Simple Stackless Lisp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="shiv.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="siri.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simple-stackless-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=simple-stackless-lisp" class="material-symbols-outlined">edit</a></div>
-
-* Simple Stackless Lisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3425 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 2 Years Old
-
-* I wrote a simple stackless lisp
-
-- Simple Stackless Lisp first developed in <a href="../lists/originCommunities.html#httpsGithubComDivs1210SimpleStacklessLispIssues">https://github.com/divs1210/simple-stackless-lisp/issues</a>
-- Read more about Simple Stackless Lisp on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/wcom1h/i_wrote_a_simple_stackless_lisp/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav shiv.html siri.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Simple Stackless Lisp
+appeared 2022
+type pl
+conceptDescription I wrote a simple stackless lisp
+reference https://reddit.com/r/ProgrammingLanguages/comments/wcom1h/i_wrote_a_simple_stackless_lisp/
+country India
+originCommunity https://github.com/divs1210/simple-stackless-lisp/issues

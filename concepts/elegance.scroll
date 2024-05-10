@@ -1,40 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title elegance
+import ../measures/conceptPage.scroll
+id elegance
+appeared 2017
+type pl
+creators Nathan Merrill
+conceptDescription <a href='https://github.com/nathanmerrill/elegance'>Elegance</a> Objected oriented language aiming for high type-safety and readability.
+country United States
+originCommunity https://github.com/nathanmerrill/
 
-title elegance - Programming language
- hidden
+githubRepo https://github.com/nathanmerrill/elegance
+ stars 1
+ forks 0
+ subscribers 1
+ created 2017
+ updated 2018
+ firstCommit 2017
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="u.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ambienttalk.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 4
+ committers 2
+ files 47
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/elegance.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/nathanmerrill/elegance" class="material-symbols-outlined">code</a> <a href="/edit.html?id=elegance" class="material-symbols-outlined">edit</a></div>
-
-* elegance is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Nathan Merrill.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#nathanMerrill Nathan Merrill
-
-codeWithHeader Source code:
- git clone https://github.com/nathanmerrill/elegance
-
-dashboard
- #2092 <span title="TotalRank: 2591 Jobs: 103 Users: 2415 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* <a href='https://github.com/nathanmerrill/elegance'>Elegance</a> Objected oriented language aiming for high type-safety and readability.
-
-- elegance is developed on <a href="https://github.com/nathanmerrill/elegance">GitHub</a> and has 1 stars
-- elegance first developed in <a href="../lists/originCommunities.html#httpsGithubComNathanmerrill">https://github.com/nathanmerrill/</a>
-
-<br>
-
-endColumns
-
-keyboardNav u.html ambienttalk.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

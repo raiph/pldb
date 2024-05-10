@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Simplicity
+import ../measures/conceptPage.scroll
+id Simplicity
+appeared 2017
+type pl
+conceptDescription Simplicity is a work-in-progress low-level programming language with greater flexibility and expressiveness than Bitcoin Script. Simplicity is a typed, combinator-based, functional language without loops and recursion, designed to be used for crypto-currencies and blockchain applications.
+country United States
+originCommunity https://lists.ozlabs.org/pipermail/simplicity/
 
-title Simplicity - Programming language
- hidden
+writtenIn php c tcl haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="pbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="winbatch.html">&gt;</a>
+githubRepo https://github.com/ElementsProject/simplicity
+ stars 231
+ forks 36
+ updated 2022
+ description Simplicity is a blockchain programming language designed as an alternative to Bitcoin script.
+ issues 12
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simplictiy.pldb
+repoStats
+ firstCommit 2017
+ commits 739
+ committers 8
+ files 232
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ElementsProject/simplicity" class="material-symbols-outlined">code</a> <a href="/edit.html?id=simplictiy" class="material-symbols-outlined">edit</a></div>
-
-* Simplicity is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/ElementsProject/simplicity
-
-dashboard
- #1493 <span title="TotalRank: 2007 Jobs: 103 Users: 918 Facts: 1890 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Simplicity is a work-in-progress low-level programming language with greater flexibility and expressiveness than Bitcoin Script. Simplicity is a typed, combinator-based, functional language without loops and recursion, designed to be used for crypto-currencies and blockchain applications.
-
-- Simplicity is developed on <a href="https://github.com/ElementsProject/simplicity">GitHub</a> and has 231 stars
-- Simplicity first developed in <a href="../lists/originCommunities.html#httpsListsOzlabsOrgPipermailSimplicity">https://lists.ozlabs.org/pipermail/simplicity/</a>
-- Simplicity is written in <a href="php.html">PHP</a> & <a href="c.html">C</a> & <a href="tcl.html">Tcl</a> & <a href="haskell.html">Haskell</a>
-- Official Blog page for Simplicity
- https://blog.blockstream.com/en-simplicity-github/
-
-<br>
-
-endColumns
-
-keyboardNav pbasic.html winbatch.html
-
-import ../footer.scroll
+officialBlogUrl https://blog.blockstream.com/en-simplicity-github/

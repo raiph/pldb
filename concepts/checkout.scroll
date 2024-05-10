@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title checkout
-
-title checkout - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cedar.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chicon.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/checkout.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=checkout" class="material-symbols-outlined">edit</a></div>
-
-* checkout is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3368 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 13 Years Old
-
-* It is designed to be lower-level than assembler or even machine code, by matching the way modern processors work more closely than machine language does (machine code matches the way processors used to work decades ago, rather than the way they work nowadays). Thus, it makes operations like memory transfers (which take up the most time on a modern processor) explicit; this leads to the language's name, as memory needs to be "checked out" via copy or move instructions in order to be able to use it. The secondary effect of this is that efficient code tends to be shorter and simpler than inefficient code, although it can sometimes be harder to see how it works.
-
-- checkout first developed in <a href="../lists/originCommunities.html#esolangsOrg">esolangs.org</a>
-- Read more about checkout on the web: 1.
- https://esolangs.org/wiki/Checkout 1.
-
-<br>
-
-endColumns
-
-keyboardNav cedar.html chicon.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id checkout
+appeared 2011
+type assembly
+conceptDescription It is designed to be lower-level than assembler or even machine code, by matching the way modern processors work more closely than machine language does (machine code matches the way processors used to work decades ago, rather than the way they work nowadays). Thus, it makes operations like memory transfers (which take up the most time on a modern processor) explicit; this leads to the language's name, as memory needs to be "checked out" via copy or move instructions in order to be able to use it. The secondary effect of this is that efficient code tends to be shorter and simpler than inefficient code, although it can sometimes be harder to see how it works.
+reference https://esolangs.org/wiki/Checkout
+country Unknown
+originCommunity esolangs.org

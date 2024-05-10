@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GamerLanguage
+import ../measures/conceptPage.scroll
+id GamerLanguage
+appeared 2021
+type pl
+creators Dilan Nair
+website https://github.com/dilanx/GamerLanguage/blob/main/DOCUMENTATION.md
+country United States
+originCommunity https://github.com/dilanx/GamerLanguage/issues
 
-title GamerLanguage - Programming language
- hidden
+githubRepo https://github.com/dilanx/GamerLanguage
+ firstCommit 2021
+ stars 0
+ forks 0
+ subscribers 1
+ created 2021
+ updated 2021
+ description An esoteric joke programming language for gamers.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="workfl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jemplate.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gamerlanguage.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/dilanx/GamerLanguage/blob/main/DOCUMENTATION.md" class="material-symbols-outlined">home</a> <a href="https://github.com/dilanx/GamerLanguage" class="material-symbols-outlined">code</a> <a href="/edit.html?id=gamerlanguage" class="material-symbols-outlined">edit</a></div>
-
-* GamerLanguage is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Dilan Nair.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#dilanNair Dilan Nair
-
-codeWithHeader Source code:
- git clone https://github.com/dilanx/GamerLanguage
-
-dashboard
- #2271 <span title="TotalRank: 2758 Jobs: 103 Users: 2415 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* An esoteric joke programming language for gamers.
-
-- GamerLanguage website
- https://github.com/dilanx/GamerLanguage/blob/main/DOCUMENTATION.md
-- GamerLanguage is developed on <a href="https://github.com/dilanx/GamerLanguage">GitHub</a> and has 0 stars
-- GamerLanguage first developed in <a href="../lists/originCommunities.html#httpsGithubComDilanxGamerLanguageIssues">https://github.com/dilanx/GamerLanguage/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav workfl.html jemplate.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 40
+ committers 1
+ files 22

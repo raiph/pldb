@@ -1,47 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ruri
+import ../measures/conceptPage.scroll
+id Ruri
+appeared 2000
+type pl
+creators Tom Rothamel
+webRepl https://onegeek.org/software/ruri/demo.html
+reference https://onegeek.org/software/ruri
+reference https://gilles-hunault.leria-info.univ-angers.fr/hilapr/beers/schade/r.html#Ruri
+reference https://onegeek.org/software/ruri/current/Ruriref.txt
+country United States
+originCommunity https://onegeek.org/software/old.html
 
-title Ruri - Programming language
- hidden
+gitRepo https://onegeek.org/software/ruri/current
 
-html
- <a class="trueBaseThemePreviousItem" href="relational-data-file.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scroll-lang.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=8638
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ruri.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://onegeek.org/software/ruri/demo.html" class="material-symbols-outlined">terminal</a> <a href="https://onegeek.org/software/ruri/current" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ruri" class="material-symbols-outlined">edit</a></div>
-
-* Ruri is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000 by Tom Rothamel.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#tomRothamel Tom Rothamel
-
-codeWithHeader Source code:
- git clone https://onegeek.org/software/ruri/current
-
-dashboard
- #3018 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 24 Years Old
-
-* Try now: <a href="https://onegeek.org/software/ruri/demo.html">Web</a>
-
-* 
-
-- Ruri first developed in <a href="../lists/originCommunities.html#httpsOnegeekOrgSoftwareOldHtml">https://onegeek.org/software/old.html</a>
-- Ruri on HOPL
- https://hopl.info/showlanguage.prx?exp=8638
-- Read more about Ruri on the web: 1. 2. 3.
- https://onegeek.org/software/ruri 1.
- https://gilles-hunault.leria-info.univ-angers.fr/hilapr/beers/schade/r.html#Ruri 2.
- https://onegeek.org/software/ruri/current/Ruriref.txt 3.
-
-<br>
-
-endColumns
-
-keyboardNav relational-data-file.html scroll-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

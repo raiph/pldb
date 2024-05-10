@@ -1,48 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title zolang
+import ../measures/conceptPage.scroll
+id zolang
+appeared 2018
+type pl
+creators Þorvaldur Rúnarsson
+conceptDescription A programming language to generate code for multiple platforms
 
-title zolang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="quake.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="video.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zolang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Zolang/Zolang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=zolang" class="material-symbols-outlined">edit</a></div>
-
-* zolang is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Þorvaldur Rúnarsson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#thorvaldurRunarsson Þorvaldur Rúnarsson
-
-codeWithHeader Source code:
- git clone https://github.com/Zolang/Zolang
-
-dashboard
- #1692 <span title="TotalRank: 2212 Jobs: 103 Users: 1257 Facts: 1123 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A programming language to generate code for multiple platforms
-
-- zolang is developed on <a href="https://github.com/Zolang/Zolang">GitHub</a> and has 136 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  describe Person {
   name as text
   street as text
   number as number
   friendNames as list of text
  }
- let john as Person be Person(&quot;John&quot;, &quot;Wall Street&quot;, 15, [ &quot;Alice&quot;, &quot;Bob&quot; ])
+ let john as Person be Person("John", "Wall Street", 15, [ "Alice", "Bob" ])
 
-endColumns
+githubRepo https://github.com/Zolang/Zolang
+ firstCommit 2018
+ stars 136
+ forks 8
+ subscribers 8
+ created 2018
+ updated 2022
+ description A programming language for generating code for multiple platforms
+ issues 8
 
-keyboardNav quake.html video.html
+repoStats
+ firstCommit 2018
+ commits 232
+ committers 5
+ files 64
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

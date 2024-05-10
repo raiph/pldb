@@ -1,41 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Suneido
+import ../measures/conceptPage.scroll
+id Suneido
+appeared 2000
+type pl
+creators Andrew McKinlay
+website https://suneido.com/
+country Canada
+originCommunity Suneido Software Corp
+domainName suneido.com
+ registered 2000
+ awisRank
+  2022 2110415
+  2017 10371299
 
-title Suneido - Programming language
- hidden
+rosettaCode http://www.rosettacode.org/wiki/Category:Suneido
 
-html
- <a class="trueBaseThemePreviousItem" href="scriptease.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="whalecalf.html">&gt;</a>
+tiobe Suneido
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/suneido.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://suneido.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=suneido" class="material-symbols-outlined">edit</a></div>
-
-* Suneido is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000 by Andrew McKinlay.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#andrewMcKinlay Andrew McKinlay
-
-dashboard
- #2654 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- Suneido website
- https://suneido.com/
-- Suneido first developed in <a href="../lists/originCommunities.html#suneidoSoftwareCorp">Suneido Software Corp</a>
-- Explore Suneido snippets on <a href="http://www.rosettacode.org/wiki/Category:Suneido">Rosetta Code</a>
-- Suneido appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="https://suneido.com/">suneido.com</a> was registered in 2000
-
-<br>
-
-endColumns
-
-keyboardNav scriptease.html whalecalf.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

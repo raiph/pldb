@@ -1,48 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nginx
+import ../measures/conceptPage.scroll
+id Nginx
+appeared 2004
+type configFormat
+documentation https://nginx.org/en/docs/
+documentation https://devdocs.io/nginx/
+country Russia
+originCommunity F5, Inc
 
-title Nginx - Config format
- hidden
+hasMultiLineComments false
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="smali.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="opencl.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nginx-config.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://devdocs.io/nginx/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Nginx"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=nginx-config" class="material-symbols-outlined">edit</a></div>
-
-* Nginx is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+configFormat">config format</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #94 <span title="TotalRank: 294 Jobs: 36 Users: 227 Facts: 31 Links: 237">on PLDB</span>
- 20 Years Old
- 6k <span title="Nginx repos on GitHub.">Repos</span>
-
-* Nginx (  EN-jin-EKS) (stylized as NGINX, NGiИX or nginx) is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.  The software was created by Igor Sysoev and first publicly released in 2004. A company of the same name was founded in 2011 to provide support and Nginx plus paid software.Nginx is free and open-source software, released under the terms of a BSD-like license. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Nginx Read more on Wikipedia...
-
-- Nginx Wikipedia page
- https://en.wikipedia.org/wiki/Nginx
-- PLDB has 2 documentation sites for Nginx: <a href="https://nginx.org/en/docs/">nginx.org</a>, <a href="https://devdocs.io/nginx/">devdocs.io</a>
-- There are at least 5,905 Nginx repos on <a href="https://github.com/search?q=language:Nginx">GitHub</a>
-- Nginx first developed in <a href="../lists/originCommunities.html#f5Inc">F5, Inc</a>
-- PLDB estimates there are currently 3k job openings for Nginx programmers.
-- file extensions for Nginx include nginx, nginxconf, vhost and nginx.conf
-- The  Google BigQuery Public Dataset GitHub snapshot shows 8k users using Nginx in 9k repos on <a href="https://api.github.com/search/repositories?q=language:Nginx">GitHub</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/nginx">package</a> for syntax highlighting Nginx
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/configs.py">syntax highlighting</a> for Nginx
-- GitHub supports <a href="https://github.com/brandonwamboldt/sublime-nginx" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Nginx
-- Indeed.com has 2,884 matches for <a href="https://www.indeed.com/jobs?q=nginx engineer">"nginx engineer"</a>.
-- See also: (5 related languages)<a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="solaris.html">Solaris</a>, <a href="tls.html">TLS</a>, <a href="wordpress.html">WordPress</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #user  nobody;
  worker_processes  1;
  
@@ -75,282 +49,299 @@ codeWithHeader Example from the web:
          }
  }
 
-codeWithHeader Example from <a href='https://github.com/brandonwamboldt/sublime-nginx'>Linguist</a>:
- # Move the www people to no-www
- server {
-   listen 80;
-   server_name www.example.com;
-   return 301 $scheme://example.com$request_uri;
- }
- 
- server {
-   listen 80;
-   listen 443 ssl;
-   server_name example.com;
- 
-   # Certs sent to the client in SERVER HELLO are concatenated in ssl_certificate
-   ssl_certificate /srv/www/example.com/ssl/example.com.crt;
-   ssl_certificate_key /srv/www/example.com/ssl/example.com.key;
-   
-   # Allow multiple connections to use the same key data
-   ssl_session_timeout 5m;
-   ssl_session_cache shared:SSL:50m;
-   
-   # Diffie-Hellman parameter for DHE ciphersuites, recommended 2048 bits
-   ssl_dhparam /etc/ssl/certs/dhparam.pem;
- 
-   # Intermediate configuration. tweak to your needs
-   ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-   include snippets/ssl_ciphers_intermediate.conf;
-   ssl_prefer_server_ciphers on;
- 
-   # HSTS (ngx_http_headers_module is required) (15768000 seconds = 6 months)
-   #add_header Strict-Transport-Security max-age=15768000;
- 
-   # OCSP Stapling - fetch OCSP records from URL in ssl_certificate and cache them
-   ssl_stapling on;
-   ssl_stapling_verify on;
- 
-   # Verify chain of trust of OCSP response using Root CA and Intermediate certs
-   ssl_trusted_certificate /srv/www/example.com/ssl/unified-ssl.crt;
-   resolver 8.8.8.8 8.8.4.4;
-   resolver_timeout 10s;
- 
-   root /srv/www/example.com/htdocs;
-   index index.php index.html index.htm;
-   charset UTF-8;
-   autoindex off;
-   
-   # Deny access based on HTTP method (set in HTTP level)
-   if ($bad_method = 1) {
-     return 444;
-   }
- 
-   # Show &quot;Not Found&quot; 404 errors in place of &quot;Forbidden&quot; 403 errors, because
-   # forbidden errors allow attackers potential insight into your server&#39;s
-   # layout and contents
-   error_page 403 = 404;
- 
-   # It&#39;s always good to set logs, note however you cannot turn off the error log
-   # setting error_log off; will simply create a file called &#39;off&#39;.
-   access_log /var/log/nginx/example.com.access.log;
-   error_log /var/log/nginx/example.com.error.log;
- 
-   # Add trailing slash to */wp-admin requests.
-   rewrite /wp-admin$ $scheme://$host$uri/ permanent;
- 
-   location / {
-     # This try_files directive is used to enable pretty, SEO-friendly URLs
-     # and permalinks for Wordpress. Leave it *off* to start with, and then
-     # turn it on once you&#39;ve gotten Wordpress configured!
-     try_files $uri $uri/ /index.php?$args;
-   }
- 
-   # Option to create password protected directory
-   # http://www.howtoforge.com/basic-http-authentication-with-nginx
-   # location /admin {
-   #   auth_basic &quot;Administrator Login&quot;;
-   #   auth_basic_user_file /var/www/domain.com/admin/.htpasswd;
-   # }
- 
-   # Do not log access to these to keep the logs cleaner
-   location = /favicon.ico {
-     log_not_found off;
-     access_log off;
-   }
- 
-   location = /apple-touch-icon.png {
-     log_not_found off;
-     access_log off;
-   }
- 
-   location = /apple-touch-icon-precomposed.png {
-     log_not_found off;
-     access_log off;
-   }
- 
-   # This block will catch static file requests, such as images, css, js
-   # The ?: prefix is a &#39;non-capturing&#39; mark, meaning we do not require
-   # the pattern to be captured into $1 which should help improve performance
-   location ~* \.(?:3gp|gif|jpg|jpe?g|png|ico|wmv|avi|asf|asx|mpg|mpeg|mp4|pls|mp3|mid|wav|swf|flv|html|htm|txt|js|css|exe|zip|tar|rar|gz|tgz|bz2|uha|7z|doc|docx|xls|xlsx|pdf|iso|woff)$ {
-     # Some basic cache-control for static files to be sent to the browser
-     expires max;
-     add_header Pragma public;
-     add_header Cache-Control &quot;public, must-revalidate, proxy-revalidate&quot;;
-   }
- 
-   # Deny all attempts to access hidden files such as .htaccess, .htpasswd, .DS_Store (Mac).
-   # Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
-   location ~ /\. {
-     access_log off;
-     log_not_found off;
-     deny all;
-   }
- 
-   location ~ ~$ {
-     access_log off;
-     log_not_found off;
-     deny all;
-   }
- 
-   # Common deny or internal locations, to help prevent access to areas of
-   # the site that should not be public
-   location ~* wp-admin/includes {
-     deny all;
-   }
- 
-   location ~* wp-includes/theme-compat/ {
-     deny all;
-   }
- 
-   location ~* wp-includes/js/tinymce/langs/.*\.php {
-     deny all;
-   }
- 
-   location /wp-content/ {
-     internal;
-   }
- 
-   # Deny access to any files with a .php extension in the uploads directory
-   # Works in sub-directory installs and also in multisite network
-   # Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
-   location ~* /(?:uploads|files)/.*\.php$ {
-     deny all;
-   }
- 
-   # Make sure these get through, esp with dynamic WP sitmap plugin
-   location = /robots.txt {
-     try_files $uri /index.php;
-   }
- 
-   location = /sitemap.xml {
-     try_files $uri /index.php;
-   }
- 
-   location = /sitemap.xml.gz {
-     try_files $uri /index.php;
-   }
- 
-   # Fix for Firefox issue with cross site font icons
-   location ~* \.(eot|otf|ttf|woff)$ {
-     add_header Access-Control-Allow-Origin *;
-   }
- 
-   # Redirect server error pages to the static page /50x.html
-   # Make sure 50x.html exists at that location
-   error_page 500 502 503 504 /50x.html;
-     location = /50x.html {
-     root /usr/share/nginx/html;
-     }
- 
-   # Cache everything by default
-   set $skip_cache 0;
- 
-   # POST requests and urls with a query string should always go to PHP
-   if ($request_method = POST) {
-     set $skip_cache 1;
-   }
-   if ($query_string != &quot;&quot;) {
-     set $skip_cache 1;
-   }
- 
-   # Don&#39;t cache uris containing the following segments
-   if ($request_uri ~* &quot;/wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml&quot;) {
-     set $skip_cache 1;
-   }
- 
-   # Don&#39;t use the cache for logged in users or recent commenters
-   if ($http_cookie ~* &quot;comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in&quot;) {
-     set $skip_cache 1;
-   }
- 
-   # Pass all .php files onto a php-fpm/php-fcgi server.
-   location ~ [^/]\.php(/|$) {
-     # regex to split $uri to $fastcgi_script_name and $fastcgi_path
-     fastcgi_split_path_info ^(.+\.php)(/.+)$;
- 
-     # Check that the PHP script exists before passing it
-     try_files $fastcgi_script_name =404;
- 
-     # Bypass the fact that try_files resets $fastcgi_path_info
-     # see: http://trac.nginx.org/nginx/ticket/321
-     set $path_info $fastcgi_path_info;
-     fastcgi_param PATH_INFO $path_info;
- 
-     fastcgi_pass unix:/var/run/example.com.sock;
-     fastcgi_index index.php;
-     # Uncomment if site is HTTPS
-     #fastcgi_param HTTPS on;
-     include fastcgi.conf;
-     
-     fastcgi_cache_bypass $skip_cache;
-     fastcgi_no_cache $skip_cache;
- 
-     fastcgi_cache WORDPRESS;
-     fastcgi_cache_valid  60m;
-   }
- 
-   location ~ /purge(/.*) {
-     fastcgi_cache_purge WORDPRESS &quot;$scheme$request_method$host$1&quot;;
-   }
- 
-   # Use this block if PHPMyAdmin is enabled for this domain
-   location /phpmyadmin {
-     root /usr/share/;
-     index index.php index.html index.htm;
- 
-     location ~ ^/phpmyadmin/(.+\.php)$ {
-       try_files $uri =404;
-       root /usr/share/;
-       fastcgi_pass unix:/var/run/example.com.sock;
-       fastcgi_index index.php;
-       include fastcgi.conf;
-     }
- 
-     location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
-       root /usr/share/;
-     }
-   }
- 
-   location /phpMyAdmin {
-     rewrite ^/* /phpmyadmin last;
-   }
-   # End PHPMyAdmin block
- 
- } # End of server block.
+wikipedia https://en.wikipedia.org/wiki/Nginx
+ related c linux solaris tls wordpress
+ summary Nginx (  EN-jin-EKS) (stylized as NGINX, NGiИX or nginx) is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.  The software was created by Igor Sysoev and first publicly released in 2004. A company of the same name was founded in 2011 to provide support and Nginx plus paid software.Nginx is free and open-source software, released under the terms of a BSD-like license. A large fraction of web servers use NGINX, often as a load balancer.
+ pageId 10494974
+ dailyPageViews 795
+ created 2007
+ backlinksCount 298
+ revisionCount 1044
+ appeared 2004
 
-endColumns
+githubLanguage Nginx
+ fileExtensions nginx nginxconf vhost
+ trendingProjectsCount 0
+ type data
+ filenames nginx.conf
+ aceMode text
+ codemirrorMode nginx
+ codemirrorMimeType text/x-nginx-conf
+ tmScope source.nginx
+ aliases nginx configuration file
+ repos 5905
+githubBigQuery Nginx
+ repos 8529
+ users 7652
 
-## Language <a href="../lists/features.html">features</a>
+codeMirror nginx
+pygmentsHighlighter Nginx configuration file
+ filename configs.py
+ fileExtensions nginx.conf
+linguistGrammarRepo https://github.com/brandonwamboldt/sublime-nginx
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 6
+ commitCount 41
+ sampleCount 1
+ example
+  # Move the www people to no-www
+  server {
+    listen 80;
+    server_name www.example.com;
+    return 301 $scheme://example.com$request_uri;
+  }
+  
+  server {
+    listen 80;
+    listen 443 ssl;
+    server_name example.com;
+  
+    # Certs sent to the client in SERVER HELLO are concatenated in ssl_certificate
+    ssl_certificate /srv/www/example.com/ssl/example.com.crt;
+    ssl_certificate_key /srv/www/example.com/ssl/example.com.key;
+    
+    # Allow multiple connections to use the same key data
+    ssl_session_timeout 5m;
+    ssl_session_cache shared:SSL:50m;
+    
+    # Diffie-Hellman parameter for DHE ciphersuites, recommended 2048 bits
+    ssl_dhparam /etc/ssl/certs/dhparam.pem;
+  
+    # Intermediate configuration. tweak to your needs
+    ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+    include snippets/ssl_ciphers_intermediate.conf;
+    ssl_prefer_server_ciphers on;
+  
+    # HSTS (ngx_http_headers_module is required) (15768000 seconds = 6 months)
+    #add_header Strict-Transport-Security max-age=15768000;
+  
+    # OCSP Stapling - fetch OCSP records from URL in ssl_certificate and cache them
+    ssl_stapling on;
+    ssl_stapling_verify on;
+  
+    # Verify chain of trust of OCSP response using Root CA and Intermediate certs
+    ssl_trusted_certificate /srv/www/example.com/ssl/unified-ssl.crt;
+    resolver 8.8.8.8 8.8.4.4;
+    resolver_timeout 10s;
+  
+    root /srv/www/example.com/htdocs;
+    index index.php index.html index.htm;
+    charset UTF-8;
+    autoindex off;
+    
+    # Deny access based on HTTP method (set in HTTP level)
+    if ($bad_method = 1) {
+      return 444;
+    }
+  
+    # Show "Not Found" 404 errors in place of "Forbidden" 403 errors, because
+    # forbidden errors allow attackers potential insight into your server's
+    # layout and contents
+    error_page 403 = 404;
+  
+    # It's always good to set logs, note however you cannot turn off the error log
+    # setting error_log off; will simply create a file called 'off'.
+    access_log /var/log/nginx/example.com.access.log;
+    error_log /var/log/nginx/example.com.error.log;
+  
+    # Add trailing slash to */wp-admin requests.
+    rewrite /wp-admin$ $scheme://$host$uri/ permanent;
+  
+    location / {
+      # This try_files directive is used to enable pretty, SEO-friendly URLs
+      # and permalinks for Wordpress. Leave it *off* to start with, and then
+      # turn it on once you've gotten Wordpress configured!
+      try_files $uri $uri/ /index.php?$args;
+    }
+  
+    # Option to create password protected directory
+    # http://www.howtoforge.com/basic-http-authentication-with-nginx
+    # location /admin {
+    #   auth_basic "Administrator Login";
+    #   auth_basic_user_file /var/www/domain.com/admin/.htpasswd;
+    # }
+  
+    # Do not log access to these to keep the logs cleaner
+    location = /favicon.ico {
+      log_not_found off;
+      access_log off;
+    }
+  
+    location = /apple-touch-icon.png {
+      log_not_found off;
+      access_log off;
+    }
+  
+    location = /apple-touch-icon-precomposed.png {
+      log_not_found off;
+      access_log off;
+    }
+  
+    # This block will catch static file requests, such as images, css, js
+    # The ?: prefix is a 'non-capturing' mark, meaning we do not require
+    # the pattern to be captured into $1 which should help improve performance
+    location ~* \.(?:3gp|gif|jpg|jpe?g|png|ico|wmv|avi|asf|asx|mpg|mpeg|mp4|pls|mp3|mid|wav|swf|flv|html|htm|txt|js|css|exe|zip|tar|rar|gz|tgz|bz2|uha|7z|doc|docx|xls|xlsx|pdf|iso|woff)$ {
+      # Some basic cache-control for static files to be sent to the browser
+      expires max;
+      add_header Pragma public;
+      add_header Cache-Control "public, must-revalidate, proxy-revalidate";
+    }
+  
+    # Deny all attempts to access hidden files such as .htaccess, .htpasswd, .DS_Store (Mac).
+    # Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
+    location ~ /\. {
+      access_log off;
+      log_not_found off;
+      deny all;
+    }
+  
+    location ~ ~$ {
+      access_log off;
+      log_not_found off;
+      deny all;
+    }
+  
+    # Common deny or internal locations, to help prevent access to areas of
+    # the site that should not be public
+    location ~* wp-admin/includes {
+      deny all;
+    }
+  
+    location ~* wp-includes/theme-compat/ {
+      deny all;
+    }
+  
+    location ~* wp-includes/js/tinymce/langs/.*\.php {
+      deny all;
+    }
+  
+    location /wp-content/ {
+      internal;
+    }
+  
+    # Deny access to any files with a .php extension in the uploads directory
+    # Works in sub-directory installs and also in multisite network
+    # Keep logging the requests to parse later (or to pass to firewall utilities such as fail2ban)
+    location ~* /(?:uploads|files)/.*\.php$ {
+      deny all;
+    }
+  
+    # Make sure these get through, esp with dynamic WP sitmap plugin
+    location = /robots.txt {
+      try_files $uri /index.php;
+    }
+  
+    location = /sitemap.xml {
+      try_files $uri /index.php;
+    }
+  
+    location = /sitemap.xml.gz {
+      try_files $uri /index.php;
+    }
+  
+    # Fix for Firefox issue with cross site font icons
+    location ~* \.(eot|otf|ttf|woff)$ {
+      add_header Access-Control-Allow-Origin *;
+    }
+  
+    # Redirect server error pages to the static page /50x.html
+    # Make sure 50x.html exists at that location
+    error_page 500 502 503 504 /50x.html;
+      location = /50x.html {
+      root /usr/share/nginx/html;
+      }
+  
+    # Cache everything by default
+    set $skip_cache 0;
+  
+    # POST requests and urls with a query string should always go to PHP
+    if ($request_method = POST) {
+      set $skip_cache 1;
+    }
+    if ($query_string != "") {
+      set $skip_cache 1;
+    }
+  
+    # Don't cache uris containing the following segments
+    if ($request_uri ~* "/wp-admin/|/xmlrpc.php|wp-.*.php|/feed/|index.php|sitemap(_index)?.xml") {
+      set $skip_cache 1;
+    }
+  
+    # Don't use the cache for logged in users or recent commenters
+    if ($http_cookie ~* "comment_author|wordpress_[a-f0-9]+|wp-postpass|wordpress_no_cache|wordpress_logged_in") {
+      set $skip_cache 1;
+    }
+  
+    # Pass all .php files onto a php-fpm/php-fcgi server.
+    location ~ [^/]\.php(/|$) {
+      # regex to split $uri to $fastcgi_script_name and $fastcgi_path
+      fastcgi_split_path_info ^(.+\.php)(/.+)$;
+  
+      # Check that the PHP script exists before passing it
+      try_files $fastcgi_script_name =404;
+  
+      # Bypass the fact that try_files resets $fastcgi_path_info
+      # see: http://trac.nginx.org/nginx/ticket/321
+      set $path_info $fastcgi_path_info;
+      fastcgi_param PATH_INFO $path_info;
+  
+      fastcgi_pass unix:/var/run/example.com.sock;
+      fastcgi_index index.php;
+      # Uncomment if site is HTTPS
+      #fastcgi_param HTTPS on;
+      include fastcgi.conf;
+      
+      fastcgi_cache_bypass $skip_cache;
+      fastcgi_no_cache $skip_cache;
+  
+      fastcgi_cache WORDPRESS;
+      fastcgi_cache_valid  60m;
+    }
+  
+    location ~ /purge(/.*) {
+      fastcgi_cache_purge WORDPRESS "$scheme$request_method$host$1";
+    }
+  
+    # Use this block if PHPMyAdmin is enabled for this domain
+    location /phpmyadmin {
+      root /usr/share/;
+      index index.php index.html index.htm;
+  
+      location ~ ^/phpmyadmin/(.+\.php)$ {
+        try_files $uri =404;
+        root /usr/share/;
+        fastcgi_pass unix:/var/run/example.com.sock;
+        fastcgi_index index.php;
+        include fastcgi.conf;
+      }
+  
+      location ~* ^/phpmyadmin/(.+\.(jpg|jpeg|gif|css|png|js|ico|html|xml|txt))$ {
+        root /usr/share/;
+      }
+    }
+  
+    location /phpMyAdmin {
+      rewrite ^/* /phpmyadmin last;
+    }
+    # End PHPMyAdmin block
+  
+  } # End of server block.
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+indeedJobs nginx engineer
+ 2022 2884
 
-keyboardNav smali.html opencl.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 6
+ year|publisher|title|authors|isbn13
+ 2013|Packt Publishing|Nginx Module Extension|Dar, Usama|9781782163046
+ 2018|Packt Publishing|Nginx HTTP Server: Harness the power of Nginx to make the most of your infrastructure and serve pages faster than ever before, 4th Edition|Fjordvald, Martin Bjerretoft and Nedelcu, Clement|9781788621977
+ 2013-03-19|Packt Publishing|Mastering Nginx|Dimitri Aivaliotis|9781849517454
+ 2013|Packt Publishing|Nginx HTTP Server Second Edition|Nedelcu, Clement|9781782162339
+ 18-11-2015|Packt Publishing|Nginx HTTP Server|Clement Nedelcu|9781785285912
+ 2013-12-26|Packt Publishing|Nginx Module Extension|Usama Dar|9781782163053
+
+semanticScholar 0

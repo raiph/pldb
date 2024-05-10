@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title plam
+import ../measures/conceptPage.scroll
+id plam
+appeared 2017
+type pl
+creators Sandro Lovnički
+fileExtensions plam
+country Croatia
+originCommunity https://github.com/slovnicki/pLam/issues
 
-title plam - Programming language
- hidden
+githubRepo https://github.com/sandrolovnicki/pLam
+ firstCommit 2017
+ stars 417
+ forks 16
+ subscribers 8
+ created 2017
+ updated 2022
+ description An interpreter for learning and exploring pure λ-calculus
+ issues 4
 
-html
- <a class="trueBaseThemePreviousItem" href="coral.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qif.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plam.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/sandrolovnicki/pLam" class="material-symbols-outlined">code</a> <a href="/edit.html?id=plam" class="material-symbols-outlined">edit</a></div>
-
-* plam is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Sandro Lovnički.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#sandroLovnicki Sandro Lovnički
-
-codeWithHeader Source code:
- git clone https://github.com/sandrolovnicki/pLam
-
-dashboard
- #1340 <span title="TotalRank: 1876 Jobs: 103 Users: 787 Facts: 1669 Links: 986">on PLDB</span>
- 7 Years Old
-
-* An interpreter for learning and exploring pure λ-calculus
-
-- plam is developed on <a href="https://github.com/sandrolovnicki/pLam">GitHub</a> and has 417 stars
-- plam first developed in <a href="../lists/originCommunities.html#httpsGithubComSlovnickiPLamIssues">https://github.com/slovnicki/pLam/issues</a>
-- file extensions for plam include plam
-
-<br>
-
-endColumns
-
-keyboardNav coral.html qif.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 269
+ committers 6
+ files 44

@@ -1,56 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title WebAssembly Text Format
+import ../measures/conceptPage.scroll
+id WebAssembly Text Format
+appeared 2015
+type pl
+conceptDescription WebAssembly has an S-expression-based textual representation, an intermediate form designed to be exposed in text editors, browser developer tools, etc.
+reference https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm
+fileExtensions wast
 
-title WebAssembly Text Format - Programming language
- hidden
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="v-visual-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xml-ql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wast.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wast" class="material-symbols-outlined">edit</a></div>
-
-* WebAssembly Text Format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2737 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 9 Years Old
-
-* WebAssembly has an S-expression-based textual representation, an intermediate form designed to be exposed in text editors, browser developer tools, etc.
-
-- file extensions for WebAssembly Text Format include wast
-- Read more about WebAssembly Text Format on the web: 1.
- https://developer.mozilla.org/en-US/docs/WebAssembly/Text_format_to_wasm 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
   (module
-   (import &quot;math&quot; &quot;exp&quot; (func $exp (param f64) (result f64)))
-   (func (export &quot;doubleExp&quot;) (param $0 f64) (result f64)
+   (import "math" "exp" (func $exp (param f64) (result f64)))
+   (func (export "doubleExp") (param $0 f64) (result f64)
      (f64.mul
        (call $exp
          (get_local $0))
        (f64.const 2))))
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav v-visual-language.html xml-ql.html
-
-import ../footer.scroll

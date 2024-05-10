@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OBSCURE
+import ../measures/conceptPage.scroll
+id OBSCURE
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/147aacbd7d6fdab57cd40c126db80242f377d8a5
+country Germany
+originCommunity Universität des Saarlandes
 
-title OBSCURE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1171
 
-html
- <a class="trueBaseThemePreviousItem" href="objvprolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="occam-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/obscure.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=obscure" class="material-symbols-outlined">edit</a></div>
-
-* OBSCURE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3882 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- OBSCURE first developed in <a href="../lists/originCommunities.html#universitatDesSaarlandes">Universität des Saarlandes</a>
-- OBSCURE on HOPL
- https://hopl.info/showlanguage.prx?exp=1171
-- Read more about OBSCURE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/147aacbd7d6fdab57cd40c126db80242f377d8a5 1.
-
-<br>
-
-endColumns
-
-keyboardNav objvprolog.html occam-2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

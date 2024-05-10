@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Birkbeck Assembly
+import ../measures/conceptPage.scroll
+id Birkbeck Assembly
+appeared 1947
+type assembly
+creators Kathleen Booth
+conceptDescription Kathleen Booth née Britten (1922 –) wrote the first assembly language and designed the assembler and autocode for the first computer systems at Birkbeck College, University of London.
+reference https://en.wikipedia.org/wiki/Kathleen_Booth
+country England
+originCommunity Birkbeck College, University of London
 
-title Birkbeck Assembly - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bigwig.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="blaze-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/birkbeck-assembly.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=birkbeck-assembly" class="material-symbols-outlined">edit</a></div>
-
-* Birkbeck Assembly is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1947 by Kathleen Booth.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1947 1947
- link ../lists/creators.html#kathleenBooth Kathleen Booth
-
-dashboard
- #4088 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 77 Years Old
-
-* Kathleen Booth née Britten (1922 –) wrote the first assembly language and designed the assembler and autocode for the first computer systems at Birkbeck College, University of London.
-
-- Birkbeck Assembly first developed in <a href="../lists/originCommunities.html#birkbeckCollegeUniversityOfLondon">Birkbeck College, University of London</a>
-- Read more about Birkbeck Assembly on the web: 1.
- https://en.wikipedia.org/wiki/Kathleen_Booth 1.
-
-<br>
-
-endColumns
-
-keyboardNav bigwig.html blaze-2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

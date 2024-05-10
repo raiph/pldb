@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MODEL-K
+import ../measures/conceptPage.scroll
+id MODEL-K
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/21038c2f5d47df42bcf2b899c252cb6c68adb88e
 
-title MODEL-K - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4187
 
-html
- <a class="trueBaseThemePreviousItem" href="microsoft-mysql-server.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mushroom.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/model-k.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=model-k" class="material-symbols-outlined">edit</a></div>
-
-* MODEL-K is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3200 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- MODEL-K on HOPL
- https://hopl.info/showlanguage.prx?exp=4187
-- Read more about MODEL-K on Semantic Scholar: 1.
- https://semanticscholar.org/paper/21038c2f5d47df42bcf2b899c252cb6c68adb88e 1.
-
-<br>
-
-endColumns
-
-keyboardNav microsoft-mysql-server.html mushroom.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

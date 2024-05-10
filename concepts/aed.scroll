@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AED
+import ../measures/conceptPage.scroll
+id AED
+appeared 1963
+type pl
+reference https://semanticscholar.org/paper/d89af6e80cb54a793c82d960826b9cb97c21c246
+originCommunity SofTech, Inc.
 
-title AED - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=217
 
-html
- <a class="trueBaseThemePreviousItem" href="aditi.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aepl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aed.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aed" class="material-symbols-outlined">edit</a></div>
-
-* AED is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3331 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- AED first developed in <a href="../lists/originCommunities.html#sofTechInc">SofTech, Inc.</a>
-- AED on HOPL
- https://hopl.info/showlanguage.prx?exp=217
-- Read more about AED on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d89af6e80cb54a793c82d960826b9cb97c21c246 1.
-
-<br>
-
-endColumns
-
-keyboardNav aditi.html aepl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

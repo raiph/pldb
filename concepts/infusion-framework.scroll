@@ -1,43 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title infusion-framework
+import ../measures/conceptPage.scroll
+id infusion-framework
+appeared 2007
+type framework
+website http://fluidproject.org/infusion.html
+reference https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0
+country Various
+originCommunity https://github.com/fluid-project
 
-title infusion-framework - Framework
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kuka.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="buzz.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/infusion-framework.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://fluidproject.org/infusion.html" class="material-symbols-outlined">home</a> <a href="https://github.com/fluid-project/infusion" class="material-symbols-outlined">code</a> <a href="/edit.html?id=infusion-framework" class="material-symbols-outlined">edit</a></div>
-
-* infusion-framework is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+framework">framework</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-codeWithHeader Source code:
- git clone https://github.com/fluid-project/infusion
-
-dashboard
- #1795 on PLDB
- 17 Years Old
-
-* Infusion is a web framework that supports inclusive design.
-
-- infusion-framework website
- http://fluidproject.org/infusion.html
-- infusion-framework is developed on <a href="https://github.com/fluid-project/infusion">GitHub</a> and has 130 stars
-- infusion-framework first developed in <a href="../lists/originCommunities.html#httpsGithubComFluidProject">https://github.com/fluid-project</a>
-- Read more about infusion-framework on the web: 1.
- https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0 1.
-
-<br>
-
-endColumns
-
-keyboardNav kuka.html buzz.html
-
-import ../footer.scroll
+githubRepo https://github.com/fluid-project/infusion
+ firstCommit 2007
+ stars 130
+ forks 97
+ subscribers 21
+ created 2011
+ updated 2022
+ description Infusion is a web framework that supports inclusive design.
+ issues 13

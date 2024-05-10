@@ -1,40 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title vega-editor-app
+import ../measures/conceptPage.scroll
+id vega-editor-app
+appeared 2015
+type application
+website https://vega.github.io/editor/
 
-title vega-editor-app - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="winbatch.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="simplictiy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vega-editor-app.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://vega.github.io/editor/" class="material-symbols-outlined">home</a> <a href="https://github.com/vega/editor" class="material-symbols-outlined">code</a> <a href="/edit.html?id=vega-editor-app" class="material-symbols-outlined">edit</a></div>
-
-* vega-editor-app is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/vega/editor
-
-dashboard
- #1894 on PLDB
- 9 Years Old
-
-* Editor/IDE for Vega and Vega-Lite
-
-- vega-editor-app website
- https://vega.github.io/editor/
-- vega-editor-app is developed on <a href="https://github.com/vega/editor">GitHub</a> and has 116 stars
-
-<br>
-
-endColumns
-
-keyboardNav winbatch.html simplictiy.html
-
-import ../footer.scroll
+githubRepo https://github.com/vega/editor
+ firstCommit 2015
+ stars 116
+ forks 76
+ subscribers 18
+ created 2017
+ updated 2022
+ description Editor/IDE for Vega and Vega-Lite
+ issues 22

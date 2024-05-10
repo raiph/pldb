@@ -1,39 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ABEL
+import ../measures/conceptPage.scroll
+id ABEL
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/236ecf8536578457ddedcf9c35b843a970a1f726
+originCommunity Telemark College && University of Oslo
 
-title ABEL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1780
 
-html
- <a class="trueBaseThemePreviousItem" href="zeta.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="afnix.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=abel" class="material-symbols-outlined">edit</a></div>
-
-* ABEL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3004 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- ABEL first developed in <a href="../lists/originCommunities.html#telemarkCollege">Telemark College</a> and <a href="../lists/originCommunities.html#universityOfOslo">University of Oslo</a>
-- ABEL on HOPL
- https://hopl.info/showlanguage.prx?exp=1780
-- Read more about ABEL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/236ecf8536578457ddedcf9c35b843a970a1f726 1.
-
-<br>
-
-endColumns
-
-keyboardNav zeta.html afnix.html
-
-import ../footer.scroll
+isbndb 4
+ year|publisher|title|authors|isbn13
+ 1994|Prentice Hall|Digital Design Using Abel|Pellerin, David and Holley, Michael|9780136058748
+ 2014|Springer|The Abel Prize 2008-2012|Helge Holden|9783642394492
+ 2013|Springer|NIELS HENRIK ABEL and his Times: Called Too Soon by Flames Afar|Stubhaug, Arild|9783662040768
+ 2008|Springer|Mathematics and Computation, a Contemporary View: The Abel Symposium 2006 (Abel Symposia Book 3)|Andrew Edney|9783540688501

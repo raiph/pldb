@@ -1,41 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title yeti
+import ../measures/conceptPage.scroll
+id yeti
+appeared 2007
+type pl
+website http://mth.github.io/yeti/
+webRepl http://try-yeti.appspot.com/
 
-title yeti - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="chicken.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="idl-sl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yeti.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://mth.github.io/yeti/" class="material-symbols-outlined">home</a> <a href="http://try-yeti.appspot.com/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/mth/yeti" class="material-symbols-outlined">code</a> <a href="/edit.html?id=yeti" class="material-symbols-outlined">edit</a></div>
-
-* yeti is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-codeWithHeader Source code:
- git clone https://github.com/mth/yeti
-
-dashboard
- #1584 <span title="TotalRank: 2089 Jobs: 103 Users: 1000 Facts: 1123 Links: 986">on PLDB</span>
- 17 Years Old
-
-* Try now: <a href="http://try-yeti.appspot.com/">Web</a>
-
-* Functional programming language for JVM.
-
-- yeti website
- http://mth.github.io/yeti/
-- yeti is developed on <a href="https://github.com/mth/yeti">GitHub</a> and has 226 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ack m n =
      if m == 0 then
          n + 1
@@ -45,10 +15,20 @@ codeWithHeader Example from the web:
          ack (m - 1) (ack m (n - 1))
      fi;
  
- println &quot;ack 3 8 = \(ack 3 8)&quot;
+ println "ack 3 8 = \(ack 3 8)"
 
-endColumns
+githubRepo https://github.com/mth/yeti
+ firstCommit 2007
+ stars 226
+ forks 16
+ subscribers 16
+ created 2008
+ updated 2022
+ description Functional programming language for JVM.
+ issues 4
 
-keyboardNav chicken.html idl-sl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2007
+ commits 2988
+ committers 11
+ files 170

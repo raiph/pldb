@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bob
+import ../measures/conceptPage.scroll
+id Bob
+appeared 1991
+type pl
+reference https://github.com/dbetz/bob
+country United States
 
-title Bob - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1611
 
-html
- <a class="trueBaseThemePreviousItem" href="bmd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="boil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bob.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bob" class="material-symbols-outlined">edit</a></div>
-
-* Bob is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3526 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Bob on HOPL
- https://hopl.info/showlanguage.prx?exp=1611
-- Read more about Bob on the web: 1.
- https://github.com/dbetz/bob 1.
-
-<br>
-
-endColumns
-
-keyboardNav bmd.html boil.html
-
-import ../footer.scroll
+wordRank 1923
+centralPackageRepositoryCount 0

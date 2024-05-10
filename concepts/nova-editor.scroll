@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nova
-
-title Nova - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="marten.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="phpstorm-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nova-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.panic.com/nova/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=nova-editor" class="material-symbols-outlined">edit</a></div>
-
-* Nova is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #3253 on PLDB
- 5 Years Old
-
-* 
-
-- Nova website
- https://www.panic.com/nova/
-- Nova first developed in <a href="../lists/originCommunities.html#panicInc">Panic, Inc</a>
-
-<br>
-
-endColumns
-
-keyboardNav marten.html phpstorm-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Nova
+appeared 2019
+type editor
+website https://www.panic.com/nova/
+country United States
+originCommunity Panic, Inc

@@ -1,44 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cloe
+import ../measures/conceptPage.scroll
+id cloe
+appeared 2018
+type pl
+website https://cloe-lang.org
+originCommunity https://github.com/cloe-lang
+domainName cloe-lang.org
+ registered 2018
 
-title cloe - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="chirp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="comm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cloe.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://cloe-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=cloe" class="material-symbols-outlined">edit</a></div>
-
-* cloe is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2854 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- cloe website
- https://cloe-lang.org
-- cloe first developed in <a href="../lists/originCommunities.html#httpsGithubComCloeLang">https://github.com/cloe-lang</a>
-- <a href="https://cloe-lang.org">cloe-lang.org</a> was registered in 2018
-
-<br>
-
-endColumns
-
-## HackerNews discussions of cloe
-
-pipeTable
- title|titleLink|date|score|comments
- Cloe programming language|https://news.ycombinator.com/item?id=17043881|05/10/2018|3|0
-
-keyboardNav chirp.html comm.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 17043881|Cloe programming language|https://cloe-lang.org|2018-05-10 23:52:51 UTC|1525996371|raviqqe42|0|3

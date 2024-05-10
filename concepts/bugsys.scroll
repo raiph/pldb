@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BUGSYS
+import ../measures/conceptPage.scroll
+id BUGSYS
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/5bfe6c7cf02dfdcdc9bdb775c327b2435d1054c8
+country United States
+originCommunity National Biomedical Research Foundation
 
-title BUGSYS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=246
 
-html
- <a class="trueBaseThemePreviousItem" href="bsp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="butterfly-common-lisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bugsys.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bugsys" class="material-symbols-outlined">edit</a></div>
-
-* BUGSYS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #3537 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- BUGSYS first developed in <a href="../lists/originCommunities.html#nationalBiomedicalResearchFoundation">National Biomedical Research Foundation</a>
-- BUGSYS on HOPL
- https://hopl.info/showlanguage.prx?exp=246
-- Read more about BUGSYS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5bfe6c7cf02dfdcdc9bdb775c327b2435d1054c8 1.
-
-<br>
-
-endColumns
-
-keyboardNav bsp.html butterfly-common-lisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

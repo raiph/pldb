@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PIN
+import ../measures/conceptPage.scroll
+id PIN
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/2cb303e5a6c1999ce41fb019b7db8b43a8762041
+country United States
+originCommunity University of California, Los Angeles
 
-title PIN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6669
 
-html
- <a class="trueBaseThemePreviousItem" href="pie.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pin" class="material-symbols-outlined">edit</a></div>
-
-* PIN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #4255 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- PIN first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaLosAngeles">University of California, Los Angeles</a>
-- PIN on HOPL
- https://hopl.info/showlanguage.prx?exp=6669
-- Read more about PIN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2cb303e5a6c1999ce41fb019b7db8b43a8762041 1.
-
-<br>
-
-endColumns
-
-keyboardNav pie.html pit.html
-
-import ../footer.scroll
+wordRank 3071
+centralPackageRepositoryCount 0

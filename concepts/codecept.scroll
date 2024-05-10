@@ -1,44 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title codecept
+import ../measures/conceptPage.scroll
+id codecept
+appeared 2015
+type library
+website http://codecept.io/
+country Ukraine and India
+originCommunity https://github.com/codeceptjs/
+domainName codecept.io
+ registered 2015
+ awisRank
+  2022 797998
 
-title codecept - Library
- hidden
+githubRepo https://github.com/codeception/codeceptjs/
+ stars 3725
+ forks 668
+ subscribers 106
+ created 2015
+ updated 2022
+ description Supercharged End 2 End Testing Framework for NodeJS
+ issues 344
 
-html
- <a class="trueBaseThemePreviousItem" href="hasklig.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="openscad.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/codecept.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://codecept.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/codeception/codeceptjs/" class="material-symbols-outlined">code</a> <a href="https://twitter.com/codeceptjs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=codecept" class="material-symbols-outlined">edit</a></div>
-
-* codecept is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/codeception/codeceptjs/
-
-dashboard
- #909 on PLDB
- 9 Years Old
-
-* Supercharged End 2 End Testing Framework for NodeJS
-
-- codecept website
- http://codecept.io/
-- codecept is developed on <a href="https://github.com/codeception/codeceptjs/">GitHub</a> and has 3,725 stars
-- codecept first developed in <a href="../lists/originCommunities.html#httpsGithubComCodeceptjs">https://github.com/codeceptjs/</a>
-- codecept on Twitter
- https://twitter.com/codeceptjs
-- <a href="http://codecept.io/">codecept.io</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav hasklig.html openscad.html
-
-import ../footer.scroll
+twitter https://twitter.com/codeceptjs
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

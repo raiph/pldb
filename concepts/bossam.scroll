@@ -1,37 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bossam Rule Language
+import ../measures/conceptPage.scroll
+id Bossam Rule Language
+appeared 2004
+type queryLanguage
+reference https://link.springer.com/chapter/10.1007/978-3-540-30504-0_10
+country South Korea
+originCommunity Electronics & Telecommunications Research Institute
 
-title Bossam Rule Language - Query language
- hidden
+relatedConcepts owl rdf
 
-html
- <a class="trueBaseThemePreviousItem" href="seq.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kivy-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bossam.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bossam" class="material-symbols-outlined">edit</a></div>
-
-* Bossam Rule Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2505 <span title="TotalRank: 3071 Jobs: 103 Users: 2838 Facts: 1982 Links: 986">on PLDB</span>
- 20 Years Old
-
-* 
-
-- Bossam Rule Language first developed in <a href="../lists/originCommunities.html#electronicsTelecommunicationsResearchInstitute">Electronics & Telecommunications Research Institute</a>
-- See also: (2 related languages)<a href="owl.html">OWL</a>, <a href="rdf.html">RDF</a>
-- Read more about Bossam Rule Language on the web: 1.
- https://link.springer.com/chapter/10.1007/978-3-540-30504-0_10 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  prefix family = http://family.com/Family#;
  namespace = http://family.com/Johns#;
  rule r1 is
@@ -42,9 +19,3 @@ codeWithHeader Example from the web:
    family:isUncleOf(?z,?y);
  fact f1 is
   family:isFatherOf(John,Bob);
-
-endColumns
-
-keyboardNav seq.html kivy-lang.html
-
-import ../footer.scroll

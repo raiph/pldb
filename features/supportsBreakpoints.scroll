@@ -9,20 +9,18 @@ html
  <a class="trueBaseThemePreviousItem" href="mergesWhitespace.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="canDoShebang.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  if (false)
    debugger
 
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  debugger
 
-* Languages *with* Breakpoints include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/speedie.html">Speedie</a>
-
-* This question asks: Does this language support breakpoints?
+* Languages *with* Breakpoints include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Breakpoints on the web: 1.
  https://en.wikipedia.org/wiki/Breakpoint 1.

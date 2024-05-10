@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cantor
+import ../measures/conceptPage.scroll
+id Cantor
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/832ef97843186ea175db8348768719664eab2fc5
+country United States
+originCommunity California Institute of Technology
 
-title Cantor - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1303
 
-html
- <a class="trueBaseThemePreviousItem" href="camil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="capsl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cantor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cantor" class="material-symbols-outlined">edit</a></div>
-
-* Cantor is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3548 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Cantor first developed in <a href="../lists/originCommunities.html#californiaInstituteOfTechnology">California Institute of Technology</a>
-- Cantor on HOPL
- https://hopl.info/showlanguage.prx?exp=1303
-- Read more about Cantor on Semantic Scholar: 1.
- https://semanticscholar.org/paper/832ef97843186ea175db8348768719664eab2fc5 1.
-
-<br>
-
-endColumns
-
-keyboardNav camil.html capsl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

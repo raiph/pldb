@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Modula-P
+import ../measures/conceptPage.scroll
+id Modula-P
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/55ac714f7d73449432275418cdaa18b231c27d2d
+country Germany
+originCommunity University of Karlsruhe
 
-title Modula-P - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=970
 
-html
- <a class="trueBaseThemePreviousItem" href="modsim-iii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="modula-r.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/modula-p.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=modula-p" class="material-symbols-outlined">edit</a></div>
-
-* Modula-P is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3844 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Modula-P first developed in <a href="../lists/originCommunities.html#universityOfKarlsruhe">University of Karlsruhe</a>
-- Modula-P on HOPL
- https://hopl.info/showlanguage.prx?exp=970
-- Read more about Modula-P on Semantic Scholar: 1.
- https://semanticscholar.org/paper/55ac714f7d73449432275418cdaa18b231c27d2d 1.
-
-<br>
-
-endColumns
-
-keyboardNav modsim-iii.html modula-r.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

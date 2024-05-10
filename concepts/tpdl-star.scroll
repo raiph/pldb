@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TPDL*
+import ../measures/conceptPage.scroll
+id TPDL*
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/e4065e87ac5c09246ba9f8f8754c0997b6864e95
 
-title TPDL* - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5427
 
-html
- <a class="trueBaseThemePreviousItem" href="toolbus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="trafola-h.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tpdl-star.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tpdl-star" class="material-symbols-outlined">edit</a></div>
-
-* TPDL* is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3244 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- TPDL* on HOPL
- https://hopl.info/showlanguage.prx?exp=5427
-- Read more about TPDL* on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e4065e87ac5c09246ba9f8f8754c0997b6864e95 1.
-
-<br>
-
-endColumns
-
-keyboardNav toolbus.html trafola-h.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

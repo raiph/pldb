@@ -1,56 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TestML
+import ../measures/conceptPage.scroll
+id TestML
+appeared 2018
+type pl
+conceptDescription TestML is data driven software testing language that works with all popular programming languages and their favorite test frameworks. You write up your inputs and expected outputs and a simple assertion statement of how to get from one to the other. TestML takes care of the rest, giving you lots of testing functionality for the minimum input.
+website https://testml.org/
+webRepl https://testml.org/playground/
 
-title TestML - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="p-star.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jevko.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/testml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://testml.org/" class="material-symbols-outlined">home</a> <a href="https://testml.org/playground/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/testml-lang/testml/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=testml" class="material-symbols-outlined">edit</a></div>
-
-* TestML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/testml-lang/testml/
-
-dashboard
- #1578 <span title="TotalRank: 2084 Jobs: 103 Users: 2415 Facts: 995 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Try now: <a href="https://testml.org/playground/">Web</a>
-
-* TestML is data driven software testing language that works with all popular programming languages and their favorite test frameworks. You write up your inputs and expected outputs and a simple assertion statement of how to get from one to the other. TestML takes care of the rest, giving you lots of testing functionality for the minimum input.
-
-- TestML website
- https://testml.org/
-- TestML is developed on <a href="https://github.com/testml-lang/testml/">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #!/usr/bin/env testml
  
- &quot;+ - {*a} + {*a} == {*c}&quot;:
+ "+ - {*a} + {*a} == {*c}":
    *a.add(*a) == *c
  
- &quot;+ - {*c} - {*a} == {*a}&quot;:
+ "+ - {*c} - {*a} == {*a}":
    *c.sub(*a) == *a
  
- &quot;+ - {*a} * 2 == {*c}&quot;:
+ "+ - {*a} * 2 == {*c}":
    *a.mul(2) == *c
  
- &quot;+ - {*c} / 2 == {*a}&quot;:
+ "+ - {*c} / 2 == {*a}":
    *c.div(2) == *a
  
- &quot;+ - {*a} * {*b} == {*d}&quot;:
+ "+ - {*a} * {*b} == {*d}":
    mul(*a, *b) == *d
  
  === Test Block 1
@@ -63,8 +34,4 @@ codeWithHeader Example from the web:
  --- c: -10
  --- d: -35
 
-endColumns
-
-keyboardNav p-star.html jevko.html
-
-import ../footer.scroll
+githubRepo https://github.com/testml-lang/testml/

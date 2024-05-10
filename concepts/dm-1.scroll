@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DM-1
+import ../measures/conceptPage.scroll
+id DM-1
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/03ea9c17f5f1d9952f9529914222eb6d82a4b3bd
 
-title DM-1 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5333
 
-html
- <a class="trueBaseThemePreviousItem" href="distributed-smalltalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ebg.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dm-1.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dm-1" class="material-symbols-outlined">edit</a></div>
-
-* DM-1 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #3376 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- DM-1 on HOPL
- https://hopl.info/showlanguage.prx?exp=5333
-- Read more about DM-1 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/03ea9c17f5f1d9952f9529914222eb6d82a4b3bd 1.
-
-<br>
-
-endColumns
-
-keyboardNav distributed-smalltalk.html ebg.html
-
-import ../footer.scroll
+semanticScholar 0

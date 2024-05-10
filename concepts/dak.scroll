@@ -1,44 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dak
+import ../measures/conceptPage.scroll
+id Dak
+appeared 2022
+type pl
+creators Naitik Shah
+conceptDescription Dak is a Lisp like language that transpiles to JavaScript.
+website https://www.daklang.com/
+webRepl https://www.daklang.com/tour/functions/
+country Dubai
+originCommunity https://github.com/daaku/dak/issues
 
-title Dak - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="lux.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nxc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dak.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.daklang.com/" class="material-symbols-outlined">home</a> <a href="https://www.daklang.com/tour/functions/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/daaku/dak" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dak" class="material-symbols-outlined">edit</a></div>
-
-* Dak is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Naitik Shah.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#naitikShah Naitik Shah
-
-codeWithHeader Source code:
- git clone https://github.com/daaku/dak
-
-dashboard
- #918 <span title="TotalRank: 1488 Jobs: 103 Users: 1610 Facts: 399 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Try now: <a href="https://www.daklang.com/tour/functions/">Web</a>
-
-* Dak is a Lisp like language that transpiles to JavaScript.
-
-- Dak website
- https://www.daklang.com/
-- Dak is developed on <a href="https://github.com/daaku/dak">GitHub</a> and has 70 stars
-- Dak first developed in <a href="../lists/originCommunities.html#httpsGithubComDaakuDakIssues">https://github.com/daaku/dak/issues</a>
-- Dak compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ; Functions are varied and colorful.
  
  ; Simple function:
@@ -86,15 +59,24 @@ codeWithHeader Example from the web:
        (return :boom))))
  (prn :returned (until 40))
  
- ; Yield &amp; Yield* are available:
+ ; Yield & Yield* are available:
  (fn* it [a]
    (yield (++ a))
    (yield* [(++ a) (++ a)]))
  (for-of [v (it 39)]
-   (prn &quot;it:&quot; v))
+   (prn "it:" v))
 
-endColumns
+githubRepo https://github.com/daaku/dak
+ stars 70
+ forks 1
+ subscribers 2
+ created 2022
+ updated 2023
+ description Dak is a Lisp like language that transpiles to JavaScript.
+ issues 17
 
-keyboardNav lux.html nxc.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 575
+ committers 2
+ files 86

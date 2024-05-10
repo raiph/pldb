@@ -1,44 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pharen
+import ../measures/conceptPage.scroll
+id Pharen
+appeared 2009
+type pl
+creators Tamreen Khan
+website http://www.pharen.org
+fileExtensions phn
+country United States
+originCommunity http://github.com/scriptor/pharen/issues
 
-title Pharen - Programming language
- hidden
+compilesTo php
 
-html
- <a class="trueBaseThemePreviousItem" href="color-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="trac.html">&gt;</a>
+githubRepo https://github.com/scriptor/pharen/
+ stars 216
+ forks 31
+ subscribers 17
+ updated 2018
+ description Lisp to PHP Compiler
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pharen.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.pharen.org" class="material-symbols-outlined">home</a> <a href="https://github.com/scriptor/pharen/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pharen" class="material-symbols-outlined">edit</a></div>
-
-* Pharen is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Tamreen Khan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#tamreenKhan Tamreen Khan
-
-codeWithHeader Source code:
- git clone https://github.com/scriptor/pharen/
-
-dashboard
- #1532 <span title="TotalRank: 2042 Jobs: 103 Users: 953 Facts: 1787 Links: 986">on PLDB</span>
- 15 Years Old
-
-* Lisp to PHP Compiler
-
-- Pharen website
- http://www.pharen.org
-- Pharen is developed on <a href="https://github.com/scriptor/pharen/">GitHub</a> and has 216 stars
-- Pharen first developed in <a href="../lists/originCommunities.html#httpGithubComScriptorPharenIssues">http://github.com/scriptor/pharen/issues</a>
-- file extensions for Pharen include phn
-- Pharen compiles to <a href="php.html">PHP</a>
-
-<br>
-
-endColumns
-
-keyboardNav color-basic.html trac.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2009
+ commits 1190
+ committers 17
+ files 58

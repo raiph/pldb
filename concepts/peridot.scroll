@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Peridot
-
-title Peridot - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pegasus-autocode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pl-s-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/peridot.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=peridot" class="material-symbols-outlined">edit</a></div>
-
-* Peridot is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3412 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Peridot MVP
-
-- Peridot first developed in <a href="../lists/originCommunities.html#httpsGithubComEashanhattiPeridotIssues">https://github.com/eashanhatti/peridot/issues</a>
-- Read more about Peridot on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/wjsxwh/peridot_mvp/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav pegasus-autocode.html pl-s-ii.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Peridot
+appeared 2022
+type pl
+conceptDescription Peridot MVP
+reference https://reddit.com/r/ProgrammingLanguages/comments/wjsxwh/peridot_mvp/
+country Unknown
+originCommunity https://github.com/eashanhatti/peridot/issues

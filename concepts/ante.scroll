@@ -1,62 +1,54 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ante
+import ../measures/conceptPage.scroll
+id Ante
+appeared 2015
+type pl
+creators Jake Fecher
+conceptDescription <a href='https://github.com/jfecher/ante'>Ante</a> is a compiled systems language focusing on providing extreme extensibility through the use of a compile-time API. Using such an API, compiler extensions can be created within the program itself, allowing for the addition of a garbage collector, ownership system, type system changes, etc.
+website http://antelang.org
+domainName antelang.org
+ registered 2018
+ awisRank
+  2022 919643
 
-title Ante - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="icd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="praat-script.html">&gt;</a>
+printToken print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ante.pldb
+githubRepo https://github.com/jfecher/ante
+ stars 1420
+ forks 49
+ subscribers 25
+ created 2015
+ updated 2022
+ firstCommit 2015
+ description A safe, easy systems language
+ issues 17
 
-startColumns 4
+repoStats
+ firstCommit 2020
+ commits 1377
+ committers 18
+ files 154
 
-<div class="trueBaseThemeQuickLinks"><a href="http://antelang.org" class="material-symbols-outlined">home</a> <a href="https://riju.codes/ante" class="material-symbols-outlined">terminal</a> <a href="https://github.com/jfecher/ante" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ante" class="material-symbols-outlined">edit</a></div>
+leachim6 Ante
+ filepath a/Ante.ante
+ fileExtensions ante
+ example
+  9♦8♥J♦A♦2♣3♥7♠J♦A♦7♦J♦J♦A♦3♦J♦5♥6♦4♥J♥A♥6♠6♠J♥A♦8♦J♦A♦8♠J♦A♦3♦J♦A♦6♠J♦A♦8♠J♦A♥3♦2♠J♥A♥2♣6♠J♥
+  
 
-* Ante is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Jake Fecher.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#jakeFecher Jake Fecher
+rijuRepl https://riju.codes/ante
+ example
+  print "Hello, world!"
+  
+tryItOnline ante
 
-codeWithHeader Source code:
- git clone https://github.com/jfecher/ante
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #682 <span title="TotalRank: 1257 Jobs: 103 Users: 418 Facts: 736 Links: 986">on PLDB</span>
- 9 Years Old
+isbndb 0
 
-* Try now: <a href="https://riju.codes/ante">Riju</a> · <a href="https://tio.run/#ante">TIO</a>
-
-* <a href='https://github.com/jfecher/ante'>Ante</a> is a compiled systems language focusing on providing extreme extensibility through the use of a compile-time API. Using such an API, compiler extensions can be created within the program itself, allowing for the addition of a garbage collector, ownership system, type system changes, etc.
-
-- Ante website
- http://antelang.org
-- Ante is developed on <a href="https://github.com/jfecher/ante">GitHub</a> and has 1,420 stars
-- <a href="http://antelang.org">antelang.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/ante'>Riju</a>:
- print &quot;Hello, world!&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/a/Ante.ante'>hello-world</a>:
- 9♦8♥J♦A♦2♣3♥7♠J♦A♦7♦J♦J♦A♦3♦J♦5♥6♦4♥J♥A♥6♠6♠J♥A♦8♦J♦A♦8♠J♦A♦3♦J♦A♦6♠J♦A♦8♠J♦A♥3♦2♠J♥A♥2♣6♠J♥
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-keyboardNav icd.html praat-script.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2015|Two Different Points of View through Artificial Intelligence and Vector Autoregressive Models for Ex Post and Ex Ante Forecasting|10.1155/2015/409361|6|2|A. Aydin and S. C. Cavdar|d3b9babba0eb33cc651bcaf78106dcdbfacc2590

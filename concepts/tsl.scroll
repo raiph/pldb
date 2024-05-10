@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TSL
+import ../measures/conceptPage.scroll
+id TSL
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/11933b66576fed418d4c36baf750f01d4cada969
 
-title TSL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1371
 
-html
- <a class="trueBaseThemePreviousItem" href="triroff.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tsql2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tsl" class="material-symbols-outlined">edit</a></div>
-
-* TSL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3252 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- TSL on HOPL
- https://hopl.info/showlanguage.prx?exp=1371
-- Read more about TSL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/11933b66576fed418d4c36baf750f01d4cada969 1.
-
-<br>
-
-endColumns
-
-keyboardNav triroff.html tsql2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

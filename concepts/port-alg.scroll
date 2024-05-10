@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PORT-ALG
+import ../measures/conceptPage.scroll
+id PORT-ALG
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/53c2d575ec135ee9d6be06576bebc7ec118bb85b
+country United States
+originCommunity University of Alabama
 
-title PORT-ALG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3886
 
-html
- <a class="trueBaseThemePreviousItem" href="popsy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="praxis.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/port-alg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=port-alg" class="material-symbols-outlined">edit</a></div>
-
-* PORT-ALG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3948 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- PORT-ALG first developed in <a href="../lists/originCommunities.html#universityOfAlabama">University of Alabama</a>
-- PORT-ALG on HOPL
- https://hopl.info/showlanguage.prx?exp=3886
-- Read more about PORT-ALG on Semantic Scholar: 1.
- https://semanticscholar.org/paper/53c2d575ec135ee9d6be06576bebc7ec118bb85b 1.
-
-<br>
-
-endColumns
-
-keyboardNav popsy.html praxis.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

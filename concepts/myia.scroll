@@ -1,39 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title myia
+import ../measures/conceptPage.scroll
+id myia
+appeared 2017
+type pl
+country Canada
+originCommunity Quebec Artificial Intelligence Institute
 
-title myia - Programming language
- hidden
+githubRepo https://github.com/mila-udem/myia
+ firstCommit 2017
+ stars 449
+ forks 40
+ subscribers 31
+ created 2017
+ updated 2022
+ description Myia prototyping
+ issues 30
 
-html
- <a class="trueBaseThemePreviousItem" href="fractran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="asdf.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 965
+ committers 10
+ files 388
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/myia.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mila-udem/myia" class="material-symbols-outlined">code</a> <a href="/edit.html?id=myia" class="material-symbols-outlined">edit</a></div>
-
-* myia is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/mila-udem/myia
-
-dashboard
- #1283 <span title="TotalRank: 1814 Jobs: 103 Users: 725 Facts: 1669 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Myia prototyping
-
-- myia is developed on <a href="https://github.com/mila-udem/myia">GitHub</a> and has 449 stars
-- myia first developed in <a href="../lists/originCommunities.html#quebecArtificialIntelligenceInstitute">Quebec Artificial Intelligence Institute</a>
-
-<br>
-
-endColumns
-
-keyboardNav fractran.html asdf.html
-
-import ../footer.scroll
+isOpenSource true
+centralPackageRepositoryCount 0

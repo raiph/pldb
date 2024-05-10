@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasClasses.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasComments.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
  // The clob type is similar to blob in that it holds uninterpreted binary data. The difference is that the content is expected to be text, so we use a text notation that’s more readable than Base64.
@@ -19,8 +19,6 @@ codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
  // The string may only contain legal 7-bit ASCII character
 
 * Languages *with* Clobs include <a href="../concepts/ion.html">Ion</a>
-
-* This question asks: Does the language have a specific type for character large object?
 
 * Read more about Clobs on the web: 1.
  https://en.wikipedia.org/wiki/Character_large_object 1.

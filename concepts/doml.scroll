@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DOML
+import ../measures/conceptPage.scroll
+id DOML
+appeared 2017
+type dataNotation
+standsFor Data Oriented Markup Language
+country Australia
+originCommunity https://github.com/DOML-Lang
 
-title DOML - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mech-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="strips.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/doml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/DOML-Lang/DOML" class="material-symbols-outlined">code</a> <a href="/edit.html?id=doml" class="material-symbols-outlined">edit</a></div>
-
-* DOML, aka Data Oriented Markup Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/DOML-Lang/DOML
-
-dashboard
- #879 <span title="TotalRank: 1444 Jobs: 103 Users: 2358 Facts: 355 Links: 986">on PLDB</span>
- 7 Years Old
-
-* The specification document for DOML
-
-- DOML is developed on <a href="https://github.com/DOML-Lang/DOML">GitHub</a> and has 4 stars
-- DOML first developed in <a href="../lists/originCommunities.html#httpsGithubComDomlLang">https://github.com/DOML-Lang</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Version 0.3
  // Construct a new Color
  Test = Color() {
@@ -42,12 +16,12 @@ codeWithHeader Example from the web:
  // Constructors do exist
  // the parameter names are purely for your own merit, they will check if its possible however (will be possible on most systems)
  TheSame = Color::Normalized(r: 1, g: 0.25, b: 0.5) {
-   Name = &quot;Bob&quot;
+   Name = "Bob"
  }
  
  // You can also just declare an object without scoping it
  Other = Color()
- Other.Name = &quot;X&quot;
+ Other.Name = "X"
  
  // You can declare random other values
  MyValue = 2
@@ -62,7 +36,7 @@ codeWithHeader Example from the web:
  // You can declare arrays like
  ArrayObject = []Color {
    ::Normalized(0.95, 0.55, 0.22){
-     Name = &quot;Other&quot;, // Trailing commas are always allowed
+     Name = "Other", // Trailing commas are always allowed
    },
    // You can still do an empty construction
    ::() {
@@ -83,7 +57,7 @@ codeWithHeader Example from the web:
  // You can also declare arrays inside object definitions
  MyTags = Tags() {
    // Note: all have to be of the same type
-   SetTags = [&quot;Hello&quot;, &quot;Other&quot;, &quot;bits&quot;, &quot;bobs&quot;, &quot;kick&quot;]
+   SetTags = ["Hello", "Other", "bits", "bobs", "kick"]
    Name = MyTags.GetTags[0] // And indexing them works like you would think
  }
  
@@ -91,16 +65,26 @@ codeWithHeader Example from the web:
  // Dictionaries within objects can also be created similarly
  MyDictionary = [String : Color] {
    { 
-     &quot;Bob&quot; : Color::Normalized(0.5, 1.2, 3.5) {
-       Name = &quot;Bob&#39;s Color&quot;
+     "Bob" : Color::Normalized(0.5, 1.2, 3.5) {
+       Name = "Bob's Color"
      }
    },
  }
  // No need to keep classes around in this example
  # Deinit all
 
-endColumns
+githubRepo https://github.com/DOML-Lang/DOML
+ firstCommit 2017
+ stars 4
+ forks 1
+ subscribers 2
+ created 2017
+ updated 2021
+ description The specification document for DOML
+ issues 7
 
-keyboardNav mech-lang.html strips.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 117
+ committers 2
+ files 13

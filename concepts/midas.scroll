@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Modified Integration Digital Analog Simulator
+import ../measures/conceptPage.scroll
+id Modified Integration Digital Analog Simulator
+appeared 1963
+type pl
+reference https://www.computer.org/csdl/proceedings/afips/1964/5065/00/50650313.pdf
+reference https://www.semanticscholar.org/paper/MIDAS%3A-how-it-works-and-how-it%27s-worked-Petersen-Sansom/fa3147f8a8062201b9372276cd6005122b6340bd
+reference https://dl.acm.org/doi/pdf/10.1145/1464052.1464078
+standsFor Modified Integration Digital Analog Simulator
+country United States
+originCommunity Wright-Patterson Air Force Base
 
-title Modified Integration Digital Analog Simulator - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=439
 
-html
- <a class="trueBaseThemePreviousItem" href="mcleyvier-command-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="opp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/midas.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=midas" class="material-symbols-outlined">edit</a></div>
-
-* Modified Integration Digital Analog Simulator, aka Modified Integration Digital Analog Simulator, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3033 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- Modified Integration Digital Analog Simulator first developed in <a href="../lists/originCommunities.html#wrightPattersonAirForceBase">Wright-Patterson Air Force Base</a>
-- Modified Integration Digital Analog Simulator on HOPL
- https://hopl.info/showlanguage.prx?exp=439
-- Read more about Modified Integration Digital Analog Simulator on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/MIDAS%3A-how-it-works-and-how-it%27s-worked-Petersen-Sansom/fa3147f8a8062201b9372276cd6005122b6340bd 1.
-- Read more about Modified Integration Digital Analog Simulator on the web: 1. 2.
- https://www.computer.org/csdl/proceedings/afips/1964/5065/00/50650313.pdf 1.
- https://dl.acm.org/doi/pdf/10.1145/1464052.1464078 2.
-
-<br>
-
-endColumns
-
-keyboardNav mcleyvier-command-language.html opp.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

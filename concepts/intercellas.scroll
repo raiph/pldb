@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title INTERCELLAS
+import ../measures/conceptPage.scroll
+id INTERCELLAS
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/88deb6145eec7b747cd2b2aa7e7658f5b191f0ef
+country Hungary
+originCommunity Hungarian Academy Of Sciences
 
-title INTERCELLAS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5819
 
-html
- <a class="trueBaseThemePreviousItem" href="inscan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="intercons.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/intercellas.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=intercellas" class="material-symbols-outlined">edit</a></div>
-
-* INTERCELLAS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3739 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- INTERCELLAS first developed in <a href="../lists/originCommunities.html#hungarianAcademyOfSciences">Hungarian Academy Of Sciences</a>
-- INTERCELLAS on HOPL
- https://hopl.info/showlanguage.prx?exp=5819
-- Read more about INTERCELLAS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/88deb6145eec7b747cd2b2aa7e7658f5b191f0ef 1.
-
-<br>
-
-endColumns
-
-keyboardNav inscan.html intercons.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

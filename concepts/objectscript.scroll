@@ -1,50 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ObjectScript
+import ../measures/conceptPage.scroll
+id ObjectScript
+appeared 2012
+type pl
+creators unitpoint
+website http://objectscript.org
+reference https://www.codeproject.com/Articles/466907/%2FArticles%2F466907%2FObjectScript-A-new-programming-language
+country Russia
+originCommunity https://github.com/unitpoint/objectscript/issues
 
-title ObjectScript - Programming language
- hidden
+githubRepo https://github.com/unitpoint/objectscript
+ firstCommit 2012
+ stars 66
+ forks 18
+ subscribers 12
+ created 2012
+ updated 2022
+ description ObjectScript, OS for short, is a new programming language. It's free, cross-platform, lightweight, embeddable and open-source. It combines the benefits of multiple languages, including: JavaScript, Lua, Ruby, Python and PHP. OS features the syntax of Javascripts, the "multiple results" feature from lua, syntactic shugar from Ruby as well as magic methods from PHP and Ruby - and even more!
+ issues 9
 
-html
- <a class="trueBaseThemePreviousItem" href="homa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cache-objectscript.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 618
+ committers 14
+ files 1224
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/objectscript.pldb
+githubLanguage ObjectScript
+ type programming
+ fileExtensions cls
+ aceMode text
+ tmScope source.objectscript
+ repos 1054
+githubBigQuery ObjectScript
+ repos 13
+ users 11
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=8615
 
-<div class="trueBaseThemeQuickLinks"><a href="http://objectscript.org" class="material-symbols-outlined">home</a> <a href="https://github.com/unitpoint/objectscript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=objectscript" class="material-symbols-outlined">edit</a></div>
-
-* ObjectScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by unitpoint.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#unitpoint unitpoint
-
-codeWithHeader Source code:
- git clone https://github.com/unitpoint/objectscript
-
-dashboard
- #1601 <span title="TotalRank: 2121 Jobs: 103 Users: 1376 Facts: 1032 Links: 986">on PLDB</span>
- 12 Years Old
- 1k <span title="ObjectScript repos on GitHub.">Repos</span>
-
-* ObjectScript, OS for short, is a new programming language. It's free, cross-platform, lightweight, embeddable and open-source. It combines the benefits of multiple languages, including: JavaScript, Lua, Ruby, Python and PHP. OS features the syntax of Javascripts, the "multiple results" feature from lua, syntactic shugar from Ruby as well as magic methods from PHP and Ruby - and even more!
-
-- ObjectScript website
- http://objectscript.org
-- ObjectScript is developed on <a href="https://github.com/unitpoint/objectscript">GitHub</a> and has 66 stars
-- There are at least 1,054 ObjectScript repos on <a href="https://github.com/search?q=language:ObjectScript">GitHub</a>
-- ObjectScript first developed in <a href="../lists/originCommunities.html#httpsGithubComUnitpointObjectscriptIssues">https://github.com/unitpoint/objectscript/issues</a>
-- file extensions for ObjectScript include cls
-- The  Google BigQuery Public Dataset GitHub snapshot shows 11 users using ObjectScript in 13 repos on <a href="https://api.github.com/search/repositories?q=language:ObjectScript">GitHub</a>
-- ObjectScript on HOPL
- https://hopl.info/showlanguage.prx?exp=8615
-- Read more about ObjectScript on the web: 1.
- https://www.codeproject.com/Articles/466907/%2FArticles%2F466907%2FObjectScript-A-new-programming-language 1.
-
-<br>
-
-endColumns
-
-keyboardNav homa.html cache-objectscript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

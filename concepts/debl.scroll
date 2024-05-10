@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DEBL
+import ../measures/conceptPage.scroll
+id DEBL
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/6155a509ed45841d2568e042ea74060e8d0495ef
+country United States
+originCommunity Kansas State University
 
-title DEBL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6859
 
-html
- <a class="trueBaseThemePreviousItem" href="damn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="declare.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/debl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=debl" class="material-symbols-outlined">edit</a></div>
-
-* DEBL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4115 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- DEBL first developed in <a href="../lists/originCommunities.html#kansasStateUniversity">Kansas State University</a>
-- DEBL on HOPL
- https://hopl.info/showlanguage.prx?exp=6859
-- Read more about DEBL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6155a509ed45841d2568e042ea74060e8d0495ef 1.
-
-<br>
-
-endColumns
-
-keyboardNav damn.html declare.html
-
-import ../footer.scroll
+isbndb 0

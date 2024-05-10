@@ -1,41 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Liso
+import ../measures/conceptPage.scroll
+id Liso
+appeared 2014
+type dataNotation
+creators Olivier Breuleux
+conceptDescription Implemention of O-Expressions idea in Racket.
+website http://breuleux.net/blog/liso.html
+reference http://breuleux.net/blog/oexprs.html
+aka o-expressions
+country Canada
+originCommunity https://github.com/breuleux/liso/issues
 
-title Liso - Data notation
- hidden
+compilesTo s-expressions
+writtenIn racket
 
-html
- <a class="trueBaseThemePreviousItem" href="lazy-k.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fishlang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/liso.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://breuleux.net/blog/liso.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=liso" class="material-symbols-outlined">edit</a></div>
-
-* Liso is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2014 by Olivier Breuleux.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#olivierBreuleux Olivier Breuleux
-
-dashboard
- #2097 <span title="TotalRank: 2591 Jobs: 103 Users: 2442 Facts: 1502 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Implemention of O-Expressions idea in Racket.
-
-- Liso website
- http://breuleux.net/blog/liso.html
-- Liso first developed in <a href="../lists/originCommunities.html#httpsGithubComBreuleuxLisoIssues">https://github.com/breuleux/liso/issues</a>
-- Liso compiles to <a href="s-expressions.html">S-expressions</a>
-- Liso is written in <a href="racket.html">Racket</a>
-- Read more about Liso on the web: 1.
- http://breuleux.net/blog/oexprs.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  @varsrec
        odd?[n] =
           @if n == 0:
@@ -46,9 +24,3 @@ codeWithHeader Example from the web:
              #t
              odd?[n - 1]:
     even?[30]
-
-endColumns
-
-keyboardNav lazy-k.html fishlang.html
-
-import ../footer.scroll

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GLU
+import ../measures/conceptPage.scroll
+id GLU
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/8619e5f2e2df5be9f7c6ac02915050a56902c8a5
+country United States
+originCommunity SRI International
 
-title GLU - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2685
 
-html
- <a class="trueBaseThemePreviousItem" href="glide.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glue-nail.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/glu.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=glu" class="material-symbols-outlined">edit</a></div>
-
-* GLU is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3695 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- GLU first developed in <a href="../lists/originCommunities.html#sriInternational">SRI International</a>
-- GLU on HOPL
- https://hopl.info/showlanguage.prx?exp=2685
-- Read more about GLU on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8619e5f2e2df5be9f7c6ac02915050a56902c8a5 1.
-
-<br>
-
-endColumns
-
-keyboardNav glide.html glue-nail.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

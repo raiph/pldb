@@ -1,48 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title shill
+import ../measures/conceptPage.scroll
+id shill
+appeared 2014
+type pl
+website http://shill-lang.org
+country United States
+originCommunity Harvard University
+domainName shill-lang.org
+ registered 2014
 
-title shill - Programming language
- hidden
+githubRepo https://github.com/HarvardPL/shill
 
-html
- <a class="trueBaseThemePreviousItem" href="squiggle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clox.html">&gt;</a>
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 8365300|Shill: A Secure Shell Scripting Language|http://shill-lang.org|2014-09-25 02:44:26 UTC|1411613066|thinkmoore|43|85
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/shill.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://shill-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/HarvardPL/shill" class="material-symbols-outlined">code</a> <a href="/edit.html?id=shill" class="material-symbols-outlined">edit</a></div>
-
-* shill is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/HarvardPL/shill
-
-dashboard
- #2745 <span title="TotalRank: 3504 Jobs: 103 Users: 2415 Facts: 2552 Links: 986">on PLDB</span>
- 10 Years Old
-
-* 
-
-- shill website
- http://shill-lang.org
-- shill is developed on <a href="https://github.com/HarvardPL/shill">GitHub</a>
-- shill first developed in <a href="../lists/originCommunities.html#harvardUniversity">Harvard University</a>
-- <a href="http://shill-lang.org">shill-lang.org</a> was registered in 2014
-
-<br>
-
-endColumns
-
-## HackerNews discussions of shill
-
-pipeTable
- title|titleLink|date|score|comments
- Shill: A Secure Shell Scripting Language|https://news.ycombinator.com/item?id=8365300|09/25/2014|85|43
-
-keyboardNav squiggle.html clox.html
-
-import ../footer.scroll
+isbndb 0

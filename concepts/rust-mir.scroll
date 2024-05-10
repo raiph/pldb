@@ -1,88 +1,71 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Rust MIR
+import ../measures/conceptPage.scroll
+id Rust MIR
+appeared 2016
+type ir
+website https://www.rust-lang.org
+webRepl https://play.rust-lang.org/
+documentation https://blog.rust-lang.org/2016/04/19/MIR.html
+reference https://rustc-dev-guide.rust-lang.org/hir.html
+reference https://blog.rust-lang.org/2016/04/19/MIR.html
+standsFor Rust Mid-level Intermediate Representation
+country Various
+originCommunity https://github.com/rust-lang
+domainName rust-lang.org
+ registered 2010
+ awisRank
+  2022 10763
 
-title Rust MIR - Intermediate representation language
- hidden
+compilesTo llvmir
+relatedConcepts swift-il
 
-html
- <a class="trueBaseThemePreviousItem" href="dockerfile.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chaiscript.html">&gt;</a>
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rust-mir.pldb
+lineCommentToken //
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.rust-lang.org" class="material-symbols-outlined">home</a> <a href="https://play.rust-lang.org/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/rust-lang/rust/tree/master/src/librustc_mir" class="material-symbols-outlined">code</a> <a href="https://blog.rust-lang.org/2016/04/19/MIR.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=rust-mir" class="material-symbols-outlined">edit</a></div>
-
-* Rust MIR, aka Rust Mid-level Intermediate Representation, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/rust-lang/rust/tree/master/src/librustc_mir
-
-dashboard
- #573 <span title="TotalRank: 1140 Jobs: 103 Users: 2442 Facts: 370 Links: 667">on PLDB</span>
- 8 Years Old
-
-* Try now: <a href="https://play.rust-lang.org/">Web</a>
-
-* 
-
-- Rust MIR website
- https://www.rust-lang.org
-- Rust MIR docs
- https://blog.rust-lang.org/2016/04/19/MIR.html
-- Rust MIR first developed in <a href="../lists/originCommunities.html#httpsGithubComRustLang">https://github.com/rust-lang</a>
-- Rust MIR compiles to <a href="llvmir.html">LLVM IR</a>
-- <a href="https://www.rust-lang.org">rust-lang.org</a> was registered in 2010
-- See also: (1 related languages)<a href="swift-il.html">SIL</a>
-- Read more about Rust MIR on the web: 1. 2.
- https://rustc-dev-guide.rust-lang.org/hir.html 1.
- https://blog.rust-lang.org/2016/04/19/MIR.html 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // WARNING: This output format is intended for human consumers only
  // and is subject to change without notice. Knock yourself out.
- fn main() -&gt; () {
+ fn main() -> () {
      let mut _0: ();                      // return place in scope 0 at src/main.rs:1:11: 1:11
-     let mut _1: std::vec::Vec&lt;i32&gt;;      // in scope 0 at src/main.rs:2:9: 2:16
+     let mut _1: std::vec::Vec<i32>;      // in scope 0 at src/main.rs:2:9: 2:16
      let _2: ();                          // in scope 0 at src/main.rs:3:5: 3:16
-     let mut _3: &amp;mut std::vec::Vec&lt;i32&gt;; // in scope 0 at src/main.rs:3:5: 3:16
+     let mut _3: &mut std::vec::Vec<i32>; // in scope 0 at src/main.rs:3:5: 3:16
      let _4: ();                          // in scope 0 at src/main.rs:4:5: 4:16
-     let mut _5: &amp;mut std::vec::Vec&lt;i32&gt;; // in scope 0 at src/main.rs:4:5: 4:16
+     let mut _5: &mut std::vec::Vec<i32>; // in scope 0 at src/main.rs:4:5: 4:16
      scope 1 {
-         debug vec =&gt; _1;                 // in scope 1 at src/main.rs:2:9: 2:16
+         debug vec => _1;                 // in scope 1 at src/main.rs:2:9: 2:16
      }
  
      bb0: {
-         _1 = Vec::&lt;i32&gt;::new() -&gt; bb1;   // scope 0 at src/main.rs:2:19: 2:29
+         _1 = Vec::<i32>::new() -> bb1;   // scope 0 at src/main.rs:2:19: 2:29
                                           // mir::Constant
                                           // + span: src/main.rs:2:19: 2:27
                                           // + user_ty: UserType(0)
-                                          // + literal: Const { ty: fn() -&gt; Vec&lt;i32&gt; {Vec::&lt;i32&gt;::new}, val: Value(Scalar(&lt;ZST&gt;)) }
+                                          // + literal: Const { ty: fn() -> Vec<i32> {Vec::<i32>::new}, val: Value(Scalar(<ZST>)) }
      }
  
      bb1: {
-         _3 = &amp;mut _1;                    // scope 1 at src/main.rs:3:5: 3:16
-         _2 = Vec::&lt;i32&gt;::push(move _3, const 1_i32) -&gt; [return: bb2, unwind: bb5]; // scope 1 at src/main.rs:3:5: 3:16
+         _3 = &mut _1;                    // scope 1 at src/main.rs:3:5: 3:16
+         _2 = Vec::<i32>::push(move _3, const 1_i32) -> [return: bb2, unwind: bb5]; // scope 1 at src/main.rs:3:5: 3:16
                                           // mir::Constant
                                           // + span: src/main.rs:3:9: 3:13
-                                          // + literal: Const { ty: for&lt;&#39;r&gt; fn(&amp;&#39;r mut Vec&lt;i32&gt;, i32) {Vec::&lt;i32&gt;::push}, val: Value( Scalar(&lt;ZST&gt;)) }
+                                          // + literal: Const { ty: for<'r> fn(&'r mut Vec<i32>, i32) {Vec::<i32>::push}, val: Value( Scalar(<ZST>)) }
      }
  
      bb2: {
-         _5 = &amp;mut _1;                    // scope 1 at src/main.rs:4:5: 4:16
-         _4 = Vec::&lt;i32&gt;::push(move _5, const 2_i32) -&gt; [return: bb3, unwind: bb5]; // scope 1 at src/main.rs:4:5: 4:16
+         _5 = &mut _1;                    // scope 1 at src/main.rs:4:5: 4:16
+         _4 = Vec::<i32>::push(move _5, const 2_i32) -> [return: bb3, unwind: bb5]; // scope 1 at src/main.rs:4:5: 4:16
                                           // mir::Constant
                                           // + span: src/main.rs:4:9: 4:13
-                                          // + literal: Const { ty: for&lt;&#39;r&gt; fn(&amp;&#39;r mut Vec&lt;i32&gt;, i32) {Vec::&lt;i32&gt;::push}, val: Value( Scalar(&lt;ZST&gt;)) }
+                                          // + literal: Const { ty: for<'r> fn(&'r mut Vec<i32>, i32) {Vec::<i32>::push}, val: Value( Scalar(<ZST>)) }
      }
  
      bb3: {
-         drop(_1) -&gt; bb4;                 // scope 0 at src/main.rs:5:1: 5:2
+         drop(_1) -> bb4;                 // scope 0 at src/main.rs:5:1: 5:2
      }
  
      bb4: {
@@ -90,7 +73,7 @@ codeWithHeader Example from the web:
      }
  
      bb5 (cleanup): {
-         drop(_1) -&gt; bb6;                 // scope 0 at src/main.rs:5:1: 5:2
+         drop(_1) -> bb6;                 // scope 0 at src/main.rs:5:1: 5:2
      }
  
      bb6 (cleanup): {
@@ -98,32 +81,12 @@ codeWithHeader Example from the web:
      }
  }
 
-endColumns
+gitRepo https://github.com/rust-lang/rust/tree/master/src/librustc_mir
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isbndb 0
 
-keyboardNav dockerfile.html chaiscript.html
-
-import ../footer.scroll
+semanticScholar 0

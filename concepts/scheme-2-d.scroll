@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Scheme 2-D
+import ../measures/conceptPage.scroll
+id Scheme 2-D
+appeared 2021
+type pl
+creators elucent
+conceptDescription Introducing the future of Scheme...take your S-expressions to the next level with Scheme 2-D!
+reference https://reddit.com/r/ProgrammingLanguages/comments/ntr4l5/introducing_the_future_of_schemetake_your/
+country United States
+originCommunity https://github.com/elucent/scheme2d/issues
 
-title Scheme 2-D - Programming language
- hidden
+githubRepo https://github.com/elucent/scheme2d
+ firstCommit 2021
+ stars 68
+ forks 2
+ subscribers 2
+ created 2021
+ updated 2022
+ description The future of programming.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="fork-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snowball-programming-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scheme-2-d.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/elucent/scheme2d" class="material-symbols-outlined">code</a> <a href="/edit.html?id=scheme-2-d" class="material-symbols-outlined">edit</a></div>
-
-* Scheme 2-D is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by elucent.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#elucent elucent
-
-codeWithHeader Source code:
- git clone https://github.com/elucent/scheme2d
-
-dashboard
- #2160 <span title="TotalRank: 2680 Jobs: 103 Users: 1610 Facts: 1591 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Introducing the future of Scheme...take your S-expressions to the next level with Scheme 2-D!
-
-- Scheme 2-D is developed on <a href="https://github.com/elucent/scheme2d">GitHub</a> and has 68 stars
-- Scheme 2-D first developed in <a href="../lists/originCommunities.html#httpsGithubComElucentScheme2DIssues">https://github.com/elucent/scheme2d/issues</a>
-- Read more about Scheme 2-D on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/ntr4l5/introducing_the_future_of_schemetake_your/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav fork-lang.html snowball-programming-language.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 1
+ committers 1
+ files 6

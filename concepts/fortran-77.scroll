@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORTRAN 77
+import ../measures/conceptPage.scroll
+id FORTRAN 77
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/1b67ac6722bc65c2cae0dc2c255386f395d28437
+country United States
+originCommunity Amoco Research Center
 
-title FORTRAN 77 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=807
 
-html
- <a class="trueBaseThemePreviousItem" href="cdl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortran-77.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fortran-77" class="material-symbols-outlined">edit</a></div>
-
-* FORTRAN 77 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #2999 <span title="TotalRank: 3608 Jobs: 103 Users: 2838 Facts: 3284 Links: 667">on PLDB</span>
- 47 Years Old
-
-* 
-
-- FORTRAN 77 first developed in <a href="../lists/originCommunities.html#amocoResearchCenter">Amoco Research Center</a>
-- FORTRAN 77 on HOPL
- https://hopl.info/showlanguage.prx?exp=807
-- Read more about FORTRAN 77 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1b67ac6722bc65c2cae0dc2c255386f395d28437 1.
-
-<br>
-
-endColumns
-
-keyboardNav cdl.html snit.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

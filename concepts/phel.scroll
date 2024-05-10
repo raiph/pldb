@@ -1,51 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Phel
+import ../measures/conceptPage.scroll
+id Phel
+appeared 2020
+type pl
+creators Jens Haase
+website https://phel-lang.org/
+country United States
+originCommunity https://github.com/phel-lang
+domainName phel-lang.org
+ registered 2020
 
-title Phel - Programming language
- hidden
+compilesTo php
 
-html
- <a class="trueBaseThemePreviousItem" href="axiom-computer-algebra-system.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="micro-cpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/phel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://phel-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/phel-lang/phel-lang" class="material-symbols-outlined">code</a> <a href="https://twitter.com/phel_lang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=phel" class="material-symbols-outlined">edit</a></div>
-
-* Phel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Jens Haase.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#jensHaase Jens Haase
-
-codeWithHeader Source code:
- git clone https://github.com/phel-lang/phel-lang
-
-dashboard
- #1537 <span title="TotalRank: 2053 Jobs: 103 Users: 964 Facts: 1123 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Phel is a functional programming language that compiles to PHP. It is a dialect of Lisp inspired by Clojure and Janet.
-
-- Phel website
- https://phel-lang.org/
-- Phel is developed on <a href="https://github.com/phel-lang/phel-lang">GitHub</a> and has 271 stars
-- Phel first developed in <a href="../lists/originCommunities.html#httpsGithubComPhelLang">https://github.com/phel-lang</a>
-- Phel compiles to <a href="php.html">PHP</a>
-- Phel on Twitter
- https://twitter.com/phel_lang
-- <a href="https://phel-lang.org/">phel-lang.org</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from the web:
+example
   (ns hello-world\boot)
  
-  (println &quot;Hello, World!&quot;)
+  (println "Hello, World!")
 
-endColumns
+githubRepo https://github.com/phel-lang/phel-lang
+ firstCommit 2020
+ stars 271
+ forks 10
+ subscribers 8
+ created 2020
+ updated 2022
+ description Phel is a functional programming language that compiles to PHP. It is a dialect of Lisp inspired by Clojure and Janet.
+ issues 16
 
-keyboardNav axiom-computer-algebra-system.html micro-cpp.html
+repoStats
+ firstCommit 2020
+ commits 1888
+ committers 19
+ files 795
 
-import ../footer.scroll
+twitter https://twitter.com/phel_lang
+
+semanticScholar 0

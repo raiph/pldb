@@ -1,52 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title G-Portugol
+import ../measures/conceptPage.scroll
+id G-Portugol
+appeared 2005
+type pl
+creators Thiago Silva
+reference https://pt.wikipedia.org/wiki/G-Portugol
+country Portugal
+originCommunity https://sourceforge.net/projects/gpt.berlios
 
-title G-Portugol - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="devicetree.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nimrod.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/g-portugol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/rafaelgou/gpt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=g-portugol" class="material-symbols-outlined">edit</a></div>
-
-* G-Portugol is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005 by Thiago Silva.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
- link ../lists/creators.html#thiagoSilva Thiago Silva
-
-codeWithHeader Source code:
- git clone https://github.com/rafaelgou/gpt
-
-dashboard
- #2032 <span title="TotalRank: 2539 Jobs: 103 Users: 2442 Facts: 1450 Links: 986">on PLDB</span>
- 19 Years Old
-
-* 
-
-- G-Portugol is developed on <a href="https://github.com/rafaelgou/gpt">GitHub</a>
-- G-Portugol first developed in <a href="../lists/originCommunities.html#httpsSourceforgeNetProjectsGptBerlios">https://sourceforge.net/projects/gpt.berlios</a>
-- G-Portugol Ubuntu package
- https://packages.ubuntu.com/jammy/gpt
-- G-Portugol appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- Read more about G-Portugol on the web: 1.
- https://pt.wikipedia.org/wiki/G-Portugol 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  algoritmo OlaMundo;
  
  início
-    imprima(&quot;Olá, Mundo!&quot;);
+    imprima("Olá, Mundo!");
  fim 
 
-endColumns
+githubRepo https://github.com/rafaelgou/gpt
 
-keyboardNav devicetree.html nimrod.html
+repoStats
+ firstCommit 2013
+ commits 3
+ committers 2
+ files 86
 
-import ../footer.scroll
+quineRelay G-Portugol
+
+ubuntuPackage gpt
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

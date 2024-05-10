@@ -1,49 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title htmx
+import ../measures/conceptPage.scroll
+id htmx
+appeared 2020
+type template
+conceptDescription htmx gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
+website https://htmx.org/
+country United States
+originCommunity https://github.com/bigskysoftware/
+domainName htmx.org
+ registered 2020
+ awisRank
+  2022 212885
 
-title htmx - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="blitzmax.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tiddlywiki.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/htmx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://htmx.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/bigskysoftware/htmx" class="material-symbols-outlined">code</a> <a href="/edit.html?id=htmx" class="material-symbols-outlined">edit</a></div>
-
-* htmx is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/bigskysoftware/htmx
-
-dashboard
- #640 <span title="TotalRank: 1223 Jobs: 103 Users: 134 Facts: 1092 Links: 986">on PLDB</span>
- 4 Years Old
-
-* htmx gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
-
-- htmx website
- https://htmx.org/
-- htmx is developed on <a href="https://github.com/bigskysoftware/htmx">GitHub</a> and has 7,059 stars
-- htmx first developed in <a href="../lists/originCommunities.html#httpsGithubComBigskysoftware">https://github.com/bigskysoftware/</a>
-- <a href="https://htmx.org/">htmx.org</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;script src=&quot;https://unpkg.com/htmx.org@1.7.0&quot;&gt;&lt;/script&gt;
- &lt;!-- have a button POST a click via AJAX --&gt;
- &lt;button hx-post=&quot;/clicked&quot; hx-swap=&quot;outerHTML&quot;&gt;
+example
+ <script src="https://unpkg.com/htmx.org@1.7.0"></script>
+ <!-- have a button POST a click via AJAX -->
+ <button hx-post="/clicked" hx-swap="outerHTML">
    Click Me
- &lt;/button&gt;
+ </button>
 
-endColumns
+githubRepo https://github.com/bigskysoftware/htmx
+ firstCommit 2020
+ stars 7059
+ forks 274
+ subscribers 75
+ created 2020
+ updated 2022
+ description </> htmx - high power tools for HTML
+ issues 114
 
-keyboardNav blitzmax.html tiddlywiki.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 2275
+ committers 206
+ files 5166

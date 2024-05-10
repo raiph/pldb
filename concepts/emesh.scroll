@@ -1,45 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title emesh
+import ../measures/conceptPage.scroll
+id emesh
+appeared 2014
+type esolang
+country Israel
+originCommunity https://github.com/mohawkgroup
 
-title emesh - Esoteric programming language
- hidden
+githubRepo https://github.com/Alexander-0x80/Emesh
+ firstCommit 2014
+ stars 11
+ forks 1
+ subscribers 1
+ created 2014
+ updated 2016
+ description Toy programming language written in javascript
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="lezer.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flownote.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 20
+ committers 1
+ files 16
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emesh.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 8594742|Show HN: I have written a toy language in JavaScript|2014-11-12 10:19:23 UTC|1415787563|rootdiver|2|10
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Alexander-0x80/Emesh" class="material-symbols-outlined">code</a> <a href="/edit.html?id=emesh" class="material-symbols-outlined">edit</a></div>
-
-* emesh is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/Alexander-0x80/Emesh
-
-dashboard
- #2088 <span title="TotalRank: 2591 Jobs: 103 Users: 2267 Facts: 1502 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Toy programming language written in javascript
-
-- emesh is developed on <a href="https://github.com/Alexander-0x80/Emesh">GitHub</a> and has 11 stars
-- emesh first developed in <a href="../lists/originCommunities.html#httpsGithubComMohawkgroup">https://github.com/mohawkgroup</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of emesh
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: I have written a toy language in JavaScript|https://news.ycombinator.com/item?id=8594742|11/12/2014|10|2
-
-keyboardNav lezer.html flownote.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Etude
+import ../measures/conceptPage.scroll
+id Etude
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/9b252dd0d831f73359ce3f1d0030c625e0652eb7
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title Etude - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7571
 
-html
- <a class="trueBaseThemePreviousItem" href="errol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/etude.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=etude" class="material-symbols-outlined">edit</a></div>
-
-* Etude is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3659 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- Etude first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- Etude on HOPL
- https://hopl.info/showlanguage.prx?exp=7571
-- Read more about Etude on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9b252dd0d831f73359ce3f1d0030c625e0652eb7 1.
-
-<br>
-
-endColumns
-
-keyboardNav errol.html fac.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

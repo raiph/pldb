@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PACOL
+import ../measures/conceptPage.scroll
+id PACOL
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/b517ba4cb6cf0e9ed5fc910e1bafe63e8605d731
+country United States
+originCommunity University of Illinois at Urbana-Champaign
 
-title PACOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5884
 
-html
- <a class="trueBaseThemePreviousItem" href="p3l.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="padl-1.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pacol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pacol" class="material-symbols-outlined">edit</a></div>
-
-* PACOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3904 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- PACOL first developed in <a href="../lists/originCommunities.html#universityOfIllinoisAtUrbanaChampaign">University of Illinois at Urbana-Champaign</a>
-- PACOL on HOPL
- https://hopl.info/showlanguage.prx?exp=5884
-- Read more about PACOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b517ba4cb6cf0e9ed5fc910e1bafe63e8605d731 1.
-
-<br>
-
-endColumns
-
-keyboardNav p3l.html padl-1.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

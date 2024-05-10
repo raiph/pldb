@@ -1,62 +1,43 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Topaz
+import ../measures/conceptPage.scroll
+id Topaz
+appeared 2021
+type pl
+creators m-schm
+website https://github.com/m-schm/topaz
+country Unknown
 
-title Topaz - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="alpaca.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sublime-syntax-test.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/topaz-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/m-schm/topaz" class="material-symbols-outlined">home</a> <a href="https://github.com/m-schm/topaz" class="material-symbols-outlined">code</a> <a href="/edit.html?id=topaz-lang" class="material-symbols-outlined">edit</a></div>
-
-* Topaz is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by m-schm.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#mSchm m-schm
-
-codeWithHeader Source code:
- git clone https://github.com/m-schm/topaz
-
-dashboard
- #1460 <span title="TotalRank: 1980 Jobs: 103 Users: 2415 Facts: 891 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Dependently typed language that compiles to JavaScript
-
-- Topaz website
- https://github.com/m-schm/topaz
-- Topaz is developed on <a href="https://github.com/m-schm/topaz">GitHub</a> and has 0 stars
-- Topaz compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ;; This is a comment
  ;; `Ven n a` represents lists that are `n` long, that contain `a`s
  ;; A Vec is either:
  type Vec (n: Uint) (a: Type) =
    ;; empty, with length 0...
-   Nil: {a} -&gt; Vec 0 a
+   Nil: {a} -> Vec 0 a
    ;; or 1 item longer than a Vec of length n.
-   `::`: {n a} -&gt; a -&gt; Vec n a -&gt; Vec (n+1) a
+   `::`: {n a} -> a -> Vec n a -> Vec (n+1) a
  ;; `zip` should take two lists and return a list of pairs.
  ;; The two lists are required to be the same length because `n` is the same for
  ;; both parameters.
  let zip {n a b} (left: Vec n a) (right: Vec n b): Vec n (a, b) =
    match left, right in
      ;; Either both lists are empty...
-     Nil,     Nil     =&gt; Nil
+     Nil,     Nil     => Nil
      ;; or they both contain at least one item.
-     x :: xs, y :: ys =&gt; (x, y) :: zip xs ys
+     x :: xs, y :: ys => (x, y) :: zip xs ys
      ;; No other cases are needed, because the lists are the same length!
 
-endColumns
+githubRepo https://github.com/m-schm/topaz
+ stars 0
+ forks 0
+ subscribers 1
+ created 2021
+ updated 2021
+ description Dependently typed language that compiles to JavaScript
 
-keyboardNav alpaca.html sublime-syntax-test.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 78
+ committers 1
+ files 27

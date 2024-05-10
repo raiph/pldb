@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Leopard
+import ../measures/conceptPage.scroll
+id Leopard
+appeared 2007
+type pl
+reference https://github.com/MajickTek/Leopard
+country Unknown
+originCommunity https://github.com/MajickTek
 
-title Leopard - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8593
 
-html
- <a class="trueBaseThemePreviousItem" href="leogo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lgdf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/leopard.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=leopard" class="material-symbols-outlined">edit</a></div>
-
-* Leopard is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3781 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- Leopard first developed in <a href="../lists/originCommunities.html#httpsGithubComMajickTek">https://github.com/MajickTek</a>
-- Leopard on HOPL
- https://hopl.info/showlanguage.prx?exp=8593
-- Read more about Leopard on the web: 1.
- https://github.com/MajickTek/Leopard 1.
-
-<br>
-
-endColumns
-
-keyboardNav leogo.html lgdf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

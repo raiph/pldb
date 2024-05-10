@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title microTAL
+import ../measures/conceptPage.scroll
+id microTAL
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/f3814441341f11959be4dace48c4f4a86bdbf816
+country United States
+originCommunity Tandem Computers Inc
 
-title microTAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=963
 
-html
- <a class="trueBaseThemePreviousItem" href="microdare.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mike.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microtal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microtal" class="material-symbols-outlined">edit</a></div>
-
-* microTAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3828 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- microTAL first developed in <a href="../lists/originCommunities.html#tandemComputersInc">Tandem Computers Inc</a>
-- microTAL on HOPL
- https://hopl.info/showlanguage.prx?exp=963
-- Read more about microTAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f3814441341f11959be4dace48c4f4a86bdbf816 1.
-
-<br>
-
-endColumns
-
-keyboardNav microdare.html mike.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

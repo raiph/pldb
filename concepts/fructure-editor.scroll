@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title fructure-editor
+import ../measures/conceptPage.scroll
+id fructure-editor
+appeared 2017
+type pl
+website https://fructure-editor.tumblr.com/
+country United States and United Kingdom
+originCommunity https://github.com/disconcision/fructure/graphs/contributors
 
-title fructure-editor - Programming language
- hidden
+githubRepo https://github.com/disconcision/fructure
+ firstCommit 2017
+ stars 354
+ forks 6
+ subscribers 9
+ created 2017
+ updated 2022
+ description a structured interaction engine 🗜️ ⚗️
+ issues 16
 
-html
- <a class="trueBaseThemePreviousItem" href="synapse.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lispworks.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fructure-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://fructure-editor.tumblr.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/disconcision/fructure" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fructure-editor" class="material-symbols-outlined">edit</a></div>
-
-* fructure-editor is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/disconcision/fructure
-
-dashboard
- #1440 <span title="TotalRank: 1971 Jobs: 103 Users: 882 Facts: 1787 Links: 986">on PLDB</span>
- 7 Years Old
-
-* a structured interaction engine 🗜️ ⚗️
-
-- fructure-editor website
- https://fructure-editor.tumblr.com/
-- fructure-editor is developed on <a href="https://github.com/disconcision/fructure">GitHub</a> and has 354 stars
-- fructure-editor first developed in <a href="../lists/originCommunities.html#httpsGithubComDisconcisionFructureGraphsContributors">https://github.com/disconcision/fructure/graphs/contributors</a>
-
-<br>
-
-endColumns
-
-keyboardNav synapse.html lispworks.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 310
+ committers 6
+ files 107

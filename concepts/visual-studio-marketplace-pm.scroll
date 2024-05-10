@@ -1,36 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Visual Studio Marketplace
+import ../measures/conceptPage.scroll
+id Visual Studio Marketplace
+appeared 2015
+type packageManager
+website https://marketplace.visualstudio.com/
+domainName marketplace.visualstudio.com
 
-title Visual Studio Marketplace - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="vim-scripts-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="yinyang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visual-studio-marketplace-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://marketplace.visualstudio.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=visual-studio-marketplace-pm" class="material-symbols-outlined">edit</a></div>
-
-* Visual Studio Marketplace is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3291 on PLDB
- 9 Years Old
-
-* 
-
-- Visual Studio Marketplace website
- https://marketplace.visualstudio.com/
-
-<br>
-
-endColumns
-
-keyboardNav vim-scripts-pm.html yinyang.html
-
-import ../footer.scroll
+packageCount 9756
+forLanguages visual-studio-code-editor

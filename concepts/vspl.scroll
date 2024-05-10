@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title VSPL
+import ../measures/conceptPage.scroll
+id VSPL
+appeared 2000
+type pl
+reference https://www.reddit.com/r/programming/comments/6uxso/vspl_a_very_simple_programming_language_just_how/
 
-title VSPL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3295
 
-html
- <a class="trueBaseThemePreviousItem" href="vpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vulcan.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vspl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=vspl" class="material-symbols-outlined">edit</a></div>
-
-* VSPL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3284 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- VSPL on HOPL
- https://hopl.info/showlanguage.prx?exp=3295
-- Read more about VSPL on the web: 1.
- https://www.reddit.com/r/programming/comments/6uxso/vspl_a_very_simple_programming_language_just_how/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav vpl.html vulcan.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

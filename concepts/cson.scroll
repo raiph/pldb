@@ -1,62 +1,67 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CSON
+import ../measures/conceptPage.scroll
+id CSON
+appeared 2011
+type dataNotation
+creators Benjamin Lupton
+standsFor CoffeeScript Object Notation
+country Australia
+originCommunity https://bevry.me/
 
-title CSON - Data notation
- hidden
+githubRepo https://github.com/bevry/cson
+ firstCommit 2011
+ stars 1307
+ forks 58
+ subscribers 20
+ created 2011
+ updated 2022
+ description CoffeeScript-Object-Notation. Same as JSON but for CoffeeScript objects.
+ issues 11
 
-html
- <a class="trueBaseThemePreviousItem" href="openvera.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hope.html">&gt;</a>
+repoStats
+ firstCommit 2011
+ commits 205
+ committers 18
+ files 48
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cson.pldb
+githubLanguage CSON
+ fileExtensions cson
+ trendingProjectsCount 0
+ type data
+ aceMode coffee
+ codemirrorMode coffeescript
+ codemirrorMimeType text/x-coffeescript
+ tmScope source.coffee
+ repos 16
+githubBigQuery CSON
+ repos 2
+ users 1
 
-startColumns 4
+linguistGrammarRepo https://github.com/atom/language-coffee-script
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 30
+ commitCount 332
+ sampleCount 4
+ example
+  'menu': [
+    {
+      'label': 'Packages'
+      'submenu': [
+        'label': 'Wercker Status'
+        'submenu': [
+          { 'label': 'Check now!', 'command': 'wercker-status:checknow' }
+        ]
+      ]
+    }
+  ]
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/bevry/cson" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cson" class="material-symbols-outlined">edit</a></div>
+leachim6 CSON
+ filepath c/CSON.cson
+ fileExtensions cson
+ example
+  {'Hello': 'World'}
+  
 
-* CSON, aka CoffeeScript Object Notation, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2011 by Benjamin Lupton.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#benjaminLupton Benjamin Lupton
-
-codeWithHeader Source code:
- git clone https://github.com/bevry/cson
-
-dashboard
- #498 <span title="TotalRank: 1031 Jobs: 103 Users: 396 Facts: 532 Links: 986">on PLDB</span>
- 13 Years Old
- 16 <span title="CSON repos on GitHub.">Repos</span>
-
-* CoffeeScript-Object-Notation. Same as JSON but for CoffeeScript objects.
-
-- CSON is developed on <a href="https://github.com/bevry/cson">GitHub</a> and has 1,307 stars
-- There are at least 16 CSON repos on <a href="https://github.com/search?q=language:CSON">GitHub</a>
-- CSON first developed in <a href="../lists/originCommunities.html#httpsBevryMe">https://bevry.me/</a>
-- file extensions for CSON include cson
-- The  Google BigQuery Public Dataset GitHub snapshot shows 1 users using CSON in 2 repos on <a href="https://api.github.com/search/repositories?q=language:CSON">GitHub</a>
-- GitHub supports <a href="https://github.com/atom/language-coffee-script" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for CSON
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CSON.cson'>hello-world</a>:
- {&#39;Hello&#39;: &#39;World&#39;}
- 
-
-codeWithHeader Example from <a href='https://github.com/atom/language-coffee-script'>Linguist</a>:
- &#39;menu&#39;: [
-   {
-     &#39;label&#39;: &#39;Packages&#39;
-     &#39;submenu&#39;: [
-       &#39;label&#39;: &#39;Wercker Status&#39;
-       &#39;submenu&#39;: [
-         { &#39;label&#39;: &#39;Check now!&#39;, &#39;command&#39;: &#39;wercker-status:checknow&#39; }
-       ]
-     ]
-   }
- ]
-
-endColumns
-
-keyboardNav openvera.html hope.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

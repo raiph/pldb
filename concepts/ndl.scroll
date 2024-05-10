@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NDL
+import ../measures/conceptPage.scroll
+id NDL
+appeared 2007
+type pl
+reference https://digitalcommons.ohsu.edu/cgi/viewcontent.cgi?article=2851&context=etd
+country United States
+originCommunity Oregon Health & Science University
 
-title NDL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2274
 
-html
- <a class="trueBaseThemePreviousItem" href="nassi-shneiderman-charts.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ness.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ndl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ndl" class="material-symbols-outlined">edit</a></div>
-
-* NDL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3865 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- NDL first developed in <a href="../lists/originCommunities.html#oregonHealthScienceUniversity">Oregon Health & Science University</a>
-- NDL on HOPL
- https://hopl.info/showlanguage.prx?exp=2274
-- Read more about NDL on the web: 1.
- https://digitalcommons.ohsu.edu/cgi/viewcontent.cgi?article=2851&context=etd 1.
-
-<br>
-
-endColumns
-
-keyboardNav nassi-shneiderman-charts.html ness.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

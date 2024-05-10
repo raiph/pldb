@@ -1,37 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title I-expressions
+import ../measures/conceptPage.scroll
+id I-expressions
+appeared 2003
+type dataNotation
+creators Egil Möller
+conceptDescription This SRFI descibes a new syntax for Scheme, called I-expressions, whith equal descriptive power as S-expressions. The syntax uses indentation to group expressions, and has no special cases for semantic constructs of the language. It can be used both for program and data input.
+reference https://srfi.schemers.org/srfi-49/srfi-49.html
+country Sweden
+originCommunity https://srfi.schemers.org
 
-title I-expressions - Data notation
- hidden
+hasSemanticIndentation true
 
-html
- <a class="trueBaseThemePreviousItem" href="cms-exec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="structured-text.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/i-expressions.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=i-expressions" class="material-symbols-outlined">edit</a></div>
-
-* I-expressions is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2003 by Egil Möller.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#egilMoller Egil Möller
-
-dashboard
- #1213 <span title="TotalRank: 1756 Jobs: 103 Users: 2838 Facts: 1381 Links: 272">on PLDB</span>
- 21 Years Old
-
-* This SRFI descibes a new syntax for Scheme, called I-expressions, whith equal descriptive power as S-expressions. The syntax uses indentation to group expressions, and has no special cases for semantic constructs of the language. It can be used both for program and data input.
-
-- I-expressions first developed in <a href="../lists/originCommunities.html#httpsSrfiSchemersOrg">https://srfi.schemers.org</a>
-- Read more about I-expressions on the web: 1.
- https://srfi.schemers.org/srfi-49/srfi-49.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  define
    fac x
    if
@@ -47,19 +26,3 @@ codeWithHeader Example from the web:
     bar
      + 3 4
    + foo bar
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav cms-exec.html structured-text.html
-
-import ../footer.scroll

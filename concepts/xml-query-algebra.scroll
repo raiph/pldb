@@ -1,36 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title The Algebra
+import ../measures/conceptPage.scroll
+id The Algebra
+appeared 2001
+type grammarLanguage
+conceptDescription This document introduces the XML Query Algebra (``the Algebra'') as a formal basis for an XML query language.
+reference https://www.w3.org/TR/2001/WD-query-algebra-20010215/
 
-title The Algebra - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xml-gl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xpop.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xml-query-algebra.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xml-query-algebra" class="material-symbols-outlined">edit</a></div>
-
-* The Algebra is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3296 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 23 Years Old
-
-* This document introduces the XML Query Algebra (``the Algebra'') as a formal basis for an XML query language.
-
-- Read more about The Algebra on the web: 1.
- https://www.w3.org/TR/2001/WD-query-algebra-20010215/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav xml-gl.html xpop.html
-
-import ../footer.scroll
+semanticScholar 0

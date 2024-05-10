@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AIL
+import ../measures/conceptPage.scroll
+id AIL
+appeared 2016
+type ir
+reference https://angr.io/
+standsFor angr Intermediate Language
+originCommunity University of California && Arizona State University
 
-title AIL - Intermediate representation language
- hidden
+githubRepo https://github.com/angr/ailment
+ firstCommit 2016
+ stars 16
+ forks 11
+ subscribers 10
+ created 2017
+ updated 2022
+ description AIL: The angr Intermediate Language.
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="cheetah.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nulan.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ail.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/angr/ailment" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ail" class="material-symbols-outlined">edit</a></div>
-
-* AIL, aka angr Intermediate Language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/angr/ailment
-
-dashboard
- #2336 <span title="TotalRank: 2876 Jobs: 103 Users: 1854 Facts: 1787 Links: 986">on PLDB</span>
- 8 Years Old
-
-* AIL: The angr Intermediate Language.
-
-- AIL is developed on <a href="https://github.com/angr/ailment">GitHub</a> and has 16 stars
-- AIL first developed in <a href="../lists/originCommunities.html#universityOfCalifornia">University of California</a> and <a href="../lists/originCommunities.html#arizonaStateUniversity">Arizona State University</a>
-- Read more about AIL on the web: 1.
- https://angr.io/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav cheetah.html nulan.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 466
+ committers 25
+ files 32

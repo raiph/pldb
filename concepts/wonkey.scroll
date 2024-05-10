@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Wonkey
+import ../measures/conceptPage.scroll
+id Wonkey
+appeared 2021
+type pl
+conceptDescription Wonkey is an open-source cross-platform programming language.
+website https://wonkey-coders.github.io/
+reference https://news.ycombinator.com/item?id=32360952
 
-title Wonkey - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="lever.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gellish.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wonkey.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://wonkey-coders.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/wonkey-coders/wonkey" class="material-symbols-outlined">code</a> <a href="/edit.html?id=wonkey" class="material-symbols-outlined">edit</a></div>
-
-* Wonkey is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-codeWithHeader Source code:
- git clone https://github.com/wonkey-coders/wonkey
-
-dashboard
- #1752 <span title="TotalRank: 2292 Jobs: 103 Users: 1316 Facts: 1203 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Wonkey is an open-source cross-platform programming language.
-
-- Wonkey website
- https://wonkey-coders.github.io/
-- Wonkey is developed on <a href="https://github.com/wonkey-coders/wonkey">GitHub</a> and has 108 stars
-- Read more about Wonkey on the web: 1.
- https://news.ycombinator.com/item?id=32360952 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Function Add( a:Int, b:Int )
      Return a + b
  End
@@ -44,8 +15,18 @@ codeWithHeader Example from the web:
      Return a + b
  End
 
-endColumns
+githubRepo https://github.com/wonkey-coders/wonkey
+ firstCommit 2021
+ stars 108
+ forks 10
+ subscribers 13
+ created 2021
+ updated 2022
+ description Wonkey is a programming language for the creation of cross-platform video games, but not only :). Join us https://discord.gg/awfuRtZay7
+ issues 1
 
-keyboardNav lever.html gellish.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 485
+ committers 8
+ files 8511

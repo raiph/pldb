@@ -1,45 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title nianiolang
+import ../measures/conceptPage.scroll
+id nianiolang
+appeared 2015
+type pl
+creators Andrzej Gasienica-Samek
+conceptDescription Procedural programming language without pointers
+website http://www.nianiolang.org/
+reference https://news.ycombinator.com/item?id=14178782
+country United States
+originCommunity https://github.com/nianiolang
+domainName nianiolang.org
+ registered 2015
 
-title nianiolang - Programming language
- hidden
+githubRepo https://github.com/nianiolang/nl
+ firstCommit 2015
+ stars 7
+ forks 5
+ subscribers 5
+ created 2015
+ updated 2019
+ description NianioLang Compiler - main repo
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="adamant.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flua.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nianiolang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.nianiolang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/nianiolang/nl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nianiolang" class="material-symbols-outlined">edit</a></div>
-
-* nianiolang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Andrzej Gasienica-Samek.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#andrzejGasienicaSamek Andrzej Gasienica-Samek
-
-codeWithHeader Source code:
- git clone https://github.com/nianiolang/nl
-
-dashboard
- #1954 <span title="TotalRank: 2470 Jobs: 103 Users: 2123 Facts: 1381 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Procedural programming language without pointers
-
-- nianiolang website
- http://www.nianiolang.org/
-- nianiolang is developed on <a href="https://github.com/nianiolang/nl">GitHub</a> and has 7 stars
-- nianiolang first developed in <a href="../lists/originCommunities.html#httpsGithubComNianiolang">https://github.com/nianiolang</a>
-- <a href="http://www.nianiolang.org/">nianiolang.org</a> was registered in 2015
-- Read more about nianiolang on the web: 1.
- https://news.ycombinator.com/item?id=14178782 1.
-
-<br>
-
-endColumns
-
-keyboardNav adamant.html flua.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 19
+ committers 5
+ files 255

@@ -1,40 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ko
+import ../measures/conceptPage.scroll
+id ko
+appeared 2018
+type pl
+creators Petar Maymounkov
+country The Netherlands and United States
+originCommunity https://github.com/kocircuit/kocircuit
 
-title ko - Programming language
- hidden
+githubRepo https://github.com/kocircuit/kocircuit
+ firstCommit 2018
+ stars 305
+ forks 20
+ subscribers 17
+ created 2018
+ updated 2022
+ description Ko: A generic type-safe language for concurrent, stateful, deadlock-free systems and protocol manipulations
+ issues 15
 
-html
- <a class="trueBaseThemePreviousItem" href="small-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="newp.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 423
+ committers 4
+ files 1843
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ko.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kocircuit/kocircuit" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ko" class="material-symbols-outlined">edit</a></div>
-
-* ko is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Petar Maymounkov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#petarMaymounkov Petar Maymounkov
-
-codeWithHeader Source code:
- git clone https://github.com/kocircuit/kocircuit
-
-dashboard
- #1451 <span title="TotalRank: 1977 Jobs: 103 Users: 888 Facts: 1502 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Ko: A generic type-safe language for concurrent, stateful, deadlock-free systems and protocol manipulations
-
-- ko is developed on <a href="https://github.com/kocircuit/kocircuit">GitHub</a> and has 305 stars
-- ko first developed in <a href="../lists/originCommunities.html#httpsGithubComKocircuitKocircuit">https://github.com/kocircuit/kocircuit</a>
-
-<br>
-
-endColumns
-
-keyboardNav small-c.html newp.html
-
-import ../footer.scroll
+wordRank 9241
+isOpenSource true
+centralPackageRepositoryCount 0

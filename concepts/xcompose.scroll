@@ -1,84 +1,67 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title XCompose
+import ../measures/conceptPage.scroll
+id XCompose
+appeared 2006
+type application
+reference https://wiki.debian.org/XCompose
 
-title XCompose - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="x-font-directory-index.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snakemake.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xcompose.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xcompose" class="material-symbols-outlined">edit</a></div>
-
-* XCompose is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #1197 on PLDB
- 18 Years Old
- 0 <span title="XCompose repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 0 XCompose repos on <a href="https://github.com/search?q=language:XCompose">GitHub</a>
-- GitHub supports <a href="https://github.com/samcv/language-xcompose" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for XCompose
-- Read more about XCompose on the web: 1.
- https://wiki.debian.org/XCompose 1.
-
-<br>
-
-codeWithHeader Example from the web:
- include &quot;%L&quot;
+example
+ include "%L"
  
- &lt;Multi_key&gt; &lt;g&gt; &lt;a&gt; : &quot;α&quot;
- &lt;Multi_key&gt; &lt;g&gt; &lt;b&gt; : &quot;β&quot;
- &lt;Multi_key&gt; &lt;g&gt; &lt;g&gt; : &quot;γ&quot;
+ <Multi_key> <g> <a> : "α"
+ <Multi_key> <g> <b> : "β"
+ <Multi_key> <g> <g> : "γ"
 
-codeWithHeader Example from <a href='https://github.com/samcv/language-xcompose'>Linguist</a>:
- # for Emacs: -*- coding: utf-8 -*-
- include &quot;%L&quot;
- 
- # def emit(keys, codepoint, word):
- #     print (&#39;&lt;Multi_key&gt; %s &lt;period&gt;\t: &quot;%s&quot;\tU%04X\t\t# CIRCLED DIGIT %s&#39; % 
- #            (keys, unichr(codepoint), codepoint, word)).encode(&#39;utf8&#39;)
- # numbers = &#39;one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty&#39;
- # words = numbers.upper().split()
- # emit(&#39;&lt;0&gt;&#39;, 0x24EA, &quot;ZERO&quot;)
- # for num, word in zip(range(1, 21), words):
- #     emit(&#39; &#39;.join(&quot;&lt;%s&gt;&quot; % char for char in str(num)), 0x245f + num, word)
- 
- # Custom additions: Typography
- &lt;Multi_key&gt; &lt;period&gt; &lt;period&gt;		: &quot;…&quot;	U2026		# HORIZONTAL ELLIPSIS
- &lt;Multi_key&gt; &lt;v&gt; &lt;period&gt; &lt;period&gt;	: &quot;⋮&quot;	U22EE		# VERTICAL ELLIPSIS
- &lt;Multi_key&gt; &lt;c&gt; &lt;period&gt; &lt;period&gt;	: &quot;⋯&quot;	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
- &lt;Multi_key&gt; &lt;slash&gt; &lt;period&gt; &lt;period&gt;	: &quot;⋰&quot;	U22F0		# UP RIGHT DIAGONAL ELLIPSIS
- # To avoid conflict with \. for combining dot above.
- #&lt;Multi_key&gt; &lt;backslash&gt; &lt;period&gt; &lt;period&gt; : &quot;⋱&quot; U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
- &lt;Multi_key&gt; &lt;period&gt; &lt;backslash&gt; &lt;period&gt; : &quot;⋱&quot; U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
- # Will we someday regret this, wanting 2. for ⒉ ?
- &lt;Multi_key&gt; &lt;2&gt; &lt;period&gt;	 	  : &quot;‥&quot;	U2025		# TWO DOT LEADER
- # This should not be needed.
- #&lt;Multi_key&gt; &lt;1&gt; &lt;period&gt;		  : &quot;․&quot;	U2024		# ONE DOT LEADER
- &lt;Multi_key&gt; &lt;c&gt; &lt;1&gt; &lt;period&gt;		  : &quot;·&quot;	U00B7		# MIDDLE DOT (maybe I can remember the keystroke better?
- &lt;Multi_key&gt; &lt;period&gt; &lt;slash&gt; &lt;period&gt;	: &quot;⁒&quot;	U2052		# COMMERCIAL MINUS SIGN
- # Printable sign for space.  But is \&lt;space&gt; too useful a key combo to use
- # for this?
- &lt;Multi_key&gt; &lt;backslash&gt; &lt;space&gt;		: &quot;␣&quot;	U2423		# OPEN BOX
- # These two are already present for me:
- # &lt;Multi_key&gt; &lt;minus&gt; &lt;minus&gt; &lt;minus&gt;	: &quot;—&quot;	U2014		# EM DASH
- # &lt;Multi_key&gt; &lt;minus&gt; &lt;minus&gt; &lt;period&gt;	: &quot;–&quot;	U2013		# EN DASH
- &lt;Multi_key&gt; &lt;minus&gt; &lt;minus&gt; &lt;space&gt;	: &quot;– &quot;			# EN DASH (followed by space)
- &lt;Multi_key&gt; &lt;minus&gt; &lt;asciitilde&gt; &lt;minus&gt; : &quot;―&quot; U2015 # HORIZONTAL BAR
- &lt;Multi_key&gt; &lt;minus&gt; &lt;2&gt; &lt;M&gt;	 	 : &quot;⸺&quot; U2E3A # TWO-EM DASH
- &lt;M
+githubLanguage XCompose
+ trendingProjectsCount 0
+ type data
+ filenames .XCompose XCompose xcompose
+ aceMode text
+ tmScope config.xcompose
+ repos 0
 
-endColumns
+linguistGrammarRepo https://github.com/samcv/language-xcompose
+ firstCommit 2016
+ lastCommit 2016
+ committerCount 1
+ commitCount 4
+ sampleCount 1
+ example
+  # for Emacs: -*- coding: utf-8 -*-
+  include "%L"
+  
+  # def emit(keys, codepoint, word):
+  #     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 
+  #            (keys, unichr(codepoint), codepoint, word)).encode('utf8')
+  # numbers = 'one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'
+  # words = numbers.upper().split()
+  # emit('<0>', 0x24EA, "ZERO")
+  # for num, word in zip(range(1, 21), words):
+  #     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
+  
+  # Custom additions: Typography
+  <Multi_key> <period> <period>		: "…"	U2026		# HORIZONTAL ELLIPSIS
+  <Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
+  <Multi_key> <c> <period> <period>	: "⋯"	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
+  <Multi_key> <slash> <period> <period>	: "⋰"	U22F0		# UP RIGHT DIAGONAL ELLIPSIS
+  # To avoid conflict with \. for combining dot above.
+  #<Multi_key> <backslash> <period> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
+  <Multi_key> <period> <backslash> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
+  # Will we someday regret this, wanting 2. for ⒉ ?
+  <Multi_key> <2> <period>	 	  : "‥"	U2025		# TWO DOT LEADER
+  # This should not be needed.
+  #<Multi_key> <1> <period>		  : "․"	U2024		# ONE DOT LEADER
+  <Multi_key> <c> <1> <period>		  : "·"	U00B7		# MIDDLE DOT (maybe I can remember the keystroke better?
+  <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
+  # Printable sign for space.  But is \<space> too useful a key combo to use
+  # for this?
+  <Multi_key> <backslash> <space>		: "␣"	U2423		# OPEN BOX
+  # These two are already present for me:
+  # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
+  # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
+  <Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
+  <Multi_key> <minus> <asciitilde> <minus> : "―" U2015 # HORIZONTAL BAR
+  <Multi_key> <minus> <2> <M>	 	 : "⸺" U2E3A # TWO-EM DASH
+  <M
 
-keyboardNav x-font-directory-index.html snakemake.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

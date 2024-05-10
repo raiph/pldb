@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RAPIDWRITE
+import ../measures/conceptPage.scroll
+id RAPIDWRITE
+appeared 1962
+type pl
+reference https://www.sciencedirect.com/science/article/abs/pii/S0066413863800117
+country United Kingdom
+originCommunity International Computers and Tabulators Ltd
 
-title RAPIDWRITE - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="rand-abel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sale.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rapidwrite.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rapidwrite" class="material-symbols-outlined">edit</a></div>
-
-* RAPIDWRITE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1962.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1962 1962
-
-dashboard
- #3421 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 62 Years Old
-
-* 
-
-- RAPIDWRITE first developed in <a href="../lists/originCommunities.html#internationalComputersAndTabulatorsLtd">International Computers and Tabulators Ltd</a>
-- RAPIDWRITE on HOPL
- https://hopl.info/showlanguage.prx?exp=462
-- Read more about RAPIDWRITE on the web: 1.
- https://www.sciencedirect.com/science/article/abs/pii/S0066413863800117 1.
-
-<br>
-
-endColumns
-
-keyboardNav rand-abel.html sale.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=462

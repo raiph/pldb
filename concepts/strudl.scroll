@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title STRUDL
+import ../measures/conceptPage.scroll
+id STRUDL
+appeared 1965
+type pl
+reference https://news.mit.edu/2021/robert-logcher-professor-emeritus-cee-dies-0728
+reference https://cedb.asce.org/CEDBsearch/record.jsp?dockey=0014460
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title STRUDL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=348
 
-html
- <a class="trueBaseThemePreviousItem" href="streamit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unicode-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/strudl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=strudl" class="material-symbols-outlined">edit</a></div>
-
-* STRUDL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #4323 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- STRUDL first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- STRUDL on HOPL
- https://hopl.info/showlanguage.prx?exp=348
-- Read more about STRUDL on the web: 1. 2.
- https://news.mit.edu/2021/robert-logcher-professor-emeritus-cee-dies-0728 1.
- https://cedb.asce.org/CEDBsearch/record.jsp?dockey=0014460 2.
-
-<br>
-
-endColumns
-
-keyboardNav streamit.html unicode-lang.html
-
-import ../footer.scroll
+semanticScholar 0

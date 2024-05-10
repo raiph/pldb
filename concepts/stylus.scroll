@@ -1,110 +1,99 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Stylus
+import ../measures/conceptPage.scroll
+id Stylus
+appeared 2010
+type stylesheetLanguage
+creators TJ Holowaychuk
+website http://stylus-lang.com/
+domainName stylus-lang.com
+ registered 2015
+ awisRank
+  2022 800241
+  2017 274066
 
-title Stylus - Stylesheet language
- hidden
+hasSemanticIndentation true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="vim-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jcl.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stylus.pldb
+wikipedia https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)
+ example
+  div.rectangle {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+ related sass css jade python
+ summary Stylus is a dynamic stylesheet language that is compiled into Cascading Style Sheets (CSS). Its design is influenced by Sass and LESS. It's regarded as the fourth most used CSS preprocessor syntax. It was created by TJ Holowaychuk, a former programmer for Node.js and the creator of the Luna language. It is written in JADE and Node.js.
+ pageId 38256010
+ dailyPageViews 24
+ created 2013
+ backlinksCount 22
+ revisionCount 31
+ appeared 2010
 
-startColumns 4
+githubLanguage Stylus
+ fileExtensions styl
+ trendingProjectsCount 0
+ type markup
+ aceMode stylus
+ tmScope source.stylus
+ repos 5041
+githubBigQuery Stylus
+ repos 344
+ users 315
 
-<div class="trueBaseThemeQuickLinks"><a href="http://stylus-lang.com/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=stylus" class="material-symbols-outlined">edit</a></div>
+codeMirror stylus
+linguistGrammarRepo https://github.com/billymoon/Stylus
+ firstCommit 2012
+ lastCommit 2017
+ committerCount 19
+ commitCount 113
+ sampleCount 1
+ example
+  border-radius()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    border-radius arguments
+  
+  a.button
+    border-radius 5px
+  
+  fonts = helvetica, arial, sans-serif
+  
+  body {
+    padding: 50px;
+    font: 14px/1.4 fonts;
+  }
+  
+  form
+    input[type=text]
+      padding: 5px
+      border: 1px solid #eee
+      color: #ddd
+  
+  textarea
+    @extends form input[type=text]
+    padding: 10px
+  
+  $foo
+    color: #FFF
+  
+  .bar
+    background: #000
+    @extends $foo
+  
 
-* Stylus is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+stylesheetLanguage">stylesheet language</a> created in 2010 by TJ Holowaychuk.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#tjHolowaychuk TJ Holowaychuk
+leachim6 Stylus
+ filepath s/Stylus.styl
+ fileExtensions styl
+ example
+  body::before
+  	content: "Hello World" 
 
-dashboard
- #428 <span title="TotalRank: 933 Jobs: 103 Users: 856 Facts: 339 Links: 491">on PLDB</span>
- 14 Years Old
- 5k <span title="Stylus repos on GitHub.">Repos</span>
+fileType text
+wordRank 6948
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* Stylus is a dynamic stylesheet language that is compiled into Cascading Style Sheets (CSS). Its design is influenced by Sass and LESS. It's regarded as the fourth most used CSS preprocessor syntax. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Stylus_(stylesheet_language) Read more on Wikipedia...
-
-- Stylus website
- http://stylus-lang.com/
-- Stylus Wikipedia page
- https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)
-- There are at least 5,041 Stylus repos on <a href="https://github.com/search?q=language:Stylus">GitHub</a>
-- file extensions for Stylus include styl
-- The  Google BigQuery Public Dataset GitHub snapshot shows 315 users using Stylus in 344 repos on <a href="https://api.github.com/search/repositories?q=language:Stylus">GitHub</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/stylus">package</a> for syntax highlighting Stylus
-- GitHub supports <a href="https://github.com/billymoon/Stylus" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Stylus
-- <a href="http://stylus-lang.com/">stylus-lang.com</a> was registered in 2015
-- See also: (4 related languages)<a href="sass.html">Sass</a>, <a href="css.html">CSS</a>, <a href="jade.html">JADE</a>, <a href="python.html">Python</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Stylus.styl'>hello-world</a>:
- body::before
- 	content: &quot;Hello World&quot; 
-
-codeWithHeader Example from <a href='https://github.com/billymoon/Stylus'>Linguist</a>:
- border-radius()
-   -webkit-border-radius arguments
-   -moz-border-radius arguments
-   border-radius arguments
- 
- a.button
-   border-radius 5px
- 
- fonts = helvetica, arial, sans-serif
- 
- body {
-   padding: 50px;
-   font: 14px/1.4 fonts;
- }
- 
- form
-   input[type=text]
-     padding: 5px
-     border: 1px solid #eee
-     color: #ddd
- 
- textarea
-   @extends form input[type=text]
-   padding: 10px
- 
- $foo
-   color: #FFF
- 
- .bar
-   background: #000
-   @extends $foo
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)'>Wikipedia</a>:
- div.rectangle {
-   -webkit-border-radius: 10px;
-   -moz-border-radius: 10px;
-   border-radius: 10px;
- }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav vim-script.html jcl.html
-
-import ../footer.scroll
+isbndb 0

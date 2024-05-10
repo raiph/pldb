@@ -1,42 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title sierra
+import ../measures/conceptPage.scroll
+id sierra
+appeared 2018
+type pl
+website https://sierra-lang.github.io
+domainName sierra-lang.github.io
 
-title sierra - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sharpscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tengo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sierra.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sierra-lang.github.io" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sierra" class="material-symbols-outlined">edit</a></div>
-
-* sierra is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2802 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- sierra website
- https://sierra-lang.github.io
-
-<br>
-
-endColumns
-
-## HackerNews discussions of sierra
-
-pipeTable
- title|titleLink|date|score|comments
- Sierra – A SIMD Extension for C++|https://news.ycombinator.com/item?id=18340730|10/30/2018|35|4
-
-keyboardNav sharpscript.html tengo.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 18340730|Sierra – A SIMD Extension for C++|https://sierra-lang.github.io/|2018-10-30 19:56:37 UTC|1540929397|jeffreyrogers|4|35

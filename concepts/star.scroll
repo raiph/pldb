@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Star
+import ../measures/conceptPage.scroll
+id Star
+appeared 2021
+type pl
+creators ALANVF
+country Unknown
+originCommunity https://github.com/ALANVF/star/issues
 
-title Star - Programming language
- hidden
+githubRepo https://github.com/ALANVF/star
+ firstCommit 2021
+ stars 91
+ forks 2
+ subscribers 6
+ created 2021
+ updated 2022
+ description An experimental programming language that's made to be powerful, productive, and predictable
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="framework-office-suite.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="apse.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/star.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ALANVF/star" class="material-symbols-outlined">code</a> <a href="/edit.html?id=star" class="material-symbols-outlined">edit</a></div>
-
-* Star is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by ALANVF.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#alanvf ALANVF
-
-codeWithHeader Source code:
- git clone https://github.com/ALANVF/star
-
-dashboard
- #2047 <span title="TotalRank: 2579 Jobs: 103 Users: 1490 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* An experimental programming language that's made to be powerful, productive, and predictable
-
-- Star is developed on <a href="https://github.com/ALANVF/star">GitHub</a> and has 91 stars
-- Star first developed in <a href="../lists/originCommunities.html#httpsGithubComAlanvfStarIssues">https://github.com/ALANVF/star/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav framework-office-suite.html apse.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 235
+ committers 3
+ files 678

@@ -1,61 +1,46 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ink-lang
+import ../measures/conceptPage.scroll
+id ink-lang
+appeared 2019
+type pl
+creators Linus Lee
+website https://dotink.co
+country United States
+originCommunity https://github.com/thesephist/ink/issues
+domainName dotink.co
+ registered 2019
+ awisRank
+  2022 6765719
 
-title ink-lang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="edge-side-includes.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ocl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ink-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://dotink.co" class="material-symbols-outlined">home</a> <a href="https://github.com/thesephist/ink" class="material-symbols-outlined">code</a> <a href="https://twitter.com/thesephist"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=ink-lang" class="material-symbols-outlined">edit</a></div>
-
-* ink-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Linus Lee.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#linusLee Linus Lee
-
-codeWithHeader Source code:
- git clone https://github.com/thesephist/ink
-
-dashboard
- #1103 <span title="TotalRank: 1662 Jobs: 103 Users: 757 Facts: 802 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Ink is a minimal programming language inspired by modern JavaScript and Go, with functional style.
-
-- ink-lang website
- https://dotink.co
-- ink-lang is developed on <a href="https://github.com/thesephist/ink">GitHub</a> and has 489 stars
-- ink-lang first developed in <a href="../lists/originCommunities.html#httpsGithubComThesephistInkIssues">https://github.com/thesephist/ink/issues</a>
-- ink-lang on Twitter
- https://twitter.com/thesephist
-- <a href="https://dotink.co">dotink.co</a> was registered in 2019
-
-<br>
-
-codeWithHeader Example from the web:
- std := load(&#39;std&#39;)
+example
+ std := load('std')
  
  log := std.log
  
- listen(&#39;0.0.0.0:8080&#39;, evt =&gt; (
+ listen('0.0.0.0:8080', evt => (
    evt.type :: {
-     &#39;error&#39; -&gt; log(&#39;Error: &#39; + evt.message)
-     &#39;req&#39; -&gt; (evt.end)({
+     'error' -> log('Error: ' + evt.message)
+     'req' -> (evt.end)({
        status: 200
-       headers: {&#39;Content-Type&#39;: &#39;text/plain&#39;}
-       body: &#39;Hello, World!&#39;
+       headers: {'Content-Type': 'text/plain'}
+       body: 'Hello, World!'
      })
    }
  ))
 
-endColumns
+githubRepo https://github.com/thesephist/ink
+ firstCommit 2019
+ stars 489
+ forks 7
+ subscribers 7
+ created 2019
+ updated 2022
+ description Ink is a minimal programming language inspired by modern JavaScript and Go, with functional style.
+ issues 1
 
-keyboardNav edge-side-includes.html ocl.html
+repoStats
+ firstCommit 2019
+ commits 373
+ committers 1
+ files 52
 
-import ../footer.scroll
+twitter https://twitter.com/thesephist

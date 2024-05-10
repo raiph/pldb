@@ -1,33 +1,4 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Schrödinger's Equation
-
-title Schrödinger's Equation - Equation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="codelite-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="synergist.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/schrodingers-equation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=schrodingers-equation" class="material-symbols-outlined">edit</a></div>
-
-* Schrödinger's Equation is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+equation">equation</a> created in 1925.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1925 1925
-
-dashboard
- #3642 on PLDB
- 99 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav codelite-editor.html synergist.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Schrödinger's Equation
+appeared 1925
+type equation

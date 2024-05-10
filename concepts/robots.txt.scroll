@@ -1,38 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Robots.txt
+import ../measures/conceptPage.scroll
+id Robots.txt
+appeared 1994
+type configFormat
+creators Martijn Koster
+conceptDescription A robots.txt file tells search engine crawlers which URLs the crawler can access on your site.
+reference https://developers.google.com/search/docs/advanced/robots/intro
+reference https://en.wikipedia.org/wiki/Robots_exclusion_standard
+country United Kingdom
+originCommunity https://web.archive.org/web/20131029200350/http://inkdroid.org/tmp/www-talk/4113.html
 
-title Robots.txt - Config format
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
 
-html
- <a class="trueBaseThemePreviousItem" href="ion-schema.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="specrtl.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/robots.txt.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=robots.txt" class="material-symbols-outlined">edit</a></div>
-
-* Robots.txt is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+configFormat">config format</a> created in 1994 by Martijn Koster.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
- link ../lists/creators.html#martijnKoster Martijn Koster
-
-dashboard
- #2100 <span title="TotalRank: 2591 Jobs: 103 Users: 2838 Facts: 1502 Links: 986">on PLDB</span>
- 30 Years Old
-
-* A robots.txt file tells search engine crawlers which URLs the crawler can access on your site.
-
-- Robots.txt first developed in <a href="../lists/originCommunities.html#httpsWebArchiveOrgWeb20131029200350HttpInkdroidOrgTmpWwwTalk4113Html">https://web.archive.org/web/20131029200350/http://inkdroid.org/tmp/www-talk/4113.html</a>
-- Read more about Robots.txt on the web: 1. 2.
- https://developers.google.com/search/docs/advanced/robots/intro 1.
- https://en.wikipedia.org/wiki/Robots_exclusion_standard 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  User-agent: googlebot        # all Google services
  Disallow: /private/          # disallow this directory
  
@@ -41,27 +25,3 @@ codeWithHeader Example from the web:
  
  User-agent: *                # any robot
  Disallow: /something/        # disallow this directory
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
-
-keyboardNav ion-schema.html specrtl.html
-
-import ../footer.scroll

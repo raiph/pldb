@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title axt-format
+import ../measures/conceptPage.scroll
+id axt-format
+appeared 2004
+type textDataFormat
+conceptDescription axt alignment files are produced from Blastz, an alignment tool available from Webb Miller's lab at Penn State University. The axtNet and axtChain alignments are produced by processing the alignment files with additional utilities written by Jim Kent at UCSC.
+reference https://github.com/lastz/lastz/blob/a93880f640776e9c7427326f1401a429ad14f2fb/src/axt.c
+country United States
+originCommunity Penn State University
 
-title axt-format - Text data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="arrow.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bed-format.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/axt-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=axt-format" class="material-symbols-outlined">edit</a></div>
-
-* axt-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2983 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 20 Years Old
-
-* axt alignment files are produced from Blastz, an alignment tool available from Webb Miller's lab at Penn State University. The axtNet and axtChain alignments are produced by processing the alignment files with additional utilities written by Jim Kent at UCSC.
-
-- axt-format first developed in <a href="../lists/originCommunities.html#pennStateUniversity">Penn State University</a>
-- Read more about axt-format on the web: 1.
- https://github.com/lastz/lastz/blob/a93880f640776e9c7427326f1401a429ad14f2fb/src/axt.c 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  0 chr19 3001012 3001075 chr11 70568380 70568443 - 3500
  TCAGCTCATAAATCACCTCCTGCCACAAGCCTGGCCTGGTCCCAGGAGAGTGTCCAGGCTCAGA
  TCTGTTCATAAACCACCTGCCATGACAAGCCTGGCCTGTTCCCAAGACAATGTCCAGGCTCAGA
 
-endColumns
+fileType text
+centralPackageRepositoryCount 0
 
-keyboardNav arrow.html bed-format.html
-
-import ../footer.scroll
+semanticScholar 0

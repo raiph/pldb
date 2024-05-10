@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Trafola-H
+import ../measures/conceptPage.scroll
+id Trafola-H
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/5f69c02e074566368898b12f40fe74134871d027
 
-title Trafola-H - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1665
 
-html
- <a class="trueBaseThemePreviousItem" href="tpdl-star.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="traits.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/trafola-h.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=trafola-h" class="material-symbols-outlined">edit</a></div>
-
-* Trafola-H is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3245 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Trafola-H on HOPL
- https://hopl.info/showlanguage.prx?exp=1665
-- Read more about Trafola-H on Semantic Scholar: 1.
- https://semanticscholar.org/paper/5f69c02e074566368898b12f40fe74134871d027 1.
-
-<br>
-
-endColumns
-
-keyboardNav tpdl-star.html traits.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

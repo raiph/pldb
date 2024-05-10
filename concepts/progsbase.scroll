@@ -1,364 +1,78 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title progsbase
+import ../measures/conceptPage.scroll
+id progsbase
+appeared 2018
+type pl
+creators Martin F. Johansen
+conceptDescription A programming language and tooling for timeless programming. Programs written in progsbase can be reused across time and space. Code written in progsbase can currently be translated to 13 other languages, but many more can be supported.
+website https://www.progsbase.com/
+documentation https://www.progsbase.com/docs/
+spec https://www.progsbase.com/docs/
+reference https://www.progsbase.com/featuredpost/progsbase-a-timeless-translatable-and-understandable-programming-system/
+country Norway
+originCommunity Inductive AS
+domainName progsbase.com
+ registered 2017
+ awisRank
+  2022 3521085
 
-title progsbase - Programming language
- hidden
+hasFunctions true
+hasAssignment true
+hasAssertStatements false
+hasGenerics false
+hasSingleDispatch false
+hasPointers false
+hasStrings true
+hasComments true
+hasConstructors false
+hasGarbageCollection false
+hasImports true
+hasInterfaces false
+hasIterators false
+hasMacros false
+hasOperatorOverloading false
+hasZeroBasedNumbering true
+hasModules true
+hasIncrementAndDecrementOperators false
+hasLineComments true
+hasThreads true
+hasPrintDebugging false
+hasMultiLineComments true
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers false
+isCaseSensitive true
+hasBooleans true
+hasWhileLoops false
+hasClasses false
+hasConstants false
+hasExceptions false
+hasSwitch false
+hasAccessModifiers false
+hasInheritance false
+hasConditionals true
+hasOctals false
+hasHexadecimals false
+hasFloats true
+hasIntegers false
+hasBinaryNumbers false
+hasScientificNotation true
+hasDirectives false
+hasMultipleInheritance false
+hasLists false
+hasMessagePassing true
+hasStaticTyping true
+hasRegularExpressionsSyntaxSugar false
+hasMultilineStrings true
+hasBitWiseOperators false
+hasPatternMatching false
+hasManualMemoryManagement true
+hasGotos false
+hasStructs true
 
-html
- <a class="trueBaseThemePreviousItem" href="mgmt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="igor-pro.html">&gt;</a>
+packageRepository https://repo.progsbase.com/repoviewer/
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/progsbase.pldb
+twitter https://twitter.com/progsbase
+fileType text
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.progsbase.com/" class="material-symbols-outlined">home</a> <a href="https://www.progsbase.com/docs/" class="material-symbols-outlined">menu_book</a> <a href="https://twitter.com/progsbase"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=progsbase" class="material-symbols-outlined">edit</a></div>
-
-* progsbase is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Martin F. Johansen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#martinFJohansen Martin F. Johansen
-
-dashboard
- #531 <span title="TotalRank: 1080 Jobs: 103 Users: 552 Facts: 425 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A programming language and tooling for timeless programming. Programs written in progsbase can be reused across time and space. Code written in progsbase can currently be translated to 13 other languages, but many more can be supported.
-
-- progsbase website
- https://www.progsbase.com/
-- progsbase docs
- https://www.progsbase.com/docs/
-- progsbase specs
- https://www.progsbase.com/docs/
-- progsbase first developed in <a href="../lists/originCommunities.html#inductiveAs">Inductive AS</a>
-- progsbase on Twitter
- https://twitter.com/progsbase
-- There is a <a href="https://repo.progsbase.com/repoviewer/">central package repository</a> for progsbase
-- <a href="https://www.progsbase.com/">progsbase.com</a> was registered in 2017
-- Read more about progsbase on the web: 1.
- https://www.progsbase.com/featuredpost/progsbase-a-timeless-translatable-and-understandable-programming-system/ 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Structs
-  FeatureLink ../features/hasStructs.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Manual Memory Management
-  FeatureLink ../features/hasManualMemoryManagement.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Multiline Strings
-  FeatureLink ../features/hasMultilineStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Static Typing
-  FeatureLink ../features/hasStaticTyping.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Message Passing
-  FeatureLink ../features/hasMessagePassing.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Scientific Notation
-  FeatureLink ../features/hasScientificNotation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Sensitivity
-  FeatureLink ../features/isCaseSensitive.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Threads
-  FeatureLink ../features/hasThreads.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Module Pattern
-  FeatureLink ../features/hasModules.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Zero-based numbering
-  FeatureLink ../features/hasZeroBasedNumbering.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Gotos
-  FeatureLink ../features/hasGotos.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Pattern Matching
-  FeatureLink ../features/hasPatternMatching.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Bitwise Operators
-  FeatureLink ../features/hasBitWiseOperators.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Regular Expression Syntax Sugar
-  FeatureLink ../features/hasRegularExpressionsSyntaxSugar.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Multiple Inheritance
-  FeatureLink ../features/hasMultipleInheritance.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Directives
-  FeatureLink ../features/hasDirectives.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Inheritance
-  FeatureLink ../features/hasInheritance.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Access Modifiers
-  FeatureLink ../features/hasAccessModifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Switch Statements
-  FeatureLink ../features/hasSwitch.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Exceptions
-  FeatureLink ../features/hasExceptions.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Constants
-  FeatureLink ../features/hasConstants.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Classes
-  FeatureLink ../features/hasClasses.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Increment and decrement operators
-  FeatureLink ../features/hasIncrementAndDecrementOperators.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Iterators
-  FeatureLink ../features/hasIterators.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Interfaces
-  FeatureLink ../features/hasInterfaces.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Constructors
-  FeatureLink ../features/hasConstructors.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Pointers
-  FeatureLink ../features/hasPointers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Single Dispatch
-  FeatureLink ../features/hasSingleDispatch.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Generics
-  FeatureLink ../features/hasGenerics.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Assert Statements
-  FeatureLink ../features/hasAssertStatements.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav mgmt.html igor-pro.html
-
-import ../footer.scroll
+isbndb
+ year|publisher|title|authors|isbn13
+ 2022|Amazon KDP|Foundations of computer Science|Johansen, Martin Fagereng|9798836363796

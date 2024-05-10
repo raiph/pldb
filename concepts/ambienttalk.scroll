@@ -1,83 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AmbientTalk
+import ../measures/conceptPage.scroll
+id AmbientTalk
+appeared 2006
+type pl
+website https://code.google.com/p/ambienttalk
+country Belgium
+originCommunity Vrije Universiteit
 
-title AmbientTalk - Programming language
- hidden
+hasStrings true
+ "Hello world"
+hasFloats true
+hasIntegers true
+hasLineComments true
+hasMultiLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="elegance.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emfatic.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ambienttalk.pldb
+example
+ when: ChatService discovered: { |chatService| when: chatService<-login(roomID, username) becomes: { |chatRoom| chatRoom<-chat("hello world"); // async message send whenever: chatRoom disconnected: { system.println("you're offline"); }; whenever: chatRoom reconnected: { system.println("you're online again"); }; }; };
 
-startColumns 4
+pygmentsHighlighter AmbientTalk
+ filename ambient.py
+ fileExtensions at
 
-<div class="trueBaseThemeQuickLinks"><a href="https://code.google.com/p/ambienttalk" class="material-symbols-outlined">home</a> <a href="/edit.html?id=ambienttalk" class="material-symbols-outlined">edit</a></div>
-
-* AmbientTalk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #2093 <span title="TotalRank: 2591 Jobs: 103 Users: 2442 Facts: 1502 Links: 986">on PLDB</span>
- 18 Years Old
-
-* 
-
-- AmbientTalk website
- https://code.google.com/p/ambienttalk
-- AmbientTalk first developed in <a href="../lists/originCommunities.html#vrijeUniversiteit">Vrije Universiteit</a>
-- file extensions for AmbientTalk include at
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ambient.py">syntax highlighting</a> for AmbientTalk
-
-<br>
-
-codeWithHeader Example from the web:
- when: ChatService discovered: { |chatService| when: chatService&lt;-login(roomID, username) becomes: { |chatRoom| chatRoom&lt;-chat(&quot;hello world&quot;); // async message send whenever: chatRoom disconnected: { system.println(&quot;you&#39;re offline&quot;); }; whenever: chatRoom reconnected: { system.println(&quot;you&#39;re online again&quot;); }; }; };
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav elegance.html emfatic.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2005|Ambient-oriented programming in ambientTalk|10.1145/1094855.1094879|131|5|J. Dedecker and T. V. Cutsem and S. Mostinckx and T. D'Hondt and W. Meuter|8d81b3c02aa72bcdca559e0452947d24bfb7e3e1
+ 2009|Mirror‐based reflection in AmbientTalk|10.1002/spe.909|23|1|S. Mostinckx and T. V. Cutsem and Stijn Timbermont and E. G. Boix and É. Tanter and W. Meuter|aadc488a4501dec96557a637b5d49f456d0a570b

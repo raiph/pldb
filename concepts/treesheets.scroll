@@ -1,46 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TreeSheets
+import ../measures/conceptPage.scroll
+id TreeSheets
+appeared 2019
+type visual
+screenshot https://pldb.io/screenshots/treesheets.png
+creators Wouter van Oortmerssen
+website https://strlen.com/treesheets/
 
-title TreeSheets - Visual programming language
- hidden
+githubRepo https://github.com/aardappel/treesheets
+ firstCommit 2013
+ stars 1893
+ forks 159
+ subscribers 64
+ created 2013
+ updated 2022
+ description TreeSheets : Free Form Data Organizer (see strlen.com/treesheets)
+ issues 132
 
-html
- <a class="trueBaseThemePreviousItem" href="squeak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cuelang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/treesheets.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://strlen.com/treesheets/" class="material-symbols-outlined">home</a> <a href="https://github.com/aardappel/treesheets" class="material-symbols-outlined">code</a> <a href="/edit.html?id=treesheets" class="material-symbols-outlined">edit</a></div>
-
-* TreeSheets is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2019 by Wouter van Oortmerssen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#wouterVanOortmerssen Wouter van Oortmerssen
-
-codeWithHeader Source code:
- git clone https://github.com/aardappel/treesheets
-
-dashboard
- #416 <span title="TotalRank: 920 Jobs: 103 Users: 326 Facts: 1787 Links: 491">on PLDB</span>
- 5 Years Old
-
-openGraphImage https://pldb.io/screenshots/treesheets.png
-image ../screenshots/treesheets.png
- caption A screenshot of the visual language TreeSheets.
-  link /search.html?q=select+type%0D%0Awhere+type+%3D+visual visual language
-
-* TreeSheets : Free Form Data Organizer (see strlen.com/treesheets)
-
-- TreeSheets website
- https://strlen.com/treesheets/
-- TreeSheets is developed on <a href="https://github.com/aardappel/treesheets">GitHub</a> and has 1,893 stars
-
-<br>
-
-endColumns
-
-keyboardNav squeak.html cuelang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 451
+ committers 37
+ files 398

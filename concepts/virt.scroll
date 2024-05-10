@@ -1,38 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Virt
+import ../measures/conceptPage.scroll
+id Virt
+appeared 1998
+type pl
+conceptDescription A universal programming language
+reference https://link.springer.com/article/10.1007/BF02667049
 
-title Virt - Programming language
- hidden
+influencedBy pascal
 
-html
- <a class="trueBaseThemePreviousItem" href="unicode-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="java.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=2608
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/virt.pldb
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=virt" class="material-symbols-outlined">edit</a></div>
-
-* Virt is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #4325 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 26 Years Old
-
-* A universal programming language
-
-- Virt on HOPL
- https://hopl.info/showlanguage.prx?exp=2608
-- Read more about Virt on the web: 1.
- https://link.springer.com/article/10.1007/BF02667049 1.
-
-<br>
-
-endColumns
-
-keyboardNav unicode-lang.html java.html
-
-import ../footer.scroll
+semanticScholar 0

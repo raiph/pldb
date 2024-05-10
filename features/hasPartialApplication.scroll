@@ -9,15 +9,15 @@ html
  <a class="trueBaseThemePreviousItem" href="hasPairs.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasPatternMatching.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  const addNumbers = (num1, num2) =&gt; num1 + num2
  const add5 = num =&gt; addNumbers(10, num)
 
-codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>:
+codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
  // http://www.cplusplus.com/reference/functional/bind/
  // bind example
  #include &lt;iostream&gt;     // std::cout
@@ -81,9 +81,7 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  &quot;hello world ${app.args[0]}&quot;
  
 
-* Languages *with* Partial Application include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/clojure.html">Clojure</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
-
-* This question asks: Does the language support partial application?
+* Languages *with* Partial Application include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/clojure.html">Clojure</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Partial Application on the web: 1.
  https://en.wikipedia.org/wiki/Partial_application 1.

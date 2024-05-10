@@ -1,36 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Filterscript
+import ../measures/conceptPage.scroll
+id Filterscript
+appeared 2012
+type pl
+conceptDescription A subset of RenderScript
 
-title Filterscript - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hoon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rpl-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/filterscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=filterscript" class="material-symbols-outlined">edit</a></div>
-
-* Filterscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #1643 <span title="TotalRank: 2147 Jobs: 103 Users: 2838 Facts: 1058 Links: 986">on PLDB</span>
- 12 Years Old
- 0 <span title="Filterscript repos on GitHub.">Repos</span>
-
-* A subset of RenderScript
-
-- There are at least 0 Filterscript repos on <a href="https://github.com/search?q=language:Filterscript">GitHub</a>
-- file extensions for Filterscript include fs
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #pragma version(1)
  #pragma rs java_package_name(foo)
  
@@ -49,8 +23,14 @@ codeWithHeader Example from the web:
    return 0;
  }
 
-endColumns
+githubLanguage Filterscript
+ fileExtensions fs
+ trendingProjectsCount 0
+ type programming
+ group RenderScript
+ aceMode text
+ tmScope none
+ repos 0
 
-keyboardNav hoon.html rpl-lang.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

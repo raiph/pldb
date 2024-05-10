@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cimfast
-
-title cimfast - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="chronologz.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cims-pl-i.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cimfast.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cimfast" class="material-symbols-outlined">edit</a></div>
-
-* cimfast is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3567 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* CIMfast was an event driven language for "computer integrated manufacturing", developed in the early 1990's. It was high level language used to control BaseStar. BaseStar was a software library for manufacturing support (basically it was messaging middleware, nothing specific for any kind of industry),  developed and sold by DEC. It had C API. CIMfast was language intended to replace the need for low level C. CIMfast controlled manufacturing line was deployed by Fiat.
-
-- cimfast first developed in <a href="../lists/originCommunities.html#dec">DEC</a>
-- file extensions for cimfast include cel
-- Read more about cimfast on the web: 1.
- http://www.activityclub.org/decnotes/showconf.php?conf=340 1.
-
-<br>
-
-endColumns
-
-keyboardNav chronologz.html cims-pl-i.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id cimfast
+appeared 1991
+type pl
+conceptDescription CIMfast was an event driven language for "computer integrated manufacturing", developed in the early 1990's. It was high level language used to control BaseStar. BaseStar was a software library for manufacturing support (basically it was messaging middleware, nothing specific for any kind of industry),  developed and sold by DEC. It had C API. CIMfast was language intended to replace the need for low level C. CIMfast controlled manufacturing line was deployed by Fiat.
+reference http://www.activityclub.org/decnotes/showconf.php?conf=340
+fileExtensions cel
+country United States
+originCommunity DEC

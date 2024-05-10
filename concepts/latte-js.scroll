@@ -1,45 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title latte-js
+import ../measures/conceptPage.scroll
+id latte-js
+appeared 2012
+type pl
+creators Sean Micklethwaite
+website https://web.archive.org/web/20181103105843/http://lattejs.com/
+country United Kingdom
+originCommunity https://github.com/tehsenaus/latte-js/issues
 
-title latte-js - Programming language
- hidden
+example
+ for (x in y if (x.is('awesome')))
 
-html
- <a class="trueBaseThemePreviousItem" href="chika.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="duro.html">&gt;</a>
+githubRepo https://github.com/tehsenaus/latte-js/
+ stars 16
+ forks 0
+ subscribers 1
+ created 2012
+ updated 2015
+ description JavaScript + Milk & Sugar
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/latte-js.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20181103105843/http://lattejs.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/tehsenaus/latte-js/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=latte-js" class="material-symbols-outlined">edit</a></div>
-
-* latte-js is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Sean Micklethwaite.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#seanMicklethwaite Sean Micklethwaite
-
-codeWithHeader Source code:
- git clone https://github.com/tehsenaus/latte-js/
-
-dashboard
- #2253 <span title="TotalRank: 2758 Jobs: 103 Users: 2245 Facts: 1669 Links: 986">on PLDB</span>
- 12 Years Old
-
-* JavaScript + Milk & Sugar
-
-- latte-js website
- https://web.archive.org/web/20181103105843/http://lattejs.com/
-- latte-js is developed on <a href="https://github.com/tehsenaus/latte-js/">GitHub</a> and has 16 stars
-- latte-js first developed in <a href="../lists/originCommunities.html#httpsGithubComTehsenausLatteJsIssues">https://github.com/tehsenaus/latte-js/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
- for (x in y if (x.is(&#39;awesome&#39;)))
-
-endColumns
-
-keyboardNav chika.html duro.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 73
+ committers 5
+ files 57

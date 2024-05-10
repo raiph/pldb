@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LAURE
+import ../measures/conceptPage.scroll
+id LAURE
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/ff67c4cc2bf1f1365c8eadb716cb4c988ff0c8b7
+country France
+originCommunity Bouygues S.A
 
-title LAURE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1637
 
-html
- <a class="trueBaseThemePreviousItem" href="larch.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lcf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/laure.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=laure" class="material-symbols-outlined">edit</a></div>
-
-* LAURE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3775 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- LAURE first developed in <a href="../lists/originCommunities.html#bouyguesSA">Bouygues S.A</a>
-- LAURE on HOPL
- https://hopl.info/showlanguage.prx?exp=1637
-- Read more about LAURE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ff67c4cc2bf1f1365c8eadb716cb4c988ff0c8b7 1.
-
-<br>
-
-endColumns
-
-keyboardNav larch.html lcf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

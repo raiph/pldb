@@ -1,44 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ulisp
+import ../measures/conceptPage.scroll
+id ulisp
+appeared 2016
+type pl
+creators David Johnson-Davies
+conceptDescription uLisp® is a version of the Lisp programming language specifically designed to run on microcontrollers with a limited amount of RAM.
+website http://www.ulisp.com/show?3J
 
-title ulisp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="goal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autocoder.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ulisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.ulisp.com/show?3J" class="material-symbols-outlined">home</a> <a href="https://github.com/technoblogy/ulisp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ulisp" class="material-symbols-outlined">edit</a></div>
-
-* ulisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by David Johnson-Davies.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#davidJohnsonDavies David Johnson-Davies
-
-codeWithHeader Source code:
- git clone https://github.com/technoblogy/ulisp
-
-dashboard
- #1398 <span title="TotalRank: 1922 Jobs: 103 Users: 833 Facts: 1591 Links: 986">on PLDB</span>
- 8 Years Old
-
-* uLisp® is a version of the Lisp programming language specifically designed to run on microcontrollers with a limited amount of RAM.
-
-- ulisp website
- http://www.ulisp.com/show?3J
-- ulisp is developed on <a href="https://github.com/technoblogy/ulisp">GitHub</a> and has 297 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (defun b (x) (pinmode 13 t) (digitalwrite 13 x) (delay 500) (b (not x)))
 
-endColumns
+githubRepo https://github.com/technoblogy/ulisp
+ firstCommit 2016
+ stars 297
+ forks 40
+ subscribers 23
+ created 2016
+ updated 2022
+ description A version of the Lisp programming language for ATmega-based Arduino boards.
+ issues 8
 
-keyboardNav goal.html autocoder.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 69
+ committers 2
+ files 7

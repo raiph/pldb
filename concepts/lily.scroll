@@ -1,46 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lily
+import ../measures/conceptPage.scroll
+id Lily
+appeared 2011
+type pl
+conceptDescription An interpreted language with a focus on expressiveness and type safety
+website http://lily-lang.org
+webRepl http://lily-lang.org/intro-sandbox.html
+country Unknown
+originCommunity https://gitlab.com/FascinatedBox/lily/-/issues
+domainName lily-lang.org
+ registered 2016
 
-title Lily - Programming language
- hidden
+hasComments true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ldap.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="apex.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lily.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://lily-lang.org" class="material-symbols-outlined">home</a> <a href="http://lily-lang.org/intro-sandbox.html" class="material-symbols-outlined">terminal</a> <a href="https://github.com/FascinatedBox/lily" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lily" class="material-symbols-outlined">edit</a></div>
-
-* Lily is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/FascinatedBox/lily
-
-dashboard
- #654 <span title="TotalRank: 1235 Jobs: 103 Users: 493 Facts: 639 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Try now: <a href="http://lily-lang.org/intro-sandbox.html">Web</a> · <a href="https://tio.run/#lily">TIO</a>
-
-* An interpreted language with a focus on expressiveness and type safety
-
-- Lily website
- http://lily-lang.org
-- Lily is developed on <a href="https://github.com/FascinatedBox/lily">GitHub</a> and has 1,079 stars
-- Lily on GitLab
- https://gitlab.com/FascinatedBox/lily
-- Lily first developed in <a href="../lists/originCommunities.html#httpsGitlabComFascinatedBoxLilyIssues">https://gitlab.com/FascinatedBox/lily/-/issues</a>
-- Explore Lily snippets on <a href="http://www.rosettacode.org/wiki/Category:Lily">Rosetta Code</a>
-- <a href="http://lily-lang.org">lily-lang.org</a> was registered in 2016
-
-<br>
-
-codeWithHeader Example from the web:
+example
  scoped enum Color { Black, Blue, Cyan, Green, Magenta, Red, White, Yellow }
  
  class Terminal(public var @foreground: Color, width_str: String)
@@ -52,29 +25,36 @@ codeWithHeader Example from the web:
      }
  }
  
- var terms = [Terminal(Color.White, &quot;A&quot;), Terminal(Color.Red, &quot;40&quot;)]
+ var terms = [Terminal(Color.White, "A"), Terminal(Color.Red, "40")]
  
  terms.each(|e| e.width += 20 )
-      |&gt; print
+      |> print
 
-endColumns
+githubRepo https://github.com/FascinatedBox/lily
+ firstCommit 2011
+ stars 1079
+ forks 39
+ subscribers 32
+ created 2014
+ updated 2022
+ description Interpreted language focused on expressiveness and type safety.
+ issues 0
+gitlabRepo https://gitlab.com/FascinatedBox/lily
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2011
+ commits 5225
+ committers 28
+ files 195
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+rosettaCode http://www.rosettacode.org/wiki/Category:Lily
 
-keyboardNav ldap.html apex.html
+tryItOnline lily
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2017|Independently published|The Lily and the Cross: A Ring and Crown Novel|de la Cruz, Melissa|9781973305514

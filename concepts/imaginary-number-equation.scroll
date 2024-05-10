@@ -1,33 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Imaginary Number Equation
-
-title Imaginary Number Equation - Equation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gedit-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="intellijidea-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/imaginary-number-equation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=imaginary-number-equation" class="material-symbols-outlined">edit</a></div>
-
-* Imaginary Number Equation is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+equation">equation</a> created in 1572.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1572 1572
-
-dashboard
- #3653 on PLDB
- 452 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav gedit-editor.html intellijidea-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Imaginary Number Equation
+appeared 1572
+type equation
+equation
+ i^2 = −1

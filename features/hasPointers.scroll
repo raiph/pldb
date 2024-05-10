@@ -9,17 +9,12 @@ html
  <a class="trueBaseThemePreviousItem" href="hasPipes.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasPolymorphism.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/tick-c.html">Tick C</a>:
+codeWithHeader Example from <a href="../concepts/c.html">C</a>:
  int *ptr;
-
-codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
- // Pointers supported only under certain conditions.
- // Get 16 bytes of memory from the process&#39;s unmanaged memory
- IntPtr pointer = System.Runtime.InteropServices.Marshal.AllocHGlobal(16);
 
 codeWithHeader Example from <a href="../concepts/go.html">Go</a>:
  package main
@@ -40,12 +35,10 @@ codeWithHeader Example from <a href="../concepts/go.html">Go</a>:
  }
  
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- || i = 0
- || p = &amp;i
- *p = 1
- if (i == 1)
-  &quot;success&quot;
+codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
+ // Pointers supported only under certain conditions.
+ // Get 16 bytes of memory from the process&#39;s unmanaged memory
+ IntPtr pointer = System.Runtime.InteropServices.Marshal.AllocHGlobal(16);
 
 codeWithHeader Example from <a href="../concepts/felix.html">Felix</a>:
  var x = 1;
@@ -53,6 +46,13 @@ codeWithHeader Example from <a href="../concepts/felix.html">Felix</a>:
 
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  let ptr: *int = nil
+
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ || i = 0
+ || p = &amp;i
+ *p = 1
+ if (i == 1)
+  &quot;success&quot;
 
 codeWithHeader Example from <a href="../concepts/fortran-90.html">Fortran 90</a>:
  type real_list_t
@@ -71,11 +71,9 @@ codeWithHeader Example from <a href="../concepts/fortran-90.html">Fortran 90</a>
    real_list_temp =&gt; real_list_temp%next
  end do
 
-* Languages *with* Pointers include <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/cobol.html">COBOL</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/modula-2.html">Modula-2</a>, <a href="../concepts/eiffel.html">Eiffel</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/oberon.html">Oberon</a>, <a href="../concepts/pl-i.html">PL/I</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/oberon-2.html">Oberon-2</a>, <a href="../concepts/freebasic.html">FreeBASIC</a>, <a href="../concepts/felix.html">Felix</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/blitzmax.html">BlitzMax</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/fortran-90.html">Fortran 90</a>, <a href="../concepts/tick-c.html">Tick C</a>, <a href="../concepts/cooc.html">cooC</a>, <a href="../concepts/modula-2p.html">Modula-2+</a>, <a href="../concepts/pl-i-formac.html">PL/I-FORMAC</a>
+* Languages *with* Pointers include <a href="../concepts/c.html">C</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/cobol.html">COBOL</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/eiffel.html">Eiffel</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/felix.html">Felix</a>, <a href="../concepts/oberon.html">Oberon</a>, <a href="../concepts/modula-2.html">Modula-2</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/blitzmax.html">BlitzMax</a>, <a href="../concepts/freebasic.html">FreeBASIC</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/fortran-90.html">Fortran 90</a>, <a href="../concepts/pl-i.html">PL/I</a>
 
-* Languages *without* Pointers include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>
-
-* This question asks: Does the language have a structure that is a location in memory?
+* Languages *without* Pointers include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/progsbase.html">progsbase</a>
 
 * Read more about Pointers on the web: 1.
  https://en.wikipedia.org/wiki/Pointer_(computer_programming) 1.

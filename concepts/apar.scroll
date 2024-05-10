@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APAR
+import ../measures/conceptPage.scroll
+id APAR
+appeared 1958
+type pl
+reference https://semanticscholar.org/paper/a74b671918bbfb9c0ecca06b75b871cf857340d9
+country United States
+originCommunity Sandia Corporation
 
-title APAR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6025
 
-html
- <a class="trueBaseThemePreviousItem" href="ansi-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aparel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=apar" class="material-symbols-outlined">edit</a></div>
-
-* APAR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3478 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- APAR first developed in <a href="../lists/originCommunities.html#sandiaCorporation">Sandia Corporation</a>
-- APAR on HOPL
- https://hopl.info/showlanguage.prx?exp=6025
-- Read more about APAR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a74b671918bbfb9c0ecca06b75b871cf857340d9 1.
-
-<br>
-
-endColumns
-
-keyboardNav ansi-basic.html aparel.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

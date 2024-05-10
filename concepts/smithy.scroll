@@ -1,55 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Smithy
+import ../measures/conceptPage.scroll
+id Smithy
+appeared 2016
+type pl
+website https://smithy.io/
+country United States
+originCommunity Amazon Web Services, Inc
 
-title Smithy - Programming language
- hidden
+hasMultiLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="simit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="socialite.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smithy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://smithy.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=smithy" class="material-symbols-outlined">edit</a></div>
-
-* Smithy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2918 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 8 Years Old
-
-* 
-
-- Smithy website
- https://smithy.io/
-- Smithy first developed in <a href="../lists/originCommunities.html#amazonWebServicesInc">Amazon Web Services, Inc</a>
-- file extensions for Smithy include smithy
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/smithy.py">syntax highlighting</a> for Smithy
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav simit.html socialite.html
-
-import ../footer.scroll
+pygmentsHighlighter Smithy
+ filename smithy.py
+ fileExtensions smithy

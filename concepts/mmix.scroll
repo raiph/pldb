@@ -1,40 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mmix
+import ../measures/conceptPage.scroll
+id mmix
+appeared 1999
+type assembly
+conceptDescription During the 1990s I spent considerable time designing a computer that would be representative of modern machines, yet easy to learn. Several of the leading experts in the field gave me considerable help with the design. The result was MMIX — "A RISC computer for the new millennium". In 1999 I completed the preliminary software to support basic MMIX programming and the simulation of many versions of the architecture.
+reference http://mmix.cs.hm.edu/examples/index.html
+country Germany
+originCommunity HM Hochschule München University of Applied Sciences
 
-title mmix - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="emoticon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="red-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mmix.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mmix" class="material-symbols-outlined">edit</a></div>
-
-* mmix is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #2447 <span title="TotalRank: 2979 Jobs: 103 Users: 2838 Facts: 1890 Links: 986">on PLDB</span>
- 25 Years Old
-
-* During the 1990s I spent considerable time designing a computer that would be representative of modern machines, yet easy to learn. Several of the leading experts in the field gave me considerable help with the design. The result was MMIX — "A RISC computer for the new millennium". In 1999 I completed the preliminary software to support basic MMIX programming and the simulation of many versions of the architecture.
-
-- mmix first developed in <a href="../lists/originCommunities.html#hmHochschuleMunchenUniversityOfAppliedSciences">HM Hochschule München University of Applied Sciences</a>
-- Explore mmix snippets on <a href="http://www.rosettacode.org/wiki/Category:MMIX">Rosetta Code</a>
-- Read more about mmix on the web: 1.
- http://mmix.cs.hm.edu/examples/index.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
   LOC Data_Segment
   GREG  @
- Text  BYTE  &quot;Hello world!&quot;,10,0
+ Text  BYTE  "Hello world!",10,0
  
   LOC #100
  
@@ -42,8 +18,6 @@ codeWithHeader Example from the web:
   TRAP  0,Fputs,StdOut
   TRAP  0,Halt,0
 
-endColumns
+rosettaCode http://www.rosettacode.org/wiki/Category:MMIX
 
-keyboardNav emoticon.html red-lang.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

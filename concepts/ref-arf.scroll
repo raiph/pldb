@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title REF-ARF
+import ../measures/conceptPage.scroll
+id REF-ARF
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/26da054184537d329800f4cb4c6316dd08f6e7a7
+country United States
+originCommunity Carnegie-Mellon University
 
-title REF-ARF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=525
 
-html
- <a class="trueBaseThemePreviousItem" href="recol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="reflisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ref-arf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ref-arf" class="material-symbols-outlined">edit</a></div>
-
-* REF-ARF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3977 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- REF-ARF first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie-Mellon University</a>
-- REF-ARF on HOPL
- https://hopl.info/showlanguage.prx?exp=525
-- Read more about REF-ARF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/26da054184537d329800f4cb4c6316dd08f6e7a7 1.
-
-<br>
-
-endColumns
-
-keyboardNav recol.html reflisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

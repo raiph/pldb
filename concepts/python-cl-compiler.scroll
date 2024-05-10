@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title python-cl-compiler
+import ../measures/conceptPage.scroll
+id python-cl-compiler
+appeared 1991
+type compiler
+conceptDescription The Python compiler for CMU Common Lisp has been under development for over five years, and now forms the core of a production quality public domain Lisp implementation. Python synthesizes the good ideas from Lisp compilers and source transformation systems with mainstream optimization and retargetability techniques. Novel features include strict type checking and source-level debugging of compiled code. Unusual attention has been paid to the compiler's user interface.
+reference https://www.researchgate.net/publication/221252239_Python_compiler_for_CMU_common_Lisp
+country United States
+originCommunity Carnegie Mellon University
 
-title python-cl-compiler - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="py.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qas.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/python-cl-compiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=python-cl-compiler" class="material-symbols-outlined">edit</a></div>
-
-* python-cl-compiler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4795 on PLDB
- 33 Years Old
-
-* The Python compiler for CMU Common Lisp has been under development for over five years, and now forms the core of a production quality public domain Lisp implementation. Python synthesizes the good ideas from Lisp compilers and source transformation systems with mainstream optimization and retargetability techniques. Novel features include strict type checking and source-level debugging of compiled code. Unusual attention has been paid to the compiler's user interface.
-
-- python-cl-compiler first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a>
-- Read more about python-cl-compiler on the web: 1.
- https://www.researchgate.net/publication/221252239_Python_compiler_for_CMU_common_Lisp 1.
-
-<br>
-
-endColumns
-
-keyboardNav py.html qas.html
-
-import ../footer.scroll
+fileType na
+centralPackageRepositoryCount 0

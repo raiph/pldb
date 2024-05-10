@@ -1,39 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title souper
+import ../measures/conceptPage.scroll
+id souper
+appeared 2014
+type optimizingCompiler
+conceptDescription A superoptimizer for LLVM IR
+country United States
+originCommunity Google Inc
 
-title souper - Optimizing compiler
- hidden
+githubRepo https://github.com/google/souper
+ firstCommit 2014
+ stars 1782
+ forks 150
+ subscribers 68
+ created 2014
+ updated 2022
+ description A superoptimizer for LLVM IR
+ issues 87
 
-html
- <a class="trueBaseThemePreviousItem" href="cesil.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="newick-format.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 861
+ committers 31
+ files 819
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/souper.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/google/souper" class="material-symbols-outlined">code</a> <a href="/edit.html?id=souper" class="material-symbols-outlined">edit</a></div>
-
-* souper is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+optimizingCompiler">optimizing compiler</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/google/souper
-
-dashboard
- #865 <span title="TotalRank: 1429 Jobs: 103 Users: 340 Facts: 1669 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A superoptimizer for LLVM IR
-
-- souper is developed on <a href="https://github.com/google/souper">GitHub</a> and has 1,782 stars
-- souper first developed in <a href="../lists/originCommunities.html#googleInc">Google Inc</a>
-
-<br>
-
-endColumns
-
-keyboardNav cesil.html newick-format.html
-
-import ../footer.scroll
+isbndb 0

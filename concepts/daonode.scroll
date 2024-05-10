@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title daonode
+import ../measures/conceptPage.scroll
+id daonode
+appeared 2011
+type pl
+creators Simeon Chaos
+website https://pythonhosted.org/daot/
+country Unknown
+originCommunity http://groups.google.com/group/daot
 
-title daonode - Programming language
- hidden
+githubRepo https://github.com/chaosim/daonode
+ stars 26
+ forks 2
+ subscribers 6
+ created 2013
+ updated 2015
+ description  functional logic solver and compiler
 
-html
- <a class="trueBaseThemePreviousItem" href="typecastjs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clix.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/daonode.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pythonhosted.org/daot/" class="material-symbols-outlined">home</a> <a href="https://github.com/chaosim/daonode" class="material-symbols-outlined">code</a> <a href="/edit.html?id=daonode" class="material-symbols-outlined">edit</a></div>
-
-* daonode is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Simeon Chaos.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#simeonChaos Simeon Chaos
-
-codeWithHeader Source code:
- git clone https://github.com/chaosim/daonode
-
-dashboard
- #2422 <span title="TotalRank: 2979 Jobs: 103 Users: 2042 Facts: 1890 Links: 986">on PLDB</span>
- 13 Years Old
-
-*  functional logic solver and compiler
-
-- daonode website
- https://pythonhosted.org/daot/
-- daonode is developed on <a href="https://github.com/chaosim/daonode">GitHub</a> and has 26 stars
-- daonode first developed in <a href="../lists/originCommunities.html#httpGroupsGoogleComGroupDaot">http://groups.google.com/group/daot</a>
-
-<br>
-
-endColumns
-
-keyboardNav typecastjs.html clix.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 159
+ committers 3
+ files 82

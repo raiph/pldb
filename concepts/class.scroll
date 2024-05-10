@@ -1,39 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CLASS
+import ../measures/conceptPage.scroll
+id CLASS
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/e781175930bf95dfd327f75b3358906e2984d35c
+country United States
+originCommunity Air Force Logistics Command
 
-title CLASS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5148
 
-html
- <a class="trueBaseThemePreviousItem" href="aarch64.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edison.html">&gt;</a>
+wordRank 388
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/class.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=class" class="material-symbols-outlined">edit</a></div>
-
-* CLASS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #2721 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- CLASS first developed in <a href="../lists/originCommunities.html#airForceLogisticsCommand">Air Force Logistics Command</a>
-- CLASS on HOPL
- https://hopl.info/showlanguage.prx?exp=5148
-- Read more about CLASS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e781175930bf95dfd327f75b3358906e2984d35c 1.
-
-<br>
-
-endColumns
-
-keyboardNav aarch64.html edison.html
-
-import ../footer.scroll
+semanticScholar 4
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1994|Engineering a Programming Language: The Type and Class System of Sather|10.1007/3-540-57840-4_33|89|5|C. Szyperski and S. Omohundro and S. Murer|47859a3e075dddf97b090c2316b67bc591783c14
+ 2018|A User-Friendly Hybrid Sparse Matrix Class in C++|10.1007/978-3-319-96418-8_50|66|0|C. Sanderson and Ryan R. Curtin|993f7e6b6c61fb85c7c4ef355e140a37f7f1f766
+ 1988|Object-oriented programming with class dictionaries|10.1007/BF01806171|32|1|K. Lieberherr|245a87995b8d172910867b81966c2d7163103125
+ 1992|A class of programming language mechanisms to facilitate multiple implementations of the same specification|10.1109/ICCL.1992.185491|7|0|M. Sitaraman|c87571871a8d6c428c10f37cdfa01c6a390faa04

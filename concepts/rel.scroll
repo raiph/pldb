@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title REL
+import ../measures/conceptPage.scroll
+id REL
+appeared 1968
+type pl
+creators Peter C. Lockemann and Frederick B. Thompson
+reference https://semanticscholar.org/paper/ba528fcdd157e7c1aa41bd9504038fc0ec0a4269
+country United States
+originCommunity California Institute of Technology
 
-title REL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3192
 
-html
- <a class="trueBaseThemePreviousItem" href="rel-english.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="relix.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rel" class="material-symbols-outlined">edit</a></div>
-
-* REL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968 by Peter C. Lockemann and Frederick B. Thompson.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
- link ../lists/creators.html#peterCLockemann Peter C. Lockemann
- link ../lists/creators.html#frederickBThompson Frederick B. Thompson
-
-dashboard
- #4282 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- REL first developed in <a href="../lists/originCommunities.html#californiaInstituteOfTechnology">California Institute of Technology</a>
-- REL on HOPL
- https://hopl.info/showlanguage.prx?exp=3192
-- Read more about REL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ba528fcdd157e7c1aa41bd9504038fc0ec0a4269 1.
-
-<br>
-
-endColumns
-
-keyboardNav rel-english.html relix.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

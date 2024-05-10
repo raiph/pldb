@@ -1,53 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lush
+import ../measures/conceptPage.scroll
+id Lush
+appeared 2002
+type pl
+creators Leon Bottou and Yann Le Cun
+conceptDescription Lush is an object-oriented programming language designed for researchers, experimenters, and engineers interested in large-scale numerical and graphic applications. Lush is designed to be used in situations where one would want to combine the flexibility of a high-level, weakly-typed interpreted language, with the efficiency of a strongly-typed, natively-compiled language
+website https://lush.sourceforge.net/index.html
+documentation https://lush.sourceforge.net/doc.html
+reference http://wiki.c2.com/?LushLanguage
+standsFor Lisp Universal Shell
 
-title Lush - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hilbert.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pikachu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lush.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://lush.sourceforge.net/index.html" class="material-symbols-outlined">home</a> <a href="https://sourceforge.net/projects/lush/" class="material-symbols-outlined">code</a> <a href="https://lush.sourceforge.net/doc.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=lush" class="material-symbols-outlined">edit</a></div>
-
-* Lush, aka Lisp Universal Shell, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002 by Leon Bottou and Yann Le Cun.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
- link ../lists/creators.html#leonBottou Leon Bottou
- link ../lists/creators.html#yannLeCun Yann Le Cun
-
-codeWithHeader Source code:
- git clone https://sourceforge.net/projects/lush/
-
-dashboard
- #2544 <span title="TotalRank: 3156 Jobs: 103 Users: 2442 Facts: 2067 Links: 986">on PLDB</span>
- 22 Years Old
-
-* Lush is an object-oriented programming language designed for researchers, experimenters, and engineers interested in large-scale numerical and graphic applications. Lush is designed to be used in situations where one would want to combine the flexibility of a high-level, weakly-typed interpreted language, with the efficiency of a strongly-typed, natively-compiled language
-
-- Lush website
- https://lush.sourceforge.net/index.html
-- Lush docs
- https://lush.sourceforge.net/doc.html
-- Explore Lush snippets on <a href="http://www.rosettacode.org/wiki/Category:Lush">Rosetta Code</a>
-- Lush on HOPL
- https://hopl.info/showlanguage.prx?exp=8596
-- Read more about Lush on the web: 1.
- http://wiki.c2.com/?LushLanguage 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (for (i 1 100)
       (for (j 1 100)
          (if (= i j) (print (* i j))))))
 
-endColumns
+gitRepo https://sourceforge.net/projects/lush/
 
-keyboardNav hilbert.html pikachu.html
+rosettaCode http://www.rosettacode.org/wiki/Category:Lush
 
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=8596
+
+centralPackageRepositoryCount 0

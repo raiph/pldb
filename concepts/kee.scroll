@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KEE
+import ../measures/conceptPage.scroll
+id KEE
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/1d83a0ebfe649e9eddc821eccf2a08bb5e857128
+country United States
+originCommunity IntelliCorp
 
-title KEE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1154
 
-html
- <a class="trueBaseThemePreviousItem" href="kaleidoscope91.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kek-nodal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kee.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kee" class="material-symbols-outlined">edit</a></div>
-
-* KEE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3760 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- KEE first developed in <a href="../lists/originCommunities.html#intelliCorp">IntelliCorp</a>
-- KEE on HOPL
- https://hopl.info/showlanguage.prx?exp=1154
-- Read more about KEE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1d83a0ebfe649e9eddc821eccf2a08bb5e857128 1.
-
-<br>
-
-endColumns
-
-keyboardNav kaleidoscope91.html kek-nodal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

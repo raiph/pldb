@@ -1,49 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cyber
+import ../measures/conceptPage.scroll
+id Cyber
+appeared 2022
+type pl
+conceptDescription Cyber is a new language for fast, efficient, and concurrent scripting.
+website https://cyberscript.dev/
 
-title Cyber - Programming language
- hidden
+hasImports true
+ import m 'math'
+hasStrings true
+ 'World'
+hasForEachLoops true
+ for worlds each w:
+   print 'Hello, {w}!'
+hasSemanticIndentation true
+hasFunctions true
+ func fib(n int) int:
+    coyield
+    if n < 2:
+        return n
+    return fib(n - 1) + fib(n - 2)
+hasPrintDebugging true
+ print '{res} {count}'
+hasAssignment true
+ count = 0
+hasLineComments true
+ -- Counts iterations.
+hasIntegers true
+ count = 0
+hasWhileLoops true
+ while fiber.status() != #done:
+   res = coresume fiber
+   count += 1
 
-html
- <a class="trueBaseThemePreviousItem" href="llhd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="curv.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cyber.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://cyberscript.dev/" class="material-symbols-outlined">home</a> <a href="https://github.com/fubark/cyber" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cyber" class="material-symbols-outlined">edit</a></div>
-
-* Cyber is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-codeWithHeader Source code:
- git clone https://github.com/fubark/cyber
-
-dashboard
- #1011 <span title="TotalRank: 1574 Jobs: 103 Users: 974 Facts: 497 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Cyber is a new language for fast, efficient, and concurrent scripting.
-
-- Cyber website
- https://cyberscript.dev/
-- Cyber is developed on <a href="https://github.com/fubark/cyber">GitHub</a> and has 272 stars
-
-<br>
-
-codeWithHeader Example from the web:
- import m &#39;math&#39;
+example
+ import m 'math'
  
- worlds = [&#39;World&#39;, &#39;世界&#39;, &#39;दुनिया&#39;]
+ worlds = ['World', '世界', 'दुनिया']
  worlds.append(m.random())
  for worlds each w:
-     print &#39;Hello, {w}!&#39;
+     print 'Hello, {w}!'
  
  func fib(n int) int:
      coyield
-     if n &lt; 2:
+     if n < 2:
          return n
      return fib(n - 1) + fib(n - 2)
  
@@ -52,90 +51,19 @@ codeWithHeader Example from the web:
  while fiber.status() != #done:
      res = coresume fiber
      count += 1
- print &#39;{res} {count}&#39;
+ print '{res} {count}'
 
-endColumns
+githubRepo https://github.com/fubark/cyber
+ stars 272
+ forks 7
+ subscribers 10
+ created 2022
+ updated 2023
+ description Fast and concurrent scripting.
+ issues 10
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   while fiber.status() != #done:
-     res = coresume fiber
-     count += 1
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   count = 0
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- Counts iterations.
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   count = 0
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   print '{res} {count}'
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   func fib(n int) int:
-      coyield
-      if n < 2:
-          return n
-      return fib(n - 1) + fib(n - 2)
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature hasForEachLoops
-  FeatureLink ../features/hasForEachLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   for worlds each w:
-     print 'Hello, {w}!'
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   'World'
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   import m 'math'
-
-keyboardNav llhd.html curv.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 866
+ committers 8
+ files 309

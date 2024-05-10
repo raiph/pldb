@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Asspegique
+import ../measures/conceptPage.scroll
+id Asspegique
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/c0be8b78e5bdd8934496b32f68fa7985457de712
+country France
+originCommunity University of Paris
 
-title Asspegique - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6979
 
-html
- <a class="trueBaseThemePreviousItem" href="associons.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="astlog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asspegique.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=asspegique" class="material-symbols-outlined">edit</a></div>
-
-* Asspegique is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3497 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- Asspegique first developed in <a href="../lists/originCommunities.html#universityOfParis">University of Paris</a>
-- Asspegique on HOPL
- https://hopl.info/showlanguage.prx?exp=6979
-- Read more about Asspegique on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c0be8b78e5bdd8934496b32f68fa7985457de712 1.
-
-<br>
-
-endColumns
-
-keyboardNav associons.html astlog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

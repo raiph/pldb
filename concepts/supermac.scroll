@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SUPERMAC
+import ../measures/conceptPage.scroll
+id SUPERMAC
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/790cb2e8200766dfaf10fb7dcadb0d02096c0083
 
-title SUPERMAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2543
 
-html
- <a class="trueBaseThemePreviousItem" href="superforth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="svl.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/supermac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=supermac" class="material-symbols-outlined">edit</a></div>
-
-* SUPERMAC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3430 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- SUPERMAC on HOPL
- https://hopl.info/showlanguage.prx?exp=2543
-- Read more about SUPERMAC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/790cb2e8200766dfaf10fb7dcadb0d02096c0083 1.
-
-<br>
-
-endColumns
-
-keyboardNav superforth.html svl.html
-
-import ../footer.scroll
+semanticScholar 0

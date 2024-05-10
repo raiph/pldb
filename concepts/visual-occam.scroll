@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Visual Occam
+import ../measures/conceptPage.scroll
+id Visual Occam
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/732f4dce9576069747e4e48ee5ebe0c8a5706c4a
 
-title Visual Occam - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2785
 
-html
- <a class="trueBaseThemePreviousItem" href="visual-eiffel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="viva.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visual-occam.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=visual-occam" class="material-symbols-outlined">edit</a></div>
-
-* Visual Occam is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3280 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Visual Occam on HOPL
- https://hopl.info/showlanguage.prx?exp=2785
-- Read more about Visual Occam on Semantic Scholar: 1.
- https://semanticscholar.org/paper/732f4dce9576069747e4e48ee5ebe0c8a5706c4a 1.
-
-<br>
-
-endColumns
-
-keyboardNav visual-eiffel.html viva.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

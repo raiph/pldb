@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title qbe
+import ../measures/conceptPage.scroll
+id qbe
+appeared 2015
+type pl
+conceptDescription QBE aims to be a pure C embeddable backend that provides 70% of the performance of advanced compilers in 10% of the code. Its small size serves both its aspirations of correctness and our ability to understand, fix, and improve it. It also serves its users by providing trivial integration and great flexibility.
+website https://c9x.me/compile/
+country Unknown
+originCommunity https://lists.sr.ht/~mpu/qbe
 
-title qbe - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="objective-modula-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="radish.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/qbe.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://c9x.me/compile/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=qbe" class="material-symbols-outlined">edit</a></div>
-
-* qbe is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2797 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 9 Years Old
-
-* QBE aims to be a pure C embeddable backend that provides 70% of the performance of advanced compilers in 10% of the code. Its small size serves both its aspirations of correctness and our ability to understand, fix, and improve it. It also serves its users by providing trivial integration and great flexibility.
-
-- qbe website
- https://c9x.me/compile/
-- qbe first developed in <a href="../lists/originCommunities.html#httpsListsSrHtMpuQbe">https://lists.sr.ht/~mpu/qbe</a>
-
-<br>
-
-endColumns
-
-keyboardNav objective-modula-2.html radish.html
-
-import ../footer.scroll
+isbndb 0

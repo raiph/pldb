@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GraphIt
+import ../measures/conceptPage.scroll
+id GraphIt
+appeared 2017
+type pl
+conceptDescription GraphIt is a new DSL for graph computations that generates fast implementations for algorithms with different performance characteristics running on graphs with different sizes and structures. GraphIt separates what is computed (algorithm) from how it is computed (schedule). Programmers specify the algorithm using an algorithm language, and performance optimizations are specified using a separate scheduling language. The scheduling language enables programmers to easily search through this complicated tradeoff space by composing together a large set of edge traversal and vertex data layout optimizations.
+website http://graphit-lang.org/
+fileExtensions gt
+country United States
+originCommunity https://github.com/GraphIt-DSL
+domainName graphit-lang.org
+ registered 2018
+ awisRank
+  2022 11083526
 
-title GraphIt - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tap-code.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="whiley.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/graph-it.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://graphit-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/GraphIt-DSL/graphit" class="material-symbols-outlined">code</a> <a href="/edit.html?id=graph-it" class="material-symbols-outlined">edit</a></div>
-
-* GraphIt is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/GraphIt-DSL/graphit
-
-dashboard
- #730 <span title="TotalRank: 1296 Jobs: 103 Users: 850 Facts: 343 Links: 986">on PLDB</span>
- 7 Years Old
-
-* GraphIt is a new DSL for graph computations that generates fast implementations for algorithms with different performance characteristics running on graphs with different sizes and structures. GraphIt separates what is computed (algorithm) from how it is computed (schedule). Programmers specify the algorithm using an algorithm language, and performance optimizations are specified using a separate scheduling language. The scheduling language enables programmers to easily search through this complicated tradeoff space by composing together a large set of edge traversal and vertex data layout optimizations.
-
-- GraphIt website
- http://graphit-lang.org/
-- GraphIt is developed on <a href="https://github.com/GraphIt-DSL/graphit">GitHub</a> and has 308 stars
-- GraphIt first developed in <a href="../lists/originCommunities.html#httpsGithubComGraphItDsl">https://github.com/GraphIt-DSL</a>
-- file extensions for GraphIt include gt
-- <a href="http://graphit-lang.org/">graphit-lang.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
+example
  element Vertex end
  element Edge end
  const edges : edgeset{Edge}(Vertex,Vertex) = load (argv[1]);
@@ -85,21 +61,35 @@ codeWithHeader Example from the web:
        end
  
        var elapsed_time : double = stopTimer();
-       print &quot;elapsed time: &quot;;
+       print "elapsed time: ";
        print elapsed_time;
      end
  end
  
  % specify schedules here or use a separate schedule file
 
-endColumns
+githubRepo https://github.com/GraphIt-DSL/graphit
+ firstCommit 2017
+ stars 308
+ forks 29
+ subscribers 21
+ created 2017
+ updated 2022
+ description GraphIt - A High-Performance Domain Specific Language for Graph Analytics
+ issues 5
 
-## HackerNews discussions of GraphIt
+repoStats
+ firstCommit 2017
+ commits 1560
+ committers 49
+ files 914
 
-pipeTable
- title|titleLink|date|score|comments
- GraphIt: A High-Performance Domain-Specific Language for Graph Analytics|https://news.ycombinator.com/item?id=18499287|11/21/2018|34|2
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 18499287|GraphIt: A High-Performance Domain-Specific Language for Graph Analytics|http://graphit-lang.org/|2018-11-21 00:50:23 UTC|1542761423|ArtWomb|2|34
 
-keyboardNav tap-code.html whiley.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0

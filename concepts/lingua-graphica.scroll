@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lingua Graphica
+import ../measures/conceptPage.scroll
+id Lingua Graphica
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/e0671ea9ef0e9e7a1384c635d3ef6b34b207f3ce
+country United States
+originCommunity Lockheed Artificial Intelligence Cente && Lockheed Software Technology Center
 
-title Lingua Graphica - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5100
 
-html
- <a class="trueBaseThemePreviousItem" href="lincoln-reckoner.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="liseb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lingua-graphica.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lingua-graphica" class="material-symbols-outlined">edit</a></div>
-
-* Lingua Graphica is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3785 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Lingua Graphica first developed in <a href="../lists/originCommunities.html#lockheedArtificialIntelligenceCente">Lockheed Artificial Intelligence Cente</a> and <a href="../lists/originCommunities.html#lockheedSoftwareTechnologyCenter">Lockheed Software Technology Center</a>
-- Lingua Graphica on HOPL
- https://hopl.info/showlanguage.prx?exp=5100
-- Read more about Lingua Graphica on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e0671ea9ef0e9e7a1384c635d3ef6b34b207f3ce 1.
-
-<br>
-
-endColumns
-
-keyboardNav lincoln-reckoner.html liseb.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

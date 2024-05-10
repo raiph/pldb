@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Parse Tree Notation
-
-title Parse Tree Notation - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="oxide.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pegasus-autocode.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/parse-tree-notation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=parse-tree-notation" class="material-symbols-outlined">edit</a></div>
-
-* Parse Tree Notation is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3410 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 30 Years Old
-
-* An important aspect of Parse Tree Notation (PTN) is that the data structure being manipulated is the parse tree for the program, not its token list. Pattern matching in PTN is on subtrees of the program's parse tree, using DCG rules to identify the subtrees of interest
-
-- Parse Tree Notation first developed in <a href="../lists/originCommunities.html#universityOfMelbourne">University of Melbourne</a>
-- Read more about Parse Tree Notation on the web: 1.
- https://dtai.cs.kuleuven.be/projects/ALP/newsletter/archive_93_96/news/tools/grammars/ptn.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav oxide.html pegasus-autocode.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Parse Tree Notation
+appeared 1994
+type grammarLanguage
+conceptDescription An important aspect of Parse Tree Notation (PTN) is that the data structure being manipulated is the parse tree for the program, not its token list. Pattern matching in PTN is on subtrees of the program's parse tree, using DCG rules to identify the subtrees of interest
+reference https://dtai.cs.kuleuven.be/projects/ALP/newsletter/archive_93_96/news/tools/grammars/ptn.html
+country Australia
+originCommunity University of Melbourne

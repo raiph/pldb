@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Large-scale Atomic/Molecular Massively Parallel Simulator Format
+import ../measures/conceptPage.scroll
+id Large-scale Atomic/Molecular Massively Parallel Simulator Format
+appeared 1995
+type application
+reference https://en.wikipedia.org/wiki/LAMMPS
+standsFor Large-scale Atomic/Molecular Massively Parallel Simulator Format
+country United States
+originCommunity Sandia National Laboratories && Temple University
 
-title Large-scale Atomic/Molecular Massively Parallel Simulator Format - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="doml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="loglan.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lammps-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lammps-format" class="material-symbols-outlined">edit</a></div>
-
-* Large-scale Atomic/Molecular Massively Parallel Simulator Format, aka Large-scale Atomic/Molecular Massively Parallel Simulator Format, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #1001 on PLDB
- 29 Years Old
-
-* 
-
-- Large-scale Atomic/Molecular Massively Parallel Simulator Format first developed in <a href="../lists/originCommunities.html#sandiaNationalLaboratories">Sandia National Laboratories</a> and <a href="../lists/originCommunities.html#templeUniversity">Temple University</a>
-- Read more about Large-scale Atomic/Molecular Massively Parallel Simulator Format on the web: 1.
- https://en.wikipedia.org/wiki/LAMMPS 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # 2d LJ crack simulation
  
  dimension 2
@@ -99,18 +76,14 @@ codeWithHeader Example from the web:
  
  #dump   1 all atom 500 dump.crack
  
- #dump   2 all image 250 image.*.jpg type type &amp;
+ #dump   2 all image 250 image.*.jpg type type &
  #   zoom 1.6 adiam 1.5
  #dump_modify  2 pad 4
  
- #dump   3 all movie 250 movie.mpg type type &amp;
+ #dump   3 all movie 250 movie.mpg type type &
  #   zoom 1.6 adiam 1.5
  #dump_modify  3 pad 4
  
  run   5000
 
-endColumns
-
-keyboardNav doml.html loglan.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

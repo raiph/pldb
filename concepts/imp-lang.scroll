@@ -1,44 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title imp-lang
+import ../measures/conceptPage.scroll
+id imp-lang
+appeared 2019
+type pl
+conceptDescription The vision is of an emacs-y live self-modifying environment for working with structured data across multiple devices. The big moving parts are: a versioned relational database; an extensible GUI; a pure programming language built around relations; an interpreter with fast incremental view maintenance.
+website https://scattered-thoughts.net/writing/imp-intro/
+webRepl https://scattered-thoughts.net/imp
+country United States
+originCommunity https://github.com/jamii/imp/issues
 
-title imp-lang - Programming language
- hidden
+example
+ let colors = "apples" x "red" | "apples" x "green" | "oranges" x "orange" in
+ let fancy = "red" x "scarlet" | "red" x "crimson" | "green" x "emerald" in
+ "apples" colors fancy
 
-html
- <a class="trueBaseThemePreviousItem" href="goose.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jmespath.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/imp-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://scattered-thoughts.net/writing/imp-intro/" class="material-symbols-outlined">home</a> <a href="https://scattered-thoughts.net/imp" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=imp-lang" class="material-symbols-outlined">edit</a></div>
-
-* imp-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #2956 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Try now: <a href="https://scattered-thoughts.net/imp">Web</a>
-
-* The vision is of an emacs-y live self-modifying environment for working with structured data across multiple devices. The big moving parts are: a versioned relational database; an extensible GUI; a pure programming language built around relations; an interpreter with fast incremental view maintenance.
-
-- imp-lang website
- https://scattered-thoughts.net/writing/imp-intro/
-- imp-lang first developed in <a href="../lists/originCommunities.html#httpsGithubComJamiiImpIssues">https://github.com/jamii/imp/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
- let colors = &quot;apples&quot; x &quot;red&quot; | &quot;apples&quot; x &quot;green&quot; | &quot;oranges&quot; x &quot;orange&quot; in
- let fancy = &quot;red&quot; x &quot;scarlet&quot; | &quot;red&quot; x &quot;crimson&quot; | &quot;green&quot; x &quot;emerald&quot; in
- &quot;apples&quot; colors fancy
-
-endColumns
-
-keyboardNav goose.html jmespath.html
-
-import ../footer.scroll
+semanticScholar 0

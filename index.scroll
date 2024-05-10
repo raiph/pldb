@@ -1,23 +1,31 @@
 import header.scroll
 
-title SITE_NAME
+title PLDB: a Programming Language DataBase
  hidden
 
-# SITE_NAME: SITE_DESCRIPTION
-
 <center>
+
+# %~P~rogramming ~L~anguage ~D~ata~B~ase%
+ wrap ~ span style="color:black;"
+ wrap % span style="color:#828282;"
+
+css .scrollFilePage { text-align: center;}
 
 import searchForm.scroll
 
 replace BASE_URL .
 
-Saved queries
- link queries.html
- class headerLink
+import topLangs.scroll
 
-import newQueries.scroll
+<br><br>
 
-import homepageFeature.scroll
+New Posts
+ link ./posts/index.html
+ class pldbHomepageLink
+loop
+ groups posts/frontpage
+ limit 5
+ javascript `<a class="newPostLink" href="${item.relativePath}${item.file.permalink}">${item.file.title}</a>`
 
 </center>
 

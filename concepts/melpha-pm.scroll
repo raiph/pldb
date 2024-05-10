@@ -1,38 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title melpha-pm
+import ../measures/conceptPage.scroll
+id melpha-pm
+appeared 2014
+type packageManager
+website https://melpa.org/
+country France and Switzerland and United States
+originCommunity https://github.com/melpa
+domainName melpa.org
+ registered 2014
+ awisRank
+  2022 1805491
 
-title melpha-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="leazy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pbt-omega.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/melpha-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://melpa.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=melpha-pm" class="material-symbols-outlined">edit</a></div>
-
-* melpha-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3203 on PLDB
- 10 Years Old
-
-* 
-
-- melpha-pm website
- https://melpa.org/
-- melpha-pm first developed in <a href="../lists/originCommunities.html#httpsGithubComMelpa">https://github.com/melpa</a>
-- <a href="https://melpa.org/">melpa.org</a> was registered in 2014
-
-<br>
-
-endColumns
-
-keyboardNav leazy.html pbt-omega.html
-
-import ../footer.scroll
+packageCount 4079
+packageInstallCount 81967793
+forLanguages emacs-editor

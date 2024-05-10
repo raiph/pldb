@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fawlty
+import ../measures/conceptPage.scroll
+id Fawlty
+appeared 2006
+type pl
+conceptDescription Fawlty Language is an IDL8 (Interactive Data Language) compatible compiler. Fawlty Language is a closed source, but freely usable IDL clone for Linux, Windows and Mac OS X.
+website http://www.flxpert.hu/fl/
+reference https://bitbucket.org/fawlty/fl/issues
+country United States
+originCommunity Harris Geospatial Solutions, Inc
 
-title Fawlty - Programming language
- hidden
+fileType text
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="dscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="goby.html">&gt;</a>
+isbndb 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fawlty.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.flxpert.hu/fl/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=fawlty" class="material-symbols-outlined">edit</a></div>
-
-* Fawlty is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #2928 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 18 Years Old
-
-* Fawlty Language is an IDL8 (Interactive Data Language) compatible compiler. Fawlty Language is a closed source, but freely usable IDL clone for Linux, Windows and Mac OS X.
-
-- Fawlty website
- http://www.flxpert.hu/fl/
-- Fawlty first developed in <a href="../lists/originCommunities.html#harrisGeospatialSolutionsInc">Harris Geospatial Solutions, Inc</a>
-- Read more about Fawlty on the web: 1.
- https://bitbucket.org/fawlty/fl/issues 1.
-
-<br>
-
-endColumns
-
-keyboardNav dscript.html goby.html
-
-import ../footer.scroll
+semanticScholar 0

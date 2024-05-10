@@ -1,37 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title srv
+import ../measures/conceptPage.scroll
+id srv
+appeared 2010
+type idl
+website http://wiki.ros.org/srv
+fileExtensions srv
+country United States
+originCommunity Open Source Robotics Foundation, Inc
 
-title srv - Interface design language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="quorum.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="trex.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/srv.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://wiki.ros.org/srv" class="material-symbols-outlined">home</a> <a href="/edit.html?id=srv" class="material-symbols-outlined">edit</a></div>
-
-* srv is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2277 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 14 Years Old
-
-* 
-
-- srv website
- http://wiki.ros.org/srv
-- srv first developed in <a href="../lists/originCommunities.html#openSourceRoboticsFoundationInc">Open Source Robotics Foundation, Inc</a>
-- file extensions for srv include srv
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #request constants
  int8 FOO=1
  int8 BAR=2
@@ -45,9 +21,3 @@ codeWithHeader Example from the web:
  another_pkg/YetAnotherMessage val
  CustomMessageDefinedInThisPackage value
  uint32 an_integer
-
-endColumns
-
-keyboardNav quorum.html trex.html
-
-import ../footer.scroll

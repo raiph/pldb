@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SW2
+import ../measures/conceptPage.scroll
+id SW2
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/115cd06b8285a903fec34df36ee3febcf497888f
 
-title SW2 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7649
 
-html
- <a class="trueBaseThemePreviousItem" href="status-quo-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="synglish.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sw2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sw2" class="material-symbols-outlined">edit</a></div>
-
-* SW2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3215 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- SW2 on HOPL
- https://hopl.info/showlanguage.prx?exp=7649
-- Read more about SW2 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/115cd06b8285a903fec34df36ee3febcf497888f 1.
-
-<br>
-
-endColumns
-
-keyboardNav status-quo-script.html synglish.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

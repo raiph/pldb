@@ -1,39 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title arret
+import ../measures/conceptPage.scroll
+id arret
+appeared 2017
+type pl
+creators Ryan Cumming
 
-title arret - Programming language
- hidden
+githubRepo https://github.com/etaoins/arret
+ firstCommit 2017
+ stars 198
+ forks 2
+ subscribers 4
+ created 2018
+ updated 2022
+ description Pure functional Lisp implemented in Rust
+ issues 5
 
-html
- <a class="trueBaseThemePreviousItem" href="tamgu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="graal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/arret.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/etaoins/arret" class="material-symbols-outlined">code</a> <a href="/edit.html?id=arret" class="material-symbols-outlined">edit</a></div>
-
-* arret is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Ryan Cumming.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#ryanCumming Ryan Cumming
-
-codeWithHeader Source code:
- git clone https://github.com/etaoins/arret
-
-dashboard
- #1689 <span title="TotalRank: 2208 Jobs: 103 Users: 1119 Facts: 1982 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Pure functional Lisp implemented in Rust
-
-- arret is developed on <a href="https://github.com/etaoins/arret">GitHub</a> and has 198 stars
-
-<br>
-
-endColumns
-
-keyboardNav tamgu.html graal.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 2587
+ committers 9
+ files 330

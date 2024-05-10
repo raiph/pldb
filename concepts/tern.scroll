@@ -1,43 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tern
+import ../measures/conceptPage.scroll
+id tern
+appeared 2019
+type pl
+website http://tern-lang.org
+domainName tern-lang.org
+ registered 2019
 
-title tern - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sub.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="terse.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tern.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://tern-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tern" class="material-symbols-outlined">edit</a></div>
-
-* tern is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #2843 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 5 Years Old
-
-* 
-
-- tern website
- http://tern-lang.org
-- <a href="http://tern-lang.org">tern-lang.org</a> was registered in 2019
-
-<br>
-
-endColumns
-
-## HackerNews discussions of tern
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Tern Programming Language|https://news.ycombinator.com/item?id=19825828|05/04/2019|2|0
-
-keyboardNav sub.html terse.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 19825828|Show HN: Tern Programming Language|http://tern-lang.org|2019-05-04 11:34:21 UTC|1556969661|gallna|0|2

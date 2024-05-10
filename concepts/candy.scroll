@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Candy
+import ../measures/conceptPage.scroll
+id Candy
+appeared 2020
+type pl
+creators Jonas Wanke and Marcel Garus
+website https://github.com/candy-lang/Candy
+fileExtensions candy
+country Germany
+originCommunity https://github.com/candy-lang/
 
-title Candy - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cache-objectscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smx-computer-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/candy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/candy-lang/Candy" class="material-symbols-outlined">home</a> <a href="https://github.com/candy-lang/Candy" class="material-symbols-outlined">code</a> <a href="/edit.html?id=candy" class="material-symbols-outlined">edit</a></div>
-
-* Candy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Jonas Wanke and Marcel Garus.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#jonasWanke Jonas Wanke
- link ../lists/creators.html#marcelGarus Marcel Garus
-
-codeWithHeader Source code:
- git clone https://github.com/candy-lang/Candy
-
-dashboard
- #1603 <span title="TotalRank: 2121 Jobs: 103 Users: 1570 Facts: 1032 Links: 986">on PLDB</span>
- 4 Years Old
-
-* A sweet programming language that is robust, minimalistic, and expressive.
-
-- Candy website
- https://github.com/candy-lang/Candy
-- Candy is developed on <a href="https://github.com/candy-lang/Candy">GitHub</a> and has 77 stars
-- Candy first developed in <a href="../lists/originCommunities.html#httpsGithubComCandyLang">https://github.com/candy-lang/</a>
-- file extensions for Candy include candy
-
-<br>
-
-codeWithHeader Example from the web:
- type = use &quot;..Type&quot;
+example
+ type = use "..Type"
  is value := type.is value Struct
  hasKey struct key :=
    needs (is struct)
@@ -51,8 +22,16 @@ codeWithHeader Example from the web:
    needs (is struct)
    ✨.structGetKeys struct
 
-endColumns
+githubRepo https://github.com/candy-lang/Candy
+ stars 77
+ forks 1
+ subscribers 3
+ created 2020
+ updated 2022
+ description A sweet programming language that is robust, minimalistic, and expressive.
 
-keyboardNav cache-objectscript.html smx-computer-language.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 3655
+ committers 9
+ files 295

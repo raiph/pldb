@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SYNPROC
+import ../measures/conceptPage.scroll
+id SYNPROC
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/e3d95f29f65dfbd24376403b75a7008ede6f20e0
 
-title SYNPROC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6528
 
-html
- <a class="trueBaseThemePreviousItem" href="synglish.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="syntol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/synproc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=synproc" class="material-symbols-outlined">edit</a></div>
-
-* SYNPROC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3217 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- SYNPROC on HOPL
- https://hopl.info/showlanguage.prx?exp=6528
-- Read more about SYNPROC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e3d95f29f65dfbd24376403b75a7008ede6f20e0 1.
-
-<br>
-
-endColumns
-
-keyboardNav synglish.html syntol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

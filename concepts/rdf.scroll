@@ -1,72 +1,71 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RDF
+import ../measures/conceptPage.scroll
+id RDF
+appeared 1997
+type dataNotation
+website https://www.w3.org/RDF/
+documentation https://www.w3.org/TR/rdf-concepts/
+standsFor Resource Description Framework
+country United States
+originCommunity World Wide Web Consortium
 
-title RDF - Data notation
- hidden
+relatedConcepts json-ld
 
-html
- <a class="trueBaseThemePreviousItem" href="picolisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sed.html">&gt;</a>
+hasTypeInference true
+hasTriples true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rdf.pldb
+wikipedia https://en.wikipedia.org/wiki/Resource_Description_Framework
+ example
+  @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+  @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+  @prefix dc:   <http://purl.org/dc/elements/1.1/> .
+  
+  <http://en.wikipedia.org/wiki/Tony_Benn>
+      dc:publisher "Wikipedia" ;
+      dc:title "Tony Benn" ;
+      foaf:primaryTopic [
+          a foaf:Person ;
+          foaf:name "Tony Benn"
+      ] .
+ related owl xml turtle json unicode sparql sql python
+ summary The Resource Description Framework (RDF) is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax notations and data serialization formats. It is also used in knowledge management applications. RDF was adopted as a W3C recommendation in 1999. The RDF 1.0 specification was published in 2004, the RDF 1.1 specification in 2014.
+ pageId 53847
+ dailyPageViews 815
+ created 2001
+ backlinksCount 698
+ revisionCount 947
+ appeared 1997
 
-startColumns 4
+fileType text
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.w3.org/RDF/" class="material-symbols-outlined">home</a> <a href="https://www.w3.org/TR/rdf-concepts/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=rdf" class="material-symbols-outlined">edit</a></div>
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Creating The Semantic Web With Rdf: Professional Developer's Guide||Johan Hjelm|774684|3.75|4|0
 
-* RDF, aka Resource Description Framework, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 2003|O'Reilly Media|Practical RDF|Shelley Powers|9780596002633
+ 2014|Morgan Kaufmann|RDF Database Systems: Triples Storage and SPARQL Query Processing|Curé, Olivier and Blin, Guillaume|9780127999579
+ 20030718|O'Reilly Media, Inc.|Practical RDF|Shelley Powers|9780596550516
+ 20030718|O'Reilly Media, Inc.|Practical RDF|Shelley Powers|9780596515614
+ 20170929|Springer Nature|Validating RDF Data|Jose Emilio Labra Gayo; Eric Prud'hommeaux; Iovka Boneva; Dimitris Kontokostas|9783031794780
 
-dashboard
- #143 <span title="TotalRank: 412 Jobs: 103 Users: 231 Facts: 507 Links: 78">on PLDB</span>
- 27 Years Old
-
-* The Resource Description Framework (RDF) is a family of World Wide Web Consortium (W3C) specifications originally designed as a metadata data model. It has come to be used as a general method for conceptual description or modeling of information that is implemented in web resources, using a variety of syntax notations and data serialization formats. It is also used in knowledge management applications. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Resource_Description_Framework Read more on Wikipedia...
-
-- RDF website
- https://www.w3.org/RDF/
-- RDF Wikipedia page
- https://en.wikipedia.org/wiki/Resource_Description_Framework
-- RDF docs
- https://www.w3.org/TR/rdf-concepts/
-- RDF first developed in <a href="../lists/originCommunities.html#worldWideWebConsortium">World Wide Web Consortium</a>
-- See also: (9 related languages)<a href="owl.html">OWL</a>, <a href="xml.html">XML</a>, <a href="turtle.html">Turtle</a>, <a href="json.html">JSON</a>, <a href="unicode.html">Unicode</a>, <a href="sparql.html">SPARQL</a>, <a href="sql.html">SQL</a>, <a href="python.html">Python</a>, <a href="json-ld.html">JSON-LD</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Resource_Description_Framework'>Wikipedia</a>:
- @prefix rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
- @prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
- @prefix dc:   &lt;http://purl.org/dc/elements/1.1/&gt; .
- 
- &lt;http://en.wikipedia.org/wiki/Tony_Benn&gt;
-     dc:publisher &quot;Wikipedia&quot; ;
-     dc:title &quot;Tony Benn&quot; ;
-     foaf:primaryTopic [
-         a foaf:Person ;
-         foaf:name &quot;Tony Benn&quot;
-     ] .
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Triples
-  FeatureLink ../features/hasTriples.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Type Inference
-  FeatureLink ../features/hasTypeInference.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav picolisp.html sed.html
-
-import ../footer.scroll
+semanticScholar 17
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2011|RDFPath: Path Query Processing on Large RDF Graphs with MapReduce|10.1007/978-3-642-25953-1_5|39|2|Martin Przyjaciel-Zablocki and A. Schätzle and Thomas Hornung and G. Lausen|1c57966c41f0d706921a53ae1b431ef0b6b3255a
+ 2014|Towards the Novel Reasoning among Particles in PSO by the Use of RDF and SPARQL|10.1155/2014/121782|24|0|Iztok Fister and Xin-She Yang and Karin Ljubič and D. Fister and J. Brest and Iztok Fister|27cd8f658901437c5217cd34b927b81ec0eac466
+ 2008|An RDF Query Language based on Logic Programming|10.1016/j.entcs.2008.04.093|22|2|J. Almendros-Jiménez|2a58d3ac9b4b69b42fa4d06462805850f5312eca
+ 2003|Experience in Using RDF in Agent-Mediated Knowledge Architectures|10.1007/978-3-540-24612-1_12|19|1|K. Hui and Stuart W. Chalmers and P. Gray and A. Preece|72ba869a6b732d42fe79706bd335b636c9feec38
+ 2012|A Logic Programming approach for Access Control over RDF|10.4230/LIPIcs.ICLP.2012.381|16|1|Nuno Lopes and S. Kirrane and Antoine Zimmermann and A. Polleres and A. Mileo|7a1b220a2f2f65c8bfc78aa1a0ea768ec366d69a
+ 2015|Streaming transformation of XML to RDF using XPath-based mappings|10.1145/2814864.2814880|13|2|Jyun-Yao Huang and C. Lange and S. Auer|0bf807c6a9f72cc4ce841fea043c3a84828d66bd
+ 2008|Taming Existence in RDF Querying|10.1007/978-3-540-88737-9_22|9|0|François Bry and Tim Furche and Clemens Ley and B. Linse and Bruno Marnette|d28233ad60802219774027435000384fcf58065b
+ 2019|Conformance Test Cases for the RDF Mapping Language (RML)|10.1007/978-3-030-21395-4_12|8|0|Pieter Heyvaert and David Chaves-Fraga and Freddy Priyatna and Óscar Corcho and E. Mannens and R. Verborgh and Anastasia Dimou|2c9fb44d70d374eea5f529f7d4511411bf74a4df
+ 2018|Mapping Diverse Data to RDF in Practice|10.1007/978-3-030-00671-6_26|7|1|A. Chortaras and G. Stamou|70e9a4efa19345c27c79f930b70b930ba902ab41
+ 2016|Acacia-RDF: An X10-Based Scalable Distributed RDF Graph Database Engine|10.1109/CLOUD.2016.0075|6|0|Miyuru Dayarathna and Isuru Herath and Yasima Dewmini and Gayan Mettananda and Sameera Nandasiri and Sanath Jayasena and T. Suzumura|846ccf52d4d27043b4ce677e74a2b9768a02268d
+ 2016|Introducing Acacia-RDF: An X10-Based Scalable Distributed RDF Graph Database Engine|10.1109/IPDPSW.2016.31|5|0|Miyuru Dayarathna and Isuru Herath and Yasima Dewmini and Gayan Mettananda and Sameera Nandasiri and Sanath Jayasena and T. Suzumura|f51c080bc77897a0e247cb354a130a7b200e84a9
+ 2013|The RDF Pipeline Framework: Automating Distributed, Dependency-Driven Data Pipelines|10.1007/978-3-642-39437-9_5|3|1|David Booth|d255f83821c7c0ef8036e8ef3bd09c2c459b8416
+ 2014|IDE Integrated RDF Exploration, Access and RDF-Based Code Typing with LITEQ|10.1007/978-3-319-11955-7_75|3|0|Stefan Scheglmann and R. Lämmel and Martin Leinberger and Steffen Staab and Matthias Thimm and E. Viegas|c75d38f98b8d5cf5891c26a11be34cead9a0ba5d
+ 2017|Generation of Test Questions from RDF Files Using PYTHON and SPARQL|10.1088/1742-6596/806/1/012009|3|0|A. Omarbekova and A. Sharipbay and A. Barlybaev|74dd69c8377529e55c41ae7f8d6585be47653248
+ 2013|Inductive Triple Graphs: A Purely Functional Approach to Represent RDF|10.1007/978-3-319-04534-4_7|2|0|Jose Emilio Labra Gayo and J. Jeuring and J. Rodríguez|52197d9406e3c246266c046c516baffaaa89a5c5
+ 2019|C-ASP: Continuous ASP-Based Reasoning over RDF Streams|10.1007/978-3-030-20528-7_4|2|1|Thu-Le Pham and M. Ali and A. Mileo|1fce308b73ab1aa436507c54ffb94d7eee6dcbba
+ 2019|SQL2SPARQL4RDF: Automatic SQL to SPARQL Conversion for RDF Querying|10.1145/3372938.3372968|1|0|Ahmed Abatal and Khadija Alaoui and L. Alaoui and M. Bahaj|894a309620c4613fe4dddef4da8f7b4f38fe1218

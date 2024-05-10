@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Larch
+import ../measures/conceptPage.scroll
+id Larch
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/55c3a24de61631cc2d69e666ff82a778c33be462
+country United States
+originCommunity Massachusetts Institute of Technology && Digital Equipment Corporation
 
-title Larch - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1158
 
-html
- <a class="trueBaseThemePreviousItem" href="labtran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="laure.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/larch.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=larch" class="material-symbols-outlined">edit</a></div>
-
-* Larch is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3774 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- Larch first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a> and <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a>
-- Larch on HOPL
- https://hopl.info/showlanguage.prx?exp=1158
-- Read more about Larch on Semantic Scholar: 1.
- https://semanticscholar.org/paper/55c3a24de61631cc2d69e666ff82a778c33be462 1.
-
-<br>
-
-endColumns
-
-keyboardNav labtran.html laure.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

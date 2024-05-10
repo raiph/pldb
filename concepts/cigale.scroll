@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cigale
+import ../measures/conceptPage.scroll
+id Cigale
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/71184cb8ab020a6f7147a3ca9fb9454ac76c7a01
 
-title Cigale - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1204
 
-html
- <a class="trueBaseThemePreviousItem" href="celsius-webscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cogo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cigale.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cigale" class="material-symbols-outlined">edit</a></div>
-
-* Cigale is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3174 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Cigale on HOPL
- https://hopl.info/showlanguage.prx?exp=1204
-- Read more about Cigale on Semantic Scholar: 1.
- https://semanticscholar.org/paper/71184cb8ab020a6f7147a3ca9fb9454ac76c7a01 1.
-
-<br>
-
-endColumns
-
-keyboardNav celsius-webscript.html cogo.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pod6
+import ../measures/conceptPage.scroll
+id Pod6
+appeared 2019
+type textMarkup
+creators Aliaksandr Zahatski
+website https://pod6.in
+country Unknown
+originCommunity https://github.com/zag/js-pod6/issues
+domainName pod6.in
+ registered 2012
 
-title Pod6 - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tangledown.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fuzuli.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pod6.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pod6.in" class="material-symbols-outlined">home</a> <a href="https://github.com/zag/js-pod6" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pod6" class="material-symbols-outlined">edit</a></div>
-
-* Pod6 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2019 by Aliaksandr Zahatski.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#aliaksandrZahatski Aliaksandr Zahatski
-
-codeWithHeader Source code:
- git clone https://github.com/zag/js-pod6
-
-dashboard
- #1457 <span title="TotalRank: 1980 Jobs: 103 Users: 2342 Facts: 891 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Pod6 is an easy-to-use markup language. It can be used for writing language documentation, for documenting programs and modules, as well as for other types of document composition
-
-- Pod6 website
- https://pod6.in
-- Pod6 is developed on <a href="https://github.com/zag/js-pod6">GitHub</a> and has 8 stars
-- Pod6 first developed in <a href="../lists/originCommunities.html#httpsGithubComZagJsPod6Issues">https://github.com/zag/js-pod6/issues</a>
-- <a href="https://pod6.in">pod6.in</a> was registered in 2012
-
-<br>
-
-codeWithHeader Example from the web:
+example
  =begin pod
   This is an ordinary paragraph
  
@@ -52,8 +25,18 @@ codeWithHeader Example from the web:
  
  =end pod
 
-endColumns
+githubRepo https://github.com/zag/js-pod6
+ firstCommit 2019
+ stars 8
+ forks 0
+ subscribers 2
+ created 2019
+ updated 2022
+ description Pod6 is an easy-to-use markup language. It can be used for writing language documentation, for documenting programs and modules, as well as for other types of document composition
+ issues 17
 
-keyboardNav tangledown.html fuzuli.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 269
+ committers 2
+ files 155

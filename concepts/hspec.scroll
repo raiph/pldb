@@ -1,37 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hspec
+import ../measures/conceptPage.scroll
+id Hspec
+appeared 1990
+type pl
+conceptDescription Hspec is a testing framework for Haskell.
+website https://hspec.github.io/
+country Various
+originCommunity https://github.com/hspec
+domainName hspec.github.io
+ awisRank
+  2022 4534652
 
-title Hspec - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="brightscript-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="markdeep.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hspec.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hspec.github.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=hspec" class="material-symbols-outlined">edit</a></div>
-
-* Hspec is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #1729 <span title="TotalRank: 2248 Jobs: 103 Users: 2442 Facts: 1159 Links: 986">on PLDB</span>
- 34 Years Old
-
-* Hspec is a testing framework for Haskell.
-
-- Hspec website
- https://hspec.github.io/
-- Hspec first developed in <a href="../lists/originCommunities.html#httpsGithubComHspec">https://github.com/hspec</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Hspec
-
-<br>
-
-codeWithHeader Example from the web:
+example
  -- file Spec.hs
  import Test.Hspec
  import Test.QuickCheck
@@ -39,18 +18,15 @@ codeWithHeader Example from the web:
  
  main :: IO ()
  main = hspec $ do
-   describe &quot;Prelude.head&quot; $ do
-     it &quot;returns the first element of a list&quot; $ do
+   describe "Prelude.head" $ do
+     it "returns the first element of a list" $ do
        head [23 ..] `shouldBe` (23 :: Int)
  
-     it &quot;returns the first element of an *arbitrary* list&quot; $
-       property $ \x xs -&gt; head (x:xs) == (x :: Int)
+     it "returns the first element of an *arbitrary* list" $
+       property $ \x xs -> head (x:xs) == (x :: Int)
  
-     it &quot;throws an exception if used with an empty list&quot; $ do
+     it "throws an exception if used with an empty list" $ do
        evaluate (head []) `shouldThrow` anyException
 
-endColumns
-
-keyboardNav brightscript-lang.html markdeep.html
-
-import ../footer.scroll
+pygmentsHighlighter Hspec
+ filename haskell.py

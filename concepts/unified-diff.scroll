@@ -1,37 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Unified Diff
+import ../measures/conceptPage.scroll
+id Unified Diff
+appeared 1990
+type diffFormat
+creators Wayne Davison
+reference https://en.wikipedia.org/wiki/Diff#Unified_format
+aka unidiff
+originCommunity comp.sources.misc
 
-title Unified Diff - Diff format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ubasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="uiua.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unified-diff.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=unified-diff" class="material-symbols-outlined">edit</a></div>
-
-* Unified Diff is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+diffFormat">diff format</a> created in 1990 by Wayne Davison.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
- link ../lists/creators.html#wayneDavison Wayne Davison
-
-dashboard
- #968 <span title="TotalRank: 1530 Jobs: 103 Users: 2838 Facts: 760 Links: 667">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Unified Diff first developed in <a href="../lists/originCommunities.html#compSourcesMisc">comp.sources.misc</a>
-- Read more about Unified Diff on the web: 1.
- https://en.wikipedia.org/wiki/Diff#Unified_format 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  --- /path/to/original	timestamp
  +++ /path/to/new	timestamp
  @@ -1,3 +1,9 @@
@@ -57,7 +33,7 @@ codeWithHeader Example from the web:
  -check this dokument. On
  +check this document. On
   the other hand, a
-  misspelled word isn&#39;t
+  misspelled word isn't
   the end of the world.
  @@ -22,3 +23,7 @@
   this paragraph needs to
@@ -67,9 +43,3 @@ codeWithHeader Example from the web:
  +This paragraph contains
  +important new additions
  +to this document.
-
-endColumns
-
-keyboardNav ubasic.html uiua.html
-
-import ../footer.scroll

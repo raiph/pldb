@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Meroon
+import ../measures/conceptPage.scroll
+id Meroon
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/aee8c8a08f67fbcbd48e5f3b5ed47197fb4046f8
+country France
+originCommunity Institut de recherche en informatique et en automatique,Rocquencourt && LIP6, Sorbonne University
 
-title Meroon - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3598
 
-html
- <a class="trueBaseThemePreviousItem" href="mercury-programming-system.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="meta-assembler.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/meroon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=meroon" class="material-symbols-outlined">edit</a></div>
-
-* Meroon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3819 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Meroon first developed in <a href="../lists/originCommunities.html#institutDeRechercheEnInformatiqueEtEnAutomatiqueRocquencourt">Institut de recherche en informatique et en automatique,Rocquencourt</a> and <a href="../lists/originCommunities.html#lip6SorbonneUniversity">LIP6, Sorbonne University</a>
-- Meroon on HOPL
- https://hopl.info/showlanguage.prx?exp=3598
-- Read more about Meroon on Semantic Scholar: 1.
- https://semanticscholar.org/paper/aee8c8a08f67fbcbd48e5f3b5ed47197fb4046f8 1.
-
-<br>
-
-endColumns
-
-keyboardNav mercury-programming-system.html meta-assembler.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

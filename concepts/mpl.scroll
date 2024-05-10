@@ -1,40 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mpl
+import ../measures/conceptPage.scroll
+id mpl
+appeared 1988
+type pl
+website http://www.maximalsoftware.com/mpl/
+reference http://www.gmu.edu/schools/vse/seor/syllabi/02F/mplman.pdf
+fileExtensions mpl
+country United States
+originCommunity Maximal Software, Inc.
 
-title mpl - Programming language
- hidden
+relatedConcepts gams ampl
 
-html
- <a class="trueBaseThemePreviousItem" href="flagship.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tuple-space.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mpl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.maximalsoftware.com/mpl/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mpl" class="material-symbols-outlined">edit</a></div>
-
-* mpl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #1194 <span title="TotalRank: 1736 Jobs: 103 Users: 2442 Facts: 647 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- mpl website
- http://www.maximalsoftware.com/mpl/
-- mpl first developed in <a href="../lists/originCommunities.html#maximalSoftwareInc">Maximal Software, Inc.</a>
-- file extensions for mpl include mpl
-- See also: (2 related languages)<a href="gams.html">GAMS</a>, <a href="ampl.html">AMPL</a>
-- Read more about mpl on the web: 1.
- http://www.gmu.edu/schools/vse/seor/syllabi/02F/mplman.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {   Planning.mpl   } 
  
  {   Aggregate production planning for 12 months   } 
@@ -56,9 +32,9 @@ codeWithHeader Example from the web:
     InventoryCost               := 8.8 ; 
  
  DECISION VARIABLES
-    Inventory[product,month]     -&gt;  Invt
-    Production[product,month]    -&gt;  Prod
-    Sales[product,month]         -&gt;  Sale 
+    Inventory[product,month]     ->  Invt
+    Production[product,month]    ->  Prod
+    Sales[product,month]         ->  Sale 
  
  MACRO 
     Revenues  := SUM(product,month: price * Sales);
@@ -69,15 +45,9 @@ codeWithHeader Example from the web:
     MAX   Profit  =  Revenues - TotalCost ;
  
  SUBJECT TO
-    InventoryBalance[product,month]  -&gt;  IBal : 
+    InventoryBalance[product,month]  ->  IBal : 
     Inventory  =  Inventory[month-1] + Production - Sales ;
  
  BOUNDS 
-    Sales  &lt; ProductionCapacity ; Inventory[month=&quot;January..November]&quot; &lt; 90000 ; 
-    Inventory[month=&quot;December]&quot; ; END
-
-endColumns
-
-keyboardNav flagship.html tuple-space.html
-
-import ../footer.scroll
+    Sales  < ProductionCapacity ; Inventory[month="January..November]" < 90000 ; 
+    Inventory[month="December]" ; END

@@ -1,47 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title o42a
+import ../measures/conceptPage.scroll
+id o42a
+appeared 2010
+type pl
+creators Ruslan Lopatin
+conceptDescription o42a is a high-level general purpose programming language. It is: compiled, statically-typed, prototype-based, logic-driven, and primarily declarative, while the imperative programming style is also supported. A program written in o42a is closer to natural English text than one written in any C-like programming language. The language is designed with programming productivity and code maintainability as main priorities. This achieved by powerful, yet restrained, semantics, and expressive and natural syntax.
+website http://o42a.org/
+reference https://freshcode.club/projects/o42a
+reference https://dev.to/surol
+reference https://web.archive.org/web/20180909202101/http://o42a.org
+country Russia
+domainName o42a.org
 
-title o42a - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="loom.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="operon.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/o42a.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://o42a.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=o42a" class="material-symbols-outlined">edit</a></div>
-
-* o42a is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Ruslan Lopatin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#ruslanLopatin Ruslan Lopatin
-
-dashboard
- #2650 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 14 Years Old
-
-* o42a is a high-level general purpose programming language. It is: compiled, statically-typed, prototype-based, logic-driven, and primarily declarative, while the imperative programming style is also supported. A program written in o42a is closer to natural English text than one written in any C-like programming language. The language is designed with programming productivity and code maintainability as main priorities. This achieved by powerful, yet restrained, semantics, and expressive and natural syntax.
-
-- o42a website
- http://o42a.org/
-- Read more about o42a on the web: 1. 2. 3.
- https://freshcode.club/projects/o42a 1.
- https://dev.to/surol 2.
- https://web.archive.org/web/20180909202101/http://o42a.org 3.
-
-<br>
-
-codeWithHeader Example from the web:
- Use namespace &#39;Console&#39;
+example
+ Use namespace 'Console'
  @Main (
-   Print &quot;Hello, World!&quot; nl
+   Print "Hello, World!" nl
  )
-
-endColumns
-
-keyboardNav loom.html operon.html
-
-import ../footer.scroll

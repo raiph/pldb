@@ -1,104 +1,68 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tht
+import ../measures/conceptPage.scroll
+id tht
+appeared 2017
+type pl
+website https://tht-lang.org/
+domainName tht-lang.org
 
-title tht - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="bloop.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="monte.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tht.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tht-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/joelesko/tht" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tht" class="material-symbols-outlined">edit</a></div>
-
-* tht is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/joelesko/tht
-
-dashboard
- #1051 <span title="TotalRank: 1616 Jobs: 103 Users: 1390 Facts: 527 Links: 986">on PLDB</span>
- 7 Years Old
-
-* THT Programming Language
-
-- tht website
- https://tht-lang.org/
-- tht is developed on <a href="https://github.com/joelesko/tht">GitHub</a> and has 99 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // Familiar variable and List syntax.
- $colors = [&#39;red&#39;, &#39;blue&#39;, &#39;green&#39;];
+ $colors = ['red', 'blue', 'green'];
  // New JSON-style syntax for Maps
  $colorHex = {
-     red:   &#39;#FF0000&#39;,
-     green: &#39;#00FF00&#39;,
-     blue:  &#39;#0000FF&#39;,
+     red:   '#FF0000',
+     green: '#00FF00',
+     blue:  '#0000FF',
  };
  // Built-in types have methods using
- // the mainstream &#39;dot&#39; syntax.
- $colors.push(&#39;purple&#39;);
- // Extra parens aren&#39;t needed.
- if $colors.length() &gt; 3 {
+ // the mainstream 'dot' syntax.
+ $colors.push('purple');
+ // Extra parens aren't needed.
+ if $colors.length() > 3 {
      $colors.pop();
  }
  // The standard library is organized
  // into modules.
  Response.sendPage({
-     title: &#39;Colors&#39;,
+     title: 'Colors',
      body: bodyHtml($colors),
  });
  // Template Functions let you organize
  // your output (views) however you like.
  // (e.g. by component, module, file, etc.)
  template bodyHtml($colors) {
-     &lt;h1&gt;Colors&lt;/&gt;
-     &lt;ul&gt;
+     <h1>Colors</>
+     <ul>
      -- foreach $colors as $c {
-         &lt;li&gt;{{ $c.toUpperCaseFirst() }}&lt;/&gt;
+         <li>{{ $c.toUpperCaseFirst() }}</>
      -- }
-     &lt;/&gt;
+     </>
  }
 
-endColumns
+githubRepo https://github.com/joelesko/tht
+ firstCommit 2017
+ stars 99
+ forks 5
+ subscribers 12
+ created 2017
+ updated 2022
+ description THT Programming Language
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 583
+ committers 6
+ files 248
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-## HackerNews discussions of tht
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: THT – a cleaner, safer language that compiles to PHP|https://news.ycombinator.com/item?id=15163343|09/03/2017|3|0
-
-keyboardNav bloop.html monte.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 15163343|Show HN: THT – a cleaner, safer language that compiles to PHP|2017-09-03 19:29:56 UTC|1504466996|jlesk|0|3

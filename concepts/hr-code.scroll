@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hr-code
+import ../measures/conceptPage.scroll
+id hr-code
+appeared 2019
+type barCodeFormat
+creators Han Tuzun
+country Turkey
+originCommunity https://github.com/hantuzun/hr-code/issues
 
-title hr-code - Bar code format
- hidden
+githubRepo https://github.com/hantuzun/hr-code
+ firstCommit 2019
+ stars 225
+ forks 7
+ subscribers 10
+ created 2019
+ updated 2022
+ description Human Response Code: Designed to be recognized by humans and OCR. Encodes all valid URL characters to images.
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="pl-c.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cycl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hr-code.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/hantuzun/hr-code" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hr-code" class="material-symbols-outlined">edit</a></div>
-
-* hr-code is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+barCodeFormat">bar code format</a> created in 2019 by Han Tuzun.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#hanTuzun Han Tuzun
-
-codeWithHeader Source code:
- git clone https://github.com/hantuzun/hr-code
-
-dashboard
- #1622 <span title="TotalRank: 2140 Jobs: 103 Users: 1051 Facts: 1787 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Human Response Code: Designed to be recognized by humans and OCR. Encodes all valid URL characters to images.
-
-- hr-code is developed on <a href="https://github.com/hantuzun/hr-code">GitHub</a> and has 225 stars
-- hr-code first developed in <a href="../lists/originCommunities.html#httpsGithubComHantuzunHrCodeIssues">https://github.com/hantuzun/hr-code/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav pl-c.html cycl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 11
+ committers 2
+ files 4

@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lasp
+import ../measures/conceptPage.scroll
+id lasp
+appeared 2015
+type pl
+website http://lasp-lang.org
+country Belgium
+originCommunity https://github.com/lasp-lang
+domainName lasp-lang.org
+ registered 2015
+ awisRank
+  2022 3527510
 
-title lasp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kilo-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pbt-omega.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lasp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://lasp-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=lasp" class="material-symbols-outlined">edit</a></div>
-
-* lasp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2959 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- lasp website
- http://lasp-lang.org
-- lasp first developed in <a href="../lists/originCommunities.html#httpsGithubComLaspLang">https://github.com/lasp-lang</a>
-- <a href="http://lasp-lang.org">lasp-lang.org</a> was registered in 2015
-
-<br>
-
-endColumns
-
-## HackerNews discussions of lasp
-
-pipeTable
- title|titleLink|date|score|comments
- LASP: A Language for Distributed, Eventually Consistent Computations|https://news.ycombinator.com/item?id=9671964|06/06/2015|103|27
-
-keyboardNav kilo-lisp.html pbt-omega.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 9671964|LASP: A Language for Distributed, Eventually Consistent Computations|http://lasp-lang.org|2015-06-06 19:41:59 UTC|1433619719|MCRed|27|103

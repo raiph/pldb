@@ -1,36 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TeaSharp
-
-title TeaSharp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sugarj.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="acsi-matic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/teasharp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=teasharp" class="material-symbols-outlined">edit</a></div>
-
-* TeaSharp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3154 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4298 Links: 986">on PLDB</span>
- 2 Years Old
-
-* My new programming language, TeaSharp
-
-- Read more about TeaSharp on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/vfzzk0/my_new_programming_language_teasharp/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav sugarj.html acsi-matic.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id TeaSharp
+appeared 2022
+type pl
+conceptDescription My new programming language, TeaSharp
+reference https://reddit.com/r/ProgrammingLanguages/comments/vfzzk0/my_new_programming_language_teasharp/

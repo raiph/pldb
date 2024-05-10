@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LOTIS
+import ../measures/conceptPage.scroll
+id LOTIS
+appeared 1969
+type pl
+reference https://semanticscholar.org/paper/a39f4aa62c7966af1138e0eb95c4d58cc566c5d4
+country Switzerland
+originCommunity IBM
 
-title LOTIS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=428
 
-html
- <a class="trueBaseThemePreviousItem" href="lola-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lotos.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lotis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lotis" class="material-symbols-outlined">edit</a></div>
-
-* LOTIS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1969.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1969 1969
-
-dashboard
- #3794 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 55 Years Old
-
-* 
-
-- LOTIS first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- LOTIS on HOPL
- https://hopl.info/showlanguage.prx?exp=428
-- Read more about LOTIS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a39f4aa62c7966af1138e0eb95c4d58cc566c5d4 1.
-
-<br>
-
-endColumns
-
-keyboardNav lola-2.html lotos.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

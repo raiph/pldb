@@ -1,108 +1,105 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GDB
+import ../measures/conceptPage.scroll
+id GDB
+appeared 1986
+type application
+website https://www.gnu.org/software/gdb
+originCommunity GNU Project
 
-title GDB - Application
- hidden
+wikipedia https://en.wikipedia.org/wiki/GNU_Debugger
+ example
+  GNU gdb (GDB) Fedora (7.3.50.20110722-13.fc16)
+  Copyright (C) 2011 Free Software Foundation, Inc.
+  License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+  This is free software: you are free to change and redistribute it.
+  There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+  and "show warranty" for details.
+  This GDB was configured as "x86_64-redhat-linux-gnu".
+  For bug reporting instructions, please see:
+  <https://www.gnu.org/software/gdb/bugs/>...
+  Reading symbols from /path/example...done.
+  (gdb) run
+  Starting program: /path/example
+  size of a = 21
+  [Inferior 1 (process 14290) exited normally]
+ related c ada objective-c free-pascal fortran java arm atmel-avr x86-isa mips powerpc sparc arc-isa python guile freebsd vim-editor linux
+ summary The GNU Debugger (GDB) is a portable debugger that runs on many Unix-like systems and works for many programming languages, including Ada, C, C++, Objective-C, Free Pascal, Fortran, Java and partially others.
+ pageId 13052
+ dailyPageViews 192
+ created 2002
+ backlinksCount 285
+ revisionCount 429
+ appeared 1986
 
-html
- <a class="trueBaseThemePreviousItem" href="puppet.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gambas.html">&gt;</a>
+githubLanguage GDB
+ fileExtensions gdb gdbinit
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.gdb
+githubBigQuery GDB
+ repos 2603
+ users 2308
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gdb.pldb
+linguistGrammarRepo https://github.com/quarnster/SublimeGDB
+ firstCommit 2012
+ lastCommit 2018
+ committerCount 35
+ commitCount 198
+ sampleCount 2
+ example
+  #
+  # MicropendousX LPC17xx Development Board
+  #
+  # http://www.MicropendousX.org
+  #
+  # Connect to a debugger controlling a LPC17xx
+  # and download firmware.
+  #
+  # Start your OpenOCD gdb server before running
+  # this script with:  arm-none-eabi-gdb -x gdb_lpc17xx_program.gdb
+  #
+  # Note the 'monitor' command just passes its
+  # arguments to OpenOCD
+  #
+  # This file is released under the MIT License
+  #
+  
+  # Connect to OpenOCD gdb server
+  target remote localhost:3333
+  
+  # reset the LPC17xx IC with the OpenOCD reset command
+  monitor reset
+  
+  # the following are OpenOCD commands as in OpenOCD_program.script
+  # which will download a hex file into your LPC17xx
+  monitor halt
+  monitor sleep 200
+  monitor wait_halt
+  monitor flash probe 0
+  monitor flash info 0
+  monitor flash write_image erase unlock USBtoSerial.hex
+  monitor sleep 200
+  monitor reset run
+  monitor exit
+  
+  quit
+  
 
-startColumns 4
+quineRelay GDB
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.gnu.org/software/gdb" class="material-symbols-outlined">home</a> <a href="https://riju.codes/gdb" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/GNU_Debugger"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=gdb" class="material-symbols-outlined">edit</a></div>
+rijuRepl https://riju.codes/gdb
+ example
+  p "Hello, world!"
+  
 
-* GDB is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
+ubuntuPackage gdb
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #385 on PLDB
- 38 Years Old
-
-* Try now: <a href="https://riju.codes/gdb">Riju</a>
-
-* The GNU Debugger (GDB) is a portable debugger that runs on many Unix-like systems and works for many programming languages, including Ada, C, C++, Objective-C, Free Pascal, Fortran, Java and partially others.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/GNU_Debugger Read more on Wikipedia...
-
-- GDB website
- https://www.gnu.org/software/gdb
-- GDB Wikipedia page
- https://en.wikipedia.org/wiki/GNU_Debugger
-- GDB first developed in <a href="../lists/originCommunities.html#gnuProject">GNU Project</a>
-- file extensions for GDB include gdb and gdbinit
-- The  Google BigQuery Public Dataset GitHub snapshot shows 2k users using GDB in 3k repos on <a href="https://api.github.com/search/repositories?q=language:GDB">GitHub</a>
-- GDB Ubuntu package
- https://packages.ubuntu.com/jammy/gdb
-- GitHub supports <a href="https://github.com/quarnster/SublimeGDB" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for GDB
-- GDB appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- See also: (18 related languages)<a href="c.html">C</a>, <a href="ada.html">Ada</a>, <a href="objective-c.html">Objective-C</a>, <a href="free-pascal.html">Free Pascal</a>, <a href="fortran.html">Fortran</a>, <a href="java.html">Java</a>, <a href="arm.html">ARM</a>, <a href="atmel-avr.html">Atmel AVR</a>, <a href="x86-isa.html">X86</a>, <a href="mips.html">MIPS architecture</a>, <a href="powerpc.html">PowerPC</a>, <a href="sparc.html">SPARC</a>, <a href="arc-isa.html">ARC processor</a>, <a href="python.html">Python</a>, <a href="guile.html">Guile</a>, <a href="freebsd.html">FreeBSD</a>, <a href="vim-editor.html">Vim</a>, <a href="linux.html">Linux</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/gdb'>Riju</a>:
- p &quot;Hello, world!&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/quarnster/SublimeGDB'>Linguist</a>:
- #
- # MicropendousX LPC17xx Development Board
- #
- # http://www.MicropendousX.org
- #
- # Connect to a debugger controlling a LPC17xx
- # and download firmware.
- #
- # Start your OpenOCD gdb server before running
- # this script with:  arm-none-eabi-gdb -x gdb_lpc17xx_program.gdb
- #
- # Note the &#39;monitor&#39; command just passes its
- # arguments to OpenOCD
- #
- # This file is released under the MIT License
- #
- 
- # Connect to OpenOCD gdb server
- target remote localhost:3333
- 
- # reset the LPC17xx IC with the OpenOCD reset command
- monitor reset
- 
- # the following are OpenOCD commands as in OpenOCD_program.script
- # which will download a hex file into your LPC17xx
- monitor halt
- monitor sleep 200
- monitor wait_halt
- monitor flash probe 0
- monitor flash info 0
- monitor flash write_image erase unlock USBtoSerial.hex
- monitor sleep 200
- monitor reset run
- monitor exit
- 
- quit
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/GNU_Debugger'>Wikipedia</a>:
- GNU gdb (GDB) Fedora (7.3.50.20110722-13.fc16)
- Copyright (C) 2011 Free Software Foundation, Inc.
- License GPLv3+: GNU GPL version 3 or later &lt;https://gnu.org/licenses/gpl.html&gt;
- This is free software: you are free to change and redistribute it.
- There is NO WARRANTY, to the extent permitted by law.  Type &quot;show copying&quot;
- and &quot;show warranty&quot; for details.
- This GDB was configured as &quot;x86_64-redhat-linux-gnu&quot;.
- For bug reporting instructions, please see:
- &lt;https://www.gnu.org/software/gdb/bugs/&gt;...
- Reading symbols from /path/example...done.
- (gdb) run
- Starting program: /path/example
- size of a = 21
- [Inferior 1 (process 14290) exited normally]
-
-endColumns
-
-keyboardNav puppet.html gambas.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ C Prog - Using gdb (C Programming)||Subbu Dykes|48953553|0.0|0|0
+ Linux Embedded Programming: Using Gcc & Gdb|2001|Robert Wehrli|21076724|0.0|0|0
+ Accelerated Linux Core Dump Analysis: Training Course Transcript with GDB Practice Exercises (Pattern-Oriented Software Diagnostics, Forensics, Prognostics, Root Cause Analysis, Debugging Courses)||Dmitry Vostokov|53944849|0.0|0|0
+ Accelerated Mac OS X Core Dump Analysis, Second Edition: Training Course Transcript with GDB and LLDB Practice Exercises (Pattern-Oriented Software Diagnostics, ... Root Cause Analysis, Debugging Courses)||Dmitry Vostokov|60311040|0.0|0|0

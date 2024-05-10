@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title N-Prolog
+import ../measures/conceptPage.scroll
+id N-Prolog
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/d32be98849af4eb52ade505125f7444c5b1220b5
+country United Kingdom and Germany
+originCommunity Imperial College && Universität Stuttgart
 
-title N-Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2289
 
-html
- <a class="trueBaseThemePreviousItem" href="musys.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nail.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/n-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=n-prolog" class="material-symbols-outlined">edit</a></div>
-
-* N-Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #4226 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- N-Prolog first developed in <a href="../lists/originCommunities.html#imperialCollege">Imperial College</a> and <a href="../lists/originCommunities.html#universitatStuttgart">Universität Stuttgart</a>
-- N-Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=2289
-- Read more about N-Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d32be98849af4eb52ade505125f7444c5b1220b5 1.
-
-<br>
-
-endColumns
-
-keyboardNav musys.html nail.html
-
-import ../footer.scroll
+isbndb 0

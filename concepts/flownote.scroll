@@ -1,47 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title flownote
+import ../measures/conceptPage.scroll
+id flownote
+appeared 2019
+type pl
+website https://gitter.im/flownote/community
+country United States
+originCommunity https://github.com/Emblem21-OpenSource
 
-title flownote - Programming language
- hidden
+githubRepo https://github.com/Emblem21-OpenSource/flownote
+ firstCommit 2019
+ stars 6
+ forks 1
+ subscribers 4
+ created 2019
+ updated 2019
+ description FlowNote lets developers create, organize, and reason about event-oriented applications with a simple flow-based language.
+ issues 18
 
-html
- <a class="trueBaseThemePreviousItem" href="emesh.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oopsilon.html">&gt;</a>
+repoStats
+ firstCommit 2019
+ commits 142
+ committers 3
+ files 107
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flownote.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gitter.im/flownote/community" class="material-symbols-outlined">home</a> <a href="https://github.com/Emblem21-OpenSource/flownote" class="material-symbols-outlined">code</a> <a href="/edit.html?id=flownote" class="material-symbols-outlined">edit</a></div>
-
-* flownote is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/Emblem21-OpenSource/flownote
-
-dashboard
- #2089 <span title="TotalRank: 2591 Jobs: 103 Users: 2337 Facts: 1502 Links: 986">on PLDB</span>
- 5 Years Old
-
-* FlowNote lets developers create, organize, and reason about event-oriented applications with a simple flow-based language.
-
-- flownote website
- https://gitter.im/flownote/community
-- flownote is developed on <a href="https://github.com/Emblem21-OpenSource/flownote">GitHub</a> and has 6 stars
-- flownote first developed in <a href="../lists/originCommunities.html#httpsGithubComEmblem21OpenSource">https://github.com/Emblem21-OpenSource</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of flownote
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Preview of FlowNote, a language for flow-based paradigms|https://news.ycombinator.com/item?id=19440418|03/20/2019|1|0
-
-keyboardNav emesh.html oopsilon.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 19440418|Show HN: Preview of FlowNote, a language for flow-based paradigms|2019-03-20 09:40:14 UTC|1553074814|FlowNote|0|1

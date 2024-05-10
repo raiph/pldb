@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title orange
+import ../measures/conceptPage.scroll
+id orange
+appeared 2014
+type pl
+creators Robert Fratto
+conceptDescription Orange is a systems programming language made to be as powerful as C++ with none of the headache. It aims to be very productive by baking the most important low- and high-level features directly into the language, instead of dealing with them through obtuse function calls.
+website https://web.archive.org/web/20191002000130/http://orange-lang.org/
+country United States
+originCommunity https://github.com/orange-lang
+domainName orange-lang.org
 
-title orange - Programming language
- hidden
+keywords alias bool break catch char class const continue data def delete do double elif else enum extend extern false final finally float fro get if import int int16 int32 int64 int8 interface new of package private property protected public return set static string super this throw true try uint uint16 uint362 uint64 uint8 var virtual void where while
 
-html
- <a class="trueBaseThemePreviousItem" href="fjolnir.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="reforth.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/orange.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20191002000130/http://orange-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/orange-lang/orange" class="material-symbols-outlined">code</a> <a href="/edit.html?id=orange" class="material-symbols-outlined">edit</a></div>
-
-* orange is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Robert Fratto.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#robertFratto Robert Fratto
-
-codeWithHeader Source code:
- git clone https://github.com/orange-lang/orange
-
-dashboard
- #1480 <span title="TotalRank: 2004 Jobs: 103 Users: 1469 Facts: 915 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Orange is a systems programming language made to be as powerful as C++ with none of the headache. It aims to be very productive by baking the most important low- and high-level features directly into the language, instead of dealing with them through obtuse function calls.
-
-- orange website
- https://web.archive.org/web/20191002000130/http://orange-lang.org/
-- orange is developed on <a href="https://github.com/orange-lang/orange">GitHub</a> and has 70 stars
-- orange first developed in <a href="../lists/originCommunities.html#httpsGithubComOrangeLang">https://github.com/orange-lang</a>
-
-<br>
-
-codeWithHeader Example from the web:
- extern printf(char* s, ...) -&gt; int32 
+example
+ extern printf(char* s, ...) -> int32 
  
  class Person
    public char* name
@@ -46,22 +22,22 @@ codeWithHeader Example from the web:
    end
  end
  
- Person john = Person(&quot;Johnny&quot;)
- printf(&quot;Hello, %s!\n&quot;, john.name)
+ Person john = Person("Johnny")
+ printf("Hello, %s!\n", john.name)
 
-<div class="keywordsBlock">
-codeWithHeader orange <a href="../lists/keywords.html?filter=orange">Keywords</a>
- alias bool break catch char class const continue data def delete do double elif else enum extend extern false final finally float fro get if import int int16 int32 int64 int8 interface new of package private property protected public return set static string super this throw true try uint uint16 uint362 uint64 uint8 var virtual void where while
-</div>
+githubRepo https://github.com/orange-lang/orange
+ stars 70
+ forks 10
+ subscribers 10
+ created 2017
+ updated 2018
 
-endColumns
+repoStats
+ firstCommit 2017
+ commits 2009
+ committers 1
+ files 81
 
-## HackerNews discussions of orange
-
-pipeTable
- title|titleLink|date|score|comments
- Orange: A simple systems programming language|https://news.ycombinator.com/item?id=9784334|06/26/2015|55|38
-
-keyboardNav fjolnir.html reforth.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 9784334|Orange: A simple systems programming language|http://orange-lang.org/|2015-06-26 13:56:26 UTC|1435326986|rfratto|38|55

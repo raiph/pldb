@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ICOT
+import ../measures/conceptPage.scroll
+id ICOT
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/9e1f1bef4907d151aeb963c5b8e495e38bff6505
+country South Korea
+originCommunity Chonbuk National University && Seoul National University
 
-title ICOT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5800
 
-html
- <a class="trueBaseThemePreviousItem" href="icetran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="imp72.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/icot.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=icot" class="material-symbols-outlined">edit</a></div>
-
-* ICOT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3734 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- ICOT first developed in <a href="../lists/originCommunities.html#chonbukNationalUniversity">Chonbuk National University</a> and <a href="../lists/originCommunities.html#seoulNationalUniversity">Seoul National University</a>
-- ICOT on HOPL
- https://hopl.info/showlanguage.prx?exp=5800
-- Read more about ICOT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9e1f1bef4907d151aeb963c5b8e495e38bff6505 1.
-
-<br>
-
-endColumns
-
-keyboardNav icetran.html imp72.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

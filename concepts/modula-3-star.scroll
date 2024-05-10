@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Modula-3*
+import ../measures/conceptPage.scroll
+id Modula-3*
+appeared 1993
+type pl
+reference http://people.csail.mit.edu/heinz/ps/jspp93.ps.gz
+reference https://semanticscholar.org/paper/140498928dc2eedb576ac9244d4fc1c4544dc4ff
+country Germany
+originCommunity University of Karlsruhe
 
-title Modula-3* - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1737
 
-html
- <a class="trueBaseThemePreviousItem" href="modula-2p.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="morphe.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/modula-3-star.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=modula-3-star" class="material-symbols-outlined">edit</a></div>
-
-* Modula-3* is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #4222 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Modula-3* first developed in <a href="../lists/originCommunities.html#universityOfKarlsruhe">University of Karlsruhe</a>
-- Modula-3* on HOPL
- https://hopl.info/showlanguage.prx?exp=1737
-- Read more about Modula-3* on Semantic Scholar: 1.
- https://semanticscholar.org/paper/140498928dc2eedb576ac9244d4fc1c4544dc4ff 1.
-- Read more about Modula-3* on the web: 1.
- http://people.csail.mit.edu/heinz/ps/jspp93.ps.gz 1.
-
-<br>
-
-endColumns
-
-keyboardNav modula-2p.html morphe.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

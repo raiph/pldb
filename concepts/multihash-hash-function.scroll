@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Multihash
-
-title Multihash - Hash function
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mascara.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="paperalgo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/multihash-hash-function.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://multiformats.io/multihash/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=multihash-hash-function" class="material-symbols-outlined">edit</a></div>
-
-* Multihash is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+hashFunction">hash function</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3281 on PLDB
- 7 Years Old
-
-* Multihash is a protocol for differentiating outputs from various well-established hash functions, addressing size + encoding considerations. It is useful to write applications that future-proof their use of hashes, and allow multiple hash functions to coexist.
-
-- Multihash website
- http://multiformats.io/multihash/
-- Multihash first developed in <a href="../lists/originCommunities.html#httpsGithubComMultiformats">https://github.com/multiformats</a>
-
-<br>
-
-endColumns
-
-keyboardNav mascara.html paperalgo.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Multihash
+appeared 2017
+type hashFunction
+conceptDescription Multihash is a protocol for differentiating outputs from various well-established hash functions, addressing size + encoding considerations. It is useful to write applications that future-proof their use of hashes, and allow multiple hash functions to coexist.
+website http://multiformats.io/multihash/
+country Various
+originCommunity https://github.com/multiformats

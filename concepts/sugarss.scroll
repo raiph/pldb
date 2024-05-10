@@ -1,79 +1,60 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SugarSS
+import ../measures/conceptPage.scroll
+id SugarSS
+appeared 2016
+type textMarkup
+creators Andrey Sitnik
 
-title SugarSS - Text markup language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="euclidean-geometry.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xl-lang.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sugarss.pldb
+githubRepo https://github.com/postcss/sugarss
+ firstCommit 2016
+ stars 662
+ forks 38
+ subscribers 22
+ created 2016
+ updated 2022
+ description Indent-based CSS syntax for PostCSS
+ issues 1
 
-startColumns 4
+repoStats
+ firstCommit 2016
+ commits 210
+ committers 19
+ files 51
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/postcss/sugarss" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sugarss" class="material-symbols-outlined">edit</a></div>
+githubLanguage SugarSS
+ fileExtensions sss
+ trendingProjectsCount 0
+ type markup
+ group CSS
+ aceMode text
+ tmScope source.css.postcss.sugarss
+ repos 0
 
-* SugarSS is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2016 by Andrey Sitnik.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#andreySitnik Andrey Sitnik
+linguistGrammarRepo https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS
+ firstCommit 2013
+ lastCommit 2017
+ committerCount 10
+ commitCount 231
+ sampleCount 1
+ example
+  @define-mixin size $size
+    width: $size
+  
+  $big: 100px
+  
+  // Main block
+  .block
+    &_logo
+      background: inline("./logo.png")
+      @mixin size $big
 
-codeWithHeader Source code:
- git clone https://github.com/postcss/sugarss
-
-dashboard
- #718 <span title="TotalRank: 1285 Jobs: 103 Users: 560 Facts: 622 Links: 986">on PLDB</span>
- 8 Years Old
- 0 <span title="SugarSS repos on GitHub.">Repos</span>
-
-* Indent-based CSS syntax for PostCSS
-
-- SugarSS is developed on <a href="https://github.com/postcss/sugarss">GitHub</a> and has 662 stars
-- There are at least 0 SugarSS repos on <a href="https://github.com/search?q=language:SugarSS">GitHub</a>
-- file extensions for SugarSS include sss
-- GitHub supports <a href="https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SugarSS
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/hudochenkov/Syntax-highlighting-for-PostCSS'>Linguist</a>:
- @define-mixin size $size
-   width: $size
- 
- $big: 100px
- 
- // Main block
- .block
-   &amp;_logo
-     background: inline(&quot;./logo.png&quot;)
-     @mixin size $big
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav euclidean-geometry.html xl-lang.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

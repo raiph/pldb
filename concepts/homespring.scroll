@@ -1,47 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Homespring
+import ../measures/conceptPage.scroll
+id Homespring
+appeared 2003
+type pl
+spec http://bunny.xeny.net/linked/Homespring-Proposed-Language-Standard.pdf
+reference http://xeny.net/Homespring
+country United States
+originCommunity https://sange.fi/esoteric/archive/
 
-title Homespring - Programming language
- hidden
+leachim6 Homespring
+ filepath h/Homespring.homespring
+ fileExtensions homespring
+ example
+  Universe bear hatchery powers world.
+      bear hatchery powers o.      bear hatchery powers hell     marshy marshy marshy a snowmelt
+  
+  
 
-html
- <a class="trueBaseThemePreviousItem" href="csl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plain.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=8575
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/homespring.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=homespring" class="material-symbols-outlined">edit</a></div>
-
-* Homespring is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2551 <span title="TotalRank: 3156 Jobs: 103 Users: 2838 Facts: 2067 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- Homespring specs
- http://bunny.xeny.net/linked/Homespring-Proposed-Language-Standard.pdf
-- Homespring first developed in <a href="../lists/originCommunities.html#httpsSangeFiEsotericArchive">https://sange.fi/esoteric/archive/</a>
-- Homespring on HOPL
- https://hopl.info/showlanguage.prx?exp=8575
-- Read more about Homespring on the web: 1.
- http://xeny.net/Homespring 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/Homespring.homespring'>hello-world</a>:
- Universe bear hatchery powers world.
-     bear hatchery powers o.      bear hatchery powers hell     marshy marshy marshy a snowmelt
- 
- 
-
-endColumns
-
-keyboardNav csl.html plain.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

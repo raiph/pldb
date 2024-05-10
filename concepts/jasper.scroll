@@ -1,49 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jasper
+import ../measures/conceptPage.scroll
+id jasper
+appeared 2014
+type pl
+creators Emanuel Rylke
+webRepl http://ema-fox.github.io/jasper/
+country Germany
+originCommunity https://github.com/ema-fox/jasper/issues
 
-title jasper - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="astatine.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="boogie.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jasper.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://ema-fox.github.io/jasper/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/ema-fox/jasper" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jasper" class="material-symbols-outlined">edit</a></div>
-
-* jasper is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Emanuel Rylke.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#emanuelRylke Emanuel Rylke
-
-codeWithHeader Source code:
- git clone https://github.com/ema-fox/jasper
-
-dashboard
- #1767 <span title="TotalRank: 2292 Jobs: 103 Users: 2392 Facts: 1203 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Try now: <a href="http://ema-fox.github.io/jasper/">Web</a>
-
-* compile to js lisp inspired by arc
-
-- jasper is developed on <a href="https://github.com/ema-fox/jasper">GitHub</a> and has 3 stars
-- jasper first developed in <a href="../lists/originCommunities.html#httpsGithubComEmaFoxJasperIssues">https://github.com/ema-fox/jasper/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (+ 2 3)
- (map [+ 1 _] &#39;(1 2 3))
- (let a 4 (map [+ 3 a _] &#39;(1 2 3)))
- (alert &quot;Hello world!&quot;)
- (map str &#39;(1 2 3) &#39;(foo bar baz))
+ (map [+ 1 _] '(1 2 3))
+ (let a 4 (map [+ 3 a _] '(1 2 3)))
+ (alert "Hello world!")
+ (map str '(1 2 3) '(foo bar baz))
 
-endColumns
+githubRepo https://github.com/ema-fox/jasper
+ firstCommit 2014
+ stars 3
+ subscribers 2
+ created 2014
+ updated 2021
+ description compile to js lisp inspired by arc
+ forks 0
+ issues 0
 
-keyboardNav astatine.html boogie.html
+repoStats
+ firstCommit 2014
+ commits 66
+ committers 1
+ files 7
 
-import ../footer.scroll
+isbndb 0

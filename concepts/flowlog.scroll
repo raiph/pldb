@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title flowlog
+import ../measures/conceptPage.scroll
+id flowlog
+appeared 2014
+type pl
+conceptDescription We present Flowlog, a tierless language for programming SDN controllers. In contrast to languages with different abstractions for each program tier---the control-plane, data-plane, and controller state---Flowlog provides a unified abstraction for all three tiers. Flowlog is reminiscent of both SQL and rule-based languages such as Cisco IOS and JunOS; unlike these network configuration languages, Flowlog supports programming with mutable state. We intentionally limit Flowlog’s expressivity to enable built-in verification and proactive compilation despite the integration of controller state. To compensate for its limited expressive power, Flowlog enables the reuse of external libraries through callouts. Flowlog proactively compiles essentially all forwarding behavior to switch tables. For rules that maintain controller state or generate fresh packets, the compiler instructs switches to send the minimum amount of necessary traffic to the controller. Given that Flowlog programs can be stateful, this process is non-trivial. We have successfully used Flowlog to implement real network applications. We also compile Flowlog programs to Alloy, a popular verification tool. With this we have verified several properties, including program-correctness properties that are topology-independent, and have found bugs in our own programs.
+reference https://cs.brown.edu/~sk/Publications/Papers/Published/nfsk-flowlog-tierless/
+country United States
+originCommunity Brown University
 
-title flowlog - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="far.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="giotto.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flowlog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=flowlog" class="material-symbols-outlined">edit</a></div>
-
-* flowlog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3098 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 10 Years Old
-
-* We present Flowlog, a tierless language for programming SDN controllers. In contrast to languages with different abstractions for each program tier---the control-plane, data-plane, and controller state---Flowlog provides a unified abstraction for all three tiers. Flowlog is reminiscent of both SQL and rule-based languages such as Cisco IOS and JunOS; unlike these network configuration languages, Flowlog supports programming with mutable state. We intentionally limit Flowlog’s expressivity to enable built-in verification and proactive compilation despite the integration of controller state. To compensate for its limited expressive power, Flowlog enables the reuse of external libraries through callouts. Flowlog proactively compiles essentially all forwarding behavior to switch tables. For rules that maintain controller state or generate fresh packets, the compiler instructs switches to send the minimum amount of necessary traffic to the controller. Given that Flowlog programs can be stateful, this process is non-trivial. We have successfully used Flowlog to implement real network applications. We also compile Flowlog programs to Alloy, a popular verification tool. With this we have verified several properties, including program-correctness properties that are topology-independent, and have found bugs in our own programs.
-
-- flowlog first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-- Read more about flowlog on the web: 1.
- https://cs.brown.edu/~sk/Publications/Papers/Published/nfsk-flowlog-tierless/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  TABLE stolen(switchid );
  REMOTE TABLE get_time(int );
-
-endColumns
-
-keyboardNav far.html giotto.html
-
-import ../footer.scroll

@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SmallVDM
+import ../measures/conceptPage.scroll
+id SmallVDM
+appeared 1993
+type pl
+reference https://dl.acm.org/doi/abs/10.5555/187621.187647
+reference https://sol.sbc.org.br/index.php/sbes/article/download/24269/24092
+country Brazil
+originCommunity Universidade Federal de Pernambuco
 
-title SmallVDM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1749
 
-html
- <a class="trueBaseThemePreviousItem" href="smalltalk-v.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smart.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smallvdm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=smallvdm" class="material-symbols-outlined">edit</a></div>
-
-* SmallVDM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #4310 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- SmallVDM first developed in <a href="../lists/originCommunities.html#universidadeFederalDePernambuco">Universidade Federal de Pernambuco</a>
-- SmallVDM on HOPL
- https://hopl.info/showlanguage.prx?exp=1749
-- Read more about SmallVDM on the web: 1. 2.
- https://dl.acm.org/doi/abs/10.5555/187621.187647 1.
- https://sol.sbc.org.br/index.php/sbes/article/download/24269/24092 2.
-
-<br>
-
-endColumns
-
-keyboardNav smalltalk-v.html smart.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

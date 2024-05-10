@@ -1,44 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ana
+import ../measures/conceptPage.scroll
+id ana
+appeared 2018
+type pl
 
-title ana - Programming language
- hidden
+githubRepo https://github.com/analang/ana
+ firstCommit 2018
+ stars 138
+ forks 6
+ subscribers 5
+ created 2018
+ updated 2022
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="mortran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sensetalk.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 178
+ committers 3
+ files 167
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ana.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/analang/ana" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ana" class="material-symbols-outlined">edit</a></div>
-
-* ana is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/analang/ana
-
-dashboard
- #1857 <span title="TotalRank: 2357 Jobs: 103 Users: 1268 Facts: 1890 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- ana is developed on <a href="https://github.com/analang/ana">GitHub</a> and has 138 stars
-
-<br>
-
-endColumns
-
-## HackerNews discussions of ana
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Ana-lang: C, PHP, Python inspired scripting language|https://news.ycombinator.com/item?id=17791287|08/18/2018|3|0
-
-keyboardNav mortran.html sensetalk.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 17791287|Show HN: Ana-lang: C, PHP, Python inspired scripting language|2018-08-18 22:52:01 UTC|1534632721|ryanmccullagh|0|3

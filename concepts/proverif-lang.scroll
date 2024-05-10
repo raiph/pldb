@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ProVerif
-
-title ProVerif - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="proto-gnosis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="proxy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/proverif-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=proverif-lang" class="material-symbols-outlined">edit</a></div>
-
-* ProVerif is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Bruno Blanchet.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#brunoBlanchet Bruno Blanchet
-
-dashboard
- #4268 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 10 Years Old
-
-* ProVerif is an automatic cryptographic protocol verifier, in the formal model (so called Dolev-Yao model).
-
-- ProVerif first developed in <a href="../lists/originCommunities.html#institutNationalDeRechercheEnSciencesEtTechnologiesDuNumerique">Institut national de recherche en sciences et technologies du numérique</a>
-- file extensions for ProVerif include pv
-- Read more about ProVerif on the web: 1.
- https://prosecco.gforge.inria.fr/personal/bblanche/proverif/manual.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav proto-gnosis.html proxy.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id ProVerif
+appeared 2014
+type pl
+creators Bruno Blanchet
+conceptDescription ProVerif is an automatic cryptographic protocol verifier, in the formal model (so called Dolev-Yao model).
+reference https://prosecco.gforge.inria.fr/personal/bblanche/proverif/manual.pdf
+fileExtensions pv
+country France
+originCommunity Institut national de recherche en sciences et technologies du numérique

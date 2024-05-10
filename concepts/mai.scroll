@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mai
+import ../measures/conceptPage.scroll
+id mai
+appeared 2019
+type pl
+creators Ahmed Khaled
+country Egypt
+originCommunity https://github.com/akhal3d96/Mai/issues
 
-title mai - Programming language
- hidden
+githubRepo https://github.com/nemoload/Mai
+ firstCommit 2019
+ created 2019
+ updated 2020
+ description an educational programming language
+ stars 1
+ forks 0
+ subscribers 0
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="broccoli-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alan.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mai.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/nemoload/Mai" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mai" class="material-symbols-outlined">edit</a></div>
-
-* mai is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019 by Ahmed Khaled.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#ahmedKhaled Ahmed Khaled
-
-codeWithHeader Source code:
- git clone https://github.com/nemoload/Mai
-
-dashboard
- #2362 <span title="TotalRank: 2876 Jobs: 103 Users: 2415 Facts: 1787 Links: 986">on PLDB</span>
- 5 Years Old
-
-* an educational programming language
-
-- mai is developed on <a href="https://github.com/nemoload/Mai">GitHub</a> and has 1 stars
-- mai first developed in <a href="../lists/originCommunities.html#httpsGithubComAkhal3D96MaiIssues">https://github.com/akhal3d96/Mai/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav broccoli-1.html alan.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 23
+ committers 1
+ files 29

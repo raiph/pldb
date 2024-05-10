@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TOOLBUS
+import ../measures/conceptPage.scroll
+id TOOLBUS
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/00609d41d7c4288e9a6750b87becbb0e13ecfeb9
 
-title TOOLBUS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4958
 
-html
- <a class="trueBaseThemePreviousItem" href="tinkertoy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tpdl-star.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/toolbus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=toolbus" class="material-symbols-outlined">edit</a></div>
-
-* TOOLBUS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3243 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- TOOLBUS on HOPL
- https://hopl.info/showlanguage.prx?exp=4958
-- Read more about TOOLBUS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/00609d41d7c4288e9a6750b87becbb0e13ecfeb9 1.
-
-<br>
-
-endColumns
-
-keyboardNav tinkertoy.html tpdl-star.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

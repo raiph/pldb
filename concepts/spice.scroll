@@ -1,69 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Spice
+import ../measures/conceptPage.scroll
+id Spice
+appeared 2021
+type pl
+creators Marc Auberer
+website https://www.spicelang.com
+country Germany
+originCommunity https://github.com/spicelang
+domainName spicelang.com
+ registered 2021
 
-title Spice - Programming language
- hidden
+hasIntegers true
+hasLineComments true
+hasMultiLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="pop-pl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sweet-expressions.html">&gt;</a>
+pygmentsHighlighter Spice
+ filename spice.py
+ fileExtensions spice
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spice.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.spicelang.com" class="material-symbols-outlined">home</a> <a href="/edit.html?id=spice" class="material-symbols-outlined">edit</a></div>
-
-* Spice is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Marc Auberer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#marcAuberer Marc Auberer
-
-dashboard
- #2442 <span title="TotalRank: 2979 Jobs: 103 Users: 2442 Facts: 1890 Links: 986">on PLDB</span>
- 3 Years Old
-
-* 
-
-- Spice website
- https://www.spicelang.com
-- Spice first developed in <a href="../lists/originCommunities.html#httpsGithubComSpicelang">https://github.com/spicelang</a>
-- file extensions for Spice include spice
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/spice.py">syntax highlighting</a> for Spice
-- <a href="https://www.spicelang.com">spicelang.com</a> was registered in 2021
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav pop-pl.html sweet-expressions.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2020|Academic Press|Programming for Electrical Engineers: MATLAB and Spice|Squire Ph.D., James C. and Brown Ph.D., Julie Phillips|9780128215029

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Prolog-D-Linda
+import ../measures/conceptPage.scroll
+id Prolog-D-Linda
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/d3b1b8ffbe9469eaaf409e640c190e3156064cdc
+country Australia
+originCommunity James Cook University
 
-title Prolog-D-Linda - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2408
 
-html
- <a class="trueBaseThemePreviousItem" href="progres.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prolog-elf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prolog-d-linda.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prolog-d-linda" class="material-symbols-outlined">edit</a></div>
-
-* Prolog-D-Linda is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3956 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Prolog-D-Linda first developed in <a href="../lists/originCommunities.html#jamesCookUniversity">James Cook University</a>
-- Prolog-D-Linda on HOPL
- https://hopl.info/showlanguage.prx?exp=2408
-- Read more about Prolog-D-Linda on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d3b1b8ffbe9469eaaf409e640c190e3156064cdc 1.
-
-<br>
-
-endColumns
-
-keyboardNav progres.html prolog-elf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

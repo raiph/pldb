@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lemon
+import ../measures/conceptPage.scroll
+id lemon
+appeared 2017
+type pl
+creators Zhicheng Wei
+website http://www.lemon-lang.org/
+country Singapore
+originCommunity https://github.com/lemon-lang
+domainName lemon-lang.org
+ registered 2016
 
-title lemon - Programming language
- hidden
+githubRepo https://github.com/lemon-lang/lemon
+ firstCommit 2017
+ stars 489
+ forks 39
+ subscribers 23
+ created 2017
+ updated 2022
+ description Lemon is open source, embeddable, lightweight programming language http://www.lemon-lang.org
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="vsxu.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hush.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lemon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.lemon-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/lemon-lang/lemon" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lemon" class="material-symbols-outlined">edit</a></div>
-
-* lemon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Zhicheng Wei.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#zhichengWei Zhicheng Wei
-
-codeWithHeader Source code:
- git clone https://github.com/lemon-lang/lemon
-
-dashboard
- #1256 <span title="TotalRank: 1791 Jobs: 103 Users: 702 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Lemon is open source, embeddable, lightweight programming language http://www.lemon-lang.org
-
-- lemon website
- http://www.lemon-lang.org/
-- lemon is developed on <a href="https://github.com/lemon-lang/lemon">GitHub</a> and has 489 stars
-- lemon first developed in <a href="../lists/originCommunities.html#httpsGithubComLemonLang">https://github.com/lemon-lang</a>
-- <a href="http://www.lemon-lang.org/">lemon-lang.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-keyboardNav vsxu.html hush.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 35
+ committers 2
+ files 107

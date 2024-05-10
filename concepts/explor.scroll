@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EXPLOR
+import ../measures/conceptPage.scroll
+id EXPLOR
+appeared 1972
+type pl
+reference https://semanticscholar.org/paper/597c70028c7bb1956a558d0f856cb61e476feff4
+country United States
+originCommunity Bell Laboratories && University of California,Santa Cruz
 
-title EXPLOR - Programming language
- hidden
+influencedBy fortran
 
-html
- <a class="trueBaseThemePreviousItem" href="explan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fap.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=4101
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/explor.pldb
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=explor" class="material-symbols-outlined">edit</a></div>
-
-* EXPLOR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1972.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1972 1972
-
-dashboard
- #3095 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 52 Years Old
-
-* 
-
-- EXPLOR first developed in <a href="../lists/originCommunities.html#bellLaboratories">Bell Laboratories</a> and <a href="../lists/originCommunities.html#universityOfCaliforniaSantaCruz">University of California,Santa Cruz</a>
-- EXPLOR on HOPL
- https://hopl.info/showlanguage.prx?exp=4101
-- Read more about EXPLOR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/597c70028c7bb1956a558d0f856cb61e476feff4 1.
-
-<br>
-
-endColumns
-
-keyboardNav explan.html fap.html
-
-import ../footer.scroll
+isbndb 0

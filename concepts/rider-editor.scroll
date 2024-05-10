@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rider-editor
-
-title rider-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="resharper-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="stx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rider-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.jetbrains.com/rider" class="material-symbols-outlined">home</a> <a href="/edit.html?id=rider-editor" class="material-symbols-outlined">edit</a></div>
-
-* rider-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3257 on PLDB
- 7 Years Old
-
-* 
-
-- rider-editor website
- https://www.jetbrains.com/rider
-- rider-editor first developed in <a href="../lists/originCommunities.html#jetBrainsSRO">JetBrains s.r.o</a>
-
-<br>
-
-endColumns
-
-keyboardNav resharper-editor.html stx.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id rider-editor
+appeared 2017
+type editor
+website https://www.jetbrains.com/rider
+country Czechia
+originCommunity JetBrains s.r.o

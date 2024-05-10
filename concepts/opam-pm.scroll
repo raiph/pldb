@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title opam-pm
+import ../measures/conceptPage.scroll
+id opam-pm
+appeared 2012
+type packageManager
+creators Fabrice Le Fessant
+website https://opam.ocaml.org/
+country Various
+originCommunity https://github.com/ocaml
+domainName opam.ocaml.org
 
-title opam-pm - Package manager
- hidden
+githubRepo https://github.com/ocaml/opam
+ firstCommit 2012
+ stars 1040
+ forks 324
+ subscribers 56
+ created 2012
+ updated 2022
+ description opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
+ issues 445
 
-html
- <a class="trueBaseThemePreviousItem" href="llhd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ssi.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/opam-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://opam.ocaml.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/ocaml/opam" class="material-symbols-outlined">code</a> <a href="/edit.html?id=opam-pm" class="material-symbols-outlined">edit</a></div>
-
-* opam-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2012 by Fabrice Le Fessant.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#fabriceLeFessant Fabrice Le Fessant
-
-codeWithHeader Source code:
- git clone https://github.com/ocaml/opam
-
-dashboard
- #1151 on PLDB
- 12 Years Old
-
-* opam is a source-based package manager. It supports multiple simultaneous compiler installations, flexible package constraints, and a Git-friendly development workflow.
-
-- opam-pm website
- https://opam.ocaml.org/
-- opam-pm is developed on <a href="https://github.com/ocaml/opam">GitHub</a> and has 1,040 stars
-- opam-pm first developed in <a href="../lists/originCommunities.html#httpsGithubComOcaml">https://github.com/ocaml</a>
-
-<br>
-
-endColumns
-
-keyboardNav llhd.html ssi.html
-
-import ../footer.scroll
+packageCount 2224
+packageInstallCount 10000000
+forLanguages ocaml

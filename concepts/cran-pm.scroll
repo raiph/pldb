@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cran-pm
+import ../measures/conceptPage.scroll
+id cran-pm
+appeared 1993
+type packageManager
+website https://cran.r-project.org/
+reference https://en.wikipedia.org/wiki/R_(programming_language)#CRAN
+country Austria
+originCommunity Vienna University of Economics && Business
+domainName cran.r-project.org
 
-title cran-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="crack.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="descript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cran-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://cran.r-project.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=cran-pm" class="material-symbols-outlined">edit</a></div>
-
-* cran-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3386 on PLDB
- 31 Years Old
-
-* 
-
-- cran-pm website
- https://cran.r-project.org/
-- cran-pm first developed in <a href="../lists/originCommunities.html#viennaUniversityOfEconomics">Vienna University of Economics</a> and <a href="../lists/originCommunities.html#business">Business</a>
-- Read more about cran-pm on the web: 1.
- https://en.wikipedia.org/wiki/R_(programming_language)#CRAN 1.
-
-<br>
-
-endColumns
-
-keyboardNav crack.html descript.html
-
-import ../footer.scroll
+packageCount 13674
+forLanguages r

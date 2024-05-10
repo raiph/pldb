@@ -1,78 +1,88 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Datalog
+import ../measures/conceptPage.scroll
+id Datalog
+appeared 1977
+type pl
+reference http://www.learndatalogtoday.org/
+reference http://datalog.sourceforge.net/datalog.html
+reference https://percival.jake.tl/
+country United States
+country Italy
+originCommunity University of Maryland
 
-title Datalog - Programming language
- hidden
+relatedConcepts datomic
 
-html
- <a class="trueBaseThemePreviousItem" href="x86-64-isa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="saltstack.html">&gt;</a>
+hasLineComments true
+ % A comment
+hasComments true
+ % A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/datalog.pldb
+lineCommentToken %
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Datalog"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=datalog" class="material-symbols-outlined">edit</a></div>
-
-* Datalog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #332 <span title="TotalRank: 774 Jobs: 103 Users: 611 Facts: 399 Links: 272">on PLDB</span>
- 47 Years Old
-
-* Datalog is a declarative logic programming language that syntactically is a subset of Prolog. It is often used as a query language for deductive databases. In recent years, Datalog has found new application in data integration, information extraction, networking, program analysis, security, and cloud computing. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Datalog Read more on Wikipedia...
-
-- Datalog Wikipedia page
- https://en.wikipedia.org/wiki/Datalog
-- Datalog first developed in <a href="../lists/originCommunities.html#universityOfMaryland">University of Maryland</a>
-- Explore Datalog snippets on <a href="http://www.rosettacode.org/wiki/Category:Datalog">Rosetta Code</a>
-- Datalog on HOPL
- https://hopl.info/showlanguage.prx?exp=3793
-- See also: (15 related languages)<a href="prolog.html">Prolog</a>, <a href="java.html">Java</a>, <a href="owl.html">OWL</a>, <a href="c.html">C</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="lua.html">Lua</a>, <a href="clojure.html">Clojure</a>, <a href="racket.html">Racket</a>, <a href="tcl.html">Tcl</a>, <a href="haskell.html">Haskell</a>, <a href="dot-ql.html">.QL</a>, <a href="rdf.html">RDF</a>, <a href="sparql.html">SPARQL</a>, <a href="datomic.html">Datomic</a>
-- Read more about Datalog on the web: 1. 2. 3.
- http://www.learndatalogtoday.org/ 1.
- http://datalog.sourceforge.net/datalog.html 2.
- https://percival.jake.tl/ 3.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  parent(john, douglas). % store some data
  parent(john, douglas)? % run a query
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Datalog'>Wikipedia</a>:
- ancestor(X,Y) :- parent(X,Y).
-  ancestor(X,Y) :- parent(X,Z),ancestor(Z,Y).
+wikipedia https://en.wikipedia.org/wiki/Datalog
+ example
+  ancestor(X,Y) :- parent(X,Y).
+   ancestor(X,Y) :- parent(X,Z),ancestor(Z,Y).
+ related prolog java owl c python ruby lua clojure racket tcl haskell dot-ql rdf sparql
+ summary Datalog is a declarative logic programming language that syntactically is a subset of Prolog. It is often used as a query language for deductive databases. In recent years, Datalog has found new application in data integration, information extraction, networking, program analysis, security, and cloud computing. Its origins date back to the beginning of logic programming, but it became prominent as a separate area around 1977 when Hervé Gallaire and Jack Minker organized a workshop on logic and databases. David Maier is credited with coining the term Datalog.
+ pageId 968357
+ dailyPageViews 160
+ created 2004
+ backlinksCount 87
+ revisionCount 376
 
-endColumns
+rosettaCode http://www.rosettacode.org/wiki/Category:Datalog
 
-## Language <a href="../lists/features.html">features</a>
+hopl https://hopl.info/showlanguage.prx?exp=3793
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   % A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token %
-  Example
-   % A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+fileType text
+centralPackageRepositoryCount 0
 
-keyboardNav x86-64-isa.html saltstack.html
+isbndb 3
+ year|publisher|title|authors|isbn13
+ 1985|Cygnus|Datalog 2|R. Porkess|9780948506000
+ 20151113|Springer Nature|Datalog and Logic Databases|Sergio Greco; Cristian Molinaro|9783031018541
+ 20151101|Morgan & Claypool Publishers|Datalog and Logic Databases|Sergio Greco; Cristian Molinaro|9781627051149
 
-import ../footer.scroll
+semanticScholar 36
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1989|What you Always Wanted to Know About Datalog (And Never Dared to Ask)|10.1109/69.43410|659|70|S. Ceri and G. Gottlob and L. Tanca|fa1570dc4e7853c2c6d0ff21a1ac8327e4ebe4b5
+ 1997|Disjunctive datalog|10.1145/261124.261126|517|36|Thomas Eiter and G. Gottlob and H. Mannila|d445c88e0333ba617771cf24e71691eac85a483c
+ 2006|codeQuest: Scalable Source Code Queries with Datalog|10.1007/11785477_2|211|10|Elnar Hajiyev and M. Verbaere and O. Moor|95816cc9b43d53d23cce83c42e648699156aa031
+ 2010|Dedalus: Datalog in Time and Space|10.1007/978-3-642-24206-9_16|138|15|P. Alvaro and William R. Marczak and Neil Conway and J. Hellerstein and D. Maier and R. Sears|bc2a9f8ca02b809230a6b6e0c670c5837a73d011
+ 2013|SociaLite: Datalog extensions for efficient social network analysis|10.1109/ICDE.2013.6544832|101|16|Jiwon Seo and Stephen Guo and M. Lam|94057235c4bdea2c4df6304ed98ca23e77749893
+ 1999|Workflow, transactions and datalog|10.1145/303976.304005|77|10|A. Bonner|e601c809f7bc8dbaee66cdd5666c0898dd070fbd
+ 2016|From Datalog to flix: a declarative language for fixed points on lattices|10.1145/2908080.2908096|72|11|Magnus Madsen and Ming-Ho Yee and O. Lhoták|50e8b66fad4dd05e1e5e776ffc08b2d4c80b5a3f
+ 2010|The Disjunctive Datalog System DLV|10.1007/978-3-642-24206-9_17|69|4|Mario Alviano and Wolfgang Faber and N. Leone and S. Perri and G. Pfeifer and G. Terracina|fb0aed07aedabb52489e7b2cf3766b00691d7225
+ 2010|Dyna: Extending Datalog for Modern AI|10.1007/978-3-642-24206-9_11|61|1|Jason Eisner and N. Filardo|8b3bfe03e36ab65d48655813586b43fc8ca3e9b0
+ 2005|CodeQuest: querying source code with datalog|10.1145/1094855.1094884|39|4|Elnar Hajiyev and M. Verbaere and O. Moor and K. Volder|df5328296c7c57b4bfefb20e97ece73dae86ad1b
+ 2011|Functional description of geoprocessing services as conjunctive datalog queries|10.1007/s10707-009-0093-4|34|5|D. Fitzner and J. Hoffmann and E. Klien|0e4370dbc008651b01fb96a0a1f761a78a685aa7
+ 2015|SociaLite: An Efficient Graph Query Language Based on Datalog|10.1109/TKDE.2015.2405562|34|3|Jiwon Seo and Stephen Guo and M. Lam|f61c359ecc37e9efeef3e3582170d2b13e753027
+ 2008|A Theoretical Framework for the Declarative Debugging of Datalog Programs|10.1007/978-3-540-88594-8_8|33|0|R. Caballero and Y. García-Ruiz and F. Sáenz-Pérez|02addce453fcfe5e5b73cfafa4f470d81ce461a9
+ 2019|Synthesizing Datalog Programs Using Numerical Relaxation|10.24963/ijcai.2019/847|32|2|X. Si and Mukund Raghothaman and K. Heo and M. Naik|6a2106628da2710b7a79f35f66dfd1cc015f14ae
+ 2012|Disjunctive datalog with existential quantifiers: Semantics, decidability, and complexity issues|10.1017/S1471068412000257|30|5|Mario Alviano and Wolfgang Faber and N. Leone and M. Manna|c5002f1933d1bdf9fbe36a92e92cfcda2f434739
+ 2016|Datafun: a functional Datalog|10.1145/2951913.2951948|22|2|Michael Arntzenius and N. Krishnaswami|9bc736e2d6e8cf97b0aff0d5cb448fe601bf3bab
+ 2015|Datalog and Logic Databases|10.2200/S00648ED1V01Y201505DTM041|20|1|S. Greco and Cristian Molinaro|87f8328daeb5f9a46a7e98d8065b8d180fe34615
+ 2012|Datalog in Academia and Industry|10.1007/978-3-642-32925-8|10|1|P. Barceló and R. Pichler|eb88ca35cacb9e17983fd1d11915c90e58cc8dbe
+ 2020|Fixpoints for the masses: programming with first-class Datalog constraints|10.1145/3428193|8|0|Magnus Madsen and O. Lhoták|4f982bf2c66f2c454fa66699b5546576b7d2dcad
+ 2017|Pipelined Bottom-Up Evaluation of Datalog Programs: The Push Method|10.1007/978-3-319-74313-4_4|7|0|Stefan Brass and H. Stephan|6707e67733af705f3fc2f383a96a702bae150091
+ 2018|Stratified Negation in Limit Datalog Programs|10.24963/ijcai.2018/259|7|0|M. Kaminski and B. C. Grau and Egor V. Kostylev and B. Motik and I. Horrocks|9da8b2dbb33ef494fc202131bff91fd052380a45
+ 2018|A Fuzzy Datalog Deductive Database System|10.1109/TFUZZ.2018.2806923|7|0|Pascual Julián-Iranzo and F. Sáenz-Pérez|cc3b9486bb908b6672f25d723011316603971f85
+ 2020|Generative Datalog with Continuous Distributions|10.1145/3375395.3387659|7|0|Martin Grohe and Benjamin Lucien Kaminski and J. Katoen and P. Lindner|090c51bb1dd57916289b2cce38c13336544f39bf
+ 2020|Formulog: Datalog for SMT-based static analysis|10.1145/3428209|7|1|Aaron Bembenek and M. Greenberg and Stephen Chong|dcaddf07fa88f656ee815db9fccaf35b6c004dd6
+ 2015|Debugging of wrong and missing answers for datalog programs with constraint handling rules|10.1145/2790449.2790522|6|0|R. Caballero and Y. García-Ruiz and F. Sáenz-Pérez|8f4a2fbd0542a13b5301ffb770a38d3afa4164fa
+ 2019|Declarative Programming for Microcontrollers - Datalog on Arduino|10.1007/978-3-030-46714-2_9|6|0|Mario Wenzel and Stefan Brass|146aa8fd69bdcc9cbb970cc2d2b638196930b333
+ 2018|SolverBlox: algebraic modeling in datalog|10.1145/3191315.3191322|5|0|Conrado Borraz-Sánchez and D. Klabjan and E. Pasalic and M. Aref|8d5b48a00215f42bca10a2b6c4bc902d2e78ade1
+ 2006|Datalog as a pointcut language in aspect-oriented programming|10.1145/1176617.1176664|4|0|Elnar Hajiyev and Neil Ongkingco and Pavel Avgustinov and O. Moor and D. Sereni and J. Tibble and M. Verbaere|2b2d76ca65a6412ddcb7692b7e73b89d33e5f1e6
+ 2016|Precise complexity guarantees for pointer analysis via Datalog with extensions*|10.1017/S1471068416000405|3|0|K. T. Tekle and Yanhong A. Liu|e07a2804422ff6f66ba866d9380278c94143a3b1
+ 2016|From Datalog to flix: a declarative language for fixed points on lattices|10.1145/2980983.2908096|3|0|MadsenMagnus and YeeMing-Ho and LhotákOndřej|b493eeb971c48cf9973a551e240d805f65e7a542
+ 2016|DatalogRA: datalog with recursive aggregation in the spark RDD model|10.1145/2960414.2960417|2|0|Marek Rogala and J. Hidders and J. Sroka|1deb70b80cdbc0b1847816d0a945e202c3d0755e
+ 2021|A process framework for inducing and explaining Datalog theories|10.1007/s11634-020-00422-7|2|0|Mark Gromowski and M. Siebers and Ute Schmid|3acdc461e5a20e4ceed01b88c67e90825f0c8b3f
+ 2015|Extending Datalog Intelligence|10.1007/978-3-319-22002-4_1|1|0|B. Kimelfeld|a88be1d7f844ed52bfb37e0da7bb948f504b4ba8
+ 2010|Informing Datalog through Language Intelligence - A Personal Perspective|10.1007/978-3-642-24206-9_10|1|0|V. Dahl|93740c09536c6d9cdeecd5ff86bc51e552fb97e8
+ 2020|A Counterexample-Guided Debugger for Non-recursive Datalog|10.1007/978-3-030-64437-6_17|1|0|Van-Dang Tran and H. Kato and Zhenjiang Hu|48cf4ae27adb305e54448a18bef1e2f9d5cd3f14
+ 2021|Integrity Constraints for Microcontroller Programming in Datalog|10.1007/978-3-030-82472-3_12|1|0|Stefan Brass and Mario Wenzel|6148460c9227b477a438c739f7b615a88b533b23

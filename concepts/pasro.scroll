@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PASRO
+import ../measures/conceptPage.scroll
+id PASRO
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/523e2e9839e6e0893ec51f86b0d38fd89236dd1f
+country Germany
+originCommunity Karlsruhe Institute of Technology
 
-title PASRO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1176
 
-html
- <a class="trueBaseThemePreviousItem" href="pasion.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="path-pascal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pasro.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pasro" class="material-symbols-outlined">edit</a></div>
-
-* PASRO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3918 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- PASRO first developed in <a href="../lists/originCommunities.html#karlsruheInstituteOfTechnology">Karlsruhe Institute of Technology</a>
-- PASRO on HOPL
- https://hopl.info/showlanguage.prx?exp=1176
-- Read more about PASRO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/523e2e9839e6e0893ec51f86b0d38fd89236dd1f 1.
-
-<br>
-
-endColumns
-
-keyboardNav pasion.html path-pascal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

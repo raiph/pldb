@@ -1,71 +1,68 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JQuery
+import ../measures/conceptPage.scroll
+id JQuery
+appeared 2006
+type library
+website https://jquery.com
+country Various
+originCommunity https://jquery.org/team/
+domainName jquery.com
+ registered 2005
+ awisRank
+  2022 3091
 
-title JQuery - Library
- hidden
+gource https://www.youtube.com/watch?v=xDfdTOgQsHo
+githubRepo https://github.com/jquery/jquery
+ stars 57443
+ forks 20765
+ subscribers 3226
+ created 2009
+ updated 2023
+ description jQuery JavaScript Library
+ issues 83
 
-html
- <a class="trueBaseThemePreviousItem" href="bash.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="isbn.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/JQuery
+ example
+  $.ajax({
+    type: 'POST',
+    url: '/process/submit.php',
+    data: {
+      name : 'John',
+      location : 'Boston',
+    },
+  }).done(function(msg) {
+    alert('Data Saved: ' + msg);
+  }).fail(function(xmlHttpRequest, statusText, errorThrown) {
+    alert(
+      'Your form submission failed.\n\n'
+        + 'XML Http Request: ' + JSON.stringify(xmlHttpRequest)
+        + ',\nStatus Text: ' + statusText
+        + ',\nError Thrown: ' + errorThrown);
+  });
+ related javascript html visual-studio-editor css json xml
+ summary jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin. jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. jQuery also provides capabilities for developers to create plug-ins on top of the JavaScript library. This enables developers to create abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets. The modular approach to the jQuery library allows the creation of powerful dynamic web pages and Web applications. The set of jQuery core features—DOM element selections, traversal and manipulation—enabled by its selector engine (named "Sizzle" from v1.3), created a new "programming style", fusing algorithms and DOM data structures. This style influenced the architecture of other JavaScript frameworks like YUI v3 and Dojo, later stimulating the creation of the standard Selectors API. Microsoft and Nokia bundle jQuery on their platforms. Microsoft includes it with Visual Studio for use within Microsoft's ASP.NET AJAX and ASP.NET MVC frameworks while Nokia has integrated it into the Web Run-Time widget development platform.
+ pageId 7672626
+ dailyPageViews 886
+ created 2006
+ backlinksCount 892
+ revisionCount 1344
+ appeared 2006
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jquery.pldb
+indeedJobs jquery developer
+ 2017 9286
+linkedInSkill jquery
+ 2018 1549390
 
-startColumns 4
+subreddit https://www.reddit.com/r/jquery/
+meetup https://www.meetup.com/topics/jquery
+ memberCount 463942
+ groupCount 670
 
-<div class="trueBaseThemeQuickLinks"><a href="https://jquery.com" class="material-symbols-outlined">home</a> <a href="https://github.com/jquery/jquery" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/JQuery"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://www.reddit.com/r/jquery/"><svg role="img" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 18.65625 4 C 16.558594 4 15 5.707031 15 7.65625 L 15 11.03125 C 12.242188 11.175781 9.742188 11.90625 7.71875 13.0625 C 6.945313 12.316406 5.914063 12 4.90625 12 C 3.816406 12 2.707031 12.355469 1.9375 13.21875 L 1.9375 13.25 L 1.90625 13.28125 C 1.167969 14.203125 0.867188 15.433594 1.0625 16.65625 C 1.242188 17.777344 1.898438 18.917969 3.03125 19.65625 C 3.023438 19.769531 3 19.882813 3 20 C 3 22.605469 4.574219 24.886719 6.9375 26.46875 C 9.300781 28.050781 12.488281 29 16 29 C 19.511719 29 22.699219 28.050781 25.0625 26.46875 C 27.425781 24.886719 29 22.605469 29 20 C 29 19.882813 28.976563 19.769531 28.96875 19.65625 C 30.101563 18.917969 30.757813 17.777344 30.9375 16.65625 C 31.132813 15.433594 30.832031 14.203125 30.09375 13.28125 L 30.0625 13.25 C 29.292969 12.386719 28.183594 12 27.09375 12 C 26.085938 12 25.054688 12.316406 24.28125 13.0625 C 22.257813 11.90625 19.757813 11.175781 17 11.03125 L 17 7.65625 C 17 6.675781 17.558594 6 18.65625 6 C 19.175781 6 19.820313 6.246094 20.8125 6.59375 C 21.65625 6.890625 22.75 7.21875 24.15625 7.3125 C 24.496094 8.289063 25.414063 9 26.5 9 C 27.875 9 29 7.875 29 6.5 C 29 5.125 27.875 4 26.5 4 C 25.554688 4 24.738281 4.535156 24.3125 5.3125 C 23.113281 5.242188 22.246094 4.992188 21.46875 4.71875 C 20.566406 4.402344 19.734375 4 18.65625 4 Z M 16 13 C 19.152344 13 21.964844 13.867188 23.9375 15.1875 C 25.910156 16.507813 27 18.203125 27 20 C 27 21.796875 25.910156 23.492188 23.9375 24.8125 C 21.964844 26.132813 19.152344 27 16 27 C 12.847656 27 10.035156 26.132813 8.0625 24.8125 C 6.089844 23.492188 5 21.796875 5 20 C 5 18.203125 6.089844 16.507813 8.0625 15.1875 C 10.035156 13.867188 12.847656 13 16 13 Z M 4.90625 14 C 5.285156 14 5.660156 14.09375 5.96875 14.25 C 4.882813 15.160156 4.039063 16.242188 3.53125 17.4375 C 3.277344 17.117188 3.125 16.734375 3.0625 16.34375 C 2.953125 15.671875 3.148438 14.976563 3.46875 14.5625 C 3.472656 14.554688 3.464844 14.539063 3.46875 14.53125 C 3.773438 14.210938 4.3125 14 4.90625 14 Z M 27.09375 14 C 27.6875 14 28.226563 14.210938 28.53125 14.53125 C 28.535156 14.535156 28.527344 14.558594 28.53125 14.5625 C 28.851563 14.976563 29.046875 15.671875 28.9375 16.34375 C 28.875 16.734375 28.722656 17.117188 28.46875 17.4375 C 27.960938 16.242188 27.117188 15.160156 26.03125 14.25 C 26.339844 14.09375 26.714844 14 27.09375 14 Z M 11 16 C 9.894531 16 9 16.894531 9 18 C 9 19.105469 9.894531 20 11 20 C 12.105469 20 13 19.105469 13 18 C 13 16.894531 12.105469 16 11 16 Z M 21 16 C 19.894531 16 19 16.894531 19 18 C 19 19.105469 19.894531 20 21 20 C 22.105469 20 23 19.105469 23 18 C 23 16.894531 22.105469 16 21 16 Z M 21.25 21.53125 C 20.101563 22.597656 18.171875 23.28125 16 23.28125 C 13.828125 23.28125 11.898438 22.589844 10.75 21.65625 C 11.390625 23.390625 13.445313 25 16 25 C 18.554688 25 20.609375 23.398438 21.25 21.53125 Z"/></svg></a> <a href="https://twitter.com/jquery"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=jquery" class="material-symbols-outlined">edit</a></div>
+twitter https://twitter.com/jquery
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* JQuery is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-codeWithHeader Source code:
- git clone https://github.com/jquery/jquery
-
-dashboard
- #50 on PLDB
- 18 Years Old
-
-* jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. It is free, open-source software using the permissive MIT License. Web analysis indicates that it is the most widely deployed JavaScript library by a large margin. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/JQuery Read more on Wikipedia...
-
-- JQuery website
- https://jquery.com
-- JQuery Wikipedia page
- https://en.wikipedia.org/wiki/JQuery
-- JQuery is developed on <a href="https://github.com/jquery/jquery">GitHub</a> and has 57,443 stars
-- Watch the history of <a href="https://www.youtube.com/watch?v=xDfdTOgQsHo">the JQuery repo visualized with Gource</a>
-- JQuery first developed in <a href="../lists/originCommunities.html#httpsJqueryOrgTeam">https://jquery.org/team/</a>
-- PLDB estimates there are currently 25k job openings for JQuery programmers.
-- JQuery on Twitter
- https://twitter.com/jquery
-- Check out the 670 <a href="https://www.meetup.com/topics/jquery/">JQuery meetup groups</a> on Meetup.com.
-- There are 0 members in the <a href="https://www.reddit.com/r/jquery/">JQuery subreddit</a>
-- Indeed.com has 9,286 matches for <a href="https://www.indeed.com/jobs?q=jquery developer">"jquery developer"</a>.
-- <a href="https://jquery.com">jquery.com</a> was registered in 2005
-- See also: (6 related languages)<a href="javascript.html">JavaScript</a>, <a href="html.html">HTML</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="css.html">CSS</a>, <a href="json.html">JSON</a>, <a href="xml.html">XML</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/JQuery'>Wikipedia</a>:
- $.ajax({
-   type: &#39;POST&#39;,
-   url: &#39;/process/submit.php&#39;,
-   data: {
-     name : &#39;John&#39;,
-     location : &#39;Boston&#39;,
-   },
- }).done(function(msg) {
-   alert(&#39;Data Saved: &#39; + msg);
- }).fail(function(xmlHttpRequest, statusText, errorThrown) {
-   alert(
-     &#39;Your form submission failed.\n\n&#39;
-       + &#39;XML Http Request: &#39; + JSON.stringify(xmlHttpRequest)
-       + &#39;,\nStatus Text: &#39; + statusText
-       + &#39;,\nError Thrown: &#39; + errorThrown);
- });
-
-endColumns
-
-keyboardNav bash.html isbn.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ jQuery Cookbook: Solutions & Examples for jQuery Developers|2009|Cody Lindley|7365956|3.89|250|19
+ jQuery for Dummies|2010|Lynn Beighley|7417454|3.97|36|1

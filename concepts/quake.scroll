@@ -1,51 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Quake
+import ../measures/conceptPage.scroll
+id Quake
+appeared 2001
+type pl
+conceptDescription Quake is a simple, specialized language and its interpreter drawing on elements of the C language, the Bourne shell, and the C pre-processor. The cm3 compiler includes a quake interpreter as its extension language. In fact, the configuration file, cm3.cfg, and m3makefiles are quake scripts. Quake was designed to be a simple extension language for the builder. Building a complete, general-purpose language was not one of the goals. Cm3 calls out to quake every time it needs to do something that needs to be specialized such as compiling C files or linking.
+reference https://modula3.elegosoft.com/cm3/doc/help/cm3/quake.html
+reference https://www.computer-dictionary-online.org/definitions-q/quake.html
+country United States
+originCommunity Digital Equipment Corporation
 
-title Quake - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="graal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zolang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quake.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=quake" class="material-symbols-outlined">edit</a></div>
-
-* Quake is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #1691 <span title="TotalRank: 2212 Jobs: 103 Users: 1151 Facts: 1123 Links: 986">on PLDB</span>
- 23 Years Old
- 1 <span title="Quake repos on GitHub.">Repos</span>
-
-* Quake is a simple, specialized language and its interpreter drawing on elements of the C language, the Bourne shell, and the C pre-processor. The cm3 compiler includes a quake interpreter as its extension language. In fact, the configuration file, cm3.cfg, and m3makefiles are quake scripts. Quake was designed to be a simple extension language for the builder. Building a complete, general-purpose language was not one of the goals. Cm3 calls out to quake every time it needs to do something that needs to be specialized such as compiling C files or linking.
-
-- There are at least 1 Quake repos on <a href="https://github.com/search?q=language:Quake">GitHub</a>
-- Quake first developed in <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a>
-- GitHub supports <a href="https://github.com/newgrammars/quake" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Quake
-- Read more about Quake on the web: 1. 2.
- https://modula3.elegosoft.com/cm3/doc/help/cm3/quake.html 1.
- https://www.computer-dictionary-online.org/definitions-q/quake.html 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  proc simple(prefix, suffix) is
-    q = prefix &amp; &quot;.&quot; &amp; suffix
+    q = prefix & "." & suffix
   end
 
-codeWithHeader Example from <a href='https://github.com/newgrammars/quake'>Linguist</a>:
- include(ROOT &amp; &quot;/m3overrides&quot;)
- M3_FRONT_FLAGS += &quot;-vsdebug&quot;
- _M3BUNDLE_OVERRIDE = &quot;T&quot;
+githubLanguage Quake
+ type programming
+ filenames m3makefile m3overrides
+ aceMode text
+ tmScope source.quake
+ repos 1
 
-endColumns
+linguistGrammarRepo https://github.com/newgrammars/quake
+ firstCommit 2018
+ lastCommit 2018
+ committerCount 3
+ commitCount 7
+ sampleCount 2
+ example
+  include(ROOT & "/m3overrides")
+  M3_FRONT_FLAGS += "-vsdebug"
+  _M3BUNDLE_OVERRIDE = "T"
 
-keyboardNav graal.html zolang.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

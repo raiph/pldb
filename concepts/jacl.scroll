@@ -1,42 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JACL
+import ../measures/conceptPage.scroll
+id JACL
+appeared 1997
+type pl
+creators Ioi K. Lam and Brian Smith
+conceptDescription Jacl, pronunced “Jackal”, is a Tcl interpreter written in Java. You can use it for Java the same way Tcl is used for C — a scripting language to glue together modules written in a low level language.
+reference https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.444.4172&rep=rep1&type=pdf
+reference https://vmlanguages.is-research.de/jacl/
+country Germany
+originCommunity http://www.brainbyte.de/
 
-title JACL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8579
 
-html
- <a class="trueBaseThemePreviousItem" href="herbrand.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jacl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=jacl" class="material-symbols-outlined">edit</a></div>
-
-* JACL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997 by Ioi K. Lam and Brian Smith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
- link ../lists/creators.html#ioiKLam Ioi K. Lam
- link ../lists/creators.html#brianSmith Brian Smith
-
-dashboard
- #3061 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 27 Years Old
-
-* Jacl, pronunced “Jackal”, is a Tcl interpreter written in Java. You can use it for Java the same way Tcl is used for C — a scripting language to glue together modules written in a low level language.
-
-- JACL first developed in <a href="../lists/originCommunities.html#httpWwwBrainbyteDe">http://www.brainbyte.de/</a>
-- JACL on HOPL
- https://hopl.info/showlanguage.prx?exp=8579
-- Read more about JACL on the web: 1. 2.
- https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.444.4172&rep=rep1&type=pdf 1.
- https://vmlanguages.is-research.de/jacl/ 2.
-
-<br>
-
-endColumns
-
-keyboardNav herbrand.html kb.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

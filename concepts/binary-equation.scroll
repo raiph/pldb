@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Binary Equation
-
-title Binary Equation - Equation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bawk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bird.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/binary-equation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=binary-equation" class="material-symbols-outlined">edit</a></div>
-
-* Binary Equation is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+equation">equation</a> created in 1689 by Gottfried Leibniz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1689 1689
- link ../lists/creators.html#gottfriedLeibniz Gottfried Leibniz
-
-dashboard
- #3579 on PLDB
- 335 Years Old
-
-* 
-
-- Binary Equation first developed in <a href="../lists/originCommunities.html#newYorkUniversity">New York University</a> and <a href="../lists/originCommunities.html#hebrewUniversity">Hebrew University</a>
-- Read more about Binary Equation on the web: 1.
- https://math.stackexchange.com/questions/960236/trying-to-understand-binary-number-equation 1.
-
-<br>
-
-endColumns
-
-keyboardNav bawk.html bird.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Binary Equation
+appeared 1689
+type equation
+creators Gottfried Leibniz
+reference https://math.stackexchange.com/questions/960236/trying-to-understand-binary-number-equation
+country United States and Israel
+originCommunity New York University && Hebrew University
+equation
+ n = [{0,1}...]  ∀ N
+ All languages can be represented in 0 and 1s.

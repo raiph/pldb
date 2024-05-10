@@ -1,37 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JuliaHub Packages
+import ../measures/conceptPage.scroll
+id JuliaHub Packages
+appeared 2014
+type packageManager
+website https://juliahub.com/ui/Packages
+country Various
+originCommunity https://juliahub.com/products/overview/
 
-title JuliaHub Packages - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="holonforth.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mathworks-file-exchange-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/juliahub-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://juliahub.com/ui/Packages" class="material-symbols-outlined">home</a> <a href="/edit.html?id=juliahub-pm" class="material-symbols-outlined">edit</a></div>
-
-* JuliaHub Packages is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3306 on PLDB
- 10 Years Old
-
-* 
-
-- JuliaHub Packages website
- https://juliahub.com/ui/Packages
-- JuliaHub Packages first developed in <a href="../lists/originCommunities.html#httpsJuliahubComProductsOverview">https://juliahub.com/products/overview/</a>
-
-<br>
-
-endColumns
-
-keyboardNav holonforth.html mathworks-file-exchange-pm.html
-
-import ../footer.scroll
+packageCount 7820
+forLanguages julia

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AMBUSH
+import ../measures/conceptPage.scroll
+id AMBUSH
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/8db0e00953e405f1e1da41ad77362581012c14ff
+originCommunity Applied Data Research, Inc
 
-title AMBUSH - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=539
 
-html
- <a class="trueBaseThemePreviousItem" href="amber.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amppl-i.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ambush.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ambush" class="material-symbols-outlined">edit</a></div>
-
-* AMBUSH is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3470 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- AMBUSH first developed in <a href="../lists/originCommunities.html#appliedDataResearchInc">Applied Data Research, Inc</a>
-- AMBUSH on HOPL
- https://hopl.info/showlanguage.prx?exp=539
-- Read more about AMBUSH on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8db0e00953e405f1e1da41ad77362581012c14ff 1.
-
-<br>
-
-endColumns
-
-keyboardNav amber.html amppl-i.html
-
-import ../footer.scroll
+semanticScholar 0

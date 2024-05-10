@@ -1,42 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RetDec
+import ../measures/conceptPage.scroll
+id RetDec
+appeared 2017
+type decompiler
+website https://retdec.com/
+country Czech Republic
+originCommunity Avast Software s.r.o.
+domainName retdec.com
+ registered 2015
 
-title RetDec - Decompiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sizzle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="desmos.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/retdec.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://retdec.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/avast/retdec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=retdec" class="material-symbols-outlined">edit</a></div>
-
-* RetDec is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+decompiler">decompiler</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/avast/retdec
-
-dashboard
- #811 on PLDB
- 7 Years Old
-
-* RetDec is a retargetable machine-code decompiler based on LLVM.
-
-- RetDec website
- https://retdec.com/
-- RetDec is developed on <a href="https://github.com/avast/retdec">GitHub</a> and has 6,617 stars
-- RetDec first developed in <a href="../lists/originCommunities.html#avastSoftwareSRO">Avast Software s.r.o.</a>
-- <a href="https://retdec.com/">retdec.com</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav sizzle.html desmos.html
-
-import ../footer.scroll
+githubRepo https://github.com/avast/retdec
+ firstCommit 2017
+ stars 6617
+ forks 814
+ subscribers 235
+ created 2017
+ updated 2022
+ description RetDec is a retargetable machine-code decompiler based on LLVM.
+ issues 389

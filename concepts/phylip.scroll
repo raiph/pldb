@@ -1,37 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title phylip
+import ../measures/conceptPage.scroll
+id phylip
+appeared 1991
+type textDataFormat
+conceptDescription The PHYLIP file format stores a multiple sequence alignment. The format was originally defined and used in Joe Felsenstein’s PHYLIP package [R165], and has since been supported by several other bioinformatics tools
+reference http://rosalind.info/glossary/phylip-format/
+fileExtensions phy ph
+country United States
+originCommunity University of Washington
 
-title phylip - Text data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kivy-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="realbasic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/phylip.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=phylip" class="material-symbols-outlined">edit</a></div>
-
-* phylip is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #2507 <span title="TotalRank: 3071 Jobs: 103 Users: 2838 Facts: 1982 Links: 986">on PLDB</span>
- 33 Years Old
-
-* The PHYLIP file format stores a multiple sequence alignment. The format was originally defined and used in Joe Felsenstein’s PHYLIP package [R165], and has since been supported by several other bioinformatics tools
-
-- phylip first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- file extensions for phylip include phy and ph
-- Read more about phylip on the web: 1.
- http://rosalind.info/glossary/phylip-format/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  3 30
  Taxon1     ACCGTTTCCACAGCATTATGG
  GCTCGATGA
@@ -40,8 +17,5 @@ codeWithHeader Example from the web:
  Taxon3     TAAGGTATTGGGCTTGGTTCG
  CAGGGGACT
 
-endColumns
-
-keyboardNav kivy-lang.html realbasic.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

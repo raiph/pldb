@@ -1,61 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RAISE Specification Language
+import ../measures/conceptPage.scroll
+id RAISE Specification Language
+appeared 1992
+type pl
+reference https://link.springer.com/chapter/10.1007/978-3-540-74107-7_7
+standsFor Rigorous Approach to Industrial Software Engineering Specification Language
+country Macao and Denmark
+originCommunity United Nations University and Technical University of Denmark
 
-title RAISE Specification Language - Programming language
- hidden
+hasHexadecimals true
+hasFloats true
+hasIntegers true
 
-html
- <a class="trueBaseThemePreviousItem" href="pamela.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="school.html">&gt;</a>
+pygmentsHighlighter RSL
+ filename dsls.py
+ fileExtensions rsl
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rsl" class="material-symbols-outlined">edit</a></div>
-
-* RAISE Specification Language, aka Rigorous Approach to Industrial Software Engineering Specification Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #2991 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- RAISE Specification Language first developed in <a href="../lists/originCommunities.html#unitedNationsUniversityAndTechnicalUniversityOfDenmark">United Nations University and Technical University of Denmark</a>
-- file extensions for RAISE Specification Language include rsl
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dsls.py">syntax highlighting</a> for RAISE Specification Language
-- Read more about RAISE Specification Language on the web: 1.
- https://link.springer.com/chapter/10.1007/978-3-540-74107-7_7 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav pamela.html school.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

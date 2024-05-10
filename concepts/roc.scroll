@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Roc
+import ../measures/conceptPage.scroll
+id Roc
+appeared 2020
+type pl
+creators Richard Feldman
+website https://www.roc-lang.org/
+country United States
+originCommunity https://github.com/roc-lang
 
-title Roc - Programming language
- hidden
+githubRepo https://github.com/roc-lang/roc
+ stars 1588
+ forks 90
+ subscribers 128
+ created 2019
+ updated 2023
+ description Roc is a language for making delightful software.
+ issues 764
 
-html
- <a class="trueBaseThemePreviousItem" href="ipf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="robomind.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/roc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.roc-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/roc-lang/roc" class="material-symbols-outlined">code</a> <a href="/edit.html?id=roc" class="material-symbols-outlined">edit</a></div>
-
-* Roc is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Richard Feldman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#richardFeldman Richard Feldman
-
-codeWithHeader Source code:
- git clone https://github.com/roc-lang/roc
-
-dashboard
- #580 <span title="TotalRank: 1147 Jobs: 103 Users: 377 Facts: 1787 Links: 667">on PLDB</span>
- 4 Years Old
-
-* Roc is a language for making delightful software.
-
-- Roc website
- https://www.roc-lang.org/
-- Roc is developed on <a href="https://github.com/roc-lang/roc">GitHub</a> and has 1,588 stars
-- Roc first developed in <a href="../lists/originCommunities.html#httpsGithubComRocLang">https://github.com/roc-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav ipf.html robomind.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 25815
+ committers 199
+ files 2238

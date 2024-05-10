@@ -1,42 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Myghty
+import ../measures/conceptPage.scroll
+id Myghty
+appeared 2006
+type pl
+conceptDescription A Python-based template and view-controller framework derived from HTML::Mason. Supports the full featureset of Mason, allowing component-based web development with Python-embedded HTML, and includes many new concepts and features not found in Mason. Myghty is a legacy library. New projects should use Mako templates.
+reference https://pypi.org/project/Myghty/
+country United States
+originCommunity https://web.archive.org/web/20100618062929/http://www.myghty.org/
 
-title Myghty - Programming language
- hidden
+githubLanguage Myghty
+ fileExtensions myt
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope none
+ repos 1
+githubBigQuery Myghty
+ repos 59
+ users 59
 
-html
- <a class="trueBaseThemePreviousItem" href="life.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ppm-format.html">&gt;</a>
+pygmentsHighlighter Myghty
+ filename templates.py
+ fileExtensions myt autodelegate
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/myghty.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=myghty" class="material-symbols-outlined">edit</a></div>
-
-* Myghty is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #2189 <span title="TotalRank: 2680 Jobs: 103 Users: 2838 Facts: 1591 Links: 986">on PLDB</span>
- 18 Years Old
- 1 <span title="Myghty repos on GitHub.">Repos</span>
-
-* A Python-based template and view-controller framework derived from HTML::Mason. Supports the full featureset of Mason, allowing component-based web development with Python-embedded HTML, and includes many new concepts and features not found in Mason. Myghty is a legacy library. New projects should use Mako templates.
-
-- There are at least 1 Myghty repos on <a href="https://github.com/search?q=language:Myghty">GitHub</a>
-- Myghty first developed in <a href="../lists/originCommunities.html#httpsWebArchiveOrgWeb20100618062929HttpWwwMyghtyOrg">https://web.archive.org/web/20100618062929/http://www.myghty.org/</a>
-- file extensions for Myghty include myt and autodelegate
-- The  Google BigQuery Public Dataset GitHub snapshot shows 59 users using Myghty in 59 repos on <a href="https://api.github.com/search/repositories?q=language:Myghty">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for Myghty
-- Read more about Myghty on the web: 1.
- https://pypi.org/project/Myghty/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav life.html ppm-format.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

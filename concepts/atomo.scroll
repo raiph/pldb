@@ -1,43 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title atomo
+import ../measures/conceptPage.scroll
+id atomo
+appeared 2010
+type pl
+website http://atomo-lang.org
+domainName atomo-lang.org
+ registered 2022
 
-title atomo - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="wdf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="b3-ir.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/atomo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://atomo-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=atomo" class="material-symbols-outlined">edit</a></div>
-
-* atomo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2807 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 14 Years Old
-
-* 
-
-- atomo website
- http://atomo-lang.org
-- <a href="http://atomo-lang.org">atomo-lang.org</a> was registered in 2022
-
-<br>
-
-endColumns
-
-## HackerNews discussions of atomo
-
-pipeTable
- title|titleLink|date|score|comments
- Atomo, the programmer's programmable programming language|https://news.ycombinator.com/item?id=1901268|11/13/2010|162|34
-
-keyboardNav wdf.html b3-ir.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 1901268|Atomo, the programmer's programmable programming language|http://atomo-lang.org/|2010-11-13 18:10:31 UTC|1289671831|steveklabnik|34|162

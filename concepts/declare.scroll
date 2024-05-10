@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DECLARE
+import ../measures/conceptPage.scroll
+id DECLARE
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/020edfebcf2f3629af67aa517d48118377a40c4d
+country United Kingdom
+originCommunity University of Cambridge
 
-title DECLARE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3735
 
-html
- <a class="trueBaseThemePreviousItem" href="debl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="del.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/declare.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=declare" class="material-symbols-outlined">edit</a></div>
-
-* DECLARE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #4116 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- DECLARE first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a>
-- DECLARE on HOPL
- https://hopl.info/showlanguage.prx?exp=3735
-- Read more about DECLARE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/020edfebcf2f3629af67aa517d48118377a40c4d 1.
-
-<br>
-
-endColumns
-
-keyboardNav debl.html del.html
-
-import ../footer.scroll
+wordRank 9348
+centralPackageRepositoryCount 0

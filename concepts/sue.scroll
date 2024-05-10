@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sue
+import ../measures/conceptPage.scroll
+id Sue
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/39b1a4337bbe66835a052d75571896327cccea18
 
-title Sue - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=573
 
-html
- <a class="trueBaseThemePreviousItem" href="siri.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="summer.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sue.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sue" class="material-symbols-outlined">edit</a></div>
-
-* Sue is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3427 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- Sue on HOPL
- https://hopl.info/showlanguage.prx?exp=573
-- Read more about Sue on Semantic Scholar: 1.
- https://semanticscholar.org/paper/39b1a4337bbe66835a052d75571896327cccea18 1.
-
-<br>
-
-endColumns
-
-keyboardNav siri.html summer.html
-
-import ../footer.scroll
+wordRank 5705
+centralPackageRepositoryCount 0

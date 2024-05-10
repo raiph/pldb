@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Micro-flowcharts
+import ../measures/conceptPage.scroll
+id Micro-flowcharts
+appeared 1959
+type pl
+reference https://semanticscholar.org/paper/f688448ed0149c068e7d1bbc396f1fbc5fd7a0e4
+country United States
+originCommunity University of Pennsylvania
 
-title Micro-flowcharts - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8013
 
-html
- <a class="trueBaseThemePreviousItem" href="metatem.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="microdare.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/micro-flowcharts.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=micro-flowcharts" class="material-symbols-outlined">edit</a></div>
-
-* Micro-flowcharts is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3826 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- Micro-flowcharts first developed in <a href="../lists/originCommunities.html#universityOfPennsylvania">University of Pennsylvania</a>
-- Micro-flowcharts on HOPL
- https://hopl.info/showlanguage.prx?exp=8013
-- Read more about Micro-flowcharts on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f688448ed0149c068e7d1bbc396f1fbc5fd7a0e4 1.
-
-<br>
-
-endColumns
-
-keyboardNav metatem.html microdare.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lambda Diagrams
+import ../measures/conceptPage.scroll
+id Lambda Diagrams
+appeared 2014
+type notation
+creators John Tromp
+conceptDescription Lambda Diagrams are a graphical notation for closed lambda terms, in which abstractions (lambdas) are represented by horizontal lines, variables by vertical lines emanating down from their binding lambda, and applications by horizontal links connecting the leftmost variables. In the alternative style, applications link the nearest deepest variables, for a more stylistic, if less uniform, look.
+website https://tromp.github.io/cl/diagrams.html
 
-title Lambda Diagrams - Notation
- hidden
+relatedConcepts mockingbird-notation
 
-html
- <a class="trueBaseThemePreviousItem" href="tengo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="uml2-sp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tromp-diagrams.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tromp.github.io/cl/diagrams.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tromp-diagrams" class="material-symbols-outlined">edit</a></div>
-
-* Lambda Diagrams is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+notation">notation</a> created in 2014 by John Tromp.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#johnTromp John Tromp
-
-dashboard
- #2804 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Lambda Diagrams are a graphical notation for closed lambda terms, in which abstractions (lambdas) are represented by horizontal lines, variables by vertical lines emanating down from their binding lambda, and applications by horizontal links connecting the leftmost variables. In the alternative style, applications link the nearest deepest variables, for a more stylistic, if less uniform, look.
-
-- Lambda Diagrams website
- https://tromp.github.io/cl/diagrams.html
-- See also: (1 related languages)<a href="mockingbird-notation.html">mockingbird-notation</a>
-
-<br>
-
-endColumns
-
-keyboardNav tengo.html uml2-sp.html
-
-import ../footer.scroll
+semanticScholar 0

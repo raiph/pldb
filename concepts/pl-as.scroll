@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IBM Programming Language/Advanced Systems
-
-title IBM Programming Language/Advanced Systems - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pgen.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sap-hana.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pl-as.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pl-as" class="material-symbols-outlined">edit</a></div>
-
-* IBM Programming Language/Advanced Systems is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3209 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- IBM Programming Language/Advanced Systems first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- Read more about IBM Programming Language/Advanced Systems on the web: 1.
- https://en.wikipedia.org/wiki/IBM_PL/S 1.
-
-<br>
-
-endColumns
-
-keyboardNav pgen.html sap-hana.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id IBM Programming Language/Advanced Systems
+appeared 1976
+type pl
+reference https://en.wikipedia.org/wiki/IBM_PL/S
+country United States
+originCommunity IBM

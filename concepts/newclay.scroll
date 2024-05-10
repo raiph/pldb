@@ -1,40 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title newclay
+import ../measures/conceptPage.scroll
+id newclay
+appeared 2011
+type pl
+creators Joe Groff
+conceptDescription Newclay is an experimental offshoot of the Clay programming language. The Newclay compiler requires Clay to compile.
+country United States
+originCommunity https://github.com/jckarter/newclay/issues
 
-title newclay - Programming language
- hidden
+githubRepo https://github.com/jckarter/newclay
+ firstCommit 2011
+ stars 4
+ forks 1
+ subscribers 2
+ created 2011
+ updated 2016
+ description Newclay programming language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="acorn-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="idio.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/newclay.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/jckarter/newclay" class="material-symbols-outlined">code</a> <a href="/edit.html?id=newclay" class="material-symbols-outlined">edit</a></div>
-
-* newclay is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Joe Groff.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#joeGroff Joe Groff
-
-codeWithHeader Source code:
- git clone https://github.com/jckarter/newclay
-
-dashboard
- #2261 <span title="TotalRank: 2758 Jobs: 103 Users: 2358 Facts: 1669 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Newclay is an experimental offshoot of the Clay programming language. The Newclay compiler requires Clay to compile.
-
-- newclay is developed on <a href="https://github.com/jckarter/newclay">GitHub</a> and has 4 stars
-- newclay first developed in <a href="../lists/originCommunities.html#httpsGithubComJckarterNewclayIssues">https://github.com/jckarter/newclay/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav acorn-lang.html idio.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 1
+ committers 1
+ files 1424

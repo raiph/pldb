@@ -1,43 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jsil-compiler
+import ../measures/conceptPage.scroll
+id jsil-compiler
+appeared 2010
+type compiler
+creators Kevin Gadd
+conceptDescription JSIL is a compiler that transforms .NET applications and libraries from their native executable format - CIL bytecode - into standards-compliant, cross-browser JavaScript.
+website http://jsil.org/
+country United States
+originCommunity https://github.com/sq
+domainName jsil.org
+ registered 2011
 
-title jsil-compiler - Compiler
- hidden
+githubRepo https://github.com/sq/JSIL
+ firstCommit 2011
+ stars 1712
+ forks 249
+ subscribers 105
+ created 2011
+ updated 2022
+ description CIL to Javascript Compiler
+ issues 381
 
-html
- <a class="trueBaseThemePreviousItem" href="roy.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="desktop.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jsil-compiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://jsil.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/sq/JSIL" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jsil-compiler" class="material-symbols-outlined">edit</a></div>
-
-* jsil-compiler is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2010 by Kevin Gadd.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#kevinGadd Kevin Gadd
-
-codeWithHeader Source code:
- git clone https://github.com/sq/JSIL
-
-dashboard
- #1092 on PLDB
- 14 Years Old
-
-* JSIL is a compiler that transforms .NET applications and libraries from their native executable format - CIL bytecode - into standards-compliant, cross-browser JavaScript.
-
-- jsil-compiler website
- http://jsil.org/
-- jsil-compiler is developed on <a href="https://github.com/sq/JSIL">GitHub</a> and has 1,712 stars
-- jsil-compiler first developed in <a href="../lists/originCommunities.html#httpsGithubComSq">https://github.com/sq</a>
-- <a href="http://jsil.org/">jsil.org</a> was registered in 2011
-
-<br>
-
-endColumns
-
-keyboardNav roy.html desktop.html
-
-import ../footer.scroll
+fileType na
+isOpenSource true
+centralPackageRepositoryCount 0

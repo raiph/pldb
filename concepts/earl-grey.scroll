@@ -1,95 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Earl Grey
+import ../measures/conceptPage.scroll
+id Earl Grey
+appeared 2014
+type pl
+creators Olivier Breuleux
+website https://web.archive.org/web/20200813015200/http://www.earl-grey.io/
+country Canada
+originCommunity https://github.com/breuleux/earl-grey/issues
 
-title Earl Grey - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="lispyscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="miniml-error.html">&gt;</a>
+hasOctals true
+hasHexadecimals true
+hasFloats true
+hasIntegers true
+hasBinaryNumbers true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/earl-grey.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20200813015200/http://www.earl-grey.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/breuleux/earl-grey" class="material-symbols-outlined">code</a> <a href="/edit.html?id=earl-grey" class="material-symbols-outlined">edit</a></div>
-
-* Earl Grey is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Olivier Breuleux.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#olivierBreuleux Olivier Breuleux
-
-codeWithHeader Source code:
- git clone https://github.com/breuleux/earl-grey
-
-dashboard
- #964 <span title="TotalRank: 1529 Jobs: 103 Users: 759 Facts: 832 Links: 667">on PLDB</span>
- 10 Years Old
-
-* Programming language compiling to JavaScript
-
-- Earl Grey website
- https://web.archive.org/web/20200813015200/http://www.earl-grey.io/
-- Earl Grey is developed on <a href="https://github.com/breuleux/earl-grey">GitHub</a> and has 473 stars
-- Earl Grey first developed in <a href="../lists/originCommunities.html#httpsGithubComBreuleuxEarlGreyIssues">https://github.com/breuleux/earl-grey/issues</a>
-- file extensions for Earl Grey include eg
-- Earl Grey compiles to <a href="javascript.html">JavaScript</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for Earl Grey
-
-<br>
-
-codeWithHeader Example from the web:
+example
  count-words(text) =
     counts = new Map()
-    words = text.split(R&quot;\W+&quot;)
-    words each word -&gt;
+    words = text.split(R"\W+")
+    words each word ->
        current-count = counts.get(word) or 0
        counts.set(word, current-count + 1)
     consume(counts.entries()).sort(compare) where
        compare({w1, c1}, {w2, c2}) = c2 - c1
 
-endColumns
+githubRepo https://github.com/breuleux/earl-grey
+ stars 473
+ forks 11
+ subscribers 17
+ created 2014
+ updated 2017
+ description Programming language compiling to JavaScript
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2014
+ commits 556
+ committers 3
+ files 83
 
-treeTable
- row
-  Feature Binary Literals
-  FeatureLink ../features/hasBinaryNumbers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
+pygmentsHighlighter Earl Grey
+ filename javascript.py
+ fileExtensions eg
 
-## HackerNews discussions of Earl Grey
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: The Earl Grey language – pattern matching, macros, compiles to JS|https://news.ycombinator.com/item?id=8150346|08/07/2014|5|1
-
-keyboardNav lispyscript.html miniml-error.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 8150346|Show HN: The Earl Grey language – pattern matching, macros, compiles to JS|2014-08-07 22:01:22 UTC|1407448882|breuleux|1|5

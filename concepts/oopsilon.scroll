@@ -1,39 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title oopsilon
+import ../measures/conceptPage.scroll
+id oopsilon
+appeared 2017
+type esolang
+conceptDescription <a href='http://github.com/Oopsilon/Oopsilon'>Oopsilon</a> is an object-oriented language in the Kayian tradition which is (perhaps uniquely) founded on a negativist philosophy drawing on critical theory and stressing the importance of hermeneutics in understanding the problems programmers experience.
+country Scotland
+originCommunity https://github.com/Oopsilon
 
-title oopsilon - Esoteric programming language
- hidden
+githubRepo https://github.com/Oopsilon/Oopsilon
+ stars 8
+ forks 0
+ subscribers 2
+ created 2017
+ updated 2017
+ firstCommit 2017
+ description Main repository - implementation of the dynamic programming environment Oopsilon
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="flownote.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="u.html">&gt;</a>
+repoStats
+ firstCommit 2022
+ commits 9
+ committers 2
+ files 51
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/oopsilon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Oopsilon/Oopsilon" class="material-symbols-outlined">code</a> <a href="/edit.html?id=oopsilon" class="material-symbols-outlined">edit</a></div>
-
-* oopsilon is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/Oopsilon/Oopsilon
-
-dashboard
- #2090 <span title="TotalRank: 2591 Jobs: 103 Users: 2347 Facts: 1502 Links: 986">on PLDB</span>
- 7 Years Old
-
-* <a href='http://github.com/Oopsilon/Oopsilon'>Oopsilon</a> is an object-oriented language in the Kayian tradition which is (perhaps uniquely) founded on a negativist philosophy drawing on critical theory and stressing the importance of hermeneutics in understanding the problems programmers experience.
-
-- oopsilon is developed on <a href="https://github.com/Oopsilon/Oopsilon">GitHub</a> and has 8 stars
-- oopsilon first developed in <a href="../lists/originCommunities.html#httpsGithubComOopsilon">https://github.com/Oopsilon</a>
-
-<br>
-
-endColumns
-
-keyboardNav flownote.html u.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

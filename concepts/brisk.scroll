@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Brisk
+import ../measures/conceptPage.scroll
+id Brisk
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/7a034dbe8ed1dd9a29ce3d9ec449efab5462a849
+country England
+originCommunity University of Bristol
 
-title Brisk - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3656
 
-html
- <a class="trueBaseThemePreviousItem" href="bpn2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bsml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/brisk.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=brisk" class="material-symbols-outlined">edit</a></div>
-
-* Brisk is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3534 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- Brisk first developed in <a href="../lists/originCommunities.html#universityOfBristol">University of Bristol</a>
-- Brisk on HOPL
- https://hopl.info/showlanguage.prx?exp=3656
-- Read more about Brisk on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7a034dbe8ed1dd9a29ce3d9ec449efab5462a849 1.
-
-<br>
-
-endColumns
-
-keyboardNav bpn2.html bsml.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

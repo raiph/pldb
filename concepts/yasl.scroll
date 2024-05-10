@@ -1,45 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Yet Another Scripting Language
+import ../measures/conceptPage.scroll
+id Yet Another Scripting Language
+appeared 2017
+type pl
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/diiqwt/request_for_feedback_on_pattern_matchingtype/
+standsFor Yet Another Scripting Language
 
-title Yet Another Scripting Language - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="mako.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="frink.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yasl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/yasl-lang/yasl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=yasl" class="material-symbols-outlined">edit</a></div>
-
-* Yet Another Scripting Language, aka Yet Another Scripting Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/yasl-lang/yasl
-
-dashboard
- #1183 <span title="TotalRank: 1728 Jobs: 103 Users: 1473 Facts: 639 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Bytecode Interpreter for Yet Another Scripting Language (YASL).
-
-- Yet Another Scripting Language is developed on <a href="https://github.com/yasl-lang/yasl">GitHub</a> and has 60 stars
-- Read more about Yet Another Scripting Language on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/diiqwt/request_for_feedback_on_pattern_matchingtype/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # simple program that iteratively calculates factorials
  
  fn range(a, b) {
    tmp := []
-   for i := a; i &lt; b; i += 1 {
-     tmp-&gt;push(i)
+   for i := a; i < b; i += 1 {
+     tmp->push(i)
    }
  
    return tmp
@@ -47,7 +27,7 @@ codeWithHeader Example from the web:
  
  fn fact(n) {
    tmp := 1
-   while n &gt; 0 {
+   while n > 0 {
      tmp *= n
      n -= 1
    }
@@ -56,36 +36,22 @@ codeWithHeader Example from the web:
  }
  
  
- for i &lt;- range(0, 7) {
-   echo &quot;fact(#{i}): #{fact(i)}&quot;
+ for i <- range(0, 7) {
+   echo "fact(#{i}): #{fact(i)}"
  }
 
-endColumns
+githubRepo https://github.com/yasl-lang/yasl
+ firstCommit 2017
+ stars 60
+ forks 13
+ subscribers 5
+ created 2017
+ updated 2022
+ description Bytecode Interpreter for Yet Another Scripting Language (YASL).
+ issues 62
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav mako.html frink.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 2050
+ committers 13
+ files 1204

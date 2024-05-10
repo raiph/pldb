@@ -1,40 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSON Query Language
+import ../measures/conceptPage.scroll
+id JSON Query Language
+appeared 2019
+type queryLanguage
+creators Jakub Martin
+country Poland
+originCommunity https://github.com/cube2222/jql/issues
 
-title JSON Query Language - Query language
- hidden
+githubRepo https://github.com/cube2222/jql
+ firstCommit 2019
+ stars 863
+ forks 20
+ subscribers 11
+ created 2019
+ updated 2022
+ description Easy JSON Query Processor with a Lispy syntax in Go
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="noulith.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="potion.html">&gt;</a>
+repoStats
+ firstCommit 2019
+ commits 72
+ committers 3
+ files 21
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jql.pldb
+redditDiscussion https://www.reddit.com/r/golang/comments/ehnsz5/jql_json_query_processor_with_an_easier_lispy/
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/cube2222/jql" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jql" class="material-symbols-outlined">edit</a></div>
-
-* JSON Query Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2019 by Jakub Martin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#jakubMartin Jakub Martin
-
-codeWithHeader Source code:
- git clone https://github.com/cube2222/jql
-
-dashboard
- #1113 <span title="TotalRank: 1672 Jobs: 103 Users: 583 Facts: 1591 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Easy JSON Query Processor with a Lispy syntax in Go
-
-- JSON Query Language is developed on <a href="https://github.com/cube2222/jql">GitHub</a> and has 863 stars
-- JSON Query Language first developed in <a href="../lists/originCommunities.html#httpsGithubComCube2222JqlIssues">https://github.com/cube2222/jql/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav noulith.html potion.html
-
-import ../footer.scroll
+isbndb 0

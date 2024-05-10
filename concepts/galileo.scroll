@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Galileo
+import ../measures/conceptPage.scroll
+id Galileo
+appeared 1983
+type pl
+conceptDescription Galileo is a conceptual language for database applications in which the persistence of values is an orthogonal property, i.e., values of any type are persistent as long as they are accessible from the top level environment.
+reference https://semanticscholar.org/paper/cec05f624ad657618554ded0345f04604c2483b0
+country Italia
+originCommunity Università di Pisa
 
-title Galileo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2663
 
-html
- <a class="trueBaseThemePreviousItem" href="fresco.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gcla-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/galileo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=galileo" class="material-symbols-outlined">edit</a></div>
-
-* Galileo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #4144 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 41 Years Old
-
-* Galileo is a conceptual language for database applications in which the persistence of values is an orthogonal property, i.e., values of any type are persistent as long as they are accessible from the top level environment.
-
-- Galileo first developed in <a href="../lists/originCommunities.html#universitaDiPisa">Università di Pisa</a>
-- Galileo on HOPL
- https://hopl.info/showlanguage.prx?exp=2663
-- Read more about Galileo on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cec05f624ad657618554ded0345f04604c2483b0 1.
-
-<br>
-
-endColumns
-
-keyboardNav fresco.html gcla-ii.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

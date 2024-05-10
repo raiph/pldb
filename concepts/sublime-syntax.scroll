@@ -1,37 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sublime Syntax
+import ../measures/conceptPage.scroll
+id Sublime Syntax
+appeared 2008
+type grammarLanguage
+conceptDescription Sublime Syntax files are YAML files with a small header, followed by a list of contexts. Each context has a list of patterns that describe how to highlight text in that context, and how to change the current text.
+website https://www.sublimetext.com/docs/3/syntax.html
+fileExtensions sublime-syntax
 
-title Sublime Syntax - Grammar language
- hidden
+relatedConcepts yaml tmlanguage
 
-html
- <a class="trueBaseThemePreviousItem" href="jean.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ccr.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sublime-syntax.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.sublimetext.com/docs/3/syntax.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sublime-syntax" class="material-symbols-outlined">edit</a></div>
-
-* Sublime Syntax is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-dashboard
- #1979 <span title="TotalRank: 2474 Jobs: 103 Users: 2442 Facts: 1982 Links: 389">on PLDB</span>
- 16 Years Old
-
-* Sublime Syntax files are YAML files with a small header, followed by a list of contexts. Each context has a list of patterns that describe how to highlight text in that context, and how to change the current text.
-
-- Sublime Syntax website
- https://www.sublimetext.com/docs/3/syntax.html
-- file extensions for Sublime Syntax include sublime-syntax
-- See also: (2 related languages)<a href="yaml.html">YAML</a>, <a href="tmlanguage.html">TextMate Language</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  %YAML 1.2
  ---
  name: C
@@ -42,9 +19,3 @@ codeWithHeader Example from the web:
    main:
      - match: \b(if|else|for|while)\b
        scope: keyword.control.c
-
-endColumns
-
-keyboardNav jean.html ccr.html
-
-import ../footer.scroll

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IPL-V
+import ../measures/conceptPage.scroll
+id IPL-V
+appeared 1957
+type pl
+reference https://semanticscholar.org/paper/695466edc64137140a793814e271e67339f9c2ee
+country United States
+originCommunity The Carnegie Mellon University College of Engineering && RAND Corporation
 
-title IPL-V - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=265
 
-html
- <a class="trueBaseThemePreviousItem" href="interlisp-vax.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="iqf.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ipl-v.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ipl-v" class="material-symbols-outlined">edit</a></div>
-
-* IPL-V is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1957.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1957 1957
-
-dashboard
- #3742 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 67 Years Old
-
-* 
-
-- IPL-V first developed in <a href="../lists/originCommunities.html#theCarnegieMellonUniversityCollegeOfEngineering">The Carnegie Mellon University College of Engineering</a> and <a href="../lists/originCommunities.html#randCorporation">RAND Corporation</a>
-- IPL-V on HOPL
- https://hopl.info/showlanguage.prx?exp=265
-- Read more about IPL-V on Semantic Scholar: 1.
- https://semanticscholar.org/paper/695466edc64137140a793814e271e67339f9c2ee 1.
-
-<br>
-
-endColumns
-
-keyboardNav interlisp-vax.html iqf.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

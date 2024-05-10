@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Orient84/K
+import ../measures/conceptPage.scroll
+id Orient84/K
+appeared 1986
+type pl
+reference https://dl.acm.org/doi/10.1145/323779.323741
+reference https://semanticscholar.org/paper/3dbaa58a9f7ad7fb04e1a04be4fad3f70d9c25b7
+country Japan
+originCommunity Keio University
 
-title Orient84/K - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1251
 
-html
- <a class="trueBaseThemePreviousItem" href="openada.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="osql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/orient84-k.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=orient84-k" class="material-symbols-outlined">edit</a></div>
-
-* Orient84/K is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4244 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Orient84/K first developed in <a href="../lists/originCommunities.html#keioUniversity">Keio University</a>
-- Orient84/K on HOPL
- https://hopl.info/showlanguage.prx?exp=1251
-- Read more about Orient84/K on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3dbaa58a9f7ad7fb04e1a04be4fad3f70d9c25b7 1.
-- Read more about Orient84/K on the web: 1.
- https://dl.acm.org/doi/10.1145/323779.323741 1.
-
-<br>
-
-endColumns
-
-keyboardNav openada.html osql.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORTRAN II
+import ../measures/conceptPage.scroll
+id FORTRAN II
+appeared 1958
+type pl
+reference https://semanticscholar.org/paper/e4618d3c2734f71ed34f1f97a440060e95f74d77
+country United States
+originCommunity University of California, Riverside
 
-title FORTRAN II - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=28
 
-html
- <a class="trueBaseThemePreviousItem" href="fortran-d.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortran-m.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortran-ii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fortran-ii" class="material-symbols-outlined">edit</a></div>
-
-* FORTRAN II is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3676 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- FORTRAN II first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaRiverside">University of California, Riverside</a>
-- FORTRAN II on HOPL
- https://hopl.info/showlanguage.prx?exp=28
-- Read more about FORTRAN II on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e4618d3c2734f71ed34f1f97a440060e95f74d77 1.
-
-<br>
-
-endColumns
-
-keyboardNav fortran-d.html fortran-m.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

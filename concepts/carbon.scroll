@@ -1,57 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Carbon
+import ../measures/conceptPage.scroll
+id Carbon
+appeared 2020
+type pl
+reference https://news.ycombinator.com/item?id=32151609
+country United States
+originCommunity https://github.com/carbon-language
 
-title Carbon - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cryptol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dojo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/carbon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/carbon-language/carbon-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=carbon" class="material-symbols-outlined">edit</a></div>
-
-* Carbon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-codeWithHeader Source code:
- git clone https://github.com/carbon-language/carbon-lang
-
-dashboard
- #606 <span title="TotalRank: 1178 Jobs: 103 Users: 500 Facts: 575 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Carbon language specification and documentation.
-
-- Carbon is developed on <a href="https://github.com/carbon-language/carbon-lang">GitHub</a> and has 1,099 stars
-- Carbon first developed in <a href="../lists/originCommunities.html#httpsGithubComCarbonLanguage">https://github.com/carbon-language</a>
-- Read more about Carbon on the web: 1.
- https://news.ycombinator.com/item?id=32151609 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  package Sorting api;
  
- fn Partition[T:! Comparable &amp; Movable](s: Slice(T))
-      -&gt; i64 {
+ fn Partition[T:! Comparable & Movable](s: Slice(T))
+      -> i64 {
    var i: i64 = -1;
  
    for (e: T in s) {
-     if (e &lt;= s.Last()) {
+     if (e <= s.Last()) {
        ++i;
-       Swap(&amp;s[i], &amp;e);
+       Swap(&s[i], &e);
      }
    }
    return i;
  }
  
- fn QuickSort[T:! Comparable &amp; Movable](s: Slice(T)) {
-   if (s.Size() &lt;= 1) {
+ fn QuickSort[T:! Comparable & Movable](s: Slice(T)) {
+   if (s.Size() <= 1) {
      return;
    }
    let p: i64 = Partition(s);
@@ -59,20 +31,31 @@ codeWithHeader Example from the web:
    QuickSort(s[p + 1:]));
  }
 
-codeWithHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
- package sample api;
- 
- fn Square(x: i32) -&gt; i32 {
-   return x * x;
- }
- 
- fn Main() -&gt; i32 {
-   return Square(12);
- }
- 
+githubRepo https://github.com/carbon-language/carbon-lang
+ firstCommit 2020
+ stars 1099
+ forks 21
+ subscribers 31
+ created 2020
+ updated 2022
+ description Carbon language specification and documentation.
+ issues 94
 
-endColumns
+repoStats
+ firstCommit 2020
+ commits 1654
+ committers 117
+ files 3991
 
-keyboardNav cryptol.html dojo.html
-
-import ../footer.scroll
+compilerExplorer Carbon
+ example
+  package sample api;
+  
+  fn Square(x: i32) -> i32 {
+    return x * x;
+  }
+  
+  fn Main() -> i32 {
+    return Square(12);
+  }
+  

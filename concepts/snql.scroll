@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SNQL: A Social Network Query and Transformation Language
+import ../measures/conceptPage.scroll
+id SNQL: A Social Network Query and Transformation Language
+appeared 2011
+type queryLanguage
+reference http://ceur-ws.org/Vol-749/paper18.pdf
+country Chile and United Kingdom
+originCommunity Universidad de Chile and University of London
 
-title SNQL: A Social Network Query and Transformation Language - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="school.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="titanium.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=snql" class="material-symbols-outlined">edit</a></div>
-
-* SNQL: A Social Network Query and Transformation Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #2993 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- SNQL: A Social Network Query and Transformation Language first developed in <a href="../lists/originCommunities.html#universidadDeChileAndUniversityOfLondon">Universidad de Chile and University of London</a>
-- Read more about SNQL: A Social Network Query and Transformation Language on the web: 1.
- http://ceur-ws.org/Vol-749/paper18.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  CONSTRUCT CP1
   WHERE EP2 FILTER ((A3 != A4) AND (A3 = A1 OR A3 = A2) AND
   (A4 = A1 OR A4 = A5))
@@ -38,8 +14,4 @@ codeWithHeader Example from the web:
   AND (TC(A1, A5, EP3) WITH L1=’John’)
  FROM FriendshipNetwork
 
-endColumns
-
-keyboardNav school.html titanium.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

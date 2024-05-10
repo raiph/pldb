@@ -1,48 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Metaweb Query Language
+import ../measures/conceptPage.scroll
+id Metaweb Query Language
+appeared 2006
+type queryLanguage
+reference https://rpbouman.blogspot.com/2011/01/mql-to-sql-json-based-query-language.html?m=0
+country United States
+originCommunity Metaweb Technologies, Inc
 
-title Metaweb Query Language - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="g-expressions.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="newton.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/metaweb-query-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=metaweb-query-language" class="material-symbols-outlined">edit</a></div>
-
-* Metaweb Query Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #2659 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 18 Years Old
-
-* 
-
-- Metaweb Query Language first developed in <a href="../lists/originCommunities.html#metawebTechnologiesInc">Metaweb Technologies, Inc</a>
-- Read more about Metaweb Query Language on the web: 1.
- https://rpbouman.blogspot.com/2011/01/mql-to-sql-json-based-query-language.html?m=0 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-     &quot;name&quot;: None,
-     &quot;mid&quot;: None,
-     &quot;type&quot;: &quot;/food/dish&quot;,
-     &quot;count&quot;: None,
-     #&quot;return&quot;: &quot;count&quot;,
-     &quot;limit&quot;: 20,
-     &quot;sort&quot;: &quot;name&quot;,
+     "name": None,
+     "mid": None,
+     "type": "/food/dish",
+     "count": None,
+     #"return": "count",
+     "limit": 20,
+     "sort": "name",
  }
-
-endColumns
-
-keyboardNav g-expressions.html newton.html
-
-import ../footer.scroll

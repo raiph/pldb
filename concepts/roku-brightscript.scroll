@@ -1,126 +1,94 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Brightscript
+import ../measures/conceptPage.scroll
+id Brightscript
+appeared 2010
+type pl
+reference https://medium.com/float-left-insights/what-makes-roku-brightscript-a-powerful-scripting-language-5f46532f496d
 
-title Brightscript - Programming language
- hidden
+hasLineComments true
+ ' A comment
+hasComments true
+ ' A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="newick-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="winxed.html">&gt;</a>
+lineCommentToken '
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/roku-brightscript.pldb
+githubLanguage Brightscript
+ fileExtensions brs
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.brs
+ repos 832
+githubBigQuery Brightscript
+ repos 98
+ users 86
 
-startColumns 4
+linguistGrammarRepo https://github.com/cmink/BrightScript.tmbundle
+ firstCommit 2011
+ lastCommit 2015
+ committerCount 3
+ commitCount 26
+ sampleCount 1
+ example
+  ' *********************************************************
+  ' **  Simple Grid Screen Demonstration App
+  ' **  Jun 2010
+  ' **  Copyright (c) 2010 Roku Inc. All Rights Reserved.
+  ' *********************************************************
+  
+  '************************************************************
+  '** Application startup
+  '************************************************************
+  Sub Main()
+  
+      'initialize theme attributes like titles, logos and overhang color
+      initTheme()
+    
+      gridstyle = "Flat-Movie"
+  
+      'set to go, time to get started
+      while gridstyle <> ""
+          print "starting grid style= ";gridstyle
+          screen=preShowGridScreen(gridstyle)
+          gridstyle = showGridScreen(screen, gridstyle)
+      end while
+  
+  End Sub
+  
+  
+  '*************************************************************
+  '** Set the configurable theme attributes for the application
+  '** 
+  '** Configure the custom overhang and Logo attributes
+  '** These attributes affect the branding of the application
+  '** and are artwork, colors and offsets specific to the app
+  '*************************************************************
+  
+  Sub initTheme()
+      app = CreateObject("roAppManager")
+      app.SetTheme(CreateDefaultTheme())
+  End Sub
+  
+  '******************************************************
+  '** @return The default application theme.
+  '** Screens can make slight adjustments to the default
+  '** theme by getting it from here and then overriding
+  '** individual theme attributes.
+  '******************************************************
+  Function CreateDefaultTheme() as Object
+      theme = CreateObject("roAssociativeArray")
+  
+      theme.ThemeType = "generic-dark"
+  
+      ' All these are greyscales
+      theme.GridScreenBackgroundColor = "#363636"
+      theme.GridScreenMessageColor    = "#808080"
+      theme.GridScreenRetrievingColor = "#CCCCCC"
+      theme.GridScreenListNameColor   = "#FFFFFF"
+  
+      ' Color values work here
+      theme.GridScreenDescriptionTitleColor    = "#001090"
+      theme.GridScreenDescriptionDateColor     = "
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=roku-brightscript" class="material-symbols-outlined">edit</a></div>
-
-* Brightscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #867 <span title="TotalRank: 1432 Jobs: 103 Users: 1151 Facts: 343 Links: 986">on PLDB</span>
- 14 Years Old
- 832 <span title="Brightscript repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 832 Brightscript repos on <a href="https://github.com/search?q=language:Brightscript">GitHub</a>
-- file extensions for Brightscript include brs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 86 users using Brightscript in 98 repos on <a href="https://api.github.com/search/repositories?q=language:Brightscript">GitHub</a>
-- GitHub supports <a href="https://github.com/cmink/BrightScript.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Brightscript
-- Read more about Brightscript on the web: 1.
- https://medium.com/float-left-insights/what-makes-roku-brightscript-a-powerful-scripting-language-5f46532f496d 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/cmink/BrightScript.tmbundle'>Linguist</a>:
- &#39; *********************************************************
- &#39; **  Simple Grid Screen Demonstration App
- &#39; **  Jun 2010
- &#39; **  Copyright (c) 2010 Roku Inc. All Rights Reserved.
- &#39; *********************************************************
- 
- &#39;************************************************************
- &#39;** Application startup
- &#39;************************************************************
- Sub Main()
- 
-     &#39;initialize theme attributes like titles, logos and overhang color
-     initTheme()
-   
-     gridstyle = &quot;Flat-Movie&quot;
- 
-     &#39;set to go, time to get started
-     while gridstyle &lt;&gt; &quot;&quot;
-         print &quot;starting grid style= &quot;;gridstyle
-         screen=preShowGridScreen(gridstyle)
-         gridstyle = showGridScreen(screen, gridstyle)
-     end while
- 
- End Sub
- 
- 
- &#39;*************************************************************
- &#39;** Set the configurable theme attributes for the application
- &#39;** 
- &#39;** Configure the custom overhang and Logo attributes
- &#39;** These attributes affect the branding of the application
- &#39;** and are artwork, colors and offsets specific to the app
- &#39;*************************************************************
- 
- Sub initTheme()
-     app = CreateObject(&quot;roAppManager&quot;)
-     app.SetTheme(CreateDefaultTheme())
- End Sub
- 
- &#39;******************************************************
- &#39;** @return The default application theme.
- &#39;** Screens can make slight adjustments to the default
- &#39;** theme by getting it from here and then overriding
- &#39;** individual theme attributes.
- &#39;******************************************************
- Function CreateDefaultTheme() as Object
-     theme = CreateObject(&quot;roAssociativeArray&quot;)
- 
-     theme.ThemeType = &quot;generic-dark&quot;
- 
-     &#39; All these are greyscales
-     theme.GridScreenBackgroundColor = &quot;#363636&quot;
-     theme.GridScreenMessageColor    = &quot;#808080&quot;
-     theme.GridScreenRetrievingColor = &quot;#CCCCCC&quot;
-     theme.GridScreenListNameColor   = &quot;#FFFFFF&quot;
- 
-     &#39; Color values work here
-     theme.GridScreenDescriptionTitleColor    = &quot;#001090&quot;
-     theme.GridScreenDescriptionDateColor     = &quot;
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ' A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   ' A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav newick-format.html winxed.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

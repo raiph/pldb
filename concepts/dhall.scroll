@@ -1,116 +1,95 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Dhall
+import ../measures/conceptPage.scroll
+id Dhall
+appeared 2017
+type dataNotation
+website https://dhall-lang.org/
+webRepl https://dhall-lang.org/
+country Various
+originCommunity https://github.com/dhall-lang
+domainName dhall-lang.org
+ awisRank
+  2022 4422660
 
-title Dhall - Data notation
- hidden
+hasLineComments true
+ -- A comment
+hasComments true
+ -- A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="s-algol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lex.html">&gt;</a>
+lineCommentToken --
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dhall.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://dhall-lang.org/" class="material-symbols-outlined">home</a> <a href="https://dhall-lang.org/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/dhall-lang/dhall-lang" class="material-symbols-outlined">code</a> <a href="https://twitter.com/dhall_lang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=dhall" class="material-symbols-outlined">edit</a></div>
-
-* Dhall is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/dhall-lang/dhall-lang
-
-dashboard
- #287 <span title="TotalRank: 698 Jobs: 103 Users: 232 Facts: 363 Links: 986">on PLDB</span>
- 7 Years Old
- 817 <span title="Dhall repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://dhall-lang.org/">Web</a> · <a href="https://riju.codes/dhall">Riju</a>
-
-* Maintainable configuration files
-
-- Dhall website
- https://dhall-lang.org/
-- Dhall is developed on <a href="https://github.com/dhall-lang/dhall-lang">GitHub</a> and has 3,577 stars
-- There are at least 817 Dhall repos on <a href="https://github.com/search?q=language:Dhall">GitHub</a>
-- Dhall first developed in <a href="../lists/originCommunities.html#httpsGithubComDhallLang">https://github.com/dhall-lang</a>
-- file extensions for Dhall include dhall
-- Dhall on Twitter
- https://twitter.com/dhall_lang
-- The  Google BigQuery Public Dataset GitHub snapshot shows 46 users using Dhall in 60 repos on <a href="https://api.github.com/search/repositories?q=language:Dhall">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  -- ./company.dhall
  
  let Prelude =
        https://prelude.dhall-lang.org/v19.0.0/package.dhall sha256:eb693342eb769f782174157eba9b5924cf8ac6793897fc36a31ccbd6f56dafe2
  
- let companyName = &quot;Example Dot Com&quot;
+ let companyName = "Example Dot Com"
  
  let User = { name : Text, account : Text, age : Natural }
  
  let users
      : List User
-     = [ { name = &quot;John Doe&quot;, account = &quot;john&quot;, age = 23 }
-       , { name = &quot;Jane Smith&quot;, account = &quot;jane&quot;, age = 29 }
-       , { name = &quot;William Allen&quot;, account = &quot;bill&quot;, age = 41 }
+     = [ { name = "John Doe", account = "john", age = 23 }
+       , { name = "Jane Smith", account = "jane", age = 29 }
+       , { name = "William Allen", account = "bill", age = 41 }
        ]
  
- let toEmail = \(user : User) -&gt; &quot;${user.account}@example.com&quot;
+ let toEmail = \(user : User) -> "${user.account}@example.com"
  
  let Bio = { name : Text, age : Natural }
  
- let toBio = \(user : User) -&gt; user.(Bio)
+ let toBio = \(user : User) -> user.(Bio)
  
  let companySize = Prelude.List.length User users
  
  let greetingPage =
-       &#39;&#39;
-       &lt;html&gt;
-       &lt;title&gt;Welcome to ${companyName}!&lt;/title&gt;
-       &lt;body&gt;
-       &lt;p&gt;Welcome to our humble company of ${Natural/show companySize} people!&lt;/p&gt;
-       &lt;/body&gt;
-       &lt;/html&gt;
-         &#39;&#39;
+       ''
+       <html>
+       <title>Welcome to ${companyName}!</title>
+       <body>
+       <p>Welcome to our humble company of ${Natural/show companySize} people!</p>
+       </body>
+       </html>
+         ''
  
  in  { emails = Prelude.List.map User Text toEmail users
      , bios = Prelude.List.map User Bio toBio users
      , greetingPage = greetingPage
      }
 
-codeWithHeader Example from <a href='https://riju.codes/dhall'>Riju</a>:
- { output = &quot;Hello, world!&quot; }
+githubRepo https://github.com/dhall-lang/dhall-lang
+ firstCommit 2017
+ stars 3577
+ forks 162
+ subscribers 67
+ created 2017
+ updated 2022
+ description Maintainable configuration files
+ issues 127
 
-endColumns
+repoStats
+ firstCommit 2017
+ commits 1062
+ committers 93
+ files 3696
 
-## Language <a href="../lists/features.html">features</a>
+githubLanguage Dhall
+ type programming
+ fileExtensions dhall
+ aceMode haskell
+ codemirrorMode haskell
+ codemirrorMimeType text/x-haskell
+ tmScope source.haskell
+ repos 817
+githubBigQuery Dhall
+ repos 60
+ users 46
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+rijuRepl https://riju.codes/dhall
+ example
+  { output = "Hello, world!" }
 
-keyboardNav s-algol.html lex.html
+twitter https://twitter.com/dhall_lang
 
-import ../footer.scroll
+isbndb 0

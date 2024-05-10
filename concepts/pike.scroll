@@ -1,134 +1,114 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pike
+import ../measures/conceptPage.scroll
+id Pike
+appeared 1994
+type pl
+creators Fredrik Hübinette
+website https://pike.lysator.liu.se/
+documentation https://pike.lysator.liu.se/docs/man/
+country Sweden
+originCommunity Chalmers Datorförening
+domainName pike.lysator.liu.se
 
-title Pike - Programming language
- hidden
+hasComments true
+hasMacros true
+ #define CYCLES 20
+hasLineComments true
+ // A comment
+hasPrintDebugging true
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="bpmn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="batch.html">&gt;</a>
+lineCommentToken //
+printToken write
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pike.pldb
+wikipedia https://en.wikipedia.org/wiki/Pike_(programming_language)
+ example
+  mixed anything;
+  anything = (int)5.5;         // anything is now the integer value 5
+  anything = (string)anything; // anything is now the string value "5"
+ related lpc c
+ summary Pike is an interpreted, general-purpose, high-level, cross-platform, dynamic programming language, with a syntax similar to that of C. Unlike many other dynamic languages, Pike is both statically and dynamically typed, and requires explicit type definitions. It features a flexible type system that allows the rapid development and flexible code of dynamically typed languages, while still providing some of the benefits of a statically typed language. Pike features garbage collection, advanced data types, and first-class anonymous functions, with support for many programming paradigms, including object-oriented, functional and imperative programming. Pike is free software, released under the GPL, LGPL and MPL licenses.
+ pageId 86780
+ dailyPageViews 45
+ created 2002
+ backlinksCount 66
+ revisionCount 165
+ appeared 1994
 
-startColumns 4
+githubLanguage Pike
+ fileExtensions pike pmod
+ trendingProjectsCount 0
+ type programming
+ interpreters pike
+ aceMode text
+ tmScope source.pike
+ repos 145
+githubBigQuery Pike
+ repos 105
+ users 94
 
-<div class="trueBaseThemeQuickLinks"><a href="https://pike.lysator.liu.se/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/pike" class="material-symbols-outlined">terminal</a> <a href="https://pike.lysator.liu.se/docs/man/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Pike_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=pike" class="material-symbols-outlined">edit</a></div>
+pygmentsHighlighter Pike
+ filename c_like.py
+ fileExtensions pike pmod
+linguistGrammarRepo https://github.com/hww3/pike-textmate
+ firstCommit 2014
+ lastCommit 2014
+ committerCount 1
+ commitCount 1
+ sampleCount 3
+ example
+  #!/usr/bin/env pike
+  
+  int main(int argc, array argv) {
+  	return 0;
+  }
+  
+  
 
-* Pike is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994 by Fredrik Hübinette.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
- link ../lists/creators.html#fredrikHubinette Fredrik Hübinette
-
-dashboard
- #272 <span title="TotalRank: 663 Jobs: 103 Users: 803 Facts: 288 Links: 272">on PLDB</span>
- 30 Years Old
- 145 <span title="Pike repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/pike">Riju</a> · <a href="https://tio.run/#pike">TIO</a>
-
-* Pike is an interpreted, general-purpose, high-level, cross-platform, dynamic programming language, with a syntax similar to that of C. Unlike many other dynamic languages, Pike is both statically and dynamically typed, and requires explicit type definitions. It features a flexible type system that allows the rapid development and flexible code of dynamically typed languages, while still providing some of the benefits of a statically typed language. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Pike_(programming_language) Read more on Wikipedia...
-
-- Pike website
- https://pike.lysator.liu.se/
-- Pike Wikipedia page
- https://en.wikipedia.org/wiki/Pike_(programming_language)
-- Pike docs
- https://pike.lysator.liu.se/docs/man/
-- There are at least 145 Pike repos on <a href="https://github.com/search?q=language:Pike">GitHub</a>
-- Pike first developed in <a href="../lists/originCommunities.html#chalmersDatorforening">Chalmers Datorförening</a>
-- file extensions for Pike include pike and pmod
-- The  Google BigQuery Public Dataset GitHub snapshot shows 94 users using Pike in 105 repos on <a href="https://api.github.com/search/repositories?q=language:Pike">GitHub</a>
-- There are 6 <a href="https://projecteuler.net/language=Pike">Project Euler</a> users using Pike
-- Explore Pike snippets on <a href="http://www.rosettacode.org/wiki/Category:Pike">Rosetta Code</a>
-- Pike on HOPL
- https://hopl.info/showlanguage.prx?exp=2369
-- Pike appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- Pike Ubuntu package
- https://packages.ubuntu.com/jammy/pike8.0
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_like.py">syntax highlighting</a> for Pike
-- GitHub supports <a href="https://github.com/hww3/pike-textmate" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Pike
-- Pike appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/kevinior/jupyter-pike-kernel">Kernel</a> for Pike
-- See also: (2 related languages)<a href="lpc.html">LPC</a>, <a href="c.html">C</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/pike'>Riju</a>:
- int main()
- {
-   write(&quot;Hello, world!\n&quot;);
-   return 0;
- }
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/Pike.pike'>hello-world</a>:
- int main() {
-     write(&quot;Hello World\n&quot;);
-     return 0;
- }
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Pike'>the Hello World Collection</a>:
+projectEuler Pike
+ memberCount
+  2019 3
+  2022 6
+helloWorldCollection Pike
  // Hello world in Pike (pike.roxen.com)
  
  int main(){
-         write(&quot;Hello World!\n&quot;);
+         write("Hello World!\n");
  }
  
+leachim6 Pike
+ filepath p/Pike.pike
+ fileExtensions pike
+ example
+  int main() {
+      write("Hello World\n");
+      return 0;
+  }
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Pike
+quineRelay Pike
 
-codeWithHeader Example from <a href='https://github.com/hww3/pike-textmate'>Linguist</a>:
- #!/usr/bin/env pike
- 
- int main(int argc, array argv) {
- 	return 0;
- }
- 
- 
+rijuRepl https://riju.codes/pike
+ example
+  int main()
+  {
+    write("Hello, world!\n");
+    return 0;
+  }
+  
+tryItOnline pike
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Pike_(programming_language)'>Wikipedia</a>:
- mixed anything;
- anything = (int)5.5;         // anything is now the integer value 5
- anything = (string)anything; // anything is now the string value &quot;5&quot;
+tiobe Pike
+hopl https://hopl.info/showlanguage.prx?exp=2369
 
-endColumns
+ubuntuPackage pike8.0
+jupyterKernel https://github.com/kevinior/jupyter-pike-kernel
+fileType text
+wordRank 9961
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2010||Pike (programming Language)|Surhone and Lambert M. and Timpledon and Miriam T. and Marseken and Susan F.|9786131011245
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token write
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #define CYCLES 20
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav bpmn.html batch.html
-
-import ../footer.scroll
+semanticScholar 0

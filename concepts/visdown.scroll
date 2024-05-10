@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title visdown
+import ../measures/conceptPage.scroll
+id visdown
+appeared 2016
+type textMarkup
+creators Amit Kapoor
+conceptDescription Write visualisation using a simple declarative markup like you would write code. Just wrap it in fenced block (three backticks) and mark the language as `vis`.
+website https://visdown.com/
+domainName visdown.com
+ registered 2017
 
-title visdown - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mxml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vale-assembly.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visdown.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://visdown.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/amitkaps/visdown" class="material-symbols-outlined">code</a> <a href="/edit.html?id=visdown" class="material-symbols-outlined">edit</a></div>
-
-* visdown is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2016 by Amit Kapoor.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#amitKapoor Amit Kapoor
-
-codeWithHeader Source code:
- git clone https://github.com/amitkaps/visdown
-
-dashboard
- #1071 <span title="TotalRank: 1632 Jobs: 103 Users: 638 Facts: 891 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Write visualisation using a simple declarative markup like you would write code. Just wrap it in fenced block (three backticks) and mark the language as `vis`.
-
-- visdown website
- https://visdown.com/
-- visdown is developed on <a href="https://github.com/amitkaps/visdown">GitHub</a> and has 654 stars
-- <a href="https://visdown.com/">visdown.com</a> was registered in 2017
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ```vis
  data:
    url: data/cars.csv
@@ -49,8 +22,22 @@ codeWithHeader Example from the web:
      type: quantitative
   ```
 
-endColumns
+githubRepo https://github.com/amitkaps/visdown
+ firstCommit 2016
+ stars 654
+ forks 37
+ subscribers 20
+ created 2016
+ updated 2022
+ description Visualisation Markdown
+ issues 11
 
-keyboardNav mxml.html vale-assembly.html
+repoStats
+ firstCommit 2016
+ commits 74
+ committers 2
+ files 65
 
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

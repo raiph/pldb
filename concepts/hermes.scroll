@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hermes
+import ../measures/conceptPage.scroll
+id Hermes
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/46a7fdd485dfb638a6fd144814145eabb6fc2ebf
+country Canada
+originCommunity University of Waterloo
 
-title Hermes - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1556
 
-html
- <a class="trueBaseThemePreviousItem" href="heraklit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hiq.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hermes.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hermes" class="material-symbols-outlined">edit</a></div>
-
-* Hermes is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3715 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- Hermes first developed in <a href="../lists/originCommunities.html#universityOfWaterloo">University of Waterloo</a>
-- Hermes on HOPL
- https://hopl.info/showlanguage.prx?exp=1556
-- Read more about Hermes on Semantic Scholar: 1.
- https://semanticscholar.org/paper/46a7fdd485dfb638a6fd144814145eabb6fc2ebf 1.
-
-<br>
-
-endColumns
-
-keyboardNav heraklit.html hiq.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

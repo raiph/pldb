@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ParaLog_e
+import ../measures/conceptPage.scroll
+id ParaLog_e
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/a849f326a4ae2f8e1fcdf8311528a882720839b6
+country Brazil
+originCommunity Pontifical Catholic University of Parana && Paulista University
 
-title ParaLog_e - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5776
 
-html
- <a class="trueBaseThemePreviousItem" href="parallel-pascal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="parmod.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/paralog-e.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=paralog-e" class="material-symbols-outlined">edit</a></div>
-
-* ParaLog_e is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3913 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- ParaLog_e first developed in <a href="../lists/originCommunities.html#pontificalCatholicUniversityOfParana">Pontifical Catholic University of Parana</a> and <a href="../lists/originCommunities.html#paulistaUniversity">Paulista University</a>
-- ParaLog_e on HOPL
- https://hopl.info/showlanguage.prx?exp=5776
-- Read more about ParaLog_e on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a849f326a4ae2f8e1fcdf8311528a882720839b6 1.
-
-<br>
-
-endColumns
-
-keyboardNav parallel-pascal.html parmod.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

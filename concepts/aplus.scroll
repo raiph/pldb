@@ -1,50 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title A+
+import ../measures/conceptPage.scroll
+id A+
+appeared 1988
+type pl
+creators Arthur Whitney
+website http://www.aplusdev.org/
+country United States
+originCommunity Morgan Stanley
+domainName aplusdev.org
+ awisRank
+  2022 5856517
 
-title A+ - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/A+_(programming_language)
+ related apl k unix linux j
+ summary A+ is an array programming language descendent from the programming language A, which in turn was created to replace APL in 1988. Arthur Whitney developed the A portion of A+, while other developers at Morgan Stanley extended it, adding a graphical user interface and other language features. A+ is a high-level, interactive, interpreted language, designed for numerically intensive applications, especially those found in financial applications.  A+ runs on many Unix variants, including Linux. It is free and open source software released under a GNU General Public License. A+ provides an extended set of functions and operators, a graphical user interface with automatic synchronizing of widgets and variables, asynchronous executing of functions associated with variables and events, dynamic loading of user compiled subroutines, and other features. A newer graphical user interface has not yet been ported to all supported platforms The A+ language implements the following changes to the APL language:  an A+ function may have up to nine formal parameters A+ code statements are separated by semicolons, so a single statement may be divided into two or more physical lines The explicit result of a function or operator is the result of the last statement executed A+ implements an object called a dependency, which is a global variable (the dependent variable) and an associated definition that is like a function with no arguments. Values can be explicitly set and referenced in exactly the same ways as for a global variable, but they can also be set through the associated definition.Interactive A+ development is primarily done in the Xemacs editor, through extensions to the editor. Because A+ code uses the original APL symbols, displaying A+ requires a font with those special characters; a font named kapl is provided on the web site for that purpose. Arthur Whitney went on to create a proprietary array language named K.  Like J, K omits the APL character set.  It lacks some of the perceived complexities of A+, such as the existence of statements and two different modes of syntax.
+ pageId 890931
+ created 2008
+ backlinksCount 71
+ revisionCount 1
+ dailyPageViews 57
+ appeared 1988
 
-html
- <a class="trueBaseThemePreviousItem" href="trac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cda.html">&gt;</a>
+rijuRepl https://riju.codes/aplus
+ example
+  'Hello, world!'
+  
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aplus.pldb
+hopl https://hopl.info/showlanguage.prx?exp=1531
 
-startColumns 4
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.aplusdev.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/aplus" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/A+_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=aplus" class="material-symbols-outlined">edit</a></div>
-
-* A+ is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988 by Arthur Whitney.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
- link ../lists/creators.html#arthurWhitney Arthur Whitney
-
-dashboard
- #1534 <span title="TotalRank: 2046 Jobs: 103 Users: 957 Facts: 1203 Links: 986">on PLDB</span>
- 36 Years Old
-
-* Try now: <a href="https://riju.codes/aplus">Riju</a>
-
-* A+ is an array programming language descendent from the programming language A, which in turn was created to replace APL in 1988. Arthur Whitney developed the A portion of A+, while other developers at Morgan Stanley extended it, adding a graphical user interface and other language features. A+ is a high-level, interactive, interpreted language, designed for numerically intensive applications, especially those found in financial applications. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/A+_(programming_language) Read more on Wikipedia...
-
-- A+ website
- http://www.aplusdev.org/
-- A+ Wikipedia page
- https://en.wikipedia.org/wiki/A+_(programming_language)
-- A+ first developed in <a href="../lists/originCommunities.html#morganStanley">Morgan Stanley</a>
-- A+ on HOPL
- https://hopl.info/showlanguage.prx?exp=1531
-- See also: (5 related languages)<a href="apl.html">APL</a>, <a href="k.html">K</a>, <a href="unix.html">Unix</a>, <a href="linux.html">Linux</a>, <a href="j.html">J</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/aplus'>Riju</a>:
- &#39;Hello, world!&#39;
- 
-
-endColumns
-
-keyboardNav trac.html cda.html
-
-import ../footer.scroll
+isbndb 0

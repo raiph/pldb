@@ -1,40 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Snostorm
+import ../measures/conceptPage.scroll
+id Snostorm
+appeared 1984
+type pl
+creators Fred Swartz
+reference http://www.fredosaurus.com/notes-snostorm/snostorm-overview.html
+country United States
+originCommunity University of Michigan
 
-title Snostorm - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7197
 
-html
- <a class="trueBaseThemePreviousItem" href="smoke.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sqlmp.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snostorm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=snostorm" class="material-symbols-outlined">edit</a></div>
-
-* Snostorm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984 by Fred Swartz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
- link ../lists/creators.html#fredSwartz Fred Swartz
-
-dashboard
- #3135 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Snostorm first developed in <a href="../lists/originCommunities.html#universityOfMichigan">University of Michigan</a>
-- Snostorm on HOPL
- https://hopl.info/showlanguage.prx?exp=7197
-- Read more about Snostorm on the web: 1.
- http://www.fredosaurus.com/notes-snostorm/snostorm-overview.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav smoke.html sqlmp.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LEGOL
+import ../measures/conceptPage.scroll
+id LEGOL
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/54cdc573b01f73c858f12ddcb5883d4d3375c488
+country England
+originCommunity London School of Economics and Political Science
 
-title LEGOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=645
 
-html
- <a class="trueBaseThemePreviousItem" href="ldl1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="leogo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/legol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=legol" class="material-symbols-outlined">edit</a></div>
-
-* LEGOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3779 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- LEGOL first developed in <a href="../lists/originCommunities.html#londonSchoolOfEconomicsAndPoliticalScience">London School of Economics and Political Science</a>
-- LEGOL on HOPL
- https://hopl.info/showlanguage.prx?exp=645
-- Read more about LEGOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/54cdc573b01f73c858f12ddcb5883d4d3375c488 1.
-
-<br>
-
-endColumns
-
-keyboardNav ldl1.html leogo.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

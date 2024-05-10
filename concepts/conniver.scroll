@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CONNIVER
+import ../measures/conceptPage.scroll
+id CONNIVER
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/4a2986f8a3b4a385ef410bfac509ace84401e961
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title CONNIVER - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=606
 
-html
- <a class="trueBaseThemePreviousItem" href="conman.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="constraintlisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/conniver.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=conniver" class="material-symbols-outlined">edit</a></div>
-
-* CONNIVER is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3592 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- CONNIVER first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- CONNIVER on HOPL
- https://hopl.info/showlanguage.prx?exp=606
-- Read more about CONNIVER on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4a2986f8a3b4a385ef410bfac509ace84401e961 1.
-
-<br>
-
-endColumns
-
-keyboardNav conman.html constraintlisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,44 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Enso
+import ../measures/conceptPage.scroll
+id Enso
+appeared 2015
+type pl
+creators Wojciech Danilo
+conceptDescription Enso is an award-winning interactive programming language with dual visual and textual representations.
+website https://enso.org/
+oldName luna
+country United States
+country Poland
+originCommunity https://github.com/enso-org
+domainName enso.org
+ registered 2001
+ awisRank
+  2022 3110066
 
-title Enso - Programming language
- hidden
+relatedConcepts luna
 
-html
- <a class="trueBaseThemePreviousItem" href="korn-shell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abnf.html">&gt;</a>
+visualParadigm true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/enso.pldb
+githubRepo https://github.com/enso-org/enso
+ firstCommit 2019
+ stars 5578
+ forks 205
+ subscribers 93
+ created 2016
+ updated 2022
+ description Hybrid visual and textual functional programming.
+ issues 26
 
-startColumns 4
+repoStats
+ firstCommit 2019
+ commits 4761
+ committers 55
+ files 6221
 
-<div class="trueBaseThemeQuickLinks"><a href="https://enso.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/enso-org/enso" class="material-symbols-outlined">code</a> <a href="/edit.html?id=enso" class="material-symbols-outlined">edit</a></div>
-
-* Enso is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Wojciech Danilo.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#wojciechDanilo Wojciech Danilo
-
-codeWithHeader Source code:
- git clone https://github.com/enso-org/enso
-
-dashboard
- #433 <span title="TotalRank: 938 Jobs: 103 Users: 168 Facts: 1092 Links: 667">on PLDB</span>
- 9 Years Old
-
-* Enso is an award-winning interactive programming language with dual visual and textual representations.
-
-- Enso website
- https://enso.org/
-- Enso is developed on <a href="https://github.com/enso-org/enso">GitHub</a> and has 5,578 stars
-- Enso first developed in <a href="../lists/originCommunities.html#httpsGithubComEnsoOrg">https://github.com/enso-org</a>
-- <a href="https://enso.org/">enso.org</a> was registered in 2001
-- See also: (1 related languages)<a href="luna.html">Luna</a>
-
-<br>
-
-endColumns
-
-keyboardNav korn-shell.html abnf.html
-
-import ../footer.scroll
+isbndb 0

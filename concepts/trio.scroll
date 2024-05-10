@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TRIO
+import ../measures/conceptPage.scroll
+id TRIO
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/2a88d4facc90c8129db697f9f532caa17d01aeeb
 
-title TRIO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7117
 
-html
- <a class="trueBaseThemePreviousItem" href="translang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="triple.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/trio.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=trio" class="material-symbols-outlined">edit</a></div>
-
-* TRIO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3444 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- TRIO on HOPL
- https://hopl.info/showlanguage.prx?exp=7117
-- Read more about TRIO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2a88d4facc90c8129db697f9f532caa17d01aeeb 1.
-
-<br>
-
-endColumns
-
-keyboardNav translang.html triple.html
-
-import ../footer.scroll
+wordRank 7858
+centralPackageRepositoryCount 0

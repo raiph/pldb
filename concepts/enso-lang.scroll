@@ -1,45 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title enso
+import ../measures/conceptPage.scroll
+id enso
+appeared 2011
+type pl
+creators Alex Loh
+website https://web.archive.org/web/20191101145248/http://enso-lang.org/
+oldName luna
+country United States
+originCommunity University of Texas at Austin
+domainName enso-lang.org
+ registered 2011
 
-title enso - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dio.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="extempore.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/enso-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20191101145248/http://enso-lang.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=enso-lang" class="material-symbols-outlined">edit</a></div>
-
-* enso is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Alex Loh.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#alexLoh Alex Loh
-
-dashboard
- #2953 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- enso website
- https://web.archive.org/web/20191101145248/http://enso-lang.org/
-- enso first developed in <a href="../lists/originCommunities.html#universityOfTexasAtAustin">University of Texas at Austin</a>
-- <a href="https://web.archive.org/web/20191101145248/http://enso-lang.org/">enso-lang.org</a> was registered in 2011
-
-<br>
-
-endColumns
-
-## HackerNews discussions of enso
-
-pipeTable
- title|titleLink|date|score|comments
- Enso Programming Model|https://news.ycombinator.com/item?id=2515436|05/04/2011|1|0
-
-keyboardNav dio.html extempore.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 2515436|Enso Programming Model|http://enso-lang.org/blog/2011/05/04/6/|2011-05-04 21:45:56 UTC|1304545556|joelangeway|0|1

@@ -1,47 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bun
+import ../measures/conceptPage.scroll
+id Bun
+appeared 2021
+type vm
+creators Jarred Sumner
+conceptDescription Bundle, transpile, install and run JavaScript & TypeScript projects — all in Bun. Bun is a new JavaScript runtime with a native bundler, transpiler, task runner and npm client built-in.
+website https://bun.sh/
+reference https://news.ycombinator.com/item?id=31993429
+country Various
+originCommunity Zig Programming Language
+domainName bun.sh
+ registered 2021
+ awisRank
+  2022 95720
 
-title Bun - Virtual machine
- hidden
+writtenIn zig
+relatedConcepts deno v8
 
-html
- <a class="trueBaseThemePreviousItem" href="infiniband-standard.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="helang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bun.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://bun.sh/" class="material-symbols-outlined">home</a> <a href="https://github.com/Jarred-Sumner/bun" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bun" class="material-symbols-outlined">edit</a></div>
-
-* Bun is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+vm">virtual machine</a> created in 2021 by Jarred Sumner.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#jarredSumner Jarred Sumner
-
-codeWithHeader Source code:
- git clone https://github.com/Jarred-Sumner/bun
-
-dashboard
- #1109 on PLDB
- 3 Years Old
-
-* Bundle, transpile, install and run JavaScript & TypeScript projects — all in Bun. Bun is a new JavaScript runtime with a native bundler, transpiler, task runner and npm client built-in.
-
-- Bun website
- https://bun.sh/
-- Bun is developed on <a href="https://github.com/Jarred-Sumner/bun">GitHub</a> and has 2,346 stars
-- Bun first developed in <a href="../lists/originCommunities.html#zigProgrammingLanguage">Zig Programming Language</a>
-- Bun is written in <a href="zig.html">Zig</a>
-- <a href="https://bun.sh/">bun.sh</a> was registered in 2021
-- See also: (2 related languages)<a href="deno.html">Deno</a>, <a href="v8.html">v8</a>
-- Read more about Bun on the web: 1.
- https://news.ycombinator.com/item?id=31993429 1.
-
-<br>
-
-endColumns
-
-keyboardNav infiniband-standard.html helang.html
-
-import ../footer.scroll
+githubRepo https://github.com/Jarred-Sumner/bun
+ firstCommit 2021
+ stars 2346
+ forks 10
+ subscribers 905
+ created 2021
+ updated 2022
+ description Incredibly fast JavaScript runtime, bundler, transpiler and package manager – all in one.
+ issues 72

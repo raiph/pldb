@@ -1,154 +1,134 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title wisp
+import ../measures/conceptPage.scroll
+id wisp
+appeared 2012
+type pl
+creators Santosh Rajan and Irakli Gozalishvili and LeXofLeviafan and Chris McCormick
+conceptDescription A little Clojure-like LISP in JavaScript
+website https://web.archive.org/web/20201121215216/https://gozala.io/wisp/
+country Unknown
 
-title wisp - Programming language
- hidden
+hasSemanticIndentation true
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasStrings true
+ "Hello world"
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="clipper.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="z-notation.html">&gt;</a>
+lineCommentToken ;
+stringToken "
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wisp.pldb
+example
+ (alert "Hello world!")
 
-startColumns 4
+githubRepo https://github.com/Gozala/wisp
+ firstCommit 2012
+ stars 963
+ forks 72
+ subscribers 39
+ created 2012
+ updated 2022
+ description A little Clojure-like LISP in JavaScript
+ issues 56
 
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20201121215216/https://gozala.io/wisp/" class="material-symbols-outlined">home</a> <a href="https://github.com/Gozala/wisp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=wisp" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2012
+ commits 1061
+ committers 21
+ files 43
 
-* wisp is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Santosh Rajan and Irakli Gozalishvili and LeXofLeviafan and Chris McCormick.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#santoshRajan Santosh Rajan
- link ../lists/creators.html#irakliGozalishvili Irakli Gozalishvili
- link ../lists/creators.html#leXofLeviafan LeXofLeviafan
- link ../lists/creators.html#chrisMcCormick Chris McCormick
+githubLanguage wisp
+ fileExtensions wisp
+ trendingProjectsCount 0
+ type programming
+ aceMode clojure
+ codemirrorMode clojure
+ codemirrorMimeType text/x-clojure
+ tmScope source.clojure
+ repos 30
+githubBigQuery wisp
+ repos 23
+ users 17
 
-codeWithHeader Source code:
- git clone https://github.com/Gozala/wisp
+linguistGrammarRepo https://github.com/atom/language-clojure
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 36
+ commitCount 149
+ sampleCount 1
+ example
+  ;; # wisp
+  
+  ; Wisp is homoiconic JS dialect with a clojure syntax, s-expressions and
+  ; macros. Wisp code compiles to a human readable javascript, which is one
+  ; of they key differences from clojurescript.
+  
+  ;; ## wisp data structures
+  
+  ;; 1. nil - is just like js undefined with a differenc that it's
+  ;;    not something can be defined. In fact it's just a shortcut for
+  ;;    void(0) in JS.
+  nil ;; => void(0)
+  
+  ;; 2. Booleans - Wisp booleans true / false are JS booleans
+  
+  true ;; => true
+  
+  ;; 3. Numbers - Wisp numbers are JS numbers
+  1  ;; => 1
+  
+  ;; 4. Strings - Wisp strings are JS Strings
+  "Hello world"
+  ;;    Wisp strings can be multiline
+  "Hello,
+  My name is wisp!"
+  
+  ;; 5. Characters - Characters are sugar for JS single char strings
+  \a  ;; => "a"
+  
+  ;; 6. Keywords - Keywords are symbolic identifiers that evaluate to
+  ;;               themselves.
+  :keyword  ;; => "keyword"
+  ;;    Since in JS string constats fulfill this purpose of symbolic
+  ;;    identifiers, keywords compile to equivalent JS strings.
+  (window.addEventListener :load handler false)
+  ;;    Keywords can be invoked as functions, that desugars to plain
+  ;;    associated value access in JS
+  (:bar foo) ;; => foo["bar"]
+  
+  
+  ;; 7. Vectors - Wisp vectors are JS arrays.
+  [ 1 2 3 4 ]
+  ;;    Note: Commas are white space & can be used if desired
+  [ 1, 2, 3, 4]
+  
+  
+  ;; 8. Maps - Maps are hash maps, plain JS objects. Note that unlike
+  ;;    in clojure keys can not be of arbitary types.
+  { "foo" bar :beep-bop "bop" 1 2 }
+  ;;    Commas are optional but can come handy for separating key value
+  ;;    pairs.
+  { a 1, b 2 }
+  ;; In a future JSONs syntax may be made compatible with map syntax.
+  
+  
+  ;; 9. Lists - You can't have a lisp without lists! Wisp has lists too.
+  ;;    Wisp is homoiconic and it's code is made up of lists representing
+  ;;    expressions. The first item in the expression is a function, being
+  ;;    invoked with rest items as arguments.
+  (foo bar baz) ; => foo(bar, baz);
+  
+  ;; # Conventions
+  ;; Wisp puts a lot of effort in making naming conventions tra
 
-dashboard
- #325 <span title="TotalRank: 765 Jobs: 103 Users: 458 Facts: 204 Links: 986">on PLDB</span>
- 12 Years Old
- 30 <span title="wisp repos on GitHub.">Repos</span>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* A little Clojure-like LISP in JavaScript
+isbndb 0
 
-- wisp website
- https://web.archive.org/web/20201121215216/https://gozala.io/wisp/
-- wisp is developed on <a href="https://github.com/Gozala/wisp">GitHub</a> and has 963 stars
-- There are at least 30 wisp repos on <a href="https://github.com/search?q=language:wisp">GitHub</a>
-- file extensions for wisp include wisp
-- The  Google BigQuery Public Dataset GitHub snapshot shows 17 users using wisp in 23 repos on <a href="https://api.github.com/search/repositories?q=language:wisp">GitHub</a>
-- GitHub supports <a href="https://github.com/atom/language-clojure" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for wisp
-
-<br>
-
-codeWithHeader Example from the web:
- (alert &quot;Hello world!&quot;)
-
-codeWithHeader Example from <a href='https://github.com/atom/language-clojure'>Linguist</a>:
- ;; # wisp
- 
- ; Wisp is homoiconic JS dialect with a clojure syntax, s-expressions and
- ; macros. Wisp code compiles to a human readable javascript, which is one
- ; of they key differences from clojurescript.
- 
- ;; ## wisp data structures
- 
- ;; 1. nil - is just like js undefined with a differenc that it&#39;s
- ;;    not something can be defined. In fact it&#39;s just a shortcut for
- ;;    void(0) in JS.
- nil ;; =&gt; void(0)
- 
- ;; 2. Booleans - Wisp booleans true / false are JS booleans
- 
- true ;; =&gt; true
- 
- ;; 3. Numbers - Wisp numbers are JS numbers
- 1  ;; =&gt; 1
- 
- ;; 4. Strings - Wisp strings are JS Strings
- &quot;Hello world&quot;
- ;;    Wisp strings can be multiline
- &quot;Hello,
- My name is wisp!&quot;
- 
- ;; 5. Characters - Characters are sugar for JS single char strings
- \a  ;; =&gt; &quot;a&quot;
- 
- ;; 6. Keywords - Keywords are symbolic identifiers that evaluate to
- ;;               themselves.
- :keyword  ;; =&gt; &quot;keyword&quot;
- ;;    Since in JS string constats fulfill this purpose of symbolic
- ;;    identifiers, keywords compile to equivalent JS strings.
- (window.addEventListener :load handler false)
- ;;    Keywords can be invoked as functions, that desugars to plain
- ;;    associated value access in JS
- (:bar foo) ;; =&gt; foo[&quot;bar&quot;]
- 
- 
- ;; 7. Vectors - Wisp vectors are JS arrays.
- [ 1 2 3 4 ]
- ;;    Note: Commas are white space &amp; can be used if desired
- [ 1, 2, 3, 4]
- 
- 
- ;; 8. Maps - Maps are hash maps, plain JS objects. Note that unlike
- ;;    in clojure keys can not be of arbitary types.
- { &quot;foo&quot; bar :beep-bop &quot;bop&quot; 1 2 }
- ;;    Commas are optional but can come handy for separating key value
- ;;    pairs.
- { a 1, b 2 }
- ;; In a future JSONs syntax may be made compatible with map syntax.
- 
- 
- ;; 9. Lists - You can&#39;t have a lisp without lists! Wisp has lists too.
- ;;    Wisp is homoiconic and it&#39;s code is made up of lists representing
- ;;    expressions. The first item in the expression is a function, being
- ;;    invoked with rest items as arguments.
- (foo bar baz) ; =&gt; foo(bar, baz);
- 
- ;; # Conventions
- ;; Wisp puts a lot of effort in making naming conventions tra
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav clipper.html z-notation.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2021|Comparative Analysis of the Simple WISP and Some Prominent MCDM Methods: A Python Approach|10.3390/axioms10040347|1|0|D. Stanujkić and D. Karabašević and G. Popović and E. Zavadskas and M. Saračević and P. Stanimirović and A. Ulutaş and V. Katsikis and I. Meidutė-Kavaliauskienė|ad2cae5c390d3ef3c4be9e2ef751699090e0c941

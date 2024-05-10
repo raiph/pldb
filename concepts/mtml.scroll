@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Marine Trading Markup Language
+import ../measures/conceptPage.scroll
+id Marine Trading Markup Language
+appeared 2000
+type xmlFormat
+conceptDescription The Marine Trading Markup Language (MTML), formalized in the MTML Document Type Definition, "is a standard to help a broad base of small, medium and large buyers and suppliers in the marine trading industry conduct their fundamental trading transactions electronically via the Internet."
+website https://www.shipserv.com
+reference http://www.meca.org.uk/maritime-trading-markup-language-mtml.html
+aka mtml
+country United Kingdom
+originCommunity shipserv
 
-title Marine Trading Markup Language - Xml format
- hidden
+githubLanguage MTML
+ type markup
+ fileExtensions mtml
+ aceMode html
+ codemirrorMode htmlmixed
+ codemirrorMimeType text/html
+ tmScope text.html.basic
+ repos 85
+githubBigQuery MTML
+ repos 12
+ users 7
 
-html
- <a class="trueBaseThemePreviousItem" href="podlite.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="procfile.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mtml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.shipserv.com" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mtml" class="material-symbols-outlined">edit</a></div>
-
-* Marine Trading Markup Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #2274 <span title="TotalRank: 2758 Jobs: 103 Users: 2442 Facts: 1669 Links: 986">on PLDB</span>
- 24 Years Old
- 85 <span title="Marine Trading Markup Language repos on GitHub.">Repos</span>
-
-* The Marine Trading Markup Language (MTML), formalized in the MTML Document Type Definition, "is a standard to help a broad base of small, medium and large buyers and suppliers in the marine trading industry conduct their fundamental trading transactions electronically via the Internet."
-
-- Marine Trading Markup Language website
- https://www.shipserv.com
-- There are at least 85 Marine Trading Markup Language repos on <a href="https://github.com/search?q=language:MTML">GitHub</a>
-- Marine Trading Markup Language first developed in <a href="../lists/originCommunities.html#shipserv">shipserv</a>
-- file extensions for Marine Trading Markup Language include mtml
-- The  Google BigQuery Public Dataset GitHub snapshot shows 7 users using Marine Trading Markup Language in 12 repos on <a href="https://api.github.com/search/repositories?q=language:MTML">GitHub</a>
-- Read more about Marine Trading Markup Language on the web: 1.
- http://www.meca.org.uk/maritime-trading-markup-language-mtml.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav podlite.html procfile.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

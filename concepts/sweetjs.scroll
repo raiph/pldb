@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sweet.js
+import ../measures/conceptPage.scroll
+id Sweet.js
+appeared 2012
+type pl
+creators Tim Disney
+website https://sweetjs.org
+country United States
+originCommunity Facebook
 
-title Sweet.js - Programming language
- hidden
+writtenIn javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="saml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ibm-gml.html">&gt;</a>
+githubRepo https://github.com/sweet-js/sweet-core/
+ stars 4500
+ forks 239
+ subscribers 132
+ created 2012
+ updated 2017
+ description Sweeten your JavaScript.
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sweetjs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sweetjs.org" class="material-symbols-outlined">home</a> <a href="https://github.com/sweet-js/sweet-core/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sweetjs" class="material-symbols-outlined">edit</a></div>
-
-* Sweet.js is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Tim Disney.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#timDisney Tim Disney
-
-codeWithHeader Source code:
- git clone https://github.com/sweet-js/sweet-core/
-
-dashboard
- #726 <span title="TotalRank: 1290 Jobs: 103 Users: 201 Facts: 1787 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Sweeten your JavaScript.
-
-- Sweet.js website
- https://sweetjs.org
-- Sweet.js is developed on <a href="https://github.com/sweet-js/sweet-core/">GitHub</a> and has 4,500 stars
-- Sweet.js first developed in <a href="../lists/originCommunities.html#facebook">Facebook</a>
-- Sweet.js is written in <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav saml.html ibm-gml.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 2272
+ committers 41
+ files 88

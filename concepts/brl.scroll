@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BRL
+import ../measures/conceptPage.scroll
+id BRL
+appeared 1997
+type pl
+website http://web.mit.edu/wwwdev/brl/intro.html
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title BRL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8520
 
-html
- <a class="trueBaseThemePreviousItem" href="arturo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="business-rule-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/brl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://web.mit.edu/wwwdev/brl/intro.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=brl" class="material-symbols-outlined">edit</a></div>
-
-* BRL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #2785 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- BRL website
- http://web.mit.edu/wwwdev/brl/intro.html
-- BRL first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- BRL on HOPL
- https://hopl.info/showlanguage.prx?exp=8520
-
-<br>
-
-endColumns
-
-keyboardNav arturo.html business-rule-language.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

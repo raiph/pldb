@@ -1,65 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title abs
+import ../measures/conceptPage.scroll
+id abs
+appeared 2018
+type pl
+creators Alessandro Nadalin
+conceptDescription ABS is a programming language that works best when you're scripting on your terminal. It tries to combine the elegance of languages such as Python, or Ruby with the convenience of Bash.
+website https://www.abs-lang.org
+country United Arab Emirates
+domainName abs-lang.org
+ registered 2018
 
-title abs - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ocl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="noweb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abs.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.abs-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/abs-lang/abs" class="material-symbols-outlined">code</a> <a href="/edit.html?id=abs" class="material-symbols-outlined">edit</a></div>
-
-* abs is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Alessandro Nadalin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#alessandroNadalin Alessandro Nadalin
-
-codeWithHeader Source code:
- git clone https://github.com/abs-lang/abs
-
-dashboard
- #1105 <span title="TotalRank: 1664 Jobs: 103 Users: 729 Facts: 832 Links: 986">on PLDB</span>
- 6 Years Old
-
-* ABS is a programming language that works best when you're scripting on your terminal. It tries to combine the elegance of languages such as Python, or Ruby with the convenience of Bash.
-
-- abs website
- https://www.abs-lang.org
-- abs is developed on <a href="https://github.com/abs-lang/abs">GitHub</a> and has 461 stars
-- <a href="https://www.abs-lang.org">abs-lang.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
- r = $(curl &quot;http://data.nba.net/prod/v1/20170201/0021600732_boxscore.json&quot; -H &#39;DNT: 1&#39; -H &#39;Accept-Encoding: gzip, deflate, sdch&#39; -H &#39;Accept-Language: en&#39; -H &#39;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36&#39; -H &#39;Accept: */*&#39; -H &#39;Referer: http://stats.nba.com/&#39; -H &#39;Connection: keep-alive&#39; --compressed);
+example
+ r = $(curl "http://data.nba.net/prod/v1/20170201/0021600732_boxscore.json" -H 'DNT: 1' -H 'Accept-Encoding: gzip, deflate, sdch' -H 'Accept-Language: en' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36' -H 'Accept: */*' -H 'Referer: http://stats.nba.com/' -H 'Connection: keep-alive' --compressed);
  if !r.ok {
-     echo(&quot;Could not fetch game data. Bummer!&quot;)
+     echo("Could not fetch game data. Bummer!")
      exit(1)
  }
  doc = r.json()
  arena = doc.basicGameData.arena.name
  city = doc.basicGameData.arena.city
- echo(&quot;The game was played at the %s in %s&quot;, arena, city)
+ echo("The game was played at the %s in %s", arena, city)
  highlight = doc.basicGameData.nugget.text
  if highlight.len() {
-     echo(&quot;The press said: \&quot;%s\&quot;&quot;, highlight)
+     echo("The press said: \"%s\"", highlight)
  }
  # The game was played at the TD Garden in Boston
- # The press said: &quot;Thomas scores 19 of 44 points in 4th quarter&quot;
+ # The press said: "Thomas scores 19 of 44 points in 4th quarter"
 
-endColumns
+githubRepo https://github.com/abs-lang/abs
+ stars 461
+ forks 33
+ subscribers 12
+ created 2018
+ updated 2022
+ description Home of the ABS programming language: the joy of shell scripting.
 
-## HackerNews discussions of abs
+repoStats
+ firstCommit 2018
+ commits 849
+ committers 21
+ files 297
 
-pipeTable
- title|titleLink|date|score|comments
- The ABS programming language|https://news.ycombinator.com/item?id=18755021|12/25/2018|6|3
-
-keyboardNav ocl.html noweb.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 18755021|The ABS programming language|https://www.abs-lang.org/|2018-12-25 00:11:54 UTC|1545696714|odino|3|6

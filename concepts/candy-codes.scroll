@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Candy Codes
-
-title Candy Codes - Bar code format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="brooks-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cedar.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/candy-codes.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=candy-codes" class="material-symbols-outlined">edit</a></div>
-
-* Candy Codes is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+barCodeFormat">bar code format</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3366 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 2 Years Old
-
-* CandyCodes: simple universally unique edible identifiers for confirming the authenticity of pharmaceuticals. A 3-D UID format.
-
-- Candy Codes first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaRiverside">University of California, Riverside</a>
-- Read more about Candy Codes on the web: 1.
- https://www.nature.com/articles/s41598-022-11234-4 1.
-
-<br>
-
-endColumns
-
-keyboardNav brooks-programming-language.html cedar.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Candy Codes
+appeared 2022
+type barCodeFormat
+conceptDescription CandyCodes: simple universally unique edible identifiers for confirming the authenticity of pharmaceuticals. A 3-D UID format.
+reference https://www.nature.com/articles/s41598-022-11234-4
+country United States
+originCommunity University of California, Riverside

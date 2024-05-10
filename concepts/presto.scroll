@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PRESTO
+import ../measures/conceptPage.scroll
+id PRESTO
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/41ae591cd31e9ce2dad574100d0d2e5e2bcf0d41
+country United States
+originCommunity University of Washington
 
-title PRESTO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1354
 
-html
- <a class="trueBaseThemePreviousItem" href="praxis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="principle-of-sufficient-reason.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/presto.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=presto" class="material-symbols-outlined">edit</a></div>
-
-* PRESTO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3950 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- PRESTO first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a>
-- PRESTO on HOPL
- https://hopl.info/showlanguage.prx?exp=1354
-- Read more about PRESTO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/41ae591cd31e9ce2dad574100d0d2e5e2bcf0d41 1.
-
-<br>
-
-endColumns
-
-keyboardNav praxis.html principle-of-sufficient-reason.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Microsoft Equation Editor
+import ../measures/conceptPage.scroll
+id Microsoft Equation Editor
+appeared 1993
+type application
+reference https://en.wikipedia.org/wiki/Microsoft_Office_shared_tools#Equation_Editor
+originCommunity Microsoft
+versions
+ 2007 2007
 
-title Microsoft Equation Editor - Application
- hidden
+relatedConcepts tex mathtype
 
-html
- <a class="trueBaseThemePreviousItem" href="metah.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="modula-2p.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microsoft-equation-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microsoft-equation-editor" class="material-symbols-outlined">edit</a></div>
-
-* Microsoft Equation Editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #4743 on PLDB
- 31 Years Old
-
-* 
-
-- Microsoft Equation Editor first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- See also: (2 related languages)<a href="tex.html">Tex</a>, <a href="mathtype.html">MathType</a>
-- Read more about Microsoft Equation Editor on the web: 1.
- https://en.wikipedia.org/wiki/Microsoft_Office_shared_tools#Equation_Editor 1.
-
-<br>
-
-endColumns
-
-keyboardNav metah.html modula-2p.html
-
-import ../footer.scroll
+visualParadigm true

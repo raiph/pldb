@@ -1,57 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title bosque
+import ../measures/conceptPage.scroll
+id bosque
+appeared 2019
+type pl
+country United States
+originCommunity Microsoft Research
 
-title bosque - Programming language
- hidden
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="lsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cpl.html">&gt;</a>
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bosque.pldb
+githubRepo https://github.com/Microsoft/BosqueLanguage
+ firstCommit 2019
+ stars 5294
+ forks 314
+ subscribers 179
+ created 2019
+ updated 2022
+ description The Bosque programming language is an experiment in regularized design for a machine assisted rapid and reliable software development lifecycle. 
+ issues 4
 
-startColumns 4
+repoStats
+ firstCommit 2019
+ commits 585
+ committers 47
+ files 256
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Microsoft/BosqueLanguage" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bosque" class="material-symbols-outlined">edit</a></div>
+leachim6 Bosque
+ filepath b/Bosque.bsq
+ fileExtensions bsq
+ example
+  namespace NSMain;
+  
+  entrypoint function main(): String {  
+      return "Hello World";
+  }
 
-* bosque is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/Microsoft/BosqueLanguage
-
-dashboard
- #676 <span title="TotalRank: 1254 Jobs: 103 Users: 165 Facts: 995 Links: 986">on PLDB</span>
- 5 Years Old
-
-* The Bosque programming language is an experiment in regularized design for a machine assisted rapid and reliable software development lifecycle. 
-
-- bosque is developed on <a href="https://github.com/Microsoft/BosqueLanguage">GitHub</a> and has 5,294 stars
-- bosque first developed in <a href="../lists/originCommunities.html#microsoftResearch">Microsoft Research</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/b/Bosque.bsq'>hello-world</a>:
- namespace NSMain;
- 
- entrypoint function main(): String {  
-     return &quot;Hello World&quot;;
- }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
-
-keyboardNav lsl.html cpl.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2021|Packt Publishing|Learn Bosque Programming: Boost your productivity and software reliability with Microsoft's new open-source programming language|Kaczmarek, Sebastian and Ibaceta, Joel|9781839211973

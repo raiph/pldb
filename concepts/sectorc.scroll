@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SectorC
+import ../measures/conceptPage.scroll
+id SectorC
+appeared 2023
+type compiler
+reference https://xorvoid.com/sectorc.html
+country Unknown
+originCommunity https://github.com/xorvoid/sectorc/issues
 
-title SectorC - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="scriptx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="segras.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sectorc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sectorc" class="material-symbols-outlined">edit</a></div>
-
-* SectorC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2023.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2023 2023
-
-dashboard
- #4522 on PLDB
- 1 Years Old
-
-* 
-
-- SectorC first developed in <a href="../lists/originCommunities.html#httpsGithubComXorvoidSectorcIssues">https://github.com/xorvoid/sectorc/issues</a>
-- SectorC is written in <a href="x86-assembly.html">x86 Assembly</a>
-- Read more about SectorC on the web: 1.
- https://xorvoid.com/sectorc.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav scriptx.html segras.html
-
-import ../footer.scroll
+inputLanguages c
+writtenIn x86-assembly

@@ -1,74 +1,58 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BQN
+import ../measures/conceptPage.scroll
+id BQN
+appeared 2020
+type pl
+creators Marshall Lochbaum
+conceptDescription An APL-like programming language. Self-hosted!
+website https://mlochbaum.github.io/BQN/
+documentation https://mlochbaum.github.io/BQN/doc/index.html
+standsFor Big Questions Notation
+country United States
+originCommunity https://github.com/mlochbaum/BQN/issues
 
-title BQN - Programming language
- hidden
+influencedBy apl
 
-html
- <a class="trueBaseThemePreviousItem" href="turbo-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="json-with-comments.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bqn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mlochbaum.github.io/BQN/" class="material-symbols-outlined">home</a> <a href="https://github.com/mlochbaum/BQN" class="material-symbols-outlined">code</a> <a href="https://mlochbaum.github.io/BQN/doc/index.html" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=bqn" class="material-symbols-outlined">edit</a></div>
-
-* BQN, aka Big Questions Notation, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Marshall Lochbaum.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#marshallLochbaum Marshall Lochbaum
-
-codeWithHeader Source code:
- git clone https://github.com/mlochbaum/BQN
-
-dashboard
- #806 <span title="TotalRank: 1368 Jobs: 103 Users: 655 Facts: 610 Links: 986">on PLDB</span>
- 4 Years Old
-
-* An APL-like programming language. Self-hosted!
-
-- BQN website
- https://mlochbaum.github.io/BQN/
-- BQN is developed on <a href="https://github.com/mlochbaum/BQN">GitHub</a> and has 587 stars
-- BQN docs
- https://mlochbaum.github.io/BQN/doc/index.html
-- BQN first developed in <a href="../lists/originCommunities.html#httpsGithubComMlochbaumBqnIssues">https://github.com/mlochbaum/BQN/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #! /usr/bin/env bqn
  
  # Case conversion utilities
  case ← {
-   diff ← -´ &quot;Aa&quot;
+   diff ← -´ "Aa"
    Lower ⇐ -⟜diff
    Upper ⇐ Lower⁼
  }
  
- hw ← &lt;˘ 2‿∘ ⥊ &quot;helloworld&quot;
+ hw ← <˘ 2‿∘ ⥊ "helloworld"
  hw case.Upper⌾(⊑¨)↩
- •Out hw ↩ ∾ ⥊⍉ [hw, &quot;, &quot;‿&quot;!&quot;]  # Hello, World!
+ •Out hw ↩ ∾ ⥊⍉ [hw, ", "‿"!"]  # Hello, World!
  
  # Split at spaces and repeated characters
  Split ← {
    !1==𝕩 ⋄ (!2=•Type)¨𝕩
    Proc ← {
-     · 𝕊 &#39; &#39;: spl⇐1 ;             # Space: break and delete it
+     · 𝕊 ' ': spl⇐1 ;             # Space: break and delete it
      prev Fn cur: ⟨spl,str⟩⇐
-       spl←0 ⋄ str←⟨cur⟩          # Include and don&#39;t break...
+       spl←0 ⋄ str←⟨cur⟩          # Include and don't break...
        { prev=cur ? spl+↩1 ; @ }  # except at equal characters
    }
-   GV‿GS ← {𝕏¨}¨ ⟨ {⟨s⇐str⟩:s;&quot;&quot;}
+   GV‿GS ← {𝕏¨}¨ ⟨ {⟨s⇐str⟩:s;""}
                    {𝕩.spl} ⟩
    r ← Proc{»𝔽¨⊢} 𝕩
    (∾¨ GV ⊔˜ ·+`GS) r
  }
- •Show Split hw  # ⟨ &quot;Hel&quot; &quot;lo,&quot; &quot;World!&quot; ⟩
+ •Show Split hw  # ⟨ "Hel" "lo," "World!" ⟩
 
-endColumns
+githubRepo https://github.com/mlochbaum/BQN
+ stars 587
+ forks 46
+ subscribers 21
+ created 2020
+ updated 2023
+ description An APL-like programming language. Self-hosted!
+ issues 1
 
-keyboardNav turbo-basic.html json-with-comments.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 2684
+ committers 35
+ files 533

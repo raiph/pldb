@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ghidra
-
-title Ghidra - Decompiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="forgebox-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="glitch-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ghidra-decompiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ghidra-sre.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=ghidra-decompiler" class="material-symbols-outlined">edit</a></div>
-
-* Ghidra is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+decompiler">decompiler</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #3441 on PLDB
- 5 Years Old
-
-* A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
-
-- Ghidra website
- https://ghidra-sre.org/
-- Ghidra first developed in <a href="../lists/originCommunities.html#nationalSecurityAgency">National Security Agency</a>
-- <a href="https://ghidra-sre.org/">ghidra-sre.org</a> was registered in 2019
-
-<br>
-
-endColumns
-
-keyboardNav forgebox-pm.html glitch-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Ghidra
+appeared 2019
+type decompiler
+conceptDescription A software reverse engineering (SRE) suite of tools developed by NSA's Research Directorate in support of the Cybersecurity mission
+website https://ghidra-sre.org/
+country United States
+originCommunity National Security Agency
+domainName ghidra-sre.org
+ registered 2019
+ awisRank
+  2022 400794

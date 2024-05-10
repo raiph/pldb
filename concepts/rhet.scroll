@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RHET
+import ../measures/conceptPage.scroll
+id RHET
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/054759c784505fb4fa6d40afc4eb573fd6704824
+country United States
+originCommunity University of Rochester
 
-title RHET - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7726
 
-html
- <a class="trueBaseThemePreviousItem" href="rf-maple.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rigal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rhet.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rhet" class="material-symbols-outlined">edit</a></div>
-
-* RHET is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3983 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- RHET first developed in <a href="../lists/originCommunities.html#universityOfRochester">University of Rochester</a>
-- RHET on HOPL
- https://hopl.info/showlanguage.prx?exp=7726
-- Read more about RHET on Semantic Scholar: 1.
- https://semanticscholar.org/paper/054759c784505fb4fa6d40afc4eb573fd6704824 1.
-
-<br>
-
-endColumns
-
-keyboardNav rf-maple.html rigal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

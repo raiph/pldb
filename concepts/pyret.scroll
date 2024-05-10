@@ -1,51 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pyret
+import ../measures/conceptPage.scroll
+id pyret
+appeared 2011
+type pl
+creators Joe Gibbs Politz
+conceptDescription Pyret is a programming language designed to serve as an outstanding choice for programming education while exploring the confluence of scripting and functional programming. It's under active design and development, and free to use or modify.
+website https://www.pyret.org/
+country United States
+originCommunity Brown University
+domainName pyret.org
+ registered 2011
+ awisRank
+  2022 1111494
 
-title pyret - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ 'Hello world'
 
-html
- <a class="trueBaseThemePreviousItem" href="utc-format.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="json-stat.html">&gt;</a>
+printToken print
+stringToken '
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pyret.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.pyret.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/brownplt/pyret-lang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pyret" class="material-symbols-outlined">edit</a></div>
-
-* pyret is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Joe Gibbs Politz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#joeGibbsPolitz Joe Gibbs Politz
-
-codeWithHeader Source code:
- git clone https://github.com/brownplt/pyret-lang
-
-dashboard
- #601 <span title="TotalRank: 1172 Jobs: 103 Users: 483 Facts: 586 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Pyret is a programming language designed to serve as an outstanding choice for programming education while exploring the confluence of scripting and functional programming. It's under active design and development, and free to use or modify.
-
-- pyret website
- https://www.pyret.org/
-- pyret is developed on <a href="https://github.com/brownplt/pyret-lang">GitHub</a> and has 924 stars
-- pyret first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-- <a href="https://www.pyret.org/">pyret.org</a> was registered in 2011
-
-<br>
-
-codeWithHeader Example from the web:
+example
  data BinTree:
   | leaf
   | node(value, left, right)
  end
  fun tree-sum(t):
-   doc: &quot;Calculate the sum of node values&quot;
+   doc: "Calculate the sum of node values"
    cases (BinTree) t:
-     | leaf =&gt; 0
-     | node(v, l, r) =&gt;
+     | leaf => 0
+     | node(v, l, r) =>
        v + tree-sum(l) + tree-sum(r)
    end
  where:
@@ -54,29 +37,27 @@ codeWithHeader Example from the web:
    tree-sum(node(5, node4, leaf)) is 9
  end
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/Pyret.arr'>hello-world</a>:
- print(&#39;Hello World&#39;)
- 
+githubRepo https://github.com/brownplt/pyret-lang
+ firstCommit 2012
+ stars 924
+ forks 105
+ subscribers 42
+ created 2012
+ updated 2022
+ description The Pyret language.
+ issues 439
 
-endColumns
+repoStats
+ firstCommit 2012
+ commits 10731
+ committers 85
+ files 631
 
-## Language <a href="../lists/features.html">features</a>
+leachim6 Pyret
+ filepath p/Pyret.arr
+ fileExtensions arr
+ example
+  print('Hello World')
+  
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   'Hello world'
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-keyboardNav utc-format.html json-stat.html
-
-import ../footer.scroll
+isbndb 0

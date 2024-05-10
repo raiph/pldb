@@ -1,53 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Stencil
+import ../measures/conceptPage.scroll
+id Stencil
+appeared 2018
+type template
+creators Kyle Fuller
+conceptDescription Stencil is a simple and powerful template language for Swift. It provides a syntax similar to Django and Mustache.
+website https://stencil.fuller.li/en/latest/
+country United Kingdom
+originCommunity https://github.com/stencilproject
 
-title Stencil - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="wml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperscript-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stencil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://stencil.fuller.li/en/latest/" class="material-symbols-outlined">home</a> <a href="stencil" class="material-symbols-outlined">terminal</a> <a href="https://github.com/stencilproject/Stencil" class="material-symbols-outlined">code</a> <a href="/edit.html?id=stencil" class="material-symbols-outlined">edit</a></div>
-
-* Stencil is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2018 by Kyle Fuller.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#kyleFuller Kyle Fuller
-
-codeWithHeader Source code:
- git clone https://github.com/stencilproject/Stencil
-
-dashboard
- #813 <span title="TotalRank: 1374 Jobs: 103 Users: 300 Facts: 971 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Try now: <a href="https://tio.run/#stencil">TIO</a>
-
-* Stencil is a simple and powerful template language for Swift. It provides a syntax similar to Django and Mustache.
-
-- Stencil website
- https://stencil.fuller.li/en/latest/
-- Stencil is developed on <a href="https://github.com/stencilproject/Stencil">GitHub</a> and has 2,135 stars
-- Stencil first developed in <a href="../lists/originCommunities.html#httpsGithubComStencilproject">https://github.com/stencilproject</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  There are {{ articles.count }} articles.
  
- &lt;ul&gt;
+ <ul>
    {% for article in articles %}
-     &lt;li&gt;{{ article.title }} by {{ article.author }}&lt;/li&gt;
+     <li>{{ article.title }} by {{ article.author }}</li>
    {% endfor %}
- &lt;/ul&gt;
+ </ul>
 
-endColumns
+githubRepo https://github.com/stencilproject/Stencil
+ firstCommit 2014
+ stars 2135
+ forks 216
+ subscribers 37
+ created 2014
+ updated 2022
+ description Stencil is a simple and powerful template language for Swift.
+ issues 39
 
-keyboardNav wml.html hyperscript-lang.html
+repoStats
+ firstCommit 2014
+ commits 552
+ committers 54
+ files 98
 
-import ../footer.scroll
+tryItOnline stencil
+
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0

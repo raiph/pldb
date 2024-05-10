@@ -1,34 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ed script
+import ../measures/conceptPage.scroll
+id ed script
+appeared 1973
+type diffFormat
+conceptDescription diff can produce commands that direct the ed text editor to change the first file into the second file. These are often called "ed scripts".
 
-title ed script - Diff format
- hidden
+relatedConcepts ed-editor
 
-html
- <a class="trueBaseThemePreviousItem" href="bayer-expressions.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="attic-numerals.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=edscript" class="material-symbols-outlined">edit</a></div>
-
-* ed script is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+diffFormat">diff format</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #2578 <span title="TotalRank: 3230 Jobs: 103 Users: 2838 Facts: 2460 Links: 667">on PLDB</span>
- 51 Years Old
-
-* diff can produce commands that direct the ed text editor to change the first file into the second file. These are often called "ed scripts".
-
-- See also: (1 related languages)<a href="ed-editor.html">ed</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  a
  ed is the standard Unix text editor.
  This is line number two.
@@ -37,9 +15,3 @@ codeWithHeader Example from the web:
    
  .
  ,l
-
-endColumns
-
-keyboardNav bayer-expressions.html attic-numerals.html
-
-import ../footer.scroll

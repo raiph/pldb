@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Timed CSP
+import ../measures/conceptPage.scroll
+id Timed CSP
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/481894caef9bdf65b61ef9823d24caf38d475c11
 
-title Timed CSP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6808
 
-html
- <a class="trueBaseThemePreviousItem" href="tidb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tinkertoy.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/timed-csp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=timed-csp" class="material-symbols-outlined">edit</a></div>
-
-* Timed CSP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3241 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Timed CSP on HOPL
- https://hopl.info/showlanguage.prx?exp=6808
-- Read more about Timed CSP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/481894caef9bdf65b61ef9823d24caf38d475c11 1.
-
-<br>
-
-endColumns
-
-keyboardNav tidb.html tinkertoy.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

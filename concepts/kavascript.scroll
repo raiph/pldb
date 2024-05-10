@@ -1,43 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KavaScript
+import ../measures/conceptPage.scroll
+id KavaScript
+appeared 2021
+type pl
+creators Maxime Chevalier-Boisvert
+website https://github.com/maximecb/kavascript/
+country Canada
+originCommunity https://github.com/maximecb/kavascript/issues
 
-title KavaScript - Programming language
- hidden
+writtenIn rust
 
-html
- <a class="trueBaseThemePreviousItem" href="bizubee.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="octune.html">&gt;</a>
+githubRepo https://github.com/maximecb/kavascript/
+ stars 21
+ forks 2
+ subscribers 1
+ created 2021
+ updated 2022
+ description Minimalistic dynamically-typed programming language for didactic purposes.
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kavascript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/maximecb/kavascript/" class="material-symbols-outlined">home</a> <a href="https://github.com/maximecb/kavascript/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kavascript" class="material-symbols-outlined">edit</a></div>
-
-* KavaScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Maxime Chevalier-Boisvert.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#maximeChevalierBoisvert Maxime Chevalier-Boisvert
-
-codeWithHeader Source code:
- git clone https://github.com/maximecb/kavascript/
-
-dashboard
- #2344 <span title="TotalRank: 2876 Jobs: 103 Users: 2087 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Minimalistic dynamically-typed programming language for didactic purposes.
-
-- KavaScript website
- https://github.com/maximecb/kavascript/
-- KavaScript is developed on <a href="https://github.com/maximecb/kavascript/">GitHub</a> and has 21 stars
-- KavaScript first developed in <a href="../lists/originCommunities.html#httpsGithubComMaximecbKavascriptIssues">https://github.com/maximecb/kavascript/issues</a>
-- KavaScript is written in <a href="rust.html">Rust</a>
-
-<br>
-
-endColumns
-
-keyboardNav bizubee.html octune.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 88
+ committers 2
+ files 11

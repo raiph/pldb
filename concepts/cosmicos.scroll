@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CosmicOS
+import ../measures/conceptPage.scroll
+id CosmicOS
+appeared 2000
+type pl
+reference https://people.csail.mit.edu/paulfitz/cosmicos.shtml
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title CosmicOS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6959
 
-html
- <a class="trueBaseThemePreviousItem" href="corc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cosmo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cosmicos.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cosmicos" class="material-symbols-outlined">edit</a></div>
-
-* CosmicOS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3599 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- CosmicOS first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- CosmicOS on HOPL
- https://hopl.info/showlanguage.prx?exp=6959
-- Read more about CosmicOS on the web: 1.
- https://people.csail.mit.edu/paulfitz/cosmicos.shtml 1.
-
-<br>
-
-endColumns
-
-keyboardNav corc.html cosmo.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

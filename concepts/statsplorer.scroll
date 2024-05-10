@@ -1,44 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Statsplorer
+import ../measures/conceptPage.scroll
+id Statsplorer
+appeared 2014
+type visual
+creators Krishna Subramanian and Chat Wacharamanotham
+website https://hci.rwth-aachen.de/statsplorer
+oldName VisiStat
+country Germany
+originCommunity RWTH Aachen University
 
-title Statsplorer - Visual programming language
- hidden
+relatedConcepts r
 
-html
- <a class="trueBaseThemePreviousItem" href="george.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="coordinate-format.html">&gt;</a>
+githubRepo https://github.com/imkrishsub/VisiStat
+ firstCommit 2013
+ stars 8
+ forks 14
+ subscribers 3
+ created 2013
+ updated 2021
+ description An application that allows users to do basic statistical analysis on-the-fly. 
+ issues 1
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/statsplorer.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hci.rwth-aachen.de/statsplorer" class="material-symbols-outlined">home</a> <a href="https://github.com/imkrishsub/VisiStat" class="material-symbols-outlined">code</a> <a href="/edit.html?id=statsplorer" class="material-symbols-outlined">edit</a></div>
-
-* Statsplorer is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2014 by Krishna Subramanian and Chat Wacharamanotham.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#krishnaSubramanian Krishna Subramanian
- link ../lists/creators.html#chatWacharamanotham Chat Wacharamanotham
-
-codeWithHeader Source code:
- git clone https://github.com/imkrishsub/VisiStat
-
-dashboard
- #1736 <span title="TotalRank: 2272 Jobs: 103 Users: 1846 Facts: 1502 Links: 667">on PLDB</span>
- 10 Years Old
-
-* An application that allows users to do basic statistical analysis on-the-fly. 
-
-- Statsplorer website
- https://hci.rwth-aachen.de/statsplorer
-- Statsplorer is developed on <a href="https://github.com/imkrishsub/VisiStat">GitHub</a> and has 8 stars
-- Statsplorer first developed in <a href="../lists/originCommunities.html#rwthAachenUniversity">RWTH Aachen University</a>
-- See also: (1 related languages)<a href="r.html">R</a>
-
-<br>
-
-endColumns
-
-keyboardNav george.html coordinate-format.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 1565
+ committers 4
+ files 489

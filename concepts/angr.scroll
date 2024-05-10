@@ -1,38 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title angr
-
-title angr - Decompiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xoc-compiler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="antha.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/angr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://angr.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=angr" class="material-symbols-outlined">edit</a></div>
-
-* angr is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+decompiler">decompiler</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3427 on PLDB
- 9 Years Old
-
-* angr is an open-source binary analysis platform for Python. It combines both static and dynamic symbolic ("concolic") analysis, providing tools to solve a variety of tasks.
-
-- angr website
- https://angr.io/
-- angr first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaSantaBarbara">University of California, Santa Barbara</a> and <a href="../lists/originCommunities.html#arizonaStateUniversity">Arizona State University</a>
-- <a href="https://angr.io/">angr.io</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav xoc-compiler.html antha.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id angr
+appeared 2015
+type decompiler
+conceptDescription angr is an open-source binary analysis platform for Python. It combines both static and dynamic symbolic ("concolic") analysis, providing tools to solve a variety of tasks.
+website https://angr.io/
+country United States
+originCommunity University of California, Santa Barbara && Arizona State University
+domainName angr.io
+ registered 2015
+ awisRank
+  2022 376400

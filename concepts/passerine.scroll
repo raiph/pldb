@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Passerine
+import ../measures/conceptPage.scroll
+id Passerine
+appeared 2021
+type pl
+creators Isaac Cayton (slightknack)
+website https://www.passerine.io/
+country United States
+originCommunity https://github.com/vrtbl
 
-title Passerine - Programming language
- hidden
+githubRepo https://github.com/vrtbl/passerine
+ firstCommit 2020
+ stars 980
+ forks 33
+ subscribers 22
+ created 2020
+ updated 2022
+ description A small extensible programming language designed for concise expression with little code.
+ issues 20
 
-html
- <a class="trueBaseThemePreviousItem" href="kitlang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="snap.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/passerine.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.passerine.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/vrtbl/passerine" class="material-symbols-outlined">code</a> <a href="/edit.html?id=passerine" class="material-symbols-outlined">edit</a></div>
-
-* Passerine is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Isaac Cayton (slightknack).
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#isaacCaytonSlightknack Isaac Cayton (slightknack)
-
-codeWithHeader Source code:
- git clone https://github.com/vrtbl/passerine
-
-dashboard
- #1045 <span title="TotalRank: 1612 Jobs: 103 Users: 523 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A small extensible programming language designed for concise expression with little code.
-
-- Passerine website
- https://www.passerine.io/
-- Passerine is developed on <a href="https://github.com/vrtbl/passerine">GitHub</a> and has 980 stars
-- Passerine first developed in <a href="../lists/originCommunities.html#httpsGithubComVrtbl">https://github.com/vrtbl</a>
-
-<br>
-
-endColumns
-
-keyboardNav kitlang.html snap.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 535
+ committers 16
+ files 127

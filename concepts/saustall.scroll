@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SAUSTALL
+import ../measures/conceptPage.scroll
+id SAUSTALL
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/c9c7261f525ac4d87e0f2b985130bc462a806259
+country Former West Germany or Germany
 
-title SAUSTALL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4451
 
-html
- <a class="trueBaseThemePreviousItem" href="sale.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shiv.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/saustall.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=saustall" class="material-symbols-outlined">edit</a></div>
-
-* SAUSTALL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3423 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- SAUSTALL on HOPL
- https://hopl.info/showlanguage.prx?exp=4451
-- Read more about SAUSTALL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c9c7261f525ac4d87e0f2b985130bc462a806259 1.
-
-<br>
-
-endColumns
-
-keyboardNav sale.html shiv.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

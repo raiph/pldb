@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Quick Macros
+import ../measures/conceptPage.scroll
+id Quick Macros
+appeared 1997
+type pl
+reference http://www.quickmacros.com/features.html
+country Lithuania
+originCommunity https://www.libreautomate.com/forum
 
-title Quick Macros - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8634
 
-html
- <a class="trueBaseThemePreviousItem" href="quanta.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="quilt.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quick-macros.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=quick-macros" class="material-symbols-outlined">edit</a></div>
-
-* Quick Macros is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #4274 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Quick Macros first developed in <a href="../lists/originCommunities.html#httpsWwwLibreautomateComForum">https://www.libreautomate.com/forum</a>
-- Quick Macros on HOPL
- https://hopl.info/showlanguage.prx?exp=8634
-- Read more about Quick Macros on the web: 1.
- http://www.quickmacros.com/features.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav quanta.html quilt.html
-
-import ../footer.scroll
+isbndb 0

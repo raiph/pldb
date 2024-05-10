@@ -1,54 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NCAR Command Language
+import ../measures/conceptPage.scroll
+id NCAR Command Language
+appeared 1994
+type pl
+conceptDescription (The NCAR Command Language (NCL), a product of the Computational & Information Systems Laboratory at the National Center for Atmospheric Research (NCAR) and sponsored by the National Science Foundation, is a free interpreted language designed specifically for scientific data processing and visualization.
+website https://www.ncl.ucar.edu/index.shtml
+standsFor NCAR Command Language
+country United States
+originCommunity University Corporation for Atmospheric Research
 
-title NCAR Command Language - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="plain-english.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="angelscript.html">&gt;</a>
+lineCommentToken ;
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ncl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.ncl.ucar.edu/index.shtml" class="material-symbols-outlined">home</a> <a href="https://github.com/NCAR/ncl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ncl" class="material-symbols-outlined">edit</a></div>
-
-* NCAR Command Language, aka NCAR Command Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-codeWithHeader Source code:
- git clone https://github.com/NCAR/ncl
-
-dashboard
- #566 <span title="TotalRank: 1133 Jobs: 103 Users: 723 Facts: 307 Links: 986">on PLDB</span>
- 30 Years Old
- 654 <span title="NCAR Command Language repos on GitHub.">Repos</span>
-
-* (The NCAR Command Language (NCL), a product of the Computational & Information Systems Laboratory at the National Center for Atmospheric Research (NCAR) and sponsored by the National Science Foundation, is a free interpreted language designed specifically for scientific data processing and visualization.
-
-- NCAR Command Language website
- https://www.ncl.ucar.edu/index.shtml
-- NCAR Command Language is developed on <a href="https://github.com/NCAR/ncl">GitHub</a> and has 208 stars
-- There are at least 654 NCAR Command Language repos on <a href="https://github.com/search?q=language:NCL">GitHub</a>
-- NCAR Command Language first developed in <a href="../lists/originCommunities.html#universityCorporationForAtmosphericResearch">University Corporation for Atmospheric Research</a>
-- file extensions for NCAR Command Language include ncl
-- The  Google BigQuery Public Dataset GitHub snapshot shows 61 users using NCAR Command Language in 64 repos on <a href="https://api.github.com/search/repositories?q=language:NCL">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/ncl.py">syntax highlighting</a> for NCAR Command Language
-- GitHub supports <a href="https://github.com/rpavlick/language-ncl.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for NCAR Command Language
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ;-----------------------------------------------------------------
  ;  NCL User Guide Example:   NUG_bar_chart.ncl
  ;
  ;  KMF 30.10.14
  ;-----------------------------------------------------------------
  ; These load commands are not required in NCL versions 6.2.0 and later.
- load &quot;$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl&quot;
- load &quot;$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl&quot;
+ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_code.ncl"
+ load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/gsn_csm.ncl"
  
  begin
  
@@ -60,61 +36,73 @@ codeWithHeader Example from the web:
     x = fspan(1.0, 12.0, n)
     y = random_uniform(low, high, n)
  
-    wks = gsn_open_wks(&quot;png&quot;,&quot;NUG_bar_chart&quot;)
+    wks = gsn_open_wks("png","NUG_bar_chart")
  
     res                       =  True
     res@gsnXYBarChart         =  True
     res@gsnXYBarChartBarWidth =  0.3
-    res@gsnXYBarChartColors   = &quot;blue&quot;
+    res@gsnXYBarChartColors   = "blue"
  
     res@trXMinF               =  0.0              ;-- x-axis min value
     res@trXMaxF               = 13.0              ;-- x-axis max value
     res@trYMinF               =  0.0              ;-- y-axis min value
     res@trYMaxF               =  1.0              ;-- y-axis max value
  
-    res@tmXBMode              = &quot;Explicit&quot;        ;-- explicit labels
+    res@tmXBMode              = "Explicit"        ;-- explicit labels
     res@tmXBValues            =  ispan(1,12,1)
-    res@tmXBLabels            = (/&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;, \
-                                  &quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec&quot;/)
+    res@tmXBLabels            = (/"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep", \
+                                  "Oct","Nov","Dec"/)
     res@tmXBLabelFontHeightF  =  0.015
  
-    res@tiMainString          = &quot;NCL Doc Example: bar chart&quot;
+    res@tiMainString          = "NCL Doc Example: bar chart"
  
     plot = gsn_csm_xy(wks, x, y, res)
  
  end
 
-codeWithHeader Example from <a href='https://github.com/rpavlick/language-ncl.git'>Linguist</a>:
- val=102
- a=val/4.
- print(a)
+githubRepo https://github.com/NCAR/ncl
+ firstCommit 1990
+ stars 208
+ forks 54
+ subscribers 34
+ created 2016
+ updated 2022
+ issues 106
+ description The NCAR Command Language (NCL) is a scripting language for the analysis and visualization of climate and weather data.
 
-endColumns
+repoStats
+ firstCommit 1990
+ commits 14345
+ committers 50
+ files 9271
 
-## Language <a href="../lists/features.html">features</a>
+githubLanguage NCL
+ fileExtensions ncl
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.ncl
+ repos 654
+githubBigQuery NCL
+ repos 64
+ users 61
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+pygmentsHighlighter NCL
+ filename ncl.py
+ fileExtensions ncl
+linguistGrammarRepo https://github.com/rpavlick/language-ncl.git
+ firstCommit 2015
+ lastCommit 2015
+ committerCount 2
+ commitCount 9
+ sampleCount 16
+ example
+  val=102
+  a=val/4.
+  print(a)
 
-keyboardNav plain-english.html angelscript.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0

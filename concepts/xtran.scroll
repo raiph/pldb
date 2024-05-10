@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title XTRAN
+import ../measures/conceptPage.scroll
+id XTRAN
+appeared 1958
+type pl
+reference https://semanticscholar.org/paper/e7dfd9101e16d87988fe1f00f1fe1ca2a8d2a7d6
 
-title XTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2630
 
-html
- <a class="trueBaseThemePreviousItem" href="xsim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="yugabytedb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xtran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xtran" class="material-symbols-outlined">edit</a></div>
-
-* XTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1958.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1958 1958
-
-dashboard
- #3299 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 66 Years Old
-
-* 
-
-- XTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=2630
-- Read more about XTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e7dfd9101e16d87988fe1f00f1fe1ca2a8d2a7d6 1.
-
-<br>
-
-endColumns
-
-keyboardNav xsim.html yugabytedb.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

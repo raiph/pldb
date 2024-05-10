@@ -1,96 +1,77 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title pasukon
+import ../measures/conceptPage.scroll
+id pasukon
+appeared 2020
+type grammarLanguage
+creators Federico Ramirez
+website https://pasukon.rocks
+webRepl https://pasukon.rocks/#try-it
+reference https://news.ycombinator.com/item?id=24347956
+country Argentina
+originCommunity https://github.com/gosukiwi/Pasukon/issues
+domainName pasukon.rocks
 
-title pasukon - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="farcaster.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="berry.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pasukon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://pasukon.rocks" class="material-symbols-outlined">home</a> <a href="https://pasukon.rocks/#try-it" class="material-symbols-outlined">terminal</a> <a href="https://github.com/gosukiwi/Pasukon" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pasukon" class="material-symbols-outlined">edit</a></div>
-
-* pasukon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2020 by Federico Ramirez.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#federicoRamirez Federico Ramirez
-
-codeWithHeader Source code:
- git clone https://github.com/gosukiwi/Pasukon
-
-dashboard
- #947 <span title="TotalRank: 1514 Jobs: 103 Users: 1388 Facts: 425 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://pasukon.rocks/#try-it">Web</a>
-
-* JavaScript practical parser generator library using combinators
-
-- pasukon website
- https://pasukon.rocks
-- pasukon is developed on <a href="https://github.com/gosukiwi/Pasukon">GitHub</a> and has 109 stars
-- pasukon first developed in <a href="../lists/originCommunities.html#httpsGithubComGosukiwiPasukonIssues">https://github.com/gosukiwi/Pasukon/issues</a>
-- Read more about pasukon on the web: 1.
- https://news.ycombinator.com/item?id=24347956 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  lex
    match  NUMBER     /[0-9]+(?:\.[0-9]+)?/
-   match  PLUS       &#39;+&#39;
-   match  MINUS      &#39;-&#39;
-   match  TIMES      &#39;*&#39;
-   match  DIV        &#39;/&#39;
-   match  POPEN      &#39;(&#39;
-   match  PCLOSE     &#39;)&#39;
+   match  PLUS       '+'
+   match  MINUS      '-'
+   match  TIMES      '*'
+   match  DIV        '/'
+   match  POPEN      '('
+   match  PCLOSE     ')'
    ignore WHITESPACE /^\s+/
  /lex
  
  addition
    | (subtraction as :lhs) then :PLUS then (subtraction as :rhs)
-   |&gt; &#39;return $.lhs + $.rhs&#39;
+   |> 'return $.lhs + $.rhs'
    | subtraction
    ;
  
  subtraction
    | (multiplication as :lhs) then :MINUS then (multiplication as :rhs)
-   |&gt; &#39;return $.lhs - $.rhs&#39;
+   |> 'return $.lhs - $.rhs'
    | multiplication
    ;
  
  multiplication
    | (division as :lhs) then :TIMES then (division as :rhs)
-   |&gt; &#39;return $.lhs * $.rhs&#39;
+   |> 'return $.lhs * $.rhs'
    | division
    ;
  
  division
    | (expression as :lhs) then :DIV then (expression as :rhs)
-   |&gt; &#39;return $.lhs / $.rhs&#39;
+   |> 'return $.lhs / $.rhs'
    | expression
    ;
  
  expression
    | :POPEN then (addition as :expr) then :PCLOSE
-   |&gt; &#39;return $.expr&#39;
+   |> 'return $.expr'
    | number
    ;
  
  number
-   | :NUMBER &#39;return +$1&#39;
+   | :NUMBER 'return +$1'
    ;
  
  start
    | addition
    ;
 
-endColumns
+githubRepo https://github.com/gosukiwi/Pasukon
+ firstCommit 2020
+ stars 109
+ forks 2
+ subscribers 4
+ created 2020
+ updated 2022
+ description JavaScript practical parser generator library using combinators
+ issues 6
 
-keyboardNav farcaster.html berry.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 83
+ committers 1
+ files 53

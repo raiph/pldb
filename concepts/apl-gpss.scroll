@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APL-GPSS
+import ../measures/conceptPage.scroll
+id APL-GPSS
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/88dbb8eedbbd857bcfd05d4f879e19e0df4edc1b
+country The Netherlands
+originCommunity Institute for Theoretical Biology
 
-title APL-GPSS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8247
 
-html
- <a class="trueBaseThemePreviousItem" href="anna.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aqasm.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/apl-gpss.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=apl-gpss" class="material-symbols-outlined">edit</a></div>
-
-* APL-GPSS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #3084 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- APL-GPSS first developed in <a href="../lists/originCommunities.html#instituteForTheoreticalBiology">Institute for Theoretical Biology</a>
-- APL-GPSS on HOPL
- https://hopl.info/showlanguage.prx?exp=8247
-- Read more about APL-GPSS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/88dbb8eedbbd857bcfd05d4f879e19e0df4edc1b 1.
-
-<br>
-
-endColumns
-
-keyboardNav anna.html aqasm.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kvsapi
-
-title kvsapi - Standard
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="klisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lanai.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kvsapi.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.snia.org/tech_activities/standards/curr_standards/kvsapi" class="material-symbols-outlined">home</a> <a href="/edit.html?id=kvsapi" class="material-symbols-outlined">edit</a></div>
-
-* kvsapi is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+standard">standard</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #3276 on PLDB
- 5 Years Old
-
-* This document describes the Key Value Storage (KVS) Application Program Interface (API) specification for SSD storage devices with Object Drive based Key Value Storage. It provides a set of APIs that are portable across multiple vendor SSD products.
-
-- kvsapi website
- https://www.snia.org/tech_activities/standards/curr_standards/kvsapi
-- kvsapi first developed in <a href="../lists/originCommunities.html#storageNetworkingIndustryAssociation">Storage Networking Industry Association</a>
-
-<br>
-
-endColumns
-
-keyboardNav klisp.html lanai.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id kvsapi
+appeared 2019
+type standard
+conceptDescription This document describes the Key Value Storage (KVS) Application Program Interface (API) specification for SSD storage devices with Object Drive based Key Value Storage. It provides a set of APIs that are portable across multiple vendor SSD products.
+website https://www.snia.org/tech_activities/standards/curr_standards/kvsapi
+country United States
+originCommunity Storage Networking Industry Association

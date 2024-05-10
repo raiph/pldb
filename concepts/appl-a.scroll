@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title APPL/A
+import ../measures/conceptPage.scroll
+id APPL/A
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/21a38ad09a5345cc659e24917a5422758545e370
+country United States
+originCommunity University of Massachusetts && University of Colorado
 
-title APPL/A - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3816
 
-html
- <a class="trueBaseThemePreviousItem" href="apostle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="applog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/appl-a.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=appl-a" class="material-symbols-outlined">edit</a></div>
-
-* APPL/A is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3484 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- APPL/A first developed in <a href="../lists/originCommunities.html#universityOfMassachusetts">University of Massachusetts</a> and <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- APPL/A on HOPL
- https://hopl.info/showlanguage.prx?exp=3816
-- Read more about APPL/A on Semantic Scholar: 1.
- https://semanticscholar.org/paper/21a38ad09a5345cc659e24917a5422758545e370 1.
-
-<br>
-
-endColumns
-
-keyboardNav apostle.html applog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

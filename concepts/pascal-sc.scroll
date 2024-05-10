@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pascal-SC
+import ../measures/conceptPage.scroll
+id Pascal-SC
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/303abc789e8c7dc2757878f7bee9860ae8a83da4
+country Germany
+originCommunity Universitat Karlsruhe
 
-title Pascal-SC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1349
 
-html
- <a class="trueBaseThemePreviousItem" href="pascal-plus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pasion.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pascal-sc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pascal-sc" class="material-symbols-outlined">edit</a></div>
-
-* Pascal-SC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3916 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- Pascal-SC first developed in <a href="../lists/originCommunities.html#universitatKarlsruhe">Universitat Karlsruhe</a>
-- Pascal-SC on HOPL
- https://hopl.info/showlanguage.prx?exp=1349
-- Read more about Pascal-SC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/303abc789e8c7dc2757878f7bee9860ae8a83da4 1.
-
-<br>
-
-endColumns
-
-keyboardNav pascal-plus.html pasion.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

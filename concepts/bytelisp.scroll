@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ByteLisp
+import ../measures/conceptPage.scroll
+id ByteLisp
+appeared 1965
+type pl
+reference https://semanticscholar.org/paper/970195421bf978329d6738c4372ab7ad0063c404
+country United States
+originCommunity Xerox PARC
 
-title ByteLisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3792
 
-html
- <a class="trueBaseThemePreviousItem" href="butterfly-common-lisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="c-headers.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bytelisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bytelisp" class="material-symbols-outlined">edit</a></div>
-
-* ByteLisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #3539 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- ByteLisp first developed in <a href="../lists/originCommunities.html#xeroxParc">Xerox PARC</a>
-- ByteLisp on HOPL
- https://hopl.info/showlanguage.prx?exp=3792
-- Read more about ByteLisp on Semantic Scholar: 1.
- https://semanticscholar.org/paper/970195421bf978329d6738c4372ab7ad0063c404 1.
-
-<br>
-
-endColumns
-
-keyboardNav butterfly-common-lisp.html c-headers.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

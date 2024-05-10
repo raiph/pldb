@@ -1,39 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SHEEP
+import ../measures/conceptPage.scroll
+id SHEEP
+appeared 1978
+type pl
+reference https://semanticscholar.org/paper/bdecae8d0cd3598d5b0990312026e9a2f37c89a6
+country Sweden and United Kingdom
+originCommunity University of Stockholm and Queen Mary College
 
-title SHEEP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1748
 
-html
- <a class="trueBaseThemePreviousItem" href="shadow.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="slang.html">&gt;</a>
+wordRank 6717
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sheep.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sheep" class="material-symbols-outlined">edit</a></div>
-
-* SHEEP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #3041 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 46 Years Old
-
-* 
-
-- SHEEP first developed in <a href="../lists/originCommunities.html#universityOfStockholmAndQueenMaryCollege">University of Stockholm and Queen Mary College</a>
-- SHEEP on HOPL
- https://hopl.info/showlanguage.prx?exp=1748
-- Read more about SHEEP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bdecae8d0cd3598d5b0990312026e9a2f37c89a6 1.
-
-<br>
-
-endColumns
-
-keyboardNav shadow.html slang.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 1985|Butterworth-Heinemann|Genetics of Reproduction in Sheep|Land, R. B.|9780407003026

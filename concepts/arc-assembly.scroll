@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Arc Assembly
+import ../measures/conceptPage.scroll
+id Arc Assembly
+appeared 1947
+type assembly
+creators Kathleen Booth
+reference https://en.wikipedia.org/wiki/Kathleen_Booth
+country United Kingdom
+originCommunity Birkbeck College, University of London
 
-title Arc Assembly - Assembly language
- hidden
+fileType na
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="aqasm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bawk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/arc-assembly.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=arc-assembly" class="material-symbols-outlined">edit</a></div>
-
-* Arc Assembly is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1947 by Kathleen Booth.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1947 1947
- link ../lists/creators.html#kathleenBooth Kathleen Booth
-
-dashboard
- #3086 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 77 Years Old
-
-* 
-
-- Arc Assembly first developed in <a href="../lists/originCommunities.html#birkbeckCollegeUniversityOfLondon">Birkbeck College, University of London</a>
-- Read more about Arc Assembly on the web: 1.
- https://en.wikipedia.org/wiki/Kathleen_Booth 1.
-
-<br>
-
-endColumns
-
-keyboardNav aqasm.html bawk.html
-
-import ../footer.scroll
+semanticScholar 0

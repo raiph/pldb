@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ERROL
+import ../measures/conceptPage.scroll
+id ERROL
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/48f6e19e8b2381515f7be4c58fa4f4ca1457c712
+country Israel
+originCommunity Technion or Israel Institute of Technology
 
-title ERROL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5623
 
-html
- <a class="trueBaseThemePreviousItem" href="equate.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="etude.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/errol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=errol" class="material-symbols-outlined">edit</a></div>
-
-* ERROL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3658 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- ERROL first developed in <a href="../lists/originCommunities.html#technionOrIsraelInstituteOfTechnology">Technion or Israel Institute of Technology</a>
-- ERROL on HOPL
- https://hopl.info/showlanguage.prx?exp=5623
-- Read more about ERROL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/48f6e19e8b2381515f7be4c58fa4f4ca1457c712 1.
-
-<br>
-
-endColumns
-
-keyboardNav equate.html etude.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

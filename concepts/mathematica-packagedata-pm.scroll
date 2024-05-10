@@ -1,38 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mathematica-packagedata-pm
+import ../measures/conceptPage.scroll
+id mathematica-packagedata-pm
+appeared 2015
+type packageManager
+website http://packagedata.net/
+country Unknown
+originCommunity https://community.wolfram.com/groups/-/m/t/562001
+domainName packagedata.net
+ registered 2015
+ awisRank
+  2022 7612796
 
-title mathematica-packagedata-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="luarocks-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mathpix-markdown.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mathematica-packagedata-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://packagedata.net/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=mathematica-packagedata-pm" class="material-symbols-outlined">edit</a></div>
-
-* mathematica-packagedata-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #3489 on PLDB
- 9 Years Old
-
-* 
-
-- mathematica-packagedata-pm website
- http://packagedata.net/
-- mathematica-packagedata-pm first developed in <a href="../lists/originCommunities.html#httpsCommunityWolframComGroupsMT562001">https://community.wolfram.com/groups/-/m/t/562001</a>
-- <a href="http://packagedata.net/">packagedata.net</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav luarocks-pm.html mathpix-markdown.html
-
-import ../footer.scroll
+packageCount 210
+forLanguages mathematica

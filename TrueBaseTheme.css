@@ -91,9 +91,6 @@ body {
   font-size: 2em;
 }
 
-.scrollTable {
-  table-layout: auto;
-}
 .scrollTable pre {
   max-width: 80ch;
   overflow: auto;
@@ -218,7 +215,7 @@ body {
   font-family: "Material Symbols Outlined";
   font-style: normal;
   font-weight: 400;
-  src: url(/googleMaterial.woff2) format("woff2");
+  src: url("./googleMaterial.woff2") format("woff2");
 }
 
 .material-symbols-outlined {

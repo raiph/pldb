@@ -1,36 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Formatted Table
+import ../measures/conceptPage.scroll
+id Formatted Table
+appeared 1990
+type dataNotation
+conceptDescription A simple plain text format for storing tabular data.
 
-title Formatted Table - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ren-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vissim.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/formatted-table.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=formatted-table" class="material-symbols-outlined">edit</a></div>
-
-* Formatted Table is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #1247 <span title="TotalRank: 1781 Jobs: 103 Users: 2838 Facts: 692 Links: 986">on PLDB</span>
- 34 Years Old
- 0 <span title="Formatted Table repos on GitHub.">Repos</span>
-
-* A simple plain text format for storing tabular data.
-
-- There are at least 0 Formatted Table repos on <a href="https://github.com/search?q=language:Formatted">GitHub</a>
-- file extensions for Formatted Table include for and eamfs
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Weekly SST data starts week centered on 3Jan1990
  
                 Nino1+2      Nino3        Nino34        Nino4
@@ -39,8 +13,7 @@ codeWithHeader Example from the web:
  10JAN1990     23.4-0.8     25.2-0.3     26.6 0.1     28.6 0.3
  17JAN1990     24.2-0.3     25.3-0.3     26.5-0.1     28.6 0.3
  24JAN1990     24.4-0.5     25.5-0.4     26.5-0.1     28.4 0.2
-
-codeWithHeader Example from the web:
+example
  ACCEPTABLE LEFT PRIMERS
                                    1-based     #                self   self hair-  qual-
     # sequence                       start ln  N   GC%     Tm any_th end_th   pin   lity
@@ -66,8 +39,13 @@ codeWithHeader Example from the web:
    19 ctatcatctctgcgcgatcg             360 20  0 55.00 59.347 12.19 12.19 39.07  0.653
    20 gatgctagctaggcgatgct             409 20  0 55.00 60.668  7.01  7.53  0.00
 
-endColumns
+githubLanguage Formatted
+ fileExtensions for eamfs
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope none
+ repos 0
 
-keyboardNav ren-notation.html vissim.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

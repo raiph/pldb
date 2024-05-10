@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Spatial
+import ../measures/conceptPage.scroll
+id Spatial
+appeared 2018
+type pl
+creators David Koeplinger
+conceptDescription Spatial: A High Level Programming Language for FPGAs
+website https://spatial-lang.org/
+standsFor Specify Parameterized Accelerators Through Inordinately Abstract Language
+country United States
+originCommunity Stanford University
+domainName spatial-lang.org
+ registered 2018
 
-title Spatial - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="plot.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hl7.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spatial.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://spatial-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/stanford-ppl/spatial" class="material-symbols-outlined">code</a> <a href="/edit.html?id=spatial" class="material-symbols-outlined">edit</a></div>
-
-* Spatial, aka Specify Parameterized Accelerators Through Inordinately Abstract Language, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by David Koeplinger.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#davidKoeplinger David Koeplinger
-
-codeWithHeader Source code:
- git clone https://github.com/stanford-ppl/spatial
-
-dashboard
- #875 <span title="TotalRank: 1442 Jobs: 103 Users: 945 Facts: 394 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Spatial: A High Level Programming Language for FPGAs
-
-- Spatial website
- https://spatial-lang.org/
-- Spatial is developed on <a href="https://github.com/stanford-ppl/spatial">GitHub</a> and has 225 stars
-- Spatial first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- <a href="https://spatial-lang.org/">spatial-lang.org</a> was registered in 2018
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import spatial.dsl._
  
  @spatial object HelloSpatial extends SpatialApp {
@@ -53,45 +36,52 @@ codeWithHeader Example from the web:
        val r = Reg[Int]
        
        // Loop over each element in SRAM
-       Foreach(16 by 1, 32 by 1){(i,j) =&gt; 
+       Foreach(16 by 1, 32 by 1){(i,j) => 
          s(i,j) = i + j
        }
        // Store element into the register, based on the input arg
        r := s(x,x)
  
        // Print value of register (only shows in Scala simulation)
-       println(r&quot;Value of SRAM at (${x.value},${x.value}) is ${r.value}&quot;)
+       println(r"Value of SRAM at (${x.value},${x.value}) is ${r.value}")
      }
  
    }
  } 
 
-endColumns
+githubRepo https://github.com/stanford-ppl/spatial
+ firstCommit 2017
+ stars 225
+ forks 30
+ subscribers 21
+ created 2018
+ updated 2022
+ description Spatial: "Specify Parameterized Accelerators Through Inordinately Abstract Language"
+ issues 70
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 4575
+ committers 22
+ files 2376
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+fileType text
+wordRank 6389
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav plot.html hl7.html
-
-import ../footer.scroll
+isbndb 13
+ year|publisher|title|authors|isbn13
+ 2015|ISTE Press - Elsevier|Agent-Based Spatial Simulation with NetLogo Volume 1|Banos, Arnaud and Lang, Christophe and Marilleau, Nicolas|9781785480553
+ 2015|SAGE Publications Ltd|An Introduction to R for Spatial Analysis and Mapping|Brunsdon, Chris and Comber, Lex|9781446272947
+ 20181207|Taylor & Francis|Spatial Data Analysis in Ecology and Agriculture Using R|Richard E. Plant|9781351189897
+ 2002|London ; Taylor & Francis, 2002.|Java Programming For Spatial Sciences|Jo Wood|9780203166178
+ 1975|Iowa State Pr|Spatial Sector Programming Models In Agriculture|Earl O. Heady and Uma K. Srivastava|9780813815756
+ 1971|Methuen|Combinatorial Programming, Spatial Analysis And Planning|Allen John Scott|9780416665109
+ 2015|Springer|Spatial Auditory Human-Computer Interfaces (SpringerBriefs in Computer Science)|Sodnik, Jaka and Tomažič, Sašo|9783319221113
+ 2008|Springer|Open Source Approaches in Spatial Data Handling (Advances in Geographic Information Science Book 2)||9783540748311
+ 1998|Ios Pr Inc|Qualitative Spatial Reasoning Theory And Practice: Theory And Practice--application To Robot Navigation (frontiers In Artificial Intelligence And Applications, 47)|M.t. Escrig|9789051994124
+ 2009|Springer|Spatial Information Theory: 9th International Conference, COSIT 2009, Aber Wrac'h, France, September 21-25, 2009, Proceedings (Lecture Notes in Computer Science (5756))||9783642038310
+ 2015|SAGE Publications Ltd|An Introduction to R for Spatial Analysis and Mapping|Brunsdon, Chris and Comber, Lex|9781446272954
+ 2020|Springer|Spatial Modeling in Forest Resources Management: Rural Livelihood and Sustainable Development (Environmental Science and Engineering)||9783030565411
+ 2012|Springer|Decentralized Spatial Computing: Foundations of Geosensor Networks|Duckham, Matt|9783642308536

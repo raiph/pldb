@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SPECL
+import ../measures/conceptPage.scroll
+id SPECL
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/1f6ab415013766ba3d43b4eb5297d7906436a837
+country United States
+originCommunity Harvard University
 
-title SPECL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3899
 
-html
- <a class="trueBaseThemePreviousItem" href="sorca.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spir-v.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/specl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=specl" class="material-symbols-outlined">edit</a></div>
-
-* SPECL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #4039 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- SPECL first developed in <a href="../lists/originCommunities.html#harvardUniversity">Harvard University</a>
-- SPECL on HOPL
- https://hopl.info/showlanguage.prx?exp=3899
-- Read more about SPECL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1f6ab415013766ba3d43b4eb5297d7906436a837 1.
-
-<br>
-
-endColumns
-
-keyboardNav sorca.html spir-v.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

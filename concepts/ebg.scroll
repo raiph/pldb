@@ -1,36 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ebg
+import ../measures/conceptPage.scroll
+id ebg
+appeared 1999
+type pl
+conceptDescription EBG is a lazy, higher order functional programming language with a Hindley-Milner type system, modules, separate compilation, algebraic types, pattern matching, and an interface to Java based on the ob ject-oriented model of program execution.
+reference https://arxiv.org/pdf/1804.07271.pdf
 
-title ebg - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dm-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="elastic-query-dsl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ebg.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ebg" class="material-symbols-outlined">edit</a></div>
-
-* ebg is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3377 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 25 Years Old
-
-* EBG is a lazy, higher order functional programming language with a Hindley-Milner type system, modules, separate compilation, algebraic types, pattern matching, and an interface to Java based on the ob ject-oriented model of program execution.
-
-- Read more about ebg on the web: 1.
- https://arxiv.org/pdf/1804.07271.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav dm-1.html elastic-query-dsl.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

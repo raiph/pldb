@@ -1,67 +1,53 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SQF
+import ../measures/conceptPage.scroll
+id SQF
+appeared 2002
+type pl
+reference https://community.bistudio.com/wiki/SQF_syntax
+aka sqf
+country Czechia
+originCommunity Bohemia Interactive a.s
 
-title SQF - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="partiql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tcsh.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/status-quo-function.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=status-quo-function" class="material-symbols-outlined">edit</a></div>
-
-* SQF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #1216 <span title="TotalRank: 1764 Jobs: 103 Users: 1151 Facts: 675 Links: 986">on PLDB</span>
- 22 Years Old
- 6k <span title="SQF repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 5,963 SQF repos on <a href="https://github.com/search?q=language:SQF">GitHub</a>
-- SQF first developed in <a href="../lists/originCommunities.html#bohemiaInteractiveAS">Bohemia Interactive a.s</a>
-- file extensions for SQF include sqf and hqf
-- The  Google BigQuery Public Dataset GitHub snapshot shows 405 users using SQF in 609 repos on <a href="https://api.github.com/search/repositories?q=language:SQF">GitHub</a>
-- GitHub supports <a href="https://github.com/JonBons/Sublime-SQF-Language" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for SQF
-- Read more about SQF on the web: 1.
- https://community.bistudio.com/wiki/SQF_syntax 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  _num = 10;
  _num = _num + 20; systemChat str _num;
 
-codeWithHeader Example from <a href='https://github.com/JonBons/Sublime-SQF-Language'>Linguist</a>:
- #include &lt;version.hqf&gt;
- 
- #define SET(VAR,VALUE) private #VAR; VAR = VALUE;
- #define CONV(VAR,ARRAY,POOL) VAR = ARRAY select (POOL find VAR);
- 
- #define ALL_HITPOINTS_MAN [ \
-   &quot;HitHead&quot;, &quot;HitBody&quot;, \
-   &quot;HitLeftArm&quot;, &quot;HitRightArm&quot;, \
-   &quot;HitLeftLeg&quot;,&quot;HitRightLeg&quot; \
- ]
- 
- #define ALL_HITPOINTS_VEH [ \
-   &quot;HitBody&quot;, &quot;HitHull&quot;, &quot;HitEngine&quot;, &quot;HitFuel&quot;, \
-   &quot;HitTurret&quot;, &quot;HitGun&quot;, \
-   &quot;HitLTrack&quot;, &quot;HitRTrack&quot;, \
-   &quot;HitLFWheel&quot;, &quot;HitRFWheel&quot;, &quot;HitLF2Wheel&quot;, &quot;HitRF2Wheel&quot;, &quot;HitLMWheel&quot;, &quot;HitRMWheel&quot;, &quot;HitLBWheel&quot;, &quot;HitRBWheel&quot;, \
-   &quot;HitAvionics&quot;, &quot;HitHRotor&quot;, &quot;HitVRotor&quot;, \
-   &quot;HitRGlass&quot;, &quot;HitLGlass&quot;, &quot;HitGlass1&quot;, &quot;HitGlass2&quot;, &quot;HitGlass3&quot;, &quot;HitGlass4&quot;, &quot;HitGlass5&quot;, &quot;HitGlass6&quot; \
- ]
+githubLanguage SQF
+ fileExtensions sqf hqf
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.sqf
+ repos 5963
+githubBigQuery SQF
+ repos 609
+ users 405
 
-endColumns
+linguistGrammarRepo https://github.com/JonBons/Sublime-SQF-Language
+ firstCommit 2012
+ lastCommit 2018
+ committerCount 16
+ commitCount 96
+ sampleCount 2
+ example
+  #include <version.hqf>
+  
+  #define SET(VAR,VALUE) private #VAR; VAR = VALUE;
+  #define CONV(VAR,ARRAY,POOL) VAR = ARRAY select (POOL find VAR);
+  
+  #define ALL_HITPOINTS_MAN [ \
+    "HitHead", "HitBody", \
+    "HitLeftArm", "HitRightArm", \
+    "HitLeftLeg","HitRightLeg" \
+  ]
+  
+  #define ALL_HITPOINTS_VEH [ \
+    "HitBody", "HitHull", "HitEngine", "HitFuel", \
+    "HitTurret", "HitGun", \
+    "HitLTrack", "HitRTrack", \
+    "HitLFWheel", "HitRFWheel", "HitLF2Wheel", "HitRF2Wheel", "HitLMWheel", "HitRMWheel", "HitLBWheel", "HitRBWheel", \
+    "HitAvionics", "HitHRotor", "HitVRotor", \
+    "HitRGlass", "HitLGlass", "HitGlass1", "HitGlass2", "HitGlass3", "HitGlass4", "HitGlass5", "HitGlass6" \
+  ]
 
-keyboardNav partiql.html tcsh.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

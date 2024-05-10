@@ -1,82 +1,54 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dlvm
+import ../measures/conceptPage.scroll
+id dlvm
+appeared 2017
+type ir
+creators Chris Lattner
+conceptDescription Modern Compiler Infrastructure for Deep Learning Systems
+website http://dlvm.org/
+reference https://dlvm-team.github.io/
+country United States
+originCommunity University of Illinois at Urbana-Champaign && Purdue University
+domainName dlvm.org
+ registered 2022
+ awisRank
+  2017 17839534
 
-title dlvm - Intermediate representation language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="sketchpad.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="power-query-m.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dlvm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://dlvm.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/dlvm-team/swift" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dlvm" class="material-symbols-outlined">edit</a></div>
-
-* dlvm is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2017 by Chris Lattner.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#chrisLattner Chris Lattner
-
-codeWithHeader Source code:
- git clone https://github.com/dlvm-team/swift
-
-dashboard
- #1244 <span title="TotalRank: 1781 Jobs: 103 Users: 2415 Facts: 692 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Modern Compiler Infrastructure for Deep Learning Systems
-
-- dlvm website
- http://dlvm.org/
-- dlvm is developed on <a href="https://github.com/dlvm-team/swift">GitHub</a> and has 0 stars
-- dlvm first developed in <a href="../lists/originCommunities.html#universityOfIllinoisAtUrbanaChampaign">University of Illinois at Urbana-Champaign</a> and <a href="../lists/originCommunities.html#purdueUniversity">Purdue University</a>
-- <a href="http://dlvm.org/">dlvm.org</a> was registered in 2022
-- Read more about dlvm on the web: 1.
- https://dlvm-team.github.io/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // Dimension-erased functions are flexible because input shapes are dynamic.
  // They may be slower and less optimized than their shape-specialized counterparts.
  
  // f(x, w, b) = dot(x, w) + pad(b, at: 0)
- func @f: (&lt;_ x _ x f32&gt;, &lt;_ x _ x f32&gt;, &lt;_ x f32&gt;) -&gt; &lt;_ x _ x f32&gt; {
- &#39;entry(%x: &lt;_ x _ x f32&gt;, %w: &lt;_ x _ x f32&gt;, %b: &lt;_ x f32&gt;):
-     %0.0 = dot %x: &lt;_ x _ x f32&gt;, %w: &lt;_ x _ x f32&gt;
-     %0.1 = padShape %b: &lt;_ x f32&gt; at 0
-     %0.2 = add %0.0: &lt;_ x _ x f32&gt;, %0.1: &lt;1 x _ x f32&gt;
-     return %0.2: &lt;_ x _ x f32&gt;
+ func @f: (<_ x _ x f32>, <_ x _ x f32>, <_ x f32>) -> <_ x _ x f32> {
+ 'entry(%x: <_ x _ x f32>, %w: <_ x _ x f32>, %b: <_ x f32>):
+     %0.0 = dot %x: <_ x _ x f32>, %w: <_ x _ x f32>
+     %0.1 = padShape %b: <_ x f32> at 0
+     %0.2 = add %0.0: <_ x _ x f32>, %0.1: <1 x _ x f32>
+     return %0.2: <_ x _ x f32>
  }
 
-endColumns
+githubRepo https://github.com/dlvm-team/swift
+ firstCommit 2010
+ stars 0
+ forks 0
+ subscribers 2
+ created 2017
+ updated 2017
+ description The Swift Programming Language
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2010
+ commits 67857
+ committers 769
+ files 14310
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav sketchpad.html power-query-m.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

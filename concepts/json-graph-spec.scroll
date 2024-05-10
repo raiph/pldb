@@ -1,64 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSON Graph Spec
+import ../measures/conceptPage.scroll
+id JSON Graph Spec
+appeared 2013
+type jsonFormat
+creators Byron Ruth
+country United States
+originCommunity https://github.com/bruth/json-graph-spec/issues
 
-title JSON Graph Spec - Json format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="nwscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="claro.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/json-graph-spec.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/bruth/json-graph-spec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=json-graph-spec" class="material-symbols-outlined">edit</a></div>
-
-* JSON Graph Spec is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+jsonFormat">json format</a> created in 2013 by Byron Ruth.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#byronRuth Byron Ruth
-
-codeWithHeader Source code:
- git clone https://github.com/bruth/json-graph-spec
-
-dashboard
- #1314 <span title="TotalRank: 1849 Jobs: 103 Users: 2248 Facts: 760 Links: 986">on PLDB</span>
- 11 Years Old
-
-* JSON specification for representing a graph structure
-
-- JSON Graph Spec is developed on <a href="https://github.com/bruth/json-graph-spec">GitHub</a> and has 10 stars
-- JSON Graph Spec first developed in <a href="../lists/originCommunities.html#httpsGithubComBruthJsonGraphSpecIssues">https://github.com/bruth/json-graph-spec/issues</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-     &quot;nodes&quot;: [{
-         &quot;labels&quot;: [&quot;Origin&quot;],
-         &quot;props&quot;: {
-             &quot;name&quot;: &quot;file.csv&quot;,
-             &quot;uri&quot;: &quot;csv:///path/to/file.csv&quot;
+     "nodes": [{
+         "labels": ["Origin"],
+         "props": {
+             "name": "file.csv",
+             "uri": "csv:///path/to/file.csv"
          },
-         &quot;match&quot;: [&quot;uri&quot;]
+         "match": ["uri"]
      }, {
-         &quot;labels&quot;: [&quot;Element&quot;],
-         &quot;props&quot;: {
-             &quot;name&quot;: &quot;ArtistId&quot;,
-             &quot;uri&quot;: &quot;csv:///path/to/file.csv/ArtistId&quot;
+         "labels": ["Element"],
+         "props": {
+             "name": "ArtistId",
+             "uri": "csv:///path/to/file.csv/ArtistId"
          },
-         &quot;match&quot;: [&quot;uri&quot;]
+         "match": ["uri"]
      }],
-     &quot;rels&quot;: [{
-         &quot;start&quot;: 0,
-         &quot;end&quot;: 1,
-         &quot;type&quot;: &quot;CONTAINS&quot;
+     "rels": [{
+         "start": 0,
+         "end": 1,
+         "type": "CONTAINS"
      }]
  }
 
-endColumns
+githubRepo https://github.com/bruth/json-graph-spec
+ firstCommit 2013
+ stars 10
+ forks 2
+ subscribers 3
+ created 2013
+ updated 2022
+ description JSON specification for representing a graph structure
+ issues 0
 
-keyboardNav nwscript.html claro.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 5
+ committers 1
+ files 3

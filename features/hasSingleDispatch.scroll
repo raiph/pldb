@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasSets.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasSingleTypeArrays.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/common-lisp.html">Common Lisp</a>:
  ; https://eli.thegreenplace.net/2016/a-polyglots-guide-to-multiple-dispatch-part-3/
@@ -30,11 +30,9 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  || x = &quot;str&quot;
  || i = x.find(&quot;t&quot;)
 
-* Languages *with* Single Dispatch include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/cython.html">Cython</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/cooc.html">cooC</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
+* Languages *with* Single Dispatch include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Languages *without* Single Dispatch include <a href="../concepts/progsbase.html">progsbase</a>
-
-* This question asks: Does the method called depended on a single operand?
 
 * Read more about Single Dispatch on the web: 1.
  https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch 1.

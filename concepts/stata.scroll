@@ -1,123 +1,132 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Stata
+import ../measures/conceptPage.scroll
+id Stata
+appeared 1985
+type pl
+creators William Gould
+website https://www.stata.com/
+documentation https://www.stata.com/features/documentation/
+reference http://www.haghish.com/statistics/stata-blog/stata-programming/ssc_stata_package_list.php
+originCommunity StataCorp
+domainName stata.com
+ registered 1994
+ awisRank
+  2022 31269
 
-title Stata - Programming language
- hidden
+hasComments true
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="raml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hcl.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stata.pldb
+wikipedia https://en.wikipedia.org/wiki/Stata
+ example
+  program define fizzbuzz
+  	args x
+  	forvalues i = 1(1)`x' {
+  		if mod(`i',15) == 0 {
+  			display "fizzbuzz"
+  		}
+  		else if mod(`i',5) == 0 {
+  			display "buzz"
+  		}
+  		else if mod(`i',3) == 0 {
+  			display "fizz"
+  		}
+  		else {
+  		display `i'
+  		}
+  	}
+  end
+ related c linux ascii excel-app
+ summary Stata is a general-purpose statistical software package created in 1985 by StataCorp. Most of its users work in research, especially in the fields of economics, sociology, political science, biomedicine and epidemiology. Stata's capabilities include data management, statistical analysis, graphics, simulations, regression, and custom programming. It also has a system to disseminate user-written programs that lets it grow continuously. The name Stata is a syllabic abbreviation of the words statistics and data. The FAQ for the official forum of Stata insists that the correct English pronunciation of Stata "must remain a mystery"; any of "Stay-ta", "Sta-ta" or "Stah-ta" are considered acceptable. There are four major builds of each version of Stata: Stata/MP for multiprocessor computers (including dual-core and multicore processors) Stata/SE for large databases Stata/IC, which is the standard version Numerics by Stata, supports any of the data sizes listed above in an embedded environment Small Stata, which was the smaller, student version for educational purchase only is no longer available.
+ pageId 1809002
+ dailyPageViews 319
+ created 2005
+ backlinksCount 246
+ revisionCount 370
+ appeared 1985
 
-startColumns 4
+githubLanguage Stata
+ fileExtensions do ado doh ihlp mata matah sthlp
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.stata
+ repos 8344
+githubBigQuery Stata
+ repos 1032
+ users 867
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.stata.com/" class="material-symbols-outlined">home</a> <a href="https://www.stata.com/features/documentation/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Stata"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/stata"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=stata" class="material-symbols-outlined">edit</a></div>
+pygmentsHighlighter Stata
+ filename stata.py
+ fileExtensions do ado
+linguistGrammarRepo https://github.com/pschumm/Stata.tmbundle
+ firstCommit 2009
+ lastCommit 2015
+ committerCount 3
+ commitCount 44
+ sampleCount 7
+ example
+  local MAXDIM   800
+  
 
-* Stata is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985 by William Gould.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#williamGould William Gould
-
-dashboard
- #241 <span title="TotalRank: 612 Jobs: 103 Users: 297 Facts: 212 Links: 326">on PLDB</span>
- 39 Years Old
- 8k <span title="Stata repos on GitHub.">Repos</span>
-
-* Stata is a general-purpose statistical software package created in 1985 by StataCorp. Most of its users work in research, especially in the fields of economics, sociology, political science, biomedicine and epidemiology. Stata's capabilities include data management, statistical analysis, graphics, simulations, regression, and custom programming. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Stata Read more on Wikipedia...
-
-- Stata website
- https://www.stata.com/
-- Stata Wikipedia page
- https://en.wikipedia.org/wiki/Stata
-- Stata docs
- https://www.stata.com/features/documentation/
-- There are at least 8,344 Stata repos on <a href="https://github.com/search?q=language:Stata">GitHub</a>
-- Stata first developed in <a href="../lists/originCommunities.html#stataCorp">StataCorp</a>
-- file extensions for Stata include do, ado, doh, ihlp, mata, matah and sthlp
-- Stata on Twitter
- https://twitter.com/stata
-- The  Google BigQuery Public Dataset GitHub snapshot shows 867 users using Stata in 1k repos on <a href="https://api.github.com/search/repositories?q=language:Stata">GitHub</a>
-- There are 16 <a href="https://projecteuler.net/language=Stata">Project Euler</a> users using Stata
-- Explore Stata snippets on <a href="http://www.rosettacode.org/wiki/Category:Stata">Rosetta Code</a>
-- Stata appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/stata.py">syntax highlighting</a> for Stata
-- GitHub supports <a href="https://github.com/pschumm/Stata.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Stata
-- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Stata: <a href="https://github.com/TiesdeKok/ipystata">github.com</a>, <a href="https://github.com/kylebarron/stata_kernel">github.com</a>
-- There is a <a href="https://www.stata.com/manuals/rssc.pdf">central package repository</a> for Stata
-- <a href="https://www.stata.com/">stata.com</a> was registered in 1994
-- See also: (4 related languages)<a href="c.html">C</a>, <a href="linux.html">Linux</a>, <a href="ascii.html">ASCII</a>, <a href="excel-app.html">Microsoft Excel</a>
-- Read more about Stata on the web: 1.
- http://www.haghish.com/statistics/stata-blog/stata-programming/ssc_stata_package_list.php 1.
-
-<br>
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Stata'>the Hello World Collection</a>:
+projectEuler Stata
+ memberCount
+  2019 14
+  2022 16
+helloWorldCollection Stata
  /* Hello world in Stata */
  
   .program hello
-   1. display &quot;Hello, World!&quot;
+   1. display "Hello, World!"
    2. end
  .hello
  
+rosettaCode http://www.rosettacode.org/wiki/Category:Stata
 
-codeWithHeader Example from <a href='https://github.com/pschumm/Stata.tmbundle'>Linguist</a>:
- local MAXDIM   800
- 
+tiobe Stata
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Stata'>Wikipedia</a>:
- program define fizzbuzz
- 	args x
- 	forvalues i = 1(1)`x&#39; {
- 		if mod(`i&#39;,15) == 0 {
- 			display &quot;fizzbuzz&quot;
- 		}
- 		else if mod(`i&#39;,5) == 0 {
- 			display &quot;buzz&quot;
- 		}
- 		else if mod(`i&#39;,3) == 0 {
- 			display &quot;fizz&quot;
- 		}
- 		else {
- 		display `i&#39;
- 		}
- 	}
- end
+packageRepository https://www.stata.com/manuals/rssc.pdf
 
-endColumns
+twitter https://twitter.com/stata
+jupyterKernel https://github.com/TiesdeKok/ipystata
+jupyterKernel https://github.com/kylebarron/stata_kernel
+fileType text
+isOpenSource false
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 21
+ year|publisher|title|authors|isbn13
+ 2009|Stata Press|Microeconometrics Using Stata|A. Colin Cameron and Pravin K Trivedi|9781597180481
+ 2009|Stata Press|An Introduction to Stata Programming|Baum, Christopher F.|9781597180450
+ 2005|Association For Computing Machinery|ICS05: proceedings of the 19th ACM International Conference on Supercomputing : June 20-22, 2005, (workshop tutorials-June 19th), the Cambridge Marriot (Kendall Square) and the Stata Center (MIT), Cambridge, Massachusetts, 02139, USA|International Conference On Supercomputing (19th : 2005 : Cambridge, Mass.)|9781595931672
+ 2015|Stata Press|An Introduction to Stata Programming, Second Edition|Baum, Christopher F.|9781597181501
+ 2006|Stata Press|An Introduction to Modern Econometrics Using Stata|Baum, Christopher F.|9781597180139
+ 2019|Springer|Econometrics in Theory and Practice: Analysis of Cross Section, Time Series and Panel Data with Stata 15.1|Das, Panchanan|9789813290198
+ 2015|Packt Publishing|Data Analysis with Stata|Kothari, Prasad|9781782173175
+ 2021|Princeton University Press|Quantitative Social Science: An Introduction in Stata|Imai, Kosuke and Bougher, Lori D.|9780691191294
+ 2021|Princeton University Press|Quantitative Social Science: An Introduction in Stata|Bougher, Lori D. and Imai, Kosuke|9780691191096
+ 2005T|STATA PRESS|Programming Stata 9 (STATA RELEASE 9)|STATA|9781597180009
+ 2011-06-01T00:00:01Z|Statacorp Lp|STATA Programming Reference Manual: Release 12|Statacorp Lp|9781597180917
+ 2021|Stata Press|STATA PROGRAMMING REFERENCE MANUAL Release 11|Stata Corporation|9781597180603
+ 20160919|Cambridge University Press|Statistics Using Stata|Sharon Lawner Weinberg; Sarah Knapp Abramowitz|9781316678978
+ 20160919|Cambridge University Press|Statistics Using Stata|Sharon Lawner Weinberg; Sarah Knapp Abramowitz|9781316680162
+ 20200227|Cambridge University Press|Statistics Using Stata|Sharon Lawner Weinberg; Sarah Knapp Abramowitz|9781108808682
+ 28-10-2015|Packt Publishing|Data Analysis with Stata|Prasad Kothari|9781782173182
+ 2001|Stata Press 2001-12-01|Stata Programming Manual: Release 7|Stata Press|9781881228523
+ ||An Introduction To Stata Programming|Oleg Ishutin|9781680941128
+ 2013|Stata Press|Discovering Structural Equation Modeling Using Stata|Alan C. Acock|9781597181334
+ 20160324|Taylor & Francis|Biostatistics in Public Health Using STATA|Erick L. Suárez; Cynthia M. Pérez; Graciela M. Nogueras; Camille Moreno-Gorrín|9781498722025
+ 2007|N/a|Title: Stata Mata Matrix Programming [m] 4-6|Stata Press|9781597180368
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav raml.html hcl.html
-
-import ../footer.scroll
+semanticScholar 5
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2019|Estimation of pre- and posttreatment average treatment effects with binary time-varying treatment using Stata|10.1177/1536867X19874224|23|2|G. Cerulli and Marco Ventura|2d2d96bec07c2c2a634d0cd2dd3f0c1413ba52fd
+ 2016|Markdoc: Literate Programming in Stata|10.1177/1536867X1601600409|9|0|E. F. Haghish|4cbaa4d80f1d00c433108a3796bde332899e783c
+ 2019|Seamless interactive language interfacing between R and Stata|10.1177/1536867X19830891|6|1|E. F. Haghish|c8141f9a90a0ca4bed665ac09964ab0367a9b366
+ 2017|An Introduction to Stata Programming (2nd Edition)|10.18637/JSS.V077.B03|4|0|O. Kirchkamp and H. Niggemann|4c047914591d95b0ee1f48c4f7ed44ff3902524b
+ 2010|Mata Matters: Stata in Mata|10.1177/1536867X1001000111|1|0|W. Gould|d6607a2dca41c0544affecf51c7f2dd6775f68c3

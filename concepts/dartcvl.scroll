@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DartCVL
+import ../measures/conceptPage.scroll
+id DartCVL
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/457813ea039d6085ef591679bdca0f83c24f89fd
+country United States
+originCommunity Dartmouth College
 
-title DartCVL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3606
 
-html
- <a class="trueBaseThemePreviousItem" href="dap-algol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="data-text.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dartcvl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dartcvl" class="material-symbols-outlined">edit</a></div>
-
-* DartCVL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3614 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- DartCVL first developed in <a href="../lists/originCommunities.html#dartmouthCollege">Dartmouth College</a>
-- DartCVL on HOPL
- https://hopl.info/showlanguage.prx?exp=3606
-- Read more about DartCVL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/457813ea039d6085ef591679bdca0f83c24f89fd 1.
-
-<br>
-
-endColumns
-
-keyboardNav dap-algol.html data-text.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

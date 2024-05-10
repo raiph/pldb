@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OMAR
+import ../measures/conceptPage.scroll
+id OMAR
+appeared 1999
+type pl
+conceptDescription Hypercosm produced a specialized programming language called OMAR (Object Modelling And Rendering) suitable for describing 3-D content. Hypercosm made available a web browser plugin for displaying this 3-D content. Unlike many other plugins, the Hypercosm plugin was available for Windows, MacOS, and Linux systems.
+reference http://www.highprogrammer.com/alan/hypercosm/
+standsFor Object Modelling And Rendering
+country United States
+originCommunity University of Wisconsin
 
-title OMAR - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="olog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="one-man-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/omar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=omar" class="material-symbols-outlined">edit</a></div>
-
-* OMAR, aka Object Modelling And Rendering, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #4239 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 25 Years Old
-
-* Hypercosm produced a specialized programming language called OMAR (Object Modelling And Rendering) suitable for describing 3-D content. Hypercosm made available a web browser plugin for displaying this 3-D content. Unlike many other plugins, the Hypercosm plugin was available for Windows, MacOS, and Linux systems.
-
-- OMAR first developed in <a href="../lists/originCommunities.html#universityOfWisconsin">University of Wisconsin</a>
-- Read more about OMAR on the web: 1.
- http://www.highprogrammer.com/alan/hypercosm/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav olog.html one-man-language.html
-
-import ../footer.scroll
+isbndb 0

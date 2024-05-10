@@ -1,81 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lispyscript
+import ../measures/conceptPage.scroll
+id lispyscript
+appeared 2012
+type pl
+creators Santosh Rajan
+conceptDescription A javascript With Lispy Syntax And Macros!
+website http://lispyscript.com
+reference http://web.archive.org/web/20180123072250/http://lispyscript.com/
+country India
+originCommunity https://github.com/santoshrajan/lispyscript/issues
+domainName lispyscript.com
+ registered 2021
 
-title lispyscript - Programming language
- hidden
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="masm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="earl-grey.html">&gt;</a>
+lineCommentToken ;
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lispyscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://lispyscript.com" class="material-symbols-outlined">home</a> <a href="https://github.com/santoshrajan/lispyscript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lispyscript" class="material-symbols-outlined">edit</a></div>
-
-* lispyscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Santosh Rajan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#santoshRajan Santosh Rajan
-
-codeWithHeader Source code:
- git clone https://github.com/santoshrajan/lispyscript
-
-dashboard
- #963 <span title="TotalRank: 1528 Jobs: 103 Users: 645 Facts: 780 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A javascript With Lispy Syntax And Macros!
-
-- lispyscript website
- http://lispyscript.com
-- lispyscript is developed on <a href="https://github.com/santoshrajan/lispyscript">GitHub</a> and has 565 stars
-- lispyscript first developed in <a href="../lists/originCommunities.html#httpsGithubComSantoshrajanLispyscriptIssues">https://github.com/santoshrajan/lispyscript/issues</a>
-- <a href="http://lispyscript.com">lispyscript.com</a> was registered in 2021
-- Read more about lispyscript on the web: 1.
- http://web.archive.org/web/20180123072250/http://lispyscript.com/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
- ;; test with and without the &quot;./&quot;
- ;;(var k (require &quot;square.ls&quot;))
- ;;(var k (require &quot;./square.ls&quot;))
+example
+ ;; test with and without the "./"
+ ;;(var k (require "square.ls"))
+ ;;(var k (require "./square.ls"))
  ;; or test .ls files requiring .js files:
- ;;(var k (require &quot;square.js&quot;))
- ;;(var k (require &quot;./square.js&quot;))
+ ;;(var k (require "square.js"))
+ ;;(var k (require "./square.js"))
  ;; or test omitting .ls extensions:
- (var k (require &quot;square&quot;))
- ;;(var k (require &quot;./square&quot;))
+ (var k (require "square"))
+ ;;(var k (require "./square"))
  (console.log (k 10))
 
-endColumns
+githubRepo https://github.com/santoshrajan/lispyscript
+ firstCommit 2012
+ stars 565
+ forks 63
+ subscribers 38
+ created 2012
+ updated 2022
+ description A javascript with Lispy syntax and macros
+ issues 18
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav masm.html earl-grey.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 271
+ committers 7
+ files 439

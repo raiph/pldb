@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JMSL
+import ../measures/conceptPage.scroll
+id JMSL
+appeared 1986
+type pl
+reference http://www.algomusic.com/jmsl/jmslhome.html
+country United States
+originCommunity Rockefeller University
 
-title JMSL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6395
 
-html
- <a class="trueBaseThemePreviousItem" href="jfugue.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="joss-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jmsl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=jmsl" class="material-symbols-outlined">edit</a></div>
-
-* JMSL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3752 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- JMSL first developed in <a href="../lists/originCommunities.html#rockefellerUniversity">Rockefeller University</a>
-- JMSL on HOPL
- https://hopl.info/showlanguage.prx?exp=6395
-- Read more about JMSL on the web: 1.
- http://www.algomusic.com/jmsl/jmslhome.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav jfugue.html joss-ii.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

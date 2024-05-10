@@ -1,56 +1,33 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Aime
+import ../measures/conceptPage.scroll
+id Aime
+appeared 2013
+type pl
+creators Ciprian Niculescu
+conceptDescription aime is an imperative procedural programming language, with a C inspired syntax.
+website https://aime-embedded.sourceforge.net/
+country Unknown
+originCommunity https://sourceforge.net/projects/aime-embedded/
 
-title Aime - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="maraca-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fizz.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aime.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://aime-embedded.sourceforge.net/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=aime" class="material-symbols-outlined">edit</a></div>
-
-* Aime is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by Ciprian Niculescu.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#ciprianNiculescu Ciprian Niculescu
-
-dashboard
- #1521 <span title="TotalRank: 2033 Jobs: 103 Users: 2442 Facts: 944 Links: 986">on PLDB</span>
- 11 Years Old
-
-* aime is an imperative procedural programming language, with a C inspired syntax.
-
-- Aime website
- https://aime-embedded.sourceforge.net/
-- Aime first developed in <a href="../lists/originCommunities.html#httpsSourceforgeNetProjectsAimeEmbedded">https://sourceforge.net/projects/aime-embedded/</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  integer
  median3(integer a, integer b, integer c)
  {
      integer m;
-     if (a &lt; b) {
-         if (b &lt; c) {
+     if (a < b) {
+         if (b < c) {
              m = b;
          } else {
-             if (a &lt; c) {
+             if (a < c) {
                  m = c;
              } else {
                  m = a;
              }
          }
      } else {
-         if (a &lt; c) {
+         if (a < c) {
              m = a;
          } else {
-             if (b &lt; c) {
+             if (b < c) {
                  m = c;
              } else {
                  m = b;
@@ -59,9 +36,3 @@ codeWithHeader Example from the web:
      }
      return m;
  }
-
-endColumns
-
-keyboardNav maraca-lang.html fizz.html
-
-import ../footer.scroll

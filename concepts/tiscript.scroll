@@ -1,47 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TIScript
+import ../measures/conceptPage.scroll
+id TIScript
+appeared 2007
+type pl
+creators Andrew Fedoniouk
+website https://sciter.com/developers/for-web-programmers/tiscript-vs-javascript/
+country Canada
+originCommunity Terra Informatica Software
 
-title TIScript - Programming language
- hidden
+keywords catch class const else false finally for function get if in instanceof namespace new null property return set super this throw true try typeof undefined var
 
-html
- <a class="trueBaseThemePreviousItem" href="ssharp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="linotte.html">&gt;</a>
+githubRepo https://github.com/c-smile/sciter-sdk
+ stars 1900
+ forks 216
+ subscribers 79
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tiscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sciter.com/developers/for-web-programmers/tiscript-vs-javascript/" class="material-symbols-outlined">home</a> <a href="https://github.com/c-smile/sciter-sdk" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tiscript" class="material-symbols-outlined">edit</a></div>
-
-* TIScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007 by Andrew Fedoniouk.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
- link ../lists/creators.html#andrewFedoniouk Andrew Fedoniouk
-
-codeWithHeader Source code:
- git clone https://github.com/c-smile/sciter-sdk
-
-dashboard
- #837 <span title="TotalRank: 1400 Jobs: 103 Users: 311 Facts: 2067 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- TIScript website
- https://sciter.com/developers/for-web-programmers/tiscript-vs-javascript/
-- TIScript is developed on <a href="https://github.com/c-smile/sciter-sdk">GitHub</a> and has 1,900 stars
-- TIScript first developed in <a href="../lists/originCommunities.html#terraInformaticaSoftware">Terra Informatica Software</a>
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader TIScript <a href="../lists/keywords.html?filter=tiscript">Keywords</a>
- catch class const else false finally for function get if in instanceof namespace new null property return set super this throw true try typeof undefined var
-</div>
-
-endColumns
-
-keyboardNav ssharp.html linotte.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 547
+ committers 14
+ files 2525

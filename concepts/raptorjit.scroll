@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title raptorjit
+import ../measures/conceptPage.scroll
+id raptorjit
+appeared 2009
+type pl
+creators Mike Pall
+country Unknown
+originCommunity https://github.com/raptorjit
 
-title raptorjit - Programming language
- hidden
+githubRepo https://github.com/raptorjit/raptorjit
+ firstCommit 2009
+ stars 789
+ forks 34
+ subscribers 64
+ created 2017
+ updated 2022
+ description RaptorJIT: A dynamic language for system programming (LuaJIT fork)
+ issues 127
 
-html
- <a class="trueBaseThemePreviousItem" href="noisecraft.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="marp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/raptorjit.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/raptorjit/raptorjit" class="material-symbols-outlined">code</a> <a href="/edit.html?id=raptorjit" class="material-symbols-outlined">edit</a></div>
-
-* raptorjit is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Mike Pall.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#mikePall Mike Pall
-
-codeWithHeader Source code:
- git clone https://github.com/raptorjit/raptorjit
-
-dashboard
- #1125 <span title="TotalRank: 1681 Jobs: 103 Users: 592 Facts: 1787 Links: 986">on PLDB</span>
- 15 Years Old
-
-* RaptorJIT: A dynamic language for system programming (LuaJIT fork)
-
-- raptorjit is developed on <a href="https://github.com/raptorjit/raptorjit">GitHub</a> and has 789 stars
-- raptorjit first developed in <a href="../lists/originCommunities.html#httpsGithubComRaptorjit">https://github.com/raptorjit</a>
-
-<br>
-
-endColumns
-
-keyboardNav noisecraft.html marp.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2009
+ commits 2698
+ committers 19
+ files 437

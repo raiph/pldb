@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Holo
+import ../measures/conceptPage.scroll
+id Holo
+appeared 2001
+type pl
+reference https://semanticscholar.org/paper/920cd4017069890fb43b9667f797724b039acace
+country United States and Brazil
+originCommunity Catholic University of Pelotas && University of Santa Maria && La Salle University && Federal University of Rio Grande do Sul
 
-title Holo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6627
 
-html
- <a class="trueBaseThemePreviousItem" href="hi-visual.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hoot-smalltalk.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/holo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=holo" class="material-symbols-outlined">edit</a></div>
-
-* Holo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #4164 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- Holo first developed in <a href="../lists/originCommunities.html#catholicUniversityOfPelotas">Catholic University of Pelotas</a> and <a href="../lists/originCommunities.html#universityOfSantaMaria">University of Santa Maria</a> and <a href="../lists/originCommunities.html#laSalleUniversity">La Salle University</a> and <a href="../lists/originCommunities.html#federalUniversityOfRioGrandeDoSul">Federal University of Rio Grande do Sul</a>
-- Holo on HOPL
- https://hopl.info/showlanguage.prx?exp=6627
-- Read more about Holo on Semantic Scholar: 1.
- https://semanticscholar.org/paper/920cd4017069890fb43b9667f797724b039acace 1.
-
-<br>
-
-endColumns
-
-keyboardNav hi-visual.html hoot-smalltalk.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,197 +1,177 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fuzzy Markup Language
+import ../measures/conceptPage.scroll
+id Fuzzy Markup Language
+appeared 2004
+type xmlFormat
+standsFor Fuzzy Markup Language
+country Italy
+originCommunity University of Salerno
 
-title Fuzzy Markup Language - Xml format
- hidden
+wikipedia https://en.wikipedia.org/wiki/Fuzzy_markup_language
+ example
+  <?xml version="1.0" encoding="UTF-8"?>
+  <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">	
+    ........
+  	<xs:complexType name="KnowledgeBaseType">
+  		<xs:sequence>
+  		   <xs:choice minOccurs="0" maxOccurs="unbounded">
+  			   <xs:element name="FuzzyVariable" type="FuzzyVariableType"/>
+  			   <xs:element name="TSKVariable" type="TSKVariableType"/>
+  			 </xs:choice>	
+  		</xs:sequence>
+  	</xs:complexType>
+  	<xs:complexType name="FuzzyVariableType">
+  		<xs:sequence>
+  			<xs:element name="FuzzyTerm" type="FuzzyTermType" maxOccurs="unbounded"/>
+  		</xs:sequence>
+  		<xs:attribute name="name" type="xs:string" use="required"/>
+  		<xs:attribute name="defuzzifier" default="COG">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern value="MM|COG|COA|WA|Custom"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  		<xs:attribute name="accumulation" default="MAX">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern value="MAX|SUM"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  		<xs:attribute name="scale" type="xs:string" />
+  		<xs:attribute name="domainleft" type="xs:float"  use="required"/>
+  		<xs:attribute name="domainright" type="xs:float" use="required"/>
+  		<xs:attribute name="defaultValue" type="xs:float" default="0"/>
+  		<xs:attribute name="type"  default="input">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern value="input|output"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  	</xs:complexType>
+  	<xs:complexType name="FuzzyTermType">
+  		<xs:choice>
+  			<xs:element name="RightLinearShape" type="TwoParamType"/>
+  			<xs:element name="LeftLinearShape" type="TwoParamType"/>
+  			<xs:element name="PIShape" type="TwoParamType"/>
+  			<xs:element name="TriangularShape" type="ThreeParamType"/>
+  			<xs:element name="GaussianShape" type="TwoParamType"/>
+  			<xs:element name="RightGaussianShape" type="TwoParamType"/>
+  			<xs:element name="LeftGaussianShape" type="TwoParamType"/>
+  			<xs:element name="TrapezoidShape" type="FourParamType"/>
+  			<xs:element name="SingletonShape" type="OneParamType"/>
+  			<xs:element name="RectangularShape" type="TwoParamType"/>
+  			<xs:element name="ZShape" type="TwoParamType"/>
+  			<xs:element name="SShape" type="TwoParamType"/>
+  			<xs:element name="UserShape" type="UserShapeType"/>
+  		</xs:choice>
+          <xs:complexType name="TwoParamType">
+  		<xs:attribute name="Param1" type="xs:float" use="required"/>
+  		<xs:attribute name="Param2" type="xs:float" use="required"/>
+  	</xs:complexType>
+  	<xs:complexType name="ThreeParamType">
+  		<xs:attribute name="Param1" type="xs:float" use="required"/>
+  		<xs:attribute name="Param2" type="xs:float" use="required"/>
+  		<xs:attribute name="Param3" type="xs:float" use="required"/>
+  	</xs:complexType>
+  	<xs:complexType name="FourParamType">
+  		<xs:attribute name="Param1" type="xs:float" use="required"/>
+  		<xs:attribute name="Param2" type="xs:float" use="required"/>
+  		<xs:attribute name="Param3" type="xs:float" use="required"/>
+  		<xs:attribute name="Param4" type="xs:float" use="required"/>
+  	</xs:complexType>
+  	<xs:complexType name="UserShapeType">
+  		<xs:sequence>
+  			<xs:element name="Point" type="PointType" minOccurs="2" maxOccurs="unbounded"/>
+  		</xs:sequence>
+  	</xs:complexType>
+  	<xs:complexType name="PointType">
+  		<xs:attribute name="x" type="xs:float" use="required"/>
+  		<xs:attribute name="y" type="xs:float" use="required"/>
+  	</xs:complexType>
+  	<xs:complexType name="RuleBaseType">
+  		<xs:attribute name="name" type="xs:string" use="required"/>
+  		<xs:attribute name="activationMethod" default="MIN">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern value="PROD|MIN"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  		<xs:attribute name="andMethod" default="MIN">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern value="PROD|MIN"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  		<xs:attribute name="orMethod" default="MAX">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern value="PROBOR|MAX"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  		<xs:attribute name="type" use="required">
+  			<xs:simpleType>
+  					<xs:restriction base="xs:string">
+  						<xs:pattern value="TSK|Tsk|tsk|Mamdani|mamdani"/>
+  					</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  	</xs:complexType>
+  	<xs:complexType name="MamdaniRuleBaseType">
+  		<xs:complexContent>
+       		<xs:extension base="RuleBaseType">
+  				<xs:sequence>
+  					<xs:element name="Rule" type="MamdaniFuzzyRuleType" minOccurs="0" maxOccurs="unbounded"/>
+  				</xs:sequence>
+  			</xs:extension>
+  		</xs:complexContent>
+  	</xs:complexType>
+  	<xs:complexType name="AntecedentType">
+  		<xs:sequence>
+  			<xs:element name="Clause" type="ClauseType" maxOccurs="unbounded"/>
+  		</xs:sequence>
+  	</xs:complexType>
+  	<xs:complexType name="MamdaniConsequentType">
+  		<xs:sequence>
+  			<xs:element name="Clause" type="ClauseType" maxOccurs="unbounded"/>
+  		</xs:sequence>
+  	</xs:complexType>
+  	<xs:complexType name="ClauseType">
+  		<xs:sequence>
+  			<xs:element name="Variable">
+  				<xs:simpleType>
+  					<xs:restriction base="xs:string">
+  						<xs:whiteSpace value="collapse"/>
+  						<xs:pattern value="(([A-Z])|([a-z]))+([A-Z]|[a-z]|[0-9])*"/>
+  					</xs:restriction>
+  				</xs:simpleType>
+  			</xs:element>
+  			<xs:element name="Term" type="xs:string">
+  			</xs:element>
+  		</xs:sequence>
+  		<xs:attribute name="modifier" use="optional">
+  			<xs:simpleType>
+  				<xs:restriction base="xs:string">
+  					<xs:pattern     
+                                              value="above|below|extremely|intensify|more_or_less|norm|not|plus|slightly|somewhat|very"/>
+  				</xs:restriction>
+  			</xs:simpleType>
+  		</xs:attribute>
+  	</xs:complexType>
+  	..........
+  </xs:schema>
+ related xml
+ summary Fuzzy Markup Language (FML) is a specific purpose markup language based on XML, used for describing the structure and behavior of a fuzzy system independently of the hardware architecture devoted to host and run it.
+ pageId 35890194
+ dailyPageViews 13
+ created 2012
+ backlinksCount 18
+ revisionCount 63
+ appeared 2004
 
-html
- <a class="trueBaseThemePreviousItem" href="xetex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="s3.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Fuzzy_markup_language"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=fml" class="material-symbols-outlined">edit</a></div>
-
-* Fuzzy Markup Language, aka Fuzzy Markup Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #625 <span title="TotalRank: 1200 Jobs: 103 Users: 1550 Facts: 111 Links: 986">on PLDB</span>
- 20 Years Old
-
-* Fuzzy Markup Language (FML) is a specific purpose markup language based on XML, used for describing the structure and behavior of a fuzzy system independently of the hardware architecture devoted to host and run it.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Fuzzy_markup_language Read more on Wikipedia...
-
-- Fuzzy Markup Language Wikipedia page
- https://en.wikipedia.org/wiki/Fuzzy_markup_language
-- Fuzzy Markup Language first developed in <a href="../lists/originCommunities.html#universityOfSalerno">University of Salerno</a>
-- See also: (1 related languages)<a href="xml.html">XML</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Fuzzy_markup_language'>Wikipedia</a>:
- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
- &lt;xs:schema xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;	
-   ........
- 	&lt;xs:complexType name=&quot;KnowledgeBaseType&quot;&gt;
- 		&lt;xs:sequence&gt;
- 		   &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;
- 			   &lt;xs:element name=&quot;FuzzyVariable&quot; type=&quot;FuzzyVariableType&quot;/&gt;
- 			   &lt;xs:element name=&quot;TSKVariable&quot; type=&quot;TSKVariableType&quot;/&gt;
- 			 &lt;/xs:choice&gt;	
- 		&lt;/xs:sequence&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;FuzzyVariableType&quot;&gt;
- 		&lt;xs:sequence&gt;
- 			&lt;xs:element name=&quot;FuzzyTerm&quot; type=&quot;FuzzyTermType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
- 		&lt;/xs:sequence&gt;
- 		&lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;defuzzifier&quot; default=&quot;COG&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern value=&quot;MM|COG|COA|WA|Custom&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 		&lt;xs:attribute name=&quot;accumulation&quot; default=&quot;MAX&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern value=&quot;MAX|SUM&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 		&lt;xs:attribute name=&quot;scale&quot; type=&quot;xs:string&quot; /&gt;
- 		&lt;xs:attribute name=&quot;domainleft&quot; type=&quot;xs:float&quot;  use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;domainright&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;defaultValue&quot; type=&quot;xs:float&quot; default=&quot;0&quot;/&gt;
- 		&lt;xs:attribute name=&quot;type&quot;  default=&quot;input&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern value=&quot;input|output&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;FuzzyTermType&quot;&gt;
- 		&lt;xs:choice&gt;
- 			&lt;xs:element name=&quot;RightLinearShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;LeftLinearShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;PIShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;TriangularShape&quot; type=&quot;ThreeParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;GaussianShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;RightGaussianShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;LeftGaussianShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;TrapezoidShape&quot; type=&quot;FourParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;SingletonShape&quot; type=&quot;OneParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;RectangularShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;ZShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;SShape&quot; type=&quot;TwoParamType&quot;/&gt;
- 			&lt;xs:element name=&quot;UserShape&quot; type=&quot;UserShapeType&quot;/&gt;
- 		&lt;/xs:choice&gt;
-         &lt;xs:complexType name=&quot;TwoParamType&quot;&gt;
- 		&lt;xs:attribute name=&quot;Param1&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;Param2&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;ThreeParamType&quot;&gt;
- 		&lt;xs:attribute name=&quot;Param1&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;Param2&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;Param3&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;FourParamType&quot;&gt;
- 		&lt;xs:attribute name=&quot;Param1&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;Param2&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;Param3&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;Param4&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;UserShapeType&quot;&gt;
- 		&lt;xs:sequence&gt;
- 			&lt;xs:element name=&quot;Point&quot; type=&quot;PointType&quot; minOccurs=&quot;2&quot; maxOccurs=&quot;unbounded&quot;/&gt;
- 		&lt;/xs:sequence&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;PointType&quot;&gt;
- 		&lt;xs:attribute name=&quot;x&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;y&quot; type=&quot;xs:float&quot; use=&quot;required&quot;/&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;RuleBaseType&quot;&gt;
- 		&lt;xs:attribute name=&quot;name&quot; type=&quot;xs:string&quot; use=&quot;required&quot;/&gt;
- 		&lt;xs:attribute name=&quot;activationMethod&quot; default=&quot;MIN&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern value=&quot;PROD|MIN&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 		&lt;xs:attribute name=&quot;andMethod&quot; default=&quot;MIN&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern value=&quot;PROD|MIN&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 		&lt;xs:attribute name=&quot;orMethod&quot; default=&quot;MAX&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern value=&quot;PROBOR|MAX&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 		&lt;xs:attribute name=&quot;type&quot; use=&quot;required&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 					&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 						&lt;xs:pattern value=&quot;TSK|Tsk|tsk|Mamdani|mamdani&quot;/&gt;
- 					&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;MamdaniRuleBaseType&quot;&gt;
- 		&lt;xs:complexContent&gt;
-      		&lt;xs:extension base=&quot;RuleBaseType&quot;&gt;
- 				&lt;xs:sequence&gt;
- 					&lt;xs:element name=&quot;Rule&quot; type=&quot;MamdaniFuzzyRuleType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&gt;
- 				&lt;/xs:sequence&gt;
- 			&lt;/xs:extension&gt;
- 		&lt;/xs:complexContent&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;AntecedentType&quot;&gt;
- 		&lt;xs:sequence&gt;
- 			&lt;xs:element name=&quot;Clause&quot; type=&quot;ClauseType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
- 		&lt;/xs:sequence&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;MamdaniConsequentType&quot;&gt;
- 		&lt;xs:sequence&gt;
- 			&lt;xs:element name=&quot;Clause&quot; type=&quot;ClauseType&quot; maxOccurs=&quot;unbounded&quot;/&gt;
- 		&lt;/xs:sequence&gt;
- 	&lt;/xs:complexType&gt;
- 	&lt;xs:complexType name=&quot;ClauseType&quot;&gt;
- 		&lt;xs:sequence&gt;
- 			&lt;xs:element name=&quot;Variable&quot;&gt;
- 				&lt;xs:simpleType&gt;
- 					&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 						&lt;xs:whiteSpace value=&quot;collapse&quot;/&gt;
- 						&lt;xs:pattern value=&quot;(([A-Z])|([a-z]))+([A-Z]|[a-z]|[0-9])*&quot;/&gt;
- 					&lt;/xs:restriction&gt;
- 				&lt;/xs:simpleType&gt;
- 			&lt;/xs:element&gt;
- 			&lt;xs:element name=&quot;Term&quot; type=&quot;xs:string&quot;&gt;
- 			&lt;/xs:element&gt;
- 		&lt;/xs:sequence&gt;
- 		&lt;xs:attribute name=&quot;modifier&quot; use=&quot;optional&quot;&gt;
- 			&lt;xs:simpleType&gt;
- 				&lt;xs:restriction base=&quot;xs:string&quot;&gt;
- 					&lt;xs:pattern     
-                                             value=&quot;above|below|extremely|intensify|more_or_less|norm|not|plus|slightly|somewhat|very&quot;/&gt;
- 				&lt;/xs:restriction&gt;
- 			&lt;/xs:simpleType&gt;
- 		&lt;/xs:attribute&gt;
- 	&lt;/xs:complexType&gt;
- 	..........
- &lt;/xs:schema&gt;
-
-endColumns
-
-keyboardNav xetex.html s3.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

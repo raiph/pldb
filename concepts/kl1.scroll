@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KL1
+import ../measures/conceptPage.scroll
+id KL1
+appeared 1988
+type pl
+reference https://www.researchgate.net/publication/220993099_Operating_System_PIMOS_and_Kernel_Language_KL1
+country Japan
+originCommunity The University of Tokyo
 
-title KL1 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1562
 
-html
- <a class="trueBaseThemePreviousItem" href="kiss.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="klaim.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kl1.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=kl1" class="material-symbols-outlined">edit</a></div>
-
-* KL1 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4188 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- KL1 first developed in <a href="../lists/originCommunities.html#theUniversityOfTokyo">The University of Tokyo</a>
-- KL1 on HOPL
- https://hopl.info/showlanguage.prx?exp=1562
-- Read more about KL1 on the web: 1.
- https://www.researchgate.net/publication/220993099_Operating_System_PIMOS_and_Kernel_Language_KL1 1.
-
-<br>
-
-endColumns
-
-keyboardNav kiss.html klaim.html
-
-import ../footer.scroll
+semanticScholar https://semanticscholar.org/paper/fbe490896459feb67342114b16debbdf4f61f0d5

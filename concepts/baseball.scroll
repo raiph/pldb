@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BASEBALL
+import ../measures/conceptPage.scroll
+id BASEBALL
+appeared 1961
+type pl
+reference https://semanticscholar.org/paper/89d025804988944d6fa4e95f49bff011b33d1418
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title BASEBALL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2797
 
-html
- <a class="trueBaseThemePreviousItem" href="barrel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="basel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/baseball.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=baseball" class="material-symbols-outlined">edit</a></div>
-
-* BASEBALL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1961.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1961 1961
-
-dashboard
- #4081 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 63 Years Old
-
-* 
-
-- BASEBALL first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- BASEBALL on HOPL
- https://hopl.info/showlanguage.prx?exp=2797
-- Read more about BASEBALL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/89d025804988944d6fa4e95f49bff011b33d1418 1.
-
-<br>
-
-endColumns
-
-keyboardNav barrel.html basel.html
-
-import ../footer.scroll
+wordRank 2295
+centralPackageRepositoryCount 0

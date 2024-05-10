@@ -1,114 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sophia
+import ../measures/conceptPage.scroll
+id Sophia
+appeared 2018
+type contractLanguage
+creators Robert Virding
+website https://aeternity.com/aesophia
+country Liechtenstein
+originCommunity https://github.com/aeternity
 
-title Sophia - Contract language
- hidden
+relatedConcepts solidity
 
-html
- <a class="trueBaseThemePreviousItem" href="zenscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cor.html">&gt;</a>
+hasStrings true
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ // A comment
+hasBooleans true
+hasExceptions true
+hasFunctions true
+hasAccessModifiers true
+hasConditionals true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sophia.pldb
+lineCommentToken //
+multiLineCommentTokens /* */
+booleanTokens true false
+keywords contract library entrypoint function stateful state hash signature tuple list address string bool int record datatype type option oracle oracle_query Call Bits Bytes Oracle String Crypto Address Auth Chain None Some bits bytes event let map private public true false var if else throw
 
-startColumns 4
+githubRepo https://github.com/aeternity/aesophia
+ firstCommit 2018
+ stars 42
+ forks 19
+ subscribers 30
+ created 2018
+ updated 2022
+ description  Stand alone compiler for the Sophia smart contract language
+ issues 42
 
-<div class="trueBaseThemeQuickLinks"><a href="https://aeternity.com/aesophia" class="material-symbols-outlined">home</a> <a href="https://github.com/aeternity/aesophia" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sophia" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2018
+ commits 1095
+ committers 32
+ files 278
 
-* Sophia is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+contractLanguage">contract language</a> created in 2018 by Robert Virding.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#robertVirding Robert Virding
-
-codeWithHeader Source code:
- git clone https://github.com/aeternity/aesophia
-
-dashboard
- #1392 <span title="TotalRank: 1921 Jobs: 103 Users: 1470 Facts: 832 Links: 986">on PLDB</span>
- 6 Years Old
-
-monacoEditor sophia
- 
-
-*  Stand alone compiler for the Sophia smart contract language
-
-- Sophia website
- https://aeternity.com/aesophia
-- Sophia is developed on <a href="https://github.com/aeternity/aesophia">GitHub</a> and has 42 stars
-- Sophia first developed in <a href="../lists/originCommunities.html#httpsGithubComAeternity">https://github.com/aeternity</a>
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/sophia">package</a> for syntax highlighting Sophia
-- See also: (1 related languages)<a href="solidity.html">Solidity</a>
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader Sophia <a href="../lists/keywords.html?filter=sophia">Keywords</a>
- contract library entrypoint function stateful state hash signature tuple list address string bool int record datatype type option oracle oracle_query Call Bits Bytes Oracle String Crypto Address Auth Chain None Some bits bytes event let map private public true false var if else throw
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Access Modifiers
-  FeatureLink ../features/hasAccessModifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Exceptions
-  FeatureLink ../features/hasExceptions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav zenscript.html cor.html
-
-import ../footer.scroll
+monaco sophia

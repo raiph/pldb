@@ -1,52 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Astatine
+import ../measures/conceptPage.scroll
+id Astatine
+appeared 2022
+type pl
+creators Spydr06
+website https://github.com/Spydr06/astatine/
+country Germany
+originCommunity https://github.com/Spydr06
 
-title Astatine - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="space.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jasper.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/astatine.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Spydr06/astatine/" class="material-symbols-outlined">home</a> <a href="https://github.com/Spydr06/astatine/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=astatine" class="material-symbols-outlined">edit</a></div>
-
-* Astatine is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Spydr06.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#spydr06 Spydr06
-
-codeWithHeader Source code:
- git clone https://github.com/Spydr06/astatine/
-
-dashboard
- #1766 <span title="TotalRank: 2292 Jobs: 103 Users: 2392 Facts: 1203 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Astatine is a is a mid-level, statically typed, procedural programming language with some functional components.
-
-- Astatine website
- https://github.com/Spydr06/astatine/
-- Astatine is developed on <a href="https://github.com/Spydr06/astatine/">GitHub</a> and has 2 stars
-- Astatine first developed in <a href="../lists/originCommunities.html#httpsGithubComSpydr06">https://github.com/Spydr06</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  module Main where
  import * from IO
- -- prints &#39;Hello, World&#39; to stdout
- main :: (args [String]) -&gt; Int32
+ -- prints 'Hello, World' to stdout
+ main :: (args [String]) -> Int32
      = do
-         IO::puts(&quot;Hello, World&quot;)
+         IO::puts("Hello, World")
          0
      end
 
-endColumns
+githubRepo https://github.com/Spydr06/astatine/
+ stars 2
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description Astatine is a is a mid-level, statically typed, procedural programming language with some functional components.
 
-keyboardNav space.html jasper.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 13
+ committers 2
+ files 53

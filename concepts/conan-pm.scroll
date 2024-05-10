@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Conan
+import ../measures/conceptPage.scroll
+id Conan
+appeared 2015
+type packageManager
+conceptDescription Conan, the C / C++ Package Manager for Developers
+website https://conan.io/
+country Spain
+originCommunity https://github.com/conan-io
+domainName conan.io
+ registered 2015
+ awisRank
+  2022 135345
 
-title Conan - Package manager
- hidden
+githubRepo https://github.com/conan-io/conan
+ firstCommit 2015
+ stars 5983
+ forks 758
+ subscribers 130
+ created 2015
+ updated 2022
+ description Conan - The open-source C/C++ package manager
+ issues 2087
 
-html
- <a class="trueBaseThemePreviousItem" href="sha-2-hash-function.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="zone.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/conan-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://conan.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/conan-io/conan" class="material-symbols-outlined">code</a> <a href="/edit.html?id=conan-pm" class="material-symbols-outlined">edit</a></div>
-
-* Conan is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/conan-io/conan
-
-dashboard
- #829 on PLDB
- 9 Years Old
-
-* Conan, the C / C++ Package Manager for Developers
-
-- Conan website
- https://conan.io/
-- Conan is developed on <a href="https://github.com/conan-io/conan">GitHub</a> and has 5,983 stars
-- Conan first developed in <a href="../lists/originCommunities.html#httpsGithubComConanIo">https://github.com/conan-io</a>
-- <a href="https://conan.io/">conan.io</a> was registered in 2015
-
-<br>
-
-endColumns
-
-keyboardNav sha-2-hash-function.html zone.html
-
-import ../footer.scroll
+forLanguages c cpp

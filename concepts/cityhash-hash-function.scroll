@@ -1,41 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cityhash-hash-function
+import ../measures/conceptPage.scroll
+id cityhash-hash-function
+appeared 2011
+type hashFunction
+reference https://opensource.googleblog.com/2011/04/introducing-cityhash.html
+country United States
+originCommunity Google
 
-title cityhash-hash-function - Hash function
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="circle-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="google-sheets-app.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cityhash-hash-function.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/google/cityhash" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cityhash-hash-function" class="material-symbols-outlined">edit</a></div>
-
-* cityhash-hash-function is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+hashFunction">hash function</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/google/cityhash
-
-dashboard
- #1299 on PLDB
- 13 Years Old
-
-* Automatically exported from code.google.com/p/cityhash
-
-- cityhash-hash-function is developed on <a href="https://github.com/google/cityhash">GitHub</a> and has 875 stars
-- cityhash-hash-function first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- Read more about cityhash-hash-function on the web: 1.
- https://opensource.googleblog.com/2011/04/introducing-cityhash.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav circle-lang.html google-sheets-app.html
-
-import ../footer.scroll
+githubRepo https://github.com/google/cityhash
+ firstCommit 2011
+ stars 875
+ forks 168
+ subscribers 41
+ created 2015
+ updated 2022
+ description Automatically exported from code.google.com/p/cityhash
+ issues 13

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DFL
+import ../measures/conceptPage.scroll
+id DFL
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/fed70fb81dbdd31cc9e896ee8380fce0dc51a344
+country United States
+originCommunity Indian Institute of Science && State University of New York && Case Western Reserve University
 
-title DFL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2826
 
-html
- <a class="trueBaseThemePreviousItem" href="deva.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="diamag.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dfl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dfl" class="material-symbols-outlined">edit</a></div>
-
-* DFL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3625 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- DFL first developed in <a href="../lists/originCommunities.html#indianInstituteOfScience">Indian Institute of Science</a> and <a href="../lists/originCommunities.html#stateUniversityOfNewYork">State University of New York</a> and <a href="../lists/originCommunities.html#caseWesternReserveUniversity">Case Western Reserve University</a>
-- DFL on HOPL
- https://hopl.info/showlanguage.prx?exp=2826
-- Read more about DFL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fed70fb81dbdd31cc9e896ee8380fce0dc51a344 1.
-
-<br>
-
-endColumns
-
-keyboardNav deva.html diamag.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

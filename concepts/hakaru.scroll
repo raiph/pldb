@@ -1,60 +1,43 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hakaru
+import ../measures/conceptPage.scroll
+id hakaru
+appeared 2014
+type pl
+conceptDescription Hakaru is a simply-typed probabilistic programming language, designed for easy specification of probabilistic models and inference algorithms. This type of language is useful for the development of machine learning algorithms and stochastic modeling.
+website http://hakaru-dev.github.io/
+reference https://www.reddit.com/r/ProgrammingLanguages/comments/hejono/hakaru_a_simplytyped_probabilistic_programming/
+country United States
+originCommunity Indiana University && McMaster University
+domainName hakaru-dev.github.io
 
-title hakaru - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="boron.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pop-2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hakaru.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://hakaru-dev.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/hakaru-dev/hakaru" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hakaru" class="material-symbols-outlined">edit</a></div>
-
-* hakaru is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/hakaru-dev/hakaru
-
-dashboard
- #1296 <span title="TotalRank: 1826 Jobs: 103 Users: 861 Facts: 862 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Hakaru is a simply-typed probabilistic programming language, designed for easy specification of probabilistic models and inference algorithms. This type of language is useful for the development of machine learning algorithms and stochastic modeling.
-
-- hakaru website
- http://hakaru-dev.github.io/
-- hakaru is developed on <a href="https://github.com/hakaru-dev/hakaru">GitHub</a> and has 293 stars
-- hakaru first developed in <a href="../lists/originCommunities.html#indianaUniversity">Indiana University</a> and <a href="../lists/originCommunities.html#mcMasterUniversity">McMaster University</a>
-- Read more about hakaru on the web: 1.
- https://www.reddit.com/r/ProgrammingLanguages/comments/hejono/hakaru_a_simplytyped_probabilistic_programming/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def pulls(strength real):
      normal(strength, 1)
  
  def winner(a real, b real):
-     a_pull &lt;~ pulls(a)
-     b_pull &lt;~ pulls(b)
-     return (a_pull &gt; b_pull)
+     a_pull <~ pulls(a)
+     b_pull <~ pulls(b)
+     return (a_pull > b_pull)
  
- alice &lt;~ normal(0,1)
- bob   &lt;~ normal(0,1)
- carol &lt;~ normal(0,1)
+ alice <~ normal(0,1)
+ bob   <~ normal(0,1)
+ carol <~ normal(0,1)
  
- match1 &lt;~ winner(alice, bob)
- match2 &lt;~ winner(bob, carol)
- match3 &lt;~ winner(alice, carol)
+ match1 <~ winner(alice, bob)
+ match2 <~ winner(bob, carol)
+ match3 <~ winner(alice, carol)
 
-endColumns
+githubRepo https://github.com/hakaru-dev/hakaru
+ firstCommit 2014
+ stars 293
+ forks 31
+ subscribers 27
+ created 2014
+ updated 2022
+ description A probabilistic programming language
+ issues 41
 
-keyboardNav boron.html pop-2.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 6842
+ committers 43
+ files 639

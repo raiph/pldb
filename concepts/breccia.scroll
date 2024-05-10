@@ -1,42 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Breccia
+import ../measures/conceptPage.scroll
+id Breccia
+appeared 2019
+type textMarkup
+creators Michael Allan
+website http://reluk.ca/project/Breccia/
+fileExtensions brec
+country Canada
+originCommunity reluk
 
-title Breccia - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="parasail.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="archieml.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/breccia.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://reluk.ca/project/Breccia/" class="material-symbols-outlined">home</a> <a href="https://github.com/Michael-Allan/Breccia" class="material-symbols-outlined">code</a> <a href="/edit.html?id=breccia" class="material-symbols-outlined">edit</a></div>
-
-* Breccia is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2019 by Michael Allan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#michaelAllan Michael Allan
-
-codeWithHeader Source code:
- git clone https://github.com/Michael-Allan/Breccia
-
-dashboard
- #1427 <span title="TotalRank: 1951 Jobs: 103 Users: 2415 Facts: 862 Links: 986">on PLDB</span>
- 5 Years Old
-
-* Lightweight markup for point-form outlining and drafting. (mirror)
-
-- Breccia website
- http://reluk.ca/project/Breccia/
-- Breccia is developed on <a href="https://github.com/Michael-Allan/Breccia">GitHub</a> and has 0 stars
-- Breccia first developed in <a href="../lists/originCommunities.html#reluk">reluk</a>
-- file extensions for Breccia include brec
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Definition of terms for project Breccia
  
      : see also http://reluk.ca/project/wayic/refractory/index.brec
@@ -54,8 +26,18 @@ codeWithHeader Example from the web:
          - The file extension for Breccia.
              : see `Filename extension` @ README.html
 
-endColumns
+githubRepo https://github.com/Michael-Allan/Breccia
+ firstCommit 2019
+ stars 0
+ forks 0
+ subscribers 0
+ created 2019
+ updated 2021
+ description Lightweight markup for point-form outlining and drafting. (mirror)
+ issues 0
 
-keyboardNav parasail.html archieml.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 329
+ committers 1
+ files 6

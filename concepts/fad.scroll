@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FAD
+import ../measures/conceptPage.scroll
+id FAD
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/0e6b41ec5c8ff1a4ef6cfd8e86fc3f53bccfe8b1
+country France and United States
+originCommunity Inria && IBM
 
-title FAD - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1322
 
-html
- <a class="trueBaseThemePreviousItem" href="fac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fcpu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fad.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fad" class="material-symbols-outlined">edit</a></div>
-
-* FAD is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3661 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- FAD first developed in <a href="../lists/originCommunities.html#inria">Inria</a> and <a href="../lists/originCommunities.html#ibm">IBM</a>
-- FAD on HOPL
- https://hopl.info/showlanguage.prx?exp=1322
-- Read more about FAD on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0e6b41ec5c8ff1a4ef6cfd8e86fc3f53bccfe8b1 1.
-
-<br>
-
-endColumns
-
-keyboardNav fac.html fcpu.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

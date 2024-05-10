@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kuroko
+import ../measures/conceptPage.scroll
+id Kuroko
+appeared 2020
+type pl
+creators K. Lange
+website https://kuroko-lang.github.io/
+originCommunity https://github.com/kuroko-lang
 
-title Kuroko - Programming language
- hidden
+githubRepo https://github.com/kuroko-lang/kuroko
+ firstCommit 2020
+ stars 300
+ forks 17
+ subscribers 7
+ created 2020
+ updated 2022
+ description Dialect of Python with explicit variable declaration and block scoping, with a lightweight and easy-to-embed bytecode compiler and interpreter.
+ issues 5
 
-html
- <a class="trueBaseThemePreviousItem" href="short-code-computer-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="parenscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kuroko.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://kuroko-lang.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/kuroko-lang/kuroko" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kuroko" class="material-symbols-outlined">edit</a></div>
-
-* Kuroko is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by K. Lange.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#kLange K. Lange
-
-codeWithHeader Source code:
- git clone https://github.com/kuroko-lang/kuroko
-
-dashboard
- #1474 <span title="TotalRank: 1999 Jobs: 103 Users: 910 Facts: 1787 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Dialect of Python with explicit variable declaration and block scoping, with a lightweight and easy-to-embed bytecode compiler and interpreter.
-
-- Kuroko website
- https://kuroko-lang.github.io/
-- Kuroko is developed on <a href="https://github.com/kuroko-lang/kuroko">GitHub</a> and has 300 stars
-- Kuroko first developed in <a href="../lists/originCommunities.html#httpsGithubComKurokoLang">https://github.com/kuroko-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav short-code-computer-language.html parenscript.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 1266
+ committers 4
+ files 443

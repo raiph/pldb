@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Amanda
+import ../measures/conceptPage.scroll
+id Amanda
+appeared 1988
+type pl
+reference https://github.com/remco138/amanda
 
-title Amanda - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3776
 
-html
- <a class="trueBaseThemePreviousItem" href="altac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ambit-g.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/amanda.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=amanda" class="material-symbols-outlined">edit</a></div>
-
-* Amanda is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #3354 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- Amanda on HOPL
- https://hopl.info/showlanguage.prx?exp=3776
-- Read more about Amanda on the web: 1.
- https://github.com/remco138/amanda 1.
-
-<br>
-
-endColumns
-
-keyboardNav altac.html ambit-g.html
-
-import ../footer.scroll
+wordRank 7602
+centralPackageRepositoryCount 0

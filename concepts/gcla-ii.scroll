@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title GCLA II
+import ../measures/conceptPage.scroll
+id GCLA II
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/55db53abba68018652aff12b709915276fb76cf3
+country Sweden
+originCommunity Swedish Institute of Computer Science
 
-title GCLA II - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5528
 
-html
- <a class="trueBaseThemePreviousItem" href="galileo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gem.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gcla-ii.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gcla-ii" class="material-symbols-outlined">edit</a></div>
-
-* GCLA II is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #4145 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- GCLA II first developed in <a href="../lists/originCommunities.html#swedishInstituteOfComputerScience">Swedish Institute of Computer Science</a>
-- GCLA II on HOPL
- https://hopl.info/showlanguage.prx?exp=5528
-- Read more about GCLA II on Semantic Scholar: 1.
- https://semanticscholar.org/paper/55db53abba68018652aff12b709915276fb76cf3 1.
-
-<br>
-
-endColumns
-
-keyboardNav galileo.html gem.html
-
-import ../footer.scroll
+isbndb 0

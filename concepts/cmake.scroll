@@ -1,97 +1,107 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CMake
+import ../measures/conceptPage.scroll
+id CMake
+appeared 2000
+type application
+website https://cmake.org/
+reference https://www.jetbrains.com/help/clion/cmakelists-txt-file.html
+country United States
+originCommunity Kitware, Inc
+domainName cmake.org
+ registered 2001
+ awisRank
+  2022 23114
 
-title CMake - Application
- hidden
+gitlabRepo https://gitlab.kitware.com/cmake/cmake
 
-html
- <a class="trueBaseThemePreviousItem" href="nextflow.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plpgsql.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/CMake
+ related c visual-studio-editor eclipse-editor linux ninja unix falcon kicad llvmir mysql mariadb qt amqp root-lib meson qmake
+ summary CMake is cross-platform free and open-source software for managing the build process of software using a compiler-independent method. It supports directory hierarchies and applications that depend on multiple libraries. It is used in conjunction with native build environments such as make, Apple's Xcode, and Microsoft Visual Studio. It has minimal dependencies, requiring only a C++ compiler on its own build system.
+ pageId 4965560
+ dailyPageViews 255
+ created 2006
+ backlinksCount 90
+ revisionCount 560
+ appeared 2000
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cmake.pldb
+githubLanguage CMake
+ fileExtensions cmake cmakein
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  microsoft vcpkg https://github.com/microsoft.png https://github.com/microsoft/vcpkg CMake #ccc 6545 1638 307 "C++ Library Manager for Windows, Linux, and MacOS"
+  wzpan cmake-demo https://github.com/wzpan.png https://github.com/wzpan/cmake-demo CMake #ccc 533 332 37 《CMake入门实战》源码
+  ultralight-ux Ultralight https://github.com/ultralight-ux.png https://github.com/ultralight-ux/Ultralight CMake #ccc 1145 65 95 "Ultralight— a lightweight, pure-GPU, HTML UI renderer for native apps."
+ trendingProjectsCount 4
+ type programming
+ filenames CMakeLists.txt
+ aceMode text
+ codemirrorMode cmake
+ codemirrorMimeType text/x-cmake
+ tmScope source.cmake
+githubBigQuery CMake
+ repos 56490
+ users 39454
 
-startColumns 4
+codeMirror cmake
+pygmentsHighlighter CMake
+ filename make.py
+ fileExtensions cmake CMakeLists.txt
+linguistGrammarRepo https://github.com/textmate/cmake.tmbundle
+ firstCommit 2008
+ lastCommit 2015
+ committerCount 7
+ commitCount 48
+ sampleCount 6
+ example
+  cmake_minimum_required(VERSION 2.6)
+  
+  enable_testing()
+  
+  set(CMAKE_BUILD_TYPE debug)
+  
+  include_directories("/usr/local/include")
+  
+  find_library(ssl_LIBRARY NAMES ssl PATHS "/usr/local/lib")
+  
+  add_custom_command(OUTPUT "ver.c" "ver.h" COMMAND ./ver.sh)
+  
+  add_executable(foo foo.c bar.c baz.c ver.c)
+  
+  target_link_libraries(foo ${ssl_LIBRARY})
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="https://cmake.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/cmake" class="material-symbols-outlined">terminal</a> <a href="https://gitlab.kitware.com/cmake/cmake" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/CMake"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=cmake" class="material-symbols-outlined">edit</a></div>
-
-* CMake is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-codeWithHeader Source code:
- git clone https://gitlab.kitware.com/cmake/cmake
-
-dashboard
- #280 on PLDB
- 24 Years Old
-
-* Try now: <a href="https://riju.codes/cmake">Riju</a>
-
-* CMake is cross-platform free and open-source software for managing the build process of software using a compiler-independent method. It supports directory hierarchies and applications that depend on multiple libraries. It is used in conjunction with native build environments such as make, Apple's Xcode, and Microsoft Visual Studio. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/CMake Read more on Wikipedia...
-
-- CMake website
- https://cmake.org/
-- CMake Wikipedia page
- https://en.wikipedia.org/wiki/CMake
-- CMake on GitLab
- https://gitlab.kitware.com/cmake/cmake
-- CMake first developed in <a href="../lists/originCommunities.html#kitwareInc">Kitware, Inc</a>
-- file extensions for CMake include cmake, cmakein and CMakeLists.txt
-- The  Google BigQuery Public Dataset GitHub snapshot shows 39k users using CMake in 56k repos on <a href="https://api.github.com/search/repositories?q=language:CMake">GitHub</a>
-- Explore CMake snippets on <a href="http://www.rosettacode.org/wiki/Category:CMake">Rosetta Code</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/cmake">package</a> for syntax highlighting CMake
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/make.py">syntax highlighting</a> for CMake
-- GitHub supports <a href="https://github.com/textmate/cmake.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for CMake
-- <a href="https://cmake.org/">cmake.org</a> was registered in 2001
-- See also: (16 related languages)<a href="c.html">C</a>, <a href="visual-studio-editor.html">Visual Studio</a>, <a href="eclipse-editor.html">Eclipse</a>, <a href="linux.html">Linux</a>, <a href="ninja.html">Ninja</a>, <a href="unix.html">Unix</a>, <a href="falcon.html">Falcon</a>, <a href="kicad.html">KiCad Legacy Layout</a>, <a href="llvmir.html">LLVM IR</a>, <a href="mysql.html">MySQL</a>, <a href="mariadb.html">MariaDB</a>, <a href="qt.html">Qt</a>, <a href="amqp.html">Advanced Message Queuing Protocol</a>, <a href="root-lib.html">ROOT</a>, <a href="meson.html">Meson</a>, <a href="qmake.html">QMake</a>
-- Read more about CMake on the web: 1.
- https://www.jetbrains.com/help/clion/cmakelists-txt-file.html 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
- project(default)
- 
- add_compile_options(-Werror -Wall -Wextra -g)
- 
- add_executable(output.s example.cpp)
- 
-
-codeWithHeader Example from <a href='https://riju.codes/cmake'>Riju</a>:
- message(&quot;Hello, world!&quot;)
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CMake.cmake'>hello-world</a>:
- message(&quot;Hello World&quot;)
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#CMake'>the Hello World Collection</a>:
+helloWorldCollection CMake
  # Hello World in CMake
  
- message(STATUS &quot;Hello World!&quot;)
+ message(STATUS "Hello World!")
  
+leachim6 CMake
+ filepath c/CMake.cmake
+ fileExtensions cmake
+ example
+  message("Hello World")
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:CMake
 
-codeWithHeader Example from <a href='https://github.com/textmate/cmake.tmbundle'>Linguist</a>:
- cmake_minimum_required(VERSION 2.6)
- 
- enable_testing()
- 
- set(CMAKE_BUILD_TYPE debug)
- 
- include_directories(&quot;/usr/local/include&quot;)
- 
- find_library(ssl_LIBRARY NAMES ssl PATHS &quot;/usr/local/lib&quot;)
- 
- add_custom_command(OUTPUT &quot;ver.c&quot; &quot;ver.h&quot; COMMAND ./ver.sh)
- 
- add_executable(foo foo.c bar.c baz.c ver.c)
- 
- target_link_libraries(foo ${ssl_LIBRARY})
- 
+compilerExplorer CMake
+ example
+  project(default)
+  
+  add_compile_options(-Werror -Wall -Wextra -g)
+  
+  add_executable(output.s example.cpp)
+  
+rijuRepl https://riju.codes/cmake
+ example
+  message("Hello, world!")
+  
 
-endColumns
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav nextflow.html plpgsql.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ CMake Cookbook: Over 40 recipes enabling you to build, test, and package software for distribution using the CMake suite||Radovan Bast;Roberto Di Remigio|63961172|0.0|0|0
+ CMake Cookbook: Over 40 recipes enabling you to build, test, and package software for distribution using the CMake suite||Radovan Bast|61191205|0.0|0|0
+ Building C++ Software with CMake (Software Tools Series Book 1)|2014|Chris Weed|42501938|5.00|2|0
+ Using CMake to Manage Project - A Demo (Linux Software Development)||Jie Deng|52502246|0.0|0|0

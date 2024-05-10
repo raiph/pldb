@@ -1,50 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Nadesiko
+import ../measures/conceptPage.scroll
+id Nadesiko
+appeared 2008
+type pl
+creators kujirahand
+website https://nadesi.com/
+fileExtensions nako nako3
+country Japan
+originCommunity https://kujirahand.com
 
-title Nadesiko - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="dinkc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mai-basic-four.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nadesiko.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://nadesi.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/kujirahand/nadesiko3" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nadesiko" class="material-symbols-outlined">edit</a></div>
-
-* Nadesiko is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by kujirahand.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#kujirahand kujirahand
-
-codeWithHeader Source code:
- git clone https://github.com/kujirahand/nadesiko3
-
-dashboard
- #1655 <span title="TotalRank: 2166 Jobs: 103 Users: 1077 Facts: 1311 Links: 986">on PLDB</span>
- 16 Years Old
-
-* Japanese Programming Language Nadesiko v3 (JavaScript)
-
-- Nadesiko website
- https://nadesi.com/
-- Nadesiko is developed on <a href="https://github.com/kujirahand/nadesiko3">GitHub</a> and has 177 stars
-- Nadesiko first developed in <a href="../lists/originCommunities.html#httpsKujirahandCom">https://kujirahand.com</a>
-- file extensions for Nadesiko include nako and nako3
-- Nadesiko compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # 取り込みテスト
  ●(AとBの)加算処理とは
      A+Bを戻す。
  ここまで。
 
-endColumns
+githubRepo https://github.com/kujirahand/nadesiko3
+ stars 177
+ forks 17
+ subscribers 3
+ created 2017
+ updated 2022
+ description Japanese Programming Language Nadesiko v3 (JavaScript)
 
-keyboardNav dinkc.html mai-basic-four.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 2774
+ committers 24
+ files 299

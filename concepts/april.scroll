@@ -1,38 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title april
+import ../measures/conceptPage.scroll
+id april
+appeared 2017
+type pl
 
-title april - Programming language
- hidden
+githubRepo https://github.com/phantomics/april
+ firstCommit 2017
+ stars 406
+ forks 22
+ subscribers 16
+ created 2017
+ updated 2022
+ description The APL programming language (a subset thereof) compiling to Common Lisp.
+ issues 21
 
-html
- <a class="trueBaseThemePreviousItem" href="wmlscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="coral.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/april.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/phantomics/april" class="material-symbols-outlined">code</a> <a href="/edit.html?id=april" class="material-symbols-outlined">edit</a></div>
-
-* april is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/phantomics/april
-
-dashboard
- #1338 <span title="TotalRank: 1874 Jobs: 103 Users: 785 Facts: 2067 Links: 986">on PLDB</span>
- 7 Years Old
-
-* The APL programming language (a subset thereof) compiling to Common Lisp.
-
-- april is developed on <a href="https://github.com/phantomics/april">GitHub</a> and has 406 stars
-
-<br>
-
-endColumns
-
-keyboardNav wmlscript.html coral.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 1820
+ committers 11
+ files 120

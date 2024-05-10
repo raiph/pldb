@@ -1,84 +1,59 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fortress
+import ../measures/conceptPage.scroll
+id Fortress
+appeared 2004
+type pl
+website http://projectfortress.java.net/
+country United States
+originCommunity Sun Labs
+domainName projectfortress.java.net
 
-title Fortress - Programming language
- hidden
+hasMultiLineComments true
+ (* A comment
+ *)
+hasComments true
+ (* A comment
+ *)
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="caml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mdx.html">&gt;</a>
+multiLineCommentTokens (* *)
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortress.pldb
+wikipedia https://en.wikipedia.org/wiki/Fortress_(programming_language)
+ example
+  component hello
+  export Executable
+  run() = println(“Hello, World!”)
+  end
+ related fortran scala haskell scheme common-lisp java unicode standard-ml ascii emacs-editor latex x10 chapel sisal
+ summary Fortress is a discontinued experimental programming language for high-performance computing, created by Sun Microsystems with funding from DARPA's High Productivity Computing Systems project. One of the language designers was Guy L. Steele Jr., whose previous work includes Scheme, Common Lisp, and Java.
+ pageId 1822171
+ dailyPageViews 54
+ created 2005
+ backlinksCount 171
+ revisionCount 164
+ appeared 2006
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://projectfortress.java.net/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/Fortress_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=fortress" class="material-symbols-outlined">edit</a></div>
-
-* Fortress is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #489 <span title="TotalRank: 1022 Jobs: 103 Users: 978 Facts: 647 Links: 272">on PLDB</span>
- 20 Years Old
-
-* Fortress is a discontinued experimental programming language for high-performance computing, created by Sun Microsystems with funding from DARPA's High Productivity Computing Systems project. One of the language designers was Guy L. Steele Jr., whose previous work includes Scheme, Common Lisp, and Java.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Fortress_(programming_language) Read more on Wikipedia...
-
-- Fortress website
- http://projectfortress.java.net/
-- Fortress Wikipedia page
- https://en.wikipedia.org/wiki/Fortress_(programming_language)
-- Fortress first developed in <a href="../lists/originCommunities.html#sunLabs">Sun Labs</a>
-- Explore Fortress snippets on <a href="http://www.rosettacode.org/wiki/Category:Fortress">Rosetta Code</a>
-- Fortress on HOPL
- https://hopl.info/showlanguage.prx?exp=8170
-- Fortress appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- See also: (14 related languages)<a href="fortran.html">Fortran</a>, <a href="scala.html">Scala</a>, <a href="haskell.html">Haskell</a>, <a href="scheme.html">Scheme</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="java.html">Java</a>, <a href="unicode.html">Unicode</a>, <a href="standard-ml.html">Standard ML</a>, <a href="ascii.html">ASCII</a>, <a href="emacs-editor.html">Emacs</a>, <a href="latex.html">LaTeX</a>, <a href="x10.html">X10</a>, <a href="chapel.html">Chapel</a>, <a href="sisal.html">SISAL</a>
-
-<br>
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Fortress'>the Hello World Collection</a>:
+helloWorldCollection Fortress
  (* Hello World in Fortress *)
  
  export Executable
- run(args) = print &quot;Hello, world!&quot;
+ run(args) = print "Hello, world!"
  
+rosettaCode http://www.rosettacode.org/wiki/Category:Fortress
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Fortress_(programming_language)'>Wikipedia</a>:
- component hello
- export Executable
- run() = println(“Hello, World!”)
- end
+tiobe Fortress
+hopl https://hopl.info/showlanguage.prx?exp=8170
 
-endColumns
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 0
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (* A comment
-   *)
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (* *)
-  Example
-   (* A comment
-   *)
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav caml.html mdx.html
-
-import ../footer.scroll
+semanticScholar 6
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2005|Parallel Programming and Parallel Abstractions in Fortress|10.1109/PACT.2005.34|35|0|G. Steele|2fb5a5cfe833a7c8a1c072ae50beb92f5631e7d5
+ 2006|Parallel programming and code selection in fortress|10.1145/1122971.1122972|19|0|G. Steele|b658729a9b7ba4ab68db8c38c467984649230670
+ 2009|Parsing Fortress syntax|10.1145/1596655.1596667|13|2|S. Ryu|b3aa9613a3e9fb7a1da38a1aa08d95a6984282dc
+ 2010|Generators-of-Generators Library with Optimization Capabilities in Fortress|10.1007/978-3-642-15291-7_4|10|0|Kento Emoto and Zhenjiang Hu and K. Kakehi and Kiminori Matsuzaki and M. Takeichi|aa59501d1da60d3df90d648cbb531feda99acaf3
+ 2011|Coq Mechanization of Featherweight Fortress with Multiple Dispatch and Multiple Inheritance|10.1007/978-3-642-25379-9_20|3|1|Jieung Kim and S. Ryu|ffc4aadeab17411ebe95ea93dc7946ce75694bda
+ 2016|Scalable framework for parsing: from Fortress to JavaScript|10.1002/spe.2380|3|0|S. Ryu|45aad1146bc018df0ce85cfdae156ebb5a91c498

@@ -1,42 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jevko
+import ../measures/conceptPage.scroll
+id Jevko
+appeared 2021
+type dataNotation
+website https://jevko.org/
+reference https://github.com/jevko/parsejevko.js
+country Poland
+originCommunity https://github.com/jevko
+domainName jevko.org
+ registered 2021
 
-title Jevko - Data notation
- hidden
+relatedConcepts json xml
 
-html
- <a class="trueBaseThemePreviousItem" href="testml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mscgen.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jevko.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://jevko.org/" class="material-symbols-outlined">home</a> <a href="https://twitter.com/jevko1"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=jevko" class="material-symbols-outlined">edit</a></div>
-
-* Jevko is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-dashboard
- #1579 <span title="TotalRank: 2084 Jobs: 103 Users: 2442 Facts: 995 Links: 986">on PLDB</span>
- 3 Years Old
-
-* 
-
-- Jevko website
- https://jevko.org/
-- Jevko first developed in <a href="../lists/originCommunities.html#httpsGithubComJevko">https://github.com/jevko</a>
-- Jevko on Twitter
- https://twitter.com/jevko1
-- <a href="https://jevko.org/">jevko.org</a> was registered in 2021
-- See also: (2 related languages)<a href="json.html">JSON</a>, <a href="xml.html">XML</a>
-- Read more about Jevko on the web: 1.
- https://github.com/jevko/parsejevko.js 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  first name [John]
  last name [Smith]
  is alive [true]
@@ -60,8 +35,4 @@ codeWithHeader Example from the web:
  children []
  spouse []
 
-endColumns
-
-keyboardNav testml.html mscgen.html
-
-import ../footer.scroll
+twitter https://twitter.com/jevko1

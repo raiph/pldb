@@ -1,60 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mojo
+import ../measures/conceptPage.scroll
+id Mojo
+appeared 2022
+type pl
+creators Chris Lattner
+conceptDescription Mojo combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models.
+website https://www.modular.com/mojo
+documentation https://docs.modular.com/mojo/
+fileExtensions mojo
+country United States 
+originCommunity Modular Inc
+releaseNotesUrl https://docs.modular.com/mojo/changelog.html
 
-title Mojo - Programming language
- hidden
+influencedBy python c mlir
 
-html
- <a class="trueBaseThemePreviousItem" href="observable-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plist.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mojo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.modular.com/mojo" class="material-symbols-outlined">home</a> <a href="https://github.com/modularml/mojo" class="material-symbols-outlined">code</a> <a href="https://docs.modular.com/mojo/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=mojo" class="material-symbols-outlined">edit</a></div>
-
-* Mojo is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Chris Lattner.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#chrisLattner Chris Lattner
-
-codeWithHeader Source code:
- git clone https://github.com/modularml/mojo
-
-dashboard
- #763 <span title="TotalRank: 1332 Jobs: 103 Users: 397 Facts: 832 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Mojo combines the usability of Python with the performance of C, unlocking unparalleled programmability of AI hardware and extensibility of AI models.
-
-- Mojo website
- https://www.modular.com/mojo
-- Mojo is developed on <a href="https://github.com/modularml/mojo">GitHub</a> and has 1,577 stars
-- Mojo docs
- https://docs.modular.com/mojo/
-- Mojo first developed in <a href="../lists/originCommunities.html#modularInc">Modular Inc</a>
-- file extensions for Mojo include mojo
-- Release Notes for Mojo
- https://docs.modular.com/mojo/changelog.html
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def softmax(lst):
    norm = np.exp(lst - np.max(lst))
    return norm / norm.sum()
  
  struct NDArray:
-   def max(self) -&gt; NDArray:
+   def max(self) -> NDArray:
      return self.pmap(SIMD.max)
  
  struct SIMD[type: DType, width: Int]:
-   def max(self, rhs: Self) -&gt; Self:
-     return (self &gt;= rhs).select(self, rhs)
+   def max(self, rhs: Self) -> Self:
+     return (self >= rhs).select(self, rhs)
 
-endColumns
+githubRepo https://github.com/modularml/mojo
+ stars 1577
+ forks 28
+ subscribers 73
+ created 2023
+ updated 2023
+ description The Mojo Programming Language
+ issues 15
 
-keyboardNav observable-lang.html plist.html
+repoStats
+ firstCommit 2023
+ commits 11
+ committers 1
+ files 3
 
-import ../footer.scroll
+discord https://www.discord.gg/modular
+
+isOpenSource false

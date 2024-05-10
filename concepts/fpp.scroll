@@ -1,49 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Functional PHP Preprocessor
+import ../measures/conceptPage.scroll
+id Functional PHP Preprocessor
+appeared 2018
+type pl
+creators Sascha-Oliver Prolic
+website https://github.com/prolic/fpp
+aka fpp
+fileExtensions fpp
+country Paraguay
+originCommunity https://www.sasaprolic.com/
 
-title Functional PHP Preprocessor - Programming language
- hidden
+writtenIn php
 
-html
- <a class="trueBaseThemePreviousItem" href="ptx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyphy.html">&gt;</a>
+keywords namespace use data bool string float int enum uuid guid event command
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fpp.pldb
+githubRepo https://github.com/prolic/fpp
+ stars 283
+ forks 26
+ subscribers 16
+ created 2016
+ updated 2021
+ description Functional PHP Preprocessor - Generate Immutable Data Types
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/prolic/fpp" class="material-symbols-outlined">home</a> <a href="https://github.com/prolic/fpp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fpp" class="material-symbols-outlined">edit</a></div>
-
-* Functional PHP Preprocessor is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Sascha-Oliver Prolic.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#saschaOliverProlic Sascha-Oliver Prolic
-
-codeWithHeader Source code:
- git clone https://github.com/prolic/fpp
-
-dashboard
- #1466 <span title="TotalRank: 1987 Jobs: 103 Users: 898 Facts: 1502 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Functional PHP Preprocessor - Generate Immutable Data Types
-
-- Functional PHP Preprocessor website
- https://github.com/prolic/fpp
-- Functional PHP Preprocessor is developed on <a href="https://github.com/prolic/fpp">GitHub</a> and has 283 stars
-- Functional PHP Preprocessor first developed in <a href="../lists/originCommunities.html#httpsWwwSasaprolicCom">https://www.sasaprolic.com/</a>
-- file extensions for Functional PHP Preprocessor include fpp
-- Functional PHP Preprocessor is written in <a href="php.html">PHP</a>
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader Functional PHP Preprocessor <a href="../lists/keywords.html?filter=fpp">Keywords</a>
- namespace use data bool string float int enum uuid guid event command
-</div>
-
-endColumns
-
-keyboardNav ptx.html hyphy.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 614
+ committers 23
+ files 68

@@ -1,54 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pact
+import ../measures/conceptPage.scroll
+id Pact
+appeared 2016
+type contractLanguage
+isPublicDomain false
+creators Stuart Popejoy
+website http://kadena.io/try-pact/
+documentation https://pact-language.readthedocs.io/en/stable/
+country United States
+originCommunity Kadena LLC
 
-title Pact - Contract language
- hidden
+writtenIn haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="watcom.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="music-sp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pact.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://kadena.io/try-pact/" class="material-symbols-outlined">home</a> <a href="https://github.com/kadena-io/pact" class="material-symbols-outlined">code</a> <a href="https://pact-language.readthedocs.io/en/stable/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=pact" class="material-symbols-outlined">edit</a></div>
-
-* Pact is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+contractLanguage">contract language</a> created in 2016 by Stuart Popejoy.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#stuartPopejoy Stuart Popejoy
-
-codeWithHeader Source code:
- git clone https://github.com/kadena-io/pact
-
-dashboard
- #1156 <span title="TotalRank: 1703 Jobs: 103 Users: 614 Facts: 995 Links: 986">on PLDB</span>
- 8 Years Old
-
-* The Pact Smart Contract Language
-
-- Pact website
- http://kadena.io/try-pact/
-- Pact is developed on <a href="https://github.com/kadena-io/pact">GitHub</a> and has 536 stars
-- Pact docs
- https://pact-language.readthedocs.io/en/stable/
-- Pact first developed in <a href="../lists/originCommunities.html#kadenaLlc">Kadena LLC</a>
-- Pact is written in <a href="haskell.html">Haskell</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (map (+ 1) [1 2 3])
 
-endColumns
+githubRepo https://github.com/kadena-io/pact
+ stars 536
+ forks 93
+ subscribers 47
+ created 2016
+ updated 2023
+ description The Pact Smart Contract Language
+ issues 110
 
-## HackerNews discussions of Pact
+repoStats
+ firstCommit 2016
+ commits 4397
+ committers 54
+ files 412
 
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Pact – a safe smart contract language (web editor)|https://news.ycombinator.com/item?id=12944077|11/13/2016|18|2
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 12944077|Show HN: Pact – a safe smart contract language (web editor)|2016-11-13 16:30:19 UTC|1479054619|buckie|2|18
 
-keyboardNav watcom.html music-sp.html
+isOpenSource true
 
-import ../footer.scroll
+isbndb 3
+ year|publisher|title|authors|isbn13
+ 2001|Springer|Parallel Computing Technologies: 6th International Conference, PaCT 2001, Novosibirsk, Russia, September 3-7, 2001 Proceedings (Lecture Notes in Computer Science, 2127)||9783540425229
+ 2021|Springer|Parallel Computing Technologies: 16th International Conference, PaCT 2021, Kaliningrad, Russia, September 13–18, 2021, Proceedings (Lecture Notes in Computer Science Book 12942)|Author|9783030863593
+ 2015|Springer|Parallel Computing Technologies: 13th International Conference, PaCT 2015, Petrozavodsk, Russia, August 31-September 4, 2015, Proceedings (Lecture Notes in Computer Science Book 9251)|Victor Malyshkin|9783319219097

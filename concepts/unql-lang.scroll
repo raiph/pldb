@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UnQL
+import ../measures/conceptPage.scroll
+id UnQL
+appeared 2011
+type queryLanguage
+creators Richard Hipp and Damien Katz
+conceptDescription UnQL is a database query language, akin to SQL, but designed for modern document-oriented databases. SQL assumes a rigidly defined data schema. Each table has a fixed number of columns and each column has a defined datatype. UnQL assumes a more flexible approach to storing data. Instead of "tables", UnQL uses "collections". (The concept is the same, but the name is changed since "tables" are square whereas "collections" can be of varying shape.) Each collection consists of zero or more documents represented as JSON strings. A document in UnQL corresponds to a row in SQL
+reference http://unql.sqlite.org/index.html/timeline?y=w
+standsFor Unstructured Query Language
 
-title UnQL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="slang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wgsl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unql-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=unql-lang" class="material-symbols-outlined">edit</a></div>
-
-* UnQL, aka Unstructured Query Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2011 by Richard Hipp and Damien Katz.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#richardHipp Richard Hipp
- link ../lists/creators.html#damienKatz Damien Katz
-
-dashboard
- #3043 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 13 Years Old
-
-* UnQL is a database query language, akin to SQL, but designed for modern document-oriented databases. SQL assumes a rigidly defined data schema. Each table has a fixed number of columns and each column has a defined datatype. UnQL assumes a more flexible approach to storing data. Instead of "tables", UnQL uses "collections". (The concept is the same, but the name is changed since "tables" are square whereas "collections" can be of varying shape.) Each collection consists of zero or more documents represented as JSON strings. A document in UnQL corresponds to a row in SQL
-
-- Read more about UnQL on the web: 1.
- http://unql.sqlite.org/index.html/timeline?y=w 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  SELECT {articleout:cool_nosql_collection.docNumber} FROM cool_nosql_collection
 
-endColumns
-
-keyboardNav slang.html wgsl.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2015|Iteration Algebras for UnQL Graphs and Completeness for Bisimulation|10.4204/EPTCS.191.8|3|0|Makoto Hamana|00b6072ba7ecf7d1281c1aaa7bac7a82bc6a277e

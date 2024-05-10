@@ -1,39 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Data Package
-
-title Data Package - Json format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dalvik-bytecode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="distributed-smalltalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/datapackage.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=datapackage" class="material-symbols-outlined">edit</a></div>
-
-* Data Package is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+jsonFormat">json format</a> created in 2007 by Paul Walsh and Rufus Pollock.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
- link ../lists/creators.html#paulWalsh Paul Walsh
- link ../lists/creators.html#rufusPollock Rufus Pollock
-
-dashboard
- #3374 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- Data Package first developed in <a href="../lists/originCommunities.html#openKnowledgeFoundation">Open Knowledge Foundation</a>
-- Read more about Data Package on the web: 1.
- https://specs.frictionlessdata.io/data-package/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav dalvik-bytecode.html distributed-smalltalk.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Data Package
+appeared 2007
+type jsonFormat
+creators Paul Walsh and Rufus Pollock
+reference https://specs.frictionlessdata.io/data-package/
+country United Kingdom
+originCommunity Open Knowledge Foundation

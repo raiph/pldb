@@ -1,41 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lila
+import ../measures/conceptPage.scroll
+id Lila
+appeared 2017
+type pl
+reference https://iamronen.com/blog/2010/05/02/reading-lila-machine-language/
+reference https://www.semanticscholar.org/paper/Construction-of-an-ELL(1)-syntax-analyser-for-Ada-Craeynest-Vansteenkiste/b92d54ff36e3f65c79b77c98d2e545d772e02341
+country Belgium
+originCommunity Katholieke Universiteit
 
-title Lila - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2165
 
-html
- <a class="trueBaseThemePreviousItem" href="hscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lorel.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lila.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lila" class="material-symbols-outlined">edit</a></div>
-
-* Lila is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3013 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 7 Years Old
-
-* 
-
-- Lila first developed in <a href="../lists/originCommunities.html#katholiekeUniversiteit">Katholieke Universiteit</a>
-- Lila on HOPL
- https://hopl.info/showlanguage.prx?exp=2165
-- Read more about Lila on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/Construction-of-an-ELL(1)-syntax-analyser-for-Ada-Craeynest-Vansteenkiste/b92d54ff36e3f65c79b77c98d2e545d772e02341 1.
-- Read more about Lila on the web: 1.
- https://iamronen.com/blog/2010/05/02/reading-lila-machine-language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav hscript.html lorel.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1984|Construction of an ELL(1) syntax analyser for Ada with the compiler-generator LILA|10.1145/948415.948419|1|0|Dirk Craeynest and Geert Vansteenkiste and J. Lewi|b92d54ff36e3f65c79b77c98d2e545d772e02341

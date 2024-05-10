@@ -1,48 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title myrddin
+import ../measures/conceptPage.scroll
+id myrddin
+appeared 2016
+type pl
+conceptDescription <a href='https://myrlang.org'>Myrddin</a> is a systems programming language. Myrddin emphasizes control, simplicity, a clear mental model and predictable, transparent behavior. It features strong type checking, generics, type inference, closures, and traits. It aims to fit a similar niche as C, but with fewer bullets in your feet.
+website https://myrlang.org
+country United States
+originCommunity https://github.com/oridb/mc/issues
+domainName myrlang.org
+ registered 2016
+ awisRank
+  2017 6310985
 
-title myrddin - Programming language
- hidden
+leachim6 Myrddin
+ filepath m/Myrddin.myr
+ fileExtensions myr
+ example
+  use std
+  
+  const main = {
+      std.put("Hello World\n")
+  }
+  
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Myrddin
 
-html
- <a class="trueBaseThemePreviousItem" href="blc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="omg-idl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/myrddin.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://myrlang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=myrddin" class="material-symbols-outlined">edit</a></div>
-
-* myrddin is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #1963 <span title="TotalRank: 2470 Jobs: 103 Users: 2442 Facts: 1381 Links: 986">on PLDB</span>
- 8 Years Old
-
-* <a href='https://myrlang.org'>Myrddin</a> is a systems programming language. Myrddin emphasizes control, simplicity, a clear mental model and predictable, transparent behavior. It features strong type checking, generics, type inference, closures, and traits. It aims to fit a similar niche as C, but with fewer bullets in your feet.
-
-- myrddin website
- https://myrlang.org
-- myrddin first developed in <a href="../lists/originCommunities.html#httpsGithubComOridbMcIssues">https://github.com/oridb/mc/issues</a>
-- Explore myrddin snippets on <a href="http://www.rosettacode.org/wiki/Category:Myrddin">Rosetta Code</a>
-- <a href="https://myrlang.org">myrlang.org</a> was registered in 2016
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Myrddin.myr'>hello-world</a>:
- use std
- 
- const main = {
-     std.put(&quot;Hello World\n&quot;)
- }
- 
- 
-
-endColumns
-
-keyboardNav blc.html omg-idl.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

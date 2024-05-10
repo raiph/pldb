@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ADABTPL
+import ../measures/conceptPage.scroll
+id ADABTPL
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/1e4c50a1ef4c3cf1a77f7bbc66d35d63d2e6a003
+originCommunity University of Massachusetts && University of Texas
 
-title ADABTPL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2834
 
-html
- <a class="trueBaseThemePreviousItem" href="ada-tl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="adagio.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/adabtpl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=adabtpl" class="material-symbols-outlined">edit</a></div>
-
-* ADABTPL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3327 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- ADABTPL first developed in <a href="../lists/originCommunities.html#universityOfMassachusetts">University of Massachusetts</a> and <a href="../lists/originCommunities.html#universityOfTexas">University of Texas</a>
-- ADABTPL on HOPL
- https://hopl.info/showlanguage.prx?exp=2834
-- Read more about ADABTPL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1e4c50a1ef4c3cf1a77f7bbc66d35d63d2e6a003 1.
-
-<br>
-
-endColumns
-
-keyboardNav ada-tl.html adagio.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

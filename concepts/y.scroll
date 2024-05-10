@@ -1,60 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Y
+import ../measures/conceptPage.scroll
+id Y
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/3c3904c1ebf7883312bdba56e581cb3541fa1c90
 
-title Y - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="whirl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="elliott-algol.html">&gt;</a>
+printToken printf
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/y.pldb
+leachim6 Y
+ filepath y/Y.y
+ fileExtensions y
+ example
+  module helloworld
+  
+  	define(EOF,(-1))
+  	
+  	import printf from "ylib.d"
+  
+  	main()
+  		printf("Hello World\n")
+  	end
+  end
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=982
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=y" class="material-symbols-outlined">edit</a></div>
+wordRank 382
+centralPackageRepositoryCount 0
 
-* Y is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #2038 <span title="TotalRank: 2539 Jobs: 103 Users: 2838 Facts: 1450 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- Y on HOPL
- https://hopl.info/showlanguage.prx?exp=982
-- Read more about Y on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3c3904c1ebf7883312bdba56e581cb3541fa1c90 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/y/Y.y'>hello-world</a>:
- module helloworld
- 
- 	define(EOF,(-1))
- 	
- 	import printf from &quot;ylib.d&quot;
- 
- 	main()
- 		printf(&quot;Hello World\n&quot;)
- 	end
- end
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printf
-  Example
-
-keyboardNav whirl.html elliott-algol.html
-
-import ../footer.scroll
+isbndb 0

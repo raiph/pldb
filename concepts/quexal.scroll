@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title quexal
+import ../measures/conceptPage.scroll
+id quexal
+appeared 2007
+type esolang
+conceptDescription Quetzal (pronounced ket-sal) is a tangible programming language designed for children and novice programmers to control LEGO MINDSTORMS robots.
+country United States
+originCommunity Tufts University
+firstAnnouncement http://hci.cs.tufts.edu/tern/horn-jacob-tei07.pdf
+announcementMethod paper
 
-title quexal - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pufft.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ratsno.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/quexal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=quexal" class="material-symbols-outlined">edit</a></div>
-
-* quexal is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3119 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 17 Years Old
-
-* Quetzal (pronounced ket-sal) is a tangible programming language designed for children and novice programmers to control LEGO MINDSTORMS robots.
-
-- quexal first developed in <a href="../lists/originCommunities.html#tuftsUniversity">Tufts University</a>
-- <a href="http://hci.cs.tufts.edu/tern/horn-jacob-tei07.pdf">First announcement of</a> quexal via paper
-
-<br>
-
-endColumns
-
-keyboardNav pufft.html ratsno.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

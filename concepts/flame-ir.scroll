@@ -1,41 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title flame-ir
+import ../measures/conceptPage.scroll
+id flame-ir
+appeared 2015
+type ir
+conceptDescription An intermediate representation (IR) in static single assignment (SSA) form. This type of IR is favored by state-of-the-art optimizing compilers such as LLVM and GCC. Flame IR is designed from the ground up with the express intent of making it as suitable as possible for a wide range of optimizations and analyses. Flame is a collection of C# libraries for building tools that read, analyze, optimize and write managed languages.
+website https://github.com/jonathanvdc/flame
+country Canada
+originCommunity McGill University
 
-title flame-ir - Intermediate representation language
- hidden
+githubRepo https://github.com/jonathanvdc/flame
+ firstCommit 2017
+ stars 45
+ forks 4
+ subscribers 4
+ created 2015
+ updated 2022
+ description A compiler framework for managed code.
+ issues 4
 
-html
- <a class="trueBaseThemePreviousItem" href="setlx.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="toki-sona.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flame-ir.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/jonathanvdc/flame" class="material-symbols-outlined">home</a> <a href="https://github.com/jonathanvdc/flame" class="material-symbols-outlined">code</a> <a href="/edit.html?id=flame-ir" class="material-symbols-outlined">edit</a></div>
-
-* flame-ir is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/jonathanvdc/flame
-
-dashboard
- #2235 <span title="TotalRank: 2758 Jobs: 103 Users: 1796 Facts: 1669 Links: 986">on PLDB</span>
- 9 Years Old
-
-* An intermediate representation (IR) in static single assignment (SSA) form. This type of IR is favored by state-of-the-art optimizing compilers such as LLVM and GCC. Flame IR is designed from the ground up with the express intent of making it as suitable as possible for a wide range of optimizations and analyses. Flame is a collection of C# libraries for building tools that read, analyze, optimize and write managed languages.
-
-- flame-ir website
- https://github.com/jonathanvdc/flame
-- flame-ir is developed on <a href="https://github.com/jonathanvdc/flame">GitHub</a> and has 45 stars
-- flame-ir first developed in <a href="../lists/originCommunities.html#mcGillUniversity">McGill University</a>
-
-<br>
-
-endColumns
-
-keyboardNav setlx.html toki-sona.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 6120
+ committers 2
+ files 463

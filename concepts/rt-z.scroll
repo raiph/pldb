@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RT-Z
+import ../measures/conceptPage.scroll
+id RT-Z
+appeared 1999
+type pl
+reference https://semanticscholar.org/paper/fc72ec7e7451bc3ebf46f1eb85a7b4a8a71bcf78
+country Germany
+originCommunity https://web.archive.org/web/20160601150532/https://www.first.fraunhofer.de/kontakt
 
-title RT-Z - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8161
 
-html
- <a class="trueBaseThemePreviousItem" href="rt-cdl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="saal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rt-z.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rt-z" class="material-symbols-outlined">edit</a></div>
-
-* RT-Z is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3990 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- RT-Z first developed in <a href="../lists/originCommunities.html#httpsWebArchiveOrgWeb20160601150532HttpsWwwFirstFraunhoferDeKontakt">https://web.archive.org/web/20160601150532/https://www.first.fraunhofer.de/kontakt</a>
-- RT-Z on HOPL
- https://hopl.info/showlanguage.prx?exp=8161
-- Read more about RT-Z on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fc72ec7e7451bc3ebf46f1eb85a7b4a8a71bcf78 1.
-
-<br>
-
-endColumns
-
-keyboardNav rt-cdl.html saal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

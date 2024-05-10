@@ -1,42 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Flix
+import ../measures/conceptPage.scroll
+id Flix
+appeared 2016
+type pl
+creators Magnus Madsen
+website https://flix.dev/
+country Denmark
+originCommunity https://github.com/flix
 
-title Flix - Programming language
- hidden
+githubRepo https://github.com/flix/flix
+ stars 1645
+ forks 112
+ subscribers 20
+ created 2015
+ updated 2023
+ description The Flix Programming Language
+ issues 457
 
-html
- <a class="trueBaseThemePreviousItem" href="flow9.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wasp-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flix.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://flix.dev/" class="material-symbols-outlined">home</a> <a href="https://github.com/flix/flix" class="material-symbols-outlined">code</a> <a href="/edit.html?id=flix" class="material-symbols-outlined">edit</a></div>
-
-* Flix is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Magnus Madsen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#magnusMadsen Magnus Madsen
-
-codeWithHeader Source code:
- git clone https://github.com/flix/flix
-
-dashboard
- #892 <span title="TotalRank: 1455 Jobs: 103 Users: 366 Facts: 1787 Links: 986">on PLDB</span>
- 8 Years Old
-
-* The Flix Programming Language
-
-- Flix website
- https://flix.dev/
-- Flix is developed on <a href="https://github.com/flix/flix">GitHub</a> and has 1,645 stars
-- Flix first developed in <a href="../lists/originCommunities.html#httpsGithubComFlix">https://github.com/flix</a>
-
-<br>
-
-endColumns
-
-keyboardNav flow9.html wasp-lang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 8297
+ committers 68
+ files 942

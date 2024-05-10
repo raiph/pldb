@@ -1,39 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IBEX
+import ../measures/conceptPage.scroll
+id IBEX
+appeared 2002
+type pl
+conceptDescription IBEX is a language that extends BINDEX with two new primitive datatypes (booleans and symbols) and some constructs controlled by booleans. 
+reference http://cs.wellesley.edu/~cs251/spring02/ibex.pdf
+country United States
+originCommunity Wellesley College
 
-title IBEX - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2102
 
-html
- <a class="trueBaseThemePreviousItem" href="heron.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ifo.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ibex.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ibex" class="material-symbols-outlined">edit</a></div>
-
-* IBEX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3101 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 22 Years Old
-
-* IBEX is a language that extends BINDEX with two new primitive datatypes (booleans and symbols) and some constructs controlled by booleans. 
-
-- IBEX first developed in <a href="../lists/originCommunities.html#wellesleyCollege">Wellesley College</a>
-- IBEX on HOPL
- https://hopl.info/showlanguage.prx?exp=2102
-- Read more about IBEX on the web: 1.
- http://cs.wellesley.edu/~cs251/spring02/ibex.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav heron.html ifo.html
-
-import ../footer.scroll
+isbndb 0

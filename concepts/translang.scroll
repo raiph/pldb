@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TRANSLANG
+import ../measures/conceptPage.scroll
+id TRANSLANG
+appeared 1970
+type pl
+reference http://www.bitsavers.org/pdf/burroughs/military/D_Machine/TR_70-8_Microprogramming_Manual_for_Interpreter_Based_Systems_Nov70.pdf
 
-title TRANSLANG - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2585
 
-html
- <a class="trueBaseThemePreviousItem" href="transcode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="trio.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/translang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=translang" class="material-symbols-outlined">edit</a></div>
-
-* TRANSLANG is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3443 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- TRANSLANG on HOPL
- https://hopl.info/showlanguage.prx?exp=2585
-- Read more about TRANSLANG on the web: 1.
- http://www.bitsavers.org/pdf/burroughs/military/D_Machine/TR_70-8_Microprogramming_Manual_for_Interpreter_Based_Systems_Nov70.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav transcode.html trio.html
-
-import ../footer.scroll
+semanticScholar 0

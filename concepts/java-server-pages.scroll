@@ -1,49 +1,78 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSP
+import ../measures/conceptPage.scroll
+id JSP
+appeared 1999
+type template
+documentation https://docs.oracle.com/javaee/5/tutorial/doc/bnajo.html
+country United States
+originCommunity Oracle Corporation
 
-title JSP - Template language
- hidden
+wikipedia https://en.wikipedia.org/wiki/JavaServer_Pages
+ example
+  The value of "variable" in the object "javabean" is ${javabean.variable}.
+ related html xml php asp java jvm apache-velocity java-ee-version-history thymeleaf
+ summary JavaServer Pages (JSP) is a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types. Released in 1999 by Sun Microsystems, JSP is similar to PHP and ASP, but it uses the Java programming language. To deploy and run JavaServer Pages, a compatible web server with a servlet container, such as Apache Tomcat or Jetty, is required.
+ backlinksCount 391
+ pageId 42910
+ created 2002
+ revisionCount 1033
+ dailyPageViews 549
+ appeared 1999
 
-html
- <a class="trueBaseThemePreviousItem" href="blitzbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="limbo.html">&gt;</a>
+githubLanguage Java Server Pages
+ fileExtensions jsp
+ trendingProjectsCount 0
+ type programming
+ group Java
+ aceMode jsp
+ codemirrorMode htmlembedded
+ codemirrorMimeType application/x-jsp
+ tmScope text.html.jsp
+ aliases jsp
+ repos 729
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/java-server-pages.pldb
+pygmentsHighlighter Java Server Page
+ filename templates.py
+ fileExtensions jsp
+linguistGrammarRepo https://github.com/textmate/java.tmbundle
+ firstCommit 2004
+ lastCommit 2018
+ committerCount 21
+ commitCount 283
 
-startColumns 4
+fileType text
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://docs.oracle.com/javaee/5/tutorial/doc/bnajo.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/JavaServer_Pages"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=java-server-pages" class="material-symbols-outlined">edit</a></div>
+isbndb 28
+ year|publisher|title|authors|isbn13
+ 2001|Apress|Beginning JSP Web Development|Jayson Falkner and John Timney and Casey Kochmer and Romin Irani and Perrumal Krishnaraj and Meeraj Moidoo Kunnumpurath and Sathya Narayana Panduranga and Ben Galbraith|9781861002099
+ 2000|Apress|Professional JSP : Using JavaServer Pages, Servlets, EJB, JNDI, JDBC, XML, XSLT, and WML|Karl Avedal and Danny Ayers and Timothy Briggs and George Gonchar and Naufal Khan and Peter Henderson and Mac Holden and Andre Lei and Dan Malks and Sameer Tyagi and Stephan Osmont and Paul Siegmann and Gert Van Damme and Steve Wilkinson and Stefan Zeiger and John Zukowski and Ari Halberstadt and Carl Burnham and John Timney and Tom Myers and Alexander Nakhimovsky|9781861003621
+ 2002|Prentice Hall Ptr|JSP and Java: The Complete Guide to Website Development|Taylor, Art|9780130918130
+ 2002|Random House|CodeNotes for J2EE: EJB, JDBC, JSP and Servlets|Brill, Gregory|9780679647270
+ 2014|Brainy Software|Servlet, JSP and Spring MVC: A Tutorial (A Tutorial series)|Kurniawan, Budi and Deck, Paul|9781771970020
+ 2002|Sams Publishing|MySQL and JSP Web Applications: Data-Driven Programming Using Tomcat and MySQL|Turner, James|9780672323096
+ 2003|Morgan Kaufmann|JSTL: Practical Guide for JSP Programmers (The Practical Guides)|Spielman, Sue|9780126567557
+ 2002|Picnic Time|JSP Examples and Best Practices|Patzer, Andrew|9781590590201
+ 2002|Apress|XML Programming: Web Applications and Web Services With JSP and ASP|Alexander Nakhimovsky and Tom Myers|9781590590034
+ 1999|Apress|Professional Java XML Programming with servlets and JSP|Myers, Thomas J.|9781861002853
+ 2002|New Riders Pub|JSP and Tag Libraries for Web Development|Da Silva, Wellington L. S. and Silva, Wellington and da Silva, Wellington L.S.|9780735710955
+ 1990|Krieger Pub Co|Structured Programming With Cobol and Jsp|Thompson, John B.|9780862382452
+ 2003||Murach's Java Servlets And Jsp ( B/cd -rom)|Andrea Steelman|9788173669231
+ 2000|McGraw-Hill Education|Oracle8i Java Component Programming With EJB, CORBA AND JSP (Oracle Press)|Morisseau-Leroy, Nirva and Solomon, Martin K. and Basu, Julie|9780072133349
+ 20040510|Springer Nature|Beginning JSP 2|Sathya Narayana Panduranga; Vikram Goyal; Peter den Haan; Krishnaraj Perrumal; Lance Lavandowska|9781430206934
+ ||Systems Programming with Jsp|Sanden and Bo and Sandben|9789144220918
+ 19920615|Bloomsbury UK|Program Design Using JSP|M. J. King; J. P. Pardoe|9781349220816
+ 1985|Brookfield Pub Co|Systems Programming With Jsp|Bo Sanden|9780862380540
+ 1996|Springer|JSP for Practical Program Design|K. Dudman|9780387915043
+ 06/2014|Mike Murach & Associates|Murach's Java Servlets and JSP|Joel Murach, Michael Urban|9781890774875
+ 1989|Krieger Pub Co|Structured Programming With Cobol And Jsp (polytechnic Series)|John B. Thompson|9780862381547
+ 10/2019|BPB Publications|Web Applications using JSP (Java Server Page)|P. Karthik|9789388176200
+ 20141201|McGraw-Hill Higher Education (US)|Oracle8i Java Component Programming With EJB, CORBA AND JSP|Morisseau-Leroy, Nirva; Solomon, Martin; Basu, Julie|9780072127379
+ |Berkeley, Calif. : Osborne/mcgraw-hill, Cop. 2000|Oracle8i Java Component Programming With Ejb, Corba And Jsp||9780072127362
+ |Berkeley, Calif. : Osborne/McGraw-Hill, cop. 2000|Oracle8i Java component programming with EJB, CORBA and JSP||9780072127355
+ 2002|Wiley|Mastering Jsp Custom Tags And Tag Libraries (java Open Source Library)|James Goodwill|9780471213031
+ 2000|Ibm|Servlet And Jsp Programming With Ibm Websphere Studio And Visualage For Java (ibm Redbook)|Ibm Redbooks|9780738416083
+ 2001|Sybex, Incorporated|Java Developer's Guide To E-commerce With Xml And Jsp (developer's Handbook Series)|William Brogden and Chris Minnick|9781402846465
 
-* JSP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #176 <span title="TotalRank: 486 Jobs: 103 Users: 285 Facts: 436 Links: 98">on PLDB</span>
- 25 Years Old
- 729 <span title="JSP repos on GitHub.">Repos</span>
-
-* JavaServer Pages (JSP) is a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types. Released in 1999 by Sun Microsystems, JSP is similar to PHP and ASP, but it uses the Java programming language. To deploy and run JavaServer Pages, a compatible web server with a servlet container, such as Apache Tomcat or Jetty, is required.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/JavaServer_Pages Read more on Wikipedia...
-
-- JSP Wikipedia page
- https://en.wikipedia.org/wiki/JavaServer_Pages
-- JSP docs
- https://docs.oracle.com/javaee/5/tutorial/doc/bnajo.html
-- There are at least 729 JSP repos on <a href="https://github.com/search?q=language:Java Server Pages">GitHub</a>
-- JSP first developed in <a href="../lists/originCommunities.html#oracleCorporation">Oracle Corporation</a>
-- file extensions for JSP include jsp
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for JSP
-- GitHub supports <a href="https://github.com/textmate/java.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for JSP
-- See also: (9 related languages)<a href="html.html">HTML</a>, <a href="xml.html">XML</a>, <a href="php.html">PHP</a>, <a href="asp.html">ASP</a>, <a href="java.html">Java</a>, <a href="jvm.html">JVM</a>, <a href="apache-velocity.html">Velocity</a>, <a href="java-ee-version-history.html">Java EE version history</a>, <a href="thymeleaf.html">Thymeleaf</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/JavaServer_Pages'>Wikipedia</a>:
- The value of &quot;variable&quot; in the object &quot;javabean&quot; is ${javabean.variable}.
-
-endColumns
-
-keyboardNav blitzbasic.html limbo.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2008|GSP: Extending G-Code using JSP servlet technologies|10.1109/COASE.2008.4626499|1|0|S. Nagle and Jeff Wiegley|6d93074266b35df7da6f2c7cf06987235e670e2e

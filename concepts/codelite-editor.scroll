@@ -1,33 +1,4 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title codelite-editor
-
-title codelite-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="code-blocks-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="schrodingers-equation.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/codelite-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=codelite-editor" class="material-symbols-outlined">edit</a></div>
-
-* codelite-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #3641 on PLDB
- 18 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav code-blocks-editor.html schrodingers-equation.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id codelite-editor
+appeared 2006
+type editor

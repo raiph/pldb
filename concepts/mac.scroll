@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MIT Algebraic Compiler
+import ../measures/conceptPage.scroll
+id MIT Algebraic Compiler
+appeared 1957
+type pl
+reference https://en.wikipedia.org/wiki/J._Halcombe_Laning
+standsFor MIT Algebraic Compiler
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title MIT Algebraic Compiler - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=89
 
-html
- <a class="trueBaseThemePreviousItem" href="lygon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="madcap.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=mac" class="material-symbols-outlined">edit</a></div>
-
-* MIT Algebraic Compiler, aka MIT Algebraic Compiler, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1957.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1957 1957
-
-dashboard
- #4211 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 67 Years Old
-
-* 
-
-- MIT Algebraic Compiler first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- MIT Algebraic Compiler on HOPL
- https://hopl.info/showlanguage.prx?exp=89
-- Read more about MIT Algebraic Compiler on the web: 1.
- https://en.wikipedia.org/wiki/J._Halcombe_Laning 1.
-
-<br>
-
-endColumns
-
-keyboardNav lygon.html madcap.html
-
-import ../footer.scroll
+wordRank 1420

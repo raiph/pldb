@@ -1,53 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title specrtl
+import ../measures/conceptPage.scroll
+id specrtl
+appeared 2011
+type pl
+conceptDescription specRTL (Spec Register Transfer Language) is a language designed to replace the existing RTL form machine descriptions which along with C Code forms the backend of GCC.
+reference https://www.cse.iitb.ac.in/grc/software/specRTL/specRTL.pdf
+country India
+originCommunity Indian Institute of Technology, Bombay
 
-title specrtl - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="robots.txt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="keysight-vee.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/specrtl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=specrtl" class="material-symbols-outlined">edit</a></div>
-
-* specrtl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #2101 <span title="TotalRank: 2591 Jobs: 103 Users: 2838 Facts: 1502 Links: 986">on PLDB</span>
- 13 Years Old
-
-* specRTL (Spec Register Transfer Language) is a language designed to replace the existing RTL form machine descriptions which along with C Code forms the backend of GCC.
-
-- specrtl first developed in <a href="../lists/originCommunities.html#indianInstituteOfTechnologyBombay">Indian Institute of Technology, Bombay</a>
-- Read more about specrtl on the web: 1.
- https://www.cse.iitb.ac.in/grc/software/specRTL/specRTL.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  concrete *cmp_ccno_1.insn instantiates set_compare
  {
-   root(reg(NULL:FLAGS_REG),0=nonimmediate_operand:SWI:&quot;,?m&quot;,
- 1=const0_operand:SWI:&quot;&quot;);
+   root(reg(NULL:FLAGS_REG),0=nonimmediate_operand:SWI:",?m",
+ 1=const0_operand:SWI:"");
  }
  {:
-   &quot;ix86_match_ccmode (insn, CCNOmode)&quot;
-   &quot;@
+   "ix86_match_ccmode (insn, CCNOmode)"
+   "@
    test{}\t%0, %0
-   cmp{}\t{%1, %0|%0,%1}&quot;
-   [(set_attr &quot;type&quot; &quot;test,icmp&quot;)
-   (set_attr &quot;length_immediate&quot; &quot;0,1&quot;)
-   (set_attr &quot;mode&quot; &quot;&quot;)]
+   cmp{}\t{%1, %0|%0,%1}"
+   [(set_attr "type" "test,icmp")
+   (set_attr "length_immediate" "0,1")
+   (set_attr "mode" "")]
  :}
 
-endColumns
-
-keyboardNav robots.txt.html keysight-vee.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

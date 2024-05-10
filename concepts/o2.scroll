@@ -1,37 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title o2
+import ../measures/conceptPage.scroll
+id o2
+appeared 1989
+type pl
+conceptDescription Database programming language.
+reference https://pdfs.semanticscholar.org/19bb/07b76a8b0dd867db5a1f6237d19458fec311.pdf?_ga=2.74848722.1732224894.1541658055-1663431151.1540068998
+country France
+originCommunity GIP Altair Group
 
-title o2 - Programming language
- hidden
+fileType text
+centralPackageRepositoryCount 0
 
-html
- <a class="trueBaseThemePreviousItem" href="nodal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oopsp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/o2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=o2" class="material-symbols-outlined">edit</a></div>
-
-* o2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3112 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 35 Years Old
-
-* Database programming language.
-
-- o2 first developed in <a href="../lists/originCommunities.html#gipAltairGroup">GIP Altair Group</a>
-- Read more about o2 on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/19bb/07b76a8b0dd867db5a1f6237d19458fec311.pdf?_ga=2.74848722.1732224894.1541658055-1663431151.1540068998 1.
-
-<br>
-
-endColumns
-
-keyboardNav nodal.html oopsp.html
-
-import ../footer.scroll
+isbndb 0

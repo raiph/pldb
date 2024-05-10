@@ -1,42 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Zoem
+import ../measures/conceptPage.scroll
+id Zoem
+appeared 2005
+type pl
+website http://micans.org/zoem/
 
-title Zoem - Programming language
- hidden
+rijuRepl https://riju.codes/zoem
+ example
+  \inform{Hello, world!}
+  
 
-html
- <a class="trueBaseThemePreviousItem" href="typedefs.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="air.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zoem.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://micans.org/zoem/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/zoem" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=zoem" class="material-symbols-outlined">edit</a></div>
-
-* Zoem is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #2850 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 19 Years Old
-
-* Try now: <a href="https://riju.codes/zoem">Riju</a>
-
-* 
-
-- Zoem website
- http://micans.org/zoem/
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/zoem'>Riju</a>:
- \inform{Hello, world!}
- 
-
-endColumns
-
-keyboardNav typedefs.html air.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rbasic
-
-title rbasic - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="quty.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rec-sm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rbasic.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rbasic" class="material-symbols-outlined">edit</a></div>
-
-* rbasic is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985 by Mike Welch.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#mikeWelch Mike Welch
-
-dashboard
- #3974 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* RBASIC was an in-house language, written by Mike Welch of Hemet, California, in 1985, for Diversified Data Design (DDD), currently in Culver City, California, for use at DDD's customer Medi-Sec, formerly of Santa Monica, CA. DDD was run by Horace Clark at the time, Medi-Sec was run by Neal Green. RBASIC was a dialect of BASIC with an included relational database.
-
-- rbasic first developed in <a href="../lists/originCommunities.html#diversifiedDataDesign">Diversified Data Design</a>
-- Read more about rbasic on the web: 1.
- http://www.troubleshooters.com/lpm/200406/200406.htm 1.
-
-<br>
-
-endColumns
-
-keyboardNav quty.html rec-sm.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id rbasic
+appeared 1985
+type pl
+creators Mike Welch
+conceptDescription RBASIC was an in-house language, written by Mike Welch of Hemet, California, in 1985, for Diversified Data Design (DDD), currently in Culver City, California, for use at DDD's customer Medi-Sec, formerly of Santa Monica, CA. DDD was run by Horace Clark at the time, Medi-Sec was run by Neal Green. RBASIC was a dialect of BASIC with an included relational database.
+reference http://www.troubleshooters.com/lpm/200406/200406.htm
+country United States
+originCommunity Diversified Data Design

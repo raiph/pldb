@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title multiaddr
+import ../measures/conceptPage.scroll
+id multiaddr
+appeared 2014
+type schema
+creators Juan Batiz-Benet
+website http://multiformats.io/multiaddr/
+country Various
+originCommunity https://github.com/multiformats
 
-title multiaddr - Schema
- hidden
+relatedConcepts url
 
-html
- <a class="trueBaseThemePreviousItem" href="mangle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="business-basic.html">&gt;</a>
+githubRepo https://github.com/multiformats/multiaddr
+ firstCommit 2014
+ stars 329
+ forks 73
+ subscribers 49
+ created 2014
+ updated 2022
+ description Composable and future-proof network addresses
+ issues 25
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/multiaddr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://multiformats.io/multiaddr/" class="material-symbols-outlined">home</a> <a href="https://github.com/multiformats/multiaddr" class="material-symbols-outlined">code</a> <a href="/edit.html?id=multiaddr" class="material-symbols-outlined">edit</a></div>
-
-* multiaddr is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+schema">schema</a> created in 2014 by Juan Batiz-Benet.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#juanBatizBenet Juan Batiz-Benet
-
-codeWithHeader Source code:
- git clone https://github.com/multiformats/multiaddr
-
-dashboard
- #1288 <span title="TotalRank: 1821 Jobs: 103 Users: 732 Facts: 1591 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Composable and future-proof network addresses
-
-- multiaddr website
- http://multiformats.io/multiaddr/
-- multiaddr is developed on <a href="https://github.com/multiformats/multiaddr">GitHub</a> and has 329 stars
-- multiaddr first developed in <a href="../lists/originCommunities.html#httpsGithubComMultiformats">https://github.com/multiformats</a>
-- See also: (1 related languages)<a href="url.html">URL</a>
-
-<br>
-
-endColumns
-
-keyboardNav mangle.html business-basic.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 144
+ committers 50
+ files 14

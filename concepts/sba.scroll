@@ -1,42 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SBA
+import ../measures/conceptPage.scroll
+id SBA
+appeared 1977
+type pl
+creators Moshe M. Zloof and S. Peter de Jong
+reference https://semanticscholar.org/paper/143c5493bb3b8cb14ea07f77b6aa02a2e79ebe14
+country United States
+originCommunity International Business Machines Corporation
 
-title SBA - Programming language
- hidden
+supersetOf query-by-example
 
-html
- <a class="trueBaseThemePreviousItem" href="rbscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scan.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=4747
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sba.pldb
+centralPackageRepositoryCount 0
 
-startColumns 4
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2010|Bibliogov|Sba Reauthorization: Programming For Success|United States Congress Senate Committee|9781240498611
+ 2004|Government Printing Office|Sba Reauthorization: Programming For Success: Hearing Before The Committee On Small Business And Entrepreneurship, United States Senate, On|United States|9780160719622
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sba" class="material-symbols-outlined">edit</a></div>
-
-* SBA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977 by Moshe M. Zloof and S. Peter de Jong.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
- link ../lists/creators.html#mosheMZloof Moshe M. Zloof
- link ../lists/creators.html#sPeterDeJong S. Peter de Jong
-
-dashboard
- #2732 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- SBA is a superset of <a href="/concepts/query-by-example.html">Query by Example</a>
-- SBA first developed in <a href="../lists/originCommunities.html#internationalBusinessMachinesCorporation">International Business Machines Corporation</a>
-- SBA on HOPL
- https://hopl.info/showlanguage.prx?exp=4747
-- Read more about SBA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/143c5493bb3b8cb14ea07f77b6aa02a2e79ebe14 1.
-
-<br>
-
-endColumns
-
-keyboardNav rbscript.html scan.html
-
-import ../footer.scroll
+semanticScholar 0

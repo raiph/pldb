@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DYSTAL
+import ../measures/conceptPage.scroll
+id DYSTAL
+appeared 1965
+type pl
+reference https://semanticscholar.org/paper/825ec2cdb3b9961d3a7457c8e3a4aaa2231bb5e3
+country United States
+originCommunity Brown University
 
-title DYSTAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=401
 
-html
- <a class="trueBaseThemePreviousItem" href="dsl-90.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="eas-e.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dystal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dystal" class="material-symbols-outlined">edit</a></div>
-
-* DYSTAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
-
-dashboard
- #3641 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 59 Years Old
-
-* 
-
-- DYSTAL first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-- DYSTAL on HOPL
- https://hopl.info/showlanguage.prx?exp=401
-- Read more about DYSTAL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/825ec2cdb3b9961d3a7457c8e3a4aaa2231bb5e3 1.
-
-<br>
-
-endColumns
-
-keyboardNav dsl-90.html eas-e.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

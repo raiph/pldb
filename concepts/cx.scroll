@@ -1,44 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cx
+import ../measures/conceptPage.scroll
+id cx
+appeared 2015
+type pl
+website http://cx-lang.org
+country Finland
+originCommunity https://github.com/cx-language
+domainName cx-lang.org
+ registered 2021
 
-title cx - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cleanlang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edgeql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://cx-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=cx" class="material-symbols-outlined">edit</a></div>
-
-* cx is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2894 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- cx website
- http://cx-lang.org
-- cx first developed in <a href="../lists/originCommunities.html#httpsGithubComCxLanguage">https://github.com/cx-language</a>
-- <a href="http://cx-lang.org">cx-lang.org</a> was registered in 2021
-
-<br>
-
-endColumns
-
-## HackerNews discussions of cx
-
-pipeTable
- title|titleLink|date|score|comments
- The Cx programming language: digital hardware design for developers|https://news.ycombinator.com/item?id=8915977|01/20/2015|106|47
-
-keyboardNav cleanlang.html edgeql.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 8915977|The Cx programming language: digital hardware design for developers|http://cx-lang.org/|2015-01-20 08:32:26 UTC|1421742746|jclis|47|106

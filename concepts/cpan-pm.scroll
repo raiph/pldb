@@ -1,38 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title cpan-pm
+import ../measures/conceptPage.scroll
+id cpan-pm
+appeared 1995
+type packageManager
+website https://www.cpan.org/
+country Various
+originCommunity https://pause.perl.org/pause/query?ACTION=who_admin
+domainName cpan.org
+ registered 1998
+ awisRank
+  2022 353560
 
-title cpan-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cocoapods-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="crates-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cpan-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.cpan.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=cpan-pm" class="material-symbols-outlined">edit</a></div>
-
-* cpan-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3190 on PLDB
- 29 Years Old
-
-* 
-
-- cpan-pm website
- https://www.cpan.org/
-- cpan-pm first developed in <a href="../lists/originCommunities.html#httpsPausePerlOrgPauseQueryActionWhoAdmin">https://pause.perl.org/pause/query?ACTION=who_admin</a>
-- <a href="https://www.cpan.org/">cpan.org</a> was registered in 1998
-
-<br>
-
-endColumns
-
-keyboardNav cocoapods-pm.html crates-pm.html
-
-import ../footer.scroll
+packageCount 176876
+packageAuthors 13699
+forLanguages perl

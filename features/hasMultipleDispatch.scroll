@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasMultilineStrings.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasMultipleInheritance.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>:
  collide_with(x::Asteroid, y::Asteroid) = ... # deal with asteroid hitting asteroid
@@ -35,9 +35,7 @@ codeWithHeader Example from <a href="../concepts/common-lisp.html">Common Lisp</
 
 * Languages *with* Multiple Dispatch include <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/smalltalk.html">Smalltalk</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/dylan.html">Dylan</a>
 
-* Languages *without* Multiple Dispatch include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>
-
-* This question asks: Does the language support multiple dispatch?
+* Languages *without* Multiple Dispatch include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Multiple Dispatch on the web: 1.
  https://en.wikipedia.org/wiki/Multiple_dispatch 1.

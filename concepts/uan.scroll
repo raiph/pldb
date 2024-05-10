@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UAN
+import ../measures/conceptPage.scroll
+id UAN
+appeared 1990
+type pl
+reference http://www.dei.isep.ipp.pt/~jpp/ihm/UANArticle.pdf
 
-title UAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1605
 
-html
- <a class="trueBaseThemePreviousItem" href="u-datalog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="uberscript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/uan.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=uan" class="material-symbols-outlined">edit</a></div>
-
-* UAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3259 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- UAN on HOPL
- https://hopl.info/showlanguage.prx?exp=1605
-- Read more about UAN on the web: 1.
- http://www.dei.isep.ipp.pt/~jpp/ihm/UANArticle.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav u-datalog.html uberscript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dsym
-
-title dsym - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dm-1.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ebg.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dsym.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dsym" class="material-symbols-outlined">edit</a></div>
-
-* dsym is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #3885 on PLDB
- 13 Years Old
-
-* On Apple platforms, debug symbols are optionally emitted during the build process as dSYM file(s). Apple uses the term "symbolicate" to refer to the replacement of addresses in diagnostic files with human readable values. If you are distributing your app via the App Store, or conducting a beta test using Test Flight, you will be given the option of including the dSYM file when uploading your archive to iTunes Connect. In the submission dialog, check “Include app symbols for your application…”. Uploading your dSYM file is necessary to receive crash reports collected from TestFlight users and customers who have opted to share diagnostic data.
-
-- dsym first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- Read more about dsym on the web: 1.
- https://developer.apple.com/library/archive/technotes/tn2151/_index.html#//apple_ref/doc/uid/DTS40008184-CH1-INTRODUCTION 1.
-
-<br>
-
-endColumns
-
-keyboardNav dm-1.html ebg.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id dsym
+appeared 2011
+type binaryDataFormat
+conceptDescription On Apple platforms, debug symbols are optionally emitted during the build process as dSYM file(s). Apple uses the term "symbolicate" to refer to the replacement of addresses in diagnostic files with human readable values. If you are distributing your app via the App Store, or conducting a beta test using Test Flight, you will be given the option of including the dSYM file when uploading your archive to iTunes Connect. In the submission dialog, check “Include app symbols for your application…”. Uploading your dSYM file is necessary to receive crash reports collected from TestFlight users and customers who have opted to share diagnostic data.
+reference https://developer.apple.com/library/archive/technotes/tn2151/_index.html#//apple_ref/doc/uid/DTS40008184-CH1-INTRODUCTION
+country United States
+originCommunity Apple

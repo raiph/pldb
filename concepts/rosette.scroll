@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Rosette
+import ../measures/conceptPage.scroll
+id Rosette
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/ba979088994e5e3f6a4e9162490bef793a565024
+country United States
+originCommunity Microelectronics and Computer Technology Corporation or MCC
 
-title Rosette - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6310
 
-html
- <a class="trueBaseThemePreviousItem" href="rol2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rt-aslan.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rosette.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rosette" class="material-symbols-outlined">edit</a></div>
-
-* Rosette is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3987 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- Rosette first developed in <a href="../lists/originCommunities.html#microelectronicsAndComputerTechnologyCorporationOrMcc">Microelectronics and Computer Technology Corporation or MCC</a>
-- Rosette on HOPL
- https://hopl.info/showlanguage.prx?exp=6310
-- Read more about Rosette on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ba979088994e5e3f6a4e9162490bef793a565024 1.
-
-<br>
-
-endColumns
-
-keyboardNav rol2.html rt-aslan.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

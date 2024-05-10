@@ -1,50 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title walt
+import ../measures/conceptPage.scroll
+id walt
+appeared 2017
+type pl
+conceptDescription Walt is a JavaScript-like syntax for WebAssembly text format
+website https://ballercat.github.io/walt/
 
-title walt - Programming language
- hidden
+compilesTo wasm
 
-html
- <a class="trueBaseThemePreviousItem" href="whiley.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nqc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/walt.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ballercat.github.io/walt/" class="material-symbols-outlined">home</a> <a href="https://github.com/ballercat/walt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=walt" class="material-symbols-outlined">edit</a></div>
-
-* walt is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/ballercat/walt
-
-dashboard
- #732 <span title="TotalRank: 1297 Jobs: 103 Users: 208 Facts: 995 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Walt is a JavaScript-like syntax for WebAssembly text format
-
-- walt website
- https://ballercat.github.io/walt/
-- walt is developed on <a href="https://github.com/ballercat/walt">GitHub</a> and has 4,565 stars
-- walt compiles to <a href="wasm.html">WebAssembly</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  export function fibonacci(n: i32): i32 {
-  if (n &lt;= 0) return 0;
+  if (n <= 0) return 0;
  
   if (n == 1) return 1;
  
   return fibonacci(n - 1) + fibonacci(n - 2);
  }
 
-endColumns
+githubRepo https://github.com/ballercat/walt
+ firstCommit 2017
+ stars 4565
+ forks 154
+ subscribers 119
+ created 2017
+ updated 2022
+ description :zap: Walt is a JavaScript-like syntax for WebAssembly text format :zap:
+ issues 27
 
-keyboardNav whiley.html nqc.html
+repoStats
+ firstCommit 2017
+ commits 506
+ committers 30
+ files 356
 
-import ../footer.scroll
+fileType text
+wordRank 8707
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0
+
+semanticScholar 0

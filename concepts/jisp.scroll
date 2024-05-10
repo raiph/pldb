@@ -1,48 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jisp
+import ../measures/conceptPage.scroll
+id Jisp
+appeared 2014
+type pl
+creators Nelo Mitranim
+website https://mitranim.com/jisp/
+fileExtensions jisp
+country Unknown
+originCommunity https://github.com/mitranim/jisp/issues
 
-title Jisp - Programming language
- hidden
+keywords car head cdr tail init last let isa insta any prn
 
-html
- <a class="trueBaseThemePreviousItem" href="l2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mys.html">&gt;</a>
+githubRepo https://github.com/mitranim/jisp
+ stars 125
+ forks 9
+ subscribers 6
+ created 2014
+ updated 2015
+ description Lisp-style language that compiles to JavaScript
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mitranim.com/jisp/" class="material-symbols-outlined">home</a> <a href="https://github.com/mitranim/jisp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jisp" class="material-symbols-outlined">edit</a></div>
-
-* Jisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Nelo Mitranim.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#neloMitranim Nelo Mitranim
-
-codeWithHeader Source code:
- git clone https://github.com/mitranim/jisp
-
-dashboard
- #1865 <span title="TotalRank: 2371 Jobs: 103 Users: 1282 Facts: 1669 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Lisp-style language that compiles to JavaScript
-
-- Jisp website
- https://mitranim.com/jisp/
-- Jisp is developed on <a href="https://github.com/mitranim/jisp">GitHub</a> and has 125 stars
-- Jisp first developed in <a href="../lists/originCommunities.html#httpsGithubComMitranimJispIssues">https://github.com/mitranim/jisp/issues</a>
-- file extensions for Jisp include jisp
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader Jisp <a href="../lists/keywords.html?filter=jisp">Keywords</a>
- car head cdr tail init last let isa insta any prn
-</div>
-
-endColumns
-
-keyboardNav l2.html mys.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 178
+ committers 1
+ files 58

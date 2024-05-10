@@ -1,44 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title paxScript
+import ../measures/conceptPage.scroll
+id paxScript
+appeared 2011
+type pl
+creators Alexander Baranovsky
+website https://web.archive.org/web/20150519155028/www.paxscript.com
+reference https://web.archive.org/web/20050204024219/https://www.virtlabs.com.ua/paxscript
+reference https://web.archive.org/web/20160526092626/http://www.delphipages.com/result.cfm?AC=900
+reference https://web.archive.org/web/20160526023044/http://www.delphipages.com/comp/tpaxscripter-5101.html
+country United States
+originCommunity VIRT Laboratory
 
-title paxScript - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8624
 
-html
- <a class="trueBaseThemePreviousItem" href="panther-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pkgconfig.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/paxscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20150519155028/www.paxscript.com" class="material-symbols-outlined">home</a> <a href="/edit.html?id=paxscript" class="material-symbols-outlined">edit</a></div>
-
-* paxScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Alexander Baranovsky.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#alexanderBaranovsky Alexander Baranovsky
-
-dashboard
- #2942 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- paxScript website
- https://web.archive.org/web/20150519155028/www.paxscript.com
-- paxScript first developed in <a href="../lists/originCommunities.html#virtLaboratory">VIRT Laboratory</a>
-- paxScript on HOPL
- https://hopl.info/showlanguage.prx?exp=8624
-- Read more about paxScript on the web: 1. 2. 3.
- https://web.archive.org/web/20050204024219/https://www.virtlabs.com.ua/paxscript 1.
- https://web.archive.org/web/20160526092626/http://www.delphipages.com/result.cfm?AC=900 2.
- https://web.archive.org/web/20160526023044/http://www.delphipages.com/comp/tpaxscripter-5101.html 3.
-
-<br>
-
-endColumns
-
-keyboardNav panther-lang.html pkgconfig.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

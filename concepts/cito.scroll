@@ -1,51 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ć
+import ../measures/conceptPage.scroll
+id Ć
+appeared 2011
+type pl
+creators Piotr Fusik
+conceptDescription Ć programming language. Translated automatically to C, C++, C#, Java, JavaScript, Python, Swift, TypeScript and OpenCL C.
+website https://github.com/pfusik/cito
+country Unknown
+originCommunity http://fusik.info/piotr/
 
-title Ć - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="berry.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="knitr.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cito.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/pfusik/cito" class="material-symbols-outlined">home</a> <a href="https://github.com/pfusik/cito" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cito" class="material-symbols-outlined">edit</a></div>
-
-* Ć is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Piotr Fusik.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#piotrFusik Piotr Fusik
-
-codeWithHeader Source code:
- git clone https://github.com/pfusik/cito
-
-dashboard
- #949 <span title="TotalRank: 1515 Jobs: 103 Users: 426 Facts: 1203 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Ć programming language. Translated automatically to C, C++, C#, Java, JavaScript, Python, Swift, TypeScript and OpenCL C.
-
-- Ć website
- https://github.com/pfusik/cito
-- Ć is developed on <a href="https://github.com/pfusik/cito">GitHub</a> and has 1,400 stars
-- Ć first developed in <a href="../lists/originCommunities.html#httpFusikInfoPiotr">http://fusik.info/piotr/</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  public class HelloCi
  {
      public static string GetMessage()
      {
-         return &quot;Hello, world!&quot;;
+         return "Hello, world!";
      }
  }
 
-endColumns
+githubRepo https://github.com/pfusik/cito
+ stars 1400
+ forks 40
+ subscribers 26
+ created 2011
+ updated 2022
+ description Ć programming language. Translated automatically to C, C++, C#, Java, JavaScript, Python, Swift, TypeScript and OpenCL C.
 
-keyboardNav berry.html knitr.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2011
+ commits 2070
+ committers 8
+ files 620

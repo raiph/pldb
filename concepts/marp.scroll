@@ -1,41 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Marp
+import ../measures/conceptPage.scroll
+id Marp
+appeared 2018
+type textMarkup
+conceptDescription Presentations in markdown
+website https://marp.app/
+country Japan
+originCommunity https://github.com/marp-team
 
-title Marp - Text markup language
- hidden
+supersetOf markdown
 
-html
- <a class="trueBaseThemePreviousItem" href="raptorjit.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/marp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://marp.app/" class="material-symbols-outlined">home</a> <a href="https://github.com/marp-team/marp-core" class="material-symbols-outlined">code</a> <a href="/edit.html?id=marp" class="material-symbols-outlined">edit</a></div>
-
-* Marp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/marp-team/marp-core
-
-dashboard
- #1126 <span title="TotalRank: 1683 Jobs: 103 Users: 594 Facts: 1203 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Presentations in markdown
-
-- Marp website
- https://marp.app/
-- Marp is developed on <a href="https://github.com/marp-team/marp-core">GitHub</a> and has 526 stars
-- Marp is a superset of <a href="/concepts/markdown.html">Markdown</a>
-- Marp first developed in <a href="../lists/originCommunities.html#httpsGithubComMarpTeam">https://github.com/marp-team</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ---
  theme: gaia
  size: 4:3
@@ -43,30 +17,17 @@ codeWithHeader Example from the web:
  
  # A traditional 4:3 slide
 
-endColumns
+githubRepo https://github.com/marp-team/marp-core
+ stars 526
+ forks 120
+ subscribers 9
+ created 2018
+ updated 2023
+ description The core of Marp converter
+ issues 12
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav raptorjit.html rc.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 1153
+ committers 5
+ files 68

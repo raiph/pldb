@@ -1,13 +1,14 @@
-import header.scroll
-title Oops! - Page not found
+permalink 404.html
 
-Sorry but we cannot find the requested page.
+import rootHeader.scroll
+title Page not found
+thinColumns 1
 
-import searchForm.scroll
+Sorry, the url you requested was not found.
 
-<script>document.getElementById("searchFormInput").value = (window.location.pathname + "").split("/").pop().replace(/\.[^\.]+$/, "").replace(/</g, "&lt;") </script>
+helpfulNotFound
 
-You can report a broken link on the GitHub.
- GIT_URL/issues report a broken link
+If you think there's a bug on our site, please email help@pldb.com or open an issue to let us know. Thank you!
+ https://github.com/breck7/pldb/issues open an issue
 
-import footer.scroll
+pageFooter

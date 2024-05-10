@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasAssignment.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasBinaryNumbers.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  async doSomething =&gt; await somethingElse()
 
 codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
@@ -45,11 +45,9 @@ codeWithHeader Example from <a href="../concepts/bog.html">bog</a>:
  let res = await foo_frame
  print(&quot;main finished:&quot;, res)
 
-* Languages *with* Async Await include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/bog.html">bog</a>
+* Languages *with* Async Await include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/bog.html">bog</a>
 
 * Languages *without* Async Await include <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>
-
-* This question asks: Does the language have an async/await construct?
 
 * Read more about Async Await on the web: 1.
  https://en.wikipedia.org/wiki/Async/await 1.

@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title popcorn-linux
+import ../measures/conceptPage.scroll
+id popcorn-linux
+appeared 1994
+type os
+website http://popcornlinux.org/
+reference https://sourceforge.net/p/popcornlinux/_list/git
+country United States
+originCommunity Virginia Tech
+domainName popcornlinux.org
+ registered 2012
 
-title popcorn-linux - Operating system
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="poly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pypi-pm.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/popcorn-linux.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://popcornlinux.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=popcorn-linux" class="material-symbols-outlined">edit</a></div>
-
-* popcorn-linux is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+os">operating system</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3410 on PLDB
- 30 Years Old
-
-* 
-
-- popcorn-linux website
- http://popcornlinux.org/
-- popcorn-linux first developed in <a href="../lists/originCommunities.html#virginiaTech">Virginia Tech</a>
-- <a href="http://popcornlinux.org/">popcornlinux.org</a> was registered in 2012
-- Read more about popcorn-linux on the web: 1.
- https://sourceforge.net/p/popcornlinux/_list/git 1.
-
-<br>
-
-endColumns
-
-keyboardNav poly.html pypi-pm.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

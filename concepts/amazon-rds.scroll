@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Amazon RDS
-
-title Amazon RDS - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="amazon-dynamodb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="amtran-70.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/amazon-rds.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=amazon-rds" class="material-symbols-outlined">edit</a></div>
-
-* Amazon RDS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #3162 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 15 Years Old
-
-* Relational database management system (RDBMS) as a service
-
-- Amazon RDS first developed in <a href="../lists/originCommunities.html#amazonWebServices">Amazon Web Services</a>
-
-<br>
-
-endColumns
-
-keyboardNav amazon-dynamodb.html amtran-70.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Amazon RDS
+appeared 2009
+type database
+conceptDescription Relational database management system (RDBMS) as a service
+country United States
+originCommunity Amazon Web Services

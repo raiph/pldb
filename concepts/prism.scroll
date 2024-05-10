@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PRISM
+import ../measures/conceptPage.scroll
+id PRISM
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/dbeccf2f4f7745707845d9dab06747f24164db27
+country United States
+originCommunity University of Maryland
 
-title PRISM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1053
 
-html
- <a class="trueBaseThemePreviousItem" href="principle-of-sufficient-reason.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prisma-schema-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prism.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prism" class="material-symbols-outlined">edit</a></div>
-
-* PRISM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3952 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- PRISM first developed in <a href="../lists/originCommunities.html#universityOfMaryland">University of Maryland</a>
-- PRISM on HOPL
- https://hopl.info/showlanguage.prx?exp=1053
-- Read more about PRISM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/dbeccf2f4f7745707845d9dab06747f24164db27 1.
-
-<br>
-
-endColumns
-
-keyboardNav principle-of-sufficient-reason.html prisma-schema-language.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

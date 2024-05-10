@@ -1,728 +1,476 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title C++
+import ../measures/conceptPage.scroll
+id C++
+appeared 1985
+type pl
+creators Bjarne Stroustrup
+website http://isocpp.org/
+documentation https://devdocs.io/cpp/
+emailList https://lists.isocpp.org/mailman/listinfo.cgi
+spec https://isocpp.org/std/the-standard
+country United States
+originCommunity Bell Labs
+domainName isocpp.org
+ registered 2012
+ awisRank
+  2022 210505
+releaseNotesUrl https://en.cppreference.com/w/cpp/language/history
 
-title C++ - Programming language
- hidden
+supersetOf c
 
-html
- <a class="trueBaseThemePreviousItem" href="html.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xml.html">&gt;</a>
+visualParadigm false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://isocpp.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/cpp" class="material-symbols-outlined">terminal</a> <a href="https://devdocs.io/cpp/" class="material-symbols-outlined">menu_book</a> <a href="https://lists.isocpp.org/mailman/listinfo.cgi" class="material-symbols-outlined">mail</a> <a href="https://en.wikipedia.org/wiki/C++"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://reddit.com/r/cpp"><svg role="img" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M 18.65625 4 C 16.558594 4 15 5.707031 15 7.65625 L 15 11.03125 C 12.242188 11.175781 9.742188 11.90625 7.71875 13.0625 C 6.945313 12.316406 5.914063 12 4.90625 12 C 3.816406 12 2.707031 12.355469 1.9375 13.21875 L 1.9375 13.25 L 1.90625 13.28125 C 1.167969 14.203125 0.867188 15.433594 1.0625 16.65625 C 1.242188 17.777344 1.898438 18.917969 3.03125 19.65625 C 3.023438 19.769531 3 19.882813 3 20 C 3 22.605469 4.574219 24.886719 6.9375 26.46875 C 9.300781 28.050781 12.488281 29 16 29 C 19.511719 29 22.699219 28.050781 25.0625 26.46875 C 27.425781 24.886719 29 22.605469 29 20 C 29 19.882813 28.976563 19.769531 28.96875 19.65625 C 30.101563 18.917969 30.757813 17.777344 30.9375 16.65625 C 31.132813 15.433594 30.832031 14.203125 30.09375 13.28125 L 30.0625 13.25 C 29.292969 12.386719 28.183594 12 27.09375 12 C 26.085938 12 25.054688 12.316406 24.28125 13.0625 C 22.257813 11.90625 19.757813 11.175781 17 11.03125 L 17 7.65625 C 17 6.675781 17.558594 6 18.65625 6 C 19.175781 6 19.820313 6.246094 20.8125 6.59375 C 21.65625 6.890625 22.75 7.21875 24.15625 7.3125 C 24.496094 8.289063 25.414063 9 26.5 9 C 27.875 9 29 7.875 29 6.5 C 29 5.125 27.875 4 26.5 4 C 25.554688 4 24.738281 4.535156 24.3125 5.3125 C 23.113281 5.242188 22.246094 4.992188 21.46875 4.71875 C 20.566406 4.402344 19.734375 4 18.65625 4 Z M 16 13 C 19.152344 13 21.964844 13.867188 23.9375 15.1875 C 25.910156 16.507813 27 18.203125 27 20 C 27 21.796875 25.910156 23.492188 23.9375 24.8125 C 21.964844 26.132813 19.152344 27 16 27 C 12.847656 27 10.035156 26.132813 8.0625 24.8125 C 6.089844 23.492188 5 21.796875 5 20 C 5 18.203125 6.089844 16.507813 8.0625 15.1875 C 10.035156 13.867188 12.847656 13 16 13 Z M 4.90625 14 C 5.285156 14 5.660156 14.09375 5.96875 14.25 C 4.882813 15.160156 4.039063 16.242188 3.53125 17.4375 C 3.277344 17.117188 3.125 16.734375 3.0625 16.34375 C 2.953125 15.671875 3.148438 14.976563 3.46875 14.5625 C 3.472656 14.554688 3.464844 14.539063 3.46875 14.53125 C 3.773438 14.210938 4.3125 14 4.90625 14 Z M 27.09375 14 C 27.6875 14 28.226563 14.210938 28.53125 14.53125 C 28.535156 14.535156 28.527344 14.558594 28.53125 14.5625 C 28.851563 14.976563 29.046875 15.671875 28.9375 16.34375 C 28.875 16.734375 28.722656 17.117188 28.46875 17.4375 C 27.960938 16.242188 27.117188 15.160156 26.03125 14.25 C 26.339844 14.09375 26.714844 14 27.09375 14 Z M 11 16 C 9.894531 16 9 16.894531 9 18 C 9 19.105469 9.894531 20 11 20 C 12.105469 20 13 19.105469 13 18 C 13 16.894531 12.105469 16 11 16 Z M 21 16 C 19.894531 16 19 16.894531 19 18 C 19 19.105469 19.894531 20 21 20 C 22.105469 20 23 19.105469 23 18 C 23 16.894531 22.105469 16 21 16 Z M 21.25 21.53125 C 20.101563 22.597656 18.171875 23.28125 16 23.28125 C 13.828125 23.28125 11.898438 22.589844 10.75 21.65625 C 11.390625 23.390625 13.445313 25 16 25 C 18.554688 25 20.609375 23.398438 21.25 21.53125 Z"/></svg></a> <a href="https://twitter.com/isocpp"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=cpp" class="material-symbols-outlined">edit</a></div>
-
-* C++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985 by Bjarne Stroustrup.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
- link ../lists/creators.html#bjarneStroustrup Bjarne Stroustrup
-
-dashboard
- #7 <span title="TotalRank: 17 Jobs: 5 Users: 4 Facts: 8 Links: 33">on PLDB</span>
- 39 Years Old
- 2m <span title="C++ repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/cpp">Riju</a> · <a href="https://repl.it/languages/cpp">Replit</a>
-
-monacoEditor cpp
- // Type your code here, or load an example.
- int square(int num) {
-     return num * num;
- }
-
-* C++ ( pronounced cee plus plus) is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation. It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/C++ Read more on Wikipedia...
-
-- C++ website
- http://isocpp.org/
-- C++ Wikipedia page
- https://en.wikipedia.org/wiki/C++
-- C++ docs
- https://devdocs.io/cpp/
-- C++ specs
- https://isocpp.org/std/the-standard
-- C++ mailing list
- https://lists.isocpp.org/mailman/listinfo.cgi
-- There are at least 2,161,625 C++ repos on <a href="https://github.com/search?q=language:C++">GitHub</a>
-- C++ is a superset of <a href="/concepts/c.html">C</a>
-- C++ first developed in <a href="../lists/originCommunities.html#bellLabs">Bell Labs</a>
-- PLDB estimates there are currently 61k job openings for C++ programmers.
-- file extensions for C++ include cpp, c++, cc, cp, cxx, h, h++, hh, hpp, hxx, inc, inl, ino, ipp, ixx, re, tcc, tpp, C, H and CPP
-- C++ on Twitter
- https://twitter.com/isocpp
-- Recurring conference about C++: <a href="https://cppcon.org/">CppCon</a>,<a href="https://cppcon.org">CppCon</a>
-- The  Google BigQuery Public Dataset GitHub snapshot shows 171k users using C++ in 278k repos on <a href="https://api.github.com/search/repositories?q=language:C++">GitHub</a>
-- Check out the 204 <a href="https://www.meetup.com/topics/c/">C++ meetup groups</a> on Meetup.com.
-- There are 220,359 members in the <a href="https://reddit.com/r/cpp">C++ subreddit</a>
-- There are 46,028 <a href="https://projecteuler.net/language=C/C++">Project Euler</a> users using C++
-- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> C++ programmers reported a median salary of $54,049. 24% of respondents reported using C++. 20,057 programmers reported using C++, and 15,249 said they wanted to use it
-- C++ is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
-- C++ on HOPL
- https://hopl.info/showlanguage.prx?exp=1202
-- C++ ranks #4 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- C++ Ubuntu package
- https://packages.ubuntu.com/jammy/g++
-- <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/cpp">grammar</a> for C++
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/cpp">package</a> for syntax highlighting C++
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/c_cpp.py">syntax highlighting</a> for C++
-- GitHub supports <a href="https://github.com/textmate/c.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for C++
-- C++ appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- PLDB has 2 <a href="jupyter-notebook.html">Jupyter</a> Kernels for C++: <a href="https://github.com/root-mirror/cling">github.com</a>, <a href="https://github.com/QuantStack/xeus-cling">github.com</a>
-- Annual Reports for C++
- https://isocpp.org/about/annual-reports
-- Release Notes for C++
- https://en.cppreference.com/w/cpp/language/history
-- Official Blog page for C++
- https://www.isocpp.org/blog
-- Events page for C++
- https://isocpp.org/blog/category/events
-- Indeed.com has 22,237 matches for <a href="https://www.indeed.com/jobs?q=c++ engineer">"c++ engineer"</a>.
-- <a href="http://isocpp.org/">isocpp.org</a> was registered in 2012
-- See also: (21 related languages)<a href="ada.html">Ada</a>, <a href="algol-68.html">ALGOL 68</a>, <a href="c.html">C</a>, <a href="clu.html">CLU</a>, <a href="ml.html">ML</a>, <a href="simula.html">Simula</a>, <a href="python.html">Python</a>, <a href="csharp.html">C#</a>, <a href="chapel.html">Chapel</a>, <a href="d.html">D</a>, <a href="java.html">Java</a>, <a href="lua.html">Lua</a>, <a href="perl.html">Perl</a>, <a href="php.html">PHP</a>, <a href="rust.html">Rust</a>, <a href="nim.html">Nim</a>, <a href="sql.html">SQL</a>, <a href="bcpl.html">BCPL</a>, <a href="unix.html">Unix</a>, <a href="assembly-language.html">Assembly language</a>, <a href="regex.html">Regular Expressions</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
- // Type your code here, or load an example.
- int square(int num) {
-     return num * num;
- }
-
-codeWithHeader Example from <a href='https://riju.codes/cpp'>Riju</a>:
- #include &lt;iostream&gt;
+hasPartialApplication true
+ // http://www.cplusplus.com/reference/functional/bind/
+ // bind example
+ #include <iostream>     // std::cout
+ #include <functional>   // std::bind
  
- int main() {
-   std::cout &lt;&lt; &quot;Hello, world!&quot; &lt;&lt; std::endl;
+ // a function: (also works with function object: std::divides<double> my_divide;)
+ double my_divide (double x, double y) {return x/y;}
+ 
+ struct MyPair {
+   double a,b;
+   double multiply() {return a*b;}
+ };
+ 
+ int main () {
+   using namespace std::placeholders;    // adds visibility of _1, _2, _3,...
+ 
+   // binding functions:
+   auto fn_five = std::bind (my_divide,10,2);               // returns 10/2
+   std::cout << fn_five() << '\n';                          // 5
+ 
+   auto fn_half = std::bind (my_divide,_1,2);               // returns x/2
+   std::cout << fn_half(10) << '\n';                        // 5
+ 
+   auto fn_invert = std::bind (my_divide,_2,_1);            // returns y/x
+   std::cout << fn_invert(10,2) << '\n';                    // 0.2
+ 
+   auto fn_rounding = std::bind<int> (my_divide,_1,_2);     // returns int(x/y)
+   std::cout << fn_rounding(10,3) << '\n';                  // 3
+ 
+   MyPair ten_two {10,2};
+ 
+   // binding members:
+   auto bound_member_fn = std::bind (&MyPair::multiply,_1); // returns x.multiply()
+   std::cout << bound_member_fn(ten_two) << '\n';           // 20
+ 
+   auto bound_member_data = std::bind (&MyPair::a,ten_two); // returns ten_two.a
+   std::cout << bound_member_data() << '\n';                // 10
+ 
    return 0;
  }
+hasSingleDispatch true
+hasMagicGettersAndSetters false
+hasConstructors true
+ class Foobar {
+  public:
+   Foobar(double r = 1.0,
+          double alpha = 0.0)  // Constructor, parameters with default values.
+       : x_(r * cos(alpha))    // <- Initializer list
+   {
+     y_ = r * sin(alpha);  // <- Normal assignment
+   }
  
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/C++.cpp'>hello-world</a>:
- #include &lt;iostream&gt;
+  private:
+   double x_;
+   double y_;
+ };
+ Foobar a,
+        b(3),
+        c(5, M_PI/4);
+hasIterators true
+ std::vector<int> items;
+ items.push_back(5);  // Append integer value '5' to vector 'items'.
+ items.push_back(2);  // Append integer value '2' to vector 'items'.
+ items.push_back(9);  // Append integer value '9' to vector 'items'.
  
- int main()
- {
-    std::cout &lt;&lt; &quot;Hello World&quot; &lt;&lt; std::endl;
+ for (auto it = items.begin(); it != items.end(); ++it) {  // Iterate through 'items'.
+   std::cout << *it;  // And print value of 'items' for current index.
  }
+hasFunctionOverloading true
+ // volume of a cube
+ int volume(const int s) {
+  return s*s*s;
+ }
+ // volume of a cylinder
+ double volume(const double r, const int h) {
+   return 3.1415926*r*r*static_cast<double>(h);
+ }
+hasNamespaces true
+ #include <iostream>
+ using namespace std;
  
+ // Variable created inside namespace
+ namespace first
+ {
+   int val = 500;
+ }
+  
+ // Global variable
+ int val = 100;
+ // Ways to do it: https://en.cppreference.com/w/cpp/language/namespace
+ namespace ns_name { declarations }
+ inline namespace ns_name { declarations }
+ namespace { declarations }
+ ns_name::name
+ using namespace ns_name;
+ using ns_name::name;
+ namespace name = qualified-namespace ;
+ namespace ns_name::inline(since C++20)(optional) name { declarations } 
+hasMultipleInheritance true
+hasOperatorOverloading true
+hasTemplates true
+ template <int length>
+ Vector<length>& Vector<length>::operator+=(const Vector<length>& rhs)
+ {
+     for (int i = 0; i < length; ++i)
+         value[i] += rhs.value[i];
+     return *this;
+ }
+hasVirtualFunctions true
+ class Animal {
+  public:
+   // Intentionally not virtual:
+   void Move(void) {
+     std::cout << "This animal moves in some way" << std::endl;
+   }
+   virtual void Eat(void) = 0;
+ };
+ 
+ // The class "Animal" may possess a definition for Eat if desired.
+ class Llama : public Animal {
+  public:
+   // The non virtual function Move is inherited but not overridden.
+   void Eat(void) override {
+     std::cout << "Llamas eat grass!" << std::endl;
+   }
+ };
+hasThreads true
+hasClasses true
+hasExceptions true
+hasAccessModifiers true
 
-codeWithHeader Example from <a href='http://helloworldcollection.de/#C++'>the Hello World Collection</a>:
+lineCommentToken //
+multiLineCommentTokens /* */
+printToken std::cout
+assignmentToken =
+stringToken "
+booleanTokens true false
+keywords #define #defined #elif #else #endif #error #if #ifdef #ifndef #include #line #pragma #undef alignas alignof and and_eq asm atomic_cancel atomic_commit atomic_noexcept auto bitand bitor bool break case catch char char16_t char32_t class compl concept const constexpr const_cast continue decltype default delete do double dynamic_cast else enum explicit export extern false final float for friend goto if inline int import long module mutable namespace new noexcept not not_eq nullptr operator or or_eq override private protected public register reinterpret_cast requires return short signed sizeof static static_assert static_cast struct switch synchronized template this thread_local throw transaction_safe transaction_safe_dynamic true try typedef typeid typename union unsigned using virtual void volatile wchar_t while xor xor_eq
+
+wikipedia https://en.wikipedia.org/wiki/C++
+ example
+  1 #include <iostream>
+  2 #include <vector>
+  3 #include <stdexcept>
+  4 
+  5 int main() {
+  6     try {
+  7         std::vector<int> vec{3, 4, 3, 1};
+  8         int i{vec.at(4)}; // Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)
+  9     }
+  10     // An exception handler, catches std::out_of_range, which is thrown by vec.at(4)
+  11     catch (std::out_of_range &e) {
+  12         std::cerr << "Accessing a non-existent element: " << e.what() << '\n';
+  13     }
+  14     // To catch any other standard library exceptions (they derive from std::exception)
+  15     catch (std::exception &e) {
+  16         std::cerr << "Exception thrown: " << e.what() << '\n';
+  17     }
+  18     // Catch any unrecognised exceptions (i.e. those which don't derive from std::exception)
+  19     catch (...) {
+  20         std::cerr << "Some fatal error\n";
+  21     }
+  22 }
+ related ada algol-68 c clu ml simula python csharp chapel d java lua perl php rust nim sql bcpl unix assembly-language regex
+ summary C++ ( pronounced cee plus plus) is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation. It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights. C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications, including desktop applications, servers (e.g. e-commerce, web search or SQL servers), and performance-critical applications (e.g. telephone switches or space probes). C++ is a compiled language, with implementations of it available on many platforms. Many vendors provide C++ compilers, including the Free Software Foundation, Microsoft, Intel, and IBM. C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2014 as ISO/IEC 14882:2014 (informally known as C++14). The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, ISO/IEC 14882:2003, standard. The current C++14 standard supersedes these and C++11, with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Bjarne Stroustrup at Bell Labs since 1979, as an extension of the C language as he wanted an efficient and flexible language similar to C, which also provided high-level features for program organization. The C++17 standard is due in July 2017, with the draft largely implemented by some compilers already, and C++20 is the next planned standard thereafter. Many other programming languages have been influenced by C++, including C#, D, Java, and newer versions of C.
+ pageId 72038
+ dailyPageViews 4307
+ created 2001
+ backlinksCount 10943
+ revisionCount 1487
+ appeared 1998
+
+githubLanguage C++
+ fileExtensions cpp c++ cc cp cxx h h++ hh hpp hxx inc inl ino ipp ixx re tcc tpp
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  google mediapipe https://github.com/google.png https://github.com/google/mediapipe C++ #f34b7d 2824 386 2250 "MediaPipe is a cross-platform framework for building multimodal applied machine learning pipelines"
+  fmtlib fmt https://github.com/fmtlib.png https://github.com/fmtlib/fmt C++ #f34b7d 6596 796 273 "A modern formatting library"
+  TheCherno Hazel https://github.com/TheCherno.png https://github.com/TheCherno/Hazel C++ #f34b7d 1589 265 130 "Hazel Engine"
+  arendst Sonoff-Tasmota https://github.com/arendst.png https://github.com/arendst/Sonoff-Tasmota C++ #f34b7d 7683 1795 281 "Provide ESP8266 based itead Sonoff with Web, MQTT and OTA firmware using Arduino IDE or PlatformIO"
+  ocornut imgui https://github.com/ocornut.png https://github.com/ocornut/imgui C++ #f34b7d 16553 2604 474 "Dear ImGui: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies"
+  anhkgg SuperWeChatPC https://github.com/anhkgg.png https://github.com/anhkgg/SuperWeChatPC C++ #f34b7d 2071 573 474 超级微信电脑客户端，支持多开、防消息撤销、语音消息备份...开放WeChatSDK
+  gnuradio gnuradio https://github.com/gnuradio.png https://github.com/gnuradio/gnuradio C++ #f34b7d 1798 1055 79 "GNU Radio"
+  plaidml plaidml https://github.com/plaidml.png https://github.com/plaidml/plaidml C++ #f34b7d 2457 214 120 "PlaidML is a framework for making deep learning work everywhere."
+  TonyChen56 WeChatRobot https://github.com/TonyChen56.png https://github.com/TonyChen56/WeChatRobot C++ #f34b7d 1468 559 938 PC版微信机器人
+  huihut interview https://github.com/huihut.png https://github.com/huihut/interview C++ #f34b7d 7108 2269 641 "📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。"
+  skypjack entt https://github.com/skypjack.png https://github.com/skypjack/entt C++ #f34b7d 2053 180 302 "Gaming meets modern C++ - a fast and reliable entity-component system (ECS) and much more"
+  OneLoneCoder videos https://github.com/OneLoneCoder.png https://github.com/OneLoneCoder/videos C++ #f34b7d 535 395 72 "The official distribution of olcConsoleGameEngine, a tool used in javidx9's YouTube videos and projects"
+  dolphin-emu dolphin https://github.com/dolphin-emu.png https://github.com/dolphin-emu/dolphin C++ #f34b7d 5521 1278 96 "Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements."
+  osquery osquery https://github.com/osquery.png https://github.com/osquery/osquery C++ #f34b7d 14868 1796 457 "SQL powered operating system instrumentation, monitoring, and analytics."
+  danielkrupinski Osiris https://github.com/danielkrupinski.png https://github.com/danielkrupinski/Osiris C++ #f34b7d 260 115 56 "Free open-source training software / cheat for Counter-Strike: Global Offensive, written in modern C++. GUI powered by imgui."
+  carla-simulator carla https://github.com/carla-simulator.png https://github.com/carla-simulator/carla C++ #f34b7d 3098 840 239 "Open-source simulator for autonomous driving research."
+  grpc grpc https://github.com/grpc.png https://github.com/grpc/grpc C++ #f34b7d 22945 5381 557 "The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)"
+  FastLED FastLED https://github.com/FastLED.png https://github.com/FastLED/FastLED C++ #f34b7d 3180 828 63 "The main FastLED library (successor to FastSPI_LED). Please direct questions/requests for advice to the reddit community - http://fastled.io/r - we'd like to keep issues to just tracking bugs/enhancements/tasks. *NOTE* major library work is currently on hold"
+  TarsCloud Tars https://github.com/TarsCloud.png https://github.com/TarsCloud/Tars C++ #f34b7d 7510 1822 243 "Tars is a high-performance RPC framework based on name service and Tars protocol, also integrated administration platform, and implemented hosting-service via flexible schedule."
+  apache thrift https://github.com/apache.png https://github.com/apache/thrift C++ #f34b7d 6723 3037 131 "Apache Thrift"
+  NVIDIA DALI https://github.com/NVIDIA.png https://github.com/NVIDIA/DALI C++ #f34b7d 1829 208 245 "A library containing both highly optimized building blocks and an execution engine for data pre-processing in deep learning applications"
+  haoel leetcode https://github.com/haoel.png https://github.com/haoel/leetcode C++ #f34b7d 11615 3642 295 "LeetCode Problems' Solutions"
+  llvm llvm-project https://github.com/llvm.png https://github.com/llvm/llvm-project C++ #f34b7d 1832 557 213 "This is the canonical git mirror of the LLVM subversion repository. The repository does not accept github pull requests at this moment. Please submit your patches at http://reviews.llvm.org."
+  pytorch pytorch https://github.com/pytorch.png https://github.com/pytorch/pytorch C++ #f34b7d 31392 7706 966 "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+  microsoft onnxruntime https://github.com/microsoft.png https://github.com/microsoft/onnxruntime C++ #f34b7d 1113 247 135 "ONNX Runtime: cross-platform, high performance scoring engine for ML models"
+ trendingProjectsCount 26
+ type programming
+ aceMode c_cpp
+ codemirrorMode clike
+ codemirrorMimeType text/x-c++src
+ tmScope source.c++
+ aliases cpp
+ repos 2161625
+githubBigQuery C++
+ repos 277733
+ users 170927
+
+antlr https://github.com/antlr/grammars-v4/tree/master/cpp
+monaco cpp
+pygmentsHighlighter C++
+ filename c_cpp.py
+ fileExtensions cpp hpp c++ h++ cc hh cxx hxx C H cp CPP tpp
+linguistGrammarRepo https://github.com/textmate/c.tmbundle
+ sampleCount 49
+ example
+  #include <cstdint>
+  
+  namespace Gui
+  {
+  
+  }
+  
+
+projectEuler C/C++
+ memberCount
+  2022 46028
+  2019 41087
+helloWorldCollection C++
  // Hello World in C++ (pre-ISO)
  
- #include &lt;iostream.h&gt;
+ #include <iostream.h>
  
  main()
  {
-     cout &lt;&lt; &quot;Hello World!&quot; &lt;&lt; endl;
+     cout << "Hello World!" << endl;
      return 0;
  }
  
+leachim6 C++
+ filepath c/C++.cpp
+ fileExtensions cpp
+ example
+  #include <iostream>
+  
+  int main()
+  {
+     std::cout << "Hello World" << std::endl;
+  }
+  
+quineRelay C++
 
-codeWithHeader Example from <a href='https://github.com/textmate/c.tmbundle'>Linguist</a>:
- #include &lt;cstdint&gt;
- 
- namespace Gui
- {
- 
- }
- 
+compilerExplorer C++
+ example
+  // Type your code here, or load an example.
+  int square(int num) {
+      return num * num;
+  }
+rijuRepl https://riju.codes/cpp
+ example
+  #include <iostream>
+  
+  int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+  }
+  
+ description General-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language
+ fileExtensions C cc cpp cxx c++ h hh hpp hxx h++
+ gitRepo https://github.com/llvm/llvm-project
+replit https://repl.it/languages/cpp
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/C++'>Wikipedia</a>:
- 1 #include &lt;iostream&gt;
- 2 #include &lt;vector&gt;
- 3 #include &lt;stdexcept&gt;
- 4 
- 5 int main() {
- 6     try {
- 7         std::vector&lt;int&gt; vec{3, 4, 3, 1};
- 8         int i{vec.at(4)}; // Throws an exception, std::out_of_range (indexing for vec is from 0-3 not 1-4)
- 9     }
- 10     // An exception handler, catches std::out_of_range, which is thrown by vec.at(4)
- 11     catch (std::out_of_range &amp;e) {
- 12         std::cerr &lt;&lt; &quot;Accessing a non-existent element: &quot; &lt;&lt; e.what() &lt;&lt; &#39;\n&#39;;
- 13     }
- 14     // To catch any other standard library exceptions (they derive from std::exception)
- 15     catch (std::exception &amp;e) {
- 16         std::cerr &lt;&lt; &quot;Exception thrown: &quot; &lt;&lt; e.what() &lt;&lt; &#39;\n&#39;;
- 17     }
- 18     // Catch any unrecognised exceptions (i.e. those which don&#39;t derive from std::exception)
- 19     catch (...) {
- 20         std::cerr &lt;&lt; &quot;Some fatal error\n&quot;;
- 21     }
- 22 }
+indeedJobs c++ engineer
+ 2017 22237
+linkedInSkill c++
+ 2018 3886123
+stackOverflowSurvey
+ 2021
+  users 20057
+  medianSalary 54049
+  fans 15249
+  percentageUsing 0.24
+annualReportsUrl https://isocpp.org/about/annual-reports
+officialBlogUrl https://www.isocpp.org/blog
+eventsPageUrl https://isocpp.org/blog/category/events
 
-<div class="keywordsBlock">
-codeWithHeader C++ <a href="../lists/keywords.html?filter=cpp">Keywords</a>
- #define #defined #elif #else #endif #error #if #ifdef #ifndef #include #line #pragma #undef alignas alignof and and_eq asm atomic_cancel atomic_commit atomic_noexcept auto bitand bitor bool break case catch char char16_t char32_t class compl concept const constexpr const_cast continue decltype default delete do double dynamic_cast else enum explicit export extern false final float for friend goto if inline int import long module mutable namespace new noexcept not not_eq nullptr operator or or_eq override private protected public register reinterpret_cast requires return short signed sizeof static static_assert static_cast struct switch synchronized template this thread_local throw transaction_safe transaction_safe_dynamic true try typedef typeid typename union unsigned using virtual void volatile wchar_t while xor xor_eq
-</div>
+subreddit https://reddit.com/r/cpp
+ memberCount
+  2017 56189
+  2022 220359
+meetup https://www.meetup.com/topics/c
+ memberCount 69338
+ groupCount 204
+conference https://cppcon.org/ CppCon
+conference https://cppcon.org CppCon
 
-endColumns
+tiobe C++
+ currentRank 4
+hopl https://hopl.info/showlanguage.prx?exp=1202
+pypl C++
 
-## Language <a href="../lists/features.html">features</a>
+twitter https://twitter.com/isocpp
+ubuntuPackage g++
+gdbSupport true
+jupyterKernel https://github.com/root-mirror/cling
+jupyterKernel https://github.com/QuantStack/xeus-cling
+fileType text
+githubCopilotOptimized true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Access Modifiers
-  FeatureLink ../features/hasAccessModifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Exceptions
-  FeatureLink ../features/hasExceptions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Classes
-  FeatureLink ../features/hasClasses.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Threads
-  FeatureLink ../features/hasThreads.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Virtual function
-  FeatureLink ../features/hasVirtualFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   class Animal {
-    public:
-     // Intentionally not virtual:
-     void Move(void) {
-       std::cout << "This animal moves in some way" << std::endl;
-     }
-     virtual void Eat(void) = 0;
-   };
-   
-   // The class "Animal" may possess a definition for Eat if desired.
-   class Llama : public Animal {
-    public:
-     // The non virtual function Move is inherited but not overridden.
-     void Eat(void) override {
-       std::cout << "Llamas eat grass!" << std::endl;
-     }
-   };
- row
-  Feature Templates
-  FeatureLink ../features/hasTemplates.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   template <int length>
-   Vector<length>& Vector<length>::operator+=(const Vector<length>& rhs)
-   {
-       for (int i = 0; i < length; ++i)
-           value[i] += rhs.value[i];
-       return *this;
-   }
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Multiple Inheritance
-  FeatureLink ../features/hasMultipleInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Namespaces
-  FeatureLink ../features/hasNamespaces.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #include <iostream>
-   using namespace std;
-   
-   // Variable created inside namespace
-   namespace first
-   {
-     int val = 500;
-   }
-    
-   // Global variable
-   int val = 100;
-   // Ways to do it: https://en.cppreference.com/w/cpp/language/namespace
-   namespace ns_name { declarations }
-   inline namespace ns_name { declarations }
-   namespace { declarations }
-   ns_name::name
-   using namespace ns_name;
-   using ns_name::name;
-   namespace name = qualified-namespace ;
-   namespace ns_name::inline(since C++20)(optional) name { declarations } 
- row
-  Feature Function Overloading
-  FeatureLink ../features/hasFunctionOverloading.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // volume of a cube
-   int volume(const int s) {
-    return s*s*s;
-   }
-   // volume of a cylinder
-   double volume(const double r, const int h) {
-     return 3.1415926*r*r*static_cast<double>(h);
-   }
- row
-  Feature Iterators
-  FeatureLink ../features/hasIterators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   std::vector<int> items;
-   items.push_back(5);  // Append integer value '5' to vector 'items'.
-   items.push_back(2);  // Append integer value '2' to vector 'items'.
-   items.push_back(9);  // Append integer value '9' to vector 'items'.
-   
-   for (auto it = items.begin(); it != items.end(); ++it) {  // Iterate through 'items'.
-     std::cout << *it;  // And print value of 'items' for current index.
-   }
- row
-  Feature Constructors
-  FeatureLink ../features/hasConstructors.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   class Foobar {
-    public:
-     Foobar(double r = 1.0,
-            double alpha = 0.0)  // Constructor, parameters with default values.
-         : x_(r * cos(alpha))    // <- Initializer list
-     {
-       y_ = r * sin(alpha);  // <- Normal assignment
-     }
-   
-    private:
-     double x_;
-     double y_;
-   };
-   Foobar a,
-          b(3),
-          c(5, M_PI/4);
- row
-  Feature Single Dispatch
-  FeatureLink ../features/hasSingleDispatch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Partial Application
-  FeatureLink ../features/hasPartialApplication.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // http://www.cplusplus.com/reference/functional/bind/
-   // bind example
-   #include <iostream>     // std::cout
-   #include <functional>   // std::bind
-   
-   // a function: (also works with function object: std::divides<double> my_divide;)
-   double my_divide (double x, double y) {return x/y;}
-   
-   struct MyPair {
-     double a,b;
-     double multiply() {return a*b;}
-   };
-   
-   int main () {
-     using namespace std::placeholders;    // adds visibility of _1, _2, _3,...
-   
-     // binding functions:
-     auto fn_five = std::bind (my_divide,10,2);               // returns 10/2
-     std::cout << fn_five() << '\n';                          // 5
-   
-     auto fn_half = std::bind (my_divide,_1,2);               // returns x/2
-     std::cout << fn_half(10) << '\n';                        // 5
-   
-     auto fn_invert = std::bind (my_divide,_2,_1);            // returns y/x
-     std::cout << fn_invert(10,2) << '\n';                    // 0.2
-   
-     auto fn_rounding = std::bind<int> (my_divide,_1,_2);     // returns int(x/y)
-     std::cout << fn_rounding(10,3) << '\n';                  // 3
-   
-     MyPair ten_two {10,2};
-   
-     // binding members:
-     auto bound_member_fn = std::bind (&MyPair::multiply,_1); // returns x.multiply()
-     std::cout << bound_member_fn(ten_two) << '\n';           // 20
-   
-     auto bound_member_data = std::bind (&MyPair::a,ten_two); // returns ten_two.a
-     std::cout << bound_member_data() << '\n';                // 10
-   
-     return 0;
-   }
- row
-  Feature Scientific Notation
-  FeatureLink ../features/hasScientificNotation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Constants
-  FeatureLink ../features/hasConstants.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Sensitivity
-  FeatureLink ../features/isCaseSensitive.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token =
-  Example
- row
-  Feature Switch Statements
-  FeatureLink ../features/hasSwitch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   switch(expression) {
-      case true  :
-         break;
-      default :
-      //
-      break;
-   }
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token std::cout
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Increment and decrement operators
-  FeatureLink ../features/hasIncrementAndDecrementOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Zero-based numbering
-  FeatureLink ../features/hasZeroBasedNumbering.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Variadic Functions
-  FeatureLink ../features/hasVariadicFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   double average(int count, ...)
-   {
-    //
-   }
- row
-  Feature Operators
-  FeatureLink ../features/hasOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   1 + 1;
- row
-  Feature Manual Memory Management
-  FeatureLink ../features/hasManualMemoryManagement.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #include <stdio.h>
-   #include <stdlib.h>
-   int main(void)
-   {
-     int *poin = malloc(4);
-     free(poin);
-   }
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // https://learn.microsoft.com/en-us/cpp/preprocessor/macros-c-cpp?redirectedfrom=MSDN&view=msvc-170
-   // https://gcc.gnu.org/onlinedocs/cpp/Macro-Arguments.html
-   #define min(X, Y)  ((X) < (Y) ? (X) : (Y))
-     x = min(a, b);          →  x = ((a) < (b) ? (a) : (b));
-     y = min(1, 2);          →  y = ((1) < (2) ? (1) : (2));
-     z = min(a + 28, *p);    →  z = ((a + 28) < (*p) ? (a + 28) : (*p));
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   int pldb = 80766866;
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   //  If a header file is included within <>, the preprocessor will search a predetermined directory path to locate the header file. If the header file is enclosed in "", the preprocessor will look for the header file in the same directory as the source file.
-   #include <stdio.h>
-   #include "stdio.h"
- row
-  Feature Type Casting
-  FeatureLink ../features/hasExplicitTypeCasting.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   double da = 3.3;
-   double db = 3.3;
-   double dc = 3.4;
-   int result = (int)da + (int)db + (int)dc; //result == 9
- row
-  Feature Directives
-  FeatureLink ../features/hasDirectives.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #include <stdio.h>
-   #define height 10
-   #ifdef
-   #endif
-   #if
-   #else
-   #ifndef
-   #undef
-   #pragma
- row
-  Feature Gotos
-  FeatureLink ../features/hasGotos.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // C/C++ program to check if a number is 
-   // even or not using goto statement 
-   #include <iostream> 
-   using namespace std; 
-     
-   // function to check even or not 
-   void checkEvenOrNot(int num) 
-   { 
-       if (num % 2 == 0) 
-           goto even; // jump to even 
-       else
-           goto odd; // jump to odd 
-     
-   even: 
-       cout << num << " is evenn"; 
-       return; // return if even 
-   odd: 
-       cout << num << " is oddn"; 
-   } 
-     
-   // Driver program to test above function 
-   int main() 
-   { 
-       int num = 26; 
-       checkEvenOrNot(num); 
-       return 0; 
-   }
- row
-  Feature Structs
-  FeatureLink ../features/hasStructs.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   struct account {
-     int account_number;
-     char *first_name;
-     char *last_name;
-     float balance;
-   };
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   /* hello world */
-   // hi
- row
-  Feature Symbol Tables
-  FeatureLink ../features/hasSymbolTables.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // Declare an external function
-   extern double bar(double x);
-   
-   // Define a public function
-   double foo(int count)
-   {
-       double  sum = 0.0;
-   
-       // Sum all the values bar(1) to bar(count)
-       for (int i = 1;  i <= count;  i++)
-           sum += bar((double) i);
-       return sum;
-   }
-   // Symbol Table:
-   // Symbol name|Type|Scope
-   // bar|function, double|extern
-   // x|double|function parameter
-   // foo|function, double|global
-   // count|int|function parameter
-   // sum|double|block local
-   // i|int|for-loop statement
- row
-  Feature Bitwise Operators
-  FeatureLink ../features/hasBitWiseOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   int i = 4; /* bit pattern equivalent is binary 100 */
-   int j = i << 2; /* makes it binary 10000, which multiplies the original number by 4 i.e. 16 */
- row
-  Feature Assert Statements
-  FeatureLink ../features/hasAssertStatements.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #include <assert.h>
-   int i, a[10];
-   for (i = 0; i < 10; ++i)
-     {
-     assert(0 <= i && i < 10);
-     a[i] = 10-i;
-     }
-   for (i = 0; i < 10; ++i)
-     {
-     assert(0 <= i && i < 10);
-     assert(0 <= a[i] && a[i] < 10);
-     a[a[i]] = a[i];
-     }
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "hello world"
- row
-  Feature Pointers
-  FeatureLink ../features/hasPointers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   int *ptr;
- row
-  Feature Ternary operators
-  FeatureLink ../features/hasTernaryOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   #include <stdio.h>
-   int main(void) { printf("%d", 1 ? 1 : 0); }
- row
-  Feature Characters
-  FeatureLink ../features/hasCharacters.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   char character = 'P';
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Enums
-  FeatureLink ../features/hasEnums.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   enum Gender {
-     Male,
-     Female,
-   };
- row
-  Feature Magic Getters and Setters
-  FeatureLink ../features/hasMagicGettersAndSetters.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Fixed Point Numbers
-  FeatureLink ../features/hasFixedPoint.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Regular Expression Syntax Sugar
-  FeatureLink ../features/hasRegularExpressionsSyntaxSugar.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Variable Substitution Syntax
-  FeatureLink ../features/hasVariableSubstitutionSyntax.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isbndb 128
+ year|publisher|title|authors|isbn13
+ 2011|PEARSON INDIA|ADTs, Data Structures, and Problem Solving with C++|Nyhoff|9780131409095
+ 2013|Pearson|Data Structures & Algorithm Analysis in C++|Weiss, Mark|9780132847377
+ 2012|Addison-Wesley Professional|C++ Primer (5th Edition)|Lippman, Stanley and Lajoie, Josée and Moo, Barbara|9780321714114
+ 2001|Pearson|Data Structures with C++ Using STL|Ford, William and Topp, William|9780130858504
+ 2013|Pearson|Introduction to Programming with C++ (Myprogramminglab)|Liang, Y. Daniel|9780133252811
+ 2013|Pearson|C++ How to Program (Early Objects Version) (9th Edition)|Deitel, Paul and Deitel, Harvey|9780133378719
+ 2014|Cengage Learning|C++ Programming: Program Design Including Data Structures|Malik, D. S.|9781285852751
+ 2011|Pearson|Engineering Problem Solving with C++ (3rd Edition)|Etter, Delores M. and Ingber, Jeanine A.|9780132492652
+ 2011|Pearson|Problem Solving With C++|Savitch, Walter|9780132162739
+ 2010|Pearson|C++ How to Program: Late Objects Version (How to Program (Deitel))|Deitel, Paul and Deitel, Harvey|9780132165419
+ 2007|Pearson|C++ Programming Today|Johnston, Barbara|9780136150992
+ 2003|Pearson|C++ for Java Programmers|Weiss, Mark|9780139194245
+ 2010|Wiley|C++ for Everyone|Horstmann, Cay S.|9780470927137
+ 1995|Pearson|Data Structures Using C and C++ (2nd Edition)|Langsam, Yedidyah and Augenstein, Moshe J. and Tenenbaum, Aaron M.|9780130369970
+ 2012|Cengage Learning|Introduction to Programming with C++|Zak, Diane|9781285061474
+ 2006|Pearson College Div|Data Structures And Algorithm Analysis in C++|Weiss, Mark Allen|9780321441461
+ 2011|Jones & Bartlett Learning|C++ Plus Data Structures|Dale, Nell|9781449646752
+ 2004|Addison-Wesley Professional|Developing Series 60 Applications: A Guide for Symbian OS C++ Developers: A Guide for Symbian OS C++ Developers|Edwards, Leigh and Barker, Richard and Staff of EMCC Software Ltd.|9780321227225
+ 1997|Addison-Wesley Professional|The C++ Programming Language (3rd Edition)|Stroustrup, Bjarne|9780201889543
+ 2012|PEARSON INDIA|C++ Standard Library, The: A Tutorial And Reference 2Nd Edition|NICOLAI M JOSUTTIS|9780321623218
+ 2012|Pearson|Starting Out with Games & Graphics in C++|Gaddis, Tony|9780133128079
+ 2008|Addison Wesley|Problem Solving with C++|Savitch, Walter|9780321531346
+ 2009|Jones & Bartlett Learning|Programming And Problem Solving With C++|Dale, Nell|9780763771560
+ 2009|Course Technology|Introduction to C++ Programming, Brief Edition|D. S. Malik|9781423902461
+ 2008|Addison-Wesley Professional|Programming: Principles and Practice Using C++|Stroustrup, Bjarne|9780321543721
+ 2008|Cengage Learning|C++ Programming: From Problem Analysis to Program Design|Malik, D. S.|9781423902096
+ 1998|Pearson|An Introduction to Computing Using C++ and Object Technology|Ford, William H. and Topp, William R.|9780132681520
+ 2004|Addison-Wesley Professional|C++ Template Metaprogramming|Abrahams, David|9780321227256
+ 2017|Cengage Learning|C++ Programming: Program Design Including Data Structures (MindTap Course List)|Malik, D. S.|9781337117562
+ 2012|Course Technology|C++ Programs to Accompany Programming Logic and Design|Smith, Jo Ann|9781133525806
+ 2011|Wiley|C++ for Everyone|Horstmann, Cay S.|9780470920923
+ 2010|Cengage Learning|C++ Programming: From Problem Analysis to Program Design (Introduction to Programming)|Malik, D. S.|9780538798082
+ 2000|Course Technology|Understanding Programming: An Introduction Using C++|Cannon, Scott R.|9780534379759
+ 2009|Pearson|Absolute C++ (4th Edition)|Savitch, Walter|9780136083818
+ 1994|Mcgraw-Hill Osborne Media|C++ from the Ground Up: Learn C++ from the Master|Schildt, Herbert|9780078819698
+ 2019|Packt Publishing|Hands-On Embedded Programming with C++17: Create versatile and robust embedded solutions for MCUs and RTOSes with modern C++|Posch, Maya|9781788629300
+ 2013|Pearson|C++ How to Program plus MyProgrammingLab with Pearson eText -- Access Card Package (9th Edition)|Deitel, Paul and Deitel, Harvey|9780133450736
+ 2008|Prentice Hall|C++ GUI Programming with Qt 4 (2nd Edition) (Prentice Hall Open Source Software Development Series)|Blanchette, Jasmin and Summerfield, Mark|9780132354165
+ 2003|McGraw-Hill Education|C++ from the Ground Up, Third Edition|Schildt, Herbert|9780072228977
+ 2008|Cengage Learning|Object-Oriented Programming Using C++ (Introduction to Programming)|Farrell, Joyce|9781423902577
+ 2017|Pearson|Problem Solving with C++ Plus MyLab Programming with Pearson eText -- Access Card Package|Savitch, Walter|9780134710747
+ 2007|Prentice Hall|C++ How to Program (6th Edition)|Deitel, Paul J.|9780136152507
+ 1992|Addison-Wesley Pub (Sd)|Algorithms in C++|Sedgewick, Robert|9780201510591
+ 2005|Wrox|Professional C++|Solter, Nicholas A. and Kleper, Scott J.|9780764574849
+ 2003|Cambridge University Press|Parallel Scientific Computing in C++ and MPI: A Seamless Approach to Parallel Algorithms and their Implementation|Karniadakis, George Em|9780521520805
+ 2006|Prentice Hall PTR|C++ GUI Programming with Qt 4|Blanchette, Jasmin and Summerfield, Mark|9780131872493
+ 2005|Addison-Wesley Professional|C++ Primer|Lippman, Stanley B. and Lajoie, Josee and Moo, Barbara E.|9780201721485
+ 1995|Computing McGraw-Hill|Enough Rope to Shoot Yourself in the Foot: Rules for C and C++ Programming (Unix/C)|Holub, Allen I.|9780070296893
+ 2004|Course Technology|Assembly Language and Computer Architecture Using C++ and Java™|Dos Reis, Anthony J.|9780534405274
+ 1999|Addison-Wesley Professional|Advanced CORBA® Programming with C++|Henning, Michi and Vinoski, Steve|9780201379273
+ 2009|Pearson|Introduction to Programming with C++ (2nd Edition)|Liang, Y. Daniel|9780136097204
+ 1989|Pearson Ptr|Programming in C++|Dewhurst, Stephen|9780137231560
+ 2011|In Easy Steps Limited|C++ Programming in easy steps|McGrath, Mike|9781840784329
+ 2002|Addison-Wesley Professional|C++ Gotchas: Avoiding Common Problems in Coding and Design|Dewhurst, Stephen C.|9780321125187
+ 2017|Pearson|MyLab Programming with Pearson eText -- Access Card -- for Starting Out with C++ from Control Structures to Objects (My Programming Lab)|Gaddis, Tony|9780134484198
+ 1994|Macmillan Coll Div|Object Oriented Programming In C++|Johnsonbaugh, Richard and Kalin, Martin|9780023606823
+ 2010|Wrox|Ivor Horton's Beginning Visual C++ 2010|Horton, Ivor|9780470500880
+ 2008|Pearson|C++ Programming And Fundamental Concepts|Anderson Jr., Arthur E.|9780131182660
+ 2009|For Dummies|C++ All-In-One Desk Reference For Dummies|Mueller, John Paul and Cogswell, Jeff|9780470317358
+ 1996|Addison-Wesley Professional|Inside the C++ Object Model|Lippman, Stanley B.|9780201834543
+ 2013|Packt Publishing|Boost.Asio C++ Network Programming|Torjo, John|9781782163268
+ 2002|Addison-Wesley Professional|C++ Network Programming, Volume 2: Systematic Reuse with ACE and Frameworks|Debbie Lafferty and Schmidt, Douglas and Huston, Stephen|9780201795257
+ 1999|Addison-Wesley Professional|Essential C++|Lippman, Stanley B.|9780201485189
+ 2016|Packt Publishing|Beginning C++ Game Programming|Horton, John|9781786466198
+ 1998|Oxford University Press|An Introduction to C++ and Numerical Methods|Ortega, James M. and Grimshaw, Andrew S.|9780195117677
+ 2014|Pearson|Mylab Programming with Pearson Etext -- Access Card -- For Problem Solving with C++|Savitch, Walter|9780133834413
+ 1998|Sams|The Waite Group's Object-Oriented Programming in C++|Lafore, Robert and Waite Group|9781571691606
+ 2008|Packt Publishing|Microsoft Visual C++ Windows Applications by Example: Code and explanation for real-world MFC C++ Applications|Stefan Björnander|9781847195562
+ 2002|Prentice Hall|C++ How to Program (4th Edition)|Deitel, Harvey M. and Deitel, Paul J.|9780130384744
+ 1998|Addison-Wesley Professional|C++ For C Programmers, Third Edition (3rd Edition)|Pohl, Ira|9780201395198
+ 2012|Cambridge University Press|Numerical Methods in Finance with C++ (Mastering Mathematical Finance)|Capinski, Maciej J.|9780521177160
+ 2002|Wiley|Object-Oriented Programming in C++|Josuttis, Nicolai M.|9780470843994
+ 2006|Cengage Learning PTR|Beginning C++ Through Game Programming, Second Edition|Dawson, Michael|9781598633603
+ 2005|Peachpit Pr|C++ Programming|Ullman, Larry E. and Signer, Andreas|9780321356567
+ 2015|Apress|Advanced Metaprogramming in Classic C++|Di Gennaro, Davide|9781484210116
+ 1998|Waite Group Pr|C++ Primer Plus (Mitchell Waite Signature Series)|Prata, Stephen|9781571691316
+ 2018|Packt Publishing|Expert C++ Programming: Leveraging the power of modern C++ to build scalable modular applications|Swaminathan, Jeganathan and Posch, Maya and Galowicz, Jacek|9781788831390
+ 1995|O'Reilly & Associates|C++ The Core Language: A Foundation for C Programmers (Nutshell Handbooks)|Brown, Doug and Satir, Gregory|9781565921160
+ 1999|Microsoft Press|Learn Microsoft Visual C++ 6.0 Now|Sphar, Chuck|9781572319653
+ 2015|Pearson|Mylab Programming with Pearson Etext -- Access Code Card -- For Absolute C++|Savitch, Walter and Mock, Kenrick|9780134254005
+ 1995|McGraw-Hill College|Programming With Class: Introduction To Computer Science With C++|Kamin, Samuel N. and Reingold, Edward M.|9780070518339
+ 2005|Addison-Wesley Professional|C++ Common Knowledge: Essential Intermediate Programming: Essential Intermediate Programming|Dewhurst, Stephen|9780321321923
+ 2005|Charles River Media|C++ Standard Library Practical Tips (Programming Series)|Reese, Greg|9781584504009
+ 2001|Sams|Sams Teach Yourself C++ in 21 Days (Sams Teach Yourself...in 21 Days)|Liberty, Jesse|9780672320729
+ 2000|Microsoft Press|Microsoft Mastering: MFC Development Using Microsoft Visual C++ 6.0 (DV-DLT Mastering)|Microsoft Press|9780735609259
+ 2001|Addison-Wesley Professional|C++ Network Programming, Volume I: Mastering Complexity with ACE and Patterns: Mastering Complexity with ACE and Patterns|Schmidt, Douglas and Huston, Stephen|9780201604641
+ 2018|Manning Publications|Functional Programming in C++: How to improve your C++ programs using functional techniques|Cukic, Ivan|9781617293818
+ 2006|A-list Publishing|Hackish C++ Games & Demos|Michael Flenov|9781931769587
+ 1998|Sigs|Using Motif With C++ (sigs: Advances In Object Technology)|Daniel J. Bernstein|9780132073905
+ 2001|Irwin Professional Publishing|C++ Program Design|Davidson|9780072411638
+ 1989|Addison-Wesley|C++ primer|Lippman, Stanley B|9780201164879
+ 1996|Jones & Bartlett Pub|Programming and Problem Solving With C++|Dale, Nell B. and Weems, Chip and Headington, Mark and Dale, Nell|9780763702922
+ 2021|Reema Thareja|Object Oriented Programming With C++|OXFORD UNIVERSITY PRESS and OXFORD UNIVERSITY PRESS and OXFORD UNIVERSITY PRESS|9780199459636
+ 2005|For Dummies|C++ Timesaving Techniques For Dummies|Telles, Matthew|9780764579868
+ 2021|Prentice Hall of India|Unix System Programming Using C++|Chan, Terrence|9788120314689
+ 1992|Que Pub|C++ by Example (Programming Series)|Perry, Greg M.|9781565290389
+ 1996|Mcgraw-Hill|Schaum's Outlines - Programming With C++|Hubbard, John R. and Hubbard, John R.|9780070308374
+ 1994|Wiley|Programming for Graphics Files: In C and C++|Levine, John R. and Levine, John|9780471598565
+ 2020|Apress|Modern C++ for Absolute Beginners: A Friendly Introduction to C++ Programming Language and C++11 to C++20 Standards|Dmitrović, Slobodan|9781484260463
+ 2003|Jones And Bartlett Publishers|C++ Plus Data Structures|Dale, Nell|9780763704810
+ 2016|Packt Publishing|C++ Windows Programming|Bjornander, Stefan|9781786464224
+ 2007|Course Technology|An Introduction to Programming With C++ (Available Titles Skills Assessment Manager (SAM) - Office 2010)|Zak, Diane|9781418836184
+ 2007|Springer|Introduction to C++ Programming and Graphics|Pozrikidis, Constantine|9780387689920
+ 1994|Morgan Kaufmann Pub|Windows Animation Programming With C++|Young, Michael J.|9780127737508
+ 2006|Addison Wesley|Problem Solving, Abstraction & Design Using C++ (5th Edition)|Friedman, Frank L. and Koffman, Elliot B.|9780321450050
+ 2006|Oxford University Press|Object-Oriented Programming with C++ (Oxford Higher Education)|Sahay, Sourav|9780195681529
+ 2013|Addison-Wesley Professional|C++ Programming Language, The|Bjarne, Stroustrup|9780133522853
+ 2001|Pearson|C++ Programming with Design Patterns Revealed|Muldner, Tomasz|9780201722314
+ 1999|Wiley|Speech Recognition: Theory and C++ Implementation|Becchetti, Claudio and Ricotti, Lucio Prina|9780471977308
+ 1999|McGraw-Hill|Schaum's Easy Outline: Programming with C++|Hubbard, John R.|9780070527133
+ 1996|Prentice Hall|C++ and Object Oriented Programming|Irvine, Kip R.|9780023598524
+ 1999|Pearson|Object-Oriented Programming in C++ (2nd Edition)|Johnsonbaugh, Richard and Kalin, Martin|9780130158857
+ 2015|Apress|Practical C++ Financial Programming|Oliveira, Carlos|9781430267157
+ 2012|Wrox|Ivor Horton's Beginning Visual C++ 2012|Horton, Ivor|9781118368084
+ 2004|Wiley|Financial Instrument Pricing Using C++|Duffy, Daniel J.|9780470855096
+ 1999|Sams|Sams Teach Yourself C++ in 21 Days, Third Edition|Liberty, Jesse|9780672315152
+ 2005|Course Technology|Program Development and Design Using C++|Bronson, Gary J.|9780619216771
+ 1995|Wiley-interscience|A Jump Start Course In C++ Programming|James W. Cooper and Richard B. Lam|9780471031710
+ 1993|Que Pub|Borland C++ Power Programming/Book and Disk|Walnum, Clayton|9781565291720
+ 1999|Que Pub|Practical C++|McGregor, Robert W.|9780789721440
+ 2008|Prentice Hall In Association With Trolltech Press|C++ Gui Programming With Qt 4|Blanchette, Jasmin.|9780137143979
+ 2005|Addison Wesley|Starting Out With C++: Brief Version Update, Visual C++ .net (4th Edition)|Tony Gaddis and Barret Krupnow|9780321419613
+ 1997|TBS|Object-oriented Programming with C++|E Balagurusamy|9780074620380
+ 2008|In Easy Steps Limited|C++ Programming In Easy Steps|McGrath, Mike|9781840783520
+ 1996|Addison-Wesley|Stl Tutorial & Reference Guide: C++ Programming With the Standard Template Library (Addison-Wesley Professional Computing Series)|Musser, David R. and Saini, Atul|9780201633986
+ 2016|Packt Publishing|Boost.Asio C++ Network Programming Cookbook: Over 25 hands-on recipes to create robust and highly-effi cient cross-platform distributed applications with the Boost.Asio library|Radchuk, Dmytro|9781783986545
+ 2000|Scott Jones|Starting Out With The C++ (2nd Brief Edition)|Tony Gaddis|9781576760406
+ 2019|BPB Publications|Data Structures Through C++: Experience Data Structures C++ through animations|Kanetkar, Yashavant|9789388511360
 
-keyboardNav html.html xml.html
-
-import ../footer.scroll
+semanticScholar 6
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1986|C++ Programming Language|10.1002/9781118361054.ch3|7014|230|B. Stroustrup|c04e29b09f67158e7c4405ddad18108a1ddecbd4
+ 2018|TOPAS and TOPAS-Academic: an optimization program integrating computer algebra and crystallographic objects written in C++|10.1107/S1600576718000183|627|27|A. Coelho|f24ca222ed1a87ff7892d5bf969643eb240e86b3
+ 1991|Advanced C++ Programming Styles and Idioms|10.1109/TOOLS.1997.681881|468|14|J. Coplien|20627f2ad92cf787efb4ec960e49b89d10bb4529
+ 2000|Introduction to the GiNaC Framework for Symbolic Computation within the C++ Programming Language|10.1006/jsco.2001.0494|389|39|Christian Bauer and A. Frink and R. Kreckel|5b2f780c3ce63f1795bbfa6e3e7e22d8ae5e268b
+ 2004|Supporting Students in C++ Programming Courses with Automatic Program Style Assessment|10.28945/300|84|6|Kirsti Ala-Mutka and Toni Uimonen and Hannu-Matti Järvinen|7880378ba289053eadf19cb03ce2f543616a2b53
+ 1999|An Overview of the C++ Programming Language|10.1201/9781420049114.sec3|24|3|B. Stroustrup|eb331db6ec60d64b9e0d90978ee7398d9e2f0605

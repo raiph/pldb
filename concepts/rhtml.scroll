@@ -1,49 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RHTML
+import ../measures/conceptPage.scroll
+id RHTML
+appeared 2004
+type template
+conceptDescription RHTML is HTML mixed with Ruby, using HTML tags. All of Ruby is available for programming along with HTML.
+reference https://www.tutorialspoint.com/ruby-on-rails/rails-and-rhtml.htm
+country Various
+originCommunity https://github.com/rails
 
-title RHTML - Template language
- hidden
+example
+ <ul>
+   <% @products.each do |p| %>
+      <li><%=  @p.name %></li>
+   <% end %>
+ </ul>
 
-html
- <a class="trueBaseThemePreviousItem" href="literate-haskell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="run-basic.html">&gt;</a>
+githubLanguage RHTML
+ fileExtensions rhtml
+ trendingProjectsCount 0
+ repos 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rhtml.pldb
+pygmentsHighlighter RHTML
+ filename templates.py
+ fileExtensions rhtml
+linguistGrammarRepo https://github.com/atom/language-ruby
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 76
+ commitCount 458
 
-startColumns 4
+fileType text
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rhtml" class="material-symbols-outlined">edit</a></div>
-
-* RHTML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #1716 <span title="TotalRank: 2240 Jobs: 103 Users: 1151 Facts: 1203 Links: 986">on PLDB</span>
- 20 Years Old
- 0 <span title="RHTML repos on GitHub.">Repos</span>
-
-* RHTML is HTML mixed with Ruby, using HTML tags. All of Ruby is available for programming along with HTML.
-
-- There are at least 0 RHTML repos on <a href="https://github.com/search?q=language:RHTML">GitHub</a>
-- RHTML first developed in <a href="../lists/originCommunities.html#httpsGithubComRails">https://github.com/rails</a>
-- file extensions for RHTML include rhtml
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for RHTML
-- GitHub supports <a href="https://github.com/atom/language-ruby" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for RHTML
-- Read more about RHTML on the web: 1.
- https://www.tutorialspoint.com/ruby-on-rails/rails-and-rhtml.htm 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;ul&gt;
-   &lt;% @products.each do |p| %&gt;
-      &lt;li&gt;&lt;%=  @p.name %&gt;&lt;/li&gt;
-   &lt;% end %&gt;
- &lt;/ul&gt;
-
-endColumns
-
-keyboardNav literate-haskell.html run-basic.html
-
-import ../footer.scroll
+semanticScholar 0

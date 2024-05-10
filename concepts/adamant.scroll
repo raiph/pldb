@@ -1,50 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title adamant
+import ../measures/conceptPage.scroll
+id adamant
+appeared 2018
+type pl
+creators Jeff Walker
+website https://adamant-lang.org
+domainName adamant-lang.org
+ registered 2015
 
-title adamant - Programming language
- hidden
+githubRepo https://github.com/adamant/adamant.tools.compiler.bootstrap
+ firstCommit 2018
+ stars 22
+ forks 1
+ subscribers 3
+ created 2018
+ updated 2021
+ description A compiler for the Adamant language
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="plaid-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nianiolang.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 1169
+ committers 2
+ files 635
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/adamant.pldb
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 19328130|Dreaming of a Parser Generator for Language Design|https://blog.adamant-lang.org/2019/dreaming-of-a-parser-generator/|2019-03-07 14:17:14 UTC|1551968234|matt_d|61|117
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://adamant-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/adamant/adamant.tools.compiler.bootstrap" class="material-symbols-outlined">code</a> <a href="https://twitter.com/adamantlang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=adamant" class="material-symbols-outlined">edit</a></div>
-
-* adamant is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Jeff Walker.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#jeffWalker Jeff Walker
-
-codeWithHeader Source code:
- git clone https://github.com/adamant/adamant.tools.compiler.bootstrap
-
-dashboard
- #1953 <span title="TotalRank: 2470 Jobs: 103 Users: 2094 Facts: 1381 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A compiler for the Adamant language
-
-- adamant website
- https://adamant-lang.org
-- adamant is developed on <a href="https://github.com/adamant/adamant.tools.compiler.bootstrap">GitHub</a> and has 22 stars
-- adamant on Twitter
- https://twitter.com/adamantlang
-- <a href="https://adamant-lang.org">adamant-lang.org</a> was registered in 2015
-
-<br>
-
-endColumns
-
-## HackerNews discussions of adamant
-
-pipeTable
- title|titleLink|date|score|comments
- Dreaming of a Parser Generator for Language Design|https://news.ycombinator.com/item?id=19328130|03/07/2019|117|61
-
-keyboardNav plaid-programming-language.html nianiolang.html
-
-import ../footer.scroll
+twitter https://twitter.com/adamantlang

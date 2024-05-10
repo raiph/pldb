@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pygmalion
+import ../measures/conceptPage.scroll
+id Pygmalion
+appeared 1974
+type visual
+reference http://worrydream.com/refs/Smith%20-%20Pygmalion.pdf
+country United States
+originCommunity Stanford University
 
-title Pygmalion - Visual programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="protosynthex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="quiktran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pygmalion.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pygmalion" class="material-symbols-outlined">edit</a></div>
-
-* Pygmalion is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #3418 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- Pygmalion first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- Pygmalion on HOPL
- https://hopl.info/showlanguage.prx?exp=3889
-- Read more about Pygmalion on the web: 1.
- http://worrydream.com/refs/Smith%20-%20Pygmalion.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav protosynthex.html quiktran.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=3889

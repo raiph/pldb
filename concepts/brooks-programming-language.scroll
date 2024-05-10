@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title brooks-programming-language
+import ../measures/conceptPage.scroll
+id brooks-programming-language
+appeared 2003
+type pl
+reference https://pdfs.semanticscholar.org/d5cc/6ed179e1d856575ea1ce08b70728c1082415.pdf
+country Germany
+originCommunity Brandenburg University of Technology
 
-title brooks-programming-language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bolin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="candy-codes.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/brooks-programming-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=brooks-programming-language" class="material-symbols-outlined">edit</a></div>
-
-* brooks-programming-language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #3365 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- brooks-programming-language first developed in <a href="../lists/originCommunities.html#brandenburgUniversityOfTechnology">Brandenburg University of Technology</a>
-- Read more about brooks-programming-language on Semantic Scholar: 1.
- https://pdfs.semanticscholar.org/d5cc/6ed179e1d856575ea1ce08b70728c1082415.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav bolin.html candy-codes.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

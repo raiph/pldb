@@ -1,46 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PickCode
+import ../measures/conceptPage.scroll
+id PickCode
+appeared 2021
+type visual
+screenshot https://pldb.io/screenshots/pickcode.png
+website https://www.pickcode.io/
+reference https://news.ycombinator.com/item?id=32230329
+country United States
+originCommunity Pickcode Technologies, LLC
+domainName pickcode.io
+ registered 2021
+ awisRank
+  2022 3048479
 
-title PickCode - Visual programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pgql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plumb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pickcode.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.pickcode.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pickcode" class="material-symbols-outlined">edit</a></div>
-
-* PickCode is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+visual">visual programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-dashboard
- #2962 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2552 Links: 986">on PLDB</span>
- 3 Years Old
-
-openGraphImage https://pldb.io/screenshots/pickcode.png
-image ../screenshots/pickcode.png
- caption A screenshot of the visual language PickCode.
-  link /search.html?q=select+type%0D%0Awhere+type+%3D+visual visual language
-
-* 
-
-- PickCode website
- https://www.pickcode.io/
-- PickCode first developed in <a href="../lists/originCommunities.html#pickcodeTechnologiesLlc">Pickcode Technologies, LLC</a>
-- <a href="https://www.pickcode.io/">pickcode.io</a> was registered in 2021
-- See also: (1 related languages)<a href="scratch.html">Scratch</a>
-- Read more about PickCode on the web: 1.
- https://news.ycombinator.com/item?id=32230329 1.
-
-<br>
-
-endColumns
-
-keyboardNav pgql.html plumb.html
-
-import ../footer.scroll
+relatedConcepts scratch

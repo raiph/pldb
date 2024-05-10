@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PROPHET
+import ../measures/conceptPage.scroll
+id PROPHET
+appeared 1974
+type pl
+reference https://semanticscholar.org/paper/278608bb506afba2bd4b2c9c4166ad485dbcd5df
+country United States
+originCommunity Bolt Beranek and Newman, Inc
 
-title PROPHET - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4346
 
-html
- <a class="trueBaseThemePreviousItem" href="progol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="proto-gnosis.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prophet.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prophet" class="material-symbols-outlined">edit</a></div>
-
-* PROPHET is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1974.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1974 1974
-
-dashboard
- #4266 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 50 Years Old
-
-* 
-
-- PROPHET first developed in <a href="../lists/originCommunities.html#boltBeranekAndNewmanInc">Bolt Beranek and Newman, Inc</a>
-- PROPHET on HOPL
- https://hopl.info/showlanguage.prx?exp=4346
-- Read more about PROPHET on Semantic Scholar: 1.
- https://semanticscholar.org/paper/278608bb506afba2bd4b2c9c4166ad485dbcd5df 1.
-
-<br>
-
-endColumns
-
-keyboardNav progol.html proto-gnosis.html
-
-import ../footer.scroll
+wordRank 9657
+centralPackageRepositoryCount 0

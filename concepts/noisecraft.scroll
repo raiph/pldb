@@ -1,43 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title noisecraft
+import ../measures/conceptPage.scroll
+id noisecraft
+appeared 2021
+type pl
+creators Maxime Chevalier-Boisvert
+website https://noisecraft.app/
+country Canada
+originCommunity https://github.com/maximecb/noisecraft/issues
 
-title noisecraft - Programming language
- hidden
+writtenIn javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="acl2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="raptorjit.html">&gt;</a>
+visualParadigm true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/noisecraft.pldb
+githubRepo https://github.com/maximecb/noisecraft/
+ stars 769
+ forks 41
+ subscribers 15
+ created 2021
+ updated 2022
+ description Browser-based visual programming language and platform for sound synthesis.
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://noisecraft.app/" class="material-symbols-outlined">home</a> <a href="https://github.com/maximecb/noisecraft/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=noisecraft" class="material-symbols-outlined">edit</a></div>
-
-* noisecraft is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Maxime Chevalier-Boisvert.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#maximeChevalierBoisvert Maxime Chevalier-Boisvert
-
-codeWithHeader Source code:
- git clone https://github.com/maximecb/noisecraft/
-
-dashboard
- #1124 <span title="TotalRank: 1680 Jobs: 103 Users: 591 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Browser-based visual programming language and platform for sound synthesis.
-
-- noisecraft website
- https://noisecraft.app/
-- noisecraft is developed on <a href="https://github.com/maximecb/noisecraft/">GitHub</a> and has 769 stars
-- noisecraft first developed in <a href="../lists/originCommunities.html#httpsGithubComMaximecbNoisecraftIssues">https://github.com/maximecb/noisecraft/issues</a>
-- noisecraft is written in <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav acl2.html raptorjit.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 543
+ committers 15
+ files 73

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NOP-2
+import ../measures/conceptPage.scroll
+id NOP-2
+appeared 2001
+type pl
+reference https://semanticscholar.org/paper/caac297bc024f9be9a3526726bdb35bf99c23bdc
+country Austria
+originCommunity Universität Wien
 
-title NOP-2 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8036
 
-html
- <a class="trueBaseThemePreviousItem" href="noodle.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="npl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nop-2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nop-2" class="material-symbols-outlined">edit</a></div>
-
-* NOP-2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3874 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 23 Years Old
-
-* 
-
-- NOP-2 first developed in <a href="../lists/originCommunities.html#universitatWien">Universität Wien</a>
-- NOP-2 on HOPL
- https://hopl.info/showlanguage.prx?exp=8036
-- Read more about NOP-2 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/caac297bc024f9be9a3526726bdb35bf99c23bdc 1.
-
-<br>
-
-endColumns
-
-keyboardNav noodle.html npl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

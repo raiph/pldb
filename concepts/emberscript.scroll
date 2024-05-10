@@ -1,75 +1,75 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EmberScript
+import ../measures/conceptPage.scroll
+id EmberScript
+appeared 2012
+type pl
+creators Michael Ficarra and Gordon L. Hempton
+website http://emberscript.com/
+country Various
+originCommunity https://github.com/ghempton/ember-script/issues
+domainName emberscript.com
+ registered 2012
 
-title EmberScript - Programming language
- hidden
+githubRepo https://github.com/ghempton/ember-script
+ firstCommit 2012
+ stars 358
+ forks 28
+ subscribers 11
+ created 2012
+ updated 2022
+ description Ember-infused CoffeeScript
+ issues 28
 
-html
- <a class="trueBaseThemePreviousItem" href="icedcoffeescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dm.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 749
+ committers 35
+ files 82
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emberscript.pldb
+githubLanguage EmberScript
+ fileExtensions em emberscript
+ trendingProjectsCount 0
+ type programming
+ aceMode coffee
+ codemirrorMode coffeescript
+ codemirrorMimeType text/x-coffeescript
+ tmScope source.coffee
+ repos 206
+githubBigQuery EmberScript
+ repos 459
+ users 417
 
-startColumns 4
+linguistGrammarRepo https://github.com/atom/language-coffee-script
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 30
+ commitCount 332
+ sampleCount 1
+ example
+  class App.FromNowView extends Ember.View
+      tagName: 'time'
+      template: Ember.Handlebars.compile '{{view.output}}'
+      output: ~>
+          return moment(@value).fromNow()
+  
+      didInsertElement: ->
+          @tick()
+  
+      tick: ->
+          f = ->
+              @notifyPropertyChange 'output'
+              @tick()
+  
+          nextTick = Ember.run.later(this, f, 1000)
+          @set 'nextTick', nextTick
+  
+      willDestroyElement: ->
+          nextTick = @nextTick
+          Ember.run.cancel nextTick
+  
+  Ember.Handlebars.helper 'fromNow', App.FromNowView
+  
+  
 
-<div class="trueBaseThemeQuickLinks"><a href="http://emberscript.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/ghempton/ember-script" class="material-symbols-outlined">code</a> <a href="/edit.html?id=emberscript" class="material-symbols-outlined">edit</a></div>
-
-* EmberScript is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Michael Ficarra and Gordon L. Hempton.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#michaelFicarra Michael Ficarra
- link ../lists/creators.html#gordonLHempton Gordon L. Hempton
-
-codeWithHeader Source code:
- git clone https://github.com/ghempton/ember-script
-
-dashboard
- #664 <span title="TotalRank: 1242 Jobs: 103 Users: 684 Facts: 455 Links: 986">on PLDB</span>
- 12 Years Old
- 206 <span title="EmberScript repos on GitHub.">Repos</span>
-
-* Ember-infused CoffeeScript
-
-- EmberScript website
- http://emberscript.com/
-- EmberScript is developed on <a href="https://github.com/ghempton/ember-script">GitHub</a> and has 358 stars
-- There are at least 206 EmberScript repos on <a href="https://github.com/search?q=language:EmberScript">GitHub</a>
-- EmberScript first developed in <a href="../lists/originCommunities.html#httpsGithubComGhemptonEmberScriptIssues">https://github.com/ghempton/ember-script/issues</a>
-- file extensions for EmberScript include em and emberscript
-- The  Google BigQuery Public Dataset GitHub snapshot shows 417 users using EmberScript in 459 repos on <a href="https://api.github.com/search/repositories?q=language:EmberScript">GitHub</a>
-- GitHub supports <a href="https://github.com/atom/language-coffee-script" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for EmberScript
-- <a href="http://emberscript.com/">emberscript.com</a> was registered in 2012
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/atom/language-coffee-script'>Linguist</a>:
- class App.FromNowView extends Ember.View
-     tagName: &#39;time&#39;
-     template: Ember.Handlebars.compile &#39;{{view.output}}&#39;
-     output: ~&gt;
-         return moment(@value).fromNow()
- 
-     didInsertElement: -&gt;
-         @tick()
- 
-     tick: -&gt;
-         f = -&gt;
-             @notifyPropertyChange &#39;output&#39;
-             @tick()
- 
-         nextTick = Ember.run.later(this, f, 1000)
-         @set &#39;nextTick&#39;, nextTick
- 
-     willDestroyElement: -&gt;
-         nextTick = @nextTick
-         Ember.run.cancel nextTick
- 
- Ember.Handlebars.helper &#39;fromNow&#39;, App.FromNowView
- 
- 
-
-endColumns
-
-keyboardNav icedcoffeescript.html dm.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

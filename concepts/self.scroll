@@ -1,97 +1,76 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Self
+import ../measures/conceptPage.scroll
+id Self
+appeared 1987
+type pl
+creators David Ungar
+website http://www.selflanguage.org
+documentation https://handbook.selflanguage.org/2017.1/index.html
+reference https://www.youtube.com/watch?v=Ox5P7QyL774
+country United States
+originCommunity Sun Microsystems, Inc
+domainName selflanguage.org
+ registered 2009
+ awisRank
+  2022 8060537
 
-title Self - Programming language
- hidden
+hasMessagePassing true
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ 'Hello world'
 
-html
- <a class="trueBaseThemePreviousItem" href="yara.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="minid.html">&gt;</a>
+printToken printLine
+stringToken '
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/self.pldb
+wikipedia https://en.wikipedia.org/wiki/Self_(programming_language)
+ example
+  _AddSlots: (| porsche911 <- sportsCar copy |).
+  porsche911 name:'Bobs Porsche'.
+ related smalltalk newtonscript javascript io agora squeak lisaac lua factor rebol java solaris linux c cecil ioke
+ summary Self is an object-oriented programming language based on the concept of prototypes. Self began as a dialect of Smalltalk, being dynamically typed and using just-in-time compilation (JIT) as well as the prototype-based approach to objects: it was first used as an experimental test system for language design in the 1980s and 1990s. In 2006, Self was still being developed as part of the Klein project, which was a Self virtual machine written fully in Self. The latest version is 2017.1 released in May 2017. Several just-in-time compilation techniques were pioneered and improved in Self research as they were required to allow a very high level object oriented language to perform at up to half the speed of optimized C. Much of the development of Self took place at Sun Microsystems, and the techniques they developed were later deployed for Java's HotSpot virtual machine. At one point a version of Smalltalk was implemented in Self. Because it was able to use the JIT, this also gave extremely good performance.
+ pageId 60265
+ dailyPageViews 88
+ created 2002
+ backlinksCount 87
+ revisionCount 350
+ appeared 1987
 
-startColumns 4
+githubLanguage Self
+ fileExtensions self
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope none
+ repos 36
+githubBigQuery Self
+ repos 26
+ users 24
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.selflanguage.org" class="material-symbols-outlined">home</a> <a href="https://handbook.selflanguage.org/2017.1/index.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Self_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=self" class="material-symbols-outlined">edit</a></div>
-
-* Self is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987 by David Ungar.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
- link ../lists/creators.html#davidUngar David Ungar
-
-dashboard
- #280 <span title="TotalRank: 675 Jobs: 103 Users: 791 Facts: 484 Links: 88">on PLDB</span>
- 37 Years Old
- 36 <span title="Self repos on GitHub.">Repos</span>
-
-* Self is an object-oriented programming language based on the concept of prototypes. Self began as a dialect of Smalltalk, being dynamically typed and using just-in-time compilation (JIT) as well as the prototype-based approach to objects: it was first used as an experimental test system for language design in the 1980s and 1990s. In 2006, Self was still being developed as part of the Klein project, which was a Self virtual machine written fully in Self. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Self_(programming_language) Read more on Wikipedia...
-
-- Self website
- http://www.selflanguage.org
-- Self Wikipedia page
- https://en.wikipedia.org/wiki/Self_(programming_language)
-- Self docs
- https://handbook.selflanguage.org/2017.1/index.html
-- There are at least 36 Self repos on <a href="https://github.com/search?q=language:Self">GitHub</a>
-- Self first developed in <a href="../lists/originCommunities.html#sunMicrosystemsInc">Sun Microsystems, Inc</a>
-- file extensions for Self include self
-- The  Google BigQuery Public Dataset GitHub snapshot shows 24 users using Self in 26 repos on <a href="https://api.github.com/search/repositories?q=language:Self">GitHub</a>
-- Explore Self snippets on <a href="http://www.rosettacode.org/wiki/Category:Self">Rosetta Code</a>
-- Self on HOPL
- https://hopl.info/showlanguage.prx?exp=1361
-- <a href="http://www.selflanguage.org">selflanguage.org</a> was registered in 2009
-- See also: (16 related languages)<a href="smalltalk.html">Smalltalk</a>, <a href="newtonscript.html">NewtonScript</a>, <a href="javascript.html">JavaScript</a>, <a href="io.html">Io</a>, <a href="agora.html">Agora</a>, <a href="squeak.html">Squeak</a>, <a href="lisaac.html">Lisaac</a>, <a href="lua.html">Lua</a>, <a href="factor.html">Factor</a>, <a href="rebol.html">REBOL</a>, <a href="java.html">Java</a>, <a href="solaris.html">Solaris</a>, <a href="linux.html">Linux</a>, <a href="c.html">C</a>, <a href="cecil.html">CECIL</a>, <a href="ioke.html">Ioke</a>
-- Read more about Self on the web: 1.
- https://www.youtube.com/watch?v=Ox5P7QyL774 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Self.self'>hello-world</a>:
- &#39;Hello World&#39; printLine
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Self'>the Hello World Collection</a>:
- (|  &quot;Hello World in Self&quot;
+helloWorldCollection Self
+ (|  "Hello World in Self"
  
-   hello = (| | &#39;Hello World!&#39; print)
+   hello = (| | 'Hello World!' print)
  |)
  
+leachim6 Self
+ filepath s/Self.self
+ fileExtensions self
+ example
+  'Hello World' printLine
+rosettaCode http://www.rosettacode.org/wiki/Category:Self
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Self_(programming_language)'>Wikipedia</a>:
- _AddSlots: (| porsche911 &lt;- sportsCar copy |).
- porsche911 name:&#39;Bobs Porsche&#39;.
+hopl https://hopl.info/showlanguage.prx?exp=1361
 
-endColumns
+fileType text
+wordRank 697
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2015|CreateSpace Independent Publishing Platform|Dark NLP: How To Use Neuro-linguistic Programming For Self Mastery, Getting What You Want, Mastering Others And To Gain An Advantage Over Anyone|Pace, Michael|9781518825392
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token '
-  Example
-   'Hello world'
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token printLine
-  Example
- row
-  Feature Message Passing
-  FeatureLink ../features/hasMessagePassing.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav yara.html minid.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2007|Self|10.1145/1238844.1238853|218|8|D. Ungar and Randall B. Smith|f2ba08767970ae656b6af921fd96dd359e27ab41
+ 1995|Programming as an Experience: The Inspiration for Self|10.1007/3-540-49538-X_15|112|5|Randall B. Smith and D. Ungar|8f4083c32a564a9f101ae6e907b94d4e50dc739f

@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title oniguruma
-
-title oniguruma - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="neo4j.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oracle.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/oniguruma.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=oniguruma" class="material-symbols-outlined">edit</a></div>
-
-* oniguruma is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3204 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 22 Years Old
-
-* 
-
-- oniguruma first developed in <a href="../lists/originCommunities.html#macroMatesLtd">MacroMates Ltd</a>
-- Read more about oniguruma on the web: 1.
- https://macromates.com/manual/en/regular_expressions 1.
-
-<br>
-
-endColumns
-
-keyboardNav neo4j.html oracle.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id oniguruma
+appeared 2002
+type queryLanguage
+reference https://macromates.com/manual/en/regular_expressions
+country Denmark
+originCommunity MacroMates Ltd

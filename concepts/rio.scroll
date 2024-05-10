@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rio
+import ../measures/conceptPage.scroll
+id rio
+appeared 2017
+type pl
+reference https://web.archive.org/web/20180228184559/https://www.cs.ou.edu/~tjpalmer/
+country United States
+originCommunity University of Oklahoma
 
-title rio - Programming language
- hidden
+githubRepo https://github.com/tjpalmer/rio
+ firstCommit 2017
+ stars 30
+ subscribers 6
+ created 2017
+ updated 2022
+ description Goal: A script-feeling, safe, naturally compatible replacement for C, with no runtime nor std lib of its own.
+ issues 12
+ forks 0
 
-html
- <a class="trueBaseThemePreviousItem" href="rustscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bizubee.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rio.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/tjpalmer/rio" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rio" class="material-symbols-outlined">edit</a></div>
-
-* rio is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/tjpalmer/rio
-
-dashboard
- #2342 <span title="TotalRank: 2876 Jobs: 103 Users: 2050 Facts: 1787 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Goal: A script-feeling, safe, naturally compatible replacement for C, with no runtime nor std lib of its own.
-
-- rio is developed on <a href="https://github.com/tjpalmer/rio">GitHub</a> and has 30 stars
-- rio first developed in <a href="../lists/originCommunities.html#universityOfOklahoma">University of Oklahoma</a>
-- Read more about rio on the web: 1.
- https://web.archive.org/web/20180228184559/https://www.cs.ou.edu/~tjpalmer/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav rustscript.html bizubee.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2017
+ commits 759
+ committers 3
+ files 129

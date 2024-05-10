@@ -1,33 +1,4 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title code-blocks-editor
-
-title code-blocks-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="clion-editor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="codelite-editor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/code-blocks-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=code-blocks-editor" class="material-symbols-outlined">edit</a></div>
-
-* code-blocks-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #3640 on PLDB
- 19 Years Old
-
-* 
-
-<br>
-
-endColumns
-
-keyboardNav clion-editor.html codelite-editor.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id code-blocks-editor
+appeared 2005
+type editor

@@ -1,48 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 6gunz
+import ../measures/conceptPage.scroll
+id 6gunz
+appeared 2018
+type pl
+demoVideo https://www.youtube.com/watch?v=afXzeCuUuhU
+demoVideo https://www.youtube.com/watch?v=qGOIt0xh0dw
+creators Matthew Steel
+website http://6gu.nz
+reference https://6gu.nz/language/
+country New Zealand
+originCommunity https://6gu.nz/
+domainName 6gu.nz
+ awisRank
+  2022 4564023
 
-title 6gunz - Programming language
- hidden
+visualParadigm true
 
-html
- <a class="trueBaseThemePreviousItem" href="post-canonical-system.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gauche.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/6gunz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://6gu.nz" class="material-symbols-outlined">home</a> <a href="/edit.html?id=6gunz" class="material-symbols-outlined">edit</a></div>
-
-* 6gunz is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Matthew Steel.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#matthewSteel Matthew Steel
-
-dashboard
- #2315 <span title="TotalRank: 2837 Jobs: 103 Users: 2442 Facts: 2067 Links: 667">on PLDB</span>
- 6 Years Old
-
-* 
-
-- 6gunz website
- http://6gu.nz
-- Video demo of 6gunz
- https://www.youtube.com/watch?v=qGOIt0xh0dw
-- 6gunz first developed in <a href="../lists/originCommunities.html#https6GuNz">https://6gu.nz/</a>
-- Read more about 6gunz on the web: 1.
- https://6gu.nz/language/ 1.
-
-<br>
-
-endColumns
-
-## HackerNews discussions of 6gunz
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: 6gunz – spreadsheet / programming language / microservices framework|https://news.ycombinator.com/item?id=17544330|07/16/2018|9|5
-
-keyboardNav post-canonical-system.html gauche.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 17544330|Show HN: 6gunz – spreadsheet / programming language / microservices framework|2018-07-16 19:36:57 UTC|1531769817|repsilat|5|9

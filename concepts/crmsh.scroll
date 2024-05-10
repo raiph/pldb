@@ -1,44 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title crmsh
+import ../measures/conceptPage.scroll
+id crmsh
+appeared 2008
+type pl
+creators Dejan Muhamedagic
+conceptDescription crmsh is a cluster management shell for the Pacemaker High Availability stack.
+website http://crmsh.github.io/
+country Various
+originCommunity https://github.com/ClusterLabs/
+domainName crmsh.github.io
 
-title crmsh - Programming language
- hidden
+githubRepo https://github.com/ClusterLabs/crmsh
+ firstCommit 2008
+ stars 115
+ forks 81
+ subscribers 29
+ created 2014
+ updated 2022
+ description Command-line interface for High-Availability cluster management on GNU/Linux systems.
+ issues 95
 
-html
- <a class="trueBaseThemePreviousItem" href="chained-arrow-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="juvix.html">&gt;</a>
+repoStats
+ firstCommit 2008
+ commits 5832
+ committers 84
+ files 423
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/crmsh.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://crmsh.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/ClusterLabs/crmsh" class="material-symbols-outlined">code</a> <a href="/edit.html?id=crmsh" class="material-symbols-outlined">edit</a></div>
-
-* crmsh is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Dejan Muhamedagic.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#dejanMuhamedagic Dejan Muhamedagic
-
-codeWithHeader Source code:
- git clone https://github.com/ClusterLabs/crmsh
-
-dashboard
- #1470 <span title="TotalRank: 1988 Jobs: 103 Users: 899 Facts: 1311 Links: 986">on PLDB</span>
- 16 Years Old
-
-* crmsh is a cluster management shell for the Pacemaker High Availability stack.
-
-- crmsh website
- http://crmsh.github.io/
-- crmsh is developed on <a href="https://github.com/ClusterLabs/crmsh">GitHub</a> and has 115 stars
-- crmsh first developed in <a href="../lists/originCommunities.html#httpsGithubComClusterLabs">https://github.com/ClusterLabs/</a>
-- file extensions for crmsh include crmsh and pcmk
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/dsls.py">syntax highlighting</a> for crmsh
-
-<br>
-
-endColumns
-
-keyboardNav chained-arrow-notation.html juvix.html
-
-import ../footer.scroll
+pygmentsHighlighter Crmsh
+ filename dsls.py
+ fileExtensions crmsh pcmk

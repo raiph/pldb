@@ -1,43 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title plink-bed-format
+import ../measures/conceptPage.scroll
+id plink-bed-format
+appeared 2007
+type binaryDataFormat
+conceptDescription Primary representation of genotype calls at biallelic variants. Do not confuse this with the UCSC Genome Browser's BED format, which is totally different. Used in plink.
+website https://www.cog-genomics.org/plink2/formats#bed
+reference https://www.sciencedirect.com/science/article/pii/S0002929707613524
+fileExtensions bed
+country Various
+originCommunity https://github.com/samtools
 
-title plink-bed-format - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pickcode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plumb.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plink-bed-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.cog-genomics.org/plink2/formats#bed" class="material-symbols-outlined">home</a> <a href="/edit.html?id=plink-bed-format" class="material-symbols-outlined">edit</a></div>
-
-* plink-bed-format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3207 on PLDB
- 17 Years Old
-
-* Primary representation of genotype calls at biallelic variants. Do not confuse this with the UCSC Genome Browser's BED format, which is totally different. Used in plink.
-
-- plink-bed-format website
- https://www.cog-genomics.org/plink2/formats#bed
-- plink-bed-format first developed in <a href="../lists/originCommunities.html#httpsGithubComSamtools">https://github.com/samtools</a>
-- file extensions for plink-bed-format include bed
-- Read more about plink-bed-format on the web: 1.
- https://www.sciencedirect.com/science/article/pii/S0002929707613524 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  0x6c 0x1b 0x01 0xdc 0x0f 0xe7 0x0f 0x6b 0x01
 
-endColumns
-
-keyboardNav pickcode.html plumb.html
-
-import ../footer.scroll
+fileType binary
+centralPackageRepositoryCount 0

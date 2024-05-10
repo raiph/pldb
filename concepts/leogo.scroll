@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Leogo
+import ../measures/conceptPage.scroll
+id Leogo
+appeared 1997
+type pl
+reference https://semanticscholar.org/paper/b74ed46ea1c409b76ff8dc48b7ed1f32c5db4da8
+country New Zealand
+originCommunity University of Canterbury && Christchurch School of Medicine
 
-title Leogo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5767
 
-html
- <a class="trueBaseThemePreviousItem" href="legol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="leopard.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/leogo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=leogo" class="material-symbols-outlined">edit</a></div>
-
-* Leogo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
-
-dashboard
- #3780 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Leogo first developed in <a href="../lists/originCommunities.html#universityOfCanterbury">University of Canterbury</a> and <a href="../lists/originCommunities.html#christchurchSchoolOfMedicine">Christchurch School of Medicine</a>
-- Leogo on HOPL
- https://hopl.info/showlanguage.prx?exp=5767
-- Read more about Leogo on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b74ed46ea1c409b76ff8dc48b7ed1f32c5db4da8 1.
-
-<br>
-
-endColumns
-
-keyboardNav legol.html leopard.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

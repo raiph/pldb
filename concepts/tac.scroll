@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TAC
+import ../measures/conceptPage.scroll
+id TAC
+appeared 1959
+type pl
+reference https://semanticscholar.org/paper/aaa63f95c0e7a5cf393ebbf5c5fd8b3a0846f299
 
-title TAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2550
 
-html
- <a class="trueBaseThemePreviousItem" href="tabtran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tarmac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tac" class="material-symbols-outlined">edit</a></div>
-
-* TAC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1959.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1959 1959
-
-dashboard
- #3222 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 65 Years Old
-
-* 
-
-- TAC on HOPL
- https://hopl.info/showlanguage.prx?exp=2550
-- Read more about TAC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/aaa63f95c0e7a5cf393ebbf5c5fd8b3a0846f299 1.
-
-<br>
-
-endColumns
-
-keyboardNav tabtran.html tarmac.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

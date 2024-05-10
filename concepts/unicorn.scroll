@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title UNICORN
+import ../measures/conceptPage.scroll
+id UNICORN
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/7f9fbbed75679f353c666ad24a5be19271de1007
 
-title UNICORN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2875
 
-html
- <a class="trueBaseThemePreviousItem" href="umta.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unisim.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/unicorn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=unicorn" class="material-symbols-outlined">edit</a></div>
-
-* UNICORN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3265 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- UNICORN on HOPL
- https://hopl.info/showlanguage.prx?exp=2875
-- Read more about UNICORN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/7f9fbbed75679f353c666ad24a5be19271de1007 1.
-
-<br>
-
-endColumns
-
-keyboardNav umta.html unisim.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

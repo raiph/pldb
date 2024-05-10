@@ -1,63 +1,49 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Grace
+import ../measures/conceptPage.scroll
+id Grace
+appeared 2010
+type pl
+conceptDescription The purpose of Grace is to allow novices to discover programming in the simplest possible way. Other famous languages such as Java or Python are widely used by professionals, but may be hard to assimilate for a beginner in programming. That is what the object-oriented Grace language is made for.
+website https://web.cecs.pdx.edu/~grace/
+spec https://web.cecs.pdx.edu/~grace/doc/lang-spec/
+reference https://web.cecs.pdx.edu/~grace/doc/
+country United States
+originCommunity Portland State University
+domainName gracelang.org
+ registered 2010
 
-title Grace - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="cirru.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="manool.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/grace.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.cecs.pdx.edu/~grace/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=grace" class="material-symbols-outlined">edit</a></div>
-
-* Grace is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #1292 <span title="TotalRank: 1825 Jobs: 103 Users: 1127 Facts: 736 Links: 986">on PLDB</span>
- 14 Years Old
- 27 <span title="Grace repos on GitHub.">Repos</span>
-
-* The purpose of Grace is to allow novices to discover programming in the simplest possible way. Other famous languages such as Java or Python are widely used by professionals, but may be hard to assimilate for a beginner in programming. That is what the object-oriented Grace language is made for.
-
-- Grace website
- https://web.cecs.pdx.edu/~grace/
-- Grace specs
- https://web.cecs.pdx.edu/~grace/doc/lang-spec/
-- There are at least 27 Grace repos on <a href="https://github.com/search?q=language:Grace">GitHub</a>
-- Grace first developed in <a href="../lists/originCommunities.html#portlandStateUniversity">Portland State University</a>
-- file extensions for Grace include grace
-- The  Google BigQuery Public Dataset GitHub snapshot shows 12 users using Grace in 15 repos on <a href="https://api.github.com/search/repositories?q=language:Grace">GitHub</a>
-- GitHub supports <a href="https://github.com/zmthy/grace-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Grace
-- <a href="https://web.cecs.pdx.edu/~grace/">gracelang.org</a> was registered in 2010
-- Read more about Grace on the web: 1.
- https://web.cecs.pdx.edu/~grace/doc/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  class cat {
-     def name = &quot;Felix&quot;
+     def name = "Felix"
      method getName {
          return name
      }
  }
 
-codeWithHeader Example from <a href='https://github.com/zmthy/grace-tmbundle'>Linguist</a>:
- method ack (m : Number, n : Number) -&gt; Number {
-   print &quot;ack {m} {n}&quot;
-   if (m &lt; = 0) then {n + 1}
-    elseif {n &lt;= 0} then {ack((m -1), 1)}
-    else {ack(m -1, ack(m, n-1))}
- }
+githubLanguage Grace
+ fileExtensions grace
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.grace
+ repos 27
+githubBigQuery Grace
+ repos 15
+ users 12
 
-endColumns
+linguistGrammarRepo https://github.com/zmthy/grace-tmbundle
+ firstCommit 2011
+ lastCommit 2017
+ committerCount 2
+ commitCount 40
+ sampleCount 2
+ example
+  method ack (m : Number, n : Number) -> Number {
+    print "ack {m} {n}"
+    if (m < = 0) then {n + 1}
+     elseif {n <= 0} then {ack((m -1), 1)}
+     else {ack(m -1, ack(m, n-1))}
+  }
 
-keyboardNav cirru.html manool.html
-
-import ../footer.scroll
+fileType text
+wordRank 4043
+centralPackageRepositoryCount 0

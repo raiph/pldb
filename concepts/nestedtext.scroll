@@ -1,51 +1,31 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NestedText
+import ../measures/conceptPage.scroll
+id NestedText
+appeared 2020
+type dataNotation
+creators Ken Kundert
+website https://nestedtext.org
+country United States
+originCommunity https://nurdletech.com
+domainName nestedtext.org
 
-title NestedText - Data notation
- hidden
+relatedConcepts yaml
 
-html
- <a class="trueBaseThemePreviousItem" href="txt2tags.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="babylonian-numerals.html">&gt;</a>
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nestedtext.pldb
+lineCommentToken #
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://nestedtext.org" class="material-symbols-outlined">home</a> <a href="https://github.com/KenKundert/nestedtext" class="material-symbols-outlined">code</a> <a href="/edit.html?id=nestedtext" class="material-symbols-outlined">edit</a></div>
-
-* NestedText is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2020 by Ken Kundert.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#kenKundert Ken Kundert
-
-codeWithHeader Source code:
- git clone https://github.com/KenKundert/nestedtext
-
-dashboard
- #1048 <span title="TotalRank: 1615 Jobs: 103 Users: 960 Facts: 552 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Human Readable and Writable Data Interchange Format
-
-- NestedText website
- https://nestedtext.org
-- NestedText is developed on <a href="https://github.com/KenKundert/nestedtext">GitHub</a> and has 270 stars
-- NestedText first developed in <a href="../lists/originCommunities.html#httpsNurdletechCom">https://nurdletech.com</a>
-- file extensions for NestedText include nt
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/configs.py">syntax highlighting</a> for NestedText
-- See also: (1 related languages)<a href="yaml.html">YAML</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # Contact information for our officers
  
  Katheryn McDaniel:
      position: president
      address:
-         &gt; 138 Almond Street
-         &gt; Topeka, Kansas 20697
+         > 138 Almond Street
+         > Topeka, Kansas 20697
      phone:
          cell: 1-210-555-5297
          home: 1-210-555-8470
@@ -57,40 +37,30 @@ codeWithHeader Example from the web:
  Margaret Hodge:
      position: vice president
      address:
-         &gt; 2586 Marigold Lane
-         &gt; Topeka, Kansas 20682
+         > 2586 Marigold Lane
+         > Topeka, Kansas 20682
      phone: 1-470-555-0398
      email: margaret.hodge@ku.edu
      additional roles:
          - new membership task force
          - accounting task force
 
-endColumns
+githubRepo https://github.com/KenKundert/nestedtext
+ firstCommit 2020
+ stars 270
+ forks 11
+ subscribers 9
+ created 2020
+ updated 2022
+ description Human Readable and Writable Data Interchange Format
+ issues 3
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2020
+ commits 448
+ committers 7
+ files 89
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav txt2tags.html babylonian-numerals.html
-
-import ../footer.scroll
+pygmentsHighlighter NestedText
+ filename configs.py
+ fileExtensions nt

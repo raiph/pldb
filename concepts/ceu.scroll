@@ -1,65 +1,38 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Céu
+import ../measures/conceptPage.scroll
+id Céu
+appeared 2011
+type pl
+creators Francisco Sant'Anna
+website http://www.ceu-lang.org
+reference http://www.ceu-lang.org/chico/ceu_sensys11.pdf
+country Brazil
+originCommunity Pontifical Catholic University of Rio de Janeiro
+domainName ceu-lang.org
+ registered 2012
 
-title Céu - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="yess.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="macchiato.html">&gt;</a>
+printToken _printf
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ceu.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.ceu-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/fsantanna/ceu" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ceu" class="material-symbols-outlined">edit</a></div>
-
-* Céu is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2011 by Francisco Sant'Anna.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
- link ../lists/creators.html#franciscoSantAnna Francisco Sant'Anna
-
-codeWithHeader Source code:
- git clone https://github.com/fsantanna/ceu
-
-dashboard
- #1639 <span title="TotalRank: 2147 Jobs: 103 Users: 2402 Facts: 1058 Links: 986">on PLDB</span>
- 13 Years Old
-
-* 
-
-- Céu website
- http://www.ceu-lang.org
-- Céu is developed on <a href="https://github.com/fsantanna/ceu">GitHub</a> and has 1 stars
-- Céu first developed in <a href="../lists/originCommunities.html#pontificalCatholicUniversityOfRioDeJaneiro">Pontifical Catholic University of Rio de Janeiro</a>
-- <a href="http://www.ceu-lang.org">ceu-lang.org</a> was registered in 2012
-- Read more about Céu on the web: 1.
- http://www.ceu-lang.org/chico/ceu_sensys11.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  input int KEY;  
  par/or do  
    every 1s do  
-     _printf(&quot;Hello World!\n&quot;);  
+     _printf("Hello World!\n");  
    end  
  with  
    await KEY;  
  end
 
-endColumns
+githubRepo https://github.com/fsantanna/ceu
+ stars 1
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token _printf
-  Example
-
-keyboardNav yess.html macchiato.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 342
+ committers 2
+ files 57

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hackppl
-
-title hackppl - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gaiman.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="haystaq.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hackppl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hackppl" class="material-symbols-outlined">edit</a></div>
-
-* hackppl is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-dashboard
- #3388 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 5 Years Old
-
-* HackPPL is a probabilistic programming language (PPL) built within the Hack programming language
-
-- hackppl first developed in <a href="../lists/originCommunities.html#facebook">Facebook</a>
-- Read more about hackppl on the web: 1.
- https://research.fb.com/publications/hackppl-a-universal-probabilistic-programming-language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav gaiman.html haystaq.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id hackppl
+appeared 2019
+type pl
+conceptDescription HackPPL is a probabilistic programming language (PPL) built within the Hack programming language
+reference https://research.fb.com/publications/hackppl-a-universal-probabilistic-programming-language/
+country United States
+originCommunity Facebook

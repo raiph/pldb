@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OLGA
+import ../measures/conceptPage.scroll
+id OLGA
+appeared 1985
+type pl
+reference https://dl.acm.org/citation.cfm?id=809592
+country Canada
+originCommunity University of Toronto
 
-title OLGA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1173
 
-html
- <a class="trueBaseThemePreviousItem" href="ohaskell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oli.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/olga.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=olga" class="material-symbols-outlined">edit</a></div>
-
-* OLGA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3886 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- OLGA first developed in <a href="../lists/originCommunities.html#universityOfToronto">University of Toronto</a>
-- OLGA on HOPL
- https://hopl.info/showlanguage.prx?exp=1173
-- Read more about OLGA on the web: 1.
- https://dl.acm.org/citation.cfm?id=809592 1.
-
-<br>
-
-endColumns
-
-keyboardNav ohaskell.html oli.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

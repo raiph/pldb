@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Prolog/KR
+import ../measures/conceptPage.scroll
+id Prolog/KR
+appeared 1984
+type pl
+reference https://semanticscholar.org/paper/419b71f6e9c856ffdfc0b37b3abb622cba83626e
+country Japan
+originCommunity The University of Tokyo
 
-title Prolog/KR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4207
 
-html
- <a class="trueBaseThemePreviousItem" href="prolog-iii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prolog-linda.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prolog-kr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prolog-kr" class="material-symbols-outlined">edit</a></div>
-
-* Prolog/KR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1984.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1984 1984
-
-dashboard
- #3959 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 40 Years Old
-
-* 
-
-- Prolog/KR first developed in <a href="../lists/originCommunities.html#theUniversityOfTokyo">The University of Tokyo</a>
-- Prolog/KR on HOPL
- https://hopl.info/showlanguage.prx?exp=4207
-- Read more about Prolog/KR on Semantic Scholar: 1.
- https://semanticscholar.org/paper/419b71f6e9c856ffdfc0b37b3abb622cba83626e 1.
-
-<br>
-
-endColumns
-
-keyboardNav prolog-iii.html prolog-linda.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

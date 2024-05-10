@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Stutter
+import ../measures/conceptPage.scroll
+id Stutter
+appeared 2018
+type esolang
+isDead true
+conceptDescription The design goals of the Stutter Programming Language focus on the underlying idea that Stutter Code is a speakable language that contains no special syntax characters that are unpronounciable.
+reference https://web.archive.org/web/20210708104617/https://github.com/cookiengineer/stutter
 
-title Stutter - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="fetlang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ark-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stutter-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/stutter-lang/stutter" class="material-symbols-outlined">code</a> <a href="/edit.html?id=stutter-lang" class="material-symbols-outlined">edit</a></div>
-
-* Stutter is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/stutter-lang/stutter
-
-dashboard
- #942 <span title="TotalRank: 1510 Jobs: 103 Users: 2342 Facts: 421 Links: 986">on PLDB</span>
- 6 Years Old
-
-* The design goals of the Stutter Programming Language focus on the underlying idea that Stutter Code is a speakable language that contains no special syntax characters that are unpronounciable.
-
-- Stutter is developed on <a href="https://github.com/stutter-lang/stutter">GitHub</a> and has 6 stars
-- Read more about Stutter on the web: 1.
- https://web.archive.org/web/20210708104617/https://github.com/cookiengineer/stutter 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  let ratio be a Number and set it to 0.37
  let variable be a Number
  set variable to 5
@@ -94,8 +67,11 @@ codeWithHeader Example from the web:
  
  end
 
-endColumns
-
-keyboardNav fetlang.html ark-lang.html
-
-import ../footer.scroll
+githubRepo https://github.com/stutter-lang/stutter
+ firstCommit 2018
+ stars 6
+ forks 1
+ subscribers 1
+ created 2018
+ updated 2020
+ description :book: The Stutter Language Specification and Test Suite

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hyperflow
+import ../measures/conceptPage.scroll
+id Hyperflow
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/d4104df045c600c55e4d2995e360370967433c0f
+country United States
+originCommunity Washington University
 
-title Hyperflow - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5322
 
-html
- <a class="trueBaseThemePreviousItem" href="hypac.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hyperlisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hyperflow.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=hyperflow" class="material-symbols-outlined">edit</a></div>
-
-* Hyperflow is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3726 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Hyperflow first developed in <a href="../lists/originCommunities.html#washingtonUniversity">Washington University</a>
-- Hyperflow on HOPL
- https://hopl.info/showlanguage.prx?exp=5322
-- Read more about Hyperflow on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d4104df045c600c55e4d2995e360370967433c0f 1.
-
-<br>
-
-endColumns
-
-keyboardNav hypac.html hyperlisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

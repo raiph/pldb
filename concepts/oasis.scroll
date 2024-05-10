@@ -1,41 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title OASIS
+import ../measures/conceptPage.scroll
+id OASIS
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/be0134cd242a68f9d16f9590851ca67947127831
+country Denmark
+originCommunity Aarhus University
 
-title OASIS - Programming language
- hidden
+tryItOnline oasis
 
-html
- <a class="trueBaseThemePreviousItem" href="interleaved-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pamela.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=2830
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/oasis.pldb
+wordRank 6544
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="oasis" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=oasis" class="material-symbols-outlined">edit</a></div>
-
-* OASIS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #2989 <span title="TotalRank: 3549 Jobs: 103 Users: 2838 Facts: 2460 Links: 986">on PLDB</span>
- 30 Years Old
-
-* Try now: <a href="https://tio.run/#oasis">TIO</a>
-
-* 
-
-- OASIS first developed in <a href="../lists/originCommunities.html#aarhusUniversity">Aarhus University</a>
-- OASIS on HOPL
- https://hopl.info/showlanguage.prx?exp=2830
-- Read more about OASIS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/be0134cd242a68f9d16f9590851ca67947127831 1.
-
-<br>
-
-endColumns
-
-keyboardNav interleaved-notation.html pamela.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2018|The Museum of Modern Art, New York|Oasis in the City: The Abby Aldrich Rockefeller Sculpture Garden at The Museum of Modern Art|Reed, Peter and Silver-Kohn, Romy and Bajac, Quentin and Temkin, Ann|9780870709074
+ 2015|AuthorHouse|Blossoms of Light: An Oasis for the Soul|Moore, Iris Arla|9781504957878

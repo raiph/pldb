@@ -1,80 +1,62 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MIRC scripting language
+import ../measures/conceptPage.scroll
+id MIRC scripting language
+appeared 1995
+type pl
+creators Khaled Mardam-Bey
+website http://mirc.com/
+country Great Britain
+originCommunity https://www.mirc.com
+domainName mirc.com
+ registered 1997
+ awisRank
+  2022 198825
 
-title MIRC scripting language - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="gentoo-ebuild.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="promal.html">&gt;</a>
+printToken echo
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mirc.pldb
+wikipedia https://en.wikipedia.org/wiki/MIRC_scripting_language
+ example
+  ;Placed in a remote script
+  
+  ;When a user types Hello! in a channel,
+  ;you answer back: Hello, [nickname]!
+  
+  on *:TEXT:Hello!:#:{ msg $chan Hello, $nick $+ ! }
+  
+  ;When a user types Hello! in a private message,
+  ;you answer back: Hello, [nickname]!
+  
+  on *:TEXT:Hello!:?: { msg $nick Hello, $nick $+ ! }
+  
+  ;Here is a script which automatically gives voice to a user
+  ;who joins a particular channel (The Bot or user should have HOP)
+  
+  on *:JOIN:#?: { mode $chan +v $nick }
+  
+  ;A bad word script
+  
+  on *:Text:die*:#: { .mode $chan +b $nick | kick $chan $nick Dont say that again }
+ related ini
+ summary The mIRC scripting language, often unofficially abbreviated to "mSL", is the scripting language embedded in mIRC, an IRC client for Windows.
+ pageId 310996
+ dailyPageViews 37
+ created 2003
+ backlinksCount 69
+ revisionCount 313
+ appeared 1995
 
-startColumns 4
+codeMirror mirc
 
-<div class="trueBaseThemeQuickLinks"><a href="http://mirc.com/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/MIRC_scripting_language"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=mirc" class="material-symbols-outlined">edit</a></div>
+leachim6 Mirc
+ filepath m/Mirc.mrc
+ fileExtensions mrc
+ example
+  echo -a Hello World
+  
 
-* MIRC scripting language is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995 by Khaled Mardam-Bey.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
- link ../lists/creators.html#khaledMardamBey Khaled Mardam-Bey
+fileType text
+isOpenSource false
+centralPackageRepositoryCount 0
 
-dashboard
- #1134 <span title="TotalRank: 1686 Jobs: 103 Users: 1031 Facts: 597 Links: 986">on PLDB</span>
- 29 Years Old
-
-* The mIRC scripting language, often unofficially abbreviated to "mSL", is the scripting language embedded in mIRC, an IRC client for Windows.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/MIRC_scripting_language Read more on Wikipedia...
-
-- MIRC scripting language website
- http://mirc.com/
-- MIRC scripting language Wikipedia page
- https://en.wikipedia.org/wiki/MIRC_scripting_language
-- MIRC scripting language first developed in <a href="../lists/originCommunities.html#httpsWwwMircCom">https://www.mirc.com</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/mirc">package</a> for syntax highlighting MIRC scripting language
-- <a href="http://mirc.com/">mirc.com</a> was registered in 1997
-- See also: (1 related languages)<a href="ini.html">Ini</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/m/Mirc.mrc'>hello-world</a>:
- echo -a Hello World
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/MIRC_scripting_language'>Wikipedia</a>:
- ;Placed in a remote script
- 
- ;When a user types Hello! in a channel,
- ;you answer back: Hello, [nickname]!
- 
- on *:TEXT:Hello!:#:{ msg $chan Hello, $nick $+ ! }
- 
- ;When a user types Hello! in a private message,
- ;you answer back: Hello, [nickname]!
- 
- on *:TEXT:Hello!:?: { msg $nick Hello, $nick $+ ! }
- 
- ;Here is a script which automatically gives voice to a user
- ;who joins a particular channel (The Bot or user should have HOP)
- 
- on *:JOIN:#?: { mode $chan +v $nick }
- 
- ;A bad word script
- 
- on *:Text:die*:#: { .mode $chan +b $nick | kick $chan $nick Dont say that again }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token echo
-  Example
-
-keyboardNav gentoo-ebuild.html promal.html
-
-import ../footer.scroll
+isbndb 0

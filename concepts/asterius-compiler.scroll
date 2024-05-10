@@ -1,40 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title asterius-compiler
+import ../measures/conceptPage.scroll
+id asterius-compiler
+appeared 2017
+type compiler
+creators Shao Cheng
+country France and United Kingdom and Cyprus
+originCommunity Tweag I/O
 
-title asterius-compiler - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="violent-es.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hl7.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asterius-compiler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/tweag/asterius" class="material-symbols-outlined">code</a> <a href="/edit.html?id=asterius-compiler" class="material-symbols-outlined">edit</a></div>
-
-* asterius-compiler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2017 by Shao Cheng.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#shaoCheng Shao Cheng
-
-codeWithHeader Source code:
- git clone https://github.com/tweag/asterius
-
-dashboard
- #1141 on PLDB
- 7 Years Old
-
-* A Haskell to WebAssembly compiler
-
-- asterius-compiler is developed on <a href="https://github.com/tweag/asterius">GitHub</a> and has 1,917 stars
-- asterius-compiler first developed in <a href="../lists/originCommunities.html#tweagIO">Tweag I/O</a>
-
-<br>
-
-endColumns
-
-keyboardNav violent-es.html hl7.html
-
-import ../footer.scroll
+githubRepo https://github.com/tweag/asterius
+ firstCommit 2017
+ stars 1917
+ forks 61
+ subscribers 76
+ created 2017
+ updated 2022
+ description A Haskell to WebAssembly compiler
+ issues 134

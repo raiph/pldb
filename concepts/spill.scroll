@@ -1,43 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Spill
+import ../measures/conceptPage.scroll
+id Spill
+appeared 1997
+type pl
+creators Feliks Kluhiak and Mirodawa Milkowska
+reference https://semanticscholar.org/paper/2cbce914ee3b9db6db1bfcae59c6094232c44888
+reference https://www.sciencedirect.com/science/article/pii/S0167642396000214/pdf?md5=fc4c9cb98f28e7a69b303b749ef5d664&pid=1-s2.0-S0167642396000214-main.pdf&_valck=1
+country Poland
+originCommunity Warsaw University
 
-title Spill - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4454
 
-html
- <a class="trueBaseThemePreviousItem" href="rapidgen-rpl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xduce.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spill.pldb
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 20190910|Taylor & Francis|Information Engineering of Emergency Treatment for Marine Oil Spill Accidents|Lin Mu; Lizhe Wang; Jining Yan|9781000691016
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=spill" class="material-symbols-outlined">edit</a></div>
-
-* Spill is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1997 by Feliks Kluhiak and Mirodawa Milkowska.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1997 1997
- link ../lists/creators.html#feliksKluhiak Feliks Kluhiak
- link ../lists/creators.html#mirodawaMilkowska Mirodawa Milkowska
-
-dashboard
- #2665 <span title="TotalRank: 3273 Jobs: 103 Users: 2838 Facts: 2184 Links: 986">on PLDB</span>
- 27 Years Old
-
-* 
-
-- Spill first developed in <a href="../lists/originCommunities.html#warsawUniversity">Warsaw University</a>
-- Spill on HOPL
- https://hopl.info/showlanguage.prx?exp=4454
-- Read more about Spill on Semantic Scholar: 1.
- https://semanticscholar.org/paper/2cbce914ee3b9db6db1bfcae59c6094232c44888 1.
-- Read more about Spill on the web: 1.
- https://www.sciencedirect.com/science/article/pii/S0167642396000214/pdf?md5=fc4c9cb98f28e7a69b303b749ef5d664&pid=1-s2.0-S0167642396000214-main.pdf&_valck=1 1.
-
-<br>
-
-endColumns
-
-keyboardNav rapidgen-rpl.html xduce.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2013|Mathematical Model and Computer Simulation for Oil Spill in Ice Waters Around Island Based on FLUENT|10.4304/jcp.8.4.1027-1034|6|0|Wei Li and X. Liang and Jianguo Lin|a76124a8c961ca5d1cff22869a6b25b912db0256

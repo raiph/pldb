@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SNOOP
+import ../measures/conceptPage.scroll
+id SNOOP
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/57dbda987a11b2ea83808638d35230306ba1120e
+country United States
+originCommunity University of Florida and Teknekron Communications Systems, Inc.
 
-title SNOOP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1436
 
-html
- <a class="trueBaseThemePreviousItem" href="snobat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="solmar.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snoop.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=snoop" class="material-symbols-outlined">edit</a></div>
-
-* SNOOP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4036 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- SNOOP first developed in <a href="../lists/originCommunities.html#universityOfFloridaAndTeknekronCommunicationsSystemsInc">University of Florida and Teknekron Communications Systems, Inc.</a>
-- SNOOP on HOPL
- https://hopl.info/showlanguage.prx?exp=1436
-- Read more about SNOOP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/57dbda987a11b2ea83808638d35230306ba1120e 1.
-
-<br>
-
-endColumns
-
-keyboardNav snobat.html solmar.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

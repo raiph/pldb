@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title lift
+import ../measures/conceptPage.scroll
+id lift
+appeared 2014
+type pl
+website https://www.lift-project.org/
+country Scotland and Germany
+originCommunity Universities of Edinburgh && University of Münster
+domainName lift-project.org
+ registered 2016
 
-title lift - Programming language
- hidden
+githubRepo https://github.com/lift-project/lift
+ firstCommit 2014
+ stars 202
+ forks 19
+ subscribers 19
+ created 2016
+ updated 2022
+ description The Lift programming language and compiler
+ issues 5
 
-html
- <a class="trueBaseThemePreviousItem" href="fl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sequencel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lift.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.lift-project.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/lift-project/lift" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lift" class="material-symbols-outlined">edit</a></div>
-
-* lift is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/lift-project/lift
-
-dashboard
- #1596 <span title="TotalRank: 2112 Jobs: 103 Users: 1023 Facts: 1591 Links: 986">on PLDB</span>
- 10 Years Old
-
-* The Lift programming language and compiler
-
-- lift website
- https://www.lift-project.org/
-- lift is developed on <a href="https://github.com/lift-project/lift">GitHub</a> and has 202 stars
-- lift first developed in <a href="../lists/originCommunities.html#universitiesOfEdinburgh">Universities of Edinburgh</a> and <a href="../lists/originCommunities.html#universityOfMunster">University of Münster</a>
-- <a href="https://www.lift-project.org/">lift-project.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-keyboardNav fl.html sequencel.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 5318
+ committers 58
+ files 698

@@ -1,82 +1,66 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSX
+import ../measures/conceptPage.scroll
+id JSX
+appeared 2013
+type template
+website http://reactjs.org
+reference https://en.wikipedia.org/wiki/React_(JavaScript_library)#JSX
+country United States
+originCommunity Facebook
+domainName reactjs.org
+ registered 2013
+ awisRank
+  2022 2151
 
-title JSX - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="eex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gwl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jsx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://reactjs.org" class="material-symbols-outlined">home</a> <a href="https://twitter.com/reactjs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=jsx" class="material-symbols-outlined">edit</a></div>
-
-* JSX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-dashboard
- #1057 <span title="TotalRank: 1621 Jobs: 103 Users: 1127 Facts: 532 Links: 986">on PLDB</span>
- 11 Years Old
-
-* 
-
-- JSX website
- http://reactjs.org
-- JSX first developed in <a href="../lists/originCommunities.html#facebook">Facebook</a>
-- file extensions for JSX include jsx
-- JSX on Twitter
- https://twitter.com/reactjs
-- GitHub supports <a href="https://github.com/github-linguist/babel-sublime" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for JSX
-- <a href="http://reactjs.org">reactjs.org</a> was registered in 2013
-- Read more about JSX on the web: 1.
- https://en.wikipedia.org/wiki/React_(JavaScript_library)#JSX 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  class App extends React.Component {
    render() {
      return (
-       &lt;div&gt;
-         &lt;p&gt;Header&lt;/p&gt;
-         &lt;p&gt;Content&lt;/p&gt;
-         &lt;p&gt;Footer&lt;/p&gt;
-       &lt;/div&gt;
+       <div>
+         <p>Header</p>
+         <p>Content</p>
+         <p>Footer</p>
+       </div>
      );
    }
  }
 
-codeWithHeader Example from <a href='https://github.com/github-linguist/babel-sublime'>Linguist</a>:
- &#39;use strict&#39;;
- 
- const React = require(&#39;react&#39;)
- 
- module.exports = React.createClass({
-   render: function() {
-     let {feeds, log} = this.props;
- 
-     log.info(feeds);
-     return &lt;div className=&quot;feed-list&quot;&gt;
-       &lt;h3&gt;News Feed&#39;s&lt;/h3&gt;
-       &lt;ul&gt;
-         {feeds.map(function(feed) {
-           return &lt;li key={feed.name} className={feed.fetched ? &#39;loaded&#39; : &#39;loading&#39;}&gt;
-             {feed.data &amp;&amp; feed.data.length &gt; 0 ?
-               &lt;span&gt;{feed.name} &lt;span className=&#39;light&#39;&gt;({feed.data.length})&lt;/span&gt;&lt;/span&gt;
-               : &#39;feed.name&#39; }
-           &lt;/li&gt;
-         })}
-       &lt;/ul&gt;
-     &lt;/div&gt;;
-   }
- });
+githubLanguage JSX
+ fileExtensions jsx
+ trendingProjectsCount 0
 
-endColumns
+linguistGrammarRepo https://github.com/github-linguist/babel-sublime
+ firstCommit 2015
+ lastCommit 2018
+ committerCount 20
+ commitCount 298
+ sampleCount 1
+ example
+  'use strict';
+  
+  const React = require('react')
+  
+  module.exports = React.createClass({
+    render: function() {
+      let {feeds, log} = this.props;
+  
+      log.info(feeds);
+      return <div className="feed-list">
+        <h3>News Feed's</h3>
+        <ul>
+          {feeds.map(function(feed) {
+            return <li key={feed.name} className={feed.fetched ? 'loaded' : 'loading'}>
+              {feed.data && feed.data.length > 0 ?
+                <span>{feed.name} <span className='light'>({feed.data.length})</span></span>
+                : 'feed.name' }
+            </li>
+          })}
+        </ul>
+      </div>;
+    }
+  });
 
-keyboardNav eex.html gwl.html
+twitter https://twitter.com/reactjs
+fileType text
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+semanticScholar 0

@@ -1,42 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EDSAC Initial Orders
+import ../measures/conceptPage.scroll
+id EDSAC Initial Orders
+appeared 1948
+type assembly
+creators David Wheeler and Maurice Wilkes and Stanley Gill
+reference https://en.wikipedia.org/wiki/EDSAC
+country United Kingdom
+originCommunity University of Cambridge
 
-title EDSAC Initial Orders - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="edinburgh-lcf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edsim.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edsac-initial-orders.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=edsac-initial-orders" class="material-symbols-outlined">edit</a></div>
-
-* EDSAC Initial Orders is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1948 by David Wheeler and Maurice Wilkes and Stanley Gill.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1948 1948
- link ../lists/creators.html#davidWheeler David Wheeler
- link ../lists/creators.html#mauriceWilkes Maurice Wilkes
- link ../lists/creators.html#stanleyGill Stanley Gill
-
-dashboard
- #3648 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 76 Years Old
-
-* 
-
-- EDSAC Initial Orders first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a>
-- EDSAC Initial Orders on HOPL
- https://hopl.info/showlanguage.prx?exp=3411
-- Read more about EDSAC Initial Orders on the web: 1.
- https://en.wikipedia.org/wiki/EDSAC 1.
-
-<br>
-
-endColumns
-
-keyboardNav edinburgh-lcf.html edsim.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=3411

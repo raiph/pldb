@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Chronolog
+import ../measures/conceptPage.scroll
+id Chronolog
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/436c8be2764d3ee31a2ba2cceba8791f9a49e4d4
+country Australia
+originCommunity University of New South Wales
 
-title Chronolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2225
 
-html
- <a class="trueBaseThemePreviousItem" href="chemtrains.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chronologmc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chronolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=chronolog" class="material-symbols-outlined">edit</a></div>
-
-* Chronolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3564 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- Chronolog first developed in <a href="../lists/originCommunities.html#universityOfNewSouthWales">University of New South Wales</a>
-- Chronolog on HOPL
- https://hopl.info/showlanguage.prx?exp=2225
-- Read more about Chronolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/436c8be2764d3ee31a2ba2cceba8791f9a49e4d4 1.
-
-<br>
-
-endColumns
-
-keyboardNav chemtrains.html chronologmc.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

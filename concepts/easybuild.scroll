@@ -1,67 +1,62 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Easybuild
+import ../measures/conceptPage.scroll
+id Easybuild
+appeared 2014
+type application
+creators Kenneth Hoste
+conceptDescription EasyBuild is a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way.
+website http://easybuilders.github.io/easybuild/
+country Various
+originCommunity https://github.com/easybuilders/
 
-title Easybuild - Application
- hidden
+githubRepo https://github.com/easybuilders/easybuild
+ stars 377
+ forks 137
+ subscribers 34
+ created 2012
+ updated 2022
+ description EasyBuild - building software with ease
+ issues 93
+ firstCommit 2012
 
-html
- <a class="trueBaseThemePreviousItem" href="cartocss.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sysml.html">&gt;</a>
+githubLanguage Easybuild
+ fileExtensions eb
+ trendingProjectsCount 0
+ type data
+ group Python
+ aceMode python
+ codemirrorMode python
+ codemirrorMimeType text/x-python
+ tmScope source.python
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/easybuild.pldb
+linguistGrammarRepo https://github.com/MagicStack/MagicPython
+ firstCommit 2015
+ lastCommit 2018
+ committerCount 13
+ commitCount 415
+ sampleCount 1
+ example
+  # not really (there's an EB_bzip2 easyblock), but fine for use in unit tests
+  easyblock = 'ConfigureMake'
+  
+  name = 'bzip2'
+  version = '1.0.6'
+  
+  homepage = 'http://www.bzip.org/'
+  description = """bzip2 is a freely available, patent free, high-quality data compressor. It typically
+  compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical
+  compressors), whilst being around twice as fast at compression and six times faster at decompression."""
+  
+  toolchain = {'name': 'GCC', 'version': '4.9.2'}
+  toolchainopts = {'pic': True}
+  
+  sources = [SOURCE_TAR_GZ]
+  source_urls = ['http://www.bzip.org/%(version)s']
+  
+  builddependencies = [('gzip', '1.6')]
+  
+  moduleclass = 'tools'
+  
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://easybuilders.github.io/easybuild/" class="material-symbols-outlined">home</a> <a href="https://github.com/easybuilders/easybuild" class="material-symbols-outlined">code</a> <a href="/edit.html?id=easybuild" class="material-symbols-outlined">edit</a></div>
-
-* Easybuild is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2014 by Kenneth Hoste.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#kennethHoste Kenneth Hoste
-
-codeWithHeader Source code:
- git clone https://github.com/easybuilders/easybuild
-
-dashboard
- #862 on PLDB
- 10 Years Old
-
-* EasyBuild is a software build and installation framework that allows you to manage (scientific) software on High Performance Computing (HPC) systems in an efficient way.
-
-- Easybuild website
- http://easybuilders.github.io/easybuild/
-- Easybuild is developed on <a href="https://github.com/easybuilders/easybuild">GitHub</a> and has 377 stars
-- Easybuild first developed in <a href="../lists/originCommunities.html#httpsGithubComEasybuilders">https://github.com/easybuilders/</a>
-- file extensions for Easybuild include eb
-- GitHub supports <a href="https://github.com/MagicStack/MagicPython" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Easybuild
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/MagicStack/MagicPython'>Linguist</a>:
- # not really (there&#39;s an EB_bzip2 easyblock), but fine for use in unit tests
- easyblock = &#39;ConfigureMake&#39;
- 
- name = &#39;bzip2&#39;
- version = &#39;1.0.6&#39;
- 
- homepage = &#39;http://www.bzip.org/&#39;
- description = &quot;&quot;&quot;bzip2 is a freely available, patent free, high-quality data compressor. It typically
- compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical
- compressors), whilst being around twice as fast at compression and six times faster at decompression.&quot;&quot;&quot;
- 
- toolchain = {&#39;name&#39;: &#39;GCC&#39;, &#39;version&#39;: &#39;4.9.2&#39;}
- toolchainopts = {&#39;pic&#39;: True}
- 
- sources = [SOURCE_TAR_GZ]
- source_urls = [&#39;http://www.bzip.org/%(version)s&#39;]
- 
- builddependencies = [(&#39;gzip&#39;, &#39;1.6&#39;)]
- 
- moduleclass = &#39;tools&#39;
- 
-
-endColumns
-
-keyboardNav cartocss.html sysml.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

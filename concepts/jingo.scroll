@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jingo
+import ../measures/conceptPage.scroll
+id Jingo
+appeared 2020
+type pl
+creators Owez
+country United Kingdom
+originCommunity https://github.com/Owez/jingo/issues
 
-title Jingo - Programming language
- hidden
+githubRepo https://github.com/Owez/jingo
+ firstCommit 2021
+ stars 8
+ forks 0
+ subscribers 1
+ created 2020
+ updated 2022
+ description A lightweight, high-level language designed for rapid prototyping
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="hpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hina.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jingo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Owez/jingo" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jingo" class="material-symbols-outlined">edit</a></div>
-
-* Jingo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Owez.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#owez Owez
-
-codeWithHeader Source code:
- git clone https://github.com/Owez/jingo
-
-dashboard
- #2354 <span title="TotalRank: 2876 Jobs: 103 Users: 2347 Facts: 1787 Links: 986">on PLDB</span>
- 4 Years Old
-
-* A lightweight, high-level language designed for rapid prototyping
-
-- Jingo is developed on <a href="https://github.com/Owez/jingo">GitHub</a> and has 8 stars
-- Jingo first developed in <a href="../lists/originCommunities.html#httpsGithubComOwezJingoIssues">https://github.com/Owez/jingo/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav hpp.html hina.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 116
+ committers 1
+ files 21

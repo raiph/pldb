@@ -1,41 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Framework office suite
+import ../measures/conceptPage.scroll
+id Framework office suite
+appeared 1983
+type pl
+country United States
+originCommunity Forefront Corporation
 
-title Framework office suite - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/Framework_%28office_suite%29
+ related assembly-language c lisp dbase isbn
+ summary Framework, launched in 1984, was the first office suite to run on the PC 8086 with the MS-DOS operating system. ValDocs, an even earlier integrated suite, actually comparable to the original Macintosh of 1984 and Apple Lisa of 1982 was produced by Epson, a complete integrated work station based on the previous Zilog Z80 processor and CP/M operating system with GUI and "WYSIWYG" typography on the monitor and printing. Framework offered all this however in the first all-in-one package to run on any PC platform. It was preceded by a few months by its close rival Lotus Symphony. Unlike other integrated products Framework was not created as "plug-in" modules with similar look and feel but as a single windowing workspace representing a desktop metaphor that could manage and outline "Frames" sharing a common underlying format. The initial release included about a dozen or so frame types (identified by a FRED function, @frametype). Frame types included containers which could be filled up with other frames, empty frames which could become other type of frames based on user input, formulas embedded in them or program output targeting them, word processor frames, flat-database frames and spreadsheet as well as graphic frames. Later versions included a frame type that can hold compiled executable code and the current version include an external type handled by separate applications running on the host operating system. Framework built-in interpreter, the FRED (Frame Editor) computer language, was based on Lisp and included an Eval function. It applied to all text and frame type across the product. Framework could be considered a predecessor to the present GUI window metaphor as well as integrated interpreters. The spreadsheet program was superior in its day, offering true 3D capability, where spreadsheets could form outline which can be "opened" to reveal a separate spreadsheet as well as other frame types—a feat of sheer convenient function never again seen and further enhanced in much later versions. Robert Carr and Marty Mazner founded Forefront Corporation to develop Framework in 1983. In July of that year, they approached Ashton-Tate to provide the capital and to later market the product.  Together with a team of six other individuals, Carr and company released the original Framework.  The product proved successful enough that in 1985, Ashton-Tate bought Forefront, a year sooner than planned. The original team, now working for Ashton-Tate, continued to enhance the product producing Framework II (1985), Framework III (1988-1989) and finally in 1991, the last Ashton-Tate's version, Framework IV.  Beginning with Framework II, the company also produced Framework II Runtime and Framework II Developer's Toolkit.  These products allowed application developers to create business applications using the built-in FRED programming language. Although Ashton-Tate humorously advertised that "Lotus uses Framework", Framework failed to gain more than a fraction of the market share needed to become a workplace standard. Lotus 1-2-3 was able to successfully capture most of the spreadsheet market and after a number of setbacks regarding Ashton-Tate's flag product, dBASE,  Borland bought Ashton-Tate and later sold Framework to Selections & Functions, Inc. Present versions include the FrameworkPascal compiler which extend Framework with Windows API. Framework works on most versions of Microsoft Windows. Framework 7 was the last version which can be run on Windows 95/98/ME or on DOS. Framework 8 and 9 only run on Windows XP. Beginning with Framework V (Framework 5), Selections and Functions introduced only a few features - mainly features required to prevent the office suite from becoming out-of-date. For example, Framework VII (Framework 7) introduced long file names, the Euro symbol and the ability to display pictures in Framework. Framework VIII (Framework 8) introduced the ability to display JPEG and .BMP files and to load such files into Framework databases. Of particular importance, all of the Selections and Functions' versions of Framework added the ability to share "cut and paste" (memory buffer data) between Windows and Framework. For detailed feature lists and screen shots see the Framework homepage listed below. Selections and Functions is nevertheless still selling Framework - although no price is available publicly. Programmers at Work (ISBN 0-914845-71-3) credits Robert Carr as the designer and principal developer of Framework.
+ created 2003
+ backlinksCount 16
+ pageId 326113
+ revisionCount 76
+ dailyPageViews 16
+ appeared 1984
 
-html
- <a class="trueBaseThemePreviousItem" href="wol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="star.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=2057
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/framework-office-suite.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/Framework_%28office_suite%29"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=framework-office-suite" class="material-symbols-outlined">edit</a></div>
-
-* Framework office suite is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #2046 <span title="TotalRank: 2562 Jobs: 103 Users: 1473 Facts: 2067 Links: 986">on PLDB</span>
- 41 Years Old
-
-* Framework, launched in 1984, was the first office suite to run on the PC 8086 with the MS-DOS operating system. ValDocs, an even earlier integrated suite, actually comparable to the original Macintosh of 1984 and Apple Lisa of 1982 was produced by Epson, a complete integrated work station based on the previous Zilog Z80 processor and CP/M operating system with GUI and "WYSIWYG" typography on the monitor and printing. Framework offered all this however in the first all-in-one package to run on any PC platform. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Framework_%28office_suite%29 Read more on Wikipedia...
-
-- Framework office suite Wikipedia page
- https://en.wikipedia.org/wiki/Framework_%28office_suite%29
-- Framework office suite first developed in <a href="../lists/originCommunities.html#forefrontCorporation">Forefront Corporation</a>
-- Framework office suite on HOPL
- https://hopl.info/showlanguage.prx?exp=2057
-- See also: (5 related languages)<a href="assembly-language.html">Assembly language</a>, <a href="c.html">C</a>, <a href="lisp.html">Lisp</a>, <a href="dbase.html">DBase</a>, <a href="isbn.html">ISBN</a>
-
-<br>
-
-endColumns
-
-keyboardNav wol.html star.html
-
-import ../footer.scroll
+isOpenSource false
+centralPackageRepositoryCount 0

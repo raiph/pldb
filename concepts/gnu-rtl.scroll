@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gnu-rtl
+import ../measures/conceptPage.scroll
+id gnu-rtl
+appeared 1987
+type ir
+conceptDescription In GCC, RTL is generated from the GIMPLE representation, transformed by various passes in the GCC 'middle-end', and then converted to assembly language.
+reference https://en.wikipedia.org/wiki/Register_transfer_language
+country United States
+originCommunity Free Software Foundation, Inc
 
-title gnu-rtl - Intermediate representation language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="educe.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="inquire.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gnu-rtl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=gnu-rtl" class="material-symbols-outlined">edit</a></div>
-
-* gnu-rtl is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3030 <span title="TotalRank: 3718 Jobs: 103 Users: 2838 Facts: 2629 Links: 986">on PLDB</span>
- 37 Years Old
-
-* In GCC, RTL is generated from the GIMPLE representation, transformed by various passes in the GCC 'middle-end', and then converted to assembly language.
-
-- gnu-rtl first developed in <a href="../lists/originCommunities.html#freeSoftwareFoundationInc">Free Software Foundation, Inc</a>
-- Read more about gnu-rtl on the web: 1.
- https://en.wikipedia.org/wiki/Register_transfer_language 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  (set (reg:SI 140)
      (plus:SI (reg:SI 138)
               (reg:SI 139)))
 
-endColumns
-
-keyboardNav educe.html inquire.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

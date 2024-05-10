@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Edinburgh LCF
+import ../measures/conceptPage.scroll
+id Edinburgh LCF
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/fc7a2878a4edea597992902e84b2adea9bbc758d
+country Poland
+originCommunity Polish Academy of Sciences
 
-title Edinburgh LCF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8177
 
-html
- <a class="trueBaseThemePreviousItem" href="ect.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="edsac-initial-orders.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edinburgh-lcf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=edinburgh-lcf" class="material-symbols-outlined">edit</a></div>
-
-* Edinburgh LCF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3647 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- Edinburgh LCF first developed in <a href="../lists/originCommunities.html#polishAcademyOfSciences">Polish Academy of Sciences</a>
-- Edinburgh LCF on HOPL
- https://hopl.info/showlanguage.prx?exp=8177
-- Read more about Edinburgh LCF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fc7a2878a4edea597992902e84b2adea9bbc758d 1.
-
-<br>
-
-endColumns
-
-keyboardNav ect.html edsac-initial-orders.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,110 +1,56 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ligo
+import ../measures/conceptPage.scroll
+id Ligo
+appeared 2019
+type contractLanguage
+website https://ligolang.org/
+webRepl https://ide.ligolang.org/
+cheatSheetUrl https://ligolang.org/docs/api/cheat-sheet
+aka jsligo
+aka cameligo
+aka pascaligo
+aka reasonligo
+country France
+originCommunity https://www.marigold.dev/projects
+domainName ligolang.org
+ registered 2019
+ awisRank
+  2022 5947641
 
-title Ligo - Contract language
- hidden
+relatedConcepts solidity pascal reason ocaml
 
-html
- <a class="trueBaseThemePreviousItem" href="hare.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ddfql.html">&gt;</a>
+hasStrings true
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ (* A comment
+ *)
+hasComments true
+ // A comment
+hasBooleans true
+hasFunctions true
+hasConditionals true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ligo.pldb
+lineCommentToken //
+multiLineCommentTokens (* *)
+booleanTokens true false
+keywords abs assert block Bytes case Crypto Current else failwith false for fun if in let let%entry let%init List list Map map match match%nat mod not operation Operation of record Set set sender skip source String then to true type with
 
-startColumns 4
+gitlabRepo https://gitlab.com/ligolang/ligo
 
-<div class="trueBaseThemeQuickLinks"><a href="https://ligolang.org/" class="material-symbols-outlined">home</a> <a href="https://ide.ligolang.org/" class="material-symbols-outlined">terminal</a> <a href="https://gitlab.com/ligolang/ligo" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ligo" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2016
+ commits 18425
+ committers 245
+ files 6439
 
-* Ligo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+contractLanguage">contract language</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
+githubLanguage CameLIGO
+ type programming
+ fileExtensions religo
+ group LigoLANG
+ aceMode rust
+ codemirrorMode rust
+ codemirrorMimeType text/x-rustsrc
+ tmScope source.religo
+ repos 0
 
-codeWithHeader Source code:
- git clone https://gitlab.com/ligolang/ligo
-
-dashboard
- #1222 <span title="TotalRank: 1764 Jobs: 103 Users: 2442 Facts: 675 Links: 986">on PLDB</span>
- 5 Years Old
- 0 <span title="Ligo repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://ide.ligolang.org/">Web</a>
-
-monacoEditor pascaligo
- 
-
-* 
-
-- Ligo website
- https://ligolang.org/
-- Ligo on GitLab
- https://gitlab.com/ligolang/ligo
-- There are at least 0 Ligo repos on <a href="https://github.com/search?q=language:CameLIGO">GitHub</a>
-- Ligo first developed in <a href="../lists/originCommunities.html#httpsWwwMarigoldDevProjects">https://www.marigold.dev/projects</a>
-- file extensions for Ligo include religo
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/pascaligo">package</a> for syntax highlighting Ligo
-- Ligo cheat sheet
- https://ligolang.org/docs/api/cheat-sheet
-- <a href="https://ligolang.org/">ligolang.org</a> was registered in 2019
-- See also: (4 related languages)<a href="solidity.html">Solidity</a>, <a href="pascal.html">Pascal</a>, <a href="reason.html">Reason</a>, <a href="ocaml.html">OCaml</a>
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader Ligo <a href="../lists/keywords.html?filter=ligo">Keywords</a>
- abs assert block Bytes case Crypto Current else failwith false for fun if in let let%entry let%init List list Map map match match%nat mod not operation Operation of record Set set sender skip source String then to true type with
-</div>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token (* *)
-  Example
-   (* A comment
-   *)
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav hare.html ddfql.html
-
-import ../footer.scroll
+monaco pascaligo

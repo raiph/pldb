@@ -1,38 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Acme
+import ../measures/conceptPage.scroll
+id Acme
+appeared 1994
+type pl
+conceptDescription Acme is a simple, generic software architecture description language (ADL) that can be used as a common interchange format for architecture design tools and/or as a foundation for developing new architectural design and analysis tools. This site provides an introduction to Acme along with a collection of useful Acme software and technical information.
+website http://www.cs.cmu.edu/~acme/docs/language_overview.html
+country United States
+originCommunity Carnegie Mellon University && University of Southern California
 
-title Acme - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="serious.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aspectcpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/acme.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.cs.cmu.edu/~acme/docs/language_overview.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=acme" class="material-symbols-outlined">edit</a></div>
-
-* Acme is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #1902 <span title="TotalRank: 2400 Jobs: 103 Users: 2442 Facts: 1311 Links: 986">on PLDB</span>
- 30 Years Old
-
-* Acme is a simple, generic software architecture description language (ADL) that can be used as a common interchange format for architecture design tools and/or as a foundation for developing new architectural design and analysis tools. This site provides an introduction to Acme along with a collection of useful Acme software and technical information.
-
-- Acme website
- http://www.cs.cmu.edu/~acme/docs/language_overview.html
-- Acme first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie Mellon University</a> and <a href="../lists/originCommunities.html#universityOfSouthernCalifornia">University of Southern California</a>
-- Acme on HOPL
- https://hopl.info/showlanguage.prx?exp=4905
-
-<br>
-
-codeWithHeader Example from the web:
+example
  System simple_cs = {
     Component client = { Port send-request; };
     Component server = { Port receive-request; };
@@ -43,8 +18,15 @@ codeWithHeader Example from the web:
     }
  }
 
-endColumns
+hopl https://hopl.info/showlanguage.prx?exp=4905
 
-keyboardNav serious.html aspectcpp.html
+fileType text
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 3
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2005|Modeling and implementing software architecture with Acme and ArchJava|10.1145/1028664.1028668|10|1|Jonathan Aldrich and D. Garlan and B. Schmerl and Tony Tseng|03730d8f1aa7070c99906e0e2ac49679f5b8d7e6
+ 2021|An In-Depth Symbolic Security Analysis of the ACME Standard|10.1145/3460120.3484588|3|1|K. Bhargavan and Abhishek Bichhawat and Quoc Huy Do and Pedram Hosseyni and Ralf Küsters and G. Schmitz and Tim Würtele|b9518eff4b41475c18c317bb62482c1f44192ce2
+ 2004|Modeling and implementing software architecture with acme and archJava|10.1145/1062455.1062604|1|0|Marwan Abi-Antoun and Jonathan Aldrich and D. Garlan and B. Schmerl and Nagi H. Nahas and Tony Tseng|86fe182c5e054c964b7b7f233bbf8cd1c2271bf2

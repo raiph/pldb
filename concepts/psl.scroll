@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PSL
+import ../measures/conceptPage.scroll
+id PSL
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/6979acd46bd44d862a3923a8938e945495662f1e
+country United States
+originCommunity University of Utah
 
-title PSL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1009
 
-html
- <a class="trueBaseThemePreviousItem" href="psg.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pt.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/psl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=psl" class="material-symbols-outlined">edit</a></div>
-
-* PSL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3966 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- PSL first developed in <a href="../lists/originCommunities.html#universityOfUtah">University of Utah</a>
-- PSL on HOPL
- https://hopl.info/showlanguage.prx?exp=1009
-- Read more about PSL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6979acd46bd44d862a3923a8938e945495662f1e 1.
-
-<br>
-
-endColumns
-
-keyboardNav psg.html pt.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

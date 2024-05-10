@@ -1,56 +1,45 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CodeQL
+import ../measures/conceptPage.scroll
+id CodeQL
+appeared 2018
+type queryLanguage
+creators Pavel Avgustinov
+conceptDescription CodeQL let's you query code as if it were data.
+website https://codeql.github.com/
+reference https://www.cyberark.com/resources/threat-research-blog/make-memcpy-safe-again-codeql
+fileExtensions ql
+originCommunity GitHub
 
-title CodeQL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="kaitai.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="futhark.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/codeql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://codeql.github.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/github/codeql" class="material-symbols-outlined">code</a> <a href="/edit.html?id=codeql" class="material-symbols-outlined">edit</a></div>
-
-* CodeQL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2018 by Pavel Avgustinov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#pavelAvgustinov Pavel Avgustinov
-
-codeWithHeader Source code:
- git clone https://github.com/github/codeql
-
-dashboard
- #521 <span title="TotalRank: 1065 Jobs: 103 Users: 130 Facts: 832 Links: 986">on PLDB</span>
- 6 Years Old
- 4k <span title="CodeQL repos on GitHub.">Repos</span>
-
-* CodeQL let's you query code as if it were data.
-
-- CodeQL website
- https://codeql.github.com/
-- CodeQL is developed on <a href="https://github.com/github/codeql">GitHub</a> and has 5,035 stars
-- There are at least 3,559 CodeQL repos on <a href="https://github.com/search?q=language:CodeQL">GitHub</a>
-- CodeQL first developed in <a href="../lists/originCommunities.html#gitHub">GitHub</a>
-- file extensions for CodeQL include ql and qll
-- The  Google BigQuery Public Dataset GitHub snapshot shows 23 users using CodeQL in 25 repos on <a href="https://api.github.com/search/repositories?q=language:CodeQL">GitHub</a>
-- Read more about CodeQL on the web: 1.
- https://www.cyberark.com/resources/threat-research-blog/make-memcpy-safe-again-codeql 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  from DataFlow::PathNode source, DataFlow::PathNode sink, UnsafeDeserializationConfig conf
    
            where conf.hasFlowPath(source, sink)
    
            select sink.getNode().(UnsafeDeserializationSink).getMethodAccess(), source, sink,
-       &quot;Unsafe deserialization of $@.&quot;, source.getNode(), &quot;user input&quot;
+       "Unsafe deserialization of $@.", source.getNode(), "user input"
 
-endColumns
+githubRepo https://github.com/github/codeql
+ firstCommit 2018
+ stars 5035
+ forks 1089
+ subscribers 191
+ created 2018
+ updated 2022
+ description CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security (code scanning), LGTM.com, and LGTM Enterprise
+ issues 736
 
-keyboardNav kaitai.html futhark.html
+repoStats
+ firstCommit 2018
+ commits 57878
+ committers 480
+ files 42417
 
-import ../footer.scroll
+githubLanguage CodeQL
+ type programming
+ fileExtensions ql qll
+ aceMode text
+ tmScope source.ql
+ aliases ql
+ repos 3559
+githubBigQuery CodeQL
+ repos 25
+ users 23

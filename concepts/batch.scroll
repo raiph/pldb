@@ -1,115 +1,96 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Batchfile
+import ../measures/conceptPage.scroll
+id Batchfile
+appeared 1985
+type pl
+aka bat
+aka cmd
+country United States
+originCommunity Microsoft
 
-title Batchfile - Programming language
- hidden
+hasCaseInsensitiveIdentifiers true
+hasPrintDebugging true
+hasStrings true
+hasLineComments true
+ REM A comment
+hasComments true
+ REM A comment
+ :: Another type of comment
+hasGotos true
+ :: this would create an endless loop
+ :myLabel
+ goto myLabel
 
-html
- <a class="trueBaseThemePreviousItem" href="pike.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="isabelle.html">&gt;</a>
+lineCommentToken REM
+printToken echo
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/batch.pldb
+wikipedia https://en.wikipedia.org/wiki/Batch_file
+ example
+  C:\>set /p ="Message 1"<nul >data.txt
+  C:\>set /p ="Message 2"<nul >>data.txt
+  C:\>set /p ="Message 3"<nul >>data.txt
+  C:\>type data.txt
+  Message 1Message 2Message 3
+ related jcl linux notepad-editor unicode kixtart vbscript jscript powershell unix perl python ruby php
+ summary A batch file is a kind of script file in DOS, OS/2 and Microsoft Windows. It consists of a series of commands to be executed by the command-line interpreter, stored in a plain text file. A batch file may contain any command the interpreter accepts interactively and use constructs that enable conditional branching and looping within the batch file, such as IF, FOR, and GOTO labels. The term "batch" is from batch processing, meaning "non-interactive execution", though a batch file may not process a batch of multiple data. Similar to Job Control Language (JCL) and other systems on mainframe and minicomputer systems, batch files were added to ease the work required for certain regular tasks by allowing the user to set up a script to automate them. When a batch file is run, the shell program (usually COMMAND.COM or cmd.exe) reads the file and executes its commands, normally line-by-line. Unix-like operating systems, such as Linux, have a similar, but more flexible, type of file called a shell script. The filename extension .bat is used in DOS and Windows. Windows NT and OS/2 also added .cmd. Batch files for other environments may have different extensions, e.g., .btm in 4DOS, 4OS2 and 4NT related shells. The detailed handling of batch files has changed. Some of the detail in this article applies to all batch files, while other details apply only to certain versions.
+ pageId 15264030
+ dailyPageViews 757
+ created 2004
+ backlinksCount 845
+ revisionCount 1307
+ appeared 1985
 
-startColumns 4
+githubLanguage Batchfile
+ fileExtensions bat cmd
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  realpython python-guide https://github.com/realpython.png https://github.com/realpython/python-guide Batchfile #C1F12E 19021 5085 295 "Python best practices guidebook, written for humans."
+  niudai How-to-be-a-good-programmer https://github.com/niudai.png https://github.com/niudai/How-to-be-a-good-programmer Batchfile #C1F12E 132 51 116 "I'm here to tell you some amazing stuff which teacher would never tell you."
+  kkkgo KMS_VL_ALL https://github.com/kkkgo.png https://github.com/kkkgo/KMS_VL_ALL Batchfile #C1F12E 689 122 54 "🔑KMS_VL_ALL - Smart Activation Script"
+  Mr-xn BurpSuite-collections https://github.com/Mr-xn.png https://github.com/Mr-xn/BurpSuite-collections Batchfile #C1F12E 513 160 255 "BurpSuite收集：包括不限于 Burp 文章、破解版、插件(非BApp Store)、汉化等相关教程，欢迎添砖加瓦"
+  CHEF-KOCH KMS-activator https://github.com/CHEF-KOCH.png https://github.com/CHEF-KOCH/KMS-activator Batchfile #C1F12E 288 64 41 "Windows activation research project."
+  kkkgo LTSC-Add-MicrosoftStore https://github.com/kkkgo.png https://github.com/kkkgo/LTSC-Add-MicrosoftStore Batchfile #C1F12E 225 29 33 "Add Windows Store for LTSC"
+  FQrabbit SSTap-Rule https://github.com/FQrabbit.png https://github.com/FQrabbit/SSTap-Rule Batchfile #C1F12E 2367 613 195 支持更多游戏规则，让SSTap成为真正的“网游加速器”
+ trendingProjectsCount 8
+ type programming
+ aceMode batchfile
+ tmScope source.batchfile
+ aliases bat or batch or dosbatch or winbatch
+ repos 72380
+githubBigQuery Batchfile
+ repos 97775
+ users 76182
 
-<div class="trueBaseThemeQuickLinks"><a href="https://riju.codes/cmd" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/Batch_file"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=batch" class="material-symbols-outlined">edit</a></div>
+monaco bat
+pygmentsHighlighter Batchfile
+ filename shell.py
+ fileExtensions bat cmd
+linguistGrammarRepo https://github.com/mmims/language-batchfile
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 3
+ commitCount 55
 
-* Batchfile is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
+projectEuler Batch
+ memberCount
+  2022 9
+leachim6 Batch
+ filepath b/Batch.bat
+ fileExtensions bat
+ example
+  @echo off
+  echo Hello World
+  
 
-dashboard
- #273 <span title="TotalRank: 663 Jobs: 103 Users: 234 Facts: 355 Links: 326">on PLDB</span>
- 39 Years Old
- 72k <span title="Batchfile repos on GitHub.">Repos</span>
+rijuRepl https://riju.codes/cmd
+ example
+  echo "Hello, world!"
+  
+ description Obsolete (but still default) command-line interpreter for Microsoft Windows
+ fileExtensions bat
+ website https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
 
-* Try now: <a href="https://riju.codes/cmd">Riju</a>
+fileType text
+wordRank 7410
+centralPackageRepositoryCount 0
 
-monacoEditor bat
- echo "Hello, world!"
- 
-
-* A batch file is a kind of script file in DOS, OS/2 and Microsoft Windows. It consists of a series of commands to be executed by the command-line interpreter, stored in a plain text file. A batch file may contain any command the interpreter accepts interactively and use constructs that enable conditional branching and looping within the batch file, such as IF, FOR, and GOTO labels. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Batch_file Read more on Wikipedia...
-
-- Batchfile Wikipedia page
- https://en.wikipedia.org/wiki/Batch_file
-- There are at least 72,380 Batchfile repos on <a href="https://github.com/search?q=language:Batchfile">GitHub</a>
-- Batchfile first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- file extensions for Batchfile include bat and cmd
-- The  Google BigQuery Public Dataset GitHub snapshot shows 76k users using Batchfile in 98k repos on <a href="https://api.github.com/search/repositories?q=language:Batchfile">GitHub</a>
-- There are 9 <a href="https://projecteuler.net/language=Batch">Project Euler</a> users using Batchfile
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/bat">package</a> for syntax highlighting Batchfile
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/shell.py">syntax highlighting</a> for Batchfile
-- GitHub supports <a href="https://github.com/mmims/language-batchfile" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Batchfile
-- See also: (13 related languages)<a href="jcl.html">JCL</a>, <a href="linux.html">Linux</a>, <a href="notepad-editor.html">Microsoft Notepad</a>, <a href="unicode.html">Unicode</a>, <a href="kixtart.html">KiXtart</a>, <a href="vbscript.html">VBScript</a>, <a href="jscript.html">JScript</a>, <a href="powershell.html">PowerShell</a>, <a href="unix.html">Unix</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="php.html">PHP</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/cmd'>Riju</a>:
- echo &quot;Hello, world!&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/b/Batch.bat'>hello-world</a>:
- @echo off
- echo Hello World
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Batch_file'>Wikipedia</a>:
- C:\&gt;set /p =&quot;Message 1&quot;&lt;nul &gt;data.txt
- C:\&gt;set /p =&quot;Message 2&quot;&lt;nul &gt;&gt;data.txt
- C:\&gt;set /p =&quot;Message 3&quot;&lt;nul &gt;&gt;data.txt
- C:\&gt;type data.txt
- Message 1Message 2Message 3
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Gotos
-  FeatureLink ../features/hasGotos.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   :: this would create an endless loop
-   :myLabel
-   goto myLabel
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   REM A comment
-   :: Another type of comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token REM
-  Example
-   REM A comment
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token echo
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav pike.html isabelle.html
-
-import ../footer.scroll
+semanticScholar 0

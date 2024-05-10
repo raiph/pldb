@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bigloo
+import ../measures/conceptPage.scroll
+id Bigloo
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/e9f6988ba5a9cc8f6cd9a9437968580215981eeb
+country France
+originCommunity National Institute for Research in Digital Science and Technology && Inria
 
-title Bigloo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3601
 
-html
- <a class="trueBaseThemePreviousItem" href="bhsl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="biomod.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bigloo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bigloo" class="material-symbols-outlined">edit</a></div>
-
-* Bigloo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #3520 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- Bigloo first developed in <a href="../lists/originCommunities.html#nationalInstituteForResearchInDigitalScienceAndTechnology">National Institute for Research in Digital Science and Technology</a> and <a href="../lists/originCommunities.html#inria">Inria</a>
-- Bigloo on HOPL
- https://hopl.info/showlanguage.prx?exp=3601
-- Read more about Bigloo on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e9f6988ba5a9cc8f6cd9a9437968580215981eeb 1.
-
-<br>
-
-endColumns
-
-keyboardNav bhsl.html biomod.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

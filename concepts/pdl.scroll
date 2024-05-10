@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PDL
+import ../measures/conceptPage.scroll
+id PDL
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/09e5ae62d7f9417781fe537bfac40db64daa0ab0
+country United States
+originCommunity Caine, Farber & Gordon, Inc
 
-title PDL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1413
 
-html
- <a class="trueBaseThemePreviousItem" href="pdl-ada.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pebble.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pdl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pdl" class="material-symbols-outlined">edit</a></div>
-
-* PDL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3925 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- PDL first developed in <a href="../lists/originCommunities.html#caineFarberGordonInc">Caine, Farber & Gordon, Inc</a>
-- PDL on HOPL
- https://hopl.info/showlanguage.prx?exp=1413
-- Read more about PDL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/09e5ae62d7f9417781fe537bfac40db64daa0ab0 1.
-
-<br>
-
-endColumns
-
-keyboardNav pdl-ada.html pebble.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

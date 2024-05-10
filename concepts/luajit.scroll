@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LuaJIT
+import ../measures/conceptPage.scroll
+id LuaJIT
+appeared 2005
+type compiler
+creators Mike Pall
+website http://luajit.org/luajit.html
+country Germany and Denmark
+originCommunity https://github.com/LuaJIT
 
-title LuaJIT - Compiler
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="tbox-lib.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vyper.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/luajit.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://luajit.org/luajit.html" class="material-symbols-outlined">home</a> <a href="https://github.com/LuaJIT/LuaJIT" class="material-symbols-outlined">code</a> <a href="/edit.html?id=luajit" class="material-symbols-outlined">edit</a></div>
-
-* LuaJIT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+compiler">compiler</a> created in 2005 by Mike Pall.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
- link ../lists/creators.html#mikePall Mike Pall
-
-codeWithHeader Source code:
- git clone https://github.com/LuaJIT/LuaJIT
-
-dashboard
- #903 on PLDB
- 19 Years Old
-
-* Mirror of the LuaJIT git repository
-
-- LuaJIT website
- http://luajit.org/luajit.html
-- LuaJIT is developed on <a href="https://github.com/LuaJIT/LuaJIT">GitHub</a> and has 3,562 stars
-- LuaJIT first developed in <a href="../lists/originCommunities.html#httpsGithubComLuaJit">https://github.com/LuaJIT</a>
-
-<br>
-
-endColumns
-
-keyboardNav tbox-lib.html vyper.html
-
-import ../footer.scroll
+githubRepo https://github.com/LuaJIT/LuaJIT
+ firstCommit 2009
+ stars 3562
+ forks 779
+ subscribers 243
+ created 2015
+ updated 2022
+ description Mirror of the LuaJIT git repository
+ issues 63

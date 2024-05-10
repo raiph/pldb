@@ -9,17 +9,15 @@ html
  <a class="trueBaseThemePreviousItem" href="hasPolymorphism.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasPrefixNotation.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/forth.html">Forth</a>:
  \ Multiplies 25 and 10 and then adds 50 to result
  25 10 * 50 +
 
-* Languages *with* Postfix Notation include <a href="../concepts/postscript.html">PostScript</a>, <a href="../concepts/forth.html">Forth</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/gforth.html">Gforth</a>
-
-* This question asks: Does the language allow operators to be placed at the end of the expression?
+* Languages *with* Postfix Notation include <a href="../concepts/forth.html">Forth</a>, <a href="../concepts/postscript.html">PostScript</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/gforth.html">Gforth</a>
 
 * Read more about Postfix Notation on the web: 1.
  https://en.wikipedia.org/wiki/Reverse_Polish_notation 1.

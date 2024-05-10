@@ -1,65 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rason
+import ../measures/conceptPage.scroll
+id rason
+appeared 2015
+type pl
+website https://www.rason.com/
+country United States
+originCommunity Frontline Systems Inc
+domainName rason.com
+ registered 2003
+ awisRank
+  2022 3103476
 
-title rason - Programming language
- hidden
+relatedConcepts ampl gams siman
 
-html
- <a class="trueBaseThemePreviousItem" href="graphml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="morfik.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rason.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.rason.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=rason" class="material-symbols-outlined">edit</a></div>
-
-* rason is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #1172 <span title="TotalRank: 1714 Jobs: 103 Users: 2442 Facts: 944 Links: 667">on PLDB</span>
- 9 Years Old
-
-* 
-
-- rason website
- https://www.rason.com/
-- rason first developed in <a href="../lists/originCommunities.html#frontlineSystemsInc">Frontline Systems Inc</a>
-- <a href="https://www.rason.com/">rason.com</a> was registered in 2003
-- See also: (3 related languages)<a href="ampl.html">AMPL</a>, <a href="gams.html">GAMS</a>, <a href="siman.html">SIMAN</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
      data :
      {
-         &quot;price&quot; : { value: 200 },
-         &quot;capacity&quot; : { value: 100 },
-         &quot;sold&quot; : { value: 110 },
-         &quot;refund_no_shows&quot; : { value: 0.5 },
-         &quot;refund_overbook&quot; : { value: 1.25 }
+         "price" : { value: 200 },
+         "capacity" : { value: 100 },
+         "sold" : { value: 110 },
+         "refund_no_shows" : { value: 0.5 },
+         "refund_overbook" : { value: 1.25 }
      },
      uncertainVariables : 
      {
-         &quot;no_shows&quot; : { formula: &quot;PsiLogNormal(0.1*sold, 0.06*sold)&quot; }
+         "no_shows" : { formula: "PsiLogNormal(0.1*sold, 0.06*sold)" }
      },
      formulas :
      {
-         &quot;show_ups&quot; : { formula: &quot;sold - Round(no_shows, 0)&quot; },
-         &quot;overbook&quot; : { formula: &quot;Max(0, show_ups - capacity)&quot; }
+         "show_ups" : { formula: "sold - Round(no_shows, 0)" },
+         "overbook" : { formula: "Max(0, show_ups - capacity)" }
      },
      uncertainFunctions :
      {
-         &quot;revenue&quot; : { formula: &quot;price*(sold - refund_no_shows * Round(no_shows, 0) - refund_overbook * overbook)&quot;,
+         "revenue" : { formula: "price*(sold - refund_no_shows * Round(no_shows, 0) - refund_overbook * overbook)",
          mean : [], stdev: [], max : [], min : [] }
      }
  }
-
-endColumns
-
-keyboardNav graphml.html morfik.html
-
-import ../footer.scroll

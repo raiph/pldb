@@ -1,38 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ctan-pm
+import ../measures/conceptPage.scroll
+id ctan-pm
+appeared 1998
+type packageManager
+website https://ctan.org/
+country United States
+originCommunity https://tug.org/
+domainName ctan.org
+ registered 1998
+ awisRank
+  2022 46714
 
-title ctan-pm - Package manager
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="crates-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dio.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ctan-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://ctan.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=ctan-pm" class="material-symbols-outlined">edit</a></div>
-
-* ctan-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3192 on PLDB
- 26 Years Old
-
-* 
-
-- ctan-pm website
- https://ctan.org/
-- ctan-pm first developed in <a href="../lists/originCommunities.html#httpsTugOrg">https://tug.org/</a>
-- <a href="https://ctan.org/">ctan.org</a> was registered in 1998
-
-<br>
-
-endColumns
-
-keyboardNav crates-pm.html dio.html
-
-import ../footer.scroll
+packageCount 5649
+packageAuthors 2588
+forLanguages tex

@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BMD
+import ../measures/conceptPage.scroll
+id BMD
+appeared 1961
+type pl
+conceptDescription Biomedical Computer Programs for Data Description and Statistical Analyses
+reference https://www.jstor.org/stable/pdf/3150004.pdf
+country United States
+originCommunity University of California, Los Angeles
 
-title BMD - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="blooms.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bob.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bmd.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bmd" class="material-symbols-outlined">edit</a></div>
-
-* BMD is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1961.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1961 1961
-
-dashboard
- #3525 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 63 Years Old
-
-* Biomedical Computer Programs for Data Description and Statistical Analyses
-
-- BMD first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaLosAngeles">University of California, Los Angeles</a>
-- BMD on HOPL
- https://hopl.info/showlanguage.prx?exp=145
-- Read more about BMD on the web: 1.
- https://www.jstor.org/stable/pdf/3150004.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav blooms.html bob.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=145

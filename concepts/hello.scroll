@@ -1,45 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hello
+import ../measures/conceptPage.scroll
+id hello
+appeared 2015
+type pl
+website http://www.amsdec.com/about/
 
-title hello - Programming language
- hidden
+leachim6 Hello
+ filepath h/Hello
+ example
+  h
 
-html
- <a class="trueBaseThemePreviousItem" href="helena.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hilltop-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hello.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.amsdec.com/about/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=hello" class="material-symbols-outlined">edit</a></div>
-
-* hello is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #2900 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 9 Years Old
-
-* 
-
-- hello website
- http://www.amsdec.com/about/
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/h/Hello'>hello-world</a>:
- h
-
-endColumns
-
-## HackerNews discussions of hello
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: 'Hello' – new distributed programming language|https://news.ycombinator.com/item?id=10363672|10/09/2015|3|1
-
-keyboardNav helena.html hilltop-lang.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 10363672|Show HN: 'Hello' – new distributed programming language|2015-10-09 22:41:32 UTC|1444430492|bburshteyn|1|3

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PCOL
+import ../measures/conceptPage.scroll
+id PCOL
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/6b5d2a050559ac439b45876587fbcb8da1daa979
+country The Netherlands
+originCommunity University of Leiden
 
-title PCOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6361
 
-html
- <a class="trueBaseThemePreviousItem" href="pcn.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pcpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pcol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pcol" class="material-symbols-outlined">edit</a></div>
-
-* PCOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3921 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- PCOL first developed in <a href="../lists/originCommunities.html#universityOfLeiden">University of Leiden</a>
-- PCOL on HOPL
- https://hopl.info/showlanguage.prx?exp=6361
-- Read more about PCOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6b5d2a050559ac439b45876587fbcb8da1daa979 1.
-
-<br>
-
-endColumns
-
-keyboardNav pcn.html pcpp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

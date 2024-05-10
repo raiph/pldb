@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title P-Prolog
+import ../measures/conceptPage.scroll
+id P-Prolog
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/afc96ec418da6f6dfb89696b21e1087b7b77cbbc
+country Japan
+originCommunity Keio University
 
-title P-Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1259
 
-html
- <a class="trueBaseThemePreviousItem" href="owl-dl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="p-tac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/p-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=p-prolog" class="material-symbols-outlined">edit</a></div>
-
-* P-Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3901 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- P-Prolog first developed in <a href="../lists/originCommunities.html#keioUniversity">Keio University</a>
-- P-Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=1259
-- Read more about P-Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/afc96ec418da6f6dfb89696b21e1087b7b77cbbc 1.
-
-<br>
-
-endColumns
-
-keyboardNav owl-dl.html p-tac.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

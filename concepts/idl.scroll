@@ -1,134 +1,117 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IDL
+import ../measures/conceptPage.scroll
+id IDL
+appeared 1977
+type pl
+creators David Stern
+website http://www.exelisvis.com/ProductsServices/IDL.aspx
+documentation https://www.l3harrisgeospatial.com/docs/using_idl_home.html
+reference https://www.harrisgeospatial.com/Software-Technology/IDL
+standsFor Interactive Data Language
+country United States
+originCommunity L3Harris Geospatial Solutions, Inc
 
-title IDL - Programming language
- hidden
+hasComments true
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasOctals true
+hasHexadecimals true
+hasFloats true
+hasIntegers true
 
-html
- <a class="trueBaseThemePreviousItem" href="opa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ceylon.html">&gt;</a>
+printToken print
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/idl.pldb
+wikipedia https://en.wikipedia.org/wiki/IDL_(programming_language)
+ related gdl pv-wave fortran c unix smalltalk matlab numpy python perl-data-language perl
+ summary IDL, short for Interactive Data Language, is a programming language used for data analysis. It is popular in particular areas of science, such as astronomy, atmospheric physics and medical imaging. IDL shares a common syntax with PV-Wave and originated from the same codebase, though the languages have subsequently diverged in detail. There are also two free implementations, GNU Data Language (GDL) and Fawlty Language (FL).
+ pageId 512587
+ dailyPageViews 202
+ created 2004
+ backlinksCount 123
+ revisionCount 274
+ appeared 1977
 
-startColumns 4
+githubLanguage IDL
+ fileExtensions pro dlm
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ codemirrorMode idl
+ codemirrorMimeType text/x-idl
+ tmScope source.idl
+ repos 2337
+githubBigQuery IDL
+ repos 5298
+ users 4557
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.exelisvis.com/ProductsServices/IDL.aspx" class="material-symbols-outlined">home</a> <a href="https://www.l3harrisgeospatial.com/docs/using_idl_home.html" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/IDL_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=idl" class="material-symbols-outlined">edit</a></div>
+antlr https://github.com/antlr/grammars-v4/tree/master/idl
+codeMirror idl
+pygmentsHighlighter IDL
+ filename idl.py
+ fileExtensions pro
+linguistGrammarRepo https://github.com/mgalloy/idl.tmbundle
+ firstCommit 2012
+ lastCommit 2017
+ committerCount 2
+ commitCount 62
+ sampleCount 4
+ example
+  MODULE mg_analysis
+  DESCRIPTION Tools for analysis
+  VERSION 1.0
+  SOURCE mgalloy
+  BUILD_DATE January 18, 2011
+  
+  FUNCTION MG_ARRAY_EQUAL      2 2 KEYWORDS
+  FUNCTION MG_TOTAL            1 1
+  
+  
 
-* IDL, aka Interactive Data Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977 by David Stern.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
- link ../lists/creators.html#davidStern David Stern
-
-dashboard
- #223 <span title="TotalRank: 581 Jobs: 103 Users: 475 Facts: 271 Links: 207">on PLDB</span>
- 47 Years Old
- 2k <span title="IDL repos on GitHub.">Repos</span>
-
-* IDL, short for Interactive Data Language, is a programming language used for data analysis. It is popular in particular areas of science, such as astronomy, atmospheric physics and medical imaging. IDL shares a common syntax with PV-Wave and originated from the same codebase, though the languages have subsequently diverged in detail. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/IDL_(programming_language) Read more on Wikipedia...
-
-- IDL website
- http://www.exelisvis.com/ProductsServices/IDL.aspx
-- IDL Wikipedia page
- https://en.wikipedia.org/wiki/IDL_(programming_language)
-- IDL docs
- https://www.l3harrisgeospatial.com/docs/using_idl_home.html
-- There are at least 2,337 IDL repos on <a href="https://github.com/search?q=language:IDL">GitHub</a>
-- IDL first developed in <a href="../lists/originCommunities.html#l3HarrisGeospatialSolutionsInc">L3Harris Geospatial Solutions, Inc</a>
-- file extensions for IDL include pro and dlm
-- The  Google BigQuery Public Dataset GitHub snapshot shows 5k users using IDL in 5k repos on <a href="https://api.github.com/search/repositories?q=language:IDL">GitHub</a>
-- Explore IDL snippets on <a href="http://www.rosettacode.org/wiki/Category:IDL">Rosetta Code</a>
-- IDL on HOPL
- https://hopl.info/showlanguage.prx?exp=760
-- IDL appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/idl">grammar</a> for IDL
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/idl">package</a> for syntax highlighting IDL
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/idl.py">syntax highlighting</a> for IDL
-- GitHub supports <a href="https://github.com/mgalloy/idl.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for IDL
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/lstagner/idl_kernel">Kernel</a> for IDL
-- See also: (11 related languages)<a href="gdl.html">GNU Data Language</a>, <a href="pv-wave.html">PV-Wave</a>, <a href="fortran.html">Fortran</a>, <a href="c.html">C</a>, <a href="unix.html">Unix</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="matlab.html">MATLAB</a>, <a href="numpy.html">NumPy</a>, <a href="python.html">Python</a>, <a href="perl-data-language.html">Perl Data Language</a>, <a href="perl.html">Perl</a>
-- Read more about IDL on the web: 1.
- https://www.harrisgeospatial.com/Software-Technology/IDL 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/i/IDL'>hello-world</a>:
- print, &quot;Hello World&quot;
- end
+helloWorldCollection Interactive Data Language
+ IDL> ; Hello World in IDL (Interactive Data Language)
+ IDL> print, "Hello World"
  
+leachim6 IDL
+ filepath i/IDL
+ example
+  print, "Hello World"
+  end
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:IDL
 
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Interactive'>the Hello World Collection</a>:
- IDL&gt; ; Hello World in IDL (Interactive Data Language)
- IDL&gt; print, &quot;Hello World&quot;
- 
+tiobe IDL
+hopl https://hopl.info/showlanguage.prx?exp=760
 
-codeWithHeader Example from <a href='https://github.com/mgalloy/idl.tmbundle'>Linguist</a>:
- MODULE mg_analysis
- DESCRIPTION Tools for analysis
- VERSION 1.0
- SOURCE mgalloy
- BUILD_DATE January 18, 2011
- 
- FUNCTION MG_ARRAY_EQUAL      2 2 KEYWORDS
- FUNCTION MG_TOTAL            1 1
- 
- 
+jupyterKernel https://github.com/lstagner/idl_kernel
+fileType text
+centralPackageRepositoryCount 0
 
-endColumns
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ An Introduction to Programming with IDL: Interactive Data Language|2005|Kenneth P. Bowman|786937|3.40|5|0
+ IDL-- The Interactive Data Language: The Complete Data Analysis and Visualization Environment for Students [With *]||Research Systems|20631577|0.0|0|0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 7
+ year|publisher|title|authors|isbn13
+ 2000|Fanning Software Consulting|IDL Programming Techniques, 2nd Edition|David W. Fanning|9780966238327
+ 2010|Kling Research And Software|Object Oriented Programming With Idl|Ronn Kling|9780967127057
+ 2001|Morgan Kaufmann|Practical IDL Programming|Gumley, Liam E.|9781558607002
+ 2001|Morgan Kaufmann|Practical IDL Programming|Gumley, Liam E.|9780080514444
+ 2007|Kling Research And Software, Inc|Idl Primer|Ronn Kling|9780967127033
+ 1997|Fanning Software Consulting|Idl Programming Techniques|David W. Fanning|9780966238303
+ 2000|Fanning Software Consulting|Idl Programming Techniques|Fanning, David W.|9780966238327
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav opa.html ceylon.html
-
-import ../footer.scroll
+semanticScholar 10
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1997|Flick: a flexible, optimizing IDL compiler|10.1145/258915.258921|110|9|E. Eide and Kevin Frei and B. Ford and J. Lepreau and G. Lindstrom|805279c8bdaaaf37f0e11fc856bb03a3d2fe7228
+ 1994|The Concert signature representation: IDL as intermediate language|10.1145/185084.185095|27|3|J. Auerbach and J. R. Russell|ee5472c86112e0f2e93b3b8ca9d8c09b8132217d
+ 2008|Mapping Semantics of CORBA IDL and GIOP to Open Core Protocol for Portability and Interoperability of SDR Waveform Components|10.1145/1403375.1403455|9|0|G. Gailliard and Hugues Balp and Michel Sarlotte and F. Verdier|762ce3309964bf2fee43667d413d621bdd2dcc9e
+ 1987|IDL as a data description language for a programming environment database|10.1145/39305.39312|6|0|T. Didriksen and A. Lie and R. Conradi|d57191ad1c5d414e920acb1d7f8d5c96433706f6
+ 2012|Research and Implement of Three-Dimensional Reconstruction Technology for Medical Images Based on IDL|10.1109/CSSS.2012.575|4|1|Lu Xiaoqi and L. Xin and Jia Dongzheng|00ed35c8b0fd007834d15a624c3a6461f1b221b2
+ 2018|proEQUIB: IDL Library for Plasma Diagnostics and Abundance Analysis|10.21105/joss.00899|4|0|Ashkbiz Danehkar|2364cde8f762d1900c63d67908b3c040352388e4
+ 2019|AtomNeb: IDL Library for Atomic Data of Ionized Nebulae|10.21105/joss.00898|4|0|Ashkbiz Danehkar|836d9f6001f4828648a988e9c2208f71121d7b37
+ 2013|Three Dimensional Visualization Toolbox for Medical Images Based on IDL|10.14257/IJSIP.2013.6.5.13|3|0|Minjun Tang and Feng Chen|a30cf24b5c12da20cd26d81068c04783d6f40b04
+ 2011|Using IDL to Visual Analyse the Point Clouds of the Surface of Crayfish|10.3968/J.ANS.1715787020110401.006|1|0|Yinwu Li and Guangsheng Zhao and Cheng Yang and Xiuwen Sun and Kui Huang|5956cb1a97b9d4524a994a4b29f88c22b5462292
+ 1999|Distributed programming with intermediate IDL|10.1145/329607.334745|1|1|Gary W. Smith and R. Volz|04ab7c78a1118f1ff9ab69ff6f09af0affd90d63

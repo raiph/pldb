@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ASHMEDAI
+import ../measures/conceptPage.scroll
+id ASHMEDAI
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/4eabeac5f92184ae0ae03f2685cbf0a036602bab
+country United States
+originCommunity Carnegie-Mellon University && University of Pittsburgh
 
-title ASHMEDAI - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1835
 
-html
- <a class="trueBaseThemePreviousItem" href="artspeak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aspol.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ashmedai.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ashmedai" class="material-symbols-outlined">edit</a></div>
-
-* ASHMEDAI is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #4069 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- ASHMEDAI first developed in <a href="../lists/originCommunities.html#carnegieMellonUniversity">Carnegie-Mellon University</a> and <a href="../lists/originCommunities.html#universityOfPittsburgh">University of Pittsburgh</a>
-- ASHMEDAI on HOPL
- https://hopl.info/showlanguage.prx?exp=1835
-- Read more about ASHMEDAI on Semantic Scholar: 1.
- https://semanticscholar.org/paper/4eabeac5f92184ae0ae03f2685cbf0a036602bab 1.
-
-<br>
-
-endColumns
-
-keyboardNav artspeak.html aspol.html
-
-import ../footer.scroll
+semanticScholar 0

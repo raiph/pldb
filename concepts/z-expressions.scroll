@@ -1,88 +1,53 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Z
+import ../measures/conceptPage.scroll
+id Z
+appeared 2012
+type pl
+creators Chris Done
+website http://chrisdone.com/z/
+reference https://news.ycombinator.com/item?id=20557363
+fileExtensions zz
 
-title Z - Programming language
- hidden
+writtenIn haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="cms-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pikelet.html">&gt;</a>
+hasComments true
+ -- A simple function, that is used inside the macro below.
+ defun ap x y
+      ++ x
+         y
+ defmacro : input
+          z:string input
+ -- Example with print:
+ print : Hello, World!
+         What's going on in here? 
+hasSemanticIndentation true
+ defun message msg
+       do print : Here's a message
+          print msg
+          print : End of message. 
+hasStrings true
+ "hello world"
+hasLineComments true
+ -- A comment
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/z-expressions.pldb
+lineCommentToken --
 
-startColumns 4
+githubRepo https://github.com/chrisdone/z
+ firstCommit 2012
+ stars 277
+ forks 8
+ subscribers 14
+ created 2012
+ updated 2022
+ description A strict, impure, curried, partially applied programming language with rather peculiar syntax. 
+ issues 0
 
-<div class="trueBaseThemeQuickLinks"><a href="http://chrisdone.com/z/" class="material-symbols-outlined">home</a> <a href="https://github.com/chrisdone/z" class="material-symbols-outlined">code</a> <a href="/edit.html?id=z-expressions" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2012
+ commits 25
+ committers 2
+ files 11
 
-* Z is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Chris Done.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#chrisDone Chris Done
-
-codeWithHeader Source code:
- git clone https://github.com/chrisdone/z
-
-dashboard
- #1237 <span title="TotalRank: 1772 Jobs: 103 Users: 964 Facts: 705 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A strict, impure, curried, partially applied programming language with rather peculiar syntax. 
-
-- Z website
- http://chrisdone.com/z/
-- Z is developed on <a href="https://github.com/chrisdone/z">GitHub</a> and has 277 stars
-- file extensions for Z include zz
-- Z is written in <a href="haskell.html">Haskell</a>
-- Read more about Z on the web: 1.
- https://news.ycombinator.com/item?id=20557363 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   "hello world"
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   defun message msg
-         do print : Here's a message
-            print msg
-            print : End of message. 
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A simple function, that is used inside the macro below.
-   defun ap x y
-        ++ x
-           y
-   defmacro : input
-            z:string input
-   -- Example with print:
-   print : Hello, World!
-           What's going on in here? 
-
-keyboardNav cms-2.html pikelet.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1991|Z--, an Executable Subset of Z|10.1007/978-1-4471-3203-5_8|32|0|S. Valentine|cb8dcd8e7eebe465483e5f19acb24dbc2591ae57
+ 2020|Z Formal Specification Language|10.1007/978-1-4471-4534-9_6|8|0|Gerard O'Regan|bb1c68c8991fb5e1a3d3814e46718ffaf07a9f1e

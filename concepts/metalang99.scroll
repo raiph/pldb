@@ -1,44 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Metalang99
+import ../measures/conceptPage.scroll
+id Metalang99
+appeared 2021
+type pl
+creators Tima Kinsart
+conceptDescription Metalang99: A functional language for C99 preprocessor metaprogramming
+website https://metalang99.readthedocs.io/en/latest/
+reference https://reddit.com/r/ProgrammingLanguages/comments/lswnya/metalang99_a_functional_language_for_c99/
+country Kazakhstan
+originCommunity https://github.com/Hirrolot/metalang99/issues
 
-title Metalang99 - Programming language
- hidden
+githubRepo https://github.com/Hirrolot/metalang99
+ firstCommit 2020
+ stars 557
+ forks 19
+ subscribers 15
+ created 2020
+ updated 2022
+ description Full-blown preprocessor metaprogramming
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="x-it.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vsxu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/metalang99.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://metalang99.readthedocs.io/en/latest/" class="material-symbols-outlined">home</a> <a href="https://github.com/Hirrolot/metalang99" class="material-symbols-outlined">code</a> <a href="/edit.html?id=metalang99" class="material-symbols-outlined">edit</a></div>
-
-* Metalang99 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Tima Kinsart.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#timaKinsart Tima Kinsart
-
-codeWithHeader Source code:
- git clone https://github.com/Hirrolot/metalang99
-
-dashboard
- #1254 <span title="TotalRank: 1787 Jobs: 103 Users: 698 Facts: 1502 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Metalang99: A functional language for C99 preprocessor metaprogramming
-
-- Metalang99 website
- https://metalang99.readthedocs.io/en/latest/
-- Metalang99 is developed on <a href="https://github.com/Hirrolot/metalang99">GitHub</a> and has 557 stars
-- Metalang99 first developed in <a href="../lists/originCommunities.html#httpsGithubComHirrolotMetalang99Issues">https://github.com/Hirrolot/metalang99/issues</a>
-- Read more about Metalang99 on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/lswnya/metalang99_a_functional_language_for_c99/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav x-it.html vsxu.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 1679
+ committers 5
+ files 117

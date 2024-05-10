@@ -1,402 +1,360 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Go
+import ../measures/conceptPage.scroll
+id Go
+appeared 2009
+type pl
+creators Rob Pike and Ken Thompson and Robert Griesemer
+website https://go.dev/
+webRepl https://go.dev/play
+documentation https://devdocs.io/go/
+emailList https://groups.google.com/g/golang-nuts
+aka golang
+fileExtensions go
+originCommunity Google
+domainName go.dev
+releaseNotesUrl https://go.dev/doc/devel/release
+proposals https://github.com/golang/proposal
 
-title Go - Programming language
- hidden
+visualParadigm false
 
-html
- <a class="trueBaseThemePreviousItem" href="json.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cobol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/go.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://go.dev/" class="material-symbols-outlined">home</a> <a href="https://go.dev/play" class="material-symbols-outlined">terminal</a> <a href="https://github.com/golang/go" class="material-symbols-outlined">code</a> <a href="https://devdocs.io/go/" class="material-symbols-outlined">menu_book</a> <a href="https://groups.google.com/g/golang-nuts" class="material-symbols-outlined">mail</a> <a href="https://en.wikipedia.org/wiki/Go_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/golang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=go" class="material-symbols-outlined">edit</a></div>
-
-* Go is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Rob Pike and Ken Thompson and Robert Griesemer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#robPike Rob Pike
- link ../lists/creators.html#kenThompson Ken Thompson
- link ../lists/creators.html#robertGriesemer Robert Griesemer
-
-codeWithHeader Source code:
- git clone https://github.com/golang/go
-
-dashboard
- #18 <span title="TotalRank: 66 Jobs: 26 Users: 14 Facts: 29 Links: 26">on PLDB</span>
- 15 Years Old
- 1m <span title="Go repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://go.dev/play">Web</a> · <a href="https://riju.codes/go">Riju</a> · <a href="https://tio.run/#go">TIO</a> · <a href="https://repl.it/languages/go">Replit</a>
-
-monacoEditor go
- // Type your code here, or load an example.
- // Your function name should start with a capital letter.
+hasStrings true
+ "hello world"
+hasPointers true
  package main
  
- func Square(x int) int {
-     return x * x
- }
- 
- func main() {}
- 
-
-* Go (often referred to as golang) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Go_(programming_language) Read more on Wikipedia...
-
-- Go website
- https://go.dev/
-- Go downloads page
- https://go.dev/dl/
-- Go Wikipedia page
- https://en.wikipedia.org/wiki/Go_(programming_language)
-- Go is developed on <a href="https://github.com/golang/go">GitHub</a> and has 110,413 stars
-- Watch the history of <a href="https://www.youtube.com/watch?v=2FwdgwMMCv4">the Go repo visualized with Gource</a>
-- Go docs
- https://devdocs.io/go/
-- Go mailing list
- https://groups.google.com/g/golang-nuts
-- There are at least 1,083,789 Go repos on <a href="https://github.com/search?q=language:Go">GitHub</a>
-- Go first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- PLDB estimates there are currently 6k job openings for Go programmers.
-- file extensions for Go include go
-- Go on Twitter
- https://twitter.com/golang
-- The  Google BigQuery Public Dataset GitHub snapshot shows 45k users using Go in 91k repos on <a href="https://api.github.com/search/repositories?q=language:Go">GitHub</a>
-- Check out the 315 <a href="https://www.meetup.com/topics/golang/">Go meetup groups</a> on Meetup.com.
-- There are 1,768 <a href="https://projecteuler.net/language=Go">Project Euler</a> users using Go
-- In the 2021 StackOverflow <a href="https://insights.stackoverflow.com/survey">developer survey</a> Go programmers reported a median salary of $75,669. 9% of respondents reported using Go. 7,879 programmers reported using Go, and 15,788 said they wanted to use it
-- Explore Go snippets on <a href="http://www.rosettacode.org/wiki/Category:Go">Rosetta Code</a>
-- Go is supported by the <a href="https://www.sourceware.org/gdb/">GDB</a>
-- Go ranks #14 in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- Go Ubuntu package
- https://packages.ubuntu.com/jammy/golang
-- <a href="antlr.html">ANTLR</a> <a href="https://github.com/antlr/grammars-v4/tree/master/golang">grammar</a> for Go
-- Go <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/sourcegraph/go-langserver">implementation</a>
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/go">package</a> for syntax highlighting Go
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/go">package</a> for syntax highlighting Go
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/go.py">syntax highlighting</a> for Go
-- GitHub supports <a href="https://github.com/AlanQuatermain/go-tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Go
-- Go appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- PLDB has 4 <a href="jupyter-notebook.html">Jupyter</a> Kernels for Go: <a href="https://github.com/yunabe/lgo">github.com</a>, <a href="https://github.com/takluyver/igo">github.com</a>, <a href="https://github.com/fabian-z/gopherlab">github.com</a>, <a href="https://github.com/gopherdata/gophernotes">github.com</a>
-- Release Notes for Go
- https://go.dev/doc/devel/release
-- Official Blog page for Go
- https://go.dev/blog/
-- Frequently Asked Questions for Go
- https://go.dev/doc/faq
-- Indeed.com has 1,284 matches for <a href="https://www.indeed.com/jobs?q=go engineer">"go engineer"</a>.
-- See also: (33 related languages)<a href="assembly-language.html">Assembly language</a>, <a href="linux.html">Linux</a>, <a href="freebsd.html">FreeBSD</a>, <a href="solaris.html">Solaris</a>, <a href="alef.html">ALEF</a>, <a href="apl.html">APL</a>, <a href="bcpl.html">BCPL</a>, <a href="c.html">C</a>, <a href="csp.html">CSP</a>, <a href="limbo.html">Limbo</a>, <a href="modula.html">Modula</a>, <a href="newsqueak.html">Newsqueak</a>, <a href="oberon.html">Oberon</a>, <a href="occam.html">Occam</a>, <a href="pascal.html">Pascal</a>, <a href="python.html">Python</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="crystal.html">Crystal</a>, <a href="algol.html">Algol</a>, <a href="unix.html">Unix</a>, <a href="java.html">Java</a>, <a href="utf-8.html">UTF-8</a>, <a href="csharp.html">C#</a>, <a href="rust.html">Rust</a>, <a href="erlang.html">Erlang</a>, <a href="chapel.html">Chapel</a>, <a href="cilk.html">CIL</a>, <a href="mongodb.html">MongoDB</a>, <a href="standard-ml.html">Standard ML</a>, <a href="cobol.html">COBOL</a>, <a href="fortran.html">Fortran</a>, <a href="scala.html">Scala</a>, <a href="dart.html">Dart</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
- // Type your code here, or load an example.
- // Your function name should start with a capital letter.
- package main
- 
- func Square(x int) int {
-     return x * x
- }
- 
- func main() {}
- 
-
-codeWithHeader Example from <a href='https://riju.codes/go'>Riju</a>:
- package main
- 
- import &quot;fmt&quot;
+ import "fmt"
  
  func main() {
- 	fmt.Println(&quot;Hello, world!&quot;)
+   i, j := 42, 2701
+ 
+   p := &i         // point to i
+   fmt.Println(*p) // read i through the pointer
+   *p = 21         // set i through the pointer
+   fmt.Println(i)  // see the new value of i
+ 
+   p = &j         // point to j
+   *p = *p / 37   // divide j through the pointer
+   fmt.Println(j) // see the new value of j
  }
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/g/Go.go'>hello-world</a>:
- package main
  
- import &quot;fmt&quot;
- 
- func main() {
-   fmt.Println(&quot;Hello World&quot;)
+hasComments true
+ // This is a comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasBooleans true
+ c := true
+hasIntegers true
+ i, j := 42, 2701
+hasIncrementAndDecrementOperators true
+ i := 0
+ i++
+ i--
+hasImports true
+ import (
+    "fmt"
+    "math"
+ )
+ import . "fmt"
+ import _ "io"
+ import log "github.com/foo/bar"
+ import m "math"
+hasOperatorOverloading false
+hasSemanticIndentation false
+hasCaseInsensitiveIdentifiers false
+hasLists true
+ myList := []int{1, 2, 3}
+hasTypeInference true
+hasVariadicFunctions true
+ // This variadic function takes an arbitrary number of ints as arguments.
+ func sum(nums ...int) {
+   fmt.Print("The sum of ", nums) // Also a variadic function.
+   total := 0
+   for _, num := range nums {
+     total += num
+   }
+   fmt.Println(" is", total) // Also a variadic function.
  }
- 
+hasLineComments true
+ // A comment
+hasMessagePassing true
+hasPrintDebugging true
+hasAssignment true
+isCaseSensitive true
+hasConstants true
+hasSwitch true
+hasConditionals true
+hasOctals true
+ // 0[0-7]+
+hasHexadecimals true
+ // 0[xX][0-9a-fA-F]+
+hasFloats true
+ // \d+(\.\d+[eE][+\-]?\d+|\.\d*|[eE][+\-]?\d+)
 
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Go'>the Hello World Collection</a>:
+lineCommentToken //
+multiLineCommentTokens /* */
+printToken fmt.Println
+assignmentToken =
+stringToken "
+keywords break case chan const continue default defer else fallthrough for func go goto if import interface map package range return select struct switch type var
+
+gource https://www.youtube.com/watch?v=2FwdgwMMCv4
+githubRepo https://github.com/golang/go
+ stars 110413
+ forks 16289
+ subscribers 3474
+ created 2014
+ updated 2023
+ description The Go programming language
+ issues 8291
+
+repoStats
+ firstCommit 1972
+ commits 59810
+ committers 2510
+ files 12357
+
+wikipedia https://en.wikipedia.org/wiki/Go_(programming_language)
+ example
+  package main
+  
+  import (
+      "fmt"
+      "time"
+  )
+  
+  func readword(ch chan string) {
+      fmt.Println("Type a word, then hit Enter.")
+      var word string
+      fmt.Scanf("%s", &word)
+      ch <- word
+  }
+  
+  func timeout(t chan bool) {
+      time.Sleep(5 * time.Second)
+      t <- true
+  }
+  
+  func main() {
+      t := make(chan bool)
+      go timeout(t)
+  
+      ch := make(chan string)
+      go readword(ch)
+  
+      select {
+      case word := <-ch:
+          fmt.Println("Received", word)
+      case <-t:
+          fmt.Println("Timeout.")
+      }
+  }
+ related assembly-language linux freebsd solaris alef apl bcpl c csp limbo modula newsqueak oberon occam pascal python smalltalk crystal algol unix java utf-8 csharp rust erlang chapel cilk mongodb standard-ml cobol fortran scala dart
+ summary Go (often referred to as golang) is a programming language created at Google in 2009 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added. The compiler and other language tools originally developed by Google are all free and open source.
+ pageId 25039021
+ dailyPageViews 2602
+ created 2009
+ backlinksCount 1153
+ revisionCount 1802
+ appeared 2009
+ fileExtensions go
+
+githubLanguage Go
+ fileExtensions go
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  vmware octant https://github.com/vmware.png https://github.com/vmware/octant Go #00ADD8 2406 121 2308 "A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters."
+  quii learn-go-with-tests https://github.com/quii.png https://github.com/quii/learn-go-with-tests Go #00ADD8 7624 769 3121 "Learn Go with test-driven development"
+  cnlh nps https://github.com/cnlh.png https://github.com/cnlh/nps Go #00ADD8 7403 1139 2253 一款轻量级、功能强大的内网穿透代理服务器。支持tcp、udp流量转发，支持内网http代理、内网socks5代理，同时支持snappy压缩、站点保护、加密传输、多路复用、header修改等。支持web图形化管理，集成多用户模式。
+  iawia002 annie https://github.com/iawia002.png https://github.com/iawia002/annie Go #00ADD8 7577 733 681 "👾 Fast, simple and clean video downloader"
+  sqshq sampler https://github.com/sqshq.png https://github.com/sqshq/sampler Go #00ADD8 6099 267 3394 "A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file."
+  fatedier frp https://github.com/fatedier.png https://github.com/fatedier/frp Go #00ADD8 27370 4960 1262 "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet."
+  prometheus prometheus https://github.com/prometheus.png https://github.com/prometheus/prometheus Go #00ADD8 26226 3783 739 "The Prometheus monitoring system and time series database."
+  unknwon the-way-to-go_ZH_CN https://github.com/unknwon.png https://github.com/unknwon/the-way-to-go_ZH_CN Go #00ADD8 17200 4782 746 "《The Way to Go》中文译本，中文正式名《Go 入门指南》"
+  grafana loki https://github.com/grafana.png https://github.com/grafana/loki Go #00ADD8 7087 469 299 "Like Prometheus, but for logs."
+  wtfutil wtf https://github.com/wtfutil.png https://github.com/wtfutil/wtf Go #00ADD8 10146 521 1603 "The personal information dashboard for your terminal."
+  crawlab-team crawlab https://github.com/crawlab-team.png https://github.com/crawlab-team/crawlab Go #00ADD8 2390 346 1549 "Distributed web crawler admin platform for spiders management regardless of languages and frameworks."
+  kubernetes minikube https://github.com/kubernetes.png https://github.com/kubernetes/minikube Go #00ADD8 15590 2460 446 "Run Kubernetes locally"
+  golang go https://github.com/golang.png https://github.com/golang/go Go #00ADD8 63142 8820 1596 "The Go programming language"
+  kubernetes kubernetes https://github.com/kubernetes.png https://github.com/kubernetes/kubernetes Go #00ADD8 57528 20099 1425 "Production-Grade Container Scheduling and Management"
+  Dreamacro clash https://github.com/Dreamacro.png https://github.com/Dreamacro/clash Go #00ADD8 3405 467 279 "A rule-based tunnel in Go."
+  developer-learning reading-go https://github.com/developer-learning.png https://github.com/developer-learning/reading-go Go #00ADD8 4682 446 274 "Go 夜读 > Share the related technical topics of Go every week through zoom online live broadcast, every day on the WeChat/Slack to communicate programming technology topics. 每周通过 zoom 在线直播的方式分享 Go 相关的技术话题，每天大家在微信/Slack 上及时沟通交流编程技术话题。"
+  istio istio https://github.com/istio.png https://github.com/istio/istio Go #00ADD8 19423 3336 565 "Connect, secure, control, and observe services."
+  pulumi pulumi https://github.com/pulumi.png https://github.com/pulumi/pulumi Go #00ADD8 3364 164 217 "Modern Infrastructure as Code - Create, deploy, and manage infrastructure on any cloud using your favorite language."
+  nsqio nsq https://github.com/nsqio.png https://github.com/nsqio/nsq Go #00ADD8 16146 2111 294 "A realtime distributed messaging platform"
+  FiloSottile mkcert https://github.com/FiloSottile.png https://github.com/FiloSottile/mkcert Go #00ADD8 20261 740 503 "A simple zero-config tool to make locally trusted development certificates with any names you'd like."
+  urfave cli https://github.com/urfave.png https://github.com/urfave/cli Go #00ADD8 11779 946 437 "A simple, fast, and fun package for building command line apps in Go"
+  drone drone https://github.com/drone.png https://github.com/drone/drone Go #00ADD8 19329 1908 347 "Drone is a Container-Native, Continuous Delivery Platform"
+  goproxy goproxy.cn https://github.com/goproxy.png https://github.com/goproxy/goproxy.cn Go #00ADD8 1062 54 477 "The most trusted Go module proxy in China."
+  cortexproject cortex https://github.com/cortexproject.png https://github.com/cortexproject/cortex Go #00ADD8 1834 220 224 "A multitenant, horizontally scalable Prometheus as a Service"
+  aquasecurity trivy https://github.com/aquasecurity.png https://github.com/aquasecurity/trivy Go #00ADD8 2130 148 443 "A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI"
+ trendingProjectsCount 26
+ type programming
+ aceMode golang
+ codemirrorMode go
+ codemirrorMimeType text/x-go
+ tmScope source.go
+ aliases golang
+ repos 1083789
+githubBigQuery Go
+ repos 91470
+ users 44945
+
+antlr https://github.com/antlr/grammars-v4/tree/master/golang
+monaco go
+codeMirror go
+pygmentsHighlighter Go
+ filename go.py
+ fileExtensions go
+linguistGrammarRepo https://github.com/AlanQuatermain/go-tmbundle
+ firstCommit 2009
+ lastCommit 2013
+ committerCount 21
+ commitCount 194
+ sampleCount 3
+ example
+  // Autogenerated by Thrift Compiler (1.0.0-dev)
+  // DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
+  
+  package linguist
+  
+  import (
+  	"bytes"
+  	"fmt"
+  	"git.apache.org/thrift.git/lib/go/thrift"
+  )
+  
+  // (needed to ensure safety because of naive import list construction.)
+  var _ = thrift.ZERO
+  var _ = fmt.Printf
+  var _ = bytes.Equal
+  
+  func init() {
+  }
+  
+languageServerProtocolProject https://github.com/golang/tools/tree/master/gopls
+ writtenIn go
+languageServerProtocolProject https://github.com/sourcegraph/go-langserver
+ writtenIn go
+
+projectEuler Go
+ memberCount
+  2019 1313
+  2022 1768
+helloWorldCollection Go
  // Hello world in Go
  
  package main
- import &quot;fmt&quot;
+ import "fmt"
  func main() {
-  fmt.Printf(&quot;Hello World\n&quot;)
+  fmt.Printf("Hello World\n")
  }
+leachim6 Go
+ filepath g/Go.go
+ fileExtensions go
+ example
+  package main
+  
+  import "fmt"
+  
+  func main() {
+    fmt.Println("Hello World")
+  }
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Go
+quineRelay Go
 
-codeWithHeader Example from <a href='https://github.com/AlanQuatermain/go-tmbundle'>Linguist</a>:
- // Autogenerated by Thrift Compiler (1.0.0-dev)
- // DO NOT EDIT UNLESS YOU ARE SURE THAT YOU KNOW WHAT YOU ARE DOING
- 
- package linguist
- 
- import (
- 	&quot;bytes&quot;
- 	&quot;fmt&quot;
- 	&quot;git.apache.org/thrift.git/lib/go/thrift&quot;
- )
- 
- // (needed to ensure safety because of naive import list construction.)
- var _ = thrift.ZERO
- var _ = fmt.Printf
- var _ = bytes.Equal
- 
- func init() {
- }
- 
+compilerExplorer Go
+ example
+  // Type your code here, or load an example.
+  // Your function name should start with a capital letter.
+  package main
+  
+  func Square(x int) int {
+      return x * x
+  }
+  
+  func main() {}
+  
+rijuRepl https://riju.codes/go
+ example
+  package main
+  
+  import "fmt"
+  
+  func main() {
+  	fmt.Println("Hello, world!")
+  }
+replit https://repl.it/languages/go
+tryItOnline go
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Go_(programming_language)'>Wikipedia</a>:
- package main
- 
- import (
-     &quot;fmt&quot;
-     &quot;time&quot;
- )
- 
- func readword(ch chan string) {
-     fmt.Println(&quot;Type a word, then hit Enter.&quot;)
-     var word string
-     fmt.Scanf(&quot;%s&quot;, &amp;word)
-     ch &lt;- word
- }
- 
- func timeout(t chan bool) {
-     time.Sleep(5 * time.Second)
-     t &lt;- true
- }
- 
- func main() {
-     t := make(chan bool)
-     go timeout(t)
- 
-     ch := make(chan string)
-     go readword(ch)
- 
-     select {
-     case word := &lt;-ch:
-         fmt.Println(&quot;Received&quot;, word)
-     case &lt;-t:
-         fmt.Println(&quot;Timeout.&quot;)
-     }
- }
+indeedJobs go engineer
+ 2017 1284
+linkedInSkill go
+ 2018 511898
+stackOverflowSurvey
+ 2021
+  users 7879
+  medianSalary 75669
+  fans 15788
+  percentageUsing 0.09
+officialBlogUrl https://go.dev/blog/
+faqPageUrl https://go.dev/doc/faq
+downloadPageUrl https://go.dev/dl/
 
-<div class="keywordsBlock">
-codeWithHeader Go <a href="../lists/keywords.html?filter=go">Keywords</a>
- break case chan const continue default defer else fallthrough for func go goto if import interface map package range return select struct switch type var
-</div>
+meetup https://www.meetup.com/topics/golang
+ memberCount 147668
+ groupCount 315
 
-endColumns
+tiobe Go
+ currentRank 14
+pypl Go
 
-## Language <a href="../lists/features.html">features</a>
+twitter https://twitter.com/golang
+ubuntuPackage golang
+gdbSupport true
+jupyterKernel https://github.com/yunabe/lgo
+jupyterKernel https://github.com/takluyver/igo
+jupyterKernel https://github.com/fabian-z/gopherlab
+jupyterKernel https://github.com/gopherdata/gophernotes
+fileType text
+wordRank 123
+isOpenSource true
+githubCopilotOptimized true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // \d+(\.\d+[eE][+\-]?\d+|\.\d*|[eE][+\-]?\d+)
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // 0[xX][0-9a-fA-F]+
- row
-  Feature Octals
-  FeatureLink ../features/hasOctals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // 0[0-7]+
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Switch Statements
-  FeatureLink ../features/hasSwitch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Constants
-  FeatureLink ../features/hasConstants.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Sensitivity
-  FeatureLink ../features/isCaseSensitive.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token =
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token fmt.Println
-  Example
- row
-  Feature Message Passing
-  FeatureLink ../features/hasMessagePassing.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Variadic Functions
-  FeatureLink ../features/hasVariadicFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // This variadic function takes an arbitrary number of ints as arguments.
-   func sum(nums ...int) {
-     fmt.Print("The sum of ", nums) // Also a variadic function.
-     total := 0
-     for _, num := range nums {
-       total += num
-     }
-     fmt.Println(" is", total) // Also a variadic function.
-   }
- row
-  Feature Type Inference
-  FeatureLink ../features/hasTypeInference.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Lists
-  FeatureLink ../features/hasLists.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   myList := []int{1, 2, 3}
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   import (
-      "fmt"
-      "math"
-   )
-   import . "fmt"
-   import _ "io"
-   import log "github.com/foo/bar"
-   import m "math"
- row
-  Feature Increment and decrement operators
-  FeatureLink ../features/hasIncrementAndDecrementOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   i := 0
-   i++
-   i--
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   i, j := 42, 2701
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   c := true
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // This is a comment
- row
-  Feature Pointers
-  FeatureLink ../features/hasPointers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   package main
-   
-   import "fmt"
-   
-   func main() {
-     i, j := 42, 2701
-   
-     p := &i         // point to i
-     fmt.Println(*p) // read i through the pointer
-     *p = 21         // set i through the pointer
-     fmt.Println(i)  // see the new value of i
-   
-     p = &j         // point to j
-     *p = *p / 37   // divide j through the pointer
-     fmt.Println(j) // see the new value of j
-   }
-   
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "hello world"
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Operator Overloading
-  FeatureLink ../features/hasOperatorOverloading.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isbndb 5
+ year|publisher|title|authors|isbn13
+ 2012|iUniverse|The Way To Go: A Thorough Introduction To The Go Programming Language|Balbaert, Ivo|9781469769165
+ 2016|Packt Publishing|Go Programming Blueprints: Build real-world, production-ready solutions in Go using cutting-edge technology and techniques, 2nd Edition|Ryer, Mat|9781786468949
+ 2013|Apress|TouchDevelop: Programming on the Go (Expert's Voice in Web Development)|Horspool, Nigel and Tillmann, Nikolai and Bishop, Judith|9781430261360
+ 2016|Manning Publications|Go Web Programming|Chang, Sau Sheong|9781617292569
+ 2015|Packt Publishing|Go Programming Blueprints|Ryer, Mat|9781783988020
 
-keyboardNav json.html cobol.html
-
-import ../footer.scroll
+semanticScholar 26
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1974|Structured Programming with go to Statements|10.1145/356635.356640|685|25|D. Knuth|3fdae4603265209ddf420cfaa9cbd0286c567c6c
+ 2008|When good instructions go bad: generalizing return-oriented programming to RISC|10.1145/1455770.1455776|403|28|E. Buchanan and Ryan Roemer and H. Shacham and S. Savage|bc6be5f3f1cf582c3613e3c7de6a793947335854
+ 2014|The Go Programming Language|10.1109/MS.2014.127|278|7|Jeffrey H. Meyerson|e2c3ace95d91ea0d25abce56d7c3e71201c87229
+ 2016|Static deadlock detection for concurrent go by global session graph synthesis|10.1145/2892208.2892232|54|2|Nicholas Ng and N. Yoshida|f3902b140f40cf972cb4f3a5489c9ca45b9ed867
+ 2018|A Static Verification Framework for Message Passing in Go Using Behavioural Types|10.1145/3180155.3180157|50|2|J. Lange and Nicholas Ng and Bernardo Toninho and N. Yoshida|e1a8c301be733b9a413dc21c45c1f013c5f81f94
+ 2019|Understanding Real-World Concurrency Bugs in Go|10.1145/3297858.3304069|45|4|Tengfei Tu and Xiaoyu Liu and Linhai Song and Yiying Zhang|246a2af5c477396f52a7af39e3c6a26049ae3310
+ 2010|GoHotDraw: evaluating the Go programming language with design patterns|10.1145/1937117.1937127|23|1|Frank Schmager and N. Cameron and J. Noble|ae564736323308356b53aefc2afc67a0764555f2
+ 2012|Go at Google|10.1145/2384716.2384720|22|0|R. Pike|8d058d199185c3cbb9446a4ce486a765bd242aa2
+ 2019|An Empirical Study of Messaging Passing Concurrency in Go Projects|10.1109/SANER.2019.8668036|22|1|Nicolas Dilley and J. Lange|a7029d89d1032c66412872fd17caa45ae635d6f6
+ 2020|Here We Go Again: Why Is It Difficult for Developers to Learn Another Programming Language?|10.1145/3377811.3380352|19|1|Nischal Shrestha and Colton Botta and Titus Barik and Chris Parnin|112353453760498067a78e5e53220b7a11df9db4
+ 2014|Concurrency in Go and Java: Performance analysis|10.1109/ICIST.2014.6920368|16|4|Naohiro Togashi and V. Klyuev|4b73e80c19f9cbb3881379f73e4bb134ea9d3cf8
+ 2014|Architecture-Based Code Generation: From π-ADL Architecture Descriptions to Implementations in the Go Language|10.1007/978-3-319-09970-5_13|14|1|Everton Cavalcante and F. Oquendo and T. Batista|b52c76f904dfd05395d17e2489614bc59ca99f29
+ 2014|bíogo: a simple high-performance bioinformatics toolkit for the Go language|10.1101/005033|12|1|R. Kortschak and Josh Bleecher Snyder and Manolis Maragkakis and D. Adelson|92c2f9e43a3799392a963d437adf3901ea6dc3d1
+ 2011|Deferred gratification: engineering for high performance garbage collection from the get go|10.1145/1988915.1988930|11|0|Ivan Jibaja and S. Blackburn and M. Haghighat and K. McKinley|6d712e3ccc708a2e7bcda5c2056ccfab43af8270
+ 2017|FML-based Dynamic Assessment Agent for Human-Machine Cooperative System on Game of Go|10.1142/S0218488517500295|11|0|Chang-Shing Lee and Mei-Hui Wang and Sheng-Chi Yang and Pi-Hsia Hung and Su-Wei Lin and Nan Shuo and N. Kubota and Chun-Hsun Chou and P. Chou and Chia-Hsiu Kao|2e99badd048590ded429bb08889538270241bbfd
+ 2020|Static Race Detection and Mutex Safety and Liveness for Go Programs (Artifact)|10.4230/DARTS.6.2.12|10|1|Julia Gabet and N. Yoshida|a5c89ffa3121aec2eace5f64cb75d915ee12a21c
+ 2020|goDASH — GO Accelerated HAS Framework for Rapid Prototyping|10.1109/QoMEX48832.2020.9123103|7|0|Darijo Raca and Maëlle Manifacier and Jason J. Quinlan|90e3d263241111cff7064037a0ade6b00323bb80
+ 2021|GoBench: A Benchmark Suite of Real-World Go Concurrency Bugs|10.1109/CGO51591.2021.9370317|7|3|Ting Yuan and Guangwei Li and Jie Lu and Chen Liu and Lian Li and Jingling Xue|c1bcb1da18bda80a92790a79bdff362980f731fd
+ 2018|Two-Phase Dynamic Analysis of Message-Passing Go Programs Based on Vector Clocks|10.1145/3236950.3236959|6|0|M. Sulzmann and K. Stadtmüller|e1116fdac1e58415c62e21c83f2d6bc5aab08035
+ 2017|Trace-Based Run-Time Analysis of Message-Passing Go Programs|10.1007/978-3-319-70389-3_6|5|1|M. Sulzmann and K. Stadtmüller|8185a6664d62ae017910c8960c302ed7ffac8e40
+ 2020|Bounded verification of message-passing concurrency in Go using Promela and Spin|10.4204/EPTCS.314.4|4|0|Nicolas Dilley and J. Lange|d98f1cf4376c7de5e65391c3d1fa372b03540b49
+ 2015|PARAGON: an approach for parallelization of power system contingency analysis using Go programming language|10.1002/ETEP.1999|4|1|S. Khaitan and J. McCalley|aec59c18d84b2544e119a6ad663b4c5865cca060
+ 2020|Static Race Detection and Mutex Safety and Liveness for Go Programs (extended version)|10.4230/LIPIcs.ECOOP.2020.4|3|1|Julia Gabet and N. Yoshida|6eef6ecf97976770bc407850aeb6f47ee8ccb19c
+ 2017|Overview of the Go Language|10.1007/978-1-4842-2692-6_2|3|1|J. Newmarch|e8230750cd61b5972228841186cacfdb856fa4d1
+ 2011|Pattern matching for object-like structures in the Go programming language|10.1145/2069172.2069180|2|0|Chanwit Kaewkasi and Pitchaya Kaewkasi|1787cbbc350b8f812633b14dba353cc4659bccfa
+ null|Evaluating the GO Programming Language with Design Patterns|10.26686/wgtn.16984801|1|0|Frank Schmager|ab5a1cf83194c5180bf9d0d992fe2514dfd54fe3

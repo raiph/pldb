@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Atomos
+import ../measures/conceptPage.scroll
+id Atomos
+appeared 2006
+type pl
+conceptDescription Atomos is the first programming language with implicit transactions, strong atomicity, and a scalable multiprocessor implementation. Atomos is derived from Java, but replaces its synchronization and conditional waiting constructs with simpler transactional alternatives.
+reference https://www.semanticscholar.org/paper/The-Atomos-transactional-programming-language-Carlstrom-McDonald/24fb613bf421ae2bbb32a9df08e3b9d2508d5ca0
+country United States
+originCommunity Stanford University
 
-title Atomos - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="aspol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aurora.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/atomos.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=atomos" class="material-symbols-outlined">edit</a></div>
-
-* Atomos is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #4071 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 18 Years Old
-
-* Atomos is the first programming language with implicit transactions, strong atomicity, and a scalable multiprocessor implementation. Atomos is derived from Java, but replaces its synchronization and conditional waiting constructs with simpler transactional alternatives.
-
-- Atomos first developed in <a href="../lists/originCommunities.html#stanfordUniversity">Stanford University</a>
-- Read more about Atomos on Semantic Scholar: 1.
- https://www.semanticscholar.org/paper/The-Atomos-transactional-programming-language-Carlstrom-McDonald/24fb613bf421ae2bbb32a9df08e3b9d2508d5ca0 1.
-
-<br>
-
-endColumns
-
-keyboardNav aspol.html aurora.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

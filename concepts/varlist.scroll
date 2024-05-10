@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title VARLIST
+import ../measures/conceptPage.scroll
+id VARLIST
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/cfa4fa79dd82264f587c6d42d5f22b43d195b057
 
-title VARLIST - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3887
 
-html
- <a class="trueBaseThemePreviousItem" href="val-ii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="vector-pascal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/varlist.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=varlist" class="material-symbols-outlined">edit</a></div>
-
-* VARLIST is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #3272 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- VARLIST on HOPL
- https://hopl.info/showlanguage.prx?exp=3887
-- Read more about VARLIST on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cfa4fa79dd82264f587c6d42d5f22b43d195b057 1.
-
-<br>
-
-endColumns
-
-keyboardNav val-ii.html vector-pascal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

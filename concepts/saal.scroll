@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SAAL
+import ../measures/conceptPage.scroll
+id SAAL
+appeared 1966
+type assembly
+reference http://bitsavers.org/pdf/univac/1005/Univac_1005_Extended_System_Programmers_Reference_Manual_Apr68.pdf
+standsFor Single Address Assembly Language
+country United States
+originCommunity Sperry Rand Corporation
 
-title SAAL - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="rt-z.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sac-1.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/saal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=saal" class="material-symbols-outlined">edit</a></div>
-
-* SAAL, aka Single Address Assembly Language, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #3991 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 58 Years Old
-
-* 
-
-- SAAL first developed in <a href="../lists/originCommunities.html#sperryRandCorporation">Sperry Rand Corporation</a>
-- SAAL on HOPL
- https://hopl.info/showlanguage.prx?exp=274
-- Read more about SAAL on the web: 1.
- http://bitsavers.org/pdf/univac/1005/Univac_1005_Extended_System_Programmers_Reference_Manual_Apr68.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav rt-z.html sac-1.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=274

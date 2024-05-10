@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SAP HANA
-
-title SAP HANA - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="pl-as.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scat.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sap-hana.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sap-hana" class="material-symbols-outlined">edit</a></div>
-
-* SAP HANA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #3210 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 14 Years Old
-
-* In-memory relational database management system (RDBMS)
-
-- SAP HANA first developed in <a href="../lists/originCommunities.html#sapSe">SAP SE</a>
-
-<br>
-
-endColumns
-
-keyboardNav pl-as.html scat.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id SAP HANA
+appeared 2010
+type database
+conceptDescription In-memory relational database management system (RDBMS)
+country Germany
+originCommunity SAP SE

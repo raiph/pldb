@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RUTH
+import ../measures/conceptPage.scroll
+id RUTH
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/49f2e3ceb80e805bbbecc3ca3bb341a16b5134c8
+country United Kingdom
+originCommunity University of Stirling
 
-title RUTH - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1358
 
-html
- <a class="trueBaseThemePreviousItem" href="russell.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sa.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ruth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ruth" class="material-symbols-outlined">edit</a></div>
-
-* RUTH is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4289 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- RUTH first developed in <a href="../lists/originCommunities.html#universityOfStirling">University of Stirling</a>
-- RUTH on HOPL
- https://hopl.info/showlanguage.prx?exp=1358
-- Read more about RUTH on Semantic Scholar: 1.
- https://semanticscholar.org/paper/49f2e3ceb80e805bbbecc3ca3bb341a16b5134c8 1.
-
-<br>
-
-endColumns
-
-keyboardNav russell.html sa.html
-
-import ../footer.scroll
+wordRank 6946
+centralPackageRepositoryCount 0

@@ -1,38 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title aplette
+import ../measures/conceptPage.scroll
+id aplette
+appeared 2014
+type pl
 
-title aplette - Programming language
- hidden
+githubRepo https://github.com/gregfjohnson/aplette
+ firstCommit 2014
+ stars 83
+ forks 2
+ subscribers 5
+ created 2017
+ updated 2021
+ description This is a new take on an old language:  APL.  The goal is to pare APL down to its elegant essence.  This version of APL is oriented toward scripting within a Unix-style computing environment.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="ruleml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="demos.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aplette.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/gregfjohnson/aplette" class="material-symbols-outlined">code</a> <a href="/edit.html?id=aplette" class="material-symbols-outlined">edit</a></div>
-
-* aplette is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/gregfjohnson/aplette
-
-dashboard
- #2109 <span title="TotalRank: 2606 Jobs: 103 Users: 1517 Facts: 2067 Links: 986">on PLDB</span>
- 10 Years Old
-
-* This is a new take on an old language:  APL.  The goal is to pare APL down to its elegant essence.  This version of APL is oriented toward scripting within a Unix-style computing environment.
-
-- aplette is developed on <a href="https://github.com/gregfjohnson/aplette">GitHub</a> and has 83 stars
-
-<br>
-
-endColumns
-
-keyboardNav ruleml.html demos.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 217
+ committers 9
+ files 386

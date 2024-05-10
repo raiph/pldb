@@ -1,60 +1,42 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Wavefront Material
+import ../measures/conceptPage.scroll
+id Wavefront Material
+appeared 1988
+type application
+reference https://github.com/Alhadis/language-wavefront/blob/master/specs/mtl.rst
 
-title Wavefront Material - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dedukti.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ibm-i-control-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wavefront-material.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wavefront-material" class="material-symbols-outlined">edit</a></div>
-
-* Wavefront Material is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #1679 on PLDB
- 36 Years Old
- 216k <span title="Wavefront Material repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 216,089 Wavefront Material repos on <a href="https://github.com/search?q=language:Wavefront Material">GitHub</a>
-- file extensions for Wavefront Material include mtl
-- GitHub supports <a href="https://github.com/Alhadis/language-wavefront" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Wavefront Material
-- Read more about Wavefront Material on the web: 1.
- https://github.com/Alhadis/language-wavefront/blob/master/specs/mtl.rst 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  newmtl flat_green
  Ka 0.0000 0.2000 0.0000
  Kd 0.0000 0.8000 0.0000
  illum 1
 
-codeWithHeader Example from <a href='https://github.com/Alhadis/language-wavefront'>Linguist</a>:
- # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
- # File Created: 27.05.2016 16:27:25
- 
- newmtl wire_088177027
- 	Ns 32
- 	d 1
- 	Tr 0
- 	Tf 1 1 1
- 	illum 2
- 	Ka 0.34509805 0.69411767 0.10588236
- 	Kd 0.34509805 0.69411767 0.10588236
- 	Ks 0.34999999 0.34999999 0.34999999
+githubLanguage Wavefront Material
+ fileExtensions mtl
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope source.wavefront.mtl
+ repos 216089
 
-endColumns
+linguistGrammarRepo https://github.com/Alhadis/language-wavefront
+ firstCommit 2016
+ lastCommit 2017
+ committerCount 1
+ commitCount 45
+ sampleCount 4
+ example
+  # 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+  # File Created: 27.05.2016 16:27:25
+  
+  newmtl wire_088177027
+  	Ns 32
+  	d 1
+  	Tr 0
+  	Tf 1 1 1
+  	illum 2
+  	Ka 0.34509805 0.69411767 0.10588236
+  	Kd 0.34509805 0.69411767 0.10588236
+  	Ks 0.34999999 0.34999999 0.34999999
 
-keyboardNav dedukti.html ibm-i-control-language.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Prolog-ELF
+import ../measures/conceptPage.scroll
+id Prolog-ELF
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/542c5cff6183e73d68782c1118acf2c1dfee7e27
+country Japan
+originCommunity University of Tokyo
 
-title Prolog-ELF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2003
 
-html
- <a class="trueBaseThemePreviousItem" href="prolog-d-linda.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="prolog-iii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prolog-elf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=prolog-elf" class="material-symbols-outlined">edit</a></div>
-
-* Prolog-ELF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3957 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- Prolog-ELF first developed in <a href="../lists/originCommunities.html#universityOfTokyo">University of Tokyo</a>
-- Prolog-ELF on HOPL
- https://hopl.info/showlanguage.prx?exp=2003
-- Read more about Prolog-ELF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/542c5cff6183e73d68782c1118acf2c1dfee7e27 1.
-
-<br>
-
-endColumns
-
-keyboardNav prolog-d-linda.html prolog-iii.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

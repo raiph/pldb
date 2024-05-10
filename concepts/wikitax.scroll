@@ -1,45 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Wikitax
+import ../measures/conceptPage.scroll
+id Wikitax
+appeared 2002
+type wikiMarkup
+conceptDescription Wikitax: a plaintext markup syntax to indicate semantical, display, and formatting information for text in CMSes, wikies, and blogs.
+reference https://meta.wikimedia.org/wiki/Wikitax
 
-title Wikitax - Wiki markup
- hidden
+relatedConcepts mediawiki
 
-html
- <a class="trueBaseThemePreviousItem" href="watfor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alma.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wikitax.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=wikitax" class="material-symbols-outlined">edit</a></div>
-
-* Wikitax is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+wikiMarkup">wiki markup</a> created in 2002.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
-
-dashboard
- #3024 <span title="TotalRank: 3641 Jobs: 103 Users: 2838 Facts: 2552 Links: 986">on PLDB</span>
- 22 Years Old
-
-* Wikitax: a plaintext markup syntax to indicate semantical, display, and formatting information for text in CMSes, wikies, and blogs.
-
-- See also: (1 related languages)<a href="mediawiki.html">MediaWiki</a>
-- Read more about Wikitax on the web: 1.
- https://meta.wikimedia.org/wiki/Wikitax 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [*
  This paragraph.
  
  And this paragraph, too.
  Are bold.
  *]
-
-endColumns
-
-keyboardNav watfor.html alma.html
-
-import ../footer.scroll

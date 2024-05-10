@@ -1,84 +1,54 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Language Server Index Format
+import ../measures/conceptPage.scroll
+id Language Server Index Format
+appeared 2019
+type jsonFormat
+creators Dan Adler
+website https://lsif.dev/
+standsFor Language Server Index Format
+country United States
+originCommunity Sourcegraph
+domainName lsif.dev
+ awisRank
+  2022 7825614
 
-title Language Server Index Format - Json format
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="p4p.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hare.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lsif-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://lsif.dev/" class="material-symbols-outlined">home</a> <a href="https://github.com/lsif/lsif.github.io" class="material-symbols-outlined">code</a> <a href="/edit.html?id=lsif-format" class="material-symbols-outlined">edit</a></div>
-
-* Language Server Index Format, aka Language Server Index Format, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+jsonFormat">json format</a> created in 2019 by Dan Adler.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#danAdler Dan Adler
-
-codeWithHeader Source code:
- git clone https://github.com/lsif/lsif.github.io
-
-dashboard
- #1220 <span title="TotalRank: 1764 Jobs: 103 Users: 2241 Facts: 675 Links: 986">on PLDB</span>
- 5 Years Old
-
-* https://lsif.dev
-
-- Language Server Index Format website
- https://lsif.dev/
-- Language Server Index Format is developed on <a href="https://github.com/lsif/lsif.github.io">GitHub</a> and has 8 stars
-- Language Server Index Format first developed in <a href="../lists/originCommunities.html#sourcegraph">Sourcegraph</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // a vertex representing the document
- { id: 1, type: &quot;vertex&quot;, label: &quot;document&quot;, uri: &quot;file:///Users/username/sample.ts&quot;, languageId: &quot;typescript&quot; }
+ { id: 1, type: "vertex", label: "document", uri: "file:///Users/username/sample.ts", languageId: "typescript" }
  // a vertex representing the range for the identifier bar
- { id: 4, type: &quot;vertex&quot;, label: &quot;range&quot;, start: { line: 0, character: 9}, end: { line: 0, character: 12 } }
+ { id: 4, type: "vertex", label: "range", start: { line: 0, character: 9}, end: { line: 0, character: 12 } }
  // an edge saying that the document with id 1 contains the range with id 4
- { id: 5, type: &quot;edge&quot;, label: &quot;contains&quot;, outV: 1, inV: 4}
+ { id: 5, type: "edge", label: "contains", outV: 1, inV: 4}
  // a vertex representing the actual hover result
- { id: 6, type: &quot;vertex&quot;, label: &quot;hoverResult&quot;,
+ { id: 6, type: "vertex", label: "hoverResult",
    result: {
      contents: [
-       { language: &quot;typescript&quot;, value: &quot;function bar(): void&quot; }
+       { language: "typescript", value: "function bar(): void" }
      ]
    }
  }
  // an edge linking the hover result to the range.
- { id: 7, type: &quot;edge&quot;, label: &quot;textDocument/hover&quot;, outV: 4, inV: 6 }
+ { id: 7, type: "edge", label: "textDocument/hover", outV: 4, inV: 6 }
 
-endColumns
+githubRepo https://github.com/lsif/lsif.github.io
+ firstCommit 2019
+ stars 8
+ forks 3
+ subscribers 5
+ created 2019
+ updated 2022
+ description https://lsif.dev
+ issues 4
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav p4p.html hare.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 48
+ committers 16
+ files 5

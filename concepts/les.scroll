@@ -1,50 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LES
+import ../measures/conceptPage.scroll
+id LES
+appeared 2012
+type grammarLanguage
+creators David Piepgrass
+conceptDescription LES is an interchange format for syntax trees, comparable to s-expressions but designed for languages in the Algol family such as C, C++, C#, Java, EcmaScript, Rust and Python. It can be described as “JSON for code”: just as XML/YAML/JSON are tree structures that assign no particular meaning to the data inside, likewise LES represents syntax trees without assigning any particular meaning to them.
+website http://loyc.net/les/
+reference http://loyc.net/origin.html
+standsFor Loyc Expression Syntax
+country Canada
+originCommunity https://github.com/qwertie/loyc.net/issues
 
-title LES - Grammar language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="broccoli-2.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nhx.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/les.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://loyc.net/les/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=les" class="material-symbols-outlined">edit</a></div>
-
-* LES, aka Loyc Expression Syntax, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2012 by David Piepgrass.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#davidPiepgrass David Piepgrass
-
-dashboard
- #2439 <span title="TotalRank: 2979 Jobs: 103 Users: 2442 Facts: 1890 Links: 986">on PLDB</span>
- 12 Years Old
-
-* LES is an interchange format for syntax trees, comparable to s-expressions but designed for languages in the Algol family such as C, C++, C#, Java, EcmaScript, Rust and Python. It can be described as “JSON for code”: just as XML/YAML/JSON are tree structures that assign no particular meaning to the data inside, likewise LES represents syntax trees without assigning any particular meaning to them.
-
-- LES website
- http://loyc.net/les/
-- LES first developed in <a href="../lists/originCommunities.html#httpsGithubComQwertieLoycNetIssues">https://github.com/qwertie/loyc.net/issues</a>
-- Read more about LES on the web: 1.
- http://loyc.net/origin.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  @[#static]
  fn factorial(x::int)::int {
    var result = 1;
-   for (; x &gt; 1; x--) {
+   for (; x > 1; x--) {
      result *= x;
    };
    return result;
  };
-
-endColumns
-
-keyboardNav broccoli-2.html nhx.html
-
-import ../footer.scroll

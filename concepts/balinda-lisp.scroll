@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BaLinda Lisp
+import ../measures/conceptPage.scroll
+id BaLinda Lisp
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/78f3cad4e39ad2ea9fce95a3a5646aaf4bd5bdf5
+country Singapore
+originCommunity National University of Singapore
 
-title BaLinda Lisp - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2786
 
-html
- <a class="trueBaseThemePreviousItem" href="back.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="baltazar.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/balinda-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=balinda-lisp" class="material-symbols-outlined">edit</a></div>
-
-* BaLinda Lisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #4078 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- BaLinda Lisp first developed in <a href="../lists/originCommunities.html#nationalUniversityOfSingapore">National University of Singapore</a>
-- BaLinda Lisp on HOPL
- https://hopl.info/showlanguage.prx?exp=2786
-- Read more about BaLinda Lisp on Semantic Scholar: 1.
- https://semanticscholar.org/paper/78f3cad4e39ad2ea9fce95a3a5646aaf4bd5bdf5 1.
-
-<br>
-
-endColumns
-
-keyboardNav back.html baltazar.html
-
-import ../footer.scroll
+isbndb 0

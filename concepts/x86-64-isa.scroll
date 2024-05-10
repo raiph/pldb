@@ -1,39 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title x86-64
+import ../measures/conceptPage.scroll
+id x86-64
+appeared 2000
+type isa
+aka amd64 x86_64
 
-title x86-64 - Instruction set architecture
- hidden
+wikipedia https://en.wikipedia.org/wiki/x86-64
+ related x86-isa mips sparc ia-32 freebsd linux opengl powerpc solaris visual-studio-editor
+ summary x86-64 (also known as x64, x86_64, AMD64 and Intel 64) is the 64-bit version of the x86 instruction set. It introduces two new modes of operation, 64-bit mode and compatibility mode, along with a new 4-level paging mode. With 64-bit mode and the new paging mode, it supports vastly larger amounts of virtual memory and physical memory than is possible on its 32-bit predecessors, allowing programs to store larger amounts of data in memory. x86-64 also expands general-purpose registers to 64-bit, as well extends the number of them from 8 (some of which had limited or fixed functionality, e.g. for stack management) to 16 (fully general), and provides numerous other enhancements. Floating point operations are supported via mandatory SSE2-like instructions, and x87/MMX style registers are generally not used (but still available even in 64-bit mode); instead, a set of 32 vector registers, 128 bits each, is used. (Each can store one or two double-precision numbers or one to four single precision numbers, or various integer formats.) In 64-bit mode, instructions are modified to support 64-bit operands and 64-bit addressing mode. The compatibility mode allows 16- and 32-bit user applications to run unmodified coexisting with 64-bit applications if the 64-bit operating system supports them. As the full x86 16-bit and 32-bit instruction sets remain implemented in hardware without any intervening emulation, these older executables can run with little or no performance penalty, while newer or modified applications can take advantage of new features of the processor design to achieve performance improvements. Also, a processor supporting x86-64 still powers on in real mode for full backward compatibility. The original specification, created by AMD and released in 2000, has been implemented by AMD, Intel and VIA. The AMD K8 processor was the first to implement it. This was the first significant addition to the x86 architecture designed by a company other than Intel. Intel was forced to follow suit and introduced a modified NetBurst family which was software-compatible with AMD's specification. VIA Technologies introduced x86-64 in their VIA Isaiah architecture, with the VIA Nano. The x86-64 architecture is distinct from the Intel Itanium architecture (formerly IA-64), which is not compatible on the native instruction set level with the x86 architecture. Operating systems and applications written for one cannot be run on the other.
+ pageId 244374
+ dailyPageViews 1
+ created 2003
+ backlinksCount 1555
+ revisionCount 2158
+ appeared 2000
 
-html
- <a class="trueBaseThemePreviousItem" href="m4.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="datalog.html">&gt;</a>
+linkedInSkill x86
+ 2018 41266
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/x86-64-isa.pldb
+fileType na
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/x86-64"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=x86-64-isa" class="material-symbols-outlined">edit</a></div>
-
-* x86-64 is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+isa">instruction set architecture</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #331 <span title="TotalRank: 771 Jobs: 56 Users: 48 Facts: 1982 Links: 667">on PLDB</span>
- 24 Years Old
-
-* x86-64 (also known as x64, x86_64, AMD64 and Intel 64) is the 64-bit version of the x86 instruction set. It introduces two new modes of operation, 64-bit mode and compatibility mode, along with a new 4-level paging mode. With 64-bit mode and the new paging mode, it supports vastly larger amounts of virtual memory and physical memory than is possible on its 32-bit predecessors, allowing programs to store larger amounts of data in memory. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/x86-64 Read more on Wikipedia...
-
-- x86-64 Wikipedia page
- https://en.wikipedia.org/wiki/x86-64
-- PLDB estimates there are currently 413 job openings for x86-64 programmers.
-- See also: (10 related languages)<a href="x86-isa.html">X86</a>, <a href="mips.html">MIPS architecture</a>, <a href="sparc.html">SPARC</a>, <a href="ia-32.html">IA-32</a>, <a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="opengl.html">OpenGL</a>, <a href="powerpc.html">PowerPC</a>, <a href="solaris.html">Solaris</a>, <a href="visual-studio-editor.html">Visual Studio</a>
-
-<br>
-
-endColumns
-
-keyboardNav m4.html datalog.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,56 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Emerald
+import ../measures/conceptPage.scroll
+id Emerald
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/c58d5d68aff6a596c5aade80fe87c2ea9074d8f2
+country United States and Denmark
+originCommunity University of Washington && Digital Equipment Corporation && University of Arizona && Copenhagen University
 
-title Emerald - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="cp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="qcl.html">&gt;</a>
+printToken stdout.putString
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emerald.pldb
+leachim6 Emerald
+ filepath e/Emerald.m
+ fileExtensions m
+ example
+  const main <- object mainProgram
+      initially
+  		stdout.putString["Hello World\n"]
+  	end initially
+  end mainProgram
 
-startColumns 4
+hopl https://hopl.info/showlanguage.prx?exp=1320
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=emerald" class="material-symbols-outlined">edit</a></div>
-
-* Emerald is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #2377 <span title="TotalRank: 2876 Jobs: 103 Users: 2838 Facts: 1787 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Emerald first developed in <a href="../lists/originCommunities.html#universityOfWashington">University of Washington</a> and <a href="../lists/originCommunities.html#digitalEquipmentCorporation">Digital Equipment Corporation</a> and <a href="../lists/originCommunities.html#universityOfArizona">University of Arizona</a> and <a href="../lists/originCommunities.html#copenhagenUniversity">Copenhagen University</a>
-- Emerald on HOPL
- https://hopl.info/showlanguage.prx?exp=1320
-- Read more about Emerald on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c58d5d68aff6a596c5aade80fe87c2ea9074d8f2 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Emerald.m'>hello-world</a>:
- const main &lt;- object mainProgram
-     initially
- 		stdout.putString[&quot;Hello World\n&quot;]
- 	end initially
- end mainProgram
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token stdout.putString
-  Example
-
-keyboardNav cp.html qcl.html
-
-import ../footer.scroll
+wordRank 9032
+centralPackageRepositoryCount 0

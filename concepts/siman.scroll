@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIMAN
+import ../measures/conceptPage.scroll
+id SIMAN
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/3bdfdd481108dc2b8810633f245e8efc8be414a3
+country United States
+originCommunity Purdue University Indiana's Land Grant University
 
-title SIMAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1056
 
-html
- <a class="trueBaseThemePreviousItem" href="xt3d.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sdms.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/siman.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=siman" class="material-symbols-outlined">edit</a></div>
-
-* SIMAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #2740 <span title="TotalRank: 3488 Jobs: 103 Users: 2838 Facts: 2718 Links: 667">on PLDB</span>
- 41 Years Old
-
-* 
-
-- SIMAN first developed in <a href="../lists/originCommunities.html#purdueUniversityIndianasLandGrantUniversity">Purdue University Indiana's Land Grant University</a>
-- SIMAN on HOPL
- https://hopl.info/showlanguage.prx?exp=1056
-- Read more about SIMAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3bdfdd481108dc2b8810633f245e8efc8be414a3 1.
-
-<br>
-
-endColumns
-
-keyboardNav xt3d.html sdms.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1987|Critique of SIMAN as a programming language (abstract only)|10.1145/322917.323046|3|0|D. Thuente|3bdfdd481108dc2b8810633f245e8efc8be414a3

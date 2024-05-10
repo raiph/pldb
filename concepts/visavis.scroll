@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title VisaVis
+import ../measures/conceptPage.scroll
+id VisaVis
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/ea6f00eba6f2cdf56d91f8088f1a6666eee8cd6d
 
-title VisaVis - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5104
 
-html
- <a class="trueBaseThemePreviousItem" href="viron.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="visual-eiffel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visavis.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=visavis" class="material-symbols-outlined">edit</a></div>
-
-* VisaVis is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3278 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- VisaVis on HOPL
- https://hopl.info/showlanguage.prx?exp=5104
-- Read more about VisaVis on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ea6f00eba6f2cdf56d91f8088f1a6666eee8cd6d 1.
-
-<br>
-
-endColumns
-
-keyboardNav viron.html visual-eiffel.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

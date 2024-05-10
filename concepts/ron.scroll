@@ -1,57 +1,44 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ron
+import ../measures/conceptPage.scroll
+id Ron
+appeared 2015
+type dataNotation
+creators Juniper Tyree
+conceptDescription RON is a simple readable data serialization format that looks similar to Rust syntax. It's designed to support all of Serde's data model, so structs, enums, tuples, arrays, generic maps, and primitive values.
+standsFor Rusty Object Notation
+country Finland
+originCommunity https://github.com/ron-rs
 
-title Ron - Data notation
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ragel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xtend.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ron.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ron-rs/ron" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ron" class="material-symbols-outlined">edit</a></div>
-
-* Ron, aka Rusty Object Notation, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2015 by Juniper Tyree.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#juniperTyree Juniper Tyree
-
-codeWithHeader Source code:
- git clone https://github.com/ron-rs/ron
-
-dashboard
- #455 <span title="TotalRank: 969 Jobs: 103 Users: 334 Facts: 532 Links: 986">on PLDB</span>
- 9 Years Old
-
-* RON is a simple readable data serialization format that looks similar to Rust syntax. It's designed to support all of Serde's data model, so structs, enums, tuples, arrays, generic maps, and primitive values.
-
-- Ron is developed on <a href="https://github.com/ron-rs/ron">GitHub</a> and has 2,045 stars
-- Ron first developed in <a href="../lists/originCommunities.html#httpsGithubComRonRs">https://github.com/ron-rs</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  GameConfig( // optional struct name
      window_size: (800, 600),
-     window_title: &quot;PAC-MAN&quot;,
+     window_title: "PAC-MAN",
      fullscreen: false,
      
      mouse_sensitivity: 1.4,
      key_bindings: {
-         &quot;up&quot;: Up,
-         &quot;down&quot;: Down,
-         &quot;left&quot;: Left,
-         &quot;right&quot;: Right,
+         "up": Up,
+         "down": Down,
+         "left": Left,
+         "right": Right,
          
          // Uncomment to enable WASD controls
          /*
-         &quot;W&quot;: Up,
-         &quot;A&quot;: Down,
-         &quot;S&quot;: Left,
-         &quot;D&quot;: Right,
+         "W": Up,
+         "A": Down,
+         "S": Left,
+         "D": Right,
          */
      },
      
@@ -61,40 +48,20 @@ codeWithHeader Example from the web:
      ),
  )
 
-endColumns
+githubRepo https://github.com/ron-rs/ron
+ firstCommit 2015
+ stars 2045
+ forks 98
+ subscribers 27
+ created 2015
+ updated 2022
+ description Rusty Object Notation
+ issues 26
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2015
+ commits 515
+ committers 66
+ files 87
 
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ragel.html xtend.html
-
-import ../footer.scroll
+isbndb 0

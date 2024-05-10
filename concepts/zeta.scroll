@@ -1,44 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Zeta
+import ../measures/conceptPage.scroll
+id Zeta
+appeared 2008
+type pl
+creators Russ Cox and Tom Bergan† and Austin T. Clements and Frans Kaashoek and Eddie Kohler
+conceptDescription A prototype implementation of xoc in zeta, a C-like interpreted procedural language with first-class functions. Zeta makes writing extensions easier than standard C, although extension writers must adjust to a slightly different language. Our implementation runs zeta using a bytecode interpreter and is therefore limited in its performance; we plan to replace the bytecode interpreter with compilation to machine code, which should reduce the compilation time for a large program from tens of seconds to a fraction of a second.
+reference https://pdos.csail.mit.edu/archive/xoc/
+reference https://swtch.com/~rsc/papers/xoc-asplos2008.pdf
+originCommunity MIT CSAIL && UCLA
 
-title Zeta - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="snobol3.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abel.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zeta.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=zeta" class="material-symbols-outlined">edit</a></div>
-
-* Zeta is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Russ Cox and Tom Bergan† and Austin T. Clements and Frans Kaashoek and Eddie Kohler.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#russCox Russ Cox
- link ../lists/creators.html#tomBergan Tom Bergan†
- link ../lists/creators.html#austinTClements Austin T. Clements
- link ../lists/creators.html#fransKaashoek Frans Kaashoek
- link ../lists/creators.html#eddieKohler Eddie Kohler
-
-dashboard
- #3003 <span title="TotalRank: 3608 Jobs: 103 Users: 2838 Facts: 2938 Links: 667">on PLDB</span>
- 16 Years Old
-
-* A prototype implementation of xoc in zeta, a C-like interpreted procedural language with first-class functions. Zeta makes writing extensions easier than standard C, although extension writers must adjust to a slightly different language. Our implementation runs zeta using a bytecode interpreter and is therefore limited in its performance; we plan to replace the bytecode interpreter with compilation to machine code, which should reduce the compilation time for a large program from tens of seconds to a fraction of a second.
-
-- Zeta first developed in <a href="../lists/originCommunities.html#mitCsail">MIT CSAIL</a> and <a href="../lists/originCommunities.html#ucla">UCLA</a>
-- Zeta is written in <a href="cpp.html">C++</a>
-- Read more about Zeta on the web: 1. 2.
- https://pdos.csail.mit.edu/archive/xoc/ 1.
- https://swtch.com/~rsc/papers/xoc-asplos2008.pdf 2.
-
-<br>
-
-endColumns
-
-keyboardNav snobol3.html abel.html
-
-import ../footer.scroll
+writtenIn cpp

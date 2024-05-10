@@ -1,46 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mages
+import ../measures/conceptPage.scroll
+id mages
+appeared 2016
+type pl
+creators Florian Rappl
+country Germany
+originCommunity https://github.com/FlorianRappl/Mages/issues
 
-title mages - Programming language
- hidden
+githubRepo https://github.com/FlorianRappl/Mages
+ firstCommit 2016
+ stars 106
+ forks 10
+ subscribers 10
+ created 2016
+ updated 2022
+ description :tophat: MAGES is a very simple, yet powerful, expression parser and interpreter.
+ issues 4
 
-html
- <a class="trueBaseThemePreviousItem" href="kei.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alma-0.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 618
+ committers 6
+ files 363
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mages.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/FlorianRappl/Mages" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mages" class="material-symbols-outlined">edit</a></div>
-
-* mages is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Florian Rappl.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#florianRappl Florian Rappl
-
-codeWithHeader Source code:
- git clone https://github.com/FlorianRappl/Mages
-
-dashboard
- #1915 <span title="TotalRank: 2410 Jobs: 103 Users: 1321 Facts: 1502 Links: 986">on PLDB</span>
- 8 Years Old
-
-* :tophat: MAGES is a very simple, yet powerful, expression parser and interpreter.
-
-- mages is developed on <a href="https://github.com/FlorianRappl/Mages">GitHub</a> and has 106 stars
-- mages first developed in <a href="../lists/originCommunities.html#httpsGithubComFlorianRapplMagesIssues">https://github.com/FlorianRappl/Mages/issues</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of mages
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: A lightweight .NET-based scripting language|https://news.ycombinator.com/item?id=12071980|07/11/2016|2|0
-
-keyboardNav kei.html alma-0.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 12071980|Show HN: A lightweight .NET-based scripting language|2016-07-11 16:03:22 UTC|1468253002|FlorianRappl|0|2

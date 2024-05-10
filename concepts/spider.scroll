@@ -1,54 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title spider
+import ../measures/conceptPage.scroll
+id spider
+appeared 2014
+type pl
+creators Alon Gubkin
+website http://spiderlang.org/
+fileExtensions spider
+country Israel
+originCommunity https://github.com/alongubkin/spider/issues
 
-title spider - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="isq.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="joss.html">&gt;</a>
+hasInheritance true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/spider.pldb
+githubRepo https://github.com/alongubkin/spider
+ stars 1300
+ forks 46
+ subscribers 49
+ created 2014
+ updated 2017
+ description Unsurprising JavaScript - No longer active
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://spiderlang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/alongubkin/spider" class="material-symbols-outlined">code</a> <a href="/edit.html?id=spider" class="material-symbols-outlined">edit</a></div>
-
-* spider is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Alon Gubkin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#alonGubkin Alon Gubkin
-
-codeWithHeader Source code:
- git clone https://github.com/alongubkin/spider
-
-dashboard
- #978 <span title="TotalRank: 1536 Jobs: 103 Users: 447 Facts: 1591 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Unsurprising JavaScript - No longer active
-
-- spider website
- http://spiderlang.org/
-- spider is developed on <a href="https://github.com/alongubkin/spider">GitHub</a> and has 1,300 stars
-- spider first developed in <a href="../lists/originCommunities.html#httpsGithubComAlongubkinSpiderIssues">https://github.com/alongubkin/spider/issues</a>
-- file extensions for spider include spider
-- spider compiles to <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Inheritance
-  FeatureLink ../features/hasInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav isq.html joss.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 368
+ committers 10
+ files 159

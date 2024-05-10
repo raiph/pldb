@@ -1,44 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title checked-c
+import ../measures/conceptPage.scroll
+id checked-c
+appeared 2015
+type pl
+creators David Tarditi
+website https://www.microsoft.com/en-us/research/project/checked-c/
+reference https://www.microsoft.com/en-us/research/project/checked-c/
+country United States
+originCommunity Microsoft Research
 
-title checked-c - Programming language
- hidden
+githubRepo https://github.com/Microsoft/checkedc
+ firstCommit 2016
+ stars 2723
+ forks 189
+ subscribers 106
+ created 2016
+ updated 2022
+ description Checked C is an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe.  The goal is to let people easily make their existing C code type-safe and eliminate entire classes of errors. Checked C does not address use-after-free errors. This repo has a wiki for Checked C, sample code, the specification, and test code.
+ issues 61
 
-html
- <a class="trueBaseThemePreviousItem" href="please-build.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oil.html">&gt;</a>
+repoStats
+ firstCommit 2016
+ commits 486
+ committers 36
+ files 223
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/checked-c.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.microsoft.com/en-us/research/project/checked-c/" class="material-symbols-outlined">home</a> <a href="https://github.com/Microsoft/checkedc" class="material-symbols-outlined">code</a> <a href="/edit.html?id=checked-c" class="material-symbols-outlined">edit</a></div>
-
-* checked-c is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by David Tarditi.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#davidTarditi David Tarditi
-
-codeWithHeader Source code:
- git clone https://github.com/Microsoft/checkedc
-
-dashboard
- #797 <span title="TotalRank: 1357 Jobs: 103 Users: 268 Facts: 1450 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Checked C is an extension to C that lets programmers write C code that is guaranteed by the compiler to be type-safe.  The goal is to let people easily make their existing C code type-safe and eliminate entire classes of errors. Checked C does not address use-after-free errors. This repo has a wiki for Checked C, sample code, the specification, and test code.
-
-- checked-c website
- https://www.microsoft.com/en-us/research/project/checked-c/
-- checked-c is developed on <a href="https://github.com/Microsoft/checkedc">GitHub</a> and has 2,723 stars
-- checked-c first developed in <a href="../lists/originCommunities.html#microsoftResearch">Microsoft Research</a>
-- Read more about checked-c on the web: 1.
- https://www.microsoft.com/en-us/research/project/checked-c/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav please-build.html oil.html
-
-import ../footer.scroll
+semanticScholar 0

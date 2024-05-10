@@ -1,120 +1,100 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title YANG
+import ../measures/conceptPage.scroll
+id YANG
+appeared 2014
+type application
+creators Tom Nadeau
+reference https://tools.ietf.org/html/rfc7950
 
-title YANG - Application
- hidden
+hasFloats true
+hasIntegers true
 
-html
- <a class="trueBaseThemePreviousItem" href="autolisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="perl-6.html">&gt;</a>
+githubRepo https://github.com/YangModels/yang
+ firstCommit 2014
+ stars 1206
+ forks 1069
+ subscribers 187
+ created 2014
+ updated 2022
+ description YANG modules from standards organizations such as the IETF, The IEEE, The Metro Ethernet Forum, open source such as Open Daylight or vendor specific modules
+ issues 26
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/yang.pldb
+githubLanguage YANG
+ fileExtensions yang
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope source.yang
+ repos 0
 
-startColumns 4
+pygmentsHighlighter YANG
+ filename yang.py
+ fileExtensions yang
+linguistGrammarRepo https://github.com/DzonyKalafut/language-yang.git
+ firstCommit 2014
+ lastCommit 2014
+ committerCount 1
+ commitCount 4
+ sampleCount 1
+ example
+  module sfc-lisp-impl {
+  
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:controller:config:sfc-lisp:impl";
+    prefix "sfc-lisp-impl";
+  
+    import config { prefix config; revision-date 2013-04-05; }
+    import rpc-context { prefix rpcx; revision-date 2013-06-17; }
+    import opendaylight-md-sal-binding { prefix mdsal; revision-date 2013-10-28; }
+  
+  
+    description
+        "This module contains the base YANG definitions for
+        sfc-lisp implementation.";
+  
+    revision "2015-04-27" {
+        description
+            "Initial revision.";
+    }
+  
+    // This is the definition of the service implementation as a module identity
+    identity sfc-lisp-impl {
+        base config:module-type;
+  
+        // Specifies the prefix for generated java classes.
+        config:java-name-prefix SfcLisp;
+    }
+  
+  
+    // Augments the 'configuration' choice node under modules/module.
+    augment "/config:modules/config:module/config:configuration" {
+      case sfc-lisp-impl {
+        when "/config:modules/config:module/config:type = 'sfc-lisp-impl'";
+  
+        //wires in the data-broker service
+        container data-broker {
+          uses config:service-ref {
+            refine type {
+                mandatory false;
+                config:required-identity mdsal:binding-async-data-broker;
+            }
+          }
+        }
+  
+        container rpc-registry {
+          uses config:service-ref {
+            refine type {
+                mandatory true;
+                config:required-identity mdsal:binding-rpc-registry;
+            }
+          }
+        }
+      }
+    }
+  }
+languageServerProtocolProject https://github.com/yang-tools/yang-lsp
+ writtenIn xtend
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/YangModels/yang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=yang" class="material-symbols-outlined">edit</a></div>
-
-* YANG is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2014 by Tom Nadeau.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#tomNadeau Tom Nadeau
-
-codeWithHeader Source code:
- git clone https://github.com/YangModels/yang
-
-dashboard
- #316 on PLDB
- 10 Years Old
- 0 <span title="YANG repos on GitHub.">Repos</span>
-
-* YANG modules from standards organizations such as the IETF, The IEEE, The Metro Ethernet Forum, open source such as Open Daylight or vendor specific modules
-
-- YANG is developed on <a href="https://github.com/YangModels/yang">GitHub</a> and has 1,206 stars
-- There are at least 0 YANG repos on <a href="https://github.com/search?q=language:YANG">GitHub</a>
-- file extensions for YANG include yang
-- YANG <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/yang-tools/yang-lsp">implementation</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/yang.py">syntax highlighting</a> for YANG
-- GitHub supports <a href="https://github.com/DzonyKalafut/language-yang.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for YANG
-- Read more about YANG on the web: 1.
- https://tools.ietf.org/html/rfc7950 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/DzonyKalafut/language-yang.git'>Linguist</a>:
- module sfc-lisp-impl {
- 
-   yang-version 1;
-   namespace &quot;urn:opendaylight:params:xml:ns:yang:controller:config:sfc-lisp:impl&quot;;
-   prefix &quot;sfc-lisp-impl&quot;;
- 
-   import config { prefix config; revision-date 2013-04-05; }
-   import rpc-context { prefix rpcx; revision-date 2013-06-17; }
-   import opendaylight-md-sal-binding { prefix mdsal; revision-date 2013-10-28; }
- 
- 
-   description
-       &quot;This module contains the base YANG definitions for
-       sfc-lisp implementation.&quot;;
- 
-   revision &quot;2015-04-27&quot; {
-       description
-           &quot;Initial revision.&quot;;
-   }
- 
-   // This is the definition of the service implementation as a module identity
-   identity sfc-lisp-impl {
-       base config:module-type;
- 
-       // Specifies the prefix for generated java classes.
-       config:java-name-prefix SfcLisp;
-   }
- 
- 
-   // Augments the &#39;configuration&#39; choice node under modules/module.
-   augment &quot;/config:modules/config:module/config:configuration&quot; {
-     case sfc-lisp-impl {
-       when &quot;/config:modules/config:module/config:type = &#39;sfc-lisp-impl&#39;&quot;;
- 
-       //wires in the data-broker service
-       container data-broker {
-         uses config:service-ref {
-           refine type {
-               mandatory false;
-               config:required-identity mdsal:binding-async-data-broker;
-           }
-         }
-       }
- 
-       container rpc-registry {
-         uses config:service-ref {
-           refine type {
-               mandatory true;
-               config:required-identity mdsal:binding-rpc-registry;
-           }
-         }
-       }
-     }
-   }
- }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav autolisp.html perl-6.html
-
-import ../footer.scroll
+fileType text
+wordRank 9514
+isOpenSource true
+centralPackageRepositoryCount 0

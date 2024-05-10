@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fern
+import ../measures/conceptPage.scroll
+id Fern
+appeared 2022
+type pl
+creators Spencer Comin
+country Canada
+originCommunity https://github.com/Spencer-Comin/Fern/issues
 
-title Fern - Programming language
- hidden
+githubRepo https://github.com/Spencer-Comin/Fern
+ firstCommit 2022
+ stars 5
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description A toy programming language built with LLVM and Prolog
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="microl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="meanscriptcli.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fern.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Spencer-Comin/Fern" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fern" class="material-symbols-outlined">edit</a></div>
-
-* Fern is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Spencer Comin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#spencerComin Spencer Comin
-
-codeWithHeader Source code:
- git clone https://github.com/Spencer-Comin/Fern
-
-dashboard
- #2357 <span title="TotalRank: 2876 Jobs: 103 Users: 2373 Facts: 1787 Links: 986">on PLDB</span>
- 2 Years Old
-
-* A toy programming language built with LLVM and Prolog
-
-- Fern is developed on <a href="https://github.com/Spencer-Comin/Fern">GitHub</a> and has 5 stars
-- Fern first developed in <a href="../lists/originCommunities.html#httpsGithubComSpencerCominFernIssues">https://github.com/Spencer-Comin/Fern/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav microl.html meanscriptcli.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 28
+ committers 2
+ files 24

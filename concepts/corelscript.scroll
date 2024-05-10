@@ -1,41 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CorelScript
+import ../measures/conceptPage.scroll
+id CorelScript
+appeared 1994
+type pl
+conceptDescription CorelSCRIPT is a dialect of Basic that serves as the macro extension language for many products from Corel Corp, including their line of graphics products. While the syntax of CorelSCRIPT is nearly identical to that of Microsoft's Visual Basic, it is distinguished by the large number of built-in functions that it provides for the end-user. In versions of CorelDraw 6.0 and later, for example, essentially every function the drawing tool can perform is available to the CorelSCRIPT programmer. Also, Corel tools can compile scripts to speed execution; this capability is somewhat unusual for an application macro language. Like the Visual Basic language systems it resembles, CorelSCRIPT is compatible with MS-Windows OLE automation facility, allowing a CorelSCRIPT program to invoke and control any OLE-capable Windows application. CorelSCRIPT is a commercial product available only with Corel Corporation products. Meager information about the language is available on the WWW.
+website http://www.corel.com/en/
+reference http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=CorelScript
+country United States
+originCommunity Corel Corporation
 
-title CorelScript - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5235
 
-html
- <a class="trueBaseThemePreviousItem" href="comm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="crack.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/corelscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.corel.com/en/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=corelscript" class="material-symbols-outlined">edit</a></div>
-
-* CorelScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #2856 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 30 Years Old
-
-* CorelSCRIPT is a dialect of Basic that serves as the macro extension language for many products from Corel Corp, including their line of graphics products. While the syntax of CorelSCRIPT is nearly identical to that of Microsoft's Visual Basic, it is distinguished by the large number of built-in functions that it provides for the end-user. In versions of CorelDraw 6.0 and later, for example, essentially every function the drawing tool can perform is available to the CorelSCRIPT programmer. Also, Corel tools can compile scripts to speed execution; this capability is somewhat unusual for an application macro language. Like the Visual Basic language systems it resembles, CorelSCRIPT is compatible with MS-Windows OLE automation facility, allowing a CorelSCRIPT program to invoke and control any OLE-capable Windows application. CorelSCRIPT is a commercial product available only with Corel Corporation products. Meager information about the language is available on the WWW.
-
-- CorelScript website
- http://www.corel.com/en/
-- CorelScript first developed in <a href="../lists/originCommunities.html#corelCorporation">Corel Corporation</a>
-- CorelScript on HOPL
- https://hopl.info/showlanguage.prx?exp=5235
-- Read more about CorelScript on the web: 1.
- http://cgibin.erols.com/ziring/cgi-bin/cep/cep.pl?_key=CorelScript 1.
-
-<br>
-
-endColumns
-
-keyboardNav comm.html crack.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

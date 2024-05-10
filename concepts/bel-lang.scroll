@@ -1,44 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Biological Expression Language
+import ../measures/conceptPage.scroll
+id Biological Expression Language
+appeared 2003
+type textDataFormat
+website http://openbel.org/
+reference https://github.com/OpenBEL/language
+standsFor Biological Expression Language
+country United States
+originCommunity bel.bio
+domainName openbel.org
+ registered 2011
 
-title Biological Expression Language - Text data format
- hidden
+example
+ r(HGNC:CFTR, var("r.1653_1655delcuu"))
+ r(REF:"NM_000492.3", var("r.1653_1655delcuu"))
 
-html
- <a class="trueBaseThemePreviousItem" href="versioned-text-markup-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="converge.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bel-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://openbel.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=bel-lang" class="material-symbols-outlined">edit</a></div>
-
-* Biological Expression Language, aka Biological Expression Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #2971 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2460 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- Biological Expression Language website
- http://openbel.org/
-- Biological Expression Language first developed in <a href="../lists/originCommunities.html#belBio">bel.bio</a>
-- <a href="http://openbel.org/">openbel.org</a> was registered in 2011
-- Read more about Biological Expression Language on the web: 1.
- https://github.com/OpenBEL/language 1.
-
-<br>
-
-codeWithHeader Example from the web:
- r(HGNC:CFTR, var(&quot;r.1653_1655delcuu&quot;))
- r(REF:&quot;NM_000492.3&quot;, var(&quot;r.1653_1655delcuu&quot;))
-
-endColumns
-
-keyboardNav versioned-text-markup-language.html converge.html
-
-import ../footer.scroll
+semanticScholar 0

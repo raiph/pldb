@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CLeogo
+import ../measures/conceptPage.scroll
+id CLeogo
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/b04baa516381ae90ad3863a2b5b64e82797c9a3f
+country New Zealand
+originCommunity University of Canterbury && Christchurch School of Medicine
 
-title CLeogo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5768
 
-html
- <a class="trueBaseThemePreviousItem" href="cleo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cleopatra.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cleogo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cleogo" class="material-symbols-outlined">edit</a></div>
-
-* CLeogo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3573 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- CLeogo first developed in <a href="../lists/originCommunities.html#universityOfCanterbury">University of Canterbury</a> and <a href="../lists/originCommunities.html#christchurchSchoolOfMedicine">Christchurch School of Medicine</a>
-- CLeogo on HOPL
- https://hopl.info/showlanguage.prx?exp=5768
-- Read more about CLeogo on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b04baa516381ae90ad3863a2b5b64e82797c9a3f 1.
-
-<br>
-
-endColumns
-
-keyboardNav cleo.html cleopatra.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DAP-Algol
+import ../measures/conceptPage.scroll
+id DAP-Algol
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/43d9c448077545ba246bf7c6c54898547d99dbc8
+country England
+originCommunity University of Liverpool
 
-title DAP-Algol - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6138
 
-html
- <a class="trueBaseThemePreviousItem" href="dag.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dartcvl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dap-algol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dap-algol" class="material-symbols-outlined">edit</a></div>
-
-* DAP-Algol is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3613 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- DAP-Algol first developed in <a href="../lists/originCommunities.html#universityOfLiverpool">University of Liverpool</a>
-- DAP-Algol on HOPL
- https://hopl.info/showlanguage.prx?exp=6138
-- Read more about DAP-Algol on Semantic Scholar: 1.
- https://semanticscholar.org/paper/43d9c448077545ba246bf7c6c54898547d99dbc8 1.
-
-<br>
-
-endColumns
-
-keyboardNav dag.html dartcvl.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

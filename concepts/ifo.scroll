@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IFO
+import ../measures/conceptPage.scroll
+id IFO
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/124de5e6ae6ef78bd0b144e8915e88a9275ced2a
+country United States
+originCommunity University of Southern California
 
-title IFO - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3810
 
-html
- <a class="trueBaseThemePreviousItem" href="ibex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="karl.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ifo.pldb
+isbndb 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ifo" class="material-symbols-outlined">edit</a></div>
-
-* IFO is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3102 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- IFO first developed in <a href="../lists/originCommunities.html#universityOfSouthernCalifornia">University of Southern California</a>
-- IFO on HOPL
- https://hopl.info/showlanguage.prx?exp=3810
-- Read more about IFO on Semantic Scholar: 1.
- https://semanticscholar.org/paper/124de5e6ae6ef78bd0b144e8915e88a9275ced2a 1.
-
-<br>
-
-endColumns
-
-keyboardNav ibex.html karl.html
-
-import ../footer.scroll
+semanticScholar 0

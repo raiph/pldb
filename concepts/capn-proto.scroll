@@ -1,68 +1,62 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cap'n Proto
+import ../measures/conceptPage.scroll
+id Cap'n Proto
+appeared 2013
+type idl
+creators Kenton Varda
+website https://capnproto.org/
+country United States and Portugal
+originCommunity Cap'n Proto
+domainName capnproto.org
+ registered 2013
+ awisRank
+  2022 1586908
 
-title Cap'n Proto - Interface design language
- hidden
+relatedConcepts protobuf
 
-html
- <a class="trueBaseThemePreviousItem" href="dtd.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="starlark.html">&gt;</a>
+hasLineComments true
+hasComments true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/capn-proto.pldb
+githubRepo https://github.com/capnproto/capnproto
+ firstCommit 2013
+ stars 9043
+ forks 773
+ subscribers 317
+ created 2013
+ updated 2022
+ description Cap'n Proto serialization/RPC system - core tools and C++ library
+ issues 172
 
-startColumns 4
+repoStats
+ firstCommit 2013
+ commits 4833
+ committers 227
+ files 484
 
-<div class="trueBaseThemeQuickLinks"><a href="https://capnproto.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/capnproto/capnproto" class="material-symbols-outlined">code</a> <a href="https://twitter.com/capnproto"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=capn-proto" class="material-symbols-outlined">edit</a></div>
+githubLanguage Cap'n Proto
+ fileExtensions capnp
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.capnp
+ repos 134567
+githubBigQuery Cap'n Proto
+ repos 690
+ users 557
 
-* Cap'n Proto is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2013 by Kenton Varda.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#kentonVarda Kenton Varda
+pygmentsHighlighter Cap'n Proto
+ filename capnproto.py
+ fileExtensions capnp
+linguistGrammarRepo https://github.com/textmate/capnproto.tmbundle
+ firstCommit 2013
+ lastCommit 2017
+ committerCount 2
+ commitCount 2
 
-codeWithHeader Source code:
- git clone https://github.com/capnproto/capnproto
+twitter https://twitter.com/capnproto
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #366 <span title="TotalRank: 835 Jobs: 103 Users: 110 Facts: 622 Links: 986">on PLDB</span>
- 11 Years Old
- 135k <span title="Cap'n Proto repos on GitHub.">Repos</span>
+isbndb 0
 
-* Cap'n Proto serialization/RPC system - core tools and C++ library
-
-- Cap'n Proto website
- https://capnproto.org/
-- Cap'n Proto is developed on <a href="https://github.com/capnproto/capnproto">GitHub</a> and has 9,043 stars
-- There are at least 134,567 Cap'n Proto repos on <a href="https://github.com/search?q=language:Cap'n Proto">GitHub</a>
-- Cap'n Proto first developed in <a href="../lists/originCommunities.html#capnProto">Cap'n Proto</a>
-- file extensions for Cap'n Proto include capnp
-- Cap'n Proto on Twitter
- https://twitter.com/capnproto
-- The  Google BigQuery Public Dataset GitHub snapshot shows 557 users using Cap'n Proto in 690 repos on <a href="https://api.github.com/search/repositories?q=language:Cap'n Proto">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/capnproto.py">syntax highlighting</a> for Cap'n Proto
-- GitHub supports <a href="https://github.com/textmate/capnproto.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Cap'n Proto
-- <a href="https://capnproto.org/">capnproto.org</a> was registered in 2013
-- See also: (1 related languages)<a href="protobuf.html">Protocol Buffers</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav dtd.html starlark.html
-
-import ../footer.scroll
+semanticScholar 0

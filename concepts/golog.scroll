@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Golog
+import ../measures/conceptPage.scroll
+id Golog
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/f65031fd8d440859e309647a8a2ce9158bb3d80d
+country Romania and Canada
+originCommunity University of Cluj Napoca && McGill University
 
-title Golog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2691
 
-html
- <a class="trueBaseThemePreviousItem" href="glish.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="goql.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/golog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=golog" class="material-symbols-outlined">edit</a></div>
-
-* Golog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #4151 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Golog first developed in <a href="../lists/originCommunities.html#universityOfClujNapoca">University of Cluj Napoca</a> and <a href="../lists/originCommunities.html#mcGillUniversity">McGill University</a>
-- Golog on HOPL
- https://hopl.info/showlanguage.prx?exp=2691
-- Read more about Golog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f65031fd8d440859e309647a8a2ce9158bb3d80d 1.
-
-<br>
-
-endColumns
-
-keyboardNav glish.html goql.html
-
-import ../footer.scroll
+isbndb 0

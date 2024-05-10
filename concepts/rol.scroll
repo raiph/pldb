@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ROL
+import ../measures/conceptPage.scroll
+id ROL
+appeared 1996
+type pl
+reference https://semanticscholar.org/paper/ed8f7e90e7d438d4b48e5f42c1f769b4fd3f3b18
+country Canada
+originCommunity University of Regina
 
-title ROL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7140
 
-html
- <a class="trueBaseThemePreviousItem" href="rigal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rol2.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rol" class="material-symbols-outlined">edit</a></div>
-
-* ROL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #3985 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 28 Years Old
-
-* 
-
-- ROL first developed in <a href="../lists/originCommunities.html#universityOfRegina">University of Regina</a>
-- ROL on HOPL
- https://hopl.info/showlanguage.prx?exp=7140
-- Read more about ROL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ed8f7e90e7d438d4b48e5f42c1f769b4fd3f3b18 1.
-
-<br>
-
-endColumns
-
-keyboardNav rigal.html rol2.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

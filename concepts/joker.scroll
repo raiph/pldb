@@ -1,44 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title joker
+import ../measures/conceptPage.scroll
+id joker
+appeared 2018
+type pl
+website https://joker-lang.org
+country United States
+originCommunity https://github.com/candid82/joker/issues
+domainName joker-lang.org
+ registered 2018
 
-title joker - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hilltop-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kima.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/joker.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://joker-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=joker" class="material-symbols-outlined">edit</a></div>
-
-* joker is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2902 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2718 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- joker website
- https://joker-lang.org
-- joker first developed in <a href="../lists/originCommunities.html#httpsGithubComCandid82JokerIssues">https://github.com/candid82/joker/issues</a>
-- <a href="https://joker-lang.org">joker-lang.org</a> was registered in 2018
-
-<br>
-
-endColumns
-
-## HackerNews discussions of joker
-
-pipeTable
- title|titleLink|date|score|comments
- Clojure dialect written in Go (Joker)|https://news.ycombinator.com/item?id=19510165|03/28/2019|17|1
-
-keyboardNav hilltop-lang.html kima.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 19510165|Clojure dialect written in Go (Joker)|https://joker-lang.org/|2019-03-28 07:48:00 UTC|1553759280|tosh|1|17

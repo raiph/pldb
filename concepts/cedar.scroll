@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cedar
+import ../measures/conceptPage.scroll
+id Cedar
+appeared 1983
+type pl
+conceptDescription The Cedar language is a programming language derived from Mesa, which in turn is derived from Pascal. It is meant to be used for a wide variety of programming tasks, ranging from low level systems software to large applications. In addition to the sequential control constructs, static type checking and structured types of Pascal, and the modules, exception handling, and concurrency control constructs of Mesa, Cedar also has garbage collection, dynamic types, and a limited form of type parameterization.
+reference https://www.microsoft.com/en-us/research/publication/description-cedar-language/
+originCommunity Xerox PARC
 
-title Cedar - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="candy-codes.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="checkout.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cedar.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cedar" class="material-symbols-outlined">edit</a></div>
-
-* Cedar is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3367 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 41 Years Old
-
-* The Cedar language is a programming language derived from Mesa, which in turn is derived from Pascal. It is meant to be used for a wide variety of programming tasks, ranging from low level systems software to large applications. In addition to the sequential control constructs, static type checking and structured types of Pascal, and the modules, exception handling, and concurrency control constructs of Mesa, Cedar also has garbage collection, dynamic types, and a limited form of type parameterization.
-
-- Cedar is a superset of <a href="/concepts/mesa.html">Mesa</a>
-- Cedar first developed in <a href="../lists/originCommunities.html#xeroxParc">Xerox PARC</a>
-- Read more about Cedar on the web: 1.
- https://www.microsoft.com/en-us/research/publication/description-cedar-language/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav candy-codes.html checkout.html
-
-import ../footer.scroll
+supersetOf mesa

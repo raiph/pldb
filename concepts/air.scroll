@@ -1,37 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AIR
+import ../measures/conceptPage.scroll
+id AIR
+appeared 2016
+type ir
+conceptDescription Bare Bones Backend / Assembly Intermediate Representation. The B3 compiler comprises two intermediate representations: a higher-level SSA-based representation called B3 IR and a lower-level representation that focuses of machine details, like registers. This lower-level form is called Air (Assembly Intermediate Representation).
+website https://webkit.org/docs/b3/assembly-intermediate-representation.html
+standsFor Assembly Intermediate Representation
+originCommunity Apple
 
-title AIR - Intermediate representation language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="zoem.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bush.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/air.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://webkit.org/docs/b3/assembly-intermediate-representation.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=air" class="material-symbols-outlined">edit</a></div>
-
-* AIR, aka Assembly Intermediate Representation, is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+ir">intermediate representation language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-dashboard
- #2851 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Bare Bones Backend / Assembly Intermediate Representation. The B3 compiler comprises two intermediate representations: a higher-level SSA-based representation called B3 IR and a lower-level representation that focuses of machine details, like registers. This lower-level form is called Air (Assembly Intermediate Representation).
-
-- AIR website
- https://webkit.org/docs/b3/assembly-intermediate-representation.html
-- AIR first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-
-<br>
-
-endColumns
-
-keyboardNav zoem.html bush.html
-
-import ../footer.scroll
+fileType text
+wordRank 478
+centralPackageRepositoryCount 0

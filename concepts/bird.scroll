@@ -1,40 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BIRD
+import ../measures/conceptPage.scroll
+id BIRD
+appeared 2021
+type pl
+reference https://bird.network.cz/?get_doc&v=20&f=bird-5.html
+country Czech Republic
+originCommunity CZ.NIC
 
-title BIRD - Programming language
- hidden
+rosettaCode http://www.rosettacode.org/wiki/Category:Bird
 
-html
- <a class="trueBaseThemePreviousItem" href="bawk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cdlpp.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=4483
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bird.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bird" class="material-symbols-outlined">edit</a></div>
-
-* BIRD is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
-
-dashboard
- #3088 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 3 Years Old
-
-* 
-
-- BIRD first developed in <a href="../lists/originCommunities.html#czNic">CZ.NIC</a>
-- Explore BIRD snippets on <a href="http://www.rosettacode.org/wiki/Category:Bird">Rosetta Code</a>
-- BIRD on HOPL
- https://hopl.info/showlanguage.prx?exp=4483
-- Read more about BIRD on the web: 1.
- https://bird.network.cz/?get_doc&v=20&f=bird-5.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav bawk.html cdlpp.html
-
-import ../footer.scroll
+wordRank 2707
+centralPackageRepositoryCount 0

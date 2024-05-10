@@ -1,43 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dss
+import ../measures/conceptPage.scroll
+id dss
+appeared 2018
+type pl
+website https://dss-lang.com
+domainName dss-lang.com
+ registered 2021
 
-title dss - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="dfns.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="emu.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dss.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://dss-lang.com" class="material-symbols-outlined">home</a> <a href="/edit.html?id=dss" class="material-symbols-outlined">edit</a></div>
-
-* dss is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-dashboard
- #2818 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2938 Links: 986">on PLDB</span>
- 6 Years Old
-
-* 
-
-- dss website
- https://dss-lang.com
-- <a href="https://dss-lang.com">dss-lang.com</a> was registered in 2021
-
-<br>
-
-endColumns
-
-## HackerNews discussions of dss
-
-pipeTable
- title|titleLink|date|score|comments
- DSS – Deterministic StyleSheets|https://news.ycombinator.com/item?id=17536341|07/15/2018|1|0
-
-keyboardNav dfns.html emu.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 17536341|DSS – Deterministic StyleSheets|https://dss-lang.com/|2018-07-15 18:21:30 UTC|1531678890|octosphere|0|1

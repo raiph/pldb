@@ -1,36 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CodeStudAssembler
+import ../measures/conceptPage.scroll
+id CodeStudAssembler
+appeared 2017
+type assembly
+reference https://v8.dev/blog/csa
+country Various
+originCommunity https://github.com/v8
 
-title CodeStudAssembler - Assembly language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="moinmoin.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sham.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/csa.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=csa" class="material-symbols-outlined">edit</a></div>
-
-* CodeStudAssembler is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2141 <span title="TotalRank: 2660 Jobs: 103 Users: 2838 Facts: 1890 Links: 667">on PLDB</span>
- 7 Years Old
-
-* 
-
-- CodeStudAssembler first developed in <a href="../lists/originCommunities.html#httpsGithubComV8">https://github.com/v8</a>
-- Read more about CodeStudAssembler on the web: 1.
- https://v8.dev/blog/csa 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
    test al,0x1
    jz not_string
    movq rbx,[rax-0x1]
@@ -42,8 +18,5 @@ codeWithHeader Example from the web:
    movq rax,[r13-0x60]
    retl
 
-endColumns
-
-keyboardNav moinmoin.html sham.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

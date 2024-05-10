@@ -1,88 +1,71 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Embedded Crystal
+import ../measures/conceptPage.scroll
+id Embedded Crystal
+appeared 2016
+type template
+conceptDescription Embedded Crystal (ECR) is a template language for embedding Crystal code into other text, that includes but is not limited to HTML. The template is read and transformed at compile time and then embedded into the binary.
+website https://manas.tech
+reference https://crystal-lang.org/api/0.22.0/ECR.html
+country Argentina
+originCommunity Manas Technology Solutions
+domainName manas.tech
 
-title Embedded Crystal - Template language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ninja.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ec.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ecr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://manas.tech" class="material-symbols-outlined">home</a> <a href="https://github.com/crystal-lang/crystal/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=ecr" class="material-symbols-outlined">edit</a></div>
-
-* Embedded Crystal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2016.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
-
-codeWithHeader Source code:
- git clone https://github.com/crystal-lang/crystal/
-
-dashboard
- #290 <span title="TotalRank: 699 Jobs: 103 Users: 79 Facts: 517 Links: 986">on PLDB</span>
- 8 Years Old
- 287 <span title="Embedded Crystal repos on GitHub.">Repos</span>
-
-* Embedded Crystal (ECR) is a template language for embedding Crystal code into other text, that includes but is not limited to HTML. The template is read and transformed at compile time and then embedded into the binary.
-
-- Embedded Crystal website
- https://manas.tech
-- Embedded Crystal is developed on <a href="https://github.com/crystal-lang/crystal/">GitHub</a> and has 17,909 stars
-- There are at least 287 Embedded Crystal repos on <a href="https://github.com/search?q=language:HTML+ECR">GitHub</a>
-- Embedded Crystal first developed in <a href="../lists/originCommunities.html#manasTechnologySolutions">Manas Technology Solutions</a>
-- file extensions for Embedded Crystal include ecr
-- GitHub supports <a href="https://github.com/atom-crystal/language-crystal" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Embedded Crystal
-- Read more about Embedded Crystal on the web: 1.
- https://crystal-lang.org/api/0.22.0/ECR.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # greeting.ecr
- &lt;%- if @name -%&gt;
- Greeting, &lt;%= @name %&gt;!
- &lt;%- else -%&gt;
+ <%- if @name -%>
+ Greeting, <%= @name %>!
+ <%- else -%>
  Greeting!
- &lt;%- end -%&gt;
+ <%- end -%>
  
- Greeting.new(nil).to_s #=&gt; Greeting!
+ Greeting.new(nil).to_s #=> Greeting!
 
-codeWithHeader Example from <a href='https://github.com/atom-crystal/language-crystal'>Linguist</a>:
- &lt;% if @name %&gt;
-   Greeting, &lt;%= @name %&gt;!
- &lt;% else %&gt;
-   Greeting!
- &lt;% end %&gt;
+githubRepo https://github.com/crystal-lang/crystal/
+ stars 17909
+ forks 1367
+ subscribers 416
+ created 2012
+ updated 2022
+ description The Crystal Programming Language
+ issues 1520
 
-endColumns
+repoStats
+ firstCommit 2012
+ commits 15519
+ committers 602
+ files 2191
 
-## Language <a href="../lists/features.html">features</a>
+githubLanguage HTML+ECR
+ fileExtensions ecr
+ trendingProjectsCount 0
+ type markup
+ group HTML
+ aceMode text
+ codemirrorMode htmlmixed
+ codemirrorMimeType text/html
+ tmScope text.html.ecr
+ aliases ecr
+ repos 287
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+linguistGrammarRepo https://github.com/atom-crystal/language-crystal
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 47
+ commitCount 320
+ sampleCount 1
+ example
+  <% if @name %>
+    Greeting, <%= @name %>!
+  <% else %>
+    Greeting!
+  <% end %>
 
-keyboardNav ninja.html ec.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

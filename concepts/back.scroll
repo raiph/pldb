@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BACK
+import ../measures/conceptPage.scroll
+id BACK
+appeared 1988
+type pl
+reference https://semanticscholar.org/paper/c55321572b3f757b5e8a11ffd0fc871304aba62d
+country Germany
+originCommunity Technical University Berlin
 
-title BACK - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2320
 
-html
- <a class="trueBaseThemePreviousItem" href="b-line.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="balinda-lisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/back.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=back" class="material-symbols-outlined">edit</a></div>
-
-* BACK is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1988.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1988 1988
-
-dashboard
- #4077 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 36 Years Old
-
-* 
-
-- BACK first developed in <a href="../lists/originCommunities.html#technicalUniversityBerlin">Technical University Berlin</a>
-- BACK on HOPL
- https://hopl.info/showlanguage.prx?exp=2320
-- Read more about BACK on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c55321572b3f757b5e8a11ffd0fc871304aba62d 1.
-
-<br>
-
-endColumns
-
-keyboardNav b-line.html balinda-lisp.html
-
-import ../footer.scroll
+wordRank 103
+centralPackageRepositoryCount 0

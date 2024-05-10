@@ -1,54 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title plot
+import ../measures/conceptPage.scroll
+id plot
+appeared 2019
+type template
+creators John Sundell
+country Poland
+originCommunity https://github.com/JohnSundell/Plot/pulls
 
-title plot - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="compiler-compiler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="spatial.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plot.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/JohnSundell/Plot" class="material-symbols-outlined">code</a> <a href="/edit.html?id=plot" class="material-symbols-outlined">edit</a></div>
-
-* plot is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2019 by John Sundell.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#johnSundell John Sundell
-
-codeWithHeader Source code:
- git clone https://github.com/JohnSundell/Plot
-
-dashboard
- #874 <span title="TotalRank: 1441 Jobs: 103 Users: 352 Facts: 995 Links: 986">on PLDB</span>
- 5 Years Old
-
-* A DSL for writing type-safe HTML, XML and RSS in Swift.
-
-- plot is developed on <a href="https://github.com/JohnSundell/Plot">GitHub</a> and has 1,780 stars
-- plot first developed in <a href="../lists/originCommunities.html#httpsGithubComJohnSundellPlotPulls">https://github.com/JohnSundell/Plot/pulls</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  let html = HTML(
      .head(
-         .title(&quot;My website&quot;),
-         .stylesheet(&quot;styles.css&quot;)
+         .title("My website"),
+         .stylesheet("styles.css")
      ),
      .body(
          .div(
-             .h1(&quot;My website&quot;),
-             .p(&quot;Writing HTML in Swift is pretty great!&quot;)
+             .h1("My website"),
+             .p("Writing HTML in Swift is pretty great!")
          )
      )
  )
 
-endColumns
+githubRepo https://github.com/JohnSundell/Plot
+ firstCommit 2019
+ stars 1780
+ forks 119
+ subscribers 29
+ created 2019
+ updated 2022
+ description A DSL for writing type-safe HTML, XML and RSS in Swift.
+ issues 14
 
-keyboardNav compiler-compiler.html spatial.html
+repoStats
+ firstCommit 2019
+ commits 108
+ committers 36
+ files 86
 
-import ../footer.scroll
+isbndb 0

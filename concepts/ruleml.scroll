@@ -1,44 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RuleML
+import ../measures/conceptPage.scroll
+id RuleML
+appeared 2002
+type pl
+creators Harold Boley and Benjamin Grosof and Said Tabet
+country United States and Canada
+originCommunity RuleML Inc
 
-title RuleML - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/RuleML
+ related xml
+ summary RuleML is a global initiative, led by a non-profit organization RuleML Inc., that is devoted to advancing research and industry standards design activities in the technical area of rules that are semantic and highly inter-operable. The standards design takes the form primarily of a markup language, also known as RuleML. The research activities include an annual research conference, the RuleML Symposium, also known as RuleML for short. Founded in fall 2000 by Harold Boley, Benjamin Grosof, and Said Tabet, RuleML was originally devoted purely to standards design, but then quickly branched out into the related activities of coordinating research and organizing an annual research conference starting in 2002. The M in RuleML is sometimes interpreted as standing for Markup and Modeling. The markup language was developed to express both forward (bottom-up) and backward (top-down) rules in XML for deduction, rewriting, and further inferential-transformational tasks. It is defined by the Rule Markup Initiative, an open network of individuals and groups from both industry and academia that was formed to develop a canonical Web language for rules using XML markup and transformations from and to other rule standards/systems. Markup standards and initiatives related to RuleML include:  Rule Interchange Format (RIF): The design and overall purpose of W3C's Rule Interchange Format (RIF) industry standard is based primarily on the RuleML industry standards design. Like RuleML, RIF embraces a multiplicity of potentially useful rule dialects that nevertheless share common characteristics. RuleML Technical Committee from Oasis-Open: An industry standards effort devoted to legal automation utilizing RuleML. Semantic Web Rule Language (SWRL): An industry standards design, based primarily on an early version of RuleML, whose development was funded in part by the DARPA Agent Markup Language (DAML) research program. Semantic Web Services Framework], particularly its Semantic Web Services Language: An industry standards design, based primarily on a medium-mature version of RuleML, whose development was funded in part by the DARPA Agent Markup Language (DAML) research program and the WSMO research effort of the EU. Mathematical Markup Language (MathML): However, MathML's Content Markup is better suited for defining functions rather than relations or general rules Predictive Model Markup Language (PMML): With this XML-based language one can define and share various models for data-mining results, including association rules Attribute Grammars in XML (AG-markup): For AG's semantic rules, there are various possible XML markups that are similar to Horn-rule markup Extensible Stylesheet Language Transformations (XSLT): This is a restricted term-rewriting system of rules, written in XML, for transforming XML documents into other text documents
+ backlinksCount 18
+ pageId 1568414
+ dailyPageViews 14
+ created 2005
+ appeared 2000
 
-html
- <a class="trueBaseThemePreviousItem" href="proiv.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aplette.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=7648
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ruleml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://en.wikipedia.org/wiki/RuleML"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=ruleml" class="material-symbols-outlined">edit</a></div>
-
-* RuleML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2002 by Harold Boley and Benjamin Grosof and Said Tabet.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2002 2002
- link ../lists/creators.html#haroldBoley Harold Boley
- link ../lists/creators.html#benjaminGrosof Benjamin Grosof
- link ../lists/creators.html#saidTabet Said Tabet
-
-dashboard
- #2108 <span title="TotalRank: 2606 Jobs: 103 Users: 1517 Facts: 2184 Links: 986">on PLDB</span>
- 22 Years Old
-
-* RuleML is a global initiative, led by a non-profit organization RuleML Inc., that is devoted to advancing research and industry standards design activities in the technical area of rules that are semantic and highly inter-operable. The standards design takes the form primarily of a markup language, also known as RuleML. The research activities include an annual research conference, the RuleML Symposium, also known as RuleML for short. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/RuleML Read more on Wikipedia...
-
-- RuleML Wikipedia page
- https://en.wikipedia.org/wiki/RuleML
-- RuleML first developed in <a href="../lists/originCommunities.html#ruleMlInc">RuleML Inc</a>
-- RuleML on HOPL
- https://hopl.info/showlanguage.prx?exp=7648
-- See also: (1 related languages)<a href="xml.html">XML</a>
-
-<br>
-
-endColumns
-
-keyboardNav proiv.html aplette.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

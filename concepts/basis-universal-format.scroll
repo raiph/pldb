@@ -1,40 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Basis Codec
+import ../measures/conceptPage.scroll
+id Basis Codec
+appeared 2019
+type binaryDataFormat
+conceptDescription Basis Universal GPU Texture and Texture Video Compression Reference Codec
+fileExtensions basis
+country Unknown
+originCommunity BinomialLLC
 
-title Basis Codec - Binary data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="shakespeare-programming-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pandoc-app.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/basis-universal-format.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/binomialLLC/basis_universal" class="material-symbols-outlined">code</a> <a href="/edit.html?id=basis-universal-format" class="material-symbols-outlined">edit</a></div>
-
-* Basis Codec is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+binaryDataFormat">binary data format</a> created in 2019.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
-
-codeWithHeader Source code:
- git clone https://github.com/binomialLLC/basis_universal
-
-dashboard
- #1072 on PLDB
- 5 Years Old
-
-* Basis Universal GPU Texture and Texture Video Compression Reference Codec
-
-- Basis Codec is developed on <a href="https://github.com/binomialLLC/basis_universal">GitHub</a> and has 2,127 stars
-- Basis Codec first developed in <a href="../lists/originCommunities.html#binomialLlc">BinomialLLC</a>
-- file extensions for Basis Codec include basis
-
-<br>
-
-endColumns
-
-keyboardNav shakespeare-programming-language.html pandoc-app.html
-
-import ../footer.scroll
+githubRepo https://github.com/binomialLLC/basis_universal
+ firstCommit 2019
+ stars 2127
+ forks 200
+ subscribers 50
+ created 2019
+ updated 2022
+ description Basis Universal GPU Texture Codec
+ issues 83

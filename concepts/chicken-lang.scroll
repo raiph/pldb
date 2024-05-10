@@ -1,42 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chicken-lang
+import ../measures/conceptPage.scroll
+id chicken-lang
+appeared 2013
+type esolang
+website http://torso.me/chicken
 
-title chicken-lang - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="bscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cixl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chicken-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://torso.me/chicken" class="material-symbols-outlined">home</a> <a href="/edit.html?id=chicken-lang" class="material-symbols-outlined">edit</a></div>
-
-* chicken-lang is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2013.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
-
-dashboard
- #2764 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 11 Years Old
-
-* 
-
-- chicken-lang website
- http://torso.me/chicken
-
-<br>
-
-endColumns
-
-## HackerNews discussions of chicken-lang
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Chicken chicken chicken – chicken chicken programming language|https://news.ycombinator.com/item?id=5969535|07/01/2013|147|71
-
-keyboardNav bscript.html cixl.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 5969535|Show HN: Chicken chicken chicken – chicken chicken programming language|2013-07-01 09:14:35 UTC|1372670075|torso|71|147

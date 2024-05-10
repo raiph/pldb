@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Structured Control Language
+import ../measures/conceptPage.scroll
+id Structured Control Language
+appeared 1998
+type pl
+reference https://cache.industry.siemens.com/dl/files/188/1137188/att_27471/v1/SCLV4_e.pdf
+standsFor Structured Control Language
+country Germany
+originCommunity Siemens AG 
 
-title Structured Control Language - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="efl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="minc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=scl" class="material-symbols-outlined">edit</a></div>
-
-* Structured Control Language, aka Structured Control Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #2284 <span title="TotalRank: 2758 Jobs: 103 Users: 2838 Facts: 1669 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Structured Control Language first developed in <a href="../lists/originCommunities.html#siemensAg">Siemens AG </a>
-- Read more about Structured Control Language on the web: 1.
- https://cache.industry.siemens.com/dl/files/188/1137188/att_27471/v1/SCLV4_e.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  CASE TW OF
   1: DISPLAY := OVEN_TEMP;
   2: DISPLAY := MOTOR_SPEED;
@@ -44,8 +21,4 @@ codeWithHeader Example from the web:
   TW_ERROR := 1;
  END_CASE;
 
-endColumns
-
-keyboardNav efl.html minc.html
-
-import ../footer.scroll
+semanticScholar 0

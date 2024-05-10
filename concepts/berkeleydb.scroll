@@ -1,37 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Berkeley DB
+import ../measures/conceptPage.scroll
+id Berkeley DB
+appeared 1991
+type library
+conceptDescription The Berkeley Database (Berkeley DB) is an embedded database system that can be used in applications requiring high-performance concurrent storage and retrieval of key/value pairs. The software is distributed as a library that can be linked directly into an application. It provides a variety of programmatic interfaces, including callable APIs for C, C++, Perl, Tcl and Java. Users may download Berkeley DB from Sleepycat Software’s Web site, at www.sleepycat.com.
+reference http://static.usenix.org/event/usenix99/full_papers/olson/olson.pdf
+country United States
+originCommunity Sleepycat Software, Inc.
 
-title Berkeley DB - Library
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="beef-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beta-project.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/berkeleydb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=berkeleydb" class="material-symbols-outlined">edit</a></div>
-
-* Berkeley DB is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4604 on PLDB
- 33 Years Old
-
-* The Berkeley Database (Berkeley DB) is an embedded database system that can be used in applications requiring high-performance concurrent storage and retrieval of key/value pairs. The software is distributed as a library that can be linked directly into an application. It provides a variety of programmatic interfaces, including callable APIs for C, C++, Perl, Tcl and Java. Users may download Berkeley DB from Sleepycat Software’s Web site, at www.sleepycat.com.
-
-- Berkeley DB first developed in <a href="../lists/originCommunities.html#sleepycatSoftwareInc">Sleepycat Software, Inc.</a>
-- Read more about Berkeley DB on the web: 1.
- http://static.usenix.org/event/usenix99/full_papers/olson/olson.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav beef-lang.html beta-project.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

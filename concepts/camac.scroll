@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CAMAC
+import ../measures/conceptPage.scroll
+id CAMAC
+appeared 1979
+type pl
+reference https://semanticscholar.org/paper/69cd60bccf029341fbc3f605bd19e9dd9599db51
+country United States
+originCommunity University of Illinois Chicago
 
-title CAMAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4095
 
-html
- <a class="trueBaseThemePreviousItem" href="caisys.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="camil.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/camac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=camac" class="material-symbols-outlined">edit</a></div>
-
-* CAMAC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1979.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1979 1979
-
-dashboard
- #3546 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 45 Years Old
-
-* 
-
-- CAMAC first developed in <a href="../lists/originCommunities.html#universityOfIllinoisChicago">University of Illinois Chicago</a>
-- CAMAC on HOPL
- https://hopl.info/showlanguage.prx?exp=4095
-- Read more about CAMAC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/69cd60bccf029341fbc3f605bd19e9dd9599db51 1.
-
-<br>
-
-endColumns
-
-keyboardNav caisys.html camil.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

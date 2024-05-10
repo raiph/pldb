@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SymbMath
+import ../measures/conceptPage.scroll
+id SymbMath
+appeared 1999
+type pl
+reference http://mathforum.org/kb/message.jspa?messageID=1552736
 
-title SymbMath - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2547
 
-html
- <a class="trueBaseThemePreviousItem" href="symbal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="syntex.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/symbmath.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=symbmath" class="material-symbols-outlined">edit</a></div>
-
-* SymbMath is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
-
-dashboard
- #3433 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- SymbMath on HOPL
- https://hopl.info/showlanguage.prx?exp=2547
-- Read more about SymbMath on the web: 1.
- http://mathforum.org/kb/message.jspa?messageID=1552736 1.
-
-<br>
-
-endColumns
-
-keyboardNav symbal.html syntex.html
-
-import ../footer.scroll
+semanticScholar 0

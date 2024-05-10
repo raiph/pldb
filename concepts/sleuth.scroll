@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SLEUTH
+import ../measures/conceptPage.scroll
+id SLEUTH
+appeared 1962
+type assembly
+reference http://bitsavers.org/pdf/univac/1107/UT-2574_Sleuth_Apr62.pdf
+country United States
+originCommunity Sperry Rand Corporation
 
-title SLEUTH - Assembly language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3220
 
-html
- <a class="trueBaseThemePreviousItem" href="slam-ii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="slpl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sleuth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sleuth" class="material-symbols-outlined">edit</a></div>
-
-* SLEUTH is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+assembly">assembly language</a> created in 1962.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1962 1962
-
-dashboard
- #4027 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 62 Years Old
-
-* 
-
-- SLEUTH first developed in <a href="../lists/originCommunities.html#sperryRandCorporation">Sperry Rand Corporation</a>
-- SLEUTH on HOPL
- https://hopl.info/showlanguage.prx?exp=3220
-- Read more about SLEUTH on the web: 1.
- http://bitsavers.org/pdf/univac/1107/UT-2574_Sleuth_Apr62.pdf 1.
-
-<br>
-
-endColumns
-
-keyboardNav slam-ii.html slpl.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PLAN2D
+import ../measures/conceptPage.scroll
+id PLAN2D
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/25e643ef1c44fed15fa34dd21a0e6183b976fd4e
+country Germany
+originCommunity Technical University of Berlin
 
-title PLAN2D - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5381
 
-html
- <a class="trueBaseThemePreviousItem" href="patchwork.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pluk.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/plan2d.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=plan2d" class="material-symbols-outlined">edit</a></div>
-
-* PLAN2D is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3070 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- PLAN2D first developed in <a href="../lists/originCommunities.html#technicalUniversityOfBerlin">Technical University of Berlin</a>
-- PLAN2D on HOPL
- https://hopl.info/showlanguage.prx?exp=5381
-- Read more about PLAN2D on Semantic Scholar: 1.
- https://semanticscholar.org/paper/25e643ef1c44fed15fa34dd21a0e6183b976fd4e 1.
-
-<br>
-
-endColumns
-
-keyboardNav patchwork.html pluk.html
-
-import ../footer.scroll
+semanticScholar 1
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1974|PLAN2D - Towards a Two-Dimensional Programming Language|10.1007/3-540-07141-5_223|5|0|E. Denert and R. Franck and W. Streng|0763b61863a58a6a9ff05c331bbf5def83acdc63

@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALJABR
+import ../measures/conceptPage.scroll
+id ALJABR
+appeared 1991
+type pl
+reference http://www.computeralgebra.nl/systemsoverview/general/aljabr.html
 
-title ALJABR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1811
 
-html
- <a class="trueBaseThemePreviousItem" href="algol-68-rt.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="altibase.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aljabr.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aljabr" class="material-symbols-outlined">edit</a></div>
-
-* ALJABR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3158 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- ALJABR on HOPL
- https://hopl.info/showlanguage.prx?exp=1811
-- Read more about ALJABR on the web: 1.
- http://www.computeralgebra.nl/systemsoverview/general/aljabr.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav algol-68-rt.html altibase.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

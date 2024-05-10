@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title glitch-editor
-
-title glitch-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ghidra-decompiler.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="gns.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/glitch-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://glitch.com/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=glitch-editor" class="material-symbols-outlined">edit</a></div>
-
-* glitch-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3442 on PLDB
- 7 Years Old
-
-* 
-
-- glitch-editor website
- https://glitch.com/
-- glitch-editor first developed in <a href="../lists/originCommunities.html#glitchInc">Glitch, Inc</a>
-- <a href="https://glitch.com/">glitch.com</a> was registered in 1997
-- Read more about glitch-editor on the web: 1.
- https://en.wikipedia.org/wiki/Glitch_(company) 1.
-
-<br>
-
-endColumns
-
-keyboardNav ghidra-decompiler.html gns.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id glitch-editor
+appeared 2017
+type editor
+website https://glitch.com/
+reference https://en.wikipedia.org/wiki/Glitch_(company)
+country United States
+originCommunity Glitch, Inc
+domainName glitch.com
+ registered 1997
+ awisRank
+  2022 20395

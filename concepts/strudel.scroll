@@ -1,37 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title strudel
+import ../measures/conceptPage.scroll
+id strudel
+appeared 2011
+type textDataFormat
+conceptDescription Strudel is our graphical tool for visualizing genetic and physical maps of genomes for comparative purposes. The Strudel data format is tab delimited text with all features, homologs and potential reference URLs included in the same file.
+reference http://bioinf.scri.ac.uk/strudel/help/data.shtml
+country United Kingdom
+originCommunity The James Hutton Institute
 
-title strudel - Text data format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="prompter.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nirvana.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/strudel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=strudel" class="material-symbols-outlined">edit</a></div>
-
-* strudel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textDataFormat">text data format</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-dashboard
- #2555 <span title="TotalRank: 3156 Jobs: 103 Users: 2838 Facts: 2067 Links: 986">on PLDB</span>
- 13 Years Old
-
-* Strudel is our graphical tool for visualizing genetic and physical maps of genomes for comparative purposes. The Strudel data format is tab delimited text with all features, homologs and potential reference URLs included in the same file.
-
-- strudel first developed in <a href="../lists/originCommunities.html#theJamesHuttonInstitute">The James Hutton Institute</a>
-- Read more about strudel on the web: 1.
- http://bioinf.scri.ac.uk/strudel/help/data.shtml 1.
-
-<br>
-
-codeWithHeader Example from the web:
- feature  Rice  1 LOC_Os05g01020  gene  1903    &quot;TBC domain containing protein, expressed&quot;
+example
+ feature  Rice  1 LOC_Os05g01020  gene  1903    "TBC domain containing protein, expressed"
  feature Rice  1 LOC_Os09g20010  gene  10218   expressed protein
  feature Barley  1H  12_30969  SNP 15    
  feature Barley  1H  11_11223  SNP 78    
@@ -40,9 +17,3 @@ codeWithHeader Example from the web:
  homolog Barley  11_11223  Rice  LOC_Os09g20010  6.00E-50    
  chromosome  Barley  1H  #593423       
  URL Rice  http://rice.plantbiology.msu.edu/cgi-bin/gbrowse/rice/?name=
-
-endColumns
-
-keyboardNav prompter.html nirvana.html
-
-import ../footer.scroll

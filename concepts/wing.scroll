@@ -1,56 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Wing
+import ../measures/conceptPage.scroll
+id Wing
+appeared 2022
+type pl
+creators Elad Ben-Israel
+website https://winglang.io
+documentation https://docs.winglang.io
 
-title Wing - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="gema.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abc-80.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wing.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://winglang.io" class="material-symbols-outlined">home</a> <a href="https://github.com/winglang/wing" class="material-symbols-outlined">code</a> <a href="https://docs.winglang.io" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=wing" class="material-symbols-outlined">edit</a></div>
-
-* Wing is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Elad Ben-Israel.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#eladBenIsrael Elad Ben-Israel
-
-codeWithHeader Source code:
- git clone https://github.com/winglang/wing
-
-dashboard
- #1652 <span title="TotalRank: 2161 Jobs: 103 Users: 1072 Facts: 1092 Links: 986">on PLDB</span>
- 2 Years Old
-
-* The Wing Programming Language
-
-- Wing website
- https://winglang.io
-- Wing is developed on <a href="https://github.com/winglang/wing">GitHub</a> and has 196 stars
-- Wing docs
- https://docs.winglang.io
-
-<br>
-
-codeWithHeader Example from the web:
+example
  bring cloud;
  
  let queue = new cloud.Queue(timeout: 2m);
  let bucket = new cloud.Bucket();
  let counter = new cloud.Counter(initial: 100);
  
- queue.on_message(inflight (body: str): str =&gt; {
+ queue.on_message(inflight (body: str): str => {
    let next = counter.inc();
-   let key = &quot;myfile-${next}.txt&quot;;
+   let key = "myfile-${next}.txt";
    bucket.put(key, body);
  });
 
-endColumns
+githubRepo https://github.com/winglang/wing
+ stars 196
+ forks 11
+ subscribers 194
+ created 2022
+ updated 2023
+ description The Wing Programming Language
+ issues 330
 
-keyboardNav gema.html abc-80.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 1928
+ committers 64
+ files 1051

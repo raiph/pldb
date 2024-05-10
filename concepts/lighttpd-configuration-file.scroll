@@ -1,55 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Lighttpd configuration file
+import ../measures/conceptPage.scroll
+id Lighttpd configuration file
+appeared 2003
+type configFormat
+reference http://lighttpd.net/
+country Germany
+originCommunity University of Applied Sciences
 
-title Lighttpd configuration file - Config format
- hidden
+hasLineComments true
+hasComments true
 
-html
- <a class="trueBaseThemePreviousItem" href="lesk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="loops.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/lighttpd-configuration-file.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=lighttpd-configuration-file" class="material-symbols-outlined">edit</a></div>
-
-* Lighttpd configuration file is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+configFormat">config format</a> created in 2003.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
-
-dashboard
- #3064 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 21 Years Old
-
-* 
-
-- Lighttpd configuration file first developed in <a href="../lists/originCommunities.html#universityOfAppliedSciences">University of Applied Sciences</a>
-- file extensions for Lighttpd configuration file include lighttpd.conf
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/configs.py">syntax highlighting</a> for Lighttpd configuration file
-- Read more about Lighttpd configuration file on the web: 1.
- http://lighttpd.net/ 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav lesk.html loops.html
-
-import ../footer.scroll
+pygmentsHighlighter Lighttpd configuration file
+ filename configs.py
+ fileExtensions lighttpd.conf

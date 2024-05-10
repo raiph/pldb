@@ -1,45 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ArchieML
+import ../measures/conceptPage.scroll
+id ArchieML
+appeared 2015
+type dataNotation
+conceptDescription ArchieML (or "AML") was created at The New York Times to make it easier to write and edit structured text on deadline that could be rendered in web pages, or more specifically, rendered in interactive graphics.
+website http://archieml.org/
+webRepl http://archieml.org/sandbox.html
+aka aml
+country United States
+originCommunity The New York Times
+domainName archieml.org
 
-title ArchieML - Data notation
- hidden
+hasSemanticIndentation false
+ AML ignores all whitespace not within a value. We believe this makes it easier for non-programmers to use, and is essential for use in environments with non-monospaced fonts, like in Google Documents.
 
-html
- <a class="trueBaseThemePreviousItem" href="breccia.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cdent.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/archieml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://archieml.org/" class="material-symbols-outlined">home</a> <a href="http://archieml.org/sandbox.html" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=archieml" class="material-symbols-outlined">edit</a></div>
-
-* ArchieML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #1428 <span title="TotalRank: 1951 Jobs: 103 Users: 2442 Facts: 862 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Try now: <a href="http://archieml.org/sandbox.html">Web</a>
-
-* ArchieML (or "AML") was created at The New York Times to make it easier to write and edit structured text on deadline that could be rendered in web pages, or more specifically, rendered in interactive graphics.
-
-- ArchieML website
- http://archieml.org/
-- ArchieML first developed in <a href="../lists/originCommunities.html#theNewYorkTimes">The New York Times</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [days]
  * Sunday
  note: holiday!
  * Monday
  * Tuesday
  
- Whitespace is still fine around the &#39;*&#39;
+ Whitespace is still fine around the '*'
    *   Wednesday
  
  * Thursday
@@ -59,20 +40,3 @@ codeWithHeader Example from the web:
  author: George Eliot
  score: ★★★★☆
  []
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-   AML ignores all whitespace not within a value. We believe this makes it easier for non-programmers to use, and is essential for use in environments with non-monospaced fonts, like in Google Documents.
-
-keyboardNav breccia.html cdent.html
-
-import ../footer.scroll

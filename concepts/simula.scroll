@@ -1,156 +1,136 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Simula
+import ../measures/conceptPage.scroll
+id Simula
+appeared 1965
+type pl
+creators Ole-Johan Dahl
+documentation https://portablesimula.github.io/github.io/doc/SimulaTextBook.pdf
+country Norway
+originCommunity Norwegian Computing Center
 
-title Simula - Programming language
- hidden
+influencedBy algol-60
 
-html
- <a class="trueBaseThemePreviousItem" href="purescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="protobuf.html">&gt;</a>
+visualParadigm false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/simula.pldb
+hasComments true
+hasLineComments true
+ ! A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasAssignment true
+hasStrings true
+ "Hello world"
+hasBooleans true
 
-startColumns 4
+lineCommentToken !
+printToken OutText
+assignmentToken :=
+stringToken "
+booleanTokens True False
 
-<div class="trueBaseThemeQuickLinks"><a href="simula" class="material-symbols-outlined">terminal</a> <a href="https://portablesimula.github.io/github.io/doc/SimulaTextBook.pdf" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Simula"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=simula" class="material-symbols-outlined">edit</a></div>
+wikipedia https://en.wikipedia.org/wiki/Simula
+ example
+  Simulation Begin
+     Class FittingRoom; Begin
+        Ref (Head) door;
+        Boolean inUse;
+        Procedure request; Begin
+           If inUse Then Begin
+               Wait (door);
+               door.First.Out;
+           End;
+           inUse:= True;
+        End;
+        Procedure leave; Begin
+           inUse:= False;
+           Activate door.First;
+        End;
+        door:- New Head;
+     End;
+    
+     Procedure report (message); Text message; Begin
+        OutFix (Time, 2, 0); OutText (": " & message); OutImage;
+     End;
+  
+     Process Class Person (pname); Text pname; Begin
+        While True Do Begin
+           Hold (Normal (12, 4, u));
+           report  (pname & " is requesting the fitting room");
+           fittingroom1.request;
+           report (pname & " has entered the fitting room");
+           Hold (Normal (3, 1, u));
+           fittingroom1.leave;
+           report (pname & " has left the fitting room");
+        End;
+     End;
+  
+     Integer u;
+     Ref (FittingRoom) fittingRoom1;
+  
+     fittingRoom1:- New FittingRoom;
+     Activate New Person ("Sam");
+     Activate New Person ("Sally");
+     Activate New Person ("Andy");
+     Hold (100);
+  End;
+ related algol-60 object-pascal java csharp algol smalltalk beta doi isbn
+ summary Simula is the name of two simulation programming languages, Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo, by Ole-Johan Dahl and Kristen Nygaard. Syntactically, it is a fairly faithful superset of ALGOL 60. Simula 67 introduced objects, classes, inheritance and subclasses, virtual procedures, coroutines, and discrete event simulation, and features garbage collection. Also other forms of subtyping (besides inheriting subclasses) were introduced in Simula derivatives. Simula is considered the first object-oriented programming language. As its name suggests, Simula was designed for doing simulations, and the needs of that domain provided the framework for many of the features of object-oriented languages today. Simula has been used in a wide range of applications such as simulating VLSI designs, process modeling, protocols, algorithms, and other applications such as typesetting, computer graphics, and education. The influence of Simula is often understated, and Simula-type objects are reimplemented in C++, Object Pascal, Java, C# and several other languages. Computer scientists such as Bjarne Stroustrup, creator of C++, and James Gosling, creator of Java, have acknowledged Simula as a major influence.
+ pageId 29513
+ dailyPageViews 218
+ created 2002
+ backlinksCount 153
+ revisionCount 435
+ appeared 1965
 
-* Simula is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1965 by Ole-Johan Dahl.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1965 1965
- link ../lists/creators.html#oleJohanDahl Ole-Johan Dahl
-
-dashboard
- #138 <span title="TotalRank: 405 Jobs: 103 Users: 515 Facts: 204 Links: 98">on PLDB</span>
- 59 Years Old
-
-* Try now: <a href="https://tio.run/#simula">TIO</a>
-
-* Simula is the name of two simulation programming languages, Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo, by Ole-Johan Dahl and Kristen Nygaard. Syntactically, it is a fairly faithful superset of ALGOL 60. Simula 67 introduced objects, classes, inheritance and subclasses, virtual procedures, coroutines, and discrete event simulation, and features garbage collection. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Simula Read more on Wikipedia...
-
-- Simula Wikipedia page
- https://en.wikipedia.org/wiki/Simula
-- Simula docs
- https://portablesimula.github.io/github.io/doc/SimulaTextBook.pdf
-- Simula first developed in <a href="../lists/originCommunities.html#norwegianComputingCenter">Norwegian Computing Center</a>
-- Explore Simula snippets on <a href="http://www.rosettacode.org/wiki/Category:Simula">Rosetta Code</a>
-- Simula on HOPL
- https://hopl.info/showlanguage.prx?exp=170
-- Simula appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- See also: (9 related languages)<a href="algol-60.html">ALGOL 60</a>, <a href="object-pascal.html">Object Pascal</a>, <a href="java.html">Java</a>, <a href="csharp.html">C#</a>, <a href="algol.html">Algol</a>, <a href="smalltalk.html">Smalltalk</a>, <a href="beta.html">BETA</a>, <a href="doi.html">DOI</a>, <a href="isbn.html">ISBN</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Simula.sim'>hello-world</a>:
- Begin
-    OutText (&quot;Hello World&quot;);
-    Outimage;
- End;
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Simula'>the Hello World Collection</a>:
+helloWorldCollection Simula
  ! Hello World in Simula;
  
  BEGIN
-     OutText(&quot;Hello World!&quot;);
+     OutText("Hello World!");
      OutImage;
  END
  
+leachim6 Simula
+ filepath s/Simula.sim
+ fileExtensions sim
+ example
+  Begin
+     OutText ("Hello World");
+     Outimage;
+  End;
+rosettaCode http://www.rosettacode.org/wiki/Category:Simula
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Simula'>Wikipedia</a>:
- Simulation Begin
-    Class FittingRoom; Begin
-       Ref (Head) door;
-       Boolean inUse;
-       Procedure request; Begin
-          If inUse Then Begin
-              Wait (door);
-              door.First.Out;
-          End;
-          inUse:= True;
-       End;
-       Procedure leave; Begin
-          inUse:= False;
-          Activate door.First;
-       End;
-       door:- New Head;
-    End;
-   
-    Procedure report (message); Text message; Begin
-       OutFix (Time, 2, 0); OutText (&quot;: &quot; &amp; message); OutImage;
-    End;
- 
-    Process Class Person (pname); Text pname; Begin
-       While True Do Begin
-          Hold (Normal (12, 4, u));
-          report  (pname &amp; &quot; is requesting the fitting room&quot;);
-          fittingroom1.request;
-          report (pname &amp; &quot; has entered the fitting room&quot;);
-          Hold (Normal (3, 1, u));
-          fittingroom1.leave;
-          report (pname &amp; &quot; has left the fitting room&quot;);
-       End;
-    End;
- 
-    Integer u;
-    Ref (FittingRoom) fittingRoom1;
- 
-    fittingRoom1:- New FittingRoom;
-    Activate New Person (&quot;Sam&quot;);
-    Activate New Person (&quot;Sally&quot;);
-    Activate New Person (&quot;Andy&quot;);
-    Hold (100);
- End;
+tryItOnline simula
 
-endColumns
+tiobe Simula
+hopl https://hopl.info/showlanguage.prx?exp=170
 
-## Language <a href="../lists/features.html">features</a>
+fileType text
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token True False
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Assignment
-  FeatureLink ../features/hasAssignment.html
-  Supported <span class="hasFeature">✓</span>
-  Token :=
-  Example
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token OutText
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token !
-  Example
-   ! A comment
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Object-Oriented Programming with SIMULA|1989|Bjørn Kirkerud|3923315|0.0|0|0
+ Anti-fragile ICT Systems (Simula SpringerBriefs on Computing)||Kjell Jørgen Hole|61222579|3.00|1|0
 
-keyboardNav purescript.html protobuf.html
+isbndb 3
+ year|publisher|title|authors|isbn13
+ 1989-11-01T00:00:01Z|Addison-Wesley|Object-Oriented Programming With Simula (International Computer Science Series)|Kirkerud, Bjorn|9780201175745
+ 1987|Alfred Waller Ltd|An Introduction to Programming in Simula (Computer Science Texts)|Pooley, R. J.|9780632016112
+ 1987|Alfred Waller Ltd|Introduction To Programming With Simula (computer Science Texts)|R. J. Pooley|9780632014224
 
-import ../footer.scroll
+semanticScholar 14
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1972|General Concepts of the Simula 67 Programming Language|10.1016/0066-4138(72)90004-3|18|0|J. Ichbiah and S. Morse|b960d635e5452df1e01b52de7c9e0f2c1e6ecee7
+ 1980|An Abstract Type for Statistics Collection in Simula|10.1145/357114.357118|14|0|C. Landwehr|527d7f67574dba3a8ae98cd8ca14aee9e3d74350
+ 1986|Object-oriented simulation—Ada, C++, Simula|10.1145/318242.318278|7|0|B. Unger|b3e4886211aca2b370165510714fcc394a145ccc
+ 1968|A comparison between simula and fortran|10.1007/BF01933421|6|0|J. Palme|dbeb6a36b04553de59c6aa5328605f7a8c84c8be
+ 1971|Simulation data structures using SIMULA 67|10.1145/800294.811447|6|1|J. Vaucher|22ef52b7ff6713f19e0b0a0521241e34e676e4c2
+ 1984|An Outline of the Programming Language Simula|10.1016/0096-0551(84)90018-3|6|0|M. Papazoglou and P. Georgiadis and D. Maritsas|80191d485bfa1963ee27d0d877a0ad36dd6f1c52
+ 1976|Evaluation of ALGOL 68, JOVIAL J3B, PASCAL, SIMULA 67, and TACPOL vs. TINMAN Requirements for a Common High Order Programming Language.|10.21236/ada033893|3|0|J. Goodenough and C. McGowan and J. R. Kelly|be654e5389930136859ef4263619d9f59a5ee216
+ 1982|Uses of the SIMULA process concept|10.1002/spe.4380120205|2|0|J. Palme|32efb94171675f3c5931f3c463006e4e2cde195c
+ 2007|An Accidental Simula User|10.1007/978-3-540-73589-2_10|2|0|L. Cardelli|ff6f1c49ff00efa483807fae71ef2a0f2baf6a04
+ 2007|Celebrating 40 years of language evolution: simula 67 to the present and beyond|10.1145/1297846.1297971|2|0|S. Fraser and James Gosling and Anders Hejlsberg and O. Madsen and B. Meyer and G. Steele|83da4c78b3244a29958643c508918bbcacaf966a
+ 1978|ACM SIGPLAN history of programming languages conference SIMULA language summary|10.1145/960118.808390|2|0|W. Franta|75b608fd523e890864babecbd61c402c817cc4e5
+ 1986|Ada, as seen from Simula|10.1002/j.1097-024X.1986.tb00001.x|1|0|S. Krogdahl and K. A. Olsen|9b52e08be43911cf540732b3afc9c2aa93a83823
+ 1976|Experience from the standardization of the SIMULA programming language|10.1002/spe.4380060314|1|0|J. Palme|785beabc4eb91d414c0cbf015824057586d0bb72
+ 1981|The class concept in the Simula programming language|10.1145/800142.805365|1|0|J. Palme and M. Wallin|2a07093ebd4db925ac02c36887b37eb2b7ccef37

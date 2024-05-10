@@ -1,43 +1,38 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Links
+import ../measures/conceptPage.scroll
+id Links
+appeared 2006
+type pl
+website http://www.links-lang.org
+country United Kingdom and France
+originCommunity https://github.com/links-lang
+domainName links-lang.org
 
-title Links - Programming language
- hidden
+githubRepo https://github.com/links-lang/links
+ firstCommit 2006
+ stars 273
+ forks 35
+ subscribers 15
+ created 2014
+ updated 2022
+ description Links: Linking Theory to Practice for the Web
+ issues 158
 
-html
- <a class="trueBaseThemePreviousItem" href="cowsel.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="strongtalk.html">&gt;</a>
+repoStats
+ firstCommit 2006
+ commits 4515
+ committers 49
+ files 959
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/links-programming-language.pldb
+wikipedia https://en.wikipedia.org/wiki/Links_(programming_language)
+ dailyPageViews -1
 
-startColumns 4
+isOpenSource true
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.links-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/links-lang/links" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/Links_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=links-programming-language" class="material-symbols-outlined">edit</a></div>
-
-* Links is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-codeWithHeader Source code:
- git clone https://github.com/links-lang/links
-
-dashboard
- #1413 <span title="TotalRank: 1942 Jobs: 103 Users: 853 Facts: 1058 Links: 986">on PLDB</span>
- 18 Years Old
-
-* Links: Linking Theory to Practice for the Web
-
-- Links website
- http://www.links-lang.org
-- Links Wikipedia page
- https://en.wikipedia.org/wiki/Links_(programming_language)
-- Links is developed on <a href="https://github.com/links-lang/links">GitHub</a> and has 273 stars
-- Links first developed in <a href="../lists/originCommunities.html#httpsGithubComLinksLang">https://github.com/links-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav cowsel.html strongtalk.html
-
-import ../footer.scroll
+semanticScholar 5
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2017|On multi-language software development, cross-language links and accompanying tools: a survey of professional software developers|10.1186/s40411-017-0035-z|22|1|P. Mayer and Michael Kirsch and Minh Anh Le|e40edaa0f89ba5a3513a4e2ef381a47b9f627b14
+ 2004|LMNtal: A Language Model with Links and Membranes|10.1007/978-3-540-31837-8_6|17|0|K. Ueda and Norio Kato|e921e07c86f56c35ce08c0a2c08e09b776397370
+ 2005|The Query Language to XML Documents Connected by XLink Links|10.1007/s11086-005-0026-4|5|0|D. Lizorkin|7b857d2e8b597d4bd4724e092c32313b976792e3
+ 2016|Managing Traceability Links with MaTraca|10.1109/SANER.2016.16|2|0|A. Lozano and Carlos Noguera and V. Jonckers|cf8de0ee67a0900a85c2011b58f4a0c8e6ac5071
+ 2013|Application Camera Links on Xilinx FPGA|10.1109/FSKD.2013.6816365|1|0|Hua Cai and Huadong Yu and Jinkai Xu and G. Wang|98271340804fb7e790a2b5f6580125b39ad5d7a5

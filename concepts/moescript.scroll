@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Moescript
+import ../measures/conceptPage.scroll
+id Moescript
+appeared 2012
+type pl
+creators Renzhi Li aka. Belleve Invis
+website https://github.com/yolio2003/moescript
+country China
+originCommunity University of Science and Technology of China
 
-title Moescript - Programming language
- hidden
+githubRepo https://github.com/yolio2003/moescript
+ stars 3
+ forks 3
+ subscribers 1
+ created 2012
+ updated 2012
+ description A not-very-but-still-light Javascript-targeted language. (and its runtime and libraries.)
 
-html
- <a class="trueBaseThemePreviousItem" href="ferite.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tridash.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/moescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/yolio2003/moescript" class="material-symbols-outlined">home</a> <a href="https://github.com/yolio2003/moescript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=moescript" class="material-symbols-outlined">edit</a></div>
-
-* Moescript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Renzhi Li aka. Belleve Invis.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#renzhiLiAkaBelleveInvis Renzhi Li aka. Belleve Invis
-
-codeWithHeader Source code:
- git clone https://github.com/yolio2003/moescript
-
-dashboard
- #2429 <span title="TotalRank: 2979 Jobs: 103 Users: 2315 Facts: 1890 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A not-very-but-still-light Javascript-targeted language. (and its runtime and libraries.)
-
-- Moescript website
- https://github.com/yolio2003/moescript
-- Moescript is developed on <a href="https://github.com/yolio2003/moescript">GitHub</a> and has 3 stars
-- Moescript first developed in <a href="../lists/originCommunities.html#universityOfScienceAndTechnologyOfChina">University of Science and Technology of China</a>
-
-<br>
-
-endColumns
-
-keyboardNav ferite.html tridash.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2012
+ commits 85
+ committers 1
+ files 37

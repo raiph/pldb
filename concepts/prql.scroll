@@ -1,99 +1,71 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PRQL
+import ../measures/conceptPage.scroll
+id PRQL
+appeared 2022
+type queryLanguage
+creators Maximilian Roos
+conceptDescription PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
+website https://prql-lang.org/
+reference https://news.ycombinator.com/item?id=31897430
+reference https://news.ycombinator.com/item?id=30060784
+standsFor Pipelined Relational Query Language
+country South Africa and United States
+originCommunity https://github.com/PRQL
+domainName prql-lang.org
+ registered 2022
+ awisRank
+  2022 7177742
 
-title PRQL - Query language
- hidden
+compilesTo sql
 
-html
- <a class="trueBaseThemePreviousItem" href="latte.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ink.html">&gt;</a>
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/prql.pldb
+lineCommentToken #
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://prql-lang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/prql/prql" class="material-symbols-outlined">code</a> <a href="/edit.html?id=prql" class="material-symbols-outlined">edit</a></div>
-
-* PRQL, aka Pipelined Relational Query Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2022 by Maximilian Roos.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#maximilianRoos Maximilian Roos
-
-codeWithHeader Source code:
- git clone https://github.com/prql/prql
-
-dashboard
- #361 <span title="TotalRank: 829 Jobs: 103 Users: 219 Facts: 507 Links: 986">on PLDB</span>
- 2 Years Old
-
-* PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
-
-- PRQL website
- https://prql-lang.org/
-- PRQL is developed on <a href="https://github.com/prql/prql">GitHub</a> and has 4,261 stars
-- PRQL first developed in <a href="../lists/originCommunities.html#httpsGithubComPrql">https://github.com/PRQL</a>
-- PRQL compiles to <a href="sql.html">SQL</a>
-- <a href="https://prql-lang.org/">prql-lang.org</a> was registered in 2022
-- Read more about PRQL on the web: 1. 2.
- https://news.ycombinator.com/item?id=31897430 1.
- https://news.ycombinator.com/item?id=30060784 2.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  from employees
- filter country == &quot;USA&quot;                       # Each line transforms the previous result.
+ filter country == "USA"                       # Each line transforms the previous result.
  aggregate [                                   # `aggregate` reduces column to a value.
    max salary,
    min salary,
    count,                                      # Closing commas are allowed :)
  ]
-
-codeWithHeader Example from the web:
+example
  from employees
- filter start_date &gt; @2021-01-01               # Clear date syntax.
+ filter start_date > @2021-01-01               # Clear date syntax.
  derive [                                      # `derive` adds columns / variables.
    gross_salary = salary + (tax ?? 0),         # Terse coalesce
    gross_cost = gross_salary + benefits_cost,  # Variables can use other variables.
  ]
- filter gross_cost &gt; 0
+ filter gross_cost > 0
  group [title, country] (                      # `group` runs a pipeline over each group.
    aggregate [                                 # `aggregate` reduces each group to a row.
      average gross_salary,
      sum_gross_cost = sum gross_cost,          # `=` sets a column name.
    ]
  )
- filter sum_gross_cost &gt; 100000                # Identical syntax for SQL&#39;s `WHERE` &amp; `HAVING`.
- derive id = f&quot;{title}_{country}&quot;              # F-strings like python.
+ filter sum_gross_cost > 100000                # Identical syntax for SQL's `WHERE` & `HAVING`.
+ derive id = f"{title}_{country}"              # F-strings like python.
  sort [sum_gross_cost, -country]               # `-country` means descending order.
  take 1..20                                    # Range expressions (also valid here as `take 20`).
 
-endColumns
+githubRepo https://github.com/prql/prql
+ firstCommit 2022
+ stars 4261
+ forks 71
+ subscribers 41
+ created 2022
+ updated 2022
+ description PRQL is a modern language for transforming data — a simple, powerful, pipelined SQL replacement
+ issues 83
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2022
+ commits 1831
+ committers 59
+ files 584
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav latte.html ink.html
-
-import ../footer.scroll
+semanticScholar 0

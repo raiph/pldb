@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ADES
+import ../measures/conceptPage.scroll
+id ADES
+appeared 1955
+type pl
+reference https://semanticscholar.org/paper/baffa9cfb7d674656306137eeefc6c7afd823837
+originCommunity U.S Naval Ordnance Laboratory
 
-title ADES - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=37
 
-html
- <a class="trueBaseThemePreviousItem" href="ades-ii.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="adlib.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ades.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ades" class="material-symbols-outlined">edit</a></div>
-
-* ADES is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1955.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1955 1955
-
-dashboard
- #3463 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 69 Years Old
-
-* 
-
-- ADES first developed in <a href="../lists/originCommunities.html#uSNavalOrdnanceLaboratory">U.S Naval Ordnance Laboratory</a>
-- ADES on HOPL
- https://hopl.info/showlanguage.prx?exp=37
-- Read more about ADES on Semantic Scholar: 1.
- https://semanticscholar.org/paper/baffa9cfb7d674656306137eeefc6c7afd823837 1.
-
-<br>
-
-endColumns
-
-keyboardNav ades-ii.html adlib.html
-
-import ../footer.scroll
+semanticScholar 0

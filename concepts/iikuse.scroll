@@ -1,36 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title iikuse
+import ../measures/conceptPage.scroll
+id iikuse
+appeared 2010
+type esolang
+conceptDescription I find constructed languages like Lojban and Ithkuil terribly interesting, but they are a bit too complex for me to actually pick up. So, being a programmer and a fan of FORTH, I decided to make a toy constructed language combining postfix notation and predicate logic.
+reference http://firstchurchofspacejesus.blogspot.com/2010/06/iikuse-toy-conlang-with-postfix.html
+country Unknown
+originCommunity http://firstchurchofspacejesus.blogspot.com
 
-title iikuse - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="guru.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="manticore.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/iikuse.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=iikuse" class="material-symbols-outlined">edit</a></div>
-
-* iikuse is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2010.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
-
-dashboard
- #2727 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 14 Years Old
-
-* I find constructed languages like Lojban and Ithkuil terribly interesting, but they are a bit too complex for me to actually pick up. So, being a programmer and a fan of FORTH, I decided to make a toy constructed language combining postfix notation and predicate logic.
-
-- iikuse first developed in <a href="../lists/originCommunities.html#httpFirstchurchofspacejesusBlogspotCom">http://firstchurchofspacejesus.blogspot.com</a>
-- Read more about iikuse on the web: 1.
- http://firstchurchofspacejesus.blogspot.com/2010/06/iikuse-toy-conlang-with-postfix.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  me i kusin - I saw it
  vi i kuduk - s/he will make it
  me vi i kudun kusis - I see that s/he made it
@@ -38,9 +15,3 @@ codeWithHeader Example from the web:
  me vi i.i.kuse kolos kases kalas koas - s/he and I belong to the set of i.i.kuse speakers.
  me vi i.i.kuse kolos kasen kalas koas - s/he and I belong to the set of former i.i.kuse speakers.
  me vi i.i.kuse kolos kases kalas koan - s/he and I used to belong to the set of i.i.kuse speakers.
-
-endColumns
-
-keyboardNav guru.html manticore.html
-
-import ../footer.scroll

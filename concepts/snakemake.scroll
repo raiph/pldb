@@ -1,77 +1,54 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title snakemake
+import ../measures/conceptPage.scroll
+id snakemake
+appeared 2012
+type pl
+conceptDescription A workflow is defined in a ‘Snakefile’ through a domain-specific language that is close to standard Python syntax. It consists of rules that denote how to create output files from input files. The workflow is implied by dependencies between the rules that arise from one rule needing an output file of another as an input file.
+reference https://academic.oup.com/bioinformatics/article/28/19/2520/290322
+country Germany
+originCommunity University of Duisburg-Essen
 
-title snakemake - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hiveql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sequential-function-chart.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/snakemake.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=snakemake" class="material-symbols-outlined">edit</a></div>
-
-* snakemake is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #1039 <span title="TotalRank: 1606 Jobs: 103 Users: 2838 Facts: 517 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A workflow is defined in a ‘Snakefile’ through a domain-specific language that is close to standard Python syntax. It consists of rules that denote how to create output files from input files. The workflow is implied by dependencies between the rules that arise from one rule needing an output file of another as an input file.
-
-- snakemake first developed in <a href="../lists/originCommunities.html#universityOfDuisburgEssen">University of Duisburg-Essen</a>
-- Read more about snakemake on the web: 1.
- https://academic.oup.com/bioinformatics/article/28/19/2520/290322 1.
-
-<br>
-
-codeWithHeader Example from the web:
- SAMPLES = &quot;100 101 102 103&quot;.split()
+example
+ SAMPLES = "100 101 102 103".split()
  
- REF = &quot;hg19.fa&quot;
+ REF = "hg19.fa"
  
  rule all:
  
-  input: &quot;{sample}.coverage.pdf&quot;.format(sample = sample)
+  input: "{sample}.coverage.pdf".format(sample = sample)
  
      for sample in SAMPLES
  
  rule fastq_to_sai:
  
-   input: ref = REF, reads = &quot;{sample}.{group}.fastq&quot;
+   input: ref = REF, reads = "{sample}.{group}.fastq"
  
-   output: temp(&quot;{sample}.{group}.sai&quot;)
+   output: temp("{sample}.{group}.sai")
  
-   shell: &quot;bwa aln {input.ref} {input.reads} &gt; {output}&quot;
+   shell: "bwa aln {input.ref} {input.reads} > {output}"
  
  rule sai_to_bam:
  
-   input: REF, &quot;{sample}.1.sai&quot;, &quot;{sample}.2.sai&quot;,
+   input: REF, "{sample}.1.sai", "{sample}.2.sai",
  
-      &quot;{sample}.1.fastq&quot;, &quot;{sample}.2.fastq&quot;
+      "{sample}.1.fastq", "{sample}.2.fastq"
  
-   output: protected(&quot;{sample}.bam&quot;)
+   output: protected("{sample}.bam")
  
-   shell: &quot;bwa sampe {input} | samtools view -Sbh - &gt; {output}&quot;
+   shell: "bwa sampe {input} | samtools view -Sbh - > {output}"
  
  rule remove_duplicates:
  
-   input: &quot;{sample}.bam&quot;
+   input: "{sample}.bam"
  
-   output: &quot;{sample}.nodup.bam&quot;
+   output: "{sample}.nodup.bam"
  
-   shell: &quot;samtools rmdup {input} {output}&quot;
+   shell: "samtools rmdup {input} {output}"
  
  rule plot_coverage_histogram:
  
-   input: &quot;{sample}.nodup.bam&quot;
+   input: "{sample}.nodup.bam"
  
-   output: hist = &quot;{sample}.coverage.pdf&quot;
+   output: hist = "{sample}.coverage.pdf"
  
    run:
  
@@ -79,14 +56,10 @@ codeWithHeader Example from the web:
  
      hist(list(map(int,
  
-       shell(&quot;samtools mpileup {input} | cut -f4&quot;,
+       shell("samtools mpileup {input} | cut -f4",
  
        iterable = True))))
  
      savefig(output.hist)
 
-endColumns
-
-keyboardNav hiveql.html sequential-function-chart.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

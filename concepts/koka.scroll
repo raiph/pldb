@@ -1,131 +1,71 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Koka
+import ../measures/conceptPage.scroll
+id Koka
+appeared 2012
+type pl
+creators Daan Leijen
+conceptDescription A strongly typed functional-style language with effect types and handlers.
+website https://www.microsoft.com/en-us/research/project/koka/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Fkoka
+webRepl https://rise4fun.com/koka/
+reference https://koka-lang.github.io/koka/doc/book.html
+country United States
+originCommunity Microsoft Research
 
-title Koka - Programming language
- hidden
+compilesTo c
+writtenIn haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="sather.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smarty.html">&gt;</a>
+hasPrintDebugging true
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasFunctions true
+hasAccessModifiers true
+hasConditionals true
+hasHexadecimals true
+ // 0[xX][0-9a-fA-F]+
+hasFloats true
+ // [0-9]+\.[0-9]+([eE][\-+]?[0-9]+)?
+hasIntegers true
+ // [0-9]+
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/koka.pldb
+lineCommentToken //
+printToken println
+keywords infix infixr infixl type cotype rectype alias struct con fun function val var external if then else elif return match private public private module import as include inline rec try yield enum interface instance
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.microsoft.com/en-us/research/project/koka/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Fkoka" class="material-symbols-outlined">home</a> <a href="https://rise4fun.com/koka/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/koka-lang/koka" class="material-symbols-outlined">code</a> <a href="/edit.html?id=koka" class="material-symbols-outlined">edit</a></div>
-
-* Koka is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Daan Leijen.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#daanLeijen Daan Leijen
-
-codeWithHeader Source code:
- git clone https://github.com/koka-lang/koka
-
-dashboard
- #449 <span title="TotalRank: 959 Jobs: 103 Users: 313 Facts: 543 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Try now: <a href="https://rise4fun.com/koka/">Web</a> · <a href="https://tio.run/#koka">TIO</a>
-
-* A strongly typed functional-style language with effect types and handlers.
-
-- Koka website
- https://www.microsoft.com/en-us/research/project/koka/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Fkoka
-- Koka is developed on <a href="https://github.com/koka-lang/koka">GitHub</a> and has 2,190 stars
-- Koka first developed in <a href="../lists/originCommunities.html#microsoftResearch">Microsoft Research</a>
-- file extensions for Koka include kk and kki
-- Koka compiles to <a href="c.html">C</a>
-- Koka is written in <a href="haskell.html">Haskell</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Koka
-- Read more about Koka on the web: 1.
- https://koka-lang.github.io/koka/doc/book.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  fun hello-ten()
    var i := 0
-   while { i &lt; 10 }
-     println(&quot;hello&quot;)
+   while { i < 10 }
+     println("hello")
      i := i + 1
 
-<div class="keywordsBlock">
-codeWithHeader Koka <a href="../lists/keywords.html?filter=koka">Keywords</a>
- infix infixr infixl type cotype rectype alias struct con fun function val var external if then else elif return match private public private module import as include inline rec try yield enum interface instance
-</div>
+githubRepo https://github.com/koka-lang/koka
+ stars 2190
+ forks 111
+ subscribers 56
+ created 2016
+ updated 2022
+ firstCommit 2012
+ description Koka language compiler and interpreter
+ issues 123
 
-endColumns
+repoStats
+ firstCommit 2012
+ commits 4654
+ committers 43
+ files 1645
 
-## Language <a href="../lists/features.html">features</a>
+pygmentsHighlighter Koka
+ filename haskell.py
+ fileExtensions kk kki
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // [0-9]+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // [0-9]+\.[0-9]+([eE][\-+]?[0-9]+)?
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // 0[xX][0-9a-fA-F]+
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Access Modifiers
-  FeatureLink ../features/hasAccessModifiers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Functions
-  FeatureLink ../features/hasFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+tryItOnline koka
 
-keyboardNav sather.html smarty.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+isbndb 0
+
+semanticScholar 0

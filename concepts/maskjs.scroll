@@ -1,143 +1,126 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mask
+import ../measures/conceptPage.scroll
+id Mask
+appeared 2012
+type template
+website http://www.atmajs.com/
+country Germany
+originCommunity https://github.com/atmajs
+domainName atmajs.com
+ registered 2013
 
-title Mask - Template language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="vyper.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="geo-ml.html">&gt;</a>
+lineCommentToken //
+multiLineCommentTokens /* */
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/maskjs.pldb
+githubRepo https://github.com/atmajs/maskjs
+ firstCommit 2012
+ stars 95
+ forks 6
+ subscribers 10
+ created 2012
+ updated 2022
+ description Markup | Template | HMVC
+ issues 1
 
-startColumns 4
+repoStats
+ firstCommit 2012
+ commits 1710
+ committers 9
+ files 537
 
-<div class="trueBaseThemeQuickLinks"><a href="http://www.atmajs.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/atmajs/maskjs" class="material-symbols-outlined">code</a> <a href="/edit.html?id=maskjs" class="material-symbols-outlined">edit</a></div>
+githubLanguage Mask
+ fileExtensions mask
+ trendingProjectsCount 0
+ type markup
+ aceMode mask
+ tmScope source.mask
+ repos 306
+githubBigQuery Mask
+ repos 595
+ users 576
 
-* Mask is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-codeWithHeader Source code:
- git clone https://github.com/atmajs/maskjs
-
-dashboard
- #704 <span title="TotalRank: 1270 Jobs: 103 Users: 949 Facts: 218 Links: 986">on PLDB</span>
- 12 Years Old
- 306 <span title="Mask repos on GitHub.">Repos</span>
-
-* Markup | Template | HMVC
-
-- Mask website
- http://www.atmajs.com/
-- Mask is developed on <a href="https://github.com/atmajs/maskjs">GitHub</a> and has 95 stars
-- There are at least 306 Mask repos on <a href="https://github.com/search?q=language:Mask">GitHub</a>
-- Mask first developed in <a href="../lists/originCommunities.html#httpsGithubComAtmajs">https://github.com/atmajs</a>
-- file extensions for Mask include mask
-- The  Google BigQuery Public Dataset GitHub snapshot shows 576 users using Mask in 595 repos on <a href="https://api.github.com/search/repositories?q=language:Mask">GitHub</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for Mask
-- GitHub supports <a href="https://github.com/tenbits/sublime-mask" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Mask
-- <a href="http://www.atmajs.com/">atmajs.com</a> was registered in 2013
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/tenbits/sublime-mask'>Linguist</a>:
- 
- // HTML Elements
- header {
-     
-     img .logo src=&#39;/images/~[currentLogo].png&#39; alt=logo;
-     
-     h4 &gt; &#39;Bar View&#39;
-     
-     if (currentUser) {
+pygmentsHighlighter Mask
+ filename javascript.py
+ fileExtensions mask
+linguistGrammarRepo https://github.com/tenbits/sublime-mask
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 2
+ commitCount 60
+ sampleCount 1
+ example
+  
+  // HTML Elements
+  header {
+      
+      img .logo src='/images/~[currentLogo].png' alt=logo;
+      
+      h4 > 'Bar View'
+      
+      if (currentUser) {
+          
+          .account >
+              a href='/acount' >
+                  'Hello, ~[currentUser.username]'
+      }
+  }
+  
+  .view {
+      ul {
          
-         .account &gt;
-             a href=&#39;/acount&#39; &gt;
-                 &#39;Hello, ~[currentUser.username]&#39;
-     }
- }
- 
- .view {
-     ul {
-        
-         // Iteration
-         for ((user, index) of users) {
-             
-             li.user data-id=&#39;~[user.id]&#39; {
-                 
-                 // interpolation
-                 .name &gt; &#39;~[ user.username ]&#39;
-                 
-                 // expression
-                 .count &gt; &#39;~[: user.level.toFixed(2) ]&#39;
-                 
-                 // util
-                 /* Localization sample
-                  * lastActivity: &quot;Am {0:dd. MM} war der letzte Eintrag&quot;
-                  */
-                 .date &gt; &#39;~[ L: &quot;lastActivity&quot;,  user.date]&#39;
-             }
-         }
-     }
-     
-     // Component
-     :countdownComponent {
-         input type = text &gt;
-             :dualbind value=&#39;number&#39;;
-             
-         button x-signal=&#39;click: countdownStart&#39; &gt; &#39;Start&#39;;
-         
-         h5 {
-             &#39;~[bind: number]&#39;
-             
-             :animation x-slot=&#39;countdownStart&#39; {
-                 @model &gt; &#39;transition | scale(0) &gt; scale(1) | 500ms&#39;
-                 @next  &gt; &#39;background-color | red &gt; blue | 2s linear&#39;
-             }
-         }
-     }
- }
- 
- footer &gt; :bazCompo {
-     
-     &#39;Component generated at ~[: $u.format($c.date, &quot;HH-mm&quot;) ]&#39;
- }
+          // Iteration
+          for ((user, index) of users) {
+              
+              li.user data-id='~[user.id]' {
+                  
+                  // interpolation
+                  .name > '~[ user.username ]'
+                  
+                  // expression
+                  .count > '~[: user.level.toFixed(2) ]'
+                  
+                  // util
+                  /* Localization sample
+                   * lastActivity: "Am {0:dd. MM} war der letzte Eintrag"
+                   */
+                  .date > '~[ L: "lastActivity",  user.date]'
+              }
+          }
+      }
+      
+      // Component
+      :countdownComponent {
+          input type = text >
+              :dualbind value='number';
+              
+          button x-signal='click: countdownStart' > 'Start';
+          
+          h5 {
+              '~[bind: number]'
+              
+              :animation x-slot='countdownStart' {
+                  @model > 'transition | scale(0) > scale(1) | 500ms'
+                  @next  > 'background-color | red > blue | 2s linear'
+              }
+          }
+      }
+  }
+  
+  footer > :bazCompo {
+      
+      'Component generated at ~[: $u.format($c.date, "HH-mm") ]'
+  }
 
-endColumns
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav vyper.html geo-ml.html
-
-import ../footer.scroll
+isbndb 0

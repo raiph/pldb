@@ -1,35 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Microsoft SQL Server
-
-title Microsoft SQL Server - Database
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="microsoft-azure-cosmos-db.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="model-k.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microsoft-mysql-server.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microsoft-mysql-server" class="material-symbols-outlined">edit</a></div>
-
-* Microsoft SQL Server is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3199 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 35 Years Old
-
-* Relational database management system (RDBMS)
-
-- Microsoft SQL Server first developed in <a href="../lists/originCommunities.html#microsoftCorporation">Microsoft Corporation</a>
-
-<br>
-
-endColumns
-
-keyboardNav microsoft-azure-cosmos-db.html model-k.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Microsoft SQL Server
+appeared 1989
+type database
+conceptDescription Relational database management system (RDBMS)
+country United States
+originCommunity Microsoft Corporation

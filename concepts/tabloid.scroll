@@ -1,48 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tabloid
+import ../measures/conceptPage.scroll
+id Tabloid
+appeared 2020
+type esolang
+creators Linus Lee
+website https://tabloid.vercel.app
+domainName tabloid.vercel.app
 
-title Tabloid - Esoteric programming language
- hidden
+githubRepo https://github.com/thesephist/tabloid
+ firstCommit 2020
+ stars 269
+ forks 5
+ subscribers 4
+ created 2020
+ updated 2022
+ description A minimal programming language inspired by clickbait headlines
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="edinburgh-imp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="krc.html">&gt;</a>
+repoStats
+ firstCommit 2020
+ commits 35
+ committers 2
+ files 9
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tabloid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://tabloid.vercel.app" class="material-symbols-outlined">home</a> <a href="https://riju.codes/tabloid" class="material-symbols-outlined">terminal</a> <a href="https://github.com/thesephist/tabloid" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tabloid" class="material-symbols-outlined">edit</a></div>
-
-* Tabloid is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2020 by Linus Lee.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#linusLee Linus Lee
-
-codeWithHeader Source code:
- git clone https://github.com/thesephist/tabloid
-
-dashboard
- #1562 <span title="TotalRank: 2076 Jobs: 103 Users: 987 Facts: 1381 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://riju.codes/tabloid">Riju</a>
-
-* A minimal programming language inspired by clickbait headlines
-
-- Tabloid website
- https://tabloid.vercel.app
-- Tabloid is developed on <a href="https://github.com/thesephist/tabloid">GitHub</a> and has 269 stars
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/tabloid'>Riju</a>:
- YOU WON&#39;T WANT TO MISS &quot;Hello, world&quot;
- PLEASE LIKE AND SUBSCRIBE
- 
-
-endColumns
-
-keyboardNav edinburgh-imp.html krc.html
-
-import ../footer.scroll
+rijuRepl https://riju.codes/tabloid
+ example
+  YOU WON'T WANT TO MISS "Hello, world"
+  PLEASE LIKE AND SUBSCRIBE
+  

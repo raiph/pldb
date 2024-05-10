@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORTRAN CEP
+import ../measures/conceptPage.scroll
+id FORTRAN CEP
+appeared 1963
+type pl
+reference https://semanticscholar.org/paper/55f2e8b3f7f7cc45e9515329b3fb61e6c4f74db3
+country Italy
+originCommunity Università di Pisa
 
-title FORTRAN CEP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8214
 
-html
- <a class="trueBaseThemePreviousItem" href="fortran-8x.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortran-d.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fortran-cep.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=fortran-cep" class="material-symbols-outlined">edit</a></div>
-
-* FORTRAN CEP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1963.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1963 1963
-
-dashboard
- #3674 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 61 Years Old
-
-* 
-
-- FORTRAN CEP first developed in <a href="../lists/originCommunities.html#universitaDiPisa">Università di Pisa</a>
-- FORTRAN CEP on HOPL
- https://hopl.info/showlanguage.prx?exp=8214
-- Read more about FORTRAN CEP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/55f2e8b3f7f7cc45e9515329b3fb61e6c4f74db3 1.
-
-<br>
-
-endColumns
-
-keyboardNav fortran-8x.html fortran-d.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

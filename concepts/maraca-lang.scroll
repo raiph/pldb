@@ -1,44 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title maraca-lang
+import ../measures/conceptPage.scroll
+id maraca-lang
+appeared 2018
+type pl
+creators Jon Whitehead
+conceptDescription The dynamic structured data language. Maraca is a lightweight, embeddable, declarative language for defining & manipulating dynamic structured data. And when combined with Maraca-Render, it can be a powerful language for creating interactive UI, such as this site...
+website https://maraca-lang.org
+reference https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0
+country United Kingdom
+originCommunity https://github.com/maraca-lang
+domainName maraca-lang.org
+ registered 2019
 
-title maraca-lang - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="ripple.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aime.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/maraca-lang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://maraca-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/maraca-lang/maraca-js" class="material-symbols-outlined">code</a> <a href="/edit.html?id=maraca-lang" class="material-symbols-outlined">edit</a></div>
-
-* maraca-lang is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Jon Whitehead.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#jonWhitehead Jon Whitehead
-
-codeWithHeader Source code:
- git clone https://github.com/maraca-lang/maraca-js
-
-dashboard
- #1520 <span title="TotalRank: 2033 Jobs: 103 Users: 2415 Facts: 944 Links: 986">on PLDB</span>
- 6 Years Old
-
-* The dynamic structured data language. Maraca is a lightweight, embeddable, declarative language for defining & manipulating dynamic structured data. And when combined with Maraca-Render, it can be a powerful language for creating interactive UI, such as this site...
-
-- maraca-lang website
- https://maraca-lang.org
-- maraca-lang is developed on <a href="https://github.com/maraca-lang/maraca-js">GitHub</a> and has 0 stars
-- maraca-lang first developed in <a href="../lists/originCommunities.html#httpsGithubComMaracaLang">https://github.com/maraca-lang</a>
-- <a href="https://maraca-lang.org">maraca-lang.org</a> was registered in 2019
-- Read more about maraca-lang on the web: 1.
- https://docs.google.com/spreadsheets/d/12sTu7RT-s_QlAupY1v-3DfI1Mm9NEX5YMWWTDAKHLfc/edit#gid=0 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  [
    pad: 10,
    Hello,
@@ -49,8 +22,20 @@ codeWithHeader Example from the web:
    ],
  ]
 
-endColumns
+githubRepo https://github.com/maraca-lang/maraca-js
+ firstCommit 2018
+ stars 0
+ subscribers 2
+ created 2021
+ updated 2021
+ description Maraca JavaScript runtime
+ issues 0
+ forks 0
 
-keyboardNav ripple.html aime.html
+repoStats
+ firstCommit 2022
+ commits 41
+ committers 1
+ files 11
 
-import ../footer.scroll
+semanticScholar 0

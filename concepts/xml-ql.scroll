@@ -1,47 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title XML Query Language
+import ../measures/conceptPage.scroll
+id XML Query Language
+appeared 1998
+type queryLanguage
+conceptDescription We propose a query language for XML, called XML-QL, as one possible answer to these questions. The language has a SELECT-WHERE construct, like SQL, and borrows features of query languages recently developed by the database research community for semistructured data.
+reference https://www.w3.org/TR/1998/NOTE-xml-ql-19980819/
 
-title XML Query Language - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="wast.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xt3d.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xml-ql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xml-ql" class="material-symbols-outlined">edit</a></div>
-
-* XML Query Language is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #2738 <span title="TotalRank: 3410 Jobs: 103 Users: 2838 Facts: 2321 Links: 986">on PLDB</span>
- 26 Years Old
-
-* We propose a query language for XML, called XML-QL, as one possible answer to these questions. The language has a SELECT-WHERE construct, like SQL, and borrows features of query languages recently developed by the database research community for semistructured data.
-
-- Read more about XML Query Language on the web: 1.
- https://www.w3.org/TR/1998/NOTE-xml-ql-19980819/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
- WHERE &lt;book&gt;
-         &lt;publisher&gt;&lt;name&gt;Addison-Wesley&lt;/&gt;&lt;/&gt;
-         &lt;title&gt; $t&lt;/&gt;
-         &lt;author&gt; $a&lt;/&gt;
-       &lt;/&gt; IN &quot;www.a.b.c/bib.xml&quot;
- CONSTRUCT &lt;result&gt;
-              &lt;author&gt; $a&lt;/&gt;
-              &lt;title&gt; $t&lt;/&gt;
-           &lt;/&gt;
-
-endColumns
-
-keyboardNav wast.html xt3d.html
-
-import ../footer.scroll
+example
+ WHERE <book>
+         <publisher><name>Addison-Wesley</></>
+         <title> $t</>
+         <author> $a</>
+       </> IN "www.a.b.c/bib.xml"
+ CONSTRUCT <result>
+              <author> $a</>
+              <title> $t</>
+           </>

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Playground
+import ../measures/conceptPage.scroll
+id Playground
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/bca61be86585d10a0941e00cdeee4bde43484594
+country United States
+originCommunity Apple
 
-title Playground - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2383
 
-html
- <a class="trueBaseThemePreviousItem" href="planner-73.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pocket-smalltalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/playground.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=playground" class="material-symbols-outlined">edit</a></div>
-
-* Playground is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3940 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- Playground first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- Playground on HOPL
- https://hopl.info/showlanguage.prx?exp=2383
-- Read more about Playground on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bca61be86585d10a0941e00cdeee4bde43484594 1.
-
-<br>
-
-endColumns
-
-keyboardNav planner-73.html pocket-smalltalk.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

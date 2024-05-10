@@ -1,44 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Project Mentat
+import ../measures/conceptPage.scroll
+id Project Mentat
+appeared 2016
+type queryLanguage
+creators Richard Newman
+conceptDescription Project Mentat is a persistent, embedded knowledge base. It draws heavily on DataScript and Datomic. This project was started by Mozilla, but is no longer being developed or actively maintained by them.
+website https://mentat.rs/
+reference https://mozilla.github.io/mentat
+country United States
+originCommunity Mozilla Foundation
+domainName mentat.rs
 
-title Project Mentat - Query language
- hidden
+relatedConcepts datascript datomic sqlite
 
-html
- <a class="trueBaseThemePreviousItem" href="cor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="z-flat.html">&gt;</a>
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/project-mentat.pldb
+lineCommentToken ;
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mentat.rs/" class="material-symbols-outlined">home</a> <a href="https://github.com/qpdb/mentat" class="material-symbols-outlined">code</a> <a href="/edit.html?id=project-mentat" class="material-symbols-outlined">edit</a></div>
-
-* Project Mentat is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2016 by Richard Newman.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#richardNewman Richard Newman
-
-codeWithHeader Source code:
- git clone https://github.com/qpdb/mentat
-
-dashboard
- #1394 <span title="TotalRank: 1921 Jobs: 103 Users: 2043 Facts: 832 Links: 986">on PLDB</span>
- 8 Years Old
-
-* Project Mentat is a persistent, embedded knowledge base. It draws heavily on DataScript and Datomic. This project was started by Mozilla, but is no longer being developed or actively maintained by them.
-
-- Project Mentat website
- https://mentat.rs/
-- Project Mentat is developed on <a href="https://github.com/qpdb/mentat">GitHub</a> and has 28 stars
-- Project Mentat first developed in <a href="../lists/originCommunities.html#mozillaFoundation">Mozilla Foundation</a>
-- See also: (3 related languages)<a href="datascript.html">datascript</a>, <a href="datomic.html">Datomic</a>, <a href="sqlite.html">SQLite</a>
-- Read more about Project Mentat on the web: 1.
- https://mozilla.github.io/mentat 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {:db/id          :person/email
   :db/valueType   :db.type/string
   :db/cardinality :db.cardinality/many     ; People can have multiple email addresses.
@@ -48,32 +30,18 @@ codeWithHeader Example from the web:
   :db/valueType   :db.type/ref
   :db/cardinality :db.cardinality/many}    ; People can have many friends.
 
-endColumns
+githubRepo https://github.com/qpdb/mentat
+ firstCommit 2016
+ stars 28
+ forks 1
+ subscribers 3
+ created 2018
+ updated 2022
+ description A persistent, relational store inspired by Datomic and DataScript.
+ issues 299
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav cor.html z-flat.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2016
+ commits 1530
+ committers 27
+ files 2321

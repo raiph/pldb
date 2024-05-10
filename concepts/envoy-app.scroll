@@ -1,38 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title envoy-app
-
-title envoy-app - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="elpa-pm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flux-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/envoy-app.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.envoyproxy.io/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=envoy-app" class="material-symbols-outlined">edit</a></div>
-
-* envoy-app is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #3391 on PLDB
- 7 Years Old
-
-* 
-
-- envoy-app website
- https://www.envoyproxy.io/
-- envoy-app first developed in <a href="../lists/originCommunities.html#httpsGithubComEnvoyproxy">https://github.com/envoyproxy</a>
-- <a href="https://www.envoyproxy.io/">envoyproxy.io</a> was registered in 2017
-
-<br>
-
-endColumns
-
-keyboardNav elpa-pm.html flux-lang.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id envoy-app
+appeared 2017
+type application
+website https://www.envoyproxy.io/
+country Various
+originCommunity https://github.com/envoyproxy
+domainName envoyproxy.io
+ registered 2017
+ awisRank
+  2022 157866

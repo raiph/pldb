@@ -1,36 +1,6 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title runescript
-
-title runescript - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="csvpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sugarj.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/runescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=runescript" class="material-symbols-outlined">edit</a></div>
-
-* runescript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #3152 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4298 Links: 986">on PLDB</span>
- 23 Years Old
-
-* RuneScript is a scripting language that Jagex uses to create content for RuneScape.  The game engine is not written in RuneScript, but instead Java.
-
-- Read more about runescript on the web: 1.
- https://oldschool.runescape.wiki/w/RuneScript 1.
-
-<br>
-
-endColumns
-
-keyboardNav csvpp.html sugarj.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id runescript
+appeared 2001
+type pl
+conceptDescription RuneScript is a scripting language that Jagex uses to create content for RuneScape.  The game engine is not written in RuneScript, but instead Java.
+reference https://oldschool.runescape.wiki/w/RuneScript

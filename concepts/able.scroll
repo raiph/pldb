@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ABLE
+import ../measures/conceptPage.scroll
+id ABLE
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/77c151aa7bd1eaefbf0ff95b50a23c1aa771cb21
+originCommunity The University of Utah
 
-title ABLE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5124
 
-html
- <a class="trueBaseThemePreviousItem" href="3d-logo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="adam.html">&gt;</a>
+wordRank 727
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/able.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=able" class="material-symbols-outlined">edit</a></div>
-
-* ABLE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #4062 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- ABLE first developed in <a href="../lists/originCommunities.html#theUniversityOfUtah">The University of Utah</a>
-- ABLE on HOPL
- https://hopl.info/showlanguage.prx?exp=5124
-- Read more about ABLE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/77c151aa7bd1eaefbf0ff95b50a23c1aa771cb21 1.
-
-<br>
-
-endColumns
-
-keyboardNav 3d-logo.html adam.html
-
-import ../footer.scroll
+isbndb 0

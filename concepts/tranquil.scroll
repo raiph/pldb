@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TRANQUIL
+import ../measures/conceptPage.scroll
+id TRANQUIL
+appeared 1966
+type pl
+reference https://semanticscholar.org/paper/85a4716f27fe6ed441fc0cd2f7bac3aa2d7f3e32
 
-title TRANQUIL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=277
 
-html
- <a class="trueBaseThemePreviousItem" href="tramp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="transforma.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tranquil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tranquil" class="material-symbols-outlined">edit</a></div>
-
-* TRANQUIL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #3248 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 58 Years Old
-
-* 
-
-- TRANQUIL on HOPL
- https://hopl.info/showlanguage.prx?exp=277
-- Read more about TRANQUIL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/85a4716f27fe6ed441fc0cd2f7bac3aa2d7f3e32 1.
-
-<br>
-
-endColumns
-
-keyboardNav tramp.html transforma.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,37 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hac
-
-title hac - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="frtime.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hsaml-format.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://vlsi.cornell.edu/~fang/hackt/pdf/hac.pdf" class="material-symbols-outlined">home</a> <a href="/edit.html?id=hac" class="material-symbols-outlined">edit</a></div>
-
-* hac is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #2770 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 3922 Links: 986">on PLDB</span>
- 17 Years Old
-
-* a hardware description language. The HAC language is based on the CAST (Caltech Asynchronous Synthesis Tool) language.
-
-- hac website
- http://vlsi.cornell.edu/~fang/hackt/pdf/hac.pdf
-- hac first developed in <a href="../lists/originCommunities.html#cornellUniversity">Cornell University</a>
-
-<br>
-
-endColumns
-
-keyboardNav frtime.html hsaml-format.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id hac
+appeared 2007
+type pl
+conceptDescription a hardware description language. The HAC language is based on the CAST (Caltech Asynchronous Synthesis Tool) language.
+website http://vlsi.cornell.edu/~fang/hackt/pdf/hac.pdf
+country United States
+originCommunity Cornell University

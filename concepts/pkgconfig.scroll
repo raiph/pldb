@@ -1,56 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PkgConfig
+import ../measures/conceptPage.scroll
+id PkgConfig
+appeared 2000
+type configFormat
+website http://www.freedesktop.org/wiki/Software/pkg-config/
+country United States
+originCommunity X.Org Foundation
 
-title PkgConfig - Config format
- hidden
+relatedConcepts makefile autoconf
 
-html
- <a class="trueBaseThemePreviousItem" href="paxscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pliant.html">&gt;</a>
+hasLineComments true
+hasComments true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pkgconfig.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.freedesktop.org/wiki/Software/pkg-config/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=pkgconfig" class="material-symbols-outlined">edit</a></div>
-
-* PkgConfig is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+configFormat">config format</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #2943 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2629 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- PkgConfig website
- http://www.freedesktop.org/wiki/Software/pkg-config/
-- PkgConfig first developed in <a href="../lists/originCommunities.html#xOrgFoundation">X.Org Foundation</a>
-- file extensions for PkgConfig include pc
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/configs.py">syntax highlighting</a> for PkgConfig
-- See also: (2 related languages)<a href="makefile.html">Makefile</a>, <a href="autoconf.html">Autoconf</a>
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav paxscript.html pliant.html
-
-import ../footer.scroll
+pygmentsHighlighter PkgConfig
+ filename configs.py
+ fileExtensions pc

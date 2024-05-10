@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Seymour
+import ../measures/conceptPage.scroll
+id Seymour
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/c1ff6ef218e147749d1b81062d5aa4b3bfe4a90e
+reference https://cse.buffalo.edu/faculty/miller/Papers/Seymour.html
+country United States
+originCommunity State University of New York at Buffalo and University of Michigan
 
-title Seymour - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5730
 
-html
- <a class="trueBaseThemePreviousItem" href="sespath.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sidopsp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/seymour.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=seymour" class="material-symbols-outlined">edit</a></div>
-
-* Seymour is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #4298 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- Seymour first developed in <a href="../lists/originCommunities.html#stateUniversityOfNewYorkAtBuffaloAndUniversityOfMichigan">State University of New York at Buffalo and University of Michigan</a>
-- Seymour on HOPL
- https://hopl.info/showlanguage.prx?exp=5730
-- Read more about Seymour on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c1ff6ef218e147749d1b81062d5aa4b3bfe4a90e 1.
-- Read more about Seymour on the web: 1.
- https://cse.buffalo.edu/faculty/miller/Papers/Seymour.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav sespath.html sidopsp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

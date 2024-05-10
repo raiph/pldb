@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title *Prolog
+import ../measures/conceptPage.scroll
+id *Prolog
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/eb5328ea0faa0364b6892d192d506edb3b9d3d11
+country The Netherlands
+originCommunity Centrum Wiskunde & Informatica and University of Amsterdam
 
-title *Prolog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4206
 
-html
- <a class="trueBaseThemePreviousItem" href="staple.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="static-typescript.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/star-prolog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=star-prolog" class="material-symbols-outlined">edit</a></div>
-
-* *Prolog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #4046 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- *Prolog first developed in <a href="../lists/originCommunities.html#centrumWiskundeInformaticaAndUniversityOfAmsterdam">Centrum Wiskunde & Informatica and University of Amsterdam</a>
-- *Prolog on HOPL
- https://hopl.info/showlanguage.prx?exp=4206
-- Read more about *Prolog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/eb5328ea0faa0364b6892d192d506edb3b9d3d11 1.
-
-<br>
-
-endColumns
-
-keyboardNav staple.html static-typescript.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

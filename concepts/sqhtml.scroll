@@ -1,42 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SQHTML
+import ../measures/conceptPage.scroll
+id SQHTML
+appeared 2022
+type pl
+creators Katrina Grace
+website https://sqhtml.swordglowsblue.com/
+country United States
+originCommunity https://github.com/KatrinaKitten/sqhtml/issues
 
-title SQHTML - Programming language
- hidden
+githubRepo https://github.com/KatrinaKitten/sqhtml/
+ stars 1
+ forks 0
+ subscribers 1
+ updated 2022
+ description The worst way to build a website
 
-html
- <a class="trueBaseThemePreviousItem" href="tawa.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sugi.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sqhtml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sqhtml.swordglowsblue.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/KatrinaKitten/sqhtml/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sqhtml" class="material-symbols-outlined">edit</a></div>
-
-* SQHTML is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Katrina Grace.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#katrinaGrace Katrina Grace
-
-codeWithHeader Source code:
- git clone https://github.com/KatrinaKitten/sqhtml/
-
-dashboard
- #2492 <span title="TotalRank: 3071 Jobs: 103 Users: 2402 Facts: 1982 Links: 986">on PLDB</span>
- 2 Years Old
-
-* The worst way to build a website
-
-- SQHTML website
- https://sqhtml.swordglowsblue.com/
-- SQHTML is developed on <a href="https://github.com/KatrinaKitten/sqhtml/">GitHub</a> and has 1 stars
-- SQHTML first developed in <a href="../lists/originCommunities.html#httpsGithubComKatrinaKittenSqhtmlIssues">https://github.com/KatrinaKitten/sqhtml/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav tawa.html sugi.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 4
+ committers 2
+ files 6

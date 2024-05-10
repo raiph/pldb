@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Visual
+import ../measures/conceptPage.scroll
+id Visual
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/3b9171ca942fb81fadd242b075e9d421f1f3841b
 
-title Visual - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5306
 
-html
- <a class="trueBaseThemePreviousItem" href="vex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wizor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/visual.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=visual" class="material-symbols-outlined">edit</a></div>
-
-* Visual is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3451 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- Visual on HOPL
- https://hopl.info/showlanguage.prx?exp=5306
-- Read more about Visual on Semantic Scholar: 1.
- https://semanticscholar.org/paper/3b9171ca942fb81fadd242b075e9d421f1f3841b 1.
-
-<br>
-
-endColumns
-
-keyboardNav vex.html wizor.html
-
-import ../footer.scroll
+wordRank 1655
+centralPackageRepositoryCount 0

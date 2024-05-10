@@ -1,70 +1,62 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Gradle
+import ../measures/conceptPage.scroll
+id Gradle
+appeared 2008
+type application
+website https://gradle.org
+country Various
+originCommunity https://github.com/gradle
+domainName gradle.org
+ registered 2007
+ awisRank
+  2022 15168
 
-title Gradle - Application
- hidden
+githubRepo https://github.com/gradle/gradle
+ firstCommit 2008
+ stars 13551
+ forks 3913
+ subscribers 506
+ created 2009
+ updated 2022
+ description Adaptable, fast automation for all
+ issues 1950
 
-html
- <a class="trueBaseThemePreviousItem" href="mariadb.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dafny.html">&gt;</a>
+githubLanguage Gradle
+ fileExtensions gradle
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope source.groovy.gradle
+ repos 4
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gradle.pldb
+linguistGrammarRepo https://github.com/alkemist/gradle.tmbundle
+ firstCommit 2011
+ lastCommit 2014
+ committerCount 1
+ commitCount 29
+ sampleCount 2
+ example
+  apply plugin: GreetingPlugin
+  
+  greeting {
+      message = 'Hi'
+      greeter = 'Gradle'
+  }
+  
+  class GreetingPlugin implements Plugin<Project> {
+      void apply(Project project) {
+          project.extensions.create("greeting", GreetingPluginExtension)
+          project.task('hello') << {
+              println "${project.greeting.message} from ${project.greeting.greeter}"
+          }
+      }
+  }
+  
+  class GreetingPluginExtension {
+      String message
+      String greeter
+  }
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://gradle.org" class="material-symbols-outlined">home</a> <a href="https://github.com/gradle/gradle" class="material-symbols-outlined">code</a> <a href="https://twitter.com/gradle"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=gradle" class="material-symbols-outlined">edit</a></div>
-
-* Gradle is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-codeWithHeader Source code:
- git clone https://github.com/gradle/gradle
-
-dashboard
- #354 on PLDB
- 16 Years Old
- 4 <span title="Gradle repos on GitHub.">Repos</span>
-
-* Adaptable, fast automation for all
-
-- Gradle website
- https://gradle.org
-- Gradle is developed on <a href="https://github.com/gradle/gradle">GitHub</a> and has 13,551 stars
-- There are at least 4 Gradle repos on <a href="https://github.com/search?q=language:Gradle">GitHub</a>
-- Gradle first developed in <a href="../lists/originCommunities.html#httpsGithubComGradle">https://github.com/gradle</a>
-- file extensions for Gradle include gradle
-- Gradle on Twitter
- https://twitter.com/gradle
-- GitHub supports <a href="https://github.com/alkemist/gradle.tmbundle" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Gradle
-- <a href="https://gradle.org">gradle.org</a> was registered in 2007
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/alkemist/gradle.tmbundle'>Linguist</a>:
- apply plugin: GreetingPlugin
- 
- greeting {
-     message = &#39;Hi&#39;
-     greeter = &#39;Gradle&#39;
- }
- 
- class GreetingPlugin implements Plugin&lt;Project&gt; {
-     void apply(Project project) {
-         project.extensions.create(&quot;greeting&quot;, GreetingPluginExtension)
-         project.task(&#39;hello&#39;) &lt;&lt; {
-             println &quot;${project.greeting.message} from ${project.greeting.greeter}&quot;
-         }
-     }
- }
- 
- class GreetingPluginExtension {
-     String message
-     String greeter
- }
-
-endColumns
-
-keyboardNav mariadb.html dafny.html
-
-import ../footer.scroll
+twitter https://twitter.com/gradle
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

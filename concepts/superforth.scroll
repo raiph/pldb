@@ -1,37 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SuperForth
+import ../measures/conceptPage.scroll
+id SuperForth
+appeared 2022
+type pl
+conceptDescription SuperForth v1.1
+reference https://reddit.com/r/ProgrammingLanguages/comments/vgbtmd/superforth_v11/
+renamedTo cish
 
-title SuperForth - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="summer.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="supermac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/superforth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=superforth" class="material-symbols-outlined">edit</a></div>
-
-* SuperForth is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-dashboard
- #3429 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 2 Years Old
-
-* SuperForth v1.1
-
-- See also: (1 related languages)<a href="cish.html">Cish</a>
-- Read more about SuperForth on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/vgbtmd/superforth_v11/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav summer.html supermac.html
-
-import ../footer.scroll
+relatedConcepts cish

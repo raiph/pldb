@@ -1,33 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Bicep
+import ../measures/conceptPage.scroll
+id Bicep
+appeared 2020
+type jsonFormat
+creators Anthony Martin
+conceptDescription Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
+reference https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/
+originCommunity Microsoft
 
-title Bicep - Json format
- hidden
+compilesTo arm-templates
 
-html
- <a class="trueBaseThemePreviousItem" href="livescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="modelica.html">&gt;</a>
+hasLineComments true
+ // A comment
+hasMultiLineComments true
+ /* A comment
+ */
+hasComments true
+ // A comment
+hasConditionals true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bicep.pldb
+lineCommentToken //
+multiLineCommentTokens /* */
+keywords targetScope resource module param var output for in if existing
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Azure/bicep" class="material-symbols-outlined">code</a> <a href="/edit.html?id=bicep" class="material-symbols-outlined">edit</a></div>
-
-* Bicep is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+jsonFormat">json format</a> created in 2020 by Anthony Martin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#anthonyMartin Anthony Martin
-
-codeWithHeader Source code:
- git clone https://github.com/Azure/bicep
-
-dashboard
- #315 <span title="TotalRank: 733 Jobs: 103 Users: 225 Facts: 405 Links: 986">on PLDB</span>
- 4 Years Old
- 3k <span title="Bicep repos on GitHub.">Repos</span>
-
-monacoEditor bicep
+example
  @minLength(3)
  @maxLength(11)
  param storagePrefix string
@@ -59,91 +54,34 @@ monacoEditor bicep
  
  output storageEndpoint object = stg.properties.primaryEndpoints
 
-* Bicep is a Domain Specific Language (DSL) for deploying Azure resources declaratively.
+githubRepo https://github.com/Azure/bicep
+ firstCommit 2020
+ stars 2438
+ forks 617
+ subscribers 116
+ created 2020
+ updated 2022
+ description Bicep is a declarative language for describing and deploying Azure resources
+ issues 1060
 
-- Bicep is developed on <a href="https://github.com/Azure/bicep">GitHub</a> and has 2,438 stars
-- There are at least 2,562 Bicep repos on <a href="https://github.com/search?q=language:Bicep">GitHub</a>
-- Bicep first developed in <a href="../lists/originCommunities.html#microsoft">Microsoft</a>
-- file extensions for Bicep include bicep
-- Bicep compiles to <a href="arm-templates.html">ARM Templates</a>
-- The  Google BigQuery Public Dataset GitHub snapshot shows 13 users using Bicep in 17 repos on <a href="https://api.github.com/search/repositories?q=language:Bicep">GitHub</a>
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/bicep">package</a> for syntax highlighting Bicep
-- Read more about Bicep on the web: 1.
- https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/ 1.
+repoStats
+ firstCommit 2020
+ commits 5981
+ committers 152
+ files 3683
 
-<br>
+githubLanguage Bicep
+ type programming
+ fileExtensions bicep
+ aceMode text
+ tmScope source.bicep
+ repos 2562
+githubBigQuery Bicep
+ repos 17
+ users 13
 
-codeWithHeader Example from the web:
- @minLength(3)
- @maxLength(11)
- param storagePrefix string
- 
- param storageSKU string = &#39;Standard_LRS&#39;
- param location string = resourceGroup().location
- 
- var uniqueStorageName = &#39;${storagePrefix}${uniqueString(resourceGroup().id)}&#39;
- 
- resource stg &#39;Microsoft.Storage/storageAccounts@2019-04-01&#39; = {
-   name: uniqueStorageName
-   location: location
-   sku: {
-     name: storageSKU
-   }
-   kind: &#39;StorageV2&#39;
-   properties: {
-     supportsHttpsTrafficOnly: true
-   }
- }
- 
- module webModule &#39;./webApp.bicep&#39; = {
-   name: &#39;webDeploy&#39;
-   params: {
-     skuName: &#39;S1&#39;
-     location: location
-   }
- }
- 
- output storageEndpoint object = stg.properties.primaryEndpoints
+monaco bicep
 
-<div class="keywordsBlock">
-codeWithHeader Bicep <a href="../lists/keywords.html?filter=bicep">Keywords</a>
- targetScope resource module param var output for in if existing
-</div>
+isbndb 0
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
-
-keyboardNav livescript.html modelica.html
-
-import ../footer.scroll
+semanticScholar 0

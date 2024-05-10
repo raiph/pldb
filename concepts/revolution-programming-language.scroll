@@ -1,49 +1,39 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Revolution
+import ../measures/conceptPage.scroll
+id Revolution
+appeared 1993
+type pl
+creators Mark Waddingham
+website https://livecode.com/
+renamedTo livecode
+country United Kingdom
+originCommunity LiveCode Ltd
 
-title Revolution - Programming language
- hidden
+githubRepo https://github.com/livecode/livecode
+ firstCommit 2013
+ stars 448
+ forks 223
+ subscribers 71
+ created 2013
+ updated 2022
+ description LiveCode cross-platform development environment (engine)
+ issues 198
 
-html
- <a class="trueBaseThemePreviousItem" href="integer-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="maya.html">&gt;</a>
+repoStats
+ firstCommit 2013
+ commits 29990
+ committers 124
+ files 7646
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/revolution-programming-language.pldb
+wikipedia https://en.wikipedia.org/wiki/Revolution_(programming_language)
+ example
+  put url "binfile:picture.jpg" into url "ftp://john:passwd@ftp.example.net:2121/picture.jpg"
+ related linux unix android ios hypertalk hypercard sql
+ summary LiveCode (formerly Revolution and MetaCard) is a cross-platform rapid application development runtime environment inspired by HyperCard. It features the Transcript (formerly MetaTalk) programming language which belongs to the family of xTalk scripting languages like HyperCard's HyperTalk.The environment was introduced in 2001.  The "Revolution" development system was based on the MetaCard engine technology which Runtime Revolution later acquired from MetaCard Corporation in 2003. The platform won the Macworld Annual Editor's Choice Award for "Best Development Software" in 2004.  "Revolution" was renamed "LiveCode" in the fall of 2010.  "LiveCode" is developed and sold by Runtime Revolution Ltd., based in Edinburgh, Scotland. In March, 2015, the company was renamed "LiveCode Ltd.", to unify the company name with the product. In April 2013 a free/open source version 'LiveCode Community Edition 6.0' was published after a successful crowdfunding campaign at Kickstarter. The code base was re-licensed and made available as free and open source software with a version in April 2013. LiveCode runs on iOS, Android, OS X, Windows 95 through Windows 10, Raspberry Pi and several variations of Unix, including Linux, Solaris, and BSD. It can be used for mobile, desktop and server/CGI applications. The iOS (iPhone and iPad) version was released in December 2010. The first version to deploy to the Web was released in 2009. It is the most widely used HyperCard/HyperTalk clone, and the only one that runs on all major operating systems. A developer release of v.8 was announced in New York on March 12, 2015. This major enhancement to the product includes a new, separate development language, known as "LiveCode Builder",  which is capable of creating new object classes called "widgets". In earlier versions, the set of object classes was fixed, and could only be enhanced via the use of ordinary procedural languages like C. The new language, which runs in its own IDE, is a departure from the transitional x-talk paradigm in that it permits typing of variables. But the two environments are fully integrated, and apart from the ability to create new objects, development in LiveCode proceeds in the normal way, within the established IDE. A second crowdfunding campaign to Bring HTML5 to LiveCode reached funding goals of nearly $400,000 USD on July 31, 2014. LiveCode developer release 8.0 DP4 (August 31, 2015) was the first to include a standalone deployment option to HTML5.
+ created 2011
+ backlinksCount 56
+ pageId 30890362
+ revisionCount 5
+ dailyPageViews 2
+ appeared 2001
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://livecode.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/livecode/livecode" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/Revolution_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=revolution-programming-language" class="material-symbols-outlined">edit</a></div>
-
-* Revolution is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993 by Mark Waddingham.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
- link ../lists/creators.html#markWaddingham Mark Waddingham
-
-codeWithHeader Source code:
- git clone https://github.com/livecode/livecode
-
-dashboard
- #1028 <span title="TotalRank: 1593 Jobs: 103 Users: 504 Facts: 995 Links: 986">on PLDB</span>
- 31 Years Old
-
-* LiveCode (formerly Revolution and MetaCard) is a cross-platform rapid application development runtime environment inspired by HyperCard. It features the Transcript (formerly MetaTalk) programming language which belongs to the family of xTalk scripting languages like HyperCard's HyperTalk.The environment was introduced in 2001.  The "Revolution" development system was based on the MetaCard engine technology which Runtime Revolution later acquired from MetaCard Corporation in 2003. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Revolution_(programming_language) Read more on Wikipedia...
-
-- Revolution website
- https://livecode.com/
-- Revolution Wikipedia page
- https://en.wikipedia.org/wiki/Revolution_(programming_language)
-- Revolution is developed on <a href="https://github.com/livecode/livecode">GitHub</a> and has 448 stars
-- Revolution first developed in <a href="../lists/originCommunities.html#liveCodeLtd">LiveCode Ltd</a>
-- See also: (7 related languages)<a href="linux.html">Linux</a>, <a href="unix.html">Unix</a>, <a href="android.html">Android</a>, <a href="ios.html">iOS</a>, <a href="hypertalk.html">HyperTalk</a>, <a href="hypercard.html">HyperCard</a>, <a href="sql.html">SQL</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Revolution_(programming_language)'>Wikipedia</a>:
- put url &quot;binfile:picture.jpg&quot; into url &quot;ftp://john:passwd@ftp.example.net:2121/picture.jpg&quot;
-
-endColumns
-
-keyboardNav integer-basic.html maya.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

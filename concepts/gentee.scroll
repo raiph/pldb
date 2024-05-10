@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gentee
+import ../measures/conceptPage.scroll
+id gentee
+appeared 2018
+type pl
+creators Alexey Krivonogov
+conceptDescription Script programming language for automation. It uses VM and compiler written in Go (Golang).
+website http://gentee.org/
+country Russia
+originCommunity https://github.com/gentee
+domainName gentee.org
+ registered 2001
 
-title gentee - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="vale-assembly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="macro-10.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gentee.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://gentee.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/gentee/gentee" class="material-symbols-outlined">code</a> <a href="/edit.html?id=gentee" class="material-symbols-outlined">edit</a></div>
-
-* gentee is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Alexey Krivonogov.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#alexeyKrivonogov Alexey Krivonogov
-
-codeWithHeader Source code:
- git clone https://github.com/gentee/gentee
-
-dashboard
- #1073 <span title="TotalRank: 1632 Jobs: 103 Users: 1343 Facts: 543 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Script programming language for automation. It uses VM and compiler written in Go (Golang).
-
-- gentee website
- http://gentee.org/
-- gentee is developed on <a href="https://github.com/gentee/gentee">GitHub</a> and has 95 stars
-- gentee first developed in <a href="../lists/originCommunities.html#httpsGithubComGentee">https://github.com/gentee</a>
-- <a href="http://gentee.org/">gentee.org</a> was registered in 2001
-
-<br>
-
-codeWithHeader Example from the web:
+example
  #!/usr/local/bin/gentee
  # stdin = 1024\n384\n0
  
@@ -53,44 +35,32 @@ codeWithHeader Example from the web:
  run  {
      str     input
      int     left right
-     Println(&quot;This program finds the greatest common divisor by the Euclidean Algorithm.&quot;)
+     Println("This program finds the greatest common divisor by the Euclidean Algorithm.")
   
      while true
      {
-        left = int( ReadString( &quot;Enter the first number ( enter 0 to exit ): &quot;))
+        left = int( ReadString( "Enter the first number ( enter 0 to exit ): "))
         if left == 0 : break
         
-        right = int( ReadString( &quot;Enter the second number: &quot;))
-        Println(&quot;GCD = \{ gcd( left, right )}&quot;)
+        right = int( ReadString( "Enter the second number: "))
+        Println("GCD = \{ gcd( left, right )}")
      }
  }
 
-endColumns
+githubRepo https://github.com/gentee/gentee
+ firstCommit 2018
+ stars 95
+ forks 11
+ subscribers 3
+ created 2018
+ updated 2022
+ description Gentee - script programming language for automation. It uses VM and compiler written in Go (Golang).
+ issues 0
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2018
+ commits 276
+ committers 3
+ files 163
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav vale-assembly.html macro-10.html
-
-import ../footer.scroll
+isbndb 0

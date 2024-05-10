@@ -1,64 +1,48 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title skip
+import ../measures/conceptPage.scroll
+id skip
+appeared 2018
+type pl
+website http://skiplang.com/
+originCommunity Facebook
+domainName skiplang.com
+ registered 2017
 
-title skip - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="m3db.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="saml.html">&gt;</a>
+printToken print_string
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/skip.pldb
+githubRepo https://github.com/skiplang/skip
+ firstCommit 2018
+ stars 1912
+ forks 71
+ subscribers 60
+ created 2018
+ updated 2022
+ description A programming language to skip the things you have already computed
+ issues 46
 
-startColumns 4
+repoStats
+ firstCommit 2018
+ commits 361
+ committers 23
+ files 6358
 
-<div class="trueBaseThemeQuickLinks"><a href="http://skiplang.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/skiplang/skip" class="material-symbols-outlined">code</a> <a href="/edit.html?id=skip" class="material-symbols-outlined">edit</a></div>
+leachim6 Skip
+ filepath s/Skip.sk
+ fileExtensions sk
+ example
+  fun main(): void {
+    print_string("Hello World")
+  }
 
-* skip is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
+fileType text
+wordRank 1838
+isOpenSource true
+centralPackageRepositoryCount 0
 
-codeWithHeader Source code:
- git clone https://github.com/skiplang/skip
-
-dashboard
- #724 <span title="TotalRank: 1288 Jobs: 103 Users: 353 Facts: 832 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A programming language to skip the things you have already computed
-
-- skip website
- http://skiplang.com/
-- skip is developed on <a href="https://github.com/skiplang/skip">GitHub</a> and has 1,912 stars
-- skip first developed in <a href="../lists/originCommunities.html#facebook">Facebook</a>
-- <a href="http://skiplang.com/">skiplang.com</a> was registered in 2017
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Skip.sk'>hello-world</a>:
- fun main(): void {
-   print_string(&quot;Hello World&quot;)
- }
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print_string
-  Example
-
-keyboardNav m3db.html saml.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2017|Lioncrest Publishing|Skip College, Start Programming: The Complete How-To Guide to Teaching Yourself Software Development|Hinton, Sam|9781619616899

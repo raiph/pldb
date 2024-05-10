@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CLEOPATRA
+import ../measures/conceptPage.scroll
+id CLEOPATRA
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/9b4e7d47971b594a4679ef22c81ad905f7f6fd0c
+country United States
+originCommunity University of Illinois Urbana-Champaign
 
-title CLEOPATRA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3422
 
-html
- <a class="trueBaseThemePreviousItem" href="cleogo.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clover.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cleopatra.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cleopatra" class="material-symbols-outlined">edit</a></div>
-
-* CLEOPATRA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3574 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- CLEOPATRA first developed in <a href="../lists/originCommunities.html#universityOfIllinoisUrbanaChampaign">University of Illinois Urbana-Champaign</a>
-- CLEOPATRA on HOPL
- https://hopl.info/showlanguage.prx?exp=3422
-- Read more about CLEOPATRA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9b4e7d47971b594a4679ef22c81ad905f7f6fd0c 1.
-
-<br>
-
-endColumns
-
-keyboardNav cleogo.html clover.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

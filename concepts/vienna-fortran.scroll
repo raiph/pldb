@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Vienna Fortran
+import ../measures/conceptPage.scroll
+id Vienna Fortran
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/319f7000dbdbcadaa9ea8bad9466514fac97582e
 
-title Vienna Fortran - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1714
 
-html
- <a class="trueBaseThemePreviousItem" href="venus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="viptran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vienna-fortran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=vienna-fortran" class="material-symbols-outlined">edit</a></div>
-
-* Vienna Fortran is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3275 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- Vienna Fortran on HOPL
- https://hopl.info/showlanguage.prx?exp=1714
-- Read more about Vienna Fortran on Semantic Scholar: 1.
- https://semanticscholar.org/paper/319f7000dbdbcadaa9ea8bad9466514fac97582e 1.
-
-<br>
-
-endColumns
-
-keyboardNav venus.html viptran.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EDSIM
+import ../measures/conceptPage.scroll
+id EDSIM
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/20ece707a8fd8cb19c2f549eeb71808fc90c6d54
+country United Kingdom
+originCommunity Leicester Polytechnic
 
-title EDSIM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4918
 
-html
- <a class="trueBaseThemePreviousItem" href="edsac-initial-orders.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="educe-star.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edsim.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=edsim" class="material-symbols-outlined">edit</a></div>
-
-* EDSIM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3649 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- EDSIM first developed in <a href="../lists/originCommunities.html#leicesterPolytechnic">Leicester Polytechnic</a>
-- EDSIM on HOPL
- https://hopl.info/showlanguage.prx?exp=4918
-- Read more about EDSIM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/20ece707a8fd8cb19c2f549eeb71808fc90c6d54 1.
-
-<br>
-
-endColumns
-
-keyboardNav edsac-initial-orders.html educe-star.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

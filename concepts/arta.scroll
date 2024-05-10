@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ARTA
+import ../measures/conceptPage.scroll
+id ARTA
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/bd16c122a4e3c97041a3cc1c85fae6efac786939
 
-title ARTA - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5473
 
-html
- <a class="trueBaseThemePreviousItem" href="arango-db.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="autocoder-ii.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/arta.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=arta" class="material-symbols-outlined">edit</a></div>
-
-* ARTA is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3168 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- ARTA on HOPL
- https://hopl.info/showlanguage.prx?exp=5473
-- Read more about ARTA on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bd16c122a4e3c97041a3cc1c85fae6efac786939 1.
-
-<br>
-
-endColumns
-
-keyboardNav arango-db.html autocoder-ii.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

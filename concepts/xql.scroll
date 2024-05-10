@@ -1,40 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title XQL
+import ../measures/conceptPage.scroll
+id XQL
+appeared 1999
+type queryLanguage
+creators Jonathan Robie
+conceptDescription XQL is a query language designed specifically for XML. In the same sense that SQL is a query language for relational tables and OQL is a query language for objects stored in an object database, XQL is a query language for XML documents.
+reference http://www.ibiblio.org/xql/xql-tutorial.html
 
-title XQL - Query language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="xl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="3d-logo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xql.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xql" class="material-symbols-outlined">edit</a></div>
-
-* XQL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 1999 by Jonathan Robie.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
- link ../lists/creators.html#jonathanRobie Jonathan Robie
-
-dashboard
- #4060 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 25 Years Old
-
-* XQL is a query language designed specifically for XML. In the same sense that SQL is a query language for relational tables and OQL is a query language for objects stored in an object database, XQL is a query language for XML documents.
-
-- Read more about XQL on the web: 1.
- http://www.ibiblio.org/xql/xql-tutorial.html 1.
-
-<br>
-
-codeWithHeader Example from the web:
- //(editor contains &quot;Leksh*&quot;)
-
-endColumns
-
-keyboardNav xl.html 3d-logo.html
-
-import ../footer.scroll
+example
+ //(editor contains "Leksh*")

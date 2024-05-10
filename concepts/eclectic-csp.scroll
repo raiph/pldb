@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Eclectic CSP
+import ../measures/conceptPage.scroll
+id Eclectic CSP
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/71054b0b78376f269dbd080e05fc1f808331080a
+country United Kingdom
+originCommunity University of Oxford
 
-title Eclectic CSP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5426
 
-html
- <a class="trueBaseThemePreviousItem" href="easy-english.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ect.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/eclectic-csp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=eclectic-csp" class="material-symbols-outlined">edit</a></div>
-
-* Eclectic CSP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3645 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- Eclectic CSP first developed in <a href="../lists/originCommunities.html#universityOfOxford">University of Oxford</a>
-- Eclectic CSP on HOPL
- https://hopl.info/showlanguage.prx?exp=5426
-- Read more about Eclectic CSP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/71054b0b78376f269dbd080e05fc1f808331080a 1.
-
-<br>
-
-endColumns
-
-keyboardNav easy-english.html ect.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tyco
+import ../measures/conceptPage.scroll
+id Tyco
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/07e2ebd1eb111e609d26afdd7a1d9a46d2de7868
 
-title Tyco - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6981
 
-html
- <a class="trueBaseThemePreviousItem" href="turnstile-plus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tyruba.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tyco.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tyco" class="material-symbols-outlined">edit</a></div>
-
-* Tyco is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3256 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Tyco on HOPL
- https://hopl.info/showlanguage.prx?exp=6981
-- Read more about Tyco on Semantic Scholar: 1.
- https://semanticscholar.org/paper/07e2ebd1eb111e609d26afdd7a1d9a46d2de7868 1.
-
-<br>
-
-endColumns
-
-keyboardNav turnstile-plus.html tyruba.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

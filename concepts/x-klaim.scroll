@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title X-KLAIM
+import ../measures/conceptPage.scroll
+id X-KLAIM
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/05800269f6ca214889629fcb3da28ddcd03c4054
 
-title X-KLAIM - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2923
 
-html
- <a class="trueBaseThemePreviousItem" href="wylbur.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="x11-basic.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/x-klaim.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=x-klaim" class="material-symbols-outlined">edit</a></div>
-
-* X-KLAIM is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3291 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- X-KLAIM on HOPL
- https://hopl.info/showlanguage.prx?exp=2923
-- Read more about X-KLAIM on Semantic Scholar: 1.
- https://semanticscholar.org/paper/05800269f6ca214889629fcb3da28ddcd03c4054 1.
-
-<br>
-
-endColumns
-
-keyboardNav wylbur.html x11-basic.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HOLCF
+import ../measures/conceptPage.scroll
+id HOLCF
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/249700d42fb709d6873b976d200269386217064e
+country Germany
+originCommunity technische Universit ̈at Munche
 
-title HOLCF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3310
 
-html
- <a class="trueBaseThemePreviousItem" href="hol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hp-pascal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/holcf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=holcf" class="material-symbols-outlined">edit</a></div>
-
-* HOLCF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3719 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- HOLCF first developed in <a href="../lists/originCommunities.html#technischeUniversitAtMunche">technische Universit ̈at Munche</a>
-- HOLCF on HOPL
- https://hopl.info/showlanguage.prx?exp=3310
-- Read more about HOLCF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/249700d42fb709d6873b976d200269386217064e 1.
-
-<br>
-
-endColumns
-
-keyboardNav hol.html hp-pascal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasMacros.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasManualMemoryManagement.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  // Can be implemented in ES6 using proxies:
  &quot;use strict&quot;;
  if (typeof Proxy == &quot;undefined&quot;) {
@@ -57,11 +57,9 @@ codeWithHeader Example from <a href="../concepts/php.html">PHP</a>:
         return null;
     }
 
-* Languages *with* Magic Getters and Setters include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Magic Getters and Setters include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/speedie.html">Speedie</a>
 
-* Languages *without* Magic Getters and Setters include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
-
-* This question asks: Does the language have a way to handle undefined getters and setters?
+* Languages *without* Magic Getters and Setters include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/c3.html">C3</a>
 
 * Read more about Magic Getters and Setters on the web: 1.
  https://www.php.net/manual/en/language.oop5.overloading.php#object.get 1.

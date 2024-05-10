@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title EGS4
+import ../measures/conceptPage.scroll
+id EGS4
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/0a787bf91ff0e9c5b89d78e7b929744142e61c58
+country Canada
+originCommunity The National Research Council Canada
 
-title EGS4 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7898
 
-html
- <a class="trueBaseThemePreviousItem" href="educe-star.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="el1.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/egs4.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=egs4" class="material-symbols-outlined">edit</a></div>
-
-* EGS4 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3651 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- EGS4 first developed in <a href="../lists/originCommunities.html#theNationalResearchCouncilCanada">The National Research Council Canada</a>
-- EGS4 on HOPL
- https://hopl.info/showlanguage.prx?exp=7898
-- Read more about EGS4 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0a787bf91ff0e9c5b89d78e7b929744142e61c58 1.
-
-<br>
-
-endColumns
-
-keyboardNav educe-star.html el1.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

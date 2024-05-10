@@ -1,62 +1,46 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title parenthetic
+import ../measures/conceptPage.scroll
+id parenthetic
+appeared 2012
+type esolang
+creators Cameron McKinnon
+country Unknown
+originCommunity https://github.com/cammckinnon/Parenthetic/issues
 
-title parenthetic - Esoteric programming language
- hidden
+githubRepo https://github.com/cammckinnon/Parenthetic
+ firstCommit 2012
+ stars 71
+ forks 7
+ subscribers 4
+ created 2012
+ updated 2022
+ description A Lisp-style language whose programs consist entirely of parentheses.
+ issues 6
 
-html
- <a class="trueBaseThemePreviousItem" href="fact-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="battlestar.html">&gt;</a>
+repoStats
+ firstCommit 2012
+ commits 11
+ committers 2
+ files 21
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/parenthetic.pldb
+leachim6 Parenthetic
+ filepath p/Parenthetic.p
+ fileExtensions p
+ example
+  Parenthetic - https://github.com/cammckinnon/Parenthetic
+  
+  ((()()())(()(()()))((()(()))((())()()()()()()())((()()(()))((())()()()()()()()()())
+  ((())()()()()()()()()()()))))((()()())(()(()()()))((()(())(())())((())()()()()()()(
+  )()()()()()()()()()()()()()()()()()()()()()()()()())))((()(()))((()(())(())())((()(
+  ()))(()(()()))((())()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()()
+  )))((()(())(())())((()(()))(()(()()))((())()()()()()()()()()()())))((()(())(())())(
+  (()(()))(()(()()))((())()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))(
+  (())()()()()()()()()()()()()()())))(()(()()()))((()(())(())())((()(()))(()(()()))((
+  ())()()()()()()()()()()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()())
+  )((())()()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()(
+  )()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()()()()()
+  ()()()())))((()(())(())())((()(()))(()(()()))((())()()()))))
+  
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/cammckinnon/Parenthetic" class="material-symbols-outlined">code</a> <a href="/edit.html?id=parenthetic" class="material-symbols-outlined">edit</a></div>
-
-* parenthetic is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2012 by Cameron McKinnon.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#cameronMcKinnon Cameron McKinnon
-
-codeWithHeader Source code:
- git clone https://github.com/cammckinnon/Parenthetic
-
-dashboard
- #1357 <span title="TotalRank: 1891 Jobs: 103 Users: 1509 Facts: 802 Links: 986">on PLDB</span>
- 12 Years Old
-
-* A Lisp-style language whose programs consist entirely of parentheses.
-
-- parenthetic is developed on <a href="https://github.com/cammckinnon/Parenthetic">GitHub</a> and has 71 stars
-- parenthetic first developed in <a href="../lists/originCommunities.html#httpsGithubComCammckinnonParentheticIssues">https://github.com/cammckinnon/Parenthetic/issues</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/p/Parenthetic.p'>hello-world</a>:
- Parenthetic - https://github.com/cammckinnon/Parenthetic
- 
- ((()()())(()(()()))((()(()))((())()()()()()()())((()()(()))((())()()()()()()()()())
- ((())()()()()()()()()()()))))((()()())(()(()()()))((()(())(())())((())()()()()()()(
- )()()()()()()()()()()()()()()()()()()()()()()()()())))((()(()))((()(())(())())((()(
- ()))(()(()()))((())()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()()
- )))((()(())(())())((()(()))(()(()()))((())()()()()()()()()()()())))((()(())(())())(
- (()(()))(()(()()))((())()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))(
- (())()()()()()()()()()()()()()())))(()(()()()))((()(())(())())((()(()))(()(()()))((
- ())()()()()()()()()()()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()())
- )((())()()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()(
- )()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()()()()()
- ()()()())))((()(())(())())((()(()))(()(()()))((())()()()))))
- 
-
-endColumns
-
-## HackerNews discussions of parenthetic
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: A programming language that uses only parentheses|https://news.ycombinator.com/item?id=3892508|04/26/2012|55|31
-
-keyboardNav fact-lang.html battlestar.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 3892508|Show HN: A programming language that uses only parentheses|2012-04-26 05:01:56 UTC|1335416516|c4m|31|55

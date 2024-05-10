@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DITRAN
+import ../measures/conceptPage.scroll
+id DITRAN
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/ff13489135ed8163941bb2a3cd05a095daaf1d69
+country United States
+originCommunity University of Wiscon
 
-title DITRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2759
 
-html
- <a class="trueBaseThemePreviousItem" href="distributed-processes.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ditroff-ffortid.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ditran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ditran" class="material-symbols-outlined">edit</a></div>
-
-* DITRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #3630 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- DITRAN first developed in <a href="../lists/originCommunities.html#universityOfWiscon">University of Wiscon</a>
-- DITRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=2759
-- Read more about DITRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ff13489135ed8163941bb2a3cd05a095daaf1d69 1.
-
-<br>
-
-endColumns
-
-keyboardNav distributed-processes.html ditroff-ffortid.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,44 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title hilbert
+import ../measures/conceptPage.scroll
+id hilbert
+appeared 2014
+type pl
+website http://hilbert-lang.org
+country Japan and Canada
+originCommunity https://github.com/gogotanaka/hilbert/issues
+domainName hilbert-lang.org
+ registered 2014
 
-title hilbert - Programming language
- hidden
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 8622901|Hilbert: A Latex-like math-oriented programming language|http://hilbert-lang.org|2014-11-18 08:06:05 UTC|1416297965|atmosx|22|90
 
-html
- <a class="trueBaseThemePreviousItem" href="c-talk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lush.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hilbert.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://hilbert-lang.org" class="material-symbols-outlined">home</a> <a href="/edit.html?id=hilbert" class="material-symbols-outlined">edit</a></div>
-
-* hilbert is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #2543 <span title="TotalRank: 3156 Jobs: 103 Users: 2442 Facts: 2067 Links: 986">on PLDB</span>
- 10 Years Old
-
-* 
-
-- hilbert website
- http://hilbert-lang.org
-- hilbert first developed in <a href="../lists/originCommunities.html#httpsGithubComGogotanakaHilbertIssues">https://github.com/gogotanaka/hilbert/issues</a>
-- <a href="http://hilbert-lang.org">hilbert-lang.org</a> was registered in 2014
-
-<br>
-
-endColumns
-
-## HackerNews discussions of hilbert
-
-pipeTable
- title|titleLink|date|score|comments
- Hilbert: A Latex-like math-oriented programming language|https://news.ycombinator.com/item?id=8622901|11/18/2014|90|22
-
-keyboardNav c-talk.html lush.html
-
-import ../footer.scroll
+isbndb 4
+ year|publisher|title|authors|isbn13
+ 1971|Academic Pr|Quantum Mechanics in Hilbert Space|Prugovecki, Eduard|9780125660501
+ 2016|Princeton University Press|An Introduction to Linear Transformations in Hilbert Space. (AM-4), Volume 4 (Annals of Mathematics Studies)|Murray, Francis Joseph|9781400882267
+ 19861001|World Scientific Publishing|Measures And Hilbert Lattices|Gudrun Kalmbach|9789814503105
+ 2012|Springer Science & Business Media|Spectral Theory Of Self-adjoint Operators In Hilbert Space|Michael Sh. Birman and M.Z. Solomjak|9789400945869

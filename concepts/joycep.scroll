@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JOYCE+
+import ../measures/conceptPage.scroll
+id JOYCE+
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/120b5f6f632c86b55cb7bb8761af45f6a9d738b8
+country Colombia
+originCommunity University of Los Andes
 
-title JOYCE+ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4203
 
-html
- <a class="trueBaseThemePreviousItem" href="joyce.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jpl.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/joycep.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=joycep" class="material-symbols-outlined">edit</a></div>
-
-* JOYCE+ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #4183 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- JOYCE+ first developed in <a href="../lists/originCommunities.html#universityOfLosAndes">University of Los Andes</a>
-- JOYCE+ on HOPL
- https://hopl.info/showlanguage.prx?exp=4203
-- Read more about JOYCE+ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/120b5f6f632c86b55cb7bb8761af45f6a9d738b8 1.
-
-<br>
-
-endColumns
-
-keyboardNav joyce.html jpl.html
-
-import ../footer.scroll
+isbndb 0

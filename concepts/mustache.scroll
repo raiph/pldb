@@ -1,53 +1,52 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mustache
+import ../measures/conceptPage.scroll
+id mustache
+appeared 2009
+type template
+creators Chris Wanstrath
+website http://mustache.github.io/
+country United States and France and Portugal and Croatia
+originCommunity https://github.com/mustache
+domainName mustache.github.io
+ awisRank
+  2022 475411
 
-title mustache - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="futhark.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ratfor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mustache.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://mustache.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/mustache/mustache" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mustache" class="material-symbols-outlined">edit</a></div>
-
-* mustache is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2009 by Chris Wanstrath.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#chrisWanstrath Chris Wanstrath
-
-codeWithHeader Source code:
- git clone https://github.com/mustache/mustache
-
-dashboard
- #523 <span title="TotalRank: 1068 Jobs: 103 Users: 245 Facts: 720 Links: 986">on PLDB</span>
- 15 Years Old
- 6k <span title="mustache repos on GitHub.">Repos</span>
-
-* Logic-less Ruby templates.
-
-- mustache website
- http://mustache.github.io/
-- mustache is developed on <a href="https://github.com/mustache/mustache">GitHub</a> and has 2,841 stars
-- There are at least 6,085 mustache repos on <a href="https://github.com/search?q=language:Mustache">GitHub</a>
-- mustache first developed in <a href="../lists/originCommunities.html#httpsGithubComMustache">https://github.com/mustache</a>
-- file extensions for mustache include mustache
-- The  Google BigQuery Public Dataset GitHub snapshot shows 535 users using mustache in 616 repos on <a href="https://api.github.com/search/repositories?q=language:Mustache">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  Hello {{name}}
  You have just won {{value}} dollars!
  {{#in_ca}}
  Well, {{taxed_value}} dollars, after taxes.
  {{/in_ca}}
 
-endColumns
+githubRepo https://github.com/mustache/mustache
+ firstCommit 2009
+ stars 2841
+ forks 278
+ subscribers 62
+ created 2009
+ updated 2022
+ description Logic-less Ruby templates.
+ issues 44
 
-keyboardNav futhark.html ratfor.html
+repoStats
+ firstCommit 2009
+ commits 853
+ committers 78
+ files 98
 
-import ../footer.scroll
+githubLanguage Mustache
+ type markup
+ fileExtensions mustache
+ aceMode smarty
+ codemirrorMode smarty
+ codemirrorMimeType text/x-smarty
+ tmScope text.html.smarty
+ repos 6085
+githubBigQuery Mustache
+ repos 616
+ users 535
+
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PL/EXUS
+import ../measures/conceptPage.scroll
+id PL/EXUS
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/c655c13b1a0704df8a857f026b2e0fb5dbf708f6
+country United States
+originCommunity Texas Institute for Rehabilitation and Research && Baylor College of Medicine && Four-Phase Systems,-Inc
 
-title PL/EXUS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3390
 
-html
- <a class="trueBaseThemePreviousItem" href="pilib.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="planit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pl-exus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pl-exus" class="material-symbols-outlined">edit</a></div>
-
-* PL/EXUS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3937 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- PL/EXUS first developed in <a href="../lists/originCommunities.html#texasInstituteForRehabilitationAndResearch">Texas Institute for Rehabilitation and Research</a> and <a href="../lists/originCommunities.html#baylorCollegeOfMedicine">Baylor College of Medicine</a> and <a href="../lists/originCommunities.html#fourPhaseSystemsInc">Four-Phase Systems,-Inc</a>
-- PL/EXUS on HOPL
- https://hopl.info/showlanguage.prx?exp=3390
-- Read more about PL/EXUS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c655c13b1a0704df8a857f026b2e0fb5dbf708f6 1.
-
-<br>
-
-endColumns
-
-keyboardNav pilib.html planit.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

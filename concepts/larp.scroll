@@ -1,52 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LARP
+import ../measures/conceptPage.scroll
+id LARP
+appeared 2003
+type pl
+creators Marco Lavoie
+conceptDescription LARP is an educational software for teaching algorithmic in structured programming using pseudo code and flowcharts. LARP's main advantage over traditional programming languages is its flexible and semi natural syntax, allowing one to formulate algorithms without the impediments of cryptic languages such as C++, Pascal or Java.
+website http://www.marcolavoie.ca/larp/en/default.htm
+country Canada
+originCommunity https://web.archive.org/web/20200220111251/http://larp.marcolavoie.ca/en/techsupport/bugs_suggestions.htm
 
-title LARP - Programming language
- hidden
+relatedConcepts flowgorithm
 
-html
- <a class="trueBaseThemePreviousItem" href="emfatic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lazy-k.html">&gt;</a>
+visualParadigm true
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/larp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.marcolavoie.ca/larp/en/default.htm" class="material-symbols-outlined">home</a> <a href="/edit.html?id=larp" class="material-symbols-outlined">edit</a></div>
-
-* LARP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2003 by Marco Lavoie.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2003 2003
- link ../lists/creators.html#marcoLavoie Marco Lavoie
-
-dashboard
- #2095 <span title="TotalRank: 2591 Jobs: 103 Users: 2442 Facts: 1502 Links: 986">on PLDB</span>
- 21 Years Old
-
-* LARP is an educational software for teaching algorithmic in structured programming using pseudo code and flowcharts. LARP's main advantage over traditional programming languages is its flexible and semi natural syntax, allowing one to formulate algorithms without the impediments of cryptic languages such as C++, Pascal or Java.
-
-- LARP website
- http://www.marcolavoie.ca/larp/en/default.htm
-- LARP first developed in <a href="../lists/originCommunities.html#httpsWebArchiveOrgWeb20200220111251HttpLarpMarcolavoieCaEnTechsupportBugsSuggestionsHtm">https://web.archive.org/web/20200220111251/http://larp.marcolavoie.ca/en/techsupport/bugs_suggestions.htm</a>
-- See also: (1 related languages)<a href="flowgorithm.html">Flowgorithm</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  \\ Simple pseudo code
  START
-    WRITE &quot;Enter a number&quot;
+    WRITE "Enter a number"
     READ N
  
-    IF N &lt; 0 THEN
-        WRITE &quot;Negative number&quot;
+    IF N < 0 THEN
+        WRITE "Negative number"
     ELSE
-        WRITE &quot;Positive number&quot;
+        WRITE "Positive number"
     ENDIF
  END
 
-endColumns
-
-keyboardNav emfatic.html lazy-k.html
-
-import ../footer.scroll
+isbndb 0

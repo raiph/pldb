@@ -1,42 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Literate Haskell
+import ../measures/conceptPage.scroll
+id Literate Haskell
+appeared 1991
+type pl
+conceptDescription Haskell is one of the few languages that provides native features to support literate programming. In haskell, a literate program is one with the suffix .lhs rather than .hs. In a literate Haskell program, there are two ways to distinguish between code and non-code portions. You can either prepend all code with a > , (bird style) or surround lines of code with \begin{code} and \end{code} pairs (latex style). For those who know, use and love latex, the latter is the suggested way to go.
+reference https://www.haskell.org/onlinereport/literate.html
+country United States
+originCommunity https://www.haskell.org/community/
 
-title Literate Haskell - Programming language
- hidden
+githubLanguage Literate Haskell
+ fileExtensions lhs
+ trendingProjectsCount 0
+ type programming
+ group Haskell
+ aceMode text
+ codemirrorMode haskell-literate
+ codemirrorMimeType text/x-literate-haskell
+ tmScope text.tex.latex.haskell
+ aliases lhaskell or lhs
+ repos 64984
 
-html
- <a class="trueBaseThemePreviousItem" href="ibm-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rhtml.html">&gt;</a>
+pygmentsHighlighter Literate Haskell
+ filename haskell.py
+ fileExtensions lhs
+linguistGrammarRepo https://github.com/atom-haskell/language-haskell
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 13
+ commitCount 463
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/literate-haskell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=literate-haskell" class="material-symbols-outlined">edit</a></div>
-
-* Literate Haskell is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #1715 <span title="TotalRank: 2240 Jobs: 103 Users: 1151 Facts: 1203 Links: 986">on PLDB</span>
- 33 Years Old
- 65k <span title="Literate Haskell repos on GitHub.">Repos</span>
-
-* Haskell is one of the few languages that provides native features to support literate programming. In haskell, a literate program is one with the suffix .lhs rather than .hs. In a literate Haskell program, there are two ways to distinguish between code and non-code portions. You can either prepend all code with a > , (bird style) or surround lines of code with \begin{code} and \end{code} pairs (latex style). For those who know, use and love latex, the latter is the suggested way to go.
-
-- There are at least 64,984 Literate Haskell repos on <a href="https://github.com/search?q=language:Literate Haskell">GitHub</a>
-- Literate Haskell first developed in <a href="../lists/originCommunities.html#httpsWwwHaskellOrgCommunity">https://www.haskell.org/community/</a>
-- file extensions for Literate Haskell include lhs
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Literate Haskell
-- GitHub supports <a href="https://github.com/atom-haskell/language-haskell" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Literate Haskell
-- Read more about Literate Haskell on the web: 1.
- https://www.haskell.org/onlinereport/literate.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav ibm-basic.html rhtml.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

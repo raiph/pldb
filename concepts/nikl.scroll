@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NIKL
+import ../measures/conceptPage.scroll
+id NIKL
+appeared 1986
+type pl
+reference https://semanticscholar.org/paper/d1d2fffa67e72944665f2b09adf2c39dce2dd6d9
+country United States
+originCommunity University of Southern California, Information Sciences Institute
 
-title NIKL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1243
 
-html
- <a class="trueBaseThemePreviousItem" href="nfql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="noah.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/nikl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=nikl" class="material-symbols-outlined">edit</a></div>
-
-* NIKL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #3871 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- NIKL first developed in <a href="../lists/originCommunities.html#universityOfSouthernCaliforniaInformationSciencesInstitute">University of Southern California, Information Sciences Institute</a>
-- NIKL on HOPL
- https://hopl.info/showlanguage.prx?exp=1243
-- Read more about NIKL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d1d2fffa67e72944665f2b09adf2c39dce2dd6d9 1.
-
-<br>
-
-endColumns
-
-keyboardNav nfql.html noah.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

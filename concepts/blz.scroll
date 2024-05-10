@@ -1,72 +1,37 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title blz
+import ../measures/conceptPage.scroll
+id blz
+appeared 2015
+type pl
+website https://blazingk.in/blz
+country United States
 
-title blz - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="toy-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dllup.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/blz.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://blazingk.in/blz" class="material-symbols-outlined">home</a> <a href="https://github.com/blazingkin/blz-ospl" class="material-symbols-outlined">code</a> <a href="/edit.html?id=blz" class="material-symbols-outlined">edit</a></div>
-
-* blz is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/blazingkin/blz-ospl
-
-dashboard
- #1667 <span title="TotalRank: 2181 Jobs: 103 Users: 2101 Facts: 1092 Links: 986">on PLDB</span>
- 9 Years Old
-
-* An open source programming language
-
-- blz website
- https://blazingk.in/blz
-- blz is developed on <a href="https://github.com/blazingkin/blz-ospl">GitHub</a> and has 23 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  import Lists
  :main
    # Print cubes of even numbers
-   evens = range(1000).filter!(x -&gt; x % 2 == 0)
-   print(evens.map!(x -&gt; x ** 3)
+   evens = range(1000).filter!(x -> x % 2 == 0)
+   print(evens.map!(x -> x ** 3)
  end
 
-endColumns
+githubRepo https://github.com/blazingkin/blz-ospl
+ stars 23
+ forks 0
+ subscribers 6
+ created 2014
+ updated 2021
+ description An open source programming language
+ issues 17
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav toy-lang.html dllup.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 538
+ committers 8
+ files 480

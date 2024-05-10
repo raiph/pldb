@@ -1,70 +1,36 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Wart
+import ../measures/conceptPage.scroll
+id Wart
+appeared 2010
+type pl
+creators Kartik K. Agaram
+website http://akkartik.name/post/wart
 
-title Wart - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="moya.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="odrl.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/wart.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://akkartik.name/post/wart" class="material-symbols-outlined">home</a> <a href="https://github.com/akkartik/wart" class="material-symbols-outlined">code</a> <a href="/edit.html?id=wart" class="material-symbols-outlined">edit</a></div>
-
-* Wart is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2010 by Kartik K. Agaram.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#kartikKAgaram Kartik K. Agaram
-
-codeWithHeader Source code:
- git clone https://github.com/akkartik/wart
-
-dashboard
- #1720 <span title="TotalRank: 2248 Jobs: 103 Users: 1350 Facts: 1159 Links: 986">on PLDB</span>
- 14 Years Old
-
-* An experimental, small, readable Lisp with thorough unit tests and extensible functions/macros.
-
-- Wart website
- http://akkartik.name/post/wart
-- Wart is developed on <a href="https://github.com/akkartik/wart">GitHub</a> and has 107 stars
-
-<br>
-
-codeWithHeader Example from the web:
- def (foo (a | (b c)))     # &#39;b&#39; and &#39;c&#39; name parts of list &#39;a&#39;
+example
+ def (foo (a | (b c)))     # 'b' and 'c' name parts of list 'a'
    (list a b c)
- (foo &#39;(1 2))
+ (foo '(1 2))
 
-endColumns
+githubRepo https://github.com/akkartik/wart
+ firstCommit 2010
+ stars 107
+ forks 6
+ subscribers 7
+ created 2010
+ updated 2019
+ description An experimental, small, readable Lisp with thorough unit tests and extensible functions/macros.
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2010
+ commits 4134
+ committers 6
+ files 1081
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav moya.html odrl.html
-
-import ../footer.scroll
+semanticScholar 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MINOPT
+import ../measures/conceptPage.scroll
+id MINOPT
+appeared 1998
+type pl
+reference https://titan.princeton.edu/MINOPT/
+country United States
+originCommunity Princeton University
 
-title MINOPT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4944
 
-html
- <a class="trueBaseThemePreviousItem" href="minivital.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mirager.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/minopt.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=minopt" class="material-symbols-outlined">edit</a></div>
-
-* MINOPT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3833 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- MINOPT first developed in <a href="../lists/originCommunities.html#princetonUniversity">Princeton University</a>
-- MINOPT on HOPL
- https://hopl.info/showlanguage.prx?exp=4944
-- Read more about MINOPT on the web: 1.
- https://titan.princeton.edu/MINOPT/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav minivital.html mirager.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

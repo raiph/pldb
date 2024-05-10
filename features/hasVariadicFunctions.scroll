@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasVariableSubstitutionSyntax.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasVirtualFunctions.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/tick-c.html">Tick C</a>:
+codeWithHeader Example from <a href="../concepts/c.html">C</a>:
  double average(int count, ...)
  {
   //
@@ -52,9 +52,7 @@ codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
      // ...
  }
 
-* Languages *with* Variadic Functions include <a href="../concepts/c.html">C</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/tick-c.html">Tick C</a>
-
-* This question asks: Does the language support functions that accept a variable number of parameters?
+* Languages *with* Variadic Functions include <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/jule.html">Jule</a>
 
 * Read more about Variadic Functions on the web: 1.
  https://en.wikipedia.org/wiki/Variadic_function 1.

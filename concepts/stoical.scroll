@@ -1,40 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title STOICAL
+import ../measures/conceptPage.scroll
+id STOICAL
+appeared 2000
+type pl
+creators Jonathan Moore Liles
+reference http://stoical.sourceforge.net/summary.php
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title STOICAL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5308
 
-html
- <a class="trueBaseThemePreviousItem" href="ssl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tao.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stoical.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=stoical" class="material-symbols-outlined">edit</a></div>
-
-* STOICAL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000 by Jonathan Moore Liles.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
- link ../lists/creators.html#jonathanMooreLiles Jonathan Moore Liles
-
-dashboard
- #3138 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- STOICAL first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- STOICAL on HOPL
- https://hopl.info/showlanguage.prx?exp=5308
-- Read more about STOICAL on the web: 1.
- http://stoical.sourceforge.net/summary.php 1.
-
-<br>
-
-endColumns
-
-keyboardNav ssl.html tao.html
-
-import ../footer.scroll
+semanticScholar 0

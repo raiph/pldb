@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasEscapeCharacters.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasExplicitTypeCasting.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  try {
   undefinedFn()
  } catch (err) {
@@ -48,11 +48,9 @@ codeWithHeader Example from <a href="../concepts/boron.html">Boron</a>:
  
  if error? try [read %does_not_exist] [print &quot;File not found&quot;]
 
-* Languages *with* Exceptions include <a href="../concepts/java.html">Java</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/solidity.html">Solidity</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/pizza.html">Pizza</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/boron.html">Boron</a>, <a href="../concepts/sophia.html">Sophia</a>, <a href="../concepts/oracle-java.html">Oracle Java</a>, <a href="../concepts/deesel.html">Deesel</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
+* Languages *with* Exceptions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/solidity.html">Solidity</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/sophia.html">Sophia</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/boron.html">Boron</a>
 
-* Languages *without* Exceptions include <a href="../concepts/c.html">C</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/tick-c.html">Tick C</a>
-
-* This question asks: Does the language have a concept and syntax for exceptions?
+* Languages *without* Exceptions include <a href="../concepts/c.html">C</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Exceptions on the web: 1.
  https://en.wikipedia.org/wiki/Exception_handling 1.

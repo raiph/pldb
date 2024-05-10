@@ -1,37 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title jedit-editor
-
-title jedit-editor - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="iqr.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lunar.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jedit-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://jedit.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=jedit-editor" class="material-symbols-outlined">edit</a></div>
-
-* jedit-editor is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3250 on PLDB
- 26 Years Old
-
-* 
-
-- jedit-editor website
- http://jedit.org/
-- jedit-editor first developed in <a href="../lists/originCommunities.html#jEditProject">jEdit project</a>
-
-<br>
-
-endColumns
-
-keyboardNav iqr.html lunar.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id jedit-editor
+appeared 1998
+type editor
+website http://jedit.org/
+country Various
+originCommunity jEdit project

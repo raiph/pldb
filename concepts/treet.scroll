@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TREET
+import ../measures/conceptPage.scroll
+id TREET
+appeared 1964
+type pl
+reference https://semanticscholar.org/paper/054d049f7e15940c6f64d72f2de40f8e2a09bdc7
 
-title TREET - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=213
 
-html
- <a class="trueBaseThemePreviousItem" href="transforma.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="triroff.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/treet.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=treet" class="material-symbols-outlined">edit</a></div>
-
-* TREET is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1964.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1964 1964
-
-dashboard
- #3250 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 60 Years Old
-
-* 
-
-- TREET on HOPL
- https://hopl.info/showlanguage.prx?exp=213
-- Read more about TREET on Semantic Scholar: 1.
- https://semanticscholar.org/paper/054d049f7e15940c6f64d72f2de40f8e2a09bdc7 1.
-
-<br>
-
-endColumns
-
-keyboardNav transforma.html triroff.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

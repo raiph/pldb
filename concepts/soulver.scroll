@@ -1,45 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Soulver
+import ../measures/conceptPage.scroll
+id Soulver
+appeared 2005
+type editor
+conceptDescription It's a notepad that gives instant answers to calculations in your text.
+website https://soulver.app/
+country Estonia
+originCommunity Acqualia Software OÜ
 
-title Soulver - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="iitran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bayer-expressions.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/soulver.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://soulver.app/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=soulver" class="material-symbols-outlined">edit</a></div>
-
-* Soulver is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2005.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
-
-dashboard
- #2891 on PLDB
- 19 Years Old
-
-* It's a notepad that gives instant answers to calculations in your text.
-
-- Soulver website
- https://soulver.app/
-- Soulver first developed in <a href="../lists/originCommunities.html#acqualiaSoftwareOu">Acqualia Software OÜ</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  3 × 3
  120 + 30
  June 12 + 3 weeks
  100 EUR in USD
  30% of 700
  $30/day is what per year
-
-endColumns
-
-keyboardNav iitran.html bayer-expressions.html
-
-import ../footer.scroll

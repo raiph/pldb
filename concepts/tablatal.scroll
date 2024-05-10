@@ -1,46 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tablatal
+import ../measures/conceptPage.scroll
+id tablatal
+appeared 2017
+type pl
+conceptDescription This space-sensitive database format is designed to store a list of elements of the same length, accessible by id. The parser is 30 lines long, and allows for human-readable data structures for static sites such as Oscean, also see Indental. In the Tablatal file, the first line declares the key, the spacing between each key defines the length of the parameters for all subsequent lines.
+website https://wiki.xxiivv.com/#tablatal
+reference https://github.com/XXIIVV/Oscean
+domainName wiki.xxiivv.com
 
-title tablatal - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="shakti.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="arrow.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tablatal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://wiki.xxiivv.com/#tablatal" class="material-symbols-outlined">home</a> <a href="/edit.html?id=tablatal" class="material-symbols-outlined">edit</a></div>
-
-* tablatal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-dashboard
- #2981 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2460 Links: 986">on PLDB</span>
- 7 Years Old
-
-* This space-sensitive database format is designed to store a list of elements of the same length, accessible by id. The parser is 30 lines long, and allows for human-readable data structures for static sites such as Oscean, also see Indental. In the Tablatal file, the first line declares the key, the spacing between each key defines the length of the parameters for all subsequent lines.
-
-- tablatal website
- https://wiki.xxiivv.com/#tablatal
-- Read more about tablatal on the web: 1.
- https://github.com/XXIIVV/Oscean 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  NAME    AGE   COLOR
  Erica   12    Opal
  Alex    23    Cyan
  Nike    34    Red
  Ruca    45    Grey
  Or, [{name:Erica,Age:12,Color:Blue},{name:Alex,Age..}
-
-endColumns
-
-keyboardNav shakti.html arrow.html
-
-import ../footer.scroll

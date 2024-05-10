@@ -1,44 +1,19 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mond
+import ../measures/conceptPage.scroll
+id Mond
+appeared 2014
+type pl
+creators Rohan Singh
+conceptDescription A scripting language for C# which can be embedded in Lua-like manner.
+website https://web.archive.org/web/20160429013247/https://rohbot.net/mond/
+country Canada
+originCommunity https://github.com/Rohansi/Mond
 
-title Mond - Programming language
- hidden
+keywords Infinity NaN break case const continue debugger default do else false for foreach fun global if in null return seq switch true undefined var while yield
 
-html
- <a class="trueBaseThemePreviousItem" href="markus.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="etoys.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mond.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20160429013247/https://rohbot.net/mond/" class="material-symbols-outlined">home</a> <a href="https://github.com/Rohansi/Mond" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mond" class="material-symbols-outlined">edit</a></div>
-
-* Mond is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Rohan Singh.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#rohanSingh Rohan Singh
-
-codeWithHeader Source code:
- git clone https://github.com/Rohansi/Mond
-
-dashboard
- #1033 <span title="TotalRank: 1599 Jobs: 103 Users: 899 Facts: 597 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A scripting language for C# which can be embedded in Lua-like manner.
-
-- Mond website
- https://web.archive.org/web/20160429013247/https://rohbot.net/mond/
-- Mond is developed on <a href="https://github.com/Rohansi/Mond">GitHub</a> and has 292 stars
-- Mond first developed in <a href="../lists/originCommunities.html#httpsGithubComRohansiMond">https://github.com/Rohansi/Mond</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  // documentation can be found here: https://github.com/Rohansi/Mond/wiki
  seq range(start, end) {
-     for (var i = start; i &lt;= end; i++)
+     for (var i = start; i <= end; i++)
          yield i;
  }
  
@@ -65,17 +40,20 @@ codeWithHeader Example from the web:
  }
  
  return range(0, 1000)
-        |&gt; where(x -&gt; x % 2 == 0)
-        |&gt; select(x -&gt; x / 2)
-        |&gt; toArray();
+        |> where(x -> x % 2 == 0)
+        |> select(x -> x / 2)
+        |> toArray();
 
-<div class="keywordsBlock">
-codeWithHeader Mond <a href="../lists/keywords.html?filter=mond">Keywords</a>
- Infinity NaN break case const continue debugger default do else false for foreach fun global if in null return seq switch true undefined var while yield
-</div>
+githubRepo https://github.com/Rohansi/Mond
+ stars 292
+ forks 22
+ subscribers 17
+ created 2014
+ updated 2022
+ description A scripting language for .NET Core
 
-endColumns
-
-keyboardNav markus.html etoys.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2014
+ commits 574
+ committers 11
+ files 259

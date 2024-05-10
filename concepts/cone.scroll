@@ -1,42 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cone
+import ../measures/conceptPage.scroll
+id Cone
+appeared 2017
+type pl
+creators Jonathan Goodwin
+conceptDescription Acorn2's passion is the 3D web and his <a href='http://web3d.jondgoodwin.com/'>Pegasus3D</a> browser, and the web is powered by languages. His <a href='https://github.com/jondgoodwin/cone'>Cone</a> language powers the 3D web. Cone is statically-typed, and uses LLVM to generate native efficient executables. Cone will also be a test bed for implementing gradual memory management. His previous work, <a href='http://web3d.jondgoodwin.com/acorn/index.html'>Acorn</a> is a dynamic language with some of the same features.
+website http://cone.jondgoodwin.com/
+country Australia and Belgium and France and Sweden and Indonesia
+originCommunity https://github.com/jondgoodwin/cone
+domainName cone.jondgoodwin.com
 
-title Cone - Programming language
- hidden
+githubRepo https://github.com/jondgoodwin/cone
+ stars 430
+ forks 18
+ subscribers 25
+ created 2017
+ updated 2022
+ firstCommit 2017
+ description Cone Programming Language
+ issues 2
 
-html
- <a class="trueBaseThemePreviousItem" href="linearml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mad.html">&gt;</a>
+repoStats
+ firstCommit 2017
+ commits 1117
+ committers 6
+ files 161
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cone.pldb
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://cone.jondgoodwin.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/jondgoodwin/cone" class="material-symbols-outlined">code</a> <a href="/edit.html?id=cone" class="material-symbols-outlined">edit</a></div>
-
-* Cone is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017 by Jonathan Goodwin.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#jonathanGoodwin Jonathan Goodwin
-
-codeWithHeader Source code:
- git clone https://github.com/jondgoodwin/cone
-
-dashboard
- #1322 <span title="TotalRank: 1861 Jobs: 103 Users: 772 Facts: 1159 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Acorn2's passion is the 3D web and his <a href='http://web3d.jondgoodwin.com/'>Pegasus3D</a> browser, and the web is powered by languages. His <a href='https://github.com/jondgoodwin/cone'>Cone</a> language powers the 3D web. Cone is statically-typed, and uses LLVM to generate native efficient executables. Cone will also be a test bed for implementing gradual memory management. His previous work, <a href='http://web3d.jondgoodwin.com/acorn/index.html'>Acorn</a> is a dynamic language with some of the same features.
-
-- Cone website
- http://cone.jondgoodwin.com/
-- Cone is developed on <a href="https://github.com/jondgoodwin/cone">GitHub</a> and has 430 stars
-- Cone first developed in <a href="../lists/originCommunities.html#httpsGithubComJondgoodwinCone">https://github.com/jondgoodwin/cone</a>
-
-<br>
-
-endColumns
-
-keyboardNav linearml.html mad.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 2010||Second-order Cone Programming|Surhone and Lambert M. and Tennoe and Mariam T. and Henssonow and Susan F.|9786131174155

@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Chicon
+import ../measures/conceptPage.scroll
+id Chicon
+appeared 1998
+type pl
+reference https://semanticscholar.org/paper/f205749110fa5f26bf8996e38b6dbb1857f4ce03
+country China
 
-title Chicon - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4378
 
-html
- <a class="trueBaseThemePreviousItem" href="checkout.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cona.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chicon.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=chicon" class="material-symbols-outlined">edit</a></div>
-
-* Chicon is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1998.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1998 1998
-
-dashboard
- #3369 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 26 Years Old
-
-* 
-
-- Chicon on HOPL
- https://hopl.info/showlanguage.prx?exp=4378
-- Read more about Chicon on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f205749110fa5f26bf8996e38b6dbb1857f4ce03 1.
-
-<br>
-
-endColumns
-
-keyboardNav checkout.html cona.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

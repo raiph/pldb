@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CLANGER
+import ../measures/conceptPage.scroll
+id CLANGER
+appeared 1995
+type pl
+reference https://semanticscholar.org/paper/84b45cb9368d15f63f1183fa73e33680ada60e5d
+country United Kingdom
+originCommunity University of Cambridge
 
-title CLANGER - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4450
 
-html
- <a class="trueBaseThemePreviousItem" href="circal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="classic.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clanger.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=clanger" class="material-symbols-outlined">edit</a></div>
-
-* CLANGER is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1995.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1995 1995
-
-dashboard
- #4096 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 29 Years Old
-
-* 
-
-- CLANGER first developed in <a href="../lists/originCommunities.html#universityOfCambridge">University of Cambridge</a>
-- CLANGER on HOPL
- https://hopl.info/showlanguage.prx?exp=4450
-- Read more about CLANGER on Semantic Scholar: 1.
- https://semanticscholar.org/paper/84b45cb9368d15f63f1183fa73e33680ada60e5d 1.
-
-<br>
-
-endColumns
-
-keyboardNav circal.html classic.html
-
-import ../footer.scroll
+isbndb 0

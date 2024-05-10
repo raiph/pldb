@@ -1,39 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title omega
+import ../measures/conceptPage.scroll
+id omega
+appeared 2005
+type pl
+creators Tim Sheard
+conceptDescription The Ωmega interpreter is styled after the Hugs Haskell Interpreter. The Ωmega syntax is based upon the syntax of Haskell. If you’re unsure of what syntax to use, a best first approximation is to use Haskell syntax. It works most of the time. While clearly descended from Haskell, Ωmega has several important syntactic and semantic differences.
+website http://web.cecs.pdx.edu/~sheard/Omega/index.html
+reference https://code.google.com/archive/p/omega
+country United States
+originCommunity Portland State University
 
-title omega - Programming language
- hidden
+hasLineComments true
+ -- A comment
+hasComments true
+ -- A comment
+hasMultiLineComments true
+ {- A comment
+ -}
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="simcode.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beatnik.html">&gt;</a>
+lineCommentToken --
+multiLineCommentTokens {- -}
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/omega.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://web.cecs.pdx.edu/~sheard/Omega/index.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=omega" class="material-symbols-outlined">edit</a></div>
-
-* omega is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2005 by Tim Sheard.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2005 2005
- link ../lists/creators.html#timSheard Tim Sheard
-
-dashboard
- #819 <span title="TotalRank: 1377 Jobs: 103 Users: 2442 Facts: 288 Links: 986">on PLDB</span>
- 19 Years Old
-
-* The Ωmega interpreter is styled after the Hugs Haskell Interpreter. The Ωmega syntax is based upon the syntax of Haskell. If you’re unsure of what syntax to use, a best first approximation is to use Haskell syntax. It works most of the time. While clearly descended from Haskell, Ωmega has several important syntactic and semantic differences.
-
-- omega website
- http://web.cecs.pdx.edu/~sheard/Omega/index.html
-- omega first developed in <a href="../lists/originCommunities.html#portlandStateUniversity">Portland State University</a>
-- Read more about omega on the web: 1.
- https://code.google.com/archive/p/omega 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  --
  -- This code written by James Hook
  -- This file should work with Omega version 1.1
@@ -43,9 +31,9 @@ codeWithHeader Example from the web:
  {-- These are predefined by the compiler
  kind Nat = Z | S Nat
  
- data Nat&#39; n
+ data Nat' n
    = Z where n = Z
-   | forall m . S (Nat&#39; m) where n = S m
+   | forall m . S (Nat' m) where n = S m
  -}
  
  
@@ -56,28 +44,28 @@ codeWithHeader Example from the web:
  reflLE :: LE a a
  reflLE = LeBase
  
- transLE :: (LE a b) -&gt; (LE b c) -&gt; (LE a c)
+ transLE :: (LE a b) -> (LE b c) -> (LE a c)
  transLE p LeBase = p
  transLE p (LeStep q) = LeStep (transLE p q)
  
- compare :: Nat&#39; a -&gt; Nat&#39; b -&gt; ((LE a b)+(LE b a))
+ compare :: Nat' a -> Nat' b -> ((LE a b)+(LE b a))
  compare Z Z = L LeBase
  compare Z (S x) =
-   case compare Z x of L w -&gt; L (LeStep w)
+   case compare Z x of L w -> L (LeStep w)
  compare (S x) Z =
-   case compare Z x of L w -&gt; R (LeStep w)
+   case compare Z x of L w -> R (LeStep w)
  compare (S x) (S y) = mapP g g (compare x y )
    where mapP f g (L x) = L(f x)
          mapP f g (R x) = R(g x)
-         g :: LE x y -&gt; LE (S x) (S y)
+         g :: LE x y -> LE (S x) (S y)
          g LeBase = LeBase
          g (LeStep x) = LeStep (g x)
  
  data MonoList min max
    = MonoNil (LE min max)
-   | forall n a . MonoCons (Nat&#39; n) (LE a n) (LE n max) (MonoList min a)
+   | forall n a . MonoCons (Nat' n) (LE a n) (LE n max) (MonoList min a)
  
- appMonoList :: MonoList b c -&gt; MonoList a b -&gt; MonoList a c
+ appMonoList :: MonoList b c -> MonoList a b -> MonoList a c
  appMonoList (MonoNil bc) (MonoNil ab) =
        MonoNil (transLE ab bc)
  appMonoList (MonoNil bc) (MonoCons n an nb xs) =
@@ -85,23 +73,23 @@ codeWithHeader Example from the web:
  appMonoList (MonoCons m dm mc ys) xs =
        MonoCons m dm mc (appMonoList ys xs)
  
- singletonMonoList :: Nat&#39; n -&gt; MonoList n n
+ singletonMonoList :: Nat' n -> MonoList n n
  singletonMonoList n = MonoCons n reflLE reflLE (MonoNil reflLE)
  
  data IntervalList min max
    = ILNil (LE min max)
-   | forall x . ILCons (Nat&#39; x) (LE min x) (LE x max) (IntervalList min max)
+   | forall x . ILCons (Nat' x) (LE min x) (LE x max) (IntervalList min max)
  
- partition :: Nat&#39; n -&gt; LE a n -&gt; LE n b -&gt; IntervalList a b -&gt;
+ partition :: Nat' n -> LE a n -> LE n b -> IntervalList a b ->
                       (IntervalList a n, IntervalList n b)
  partition x an nb xs = partitionAcc (ILNil an) (ILNil nb) xs
    where partitionAcc ls gs (ILNil ab) = (ls,gs)
          partitionAcc ls gs (ILCons y ay yb ys) =
              case compare y x of
-               L yx -&gt; partitionAcc (ILCons y ay yx ls) gs ys
-               R xy -&gt; partitionAcc ls (ILCons y xy yb gs) ys
+               L yx -> partitionAcc (ILCons y ay yx ls) gs ys
+               R xy -> partitionAcc ls (ILCons y xy yb gs) ys
  
- qsort :: IntervalList a b -&gt; MonoList a b
+ qsort :: IntervalList a b -> MonoList a b
  qsort (ILNil ab) = MonoNil ab
  qsort (ILCons x ax xb (ILNil ab)) = MonoCons x ax xb (MonoNil reflLE)
  qsort (ILCons x ax xb xs) =
@@ -112,40 +100,9 @@ codeWithHeader Example from the web:
  
  --
 
-endColumns
+isbndb 0
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token {- -}
-  Example
-   {- A comment
-   -}
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav simcode.html beatnik.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 1991|The Omega test: A fast and practical integer programming algorithm for dependence analysis|10.1145/125826.125848|950|82|W. Pugh|285024b15197b5face8bdef1d03f36949b8339c4
+ 2008|Programming in Omega|10.1007/978-3-540-88059-2_5|31|0|T. Sheard and Nathan Mishra-Linger|69077e4f231a87a15ae3e0dff8c718d5e36f729d

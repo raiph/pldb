@@ -1,39 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ACCENT
+import ../measures/conceptPage.scroll
+id ACCENT
+appeared 1990
+type pl
+reference https://en.wikipedia.org/wiki/Rational_Synergy#History
+originCommunity Caseware, Inc
 
-title ACCENT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1782
 
-html
- <a class="trueBaseThemePreviousItem" href="xql-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="argos.html">&gt;</a>
+wordRank 8873
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/accent.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=accent" class="material-symbols-outlined">edit</a></div>
-
-* ACCENT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3047 <span title="TotalRank: 3807 Jobs: 103 Users: 2838 Facts: 2718 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- ACCENT first developed in <a href="../lists/originCommunities.html#casewareInc">Caseware, Inc</a>
-- ACCENT on HOPL
- https://hopl.info/showlanguage.prx?exp=1782
-- Read more about ACCENT on the web: 1.
- https://en.wikipedia.org/wiki/Rational_Synergy#History 1.
-
-<br>
-
-endColumns
-
-keyboardNav xql-lang.html argos.html
-
-import ../footer.scroll
+isbndb 1
+ year|publisher|title|authors|isbn13
+ ||Accent (programming Language)|Surhone and Lambert M. and Tennoe and Mariam T. and Henssonow and Susan F.|9786133141537

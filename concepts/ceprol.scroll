@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Ceprol
+import ../measures/conceptPage.scroll
+id Ceprol
+appeared 1985
+type pl
+reference https://semanticscholar.org/paper/c636f2417d3a94e744853d7d4318bbc665a9bf87
+country Germany
+originCommunity Technical University of Braunschweig
 
-title Ceprol - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6229
 
-html
- <a class="trueBaseThemePreviousItem" href="cellsim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="champ.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ceprol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ceprol" class="material-symbols-outlined">edit</a></div>
-
-* Ceprol is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1985.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1985 1985
-
-dashboard
- #3558 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 39 Years Old
-
-* 
-
-- Ceprol first developed in <a href="../lists/originCommunities.html#technicalUniversityOfBraunschweig">Technical University of Braunschweig</a>
-- Ceprol on HOPL
- https://hopl.info/showlanguage.prx?exp=6229
-- Read more about Ceprol on Semantic Scholar: 1.
- https://semanticscholar.org/paper/c636f2417d3a94e744853d7d4318bbc665a9bf87 1.
-
-<br>
-
-endColumns
-
-keyboardNav cellsim.html champ.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

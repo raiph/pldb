@@ -1,50 +1,53 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pure
+import ../measures/conceptPage.scroll
+id Pure
+appeared 2008
+type pl
+creators Albert Gräf
+website https://agraef.github.io/pure-lang/
+country Germany
+originCommunity https://bitbucket.org/purelang/pure-lang/issues
 
-title Pure - Programming language
- hidden
+wikipedia https://en.wikipedia.org/wiki/Pure_(programming_language)
+ example
+  extern int puts(char*);
+   hello = puts "Hello, world!";
+   hello;
+ related freebsd linux haskell lisp alice matlab llvmir c miranda puredata octave opengl faust supercollider
+ summary Pure, successor to the equational language Q, is a dynamically typed, functional programming language based on term rewriting. It has facilities for user-defined operator syntax, macros, arbitrary-precision arithmetic (multiple-precision numbers), and compiling to native code through the LLVM. Pure is free and open-source software distributed (mostly) under the GNU Lesser General Public License version 3 or later. Pure comes with an interpreter and debugger, provides automatic memory management, has powerful functional and symbolic programming abilities, and interfaces to libraries in C (e.g., for numerics, low-level protocols, and other such tasks). At the same time, Pure is a small language designed from scratch; its interpreter is not large, and the library modules are written in Pure. The syntax of Pure resembles that of Miranda and Haskell, but it is a free-format language and thus uses explicit delimiters (rather than off-side rule indents) to denote program structure. The Pure language is a successor of the equational programming language Q created formerly by the same author, Albert Gräf at the University of Mainz, Germany. Relative to Q, it offers some important new features (such as local functions with lexical scoping, efficient vector and matrix support, and the built-in C interface) and programs run much faster as they are compiled just-in-time to native code on the fly. Pure is mostly aimed at mathematical applications and scientific computing currently, but its interactive interpreter environment, the C interface and the growing set of addon modules make it suitable for a variety of other applications, such as artificial intelligence, symbolic computation, and real-time multimedia processing. Pure plug-ins are available for the Gnumeric spreadsheet and Miller Puckette's Pure Data graphical multimedia software, which make it possible to extend these programs with functions written in the Pure language. Interfaces are also provided as library modules to GNU Octave, OpenCV, OpenGL, the GNU Scientific Library, FAUST, SuperCollider, and liblo (for Open Sound Control (OSC)).
+ pageId 20446791
+ dailyPageViews 31
+ created 2008
+ backlinksCount 34
+ revisionCount 100
+ appeared 2008
 
-html
- <a class="trueBaseThemePreviousItem" href="comby.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="focal.html">&gt;</a>
+rosettaCode http://www.rosettacode.org/wiki/Category:Pure
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pure.pldb
+tryItOnline pure
 
-startColumns 4
+fileType text
+wordRank 3337
+isOpenSource true
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://agraef.github.io/pure-lang/" class="material-symbols-outlined">home</a> <a href="pure" class="material-symbols-outlined">terminal</a> <a href="https://en.wikipedia.org/wiki/Pure_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=pure" class="material-symbols-outlined">edit</a></div>
-
-* Pure is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Albert Gräf.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#albertGraf Albert Gräf
-
-dashboard
- #898 <span title="TotalRank: 1462 Jobs: 103 Users: 1223 Facts: 692 Links: 667">on PLDB</span>
- 16 Years Old
-
-* Try now: <a href="https://tio.run/#pure">TIO</a>
-
-* Pure, successor to the equational language Q, is a dynamically typed, functional programming language based on term rewriting. It has facilities for user-defined operator syntax, macros, arbitrary-precision arithmetic (multiple-precision numbers), and compiling to native code through the LLVM. Pure is free and open-source software distributed (mostly) under the GNU Lesser General Public License version 3 or later. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Pure_(programming_language) Read more on Wikipedia...
-
-- Pure website
- https://agraef.github.io/pure-lang/
-- Pure Wikipedia page
- https://en.wikipedia.org/wiki/Pure_(programming_language)
-- Pure first developed in <a href="../lists/originCommunities.html#httpsBitbucketOrgPurelangPureLangIssues">https://bitbucket.org/purelang/pure-lang/issues</a>
-- Explore Pure snippets on <a href="http://www.rosettacode.org/wiki/Category:Pure">Rosetta Code</a>
-- See also: (14 related languages)<a href="freebsd.html">FreeBSD</a>, <a href="linux.html">Linux</a>, <a href="haskell.html">Haskell</a>, <a href="lisp.html">Lisp</a>, <a href="alice.html">Alice</a>, <a href="matlab.html">MATLAB</a>, <a href="llvmir.html">LLVM IR</a>, <a href="c.html">C</a>, <a href="miranda.html">Miranda</a>, <a href="puredata.html">Pure Data</a>, <a href="octave.html">GNU Octave</a>, <a href="opengl.html">OpenGL</a>, <a href="faust.html">FAUST</a>, <a href="supercollider.html">SuperCollider</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Pure_(programming_language)'>Wikipedia</a>:
- extern int puts(char*);
-  hello = puts &quot;Hello, world!&quot;;
-  hello;
-
-endColumns
-
-keyboardNav comby.html focal.html
-
-import ../footer.scroll
+semanticScholar 19
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2014|Proof-producing translation of higher-order logic into pure and stateful ML|10.1017/S0956796813000282|52|7|Magnus O. Myreen and Scott Owens|5b203abc65643b5237ffb703e01ff5ae080b35fe
+ 2012|Position paper: nondeterminism is unavoidable, but data races are pure evil|10.1145/2414729.2414732|48|3|H. Boehm|caf8e6709fc112adc62ac1ef57dd4dfc561aec67
+ 2012|Task-oriented programming in a pure functional language|10.1145/2370776.2370801|47|5|M. J. Plasmeijer and B. Lijnse and Steffen Michels and P. Achten and P. Koopman|5a2f4c1479f02950563df29427322005125a3efd
+ 2011|Realizability and Parametricity in Pure Type Systems|10.1007/978-3-642-19805-2_8|43|3|Jean-Philippe Bernardy and Marc Lasson|f2458d0def87bc42e57cb308b7145eb83bf9efeb
+ 1990|Representing Object Identity in a Pure Functional Language|10.1007/3-540-53507-1_69|26|1|A. Ohori|596a96ca28d3ad73ab4bb09a2532d266e83a0b9d
+ 2014|Programming BDI Agents with Pure Java|10.1007/978-3-319-11584-9_15|21|0|A. Pokahr and L. Braubach and C. Haubeck and J. Ladiges|cbd32c3e8f0b4c15469956e271d6de1ab57a57d9
+ 2019|Milestones from the Pure Lisp theorem prover to ACL2|10.1007/s00165-019-00490-3|16|1|J. S. Moore|9608e7fb5b37c9208fe8af63e10e83e029a23405
+ 2014|Automatic design of sound synthesizers as pure data patches using coevolutionary mixed-typed cartesian genetic programming|10.1145/2576768.2598303|15|2|Matthieu Macret and P. Pasquier|05382fbb8c09605c4e410d8a5d8a99aabfcc982e
+ 2016|Pure ion chromatogram extraction via optimal k-means clustering|10.1039/C6RA08409E|7|0|H. Ji and Hongmei Lu and Zhimin Zhang|3d4c18b2c730b4262c73ea976ef48272d435d2c9
+ 2013|Pure trait-based programming on the Java platform|10.1145/2500828.2500835|7|0|Lorenzo Bettini and F. Damiani|7f2d5abb57901a4503be1c3d31dbb7c1e175ae3c
+ 1989|Imperative Effects from a Pure Functional Language|10.1007/978-1-4471-3166-3_11|6|0|L. McLoughlin and E. S. Hayes|d917999058a69013f538afdba8ac5d8d43cd4202
+ 2013|Pure Pointer Programs and Tree Isomorphism|10.1007/978-3-642-37075-5_21|5|0|M. Hofmann and Ramyaa and Ulrich Schöpp|6097deb125048c581e9cfecf0e518206fc408a23
+ 2002|A Pure Meta-interpreter for Flat GHC, a Concurrent Constraint Language|10.1007/3-540-45628-7_7|4|0|K. Ueda|3cb9bba2dd901c9920ba44d66c5a5b92fa4f2bbe
+ 2015|A Game Engine in Pure Python for CS1: Design, Experience, and Limits|10.1145/2729094.2742590|4|0|John Aycock and Etienne Pitout and Sarah Storteboom|719053092aadf4ccdd46e6af9e26ce18c2b0d6a9
+ 1991|Parallel Programming with Pure Functional Languages|10.1007/3-540-55160-3_48|3|0|R. Harrison|475f93a9ee89b25b4bcc22b53a14adeae8b76544
+ 2013|An evaluation of a pure embedded domain-specific language for strategic term rewriting|10.4018/978-1-4666-2092-6.CH004|3|0|Shirren Premaratne and A. Sloane and Len Hamey|8123bee5eded32079734e106b60a7ea60ac88497
+ 2021|A Synchronous Effects Logic for Temporal Verification of Pure Esterel|10.1007/978-3-030-67067-2_19|2|1|Yahui Song and W. Chin|821f0b1c578451f71677a8a0d571f6b0f71ae4a7
+ 2015|Introduction to Pure Data|10.1007/978-1-4842-1583-8_1|1|0|Alexandros Drymonitis|c129841a37361b2fd04c1c0c5942e273bf4b4f43
+ 1993|Dynamic programming in a pure functional language|10.1145/162754.162864|1|0|R. Harrison and C. Glass|39df21ea57c745856838c45662bbd253a33e1330

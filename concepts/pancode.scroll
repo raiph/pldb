@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PANCODE
+import ../measures/conceptPage.scroll
+id PANCODE
+appeared 1982
+type pl
+reference https://semanticscholar.org/paper/9e64520ea46880dd54f6fc649a2db3cf6d6481a3
+country Canada
+originCommunity Concordia Universily
 
-title PANCODE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5293
 
-html
- <a class="trueBaseThemePreviousItem" href="palingol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="panon-1.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pancode.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pancode" class="material-symbols-outlined">edit</a></div>
-
-* PANCODE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3908 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- PANCODE first developed in <a href="../lists/originCommunities.html#concordiaUniversily">Concordia Universily</a>
-- PANCODE on HOPL
- https://hopl.info/showlanguage.prx?exp=5293
-- Read more about PANCODE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9e64520ea46880dd54f6fc649a2db3cf6d6481a3 1.
-
-<br>
-
-endColumns
-
-keyboardNav palingol.html panon-1.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title COPAS
+import ../measures/conceptPage.scroll
+id COPAS
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/393d85af81656c5b69411358afc5512db2e7bf39
+country United Kingdom
+originCommunity University of Shefield
 
-title COPAS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3491
 
-html
- <a class="trueBaseThemePreviousItem" href="contrans.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="coral-64.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/copas.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=copas" class="material-symbols-outlined">edit</a></div>
-
-* COPAS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #3595 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- COPAS first developed in <a href="../lists/originCommunities.html#universityOfShefield">University of Shefield</a>
-- COPAS on HOPL
- https://hopl.info/showlanguage.prx?exp=3491
-- Read more about COPAS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/393d85af81656c5b69411358afc5512db2e7bf39 1.
-
-<br>
-
-endColumns
-
-keyboardNav contrans.html coral-64.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

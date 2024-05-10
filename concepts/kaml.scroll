@@ -1,46 +1,30 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title KAML
+import ../measures/conceptPage.scroll
+id KAML
+appeared 2018
+type dataNotation
+reference https://github.com/ISLEcode/KAML/blob/master/kaml-specifications.md#about
+standsFor KAML ain't markup language
+country Switzerland
+originCommunity https://github.com/ISLEcode
 
-title KAML - Data notation
- hidden
+supersetOf yaml json
 
-html
- <a class="trueBaseThemePreviousItem" href="starpial.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kami.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kaml.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/ISLEcode/KAML" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kaml" class="material-symbols-outlined">edit</a></div>
-
-* KAML, aka KAML ain't markup language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/ISLEcode/KAML
-
-dashboard
- #1960 <span title="TotalRank: 2470 Jobs: 103 Users: 2392 Facts: 1381 Links: 986">on PLDB</span>
- 6 Years Old
-
-* KAML ain't markup language
-
-- KAML is developed on <a href="https://github.com/ISLEcode/KAML">GitHub</a> and has 3 stars
-- KAML first developed in <a href="../lists/originCommunities.html#httpsGithubComIslEcode">https://github.com/ISLEcode</a>
-- Read more about KAML on the web: 1.
- https://github.com/ISLEcode/KAML/blob/master/kaml-specifications.md#about 1.
-
-<br>
-
-codeWithHeader Example from the web:
- title=&quot;KAML Example&quot;                    # A simple string
+example
+ title="KAML Example"                    # A simple string
  author=Jean-Michel\ Marcastel           # Alternate string representation with escaped whitespaces
  number=1234                             # Numeric value handled as a string
 
-endColumns
+githubRepo https://github.com/ISLEcode/KAML
+ stars 3
+ forks 0
+ subscribers 2
+ created 2018
+ updated 2020
+ description KAML ain't markup language
+ issues 0
 
-keyboardNav starpial.html kami.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 59
+ committers 2
+ files 6

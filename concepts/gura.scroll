@@ -1,42 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title gura
+import ../measures/conceptPage.scroll
+id gura
+appeared 2012
+type pl
+creators Yutaka Saito
+conceptDescription Gura is an iterator-oriented programming language that focuses on iterators with improved functions for calculation and data processing. It makes you be able to write an artificial code for what used to need a lot of codes of repeat syntax.
+website http://www.gura-lang.org
+country Japan
+originCommunity https://github.com/gura-lang
+domainName gura-lang.org
+ registered 2013
+ awisRank
+  2022 3631631
 
-title gura - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="z80.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="swizzle.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/gura.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.gura-lang.org" class="material-symbols-outlined">home</a> <a href="https://github.com/gura-lang/gura" class="material-symbols-outlined">code</a> <a href="/edit.html?id=gura" class="material-symbols-outlined">edit</a></div>
-
-* gura is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Yutaka Saito.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#yutakaSaito Yutaka Saito
-
-codeWithHeader Source code:
- git clone https://github.com/gura-lang/gura
-
-dashboard
- #1486 <span title="TotalRank: 2004 Jobs: 103 Users: 1950 Facts: 915 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Gura is an iterator-oriented programming language that focuses on iterators with improved functions for calculation and data processing. It makes you be able to write an artificial code for what used to need a lot of codes of repeat syntax.
-
-- gura website
- http://www.gura-lang.org
-- gura is developed on <a href="https://github.com/gura-lang/gura">GitHub</a> and has 39 stars
-- gura first developed in <a href="../lists/originCommunities.html#httpsGithubComGuraLang">https://github.com/gura-lang</a>
-- <a href="http://www.gura-lang.org">gura-lang.org</a> was registered in 2013
-
-<br>
-
-codeWithHeader Example from the web:
+example
  prime() = {
          p = []
          for (n in 2..):xiter {
@@ -47,14 +23,20 @@ codeWithHeader Example from the web:
          }
  }
 
-endColumns
+githubRepo https://github.com/gura-lang/gura
+ stars 39
+ forks 0
+ subscribers 6
+ created 2012
+ updated 2020
+ description Gura Programming Language
 
-## HackerNews discussions of gura
+repoStats
+ firstCommit 2012
+ commits 7930
+ committers 8
+ files 5166
 
-pipeTable
- title|titleLink|date|score|comments
- Gura: Iterator-Oriented Programming Language|https://news.ycombinator.com/item?id=8215028|08/23/2014|56|8
-
-keyboardNav z80.html swizzle.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|url|time|timestamp|by|comments|score
+ 8215028|Gura: Iterator-Oriented Programming Language|http://www.gura-lang.org/|2014-08-23 04:48:44 UTC|1408769324|matsuu|8|56

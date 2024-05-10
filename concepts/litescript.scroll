@@ -1,44 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title LiteScript
+import ../measures/conceptPage.scroll
+id LiteScript
+appeared 2013
+type pl
+creators Lucio M. Tato
+website https://github.com/luciotato/LiteScript
+country Argentina
+originCommunity https://github.com/luciotato/LiteScript/issues
 
-title LiteScript - Programming language
- hidden
+compilesTo javascript
+writtenIn javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="jass.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="om.html">&gt;</a>
+githubRepo https://github.com/luciotato/LiteScript
+ stars 145
+ forks 7
+ subscribers 12
+ created 2013
+ updated 2020
+ description Compile-to-js and compile-to-c language, highly readable, keep it simple philosophy
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/litescript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/luciotato/LiteScript" class="material-symbols-outlined">home</a> <a href="https://github.com/luciotato/LiteScript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=litescript" class="material-symbols-outlined">edit</a></div>
-
-* LiteScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2013 by Lucio M. Tato.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2013 2013
- link ../lists/creators.html#lucioMTato Lucio M. Tato
-
-codeWithHeader Source code:
- git clone https://github.com/luciotato/LiteScript
-
-dashboard
- #1801 <span title="TotalRank: 2332 Jobs: 103 Users: 1243 Facts: 1669 Links: 986">on PLDB</span>
- 11 Years Old
-
-* Compile-to-js and compile-to-c language, highly readable, keep it simple philosophy
-
-- LiteScript website
- https://github.com/luciotato/LiteScript
-- LiteScript is developed on <a href="https://github.com/luciotato/LiteScript">GitHub</a> and has 145 stars
-- LiteScript first developed in <a href="../lists/originCommunities.html#httpsGithubComLuciotatoLiteScriptIssues">https://github.com/luciotato/LiteScript/issues</a>
-- LiteScript compiles to <a href="javascript.html">JavaScript</a>
-- LiteScript is written in <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav jass.html om.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2013
+ commits 158
+ committers 7
+ files 770

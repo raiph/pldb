@@ -1,45 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title passambler
+import ../measures/conceptPage.scroll
+id passambler
+appeared 2015
+type pl
+country Belgium
+originCommunity https://github.com/gitter-badger/Passambler/pulls
 
-title passambler - Programming language
- hidden
+githubRepo https://github.com/gitter-badger/Passambler
+ stars 0
+ forks 1
+ subscribers 1
+ created 2015
+ updated 2015
+ description The Passambler programming language
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="horse64.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rockstar-rkt.html">&gt;</a>
+repoStats
+ firstCommit 2015
+ commits 749
+ committers 3
+ files 193
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/passambler.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/gitter-badger/Passambler" class="material-symbols-outlined">code</a> <a href="/edit.html?id=passambler" class="material-symbols-outlined">edit</a></div>
-
-* passambler is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/gitter-badger/Passambler
-
-dashboard
- #2268 <span title="TotalRank: 2758 Jobs: 103 Users: 2392 Facts: 1669 Links: 986">on PLDB</span>
- 9 Years Old
-
-* The Passambler programming language
-
-- passambler is developed on <a href="https://github.com/gitter-badger/Passambler">GitHub</a> and has 0 stars
-- passambler first developed in <a href="../lists/originCommunities.html#httpsGithubComGitterBadgerPassamblerPulls">https://github.com/gitter-badger/Passambler/pulls</a>
-
-<br>
-
-endColumns
-
-## HackerNews discussions of passambler
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Passambler: A toy language I made in Java over the course of 4 months|https://news.ycombinator.com/item?id=9676182|06/07/2015|5|0
-
-keyboardNav horse64.html rockstar-rkt.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 9676182|Show HN: Passambler: A toy language I made in Java over the course of 4 months|2015-06-07 20:03:25 UTC|1433707405|raoulvdberge|0|5

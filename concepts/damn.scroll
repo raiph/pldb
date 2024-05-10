@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DAMN
+import ../measures/conceptPage.scroll
+id DAMN
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/65c0c8b85bc5b98ff90e4b5e98d7f6dd80efb37e
+country United States
+originCommunity The University of Michigan
 
-title DAMN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7617
 
-html
- <a class="trueBaseThemePreviousItem" href="cupid.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="debl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/damn.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=damn" class="material-symbols-outlined">edit</a></div>
-
-* DAMN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #4114 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- DAMN first developed in <a href="../lists/originCommunities.html#theUniversityOfMichigan">The University of Michigan</a>
-- DAMN on HOPL
- https://hopl.info/showlanguage.prx?exp=7617
-- Read more about DAMN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/65c0c8b85bc5b98ff90e4b5e98d7f6dd80efb37e 1.
-
-<br>
-
-endColumns
-
-keyboardNav cupid.html debl.html
-
-import ../footer.scroll
+wordRank 5728
+centralPackageRepositoryCount 0

@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SIL
+import ../measures/conceptPage.scroll
+id SIL
+appeared 1990
+type pl
+creators Niels Houbak
+conceptDescription A Simulation Language
+reference https://semanticscholar.org/paper/77e57334cb2b0799b259d562027eceda852bcb32
+country Denmark
+originCommunity Technical University of Denmark
 
-title SIL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1593
 
-html
- <a class="trueBaseThemePreviousItem" href="shoe.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sina.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sil" class="material-symbols-outlined">edit</a></div>
-
-* SIL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990 by Niels Houbak.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
- link ../lists/creators.html#nielsHoubak Niels Houbak
-
-dashboard
- #3131 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 34 Years Old
-
-* A Simulation Language
-
-- SIL first developed in <a href="../lists/originCommunities.html#technicalUniversityOfDenmark">Technical University of Denmark</a>
-- SIL on HOPL
- https://hopl.info/showlanguage.prx?exp=1593
-- Read more about SIL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/77e57334cb2b0799b259d562027eceda852bcb32 1.
-
-<br>
-
-endColumns
-
-keyboardNav shoe.html sina.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

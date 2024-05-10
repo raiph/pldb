@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CASSANDRE
+import ../measures/conceptPage.scroll
+id CASSANDRE
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/0dbf87aac61698a5f2919252902aa89c1f42b158
+country France
+originCommunity Université Grenoble Alpes
 
-title CASSANDRE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3011
 
-html
- <a class="trueBaseThemePreviousItem" href="capsule.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="catalysis.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cassandre.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cassandre" class="material-symbols-outlined">edit</a></div>
-
-* CASSANDRE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #3551 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- CASSANDRE first developed in <a href="../lists/originCommunities.html#universiteGrenobleAlpes">Université Grenoble Alpes</a>
-- CASSANDRE on HOPL
- https://hopl.info/showlanguage.prx?exp=3011
-- Read more about CASSANDRE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0dbf87aac61698a5f2919252902aa89c1f42b158 1.
-
-<br>
-
-endColumns
-
-keyboardNav capsule.html catalysis.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

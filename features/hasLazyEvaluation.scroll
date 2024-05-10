@@ -9,9 +9,9 @@ html
  <a class="trueBaseThemePreviousItem" href="hasLabels.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasLineComments.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  fn void print(String s)
@@ -27,8 +27,6 @@ codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  @foo(true, print(&quot;Hello&quot;));
 
 * Languages *with* Lazy Evaluation include <a href="../concepts/r.html">R</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/popr.html">popr</a>
-
-* This question asks: Does the language wait to evaluate expressions until needed?
 
 * Read more about Lazy Evaluation on the web: 1.
  https://en.wikipedia.org/wiki/Lazy_evaluation 1.

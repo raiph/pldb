@@ -1,58 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ScriptEase
+import ../measures/conceptPage.scroll
+id ScriptEase
+appeared 2001
+type pl
+conceptDescription ScriptEase provides the most powerful and advanced form of JavaScript available today. Whereas other flavors of JavaScipt are embedded in web browsers and restricted to scripts that have been transmitted along with HTML documents, the ScriptEase processor allows you to run scripts locally, so you can use ScriptEase to write full fledged programs. In addition, ScriptEase has added commands and directives that increase and extend its power without interfering with the operation of standard JavaScript. These enhancements include preprocessor directives such as #include and #define, the switch/case statement, and the built-in Buffer object.
+website https://web.archive.org/web/20160402174838/http://old.minford.k12.oh.us/sewse/index.htm
+reference https://web.archive.org/web/20030417161951/http://www.nombas.com/us/company/company.htm
+country United States 
+originCommunity Nombas, Inc
 
-title ScriptEase - Programming language
- hidden
+hasDirectives true
 
-html
- <a class="trueBaseThemePreviousItem" href="planguage.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="suneido.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/scriptease.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.archive.org/web/20160402174838/http://old.minford.k12.oh.us/sewse/index.htm" class="material-symbols-outlined">home</a> <a href="/edit.html?id=scriptease" class="material-symbols-outlined">edit</a></div>
-
-* ScriptEase is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #2653 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 23 Years Old
-
-* ScriptEase provides the most powerful and advanced form of JavaScript available today. Whereas other flavors of JavaScipt are embedded in web browsers and restricted to scripts that have been transmitted along with HTML documents, the ScriptEase processor allows you to run scripts locally, so you can use ScriptEase to write full fledged programs. In addition, ScriptEase has added commands and directives that increase and extend its power without interfering with the operation of standard JavaScript. These enhancements include preprocessor directives such as #include and #define, the switch/case statement, and the built-in Buffer object.
-
-- ScriptEase website
- https://web.archive.org/web/20160402174838/http://old.minford.k12.oh.us/sewse/index.htm
-- ScriptEase first developed in <a href="../lists/originCommunities.html#nombasInc">Nombas, Inc</a>
-- ScriptEase on HOPL
- https://hopl.info/showlanguage.prx?exp=3619
-- Read more about ScriptEase on the web: 1.
- https://web.archive.org/web/20030417161951/http://www.nombas.com/us/company/company.htm 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  while( ThereAreUncalledNamesOnTheList() == true){
    name=GetNameFromTheList();
       CallthePerson(name);
       LeaveTheMessage();
    }
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Directives
-  FeatureLink ../features/hasDirectives.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav planguage.html suneido.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=3619

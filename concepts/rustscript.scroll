@@ -1,41 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RustScript
+import ../measures/conceptPage.scroll
+id RustScript
+appeared 2021
+type pl
+creators Mikail Khan
+conceptDescription RustScript: A simple functional based programming language with as much relation to Rust as JavaScript has to Java
+reference https://reddit.com/r/ProgrammingLanguages/comments/n58lkd/rustscript_a_simple_functional_based_programming/
 
-title RustScript - Programming language
- hidden
+githubRepo https://github.com/mkhan45/RustScript
+ firstCommit 2021
+ stars 22
+ forks 3
+ subscribers 2
+ created 2021
+ updated 2022
+ description RustScript is a functional scripting language with as much relation to Rust as Javascript has to Java.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="curly.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rio.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rustscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/mkhan45/RustScript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=rustscript" class="material-symbols-outlined">edit</a></div>
-
-* RustScript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Mikail Khan.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#mikailKhan Mikail Khan
-
-codeWithHeader Source code:
- git clone https://github.com/mkhan45/RustScript
-
-dashboard
- #2341 <span title="TotalRank: 2876 Jobs: 103 Users: 2045 Facts: 1787 Links: 986">on PLDB</span>
- 3 Years Old
-
-* RustScript: A simple functional based programming language with as much relation to Rust as JavaScript has to Java
-
-- RustScript is developed on <a href="https://github.com/mkhan45/RustScript">GitHub</a> and has 22 stars
-- Read more about RustScript on the web: 1.
- https://reddit.com/r/ProgrammingLanguages/comments/n58lkd/rustscript_a_simple_functional_based_programming/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav curly.html rio.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 29
+ committers 3
+ files 5

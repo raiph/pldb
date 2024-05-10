@@ -1,46 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title D++
+import ../measures/conceptPage.scroll
+id D++
+appeared 1999
+type pl
+creators Daniel Smith
+website http://www.pagemac.com/dpp/home
+reference https://www.pagemac.com/dpp/docs
+fileExtensions dpp dpl
+country United States
+originCommunity https://www.pagemac.com
 
-title D++ - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="descript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dragoon.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.pagemac.com/dpp/home" class="material-symbols-outlined">home</a> <a href="/edit.html?id=dpp" class="material-symbols-outlined">edit</a></div>
-
-* D++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1999 by Daniel Smith.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1999 1999
- link ../lists/creators.html#danielSmith Daniel Smith
-
-dashboard
- #2859 <span title="TotalRank: 3531 Jobs: 103 Users: 2442 Facts: 2816 Links: 986">on PLDB</span>
- 25 Years Old
-
-* 
-
-- D++ website
- http://www.pagemac.com/dpp/home
-- D++ first developed in <a href="../lists/originCommunities.html#httpsWwwPagemacCom">https://www.pagemac.com</a>
-- file extensions for D++ include dpp and dpl
-- Read more about D++ on the web: 1.
- https://www.pagemac.com/dpp/docs 1.
-
-<br>
-
-<div class="keywordsBlock">
-codeWithHeader D++ <a href="../lists/keywords.html?filter=dpp">Keywords</a>
- continue do else endif exit_do exit_for exit_function for function if loop newvar next return step then to until var while
-</div>
-
-endColumns
-
-keyboardNav descript.html dragoon.html
-
-import ../footer.scroll
+keywords continue do else endif exit_do exit_for exit_function for function if loop newvar next return step then to until var while

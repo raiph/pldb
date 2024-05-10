@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kernel
+import ../measures/conceptPage.scroll
+id kernel
+appeared 2009
+type pl
+conceptDescription Kernel is a conservative, Scheme-like dialect of Lisp in which everything is a first-class object.
+website https://web.cs.wpi.edu/~jshutt/kernel.html
+reference https://bitbucket.org/AndresNavarro/klisp
+reference https://web.cs.wpi.edu/~jshutt/sink-01m10.tar.gz
+aka klisp
+country United States
+originCommunity Worcester Polytechnic Institute
 
-title kernel - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mockingbird-notation.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mathjax.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kernel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://web.cs.wpi.edu/~jshutt/kernel.html" class="material-symbols-outlined">home</a> <a href="/edit.html?id=kernel" class="material-symbols-outlined">edit</a></div>
-
-* kernel is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-dashboard
- #2565 <span title="TotalRank: 3212 Jobs: 103 Users: 2442 Facts: 2718 Links: 667">on PLDB</span>
- 15 Years Old
-
-* Kernel is a conservative, Scheme-like dialect of Lisp in which everything is a first-class object.
-
-- kernel website
- https://web.cs.wpi.edu/~jshutt/kernel.html
-- kernel first developed in <a href="../lists/originCommunities.html#worcesterPolytechnicInstitute">Worcester Polytechnic Institute</a>
-- Read more about kernel on the web: 1. 2.
- https://bitbucket.org/AndresNavarro/klisp 1.
- https://web.cs.wpi.edu/~jshutt/sink-01m10.tar.gz 2.
-
-<br>
-
-endColumns
-
-keyboardNav mockingbird-notation.html mathjax.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

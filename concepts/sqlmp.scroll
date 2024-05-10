@@ -1,41 +1,14 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SQLMP
+import ../measures/conceptPage.scroll
+id SQLMP
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/08c34d90f92dc708f12853fc2dc48366c6af3336
+reference https://ideas.repec.org/a/inm/orijoc/v3y1991i4p358-375.html
+country United States
+originCommunity Texas A&M University
 
-title SQLMP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=8033
 
-html
- <a class="trueBaseThemePreviousItem" href="snostorm.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ssl.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sqlmp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=sqlmp" class="material-symbols-outlined">edit</a></div>
-
-* SQLMP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3136 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- SQLMP first developed in <a href="../lists/originCommunities.html#texasAMUniversity">Texas A&M University</a>
-- SQLMP on HOPL
- https://hopl.info/showlanguage.prx?exp=8033
-- Read more about SQLMP on Semantic Scholar: 1.
- https://semanticscholar.org/paper/08c34d90f92dc708f12853fc2dc48366c6af3336 1.
-- Read more about SQLMP on the web: 1.
- https://ideas.repec.org/a/inm/orijoc/v3y1991i4p358-375.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav snostorm.html ssl.html
-
-import ../footer.scroll
+semanticScholar 0

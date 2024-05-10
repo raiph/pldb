@@ -1,39 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title stoneknifeforth
+import ../measures/conceptPage.scroll
+id stoneknifeforth
+appeared 2008
+type pl
+conceptDescription This is StoneKnifeForth, a very simple language inspired by Forth. It is not expected to be useful; instead, its purpose is to show how simple a compiler can be. The compiler is a bit under two pages of code when the comments are removed. This package includes a “metacircular compiler” which is written in StoneKnifeForth and compiles StoneKnifeForth to an x86 Linux ELF executable.
+country United States
+originCommunity https://github.com/kragen/stoneknifeforth/issues
 
-title stoneknifeforth - Programming language
- hidden
+githubRepo https://github.com/kragen/stoneknifeforth
+ firstCommit 2008
+ stars 369
+ forks 21
+ subscribers 23
+ created 2009
+ updated 2022
+ description a tiny self-hosted Forth implementation
+ issues 3
 
-html
- <a class="trueBaseThemePreviousItem" href="austral.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pyrex.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stoneknifeforth.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/kragen/stoneknifeforth" class="material-symbols-outlined">code</a> <a href="/edit.html?id=stoneknifeforth" class="material-symbols-outlined">edit</a></div>
-
-* stoneknifeforth is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-codeWithHeader Source code:
- git clone https://github.com/kragen/stoneknifeforth
-
-dashboard
- #1379 <span title="TotalRank: 1907 Jobs: 103 Users: 818 Facts: 1787 Links: 986">on PLDB</span>
- 16 Years Old
-
-* This is StoneKnifeForth, a very simple language inspired by Forth. It is not expected to be useful; instead, its purpose is to show how simple a compiler can be. The compiler is a bit under two pages of code when the comments are removed. This package includes a “metacircular compiler” which is written in StoneKnifeForth and compiles StoneKnifeForth to an x86 Linux ELF executable.
-
-- stoneknifeforth is developed on <a href="https://github.com/kragen/stoneknifeforth">GitHub</a> and has 369 stars
-- stoneknifeforth first developed in <a href="../lists/originCommunities.html#httpsGithubComKragenStoneknifeforthIssues">https://github.com/kragen/stoneknifeforth/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav austral.html pyrex.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2008
+ commits 113
+ committers 7
+ files 22

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SQUARE
+import ../measures/conceptPage.scroll
+id SQUARE
+appeared 1975
+type pl
+reference https://semanticscholar.org/paper/eb3e849c11a44bc211adc8d393bae752d8396808
+country  United States
+originCommunity IBM and Massachusettes Institute of Technology
 
-title SQUARE - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=696
 
-html
- <a class="trueBaseThemePreviousItem" href="sprint.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sr.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/square.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=square" class="material-symbols-outlined">edit</a></div>
-
-* SQUARE is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1975.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1975 1975
-
-dashboard
- #4320 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 49 Years Old
-
-* 
-
-- SQUARE first developed in <a href="../lists/originCommunities.html#ibmAndMassachusettesInstituteOfTechnology">IBM and Massachusettes Institute of Technology</a>
-- SQUARE on HOPL
- https://hopl.info/showlanguage.prx?exp=696
-- Read more about SQUARE on Semantic Scholar: 1.
- https://semanticscholar.org/paper/eb3e849c11a44bc211adc8d393bae752d8396808 1.
-
-<br>
-
-endColumns
-
-keyboardNav sprint.html sr.html
-
-import ../footer.scroll
+wordRank 1834
+centralPackageRepositoryCount 0

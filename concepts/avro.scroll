@@ -1,49 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title avro
+import ../measures/conceptPage.scroll
+id avro
+appeared 2012
+type idl
+website https://avro.apache.org/
+country Various
+originCommunity The Apache Software Foundation
+domainName avro.apache.org
 
-title avro - Interface design language
- hidden
+relatedConcepts protobuf thrift
 
-html
- <a class="trueBaseThemePreviousItem" href="alan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="beautiful-report-language.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/avro.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://avro.apache.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=avro" class="material-symbols-outlined">edit</a></div>
-
-* avro is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2012.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
-
-dashboard
- #2364 <span title="TotalRank: 2876 Jobs: 103 Users: 2442 Facts: 1787 Links: 986">on PLDB</span>
- 12 Years Old
-
-* 
-
-- avro website
- https://avro.apache.org/
-- avro first developed in <a href="../lists/originCommunities.html#theApacheSoftwareFoundation">The Apache Software Foundation</a>
-- See also: (2 related languages)<a href="protobuf.html">Protocol Buffers</a>, <a href="thrift.html">Thrift</a>
-
-<br>
-
-codeWithHeader Example from the web:
- {&quot;namespace&quot;: &quot;example.avro&quot;,
-  &quot;type&quot;: &quot;record&quot;,
-  &quot;name&quot;: &quot;User&quot;,
-  &quot;fields&quot;: [
-      {&quot;name&quot;: &quot;name&quot;, &quot;type&quot;: &quot;string&quot;},
-      {&quot;name&quot;: &quot;favorite_number&quot;,  &quot;type&quot;: [&quot;int&quot;, &quot;null&quot;]},
-      {&quot;name&quot;: &quot;favorite_color&quot;, &quot;type&quot;: [&quot;string&quot;, &quot;null&quot;]}
+example
+ {"namespace": "example.avro",
+  "type": "record",
+  "name": "User",
+  "fields": [
+      {"name": "name", "type": "string"},
+      {"name": "favorite_number",  "type": ["int", "null"]},
+      {"name": "favorite_color", "type": ["string", "null"]}
   ]
  }
 
-endColumns
-
-keyboardNav alan.html beautiful-report-language.html
-
-import ../footer.scroll
+fileType binary
+centralPackageRepositoryCount 0

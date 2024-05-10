@@ -1,43 +1,28 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Cell
+import ../measures/conceptPage.scroll
+id Cell
+appeared 2017
+type pl
+conceptDescription Cell is a very high-level embeddable language. Cell's data model combines a staple of functional programming, algebraic data types, with relations and other ideas from relational databases.
+website http://cell-lang.net/
+country Various
+originCommunity https://github.com/cell-lang
+domainName cell-lang.net
+ registered 2017
+ awisRank
+  2022 3568675
+  2017 2019201
 
-title Cell - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
+hasBooleans true
 
-html
- <a class="trueBaseThemePreviousItem" href="google-apps-script.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alef.html">&gt;</a>
+lineCommentToken //
+booleanTokens true false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cell.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://cell-lang.net/" class="material-symbols-outlined">home</a> <a href="https://github.com/cell-lang/compiler" class="material-symbols-outlined">code</a> <a href="https://twitter.com/cell_lang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=cell" class="material-symbols-outlined">edit</a></div>
-
-* Cell is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/cell-lang/compiler
-
-dashboard
- #859 <span title="TotalRank: 1423 Jobs: 103 Users: 1439 Facts: 334 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Cell is a very high-level embeddable language. Cell's data model combines a staple of functional programming, algebraic data types, with relations and other ideas from relational databases.
-
-- Cell website
- http://cell-lang.net/
-- Cell is developed on <a href="https://github.com/cell-lang/compiler">GitHub</a> and has 98 stars
-- Cell first developed in <a href="../lists/originCommunities.html#httpsGithubComCellLang">https://github.com/cell-lang</a>
-- Cell on Twitter
- https://twitter.com/cell_lang
-- <a href="http://cell-lang.net/">cell-lang.net</a> was registered in 2017
-
-<br>
-
-codeWithHeader Example from the web:
+example
  type AddUser = add_user(
   id:            UserId,
   username:      String,
@@ -58,8 +43,7 @@ codeWithHeader Example from the web:
    // Setting the date_of_birth attribute, if available
    insert date_of_birth(id, self.date_of_birth) if self.date_of_birth?;
  }
-
-codeWithHeader Example from the web:
+example
  reactive Thermostat {
    input:
      temperature: Float;
@@ -70,49 +54,46 @@ codeWithHeader Example from the web:
    state:
      // When the system is initialized, on is true if
      // and only if the current temperature exceeds 28°C
-     on: Bool = temperature &gt; 28.0;
+     on: Bool = temperature > 28.0;
  
    rules:
      // Switching on the air conditioner when
      // the temperature exceeds 28°C
-     on = true when temperature &gt; 28.0;
+     on = true when temperature > 28.0;
  
      // Switching it off when it falls below 24°C
-     on = false when temperature &lt; 24.0;
+     on = false when temperature < 24.0;
  }
 
-endColumns
+githubRepo https://github.com/cell-lang/compiler
+ stars 98
+ forks 2
+ subscribers 9
+ created 2017
+ updated 2022
+ description Cell compiler
+ issues 1
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 560
+ committers 2
+ files 130
 
-treeTable
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+twitter https://twitter.com/cell_lang
+fileType text
+wordRank 695
+isOpenSource true
+centralPackageRepositoryCount 0
 
-keyboardNav google-apps-script.html alef.html
-
-import ../footer.scroll
+isbndb 9
+ year|publisher|title|authors|isbn13
+ 2008|Prentice Hall|Programming the Cell Processor: For Games, Graphics, and Computation|Scarpino, Matthew|9780136008866
+ 2004|Morgan Kaufmann|The Mobile Connection: The Cell Phone's Impact on Society (Interactive Technologies)|Ling, Rich|9781558609365
+ 2008|Wiley-Interscience|Chemical and Functional Genomic Approaches to Stem Cell Biology and Regenerative Medicine||9780470041468
+ 1986|Cambridge University Press|Embryogenesis In Angiosperms: A Developmental And Experimental Study (developmental And Cell Biology Series)|Valayamghat Raghavan|9780521267717
+ 1995|Springer|Formal Development of Reactive Systems: Case Study Production Cell (Lecture Notes in Computer Science (891))||9783540588672
+ 2008|Morgan Kaufmann|In Silico: 3D Animation and Simulation of Cell Biology with Maya and MEL (The Morgan Kaufmann Series in Computer Graphics)|Sharpe, Jason and Lumsden, Charles John and Woolridge, Nicholas|9780123736550
+ 20070723|Springer Nature|A Computer Scientist's Guide to Cell Biology|William W. Cohen|9780387482781
+ 1975|Springer-verlag|Cell Cycle And Cell Differentiation (results And Problems In Cell Differentiation, Volume 7)|J Holtzer and H Reinert|9780387070698
+ 2009|Humana|Regulatory Networks in Stem Cells (Stem Cell Biology and Regenerative Medicine)|Farit G. Avkhadiev; Karl-Joachim Wirths|9781603272278

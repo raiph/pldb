@@ -1,158 +1,140 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jison
+import ../measures/conceptPage.scroll
+id Jison
+appeared 2009
+type pl
+website http://zaa.ch/jison/
+documentation https://gerhobbelt.github.io/jison/docs/
+country Various
+originCommunity https://github.com/zaach/jison/issues
 
-title Jison - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="idyll.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="coq.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jison.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://zaa.ch/jison/" class="material-symbols-outlined">home</a> <a href="https://github.com/zaach/jison" class="material-symbols-outlined">code</a> <a href="https://gerhobbelt.github.io/jison/docs/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=jison" class="material-symbols-outlined">edit</a></div>
-
-* Jison is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
-
-codeWithHeader Source code:
- git clone https://github.com/zaach/jison
-
-dashboard
- #167 <span title="TotalRank: 471 Jobs: 103 Users: 188 Facts: 180 Links: 986">on PLDB</span>
- 15 Years Old
- 0 <span title="Jison repos on GitHub.">Repos</span>
-
-* Bison in JavaScript.
-
-- Jison website
- http://zaa.ch/jison/
-- Jison is developed on <a href="https://github.com/zaach/jison">GitHub</a> and has 4,136 stars
-- Jison docs
- https://gerhobbelt.github.io/jison/docs/
-- There are at least 0 Jison repos on <a href="https://github.com/search?q=language:Jison">GitHub</a>
-- Jison first developed in <a href="../lists/originCommunities.html#httpsGithubComZaachJisonIssues">https://github.com/zaach/jison/issues</a>
-- file extensions for Jison include jison
-- GitHub supports <a href="https://github.com/cdibbs/language-jison" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Jison
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/cdibbs/language-jison'>Linguist</a>:
- 
- /* description: ClassyLang grammar. Very classy. */
- /*
-   To build parser:
- 
-     $ ./bin/jison examples/classy.jison examples/classy.jisonlex
- 
+hasMultiLineComments true
+ /* A comment
  */
- 
- 
- /* author: Zach Carter */
- 
- %right ASSIGN
- %left OR
- %nonassoc EQUALITY GREATER
- %left PLUS MINUS
- %left TIMES
- %right NOT
- %left DOT
- 
- %%
- 
- pgm
-     : cdl MAIN LBRACE vdl el RBRACE ENDOFFILE
-     ;
- 
- cdl
-     : c cdl
-     |
-     ;
- 
- c
-     : CLASS id EXTENDS id LBRACE vdl mdl RBRACE
-     ;
- 
- vdl
-     : VAR t id SEMICOLON vdl
-     |
-     ;
- 
- mdl
-     : t id LPAREN t id RPAREN LBRACE vdl el RBRACE mdl
-     |
-     ;
- 
- t
-     : NATTYPE
-     | id
-     ;
- 
- id
-     : ID
-     ;
- 
- el
-     : e SEMICOLON el
-     | e SEMICOLON
-     ;
- 
- e
-     : NATLITERAL
-     | NUL
-     | id
-     | NEW id
-     | THIS
-     | IF LPAREN e RPAREN LBRACE el RBRACE ELSE LBRACE el RBRACE
-     | FOR LPAREN e SEMICOLON e SEMICOLON e RPAREN LBRACE el RBRACE
-     | READNAT LPAREN RPAREN
-     | PRINTNAT LPAREN e RPAREN
-     | e PLUS e
-     | e MINUS e
-     | e TIMES e
-     | e EQUALITY e
-     | e GREATER e
-     | NOT e
-     | e OR e
-     | e DOT id
-     | id ASSIGN e
-     | e DOT id ASSIGN e
-     | id LPAREN e RPAREN
-     | e DOT id LPAREN e RPAREN
-     | LPAREN e RPAREN
-     ;
+hasComments true
+ /* A comment
+ */
+hasSemanticIndentation false
 
-endColumns
+multiLineCommentTokens /* */
 
-## Language <a href="../lists/features.html">features</a>
+githubRepo https://github.com/zaach/jison
+ stars 4136
+ forks 450
+ subscribers 108
+ created 2009
+ updated 2022
+ firstCommit 2009
+ description Bison in JavaScript.
+ issues 156
 
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   /* A comment
-   */
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token /* */
-  Example
-   /* A comment
-   */
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+repoStats
+ firstCommit 2009
+ commits 709
+ committers 58
+ files 141
 
-keyboardNav idyll.html coq.html
+githubLanguage Jison
+ fileExtensions jison
+ trendingProjectsCount 0
+ type programming
+ group Yacc
+ aceMode text
+ tmScope source.jison
+ repos 0
 
-import ../footer.scroll
+linguistGrammarRepo https://github.com/cdibbs/language-jison
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 9
+ commitCount 131
+ sampleCount 3
+ example
+  
+  /* description: ClassyLang grammar. Very classy. */
+  /*
+    To build parser:
+  
+      $ ./bin/jison examples/classy.jison examples/classy.jisonlex
+  
+  */
+  
+  
+  /* author: Zach Carter */
+  
+  %right ASSIGN
+  %left OR
+  %nonassoc EQUALITY GREATER
+  %left PLUS MINUS
+  %left TIMES
+  %right NOT
+  %left DOT
+  
+  %%
+  
+  pgm
+      : cdl MAIN LBRACE vdl el RBRACE ENDOFFILE
+      ;
+  
+  cdl
+      : c cdl
+      |
+      ;
+  
+  c
+      : CLASS id EXTENDS id LBRACE vdl mdl RBRACE
+      ;
+  
+  vdl
+      : VAR t id SEMICOLON vdl
+      |
+      ;
+  
+  mdl
+      : t id LPAREN t id RPAREN LBRACE vdl el RBRACE mdl
+      |
+      ;
+  
+  t
+      : NATTYPE
+      | id
+      ;
+  
+  id
+      : ID
+      ;
+  
+  el
+      : e SEMICOLON el
+      | e SEMICOLON
+      ;
+  
+  e
+      : NATLITERAL
+      | NUL
+      | id
+      | NEW id
+      | THIS
+      | IF LPAREN e RPAREN LBRACE el RBRACE ELSE LBRACE el RBRACE
+      | FOR LPAREN e SEMICOLON e SEMICOLON e RPAREN LBRACE el RBRACE
+      | READNAT LPAREN RPAREN
+      | PRINTNAT LPAREN e RPAREN
+      | e PLUS e
+      | e MINUS e
+      | e TIMES e
+      | e EQUALITY e
+      | e GREATER e
+      | NOT e
+      | e OR e
+      | e DOT id
+      | id ASSIGN e
+      | e DOT id ASSIGN e
+      | id LPAREN e RPAREN
+      | e DOT id LPAREN e RPAREN
+      | LPAREN e RPAREN
+      ;
+
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
+
+isbndb 0

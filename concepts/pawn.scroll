@@ -1,119 +1,102 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title PAWN
+import ../measures/conceptPage.scroll
+id PAWN
+appeared 2006
+type pl
+website https://www.compuphase.com/pawn/pawn.htm
+country The Netherlands
+originCommunity Informatie-Technologisch Bureau CompuPhase
 
-title PAWN - Programming language
- hidden
+hasLineComments true
+ // A comment
+hasComments true
+ // A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="curry.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="kaitai.html">&gt;</a>
+lineCommentToken //
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pawn.pldb
+githubRepo https://github.com/compuphase/pawn
+ firstCommit 2006
+ stars 385
+ forks 66
+ subscribers 31
+ created 2015
+ updated 2022
+ description Pawn is a quick and small scripting language that requires few resources.
+ issues 37
 
-startColumns 4
+repoStats
+ firstCommit 2006
+ commits 72
+ committers 10
+ files 228
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.compuphase.com/pawn/pawn.htm" class="material-symbols-outlined">home</a> <a href="https://riju.codes/pawn" class="material-symbols-outlined">terminal</a> <a href="https://github.com/compuphase/pawn" class="material-symbols-outlined">code</a> <a href="/edit.html?id=pawn" class="material-symbols-outlined">edit</a></div>
+githubLanguage PAWN
+ fileExtensions pwn inc
+ trendingProjectsCount 0
+ repos 3270
+githubBigQuery PAWN
+ repos 502
+ users 434
 
-* PAWN is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
+linguistGrammarRepo https://github.com/Southclaw/pawn-sublime-language.git
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 23
+ commitCount 168
+ sampleCount 2
+ example
+  #include <a_samp>
+  
+  forward OneSecTimer();
+  
+  new lasttick = 0;
+  
+  main()
+  {
+  	print("\n----------------------------------");
+  	print("  This is a blank GameModeScript");
+  	print("----------------------------------\n");
+  }
+  
+  public OnGameModeInit()
+  {
+  	// Set timer of 1 second.
+  	SetTimer("OneSecTimer", 1000, 1);
+  	print("GameModeInit()");
+  	SetGameModeText("Timer Test");
+  	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
+  	return 1;
+  }
+  
+  public OneSecTimer() {
+  
+  	if(lasttick == 0) {
+       	lasttick = GetTickCount();
+  		return;
+  	}
+  	new sText[256];
+  	format(sText,sizeof(sText),"GetTickCountOffset = %d",GetTickCount() - lasttick);
+  	print(sText);
+  	SendClientMessageToAll(0xFF0000, sText);
+  	lasttick = GetTickCount();
+  }
+  
+  
 
-codeWithHeader Source code:
- git clone https://github.com/compuphase/pawn
+rijuRepl https://riju.codes/pawn
+ example
+  #include <core>
+  
+  main() {
+      print("Hello, world!\n");
+  }
+  
 
-dashboard
- #519 <span title="TotalRank: 1059 Jobs: 103 Users: 630 Facts: 326 Links: 986">on PLDB</span>
- 18 Years Old
- 3k <span title="PAWN repos on GitHub.">Repos</span>
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-* Try now: <a href="https://riju.codes/pawn">Riju</a>
-
-* Pawn is a quick and small scripting language that requires few resources.
-
-- PAWN website
- https://www.compuphase.com/pawn/pawn.htm
-- PAWN is developed on <a href="https://github.com/compuphase/pawn">GitHub</a> and has 385 stars
-- There are at least 3,270 PAWN repos on <a href="https://github.com/search?q=language:PAWN">GitHub</a>
-- PAWN first developed in <a href="../lists/originCommunities.html#informatieTechnologischBureauCompuPhase">Informatie-Technologisch Bureau CompuPhase</a>
-- file extensions for PAWN include pwn and inc
-- The  Google BigQuery Public Dataset GitHub snapshot shows 434 users using PAWN in 502 repos on <a href="https://api.github.com/search/repositories?q=language:PAWN">GitHub</a>
-- GitHub supports <a href="https://github.com/Southclaw/pawn-sublime-language.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for PAWN
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/pawn'>Riju</a>:
- #include &lt;core&gt;
- 
- main() {
-     print(&quot;Hello, world!\n&quot;);
- }
- 
-
-codeWithHeader Example from <a href='https://github.com/Southclaw/pawn-sublime-language.git'>Linguist</a>:
- #include &lt;a_samp&gt;
- 
- forward OneSecTimer();
- 
- new lasttick = 0;
- 
- main()
- {
- 	print(&quot;\n----------------------------------&quot;);
- 	print(&quot;  This is a blank GameModeScript&quot;);
- 	print(&quot;----------------------------------\n&quot;);
- }
- 
- public OnGameModeInit()
- {
- 	// Set timer of 1 second.
- 	SetTimer(&quot;OneSecTimer&quot;, 1000, 1);
- 	print(&quot;GameModeInit()&quot;);
- 	SetGameModeText(&quot;Timer Test&quot;);
- 	AddPlayerClass(0, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
- 	return 1;
- }
- 
- public OneSecTimer() {
- 
- 	if(lasttick == 0) {
-      	lasttick = GetTickCount();
- 		return;
- 	}
- 	new sText[256];
- 	format(sText,sizeof(sText),&quot;GetTickCountOffset = %d&quot;,GetTickCount() - lasttick);
- 	print(sText);
- 	SendClientMessageToAll(0xFF0000, sText);
- 	lasttick = GetTickCount();
- }
- 
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   // A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token //
-  Example
-   // A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav curry.html kaitai.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 2010||Pawn (programming Language)|Surhone and Lambert M. and Timpledon and Miriam T. and Marseken and Susan F.|9786130911683
+ 20150313|Emereo|A Source Of Pawn Stars Inspiration - 121 Success Secrets|Laura Sloan|9781488834257

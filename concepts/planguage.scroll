@@ -1,48 +1,18 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Planguage
+import ../measures/conceptPage.scroll
+id Planguage
+appeared 2001
+type dataNotation
+conceptDescription Planguage is a keyword-driven language whose name is derived from a contraction of the words planning and language1. Planguage can be used in requirements specifications, design documents, plans, and other places where qualitative statements are common. Its primary benefits are quantifying the qualitative and improving communication about complex ideas
+website http://www.syque.com/quality_tools/tools/Tools104.htm
+reference http://concepts.gilb.com/dl44
+country Norway
+originCommunity Gilb International
 
-title Planguage - Data notation
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="operon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="scriptease.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/planguage.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.syque.com/quality_tools/tools/Tools104.htm" class="material-symbols-outlined">home</a> <a href="/edit.html?id=planguage" class="material-symbols-outlined">edit</a></div>
-
-* Planguage is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #2652 <span title="TotalRank: 3273 Jobs: 103 Users: 2442 Facts: 2184 Links: 986">on PLDB</span>
- 23 Years Old
-
-* Planguage is a keyword-driven language whose name is derived from a contraction of the words planning and language1. Planguage can be used in requirements specifications, design documents, plans, and other places where qualitative statements are common. Its primary benefits are quantifying the qualitative and improving communication about complex ideas
-
-- Planguage website
- http://www.syque.com/quality_tools/tools/Tools104.htm
-- Planguage first developed in <a href="../lists/originCommunities.html#gilbInternational">Gilb International</a>
-- Read more about Planguage on the web: 1.
- http://concepts.gilb.com/dl44 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  PLAN [01-Sep 2012]: Full product release
  GIST : Develop XYZ product ready for product release
  STAKEHOLDER [planning, final signoff]: Product Quality Manager
  AUTHORITY [final signoff]: Marketing Manager
- METER [Product]: Signed off acceptance by &lt;those with final signoff&gt;
+ METER [Product]: Signed off acceptance by <those with final signoff>
  MUST [01-Sep 2012]: Partial product release
  WISH [01-Aug 2012]: Full product release
-
-endColumns
-
-keyboardNav operon.html scriptease.html
-
-import ../footer.scroll

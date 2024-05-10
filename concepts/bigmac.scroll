@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BIGMAC
+import ../measures/conceptPage.scroll
+id BIGMAC
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/cb07cb8a4f42e57b29b2ea01e44d26ea16844642
+country United States
+originCommunity University of Colorado
 
-title BIGMAC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4435
 
-html
- <a class="trueBaseThemePreviousItem" href="biferno.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="bigwig.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/bigmac.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=bigmac" class="material-symbols-outlined">edit</a></div>
-
-* BIGMAC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #4086 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- BIGMAC first developed in <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- BIGMAC on HOPL
- https://hopl.info/showlanguage.prx?exp=4435
-- Read more about BIGMAC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/cb07cb8a4f42e57b29b2ea01e44d26ea16844642 1.
-
-<br>
-
-endColumns
-
-keyboardNav biferno.html bigwig.html
-
-import ../footer.scroll
+isbndb 0

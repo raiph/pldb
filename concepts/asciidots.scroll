@@ -1,77 +1,62 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AsciiDots
+import ../measures/conceptPage.scroll
+id AsciiDots
+appeared 2017
+type esolang
+creators Aaron Janse
+website http://ajanse.me/asciidots/
+webRepl http://ajanse.me/asciidots/demo
 
-title AsciiDots - Esoteric programming language
- hidden
+visualParadigm true
 
-html
- <a class="trueBaseThemePreviousItem" href="gleam.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unified-parallel-c.html">&gt;</a>
+hasStrings true
+ "Hello world"
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/asciidots.pldb
+stringToken "
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://ajanse.me/asciidots/" class="material-symbols-outlined">home</a> <a href="http://ajanse.me/asciidots/demo" class="material-symbols-outlined">terminal</a> <a href="https://github.com/aaronduino/asciidots" class="material-symbols-outlined">code</a> <a href="/edit.html?id=asciidots" class="material-symbols-outlined">edit</a></div>
-
-* AsciiDots is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2017 by Aaron Janse.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#aaronJanse Aaron Janse
-
-codeWithHeader Source code:
- git clone https://github.com/aaronduino/asciidots
-
-dashboard
- #692 <span title="TotalRank: 1264 Jobs: 103 Users: 502 Facts: 659 Links: 986">on PLDB</span>
- 7 Years Old
-
-* Try now: <a href="http://ajanse.me/asciidots/demo">Web</a> · <a href="https://tio.run/#asciidots">TIO</a>
-
-* Esolang inspired by ASCII art
-
-- AsciiDots website
- http://ajanse.me/asciidots/
-- AsciiDots is developed on <a href="https://github.com/aaronduino/asciidots">GitHub</a> and has 1,047 stars
-- Explore AsciiDots snippets on <a href="http://www.rosettacode.org/wiki/Category:AsciiDots">Rosetta Code</a>
-- AsciiDots on Esolang
- https://esolangs.org/wiki/AsciiDots
-
-<br>
-
-codeWithHeader Example from the web:
- /-&amp;         `` This is where the program ends!
+example
+ /-&         `` This is where the program ends!
  |
  \-\ /-\
    | | |
  /-/ | \-\
  \---/   |
          |
-         \-. `` Here&#39;s where the program starts
+         \-. `` Here's where the program starts
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/a/AsciiDots.ascii'>hello-world</a>:
- .-$&quot;Hello World&quot; 
- 
+githubRepo https://github.com/aaronduino/asciidots
+ stars 1047
+ forks 36
+ subscribers 24
+ created 2017
+ updated 2022
+ firstCommit 2017
+ description Esolang inspired by ASCII art
+ issues 12
 
-endColumns
+repoStats
+ firstCommit 2017
+ commits 455
+ committers 19
+ files 124
 
-## Language <a href="../lists/features.html">features</a>
+leachim6 AsciiDots
+ filepath a/AsciiDots.ascii
+ fileExtensions ascii
+ example
+  .-$"Hello World" 
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:AsciiDots
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
+tryItOnline asciidots
 
-## HackerNews discussions of AsciiDots
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 14947449|Show HN: AsciiDots – a 2D esoteric language inspired by circuits|2017-08-07 13:57:27 UTC|1502114247|aaronduino|33|148
 
-pipeTable
- title|titleLink|date|score|comments
- Show HN: AsciiDots – a 2D esoteric language inspired by circuits|https://news.ycombinator.com/item?id=14947449|08/07/2017|148|33
+esolang https://esolangs.org/wiki/AsciiDots
 
-keyboardNav gleam.html unified-parallel-c.html
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-import ../footer.scroll
+semanticScholar 0

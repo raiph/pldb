@@ -1,80 +1,61 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jakt
+import ../measures/conceptPage.scroll
+id Jakt
+appeared 2022
+type pl
+conceptDescription Jakt is a memory-safe systems programming language. It currently transpiles to C++.
+country Various
+originCommunity https://github.com/SerenityOS/
 
-title Jakt - Programming language
- hidden
+compilesTo cpp
 
-html
- <a class="trueBaseThemePreviousItem" href="bnf.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="unlambda.html">&gt;</a>
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jakt.pldb
+printToken println
+stringToken "
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/SerenityOS/jakt" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jakt" class="material-symbols-outlined">edit</a></div>
-
-* Jakt is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
-
-codeWithHeader Source code:
- git clone https://github.com/SerenityOS/jakt
-
-dashboard
- #536 <span title="TotalRank: 1087 Jobs: 103 Users: 345 Facts: 639 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Jakt is a memory-safe systems programming language. It currently transpiles to C++.
-
-- Jakt is developed on <a href="https://github.com/SerenityOS/jakt">GitHub</a> and has 1,671 stars
-- Jakt first developed in <a href="../lists/originCommunities.html#httpsGithubComSerenityOs">https://github.com/SerenityOS/</a>
-- Jakt compiles to <a href="cpp.html">C++</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  function main() {
-    let x = (&quot;a&quot;, 2, true)
+    let x = ("a", 2, true)
  
-    println(&quot;{}&quot;, x.1)
+    println("{}", x.1)
  }
 
-codeWithHeader Example from <a href='https://godbolt.org/'>Compiler Explorer</a>:
- function square(num: i32) -&gt; i32 {
-     return num * num
- }
- 
- function main() {
-     return square(num: 3)
- }
- 
+githubRepo https://github.com/SerenityOS/jakt
+ firstCommit 2022
+ stars 1671
+ forks 170
+ subscribers 28
+ created 2022
+ updated 2022
+ description The Jakt Programming Language
+ issues 67
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/j/Jakt.jakt'>hello-world</a>:
- function main() {
-     println(&quot;Hello World&quot;)
- }
- 
+repoStats
+ firstCommit 2022
+ commits 2372
+ committers 122
+ files 1232
 
-endColumns
+leachim6 Jakt
+ filepath j/Jakt.jakt
+ fileExtensions jakt
+ example
+  function main() {
+      println("Hello World")
+  }
+  
 
-## Language <a href="../lists/features.html">features</a>
+compilerExplorer Jakt
+ example
+  function square(num: i32) -> i32 {
+      return num * num
+  }
+  
+  function main() {
+      return square(num: 3)
+  }
+  
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
-
-keyboardNav bnf.html unlambda.html
-
-import ../footer.scroll
+isbndb 0

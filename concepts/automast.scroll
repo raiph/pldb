@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AUTOMAST
+import ../measures/conceptPage.scroll
+id AUTOMAST
+appeared 1966
+type pl
+reference https://semanticscholar.org/paper/e3df7bbbe11bb0667a732e1f68199b36867969a4
+country United States
+originCommunity Washington University
 
-title AUTOMAST - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2890
 
-html
- <a class="trueBaseThemePreviousItem" href="autogrp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="avalon-common-lisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/automast.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=automast" class="material-symbols-outlined">edit</a></div>
-
-* AUTOMAST is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1966.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1966 1966
-
-dashboard
- #3503 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 58 Years Old
-
-* 
-
-- AUTOMAST first developed in <a href="../lists/originCommunities.html#washingtonUniversity">Washington University</a>
-- AUTOMAST on HOPL
- https://hopl.info/showlanguage.prx?exp=2890
-- Read more about AUTOMAST on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e3df7bbbe11bb0667a732e1f68199b36867969a4 1.
-
-<br>
-
-endColumns
-
-keyboardNav autogrp.html avalon-common-lisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALDES
+import ../measures/conceptPage.scroll
+id ALDES
+appeared 1976
+type pl
+reference https://semanticscholar.org/paper/f220d5342d2a16667111a855951b0ab9e6de1eab
+originCommunity Universität Tübingen
 
-title ALDES - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=705
 
-html
- <a class="trueBaseThemePreviousItem" href="aids.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="allo.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aldes.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aldes" class="material-symbols-outlined">edit</a></div>
-
-* ALDES is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1976.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1976 1976
-
-dashboard
- #3466 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 48 Years Old
-
-* 
-
-- ALDES first developed in <a href="../lists/originCommunities.html#universitatTubingen">Universität Tübingen</a>
-- ALDES on HOPL
- https://hopl.info/showlanguage.prx?exp=705
-- Read more about ALDES on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f220d5342d2a16667111a855951b0ab9e6de1eab 1.
-
-<br>
-
-endColumns
-
-keyboardNav aids.html allo.html
-
-import ../footer.scroll
+isbndb 0

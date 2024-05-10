@@ -1,59 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Sitemap
+import ../measures/conceptPage.scroll
+id Sitemap
+appeared 2001
+type xmlFormat
+conceptDescription Sitemaps are an easy way for webmasters to inform search engines about pages on their sites that are available for crawling. In its simplest form, a Sitemap is an XML file that lists URLs for a site along with additional metadata about each URL (when it was last updated, how often it usually changes, and how important it is, relative to other URLs in the site) so that search engines can more intelligently crawl the site.
+website https://sitemaps.org/
+reference https://en.wikipedia.org/wiki/Site_map
+country United States
+originCommunity Google Inc
+domainName sitemaps.org
+ registered 2001
+ awisRank
+  2022 37655
 
-title Sitemap - Xml format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="rosette-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dcalgol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sitemap.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sitemaps.org/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=sitemap" class="material-symbols-outlined">edit</a></div>
-
-* Sitemap is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2001.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2001 2001
-
-dashboard
- #1704 <span title="TotalRank: 2212 Jobs: 103 Users: 2442 Facts: 1123 Links: 986">on PLDB</span>
- 23 Years Old
-
-* Sitemaps are an easy way for webmasters to inform search engines about pages on their sites that are available for crawling. In its simplest form, a Sitemap is an XML file that lists URLs for a site along with additional metadata about each URL (when it was last updated, how often it usually changes, and how important it is, relative to other URLs in the site) so that search engines can more intelligently crawl the site.
-
-- Sitemap website
- https://sitemaps.org/
-- Sitemap first developed in <a href="../lists/originCommunities.html#googleInc">Google Inc</a>
-- <a href="https://sitemaps.org/">sitemaps.org</a> was registered in 2001
-- Read more about Sitemap on the web: 1.
- https://en.wikipedia.org/wiki/Site_map 1.
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+example
+ <?xml version="1.0" encoding="UTF-8"?>
  
- &lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  
-    &lt;url&gt;
+    <url>
  
-       &lt;loc&gt;http://www.example.com/&lt;/loc&gt;
+       <loc>http://www.example.com/</loc>
  
-       &lt;lastmod&gt;2005-01-01&lt;/lastmod&gt;
+       <lastmod>2005-01-01</lastmod>
  
-       &lt;changefreq&gt;monthly&lt;/changefreq&gt;
+       <changefreq>monthly</changefreq>
  
-       &lt;priority&gt;0.8&lt;/priority&gt;
+       <priority>0.8</priority>
  
-    &lt;/url&gt;
+    </url>
  
- &lt;/urlset&gt; 
-
-endColumns
-
-keyboardNav rosette-lang.html dcalgol.html
-
-import ../footer.scroll
+ </urlset> 

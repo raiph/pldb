@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CCal
+import ../measures/conceptPage.scroll
+id CCal
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/402a2cb76c48fcf8c851859c5a3781ea78fcc3e3
+country United States
+originCommunity The College of William and Mary && Tartan Laboratories && University of Pittsburgh
 
-title CCal - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3796
 
-html
- <a class="trueBaseThemePreviousItem" href="cajole.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="circal.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ccal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ccal" class="material-symbols-outlined">edit</a></div>
-
-* CCal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #4094 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- CCal first developed in <a href="../lists/originCommunities.html#theCollegeOfWilliamAndMary">The College of William and Mary</a> and <a href="../lists/originCommunities.html#tartanLaboratories">Tartan Laboratories</a> and <a href="../lists/originCommunities.html#universityOfPittsburgh">University of Pittsburgh</a>
-- CCal on HOPL
- https://hopl.info/showlanguage.prx?exp=3796
-- Read more about CCal on Semantic Scholar: 1.
- https://semanticscholar.org/paper/402a2cb76c48fcf8c851859c5a3781ea78fcc3e3 1.
-
-<br>
-
-endColumns
-
-keyboardNav cajole.html circal.html
-
-import ../footer.scroll
+isbndb 0

@@ -1,56 +1,34 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 05AB1E
+import ../measures/conceptPage.scroll
+id 05AB1E
+appeared 2015
+type esolang
 
-title 05AB1E - Esoteric programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="ns-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="plankalkul.html">&gt;</a>
+printToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/05ab1e.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Adriandmen/05AB1E" class="material-symbols-outlined">code</a> <a href="/edit.html?id=05ab1e" class="material-symbols-outlined">edit</a></div>
-
-* 05AB1E is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-codeWithHeader Source code:
- git clone https://github.com/Adriandmen/05AB1E
-
-dashboard
- #1176 <span title="TotalRank: 1717 Jobs: 103 Users: 628 Facts: 1256 Links: 986">on PLDB</span>
- 9 Years Old
-
-* A concise stack-based golfing language
-
-- 05AB1E is developed on <a href="https://github.com/Adriandmen/05AB1E">GitHub</a> and has 672 stars
-
-<br>
-
-codeWithHeader Example from the web:
+example
  PUSH 4
  PUSH 5
  MULTIPLY
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/#/05AB1E'>hello-world</a>:
- &quot;Hello World
+githubRepo https://github.com/Adriandmen/05AB1E
+ firstCommit 2015
+ stars 672
+ forks 39
+ subscribers 20
+ created 2015
+ updated 2022
+ description A concise stack-based golfing language
+ issues 29
 
-endColumns
+repoStats
+ firstCommit 2015
+ commits 871
+ committers 28
+ files 49
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-
-keyboardNav ns-basic.html plankalkul.html
-
-import ../footer.scroll
+leachim6 05AB1E
+ filepath #/05AB1E
+ example
+  "Hello World

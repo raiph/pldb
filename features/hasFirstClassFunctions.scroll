@@ -9,16 +9,14 @@ html
  <a class="trueBaseThemePreviousItem" href="hasExpressions.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasFixedPoint.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>:
+codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
  [2.0,1.1].map(Math.round)
 
-* Languages *with* First-Class Functions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/hack.html">Hack</a>, <a href="../concepts/aardvark.html">Aardvark</a>
-
-* This question asks: Does the language have functions that can be passed as arguments to other functions, can be returned by other functions, and can be assigned to variables or stored in data structures?
+* Languages *with* First-Class Functions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/hack.html">Hack</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 * Read more about First-Class Functions on the web: 1.
  https://en.wikipedia.org/wiki/First-class_function 1.

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title FORMS/3
+import ../measures/conceptPage.scroll
+id FORMS/3
+appeared 1990
+type pl
+reference https://semanticscholar.org/paper/a074a04c61f097ee9ad13f9061aee95d1dd0c01f
+country United States
+originCommunity Oregon State University && Hewlett-Packard && Oregon Institute of Technology
 
-title FORMS/3 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2046
 
-html
- <a class="trueBaseThemePreviousItem" href="fork95.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="fortran-8x.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/forms-3.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=forms-3" class="material-symbols-outlined">edit</a></div>
-
-* FORMS/3 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1990.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1990 1990
-
-dashboard
- #3672 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 34 Years Old
-
-* 
-
-- FORMS/3 first developed in <a href="../lists/originCommunities.html#oregonStateUniversity">Oregon State University</a> and <a href="../lists/originCommunities.html#hewlettPackard">Hewlett-Packard</a> and <a href="../lists/originCommunities.html#oregonInstituteOfTechnology">Oregon Institute of Technology</a>
-- FORMS/3 on HOPL
- https://hopl.info/showlanguage.prx?exp=2046
-- Read more about FORMS/3 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/a074a04c61f097ee9ad13f9061aee95d1dd0c01f 1.
-
-<br>
-
-endColumns
-
-keyboardNav fork95.html fortran-8x.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

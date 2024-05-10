@@ -1,40 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title glush
+import ../measures/conceptPage.scroll
+id glush
+appeared 2019
+type grammarLanguage
+creators Magnus Holm
+country Norway
+originCommunity https://github.com/judofyr/glush/issues
 
-title glush - Grammar language
- hidden
+githubRepo https://github.com/judofyr/glush
+ firstCommit 2019
+ stars 84
+ subscribers 9
+ created 2019
+ updated 2022
+ description A parser toolkit
+ forks 1
+ issues 1
 
-html
- <a class="trueBaseThemePreviousItem" href="mycroft.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="taijilang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/glush.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/judofyr/glush" class="material-symbols-outlined">code</a> <a href="/edit.html?id=glush" class="material-symbols-outlined">edit</a></div>
-
-* glush is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+grammarLanguage">grammar language</a> created in 2019 by Magnus Holm.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2019 2019
- link ../lists/creators.html#magnusHolm Magnus Holm
-
-codeWithHeader Source code:
- git clone https://github.com/judofyr/glush
-
-dashboard
- #2125 <span title="TotalRank: 2628 Jobs: 103 Users: 1539 Facts: 1787 Links: 986">on PLDB</span>
- 5 Years Old
-
-* A parser toolkit
-
-- glush is developed on <a href="https://github.com/judofyr/glush">GitHub</a> and has 84 stars
-- glush first developed in <a href="../lists/originCommunities.html#httpsGithubComJudofyrGlushIssues">https://github.com/judofyr/glush/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav mycroft.html taijilang.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2019
+ commits 86
+ committers 1
+ files 25

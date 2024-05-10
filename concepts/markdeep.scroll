@@ -1,48 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Markdeep
+import ../measures/conceptPage.scroll
+id Markdeep
+appeared 2015
+type textMarkup
+conceptDescription Markdeep is a technology for writing plain text documents that will look good in any web browser, whether local or remote. It supports diagrams, calendars, equations, and other features as extensions of Markdown syntax.
+website https://casual-effects.com/markdeep/
+country Canada
+originCommunity https://github.com/morgan3d/markdeep/pulls
 
-title Markdeep - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="hspec.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xsharp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/markdeep.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://casual-effects.com/markdeep/" class="material-symbols-outlined">home</a> <a href="/edit.html?id=markdeep" class="material-symbols-outlined">edit</a></div>
-
-* Markdeep is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2015.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
-
-dashboard
- #1730 <span title="TotalRank: 2248 Jobs: 103 Users: 2442 Facts: 1159 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Markdeep is a technology for writing plain text documents that will look good in any web browser, whether local or remote. It supports diagrams, calendars, equations, and other features as extensions of Markdown syntax.
-
-- Markdeep website
- https://casual-effects.com/markdeep/
-- Markdeep first developed in <a href="../lists/originCommunities.html#httpsGithubComMorgan3DMarkdeepPulls">https://github.com/morgan3d/markdeep/pulls</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  **Example**
  
- Welcome to Markdeep. It&#39;s the simple 
+ Welcome to Markdeep. It's the simple 
  way to write plain text with _style_.
                             
  *************************************
  *                _______            *
  * .-------.     /      /   .-----.  *
- * | Write +-+-&gt;/ Edit ++-&gt;| Share | *
- * &#39;-------&#39; ^ /______/ |   &#39;-----&#39;  *
+ * | Write +-+->/ Edit ++->| Share | *
+ * '-------' ^ /______/ |   '-----'  *
  *           |          |            *
- *            &#39;--------&#39;             *
+ *            '--------'             *
  *************************************
  
  1. Write a text document
@@ -52,9 +29,3 @@ codeWithHeader Example from the web:
  
  Learn more at
  https://casual-effects.com/markdeep
-
-endColumns
-
-keyboardNav hspec.html xsharp.html
-
-import ../footer.scroll

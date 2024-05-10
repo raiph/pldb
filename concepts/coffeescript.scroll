@@ -1,220 +1,168 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CoffeeScript
+import ../measures/conceptPage.scroll
+id CoffeeScript
+appeared 2009
+type pl
+creators Jeremy Ashkenas
+website http://coffeescript.org
+documentation https://coffeescript.org/#introduction
+documentation https://devdocs.io/coffeescript~1/
+aka coffee
+fileExtensions coffee litcoffee
+country United States
+originCommunity https://github.com/jashkenas
+domainName coffeescript.org
+ registered 2009
+ awisRank
+  2022 383033
+  2017 128299
 
-title CoffeeScript - Programming language
- hidden
+compilesTo javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="delphi.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="f-sharp.html">&gt;</a>
+hasVariableSubstitutionSyntax false
+hasComments true
+hasSemanticIndentation true
+hasCaseInsensitiveIdentifiers false
+hasLineComments true
+ # A comment
+hasPrintDebugging true
+hasMultiLineComments true
+ ### A comment
+ ###
+hasStrings true
+hasRegularExpressionsSyntaxSugar true
+hasBooleans true
+hasWhileLoops true
+hasClasses true
+hasExceptions true
+hasSwitch true
+hasInheritance true
+hasConditionals true
+hasHexadecimals true
+ # 0x[0-9a-fA-F]+
+hasFloats true
+ # [0-9][0-9]*\.[0-9]+([eE][0-9]+)?[fd]?
+hasIntegers true
+ # [0-9]+
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coffeescript.pldb
+lineCommentToken #
+multiLineCommentTokens ###
+printToken console.log
+stringToken "
+booleanTokens true false
+keywords and or is isnt not on yes @ no off true false null this new delete typeof in instanceof return throw break continue debugger if else switch for while do try catch finally class extends super undefined then unless until loop of by when
 
-startColumns 4
+wikipedia https://en.wikipedia.org/wiki/CoffeeScript
+ example
+  author = "Wittgenstein"
+  quote  = "A picture is a fact. -- #{ author }"
+  
+  sentence = "#{ 22 / 7 } is a decent approximation of π"
+ related haskell javascript perl python ruby yaml livescript rails jquery maven-pom java markdown elm haxe dart opa typescript
+ summary CoffeeScript is a programming language that transcompiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and pattern matching. CoffeeScript support is included in Ruby on Rails version 3.1 and Play Framework. In 2011, Brendan Eich referenced CoffeeScript as an influence on his thoughts about the future of JavaScript.
+ pageId 27403236
+ dailyPageViews 295
+ created 2010
+ backlinksCount 205
+ revisionCount 394
+ appeared 2011
+ fileExtensions coffee litcoffee
 
-<div class="trueBaseThemeQuickLinks"><a href="http://coffeescript.org" class="material-symbols-outlined">home</a> <a href="https://riju.codes/coffeescript" class="material-symbols-outlined">terminal</a> <a href="https://devdocs.io/coffeescript~1/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/CoffeeScript"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=coffeescript" class="material-symbols-outlined">edit</a></div>
+githubLanguage CoffeeScript
+ fileExtensions coffee _coffee cake cjsx iced
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  cypress-io cypress https://github.com/cypress-io.png https://github.com/cypress-io/cypress CoffeeScript #244776 14465 770 668 "Fast, easy and reliable testing for anything that runs in a browser."
+  basecamp trix https://github.com/basecamp.png https://github.com/basecamp/trix CoffeeScript #244776 13950 661 171 "A rich text editor for everyday writing"
+  codecombat codecombat https://github.com/codecombat.png https://github.com/codecombat/codecombat CoffeeScript #244776 6869 3506 42 "Game for learning how to code."
+  overleaf overleaf https://github.com/overleaf.png https://github.com/overleaf/overleaf CoffeeScript #244776 5599 712 110 "A web-based collaborative LaTeX editor"
+  FelisCatus SwitchyOmega https://github.com/FelisCatus.png https://github.com/FelisCatus/SwitchyOmega CoffeeScript #244776 13272 2230 266 "Manage and switch between multiple proxies quickly & easily."
+  philc vimium https://github.com/philc.png https://github.com/philc/vimium CoffeeScript #244776 11430 1380 164 "The hacker's browser."
+ trendingProjectsCount 7
+ type programming
+ filenames Cakefile
+ interpreters coffee
+ aceMode coffee
+ codemirrorMode coffeescript
+ codemirrorMimeType text/x-coffeescript
+ tmScope source.coffee
+ aliases coffee or coffee-script
+ repos 64590
+githubBigQuery CoffeeScript
+ repos 68631
+ users 44937
 
-* CoffeeScript is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2009 by Jeremy Ashkenas.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2009 2009
- link ../lists/creators.html#jeremyAshkenas Jeremy Ashkenas
+monaco coffee
+codeMirror coffeescript
+pygmentsHighlighter CoffeeScript
+ filename javascript.py
+ fileExtensions coffee
+linguistGrammarRepo https://github.com/atom/language-coffee-script
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 30
+ commitCount 332
+ sampleCount 10
+ example
+  console.log "Hello, World!"
+  
 
-dashboard
- #64 <span title="TotalRank: 238 Jobs: 63 Users: 77 Facts: 133 Links: 98">on PLDB</span>
- 15 Years Old
- 65k <span title="CoffeeScript repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://riju.codes/coffeescript">Riju</a> · <a href="https://tio.run/#coffeescript">TIO</a> · <a href="https://repl.it/languages/coffeescript">Replit</a>
-
-monacoEditor coffee
- console.log "Hello, world!"
- 
-
-* CoffeeScript is a programming language that transcompiles to JavaScript. It adds syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability. Specific additional features include list comprehension and pattern matching. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/CoffeeScript Read more on Wikipedia...
-
-- CoffeeScript website
- http://coffeescript.org
-- CoffeeScript Wikipedia page
- https://en.wikipedia.org/wiki/CoffeeScript
-- PLDB has 2 documentation sites for CoffeeScript: <a href="https://coffeescript.org/#introduction">coffeescript.org</a>, <a href="https://devdocs.io/coffeescript~1/">devdocs.io</a>
-- There are at least 64,590 CoffeeScript repos on <a href="https://github.com/search?q=language:CoffeeScript">GitHub</a>
-- CoffeeScript first developed in <a href="../lists/originCommunities.html#httpsGithubComJashkenas">https://github.com/jashkenas</a>
-- PLDB estimates there are currently 216 job openings for CoffeeScript programmers.
-- file extensions for CoffeeScript include coffee, litcoffee, _coffee, cake, cjsx and iced
-- CoffeeScript compiles to <a href="javascript.html">JavaScript</a>
-- The  Google BigQuery Public Dataset GitHub snapshot shows 45k users using CoffeeScript in 69k repos on <a href="https://api.github.com/search/repositories?q=language:CoffeeScript">GitHub</a>
-- Explore CoffeeScript snippets on <a href="http://www.rosettacode.org/wiki/Category:CoffeeScript">Rosetta Code</a>
-- CoffeeScript appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- CoffeeScript Ubuntu package
- https://packages.ubuntu.com/jammy/coffeescript
-- <a href="codemirror.html">CodeMirror</a> <a href="https://github.com/codemirror/codemirror5/tree/master/mode/coffeescript">package</a> for syntax highlighting CoffeeScript
-- <a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/coffee">package</a> for syntax highlighting CoffeeScript
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/javascript.py">syntax highlighting</a> for CoffeeScript
-- GitHub supports <a href="https://github.com/atom/language-coffee-script" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for CoffeeScript
-- CoffeeScript appears in the <a href="https://github.com/mame/quine-relay">Quine Relay</a> project
-- There is 1 <a href="jupyter-notebook.html">Jupyter</a> <a href="https://github.com/n-riesco/jp-coffeescript">Kernel</a> for CoffeeScript
-- Frequently Asked Questions for CoffeeScript
- https://github.com/jashkenas/coffeescript/wiki/FAQ
-- <a href="http://coffeescript.org">coffeescript.org</a> was registered in 2009
-- See also: (17 related languages)<a href="haskell.html">Haskell</a>, <a href="javascript.html">JavaScript</a>, <a href="perl.html">Perl</a>, <a href="python.html">Python</a>, <a href="ruby.html">Ruby</a>, <a href="yaml.html">YAML</a>, <a href="livescript.html">LiveScript</a>, <a href="rails.html">Ruby on Rails</a>, <a href="jquery.html">JQuery</a>, <a href="maven-pom.html">Apache Maven</a>, <a href="java.html">Java</a>, <a href="markdown.html">Markdown</a>, <a href="elm.html">Elm</a>, <a href="haxe.html">Haxe</a>, <a href="dart.html">Dart</a>, <a href="opa.html">Opa</a>, <a href="typescript.html">TypeScript</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/coffeescript'>Riju</a>:
- console.log &quot;Hello, world!&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/c/CoffeeScript.coffee'>hello-world</a>:
- alert &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#CoffeeScript'>the Hello World Collection</a>:
+helloWorldCollection CoffeeScript
  // Hello world in CoffeeScript
  
- alert &quot;Hello, World!&quot;
+ alert "Hello, World!"
+leachim6 CoffeeScript
+ filepath c/CoffeeScript.coffee
+ fileExtensions coffee
+ example
+  alert "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:CoffeeScript
+quineRelay CoffeeScript
 
-codeWithHeader Example from <a href='https://github.com/atom/language-coffee-script'>Linguist</a>:
- console.log &quot;Hello, World!&quot;
- 
+rijuRepl https://riju.codes/coffeescript
+ example
+  console.log "Hello, world!"
+  
+ description Compile-to-JavaScript programming language adding syntactic sugar inspired by Ruby, Python and Haskell in an effort to enhance JavaScript's brevity and readability
+ fileExtensions coffee litcoffee
+ website https://coffeescript.org/
+ gitRepo https://github.com/jashkenas/coffeescript
+replit https://repl.it/languages/coffeescript
+tryItOnline coffeescript
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/CoffeeScript'>Wikipedia</a>:
- author = &quot;Wittgenstein&quot;
- quote  = &quot;A picture is a fact. -- #{ author }&quot;
- 
- sentence = &quot;#{ 22 / 7 } is a decent approximation of π&quot;
+linkedInSkill coffeescript
+ 2018 21574
+faqPageUrl https://github.com/jashkenas/coffeescript/wiki/FAQ
 
-<div class="keywordsBlock">
-codeWithHeader CoffeeScript <a href="../lists/keywords.html?filter=coffeescript">Keywords</a>
- and or is isnt not on yes @ no off true false null this new delete typeof in instanceof return throw break continue debugger if else switch for while do try catch finally class extends super undefined then unless until loop of by when
-</div>
+tiobe CoffeeScript
 
-endColumns
+ubuntuPackage coffeescript
+jupyterKernel https://github.com/n-riesco/jp-coffeescript
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ Programming in CoffeeScript (Developer's Library)|2012|Mark Bates|19193715|3.50|22|2
+ Coffeescript Programming with Jquery, Rails, and Node.Js|2012|Michael Erasmus|23544945|3.50|10|2
+ Programming in Coffeescript|2012|Mark Bates|46311721|0.0|0|0
+ Programming in Coffeescript|2012|Mark Bates|46311722|0.0|0|0
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # [0-9]+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # [0-9][0-9]*\.[0-9]+([eE][0-9]+)?[fd]?
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # 0x[0-9a-fA-F]+
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Inheritance
-  FeatureLink ../features/hasInheritance.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Switch Statements
-  FeatureLink ../features/hasSwitch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Exceptions
-  FeatureLink ../features/hasExceptions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Classes
-  FeatureLink ../features/hasClasses.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature While Loops
-  FeatureLink ../features/hasWhileLoops.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token true false
-  Example
- row
-  Feature Regular Expression Syntax Sugar
-  FeatureLink ../features/hasRegularExpressionsSyntaxSugar.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
- row
-  Feature MultiLine Comments
-  FeatureLink ../features/hasMultiLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ###
-  Example
-   ### A comment
-   ###
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token console.log
-  Example
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Case Insensitive Identifiers
-  FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Variable Substitution Syntax
-  FeatureLink ../features/hasVariableSubstitutionSyntax.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isbndb 13
+ year|publisher|title|authors|isbn13
+ 2013|Packt Publishing|CoffeeScript Application Development|Young, Ian|9781782162667
+ 2014|Manning|CoffeeScript in Action|Patrick Lee|9781617290626
+ 2012|Packt Publishing|CoffeeScript Programming with jQuery, Rails, and Node.js|Erasmus, Michael|9781849519588
+ 2012-12-13|Packt Publishing|CoffeeScript Programming with jQuery, Rails, and Node.js|Michael Erasmus|9781849519595
+ 2012|Addison-Wesley Professional|Programming in CoffeeScript (Developer's Library)|Bates, Mark|9780132946148
+ 2015|Packt Publishing|CoffeeScript Application Development Cookbook|Hatfield, Mike|9781783289707
+ 2012|Addison-Wesley Professional|Programming in CoffeeScript (Developer's Library)|Bates, Mark|9780321820105
+ 2013|Wiley|Smashing CoffeeScript|Hudson, Alex|9781118454374
+ 20121128|O'Reilly Media, Inc.|Jump Start CoffeeScript|Earle Castledine|9781457191961
+ 20140508|Simon & Schuster|CoffeeScript in Action|Patrick Lee|9781638352921
+ 20121128|O'Reilly Media, Inc.|Jump Start CoffeeScript|Earle Castledine|9781457191954
+ 20120119|O'Reilly Media, Inc.|The Little Book on CoffeeScript|Alex MacCaw|9781449325541
+ 20120119|O'Reilly Media, Inc.|The Little Book on CoffeeScript|Alex MacCaw|9781449325558
 
-keyboardNav delphi.html f-sharp.html
-
-import ../footer.scroll
+semanticScholar 0

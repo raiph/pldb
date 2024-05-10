@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Coral++
+import ../measures/conceptPage.scroll
+id Coral++
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/b3d08ba272f24782fc2bea8278fed11e8c02d6d9
+country United States
+originCommunity University of Wisconsin && AT&T Bell Labs
 
-title Coral++ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5783
 
-html
- <a class="trueBaseThemePreviousItem" href="coral-64.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="corc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/coralpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=coralpp" class="material-symbols-outlined">edit</a></div>
-
-* Coral++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3597 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- Coral++ first developed in <a href="../lists/originCommunities.html#universityOfWisconsin">University of Wisconsin</a> and <a href="../lists/originCommunities.html#atTBellLabs">AT&T Bell Labs</a>
-- Coral++ on HOPL
- https://hopl.info/showlanguage.prx?exp=5783
-- Read more about Coral++ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/b3d08ba272f24782fc2bea8278fed11e8c02d6d9 1.
-
-<br>
-
-endColumns
-
-keyboardNav coral-64.html corc.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

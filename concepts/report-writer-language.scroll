@@ -1,40 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RPT
+import ../measures/conceptPage.scroll
+id RPT
+appeared 1961
+type pl
+reference https://publibfp.dhe.ibm.com/epubs/pdf/c2643014.pdf
+reference https://www.microfocus.com/documentation/visual-cobol/VC40/EclWin/HRLHLHWRI01.html
+standsFor Report Writer Language
+country England
+originCommunity Micro Focus International plc
 
-title RPT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2457
 
-html
- <a class="trueBaseThemePreviousItem" href="relational-production-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rosetta-smalltalk.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/report-writer-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=report-writer-language" class="material-symbols-outlined">edit</a></div>
-
-* RPT, aka Report Writer Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1961.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1961 1961
-
-dashboard
- #3127 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 63 Years Old
-
-* 
-
-- RPT first developed in <a href="../lists/originCommunities.html#microFocusInternationalPlc">Micro Focus International plc</a>
-- RPT on HOPL
- https://hopl.info/showlanguage.prx?exp=2457
-- Read more about RPT on the web: 1. 2.
- https://publibfp.dhe.ibm.com/epubs/pdf/c2643014.pdf 1.
- https://www.microfocus.com/documentation/visual-cobol/VC40/EclWin/HRLHLHWRI01.html 2.
-
-<br>
-
-endColumns
-
-keyboardNav relational-production-language.html rosetta-smalltalk.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

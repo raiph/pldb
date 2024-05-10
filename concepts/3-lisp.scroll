@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title 3-LISP
+import ../measures/conceptPage.scroll
+id 3-LISP
+appeared 1982
+type pl
+reference https://books.google.com/books/about/Interim_3_LISP_Reference_Manual.html?id=sX6oHwAACAAJ
+originCommunity Xerox PARC
 
-title 3-LISP - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1066
 
-html
- <a class="trueBaseThemePreviousItem" href="2obj.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="3dcomposer.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/3-lisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=3-lisp" class="material-symbols-outlined">edit</a></div>
-
-* 3-LISP is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1982.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1982 1982
-
-dashboard
- #3305 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 42 Years Old
-
-* 
-
-- 3-LISP first developed in <a href="../lists/originCommunities.html#xeroxParc">Xerox PARC</a>
-- 3-LISP on HOPL
- https://hopl.info/showlanguage.prx?exp=1066
-- Read more about 3-LISP on the web: 1.
- https://books.google.com/books/about/Interim_3_LISP_Reference_Manual.html?id=sX6oHwAACAAJ 1.
-
-<br>
-
-endColumns
-
-keyboardNav 2obj.html 3dcomposer.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

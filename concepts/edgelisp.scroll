@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title edgelisp
+import ../measures/conceptPage.scroll
+id edgelisp
+appeared 2008
+type pl
+creators Manuel Simoni
+website http://manuel.github.com/edgelisp/repl.html
+country Austria
+originCommunity https://github.com/manuel
 
-title edgelisp - Programming language
- hidden
+githubRepo https://github.com/manuel/edgelisp
+ firstCommit 2008
+ stars 119
+ forks 5
+ subscribers 8
+ created 2008
+ updated 2022
+ description A Lisp->JavaScript compiler
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="alma-0.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jonprl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edgelisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://manuel.github.com/edgelisp/repl.html" class="material-symbols-outlined">home</a> <a href="https://github.com/manuel/edgelisp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=edgelisp" class="material-symbols-outlined">edit</a></div>
-
-* edgelisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008 by Manuel Simoni.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
- link ../lists/creators.html#manuelSimoni Manuel Simoni
-
-codeWithHeader Source code:
- git clone https://github.com/manuel/edgelisp
-
-dashboard
- #1917 <span title="TotalRank: 2413 Jobs: 103 Users: 1324 Facts: 1669 Links: 986">on PLDB</span>
- 16 Years Old
-
-* A Lisp->JavaScript compiler
-
-- edgelisp website
- http://manuel.github.com/edgelisp/repl.html
-- edgelisp is developed on <a href="https://github.com/manuel/edgelisp">GitHub</a> and has 119 stars
-- edgelisp first developed in <a href="../lists/originCommunities.html#httpsGithubComManuel">https://github.com/manuel</a>
-
-<br>
-
-endColumns
-
-keyboardNav alma-0.html jonprl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2008
+ commits 613
+ committers 1
+ files 29

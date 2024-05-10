@@ -1,84 +1,67 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title exkited
+import ../measures/conceptPage.scroll
+id exkited
+appeared 2018
+type template
+creators Brandon Barber
+website https://exkited.com
+country United States
+originCommunity https://exkited.com
+domainName exkited.com
+ registered 2020
 
-title exkited - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="logos.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="markus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/exkited.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://exkited.com" class="material-symbols-outlined">home</a> <a href="https://github.com/maelswarm/exkited" class="material-symbols-outlined">code</a> <a href="/edit.html?id=exkited" class="material-symbols-outlined">edit</a></div>
-
-* exkited is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2018 by Brandon Barber.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#brandonBarber Brandon Barber
-
-codeWithHeader Source code:
- git clone https://github.com/maelswarm/exkited
-
-dashboard
- #1031 <span title="TotalRank: 1596 Jobs: 103 Users: 2373 Facts: 507 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A minimalistic templating language that lets you generate markup with JavaScript.
-
-- exkited website
- https://exkited.com
-- exkited is developed on <a href="https://github.com/maelswarm/exkited">GitHub</a> and has 4 stars
-- exkited first developed in <a href="../lists/originCommunities.html#httpsExkitedCom">https://exkited.com</a>
-- <a href="https://exkited.com">exkited.com</a> was registered in 2020
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;html&gt;
-     &lt;div class=&quot;title&quot;&gt;
-         &lt;@ return data.title @&gt; // A &#39;data&#39; object may be passed rendering.
-     &lt;/div&gt;
-     &lt;@
-         let result = &#39;&#39;;
-         for(let x=0;x&lt;10;x++) {
-             for(let i=0;i&lt;4;i++) {
-                 for(let j=0;j&lt;4;j++){
-                     result += `&lt;div&gt;@{i+j}&lt;/div&gt;`;
+example
+ <html>
+     <div class="title">
+         <@ return data.title @> // A 'data' object may be passed rendering.
+     </div>
+     <@
+         let result = '';
+         for(let x=0;x<10;x++) {
+             for(let i=0;i<4;i++) {
+                 for(let j=0;j<4;j++){
+                     result += `<div>@{i+j}</div>`;
                  }
              }
          }
          return result;
-     @&gt;
-     &lt;div class=&quot;average-price&quot;&gt;
-         &lt;@ return data.prices.reduce((accum, val) =&gt; accum += val) / data.prices.length; @&gt;
-     &lt;/div&gt;
-     &lt;div class=&quot;day-of-week&quot;&gt;
-         &lt;@
+     @>
+     <div class="average-price">
+         <@ return data.prices.reduce((accum, val) => accum += val) / data.prices.length; @>
+     </div>
+     <div class="day-of-week">
+         <@
              switch(data.dayIdx) {
                  case 0:
-                 return &#39;Sunday&#39;;
+                 return 'Sunday';
                  case 1:
-                 return &#39;Monday&#39;;
+                 return 'Monday';
                  case 2:
-                 return &#39;Tuesday&#39;;
+                 return 'Tuesday';
                  case 3:
-                 return &#39;Wednesday&#39;;
+                 return 'Wednesday';
                  case 4:
-                 return &#39;Thursday&#39;;
+                 return 'Thursday';
                  case 5:
-                 return &#39;Friday&#39;;
+                 return 'Friday';
                  case 6:
-                 return &#39;Saturday&#39;;
+                 return 'Saturday';
              }
-         @&gt;
-     &lt;/div&gt;
- &lt;/html&gt;
+         @>
+     </div>
+ </html>
 
-endColumns
+githubRepo https://github.com/maelswarm/exkited
+ firstCommit 2018
+ stars 4
+ subscribers 1
+ created 2018
+ updated 2019
+ description A minimalistic templating language that lets you generate markup with JavaScript.
+ forks 0
+ issues 0
 
-keyboardNav logos.html markus.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2018
+ commits 19
+ committers 2
+ files 12

@@ -1,100 +1,127 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Vue
+import ../measures/conceptPage.scroll
+id Vue
+appeared 2014
+type framework
+website https://vuejs.org
+webRepl https://playcode.io/vue/
+domainName vuejs.org
+ registered 2013
+ awisRank
+  2022 1371
 
-title Vue - Framework
- hidden
+githubRepo https://github.com/vuejs/vue
+ firstCommit 2016
+ stars 197318
+ forks 32394
+ subscribers 6120
+ created 2013
+ updated 2022
+ description 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+ issues 568
 
-html
- <a class="trueBaseThemePreviousItem" href="literate-coffeescript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="matplotlib.html">&gt;</a>
+wikipedia https://en.wikipedia.org/wiki/Vue.js
+ example
+  <div id="app">
+    <div>
+      <div>User 1</div>
+    </div>
+  </div>
+ related javascript html css elm
+ summary Vue.js (commonly referred to as Vue; pronounced , like view) is an open-source JavaScript framework for building user interfaces. Integration into projects that use other JavaScript libraries is simplified with Vue because it is designed to be incrementally adoptable. Vue can also function as a web application framework capable of powering advanced single-page applications.
+ created 2016
+ pageId 50978621
+ backlinksCount 264
+ revisionCount 158
+ dailyPageViews 852
+ appeared 2014
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/vuejs.pldb
+githubLanguage Vue
+ fileExtensions vue
+ trendingProjects
+  author name avatar url language languageColor stars forks currentPeriodStars description
+  wdlhao vue2-element-touzi-admin https://github.com/wdlhao.png https://github.com/wdlhao/vue2-element-touzi-admin Vue #2c3e50 1896 841 181 "基于vue2.0 +vuex+ element-ui后台管理系统"
+  epicmaxco vuestic-admin https://github.com/epicmaxco.png https://github.com/epicmaxco/vuestic-admin Vue #2c3e50 6428 924 804 "Free and Beautiful Vue.js Admin Template"
+  PanJiaChen vue-element-admin https://github.com/PanJiaChen.png https://github.com/PanJiaChen/vue-element-admin Vue #2c3e50 40249 13473 1948 "🎉 A magical vue admin https://panjiachen.github.io/vue-element-admin"
+  tuandm laravue https://github.com/tuandm.png https://github.com/tuandm/laravue Vue #2c3e50 563 178 114 "A magical administrative interface for Laravel built by VueJS and Element UI https://laravue.dev"
+  buefy buefy https://github.com/buefy.png https://github.com/buefy/buefy Vue #2c3e50 6183 612 258 "Lightweight UI components for Vue.js based on Bulma"
+  weilanwl ColorUI https://github.com/weilanwl.png https://github.com/weilanwl/ColorUI Vue #2c3e50 5837 985 570 鲜亮的高饱和色彩，专注视觉的小程序组件库
+  bestony logoly https://github.com/bestony.png https://github.com/bestony/logoly Vue #2c3e50 3255 288 238 "A Pornhub Flavour Logo Generator"
+  Requarks wiki https://github.com/Requarks.png https://github.com/Requarks/wiki Vue #2c3e50 5222 702 224 "Wiki.js | A modern, lightweight and powerful wiki app built on Node.js"
+  ElemeFE element https://github.com/ElemeFE.png https://github.com/ElemeFE/element Vue #2c3e50 40821 8770 1115 "A Vue.js 2.0 UI Toolkit for Web"
+  elunez eladmin-qd https://github.com/elunez.png https://github.com/elunez/eladmin-qd Vue #2c3e50 683 448 107 "eladmin前端源码，项目基于 Spring Boot 2.1.0 、 Spring Boot Jpa、 Spring Security、Redis、Vue的前后端分离后台管理系统， 权限控制采用 RBAC，菜单动态路由"
+  Molunerfinn PicGo https://github.com/Molunerfinn.png https://github.com/Molunerfinn/PicGo Vue #2c3e50 6151 518 360 "🚀A simple & beautiful tool for pictures uploading built by electron-vue"
+  dcloudio hello-uniapp https://github.com/dcloudio.png https://github.com/dcloudio/hello-uniapp Vue #2c3e50 454 224 61 uni-app框架演示示例
+  bailicangdu vue2-elm https://github.com/bailicangdu.png https://github.com/bailicangdu/vue2-elm Vue #2c3e50 29400 9847 662 "基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用"
+  ustbhuangyi vue-sell https://github.com/ustbhuangyi.png https://github.com/ustbhuangyi/vue-sell Vue #2c3e50 2899 1257 76 "🍚 Vue.js高仿饿了么外卖App课程源码 http://coding.imooc.com/class/74.html"
+  youzan vant-demo https://github.com/youzan.png https://github.com/youzan/vant-demo Vue #2c3e50 550 421 74 "Collection of vant demos."
+  macrozheng mall-admin-web https://github.com/macrozheng.png https://github.com/macrozheng/mall-admin-web Vue #2c3e50 3467 2063 345 "mall-admin-web是一个电商后台管理系统的前端项目，基于Vue+Element实现。 主要包括商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等功能。"
+  xyxiao001 vue-cropper https://github.com/xyxiao001.png https://github.com/xyxiao001/vue-cropper Vue #2c3e50 1764 369 102 "A simple picture clipping plugin for vue"
+  sendya ant-design-pro-vue https://github.com/sendya.png https://github.com/sendya/ant-design-pro-vue Vue #2c3e50 3134 852 348 "👨🏻‍💻👩🏻‍💻 Use Ant Design Vue like a Pro! A simple vue admin template."
+  ymm-tech gods-pen https://github.com/ymm-tech.png https://github.com/ymm-tech/gods-pen Vue #2c3e50 232 41 113 
+  a54552239 pearProject https://github.com/a54552239.png https://github.com/a54552239/pearProject Vue #2c3e50 817 191 110 pear，梨子，一个基于Vue.js实现的项目管理系统
+  sdras ecommerce-netlify https://github.com/sdras.png https://github.com/sdras/ecommerce-netlify Vue #2c3e50 475 69 412 "🛍 A JAMstack Ecommerce Site built with Nuxt and Netlify Functions"
+  sl1673495 vue-netease-music https://github.com/sl1673495.png https://github.com/sl1673495/vue-netease-music Vue #2c3e50 485 79 343 "🎵基于Vue2、Vue-CLI3的高仿网易云mac客户端播放器（PC） Online Music Player"
+  openspug spug https://github.com/openspug.png https://github.com/openspug/spug Vue #2c3e50 962 269 175 "开源运维平台：帮助中小型企业完成主机、任务、发布部署、配置文件、监控、报警等管理(open source O & M management system,manage the hosts, tasks, deployment, configuration files, monitoring and alarming) https://spug.qbangmang.com/login"
+  llldddbbb dbblog https://github.com/llldddbbb.png https://github.com/llldddbbb/dbblog Vue #2c3e50 372 148 87 基于SpringBoot2.x+Vue2.x+ElementUI+Iview+Elasticsearch+RabbitMQ+Redis+Shiro的多模块前后端分离的博客项目
+  hinesboy mavonEditor https://github.com/hinesboy.png https://github.com/hinesboy/mavonEditor Vue #2c3e50 2991 496 138 "mavonEditor - A markdown editor based on Vue that supports a variety of personalized features"
+ trendingProjectsCount 26
+ type markup
+ aceMode html
+ tmScope text.html.vue
+ repos 875562
+githubBigQuery Vue
+ repos 8639
+ users 7769
 
-startColumns 4
+linguistGrammarRepo https://github.com/vuejs/vue-syntax-highlight
+ firstCommit 2014
+ lastCommit 2018
+ committerCount 19
+ commitCount 54
+ sampleCount 2
+ example
+  <style>
+  .red {
+    color: #f00;
+  }
+  </style>
+  
+  <template>
+  <div>
+    <h2 v-class="red">{{msg}}</h2>
+  </div>
+  </template>
+  
+  <script>
+  module.exports = {
+    data: function () {
+      return {
+        msg: 'Hello from Vue!'
+      }
+    }
+  }
+  </script>
+  
+languageServerProtocolProject https://github.com/vuejs/vetur
+ writtenIn typescript
 
-<div class="trueBaseThemeQuickLinks"><a href="https://vuejs.org" class="material-symbols-outlined">home</a> <a href="https://playcode.io/vue/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/vuejs/vue" class="material-symbols-outlined">code</a> <a href="https://en.wikipedia.org/wiki/Vue.js"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/vuejs"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=vuejs" class="material-symbols-outlined">edit</a></div>
+leachim6 Vue
+ filepath v/Vue.js
+ fileExtensions js
+ example
+  <div id="app">
+    <p>{{ message }}</p>
+  </div>
+  <script>
+  new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello World'
+    }
+  })
+  </script>
+  
 
-* Vue is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+framework">framework</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/vuejs/vue
-
-dashboard
- #117 on PLDB
- 10 Years Old
- 876k <span title="Vue repos on GitHub.">Repos</span>
-
-* Try now: <a href="https://playcode.io/vue/">Web</a>
-
-* Vue.js (commonly referred to as Vue; pronounced , like view) is an open-source JavaScript framework for building user interfaces. Integration into projects that use other JavaScript libraries is simplified with Vue because it is designed to be incrementally adoptable. Vue can also function as a web application framework capable of powering advanced single-page applications.. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Vue.js Read more on Wikipedia...
-
-- Vue website
- https://vuejs.org
-- Vue Wikipedia page
- https://en.wikipedia.org/wiki/Vue.js
-- Vue is developed on <a href="https://github.com/vuejs/vue">GitHub</a> and has 197,318 stars
-- There are at least 875,562 Vue repos on <a href="https://github.com/search?q=language:Vue">GitHub</a>
-- file extensions for Vue include vue
-- Vue on Twitter
- https://twitter.com/vuejs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 8k users using Vue in 9k repos on <a href="https://api.github.com/search/repositories?q=language:Vue">GitHub</a>
-- Vue <a href="language-server-protocol.html">LSP</a> <a href="https://github.com/vuejs/vetur">implementation</a>
-- GitHub supports <a href="https://github.com/vuejs/vue-syntax-highlight" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Vue
-- <a href="https://vuejs.org">vuejs.org</a> was registered in 2013
-- See also: (4 related languages)<a href="javascript.html">JavaScript</a>, <a href="html.html">HTML</a>, <a href="css.html">CSS</a>, <a href="elm.html">Elm</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/v/Vue.js'>hello-world</a>:
- &lt;div id=&quot;app&quot;&gt;
-   &lt;p&gt;{{ message }}&lt;/p&gt;
- &lt;/div&gt;
- &lt;script&gt;
- new Vue({
-   el: &#39;#app&#39;,
-   data: {
-     message: &#39;Hello World&#39;
-   }
- })
- &lt;/script&gt;
- 
-
-codeWithHeader Example from <a href='https://github.com/vuejs/vue-syntax-highlight'>Linguist</a>:
- &lt;style&gt;
- .red {
-   color: #f00;
- }
- &lt;/style&gt;
- 
- &lt;template&gt;
- &lt;div&gt;
-   &lt;h2 v-class=&quot;red&quot;&gt;{{msg}}&lt;/h2&gt;
- &lt;/div&gt;
- &lt;/template&gt;
- 
- &lt;script&gt;
- module.exports = {
-   data: function () {
-     return {
-       msg: &#39;Hello from Vue!&#39;
-     }
-   }
- }
- &lt;/script&gt;
- 
-
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Vue.js'>Wikipedia</a>:
- &lt;div id=&quot;app&quot;&gt;
-   &lt;div&gt;
-     &lt;div&gt;User 1&lt;/div&gt;
-   &lt;/div&gt;
- &lt;/div&gt;
-
-endColumns
-
-keyboardNav literate-coffeescript.html matplotlib.html
-
-import ../footer.scroll
+twitter https://twitter.com/vuejs
+fileType text
+isOpenSource true

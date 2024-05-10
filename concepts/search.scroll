@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title SEARCH
+import ../measures/conceptPage.scroll
+id SEARCH
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/26be180d2f132f987602c9556b072d2f99e31324
+country Australia
+originCommunity The Walter and Eliza Hall Institute of Medical Research
 
-title SEARCH - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6667
 
-html
- <a class="trueBaseThemePreviousItem" href="screamer.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sespath.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/search.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=search" class="material-symbols-outlined">edit</a></div>
-
-* SEARCH is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #4296 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- SEARCH first developed in <a href="../lists/originCommunities.html#theWalterAndElizaHallInstituteOfMedicalResearch">The Walter and Eliza Hall Institute of Medical Research</a>
-- SEARCH on HOPL
- https://hopl.info/showlanguage.prx?exp=6667
-- Read more about SEARCH on Semantic Scholar: 1.
- https://semanticscholar.org/paper/26be180d2f132f987602c9556b072d2f99e31324 1.
-
-<br>
-
-endColumns
-
-keyboardNav screamer.html sespath.html
-
-import ../footer.scroll
+wordRank 41
+centralPackageRepositoryCount 0

@@ -1,36 +1,7 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title concordance
+import ../measures/conceptPage.scroll
+id concordance
+appeared 1994
+type pl
+reference https://books.google.com/books?id=Z4oYATKfX38C&pg=PA132&lpg=PA132&dq=concordance+programming+language&source=bl&ots=gq9Zak0BpI&sig=ACfU3U1mnNG5pPSFrgbklse9veXigydgBw&hl=en&sa=X&ved=2ahUKEwjbv7LhiZfgAhVpl1QKHQgQB0wQ6AEwB3oECAMQAQ
 
-title concordance - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="chappe-code.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="csvpp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/concordance.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=concordance" class="material-symbols-outlined">edit</a></div>
-
-* concordance is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3150 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4298 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- Read more about concordance on the web: 1.
- https://books.google.com/books?id=Z4oYATKfX38C&pg=PA132&lpg=PA132&dq=concordance+programming+language&source=bl&ots=gq9Zak0BpI&sig=ACfU3U1mnNG5pPSFrgbklse9veXigydgBw&hl=en&sa=X&ved=2ahUKEwjbv7LhiZfgAhVpl1QKHQgQB0wQ6AEwB3oECAMQAQ 1.
-
-<br>
-
-endColumns
-
-keyboardNav chappe-code.html csvpp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

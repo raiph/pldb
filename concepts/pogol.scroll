@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title POGOL
+import ../measures/conceptPage.scroll
+id POGOL
+appeared 1973
+type pl
+reference https://semanticscholar.org/paper/9fdacc168f5ccad268546464644791819e74ba50
+country United States
+originCommunity Dept. of Defense
 
-title POGOL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6653
 
-html
- <a class="trueBaseThemePreviousItem" href="pocket-smalltalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="polac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pogol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pogol" class="material-symbols-outlined">edit</a></div>
-
-* POGOL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1973.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1973 1973
-
-dashboard
- #3942 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 51 Years Old
-
-* 
-
-- POGOL first developed in <a href="../lists/originCommunities.html#deptOfDefense">Dept. of Defense</a>
-- POGOL on HOPL
- https://hopl.info/showlanguage.prx?exp=6653
-- Read more about POGOL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9fdacc168f5ccad268546464644791819e74ba50 1.
-
-<br>
-
-endColumns
-
-keyboardNav pocket-smalltalk.html polac.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

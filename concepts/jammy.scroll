@@ -1,42 +1,26 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Jammy
+import ../measures/conceptPage.scroll
+id Jammy
+appeared 2021
+type pl
+creators Mark
+country Unknown
+originCommunity https://github.com/markpwns1/jammy/issues
 
-title Jammy - Programming language
- hidden
+compilesTo lua
+writtenIn javascript
 
-html
- <a class="trueBaseThemePreviousItem" href="rocket.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nlpl.html">&gt;</a>
+githubRepo https://github.com/markpwns1/jammy
+ firstCommit 2021
+ stars 7
+ forks 0
+ subscribers 2
+ created 2021
+ updated 2021
+ description A programming language specifically for doing game jams in Love2D
+ issues 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/jammy.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/markpwns1/jammy" class="material-symbols-outlined">code</a> <a href="/edit.html?id=jammy" class="material-symbols-outlined">edit</a></div>
-
-* Jammy is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Mark.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#mark Mark
-
-codeWithHeader Source code:
- git clone https://github.com/markpwns1/jammy
-
-dashboard
- #2176 <span title="TotalRank: 2680 Jobs: 103 Users: 2358 Facts: 1591 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A programming language specifically for doing game jams in Love2D
-
-- Jammy is developed on <a href="https://github.com/markpwns1/jammy">GitHub</a> and has 7 stars
-- Jammy first developed in <a href="../lists/originCommunities.html#httpsGithubComMarkpwns1JammyIssues">https://github.com/markpwns1/jammy/issues</a>
-- Jammy compiles to <a href="lua.html">Lua</a>
-- Jammy is written in <a href="javascript.html">JavaScript</a>
-
-<br>
-
-endColumns
-
-keyboardNav rocket.html nlpl.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 89
+ committers 3
+ files 28

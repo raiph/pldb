@@ -1,94 +1,72 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Violent ES
+import ../measures/conceptPage.scroll
+id Violent ES
+appeared 2022
+type pl
+creators Matheus Dias de Souza
+conceptDescription Robust dialect of the EcmaScript scripting language. Not available yet, work in progress.
+website https://github.com/violent-es/violent-es
+country Unknown
+originCommunity https://github.com/violent-es/violent-es
 
-title Violent ES - Programming language
- hidden
+keywords as await break case catch class const continue default delete do each else embed enum extends false final finally for from function get if implements import in include interface internal is meta namespace native new null override package private protected proxy public resource return set static switch this throw throws true try type typeof undefined use var void where while with yield
 
-html
- <a class="trueBaseThemePreviousItem" href="operational-control-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="grass.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/violent-es.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/violent-es/violent-es" class="material-symbols-outlined">home</a> <a href="https://github.com/violent-es/violent-es" class="material-symbols-outlined">code</a> <a href="/edit.html?id=violent-es" class="material-symbols-outlined">edit</a></div>
-
-* Violent ES is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2022 by Matheus Dias de Souza.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#matheusDiasDeSouza Matheus Dias de Souza
-
-codeWithHeader Source code:
- git clone https://github.com/violent-es/violent-es
-
-dashboard
- #999 <span title="TotalRank: 1564 Jobs: 103 Users: 2383 Facts: 475 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Robust dialect of the EcmaScript scripting language. Not available yet, work in progress.
-
-- Violent ES website
- https://github.com/violent-es/violent-es
-- Violent ES is developed on <a href="https://github.com/violent-es/violent-es">GitHub</a> and has 3 stars
-- Violent ES first developed in <a href="../lists/originCommunities.html#httpsGithubComViolentEsViolentEs">https://github.com/violent-es/violent-es</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  enum Product {
-     // [&#39;smartphone&#39;, 0]
+     // ['smartphone', 0]
      const SMARTPHONE;
      
-     // [&#39;aUtOmObIlE&#39;, 1]
-     const AUTOMOBILE = &#39;aUtOmObIlE&#39;;
+     // ['aUtOmObIlE', 1]
+     const AUTOMOBILE = 'aUtOmObIlE';
      
-     // [&#39;kxxx&#39;, 65]
-     const KEYBOARD = [65, &#39;kxxx&#39;];
+     // ['kxxx', 65]
+     const KEYBOARD = [65, 'kxxx'];
      
      function customMethod():void {
      }
  }
  
- var p:Produle = &#39;kxxx&#39;;
+ var p:Produle = 'kxxx';
  var p = Product.KEYBOARD;
  p.valueOf(); // 65
- p.toString(); // &#39;kxxx&#39;
+ p.toString(); // 'kxxx'
  p = 65 as! Product;
- p = &#39;kxxx&#39; as! Product;
+ p = 'kxxx' as! Product;
  
  [Flags]
  enum Permissions {
-     // [&#39;fooBlah&#39;, 1]
+     // ['fooBlah', 1]
      const FOO_BLAH;
      
-     // [&#39;qux&#39;, 2]
+     // ['qux', 2]
      const QUX;
      
-     // [&#39;baz&#39;, 4]
+     // ['baz', 4]
      const BAZ;
  }
  
- var p:Permissions = [&#39;fooBlah&#39;, &#39;qux&#39;];
+ var p:Permissions = ['fooBlah', 'qux'];
  p = {fooBlah: true, baz: false};
- p = p.toggle(&#39;fooBlah&#39;);
- p = p.filter(&#39;qux&#39;);
- p = p.include(&#39;qux&#39;);
- p = p.exclude(&#39;qux&#39;);
- &#39;qux&#39; in p;
+ p = p.toggle('fooBlah');
+ p = p.filter('qux');
+ p = p.include('qux');
+ p = p.exclude('qux');
+ 'qux' in p;
  
  // empty
  p = undefined;
  p = {};
  p = [];
 
-<div class="keywordsBlock">
-codeWithHeader Violent ES <a href="../lists/keywords.html?filter=violent-es">Keywords</a>
- as await break case catch class const continue default delete do each else embed enum extends false final finally for from function get if implements import in include interface internal is meta namespace native new null override package private protected proxy public resource return set static switch this throw throws true try type typeof undefined use var void where while with yield
-</div>
+githubRepo https://github.com/violent-es/violent-es
+ stars 3
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description Compiler and more for the Violent ES language 
 
-endColumns
-
-keyboardNav operational-control-language.html grass.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2023
+ commits 272
+ committers 1
+ files 96

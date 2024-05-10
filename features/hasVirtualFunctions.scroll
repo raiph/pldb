@@ -9,11 +9,11 @@ html
  <a class="trueBaseThemePreviousItem" href="hasVariadicFunctions.html">&lt;</a>
  <a class="trueBaseThemeNextItem" href="hasVoidFunctions.html">&gt;</a>
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/.grammar
+// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-startColumns 4
+thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>:
+codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
  class Animal {
   public:
    // Intentionally not virtual:
@@ -38,9 +38,7 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
   behaviour DoSomething
    printline &quot;hello: $name&quot;
 
-* Languages *with* Virtual function include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/real-time-concurrent-c.html">Real-Time Concurrent C</a>
-
-* This question asks: Does the language have virtual functions?
+* Languages *with* Virtual function include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Read more about Virtual function on the web: 1.
  https://en.wikipedia.org/wiki/Virtual_function 1.

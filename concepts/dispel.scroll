@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DISPEL
+import ../measures/conceptPage.scroll
+id DISPEL
+appeared 1981
+type pl
+reference https://semanticscholar.org/paper/fed46d5459af5962e0320c7b62dbc0d3f0b2e29d
+country United States
+originCommunity Hewlett-Packard
 
-title DISPEL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2817
 
-html
- <a class="trueBaseThemePreviousItem" href="disc.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dna.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dispel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=dispel" class="material-symbols-outlined">edit</a></div>
-
-* DISPEL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1981.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1981 1981
-
-dashboard
- #4125 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 43 Years Old
-
-* 
-
-- DISPEL first developed in <a href="../lists/originCommunities.html#hewlettPackard">Hewlett-Packard</a>
-- DISPEL on HOPL
- https://hopl.info/showlanguage.prx?exp=2817
-- Read more about DISPEL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fed46d5459af5962e0320c7b62dbc0d3f0b2e29d 1.
-
-<br>
-
-endColumns
-
-keyboardNav disc.html dna.html
-
-import ../footer.scroll
+isbndb 0

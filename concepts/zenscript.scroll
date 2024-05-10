@@ -1,42 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title zenscript
+import ../measures/conceptPage.scroll
+id zenscript
+appeared 2014
+type pl
+creators Stan Hebben
+fileExtensions zs
 
-title zenscript - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="ld-json.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="sophia.html">&gt;</a>
+printToken print
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/zenscript.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/CraftTweaker/ZenScript" class="material-symbols-outlined">code</a> <a href="/edit.html?id=zenscript" class="material-symbols-outlined">edit</a></div>
-
-* zenscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Stan Hebben.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#stanHebben Stan Hebben
-
-codeWithHeader Source code:
- git clone https://github.com/CraftTweaker/ZenScript
-
-dashboard
- #1391 <span title="TotalRank: 1921 Jobs: 103 Users: 1437 Facts: 832 Links: 986">on PLDB</span>
- 10 Years Old
- 1k <span title="zenscript repos on GitHub.">Repos</span>
-
-* 
-
-- zenscript is developed on <a href="https://github.com/CraftTweaker/ZenScript">GitHub</a> and has 46 stars
-- There are at least 1,390 zenscript repos on <a href="https://github.com/search?q=language:ZenScript">GitHub</a>
-- file extensions for zenscript include zs
-- The  Google BigQuery Public Dataset GitHub snapshot shows 8 users using zenscript in 8 repos on <a href="https://api.github.com/search/repositories?q=language:ZenScript">GitHub</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  var x = 5;
  print(x+5);
  for i in 0 to 10 {
@@ -48,18 +21,27 @@ codeWithHeader Example from the web:
      }
  }
 
-endColumns
+githubRepo https://github.com/CraftTweaker/ZenScript
+ firstCommit 2014
+ stars 46
+ forks 20
+ subscribers 6
+ created 2018
+ updated 2022
+ issues 8
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2014
+ commits 274
+ committers 17
+ files 327
 
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token print
-  Example
-
-keyboardNav ld-json.html sophia.html
-
-import ../footer.scroll
+githubLanguage ZenScript
+ type programming
+ fileExtensions zs
+ aceMode text
+ tmScope source.zenscript
+ repos 1390
+githubBigQuery ZenScript
+ repos 8
+ users 8

@@ -1,38 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rbs
+import ../measures/conceptPage.scroll
+id rbs
+appeared 2020
+type headerLang
+conceptDescription We defined a new language called RBS for type signatures for Ruby 3. The signatures are written in .rbs files which is different from Ruby code. You can consider the .rbs files are similar to .d.ts files in TypeScript or .h files in C/C++/ObjC. The benefit of having different files is it doesn't require changing Ruby code to start type checking. You can opt-in type checking safely without changing any part of your workflow.
+reference https://developer.squareup.com/blog/the-state-of-ruby-3-typing/
+fileExtensions rbs
+country United States
+originCommunity Square Capital, LLC
 
-title rbs - Header lang
- hidden
+relatedConcepts ruby
 
-html
- <a class="trueBaseThemePreviousItem" href="2-pak.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="portable-standard-lisp.html">&gt;</a>
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rbs.pldb
+lineCommentToken #
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rbs" class="material-symbols-outlined">edit</a></div>
-
-* rbs is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+headerLang">header lang</a> created in 2020.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
-
-dashboard
- #1774 <span title="TotalRank: 2292 Jobs: 103 Users: 2838 Facts: 1203 Links: 986">on PLDB</span>
- 4 Years Old
-
-* We defined a new language called RBS for type signatures for Ruby 3. The signatures are written in .rbs files which is different from Ruby code. You can consider the .rbs files are similar to .d.ts files in TypeScript or .h files in C/C++/ObjC. The benefit of having different files is it doesn't require changing Ruby code to start type checking. You can opt-in type checking safely without changing any part of your workflow.
-
-- rbs first developed in <a href="../lists/originCommunities.html#squareCapitalLlc">Square Capital, LLC</a>
-- file extensions for rbs include rbs
-- See also: (1 related languages)<a href="ruby.html">Ruby</a>
-- Read more about rbs on the web: 1.
- https://developer.squareup.com/blog/the-state-of-ruby-3-typing/ 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # sig/merchant.rbs
  
  class Merchant
@@ -40,38 +26,8 @@ codeWithHeader Example from the web:
    attr_reader name: String
    attr_reader employees: Array[Employee]
  
-   def initialize(token: String, name: String) -&gt; void
+   def initialize(token: String, name: String) -> void
  
-   def each_employee: () { (Employee) -&gt; void } -&gt; void
-                    | () -&gt; Enumerator[Employee, void]
+   def each_employee: () { (Employee) -> void } -> void
+                    | () -> Enumerator[Employee, void]
  end
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav 2-pak.html portable-standard-lisp.html
-
-import ../footer.scroll

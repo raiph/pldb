@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title REGENT
+import ../measures/conceptPage.scroll
+id REGENT
+appeared 1971
+type pl
+reference https://semanticscholar.org/paper/ff6309a89c34ffd1f0ede9c29e5eb5c955f50c30
+country Germany
+originCommunity Karlsruher Institut für Technologie
 
-title REGENT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=4089
 
-html
- <a class="trueBaseThemePreviousItem" href="reflisp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="relationlog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/regent.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=regent" class="material-symbols-outlined">edit</a></div>
-
-* REGENT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1971.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1971 1971
-
-dashboard
- #3979 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 53 Years Old
-
-* 
-
-- REGENT first developed in <a href="../lists/originCommunities.html#karlsruherInstitutFurTechnologie">Karlsruher Institut für Technologie</a>
-- REGENT on HOPL
- https://hopl.info/showlanguage.prx?exp=4089
-- Read more about REGENT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/ff6309a89c34ffd1f0ede9c29e5eb5c955f50c30 1.
-
-<br>
-
-endColumns
-
-keyboardNav reflisp.html relationlog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

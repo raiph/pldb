@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DIGRAF
+import ../measures/conceptPage.scroll
+id DIGRAF
+appeared 1977
+type pl
+reference https://semanticscholar.org/paper/6e03008fd772a8e717428cc96f9451daa26d513d
+country United States
+originCommunity University of Colorado
 
-title DIGRAF - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7875
 
-html
- <a class="trueBaseThemePreviousItem" href="diamag.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="diplans.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/digraf.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=digraf" class="material-symbols-outlined">edit</a></div>
-
-* DIGRAF is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1977.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1977 1977
-
-dashboard
- #3627 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 47 Years Old
-
-* 
-
-- DIGRAF first developed in <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- DIGRAF on HOPL
- https://hopl.info/showlanguage.prx?exp=7875
-- Read more about DIGRAF on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6e03008fd772a8e717428cc96f9451daa26d513d 1.
-
-<br>
-
-endColumns
-
-keyboardNav diamag.html diplans.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

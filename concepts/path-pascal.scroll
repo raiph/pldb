@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Path Pascal
+import ../measures/conceptPage.scroll
+id Path Pascal
+appeared 1978
+type pl
+reference https://semanticscholar.org/paper/0958388c3a62e515f9eb94227b568b220310de7c
+country United States
+originCommunity University of Illinois Urbana-Champaign
 
-title Path Pascal - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=922
 
-html
- <a class="trueBaseThemePreviousItem" href="pasro.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pcn.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/path-pascal.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=path-pascal" class="material-symbols-outlined">edit</a></div>
-
-* Path Pascal is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #3919 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 46 Years Old
-
-* 
-
-- Path Pascal first developed in <a href="../lists/originCommunities.html#universityOfIllinoisUrbanaChampaign">University of Illinois Urbana-Champaign</a>
-- Path Pascal on HOPL
- https://hopl.info/showlanguage.prx?exp=922
-- Read more about Path Pascal on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0958388c3a62e515f9eb94227b568b220310de7c 1.
-
-<br>
-
-endColumns
-
-keyboardNav pasro.html pcn.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

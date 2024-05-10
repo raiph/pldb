@@ -1,40 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Smalltalk YX
+import ../measures/conceptPage.scroll
+id Smalltalk YX
+appeared 2007
+type pl
+reference https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/syx/syx-0.1.7.tar.gz
+reference https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/syx/source-archive.zip
+reference https://web.archive.org/web/20150324123935/https://en.wikipedia.org/wiki/Smalltalk_YX
+reference https://sourceforge.net/projects/syx.berlios/
+country Italy
+originCommunity https://groups.google.com/g/syx-discuss
 
-title Smalltalk YX - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="sina.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="smoke.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/smalltalk-yx.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=smalltalk-yx" class="material-symbols-outlined">edit</a></div>
-
-* Smalltalk YX is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3133 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- Smalltalk YX first developed in <a href="../lists/originCommunities.html#httpsGroupsGoogleComGSyxDiscuss">https://groups.google.com/g/syx-discuss</a>
-- Read more about Smalltalk YX on the web: 1. 2. 3. 4.
- https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/syx/syx-0.1.7.tar.gz 1.
- https://storage.googleapis.com/google-code-archive-source/v2/code.google.com/syx/source-archive.zip 2.
- https://web.archive.org/web/20150324123935/https://en.wikipedia.org/wiki/Smalltalk_YX 3.
- https://sourceforge.net/projects/syx.berlios/ 4.
-
-<br>
-
-endColumns
-
-keyboardNav sina.html smoke.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

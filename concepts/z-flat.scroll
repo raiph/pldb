@@ -1,44 +1,17 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Z-flat
+import ../measures/conceptPage.scroll
+id Z-flat
+appeared 2021
+type pl
+creators Adam Hutchings
+conceptDescription Z-flat is a compiled, statically-typed programming language. Its design goals are intuitive syntax, type-safety, and easy library management.
+fileExtensions zf
 
-title Z-flat - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="project-mentat.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="incipit.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/z-flat.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/adamhutchings/zflat" class="material-symbols-outlined">code</a> <a href="/edit.html?id=z-flat" class="material-symbols-outlined">edit</a></div>
-
-* Z-flat is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Adam Hutchings.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#adamHutchings Adam Hutchings
-
-codeWithHeader Source code:
- git clone https://github.com/adamhutchings/zflat
-
-dashboard
- #1395 <span title="TotalRank: 1921 Jobs: 103 Users: 2248 Facts: 832 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Z-flat is a compiled, statically-typed programming language. Its design goals are intuitive syntax, type-safety, and easy library management.
-
-- Z-flat is developed on <a href="https://github.com/adamhutchings/zflat">GitHub</a> and has 7 stars
-- file extensions for Z-flat include zf
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ~/ factorial /~
  
  ~ recursive implementation ~
  factorial_r(x: int): int {
-     if (x &lt; 2) {
+     if (x < 2) {
          return 1;
      } else {
          return x * factorial_r(x - 1);
@@ -54,8 +27,18 @@ codeWithHeader Example from the web:
      return ret;
  }
 
-endColumns
+githubRepo https://github.com/adamhutchings/zflat
+ firstCommit 2021
+ stars 7
+ forks 3
+ subscribers 3
+ created 2021
+ updated 2021
+ description The home of the Z♭ programming language, including the compiler and docs (in progress) and the standard library (not yet started)
+ issues 0
 
-keyboardNav project-mentat.html incipit.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2021
+ commits 764
+ committers 4
+ files 88

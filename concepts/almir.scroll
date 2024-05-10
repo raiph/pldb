@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ALMIR
+import ../measures/conceptPage.scroll
+id ALMIR
+appeared 1968
+type pl
+reference https://en.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA
+originCommunity Poltava National Technical University
 
-title ALMIR - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5429
 
-html
- <a class="trueBaseThemePreviousItem" href="alma-o.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="alonzo.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/almir.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=almir" class="material-symbols-outlined">edit</a></div>
-
-* ALMIR is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1968.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1968 1968
-
-dashboard
- #3350 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 56 Years Old
-
-* 
-
-- ALMIR first developed in <a href="../lists/originCommunities.html#poltavaNationalTechnicalUniversity">Poltava National Technical University</a>
-- ALMIR on HOPL
- https://hopl.info/showlanguage.prx?exp=5429
-- Read more about ALMIR on the web: 1.
- https://en.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA 1.
-
-<br>
-
-endColumns
-
-keyboardNav alma-o.html alonzo.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ChemTrains
+import ../measures/conceptPage.scroll
+id ChemTrains
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/981157c40bd6736cb097708bbca719fdb2e25d0e
+country United States
+originCommunity U S WEST Advanced Technologies, Inc && University of Colorado
 
-title ChemTrains - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6142
 
-html
- <a class="trueBaseThemePreviousItem" href="charybdis.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="chronolog.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chemtrains.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=chemtrains" class="material-symbols-outlined">edit</a></div>
-
-* ChemTrains is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3563 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- ChemTrains first developed in <a href="../lists/originCommunities.html#uSWestAdvancedTechnologiesInc">U S WEST Advanced Technologies, Inc</a> and <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- ChemTrains on HOPL
- https://hopl.info/showlanguage.prx?exp=6142
-- Read more about ChemTrains on Semantic Scholar: 1.
- https://semanticscholar.org/paper/981157c40bd6736cb097708bbca719fdb2e25d0e 1.
-
-<br>
-
-endColumns
-
-keyboardNav charybdis.html chronolog.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

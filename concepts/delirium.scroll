@@ -1,39 +1,13 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Delirium
+import ../measures/conceptPage.scroll
+id Delirium
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/9f9e8c86c0f51436d2534d0160849e238ed3c7a9
+country United States
+originCommunity University of California, Berkeley
 
-title Delirium - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1618
 
-html
- <a class="trueBaseThemePreviousItem" href="del.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="delta-prolog.html">&gt;</a>
+centralPackageRepositoryCount 0
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/delirium.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=delirium" class="material-symbols-outlined">edit</a></div>
-
-* Delirium is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #4118 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Delirium first developed in <a href="../lists/originCommunities.html#universityOfCaliforniaBerkeley">University of California, Berkeley</a>
-- Delirium on HOPL
- https://hopl.info/showlanguage.prx?exp=1618
-- Read more about Delirium on Semantic Scholar: 1.
- https://semanticscholar.org/paper/9f9e8c86c0f51436d2534d0160849e238ed3c7a9 1.
-
-<br>
-
-endColumns
-
-keyboardNav del.html delta-prolog.html
-
-import ../footer.scroll
+isbndb 0

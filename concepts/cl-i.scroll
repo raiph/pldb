@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CL-I
+import ../measures/conceptPage.scroll
+id CL-I
+appeared 1960
+type pl
+reference https://semanticscholar.org/paper/8a4bed9ba734d807bd0ab87f9f2e49807132a4f0
+country United States
+originCommunity Technical Operations Incorporated
 
-title CL-I - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3017
 
-html
- <a class="trueBaseThemePreviousItem" href="cims-pl-i.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="clascal.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/cl-i.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=cl-i" class="material-symbols-outlined">edit</a></div>
-
-* CL-I is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1960.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1960 1960
-
-dashboard
- #3569 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 64 Years Old
-
-* 
-
-- CL-I first developed in <a href="../lists/originCommunities.html#technicalOperationsIncorporated">Technical Operations Incorporated</a>
-- CL-I on HOPL
- https://hopl.info/showlanguage.prx?exp=3017
-- Read more about CL-I on Semantic Scholar: 1.
- https://semanticscholar.org/paper/8a4bed9ba734d807bd0ab87f9f2e49807132a4f0 1.
-
-<br>
-
-endColumns
-
-keyboardNav cims-pl-i.html clascal.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

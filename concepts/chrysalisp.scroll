@@ -1,83 +1,56 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title chrysaLisp
+import ../measures/conceptPage.scroll
+id chrysaLisp
+appeared 2015
+type pl
+creators Chris Hinsley
+country United Kingdom
+originCommunity Tao Group
 
-title chrysaLisp - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="mbox.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="jython.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/chrysalisp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/vygr/ChrysaLisp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=chrysalisp" class="material-symbols-outlined">edit</a></div>
-
-* chrysaLisp is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2015 by Chris Hinsley.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#chrisHinsley Chris Hinsley
-
-codeWithHeader Source code:
- git clone https://github.com/vygr/ChrysaLisp
-
-dashboard
- #372 <span title="TotalRank: 845 Jobs: 103 Users: 419 Facts: 323 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Parallel OS, with GUI, Terminal, OO Assembler, Class libraries, C-Script compiler, Lisp interpreter and more...
-
-- chrysaLisp is developed on <a href="https://github.com/vygr/ChrysaLisp">GitHub</a> and has 1,314 stars
-- chrysaLisp first developed in <a href="../lists/originCommunities.html#taoGroup">Tao Group</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ;imports
- (import &#39;sys/lisp.inc)
- (import &#39;class/lisp.inc)
- (import &#39;gui/lisp.inc)
+ (import 'sys/lisp.inc)
+ (import 'class/lisp.inc)
+ (import 'gui/lisp.inc)
  
- (structure &#39;event 0
-   (byte &#39;win_close &#39;win_min &#39;win_max &#39;win_button))
+ (structure 'event 0
+   (byte 'win_close 'win_min 'win_max 'win_button))
  
  (ui-tree window (create-window (+ window_flag_close window_flag_min window_flag_max)) nil
-   (ui-element _ (create-flow) (&#39;flow_flags (logior flow_flag_down flow_flag_fillw flow_flag_lasth))
-     (ui-element display (create-label) (&#39;text &quot;0&quot; &#39;color argb_white &#39;flow_flags flow_flag_align_hright
-       &#39;font (create-font &quot;fonts/OpenSans-Regular.ttf&quot; 24)))
-     (ui-element _ (create-grid) (&#39;grid_width 4 &#39;grid_height 4 &#39;color toolbar_col
-         &#39;font (create-font &quot;fonts/OpenSans-Regular.ttf&quot; 42))
+   (ui-element _ (create-flow) ('flow_flags (logior flow_flag_down flow_flag_fillw flow_flag_lasth))
+     (ui-element display (create-label) ('text "0" 'color argb_white 'flow_flags flow_flag_align_hright
+       'font (create-font "fonts/OpenSans-Regular.ttf" 24)))
+     (ui-element _ (create-grid) ('grid_width 4 'grid_height 4 'color toolbar_col
+         'font (create-font "fonts/OpenSans-Regular.ttf" 42))
        (each (lambda (text)
          (component-connect
-           (ui-element _ (create-button) (&#39;text (if (eql text &quot;C&quot;) &quot;AC&quot; text)))
-           event_win_button)) &quot;789/456*123-0=C+&quot;))))
+           (ui-element _ (create-button) ('text (if (eql text "C") "AC" text)))
+           event_win_button)) "789/456*123-0=C+"))))
  
  (gui-add (apply view-change (cat (list window 920 48)
    (view-pref-size (window-set-title (window-connect-close (window-connect-min
-     (window-connect-max window event_win_max) event_win_min) event_win_close) &quot;Calculator&quot;)))))
+     (window-connect-max window event_win_max) event_win_min) event_win_close) "Calculator")))))
  
  (defun do_lastop ()
    (cond
-     ((eql lastop &quot;+&quot;)
+     ((eql lastop "+")
        (setq accum (+ accum num)))
-     ((eql lastop &quot;-&quot;)
+     ((eql lastop "-")
        (setq accum (- accum num)))
-     ((eql lastop &quot;*&quot;)
+     ((eql lastop "*")
        (setq accum (* accum num)))
-     ((eql lastop &quot;/&quot;)
+     ((eql lastop "/")
        (if (/= num 0) (setq accum (/ accum num)))))
    accum)
  
  (defq id t accum 0 value 0 num 0 lastop nil)
  (while id
    (cond
-     ((&gt;= (setq id (get-long (defq msg (mail-read (task-mailbox))) ev_msg_target_id)) event_win_button)
-       (defq op (get (view-find-id window (get-long msg ev_msg_action_source_id)) &#39;text))
+     ((>= (setq id (get-long (defq msg (mail-read (task-mailbox))) ev_msg_target_id)) event_win_button)
+       (defq op (get (view-find-id window (get-long msg ev_msg_action_source_id)) 'text))
        (cond
-         ((eql op &quot;AC&quot;)
+         ((eql op "AC")
            (setq accum 0 value 0 num 0 lastop nil))
-         ((find op &quot;=+-/*&quot;)
+         ((find op "=+-/*")
            (if lastop
              (setq value (do_lastop))
              (setq value num accum num))
@@ -85,30 +58,40 @@ codeWithHeader Example from the web:
          (t
            (cond
              ((= num 0)
-               (unless (eql op &quot;0&quot;))
+               (unless (eql op "0"))
                  (setq num (to-num op)))
              (t (setq num (to-num (cat (str num) op)))))
            (setq value num)))
-       (set display &#39;text (str value))
+       (set display 'text (str value))
        (view-dirty (view-layout display)))
      ((= id event_win_close)
        ;close button
        (setq id nil))
      ((= id event_win_min)
        ;min button
-       (bind &#39;(x y _ _) (view-get-bounds window))
-       (bind &#39;(w h) (view-pref-size window))
+       (bind '(x y _ _) (view-get-bounds window))
+       (bind '(w h) (view-pref-size window))
        (view-change-dirty window x y w h))
      ((= id event_win_max)
        ;max button
-       (bind &#39;(x y _ _) (view-get-bounds window))
+       (bind '(x y _ _) (view-get-bounds window))
        (view-change-dirty window x y 512 512))
      (t (view-event window msg))))
  
  (view-hide window)
 
-endColumns
+githubRepo https://github.com/vygr/ChrysaLisp
+ firstCommit 2015
+ stars 1314
+ forks 84
+ subscribers 63
+ created 2015
+ updated 2022
+ description Parallel OS, with GUI, Terminal, OO Assembler, Class libraries, C-Script compiler, Lisp interpreter and more...
+ issues 31
 
-keyboardNav mbox.html jython.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2015
+ commits 7504
+ committers 15
+ files 590

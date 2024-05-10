@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title STAGE2
+import ../measures/conceptPage.scroll
+id STAGE2
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/31bb1c092dba2b1a692b87cd2ff859bb7ce735f7
+country United States
+originCommunity University of Colorado
 
-title STAGE2 - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=534
 
-html
- <a class="trueBaseThemePreviousItem" href="squrl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="standard-lisp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/stage2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=stage2" class="material-symbols-outlined">edit</a></div>
-
-* STAGE2 is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #4043 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- STAGE2 first developed in <a href="../lists/originCommunities.html#universityOfColorado">University of Colorado</a>
-- STAGE2 on HOPL
- https://hopl.info/showlanguage.prx?exp=534
-- Read more about STAGE2 on Semantic Scholar: 1.
- https://semanticscholar.org/paper/31bb1c092dba2b1a692b87cd2ff859bb7ce735f7 1.
-
-<br>
-
-endColumns
-
-keyboardNav squrl.html standard-lisp.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

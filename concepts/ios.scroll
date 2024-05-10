@@ -1,43 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title iOS
+import ../measures/conceptPage.scroll
+id iOS
+appeared 2007
+type os
+website https://www.apple.com/ios/
+standsFor iOS operating system
+country United States
+originCommunity Apple
 
-title iOS - Operating system
- hidden
+wikipedia https://en.wikipedia.org/wiki/IOS
+ related c objective-c swift android arm tls
+ summary iOS (formerly iPhone OS) is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod Touch. It is the second most popular mobile operating system globally after Android. Originally unveiled in 2007 for the iPhone, iOS has been extended to support other Apple devices such as the iPod Touch (September 2007) and the iPad (January 2010). As of  March 2018, Apple's App Store contains more than 2.1 million iOS applications, 1 million of which are native for iPads. These mobile apps have collectively been downloaded more than 130 billion times. The iOS user interface is based upon direct manipulation, using multi-touch gestures. Interface control elements consist of sliders, switches, and buttons. Interaction with the OS includes gestures such as swipe, tap, pinch, and reverse pinch, all of which have specific definitions within the context of the iOS operating system and its multi-touch interface. Internal accelerometers are used by some applications to respond to shaking the device (one common result is the undo command) or rotating it in three dimensions (one common result is switching between portrait and landscape mode). Apple has been significantly praised for incorporating thorough accessibility functions into iOS, enabling users with vision and hearing disabilities to properly use its products. Major versions of iOS are released annually. The current version, iOS 12, was released on September 17, 2018. It is available for all iOS devices with 64-bit processors; the iPhone 5S and later iPhone models, the iPad (2017), the iPad Air and later iPad Air models, all iPad Pro models, the iPad Mini 2 and later iPad Mini models, and the sixth-generation iPod Touch. On all recent iOS devices, the iOS regularly checks on the availability of an update, and if one is available, will prompt the user to permit its automatic installation.
+ dailyPageViews 6910
+ pageId 16161443
+ created 2008
+ backlinksCount 12985
+ revisionCount 5087
+ appeared 2007
 
-html
- <a class="trueBaseThemePreviousItem" href="json.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="swift.html">&gt;</a>
+linkedInSkill ios
+ 2018 501017
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ios.pldb
+meetup https://www.meetup.com/topics/ios-development
+ memberCount 1440715
+ groupCount 2582
 
-startColumns 4
+fileType na
+isOpenSource false
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://www.apple.com/ios/" class="material-symbols-outlined">home</a> <a href="https://en.wikipedia.org/wiki/IOS"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="/edit.html?id=ios" class="material-symbols-outlined">edit</a></div>
-
-* iOS, aka iOS operating system, is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+os">operating system</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #22 on PLDB
- 17 Years Old
-
-* iOS (formerly iPhone OS) is a mobile operating system created and developed by Apple Inc. exclusively for its hardware. It is the operating system that presently powers many of the company's mobile devices, including the iPhone, iPad, and iPod Touch. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/IOS Read more on Wikipedia...
-
-- iOS website
- https://www.apple.com/ios/
-- iOS Wikipedia page
- https://en.wikipedia.org/wiki/IOS
-- iOS first developed in <a href="../lists/originCommunities.html#apple">Apple</a>
-- PLDB estimates there are currently 5k job openings for iOS programmers.
-- Check out the 2,582 <a href="https://www.meetup.com/topics/ios-development/">iOS meetup groups</a> on Meetup.com.
-- See also: (6 related languages)<a href="c.html">C</a>, <a href="objective-c.html">Objective-C</a>, <a href="swift.html">Swift</a>, <a href="android.html">Android</a>, <a href="arm.html">ARM</a>, <a href="tls.html">TLS</a>
-
-<br>
-
-endColumns
-
-keyboardNav json.html swift.html
-
-import ../footer.scroll
+goodreads
+ title|year|author|goodreadsId|rating|ratings|reviews
+ The iOS 5 Developer's Cookbook: Core Concepts and Essential Recipes for iOS Programmers|2011|Erica Sadun|17296615|3.91|53|5
+ Diving Into iOS (iOS App Development for Non-Programmers, #1)|2012|Kevin McNeish|21930775|3.71|48|9
+ iOS 7 Programming Cookbook|2013|Vandad Nahavandipoor|25533504|3.76|25|4
+ Programming iOS 7|2013|Matt Neuburg|26233323|4.06|32|2
+ IOS 8 Swift Programming Cookbook: Solutions & Examples for IOS Apps|2014|Vandad Nahavandipoor|42349502|3.86|28|4
+ iOS 6 Programming Cookbook|2012|Vandad Nahavandipoor|21585065|3.74|19|2
+ Learning iOS Game Programming|2010|Michael Daley|11343068|3.27|22|0
+ Mpls Configuration On Cisco Ios Software|2005|Umesh Lakshman|1439048|4.11|18|2
+ Programming iOS 6|2013|Matt Neuburg|24361956|4.04|24|1

@@ -1,70 +1,54 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title kitten
+import ../measures/conceptPage.scroll
+id kitten
+appeared 2012
+type pl
+creators Jon Purdy
+conceptDescription <a href='http://kittenlang.org'>Kitten</a> is a statically typed concatenative language with effect types.
+website http://kittenlang.org/
+country United States
+originCommunity https://github.com/evincarofautumn/kitten/issues
+domainName kittenlang.org
+ awisRank
+  2017 6913255
 
-title kitten - Programming language
- hidden
+hasPrintDebugging true
+hasStrings true
+ "Hello world"
 
-html
- <a class="trueBaseThemePreviousItem" href="literate-agda.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lucene-query-syntax.html">&gt;</a>
+printToken say
+stringToken "
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kitten.pldb
+githubRepo https://github.com/evincarofautumn/kitten
+ firstCommit 2011
+ stars 978
+ forks 41
+ subscribers 70
+ created 2011
+ updated 2022
+ description A statically typed concatenative systems programming language.
+ issues 65
 
-startColumns 4
+repoStats
+ firstCommit 2011
+ commits 1140
+ committers 15
+ files 110
 
-<div class="trueBaseThemeQuickLinks"><a href="http://kittenlang.org/" class="material-symbols-outlined">home</a> <a href="https://riju.codes/kitten" class="material-symbols-outlined">terminal</a> <a href="https://github.com/evincarofautumn/kitten" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kitten" class="material-symbols-outlined">edit</a></div>
+leachim6 Kitten
+ filepath k/Kitten.ktn
+ fileExtensions ktn
+ example
+  "Hello World" say
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Kitten
 
-* kitten is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2012 by Jon Purdy.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#jonPurdy Jon Purdy
+rijuRepl https://riju.codes/kitten
+ example
+  "Hello, world!" say
+  
 
-codeWithHeader Source code:
- git clone https://github.com/evincarofautumn/kitten
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-dashboard
- #771 <span title="TotalRank: 1340 Jobs: 103 Users: 517 Facts: 720 Links: 986">on PLDB</span>
- 12 Years Old
-
-* Try now: <a href="https://riju.codes/kitten">Riju</a>
-
-* <a href='http://kittenlang.org'>Kitten</a> is a statically typed concatenative language with effect types.
-
-- kitten website
- http://kittenlang.org/
-- kitten is developed on <a href="https://github.com/evincarofautumn/kitten">GitHub</a> and has 978 stars
-- kitten first developed in <a href="../lists/originCommunities.html#httpsGithubComEvincarofautumnKittenIssues">https://github.com/evincarofautumn/kitten/issues</a>
-- Explore kitten snippets on <a href="http://www.rosettacode.org/wiki/Category:Kitten">Rosetta Code</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/kitten'>Riju</a>:
- &quot;Hello, world!&quot; say
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/k/Kitten.ktn'>hello-world</a>:
- &quot;Hello World&quot; say
- 
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token say
-  Example
-
-keyboardNav literate-agda.html lucene-query-syntax.html
-
-import ../footer.scroll
+isbndb 0

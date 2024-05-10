@@ -1,65 +1,52 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mavo
+import ../measures/conceptPage.scroll
+id mavo
+appeared 2015
+type template
+creators Lea Verou
+website https://mavo.io/
+country United States
+originCommunity https://github.com/mavoweb
+domainName mavo.io
+ registered 2016
+ awisRank
+  2022 904879
 
-title mavo - Template language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="igor-pro.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="msp430.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mavo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mavo.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/mavoweb/mavo" class="material-symbols-outlined">code</a> <a href="https://twitter.com/mavoweb"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=mavo" class="material-symbols-outlined">edit</a></div>
-
-* mavo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+template">template language</a> created in 2015 by Lea Verou.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2015 2015
- link ../lists/creators.html#leaVerou Lea Verou
-
-codeWithHeader Source code:
- git clone https://github.com/mavoweb/mavo
-
-dashboard
- #533 <span title="TotalRank: 1083 Jobs: 103 Users: 275 Facts: 705 Links: 986">on PLDB</span>
- 9 Years Old
-
-* Create web applications entirely by writing HTML and CSS!
-
-- mavo website
- https://mavo.io/
-- mavo is developed on <a href="https://github.com/mavoweb/mavo">GitHub</a> and has 2,676 stars
-- mavo first developed in <a href="../lists/originCommunities.html#httpsGithubComMavoweb">https://github.com/mavoweb</a>
-- mavo on Twitter
- https://twitter.com/mavoweb
-- <a href="https://mavo.io/">mavo.io</a> was registered in 2016
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;main mv-app=&quot;todo&quot; mv-storage=&quot;local&quot; mv-mode=&quot;edit&quot;&gt;
-  &lt;header&gt;
-    &lt;h1&gt;My tasks&lt;/h1&gt;
-    &lt;p&gt;[count(done)] done out of [count(task)] total&lt;/p&gt;
-  &lt;/header&gt;
+example
+ <main mv-app="todo" mv-storage="local" mv-mode="edit">
+  <header>
+    <h1>My tasks</h1>
+    <p>[count(done)] done out of [count(task)] total</p>
+  </header>
  
-  &lt;ul&gt;
-    &lt;li property=&quot;task&quot; mv-multiple&gt;
-      &lt;label&gt;
-        &lt;input property=&quot;done&quot; type=&quot;checkbox&quot; /&gt;
-        &lt;span property=&quot;taskTitle&quot;&gt;Do stuff&lt;/span&gt;
-      &lt;/label&gt;
-    &lt;/li&gt;
-    &lt;button mv-action=&quot;delete(task where done)&quot;&gt;
+  <ul>
+    <li property="task" mv-multiple>
+      <label>
+        <input property="done" type="checkbox" />
+        <span property="taskTitle">Do stuff</span>
+      </label>
+    </li>
+    <button mv-action="delete(task where done)">
       Clear Completed
-    &lt;/button&gt;
-  &lt;/ul&gt;
- &lt;/main&gt;
+    </button>
+  </ul>
+ </main>
 
-endColumns
+githubRepo https://github.com/mavoweb/mavo
+ firstCommit 2015
+ stars 2676
+ forks 159
+ subscribers 60
+ created 2015
+ updated 2022
+ description Create web applications entirely by writing HTML and CSS!
+ issues 225
 
-keyboardNav igor-pro.html msp430.html
+repoStats
+ firstCommit 2015
+ commits 1534
+ committers 26
+ files 99
 
-import ../footer.scroll
+twitter https://twitter.com/mavoweb
+
+isbndb 0

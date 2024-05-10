@@ -1,41 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Real-Time Euclid
+import ../measures/conceptPage.scroll
+id Real-Time Euclid
+appeared 1986
+type pl
+reference https://www.sciencedirect.com/science/article/pii/S1474667017512653
+reference https://semanticscholar.org/paper/d3919948faeff1e0b6d1c1c6ebf98aa735fd7937
+country United States
+originCommunity New Jersey Institute of Technology
 
-title Real-Time Euclid - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1263
 
-html
- <a class="trueBaseThemePreviousItem" href="rcpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rebus.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/real-time-euclid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=real-time-euclid" class="material-symbols-outlined">edit</a></div>
-
-* Real-Time Euclid is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1986.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1986 1986
-
-dashboard
- #4278 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 38 Years Old
-
-* 
-
-- Real-Time Euclid first developed in <a href="../lists/originCommunities.html#newJerseyInstituteOfTechnology">New Jersey Institute of Technology</a>
-- Real-Time Euclid on HOPL
- https://hopl.info/showlanguage.prx?exp=1263
-- Read more about Real-Time Euclid on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d3919948faeff1e0b6d1c1c6ebf98aa735fd7937 1.
-- Read more about Real-Time Euclid on the web: 1.
- https://www.sciencedirect.com/science/article/pii/S1474667017512653 1.
-
-<br>
-
-endColumns
-
-keyboardNav rcpp.html rebus.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

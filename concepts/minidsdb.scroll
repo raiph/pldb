@@ -1,45 +1,21 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Mindsdb
+import ../measures/conceptPage.scroll
+id Mindsdb
+appeared 2018
+type application
+conceptDescription MindsDB ML-SQL Server enables machine learning workflows for the most powerful databases and data warehouses using SQL.
+website https://mindsdb.com/
+documentation https://docs.mindsdb.com/
+originCommunity https://mindsdb.com/community
+domainName mindsdb.com
 
-title Mindsdb - Application
- hidden
+writtenIn python
+relatedConcepts python sql
 
-html
- <a class="trueBaseThemePreviousItem" href="providex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cloc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/minidsdb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mindsdb.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/mindsdb/mindsdb/" class="material-symbols-outlined">code</a> <a href="https://docs.mindsdb.com/" class="material-symbols-outlined">menu_book</a> <a href="/edit.html?id=minidsdb" class="material-symbols-outlined">edit</a></div>
-
-* Mindsdb is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/mindsdb/mindsdb/
-
-dashboard
- #748 on PLDB
- 6 Years Old
-
-* MindsDB ML-SQL Server enables machine learning workflows for the most powerful databases and data warehouses using SQL.
-
-- Mindsdb website
- https://mindsdb.com/
-- Mindsdb is developed on <a href="https://github.com/mindsdb/mindsdb/">GitHub</a> and has 13,112 stars
-- Mindsdb docs
- https://docs.mindsdb.com/
-- Mindsdb first developed in <a href="../lists/originCommunities.html#httpsMindsdbComCommunity">https://mindsdb.com/community</a>
-- Mindsdb is written in <a href="python.html">Python</a>
-- See also: (2 related languages)<a href="python.html">Python</a>, <a href="sql.html">SQL</a>
-
-<br>
-
-endColumns
-
-keyboardNav providex.html cloc.html
-
-import ../footer.scroll
+githubRepo https://github.com/mindsdb/mindsdb/
+ stars 13112
+ forks 1496
+ subscribers 340
+ created 2018
+ updated 2023
+ description In-Database Machine Learning
+ issues 334

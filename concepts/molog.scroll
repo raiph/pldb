@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Molog
+import ../measures/conceptPage.scroll
+id Molog
+appeared 1987
+type pl
+reference https://semanticscholar.org/paper/22660f9fe0dedfb30630222089845046e3fb3519
+country France
+originCommunity Université Paul Sabatier
 
-title Molog - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=5066
 
-html
- <a class="trueBaseThemePreviousItem" href="modular-prolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="morphism.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/molog.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=molog" class="material-symbols-outlined">edit</a></div>
-
-* Molog is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1987.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1987 1987
-
-dashboard
- #3847 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 37 Years Old
-
-* 
-
-- Molog first developed in <a href="../lists/originCommunities.html#universitePaulSabatier">Université Paul Sabatier</a>
-- Molog on HOPL
- https://hopl.info/showlanguage.prx?exp=5066
-- Read more about Molog on Semantic Scholar: 1.
- https://semanticscholar.org/paper/22660f9fe0dedfb30630222089845046e3fb3519 1.
-
-<br>
-
-endColumns
-
-keyboardNav modular-prolog.html morphism.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

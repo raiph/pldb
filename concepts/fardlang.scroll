@@ -1,52 +1,32 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Fardlang
+import ../measures/conceptPage.scroll
+id Fardlang
+appeared 2022
+type esolang
+creators CompilingCoder and JustCoding123 and zplusfour and Hg0428
+website https://github.com/Sarang0218/ResearchAndDevFor_Fardlang
+country South Korea and United States
+originCommunity https://github.com/Sarang0218
 
-title Fardlang - Esoteric programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="jcof.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lila-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/fardlang.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/Sarang0218/ResearchAndDevFor_Fardlang" class="material-symbols-outlined">home</a> <a href="https://github.com/Sarang0218/ResearchAndDevFor_Fardlang" class="material-symbols-outlined">code</a> <a href="/edit.html?id=fardlang" class="material-symbols-outlined">edit</a></div>
-
-* Fardlang is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2022 by CompilingCoder and JustCoding123 and zplusfour and Hg0428.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#compilingCoder CompilingCoder
- link ../lists/creators.html#justCoding123 JustCoding123
- link ../lists/creators.html#zplusfour zplusfour
- link ../lists/creators.html#hg0428 Hg0428
-
-codeWithHeader Source code:
- git clone https://github.com/Sarang0218/ResearchAndDevFor_Fardlang
-
-dashboard
- #1825 <span title="TotalRank: 2345 Jobs: 103 Users: 2366 Facts: 1256 Links: 986">on PLDB</span>
- 2 Years Old
-
-* 
-
-- Fardlang website
- https://github.com/Sarang0218/ResearchAndDevFor_Fardlang
-- Fardlang is developed on <a href="https://github.com/Sarang0218/ResearchAndDevFor_Fardlang">GitHub</a> and has 5 stars
-- Fardlang first developed in <a href="../lists/originCommunities.html#httpsGithubComSarang0218">https://github.com/Sarang0218</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  # hehe fard dis is a fardy comment
  math = 3
  fards? math == 3
-   fard &quot;equals&quot;
+   fard "equals"
  farded
 
-endColumns
+githubRepo https://github.com/Sarang0218/ResearchAndDevFor_Fardlang
+ firstCommit 2022
+ stars 5
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ issues 0
 
-keyboardNav jcof.html lila-lang.html
+repoStats
+ firstCommit 2022
+ commits 4
+ committers 2
+ files 24765
 
-import ../footer.scroll
+isOpenSource true

@@ -1,52 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title BML
+import ../measures/conceptPage.scroll
+id BML
+appeared 2007
+type xmlFormat
+website http://www.mindmakers.org/projects/bml-1-0/wiki
+standsFor Behavior Markup Language
+country Various
+originCommunity Communicative Machines
 
-title BML - Xml format
- hidden
+example
+ <bml>
+  <speech id=”s1” type=”application/ssml+xml”>
+   <text>This is an <mark name=”wb3”> example</text>
+  </speech>
+  <head id=”h1” type=”NOD” stroke=”s1:start”/>
+  <gesture id=”g1” stroke=”s1:wb3” relax=”s1:end” type=”BEAT”>
+   <description level=”1” type=”MURML”>...
+   </description>
+  </gesture>
+   <gaze id=”z1” target=”PERSON1” stroke=”g1:stroke-0.1”/>
+   <body id=”p1” posture=”RELAXED” start=”after(s1:end)”/>
+   <cadia:operate target=”SWITCH1” stroke=”p1:ready”/>
+ </bml> 
 
-html
- <a class="trueBaseThemePreviousItem" href="eskew.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="coherence.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/behavior-markup-language.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.mindmakers.org/projects/bml-1-0/wiki" class="material-symbols-outlined">home</a> <a href="/edit.html?id=behavior-markup-language" class="material-symbols-outlined">edit</a></div>
-
-* BML, aka Behavior Markup Language, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #2182 <span title="TotalRank: 2680 Jobs: 103 Users: 2442 Facts: 1591 Links: 986">on PLDB</span>
- 17 Years Old
-
-* 
-
-- BML website
- http://www.mindmakers.org/projects/bml-1-0/wiki
-- BML first developed in <a href="../lists/originCommunities.html#communicativeMachines">Communicative Machines</a>
-
-<br>
-
-codeWithHeader Example from the web:
- &lt;bml&gt;
-  &lt;speech id=”s1” type=”application/ssml+xml”&gt;
-   &lt;text&gt;This is an &lt;mark name=”wb3”&gt; example&lt;/text&gt;
-  &lt;/speech&gt;
-  &lt;head id=”h1” type=”NOD” stroke=”s1:start”/&gt;
-  &lt;gesture id=”g1” stroke=”s1:wb3” relax=”s1:end” type=”BEAT”&gt;
-   &lt;description level=”1” type=”MURML”&gt;...
-   &lt;/description&gt;
-  &lt;/gesture&gt;
-   &lt;gaze id=”z1” target=”PERSON1” stroke=”g1:stroke-0.1”/&gt;
-   &lt;body id=”p1” posture=”RELAXED” start=”after(s1:end)”/&gt;
-   &lt;cadia:operate target=”SWITCH1” stroke=”p1:ready”/&gt;
- &lt;/bml&gt; 
-
-endColumns
-
-keyboardNav eskew.html coherence.html
-
-import ../footer.scroll
+semanticScholar 0

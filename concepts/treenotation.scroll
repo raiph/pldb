@@ -1,78 +1,47 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Tree Notation
+import ../measures/conceptPage.scroll
+id Tree Notation
+appeared 2017
+type dataNotation
+isPublicDomain true
+creators Breck Yunits
+conceptDescription A minimalist notation consisting of just the word break rule and the off-side rule.
+website https://treenotation.org/
+webRepl https://jtree.treenotation.org/sandbox/
+domainName treenotation.org
+ registered 2019
 
-title Tree Notation - Data notation
- hidden
+relatedConcepts i-expressions json yaml toml xml haml ini grammar
+influencedBy haml treesheets racket lisp haskell antlr typescript mathematica scheme python csharp red cobol rebol apl r html css xml json cpp forth fortran sql
 
-html
- <a class="trueBaseThemePreviousItem" href="caffeine.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="digital-command-language.html">&gt;</a>
+hasSemanticIndentation true
+ example
+  title Tree Notation
+hasEscapeCharacters false
+hasComments false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/treenotation.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://treenotation.org/" class="material-symbols-outlined">home</a> <a href="https://jtree.treenotation.org/sandbox/" class="material-symbols-outlined">terminal</a> <a href="https://github.com/breck7/jtree" class="material-symbols-outlined">code</a> <a href="https://twitter.com/treenotation"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=treenotation" class="material-symbols-outlined">edit</a></div>
-
-* Tree Notation is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataNotation">data notation</a> created in 2017 by Breck Yunits.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
- link ../lists/creators.html#breckYunits Breck Yunits
-
-codeWithHeader Source code:
- git clone https://github.com/breck7/jtree
-
-dashboard
- #701 <span title="TotalRank: 1269 Jobs: 103 Users: 840 Facts: 862 Links: 326">on PLDB</span>
- 7 Years Old
-
-* Try now: <a href="https://jtree.treenotation.org/sandbox/">Web</a>
-
-* A minimalist notation consisting of just the word break rule and the off-side rule.
-
-- Tree Notation website
- https://treenotation.org/
-- Tree Notation is developed on <a href="https://github.com/breck7/jtree">GitHub</a> and has 365 stars
-- Tree Notation on Twitter
- https://twitter.com/treenotation
-- <a href="https://treenotation.org/">treenotation.org</a> was registered in 2019
-- See also: (8 related languages)<a href="i-expressions.html">I-expressions</a>, <a href="json.html">JSON</a>, <a href="yaml.html">YAML</a>, <a href="toml.html">TOML</a>, <a href="xml.html">XML</a>, <a href="haml.html">HAML</a>, <a href="ini.html">Ini</a>, <a href="grammar.html">Grammar</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  title Tree Notation
  type dataNotation
  example
   title Tree Notation
   type dataNotation
 
-endColumns
+githubRepo https://github.com/breck7/jtree
+ stars 365
+ forks 14
+ subscribers 9
+ created 2017
+ updated 2023
+ description Build your own language using Tree Notation.
+ issues 40
 
-## Language <a href="../lists/features.html">features</a>
+repoStats
+ firstCommit 2017
+ commits 1444
+ committers 11
+ files 226
 
-treeTable
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   example
-    title Tree Notation
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature hasEscapeCharacters
-  FeatureLink ../features/hasEscapeCharacters.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+twitter https://twitter.com/treenotation
+isOpenSource true
 
-keyboardNav caffeine.html digital-command-language.html
-
-import ../footer.scroll
+isbndb 0

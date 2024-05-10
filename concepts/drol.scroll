@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title DROL
+import ../measures/conceptPage.scroll
+id DROL
+appeared 2000
+type pl
+reference https://semanticscholar.org/paper/f4bb81bfb4fddab02c09fd8b2db0cf03236d0893
+country Japan
+originCommunity Keio University
 
-title DROL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6279
 
-html
- <a class="trueBaseThemePreviousItem" href="drl.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dsl-90.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/drol.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=drol" class="material-symbols-outlined">edit</a></div>
-
-* DROL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2000.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2000 2000
-
-dashboard
- #3639 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 24 Years Old
-
-* 
-
-- DROL first developed in <a href="../lists/originCommunities.html#keioUniversity">Keio University</a>
-- DROL on HOPL
- https://hopl.info/showlanguage.prx?exp=6279
-- Read more about DROL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/f4bb81bfb4fddab02c09fd8b2db0cf03236d0893 1.
-
-<br>
-
-endColumns
-
-keyboardNav drl.html dsl-90.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

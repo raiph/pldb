@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title AIDS
+import ../measures/conceptPage.scroll
+id AIDS
+appeared 1970
+type pl
+reference https://semanticscholar.org/paper/6e2ba767170e785e238f34350a87cf47dbc4a64e
+originCommunity New York University
 
-title AIDS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2964
 
-html
- <a class="trueBaseThemePreviousItem" href="adlib.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="aldes.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/aids.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=aids" class="material-symbols-outlined">edit</a></div>
-
-* AIDS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3465 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- AIDS first developed in <a href="../lists/originCommunities.html#newYorkUniversity">New York University</a>
-- AIDS on HOPL
- https://hopl.info/showlanguage.prx?exp=2964
-- Read more about AIDS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/6e2ba767170e785e238f34350a87cf47dbc4a64e 1.
-
-<br>
-
-endColumns
-
-keyboardNav adlib.html aldes.html
-
-import ../footer.scroll
+wordRank 2404
+centralPackageRepositoryCount 0

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CCEL
+import ../measures/conceptPage.scroll
+id CCEL
+appeared 1993
+type pl
+reference https://semanticscholar.org/paper/0800cd350021b6aa17a0036357fdd2d04a2a7066
+country United States
+originCommunity Brown University
 
-title CCEL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=2093
 
-html
- <a class="trueBaseThemePreviousItem" href="cayley.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cedar-fortran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ccel.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ccel" class="material-symbols-outlined">edit</a></div>
-
-* CCEL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1993.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1993 1993
-
-dashboard
- #3554 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 31 Years Old
-
-* 
-
-- CCEL first developed in <a href="../lists/originCommunities.html#brownUniversity">Brown University</a>
-- CCEL on HOPL
- https://hopl.info/showlanguage.prx?exp=2093
-- Read more about CCEL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0800cd350021b6aa17a0036357fdd2d04a2a7066 1.
-
-<br>
-
-endColumns
-
-keyboardNav cayley.html cedar-fortran.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

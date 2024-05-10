@@ -1,38 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title TABTRAN
+import ../measures/conceptPage.scroll
+id TABTRAN
+appeared 1967
+type pl
+reference https://semanticscholar.org/paper/dd56ec8b7e1574191d4a155a06bd79d099aaf10a
 
-title TABTRAN - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3245
 
-html
- <a class="trueBaseThemePreviousItem" href="tabsol.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="tac.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tabtran.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=tabtran" class="material-symbols-outlined">edit</a></div>
-
-* TABTRAN is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1967.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1967 1967
-
-dashboard
- #3221 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 4110 Links: 986">on PLDB</span>
- 57 Years Old
-
-* 
-
-- TABTRAN on HOPL
- https://hopl.info/showlanguage.prx?exp=3245
-- Read more about TABTRAN on Semantic Scholar: 1.
- https://semanticscholar.org/paper/dd56ec8b7e1574191d4a155a06bd79d099aaf10a 1.
-
-<br>
-
-endColumns
-
-keyboardNav tabsol.html tac.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

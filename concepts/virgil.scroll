@@ -1,62 +1,40 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Virgil
+import ../measures/conceptPage.scroll
+id Virgil
+appeared 2006
+type pl
+creators Ben L. Titzer
+reference https://news.ycombinator.com/item?id=31954053
 
-title Virgil - Programming language
- hidden
+hasPrintDebugging true
 
-html
- <a class="trueBaseThemePreviousItem" href="parenscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="dedukti.html">&gt;</a>
+printToken System.puts
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/virgil.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/titzer/virgil" class="material-symbols-outlined">code</a> <a href="/edit.html?id=virgil" class="material-symbols-outlined">edit</a></div>
-
-* Virgil is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006 by Ben L. Titzer.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
- link ../lists/creators.html#benLTitzer Ben L. Titzer
-
-codeWithHeader Source code:
- git clone https://github.com/titzer/virgil
-
-dashboard
- #1476 <span title="TotalRank: 2000 Jobs: 103 Users: 911 Facts: 1032 Links: 986">on PLDB</span>
- 18 Years Old
-
-* A fast and lightweight native programming language
-
-- Virgil is developed on <a href="https://github.com/titzer/virgil">GitHub</a> and has 323 stars
-- Read more about Virgil on the web: 1.
- https://news.ycombinator.com/item?id=31954053 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  def main() {
-    System.puts(&quot;Hello World!\n&quot;);
+    System.puts("Hello World!\n");
  }
 
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/v/Virgil.v3'>hello-world</a>:
-  def main() {
-         System.puts(&quot;Hello World\n&quot;);
-  }
- 
+githubRepo https://github.com/titzer/virgil
+ firstCommit 2012
+ stars 323
+ forks 9
+ subscribers 10
+ created 2015
+ updated 2022
+ description A fast and lightweight native programming language
+ issues 5
 
-endColumns
+repoStats
+ firstCommit 2012
+ commits 2378
+ committers 25
+ files 15719
 
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token System.puts
-  Example
-
-keyboardNav parenscript.html dedukti.html
-
-import ../footer.scroll
+leachim6 Virgil
+ filepath v/Virgil.v3
+ fileExtensions v3
+ example
+   def main() {
+          System.puts("Hello World\n");
+   }
+  

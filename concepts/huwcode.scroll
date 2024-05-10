@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title HuwCode
+import ../measures/conceptPage.scroll
+id HuwCode
+appeared 2018
+type pl
+creators Huw Pritchard
+website https://huwdp.github.io/huwcode-documentation
+country United Kingdom
+originCommunity https://github.com/huwdp/huwinterpreter/issues
 
-title HuwCode - Programming language
- hidden
+githubRepo https://github.com/huwdp/huwinterpreter
+ firstCommit 2022
+ stars 10
+ forks 0
+ subscribers 1
+ created 2018
+ updated 2022
+ description Huwinterpreter
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="lesma.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="penguor.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/huwcode.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://huwdp.github.io/huwcode-documentation" class="material-symbols-outlined">home</a> <a href="https://github.com/huwdp/huwinterpreter" class="material-symbols-outlined">code</a> <a href="/edit.html?id=huwcode" class="material-symbols-outlined">edit</a></div>
-
-* HuwCode is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018 by Huw Pritchard.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
- link ../lists/creators.html#huwPritchard Huw Pritchard
-
-codeWithHeader Source code:
- git clone https://github.com/huwdp/huwinterpreter
-
-dashboard
- #2257 <span title="TotalRank: 2758 Jobs: 103 Users: 2328 Facts: 1669 Links: 986">on PLDB</span>
- 6 Years Old
-
-* Huwinterpreter
-
-- HuwCode website
- https://huwdp.github.io/huwcode-documentation
-- HuwCode is developed on <a href="https://github.com/huwdp/huwinterpreter">GitHub</a> and has 10 stars
-- HuwCode first developed in <a href="../lists/originCommunities.html#httpsGithubComHuwdpHuwinterpreterIssues">https://github.com/huwdp/huwinterpreter/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav lesma.html penguor.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 1063
+ committers 2
+ files 718

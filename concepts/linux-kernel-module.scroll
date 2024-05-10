@@ -1,61 +1,41 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Linux Kernel Module
+import ../measures/conceptPage.scroll
+id Linux Kernel Module
+appeared 1996
+type application
+conceptDescription As of Linux kernel version 2.6, KO files are used in place of .O files and contain additional information that the kernel uses to load modules. The Linux program modpost can be used to convert O files into KO files.
+reference https://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
+fileExtensions ko
+country United States
+originCommunity Linux Kernel Organization, Inc
 
-title Linux Kernel Module - Application
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="verifpal.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="lola.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/linux-kernel-module.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=linux-kernel-module" class="material-symbols-outlined">edit</a></div>
-
-* Linux Kernel Module is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+application">application</a> created in 1996.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1996 1996
-
-dashboard
- #1692 on PLDB
- 28 Years Old
-
-* As of Linux kernel version 2.6, KO files are used in place of .O files and contain additional information that the kernel uses to load modules. The Linux program modpost can be used to convert O files into KO files.
-
-- Linux Kernel Module first developed in <a href="../lists/originCommunities.html#linuxKernelOrganizationInc">Linux Kernel Organization, Inc</a>
-- file extensions for Linux Kernel Module include ko and mod
-- Read more about Linux Kernel Module on the web: 1.
- https://www.tldp.org/LDP/lkmpg/2.6/lkmpg.pdf 1.
-
-<br>
-
-codeWithHeader Example from the web:
+example
  /*
   * hello−1.c − The simplest kernel module.
   */
- #include &lt;linux/module.h&gt; /* Needed by all modules */
- #include &lt;linux/kernel.h&gt; /* Needed for KERN_INFO */
+ #include <linux/module.h> /* Needed by all modules */
+ #include <linux/kernel.h> /* Needed for KERN_INFO */
  int init_module(void)
  {
-  printk(KERN_INFO &quot;Hello world 1.\n&quot;);
+  printk(KERN_INFO "Hello world 1.\n");
   /*
-  * A non 0 return means init_module failed; module can&#39;t be loaded.
+  * A non 0 return means init_module failed; module can't be loaded.
   */
   return 0;
  }
  void cleanup_module(void)
  {
-  printk(KERN_INFO &quot;Goodbye world 1.\n&quot;);
+  printk(KERN_INFO "Goodbye world 1.\n");
  }
-
-codeWithHeader Example from the web:
+example
  fs/mbcache.ko
  fs/mbcache.o
 
-endColumns
+githubLanguage Linux Kernel Module
+ fileExtensions mod
+ trendingProjectsCount 0
+ type data
+ aceMode text
+ tmScope none
 
-keyboardNav verifpal.html lola.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

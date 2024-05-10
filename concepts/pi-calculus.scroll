@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Pi Calculus
+import ../measures/conceptPage.scroll
+id Pi Calculus
+appeared 1991
+type pl
+reference https://semanticscholar.org/paper/fa025cfbd3e988186e561e538ea1c2edf7b35454
+country France
+originCommunity Laboratoire de l'Informatique du Parallélisme
 
-title Pi Calculus - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6813
 
-html
- <a class="trueBaseThemePreviousItem" href="physictran.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="pictol.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/pi-calculus.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=pi-calculus" class="material-symbols-outlined">edit</a></div>
-
-* Pi Calculus is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1991.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1991 1991
-
-dashboard
- #3933 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 33 Years Old
-
-* 
-
-- Pi Calculus first developed in <a href="../lists/originCommunities.html#laboratoireDeLInformatiqueDuParallelisme">Laboratoire de l'Informatique du Parallélisme</a>
-- Pi Calculus on HOPL
- https://hopl.info/showlanguage.prx?exp=6813
-- Read more about Pi Calculus on Semantic Scholar: 1.
- https://semanticscholar.org/paper/fa025cfbd3e988186e561e538ea1c2edf7b35454 1.
-
-<br>
-
-endColumns
-
-keyboardNav physictran.html pictol.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

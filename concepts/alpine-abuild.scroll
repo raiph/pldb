@@ -1,136 +1,107 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Alpine Abuild
+import ../measures/conceptPage.scroll
+id Alpine Abuild
+appeared 2006
+type pl
+reference https://git.alpinelinux.org/cgit/abuild/tree/sample.APKBUILD
+originCommunity alpinelinux
 
-title Alpine Abuild - Programming language
- hidden
+hasLineComments true
+ # A comment
+hasComments true
+ # A comment
+hasSemanticIndentation false
 
-html
- <a class="trueBaseThemePreviousItem" href="ox.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="invokator.html">&gt;</a>
+lineCommentToken #
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/alpine-abuild.pldb
+githubLanguage Alpine Abuild
+ trendingProjectsCount 0
+ type programming
+ group Shell
+ filenames APKBUILD
+ aceMode sh
+ codemirrorMode shell
+ codemirrorMimeType text/x-sh
+ tmScope source.shell
+ aliases abuild or apkbuild
+ repos 99
 
-startColumns 4
+linguistGrammarRepo https://github.com/atom/language-shellscript
+ firstCommit 2013
+ lastCommit 2018
+ committerCount 31
+ commitCount 243
+ sampleCount 1
+ example
+  # Contributor: Natanael Copa <ncopa@alpinelinux.org>
+  # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
+  pkgname=abuild
+  pkgver=2.27.0
+  _ver=${pkgver%_git*}
+  pkgrel=0
+  pkgdesc="Script to build Alpine Packages"
+  url="http://git.alpinelinux.org/cgit/abuild/"
+  arch="all"
+  license="GPL2"
+  depends="fakeroot sudo pax-utils openssl apk-tools>=2.0.7-r1 libc-utils
+  	attr tar pkgconf patch"
+  if [ "$CBUILD" = "$CHOST" ]; then
+  	depends="$depends curl"
+  fi
+  makedepends_build="pkgconfig"
+  makedepends_host="openssl-dev"
+  makedepends="$makedepends_host $makedepends_build"
+  install="$pkgname.pre-install $pkgname.pre-upgrade"
+  subpackages="apkbuild-cpan:cpan apkbuild-gem-resolver:gems"
+  options="suid"
+  pkggroups="abuild"
+  source="http://dev.alpinelinux.org/archive/abuild/abuild-$_ver.tar.xz
+  	"
+  
+  _builddir="$srcdir/$pkgname-$_ver"
+  prepare() {
+  	cd "$_builddir"
+  	for i in $source; do
+  		case $i in
+  		*.patch)
+  			msg "Applying $i"
+  			patch -p1 -i "$srcdir"/$i || return 1
+  			;;
+  		esac
+  	done
+  	sed -i -e "/^CHOST=/s/=.*/=$CHOST/" abuild.conf
+  }
+  
+  build() {
+  	cd "$_builddir"
+  	make || return 1
+  }
+  
+  package() {
+  	cd "$_builddir"
+  	make install DESTDIR="$pkgdir" || return 1
+  	install -m 644 abuild.conf "$pkgdir"/etc/abuild.conf || return 1
+  	install -d -m 775 -g abuild "$pkgdir"/var/cache/distfiles || return 1
+  }
+  
+  cpan() {
+  	pkgdesc="Script to generate perl APKBUILD from CPAN"
+  	depends="perl perl-libwww perl-json"
+  	arch="noarch"
+  	mkdir -p "$subpkgdir"/usr/bin
+  	mv "$pkgdir"/usr/bin/apkbuild-cpan "$subpkgdir"/usr/bin/
+  }
+  
+  gems() {
+  	pkgdesc="APKBUILD dependency resolver for RubyGems"
+  	depends="ruby ruby-augeas"
+  	arch="noarch"
+  	mkdir -p "$subpkgdir"/usr/bin
+  	mv "$pkgdir"/usr/bin/apkbuild-gem-resolver "$subpkgdir"/usr/bin/
+  }
+  
+  md5sums="c67e4c971c54b4d550e16db3ba331f96  abuild-2.27.0.tar.xz"
+  sha256sums="c8db017e3dd168edb20ceeb91971535cf66b8c95f29d3288f88ac755bffc60e5  abuild-2.27.0.tar.xz"
+  sha512sums="98e1da4e47f3ab68700b3bc992c83e103f770f3196e433788ee74145f57cd33e5239c87f0a7a15f7266840d5bad893fc8c0d4c826d663df53deaee2678c56984  abuild-2.27.0.tar.xz"
 
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=alpine-abuild" class="material-symbols-outlined">edit</a></div>
-
-* Alpine Abuild is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2006.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2006 2006
-
-dashboard
- #827 <span title="TotalRank: 1384 Jobs: 103 Users: 1151 Facts: 295 Links: 986">on PLDB</span>
- 18 Years Old
- 99 <span title="Alpine Abuild repos on GitHub.">Repos</span>
-
-* 
-
-- There are at least 99 Alpine Abuild repos on <a href="https://github.com/search?q=language:Alpine Abuild">GitHub</a>
-- Alpine Abuild first developed in <a href="../lists/originCommunities.html#alpinelinux">alpinelinux</a>
-- GitHub supports <a href="https://github.com/atom/language-shellscript" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Alpine Abuild
-- Read more about Alpine Abuild on the web: 1.
- https://git.alpinelinux.org/cgit/abuild/tree/sample.APKBUILD 1.
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/atom/language-shellscript'>Linguist</a>:
- # Contributor: Natanael Copa &lt;ncopa@alpinelinux.org&gt;
- # Maintainer: Natanael Copa &lt;ncopa@alpinelinux.org&gt;
- pkgname=abuild
- pkgver=2.27.0
- _ver=${pkgver%_git*}
- pkgrel=0
- pkgdesc=&quot;Script to build Alpine Packages&quot;
- url=&quot;http://git.alpinelinux.org/cgit/abuild/&quot;
- arch=&quot;all&quot;
- license=&quot;GPL2&quot;
- depends=&quot;fakeroot sudo pax-utils openssl apk-tools&gt;=2.0.7-r1 libc-utils
- 	attr tar pkgconf patch&quot;
- if [ &quot;$CBUILD&quot; = &quot;$CHOST&quot; ]; then
- 	depends=&quot;$depends curl&quot;
- fi
- makedepends_build=&quot;pkgconfig&quot;
- makedepends_host=&quot;openssl-dev&quot;
- makedepends=&quot;$makedepends_host $makedepends_build&quot;
- install=&quot;$pkgname.pre-install $pkgname.pre-upgrade&quot;
- subpackages=&quot;apkbuild-cpan:cpan apkbuild-gem-resolver:gems&quot;
- options=&quot;suid&quot;
- pkggroups=&quot;abuild&quot;
- source=&quot;http://dev.alpinelinux.org/archive/abuild/abuild-$_ver.tar.xz
- 	&quot;
- 
- _builddir=&quot;$srcdir/$pkgname-$_ver&quot;
- prepare() {
- 	cd &quot;$_builddir&quot;
- 	for i in $source; do
- 		case $i in
- 		*.patch)
- 			msg &quot;Applying $i&quot;
- 			patch -p1 -i &quot;$srcdir&quot;/$i || return 1
- 			;;
- 		esac
- 	done
- 	sed -i -e &quot;/^CHOST=/s/=.*/=$CHOST/&quot; abuild.conf
- }
- 
- build() {
- 	cd &quot;$_builddir&quot;
- 	make || return 1
- }
- 
- package() {
- 	cd &quot;$_builddir&quot;
- 	make install DESTDIR=&quot;$pkgdir&quot; || return 1
- 	install -m 644 abuild.conf &quot;$pkgdir&quot;/etc/abuild.conf || return 1
- 	install -d -m 775 -g abuild &quot;$pkgdir&quot;/var/cache/distfiles || return 1
- }
- 
- cpan() {
- 	pkgdesc=&quot;Script to generate perl APKBUILD from CPAN&quot;
- 	depends=&quot;perl perl-libwww perl-json&quot;
- 	arch=&quot;noarch&quot;
- 	mkdir -p &quot;$subpkgdir&quot;/usr/bin
- 	mv &quot;$pkgdir&quot;/usr/bin/apkbuild-cpan &quot;$subpkgdir&quot;/usr/bin/
- }
- 
- gems() {
- 	pkgdesc=&quot;APKBUILD dependency resolver for RubyGems&quot;
- 	depends=&quot;ruby ruby-augeas&quot;
- 	arch=&quot;noarch&quot;
- 	mkdir -p &quot;$subpkgdir&quot;/usr/bin
- 	mv &quot;$pkgdir&quot;/usr/bin/apkbuild-gem-resolver &quot;$subpkgdir&quot;/usr/bin/
- }
- 
- md5sums=&quot;c67e4c971c54b4d550e16db3ba331f96  abuild-2.27.0.tar.xz&quot;
- sha256sums=&quot;c8db017e3dd168edb20ceeb91971535cf66b8c95f29d3288f88ac755bffc60e5  abuild-2.27.0.tar.xz&quot;
- sha512sums=&quot;98e1da4e47f3ab68700b3bc992c83e103f770f3196e433788ee74145f57cd33e5239c87f0a7a15f7266840d5bad893fc8c0d4c826d663df53deaee2678c56984  abuild-2.27.0.tar.xz&quot;
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   # A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token #
-  Example
-   # A comment
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav ox.html invokator.html
-
-import ../footer.scroll
+fileType text
+centralPackageRepositoryCount 0

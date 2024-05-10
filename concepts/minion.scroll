@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title MINION
+import ../measures/conceptPage.scroll
+id MINION
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/bef694cc65362f2d2f5268d8316ae41750d7f182
+country United States
+originCommunity University of Maryland
 
-title MINION - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7206
 
-html
- <a class="trueBaseThemePreviousItem" href="mini-ml.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="minivital.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/minion.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=minion" class="material-symbols-outlined">edit</a></div>
-
-* MINION is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3831 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- MINION first developed in <a href="../lists/originCommunities.html#universityOfMaryland">University of Maryland</a>
-- MINION on HOPL
- https://hopl.info/showlanguage.prx?exp=7206
-- Read more about MINION on Semantic Scholar: 1.
- https://semanticscholar.org/paper/bef694cc65362f2d2f5268d8316ae41750d7f182 1.
-
-<br>
-
-endColumns
-
-keyboardNav mini-ml.html minivital.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

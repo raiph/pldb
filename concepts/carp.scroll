@@ -1,101 +1,57 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title carp
+import ../measures/conceptPage.scroll
+id carp
+appeared 2016
+type pl
+creators Erik Svedäng
+country Various
+originCommunity https://github.com/carp-lang
 
-title carp - Programming language
- hidden
+writtenIn haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="textile.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="algol-w.html">&gt;</a>
+isLisp true
+hasGarbageCollection false
+hasStaticTyping true
+hasLineComments true
+ ; A comment
+hasComments true
+ ; A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/carp.pldb
+lineCommentToken ;
+printToken println
+stringToken "
 
-startColumns 4
+githubRepo https://github.com/carp-lang/carp
+ stars 4571
+ forks 158
+ subscribers 101
+ created 2016
+ updated 2022
+ firstCommit 2016
+ description A statically typed lisp, without a GC, for real-time applications.
+ issues 129
 
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/carp-lang/carp" class="material-symbols-outlined">code</a> <a href="/edit.html?id=carp" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2016
+ commits 5018
+ committers 77
+ files 411
 
-* carp is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2016 by Erik Svedäng.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#erikSvedang Erik Svedäng
-
-codeWithHeader Source code:
- git clone https://github.com/carp-lang/carp
-
-dashboard
- #474 <span title="TotalRank: 1002 Jobs: 103 Users: 207 Facts: 692 Links: 986">on PLDB</span>
- 8 Years Old
-
-* A statically typed lisp, without a GC, for real-time applications.
-
-- carp is developed on <a href="https://github.com/carp-lang/carp">GitHub</a> and has 4,571 stars
-- carp first developed in <a href="../lists/originCommunities.html#httpsGithubComCarpLang">https://github.com/carp-lang</a>
-- carp is written in <a href="haskell.html">Haskell</a>
-
-<br>
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#carp'>the Hello World Collection</a>:
+helloWorldCollection carp
  ;; Hello world in Carp
  
- (println &quot;hello world&quot;)
+ (println "hello world")
 
-endColumns
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-## Language <a href="../lists/features.html">features</a>
+isbndb 0
 
-treeTable
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token println
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; A comment
- row
-  Feature Static Typing
-  FeatureLink ../features/hasStaticTyping.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Lispy
-  FeatureLink ../features/isLisp.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav textile.html algol-w.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2019|Comparison of Carp Rabin Algorithm and Jaro-Winkler Distance to Determine The Equality of Sunda Languages|10.1109/TSSA48701.2019.8985470|4|0|K. Manaf and S. Pitara and B. Subaeki and Rudy Gunawan and Rodiah and Bakhtiar|d97a39d51ab8f6e621839311d808181a0272a2b9
+ 2020|Scientific footprint of Indian major carp research in South Asia: a scientometric study between 1955 and 2018|10.1080/10454438.2020.1748787|1|0|Tharindu Bandara|d4d3c5b4139d3128df44d1286d6f8eaadafae523

@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title RT-CDL
+import ../measures/conceptPage.scroll
+id RT-CDL
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/e0c5498adafdf30c7eeb6bbfb155ea6905ab03c4
+country United States and India
+originCommunity IBM Corporation and Tata Institute of Fundamental Research
 
-title RT-CDL - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1520
 
-html
- <a class="trueBaseThemePreviousItem" href="rt-aslan.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="rt-z.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rt-cdl.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=rt-cdl" class="material-symbols-outlined">edit</a></div>
-
-* RT-CDL is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3989 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- RT-CDL first developed in <a href="../lists/originCommunities.html#ibmCorporationAndTataInstituteOfFundamentalResearch">IBM Corporation and Tata Institute of Fundamental Research</a>
-- RT-CDL on HOPL
- https://hopl.info/showlanguage.prx?exp=1520
-- Read more about RT-CDL on Semantic Scholar: 1.
- https://semanticscholar.org/paper/e0c5498adafdf30c7eeb6bbfb155ea6905ab03c4 1.
-
-<br>
-
-endColumns
-
-keyboardNav rt-aslan.html rt-z.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

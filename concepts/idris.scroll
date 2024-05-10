@@ -1,203 +1,190 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Idris
+import ../measures/conceptPage.scroll
+id Idris
+appeared 2014
+type pl
+creators Edwin Brady
+website http://idris-lang.org
+documentation http://docs.idris-lang.org/en/latest/
+fileExtensions idr lidr
+country United Kingdom
+originCommunity University of St Andrews
+domainName idris-lang.org
+ registered 2010
+ awisRank
+  2022 1726658
+  2017 803360
 
-title Idris - Programming language
- hidden
+writtenIn haskell
 
-html
- <a class="trueBaseThemePreviousItem" href="vbscript.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="oz.html">&gt;</a>
+hasDependentTypes true
+hasLineComments true
+ -- A comment
+hasComments true
+ -- A comment
+hasPrintDebugging true
+hasSemanticIndentation false
+hasStrings true
+ "Hello world"
+hasHexadecimals true
+ -- 0[xX][\da-fA-F]+
+hasFloats true
+ -- \d+[eE][+-]?\d+
+hasIntegers true
+ -- \d+
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/idris.pldb
+lineCommentToken --
+printToken putStrLn
+stringToken "
 
-startColumns 4
+githubRepo https://github.com/idris-lang/Idris-dev
+ stars 3342
+ forks 663
+ subscribers 123
+ created 2011
+ updated 2022
+ firstCommit 2011
+ description A Dependently Typed Functional Programming Language
+ issues 710
 
-<div class="trueBaseThemeQuickLinks"><a href="http://idris-lang.org" class="material-symbols-outlined">home</a> <a href="https://riju.codes/idris" class="material-symbols-outlined">terminal</a> <a href="https://github.com/idris-lang/Idris-dev" class="material-symbols-outlined">code</a> <a href="http://docs.idris-lang.org/en/latest/" class="material-symbols-outlined">menu_book</a> <a href="https://en.wikipedia.org/wiki/Idris_(programming_language)"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="98.05px" height="98.05px" viewBox="0 0 98.05 98.05" style="enable-background:new 0 0 98.05 98.05;" xml:space="preserve"><path d="M98.023,17.465l-19.584-0.056c-0.004,0.711-0.006,1.563-0.017,2.121c1.664,0.039,5.922,0.822,7.257,4.327L66.92,67.155 c-0.919-2.149-9.643-21.528-10.639-24.02l9.072-18.818c1.873-2.863,5.455-4.709,8.918-4.843l-0.01-1.968L55.42,17.489 c-0.045,0.499,0.001,1.548-0.068,2.069c5.315,0.144,7.215,1.334,5.941,4.508c-2.102,4.776-6.51,13.824-7.372,15.475 c-2.696-5.635-4.41-9.972-7.345-16.064c-1.266-2.823,1.529-3.922,4.485-4.004v-1.981l-21.82-0.067 c0.016,0.93-0.021,1.451-0.021,2.131c3.041,0.046,6.988,0.371,8.562,3.019c2.087,4.063,9.044,20.194,11.149,24.514 c-2.685,5.153-9.207,17.341-11.544,21.913c-3.348-7.43-15.732-36.689-19.232-44.241c-1.304-3.218,3.732-5.077,6.646-5.213 l0.019-2.148L0,17.398c0.005,0.646,0.027,1.71,0.029,2.187c4.025-0.037,9.908,6.573,11.588,10.683 c7.244,16.811,14.719,33.524,21.928,50.349c0.002,0.029,2.256,0.059,2.281,0.008c4.717-9.653,10.229-19.797,15.206-29.56 L63.588,80.64c0.005,0.004,2.082,0.016,2.093,0.007c7.962-18.196,19.892-46.118,23.794-54.933c1.588-3.767,4.245-6.064,8.543-6.194 l0.032-1.956L98.023,17.465z"/></svg></a> <a href="https://twitter.com/idrislang"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=idris" class="material-symbols-outlined">edit</a></div>
+repoStats
+ firstCommit 2011
+ commits 10140
+ committers 442
+ files 1643
 
-* Idris is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Edwin Brady.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#edwinBrady Edwin Brady
+wikipedia https://en.wikipedia.org/wiki/Idris_(programming_language)
+ example
+  total
+  pairAdd : Num a => Vect n a -> Vect n a -> Vect n a
+  pairAdd Nil       Nil       = Nil
+  pairAdd (x :: xs) (y :: ys) = x + y :: pairAdd xs ys
+ related agda coq epigram haskell ml rust perl c javascript java jvm cil ocaml llvmir
+ summary Idris is a general-purpose purely functional programming language with dependent types, strict or optional lazy evaluation and features such as a totality checker. Even before its possible usage for interactive theorem-proving, the focus of Idris is on general-purpose programming, like the purely functional Haskell, and with sufficient performance. The type system of Idris is similar to the one used by Agda and theorem-proving in it is similar to Coq, including tactics. In comparison, Idris has a priority on easy management of side-effects and support for implementing embedded domain specific languages. As of May 2017, Idris compiles to C (relying on a custom copying garbage collector using Cheney's algorithm) and JavaScript (both browser- and Node.js-based). There are also a number of third-party code generators for other platforms, including Java, JVM, CIL, OCaml, and a partial LLVM backend. The name Idris goes back to the character of the singing dragon in the 1970s UK kids' program Ivor the Engine.
+ pageId 39035048
+ dailyPageViews 123
+ created 2013
+ backlinksCount 38
+ revisionCount 109
+ appeared 2017
+ fileExtensions idr lidr
 
-codeWithHeader Source code:
- git clone https://github.com/idris-lang/Idris-dev
+githubLanguage Idris
+ fileExtensions idr lidr
+ trendingProjectsCount 0
+ type programming
+ aceMode text
+ tmScope source.idris
+ repos 1895
+githubBigQuery Idris
+ repos 301
+ users 219
 
-dashboard
- #128 <span title="TotalRank: 381 Jobs: 98 Users: 172 Facts: 111 Links: 178">on PLDB</span>
- 10 Years Old
- 2k <span title="Idris repos on GitHub.">Repos</span>
+pygmentsHighlighter Idris
+ filename haskell.py
+ fileExtensions idr
+linguistGrammarRepo https://github.com/idris-hackers/idris-sublime.git
+ firstCommit 2013
+ lastCommit 2017
+ committerCount 6
+ commitCount 24
+ sampleCount 1
+ example
+  module Prelude.Char
+  
+  import Builtins
+  
+  isUpper : Char -> Bool
+  isUpper x = x >= 'A' && x <= 'Z'
+  
+  isLower : Char -> Bool
+  isLower x = x >= 'a' && x <= 'z'
+  
+  isAlpha : Char -> Bool
+  isAlpha x = isUpper x || isLower x
+  
+  isDigit : Char -> Bool
+  isDigit x = (x >= '0' && x <= '9')
+  
+  isAlphaNum : Char -> Bool
+  isAlphaNum x = isDigit x || isAlpha x
+  
+  isSpace : Char -> Bool
+  isSpace x = x == ' '  || x == '\t' || x == '\r' ||
+              x == '\n' || x == '\f' || x == '\v' ||
+              x == '\xa0'
+  
+  isNL : Char -> Bool
+  isNL x = x == '\r' || x == '\n'
+  
+  toUpper : Char -> Char
+  toUpper x = if (isLower x)
+                 then (prim__intToChar (prim__charToInt x - 32))
+                 else x
+  
+  toLower : Char -> Char
+  toLower x = if (isUpper x)
+                 then (prim__intToChar (prim__charToInt x + 32))
+                 else x
+  
+  isHexDigit : Char -> Bool
+  isHexDigit x = elem (toUpper x) hexChars where
+    hexChars : List Char
+    hexChars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+                'A', 'B', 'C', 'D', 'E', 'F']
+  
 
-* Try now: <a href="https://riju.codes/idris">Riju</a> · <a href="https://tio.run/#idris">TIO</a>
-
-* Idris is a general-purpose purely functional programming language with dependent types, strict or optional lazy evaluation and features such as a totality checker. Even before its possible usage for interactive theorem-proving, the focus of Idris is on general-purpose programming, like the purely functional Haskell, and with sufficient performance. The type system of Idris is similar to the one used by Agda and theorem-proving in it is similar to Coq, including tactics. Read more on Wikipedia...
- https://en.wikipedia.org/wiki/Idris_(programming_language) Read more on Wikipedia...
-
-- Idris website
- http://idris-lang.org
-- Idris Wikipedia page
- https://en.wikipedia.org/wiki/Idris_(programming_language)
-- Idris is developed on <a href="https://github.com/idris-lang/Idris-dev">GitHub</a> and has 3,342 stars
-- Idris docs
- http://docs.idris-lang.org/en/latest/
-- There are at least 1,895 Idris repos on <a href="https://github.com/search?q=language:Idris">GitHub</a>
-- Idris first developed in <a href="../lists/originCommunities.html#universityOfStAndrews">University of St Andrews</a>
-- file extensions for Idris include idr and lidr
-- Idris is written in <a href="haskell.html">Haskell</a>
-- Idris on Twitter
- https://twitter.com/idrislang
-- The  Google BigQuery Public Dataset GitHub snapshot shows 219 users using Idris in 301 repos on <a href="https://api.github.com/search/repositories?q=language:Idris">GitHub</a>
-- There are 11 <a href="https://projecteuler.net/language=Idris">Project Euler</a> users using Idris
-- Explore Idris snippets on <a href="http://www.rosettacode.org/wiki/Category:Idris">Rosetta Code</a>
-- Idris appears in the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>
-- <a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/haskell.py">syntax highlighting</a> for Idris
-- GitHub supports <a href="https://github.com/idris-hackers/idris-sublime.git" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Idris
-- Official Blog page for Idris
- https://www.idris-lang.org/category/news.html
-- Frequently Asked Questions for Idris
- https://docs.idris-lang.org/en/latest/faq/faq.html]
-- Indeed.com has 1 matches for <a href="https://www.indeed.com/jobs?q=idris developer">"idris developer"</a>.
-- <a href="http://idris-lang.org">idris-lang.org</a> was registered in 2010
-- See also: (14 related languages)<a href="agda.html">Agda</a>, <a href="coq.html">Coq</a>, <a href="epigram.html">Epigram</a>, <a href="haskell.html">Haskell</a>, <a href="ml.html">ML</a>, <a href="rust.html">Rust</a>, <a href="perl.html">Perl</a>, <a href="c.html">C</a>, <a href="javascript.html">JavaScript</a>, <a href="java.html">Java</a>, <a href="jvm.html">JVM</a>, <a href="cil.html">CIL</a>, <a href="ocaml.html">OCaml</a>, <a href="llvmir.html">LLVM IR</a>
-
-<br>
-
-codeWithHeader Example from <a href='https://riju.codes/idris'>Riju</a>:
- module Main
- 
- main : IO ()
- main = putStrLn &quot;Hello, world!&quot;
- 
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/i/Idris.idr'>hello-world</a>:
- module Main
- 
- main : IO ()
- main = putStrLn &quot;Hello World&quot;
- 
-
-codeWithHeader Example from <a href='http://helloworldcollection.de/#Idris'>the Hello World Collection</a>:
+projectEuler Idris
+ memberCount
+  2019 10
+  2022 11
+helloWorldCollection Idris
  Hello world in Idris
  
- &gt; main : IO ()
- &gt; main = putStrLn &quot;Hello, World!&quot;
+ > main : IO ()
+ > main = putStrLn "Hello, World!"
+leachim6 Idris
+ filepath i/Idris.idr
+ fileExtensions idr
+ example
+  module Main
+  
+  main : IO ()
+  main = putStrLn "Hello World"
+  
+rosettaCode http://www.rosettacode.org/wiki/Category:Idris
 
-codeWithHeader Example from <a href='https://github.com/idris-hackers/idris-sublime.git'>Linguist</a>:
- module Prelude.Char
- 
- import Builtins
- 
- isUpper : Char -&gt; Bool
- isUpper x = x &gt;= &#39;A&#39; &amp;&amp; x &lt;= &#39;Z&#39;
- 
- isLower : Char -&gt; Bool
- isLower x = x &gt;= &#39;a&#39; &amp;&amp; x &lt;= &#39;z&#39;
- 
- isAlpha : Char -&gt; Bool
- isAlpha x = isUpper x || isLower x
- 
- isDigit : Char -&gt; Bool
- isDigit x = (x &gt;= &#39;0&#39; &amp;&amp; x &lt;= &#39;9&#39;)
- 
- isAlphaNum : Char -&gt; Bool
- isAlphaNum x = isDigit x || isAlpha x
- 
- isSpace : Char -&gt; Bool
- isSpace x = x == &#39; &#39;  || x == &#39;\t&#39; || x == &#39;\r&#39; ||
-             x == &#39;\n&#39; || x == &#39;\f&#39; || x == &#39;\v&#39; ||
-             x == &#39;\xa0&#39;
- 
- isNL : Char -&gt; Bool
- isNL x = x == &#39;\r&#39; || x == &#39;\n&#39;
- 
- toUpper : Char -&gt; Char
- toUpper x = if (isLower x)
-                then (prim__intToChar (prim__charToInt x - 32))
-                else x
- 
- toLower : Char -&gt; Char
- toLower x = if (isUpper x)
-                then (prim__intToChar (prim__charToInt x + 32))
-                else x
- 
- isHexDigit : Char -&gt; Bool
- isHexDigit x = elem (toUpper x) hexChars where
-   hexChars : List Char
-   hexChars = [&#39;0&#39;, &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;,
-               &#39;A&#39;, &#39;B&#39;, &#39;C&#39;, &#39;D&#39;, &#39;E&#39;, &#39;F&#39;]
- 
+rijuRepl https://riju.codes/idris
+ example
+  module Main
+  
+  main : IO ()
+  main = putStrLn "Hello, world!"
+  
+tryItOnline idris
 
-codeWithHeader Example from <a href='https://en.wikipedia.org/wiki/Idris_(programming_language)'>Wikipedia</a>:
- total
- pairAdd : Num a =&gt; Vect n a -&gt; Vect n a -&gt; Vect n a
- pairAdd Nil       Nil       = Nil
- pairAdd (x :: xs) (y :: ys) = x + y :: pairAdd xs ys
+indeedJobs idris developer
+ 2017 1
+officialBlogUrl https://www.idris-lang.org/category/news.html
+faqPageUrl https://docs.idris-lang.org/en/latest/faq/faq.html]
 
-endColumns
+tiobe Idris
 
-## Language <a href="../lists/features.html">features</a>
+twitter https://twitter.com/idrislang
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-treeTable
- row
-  Feature Integers
-  FeatureLink ../features/hasIntegers.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- \d+
- row
-  Feature Floats
-  FeatureLink ../features/hasFloats.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- \d+[eE][+-]?\d+
- row
-  Feature Hexadecimals
-  FeatureLink ../features/hasHexadecimals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- 0[xX][\da-fA-F]+
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "Hello world"
- row
-  Feature Print() Debugging
-  FeatureLink ../features/hasPrintDebugging.html
-  Supported <span class="hasFeature">✓</span>
-  Token putStrLn
-  Example
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   -- A comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token --
-  Example
-   -- A comment
- row
-  Feature Dependent types
-  FeatureLink ../features/hasDependentTypes.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
+isbndb 1
+ year|publisher|title|authors|isbn13
+ 20170313|Simon & Schuster|Type-Driven Development with Idris|Edwin Brady|9781638352242
 
-keyboardNav vbscript.html oz.html
-
-import ../footer.scroll
+semanticScholar 8
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2011|IDRIS ---: systems programming meets full dependent types|10.1145/1929529.1929536|85|6|Edwin C. Brady|1baf62357fb0b8c60f735c27f89444d1492e62c5
+ 2016|Elaborator reflection: extending Idris in Idris|10.1145/2951913.2951932|31|4|D. Christiansen and Edwin C. Brady|38aafe4d16639f77be616c320ed12a9560430e7d
+ 2021|Idris 2: Quantitative Type Theory in Practice|10.4230/LIPIcs.ECOOP.2021.9|15|0|Edwin C. Brady|d670ad0f4a9448d3c0869a1519fed7fc97be60a2
+ 2019|A Dependently Typed Library for Static Information-Flow Control in Idris|10.1007/978-3-030-17138-4_3|4|1|Simon Gregersen and Søren Eller Thomsen and Aslan Askarov|ebf5c08847ffa8fe95ee857c4d11f0c3f47cf960
+ 2018|Edit-Time Tactics in Idris|10.14418/wes01.2.181|3|0|Joomy Korkut|991236ead6e9eee6b66081e7735b97cdb195914c
+ 2013|The Idris Programming Language - Implementing Embedded Domain Specific Languages with Dependent Types|10.1007/978-3-319-15940-9_4|3|0|Edwin C. Brady|e0f0d473b110fa75001ed13b5d2eaa1a374dd6f9
+ 2021|Idris 2: Quantitative Type Theory in Practice (Artifact)|10.4230/DARTS.7.2.10|1|0|Edwin C. Brady|c92b6092462563f3b3132f3a3285493d02aa906d
+ 2019|Building a Blockchain Simulation using the Idris Programming Language|10.1145/3299815.3314456|1|0|Qiutai Pan and X. Koutsoukos|97cab544a22c289edd423d0a71fcc73fb011fe87

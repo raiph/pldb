@@ -1,45 +1,20 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title mermaid
+import ../measures/conceptPage.scroll
+id mermaid
+appeared 2014
+type textMarkup
+website https://mermaidjs.github.io/
+country Various
+originCommunity https://github.com/mermaid-js
+domainName mermaidjs.github.io
+ awisRank
+  2022 385735
 
-title mermaid - Text markup language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="puredata.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="wdl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/mermaid.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mermaidjs.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/mermaid-js/mermaid" class="material-symbols-outlined">code</a> <a href="/edit.html?id=mermaid" class="material-symbols-outlined">edit</a></div>
-
-* mermaid is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+textMarkup">text markup language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-codeWithHeader Source code:
- git clone https://github.com/mermaid-js/mermaid
-
-dashboard
- #443 <span title="TotalRank: 947 Jobs: 103 Users: 42 Facts: 802 Links: 986">on PLDB</span>
- 10 Years Old
-
-* Generation of diagram and flowchart from text in a similar manner as markdown
-
-- mermaid website
- https://mermaidjs.github.io/
-- mermaid is developed on <a href="https://github.com/mermaid-js/mermaid">GitHub</a> and has 48,174 stars
-- mermaid first developed in <a href="../lists/originCommunities.html#httpsGithubComMermaidJs">https://github.com/mermaid-js</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  gitGraph:
  options
  {
-     &quot;nodeSpacing&quot;: 150,
-     &quot;nodeRadius&quot;: 10
+     "nodeSpacing": 150,
+     "nodeRadius": 10
  }
  end
  commit
@@ -52,8 +27,20 @@ codeWithHeader Example from the web:
  commit
  merge newbranch
 
-endColumns
+githubRepo https://github.com/mermaid-js/mermaid
+ firstCommit 2014
+ stars 48174
+ forks 3594
+ subscribers 586
+ created 2014
+ updated 2022
+ description Generation of diagram and flowchart from text in a similar manner as markdown
+ issues 730
 
-keyboardNav puredata.html wdl.html
+repoStats
+ firstCommit 2014
+ commits 7547
+ committers 555
+ files 620
 
-import ../footer.scroll
+isbndb 0

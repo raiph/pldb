@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title INSIGHT
+import ../measures/conceptPage.scroll
+id INSIGHT
+appeared 1983
+type pl
+reference https://semanticscholar.org/paper/22488a9e23dce2625aa5dc8e99c42b610b1a6b3e
+country United States
+originCommunity Regenstrief Institute for Health Care
 
-title INSIGHT - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1038
 
-html
- <a class="trueBaseThemePreviousItem" href="infolog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="interactive.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/insight.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=insight" class="material-symbols-outlined">edit</a></div>
-
-* INSIGHT is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #4177 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- INSIGHT first developed in <a href="../lists/originCommunities.html#regenstriefInstituteForHealthCare">Regenstrief Institute for Health Care</a>
-- INSIGHT on HOPL
- https://hopl.info/showlanguage.prx?exp=1038
-- Read more about INSIGHT on Semantic Scholar: 1.
- https://semanticscholar.org/paper/22488a9e23dce2625aa5dc8e99c42b610b1a6b3e 1.
-
-<br>
-
-endColumns
-
-keyboardNav infolog.html interactive.html
-
-import ../footer.scroll
+wordRank 4791
+centralPackageRepositoryCount 0

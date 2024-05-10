@@ -1,44 +1,35 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title sizzle
+import ../measures/conceptPage.scroll
+id sizzle
+appeared 2008
+type queryLanguage
+website https://sizzlejs.com/
+reference https://openjsf.org/about/contact/
+country United States
+originCommunity https://github.com/jquery
+domainName sizzlejs.com
+ registered 2008
 
-title sizzle - Query language
- hidden
+githubRepo https://github.com/jquery/sizzle
+ firstCommit 2008
+ stars 6157
+ forks 979
+ subscribers 293
+ created 2008
+ updated 2022
+ description A sizzlin' hot selector engine.
+ issues 18
 
-html
- <a class="trueBaseThemePreviousItem" href="vimwiki.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="desmos.html">&gt;</a>
+repoStats
+ firstCommit 2008
+ commits 1065
+ committers 65
+ files 76
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/sizzle.pldb
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://sizzlejs.com/" class="material-symbols-outlined">home</a> <a href="https://github.com/jquery/sizzle" class="material-symbols-outlined">code</a> <a href="/edit.html?id=sizzle" class="material-symbols-outlined">edit</a></div>
-
-* sizzle is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+queryLanguage">query language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-codeWithHeader Source code:
- git clone https://github.com/jquery/sizzle
-
-dashboard
- #632 <span title="TotalRank: 1210 Jobs: 103 Users: 121 Facts: 1123 Links: 986">on PLDB</span>
- 16 Years Old
-
-* A sizzlin' hot selector engine.
-
-- sizzle website
- https://sizzlejs.com/
-- sizzle is developed on <a href="https://github.com/jquery/sizzle">GitHub</a> and has 6,157 stars
-- sizzle first developed in <a href="../lists/originCommunities.html#httpsGithubComJquery">https://github.com/jquery</a>
-- <a href="https://sizzlejs.com/">sizzlejs.com</a> was registered in 2008
-- Read more about sizzle on the web: 1.
- https://openjsf.org/about/contact/ 1.
-
-<br>
-
-endColumns
-
-keyboardNav vimwiki.html desmos.html
-
-import ../footer.scroll
+isbndb 2
+ year|publisher|title|authors|isbn13
+ 1993|Cas Education Group|Performance Programming: Making Rpg Sizzle|Mike Dawson|9781884322082
+ 1993|29th Street Pr|Performance Programming: Making Rpg Sizzle|Mike Dawson|9781882419395

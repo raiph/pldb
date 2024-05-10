@@ -1,39 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title ABC++
+import ../measures/conceptPage.scroll
+id ABC++
+appeared 1994
+type pl
+reference https://semanticscholar.org/paper/0014195f11078f8e48eba5a9bf1b213d9db28093
+originCommunity IBM
 
-title ABC++ - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=3637
 
-html
- <a class="trueBaseThemePreviousItem" href="abcl-f.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="abstracto.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/abcpp.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=abcpp" class="material-symbols-outlined">edit</a></div>
-
-* ABC++ is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1994.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1994 1994
-
-dashboard
- #3311 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 30 Years Old
-
-* 
-
-- ABC++ first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- ABC++ on HOPL
- https://hopl.info/showlanguage.prx?exp=3637
-- Read more about ABC++ on Semantic Scholar: 1.
- https://semanticscholar.org/paper/0014195f11078f8e48eba5a9bf1b213d9db28093 1.
-
-<br>
-
-endColumns
-
-keyboardNav abcl-f.html abstracto.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

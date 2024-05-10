@@ -1,39 +1,9 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title microPLANNER
+import ../measures/conceptPage.scroll
+id microPLANNER
+appeared 1970
+type pl
+reference https://en.wikipedia.org/wiki/Planner_(programming_language)
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title microPLANNER - Programming language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="metalex.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="modl.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/microplanner.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=microplanner" class="material-symbols-outlined">edit</a></div>
-
-* microPLANNER is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1970.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1970 1970
-
-dashboard
- #3401 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 54 Years Old
-
-* 
-
-- microPLANNER first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- microPLANNER on HOPL
- https://hopl.info/showlanguage.prx?exp=516
-- Read more about microPLANNER on the web: 1.
- https://en.wikipedia.org/wiki/Planner_(programming_language) 1.
-
-<br>
-
-endColumns
-
-keyboardNav metalex.html modl.html
-
-import ../footer.scroll
+hopl https://hopl.info/showlanguage.prx?exp=516

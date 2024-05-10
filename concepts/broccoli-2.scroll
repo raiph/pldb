@@ -1,42 +1,22 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Broccoli
+import ../measures/conceptPage.scroll
+id Broccoli
+appeared 2022
+type esolang
+creators Mathieu CAROFF
+website https://mathieucaroff.com/broccoli
+country France
+originCommunity IMT Atlantique
 
-title Broccoli - Esoteric programming language
- hidden
+githubRepo https://github.com/mathieucaroff/broccoli/
+ stars 0
+ forks 0
+ subscribers 1
+ created 2022
+ updated 2022
+ description Interpreter for the concatenative programming language Broccoli
 
-html
- <a class="trueBaseThemePreviousItem" href="psyche.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="les.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/broccoli-2.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://mathieucaroff.com/broccoli" class="material-symbols-outlined">home</a> <a href="https://github.com/mathieucaroff/broccoli/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=broccoli-2" class="material-symbols-outlined">edit</a></div>
-
-* Broccoli is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2022 by Mathieu CAROFF.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2022 2022
- link ../lists/creators.html#mathieuCaroff Mathieu CAROFF
-
-codeWithHeader Source code:
- git clone https://github.com/mathieucaroff/broccoli/
-
-dashboard
- #2438 <span title="TotalRank: 2979 Jobs: 103 Users: 2415 Facts: 1890 Links: 986">on PLDB</span>
- 2 Years Old
-
-* Interpreter for the concatenative programming language Broccoli
-
-- Broccoli website
- https://mathieucaroff.com/broccoli
-- Broccoli is developed on <a href="https://github.com/mathieucaroff/broccoli/">GitHub</a> and has 0 stars
-- Broccoli first developed in <a href="../lists/originCommunities.html#imtAtlantique">IMT Atlantique</a>
-
-<br>
-
-endColumns
-
-keyboardNav psyche.html les.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2022
+ commits 34
+ committers 1
+ files 27

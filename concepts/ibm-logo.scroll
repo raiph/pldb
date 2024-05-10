@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title IBM Logo
+import ../measures/conceptPage.scroll
+id IBM Logo
+appeared 1983
+type pl
+reference https://winworldpc.com/product/ibm-logo
+country United States
+originCommunity IBM
 
-title IBM Logo - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=7668
 
-html
- <a class="trueBaseThemePreviousItem" href="ib-templog.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="icetran.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/ibm-logo.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=ibm-logo" class="material-symbols-outlined">edit</a></div>
-
-* IBM Logo is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1983.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1983 1983
-
-dashboard
- #3732 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 41 Years Old
-
-* 
-
-- IBM Logo first developed in <a href="../lists/originCommunities.html#ibm">IBM</a>
-- IBM Logo on HOPL
- https://hopl.info/showlanguage.prx?exp=7668
-- Read more about IBM Logo on the web: 1.
- https://winworldpc.com/product/ibm-logo 1.
-
-<br>
-
-endColumns
-
-keyboardNav ib-templog.html icetran.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

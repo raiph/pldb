@@ -1,49 +1,29 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title rpscript
+import ../measures/conceptPage.scroll
+id rpscript
+appeared 2018
+type pl
+website http://www.rpscript.com
+domainName rpscript.com
+ registered 2021
 
-title rpscript - Programming language
- hidden
+githubRepo https://github.com/TYPECASTINGSG/rpscript
+ firstCommit 2018
+ stars 12
+ subscribers 2
+ created 2018
+ updated 2022
+ description A scripting language for process automation
+ issues 3
+ forks 1
 
-html
- <a class="trueBaseThemePreviousItem" href="ti-89-basic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="awl.html">&gt;</a>
+repoStats
+ firstCommit 2018
+ commits 83
+ committers 1
+ files 28
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/rpscript.pldb
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 17787802|Show HN: RPScript – Scripting language for process automation|2018-08-18 10:14:05 UTC|1534587245|wei3hua2|2|3
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://www.rpscript.com" class="material-symbols-outlined">home</a> <a href="https://github.com/TYPECASTINGSG/rpscript" class="material-symbols-outlined">code</a> <a href="https://twitter.com/wei3hua2"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a> <a href="/edit.html?id=rpscript" class="material-symbols-outlined">edit</a></div>
-
-* rpscript is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2018.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2018 2018
-
-codeWithHeader Source code:
- git clone https://github.com/TYPECASTINGSG/rpscript
-
-dashboard
- #2026 <span title="TotalRank: 2539 Jobs: 103 Users: 2248 Facts: 1450 Links: 986">on PLDB</span>
- 6 Years Old
-
-* A scripting language for process automation
-
-- rpscript website
- http://www.rpscript.com
-- rpscript is developed on <a href="https://github.com/TYPECASTINGSG/rpscript">GitHub</a> and has 12 stars
-- rpscript on Twitter
- https://twitter.com/wei3hua2
-- <a href="http://www.rpscript.com">rpscript.com</a> was registered in 2021
-
-<br>
-
-endColumns
-
-## HackerNews discussions of rpscript
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: RPScript – Scripting language for process automation|https://news.ycombinator.com/item?id=17787802|08/18/2018|3|2
-
-keyboardNav ti-89-basic.html awl.html
-
-import ../footer.scroll
+twitter https://twitter.com/wei3hua2

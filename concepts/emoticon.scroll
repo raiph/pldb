@@ -1,43 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title emoticon
+import ../measures/conceptPage.scroll
+id emoticon
+appeared 2004
+type esolang
+country Scotland, United Kingdom
+originCommunity https://www.teuton.org
 
-title emoticon - Esoteric programming language
- hidden
+leachim6 Emoticon
+ filepath e/Emoticon.emoticon
+ fileExtensions emoticon
+ example
+  Hello World :Q S::P :P
+  
 
-html
- <a class="trueBaseThemePreviousItem" href="eden.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="mmix.html">&gt;</a>
+replit https://repl.it/languages/emoticon
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/emoticon.pldb
+esolang https://esolangs.org/wiki/Emoticon
 
-startColumns 4
+fileType text
+centralPackageRepositoryCount 0
 
-<div class="trueBaseThemeQuickLinks"><a href="https://repl.it/languages/emoticon" class="material-symbols-outlined">terminal</a> <a href="/edit.html?id=emoticon" class="material-symbols-outlined">edit</a></div>
-
-* emoticon is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+esolang">esoteric programming language</a> created in 2004.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2004 2004
-
-dashboard
- #2446 <span title="TotalRank: 2979 Jobs: 103 Users: 2838 Facts: 1890 Links: 986">on PLDB</span>
- 20 Years Old
-
-* Try now: <a href="https://repl.it/languages/emoticon">Replit</a>
-
-* 
-
-- emoticon first developed in <a href="../lists/originCommunities.html#httpsWwwTeutonOrg">https://www.teuton.org</a>
-- emoticon on Esolang
- https://esolangs.org/wiki/Emoticon
-
-<br>
-
-codeWithHeader Example from <a href='https://github.com/leachim6/hello-world/blob/main/e/Emoticon.emoticon'>hello-world</a>:
- Hello World :Q S::P :P
- 
-
-endColumns
-
-keyboardNav eden.html mmix.html
-
-import ../footer.scroll
+semanticScholar 2
+ year|title|doi|citations|influentialCitations|authors|paperId
+ 2012|Emoticon Smoothed Language Models for Twitter Sentiment Analysis|10.1609/aaai.v26i1.8353|251|10|Kun Liu and Wu-Jun Li and M. Guo|e66869e7e045eefa34dd8f8021304b1904f452b5
+ 2011|Robogotchi, on emoticon robot|10.1109/ICCSN.2011.6014856|3|0|E. Kuantama and Leonardy Setyawan and J. Darma|c9b40468ba5223197679d1b63ff448e43ae6c14c

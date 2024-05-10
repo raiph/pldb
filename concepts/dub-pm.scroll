@@ -1,44 +1,23 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title dub-pm
+import ../measures/conceptPage.scroll
+id dub-pm
+appeared 2012
+type packageManager
+creators Sönke Ludwig
+website https://code.dlang.org/
+reference https://dub.pm/package-format-json
+country United States
+originCommunity https://github.com/dlang
+domainName code.dlang.org
 
-title dub-pm - Package manager
- hidden
+githubRepo https://github.com/dlang/dub
+ firstCommit 2012
+ stars 603
+ forks 228
+ subscribers 60
+ created 2012
+ updated 2022
+ description Package and build management system for D
+ issues 526
 
-html
- <a class="trueBaseThemePreviousItem" href="dot-ql.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="atomspace.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/dub-pm.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://code.dlang.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/dlang/dub" class="material-symbols-outlined">code</a> <a href="/edit.html?id=dub-pm" class="material-symbols-outlined">edit</a></div>
-
-* dub-pm is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+packageManager">package manager</a> created in 2012 by Sönke Ludwig.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2012 2012
- link ../lists/creators.html#sonkeLudwig Sönke Ludwig
-
-codeWithHeader Source code:
- git clone https://github.com/dlang/dub
-
-dashboard
- #1320 on PLDB
- 12 Years Old
-
-* Package and build management system for D
-
-- dub-pm website
- https://code.dlang.org/
-- dub-pm is developed on <a href="https://github.com/dlang/dub">GitHub</a> and has 603 stars
-- dub-pm first developed in <a href="../lists/originCommunities.html#httpsGithubComDlang">https://github.com/dlang</a>
-- Read more about dub-pm on the web: 1.
- https://dub.pm/package-format-json 1.
-
-<br>
-
-endColumns
-
-keyboardNav dot-ql.html atomspace.html
-
-import ../footer.scroll
+packageCount 1498
+forLanguages d

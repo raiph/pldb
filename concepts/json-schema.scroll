@@ -1,93 +1,82 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title JSON Schema
+import ../measures/conceptPage.scroll
+id JSON Schema
+appeared 2010
+type dataValidationLanguage
+creators Kris Zyp
+conceptDescription JSON Schema is a vocabulary that allows you to annotate and validate JSON documents.
+website http://json-schema.org/
+country Various
+originCommunity https://github.com/json-schema-org
+domainName json-schema.org
+ registered 2007
+ awisRank
+  2022 102032
 
-title JSON Schema - Data validation language
- hidden
+relatedConcepts livr
 
-html
- <a class="trueBaseThemePreviousItem" href="pod.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="asciidoc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/json-schema.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://json-schema.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/json-schema-org/json-schema-spec" class="material-symbols-outlined">code</a> <a href="/edit.html?id=json-schema" class="material-symbols-outlined">edit</a></div>
-
-* JSON Schema is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+dataValidationLanguage">data validation language</a> created in 2010 by Kris Zyp.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2010 2010
- link ../lists/creators.html#krisZyp Kris Zyp
-
-codeWithHeader Source code:
- git clone https://github.com/json-schema-org/json-schema-spec
-
-dashboard
- #328 <span title="TotalRank: 768 Jobs: 103 Users: 260 Facts: 405 Links: 986">on PLDB</span>
- 14 Years Old
-
-* JSON Schema is a vocabulary that allows you to annotate and validate JSON documents.
-
-- JSON Schema website
- http://json-schema.org/
-- JSON Schema is developed on <a href="https://github.com/json-schema-org/json-schema-spec">GitHub</a> and has 2,623 stars
-- JSON Schema first developed in <a href="../lists/originCommunities.html#httpsGithubComJsonSchemaOrg">https://github.com/json-schema-org</a>
-- <a href="http://json-schema.org/">json-schema.org</a> was registered in 2007
-- See also: (1 related languages)<a href="livr.html">Livr</a>
-
-<br>
-
-codeWithHeader Example from the web:
+example
  {
-   &quot;$id&quot;: &quot;https://example.com/calendar.schema.json&quot;,
-   &quot;$schema&quot;: &quot;https://json-schema.org/draft/2020-12/schema&quot;,
-   &quot;description&quot;: &quot;A representation of an event&quot;,
-   &quot;type&quot;: &quot;object&quot;,
-   &quot;required&quot;: [ &quot;dtstart&quot;, &quot;summary&quot; ],
-   &quot;properties&quot;: {
-     &quot;dtstart&quot;: {
-       &quot;type&quot;: &quot;string&quot;,
-       &quot;description&quot;: &quot;Event starting time&quot;
+   "$id": "https://example.com/calendar.schema.json",
+   "$schema": "https://json-schema.org/draft/2020-12/schema",
+   "description": "A representation of an event",
+   "type": "object",
+   "required": [ "dtstart", "summary" ],
+   "properties": {
+     "dtstart": {
+       "type": "string",
+       "description": "Event starting time"
      },
-     &quot;dtend&quot;: {
-       &quot;type&quot;: &quot;string&quot;,
-       &quot;description&quot;: &quot;Event ending time&quot;
+     "dtend": {
+       "type": "string",
+       "description": "Event ending time"
      },
-     &quot;summary&quot;: {
-       &quot;type&quot;: &quot;string&quot;
+     "summary": {
+       "type": "string"
      },
-     &quot;location&quot;: {
-       &quot;type&quot;: &quot;string&quot;
+     "location": {
+       "type": "string"
      },
-     &quot;url&quot;: {
-       &quot;type&quot;: &quot;string&quot;
+     "url": {
+       "type": "string"
      },
-     &quot;duration&quot;: {
-       &quot;type&quot;: &quot;string&quot;,
-       &quot;description&quot;: &quot;Event duration&quot;
+     "duration": {
+       "type": "string",
+       "description": "Event duration"
      },
-     &quot;rdate&quot;: {
-       &quot;type&quot;: &quot;string&quot;,
-       &quot;description&quot;: &quot;Recurrence date&quot;
+     "rdate": {
+       "type": "string",
+       "description": "Recurrence date"
      },
-     &quot;rrule&quot;: {
-       &quot;type&quot;: &quot;string&quot;,
-       &quot;description&quot;: &quot;Recurrence rule&quot;
+     "rrule": {
+       "type": "string",
+       "description": "Recurrence rule"
      },
-     &quot;category&quot;: {
-       &quot;type&quot;: &quot;string&quot;
+     "category": {
+       "type": "string"
      },
-     &quot;description&quot;: {
-       &quot;type&quot;: &quot;string&quot;
+     "description": {
+       "type": "string"
      },
-     &quot;geo&quot;: {
-       &quot;$ref&quot;: &quot;https://example.com/geographical-location.schema.json&quot;
+     "geo": {
+       "$ref": "https://example.com/geographical-location.schema.json"
      }
    }
  }
 
-endColumns
+githubRepo https://github.com/json-schema-org/json-schema-spec
+ firstCommit 2010
+ stars 2623
+ forks 248
+ subscribers 108
+ created 2015
+ updated 2022
+ description The JSON Schema I-D sources
+ issues 90
 
-keyboardNav pod.html asciidoc.html
+repoStats
+ firstCommit 2010
+ commits 1903
+ committers 80
+ files 34
 
-import ../footer.scroll
+isbndb 0

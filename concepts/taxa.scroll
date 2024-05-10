@@ -1,45 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title taxa
+import ../measures/conceptPage.scroll
+id taxa
+appeared 2014
+type pl
+creators Dan Motzenbecker
 
-title taxa - Programming language
- hidden
+githubRepo https://github.com/dmotz/taxa
+ firstCommit 2014
+ stars 8
+ forks 1
+ subscribers 1
+ created 2014
+ updated 2021
+ description A tiny language inside JavaScript to enforce type signatures.
+ issues 0
 
-html
- <a class="trueBaseThemePreviousItem" href="penguor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="acorn-lang.html">&gt;</a>
+repoStats
+ firstCommit 2014
+ commits 62
+ committers 1
+ files 8
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/taxa.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://github.com/dmotz/taxa" class="material-symbols-outlined">code</a> <a href="/edit.html?id=taxa" class="material-symbols-outlined">edit</a></div>
-
-* taxa is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2014 by Dan Motzenbecker.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
- link ../lists/creators.html#danMotzenbecker Dan Motzenbecker
-
-codeWithHeader Source code:
- git clone https://github.com/dmotz/taxa
-
-dashboard
- #2259 <span title="TotalRank: 2758 Jobs: 103 Users: 2328 Facts: 1669 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A tiny language inside JavaScript to enforce type signatures.
-
-- taxa is developed on <a href="https://github.com/dmotz/taxa">GitHub</a> and has 8 stars
-
-<br>
-
-endColumns
-
-## HackerNews discussions of taxa
-
-pipeTable
- title|titleLink|date|score|comments
- Show HN: Taxa – A tiny language inside JavaScript to enforce type signatures|https://news.ycombinator.com/item?id=8282725|09/07/2014|3|3
-
-keyboardNav penguor.html acorn-lang.html
-
-import ../footer.scroll
+hackerNewsDiscussions
+ id|title|time|timestamp|by|comments|score
+ 8282725|Show HN: Taxa – A tiny language inside JavaScript to enforce type signatures|2014-09-07 22:56:31 UTC|1410130591|dmotz|3|3

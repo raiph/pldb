@@ -1,42 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title tidyverse
+import ../measures/conceptPage.scroll
+id tidyverse
+appeared 2016
+type library
+creators Hadley Wickham
+conceptDescription The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
+website https://www.tidyverse.org/
+domainName tidyverse.org
+ registered 2016
+ awisRank
+  2022 29257
 
-title tidyverse - Library
- hidden
+githubRepo https://github.com/tidyverse/tidyverse
+ firstCommit 2016
+ stars 1244
+ forks 262
+ subscribers 86
+ created 2016
+ updated 2022
+ description Easily install and load packages from the tidyverse
+ issues 8
 
-html
- <a class="trueBaseThemePreviousItem" href="fp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="odbc.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/tidyverse.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://www.tidyverse.org/" class="material-symbols-outlined">home</a> <a href="https://github.com/tidyverse/tidyverse" class="material-symbols-outlined">code</a> <a href="/edit.html?id=tidyverse" class="material-symbols-outlined">edit</a></div>
-
-* tidyverse is an open source <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+library">library</a> created in 2016 by Hadley Wickham.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2016 2016
- link ../lists/creators.html#hadleyWickham Hadley Wickham
-
-codeWithHeader Source code:
- git clone https://github.com/tidyverse/tidyverse
-
-dashboard
- #1147 on PLDB
- 8 Years Old
-
-* The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures.
-
-- tidyverse website
- https://www.tidyverse.org/
-- tidyverse is developed on <a href="https://github.com/tidyverse/tidyverse">GitHub</a> and has 1,244 stars
-- <a href="https://www.tidyverse.org/">tidyverse.org</a> was registered in 2016
-
-<br>
-
-endColumns
-
-keyboardNav fp.html odbc.html
-
-import ../footer.scroll
+fileType text
+isOpenSource true
+centralPackageRepositoryCount 0

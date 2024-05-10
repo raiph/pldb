@@ -1,38 +1,8 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Xmind Format
-
-title Xmind Format - Xml format
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="wizor.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ycp.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/xmind.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=xmind" class="material-symbols-outlined">edit</a></div>
-
-* Xmind Format is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+xmlFormat">xml format</a> created in 2007.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2007 2007
-
-dashboard
- #3453 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3922 Links: 986">on PLDB</span>
- 17 Years Old
-
-* The .xmind file format implementing XMind Workbooks consists of a ZIP compressed archive containing an XML document for contents, an XML document for styles, a .png image file for thumbnails, and some directories for attachments. The file format is open and based on some principles of OpenDocument/Office Open XML.
-
-- file extensions for Xmind Format include xmind
-- Read more about Xmind Format on the web: 1. 2.
- https://en.wikipedia.org/wiki/XMind 1.
- https://xmind.app/ 2.
-
-<br>
-
-endColumns
-
-keyboardNav wizor.html ycp.html
-
-import ../footer.scroll
+import ../measures/conceptPage.scroll
+id Xmind Format
+appeared 2007
+type xmlFormat
+conceptDescription The .xmind file format implementing XMind Workbooks consists of a ZIP compressed archive containing an XML document for contents, an XML document for styles, a .png image file for thumbnails, and some directories for attachments. The file format is open and based on some principles of OpenDocument/Office Open XML.
+reference https://en.wikipedia.org/wiki/XMind
+reference https://xmind.app/
+fileExtensions xmind

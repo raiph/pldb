@@ -1,41 +1,16 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Kakoune
+import ../measures/conceptPage.scroll
+id Kakoune
+appeared 2011
+type editor
+website http://kakoune.org
+country Australia
+originCommunity https://github.com/mawww/kakoune/issues
 
-title Kakoune - Editor
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="logica.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="xl-lang.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/kakoune-editor.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="http://kakoune.org" class="material-symbols-outlined">home</a> <a href="https://github.com/mawww/kakoune/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=kakoune-editor" class="material-symbols-outlined">edit</a></div>
-
-* Kakoune is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+editor">editor</a> created in 2011.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2011 2011
-
-codeWithHeader Source code:
- git clone https://github.com/mawww/kakoune/
-
-dashboard
- #794 on PLDB
- 13 Years Old
-
-* mawww's experiment for a better code editor
-
-- Kakoune website
- http://kakoune.org
-- Kakoune is developed on <a href="https://github.com/mawww/kakoune/">GitHub</a> and has 8,496 stars
-- Kakoune first developed in <a href="../lists/originCommunities.html#httpsGithubComMawwwKakouneIssues">https://github.com/mawww/kakoune/issues</a>
-
-<br>
-
-endColumns
-
-keyboardNav logica.html xl-lang.html
-
-import ../footer.scroll
+githubRepo https://github.com/mawww/kakoune/
+ stars 8496
+ forks 672
+ subscribers 115
+ created 2011
+ updated 2022
+ description mawww's experiment for a better code editor
+ issues 803

@@ -1,42 +1,24 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Hush
+import ../measures/conceptPage.scroll
+id Hush
+appeared 2021
+type pl
+creators Gabriel Bastos
+website https://hush-shell.github.io/
+country Brazil
+originCommunity https://github.com/hush-shell/
 
-title Hush - Programming language
- hidden
+githubRepo https://github.com/hush-shell/hush
+ firstCommit 2020
+ stars 552
+ forks 17
+ subscribers 10
+ created 2020
+ updated 2022
+ description Hush is a unix shell based on the Lua programming language
+ issues 12
 
-html
- <a class="trueBaseThemePreviousItem" href="lemon.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="co-dfns.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/hush.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://hush-shell.github.io/" class="material-symbols-outlined">home</a> <a href="https://github.com/hush-shell/hush" class="material-symbols-outlined">code</a> <a href="/edit.html?id=hush" class="material-symbols-outlined">edit</a></div>
-
-* Hush is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Gabriel Bastos.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#gabrielBastos Gabriel Bastos
-
-codeWithHeader Source code:
- git clone https://github.com/hush-shell/hush
-
-dashboard
- #1257 <span title="TotalRank: 1793 Jobs: 103 Users: 704 Facts: 1669 Links: 986">on PLDB</span>
- 3 Years Old
-
-* Hush is a unix shell based on the Lua programming language
-
-- Hush website
- https://hush-shell.github.io/
-- Hush is developed on <a href="https://github.com/hush-shell/hush">GitHub</a> and has 552 stars
-- Hush first developed in <a href="../lists/originCommunities.html#httpsGithubComHushShell">https://github.com/hush-shell/</a>
-
-<br>
-
-endColumns
-
-keyboardNav lemon.html co-dfns.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 294
+ committers 7
+ files 224

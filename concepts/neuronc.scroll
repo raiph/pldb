@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title NeuronC
+import ../measures/conceptPage.scroll
+id NeuronC
+appeared 1992
+type pl
+reference https://semanticscholar.org/paper/03e092833db6d8a046b23a658fbfeac6ab2d0858
+country United States
+originCommunity University of Pennsylvania
 
-title NeuronC - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=6715
 
-html
- <a class="trueBaseThemePreviousItem" href="network-control-language.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="nfql.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/neuronc.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=neuronc" class="material-symbols-outlined">edit</a></div>
-
-* NeuronC is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1992.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1992 1992
-
-dashboard
- #3869 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 32 Years Old
-
-* 
-
-- NeuronC first developed in <a href="../lists/originCommunities.html#universityOfPennsylvania">University of Pennsylvania</a>
-- NeuronC on HOPL
- https://hopl.info/showlanguage.prx?exp=6715
-- Read more about NeuronC on Semantic Scholar: 1.
- https://semanticscholar.org/paper/03e092833db6d8a046b23a658fbfeac6ab2d0858 1.
-
-<br>
-
-endColumns
-
-keyboardNav network-control-language.html nfql.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

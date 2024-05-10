@@ -1,39 +1,12 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CONSTRAINTS
+import ../measures/conceptPage.scroll
+id CONSTRAINTS
+appeared 1978
+type pl
+reference https://semanticscholar.org/paper/d14a60b4058c036197276d24a57239915d345a52
+country United States
+originCommunity Massachusetts Institute of Technology
 
-title CONSTRAINTS - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=892
 
-html
- <a class="trueBaseThemePreviousItem" href="consim.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="consul.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/constraints.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=constraints" class="material-symbols-outlined">edit</a></div>
-
-* CONSTRAINTS is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #4109 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 2938 Links: 986">on PLDB</span>
- 46 Years Old
-
-* 
-
-- CONSTRAINTS first developed in <a href="../lists/originCommunities.html#massachusettsInstituteOfTechnology">Massachusetts Institute of Technology</a>
-- CONSTRAINTS on HOPL
- https://hopl.info/showlanguage.prx?exp=892
-- Read more about CONSTRAINTS on Semantic Scholar: 1.
- https://semanticscholar.org/paper/d14a60b4058c036197276d24a57239915d345a52 1.
-
-<br>
-
-endColumns
-
-keyboardNav consim.html consul.html
-
-import ../footer.scroll
+wordRank 5947
+centralPackageRepositoryCount 0

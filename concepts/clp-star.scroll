@@ -1,39 +1,11 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title CLP*
+import ../measures/conceptPage.scroll
+id CLP*
+appeared 1989
+type pl
+reference https://semanticscholar.org/paper/76c2859734d725a4f8d7e94f33a4bdad32581fc5
+country United States
+originCommunity Brandeis University
 
-title CLP* - Programming language
- hidden
+hopl https://hopl.info/showlanguage.prx?exp=1465
 
-html
- <a class="trueBaseThemePreviousItem" href="clover.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="cmn.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/clp-star.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=clp-star" class="material-symbols-outlined">edit</a></div>
-
-* CLP* is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1989.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1989 1989
-
-dashboard
- #3576 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 35 Years Old
-
-* 
-
-- CLP* first developed in <a href="../lists/originCommunities.html#brandeisUniversity">Brandeis University</a>
-- CLP* on HOPL
- https://hopl.info/showlanguage.prx?exp=1465
-- Read more about CLP* on Semantic Scholar: 1.
- https://semanticscholar.org/paper/76c2859734d725a4f8d7e94f33a4bdad32581fc5 1.
-
-<br>
-
-endColumns
-
-keyboardNav clover.html cmn.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

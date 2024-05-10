@@ -1,38 +1,10 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title flexbuffers
+import ../measures/conceptPage.scroll
+id flexbuffers
+appeared 2014
+type idl
+conceptDescription A schemaless binary encoding. This is a binary format that can be used in conjunction with FlatBuffers (by storing a part of a buffer in FlexBuffers format), or also as its own independent serialization format.
+reference https://google.github.io/flatbuffers/flatbuffers_internals.html
+country United States
+originCommunity Google
 
-title flexbuffers - Interface design language
- hidden
-
-html
- <a class="trueBaseThemePreviousItem" href="flengpp.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="flora.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/flexbuffers.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=flexbuffers" class="material-symbols-outlined">edit</a></div>
-
-* flexbuffers is an <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+idl">interface design language</a> created in 2014.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2014 2014
-
-dashboard
- #3665 <span title="TotalRank: 3927 Jobs: 103 Users: 2838 Facts: 3284 Links: 986">on PLDB</span>
- 10 Years Old
-
-* A schemaless binary encoding. This is a binary format that can be used in conjunction with FlatBuffers (by storing a part of a buffer in FlexBuffers format), or also as its own independent serialization format.
-
-- flexbuffers first developed in <a href="../lists/originCommunities.html#google">Google</a>
-- See also: (1 related languages)<a href="flatbuffers.html">FlatBuffers</a>
-- Read more about flexbuffers on the web: 1.
- https://google.github.io/flatbuffers/flatbuffers_internals.html 1.
-
-<br>
-
-endColumns
-
-keyboardNav flengpp.html flora.html
-
-import ../footer.scroll
+relatedConcepts flatbuffers

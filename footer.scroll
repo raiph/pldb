@@ -1,24 +1,30 @@
 importOnly
-
 viewSource
+
+copyButtons
 
 stumpNoSnippet
  div
   class trueBaseThemeFooter
-  a SITE_NAME
+  a PLDB
    href BASE_URL/index.html
    class trueBaseThemeLogo
+  span - Build the next great programming language
   span ·
-  a Search
-   href BASE_URL/search.html
+  a About
+   href BASE_URL/pages/about.html
   span ·
-  a Add Concept
-   href BASE_URL/create.html
+  a Acknowledgements
+   href BASE_URL/pages/acknowledgements.html
   span ·
-  a Queries
-   href BASE_URL/queries.html
+  a Extensions
+   href BASE_URL/lists/extensions.html
   span ·
-  a Stats
-   href BASE_URL/stats.html
+  a Day DAYS_SINCE_LAUNCH
+   href https://github.com/breck7/pldb/commits/main
+  span ·
+  a feedback@pldb.io
+   href mailto:feedback@pldb.io
 
-<script src="BASE_URL/combined.js" defer></script>
+<script src="BASE_URL/lists/autocompleteCombined.js"></script>
+<script>document.addEventListener("DOMContentLoaded", evt => initAutocomplete("trueBaseThemeHeaderSearch"))</script>

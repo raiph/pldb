@@ -1,43 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Heron
+import ../measures/conceptPage.scroll
+id Heron
+appeared 2008
+type pl
+reference https://www.findbestopensource.com/product/heron-language
+country Unknown
+originCommunity https://code.google.com/archive/p/heron-language/issues
 
-title Heron - Programming language
- hidden
+gitRepo https://code.google.com/archive/p/heron-language/
 
-html
- <a class="trueBaseThemePreviousItem" href="giotto.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="ibex.html">&gt;</a>
+rosettaCode http://www.rosettacode.org/wiki/Category:Heron
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/heron.pldb
+hopl https://hopl.info/showlanguage.prx?exp=8574
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://code.google.com/archive/p/heron-language/" class="material-symbols-outlined">code</a> <a href="/edit.html?id=heron" class="material-symbols-outlined">edit</a></div>
-
-* Heron is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2008.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2008 2008
-
-codeWithHeader Source code:
- git clone https://code.google.com/archive/p/heron-language/
-
-dashboard
- #3100 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 16 Years Old
-
-* 
-
-- Heron first developed in <a href="../lists/originCommunities.html#httpsCodeGoogleComArchivePHeronLanguageIssues">https://code.google.com/archive/p/heron-language/issues</a>
-- Explore Heron snippets on <a href="http://www.rosettacode.org/wiki/Category:Heron">Rosetta Code</a>
-- Heron on HOPL
- https://hopl.info/showlanguage.prx?exp=8574
-- Read more about Heron on the web: 1.
- https://www.findbestopensource.com/product/heron-language 1.
-
-<br>
-
-endColumns
-
-keyboardNav giotto.html ibex.html
-
-import ../footer.scroll
+centralPackageRepositoryCount 0

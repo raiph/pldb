@@ -1,50 +1,15 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title S-Snobol
+import ../measures/conceptPage.scroll
+id S-Snobol
+appeared 1978
+type pl
+reference https://semanticscholar.org/paper/1ce78a711bc09611ce51b9dbcbc586a018115f09
+country Scotland
+originCommunity Heriot-Watt Un1versity
 
-title S-Snobol - Programming language
- hidden
+supersetOf snobol4
 
-html
- <a class="trueBaseThemePreviousItem" href="rosetta-smalltalk.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="shoe.html">&gt;</a>
+hopl https://hopl.info/showlanguage.prx?exp=4041
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/s-snobol.pldb
+centralPackageRepositoryCount 0
 
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="/edit.html?id=s-snobol" class="material-symbols-outlined">edit</a></div>
-
-* S-Snobol is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 1978.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+1978 1978
-
-dashboard
- #3129 <span title="TotalRank: 3905 Jobs: 103 Users: 2838 Facts: 2816 Links: 986">on PLDB</span>
- 46 Years Old
-
-* 
-
-- S-Snobol is a superset of <a href="/concepts/snobol4.html">SNOBOL4</a>
-- S-Snobol first developed in <a href="../lists/originCommunities.html#heriotWattUn1Versity">Heriot-Watt Un1versity</a>
-- S-Snobol on HOPL
- https://hopl.info/showlanguage.prx?exp=4041
-- Read more about S-Snobol on Semantic Scholar: 1.
- https://semanticscholar.org/paper/1ce78a711bc09611ce51b9dbcbc586a018115f09 1.
-
-<br>
-
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-
-keyboardNav rosetta-smalltalk.html shoe.html
-
-import ../footer.scroll
+isbndb 0

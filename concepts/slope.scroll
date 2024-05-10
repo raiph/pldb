@@ -1,210 +1,79 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Slope
+import ../measures/conceptPage.scroll
+id Slope
+appeared 2021
+type pl
+creators Sloum
+conceptDescription A small s-expression based programming language
+website https://slope.colorfield.space
+standsFor SLOum's Programming Environment
+fileExtensions slo
+country United States
+originCommunity https://git.rawtext.club/slope-lang
 
-title Slope - Programming language
- hidden
+writtenIn go
+influencedBy scheme
 
-html
- <a class="trueBaseThemePreviousItem" href="java-ee-version-history.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="euphoria.html">&gt;</a>
+visualParadigm false
 
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/slope.pldb
+isLisp true
+hasMacros true
+hasPrefixNotation true
+ (+ 1 2)
+hasBitWiseOperators true
+ (& 0xFF 0x1B)
+hasBooleans true
+ (define open? #t)
+hasLineComments true
+ ; I am a comment
+hasComments true
+ ; I am a comment
+hasBuiltInRegex true
+ (regex-match? `[0-9]+` "Hello 12345")
+ (regex-replace `Hello, (\w+)!$` "Hello, world!" "Goodbye, $1!")
+hasNamespaces true
+ (ns-create 'hello-world)
+ (ns-define
+   'hello-world
+   'print
+   (lambda ()
+     (display "hello world!\n")))
+ (hello-world::print)
+canUseQuestionMarksAsPartOfIdentifier true
+ (define yes? #t)
+hasSemanticIndentation false
+hasStrings true
+ "hello world"
+ `hello	wold`
+hasGarbageCollection true
+hasGotos false
+hasImports true
+ (load-mod my-module)
+ (load "examples/test.slo")
+isCaseSensitive true
+hasVariadicFunctions true
+ (lambda (...) (apply + ...))
+hasSwitch true
+ (case my-num
+   (5 (display "Five!"))
+   (0 (display "Zero!"))
+   (else (display "Not an option")))
+hasZeroBasedNumbering true
+hasIncrementAndDecrementOperators false
+hasConditionals true
+ (if positive? 1 -1)
 
-startColumns 4
+lineCommentToken ;
+printToken display
+stringToken "
+booleanTokens #t #f
+keywords define set! lambda cond case if for load load-mod load-mod-file usage macro eval apply and or begin begin0 exists coeval
 
-<div class="trueBaseThemeQuickLinks"><a href="https://slope.colorfield.space" class="material-symbols-outlined">home</a> <a href="https://git.rawtext.club/slope-lang/slope" class="material-symbols-outlined">code</a> <a href="/edit.html?id=slope" class="material-symbols-outlined">edit</a></div>
-
-* Slope, aka SLOum's Programming Environment, is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2021 by Sloum.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2021 2021
- link ../lists/creators.html#sloum Sloum
-
-codeWithHeader Source code:
- git clone https://git.rawtext.club/slope-lang/slope
-
-dashboard
- #539 <span title="TotalRank: 1091 Jobs: 103 Users: 552 Facts: 436 Links: 986">on PLDB</span>
- 3 Years Old
-
-* A small s-expression based programming language
-
-- Slope website
- https://slope.colorfield.space
-- Slope first developed in <a href="../lists/originCommunities.html#httpsGitRawtextClubSlopeLang">https://git.rawtext.club/slope-lang</a>
-- file extensions for Slope include slo
-- Slope is written in <a href="go.html">Go</a>
-- There is a <a href="https://git.rawtext.club/slope-lang/packages">central package repository</a> for Slope
-
-<br>
-
-codeWithHeader Example from the web:
+example
  ; hello world
- (define greeting &quot;Hello&quot;)
- (display greeting &quot;, world!\n&quot;)
+ (define greeting "Hello")
+ (display greeting ", world!\n")
  
 
-<div class="keywordsBlock">
-codeWithHeader Slope <a href="../lists/keywords.html?filter=slope">Keywords</a>
- define set! lambda cond case if for load load-mod load-mod-file usage macro eval apply and or begin begin0 exists coeval
-</div>
+gitRepo https://git.rawtext.club/slope-lang/slope
 
-endColumns
-
-## Language <a href="../lists/features.html">features</a>
-
-treeTable
- row
-  Feature Conditionals
-  FeatureLink ../features/hasConditionals.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (if positive? 1 -1)
- row
-  Feature Zero-based numbering
-  FeatureLink ../features/hasZeroBasedNumbering.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Switch Statements
-  FeatureLink ../features/hasSwitch.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (case my-num
-     (5 (display "Five!"))
-     (0 (display "Zero!"))
-     (else (display "Not an option")))
- row
-  Feature Variadic Functions
-  FeatureLink ../features/hasVariadicFunctions.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (lambda (...) (apply + ...))
- row
-  Feature Case Sensitivity
-  FeatureLink ../features/isCaseSensitive.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature File Imports
-  FeatureLink ../features/hasImports.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (load-mod my-module)
-   (load "examples/test.slo")
- row
-  Feature Garbage Collection
-  FeatureLink ../features/hasGarbageCollection.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Strings
-  FeatureLink ../features/hasStrings.html
-  Supported <span class="hasFeature">✓</span>
-  Token "
-  Example
-   "hello world"
-   `hello	wold`
- row
-  Feature canUseQuestionMarksAsPartOfIdentifier
-  FeatureLink ../features/canUseQuestionMarksAsPartOfIdentifier.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (define yes? #t)
- row
-  Feature Namespaces
-  FeatureLink ../features/hasNamespaces.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (ns-create 'hello-world)
-   (ns-define
-     'hello-world
-     'print
-     (lambda ()
-       (display "hello world!\n")))
-   (hello-world::print)
- row
-  Feature hasBuiltInRegex
-  FeatureLink ../features/hasBuiltInRegex.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (regex-match? `[0-9]+` "Hello 12345")
-   (regex-replace `Hello, (\w+)!$` "Hello, world!" "Goodbye, $1!")
- row
-  Feature Comments
-  FeatureLink ../features/hasComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   ; I am a comment
- row
-  Feature Line Comments
-  FeatureLink ../features/hasLineComments.html
-  Supported <span class="hasFeature">✓</span>
-  Token ;
-  Example
-   ; I am a comment
- row
-  Feature Booleans
-  FeatureLink ../features/hasBooleans.html
-  Supported <span class="hasFeature">✓</span>
-  Token #t #f
-  Example
-   (define open? #t)
- row
-  Feature Bitwise Operators
-  FeatureLink ../features/hasBitWiseOperators.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (& 0xFF 0x1B)
- row
-  Feature Prefix Notation
-  FeatureLink ../features/hasPrefixNotation.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
-   (+ 1 2)
- row
-  Feature Macros
-  FeatureLink ../features/hasMacros.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Lispy
-  FeatureLink ../features/isLisp.html
-  Supported <span class="hasFeature">✓</span>
-  Token 
-  Example
- row
-  Feature Increment and decrement operators
-  FeatureLink ../features/hasIncrementAndDecrementOperators.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Gotos
-  FeatureLink ../features/hasGotos.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
- row
-  Feature Semantic Indentation
-  FeatureLink ../features/hasSemanticIndentation.html
-  Supported <span class="doesNotHaveFeature">X</span>
-  Token 
-  Example
-
-keyboardNav java-ee-version-history.html euphoria.html
-
-import ../footer.scroll
+packageRepository https://git.rawtext.club/slope-lang/packages

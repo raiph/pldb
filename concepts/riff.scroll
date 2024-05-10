@@ -1,44 +1,25 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title Riff
+import ../measures/conceptPage.scroll
+id Riff
+appeared 2020
+type pl
+creators Darryl Abbate
+website https://riff.cx
+webRepl https://riff.run
+country United States
+originCommunity https://github.com/riff-lang
 
-title Riff - Programming language
- hidden
+githubRepo https://github.com/riff-lang/riff
+ firstCommit 2020
+ stars 18
+ forks 1
+ subscribers 2
+ created 2020
+ updated 2022
+ description The Riff interpreter
+ issues 55
 
-html
- <a class="trueBaseThemePreviousItem" href="emerald-lang.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="hcard.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/riff.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://riff.cx" class="material-symbols-outlined">home</a> <a href="https://riff.run" class="material-symbols-outlined">terminal</a> <a href="https://github.com/riff-lang/riff" class="material-symbols-outlined">code</a> <a href="/edit.html?id=riff" class="material-symbols-outlined">edit</a></div>
-
-* Riff is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+pl">programming language</a> created in 2020 by Darryl Abbate.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2020 2020
- link ../lists/creators.html#darrylAbbate Darryl Abbate
-
-codeWithHeader Source code:
- git clone https://github.com/riff-lang/riff
-
-dashboard
- #2170 <span title="TotalRank: 2680 Jobs: 103 Users: 2124 Facts: 1591 Links: 986">on PLDB</span>
- 4 Years Old
-
-* Try now: <a href="https://riff.run">Web</a>
-
-* The Riff interpreter
-
-- Riff website
- https://riff.cx
-- Riff is developed on <a href="https://github.com/riff-lang/riff">GitHub</a> and has 18 stars
-- Riff first developed in <a href="../lists/originCommunities.html#httpsGithubComRiffLang">https://github.com/riff-lang</a>
-
-<br>
-
-endColumns
-
-keyboardNav emerald-lang.html hcard.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2020
+ commits 717
+ committers 1
+ files 148

@@ -1,42 +1,27 @@
-import ../header.scroll
-baseUrl https://pldb.io/concepts/
-title edgedb
+import ../measures/conceptPage.scroll
+id edgedb
+appeared 2017
+type database
+website https://edgedb.com
+country United States
+originCommunity https://github.com/edgedb
+domainName edgedb.com
+ registered 2014
+ awisRank
+  2022 571163
 
-title edgedb - Database
- hidden
+githubRepo https://github.com/edgedb/edgedb
+ firstCommit 2008
+ stars 7989
+ forks 225
+ subscribers 90
+ created 2017
+ updated 2022
+ description A next-generation graph-relational database.
+ issues 237
 
-html
- <a class="trueBaseThemePreviousItem" href="thinbasic.html">&lt;</a>
- <a class="trueBaseThemeNextItem" href="semver.html">&gt;</a>
-
-viewSourceUrl https://github.com/breck7/pldb/blob/main/concepts/edgedb.pldb
-
-startColumns 4
-
-<div class="trueBaseThemeQuickLinks"><a href="https://edgedb.com" class="material-symbols-outlined">home</a> <a href="https://github.com/edgedb/edgedb" class="material-symbols-outlined">code</a> <a href="/edit.html?id=edgedb" class="material-symbols-outlined">edit</a></div>
-
-* edgedb is a <a href="/search.html?q=select+type%0D%0Awhere+type+%3D+database">database</a> created in 2017.
- link /search.html?q=select+type+appeared%0D%0Awhere+appeared+%3D+2017 2017
-
-codeWithHeader Source code:
- git clone https://github.com/edgedb/edgedb
-
-dashboard
- #635 <span title="TotalRank: 1215 Jobs: 103 Users: 126 Facts: 1450 Links: 986">on PLDB</span>
- 7 Years Old
-
-* A next-generation graph-relational database.
-
-- edgedb website
- https://edgedb.com
-- edgedb is developed on <a href="https://github.com/edgedb/edgedb">GitHub</a> and has 7,989 stars
-- edgedb first developed in <a href="../lists/originCommunities.html#httpsGithubComEdgedb">https://github.com/edgedb</a>
-- <a href="https://edgedb.com">edgedb.com</a> was registered in 2014
-
-<br>
-
-endColumns
-
-keyboardNav thinbasic.html semver.html
-
-import ../footer.scroll
+repoStats
+ firstCommit 2008
+ commits 8435
+ committers 117
+ files 1033
