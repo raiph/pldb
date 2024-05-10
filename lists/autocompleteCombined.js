@@ -24685,8 +24685,9 @@ var autocompleteJs = [
 
 let autocompleteSearchIndex = window.autocompleteJs || [] // todo: cleanup?
 // handle localhost differently
-const isNested = location.href.split("/pldb/")[1].split("/").length - 1
-const normalizeUrl = url => (isNested ? ".." + url : url.substr(1))
+const isLocalHost = location.href.includes("/pldb/")
+const isNested = isLocalHost && location.href.split("/pldb/")[1].split("/").length - 1
+const normalizeUrl = url => (isLocalHost ? (isNested ? ".." + url : url.substr(1)) : url)
 if (location.href.includes("/pldb/")) {
   autocompleteSearchIndex = autocompleteSearchIndex.map(row => {
     row.url = normalizeUrl(row.url)
