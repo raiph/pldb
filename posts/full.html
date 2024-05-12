@@ -2169,14 +2169,18 @@ li.scrollParagraph {
 <div class="scrollByLine">by <a href="https://github.com/breck7">Breck Yunits</a></div>
 </div>
 <figure class="scrollCaptionedFigure"><a href="a-language-without-comments.png" target="_blank"  ><img src="a-language-without-comments.png" width="1201" height="675" loading="lazy"></a></figure>
-<p class="scrollParagraph"><span class="scrollDateline">July 14, 2022 — </span><a href="../concepts/json.html">JSON</a> is the <em>only</em> popular language in PLDB without comments.</p>
+<p class="scrollParagraph"><span class="scrollDateline">July 14, 2022 — </span><a href="../concepts/json.html">JSON</a> is the <em>only</em> popular language in PLDB without comments. JSON supports neither <a href="../features/hasLineComments.html">line comments</a> nor <a href="../features/hasMultiLineComments.html">multiline comments</a>.</p>
+<div class="scrollSection"><h2 class="scrollParagraph">JSON originally had comments</h2>
 <p class="scrollParagraph">Douglas Crockford explained his unique design decision in 2012. He had comments originally but removed them to prevent ecosystem fragmentation:</p>
 <blockquote class="scrollQuote">I removed comments from JSON because I saw people were using them to hold parsing directives, a practice which would have destroyed interoperability. I know that the lack of comments makes some people sad, but it shouldn't.
 
 Suppose you are using JSON to keep configuration files, which you would like to annotate. Go ahead and insert all the comments you like. Then pipe it through JSMin before handing it to your JSON parser.
 
 - Douglas Crockford - April 30, 2012 - <a href="https://web.archive.org/web/20141227005220/https://plus.google.com/+DouglasCrockfordEsq/posts/RK8qyGVaGSr">Source</a></blockquote>
+</div>
+<div class="scrollSection"><h2 class="scrollParagraph">Some Supersets of JSON have comments</h2>
 <p class="scrollParagraph">A number of JSON derivatives added comments back, such as <a href="../concepts/json5.html">JSON5</a>, <a href="../concepts/hjson.html">Hjson</a> and <a href="../concepts/json-with-comments.html">JSON with Comments</a>.</p>
+</div>
 <script src="../lists/autocompleteCombined.js"></script>
 <script>document.addEventListener("DOMContentLoaded", evt => initAutocomplete("trueBaseThemeHeaderSearch"))</script><p class="scrollViewSource">
  <a href="https://github.com/breck7/pldb/blob/main/posts/a-language-without-comments.scroll">View source</a>
