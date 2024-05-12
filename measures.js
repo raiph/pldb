@@ -64,7 +64,7 @@ const measures = [
     "Values": 21625,
     "Coverage": "446%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1157",
+    "Example": "1346",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
