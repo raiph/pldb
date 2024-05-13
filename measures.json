@@ -1,7 +1,7 @@
 [
   {
     "Name": "id",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -11,7 +11,7 @@
   },
   {
     "Name": "filename",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -21,7 +21,7 @@
   },
   {
     "Name": "creators",
-    "Values": 5112,
+    "Values": 5116,
     "Coverage": "105%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -31,7 +31,7 @@
   },
   {
     "Name": "appeared",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -41,7 +41,7 @@
   },
   {
     "Name": "type",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -51,7 +51,7 @@
   },
   {
     "Name": "rank",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "How does this thing rank amongst all entities in this TrueBase?",
     "Example": "1346",
@@ -61,7 +61,7 @@
   },
   {
     "Name": "languageRank",
-    "Values": 17308,
+    "Values": 17312,
     "Coverage": "357%",
     "Question": "How does this language rank amongst all languages in PLDB?",
     "Example": "1346",
@@ -71,7 +71,7 @@
   },
   {
     "Name": "measurements",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -81,7 +81,7 @@
   },
   {
     "Name": "lastActivity",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -91,7 +91,7 @@
   },
   {
     "Name": "exampleCount",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -101,7 +101,7 @@
   },
   {
     "Name": "bookCount",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -111,7 +111,7 @@
   },
   {
     "Name": "paperCount",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -121,7 +121,7 @@
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "790",
@@ -131,7 +131,7 @@
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -173,7 +173,7 @@
   },
   {
     "Name": "website",
-    "Values": 6600,
+    "Values": 6604,
     "Coverage": "136%",
     "Question": "What is the URL of the official homepage for this language project?",
     "Example": "http://www.3mf.io/specification/",
@@ -1854,7 +1854,7 @@
   },
   {
     "Name": "description",
-    "Values": 4,
+    "Values": 8,
     "Coverage": "0%",
     "Question": "How is this language described here?",
     "Example": "parboiled is a mixed Java/Scala library providing for lightweight and easy-to-use, yet powerful and elegant parsing of arbitrary input text based on Parsing expression grammars (PEGs). PEGs are an alternative to context free grammars (CFGs) for formally specifying syntax, they make a good replacement for regular expressions and generally have quite a few advantages over the \"traditional\" way of building parsers via CFGs.",
@@ -2644,7 +2644,7 @@
   {
     "Name": "wikipedia_backlinksCount",
     "Values": 6480,
-    "Coverage": "134%",
+    "Coverage": "133%",
     "Question": "How many pages on WP link to this page?",
     "Example": "112",
     "Type": "number",
@@ -3389,7 +3389,7 @@
   },
   {
     "Name": "writtenIn",
-    "Values": 552,
+    "Values": 556,
     "Coverage": "11%",
     "Question": "What language(s) is the main implementation written in?",
     "Example": "java",
@@ -3449,7 +3449,7 @@
   },
   {
     "Name": "isLanguage",
-    "Values": 19412,
+    "Values": 19416,
     "Coverage": "400%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "1",
@@ -3579,10 +3579,10 @@
     "IsComputed": false
   },
   {
-    "Name": "isDead",
-    "Values": 60,
+    "Name": "isRetired",
+    "Values": 64,
     "Coverage": "1%",
-    "Question": "Has the creator or maintainer announced it officially dead? Include a link to proof of the announcement.",
+    "Question": "Has the creator or maintainer announced it officially over? Include a link to proof of the announcement.",
     "Example": "true",
     "Type": "boolean",
     "SortIndex": 1000,
