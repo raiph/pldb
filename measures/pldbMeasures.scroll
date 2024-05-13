@@ -4,6 +4,16 @@ importOnly
 
 import commonMeasures.scroll
 
+abstractFeatureParser
+ extends abstractBooleanMeasureParser
+ contentKey value
+ childrenKey example
+ catchAllParser featureExampleCodeParser
+ int sortIndex 42
+ string sortKey abstractFeatureParser
+
+// fileExtensions
+
 // annualReportsUrl
 annualReportsUrlParser
  extends abstractUrlMeasureParser
@@ -323,15 +333,7 @@ featureExampleCodeParser
  description What is an example that demonstrates usage of this feature?
  // Ideally includes any necessary boilerplate to be runnable.
  baseParser blobParser
-abstractFeatureParser
- extends abstractBooleanMeasureParser
- contentKey value
- childrenKey example
- catchAllParser featureExampleCodeParser
- int sortIndex 42
- string sortKey abstractFeatureParser
 
-// fileExtensions
 // fileExtensionCell
  extends stringCell
 
