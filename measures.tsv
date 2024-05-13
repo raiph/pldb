@@ -1,18 +1,18 @@
 Name	Values	Coverage	Question	Example	Type	Source	SortIndex	IsComputed
-id	9708	200%	What is the ID of this concept?	05AB1E	string		0	false
-filename	9708	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true
-creators	2558	53%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false
-appeared	9708	200%	What year was the language publicly released and/or announced?	2015	number		1	false
-type	9708	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false
-rank	9708	200%	How does this thing rank amongst all entities in this TrueBase?	1346	number		3	true
-languageRank	8656	178%	How does this language rank amongst all languages in PLDB?	1346	number		4	true
-measurements	9708	200%	How many measurements do we have about this thing?	10	number		5	true
-lastActivity	9708	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true
-exampleCount	9708	200%	How many examples do we have written in this language?	2	number		7	true
-bookCount	9708	200%	What is the count of booked we have published about this thing?	0	number		8	true
-paperCount	9708	200%	What is the count of papers we have published about this thing?	0	number		9	true
-numberOfUsersEstimate	9708	200%	What is our estimate of number of users of this language?	790	number		10	true
-numberOfJobsEstimate	9708	200%	What is our estimate of the number of jobs in this language?	0	number		11	true
+id	9710	200%	What is the ID of this concept?	05AB1E	string		0	false
+filename	9710	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true
+creators	2560	53%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false
+appeared	9710	200%	What year was the language publicly released and/or announced?	2015	number		1	false
+type	9710	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false
+rank	9710	200%	How does this thing rank amongst all entities in this TrueBase?	1346	number		3	true
+languageRank	8658	178%	How does this language rank amongst all languages in PLDB?	1346	number		4	true
+measurements	9710	200%	How many measurements do we have about this thing?	10	number		5	true
+lastActivity	9710	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true
+exampleCount	9710	200%	How many examples do we have written in this language?	2	number		7	true
+bookCount	9710	200%	What is the count of booked we have published about this thing?	0	number		8	true
+paperCount	9710	200%	What is the count of papers we have published about this thing?	0	number		9	true
+numberOfUsersEstimate	9710	200%	What is our estimate of number of users of this language?	790	number		10	true
+numberOfJobsEstimate	9710	200%	What is our estimate of the number of jobs in this language?	0	number		11	true
 githubBigQuery	842	17%	What is the name of this language in the Google BigQuery Public Datasets about GitHub repos found at https://cloud.google.com/blog/topics/public-datasets/github-on-bigquery-analyze-all-the-open-source-code?	1C Enterprise	string	cloud.google.com	13	false
 githubRepo	2120	44%	What is the URL of the official GitHub repo for the project if it is hosted there?	https://github.com/Adriandmen/05AB1E	string	github.com	15	false
 rijuRepl_website	58	1%	What is the URL of the official homepage for this language project?	https://www.adaic.org/	string		16	false
@@ -184,7 +184,7 @@ isLisp	32	1%	Is this in the Lisp family of languages?	true	boolean		42	false
 letterFirstIdentifiers	4	0%	Must identifiers start with a letter?	true	boolean		42	false
 mergesWhitespace	4	0%	Does this language merge whitespace, so N spaces is treated the same as a single space?	true	boolean		42	false
 supportsBreakpoints	4	0%	Does this language support breakpoints?	true	boolean		42	false
-description	4	0%	How is this language described here?	parboiled is a mixed Java/Scala library providing for lightweight and easy-to-use, yet powerful and elegant parsing of arbitrary input text based on Parsing expression grammars (PEGs). PEGs are an alternative to context free grammars (CFGs) for formally specifying syntax, they make a good replacement for regular expressions and generally have quite a few advantages over the "traditional" way of building parsers via CFGs.	string		1000	false
+description	6	0%	How is this language described here?	parboiled is a mixed Java/Scala library providing for lightweight and easy-to-use, yet powerful and elegant parsing of arbitrary input text based on Parsing expression grammars (PEGs). PEGs are an alternative to context free grammars (CFGs) for formally specifying syntax, they make a good replacement for regular expressions and generally have quite a few advantages over the "traditional" way of building parsers via CFGs.	string		1000	false
 annualReportsUrl	16	0%	What is a URL to annual reports for this language?	https://isocpp.org/about/annual-reports	string		1000	false
 antlr	120	2%	What is a URL to an ANTLR grammar for this language?	https://github.com/antlr/grammars-v4/tree/master/abnf	string	antlr.org	1000	false
 hopl	3616	74%	What is the URL to this language in Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site?	https://hopl.info/showlanguage.prx?exp=4365	string	hopl.info	1000	false
@@ -329,18 +329,18 @@ forLanguages	96	2%	Which languages is this repository for?	ballerina	string		100
 relatedConcepts	376	8%	What languages are related?	logo	string		1000	false
 runsOnVm	18	0%	What virtual machine(s) does this language run on? 	jvm	string		1000	false
 influencedBy	104	2%	What languages influenced this one?	rust	string		1000	false
-successorOf	8	0%	Was this language launched as the successor of another?	asp	string		1000	false
+successorOf	10	0%	Was this language launched as the successor of another?	asp	string		1000	false
 subsetOf	22	0%	Is this language a subset of another?	c	string		1000	false
 implementationOf	2	0%	Is this language an implementation of another?	java	string		1000	false
 renamedTo	10	0%	What is the new name of this language?	zeek	string		1000	false
 supersetOf	98	2%	Is this language a superset of another?	pascal	string		1000	false
-writtenIn	278	6%	What language(s) is the main implementation written in?	java	string		1000	false
+writtenIn	280	6%	What language(s) is the main implementation written in?	java	string		1000	false
 extensionOf	2	0%	What language is this language an extension of?	cpp	string		1000	false
 forkOf	6	0%	What language is this language a fork of?	common-log-format	string		1000	false
 compilesTo	132	3%	Which language(s) does this language primarily compile to?	beam-bytecode	string		1000	false
 inputLanguages	16	0%	Which language(s) does this take as input? For compilers, what languages does this compile compile?	c	string		1000	false
 hoplId	3616	74%	What is the HOPL id of this language?	4365	number		1000	true
-isLanguage	9708	200%	Does PLDB categorize this entity as a language?	1	number		1000	true
+isLanguage	9710	200%	Does PLDB categorize this entity as a language?	1	number		1000	true
 wordRank	754	16%	Where does this word rank in terms of common English words?	4100	number		1000	false
 centralPackageRepositoryCount	6040	124%	How many central package repositories does this language have?	0	number		1000	false
 packageInstallCount	22	0%	How many packages have been downloaded?	770549116	number		1000	false

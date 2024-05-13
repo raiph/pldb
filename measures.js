@@ -1,7 +1,7 @@
 const measures = [
   {
     "Name": "id",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -11,7 +11,7 @@ const measures = [
   },
   {
     "Name": "filename",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -21,7 +21,7 @@ const measures = [
   },
   {
     "Name": "creators",
-    "Values": 6395,
+    "Values": 6400,
     "Coverage": "132%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -31,7 +31,7 @@ const measures = [
   },
   {
     "Name": "appeared",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -41,7 +41,7 @@ const measures = [
   },
   {
     "Name": "type",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -51,7 +51,7 @@ const measures = [
   },
   {
     "Name": "rank",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "How does this thing rank amongst all entities in this TrueBase?",
     "Example": "1346",
@@ -61,7 +61,7 @@ const measures = [
   },
   {
     "Name": "languageRank",
-    "Values": 21640,
+    "Values": 21645,
     "Coverage": "446%",
     "Question": "How does this language rank amongst all languages in PLDB?",
     "Example": "1346",
@@ -71,7 +71,7 @@ const measures = [
   },
   {
     "Name": "measurements",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -81,7 +81,7 @@ const measures = [
   },
   {
     "Name": "lastActivity",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -91,7 +91,7 @@ const measures = [
   },
   {
     "Name": "exampleCount",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -101,7 +101,7 @@ const measures = [
   },
   {
     "Name": "bookCount",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -111,7 +111,7 @@ const measures = [
   },
   {
     "Name": "paperCount",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -121,7 +121,7 @@ const measures = [
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "790",
@@ -131,7 +131,7 @@ const measures = [
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -1854,7 +1854,7 @@ const measures = [
   },
   {
     "Name": "description",
-    "Values": 10,
+    "Values": 15,
     "Coverage": "0%",
     "Question": "How is this language described here?",
     "Example": "parboiled is a mixed Java/Scala library providing for lightweight and easy-to-use, yet powerful and elegant parsing of arbitrary input text based on Parsing expression grammars (PEGs). PEGs are an alternative to context free grammars (CFGs) for formally specifying syntax, they make a good replacement for regular expressions and generally have quite a few advantages over the \"traditional\" way of building parsers via CFGs.",
@@ -3339,8 +3339,8 @@ const measures = [
   },
   {
     "Name": "successorOf",
-    "Values": 20,
-    "Coverage": "0%",
+    "Values": 25,
+    "Coverage": "1%",
     "Question": "Was this language launched as the successor of another?",
     "Example": "asp",
     "Type": "string",
@@ -3389,7 +3389,7 @@ const measures = [
   },
   {
     "Name": "writtenIn",
-    "Values": 695,
+    "Values": 700,
     "Coverage": "14%",
     "Question": "What language(s) is the main implementation written in?",
     "Example": "java",
@@ -3449,7 +3449,7 @@ const measures = [
   },
   {
     "Name": "isLanguage",
-    "Values": 24270,
+    "Values": 24275,
     "Coverage": "500%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "1",
