@@ -1,23 +1,23 @@
 Name,Values,Coverage,Question,Example,Type,Source,SortIndex,IsComputed
-id,14553,300%,What is the ID of this concept?,05AB1E,string,,0,false
-filename,14553,300%,What is the name of the file holding this concept?,05ab1e.scroll,string,,1,true
-creators,3828,79%,What are the name(s) of the original creators of the language delimited by " and "?,Matthew Steel,string,,1,false
-appeared,14553,300%,What year was the language publicly released and/or announced?,2015,number,,1,false
-type,14553,300%,Which category in PLDB's subjective ontology does this entity fit into?,esolang,string,,2,false
-rank,14553,300%,How does this thing rank amongst all entities in this TrueBase?,1346,number,,3,true
-languageRank,12975,267%,How does this language rank amongst all languages in PLDB?,1346,number,,4,true
-measurements,14553,300%,How many measurements do we have about this thing?,10,number,,5,true
-lastActivity,14553,300%,"In our data on this entity, what year is the most recent activity?",2022,number,,6,true
-exampleCount,14553,300%,How many examples do we have written in this language?,2,number,,7,true
-bookCount,14553,300%,What is the count of booked we have published about this thing?,0,number,,8,true
-paperCount,14553,300%,What is the count of papers we have published about this thing?,0,number,,9,true
-numberOfUsersEstimate,14553,300%,What is our estimate of number of users of this language?,790,number,,10,true
-numberOfJobsEstimate,14553,300%,What is our estimate of the number of jobs in this language?,0,number,,11,true
+id,14559,300%,What is the ID of this concept?,05AB1E,string,,0,false
+filename,14559,300%,What is the name of the file holding this concept?,05ab1e.scroll,string,,1,true
+creators,3834,79%,What are the name(s) of the original creators of the language delimited by " and "?,Matthew Steel,string,,1,false
+appeared,14559,300%,What year was the language publicly released and/or announced?,2015,number,,1,false
+type,14559,300%,Which category(ies) in PLDB's subjective ontology does this entity fit into?,esolang,string,,2,false
+rank,14559,300%,How does this thing rank amongst all entities in this TrueBase?,1346,number,,3,true
+languageRank,12981,267%,How does this language rank amongst all languages in PLDB?,1346,number,,4,true
+measurements,14559,300%,How many measurements do we have about this thing?,10,number,,5,true
+lastActivity,14559,300%,"In our data on this entity, what year is the most recent activity?",2022,number,,6,true
+exampleCount,14559,300%,How many examples do we have written in this language?,2,number,,7,true
+bookCount,14559,300%,What is the count of booked we have published about this thing?,0,number,,8,true
+paperCount,14559,300%,What is the count of papers we have published about this thing?,0,number,,9,true
+numberOfUsersEstimate,14559,300%,What is our estimate of number of users of this language?,790,number,,10,true
+numberOfJobsEstimate,14559,300%,What is our estimate of the number of jobs in this language?,0,number,,11,true
 githubBigQuery,1263,26%,What is the name of this language in the Google BigQuery Public Datasets about GitHub repos found at https://cloud.google.com/blog/topics/public-datasets/github-on-bigquery-analyze-all-the-open-source-code?,1C Enterprise,string,cloud.google.com,13,false
 githubRepo,3180,66%,What is the URL of the official GitHub repo for the project if it is hosted there?,https://github.com/Adriandmen/05AB1E,string,github.com,15,false
 rijuRepl_website,87,2%,What is the URL of the official homepage for this language project?,https://www.adaic.org/,string,,16,false
-website,4947,102%,What is the URL of the official homepage for this language project?,http://www.3mf.io/specification/,string,,16,false
-wikipedia,5583,115%,"What is the URL of this entity on Wikipedia, if and only if it has a page dedicated to it?",https://en.wikipedia.org/wiki/IBM_1620,string,wikipedia.org,17,false
+website,4950,102%,What is the URL of the official homepage for this language project?,http://www.3mf.io/specification/,string,,16,false
+wikipedia,5586,115%,"What is the URL of this entity on Wikipedia, if and only if it has a page dedicated to it?",https://en.wikipedia.org/wiki/IBM_1620,string,wikipedia.org,17,false
 canDoShebang,18,0%,Does this language support shebang executable scripts?,true,boolean,,42,false
 canReadCommandLineArgs,6,0%,Does this language support command line arguments?,true,boolean,,42,false
 canUseQuestionMarksAsPartOfIdentifier,6,0%,Is the question mark (?) allowed as part of an identifier?,false,boolean,,42,false
@@ -184,7 +184,7 @@ isLisp,48,1%,Is this in the Lisp family of languages?,true,boolean,,42,false
 letterFirstIdentifiers,6,0%,Must identifiers start with a letter?,true,boolean,,42,false
 mergesWhitespace,6,0%,"Does this language merge whitespace, so N spaces is treated the same as a single space?",true,boolean,,42,false
 supportsBreakpoints,6,0%,Does this language support breakpoints?,true,boolean,,42,false
-description,0,0%,How is this language described here?,,,,1000,false
+description,3,0%,How is this language described here?,"parboiled is a mixed Java/Scala library providing for lightweight and easy-to-use, yet powerful and elegant parsing of arbitrary input text based on Parsing expression grammars (PEGs). PEGs are an alternative to context free grammars (CFGs) for formally specifying syntax, they make a good replacement for regular expressions and generally have quite a few advantages over the ""traditional"" way of building parsers via CFGs.",string,,1000,false
 annualReportsUrl,24,0%,What is a URL to annual reports for this language?,https://isocpp.org/about/annual-reports,string,,1000,false
 antlr,180,4%,What is a URL to an ANTLR grammar for this language?,https://github.com/antlr/grammars-v4/tree/master/abnf,string,antlr.org,1000,false
 hopl,5424,112%,What is the URL to this language in Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site?,https://hopl.info/showlanguage.prx?exp=4365,string,hopl.info,1000,false
@@ -242,7 +242,7 @@ officialBlogUrl,174,4%,What is the URL to the official blog for this language?,h
 packageRepository,180,4%,What is a URL to the package repository for this language?,https://www.npmjs.com/package/avisynth,string,,1000,false
 proposals,33,1%,"What is the URL to a the place where language proposals are made, if one exists?",https://github.com/golang/proposal,string,,1000,false
 redditDiscussion,9,0%,What is a link to a related discussion on reddit?,https://www.reddit.com/r/ProgrammingLanguages/comments/elbt5u/introducing_the_beef_programming_language/,string,reddit.com,1000,false
-reference,6429,133%,What is a URL to more info about this thing?,https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998,string,,1000,false
+reference,6429,132%,What is a URL to more info about this thing?,https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998,string,,1000,false
 releaseNotesUrl,195,4%,What is the URL to the release notes or changelog for this language?,https://help.sap.com/docs/BTP/4726775c8bfc483abb210252604515b2/e9b10e43016e423ab0efe91e668a6efc.html,string,,1000,false
 rijuRepl,663,14%,What is a URL to try this language on riju.codes?,https://riju.codes/abc,string,riju.codes,1000,false
 rijuRepl_gitRepo,117,2%,What is the URL of the official git repo for the language project if not hosted on GitHub or GitLab or Sourcehut?,https://gcc.gnu.org/git.html,string,,1000,false
@@ -334,13 +334,13 @@ subsetOf,33,1%,Is this language a subset of another?,c,string,,1000,false
 implementationOf,3,0%,Is this language an implementation of another?,java,string,,1000,false
 renamedTo,15,0%,What is the new name of this language?,zeek,string,,1000,false
 supersetOf,147,3%,Is this language a superset of another?,pascal,string,,1000,false
-writtenIn,411,8%,What language(s) is the main implementation written in?,java,string,,1000,false
+writtenIn,414,9%,What language(s) is the main implementation written in?,java,string,,1000,false
 extensionOf,3,0%,What language is this language an extension of?,cpp,string,,1000,false
 forkOf,9,0%,What language is this language a fork of?,common-log-format,string,,1000,false
 compilesTo,198,4%,Which language(s) does this language primarily compile to?,beam-bytecode,string,,1000,false
 inputLanguages,24,0%,"Which language(s) does this take as input? For compilers, what languages does this compile compile?",c,string,,1000,false
 hoplId,5424,112%,What is the HOPL id of this language?,4365,number,,1000,true
-isLanguage,14553,300%,Does PLDB categorize this entity as a language?,1,number,,1000,true
+isLanguage,14559,300%,Does PLDB categorize this entity as a language?,1,number,,1000,true
 wordRank,1131,23%,Where does this word rank in terms of common English words?,4100,number,,1000,false
 centralPackageRepositoryCount,9060,187%,How many central package repositories does this language have?,0,number,,1000,false
 packageInstallCount,33,1%,How many packages have been downloaded?,770549116,number,,1000,false
