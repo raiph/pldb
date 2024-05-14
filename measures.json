@@ -3579,14 +3579,14 @@
     "IsComputed": false
   },
   {
-    "Name": "isRetired",
-    "Values": 64,
-    "Coverage": "1%",
-    "Question": "Has the creator or maintainer announced it officially over? Include a link to proof of the announcement.",
-    "Example": "true",
-    "Type": "boolean",
+    "Name": "isDone",
+    "Values": 19420,
+    "Coverage": "400%",
+    "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
+    "Example": "2015",
+    "Type": "string",
     "SortIndex": 1000,
-    "IsComputed": false
+    "IsComputed": true
   },
   {
     "Name": "visualParadigm",

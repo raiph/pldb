@@ -353,7 +353,7 @@ isOpenSource,1863,38%,Is this an open source project?,true,boolean,,1000,false
 isPublicDomain,42,1%,Is this public domain?,true,boolean,,1000,false
 gdbSupport,39,1%,Is the language supported by the GNU Debugger?,true,boolean,sourceware.org,1000,false
 githubCopilotOptimized,21,0%,"Is this language optimized for GitHub copilot, as found on this list https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot?",true,boolean,,1000,false
-isRetired,48,1%,Has the creator or maintainer announced it officially over? Include a link to proof of the announcement.,true,boolean,,1000,false
+isDone,14565,300%,"Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",2015,string,,1000,true
 visualParadigm,288,6%,Is this a visual programming thing? Sometimes called "no code" or "low code"?,true,boolean,,1000,false
 usesSemanticVersioning,12,0%,Does the official release of the language use semantic versioning?,true,boolean,,1000,false
 equation,45,1%,What is a LaTeX encoding of this equation?,∇xB=µ0*J,string,,1000,false
