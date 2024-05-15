@@ -31,6 +31,26 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
     class Test {}
  }
 
+codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>:
+ module MyModule
+ using Lib
+ 
+ using BigLib: thing1, thing2
+ 
+ import Base.show
+ 
+ export MyType, foo
+ 
+ struct MyType
+     x
+ end
+ 
+ bar(x) = 2x
+ foo(a::MyType) = bar(a.x) + 1
+ 
+ show(io::IO, a::MyType) = print(io, &quot;MyType $(a.x)&quot;)
+ end
+
 codeWithHeader Example from <a href="../concepts/fortran.html">Fortran</a>:
  module constants  
  implicit none 
@@ -64,25 +84,14 @@ codeWithHeader Example from <a href="../concepts/fortran.html">Fortran</a>:
     
  end program module_exampl
 
-codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>:
- module MyModule
- using Lib
- 
- using BigLib: thing1, thing2
- 
- import Base.show
- 
- export MyType, foo
- 
- struct MyType
-     x
- end
- 
- bar(x) = 2x
- foo(a::MyType) = bar(a.x) + 1
- 
- show(io::IO, a::MyType) = print(io, &quot;MyType $(a.x)&quot;)
- end
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ module App
+  function Path (|string|)
+   // return the app&#39;s path here
+
+codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+ module my_module::submodule;
+ ...
 
 codeWithHeader Example from <a href="../concepts/racket.html">Racket</a>:
  (module nest racket
@@ -100,16 +109,7 @@ codeWithHeader Example from <a href="../concepts/ocaml.html">OCaml</a>:
  (* bmodule.ml *)
  Amodule.hello ()
 
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
- module my_module::submodule;
- ...
-
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- module App
-  function Path (|string|)
-   // return the app&#39;s path here
-
-* Languages *with* Module Pattern include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/ocaml.html">OCaml</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Module Pattern include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/ocaml.html">OCaml</a>
 
 * Read more about Module Pattern on the web: 1.
  https://en.wikipedia.org/wiki/Module_pattern 1.

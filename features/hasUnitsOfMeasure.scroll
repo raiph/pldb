@@ -13,6 +13,10 @@ html
 
 thinColumns 4
 
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ || time = 1day - 10s
+ || size = 10.2MB
+
 codeWithHeader Example from <a href="../concepts/f-sharp.html">F#</a>:
  // https://fsharpforfunandprofit.com/posts/units-of-measure/
  [&lt;Measure&gt;] type N = kg m/sec^2
@@ -21,12 +25,6 @@ codeWithHeader Example from <a href="../concepts/f-sharp.html">F#</a>:
  let force2 = 5.0&lt;N&gt;
  
  force1 = force2 // true
-
-codeWithHeader Example from <a href="../concepts/modelica.html">Modelica</a>:
- type SpecificHeatCapacity = Real (
-   final quantity=&quot;SpecificHeatCapacity&quot;,
-   final unit=&quot;J/(kg.K)&quot;
- );
 
 codeWithHeader Example from <a href="../concepts/nemerle.html">Nemerle</a>:
  def m3 = 1 g;
@@ -38,17 +36,19 @@ codeWithHeader Example from <a href="../concepts/nemerle.html">Nemerle</a>:
  
  WriteLine($&quot;Area of 1 cm * 10 m = $x1 m&quot;);
 
+codeWithHeader Example from <a href="../concepts/modelica.html">Modelica</a>:
+ type SpecificHeatCapacity = Real (
+   final quantity=&quot;SpecificHeatCapacity&quot;,
+   final unit=&quot;J/(kg.K)&quot;
+ );
+
 codeWithHeader Example from <a href="../concepts/frink.html">Frink</a>:
  10 feet 12 feet 8 feet -&gt; gallons
-
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- || time = 1day - 10s
- || size = 10.2MB
 
 codeWithHeader Example from <a href="../concepts/ti-89-basic.html">TI-89 series</a>:
  54_kg * (_c^2)
 
-* Languages *with* Units of Measure include <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/modelica.html">Modelica</a>, <a href="../concepts/nemerle.html">Nemerle</a>, <a href="../concepts/frink.html">Frink</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/ti-89-basic.html">TI-89 series</a>
+* Languages *with* Units of Measure include <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/nemerle.html">Nemerle</a>, <a href="../concepts/modelica.html">Modelica</a>, <a href="../concepts/frink.html">Frink</a>, <a href="../concepts/ti-89-basic.html">TI-89 series</a>
 
 * Languages *without* Units of Measure include <a href="../concepts/python.html">Python</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/c3.html">C3</a>
 

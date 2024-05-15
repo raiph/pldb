@@ -26,13 +26,13 @@ codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
    a * b
  end
 
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
- fn void test(int x = 10) { ... }  
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  function Find (|string| pattern, |int| pos=0, |int|)
 
-* Languages *with* Default Parameters Pattern include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+ fn void test(int x = 10) { ... }  
+
+* Languages *with* Default Parameters Pattern include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>
 
 * Read more about Default Parameters Pattern on the web: 1.
  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters 1.

@@ -23,8 +23,8 @@ codeWithHeader Example from <a href="../concepts/nodejs.html">Node.js</a>:
 codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
  File.write!(&quot;helloworld.txt&quot;, &quot;Hello, world!\n&quot;)
 
-codeWithHeader Example from <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>:
- write %helloworld.txt &quot;Hello, world!^/&quot;
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ &quot;helloworld.txt&quot; &lt;~ &quot;Hello, world!\n&quot;
 
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  use std::fs::{open, O_WRONLY}
@@ -36,10 +36,10 @@ codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
      f.close()
  }
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- &quot;helloworld.txt&quot; &lt;~ &quot;Hello, world!\n&quot;
+codeWithHeader Example from <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>:
+ write %helloworld.txt &quot;Hello, world!^/&quot;
 
-* Languages *with* Disk Output include <a href="../concepts/python.html">Python</a>, <a href="../concepts/nodejs.html">Node.js</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/boron.html">Boron</a>
+* Languages *with* Disk Output include <a href="../concepts/python.html">Python</a>, <a href="../concepts/nodejs.html">Node.js</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>
 
 * Languages *without* Disk Output include <a href="../concepts/css.html">CSS</a>, <a href="../concepts/xml.html">XML</a>, <a href="../concepts/json.html">JSON</a>, <a href="../concepts/haml.html">HAML</a>
 

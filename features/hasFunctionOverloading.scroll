@@ -23,6 +23,13 @@ codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
    return 3.1415926*r*r*static_cast&lt;double&gt;(h);
  }
 
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ function volume (|float| a, |float|)
+  return a*a*a
+ function volume (|float| r, |float| h, |float|)
+  // volume of a cylinder
+  return math.pi*r*r*h
+
 codeWithHeader Example from <a href="../concepts/pascal.html">Pascal</a>:
  program Adhoc;
  
@@ -41,16 +48,9 @@ codeWithHeader Example from <a href="../concepts/pascal.html">Pascal</a>:
      Writeln(Add(&#39;Hello, &#39;, &#39;World!&#39;));    (* Prints &quot;Hello, World!&quot; *)
  end.
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- function volume (|float| a, |float|)
-  return a*a*a
- function volume (|float| r, |float| h, |float|)
-  // volume of a cylinder
-  return math.pi*r*r*h
+* Languages *with* Function Overloading include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/pascal.html">Pascal</a>, <a href="../concepts/dale.html">Dale</a>
 
-* Languages *with* Function Overloading include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/pascal.html">Pascal</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/speedie.html">Speedie</a>
-
-* Languages *without* Function Overloading include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *without* Function Overloading include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>
 
 * Read more about Function Overloading on the web: 1. 2.
  https://en.wikibooks.org/wiki/Introduction_to_Programming_Languages/Overloading 1.

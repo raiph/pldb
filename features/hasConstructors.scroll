@@ -61,18 +61,6 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
  // Instantiating an object with the constructor above
  MyClass c = new MyClass(42, &quot;string&quot;);
 
-codeWithHeader Example from <a href="../concepts/cfml.html">CFML</a>:
- component {
-    // properties
-    property name=&quot;cheeseName&quot;;
-  
-    // constructor
-    function Cheese init( required string cheeseName ) {
-       variables.cheeseName = arguments.cheeseName;
-       return this;
-    }
- }
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  class Foobar
   |float| x
@@ -85,7 +73,19 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  || b = foobar(3)
  || c = foobar(5, M_PI/4)
 
-* Languages *with* Constructors include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/visual-basic.net.html">Visual Basic .NET</a>, <a href="../concepts/object-pascal.html">Object Pascal</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/cfml.html">CFML</a>, <a href="../concepts/action.html">Action!</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/cfml.html">CFML</a>:
+ component {
+    // properties
+    property name=&quot;cheeseName&quot;;
+  
+    // constructor
+    function Cheese init( required string cheeseName ) {
+       variables.cheeseName = arguments.cheeseName;
+       return this;
+    }
+ }
+
+* Languages *with* Constructors include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/visual-basic.net.html">Visual Basic .NET</a>, <a href="../concepts/object-pascal.html">Object Pascal</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/action.html">Action!</a>, <a href="../concepts/cfml.html">CFML</a>
 
 * Languages *without* Constructors include <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/c2.html">C2</a>
 

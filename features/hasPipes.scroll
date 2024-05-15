@@ -17,16 +17,16 @@ codeWithHeader Example from <a href="../concepts/r.html">R</a>:
  # R has pipes via a library like dplyr
  starwars %&gt;% filter(species == &quot;Droid&quot;)
 
-codeWithHeader Example from <a href="../concepts/bash.html">Bash</a>:
- echo &quot;Hello world&quot; &gt; output.txt
-
 codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>:
  [1,2,3] |&gt; (y -&gt; f(3, y))
+
+codeWithHeader Example from <a href="../concepts/bash.html">Bash</a>:
+ echo &quot;Hello world&quot; &gt; output.txt
 
 codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
  &quot;Elixir&quot; |&gt; String.graphemes() |&gt; Enum.frequencies()
 
-* Languages *with* Pipes include <a href="../concepts/r.html">R</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Pipes include <a href="../concepts/r.html">R</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 * Languages *without* Pipes include <a href="../concepts/c3.html">C3</a>
 

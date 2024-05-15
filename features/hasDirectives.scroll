@@ -35,10 +35,6 @@ codeWithHeader Example from <a href="../concepts/c.html">C</a>:
 codeWithHeader Example from <a href="../concepts/ruby.html">Ruby</a>:
  coding: UTF-8
 
-codeWithHeader Example from <a href="../concepts/perl.html">Perl</a>:
- # In Perl, the keyword &quot;use&quot;, which imports modules, can also be used to specify directives, such as use strict; or use utf8;
- use utf8;
-
 codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
  #define MAX_CLIENTS 200
  int array[MAX_CLIENTS];
@@ -50,6 +46,10 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
  #else
  //code
  #endif
+
+codeWithHeader Example from <a href="../concepts/perl.html">Perl</a>:
+ # In Perl, the keyword &quot;use&quot;, which imports modules, can also be used to specify directives, such as use strict; or use utf8;
+ use utf8;
 
 codeWithHeader Example from <a href="../concepts/rust.html">Rust</a>:
  // A conditionally-compiled module
@@ -77,15 +77,15 @@ codeWithHeader Example from <a href="../concepts/rust.html">Rust</a>:
    let z = ();
  }
 
-codeWithHeader Example from <a href="../concepts/haskell.html">Haskell</a>:
- {-# INLINE foo #-}
-
 codeWithHeader Example from <a href="../concepts/erlang.html">Erlang</a>:
  -define(TIMEOUT, 200).
  ...
  call(Request) -&gt;
     server:call(refserver, Request, ?TIMEOUT).
  -undef(Macro).
+
+codeWithHeader Example from <a href="../concepts/haskell.html">Haskell</a>:
+ {-# INLINE foo #-}
 
 codeWithHeader Example from <a href="../concepts/visual-basic.html">Visual Basic</a>:
  Option Explicit On|Off
@@ -104,6 +104,14 @@ codeWithHeader Example from <a href="../concepts/f-sharp.html">F#</a>:
  // Line directives as source maps can be used when compiling to F#:
  #line 25 &quot;C:\\Projects\\MyProject\\MyProject\\Script1&quot;
 
+codeWithHeader Example from <a href="../concepts/fml-lang.html">FML</a>:
+ # Directives are special lines that have syntax and semantics of their own. Directives all start with a name of the form .foo; new directives may be added by future versions of the language.
+ .import math.constants
+ area = x * math.constants.Pi, ^ 2
+ .from math.constants import Pi, E
+ area = x sq, * Pi
+ polar = a * [E ^ [b * 0+j1]]
+
 codeWithHeader Example from <a href="../concepts/algol-68.html">ALGOL 68</a>:
  .PR POINT .PR
  .PR UPPER .PR
@@ -116,15 +124,7 @@ codeWithHeader Example from <a href="../concepts/turbo-pascal.html">Turbo Pascal
  // for example, the equivalent of C&#39;s #include &quot;file&quot; directive is the significant comment:
  {$I &quot;file&quot;}
 
-codeWithHeader Example from <a href="../concepts/fml-lang.html">FML</a>:
- # Directives are special lines that have syntax and semantics of their own. Directives all start with a name of the form .foo; new directives may be added by future versions of the language.
- .import math.constants
- area = x * math.constants.Pi, ^ 2
- .from math.constants import Pi, E
- area = x sq, * Pi
- polar = a * [E ^ [b * 0+j1]]
-
-* Languages *with* Directives include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/haskell.html">Haskell</a>, <a href="../concepts/erlang.html">Erlang</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/visual-basic.html">Visual Basic</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/algol-68.html">ALGOL 68</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/turbo-pascal.html">Turbo Pascal</a>, <a href="../concepts/fml-lang.html">FML</a>, <a href="../concepts/scriptease.html">ScriptEase</a>
+* Languages *with* Directives include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/perl.html">Perl</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/erlang.html">Erlang</a>, <a href="../concepts/haskell.html">Haskell</a>, <a href="../concepts/visual-basic.html">Visual Basic</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/common-lisp.html">Common Lisp</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/fml-lang.html">FML</a>, <a href="../concepts/algol-68.html">ALGOL 68</a>, <a href="../concepts/turbo-pascal.html">Turbo Pascal</a>, <a href="../concepts/scriptease.html">ScriptEase</a>
 
 * Languages *without* Directives include <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>
 

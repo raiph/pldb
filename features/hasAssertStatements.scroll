@@ -35,20 +35,6 @@ codeWithHeader Example from <a href="../concepts/c.html">C</a>:
    a[a[i]] = a[i];
    }
 
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
- assert(a &gt; 0, &quot;Expected a positive number&quot;);
- $assert(Foo.sizeof == 8, &quot;Foo sizecheck at compile time failed&quot;);
-
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- use std::debug
- use std::debug::assert::{assert}
- 
- fn main() {
-     std::debug::ENABLE = true
-     let x = 200
-     assert(x &lt; 200)
- }
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  class Person
   |int| age
@@ -63,7 +49,21 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
   if !stderr.ok
    &quot;Oof we got some errors&quot;
 
-* Languages *with* Assert Statements include <a href="../concepts/java.html">Java</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ use std::debug
+ use std::debug::assert::{assert}
+ 
+ fn main() {
+     std::debug::ENABLE = true
+     let x = 200
+     assert(x &lt; 200)
+ }
+
+codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+ assert(a &gt; 0, &quot;Expected a positive number&quot;);
+ $assert(Foo.sizeof == 8, &quot;Foo sizecheck at compile time failed&quot;);
+
+* Languages *with* Assert Statements include <a href="../concepts/java.html">Java</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>
 
 * Languages *without* Assert Statements include <a href="../concepts/progsbase.html">progsbase</a>
 

@@ -17,6 +17,9 @@ codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>
  main:
  console.log(&quot;pldb&quot;)
 
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ a_label:
+
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  while FOO: (x &gt; 0)
  {
@@ -27,10 +30,7 @@ codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
    }
  }
 
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- a_label:
-
-* Languages *with* Labels include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *with* Labels include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>
 
 * Languages *without* Labels include <a href="../concepts/aardvark.html">Aardvark</a>
 

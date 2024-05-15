@@ -64,17 +64,17 @@ codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>
      }
  }
 
+codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+ import std::io;
+ ...
+ io::printf(&quot;%d&quot;, i);
+
 codeWithHeader Example from <a href="../concepts/f-sharp.html">F#</a>:
  namespace Widgets
  type MyWidget1 =
     member this.WidgetName = &quot;Widget1&quot;
  module WidgetsModule =
     let widgetName = &quot;Widget2&quot;
-
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
- import std::io;
- ...
- io::printf(&quot;%d&quot;, i);
 
 codeWithHeader Example from <a href="../concepts/slope.html">Slope</a>:
  (ns-create &#39;hello-world)
@@ -85,7 +85,7 @@ codeWithHeader Example from <a href="../concepts/slope.html">Slope</a>:
      (display &quot;hello world!\n&quot;)))
  (hello-world::print)
 
-* Languages *with* Namespaces include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dale.html">Dale</a>
+* Languages *with* Namespaces include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dale.html">Dale</a>
 
 * Languages *without* Namespaces include <a href="../concepts/c.html">C</a>, <a href="../concepts/speedie.html">Speedie</a>
 

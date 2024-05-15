@@ -22,16 +22,16 @@ codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
 codeWithHeader Example from <a href="../concepts/erlang.html">Erlang</a>:
  #!/usr/bin/env escript
 
-codeWithHeader Example from <a href="../concepts/bourne-shell.html">Bourne shell</a>:
- #!/bin/sh -x
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  #!/usr/local/bin/spd
 
 codeWithHeader Example from <a href="../concepts/boron.html">Boron</a>:
  #!/usr/bin/env boron
 
-* Languages *with* Shebang include <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/erlang.html">Erlang</a>, <a href="../concepts/bourne-shell.html">Bourne shell</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/boron.html">Boron</a>
+codeWithHeader Example from <a href="../concepts/bourne-shell.html">Bourne shell</a>:
+ #!/bin/sh -x
+
+* Languages *with* Shebang include <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/erlang.html">Erlang</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/boron.html">Boron</a>, <a href="../concepts/bourne-shell.html">Bourne shell</a>
 
 * Read more about Shebang on the web: 1.
  https://en.wikipedia.org/wiki/Shebang_(Unix) 1.

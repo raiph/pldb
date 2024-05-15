@@ -44,21 +44,6 @@ codeWithHeader Example from <a href="../concepts/rust.html">Rust</a>:
      };
  }
 
-codeWithHeader Example from <a href="../concepts/clojure.html">Clojure</a>:
- ; https://www.braveclojure.com/writing-macros/
- ; https://clojure.org/reference/macros
- (defmacro and
-  &quot;Evaluates exprs one at a time, from left to right. If a form
-  returns logical false (nil or false), and returns that value and
-  doesn&#39;t evaluate any of the other expressions, otherwise it returns
-  the value of the last expr. (and) returns true.&quot;
-  {:added &quot;1.0&quot;}
-  ([] true)
-  ([x] x)
-  ([x &amp; next]
-   `(let [and# ~x]
-      (if and# (and ~@next) and#))))
-
 codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>:
  # https://jkrumbiegel.com/pages/2021-06-07-macros-for-beginners/
  macro show_value(variable)
@@ -83,30 +68,24 @@ codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
    end
  end
 
-codeWithHeader Example from <a href="../concepts/prolog.html">Prolog</a>:
- term_expansion(parent_child(Parent, Child),
-              child_parent(Child, Parent)).
- parent_child(trevor, simon).
- % With the above definitions, we can query (even though the predicate child_parent/2 is nowhere explicitly defined in the code above):
- ?- child_parent(Child, Parent).
-  Child = simon, Parent = trevor.
+codeWithHeader Example from <a href="../concepts/clojure.html">Clojure</a>:
+ ; https://www.braveclojure.com/writing-macros/
+ ; https://clojure.org/reference/macros
+ (defmacro and
+  &quot;Evaluates exprs one at a time, from left to right. If a form
+  returns logical false (nil or false), and returns that value and
+  doesn&#39;t evaluate any of the other expressions, otherwise it returns
+  the value of the last expr. (and) returns true.&quot;
+  {:added &quot;1.0&quot;}
+  ([] true)
+  ([x] x)
+  ([x &amp; next]
+   `(let [and# ~x]
+      (if and# (and ~@next) and#))))
 
 codeWithHeader Example from <a href="../concepts/erlang.html">Erlang</a>:
  -define(Const, Replacement).
  -define(Func(Var1,...,VarN), Replacement).
-
-codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
- # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#macros
- import macros
- dumpTree:
-  result = 10
-
-codeWithHeader Example from <a href="../concepts/racket.html">Racket</a>:
- ; https://docs.racket-lang.org/guide/macros.html
- (define-syntax-rule (swap x y)
- (let ([tmp x])
-   (set! x y)
-   (set! y tmp)))
 
 codeWithHeader Example from <a href="../concepts/scheme.html">Scheme</a>:
  (define-syntax backwards
@@ -116,11 +95,32 @@ codeWithHeader Example from <a href="../concepts/scheme.html">Scheme</a>:
     ((_ e1 ... e2)
      (begin e2 (backwards e1 ...)))))
 
+codeWithHeader Example from <a href="../concepts/prolog.html">Prolog</a>:
+ term_expansion(parent_child(Parent, Child),
+              child_parent(Child, Parent)).
+ parent_child(trevor, simon).
+ % With the above definitions, we can query (even though the predicate child_parent/2 is nowhere explicitly defined in the code above):
+ ?- child_parent(Child, Parent).
+  Child = simon, Parent = trevor.
+
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  macro square(x)
  {
    return x * x;
  }
+
+codeWithHeader Example from <a href="../concepts/racket.html">Racket</a>:
+ ; https://docs.racket-lang.org/guide/macros.html
+ (define-syntax-rule (swap x y)
+ (let ([tmp x])
+   (set! x y)
+   (set! y tmp)))
+
+codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
+ # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#macros
+ import macros
+ dumpTree:
+  result = 10
 
 codeWithHeader Example from <a href="../concepts/dylan.html">Dylan</a>:
  define macro table
@@ -185,11 +185,15 @@ codeWithHeader Example from <a href="../concepts/arc.html">Arc</a>:
  ; evaluating the body of the macro definition, (list &#39;+ 1 2).
  ; This is called the &quot;expansion&quot; of the macro call.
 
-codeWithHeader Example from <a href="../concepts/groff.html">groff</a>:
- .de P
- .  br
- .  sp .8v
- ..
+codeWithHeader Example from <a href="../concepts/bel.html">Bel</a>:
+ ; A macro is essentially a function that generates code. I would have 
+ ; liked the first example of a macro to be something simpler, but fn
+ ; is the one we need first. So I&#39;ll introduce macros using a simpler 
+ ; macro that isn&#39;t part of Bel, then explain fn.
+ ; Here is a very simple macro:
+ (mac nilwith (x)
+   (list &#39;cons nil x))
+ 
 
 codeWithHeader Example from <a href="../concepts/hla.html">High Level Assembly</a>:
  // _SortCases_
@@ -232,15 +236,11 @@ codeWithHeader Example from <a href="../concepts/hla.html">High Level Assembly</
      
  endmacro;
 
-codeWithHeader Example from <a href="../concepts/bel.html">Bel</a>:
- ; A macro is essentially a function that generates code. I would have 
- ; liked the first example of a macro to be something simpler, but fn
- ; is the one we need first. So I&#39;ll introduce macros using a simpler 
- ; macro that isn&#39;t part of Bel, then explain fn.
- ; Here is a very simple macro:
- (mac nilwith (x)
-   (list &#39;cons nil x))
- 
+codeWithHeader Example from <a href="../concepts/groff.html">groff</a>:
+ .de P
+ .  br
+ .  sp .8v
+ ..
 
 codeWithHeader Example from <a href="../concepts/yamp.html">YAMP</a>:
  - defmacro:
@@ -251,9 +251,9 @@ codeWithHeader Example from <a href="../concepts/yamp.html">YAMP</a>:
  - foo:
    who: World
 
-* Languages *with* Macros include <a href="../concepts/c.html">C</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/clojure.html">Clojure</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/prolog.html">Prolog</a>, <a href="../concepts/erlang.html">Erlang</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/scheme.html">Scheme</a>, <a href="../concepts/factor.html">Factor</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dylan.html">Dylan</a>, <a href="../concepts/pike.html">Pike</a>, <a href="../concepts/nemerle.html">Nemerle</a>, <a href="../concepts/arc.html">Arc</a>, <a href="../concepts/gerbil.html">Gerbil Scheme</a>, <a href="../concepts/groff.html">groff</a>, <a href="../concepts/hla.html">High Level Assembly</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/bel.html">Bel</a>, <a href="../concepts/yamp.html">YAMP</a>, <a href="../concepts/honu.html">honu</a>
+* Languages *with* Macros include <a href="../concepts/c.html">C</a>, <a href="../concepts/scala.html">Scala</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/clojure.html">Clojure</a>, <a href="../concepts/erlang.html">Erlang</a>, <a href="../concepts/scheme.html">Scheme</a>, <a href="../concepts/prolog.html">Prolog</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dylan.html">Dylan</a>, <a href="../concepts/pike.html">Pike</a>, <a href="../concepts/factor.html">Factor</a>, <a href="../concepts/nemerle.html">Nemerle</a>, <a href="../concepts/arc.html">Arc</a>, <a href="../concepts/bel.html">Bel</a>, <a href="../concepts/hla.html">High Level Assembly</a>, <a href="../concepts/groff.html">groff</a>, <a href="../concepts/gerbil.html">Gerbil Scheme</a>, <a href="../concepts/yamp.html">YAMP</a>, <a href="../concepts/honu.html">honu</a>
 
-* Languages *without* Macros include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/html.html">HTML</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/xml.html">XML</a>, <a href="../concepts/json.html">JSON</a>, <a href="../concepts/smalltalk.html">Smalltalk</a>, <a href="../concepts/progsbase.html">progsbase</a>
+* Languages *without* Macros include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/html.html">HTML</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/xml.html">XML</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/json.html">JSON</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/smalltalk.html">Smalltalk</a>
 
 * Read more about Macros on the web: 1.
  https://en.wikipedia.org/wiki/Macro_(computer_science) 1.

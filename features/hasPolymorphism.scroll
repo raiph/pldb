@@ -19,17 +19,17 @@ codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>
 codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
  https://hexdocs.pm/elixir/Protocol.html
 
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ |object| x = somefunction()
+ || y = x.render // returns a string by calling the virtual func &quot;render&quot;
+
 codeWithHeader Example from <a href="../concepts/felix.html">Felix</a>:
  // overloads
  fun f (x:double) =&gt; x +42.1;
  fun f (x:int) =&gt;  x + 1;
  fun f (x:string) =&gt; x + &quot;!&quot;;
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- |object| x = somefunction()
- || y = x.render // returns a string by calling the virtual func &quot;render&quot;
-
-* Languages *with* Polymorphism include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/pascal.html">Pascal</a>, <a href="../concepts/felix.html">Felix</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Polymorphism include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/pascal.html">Pascal</a>, <a href="../concepts/felix.html">Felix</a>
 
 * Languages *without* Polymorphism include <a href="../concepts/jule.html">Jule</a>
 

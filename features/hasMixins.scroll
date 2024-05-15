@@ -62,25 +62,6 @@ codeWithHeader Example from <a href="../concepts/racket.html">Racket</a>:
  (mixin (interface-expr ...) (interface-expr ...)
   class-clause ...)
 
-codeWithHeader Example from <a href="../concepts/sass.html">Sass</a>:
- @mixin reset-list
-   margin: 0
-   padding: 0
-   list-style: none
- @mixin horizontal-list
-   @include reset-list
-   li
-     display: inline-block
-     margin:
-       left: -2px
-       right: 2em
- nav ul
-   @include horizontal-list
-
-codeWithHeader Example from <a href="../concepts/xtext.html">Xtext</a>:
- grammar org.example.domainmodel.Domainmodel
-        with org.eclipse.xtext.common.Terminals
-
 codeWithHeader Example from <a href="../concepts/scss.html">SCSS</a>:
  @mixin reset-list {
    margin: 0;
@@ -102,7 +83,26 @@ codeWithHeader Example from <a href="../concepts/scss.html">SCSS</a>:
    @include horizontal-list;
  }
 
-* Languages *with* Mixins include <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/sass.html">Sass</a>, <a href="../concepts/xtext.html">Xtext</a>, <a href="../concepts/scss.html">SCSS</a>
+codeWithHeader Example from <a href="../concepts/sass.html">Sass</a>:
+ @mixin reset-list
+   margin: 0
+   padding: 0
+   list-style: none
+ @mixin horizontal-list
+   @include reset-list
+   li
+     display: inline-block
+     margin:
+       left: -2px
+       right: 2em
+ nav ul
+   @include horizontal-list
+
+codeWithHeader Example from <a href="../concepts/xtext.html">Xtext</a>:
+ grammar org.example.domainmodel.Domainmodel
+        with org.eclipse.xtext.common.Terminals
+
+* Languages *with* Mixins include <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/racket.html">Racket</a>, <a href="../concepts/scss.html">SCSS</a>, <a href="../concepts/sass.html">Sass</a>, <a href="../concepts/xtext.html">Xtext</a>
 
 * Languages *without* Mixins include <a href="../concepts/css.html">CSS</a>
 

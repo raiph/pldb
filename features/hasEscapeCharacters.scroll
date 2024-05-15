@@ -13,17 +13,17 @@ html
 
 thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/ini.html">Ini</a>:
- ; \&quot; \\ \n \t \b
- [section &quot;subsection with \&quot;quotes\&quot;&quot;]
+codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
+ || str = &quot;\01\02\03&quot;
 
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  &quot;\e\n\r&quot;
 
-codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
- || str = &quot;\01\02\03&quot;
+codeWithHeader Example from <a href="../concepts/ini.html">Ini</a>:
+ ; \&quot; \\ \n \t \b
+ [section &quot;subsection with \&quot;quotes\&quot;&quot;]
 
-* Languages *with* hasEscapeCharacters include <a href="../concepts/ini.html">Ini</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* hasEscapeCharacters include <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/ini.html">Ini</a>
 
 * Languages *without* hasEscapeCharacters include <a href="../concepts/treenotation.html">Tree Notation</a>
 

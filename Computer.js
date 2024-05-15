@@ -249,7 +249,7 @@ Wayback Machine: https://web.archive.org/web/20220000000000*/${title}`
     return this.allExamples.length + this.featuresWithExamples.length
   }
 
-  // Todo: make this a general TrueBase feature
+  // Todo: make this a general Scroll feature
   // Support inheritance in the dataset. Entities can extend from other entities and override
   // only the column values where they are different.
   get extended() {
@@ -509,6 +509,10 @@ Wayback Machine: https://web.archive.org/web/20220000000000*/${title}`
 
   get rank() {
     return this.parsed.rank
+  }
+
+  link(baseFolder = "") {
+    return `<a href="${baseFolder + this.permalink}">${this.title}</a>`
   }
 
   get extensions() {
@@ -948,10 +952,13 @@ ${creatorsLinks}
     }
 
     const supersetOf = this.getRelationshipFile("supersetOf")
-    if (supersetOf) facts.push(`${title} is a superset of ${supersetOf.link}`)
+    if (supersetOf)
+      facts.push(
+        `${title} is a <a href="../lists/explorer.html#columns=rank~id~appeared~type~creators~supersetOf&searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22!null%22%2C%22data%22%3A%22supersetOf%22%2C%22origData%22%3A%22supersetOf%22%2C%22type%22%3A%22html%22%2C%22value%22%3A%5B%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D">superset</a> of ${supersetOf.link()}`
+      )
 
     const implementationOf = this.getRelationshipFile("implementationOf")
-    if (implementationOf) facts.push(`${title} is an implementation of ${implementationOf.link}`)
+    if (implementationOf) facts.push(`${title} is an implementation of ${implementationOf.link()}`)
 
     const { originCommunity } = this
     let originCommunityStr = ""
@@ -1952,10 +1959,11 @@ const computeds = {
   }
 }
 
-class Computer {
+class MeasureComputer {
   constructor(scrollFile, concepts) {
+    this.quickCache = {}
     this.concepts = concepts
-    this.ranks = calcRanks(concepts, this)
+    this.ranks = calcRanks(concepts, this, this.pageRankLinks)
     this.languageRanks = {}
 
     Object.values(this.ranks)
@@ -1967,6 +1975,33 @@ class Computer {
       })
   }
 
+  get pageRankLinks() {
+    if (this.quickCache.pageRankLinks) return this.quickCache.pageRankLinks
+
+    this.quickCache.pageRankLinks = {}
+    const pageRankLinks = this.quickCache.pageRankLinks
+    this.concepts.forEach(concept => {
+      pageRankLinks[concept.get("filename")] = []
+    })
+
+    this.concepts.forEach(concept => {
+      const filename = concept.get("filename")
+      concept
+        .filter(node => node.isLinks)
+        .forEach(node => {
+          const links = node.content.split(" ")
+          links.forEach(link => {
+            link += ".scroll"
+            if (!pageRankLinks[link]) throw new Error(`No file "${link}" found in "${filename}"`)
+
+            pageRankLinks[link].push(filename)
+          })
+        })
+    })
+
+    return pageRankLinks
+  }
+
   get(measureName, concept) {
     if (computeds[measureName]) {
       if (!concept[measureName]) concept[measureName] = computeds[measureName](concept, this)
@@ -1976,8 +2011,7 @@ class Computer {
   }
 }
 
-const calcRanks = (concepts, computer) => {
-  // const { pageRankLinks } = folder
+const calcRanks = (concepts, computer, pageRankLinks) => {
   let objects = concepts.map(concept => {
     const filename = concept.get("filename")
     const object = {}
@@ -1986,18 +2020,18 @@ const calcRanks = (concepts, computer) => {
     object.users = computer.get("numberOfUsersEstimate", concept)
     object.measurements = computer.get("measurements", concept)
     object.isLanguage = computeds.isLanguage(concept)
-    // object.pageRankLinks = pageRankLinks[filename].length
+    object.pageRankLinks = pageRankLinks[filename].length
     return object
   })
 
   objects = rankSort(objects, "jobs")
   objects = rankSort(objects, "users")
   objects = rankSort(objects, "measurements")
-  // objects = rankSort(objects, "pageRankLinks")
+  objects = rankSort(objects, "pageRankLinks")
 
   objects.forEach((obj, rank) => {
     // Drop the item this does the worst on, as it may be a flaw in PLDB.
-    const top3 = [obj.jobsRank, obj.usersRank, obj.measurementsRank]
+    const top3 = [obj.jobsRank, obj.usersRank, obj.measurementsRank, obj.pageRankLinks]
     obj.totalRank = lodash.sum(lodash.sortBy(top3).slice(0, 3))
   })
   objects = lodash.sortBy(objects, ["totalRank"])
@@ -2029,4 +2063,4 @@ const rankSort = (objects, key) => {
   return objects
 }
 
-module.exports = { Computer, Tables: new Tables() }
+module.exports = { MeasureComputer, Tables: new Tables() }

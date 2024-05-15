@@ -13,13 +13,13 @@ html
 
 thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/coq.html">Coq</a>:
- (* http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf *)
-
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  int uint uintptr
 
-* Languages *with* Dependent types include <a href="../concepts/idris.html">Idris</a>, <a href="../concepts/coq.html">Coq</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/epigram.html">Epigram</a>, <a href="../concepts/starpial.html">starpial</a>
+codeWithHeader Example from <a href="../concepts/coq.html">Coq</a>:
+ (* http://www-sop.inria.fr/members/Yves.Bertot/tsinghua/tsinghua-1.pdf *)
+
+* Languages *with* Dependent types include <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/idris.html">Idris</a>, <a href="../concepts/coq.html">Coq</a>, <a href="../concepts/epigram.html">Epigram</a>, <a href="../concepts/starpial.html">starpial</a>
 
 * Languages *without* Dependent types include <a href="../concepts/ruby.html">Ruby</a>
 

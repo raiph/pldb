@@ -19,18 +19,18 @@ codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>
   method2() {}
  }
 
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ impl MyStruct {
+     fn my_method(self) {}
+ }
+
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  fn int Foo.get_value(Foo* this)
  {
     return this.value;
  }
 
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- impl MyStruct {
-     fn my_method(self) {}
- }
-
-* Languages *with* Methods include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *with* Methods include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>
 
 * Read more about Methods on the web: 1.
  https://en.wikipedia.org/wiki/Method_(computer_programming) 1.

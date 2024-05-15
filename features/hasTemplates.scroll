@@ -22,14 +22,6 @@ codeWithHeader Example from <a href="../concepts/cpp.html">C++</a>:
      return *this;
  }
 
-codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
- # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
- template debug*(args: varargs[string, `$`]) =
- if logLevel &lt;= Level.debug:
-   const module = instantiationInfo().filename[0 .. ^5]
-   echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
-     module, join args]
-
 codeWithHeader Example from <a href="../concepts/d.html">D</a>:
  template TCopy(T)
  {
@@ -41,7 +33,15 @@ codeWithHeader Example from <a href="../concepts/d.html">D</a>:
  int i;
  TCopy!(int).copy(i, 3);
 
-* Languages *with* Templates include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/xl-lang.html">XL</a>
+codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
+ # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
+ template debug*(args: varargs[string, `$`]) =
+ if logLevel &lt;= Level.debug:
+   const module = instantiationInfo().filename[0 .. ^5]
+   echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
+     module, join args]
+
+* Languages *with* Templates include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/xl-lang.html">XL</a>
 
 * Languages *without* Templates include <a href="../concepts/c.html">C</a>, <a href="../concepts/speedie.html">Speedie</a>
 

@@ -37,6 +37,11 @@ codeWithHeader Example from <a href="../concepts/go.html">Go</a>:
    fmt.Println(&quot; is&quot;, total) // Also a variadic function.
  }
 
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ fn average(x: ...f64): f64 {
+     // ...
+ }
+
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  fn void foo_typed(int x, int... arg) { ... }
  fn void foo_untyped(int x, ...arg) 
@@ -47,12 +52,7 @@ codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
 codeWithHeader Example from <a href="../concepts/slope.html">Slope</a>:
  (lambda (...) (apply + ...))
 
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- fn average(x: ...f64): f64 {
-     // ...
- }
-
-* Languages *with* Variadic Functions include <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *with* Variadic Functions include <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>
 
 * Read more about Variadic Functions on the web: 1.
  https://en.wikipedia.org/wiki/Variadic_function 1.

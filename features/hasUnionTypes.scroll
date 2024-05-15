@@ -16,9 +16,6 @@ thinColumns 4
 codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>:
  declare type numOrString = string | number
 
-codeWithHeader Example from <a href="../concepts/graphql.html">GraphQL</a>:
- union SearchResult = Human | Droid | Starship
-
 codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
  union Foo
  {
@@ -30,7 +27,10 @@ codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
    }  
  }  
 
-* Languages *with* Union Types include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>
+codeWithHeader Example from <a href="../concepts/graphql.html">GraphQL</a>:
+ union SearchResult = Human | Droid | Starship
+
+* Languages *with* Union Types include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/c2.html">C2</a>
 
 * Read more about Union Types on the web: 1.
  https://en.wikipedia.org/wiki/Union_type 1.

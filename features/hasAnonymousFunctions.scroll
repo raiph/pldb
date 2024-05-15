@@ -19,19 +19,19 @@ codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>
 codeWithHeader Example from <a href="../concepts/elixir.html">Elixir</a>:
  fn -&gt; IO.puts(&quot;hello world&quot;) end
 
-codeWithHeader Example from <a href="../concepts/coconut.html">Coconut</a>:
- x -&gt; x ** 2
-
-codeWithHeader Example from <a href="../concepts/hope.html">HOPE</a>:
- lambda(x,y) =&gt; x + y
-
 codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
  let anonymous = fn() {
      outln(&quot;Anonymous Function&quot;)
  }
  anonymous()
 
-* Languages *with* Anonymous Functions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/hope.html">HOPE</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>
+codeWithHeader Example from <a href="../concepts/coconut.html">Coconut</a>:
+ x -&gt; x ** 2
+
+codeWithHeader Example from <a href="../concepts/hope.html">HOPE</a>:
+ lambda(x,y) =&gt; x + y
+
+* Languages *with* Anonymous Functions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/hope.html">HOPE</a>
 
 * Read more about Anonymous Functions on the web: 1.
  https://en.wikipedia.org/wiki/Anonymous_function 1.

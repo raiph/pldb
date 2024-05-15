@@ -13,12 +13,6 @@ html
 
 thinColumns 4
 
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- nil
-
-codeWithHeader Example from <a href="../concepts/aardvark.html">Aardvark</a>:
- `null`
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  || msg = message()
  while
@@ -29,10 +23,16 @@ codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
    return
   msg = nil
 
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ nil
+
+codeWithHeader Example from <a href="../concepts/aardvark.html">Aardvark</a>:
+ `null`
+
 codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
  null
 
-* Languages *with* Null include <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/ion.html">Ion</a>
+* Languages *with* Null include <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/ion.html">Ion</a>
 
 * Read more about Null on the web: 1.
  https://en.wikipedia.org/wiki/Null_pointer 1.

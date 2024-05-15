@@ -16,15 +16,15 @@ thinColumns 4
 codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>:
  const scores: int[]
 
-codeWithHeader Example from <a href="../concepts/hope.html">HOPE</a>:
- [1,2,3]
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  |array of string| s
  s &lt;~ &quot;abc&quot; // ok
  s &lt;~ 1 // fail
 
-* Languages *with* Single-Type Arrays include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/hope.html">HOPE</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/hope.html">HOPE</a>:
+ [1,2,3]
+
+* Languages *with* Single-Type Arrays include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/hope.html">HOPE</a>
 
 * Read more about Single-Type Arrays on the web: 1.
  https://en.wikipedia.org/wiki/Array_data_structure 1.

@@ -26,7 +26,7 @@ codeWithHeader Example from <a href="../concepts/yaml.html">YAML</a>:
  # Flow style
  baseball teams: !!set { Boston Red Sox, Detroit Tigers, New York Yankees }
 
-* Languages *with* Sets include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/yaml.html">YAML</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/aardvark.html">Aardvark</a>
+* Languages *with* Sets include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/yaml.html">YAML</a>, <a href="../concepts/edn.html">EDN</a>
 
 * Languages *without* Sets include <a href="../concepts/bash.html">Bash</a>
 

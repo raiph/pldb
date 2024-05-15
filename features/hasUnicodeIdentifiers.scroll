@@ -16,15 +16,15 @@ thinColumns 4
 codeWithHeader Example from <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>:
  δ = 0.00001
 
-codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
- let δ = 0.00001
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  class é©©
   constructor
    printline .class.name // &quot;é©©&quot;
 
-* Languages *with* Unicode Identifers include <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/nim.html">Nim</a>:
+ let δ = 0.00001
+
+* Languages *with* Unicode Identifers include <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/nim.html">Nim</a>
 
 * Languages *without* Unicode Identifers include <a href="../concepts/c3.html">C3</a>
 

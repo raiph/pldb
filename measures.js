@@ -54,7 +54,7 @@ const measures = [
     "Values": 24275,
     "Coverage": "500%",
     "Question": "How does this thing rank amongst all entities in this TrueBase?",
-    "Example": "1346",
+    "Example": "1358",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -64,7 +64,7 @@ const measures = [
     "Values": 21645,
     "Coverage": "446%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1346",
+    "Example": "1358",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true

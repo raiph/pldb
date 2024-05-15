@@ -34,19 +34,19 @@ codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
 codeWithHeader Example from <a href="../concepts/typescript.html">TypeScript</a>:
  &lt;number&gt;something;
 
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
- double d = 3.3;
- int x = (int)d;
-
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- let x = (int)(3.14)
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  || x = message()
  || y = x|object| // lose type info
  || z = y|message| // regain it
 
-* Languages *with* Type Casting include <a href="../concepts/c.html">C</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ let x = (int)(3.14)
+
+codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+ double d = 3.3;
+ int x = (int)d;
+
+* Languages *with* Type Casting include <a href="../concepts/c.html">C</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>
 
 * Read more about Type Casting on the web: 1.
  https://en.wikipedia.org/wiki/Type_conversion 1.

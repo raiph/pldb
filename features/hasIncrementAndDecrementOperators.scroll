@@ -23,22 +23,22 @@ codeWithHeader Example from <a href="../concepts/go.html">Go</a>:
  i++
  i--
 
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
- i++; --j;
-
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
- ++
- --
-
-codeWithHeader Example from <a href="../concepts/aardvark.html">Aardvark</a>:
- ++ and --
-
 codeWithHeader Example from <a href="../concepts/speedie.html">Speedie</a>:
  || x = 1
  x++
  x--
 
-* Languages *with* Increment and decrement operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+ ++
+ --
+
+codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+ i++; --j;
+
+codeWithHeader Example from <a href="../concepts/aardvark.html">Aardvark</a>:
+ ++ and --
+
+* Languages *with* Increment and decrement operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 * Languages *without* Increment and decrement operators include <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/slope.html">Slope</a>
 
