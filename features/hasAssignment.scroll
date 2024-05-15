@@ -9,73 +9,76 @@ html
 
 // viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/pldbMeasures.scroll
 
-thinColumns 4
+mediumColumns 1
 
-codeWithHeader Example from <a href="../concepts/javascript.html">JavaScript</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  var name = &quot;John&quot;
 
-codeWithHeader Example from <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>:
+codeWithHeader Example from <b>3 languages</b>: <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>
  name = &quot;John&quot;
 
-codeWithHeader Example from <a href="../concepts/php.html">PHP</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">PHP</a>
  $name = &quot;John&quot;
 
-codeWithHeader Example from <a href="../concepts/ruby.html">Ruby</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
  pldb = 80766866
 
-codeWithHeader Example from <a href="../concepts/csharp.html">C#</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  int pldb = 80766866;
 
-codeWithHeader Example from <a href="../concepts/swift.html">Swift</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/swift.html">Swift</a>
  let label = UILabel()
 
-codeWithHeader Example from <a href="../concepts/kotlin.html">Kotlin</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">Kotlin</a>
  table = HashMap()
 
-codeWithHeader Example from <a href="../concepts/bash.html">Bash</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bash.html">Bash</a>
  FOO=&quot;bar&quot;
 
-codeWithHeader Example from <a href="../concepts/jule.html">Jule</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  let mut x = 0
  x = 20
 
-codeWithHeader Example from <a href="../concepts/c3.html">C3</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  a = b;
 
-codeWithHeader Example from <a href="../concepts/pug.html">Pug</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">Pug</a>
  - var title = &quot;On Dogs: Man&#39;s Best Friend&quot;;
  
  h1= title
 
-codeWithHeader Example from <a href="../concepts/ion.html">Ion</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">Ion</a>
  // A subset of symbols called identifiers can be denoted in text without single-quotes. 
 
-codeWithHeader Example from <a href="../concepts/makefile.html">Makefile</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/makefile.html">Makefile</a>
  objects = program.o foo.o utils.o
 
-codeWithHeader Example from <a href="../concepts/ini.html">Ini</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ini.html">Ini</a>
  [branch &quot;master&quot;]
  remote = origin
  merge = refs/heads/master
 
-codeWithHeader Example from <a href="../concepts/bog.html">bog</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bog.html">bog</a>
  let pldb = &quot;pldb&quot;
 
-codeWithHeader Example from <a href="../concepts/cyber.html">Cyber</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cyber.html">Cyber</a>
  count = 0
 
-codeWithHeader Example from <a href="../concepts/balgol.html">BALGOL</a>:
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/balgol.html">BALGOL</a>
  ALPHA = BETA = GAMMA = 2DELTA + 1$
+
+***
 
 * Languages *with* Assignment include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/r.html">R</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/fortran.html">Fortran</a>, <a href="../concepts/lua.html">Lua</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/pascal.html">Pascal</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/eiffel.html">Eiffel</a>, <a href="../concepts/smalltalk.html">Smalltalk</a>, <a href="../concepts/dylan.html">Dylan</a>, <a href="../concepts/io.html">Io</a>, <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/ampl.html">AMPL</a>, <a href="../concepts/ion.html">Ion</a>, <a href="../concepts/autohotkey.html">AutoHotkey</a>, <a href="../concepts/simula.html">Simula</a>, <a href="../concepts/oberon.html">Oberon</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/seed7.html">Seed7</a>, <a href="../concepts/makefile.html">Makefile</a>, <a href="../concepts/bcpl.html">BCPL</a>, <a href="../concepts/ini.html">Ini</a>, <a href="../concepts/ml.html">ML</a>, <a href="../concepts/janet.html">janet</a>, <a href="../concepts/pl-i.html">PL/I</a>, <a href="../concepts/bog.html">bog</a>, <a href="../concepts/reia.html">Reia</a>, <a href="../concepts/cyber.html">Cyber</a>, <a href="../concepts/mary.html">Mary</a>, <a href="../concepts/algol.html">Algol</a>, <a href="../concepts/balgol.html">BALGOL</a>, <a href="../concepts/pl-m.html">PL/M</a>, <a href="../concepts/cpl.html">CPL</a>, <a href="../concepts/modula.html">Modula</a>, <a href="../concepts/superplan.html">Superplan</a>
 
+***
+
 * Languages *without* Assignment include <a href="../concepts/hecl.html">hecl</a>
+
+***
 
 * Read more about Assignment on the web: 1.
  https://en.wikipedia.org/wiki/Assignment_(computer_science) 1.
-
-HTML of this page generated by Features.ts
- https://github.com/breck7/pldb/blob/main/code/Features.ts Features.ts
 
 endColumns
 
