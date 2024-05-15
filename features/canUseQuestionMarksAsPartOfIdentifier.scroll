@@ -1,9 +1,7 @@
 import header.scroll
 
-title canUseQuestionMarksAsPartOfIdentifier
-
 title canUseQuestionMarksAsPartOfIdentifier - language feature
- hidden
+printTitle canUseQuestionMarksAsPartOfIdentifier
 
 html
  <a class="trueBaseThemePreviousItem" href="canReadCommandLineArgs.html">&lt;</a>

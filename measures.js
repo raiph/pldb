@@ -64,7 +64,7 @@ const measures = [
     "Values": 21645,
     "Coverage": "446%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1358",
+    "Example": "1129",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -3321,7 +3321,7 @@ const measures = [
     "Name": "runsOnVm",
     "Values": 45,
     "Coverage": "1%",
-    "Question": "What virtual machine(s) does this language run on? ",
+    "Question": "What virtual machine(s) does this language run on?",
     "Example": "jvm",
     "Type": "string",
     "SortIndex": 1000,

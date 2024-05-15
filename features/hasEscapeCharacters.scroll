@@ -1,9 +1,7 @@
 import header.scroll
 
-title hasEscapeCharacters
-
 title hasEscapeCharacters - language feature
- hidden
+printTitle hasEscapeCharacters
 
 html
  <a class="trueBaseThemePreviousItem" href="hasEnums.html">&lt;</a>

@@ -1,12 +1,9 @@
-Which programming languages use indentation?
-============================================
-
 by Breck Yunits
 
 January 24, 2019
 
 Python, as one of the top 10 programming languages in the world, is the most popular programming language that treats indentation as significant. In these offside languages, programmers indent their code blocks instead of using braces, brackets, or other visible characters.
- https://pldb.io/posts/../concepts/python.html
+ https://pldb.io/../concepts/python.html
  https://en.wikipedia.org/wiki/Off-side_rule
 
 I was curious about how common these languages were so I did some brief analysis to answer these questions:
@@ -29,42 +26,42 @@ I was curious about how common these languages were so I did some brief analysis
 
 These languages use indentation:
 abc, aldor, boo, buddyscript, cobra, coffeescript, csl, curry, elixir, f-sharp, genie, haml, haskell, inform, iswim, literate-coffeescript, livescript, madcap, madcap-vi, makefile, markdown, miranda, nemerle, net-format, nim, occam, org, promal, python, restructuredtext, sass, scss, spin, stylus, xl-programming-language and yaml.
- https://pldb.io/posts/../concepts/abc.html
- https://pldb.io/posts/../concepts/aldor.html
- https://pldb.io/posts/../concepts/boo.html
- https://pldb.io/posts/../concepts/buddyscript.html
- https://pldb.io/posts/../concepts/cobra.html
- https://pldb.io/posts/../concepts/coffeescript.html
- https://pldb.io/posts/../concepts/csl.html
- https://pldb.io/posts/../concepts/curry.html
- https://pldb.io/posts/../concepts/elixir.html
- https://pldb.io/posts/../concepts/f-sharp.html
- https://pldb.io/posts/../concepts/genie.html
- https://pldb.io/posts/../concepts/haml.html
- https://pldb.io/posts/../concepts/haskell.html
- https://pldb.io/posts/../concepts/inform.html
- https://pldb.io/posts/../concepts/iswim.html
- https://pldb.io/posts/../concepts/literate-coffeescript.html
- https://pldb.io/posts/../concepts/livescript.html
- https://pldb.io/posts/../concepts/madcap-vi.html
- https://pldb.io/posts/../concepts/madcap.html
- https://pldb.io/posts/../concepts/makefile.html
- https://pldb.io/posts/../concepts/markdown.html
- https://pldb.io/posts/../concepts/miranda.html
- https://pldb.io/posts/../concepts/nemerle.html
- https://pldb.io/posts/../concepts/net-format.html
- https://pldb.io/posts/../concepts/nim.html
- https://pldb.io/posts/../concepts/occam.html
- https://pldb.io/posts/../concepts/org.html
- https://pldb.io/posts/../concepts/promal.html
- https://pldb.io/posts/../concepts/python.html
- https://pldb.io/posts/../concepts/restructuredtext.html
- https://pldb.io/posts/../concepts/sass.html
- https://pldb.io/posts/../concepts/scss.html
- https://pldb.io/posts/../concepts/spin.html
- https://pldb.io/posts/../concepts/stylus.html
- https://pldb.io/posts/../concepts/xl-programming-language.html
- https://pldb.io/posts/../concepts/yaml.html
+ https://pldb.io/../concepts/abc.html
+ https://pldb.io/../concepts/aldor.html
+ https://pldb.io/../concepts/boo.html
+ https://pldb.io/../concepts/buddyscript.html
+ https://pldb.io/../concepts/cobra.html
+ https://pldb.io/../concepts/coffeescript.html
+ https://pldb.io/../concepts/csl.html
+ https://pldb.io/../concepts/curry.html
+ https://pldb.io/../concepts/elixir.html
+ https://pldb.io/../concepts/f-sharp.html
+ https://pldb.io/../concepts/genie.html
+ https://pldb.io/../concepts/haml.html
+ https://pldb.io/../concepts/haskell.html
+ https://pldb.io/../concepts/inform.html
+ https://pldb.io/../concepts/iswim.html
+ https://pldb.io/../concepts/literate-coffeescript.html
+ https://pldb.io/../concepts/livescript.html
+ https://pldb.io/../concepts/madcap-vi.html
+ https://pldb.io/../concepts/madcap.html
+ https://pldb.io/../concepts/makefile.html
+ https://pldb.io/../concepts/markdown.html
+ https://pldb.io/../concepts/miranda.html
+ https://pldb.io/../concepts/nemerle.html
+ https://pldb.io/../concepts/net-format.html
+ https://pldb.io/../concepts/nim.html
+ https://pldb.io/../concepts/occam.html
+ https://pldb.io/../concepts/org.html
+ https://pldb.io/../concepts/promal.html
+ https://pldb.io/../concepts/python.html
+ https://pldb.io/../concepts/restructuredtext.html
+ https://pldb.io/../concepts/sass.html
+ https://pldb.io/../concepts/scss.html
+ https://pldb.io/../concepts/spin.html
+ https://pldb.io/../concepts/stylus.html
+ https://pldb.io/../concepts/xl-programming-language.html
+ https://pldb.io/../concepts/yaml.html
 
 According to my present database, languages that strip indentation are about *70x* more common than languages that employ it.
 
@@ -93,8 +90,8 @@ I would like to expand upon this to help language designers answer the question:
 ***
 
 UPDATE: masonic on HackerNews pointed out that COBOL should be included on this list. The column position of tokens is indeed significant in COBOL (and FORTRAN too), so perhaps in the next update I'll clarify this categorization to adhere more closely to the offside rule, or will include a broader definition of significant indentation that includes some of these additional languages
- https://pldb.io/posts/../concepts/cobol.html
- https://pldb.io/posts/../concepts/fortran.html
+ https://pldb.io/../concepts/cobol.html
+ https://pldb.io/../concepts/fortran.html
 
 html.h1 Which programming languages use indentation?
 web.get https://pldb.io/pldb.csv

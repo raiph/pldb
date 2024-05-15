@@ -1,9 +1,7 @@
 import header.scroll
 
-title hasDynamicTyping
-
 title hasDynamicTyping - language feature
- hidden
+printTitle hasDynamicTyping
 
 html
  <a class="trueBaseThemePreviousItem" href="hasDynamicSizedArrays.html">&lt;</a>

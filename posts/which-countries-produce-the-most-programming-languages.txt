@@ -1,6 +1,3 @@
-Which countries produce the most programming languages?
-=======================================================
-
 by Breck Yunits
 
 October 31, 2018
@@ -45,7 +42,7 @@ US,167
 html.h1 Which countries produce the most programming languages?
 web.get https://pldb.io/pldb.csv
  hidden
- filter.where country > 
+ filter.where country >
   group.by country
    hidden
    vega.bar

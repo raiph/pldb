@@ -1,9 +1,7 @@
 import header.scroll
 
-title hasSelfOrThisWord
-
 title hasSelfOrThisWord - language feature
- hidden
+printTitle hasSelfOrThisWord
 
 html
  <a class="trueBaseThemePreviousItem" href="hasScientificNotation.html">&lt;</a>

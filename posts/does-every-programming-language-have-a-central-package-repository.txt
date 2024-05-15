@@ -1,6 +1,3 @@
-Does every programming language have a central package repository?
-==================================================================
-
 by Breck Yunits
 
 February 7, 2019
@@ -38,7 +35,7 @@ web.get https://pldb.io/pldb.csv
     columns.rename packageRepository cpr
      group.by cpr
       tables.basic
-     filter.where cpr != 
+     filter.where cpr !=
       tables.basic
       group.by appeared
        vega.bar

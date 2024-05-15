@@ -1,9 +1,7 @@
 import header.scroll
 
-title canReadCommandLineArgs
-
 title canReadCommandLineArgs - language feature
- hidden
+printTitle canReadCommandLineArgs
 
 html
  <a class="trueBaseThemePreviousItem" href="canDoShebang.html">&lt;</a>

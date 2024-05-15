@@ -1,9 +1,7 @@
 import header.scroll
 
-title hasGlobalScope
-
 title hasGlobalScope - language feature
- hidden
+printTitle hasGlobalScope
 
 html
  <a class="trueBaseThemePreviousItem" href="hasGenerics.html">&lt;</a>

@@ -1,9 +1,7 @@
 import header.scroll
 
-title hasContinue
-
 title hasContinue - language feature
- hidden
+printTitle hasContinue
 
 html
  <a class="trueBaseThemePreviousItem" href="hasConstructors.html">&lt;</a>

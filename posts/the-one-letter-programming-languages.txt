@@ -1,6 +1,3 @@
-The One Letter Programming Languages
-====================================
-
 by Breck Yunits
 
 [Image Omitted]
@@ -8,8 +5,8 @@ by Breck Yunits
 July 16, 2022
 
 C and R are two famous programming languages whose name is a single letter. In an effort to retire this practice (😉), I've made an infographic to show that all the letters are taken.
- https://pldb.io/posts/../concepts/c.html
- https://pldb.io/posts/../concepts/r.html
+ https://pldb.io/../concepts/c.html
+ https://pldb.io/../concepts/r.html
 
 Data used in this post:
 =======================
@@ -49,7 +46,7 @@ html.h1 The Single Letter Programming Languages
 web.get https://pldb.io/pldb.csv
  tables.basic
   columns.keep title id aka appeared type rank
-   filter.where aka != 
+   filter.where aka !=
     text.length aka
      columns.setType akaLength number
       filter.where akaLength < 2
