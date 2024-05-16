@@ -495,29 +495,29 @@ WriteLine(html.GetType());</code></div>
 ; We know enough now to start writing macros.  Macros are basically
 ; functions that generate code.  Of course, generating code is easy;
 ; just call list.
-; 
+;
 ; arc&gt; (list &#39;+ 1 2)
 ; (+ 1 2)
-; 
+;
 ; What macros offer is a way of getting code generated this way into
 ; your programs.  Here&#39;s a (rather stupid) macro definition:
-; 
-; arc&gt; (mac foo () 
+;
+; arc&gt; (mac foo ()
 ;        (list &#39;+ 1 2))
 ; *** redefining foo
 ; #3(tagged mac #&lt;procedure&gt;)
-; 
+;
 ; Notice that a macro definition looks exactly like a function
-; definition, but with def replaced by mac.  
-; 
+; definition, but with def replaced by mac.
+;
 ; What this macro says is that whenever the expression (foo) occurs
 ; in your code, it shouldn&#39;t be evaluated in the normal way like a
 ; function call.  Instead it should be replaced by the result of
 ; evaluating the body of the macro definition, (list &#39;+ 1 2).
 ; This is called the &quot;expansion&quot; of the macro call.</code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/bel.html">Bel</a></div><code class="scrollCodeBlock">; A macro is essentially a function that generates code. I would have 
+<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/bel.html">Bel</a></div><code class="scrollCodeBlock">; A macro is essentially a function that generates code. I would have
 ; liked the first example of a macro to be something simpler, but fn
-; is the one we need first. So I&#39;ll introduce macros using a simpler 
+; is the one we need first. So I&#39;ll introduce macros using a simpler
 ; macro that isn&#39;t part of Bel, then explain fn.
 ; Here is a very simple macro:
 (mac nilwith (x)

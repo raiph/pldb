@@ -702,7 +702,7 @@ IntPtr pointer = System.Runtime.InteropServices.Marshal.AllocHGlobal(16);</pre><
 <tr><td><a href="../features/hasAsyncAwait.html">Async Await</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
-<td><pre>public async Task<int> FindPageSize(Uri uri) 
+<td><pre>public async Task<int> FindPageSize(Uri uri)
 {
     byte[] data = await new WebClient().DownloadDataTaskAsync(uri);
     return data.Length;

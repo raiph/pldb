@@ -26,7 +26,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
  }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
- while (int x = foo(); x &gt; 0) 
+ while (int x = foo(); x &gt; 0)
  {
    sum += x;
  }

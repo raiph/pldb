@@ -390,7 +390,7 @@ li.scrollParagraph {
 <li >Read more about Oberon-2 on Semantic Scholar: <a href="https://semanticscholar.org/paper/0279ae521a3f0c16e53259cf62f83739931fbc50">1.</a></li>
 <li >Read more about Oberon-2 on the web: <a href="https://dl.acm.org/doi/pdf/10.1145/157352.157355">1.</a></li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/o/Oberon 2.obn'>hello-world</a>:</div><code class="scrollCodeBlock">MODULE HelloWorld;                     
+<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/o/Oberon 2.obn'>hello-world</a>:</div><code class="scrollCodeBlock">MODULE HelloWorld;
 IMPORT Out;
 BEGIN
   Out.String( &quot;Hello World&quot; );
@@ -425,7 +425,7 @@ Statement     = [ Designator &quot;:=&quot; Expr
               | WITH Guard DO StatementSeq {&quot;|&quot; Guard DO StatementSeq} [ELSE StatementSeq] END
               | EXIT
               | RETURN [Expr]
-      ].	
+      ].
 Case          = [CaseLabels {&quot;,&quot; CaseLabels} &quot;:&quot; StatementSeq].
 CaseLabels    = ConstExpr [&quot;..&quot; ConstExpr].
 Guard         = Qualident &quot;:&quot; Qualident.

@@ -397,7 +397,7 @@ param columns := 8;
 set I   := { 1 .. columns };
 set IxI := I * I;
 
-set TABU[&lt;i,j&gt; in IxI] := { &lt;m,n&gt; in IxI with 
+set TABU[&lt;i,j&gt; in IxI] := { &lt;m,n&gt; in IxI with
    (m != i or n != j) and (m == i or n == j or abs(m - i) == abs(n - j)) };
 
 var x[IxI] binary;

@@ -62,7 +62,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/perl.html">
     say &quot;Name is $first $last&quot;;
  }
  my &amp;surname-smith = &amp;first-and-last.assuming( *, &#39;Smith&#39; );
- &amp;surname-smith.( &#39;Joe&#39; ); # OUTPUT: «Name is Joe Smith␤» 
+ &amp;surname-smith.( &#39;Joe&#39; ); # OUTPUT: «Name is Joe Smith␤»
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scala.html">Scala</a>
  def add(x: Int, y: Int) = {x+y}; add(1, _: Int)

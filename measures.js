@@ -21,8 +21,8 @@ const measures = [
   },
   {
     "Name": "creators",
-    "Values": 6400,
-    "Coverage": "132%",
+    "Values": 6590,
+    "Coverage": "136%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
     "Type": "string",
@@ -3593,8 +3593,8 @@ const measures = [
     "Values": 24275,
     "Coverage": "500%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
-    "Example": "2015",
-    "Type": "string",
+    "Example": "false",
+    "Type": "boolean",
     "SortIndex": 1000,
     "IsComputed": true
   },

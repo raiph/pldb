@@ -414,9 +414,9 @@ gw -&gt; SR2SetChecksum -&gt; [0] output;
 set_gw :: SR2SetGateway(SEL gw);
 
 
-es :: SR2ETTStat(ETHTYPE 0x0641, 
-	      ETH $wireless_mac, 
-	      IP $sr2_ip, 
+es :: SR2ETTStat(ETHTYPE 0x0641,
+	      ETH $wireless_mac,
+	      IP $sr2_ip,
 	      PERIOD 30000,
 	      TAU 300000,
 	      ARP arp,
@@ -428,32 +428,32 @@ es :: SR2ETTStat(ETHTYPE 0x0641,
 metric :: SR2ETTMetric(LT lt);
 
 
-forwarder :: SR2Forwarder(ETHTYPE 0x0643, 
-			      IP $sr2_ip, 
-			      ETH $wireless_mac, 
-			      ARP arp, 
+forwarder :: SR2Forwarder(ETHTYPE 0x0643,
+			      IP $sr2_ip,
+			      ETH $wireless_mac,
+			      ARP arp,
 			      LT lt);
 
 
-querier :: SR2Querier(ETH $wireless_mac, 
+querier :: SR2Querier(ETH $wireless_mac,
 		     SR forwarder,
-		     LT lt, 
+		     LT lt,
 		     ROUTE_DAMPENING true,
 		     TIME_BEFORE_SWITCH 5,
 		     DEBUG true);
 
 
 query_forwarder :: SR2MetricFlood(ETHTYPE 0x0644,
-			       IP $sr2_ip, 
-			       ETH $wireless_mac, 
-			       LT lt, 
+			       IP $sr2_ip,
+			       ETH $wireless_mac,
+			       LT lt,
 			       ARP arp,
 			       DEBUG false);
 
 query_responder :: SR2QueryResponder(ETHTYPE 0x0645,
-				    IP $sr2_ip, 
-				    ETH $wireless_mac, 
-				    LT lt, 
+				    IP $sr2_ip,
+				    ETH $wireless_mac,
+				    LT lt,
 				    ARP arp,
 				    DEBUG true);
 
@@ -462,9 +462,9 @@ query_responder -&gt; SR2SetChecksum -&gt; [0] output;
 query_forwarder -&gt; SR2SetChecksum -&gt; SR2Print(forwarding) -&gt; [0] output;
 query_forwarder [1] -&gt; query_responder;
 
-data_ck :: SR2SetChecksum() 
+data_ck :: SR2SetChecksum()
 
-input [1] 
+input [1]
 -&gt; host_cl :: IPClassifier(dst net $sr2_ip mask $sr2_nm,
 				-)
 -&gt; querier
@@ -473,15 +473,15 @@ input [1]
 
 host_cl [1] -&gt; [0] set_gw [0] -&gt; querier;
 
-forwarder[0] 
+forwarder[0]
   -&gt; dt ::DecIPTTL
   -&gt; data_ck
   -&gt; [2] output;
 
 
-dt[1] 
--&gt; Print(ttl-error) 
--&gt; ICMPError($sr2_ip, timeexceeded, 0) 
+dt[1]
+-&gt; Print(ttl-error)
+-&gt; ICMPError($sr2_ip, timeexceeded, 0)
 -&gt; querier;
 
 

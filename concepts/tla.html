@@ -483,7 +483,7 @@ SafetyInvariant ==   \* Some more comprehensive checks beyond the type invariant
                 /\ PersonState[p].destination = f
     /\ \A p \in Person :    \* A person is in an elevator only if the elevator is moving toward their destination floor
         /\ \A e \in Elevator :
-            /\ (PersonState[p].location = e /\ ElevatorState[e].floor /= PersonState[p].destination) =&gt; 
+            /\ (PersonState[p].location = e /\ ElevatorState[e].floor /= PersonState[p].destination) =&gt;
                 /\ ElevatorState[e].direction = GetDirection[ElevatorState[e].floor, PersonState[p].destination]
     /\ \A c \in ActiveElevatorCalls : PeopleWaiting[c.floor, c.direction] /= {} \* No ghost calls
 
@@ -598,7 +598,7 @@ DispatchElevator(c) ==
             \/ GetDirection[ElevatorState[e].floor, c.floor] = c.direction } IN
     /\ c \in ActiveElevatorCalls
     /\ stationary \cup approaching /= {}
-    /\ ElevatorState&#39; = 
+    /\ ElevatorState&#39; =
         LET closest == CHOOSE e \in stationary \cup approaching :
             /\ \A e2 \in stationary \cup approaching :
                 /\ GetDistance[ElevatorState[e].floor, c.floor] &lt;= GetDistance[ElevatorState[e2].floor, c.floor] IN

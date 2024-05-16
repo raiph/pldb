@@ -399,7 +399,7 @@ li.scrollParagraph {
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
- * 
+ *
  * Author - Sven Efftinge
  *******************************************************************************/
 package example6
@@ -414,7 +414,7 @@ class Movies {
 	
 	/**
 	 * @return the total number of action movies
-	 */ 
+	 */
 	@Test def void numberOfActionMovies() {
 		assertEquals(828, movies.filter[categories.contains(&#39;Action&#39;)].size)
 	}
@@ -437,10 +437,10 @@ class Movies {
 	val movies = new FileReader(&#39;data.csv&#39;).readLines.map[ line |
 		val segments = line.split(&#39;  &#39;).iterator
 		return new Movie(
-			segments.next, 
-			Integer::parseInt(segments.next), 
-			Double::parseDouble(segments.next), 
-			Long::parseLong(segments.next), 
+			segments.next,
+			Integer::parseInt(segments.next),
+			Double::parseDouble(segments.next),
+			Long::parseLong(segments.next),
 			segments.toSet
 		)
 	]
@@ -451,7 +451,7 @@ class Movies {
 	int year
 	double rating
 	long numberOfVotes
-	Set&lt;String&gt; categories 
+	Set&lt;String&gt; categories
 }
 </code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Xtend'>Wikipedia</a>:</div><code class="scrollCodeBlock">def sayHello(String name) &#39;&#39;&#39;

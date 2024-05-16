@@ -421,7 +421,7 @@ predicate isNatList(l:List) {
 
 ghost method NatSumLemma(l:List, n:int)
 requires isNatList(l) &amp;&amp; n == sum(l)
-ensures n &gt;= 0 
+ensures n &gt;= 0
 {
   match l
     case Nil =&gt;

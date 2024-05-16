@@ -27,7 +27,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/aardvark.ht
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">Felix</a>
  match x with
-  | Some x =&gt; println$ x; 
+  | Some x =&gt; println$ x;
   | None =&gt; println &quot;NONE&quot;;
   endmatch;
 

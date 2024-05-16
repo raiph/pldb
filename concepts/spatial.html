@@ -403,7 +403,7 @@ li.scrollParagraph {
       val r = Reg[Int]
       
       // Loop over each element in SRAM
-      Foreach(16 by 1, 32 by 1){(i,j) =&gt; 
+      Foreach(16 by 1, 32 by 1){(i,j) =&gt;
         s(i,j) = i + j
       }
       // Store element into the register, based on the input arg
@@ -414,7 +414,7 @@ li.scrollParagraph {
     }
 
   }
-} </code></div>
+}</code></div>
 <div class="scrollSection"><h2 class="scrollParagraph">Language <a href="../lists/features.html">features</a></h2>
 </div>
 <table class="scrollTable"><thead><tr><th>Feature</th>

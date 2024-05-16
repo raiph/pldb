@@ -436,18 +436,18 @@ void main()
 }
 </code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/D_(programming_language)'>Wikipedia</a>:</div><code class="scrollCodeBlock">1 import std.stdio, std.algorithm, std.range, std.string;
- 2 
+ 2
  3 void main()
  4 {
  5     dstring[][dstring] signs2words;
- 6 
+ 6
  7     foreach(dchar[] w; lines(File(&quot;words.txt&quot;)))
  8     {
  9         w = w.chomp().toLower();
 10         immutable key = w.dup.sort().release().idup;
 11         signs2words[key] ~= w.idup;
 12     }
-13 
+13
 14     foreach(words; signs2words)
 15         if(words.length &gt; 1)
 16             writefln(words.join(&quot; &quot;));

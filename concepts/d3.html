@@ -401,15 +401,15 @@ li.scrollParagraph {
         .attr(&quot;width&quot;, 120)
         .attr(&quot;height&quot;, 120)
         .style(&quot;background-color&quot;, &quot;#D0D0D0&quot;);
-// Create SVG elements from data 
+// Create SVG elements from data
     svg.selectAll(&quot;circle&quot;)                  // create virtual circle template
       .data(countriesData)                   // bind data
     .enter()                                 // for each row in data...
-      .append(&quot;circle&quot;)                      // bind circle &amp; data row such that... 
+      .append(&quot;circle&quot;)                      // bind circle &amp; data row such that...
         .attr(&quot;id&quot;, function(d) { return d.name })            // set the circle&#39;s id according to the country name
-        .attr(&quot;cx&quot;, function(d) { return d.income / 1000  })  // set the circle&#39;s horizontal position according to income 
-        .attr(&quot;cy&quot;, function(d) { return d.life })            // set the circle&#39;s vertical position according to life expectancy 
-        .attr(&quot;r&quot;,  function(d) { return d.pop / 1000 *2 })   // set the circle&#39;s radius according to country&#39;s population 
+        .attr(&quot;cx&quot;, function(d) { return d.income / 1000  })  // set the circle&#39;s horizontal position according to income
+        .attr(&quot;cy&quot;, function(d) { return d.life })            // set the circle&#39;s vertical position according to life expectancy
+        .attr(&quot;r&quot;,  function(d) { return d.pop / 1000 *2 })   // set the circle&#39;s radius according to country&#39;s population
         .attr(&quot;fill&quot;, function(d) { return d.color });        // set the circle&#39;s color according to country&#39;s color</code></div>
 <div class="scrollKeyboardNav" style="display:none;"><a href="reason.html">reason.html</a> · d3.html · <a href="react-native.html">react-native.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return

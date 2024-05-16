@@ -406,7 +406,7 @@ hello()
 </code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/textmate/standard-ml.tmbundle'>Linguist</a>:</div><code class="scrollCodeBlock"> 
 signature LAZY_BASE =
-   sig 
+   sig
       type &#39;a lazy
       exception Undefined
       val force: &#39;a lazy -&gt; &#39;a
@@ -425,7 +425,7 @@ signature LAZY&#39; =
       val compare: (&#39;a * &#39;a -&gt; order) -&gt; &#39;a lazy * &#39;a lazy -&gt; order
       val map: (&#39;a -&gt; &#39;b) -&gt; &#39;a lazy -&gt; &#39;b lazy
 
-      structure Ops: 
+      structure Ops:
                    sig
                       val ! : &#39;a lazy -&gt; &#39;a (* force *)
                       val ? : &#39;a -&gt; &#39;a lazy (* inject *)

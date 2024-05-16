@@ -622,32 +622,32 @@ int result = (int)da + (int)db + (int)dc; //result == 9</pre></td>
 <tr><td><a href="../features/hasGotos.html">Gotos</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
-<td><pre>// C/C++ program to check if a number is 
-// even or not using goto statement 
-#include <iostream> 
-using namespace std; 
+<td><pre>// C/C++ program to check if a number is
+// even or not using goto statement
+#include <iostream>
+using namespace std;
   
-// function to check even or not 
-void checkEvenOrNot(int num) 
-{ 
-    if (num % 2 == 0) 
-        goto even; // jump to even 
+// function to check even or not
+void checkEvenOrNot(int num)
+{
+    if (num % 2 == 0)
+        goto even; // jump to even
     else
-        goto odd; // jump to odd 
+        goto odd; // jump to odd
   
-even: 
-    cout << num << " is evenn"; 
-    return; // return if even 
-odd: 
-    cout << num << " is oddn"; 
-} 
+even:
+    cout << num << " is evenn";
+    return; // return if even
+odd:
+    cout << num << " is oddn";
+}
   
-// Driver program to test above function 
-int main() 
-{ 
-    int num = 26; 
-    checkEvenOrNot(num); 
-    return 0; 
+// Driver program to test above function
+int main()
+{
+    int num = 26;
+    checkEvenOrNot(num);
+    return 0;
 }</pre></td>
 </tr>
 <tr><td><a href="../features/hasStructs.html">Structs</a></td>

@@ -432,22 +432,22 @@ li.scrollParagraph {
   }
 }</code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/textmate/java.tmbundle'>Linguist</a>:</div><code class="scrollCodeBlock">public class GeoUtils {
-	// generate a KML string given a page reference, call getContent() 
+	// generate a KML string given a page reference, call getContent()
 	// then cleanup the output.
-	public static string generateFromContent(PageReference pr) { 
-		string ret = &#39;&#39;; 
-		try {  
+	public static string generateFromContent(PageReference pr) {
+		string ret = &#39;&#39;;
+		try {
 	        ret = (string) pr.getContent().toString();
 			
-			ret = ret.replaceAll(&#39;&quot;&#39;,&#39;\&#39;&#39; ); // get content produces quote chars \&quot;  
+			ret = ret.replaceAll(&#39;&quot;&#39;,&#39;\&#39;&#39; ); // get content produces quote chars \&quot;
 	        ret = ret.replaceAll( &#39;&amp;&#39;,&#39;&amp;amp;&#39;);// we need to escape these in the node value
-        } catch (exception e ) { 
-        	system.debug( &#39;ERROR &#39;+e); 
+        } catch (exception e ) {
+        	system.debug( &#39;ERROR &#39;+e);
         }
    		
-   		ret = ret.replaceAll(&#39;\n&#39;,&#39; &#39;);	// must use ALL since many new line may get 
+   		ret = ret.replaceAll(&#39;\n&#39;,&#39; &#39;);	// must use ALL since many new line may get
         ret = ret.replaceAll(&#39;\r&#39;,&#39; &#39;);	// get these also!
-      //  system.debug( ret); // dump the KML 
+      //  system.debug( ret); // dump the KML
         return ret ;
 	}
 	
@@ -464,18 +464,18 @@ li.scrollParagraph {
         
 	public static string accountAddressString ( account acct ) {
     	// form an address string given an account object
-    	string adr = acct.billingstreet + &#39;,&#39; + acct.billingcity + &#39;,&#39; + acct.billingstate; 
-        if ( acct.billingpostalcode != null ) adr += &#39;,&#39; + acct.billingpostalcode; 
-        if ( acct.billingcountry != null ) adr += &#39;,&#39; + acct.billingcountry; 
+    	string adr = acct.billingstreet + &#39;,&#39; + acct.billingcity + &#39;,&#39; + acct.billingstate;
+        if ( acct.billingpostalcode != null ) adr += &#39;,&#39; + acct.billingpostalcode;
+        if ( acct.billingcountry != null ) adr += &#39;,&#39; + acct.billingcountry;
         adr = adr.replaceAll(&#39;\&quot;&#39;, &#39;&#39; );
         adr = adr.replaceAll(&#39;\&#39;&#39;, &#39;&#39; );
-        adr = adr.replaceAll( &#39;\n&#39;, &#39; &#39; );    
-        adr = adr.replaceAll( &#39;\r&#39;, &#39; &#39; );    
-        system.debug( adr );  
-        return adr;	
+        adr = adr.replaceAll( &#39;\n&#39;, &#39; &#39; );
+        adr = adr.replaceAll( &#39;\r&#39;, &#39; &#39; );
+        system.debug( adr );
+        return adr;
     }
     
-	public static testmethod void t1() { 
+	public static testmethod void t1() {
 		PageReference pageRef =  Page.kmlPreviewTemplate;
         Test.setCurrentPage(pageRef);
         system.assert ( GeoUtils.generateFromContent( pageRef ) != null );

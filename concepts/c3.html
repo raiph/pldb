@@ -403,7 +403,7 @@ struct Stack
 }
 
 // The type methods offers dot syntax calls,
-// so this function can either be called 
+// so this function can either be called
 // Stack.push(&amp;my_stack, ...) or
 // my_stack.push(...)
 fn void Stack.push(Stack* this, Type element)
@@ -439,7 +439,7 @@ fn bool Stack.empty(Stack* this)
 <tbody><tr><td><a href="../features/hasSwitch.html">Switch Statements</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
-<td><pre>switch(expression) 
+<td><pre>switch(expression)
 {
    case 1:
       do_something();
@@ -459,7 +459,7 @@ fn bool Stack.empty(Stack* this)
    int x;
    float y;
    String z;
-}  </pre></td>
+}</pre></td>
 </tr>
 <tr><td><a href="../features/hasStrings.html">Strings</a></td>
 <td><span class="hasFeature">✓</span></td>
@@ -480,7 +480,7 @@ String t = `I say "hello"`;</pre></td>
 <tr><td><a href="../features/hasWhileLoops.html">While Loops</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
-<td><pre>while (int x = foo(); x > 0) 
+<td><pre>while (int x = foo(); x > 0)
 {
   sum += x;
 }</pre></td>
@@ -509,7 +509,7 @@ String t = `I say "hello"`;</pre></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
 <td><pre>fn void foo_typed(int x, int... arg) { ... }
-fn void foo_untyped(int x, ...arg) 
+fn void foo_untyped(int x, ...arg)
 ...
 foo_typed(1, 2, 3);
 foo_untyped(1, "hello", 1.2);</pre></td>
@@ -545,7 +545,7 @@ foo(x[1]);</pre></td>
 <tr><td><a href="../features/hasMultiLineComments.html">MultiLine Comments</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td>/* */</td>
-<td><pre>/* 
+<td><pre>/*
   Multiline comment
 */</pre></td>
 </tr>
@@ -568,7 +568,7 @@ foo(x[1]);</pre></td>
 <td><pre>foreach (x : list)
 {
   foo(x);
-}  </pre></td>
+}</pre></td>
 </tr>
 <tr><td><a href="../features/hasMacros.html">Macros</a></td>
 <td><span class="hasFeature">✓</span></td>
@@ -585,11 +585,11 @@ foo(x[1]);</pre></td>
 {
   int x;
   float f;
-  struct 
+  struct
   {
     char[2] z;
-  }  
-}  </pre></td>
+  }
+}</pre></td>
 </tr>
 <tr><td><a href="../features/hasSingleTypeArrays.html">Single-Type Arrays</a></td>
 <td><span class="hasFeature">✓</span></td>
@@ -638,7 +638,7 @@ const void* BAR = null;</pre></td>
 <tr><td><a href="../features/hasDefaultParameters.html">Default Parameters Pattern</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
-<td><pre>fn void test(int x = 10) { ... }  </pre></td>
+<td><pre>fn void test(int x = 10) { ... }</pre></td>
 </tr>
 <tr><td><a href="../features/hasAssertStatements.html">Assert Statements</a></td>
 <td><span class="hasFeature">✓</span></td>
@@ -690,7 +690,7 @@ int x = (int)d;</pre></td>
 <td><pre>fn void print(String s)
 {
    io::printfn("Said: %s", s);
-}  
+}
 macro @foo(bool run, #lazy)
 {
   if (run) #lazy;
@@ -785,7 +785,7 @@ int[] slice2 = array[0:6]; // start:length</pre></td>
 <tr><td><a href="../features/hasBitWiseOperators.html">Bitwise Operators</a></td>
 <td><span class="hasFeature">✓</span></td>
 <td></td>
-<td><pre>int i = b << 4 + x; // Same as (b << 4) + x  </pre></td>
+<td><pre>int i = b << 4 + x; // Same as (b << 4) + x</pre></td>
 </tr>
 <tr><td><a href="../features/hasBooleans.html">Booleans</a></td>
 <td><span class="hasFeature">✓</span></td>

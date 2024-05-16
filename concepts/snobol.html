@@ -406,7 +406,7 @@ END
            NameCount = 0                                            :(GETINPUT)
  AGAIN     NameCount = NameCount + 1
            OUTPUT = &quot;Name &quot; NameCount &quot;: &quot; PersonalName
- GETINPUT  OUTPUT = &quot;Please give me name &quot; NameCount + 1 
+ GETINPUT  OUTPUT = &quot;Please give me name &quot; NameCount + 1
            PersonalName = INPUT
            PersonalName LEN(1)                                      :S(AGAIN)
            OUTPUT = &quot;Finished. &quot; NameCount &quot; names requested.&quot;

@@ -399,7 +399,7 @@ def add(X, Y, Z, N):
    # block of indices
    idx = pid * BLOCK + arange(BLOCK)
    mask = idx &lt; N
-   # Triton uses pointer arithmetics  
+   # Triton uses pointer arithmetics
    # rather than indexing operators
    x = load(X + idx, mask=mask)
    y = load(Y + idx, mask=mask)

@@ -386,14 +386,14 @@ li.scrollParagraph {
 <li >See also: (3 related languages)<a href="xml.html">XML</a>, <a href="soap.html">SOAP</a>, <a href="bpel.html">BPEL</a></li></ul>
 <br>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Web_Services_Description_Language'>Wikipedia</a>:</div><code class="scrollCodeBlock">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;description xmlns=&quot;http://www.w3.org/ns/wsdl&quot; 
-             xmlns:tns=&quot;http://www.tmsws.com/wsdl20sample&quot; 
+&lt;description xmlns=&quot;http://www.w3.org/ns/wsdl&quot;
+             xmlns:tns=&quot;http://www.tmsws.com/wsdl20sample&quot;
              xmlns:whttp=&quot;http://schemas.xmlsoap.org/wsdl/http/&quot;
              xmlns:wsoap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot;
              targetNamespace=&quot;http://www.tmsws.com/wsdl20sample&quot;&gt;
 
 &lt;documentation&gt;
-    This is a sample WSDL 2.0 document. 
+    This is a sample WSDL 2.0 document.
 &lt;/documentation&gt;
 
 &lt;!-- Abstract type --&gt;
@@ -417,14 +417,14 @@ li.scrollParagraph {
    &lt;/interface&gt;
 
 &lt;!-- Concrete Binding Over HTTP --&gt;
-   &lt;binding name=&quot;HttpBinding&quot; interface=&quot;tns:Interface1&quot; 
+   &lt;binding name=&quot;HttpBinding&quot; interface=&quot;tns:Interface1&quot;
             type=&quot;http://www.w3.org/ns/wsdl/http&quot;&gt;
       &lt;operation ref=&quot;tns:Get&quot; whttp:method=&quot;GET&quot;/&gt;
    &lt;/binding&gt;
    
 &lt;!-- Concrete Binding with SOAP--&gt;
-   &lt;binding name=&quot;SoapBinding&quot; interface=&quot;tns:Interface1&quot; 
-            type=&quot;http://www.w3.org/ns/wsdl/soap&quot; 
+   &lt;binding name=&quot;SoapBinding&quot; interface=&quot;tns:Interface1&quot;
+            type=&quot;http://www.w3.org/ns/wsdl/soap&quot;
             wsoap:protocol=&quot;http://www.w3.org/2003/05/soap/bindings/HTTP/&quot;
             wsoap:mepDefault=&quot;http://www.w3.org/2003/05/soap/mep/request-response&quot;&gt;
       &lt;operation ref=&quot;tns:Get&quot; /&gt;
@@ -432,11 +432,11 @@ li.scrollParagraph {
 
 &lt;!-- Web Service offering endpoints for both bindings--&gt;
    &lt;service name=&quot;Service1&quot; interface=&quot;tns:Interface1&quot;&gt;
-      &lt;endpoint name=&quot;HttpEndpoint&quot; 
-                binding=&quot;tns:HttpBinding&quot; 
+      &lt;endpoint name=&quot;HttpEndpoint&quot;
+                binding=&quot;tns:HttpBinding&quot;
                 address=&quot;http://www.example.com/rest/&quot;/&gt;
-      &lt;endpoint name=&quot;SoapEndpoint&quot; 
-                binding=&quot;tns:SoapBinding&quot; 
+      &lt;endpoint name=&quot;SoapEndpoint&quot;
+                binding=&quot;tns:SoapBinding&quot;
                 address=&quot;http://www.example.com/soap/&quot;/&gt;
    &lt;/service&gt;
 &lt;/description&gt;</code></div>

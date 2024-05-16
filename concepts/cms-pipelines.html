@@ -385,9 +385,9 @@ li.scrollParagraph {
 <li >CMS Pipelines first developed in <a href="../lists/originCommunities.html#q=IBM">IBM</a></li>
 <li >Read more about CMS Pipelines on the web: <a href="https://www-01.ibm.com/support/docview.wss?uid=pub1sl26001805">1.</a></li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">PIPE (end ?) 
-   &lt; input txt 
- | a: locate /Hello/ 
+<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">PIPE (end ?)
+   &lt; input txt
+ | a: locate /Hello/
  | insert / World!/ after
  | i: faninany
  | &gt; newfile txt a

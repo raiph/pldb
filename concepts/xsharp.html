@@ -384,25 +384,25 @@ li.scrollParagraph {
 <ul ><li ><a href="https://www.xsharp.info">xsharp website</a></li>
 <li ><a href="https://www.xsharp.info">xsharp.info</a> was registered in 2015</li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">FUNCTION start AS VOID 
+<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">FUNCTION start AS VOID
  LOCAL oErr AS OBJECT
  LOCAL nI AS LONG
  LOCAL f AS FLOAT
- oErr := Error{} 
+ oErr := Error{}
  f := Seconds()
  nI := 0
  FOR VAR nX := 1 TO 10_000_000
     IF IsInstanceOf(oErr, #Error)
        nI++
     ENDIF
- NEXT 
+ NEXT
  ? Seconds() - f, nI
  f := Seconds()
  FOR VAR nX := 1 TO 10_000_000
     IF oErr IS Error
        nI++
     ENDIF
- NEXT 
+ NEXT
  ? Seconds() - f, nI
  WAIT</code></div>
 <div class="scrollKeyboardNav" style="display:none;"><a href="xmpp-protocol.html">xmpp-protocol.html</a> · xsharp.html · <a href="8th.html">8th.html</a><script>document.addEventListener('keydown', function(event) {

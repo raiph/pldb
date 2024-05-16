@@ -397,8 +397,8 @@ const
 
   //  warning: you must use the same unicode math chars in case statements later in arithmetic()
   KEYCAPS = [ &#39;C&#39;, &#39;±&#39;, &#39;%&#39;, &#39;÷&#39;,  //  tried \u207A\u2215\u208B instead of ± but it is ugly
-        &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;x&#39;, 
-        &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;−&#39;, // \u2212 is the minus sign 
+        &#39;1&#39;, &#39;2&#39;, &#39;3&#39;, &#39;x&#39;,
+        &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;−&#39;, // \u2212 is the minus sign
         &#39;7&#39;, &#39;8&#39;, &#39;9&#39;, &#39;+&#39;,
         &#39;&#39;, &#39;0&#39;, &#39;.&#39;, &#39;=&#39;]  // &#39;⌫&#39; is U+232B, for future undo key
 
@@ -431,7 +431,7 @@ calc main_init
 
 vert slice main_draw
   var cellsize = if b.box.width &gt; b.box.height then b.box.height/8 else b.box.width/4
-  var result_v = cellsize*2  //  need to enhance compiler so that expressions don&#39;t get converted 
+  var result_v = cellsize*2  //  need to enhance compiler so that expressions don&#39;t get converted
   var keys_v = cellsize*5
   var keys_maxh = min(b.box.width, cellsize*8)  // don&#39;t go wider than 8 squares wide (double)
   draw_rect(b.box, fill:#121F30)
@@ -505,7 +505,7 @@ track EV_TAP
 
   else
     //  must be a digit
-    add_digit(KEYCAPS[b.cell_seq])  
+    add_digit(KEYCAPS[b.cell_seq])
 
 // calc do_backspace
 //  log &quot;backspace&quot;
@@ -624,10 +624,10 @@ calc do_arith(
     //  multiple operators in a row, rewrite the previous operator
     g.terms[g.termx-1].op = operand
   else
-    //  we did have a term, advance to the next term 
+    //  we did have a term, advance to the next term
     g.terms[g.termx].op = operand
     inc g.termx
-    g.terms[g.termx].ss = &quot;&quot; // empty term </code></div>
+    g.terms[g.termx].ss = &quot;&quot; // empty term</code></div>
 <div class="scrollSection"><h2 class="scrollParagraph">Language <a href="../lists/features.html">features</a></h2>
 </div>
 <table class="scrollTable"><thead><tr><th>Feature</th>

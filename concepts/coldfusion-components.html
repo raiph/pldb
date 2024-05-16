@@ -385,63 +385,63 @@ li.scrollParagraph {
 <li ><a href="pygments.html">Pygments</a> supports <a href="https://github.com/pygments/pygments/blob/master/pygments/lexers/templates.py">syntax highlighting</a> for ColdFusion Components</li>
 <li >Read more about ColdFusion Components on the web: <a href="https://helpx.adobe.com/coldfusion/developing-applications/building-blocks-of-coldfusion-applications/building-and-using-coldfusion-components.html">1.</a> <a href="https://helpx.adobe.com/coldfusion/developing-applications/building-blocks-of-coldfusion-applications/building-and-using-coldfusion-components/cfc-variables-and-scope.html">2.</a></li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">&lt;cfcomponent&gt; 
-&lt;cffunction name=&quot;allemployees&quot; access=&quot;public&quot; output=&quot;false&quot; 
-returntype=&quot;query&quot;&gt; 
-&lt;cfset var getNames=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;getNames&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-SELECT * FROM Employee 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
-&lt;cffunction name=&quot;namesalarycontract&quot; access=&quot;public&quot; output=&quot;false&quot; 
-returntype=&quot;query&quot;&gt; 
-&lt;cfset var EmpList=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;EmpList&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-SELECT Firstname, Lastname, Salary, Contract 
-FROM Employee 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
-&lt;cffunction name=&quot;fullname&quot; access=&quot;public&quot; output=&quot;false&quot; 
-returntype=&quot;query&quot;&gt; 
-&lt;cfset var engquery=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;engquery&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-SELECT FirstName || &#39; &#39; || LastName AS FullName 
-FROM Employee 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
-&lt;cffunction name=&quot;bydept&quot; access=&quot;public&quot; output=&quot;false&quot; returntype=&quot;query&quot;&gt; 
-&lt;cfset var deptquery=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;deptquery&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-SELECT Dept_ID, FirstName || &#39; &#39; || LastName 
-AS FullName 
-FROM Employee 
-ORDER BY Dept_ID 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
-&lt;cffunction name=&quot;employeebyURLID&quot; access=&quot;public&quot; output=&quot;false&quot; 
-returntype=&quot;query&quot;&gt; 
-&lt;cfset var GetRecordtoUpdate=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;GetRecordtoUpdate&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-SELECT * FROM Employee 
-WHERE Emp_ID = #URL.Emp_ID# 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
-&lt;cffunction name=&quot;deleteemployee&quot; access=&quot;public&quot; output=&quot;false&quot; 
-returntype=&quot;void&quot;&gt; 
-&lt;cfset var DeleteEmployee=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;DeleteEmployee&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-DELETE FROM Employee 
-WHERE Emp_ID = #Form.Emp_ID# 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
-&lt;cffunction name=&quot;distinctlocs&quot;access=&quot;public&quot; output=&quot;false&quot; 
-returntype=&quot;query&quot;&gt; 
-&lt;cfset var GetDepartments=&quot;&quot;&gt; 
-&lt;cfquery name=&quot;GetDepartments&quot; datasource=&quot;cfdocexamples&quot;&gt; 
-SELECT DISTINCT Location 
-FROM Departmt 
-&lt;/cfquery&gt; 
-&lt;/cffunction&gt; 
+<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">&lt;cfcomponent&gt;
+&lt;cffunction name=&quot;allemployees&quot; access=&quot;public&quot; output=&quot;false&quot;
+returntype=&quot;query&quot;&gt;
+&lt;cfset var getNames=&quot;&quot;&gt;
+&lt;cfquery name=&quot;getNames&quot; datasource=&quot;cfdocexamples&quot;&gt;
+SELECT * FROM Employee
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
+&lt;cffunction name=&quot;namesalarycontract&quot; access=&quot;public&quot; output=&quot;false&quot;
+returntype=&quot;query&quot;&gt;
+&lt;cfset var EmpList=&quot;&quot;&gt;
+&lt;cfquery name=&quot;EmpList&quot; datasource=&quot;cfdocexamples&quot;&gt;
+SELECT Firstname, Lastname, Salary, Contract
+FROM Employee
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
+&lt;cffunction name=&quot;fullname&quot; access=&quot;public&quot; output=&quot;false&quot;
+returntype=&quot;query&quot;&gt;
+&lt;cfset var engquery=&quot;&quot;&gt;
+&lt;cfquery name=&quot;engquery&quot; datasource=&quot;cfdocexamples&quot;&gt;
+SELECT FirstName || &#39; &#39; || LastName AS FullName
+FROM Employee
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
+&lt;cffunction name=&quot;bydept&quot; access=&quot;public&quot; output=&quot;false&quot; returntype=&quot;query&quot;&gt;
+&lt;cfset var deptquery=&quot;&quot;&gt;
+&lt;cfquery name=&quot;deptquery&quot; datasource=&quot;cfdocexamples&quot;&gt;
+SELECT Dept_ID, FirstName || &#39; &#39; || LastName
+AS FullName
+FROM Employee
+ORDER BY Dept_ID
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
+&lt;cffunction name=&quot;employeebyURLID&quot; access=&quot;public&quot; output=&quot;false&quot;
+returntype=&quot;query&quot;&gt;
+&lt;cfset var GetRecordtoUpdate=&quot;&quot;&gt;
+&lt;cfquery name=&quot;GetRecordtoUpdate&quot; datasource=&quot;cfdocexamples&quot;&gt;
+SELECT * FROM Employee
+WHERE Emp_ID = #URL.Emp_ID#
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
+&lt;cffunction name=&quot;deleteemployee&quot; access=&quot;public&quot; output=&quot;false&quot;
+returntype=&quot;void&quot;&gt;
+&lt;cfset var DeleteEmployee=&quot;&quot;&gt;
+&lt;cfquery name=&quot;DeleteEmployee&quot; datasource=&quot;cfdocexamples&quot;&gt;
+DELETE FROM Employee
+WHERE Emp_ID = #Form.Emp_ID#
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
+&lt;cffunction name=&quot;distinctlocs&quot;access=&quot;public&quot; output=&quot;false&quot;
+returntype=&quot;query&quot;&gt;
+&lt;cfset var GetDepartments=&quot;&quot;&gt;
+&lt;cfquery name=&quot;GetDepartments&quot; datasource=&quot;cfdocexamples&quot;&gt;
+SELECT DISTINCT Location
+FROM Departmt
+&lt;/cfquery&gt;
+&lt;/cffunction&gt;
 &lt;/cfcomponent&gt;</code></div>
 <div class="scrollKeyboardNav" style="display:none;"><a href="cmix.html">cmix.html</a> · coldfusion-components.html · <a href="combined-log-format.html">combined-log-format.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return

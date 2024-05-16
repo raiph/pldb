@@ -387,7 +387,7 @@ li.scrollParagraph {
   require.config({ paths: { vs: '../node_modules/monaco-editor/min/vs' } })
   require(["vs/editor/editor.main"], function() {
     monaco.editor.create(document.getElementById('monacoContainer'), {
-        value: `"Hello World"             // a text value \n123                       // a number \n1 + 2                     // sum of two numbers \n{1, 2, 3}                 // a list of three numbers \n[ x = 1, y = 2 + 3 ]      // a record containing two fields: \n                          //        x and y \n(x, y) => x + y           // a function that computes a sum \nif 2 > 1 then 2 else 1    // a conditional expression \nlet x = 1 + 1  in x * 2   // a let expression \nerror "A"                 // error with message "A"`,
+        value: `"Hello World"             // a text value\n123                       // a number\n1 + 2                     // sum of two numbers\n{1, 2, 3}                 // a list of three numbers\n[ x = 1, y = 2 + 3 ]      // a record containing two fields:\n                          //        x and y\n(x, y) => x + y           // a function that computes a sum\nif 2 > 1 then 2 else 1    // a conditional expression\nlet x = 1 + 1  in x * 2   // a let expression\nerror "A"                 // error with message "A"`,
         language: 'powerquery',
         minimap: {
           enabled: false
@@ -417,22 +417,22 @@ li.scrollParagraph {
 <li ><a href="monaco.html">Monaco</a> <a href="https://github.com/microsoft/monaco-editor/tree/main/src/basic-languages/powerquery">package</a> for syntax highlighting PowerQuery M</li>
 <li >Read more about PowerQuery M on the web: <a href="https://docs.microsoft.com/en-us/powerquery-m/power-query-m-type-system">1.</a></li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">&quot;Hello World&quot;             // a text value 
-123                       // a number 
-1 + 2                     // sum of two numbers 
-{1, 2, 3}                 // a list of three numbers 
-[ x = 1, y = 2 + 3 ]      // a record containing two fields: 
-                          //        x and y 
-(x, y) =&gt; x + y           // a function that computes a sum 
-if 2 &gt; 1 then 2 else 1    // a conditional expression 
-let x = 1 + 1  in x * 2   // a let expression 
+<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">&quot;Hello World&quot;             // a text value
+123                       // a number
+1 + 2                     // sum of two numbers
+{1, 2, 3}                 // a list of three numbers
+[ x = 1, y = 2 + 3 ]      // a record containing two fields:
+                          //        x and y
+(x, y) =&gt; x + y           // a function that computes a sum
+if 2 &gt; 1 then 2 else 1    // a conditional expression
+let x = 1 + 1  in x * 2   // a let expression
 error &quot;A&quot;                 // error with message &quot;A&quot;</code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">let Orders = Table.FromRecords({  
-    [OrderID = 1, CustomerID = 1, Item = &quot;fishing rod&quot;, Price = 100.0],  
-    [OrderID = 2, CustomerID = 1, Item = &quot;1 lb. worms&quot;, Price = 5.0],  
-    [OrderID = 3, CustomerID = 2, Item = &quot;fishing net&quot;, Price = 25.0]}),  
-    #&quot;Capitalized Each Word&quot; = Table.TransformColumns(Orders, {&quot;Item&quot;, Text.Proper})  
-in  
+<div class="codeWithHeader"><div class="codeHeader">Example from the web:</div><code class="scrollCodeBlock">let Orders = Table.FromRecords({
+    [OrderID = 1, CustomerID = 1, Item = &quot;fishing rod&quot;, Price = 100.0],
+    [OrderID = 2, CustomerID = 1, Item = &quot;1 lb. worms&quot;, Price = 5.0],
+    [OrderID = 3, CustomerID = 2, Item = &quot;fishing net&quot;, Price = 25.0]}),
+    #&quot;Capitalized Each Word&quot; = Table.TransformColumns(Orders, {&quot;Item&quot;, Text.Proper})
+in
     #&quot;Capitalized Each Word&quot;</code></div>
 <div class="keywordsBlock">
 <div class="codeWithHeader"><div class="codeHeader">PowerQuery M <a href="../lists/keywords.html#q=undefined">Keywords</a></div><code class="scrollCodeBlock">as each else error false if in is let meta otherwise section shared then true try type</code></div>

@@ -377,7 +377,7 @@ li.scrollParagraph {
 <div class="scrollColumns" style="column-width:90ch;column-count:1;max-width:90ch;">
 <div class="trueBaseThemeQuickLinks"><a href="https://jtree.treenotation.org/designer#url%20https%3A%2F%2Fpldb.io%2Fpldb.grammar%0AprogramUrl%20https%3A%2F%2Fpldb.io%2Fconcepts%2Fspin.scroll" class="material-symbols-outlined">edit</a></div>
 <p class="scrollParagraph">Spin is a <a href="../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22tags%22%2C%22origData%22%3A%22tags%22%2C%22tags%22%3A%22string%22%2C%22value%22%3A%5B%22pl%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D">programming language</a> created in <a href="../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22appeared%22%2C%22origData%22%3A%22appeared%22%2C%22tags%22%3A%22num%22%2C%22value%22%3A%5B%222006%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D">2006</a>.</p>
-<table class="scrollDashboard"><tr><td>#607<span><span title="">on PLDB</span></span></td>
+<table class="scrollDashboard"><tr><td>#608<span><span title="">on PLDB</span></span></td>
 <td>18<span>Years Old</span></td>
 <td>38k<span><span title="Spin repos on GitHub.">Repos</span></span></td></tr>
 </table>
@@ -414,7 +414,7 @@ PUB init(pin, baud, lines) : okay
 &#39;&#39; Initializes serial LCD object
 &#39;&#39; -- returns true if all parameters okay
 
-  okay := lcd.init(pin, baud, lines) 
+  okay := lcd.init(pin, baud, lines)
 
 
 PUB finalize
@@ -442,22 +442,22 @@ PUB dec(value)
 
 &#39;&#39; Print a signed decimal number
 
-  lcd.str(num.dec(value))  
+  lcd.str(num.dec(value))
 
 
-PUB decf(value, width) 
+PUB decf(value, width)
 
 &#39;&#39; Prints signed decimal value in space-padded, fixed-width field
 
-  lcd.str(num.decf(value, width))   
+  lcd.str(num.decf(value, width))
   
 
-PUB decx(value, digits) 
+PUB decx(value, digits)
 
 &#39;&#39; Prints zero-padded, signed-decimal string
 &#39;&#39; -- if value is negative, field width is digits+1
 
-  lcd.str(num.decx(value, digits)) 
+  lcd.str(num.decx(value, digits))
 
 
 PUB hex(value, digits)
@@ -471,7 +471,7 @@ PUB ihex(value, digits)
 
 &#39;&#39; Print an indicated hexadecimal number
 
-  lcd.str(num.ihex(value, digits))   
+  lcd.str(num.ihex(value, digits))
 
 
 PUB bin(value, digits)
@@ -485,14 +485,14 @@ PUB ibin(value, digits)
 
 &#39;&#39; Print an indicated (%) binary number
 
-  lcd.str(num.ibin(value, digits))     
+  lcd.str(num.ibin(value, digits))
     
 
 PUB cls
 
 &#39;&#39; Clears LCD and moves cursor to home (0, 0) position
 
-  lcd.cls 
+  lcd.cls
 
 
 PUB home
@@ -519,9 +519,9 @@ PUB clrln(line)
 PUB cursor(type)
 
 &#39;&#39; Selects cursor type
-&#39;&#39;   0 : cursor off, blink off  
-&#39;&#39;   1 : cursor off, blink on   
-&#39;&#39;   2 : cursor on, blink off  
+&#39;&#39;   0 : cursor off, blink off
+&#39;&#39;   1 : cursor off, blink on
+&#39;&#39;   2 : cursor on, blink off
 &#39;&#39;   3 : cursor on, blink on
 
   lcd.cursor(type)
@@ -555,9 +555,9 @@ PUB backLight(status)
 {{
 
 ┌──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                   TERMS OF USE: MIT License                                                  │                                                            
+│                                                   TERMS OF USE: MIT License                                                  │
 ├──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation    │ 
+│Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation    │
 │files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy,    │
 │modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software│
 │is furnished to do so, subject to the following conditions:                                                                   │
@@ -569,7 +569,7 @@ PUB backLight(status)
 │COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,   │
 │ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                         │
 └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
-}}  </code></div>
+}}</code></div>
 <div class="scrollSection"><h2 class="scrollParagraph">Language <a href="../lists/features.html">features</a></h2>
 </div>
 <table class="scrollTable"><thead><tr><th>Feature</th>

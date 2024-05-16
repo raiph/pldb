@@ -12,32 +12,32 @@ html
 mediumColumns 1
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
- // C/C++ program to check if a number is 
- // even or not using goto statement 
- #include &lt;iostream&gt; 
- using namespace std; 
+ // C/C++ program to check if a number is
+ // even or not using goto statement
+ #include &lt;iostream&gt;
+ using namespace std;
    
- // function to check even or not 
- void checkEvenOrNot(int num) 
- { 
-     if (num % 2 == 0) 
-         goto even; // jump to even 
+ // function to check even or not
+ void checkEvenOrNot(int num)
+ {
+     if (num % 2 == 0)
+         goto even; // jump to even
      else
-         goto odd; // jump to odd 
+         goto odd; // jump to odd
    
- even: 
-     cout &lt;&lt; num &lt;&lt; &quot; is evenn&quot;; 
-     return; // return if even 
- odd: 
-     cout &lt;&lt; num &lt;&lt; &quot; is oddn&quot;; 
- } 
+ even:
+     cout &lt;&lt; num &lt;&lt; &quot; is evenn&quot;;
+     return; // return if even
+ odd:
+     cout &lt;&lt; num &lt;&lt; &quot; is oddn&quot;;
+ }
    
- // Driver program to test above function 
- int main() 
- { 
-     int num = 26; 
-     checkEvenOrNot(num); 
-     return 0; 
+ // Driver program to test above function
+ int main()
+ {
+     int num = 26;
+     checkEvenOrNot(num);
+     return 0;
  }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>

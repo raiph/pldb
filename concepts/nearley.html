@@ -440,7 +440,7 @@ completeexpression -&gt; expr  {% function(d) { return {tokens: d[0]}; } %}
 expr_member -&gt;
       word {% id %}
     | &quot;TEMPLATEquot; word {% function(d) {return {mixin: d[1]}} %}
-    | word &quot;[&quot; expressionlist &quot;]&quot; {% function(d) {return {macrocall: d[0], args: d[2]}} %} 
+    | word &quot;[&quot; expressionlist &quot;]&quot; {% function(d) {return {macrocall: d[0], args: d[2]}} %}
     | string &quot;i&quot;:? {% function(d) { if (d[1]) {return insensitive(d[0]); } else {return d[0]; } } %}
     | &quot;%&quot; word {% function(d) {return {token: d[1]}} %}
     | charclass {% id %}

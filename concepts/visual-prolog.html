@@ -385,30 +385,30 @@ li.scrollParagraph {
 <li ><a href="https://hopl.info/showlanguage.prx?exp=3332">Visual Prolog on HOPL</a></li>
 <li >See also: (3 related languages)<a href="prolog.html">Prolog</a>, <a href="isbn.html">ISBN</a>, <a href="mercury.html">Mercury</a></li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Visual_Prolog'>Wikipedia</a>:</div><code class="scrollCodeBlock">class hanoi 
-   predicates 
-       hanoi : (unsigned N). 
-end class hanoi 
+<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Visual_Prolog'>Wikipedia</a>:</div><code class="scrollCodeBlock">class hanoi
+   predicates
+       hanoi : (unsigned N).
+end class hanoi
  
-implement hanoi 
-   domains 
-       pole = string. 
+implement hanoi
+   domains
+       pole = string.
  
-   clauses 
-       hanoi(N) :- move(N, &quot;left&quot;, &quot;centre&quot;, &quot;right&quot;). 
+   clauses
+       hanoi(N) :- move(N, &quot;left&quot;, &quot;centre&quot;, &quot;right&quot;).
  
-   class predicates 
-       move : (unsigned N, pole A, pole B, pole C). 
-   clauses 
-       move(0, _, _, _) :- !. 
-       move(N, A, B, C) :- 
-           move(N-1, A, C, B), 
-           stdio::writef(&quot;move a disc from % pole to the % pole\n&quot;, A, C), 
-           move(N-1, B, A, C). 
-end implement hanoi 
+   class predicates
+       move : (unsigned N, pole A, pole B, pole C).
+   clauses
+       move(0, _, _, _) :- !.
+       move(N, A, B, C) :-
+           move(N-1, A, C, B),
+           stdio::writef(&quot;move a disc from % pole to the % pole\n&quot;, A, C),
+           move(N-1, B, A, C).
+end implement hanoi
  
-goal 
-   console::init(), 
+goal
+   console::init(),
    hanoi::hanoi(4).</code></div>
 <div class="scrollKeyboardNav" style="display:none;"><a href="digital-command-language.html">digital-command-language.html</a> · visual-prolog.html · <a href="music-sp.html">music-sp.html</a><script>document.addEventListener('keydown', function(event) {
   if (document.activeElement !== document.body) return

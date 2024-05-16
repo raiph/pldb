@@ -1,7 +1,7 @@
 Name,Values,Coverage,Question,Example,Type,Source,SortIndex,IsComputed
 id,14565,300%,What is the ID of this concept?,05AB1E,string,,0,false
 filename,14565,300%,What is the name of the file holding this concept?,05ab1e.scroll,string,,1,true
-creators,3840,79%,What are the name(s) of the original creators of the language delimited by " and "?,Matthew Steel,string,,1,false
+creators,3954,81%,What are the name(s) of the original creators of the language delimited by " and "?,Matthew Steel,string,,1,false
 appeared,14565,300%,What year was the language publicly released and/or announced?,2015,number,,1,false
 tags,14565,300%,Which category(ies) in PLDB's subjective ontology does this entity fit into?,esolang,string,,2,false
 rank,14565,300%,How does this concept rank amongst all other concepts?,1358,number,,3,true
@@ -354,7 +354,7 @@ isOpenSource,1863,38%,Is this an open source project?,true,boolean,,1000,false
 isPublicDomain,42,1%,Is this public domain?,true,boolean,,1000,false
 gdbSupport,39,1%,Is the language supported by the GNU Debugger?,true,boolean,sourceware.org,1000,false
 githubCopilotOptimized,21,0%,"Is this language optimized for GitHub copilot, as found on this list https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot?",true,boolean,,1000,false
-isDone,14565,300%,"Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",2015,string,,1000,true
+isDone,14565,300%,"Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",false,boolean,,1000,true
 visualParadigm,288,6%,Is this a visual programming thing? Sometimes called "no code" or "low code"?,true,boolean,,1000,false
 usesSemanticVersioning,12,0%,Does the official release of the language use semantic versioning?,true,boolean,,1000,false
 equation,45,1%,What is a LaTeX encoding of this equation?,∇xB=µ0*J,string,,1000,false

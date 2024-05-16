@@ -42,7 +42,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  fn void foo_typed(int x, int... arg) { ... }
- fn void foo_untyped(int x, ...arg) 
+ fn void foo_untyped(int x, ...arg)
  ...
  foo_typed(1, 2, 3);
  foo_untyped(1, &quot;hello&quot;, 1.2);

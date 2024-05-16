@@ -403,11 +403,11 @@ set hive.exec.dynamic.partition.mode=nonstrict;
 create table nzhang_t1 like srcpart;
 create table nzhang_t2 like srcpart;
 
-FROM srcpart 
-INSERT OVERWRITE TABLE nzhang_t1 PARTITION (ds, hr) 
+FROM srcpart
+INSERT OVERWRITE TABLE nzhang_t1 PARTITION (ds, hr)
 SELECT key, value, ds, hr
 WHERE ds = &#39;2008-04-08&#39; AND hr = &#39;11&#39;
-INSERT OVERWRITE TABLE nzhang_t2 PARTITION (ds, hr) 
+INSERT OVERWRITE TABLE nzhang_t2 PARTITION (ds, hr)
 SELECT key, value, ds, hr
 WHERE ds = &#39;2008-04-08&#39; and hr = &#39;12&#39;
 GROUP BY key, value, ds, hr;

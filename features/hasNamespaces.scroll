@@ -31,7 +31,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C
  using namespace ns_name;
  using ns_name::name;
  namespace name = qualified-namespace ;
- namespace ns_name::inline(since C++20)(optional) name { declarations } 
+ namespace ns_name::inline(since C++20)(optional) name { declarations }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  namespace MyNamespace;

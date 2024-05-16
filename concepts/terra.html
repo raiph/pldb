@@ -408,11 +408,11 @@ terra hello(argc : int, argv : &amp;rawstring)
     return 0
 end
 
--- You can call Terra functions directly from Lua, they are JIT compiled 
+-- You can call Terra functions directly from Lua, they are JIT compiled
 -- using LLVM to create machine code
 hello(0,nil)
 
--- Terra functions are first-class values in Lua, and can be introspected 
+-- Terra functions are first-class values in Lua, and can be introspected
 -- and meta-programmed using it
 hello:disas()
 --[[ output:
@@ -426,7 +426,7 @@ hello:disas()
     0x60e602a(+26):   ret
 ]]
 
--- You can save Terra code as executables, object files, or shared libraries 
+-- You can save Terra code as executables, object files, or shared libraries
 -- and link them into existing programs
 terralib.saveobj(&quot;helloterra&quot;,{ main = hello })</code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/t/Terra.t'>hello-world</a>:</div><code class="scrollCodeBlock">print(&quot;Hello World&quot;)
@@ -484,7 +484,7 @@ struct Complex {
 	imag : float;
 }
 
-terra Complex:add(c : Complex) 
+terra Complex:add(c : Complex)
 	return Complex { self.real + c.real, self.imag + c.imag }
 end
 

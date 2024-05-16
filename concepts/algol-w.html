@@ -391,9 +391,9 @@ li.scrollParagraph {
 end.
 </code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/ALGOL_W'>Wikipedia</a>:</div><code class="scrollCodeBlock">RECORD PERSON (
-    STRING(20) NAME; 
-    INTEGER AGE; 
-    LOGICAL MALE; 
+    STRING(20) NAME;
+    INTEGER AGE;
+    LOGICAL MALE;
     REFERENCE(PERSON) FATHER, MOTHER, YOUNGESTOFFSPRING, ELDERSIBLING
 );
 
@@ -406,11 +406,11 @@ REFERENCE(PERSON) PROCEDURE YOUNGESTUNCLE (REFERENCE(PERSON) R);
         M := YOUNGESTOFFSPRING(MOTHER(MOTHER(R)));
         WHILE (M ¬= NULL) AND (¬ MALE(M)) DO
             M := ELDERSIBLING(M);
-        IF P = NULL THEN 
-            M 
-        ELSE IF M = NULL THEN 
-            P 
-        ELSE 
+        IF P = NULL THEN
+            M
+        ELSE IF M = NULL THEN
+            P
+        ELSE
             IF AGE(P) &lt; AGE(M) THEN P ELSE M
     END</code></div>
 <div class="scrollSection"><h2 class="scrollParagraph">Language <a href="../lists/features.html">features</a></h2>

@@ -408,8 +408,8 @@ li.scrollParagraph {
 (constant &#39;NUM 8)
 
 (define (intersects? q1 q2)
-	(or 
-		(= (q1 0) (q2 0)) 
+	(or
+		(= (q1 0) (q2 0))
 		(= (q1 1) (q2 1))
 		(= (abs (- (q1 0) (q2 0))) (abs (- (q1 1) (q2 1))))))
 
@@ -421,8 +421,8 @@ li.scrollParagraph {
 			(while (&gt; (length alist) 1)
 				(set &#39;q (pop alist -1))
 				(dolist (el alist)
-					(push 
-						(intersects? 
+					(push
+						(intersects?
 							(list q (inc (length alist)))
 							(list el (+ 1 $idx)))
 					logic -1)))
@@ -438,13 +438,13 @@ li.scrollParagraph {
 
 (define (find-variants num)
 	(let (res &#39;())
-		(cond 
-			((&lt; num 1) 
+		(cond
+			((&lt; num 1)
 				(begin (println &quot;num &lt; 1&quot;) (exit)))
-			((= num 1) 
+			((= num 1)
 				(dolist (i (sequence 1 NUM)) (push (list i) res -1)))
-			((&gt; num 1) 
-				(dolist (v (find-variants (dec num))) 
+			((&gt; num 1)
+				(dolist (v (find-variants (dec num)))
 					(set &#39;passed (filter variant? (fork-by-line v)))
 					(if (not (empty? passed)) (extend res passed)))))
 		res))

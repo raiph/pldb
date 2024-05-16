@@ -15,7 +15,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.
  async doSomething =&gt; await somethingElse()
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
- public async Task&lt;int&gt; FindPageSize(Uri uri) 
+ public async Task&lt;int&gt; FindPageSize(Uri uri)
  {
      byte[] data = await new WebClient().DownloadDataTaskAsync(uri);
      return data.Length;

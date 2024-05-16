@@ -407,8 +407,8 @@ li.scrollParagraph {
          (if (isec w special-words)
            (push r contains)
            (push r does-not)))
-       (push (append (popularity-sort does-not)                                 
-                     (popularity-sort contains))                                
+       (push (append (popularity-sort does-not)
+                     (popularity-sort contains))
              sorted-rec-groups)))
    (set sorted-rec-groups [sort sorted-rec-groups :
                                 [chain first second]]))

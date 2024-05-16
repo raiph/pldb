@@ -396,7 +396,7 @@ li.scrollParagraph {
 <li >GitHub supports <a href="https://github.com/atom-haskell/language-haskell" title="The package used for syntax highlighting by GitHub Linguist.">syntax highlighting</a> for Frege</li>
 <li >See also: (7 related languages)<a href="haskell.html">Haskell</a>, <a href="jvm.html">JVM</a>, <a href="java.html">Java</a>, <a href="java-bytecode.html">Java Bytecode</a>, <a href="linux.html">Linux</a>, <a href="unix.html">Unix</a>, <a href="eclipse-editor.html">Eclipse</a></li></ul>
 <br>
-<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/atom-haskell/language-haskell'>Linguist</a>:</div><code class="scrollCodeBlock">{-- 
+<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/atom-haskell/language-haskell'>Linguist</a>:</div><code class="scrollCodeBlock">{--
     This program displays the
     current time on stdandard output
     every other second.
@@ -414,7 +414,7 @@ current = do
     d &lt;- Date.new ()
     d.toString
 
-{- 
+{-
     &quot;java.lang.Thread.sleep&quot; takes a &quot;long&quot; and
     returns nothing, but may throw an InterruptedException.
     This is without doubt an IO action.
@@ -433,14 +433,14 @@ current = do
 -- native sleep java.lang.Thread.sleep :: Long -&gt; IO () throws InterruptedException
 
       
-main args =  
+main args =
     forever do
         current &gt;&gt;= print
         print &quot;\r&quot;
         stdout.flush
         Thread.sleep 999
                 </code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Frege_(programming_language)'>Wikipedia</a>:</div><code class="scrollCodeBlock">{-- 
+<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Frege_(programming_language)'>Wikipedia</a>:</div><code class="scrollCodeBlock">{--
     This program displays the
     current time on standard output
     every other second.
@@ -458,7 +458,7 @@ current = do
     d &lt;- Date.new ()  -- reads system timer, hence IO
     d.toString
 
-main args =  
+main args =
     forever do
         current &gt;&gt;= print   -- print formatted date
         print &quot;\r&quot;          -- followed by carriage return

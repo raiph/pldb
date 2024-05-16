@@ -21,8 +21,8 @@
   },
   {
     "Name": "creators",
-    "Values": 5120,
-    "Coverage": "105%",
+    "Values": 5272,
+    "Coverage": "109%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
     "Type": "string",
@@ -3593,8 +3593,8 @@
     "Values": 19420,
     "Coverage": "400%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
-    "Example": "2015",
-    "Type": "string",
+    "Example": "false",
+    "Type": "boolean",
     "SortIndex": 1000,
     "IsComputed": true
   },

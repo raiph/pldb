@@ -430,20 +430,20 @@ li.scrollParagraph {
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://riju.codes/yaml'>Riju</a>:</div><code class="scrollCodeBlock">output: &quot;Hello, world!&quot;
 </code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/y/YAML.yaml'>hello-world</a>:</div><code class="scrollCodeBlock">hello: world</code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/atom/language-yaml'>Linguist</a>:</div><code class="scrollCodeBlock">--- 
+<div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/atom/language-yaml'>Linguist</a>:</div><code class="scrollCodeBlock">---
 name: R Console
 fileTypes: []
 
 scopeName: source.r-console
 uuid: F629C7F3-823B-4A4C-8EEE-9971490C5710
-patterns: 
+patterns:
 - name: source.r.embedded.r-console
   begin: &quot;^&gt; &quot;
-  beginCaptures: 
-    &quot;0&quot;: 
+  beginCaptures:
+    &quot;0&quot;:
       name: punctuation.section.embedded.r-console
   end: \n|\z
-  patterns: 
+  patterns:
   - include: source.r
 keyEquivalent: ^~R
 </code></div>

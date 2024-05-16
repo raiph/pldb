@@ -19,11 +19,11 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
  {
    int x;
    float f;
-   struct 
+   struct
    {
      char[2] z;
-   }  
- }  
+   }
+ }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">GraphQL</a>
  union SearchResult = Human | Droid | Starship

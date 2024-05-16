@@ -390,10 +390,10 @@ li.scrollParagraph {
 <li >See also: (7 related languages)<a href="eiffel.html">Eiffel</a>, <a href="clu.html">CLU</a>, <a href="common-lisp.html">Common Lisp</a>, <a href="scheme.html">Scheme</a>, <a href="cool.html">Classroom Object Oriented Language</a>, <a href="rust.html">Rust</a>, <a href="c.html">C</a></li></ul>
 <br>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://github.com/leachim6/hello-world/blob/main/s/Sather.sa'>hello-world</a>:</div><code class="scrollCodeBlock">class MAIN is
-   main is 
-      loop 
-         #OUT + &quot;Hello World\n&quot; 
-      end 
+   main is
+      loop
+         #OUT + &quot;Hello World\n&quot;
+      end
    end
 end
 </code></div>
@@ -404,10 +404,10 @@ end
     end
 </code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <a href='https://en.wikipedia.org/wiki/Sather'>Wikipedia</a>:</div><code class="scrollCodeBlock">upto!(once m:INT):SAME is
-    i: INT := self; -- initialise i to the value of self, 
+    i: INT := self; -- initialise i to the value of self,
                     -- that is the integer of which this method is called
     loop
-      if i&gt;m then 
+      if i&gt;m then
         quit;  -- leave the loop when i goes beyond m
       end;
       yield i; -- else use i as return value and stay in the loop
