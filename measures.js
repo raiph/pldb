@@ -53,10 +53,20 @@ const measures = [
     "Name": "rank",
     "Values": 24275,
     "Coverage": "500%",
-    "Question": "How does this thing rank amongst all entities in this TrueBase?",
+    "Question": "How does this concept rank amongst all other concepts?",
     "Example": "1358",
     "Type": "number",
     "SortIndex": 3,
+    "IsComputed": true
+  },
+  {
+    "Name": "impactScore",
+    "Values": 24275,
+    "Coverage": "500%",
+    "Question": "What is the impact score of this concept?",
+    "Example": "1267",
+    "Type": "number",
+    "SortIndex": 3.1,
     "IsComputed": true
   },
   {

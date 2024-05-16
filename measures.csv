@@ -4,7 +4,8 @@ filename,14565,300%,What is the name of the file holding this concept?,05ab1e.sc
 creators,3840,79%,What are the name(s) of the original creators of the language delimited by " and "?,Matthew Steel,string,,1,false
 appeared,14565,300%,What year was the language publicly released and/or announced?,2015,number,,1,false
 tags,14565,300%,Which category(ies) in PLDB's subjective ontology does this entity fit into?,esolang,string,,2,false
-rank,14565,300%,How does this thing rank amongst all entities in this TrueBase?,1358,number,,3,true
+rank,14565,300%,How does this concept rank amongst all other concepts?,1358,number,,3,true
+impactScore,14565,300%,What is the impact score of this concept?,1267,number,,3.1,true
 languageRank,13170,271%,How does this language rank amongst all languages in PLDB?,1186,number,,4,true
 measurements,14565,300%,How many measurements do we have about this thing?,10,number,,5,true
 lastActivity,14565,300%,"In our data on this entity, what year is the most recent activity?",2022,number,,6,true
