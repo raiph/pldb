@@ -1,119 +1,3 @@
-// Todo, auto generate this file from:
- /Users/breck/scroll/grammar/cellTypes.grammar
- /Users/breck/scroll/grammar/root.grammar
- /Users/breck/scroll/grammar/measures.grammar
- /Users/breck/scroll/grammar/comments.grammar
- /Users/breck/scroll/grammar/blankLine.grammar
- /Users/breck/scroll/grammar/import.grammar
- /Users/breck/scroll/grammar/errors.grammar
- /Users/breck/pldb/measures/commonMeasures.scroll
- /Users/breck/pldb/measures/pldbMeasures.scroll
-
-
-errorParser
- baseParser errorParser
-
-abstractScrollParser
- cells keywordCell
- javascript
-  compileEmbeddedVersion(compileSettings) {
-   return this.compile(compileSettings)
-  }
-  compileTextVersion() {
-    return ""
-  }
-
-abstractScrollWithRequirementsParser
- extends abstractScrollParser
- javascript
-  compile(compileSettings) {
-    const {requireOnce} = this
-    const set = compileSettings?.alreadyRequired || this.root.alreadyRequired
-    let requireSnippet = ""
-    if (!set.has(requireOnce)) {
-      set.add(requireOnce)
-      requireSnippet = requireOnce + "\n\n"
-    }
-    return requireSnippet + this.compileInstance()
-  }
-
-abstractTopLevelSingleMetaParser
- description Use these keywords once per file.
- extends abstractScrollParser
- inScope slashCommentParser
- cruxFromId
- cells keywordCell
- javascript
-  isTopMatter = true
-  isSetterParser = true
-  compile() {
-   return ""
-  }
-
-abstractCommandParser
- extends abstractScrollParser
- cruxFromId
- cells keywordCell
- inScope slashCommentParser
- javascript
-  isTopMatter = true
-  compile() {
-   return ""
-  }
-
-scrollParser
- extensions scroll
- description A language for bloggers. A curated collection of tools for thoughts.
- root
- inScope abstractScrollParser blankLineParser
- catchAllParser errorParser
- compilesTo html
- javascript
-  setFile(file) {
-   this.file = file
-   return this
-  }
-  compile(compileSettings) {
-    this.sectionStack = []
-    return this.map(child => child.compile(compileSettings)).filter(i => i).join("\n") + this.clearSectionStack()
-  }
-  sectionStack = []
-  clearSectionStack() {
-   const result = this.sectionStack.join("")
-   this.sectionStack = []
-   return result
-  }
-  get hakonParser() {
-    if (this.isNodeJs())
-      return require("jtree/products/hakon.nodejs.js")
-    return hakonParser
-  }
-  alreadyRequired = new Set()
-  compileEmbeddedVersion(compileSettings) {
-   this.sectionStack = []
-   return this.map(child => (child.compileEmbeddedVersion ? child.compileEmbeddedVersion(compileSettings) : child.compile(compileSettings)))
-     .filter(i => i)
-     .join("\n")
-     .trim() + this.clearSectionStack()
-  }
-  get footnotes() {
-   if (this._footnotes === undefined) this._footnotes = this.filter(node => node.isFootnote)
-   return this._footnotes
-  }
-  file = {}
-  get permalink() {
-   return this.get("permalink") || this.file.permalink || ""
-  }
- example
-  # Hello world
-  ## This is Scroll
-  * It compiles to HTML.
-  
-  code
-   // You can add code as well.
-   print("Hello world")
-
-
 // Basic cell types
 blankCell
 anyCell
@@ -214,6 +98,105 @@ htmlIdCell
  extends anyCell
 
 
+abstractScrollParser
+ cells keywordCell
+ javascript
+  compileEmbeddedVersion(compileSettings) {
+   return this.compile(compileSettings)
+  }
+  compileTextVersion() {
+    return ""
+  }
+
+abstractScrollWithRequirementsParser
+ extends abstractScrollParser
+ javascript
+  compile(compileSettings) {
+    const {requireOnce} = this
+    const set = compileSettings?.alreadyRequired || this.root.alreadyRequired
+    let requireSnippet = ""
+    if (!set.has(requireOnce)) {
+      set.add(requireOnce)
+      requireSnippet = requireOnce + "\n\n"
+    }
+    return requireSnippet + this.compileInstance()
+  }
+
+abstractTopLevelSingleMetaParser
+ description Use these keywords once per file.
+ extends abstractScrollParser
+ inScope slashCommentParser
+ cruxFromId
+ cells keywordCell
+ javascript
+  isTopMatter = true
+  isSetterParser = true
+  compile() {
+   return ""
+  }
+
+abstractCommandParser
+ extends abstractScrollParser
+ cruxFromId
+ cells keywordCell
+ inScope slashCommentParser
+ javascript
+  isTopMatter = true
+  compile() {
+   return ""
+  }
+
+scrollParser
+ extensions scroll
+ description Scroll is a language for scientists of all ages. Refine, share and collaborate on ideas.
+ root
+ inScope abstractScrollParser blankLineParser
+ catchAllParser errorParser
+ compilesTo html
+ javascript
+  setFile(file) {
+   this.file = file
+   return this
+  }
+  compile(compileSettings) {
+    this.sectionStack = []
+    return this.map(child => child.compile(compileSettings)).filter(i => i).join("\n") + this.clearSectionStack()
+  }
+  sectionStack = []
+  clearSectionStack() {
+   const result = this.sectionStack.join("")
+   this.sectionStack = []
+   return result
+  }
+  get hakonParser() {
+    if (this.isNodeJs())
+      return require("jtree/products/hakon.nodejs.js")
+    return hakonParser
+  }
+  alreadyRequired = new Set()
+  compileEmbeddedVersion(compileSettings) {
+   this.sectionStack = []
+   return this.map(child => (child.compileEmbeddedVersion ? child.compileEmbeddedVersion(compileSettings) : child.compile(compileSettings)))
+     .filter(i => i)
+     .join("\n")
+     .trim() + this.clearSectionStack()
+  }
+  get footnotes() {
+   if (this._footnotes === undefined) this._footnotes = this.filter(node => node.isFootnote)
+   return this._footnotes
+  }
+  file = {}
+  get permalink() {
+   return this.get("permalink") || this.file.permalink || ""
+  }
+ example
+  # Hello world
+  ## This is Scroll
+  * It compiles to HTML.
+  
+  code
+   // You can add code as well.
+   print("Hello world")
 
 commentLineParser
  catchAllCellType commentCell
@@ -238,9 +221,20 @@ slashCommentParser
  extends commentParser
  crux //
 
+blankLineParser
+ description Blank lines compile to nothing in the HTML.
+ cells blankCell
+ javascript
+  compile() {
+   return this.parent.clearSectionStack()
+  }
+ pattern ^$
+ tags doNotSynthesize
 
 measureNameCell
  extends keywordCell
+ // A regex for column names for max compatibility with a broad range of data science tools:
+ regex [a-zA-Z][a-zA-Z0-9]*
 
 writeMeasuresParser
  cruxFromId
@@ -285,37 +279,6 @@ abstractMeasureParser
   }
   get measureName() {
     return this.getFirstWordPath().replace(/ /g, "_")
-  }
-
-blankLineParser
- description Blank lines compile to nothing in the HTML.
- cells blankCell
- javascript
-  compile() {
-   return this.parent.clearSectionStack()
-  }
- pattern ^$
- tags doNotSynthesize
-
-importParser
- description Import one file into another.
- cruxFromId
- extends abstractScrollParser
- catchAllCellType filePathCell
- javascript
-  compile() {
-   return ""
-  }
- example
-  import header.scroll
-
-importOnlyParser
- description Mark a file as not one to build. This line will be not be imported into the importing file.
- cruxFromId
- extends abstractTopLevelSingleMetaParser
- javascript
-  compile() {
-   return ""
   }
 
 // String Measures
@@ -398,13 +361,30 @@ abstractBooleanMeasureParser
     return content === undefined ? "" : content == "true"
   }
 
-abstractFeatureParser
- extends abstractBooleanMeasureParser
- contentKey value
- childrenKey example
- catchAllParser featureExampleCodeParser
- int sortIndex 42
- string sortKey abstractFeatureParser
+
+importParser
+ description Import one file into another.
+ cruxFromId
+ extends abstractScrollParser
+ catchAllCellType filePathCell
+ javascript
+  compile() {
+   return ""
+  }
+ example
+  import header.scroll
+
+importOnlyParser
+ description Mark a file as not one to build. This line will be not be imported into the importing file.
+ cruxFromId
+ extends abstractTopLevelSingleMetaParser
+ javascript
+  compile() {
+   return ""
+  }
+
+errorParser
+ baseParser errorParser
 
 
 // parsersOnly
@@ -468,7 +448,6 @@ abstractConceptEdgesMeasureParser
   }
   // todo: re-add the method to update these foreign keys if an ID changes.
 
-
 // Common blob parsers
 abstractStringBlobMeasureParser
  string typeForCsvDocs multilineString
@@ -486,10 +465,31 @@ abstractCodeMeasureParser
  extends abstractStringBlobMeasureParser
  baseParser blobParser
 
+abstractRelationshipParser
+ extends abstractConceptEdgesMeasureParser
+ // todo: remove need for sortKey in Grammar
+ string sortKey abstractRelationshipParser
+ boolean isLinks true
+abstractFilenameRelationshipParser
+ extends abstractRelationshipParser
+abstractIDRelationshipParser
+ extends abstractRelationshipParser
 
 
 
 // parsersOnly
+
+
+
+abstractFeatureParser
+ extends abstractBooleanMeasureParser
+ contentKey value
+ childrenKey example
+ catchAllParser featureExampleCodeParser
+ int sortIndex 42
+ string sortKey abstractFeatureParser
+
+// fileExtensions
 
 // annualReportsUrl
 annualReportsUrlParser
@@ -567,8 +567,8 @@ abstractComputedIntMeasureParser
   computeValue(concept, measureName, parsedProgram, concepts) {
     if (!parsedProgram.computer) {
       const path = require("path")
-      const {Computer} = require(path.join(path.dirname(parsedProgram.file.filePath), "Computer.js"))
-      parsedProgram.computer = new Computer(parsedProgram, concepts)
+      const {MeasureComputer} = require(path.join(path.dirname(parsedProgram.file.filePath), "Computer.js"))
+      parsedProgram.computer = new MeasureComputer(parsedProgram, concepts)
     }
     return parsedProgram.computer.get(measureName, concept)
   }
@@ -622,10 +622,15 @@ numberOfJobsEstimateParser
  extends abstractComputedIntMeasureParser
  description What is our estimate of the number of jobs in this language?
 
+impactScoreParser
+ float sortIndex 3.1
+ extends abstractComputedIntMeasureParser
+ description What is the impact score of this concept?
+
 rankParser
  int sortIndex 3
  extends abstractComputedIntMeasureParser
- description How does this thing rank amongst all entities in this TrueBase?
+ description How does this concept rank amongst all other concepts?
 
 languageRankParser
  int sortIndex 4
@@ -811,7 +816,6 @@ featureExampleCodeParser
  // Ideally includes any necessary boilerplate to be runnable.
  baseParser blobParser
 
-// fileExtensions
 // fileExtensionCell
  extends stringCell
 
@@ -919,7 +923,7 @@ githubLanguageParser
  aliasesParser
   extends abstractStringListMeasureParser
   description What are additional aliases, excluding name.downcase which are implicitly included?
-  listDelimiter  or 
+  listDelimiter  or
  interpretersParser
   extends abstractStringListMeasureParser
   description What are the associated interpreters?
@@ -2208,8 +2212,18 @@ appearedParser
  extends abstractYearMeasureParser
  // required
 isDoneParser
- description Has the creator or maintainer announced it officially over? Include a link to proof of the announcement.
+ description Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.
  extends abstractBooleanMeasureParser
+ boolean isComputed true
+ javascript
+  computeValue(concept, measureName, parsedProgram, concepts) {
+    if (!parsedProgram.computer) {
+      const path = require("path")
+      const {MeasureComputer} = require(path.join(path.dirname(parsedProgram.file.filePath), "Computer.js"))
+      parsedProgram.computer = new MeasureComputer(parsedProgram, concepts)
+    }
+    return parsedProgram.computer.get(measureName, concept)
+  }
 
 nativeLanguageParser
  cells measureNameCell stringCell
@@ -2317,8 +2331,7 @@ creatorsParser
  boolean alwaysRecommended true
  description What are the name(s) of the original creators of the language delimited by " and "?
  catchAllCellType stringCell
- listDelimiter  and 
-
+ listDelimiter  and
 
 // letterFirstIdentifiers
 letterFirstIdentifiersParser
@@ -2421,7 +2434,7 @@ originCommunityParser
  description In what community(ies) did the language first originate?
  boolean alwaysRecommended true
  // todo Make origin community name the url for the community? instead of the name? Not sure.
- listDelimiter  && 
+ listDelimiter  &&
  example
   originCommunity Microsoft && /r/programminglanguages && news.ycombinator.com
  extends abstractStringListMeasureParser
@@ -2537,51 +2550,47 @@ referenceParser
  single false
 
 // relationships
-abstractRelationshipParser
- extends abstractConceptEdgesMeasureParser
- // todo: remove need for sortKey in Grammar
- string sortKey abstractRelationshipParser
 relatedConceptsParser
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
  description What languages are related?
  // This serves as a catch all, and it is better to use a more specific relationship node such as "supersetOf".
 runsOnVmParser
- extends abstractRelationshipParser
- description What virtual machine(s) does this language run on? 
+ extends abstractFilenameRelationshipParser
+ description What virtual machine(s) does this language run on?
 influencedByParser
  description What languages influenced this one?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 successorOfParser
  description Was this language launched as the successor of another?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 subsetOfParser
  description Is this language a subset of another?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 implementationOfParser
  description Is this language an implementation of another?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 renamedToParser
  description What is the new name of this language?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 supersetOfParser
  description Is this language a superset of another?
  // If you specify this link then the superset language will inherit all features of subset language.
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 writtenInParser
  description What language(s) is the main implementation written in?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 extensionOfParser
  description What language is this language an extension of?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 forkOfParser
  description What language is this language a fork of?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 compilesToParser
  description Which language(s) does this language primarily compile to?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 inputLanguagesParser
  description Which language(s) does this take as input? For compilers, what languages does this compile compile?
- extends abstractRelationshipParser
+ extends abstractFilenameRelationshipParser
 
 // releaseNotes
 releaseNotesUrlParser
@@ -2709,15 +2718,14 @@ twitterParser
 
 // type
 //
- typeCell
+ tagCell
   enum assembly pl barCodeFormat hardwareDescriptionLanguage knowledgeBase binaryDataFormat contractLanguage timeFormat computingMachine xmlFormat yamlFormat jsonFormat compiler grammarLanguage dataValidationLanguage application ir isa queryLanguage protocol os esolang template textMarkup characterEncoding idl library editor cloud textDataFormat visual plzoo interpreter notation binaryExecutable dataNotation stylesheetLanguage schema bytecode vm filesystem standard linter packageManager framework webApi feature optimizingCompiler numeralSystem hashFunction database font distribution headerLang dataStructure musicalNotation textEncodingFormat equation wikiMarkup decompiler configFormat diffFormat unixApplication webBrowser browserEngine
  highlightScope constant.language
-typeParser
+tagsParser
  int sortIndex 2
  description Which category(ies) in PLDB's subjective ontology does this entity fit into?
  // required
  extends abstractEnumsMeasureParser
-
 
 // ubuntu
 ubuntuPackageParser
@@ -2744,7 +2752,6 @@ versionsParser
 usesSemanticVersioningParser
  extends abstractBooleanMeasureParser
  description Does the official release of the language use semantic versioning?
-
 
 // website
 websiteParser
