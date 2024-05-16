@@ -40,7 +40,7 @@ const measures = [
     "IsComputed": false
   },
   {
-    "Name": "type",
+    "Name": "tags",
     "Values": 24275,
     "Coverage": "500%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
@@ -61,10 +61,10 @@ const measures = [
   },
   {
     "Name": "languageRank",
-    "Values": 21645,
-    "Coverage": "446%",
+    "Values": 21950,
+    "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1129",
+    "Example": "1186",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -2830,16 +2830,6 @@ const measures = [
     "IsComputed": false
   },
   {
-    "Name": "githubLanguage_type",
-    "Values": 2605,
-    "Coverage": "54%",
-    "Question": "Which of the types best describes this: data, programming, markup, prose, or nil?",
-    "Example": "programming",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
     "Name": "githubLanguage_wrap",
     "Values": 70,
     "Coverage": "1%",
@@ -2945,6 +2935,16 @@ const measures = [
     "Coverage": "54%",
     "Question": "What is the TextMate scope that represents this programming language, matching one of the scopes listed in the grammars.yml file, or \"none\" if there is no grammar for this language?",
     "Example": "source.bsl",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "githubLanguage_type",
+    "Values": 2605,
+    "Coverage": "54%",
+    "Question": "Which of the types best describes this: data, programming, markup, prose, or nil?",
+    "Example": "programming",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
@@ -3452,8 +3452,8 @@ const measures = [
     "Values": 24275,
     "Coverage": "500%",
     "Question": "Does PLDB categorize this entity as a language?",
-    "Example": "1",
-    "Type": "number",
+    "Example": "true",
+    "Type": "boolean",
     "SortIndex": 1000,
     "IsComputed": true
   },

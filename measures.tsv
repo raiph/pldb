@@ -3,9 +3,9 @@ id	9710	200%	What is the ID of this concept?	05AB1E	string		0	false
 filename	9710	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true
 creators	2560	53%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false
 appeared	9710	200%	What year was the language publicly released and/or announced?	2015	number		1	false
-type	9710	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false
+tags	9710	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false
 rank	9710	200%	How does this thing rank amongst all entities in this TrueBase?	1358	number		3	true
-languageRank	8658	178%	How does this language rank amongst all languages in PLDB?	1129	number		4	true
+languageRank	8780	181%	How does this language rank amongst all languages in PLDB?	1186	number		4	true
 measurements	9710	200%	How many measurements do we have about this thing?	10	number		5	true
 lastActivity	9710	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true
 exampleCount	9710	200%	How many examples do we have written in this language?	2	number		7	true
@@ -279,7 +279,6 @@ githubBigQuery_repos	842	17%	How many repos for this language are listed in Goog
 githubLanguage	1060	22%	What is the name of this language on GitHub's list of supported languages defined here https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml?	1C Enterprise	string	github.com	1000	false
 githubLanguage_fileExtensions	1040	21%	What are the file extensions for this language?	bsl os	string		1000	false
 githubLanguage_filenames	106	2%	What are the filenames commonly associated with this language?	APKBUILD	string		1000	false
-githubLanguage_type	1042	21%	Which of the types best describes this: data, programming, markup, prose, or nil?	programming	string		1000	false
 githubLanguage_wrap	28	1%	Does GitHub override it's default of not wrapping lines when displaying this language?	true	boolean		1000	false
 githubLanguage_repos	982	20%	How many repos for this language does GitHub report?	38669	number		1000	false
 githubLanguage_trendingProjectsCount	890	18%	How many trending repos for this language does GitHub report?	0	number		1000	false
@@ -291,6 +290,7 @@ githubLanguage_aceMode	1040	21%	What is the name of the Ace Mode used for highli
 githubLanguage_codemirrorMode	432	9%	What is the name name of the CodeMirror Mode used for highlighting whenever a file is edited, from the list here https://git.io/vi9Fx?	clike	string		1000	false
 githubLanguage_codemirrorMimeType	432	9%	What is the name of the file mime type used for highlighting whenever a file is edited, from the list here https://git.io/f4SoQ?	text/x-c++src	string		1000	false
 githubLanguage_tmScope	1042	21%	What is the TextMate scope that represents this programming language, matching one of the scopes listed in the grammars.yml file, or "none" if there is no grammar for this language?	source.bsl	string		1000	false
+githubLanguage_type	1042	21%	Which of the types best describes this: data, programming, markup, prose, or nil?	programming	string		1000	false
 leachim6	854	18%	What is a URL to this language in leachim6's hello-world project?	05AB1E	string	github.com/leachim6/hello-world	1000	false
 leachim6_fileExtensions	736	15%	What are the file extensions for this language?	abap	string		1000	false
 leachim6_example	854	18%	What is a representative snippet for this language?	"Hello World	string		1000	false
@@ -340,7 +340,7 @@ forkOf	6	0%	What language is this language a fork of?	common-log-format	string		
 compilesTo	132	3%	Which language(s) does this language primarily compile to?	beam-bytecode	string		1000	false
 inputLanguages	16	0%	Which language(s) does this take as input? For compilers, what languages does this compile compile?	c	string		1000	false
 hoplId	3616	74%	What is the HOPL id of this language?	4365	number		1000	true
-isLanguage	9710	200%	Does PLDB categorize this entity as a language?	1	number		1000	true
+isLanguage	9710	200%	Does PLDB categorize this entity as a language?	true	boolean		1000	true
 wordRank	754	16%	Where does this word rank in terms of common English words?	4100	number		1000	false
 centralPackageRepositoryCount	6040	124%	How many central package repositories does this language have?	0	number		1000	false
 packageInstallCount	22	0%	How many packages have been downloaded?	770549116	number		1000	false
