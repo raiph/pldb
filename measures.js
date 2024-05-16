@@ -7,7 +7,8 @@ const measures = [
     "Example": "05AB1E",
     "Type": "string",
     "SortIndex": 0,
-    "IsComputed": false
+    "IsComputed": false,
+    "IsRequired": true
   },
   {
     "Name": "filename",
@@ -37,7 +38,8 @@ const measures = [
     "Example": "2015",
     "Type": "number",
     "SortIndex": 1,
-    "IsComputed": false
+    "IsComputed": false,
+    "IsRequired": true
   },
   {
     "Name": "tags",
@@ -47,7 +49,8 @@ const measures = [
     "Example": "esolang",
     "Type": "string",
     "SortIndex": 2,
-    "IsComputed": false
+    "IsComputed": false,
+    "IsRequired": true
   },
   {
     "Name": "rank",
@@ -3468,6 +3471,16 @@ const measures = [
     "IsComputed": true
   },
   {
+    "Name": "isDone",
+    "Values": 24275,
+    "Coverage": "500%",
+    "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
+    "Example": "false",
+    "Type": "boolean",
+    "SortIndex": 1000,
+    "IsComputed": true
+  },
+  {
     "Name": "wordRank",
     "Values": 1885,
     "Coverage": "39%",
@@ -3587,16 +3600,6 @@ const measures = [
     "Type": "boolean",
     "SortIndex": 1000,
     "IsComputed": false
-  },
-  {
-    "Name": "isDone",
-    "Values": 24275,
-    "Coverage": "500%",
-    "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
-    "Example": "false",
-    "Type": "boolean",
-    "SortIndex": 1000,
-    "IsComputed": true
   },
   {
     "Name": "visualParadigm",
