@@ -4,7 +4,7 @@ const { TreeNode } = require("jtree/products/TreeNode.js")
 const { Disk } = require("jtree/products/Disk.node.js")
 const { Utils } = require("jtree/products/Utils.js")
 const { shiftRight, removeReturnChars } = Utils
-const ParserFile = new TreeNode(Disk.read(path.join(__dirname, "measures", "pldbMeasures.scroll")))
+const ParserFile = new TreeNode(Disk.read(path.join(__dirname, "code", "pldbMeasures.scroll")))
 const listsFolder = path.join(__dirname, "lists")
 const pagesDir = path.join(__dirname, "pages")
 const numeral = require("numeral")
@@ -1443,7 +1443,7 @@ html
  <a class="trueBaseThemePreviousItem" href="${previous.permalink}">&lt;</a>
  <a class="trueBaseThemeNextItem" href="${next.permalink}">&gt;</a>
 
-// viewSourceUrl https://github.com/breck7/pldb/blob/main/measures/${fileName}
+viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 

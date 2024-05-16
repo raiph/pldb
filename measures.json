@@ -1876,16 +1876,6 @@
     "IsComputed": false
   },
   {
-    "Name": "annualReportsUrl",
-    "Values": 32,
-    "Coverage": "1%",
-    "Question": "What is a URL to annual reports for this language?",
-    "Example": "https://isocpp.org/about/annual-reports",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
     "Name": "antlr",
     "Values": 240,
     "Coverage": "5%",
@@ -2010,6 +2000,16 @@
     "Question": "How many followers does the linked account have?",
     "Example": "",
     "Type": "",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "annualReportsUrl",
+    "Values": 32,
+    "Coverage": "1%",
+    "Question": "What is a URL to annual reports for this language?",
+    "Example": "https://isocpp.org/about/annual-reports",
+    "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
   },
@@ -2503,21 +2503,21 @@
     "IsComputed": false
   },
   {
-    "Name": "rijuRepl_description",
-    "Values": 160,
-    "Coverage": "3%",
-    "Question": "How is this language described here?",
-    "Example": "Structured, statically typed, imperative, and object-oriented high-level programming language, extended from Pascal and other languages",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
     "Name": "rijuRepl_fileExtensions",
     "Values": 156,
     "Coverage": "3%",
     "Question": "What are the file extensions for this language?",
     "Example": "adb ads",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "rijuRepl_description",
+    "Values": 160,
+    "Coverage": "3%",
+    "Question": "How is this language described here?",
+    "Example": "Structured, statically typed, imperative, and object-oriented high-level programming language, extended from Pascal and other languages",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
@@ -3110,67 +3110,6 @@
     "IsComputed": false
   },
   {
-    "Name": "getSource",
-    "Values": 4348,
-    "Coverage": "90%",
-    "Question": "What is a one line shell command to download the source code for this language?",
-    "Example": "git clone https://github.com/Adriandmen/05AB1E",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": true
-  },
-  {
-    "Name": "country",
-    "Values": 14920,
-    "Coverage": "307%",
-    "Question": "What country was this language first developed in?",
-    "Example": "Russia",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "dblp",
-    "Values": 0,
-    "Coverage": "0%",
-    "Question": "What are publications about this language from https://dblp.org/?",
-    "Example": "",
-    "Type": "",
-    "Source": "dblp.org",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "dblp_hits",
-    "Values": 0,
-    "Coverage": "0%",
-    "Question": "How many matching publications?",
-    "Example": "",
-    "Type": "",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "dblp_publications",
-    "Values": 0,
-    "Coverage": "0%",
-    "Question": "An inline PSV table of hits.",
-    "Example": "",
-    "Type": "",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "conceptDescription",
-    "Values": 3812,
-    "Coverage": "79%",
-    "Question": "What is a short description of this language?",
-    "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
     "Name": "keywords",
     "Values": 460,
     "Coverage": "9%",
@@ -3276,46 +3215,6 @@
     "Coverage": "327%",
     "Question": "In what community(ies) did the language first originate?",
     "Example": "Department of Computer Science, University of Toronto",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "standsFor",
-    "Values": 1376,
-    "Coverage": "28%",
-    "Question": "If the language name is an acronym what does/did it stand for?",
-    "Example": "3D Manufacturing Format",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "aka",
-    "Values": 676,
-    "Coverage": "14%",
-    "Question": "What is this also known as?",
-    "Example": "4D",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "oldName",
-    "Values": 48,
-    "Coverage": "1%",
-    "Question": "What is the old name of this language?",
-    "Example": "ML-flavoured Erlang",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "forLanguages",
-    "Values": 192,
-    "Coverage": "4%",
-    "Question": "Which languages is this repository for?",
-    "Example": "ballerina",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
@@ -3451,42 +3350,103 @@
     "IsComputed": false
   },
   {
-    "Name": "hoplId",
-    "Values": 7232,
-    "Coverage": "149%",
-    "Question": "What is the HOPL id of this language?",
-    "Example": "4365",
-    "Type": "number",
+    "Name": "forLanguages",
+    "Values": 192,
+    "Coverage": "4%",
+    "Question": "Which languages is this repository for?",
+    "Example": "ballerina",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "getSource",
+    "Values": 4348,
+    "Coverage": "90%",
+    "Question": "What is a one line shell command to download the source code for this language?",
+    "Example": "git clone https://github.com/Adriandmen/05AB1E",
+    "Type": "string",
     "SortIndex": 1000,
     "IsComputed": true
   },
   {
-    "Name": "isLanguage",
-    "Values": 19420,
-    "Coverage": "400%",
-    "Question": "Does PLDB categorize this entity as a language?",
-    "Example": "true",
-    "Type": "boolean",
+    "Name": "country",
+    "Values": 14920,
+    "Coverage": "307%",
+    "Question": "What country was this language first developed in?",
+    "Example": "Russia",
+    "Type": "string",
     "SortIndex": 1000,
-    "IsComputed": true
+    "IsComputed": false
   },
   {
-    "Name": "isDone",
-    "Values": 19420,
-    "Coverage": "400%",
-    "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
-    "Example": "false",
-    "Type": "boolean",
+    "Name": "dblp",
+    "Values": 0,
+    "Coverage": "0%",
+    "Question": "What are publications about this language from https://dblp.org/?",
+    "Example": "",
+    "Type": "",
+    "Source": "dblp.org",
     "SortIndex": 1000,
-    "IsComputed": true
+    "IsComputed": false
   },
   {
-    "Name": "wordRank",
-    "Values": 1508,
-    "Coverage": "31%",
-    "Question": "Where does this word rank in terms of common English words?",
-    "Example": "4100",
-    "Type": "number",
+    "Name": "dblp_hits",
+    "Values": 0,
+    "Coverage": "0%",
+    "Question": "How many matching publications?",
+    "Example": "",
+    "Type": "",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "dblp_publications",
+    "Values": 0,
+    "Coverage": "0%",
+    "Question": "An inline PSV table of hits.",
+    "Example": "",
+    "Type": "",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "conceptDescription",
+    "Values": 3812,
+    "Coverage": "79%",
+    "Question": "What is a short description of this language?",
+    "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "standsFor",
+    "Values": 1376,
+    "Coverage": "28%",
+    "Question": "If the language name is an acronym what does/did it stand for?",
+    "Example": "3D Manufacturing Format",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "aka",
+    "Values": 676,
+    "Coverage": "14%",
+    "Question": "What is this also known as?",
+    "Example": "4D",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "oldName",
+    "Values": 48,
+    "Coverage": "1%",
+    "Question": "What is the old name of this language?",
+    "Example": "ML-flavoured Erlang",
+    "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
   },
@@ -3526,6 +3486,46 @@
     "Coverage": "0%",
     "Question": "How many people contribute packages to this cpm?",
     "Example": "13699",
+    "Type": "number",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "hoplId",
+    "Values": 7232,
+    "Coverage": "149%",
+    "Question": "What is the HOPL id of this language?",
+    "Example": "4365",
+    "Type": "number",
+    "SortIndex": 1000,
+    "IsComputed": true
+  },
+  {
+    "Name": "isLanguage",
+    "Values": 19420,
+    "Coverage": "400%",
+    "Question": "Does PLDB categorize this entity as a language?",
+    "Example": "true",
+    "Type": "boolean",
+    "SortIndex": 1000,
+    "IsComputed": true
+  },
+  {
+    "Name": "isDone",
+    "Values": 19420,
+    "Coverage": "400%",
+    "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
+    "Example": "false",
+    "Type": "boolean",
+    "SortIndex": 1000,
+    "IsComputed": true
+  },
+  {
+    "Name": "wordRank",
+    "Values": 1508,
+    "Coverage": "31%",
+    "Question": "Where does this word rank in terms of common English words?",
+    "Example": "4100",
     "Type": "number",
     "SortIndex": 1000,
     "IsComputed": false
@@ -3618,91 +3618,6 @@
     "Question": "Does the official release of the language use semantic versioning?",
     "Example": "true",
     "Type": "boolean",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "equation",
-    "Values": 60,
-    "Coverage": "1%",
-    "Question": "What is a LaTeX encoding of this equation?",
-    "Example": "∇xB=µ0*J",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "example",
-    "Values": 3316,
-    "Coverage": "68%",
-    "Question": "What is a representative snippet for this language?",
-    "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "helloWorldCollection",
-    "Values": 596,
-    "Coverage": "12%",
-    "Question": "What is the name of this project in the Hello World Collection?",
-    "Example": "\\ Hello world in ABC\\n\\nWRITE \"Hello, World!\" /",
-    "Type": "string",
-    "Source": "helloworldcollection.de",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "funFact",
-    "Values": 12,
-    "Coverage": "0%",
-    "Question": "What is a code block or some text containing a fun or unusual fact about the language?",
-    "Example": " C gets credit for the // comments, starting in 1972, but that's not really accurate. BCPL -- which begat B which begat C -- had // comments but they were not included in C until C99. C++ (which isn't included in their top 30 languages) brought back // comments from BCPL sometime between 1979 and 1985 (the first public release of cfront). Many C compilers included // comments as an extension prior to C99 but those were inspired by C++",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "goodreads",
-    "Values": 800,
-    "Coverage": "16%",
-    "Question": "What are books about this language from Goodreads?",
-    "Example": "title|year|author|goodreadsId|rating|ratings|reviews\\nProgramming the IBM 1620|1965|Eric A. Weiss|23978396|0.0|0|0",
-    "Type": "string",
-    "Source": "goodreads.com",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "hackerNewsDiscussions",
-    "Values": 716,
-    "Coverage": "15%",
-    "Question": "What are URLS to Hacker News posts discussing this language?",
-    "Example": "id|title|time|timestamp|by|comments|score\\n17544330|Show HN: 6gunz – spreadsheet / programming language / microservices framework|2018-07-16 19:36:57 UTC|1531769817|repsilat|5|9",
-    "Type": "string",
-    "Source": "news.ycombinator.com",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "isbndb",
-    "Values": 1568,
-    "Coverage": "32%",
-    "Question": "What are books about this language from ISBNdb?",
-    "Example": "year|publisher|title|authors|isbn13\\n2002|Addison-Wesley Professional|SAP.Keller: ABAP Objects_c|Keller, Horst and Keller, Horst and Kruger, Sascha|9780201750805\\n2018|SAP Press|ABAP Programming Model for SAP Fiori: ABAP Development for SAP S/4HANA (SAP PRESS)|Stefan Haas and Bince Mathew|9781493217649\\n1999|Premier Pr|Advanced Abap Programming For Sap (sap R/3)|Gareth M De Bruyn and Ken Kroes|9780761517986\\n2010|Springer|Web Dynpro ABAP for Practitioners|Gellert, Ulrich and Cristea, Ana Daniela|9783642113857\\n2019|SAP Press|ABAP: The Comprehensive Guide to SAP ABAP 7.52 and 1909 (Second Edition) (SAP PRESS)|Kiran Bandari|9781493218660\\n2019|SAP Press|ABAP: An Introduction and Beginner's Guide to Programming with SAP ABAP (2nd Edition) (SAP PRESS)|Brian O'Neil and Jelena Perfiljeva|9781493218806\\n2015-11-30T00:00:01Z|SAP Press|ABAP Objects: ABAP Object-Oriented Programming (OOP) (2nd Edition) (SAP PRESS)|James Wood and Joseph Rupert|9781592299935\\n2019|SAP Press|ABAP to the Future: Advanced, Modern ABAP (Third Edition) (SAP PRESS)|Paul Hardy|9781493217618\\n2019|Packt Publishing|Mastering SAP ABAP: A complete guide to developing fast, durable, and maintainable ABAP programs in SAP|Grześkowiak, Paweł and Ciesielski, Wojciech and Ćwik, Wojciech|9781787129498\\n2011|SAP PRESS|Discover ABAP: Your Introduction to ABAP Objects|Kühnhauser, Karl-Heinz and Franz, Thorsten|9781592294022\\n2007|SAP PRESS|ABAP Objects: ABAP Programming in SAP NetWeaver|Keller, Horst and Krüger, Sascha|9781592290796\\n2017|Independently published|Learn ABAP in 1 Day: Definitive Guide to Learn SAP ABAP Programming for Beginners|Rungta, Krishna|9781521595701\\n2014-07-17T00:00:01Z|Cengage Learning PTR|Introduction to ABAP Programming for SAP, 3rd Edition|Gareth M. De Bruyn and Robert Lyfareff and Mark Balleza and Dhruv Kashyap|9781305266476\\n2019|SAP Press|ABAP RESTful Programming Model: ABAP Development for SAP S/4HANA (SAP PRESS)|Stefan Haas and Bince Mathew|9781493219032\\n2009-09-28T00:00:01Z|SAP PRESS|Official ABAP Programming Guidelines|Keller, Horst and Thümmel, Wolf Hagen|9781592292905\\n2012|Packt Publishing|SAP ABAP Advanced cookbook (Quick Answers to Common Problems)|Zaidi, Rehan|9781849684897\\n2019|Packt Publishing|Mastering SAP ABAP: A complete guide to developing fast, durable, and maintainable ABAP programs in SAP|Grzeskowiak, Pawel and Ciesielski, Wojciech and Cwik, Wojciech|9781787288942\\n2010-05-28T00:00:01Z|SAP PRESS|ABAP Cookbook: Programming Recipes for Everyday Solutions|Wood, James|9781592293261\\n2021|Apress|Improving the Quality of ABAP Code: Striving for Perfection|Hardy, Paul David|9781484267110\\n2013|Springer|Web Dynpro ABAP for Practitioners|Gellert, Ulrich and Cristea, Ana Daniela|9783642382475\\n2009-01-28T00:00:01Z|SAP PRESS|Object-Oriented Programming with ABAP Objects|Wood, James|9781592292356\\n2010|SAP PRESS|ABAP Development for Materials Management in SAP: User Exits and BAdIs|Schwaninger, Jürgen|9781592293735\\n2017|Apress|Pro SAP Scripts, Smartforms, and Data Migration: ABAP Programming Simplified|Markandeya, Sushil|9781484231838\\n2006|Apress|Foundations of Java for ABAP Programmers|Rooney, Alistair|9781590596258\\n2012|Packt Publishing|SAP ABAP Advanced cookbook (Quick Answers to Common Problems)|Zaidi Rehan|9781849684880\\n2006|Equity Press|SAP ABAP Certification Review: SAP ABAP Interview Questions, Answers, And Explanations|Fewer, Barry|9781933804064\\n2004|SAP PRESS|Enhancing the Quality of ABAP Development|Heuvelmans, Wouter and Krouwels, Albert and Meijs, Ben and Sommen, Ron|9781592290307\\n20170620|Springer Nature|JavaScript Essentials for SAP ABAP Developers|Rehan Zaidi|9781484222201\\n2017|Rheinwerk Publishing,|Complete Abap|Bandari, Kiran|9781493212743\\n2010-05-28|Rheinwerk Publishing, Inc.|ABAP Cookbook|James Wood|9781592298877\\n2012-10-28|Rheinwerk Publishing, Inc.|Web Dynpro ABAP|James Wood and Shaan Parvaze|9781592295999\\n20190927|Springer Nature|SAP ABAP Objects|Rehan Zaidi|9781484249642\\n20210529|Springer Nature|ABAP in Eclipse|Łukasz Pęgiel|9781484269633\\n2009-06-28|Rheinwerk Publishing, Inc.|ABAP Performance Tuning|Hermann Gahm|9781592295555\\n2019-11-21|Rheinwerk Publishing, Inc.|ABAP RESTful Programming Model|Stefan Haas and Bince Mathew|9781493219049\\n2013-10-28|Rheinwerk Publishing, Inc.|Function Modules in ABAP|Tanmaya Gupta|9781592298518\\n2019-02-26|Rheinwerk Publishing, Inc.|ABAP to the Future|Paul Hardy|9781493217625\\n2018-11-27|Rheinwerk Publishing, Inc.|ABAP Programming Model for SAP Fiori|Stefan Haas and Bince Mathew|9781493217656\\n2018-08-01|Createspace Independent Publishing Platform|Interface Programming In Sap Abap|Dr Boris Rubarth|9781722902940\\n20210401|Springer Nature|Automated Unit Testing with ABAP|James E. McDonough|9781484269510\\n1996|Prima Pub|Introduction To Abap 4 Programming|Gareth Debruyn|9780761508038\\n2016|Rheinwerk Publishing,|Object-oriented Programming With Abap Objects|Wood, James and Rupert, Joe|\\n2015-10-22|Rheinwerk Publishing, Inc.|Object-Oriented Programming with ABAP Objects|James Wood and Joseph Rupert|9781592299942\\n2010-11-28|Rheinwerk Publishing, Inc.|BRFplus—Business Rule Management for ABAP Applications|Thomas Albrecht and Carsten Ziegler|9781592298914\\n1999|Consultants Network Inc|Instant Access: Sap Developer's Reference For Abap|The Consultants Network Inc.|9780965563345\\n2011-01-28|Rheinwerk Publishing, Inc.|ABAP Development for Financial Accounting: Custom Enhancements|Sergey Korolev|9781592297399\\n2012-09-28|Rheinwerk Publishing, Inc.|ABAP Development for Sales and Distribution in SAP|Michael Koch|9781592296033\\n2000|Youguys Pub|Abap Programming: A Guide To The Certification Course|Kathleen Sikora|9780970655400\\n2017|Apress|Pro Sap Scripts, Smartforms, And Data Migration: Abap Programming Simplified|Sushil Markandeya|9781484231821\\n2010-11-28|Rheinwerk Publishing, Inc.|ABAP Development for Materials Management in SAP: User Exits and BAdIs|Jürgen Schwaninger|9781592297436\\n2003|Sap Press|Web Programming With The Sap Web Application Server: The Complete Guide For Abap And Web Developers|Frédéric Heinemann and Christian Rau|9781592290130",
-    "Type": "string",
-    "Source": "isbndb.com",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
-    "Name": "semanticScholar",
-    "Values": 1272,
-    "Coverage": "26%",
-    "Question": "What are papers about this language from Semantic Scholar?",
-    "Example": "year|title|doi|citations|influentialCitations|authors|paperId\\n2002|Teaching SAP's ABAP Programming Language to IS Students: Adopting and Adapting Web-based Technologies|10.28945/2530|6|0|Brendan McCarthy and Paul Hawking|24eebbc39ee141a470e92d7d154c5bb7590f7914\\n2008|ABAP OBJECTS: DESIGNING A PROGRAMMING COURSE FOR INFORMATION SYSTEMS STUDENTS USING SAP SOFTWARE|10.48009/1_iis_2008_165-167|1|0|C. Rogers|4b660a8a0cd7ff636673dd7553d2ad7a19914d04",
-    "Type": "string",
-    "Source": "semanticscholar.org",
     "SortIndex": 1000,
     "IsComputed": false
   },
@@ -3806,6 +3721,91 @@
     "Question": "What are the release years and versions of this language?",
     "Example": "",
     "Type": "",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "goodreads",
+    "Values": 800,
+    "Coverage": "16%",
+    "Question": "What are books about this language from Goodreads?",
+    "Example": "title|year|author|goodreadsId|rating|ratings|reviews\\nProgramming the IBM 1620|1965|Eric A. Weiss|23978396|0.0|0|0",
+    "Type": "string",
+    "Source": "goodreads.com",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "hackerNewsDiscussions",
+    "Values": 716,
+    "Coverage": "15%",
+    "Question": "What are URLS to Hacker News posts discussing this language?",
+    "Example": "id|title|time|timestamp|by|comments|score\\n17544330|Show HN: 6gunz – spreadsheet / programming language / microservices framework|2018-07-16 19:36:57 UTC|1531769817|repsilat|5|9",
+    "Type": "string",
+    "Source": "news.ycombinator.com",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "isbndb",
+    "Values": 1568,
+    "Coverage": "32%",
+    "Question": "What are books about this language from ISBNdb?",
+    "Example": "year|publisher|title|authors|isbn13\\n2002|Addison-Wesley Professional|SAP.Keller: ABAP Objects_c|Keller, Horst and Keller, Horst and Kruger, Sascha|9780201750805\\n2018|SAP Press|ABAP Programming Model for SAP Fiori: ABAP Development for SAP S/4HANA (SAP PRESS)|Stefan Haas and Bince Mathew|9781493217649\\n1999|Premier Pr|Advanced Abap Programming For Sap (sap R/3)|Gareth M De Bruyn and Ken Kroes|9780761517986\\n2010|Springer|Web Dynpro ABAP for Practitioners|Gellert, Ulrich and Cristea, Ana Daniela|9783642113857\\n2019|SAP Press|ABAP: The Comprehensive Guide to SAP ABAP 7.52 and 1909 (Second Edition) (SAP PRESS)|Kiran Bandari|9781493218660\\n2019|SAP Press|ABAP: An Introduction and Beginner's Guide to Programming with SAP ABAP (2nd Edition) (SAP PRESS)|Brian O'Neil and Jelena Perfiljeva|9781493218806\\n2015-11-30T00:00:01Z|SAP Press|ABAP Objects: ABAP Object-Oriented Programming (OOP) (2nd Edition) (SAP PRESS)|James Wood and Joseph Rupert|9781592299935\\n2019|SAP Press|ABAP to the Future: Advanced, Modern ABAP (Third Edition) (SAP PRESS)|Paul Hardy|9781493217618\\n2019|Packt Publishing|Mastering SAP ABAP: A complete guide to developing fast, durable, and maintainable ABAP programs in SAP|Grześkowiak, Paweł and Ciesielski, Wojciech and Ćwik, Wojciech|9781787129498\\n2011|SAP PRESS|Discover ABAP: Your Introduction to ABAP Objects|Kühnhauser, Karl-Heinz and Franz, Thorsten|9781592294022\\n2007|SAP PRESS|ABAP Objects: ABAP Programming in SAP NetWeaver|Keller, Horst and Krüger, Sascha|9781592290796\\n2017|Independently published|Learn ABAP in 1 Day: Definitive Guide to Learn SAP ABAP Programming for Beginners|Rungta, Krishna|9781521595701\\n2014-07-17T00:00:01Z|Cengage Learning PTR|Introduction to ABAP Programming for SAP, 3rd Edition|Gareth M. De Bruyn and Robert Lyfareff and Mark Balleza and Dhruv Kashyap|9781305266476\\n2019|SAP Press|ABAP RESTful Programming Model: ABAP Development for SAP S/4HANA (SAP PRESS)|Stefan Haas and Bince Mathew|9781493219032\\n2009-09-28T00:00:01Z|SAP PRESS|Official ABAP Programming Guidelines|Keller, Horst and Thümmel, Wolf Hagen|9781592292905\\n2012|Packt Publishing|SAP ABAP Advanced cookbook (Quick Answers to Common Problems)|Zaidi, Rehan|9781849684897\\n2019|Packt Publishing|Mastering SAP ABAP: A complete guide to developing fast, durable, and maintainable ABAP programs in SAP|Grzeskowiak, Pawel and Ciesielski, Wojciech and Cwik, Wojciech|9781787288942\\n2010-05-28T00:00:01Z|SAP PRESS|ABAP Cookbook: Programming Recipes for Everyday Solutions|Wood, James|9781592293261\\n2021|Apress|Improving the Quality of ABAP Code: Striving for Perfection|Hardy, Paul David|9781484267110\\n2013|Springer|Web Dynpro ABAP for Practitioners|Gellert, Ulrich and Cristea, Ana Daniela|9783642382475\\n2009-01-28T00:00:01Z|SAP PRESS|Object-Oriented Programming with ABAP Objects|Wood, James|9781592292356\\n2010|SAP PRESS|ABAP Development for Materials Management in SAP: User Exits and BAdIs|Schwaninger, Jürgen|9781592293735\\n2017|Apress|Pro SAP Scripts, Smartforms, and Data Migration: ABAP Programming Simplified|Markandeya, Sushil|9781484231838\\n2006|Apress|Foundations of Java for ABAP Programmers|Rooney, Alistair|9781590596258\\n2012|Packt Publishing|SAP ABAP Advanced cookbook (Quick Answers to Common Problems)|Zaidi Rehan|9781849684880\\n2006|Equity Press|SAP ABAP Certification Review: SAP ABAP Interview Questions, Answers, And Explanations|Fewer, Barry|9781933804064\\n2004|SAP PRESS|Enhancing the Quality of ABAP Development|Heuvelmans, Wouter and Krouwels, Albert and Meijs, Ben and Sommen, Ron|9781592290307\\n20170620|Springer Nature|JavaScript Essentials for SAP ABAP Developers|Rehan Zaidi|9781484222201\\n2017|Rheinwerk Publishing,|Complete Abap|Bandari, Kiran|9781493212743\\n2010-05-28|Rheinwerk Publishing, Inc.|ABAP Cookbook|James Wood|9781592298877\\n2012-10-28|Rheinwerk Publishing, Inc.|Web Dynpro ABAP|James Wood and Shaan Parvaze|9781592295999\\n20190927|Springer Nature|SAP ABAP Objects|Rehan Zaidi|9781484249642\\n20210529|Springer Nature|ABAP in Eclipse|Łukasz Pęgiel|9781484269633\\n2009-06-28|Rheinwerk Publishing, Inc.|ABAP Performance Tuning|Hermann Gahm|9781592295555\\n2019-11-21|Rheinwerk Publishing, Inc.|ABAP RESTful Programming Model|Stefan Haas and Bince Mathew|9781493219049\\n2013-10-28|Rheinwerk Publishing, Inc.|Function Modules in ABAP|Tanmaya Gupta|9781592298518\\n2019-02-26|Rheinwerk Publishing, Inc.|ABAP to the Future|Paul Hardy|9781493217625\\n2018-11-27|Rheinwerk Publishing, Inc.|ABAP Programming Model for SAP Fiori|Stefan Haas and Bince Mathew|9781493217656\\n2018-08-01|Createspace Independent Publishing Platform|Interface Programming In Sap Abap|Dr Boris Rubarth|9781722902940\\n20210401|Springer Nature|Automated Unit Testing with ABAP|James E. McDonough|9781484269510\\n1996|Prima Pub|Introduction To Abap 4 Programming|Gareth Debruyn|9780761508038\\n2016|Rheinwerk Publishing,|Object-oriented Programming With Abap Objects|Wood, James and Rupert, Joe|\\n2015-10-22|Rheinwerk Publishing, Inc.|Object-Oriented Programming with ABAP Objects|James Wood and Joseph Rupert|9781592299942\\n2010-11-28|Rheinwerk Publishing, Inc.|BRFplus—Business Rule Management for ABAP Applications|Thomas Albrecht and Carsten Ziegler|9781592298914\\n1999|Consultants Network Inc|Instant Access: Sap Developer's Reference For Abap|The Consultants Network Inc.|9780965563345\\n2011-01-28|Rheinwerk Publishing, Inc.|ABAP Development for Financial Accounting: Custom Enhancements|Sergey Korolev|9781592297399\\n2012-09-28|Rheinwerk Publishing, Inc.|ABAP Development for Sales and Distribution in SAP|Michael Koch|9781592296033\\n2000|Youguys Pub|Abap Programming: A Guide To The Certification Course|Kathleen Sikora|9780970655400\\n2017|Apress|Pro Sap Scripts, Smartforms, And Data Migration: Abap Programming Simplified|Sushil Markandeya|9781484231821\\n2010-11-28|Rheinwerk Publishing, Inc.|ABAP Development for Materials Management in SAP: User Exits and BAdIs|Jürgen Schwaninger|9781592297436\\n2003|Sap Press|Web Programming With The Sap Web Application Server: The Complete Guide For Abap And Web Developers|Frédéric Heinemann and Christian Rau|9781592290130",
+    "Type": "string",
+    "Source": "isbndb.com",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "semanticScholar",
+    "Values": 1272,
+    "Coverage": "26%",
+    "Question": "What are papers about this language from Semantic Scholar?",
+    "Example": "year|title|doi|citations|influentialCitations|authors|paperId\\n2002|Teaching SAP's ABAP Programming Language to IS Students: Adopting and Adapting Web-based Technologies|10.28945/2530|6|0|Brendan McCarthy and Paul Hawking|24eebbc39ee141a470e92d7d154c5bb7590f7914\\n2008|ABAP OBJECTS: DESIGNING A PROGRAMMING COURSE FOR INFORMATION SYSTEMS STUDENTS USING SAP SOFTWARE|10.48009/1_iis_2008_165-167|1|0|C. Rogers|4b660a8a0cd7ff636673dd7553d2ad7a19914d04",
+    "Type": "string",
+    "Source": "semanticscholar.org",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "equation",
+    "Values": 60,
+    "Coverage": "1%",
+    "Question": "What is a LaTeX encoding of this equation?",
+    "Example": "∇xB=µ0*J",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "example",
+    "Values": 3316,
+    "Coverage": "68%",
+    "Question": "What is a representative snippet for this language?",
+    "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "helloWorldCollection",
+    "Values": 596,
+    "Coverage": "12%",
+    "Question": "What is the name of this project in the Hello World Collection?",
+    "Example": "\\ Hello world in ABC\\n\\nWRITE \"Hello, World!\" /",
+    "Type": "string",
+    "Source": "helloworldcollection.de",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "funFact",
+    "Values": 12,
+    "Coverage": "0%",
+    "Question": "What is a code block or some text containing a fun or unusual fact about the language?",
+    "Example": " C gets credit for the // comments, starting in 1972, but that's not really accurate. BCPL -- which begat B which begat C -- had // comments but they were not included in C until C99. C++ (which isn't included in their top 30 languages) brought back // comments from BCPL sometime between 1979 and 1985 (the first public release of cfront). Many C compilers included // comments as an extension prior to C99 but those were inspired by C++",
+    "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
   }

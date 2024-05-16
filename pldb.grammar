@@ -300,7 +300,8 @@ abstractUrlMeasureParser
  extends abstractWordMeasureParser
 
 // Required ID measure which denotes a concept
-idParser
+abstractIdParser
+ crux id
  description What is the ID of this concept?
  extends abstractStringMeasureParser
  int sortIndex 0
@@ -321,7 +322,7 @@ idParser
     return errors
   }
 
-filenameParser
+abstractFilenameParser
  // Added by the loadConcepts keyword
  description What is the name of the file holding this concept?
  extends abstractStringMeasureParser
@@ -404,6 +405,8 @@ errorParser
 
 
 // parsersOnly
+
+// Common Measures
 
 // Hashmap parsers
 abstractHashMapMeasureParser
@@ -492,10 +495,12 @@ abstractIDRelationshipParser
  extends abstractRelationshipParser
 
 
+idParser
+ extends abstractIdParser
+ sortTemplate id appeared tags isDone isPublicDomain screenshot photo demoVideo creators conceptDescription website webRepl documentation devDocumentation ebook emailList spec reference cheatSheetUrl standsFor oldName renamedTo aka fileExtensions country nativeLanguage originCommunity domainName equation firstAnnouncement announcementMethod usesSemanticVersioning releaseNotesUrl proposals roadmap versions  abstractRelationshipParser  visualParadigm  abstractFeatureParser  lineCommentToken multiLineCommentTokens printToken assignmentToken stringToken booleanTokens includeToken keywords  example  gource abstractGitRepoUrlMeasureParser  repoStats  funFact  wikipedia  githubLanguage githubBigQuery  antlr monaco codeMirror pygmentsHighlighter linguistGrammarRepo languageServerProtocolProject  projectEuler helloWorldCollection leachim6 rosettaCode quineRelay  compilerExplorer rijuRepl replit tryItOnline  indeedJobs linkedInSkill stackOverflowSurvey annualReportsUrl officialBlogUrl eventsPageUrl faqPageUrl downloadPageUrl  abstractChatUrlMeasureParser subreddit meetup conference  hackerNewsDiscussions redditDiscussion  tiobe hopl esolang pypl  packageRepository packageCount packageAuthors packageInstallCount forLanguages  twitter ubuntuPackage gdbSupport jupyterKernel fileType wordRank isOpenSource githubCopilotOptimized centralPackageRepositoryCount  goodreads  isbndb  semanticScholar
 
-// parsersOnly
-
-
+filenameParser
+ extends abstractFilenameParser
 
 abstractFeatureParser
  extends abstractBooleanMeasureParser
