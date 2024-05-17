@@ -2301,8 +2301,8 @@
     "Name": "screenshot",
     "Values": 56,
     "Coverage": "1%",
-    "Question": "What is a URL to a screenshot of this visual language in the form https://pldb.io/screenshots/[id].png?",
-    "Example": "https://upload.wikimedia.org/wikipedia/commons/2/20/ActivityPub-tutorial-image.png",
+    "Question": "What is the filename to a screenshot of this visual language in the concepts/screenshots/ folder?",
+    "Example": "activity-pub.png",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
@@ -2312,7 +2312,7 @@
     "Values": 20,
     "Coverage": "0%",
     "Question": "What is a URL to a screenshot of this real world notation in the form https://pldb.io/photos/[id].png?",
-    "Example": "https://pldb.io/photos/binary-notation.png",
+    "Example": "binary-notation.jpg",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
