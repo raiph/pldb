@@ -1,0 +1,70 @@
+Recfiles
+========
+
+Recfiles is a data notation created in 1994 by Jose E. Marchesi.
+ https://pldb.io/concepts/../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22appeared%22%2C%22origData%22%3A%22appeared%22%2C%22tags%22%3A%22num%22%2C%22value%22%3A%5B%221994%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D
+ https://pldb.io/concepts/../lists/creators.html#q=Jose%20E.%20Marchesi
+
+#1018 on PLDB
+30 Years Old
+
+recfiles is a file format for human-editable, plain text databases. Databases using this file format can be edited using any text editor. recfiles allow for basic relational database operations, typing, auto-incrementing, as well as a simple join operation. Read more on Wikipedia...
+ https://en.wikipedia.org/wiki/Recfiles
+
+- Recfiles Wikipedia page
+ https://en.wikipedia.org/wiki/Recfiles
+- Recfiles first developed in Free Software Foundation
+- Read more about Recfiles on the web: 1.
+ https://www.gnu.org/software/recutils/
+
+%rec: Book
+%mandatory: Title
+%type: Location enum loaned home unknown
+%doc:
++ A book in my personal collection.
+
+Title: GNU Emacs Manual
+Author: Richard M. Stallman
+Publisher: FSF
+Location: home
+
+Title: The Colour of Magic
+Author: Terry Pratchett
+Location: loaned
+
+Title: Mio Cid
+Author: Anonymous
+Location: home
+
+Title: chapters.gnu.org administration guide
+Author: Nacho Gonzalez
+Author: Jose E. Marchesi
+Location: unknown
+
+Title: Yeelong User Manual
+Location: home
+
+Language features
+======================================================
+
+row
+ Feature Line Comments
+ FeatureLink ../features/hasLineComments.html
+ Supported ✓
+ Token #
+ Example
+  # A comment
+row
+ Feature Comments
+ FeatureLink ../features/hasComments.html
+ Supported ✓
+ Token 
+ Example
+  # Blah blah…
+  # Unlike some file formats, comments in recfiles must be complete lines. You cannot start a comment in the middle of a line.
+row
+ Feature Semantic Indentation
+ FeatureLink ../features/hasSemanticIndentation.html
+ Supported X
+ Token 
+ Example

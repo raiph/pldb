@@ -1,0 +1,140 @@
+HTML
+====
+
+HTML is a text markup language created in 1991 by Tim Berners-Lee.
+ https://pldb.io/concepts/../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22appeared%22%2C%22origData%22%3A%22appeared%22%2C%22tags%22%3A%22num%22%2C%22value%22%3A%5B%221991%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D
+ https://pldb.io/concepts/../lists/creators.html#q=Tim%20Berners-Lee
+
+#3 on PLDB
+33 Years Old
+13m Repos
+
+Try now: Web · Replit
+
+Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages. Read more on Wikipedia...
+ https://en.wikipedia.org/wiki/HTML
+
+- HTML Wikipedia page
+ https://en.wikipedia.org/wiki/HTML
+- HTML docs
+ https://devdocs.io/html/
+- HTML specs
+ https://html.spec.whatwg.org/
+- HTML mailing list
+ https://www.w3.org/html/wiki/HTML_Mailing_Lists
+- There are at least 12,648,584 HTML repos on GitHub
+- HTML first developed in Conseil Européen pour la Recherche Nucléaire
+- The  Google BigQuery Public Dataset GitHub snapshot shows 492k users using HTML in 778k repos on GitHub
+- Check out the 2,347 HTML meetup groups on Meetup.com.
+- There are 40,286 members in the HTML subreddit
+- In the 2021 StackOverflow developer survey HTML programmers reported a median salary of $52,980. 55% of respondents reported using HTML. 46,259 programmers reported using HTML, and 29,353 said they wanted to use it
+- HTML on HOPL
+ https://hopl.info/showlanguage.prx?exp=2097
+- ANTLR grammar for HTML
+- HTML LSP implementation
+- Monaco package for syntax highlighting HTML
+- Pygments supports syntax highlighting for HTML
+- GitHub supports syntax highlighting for HTML
+- Indeed.com has 14,472 matches for "html developer".
+- See also: (11 related languages)SGML, CSS, JavaScript, WebGL, DTD, RFC, XML, Unicode, UTF-8, HTTP, FAT
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;Hello World&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;HTML&gt;
+&lt;!-- Hello World in HTML --&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Hello World!&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY&gt;
+Hello World!
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+
+&lt;/UL&gt;
+&lt;P&gt;&lt;A HREF=&quot;devices.html&quot;&gt;Supported Targets&lt;/A&gt;&lt;/P&gt;
+&lt;/BODY&gt;
+&lt;/HEAD&gt;
+
+&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;http://www.w3.org/TR/html4/strict.dtd&quot;&gt;
+
+Language features
+======================================================
+
+row
+ Feature Case Insensitive Identifiers
+ FeatureLink ../features/hasCaseInsensitiveIdentifiers.html
+ Supported ✓
+ Token 
+ Example
+row
+ Feature MultiLine Comments
+ FeatureLink ../features/hasMultiLineComments.html
+ Supported ✓
+ Token 
+ Example
+  
+row
+ Feature Comments
+ FeatureLink ../features/hasComments.html
+ Supported ✓
+ Token 
+ Example
+  
+row
+ Feature Semantic Indentation
+ FeatureLink ../features/hasSemanticIndentation.html
+ Supported X
+ Token 
+ Example
+row
+ Feature Ternary operators
+ FeatureLink ../features/hasTernaryOperators.html
+ Supported X
+ Token 
+ Example
+row
+ Feature Conditionals
+ FeatureLink ../features/hasConditionals.html
+ Supported X
+ Token 
+ Example
+row
+ Feature Line Comments
+ FeatureLink ../features/hasLineComments.html
+ Supported X
+ Token 
+ Example
+row
+ Feature Macros
+ FeatureLink ../features/hasMacros.html
+ Supported X
+ Token 
+ Example
+row
+ Feature File Imports
+ FeatureLink ../features/hasImports.html
+ Supported X
+ Token 
+ Example
+row
+ Feature Enums
+ FeatureLink ../features/hasEnums.html
+ Supported X
+ Token 
+ Example
+row
+ Feature Operators
+ FeatureLink ../features/hasOperators.html
+ Supported X
+ Token 
+ Example

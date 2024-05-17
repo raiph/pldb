@@ -1,0 +1,62 @@
+CMake
+=====
+
+CMake is an open source application created in 2000.
+ https://pldb.io/concepts/../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22appeared%22%2C%22origData%22%3A%22appeared%22%2C%22tags%22%3A%22num%22%2C%22value%22%3A%5B%222000%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D
+
+#485 on PLDB
+24 Years Old
+
+git clone https://gitlab.kitware.com/cmake/cmake
+
+Try now: Riju
+
+CMake is cross-platform free and open-source software for managing the build process of software using a compiler-independent method. It supports directory hierarchies and applications that depend on multiple libraries. It is used in conjunction with native build environments such as make, Apple's Xcode, and Microsoft Visual Studio. Read more on Wikipedia...
+ https://en.wikipedia.org/wiki/CMake
+
+- CMake website
+ https://cmake.org/
+- CMake Wikipedia page
+ https://en.wikipedia.org/wiki/CMake
+- CMake on GitLab
+ https://gitlab.kitware.com/cmake/cmake
+- CMake first developed in Kitware, Inc
+- The  Google BigQuery Public Dataset GitHub snapshot shows 39k users using CMake in 56k repos on GitHub
+- Explore CMake snippets on Rosetta Code
+- CodeMirror package for syntax highlighting CMake
+- Pygments supports syntax highlighting for CMake
+- GitHub supports syntax highlighting for CMake
+- cmake.org was registered in 2001
+- See also: (16 related languages)C, Visual Studio, Eclipse, Linux, Ninja, Unix, Falcon, KiCad Legacy Layout, LLVM IR, MySQL, MariaDB, Qt, Advanced Message Queuing Protocol, ROOT, Meson, QMake
+- Read more about CMake on the web: 1.
+ https://www.jetbrains.com/help/clion/cmakelists-txt-file.html
+
+project(default)
+
+add_compile_options(-Werror -Wall -Wextra -g)
+
+add_executable(output.s example.cpp)
+
+message(&quot;Hello, world!&quot;)
+
+message(&quot;Hello World&quot;)
+
+# Hello World in CMake
+
+message(STATUS &quot;Hello World!&quot;)
+
+cmake_minimum_required(VERSION 2.6)
+
+enable_testing()
+
+set(CMAKE_BUILD_TYPE debug)
+
+include_directories(&quot;/usr/local/include&quot;)
+
+find_library(ssl_LIBRARY NAMES ssl PATHS &quot;/usr/local/lib&quot;)
+
+add_custom_command(OUTPUT &quot;ver.c&quot; &quot;ver.h&quot; COMMAND ./ver.sh)
+
+add_executable(foo foo.c bar.c baz.c ver.c)
+
+target_link_libraries(foo ${ssl_LIBRARY})

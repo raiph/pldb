@@ -1,0 +1,103 @@
+YAML
+====
+
+YAML, aka YAML Ain't Markup Language, is a data notation created in 2001 by Clark Evans and Oren Ben-Kiki and Ingy döt Net.
+ https://pldb.io/concepts/../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22appeared%22%2C%22origData%22%3A%22appeared%22%2C%22tags%22%3A%22num%22%2C%22value%22%3A%5B%222001%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D
+ https://pldb.io/concepts/../lists/creators.html#q=Clark%20Evans
+ https://pldb.io/concepts/../lists/creators.html#q=Oren%20Ben-Kiki
+ https://pldb.io/concepts/../lists/creators.html#q=Ingy%20d%C3%B6t%20Net
+
+#217 on PLDB
+23 Years Old
+525 Repos
+
+Try now: Riju
+
+YAML (YAML Ain't Markup Language) is a human-readable data serialization language. It is commonly used for configuration files, but could be used in many applications where data is being stored (e.g. debugging output) or transmitted (e.g. Read more on Wikipedia...
+ https://en.wikipedia.org/wiki/YAML
+
+- YAML website
+ http://www.yaml.org/spec/1.2/spec.html#Introduction
+- YAML Wikipedia page
+ https://en.wikipedia.org/wiki/YAML
+- YAML docs
+ https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+- YAML specs
+ https://yaml.org/spec/1.2.2/
+- There are at least 525 YAML repos on GitHub
+- The  Google BigQuery Public Dataset GitHub snapshot shows 12 users using YAML in 13 repos on GitHub
+- YAML LSP implementation
+- CodeMirror package for syntax highlighting YAML
+- Monaco package for syntax highlighting YAML
+- Pygments supports syntax highlighting for YAML
+- GitHub supports syntax highlighting for YAML
+- See also: (11 related languages)JSON, Perl, Python, MIME, C, HTML, SOAP, Emacs, UTF-8, AsciiDoc, S-expressions
+
+output: &quot;Hello, world!&quot;
+
+hello: world
+
+---
+name: R Console
+fileTypes: []
+
+scopeName: source.r-console
+uuid: F629C7F3-823B-4A4C-8EEE-9971490C5710
+patterns:
+- name: source.r.embedded.r-console
+  begin: &quot;^&gt; &quot;
+  beginCaptures:
+    &quot;0&quot;:
+      name: punctuation.section.embedded.r-console
+  end: \n|\z
+  patterns:
+  - include: source.r
+keyEquivalent: ^~R
+
+---
+example: &gt;
+        HTML goes into YAML without modification
+message: |
+
+        &lt;blockquote style=&quot;font: italic 12pt Times&quot;&gt;
+        &lt;p&gt;&quot;Three is always greater than two,
+           even for large values of two&quot;&lt;/p&gt;
+        &lt;p&gt;--Author Unknown&lt;/p&gt;
+        &lt;/blockquote&gt;
+date: 2007-06-01
+
+Language features
+======================================================
+
+row
+ Feature Sets
+ FeatureLink ../features/hasSets.html
+ Supported ✓
+ Token 
+ Example
+  # Explicitly typed set.
+  baseball players: !!set
+    ? Mark McGwire
+    ? Sammy Sosa
+    ? Ken Griffey
+  # Flow style
+  baseball teams: !!set { Boston Red Sox, Detroit Tigers, New York Yankees }
+row
+ Feature Comments
+ FeatureLink ../features/hasComments.html
+ Supported ✓
+ Token 
+ Example
+row
+ Feature Line Comments
+ FeatureLink ../features/hasLineComments.html
+ Supported ✓
+ Token #
+ Example
+  # A comment
+row
+ Feature Semantic Indentation
+ FeatureLink ../features/hasSemanticIndentation.html
+ Supported ✓
+ Token 
+ Example
