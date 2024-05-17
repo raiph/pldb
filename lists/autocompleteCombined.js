@@ -4637,6 +4637,11 @@ var autocompleteJs = [
     "url": "/concepts/blockml.html"
   },
   {
+    "label": "TQL",
+    "id": "tql",
+    "url": "/concepts/tql.html"
+  },
+  {
     "label": "hecl",
     "id": "hecl",
     "url": "/concepts/hecl.html"
@@ -4902,6 +4907,11 @@ var autocompleteJs = [
     "url": "/concepts/femtolisp.html"
   },
   {
+    "label": "Xtext",
+    "id": "xtext",
+    "url": "/concepts/xtext.html"
+  },
+  {
     "label": "Algol",
     "id": "algol",
     "url": "/concepts/algol.html"
@@ -5152,11 +5162,6 @@ var autocompleteJs = [
     "url": "/concepts/owen-lang.html"
   },
   {
-    "label": "TQL",
-    "id": "tql",
-    "url": "/concepts/tql.html"
-  },
-  {
     "label": "Claro",
     "id": "claro",
     "url": "/concepts/claro.html"
@@ -5202,19 +5207,14 @@ var autocompleteJs = [
     "url": "/concepts/algol-68.html"
   },
   {
-    "label": "Xtext",
-    "id": "xtext",
-    "url": "/concepts/xtext.html"
+    "label": "Swallow",
+    "id": "swallow",
+    "url": "/concepts/swallow.html"
   },
   {
     "label": "RPG",
     "id": "ibm-rpg",
     "url": "/concepts/ibm-rpg.html"
-  },
-  {
-    "label": "Swallow",
-    "id": "swallow",
-    "url": "/concepts/swallow.html"
   },
   {
     "label": "Z notation",
