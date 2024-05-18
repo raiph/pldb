@@ -1,7 +1,7 @@
 const measures = [
   {
     "Name": "id",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -12,7 +12,7 @@ const measures = [
   },
   {
     "Name": "filename",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -43,7 +43,7 @@ const measures = [
   },
   {
     "Name": "tags",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -54,37 +54,37 @@ const measures = [
   },
   {
     "Name": "rank",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1358",
+    "Example": "1364",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
   },
   {
     "Name": "impactScore",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1267",
+    "Example": "1255",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
   },
   {
     "Name": "languageRank",
-    "Values": 21960,
+    "Values": 21965,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1186",
+    "Example": "1191",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
   },
   {
     "Name": "measurements",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -104,7 +104,7 @@ const measures = [
   },
   {
     "Name": "exampleCount",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -114,7 +114,7 @@ const measures = [
   },
   {
     "Name": "bookCount",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -124,7 +124,7 @@ const measures = [
   },
   {
     "Name": "paperCount",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -134,7 +134,7 @@ const measures = [
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "790",
@@ -144,7 +144,7 @@ const measures = [
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -165,7 +165,7 @@ const measures = [
   },
   {
     "Name": "githubRepo",
-    "Values": 5300,
+    "Values": 5315,
     "Coverage": "109%",
     "Question": "What is the URL of the official GitHub repo for the project if it is hosted there?",
     "Example": "https://github.com/Adriandmen/05AB1E",
@@ -428,7 +428,7 @@ const measures = [
   {
     "Name": "hasClasses",
     "Values": 170,
-    "Coverage": "4%",
+    "Coverage": "3%",
     "Question": "Does the language have a concept of classes?",
     "Example": "true",
     "Type": "boolean",
@@ -998,7 +998,7 @@ const measures = [
   {
     "Name": "hasMacros",
     "Values": 170,
-    "Coverage": "4%",
+    "Coverage": "3%",
     "Question": "Does the language have a compile-time macro pass?",
     "Example": "true",
     "Type": "boolean",
@@ -2176,8 +2176,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_description",
-    "Values": 5040,
-    "Coverage": "104%",
+    "Values": 5155,
+    "Coverage": "106%",
     "Question": "How is this language described here?",
     "Example": "A concise stack-based golfing language",
     "Type": "string",
@@ -2186,8 +2186,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_created",
-    "Values": 5075,
-    "Coverage": "104%",
+    "Values": 5190,
+    "Coverage": "107%",
     "Question": "When was the *Github repo* for this entity created?",
     "Example": "2015",
     "Type": "number",
@@ -2196,8 +2196,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_updated",
-    "Values": 5145,
-    "Coverage": "106%",
+    "Values": 5260,
+    "Coverage": "108%",
     "Question": "What year was the last commit made?",
     "Example": "2022",
     "Type": "number",
@@ -2216,8 +2216,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_subscribers",
-    "Values": 5110,
-    "Coverage": "105%",
+    "Values": 5225,
+    "Coverage": "108%",
     "Question": "How many subscribers to the repo?",
     "Example": "20",
     "Type": "number",
@@ -2226,8 +2226,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_forks",
-    "Values": 5150,
-    "Coverage": "106%",
+    "Values": 5265,
+    "Coverage": "108%",
     "Question": "How many forks of the repo?",
     "Example": "39",
     "Type": "number",
@@ -2236,8 +2236,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_stars",
-    "Values": 5165,
-    "Coverage": "106%",
+    "Values": 5280,
+    "Coverage": "109%",
     "Question": "How many stars of the repo?",
     "Example": "672",
     "Type": "number",
@@ -2246,8 +2246,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_issues",
-    "Values": 4630,
-    "Coverage": "95%",
+    "Values": 4770,
+    "Coverage": "98%",
     "Question": "How many isses on the repo?",
     "Example": "29",
     "Type": "number",
@@ -2762,7 +2762,7 @@ const measures = [
   {
     "Name": "compilerExplorer",
     "Values": 170,
-    "Coverage": "4%",
+    "Coverage": "3%",
     "Question": "What is this language's name on https://godbolt.org?",
     "Example": "Ada",
     "Type": "string",
@@ -2773,7 +2773,7 @@ const measures = [
   {
     "Name": "compilerExplorer_example",
     "Values": 170,
-    "Coverage": "4%",
+    "Coverage": "3%",
     "Question": "What is a representative snippet for this language?",
     "Example": "-- This pragma will remove the warning produced by the default\\n-- CE filename and the procedure name differing,\\n-- see : https://gcc.gnu.org/onlinedocs/gcc-8.2.0/gnat_rm/Pragma-Source_005fFile_005fName.html#Pragma-Source_005fFile_005fName\\npragma Source_File_Name (Square, Body_File_Name => \"example.adb\");\\n\\n-- Type your code here, or load an example.\\nfunction Square(num : Integer) return Integer is\\nbegin\\n    return num**2;\\nend Square;\\n\\n-- Ada 2012 also provides Expression Functions\\n-- (http://www.ada-auth.org/standards/12rm/html/RM-6-8.html)\\n-- as a short hand for functions whose body consists of a\\n-- single return statement. However they cannot be used as a\\n-- compilation unit.\\n-- function Square(num : Integer) return Integer is (num**2);\\n",
     "Type": "string",
@@ -3162,7 +3162,7 @@ const measures = [
   {
     "Name": "assignmentToken",
     "Values": 170,
-    "Coverage": "4%",
+    "Coverage": "3%",
     "Question": "What token(s) is used for assignment to an identifier?",
     "Example": ":=",
     "Type": "string",
@@ -3361,7 +3361,7 @@ const measures = [
   },
   {
     "Name": "getSource",
-    "Values": 5435,
+    "Values": 5450,
     "Coverage": "112%",
     "Question": "What is a one line shell command to download the source code for this language?",
     "Example": "git clone https://github.com/Adriandmen/05AB1E",
@@ -3502,7 +3502,7 @@ const measures = [
   },
   {
     "Name": "isLanguage",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3512,7 +3512,7 @@ const measures = [
   },
   {
     "Name": "isDone",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",

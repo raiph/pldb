@@ -1,7 +1,7 @@
 [
   {
     "Name": "id",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -12,7 +12,7 @@
   },
   {
     "Name": "filename",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -43,7 +43,7 @@
   },
   {
     "Name": "tags",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -54,37 +54,37 @@
   },
   {
     "Name": "rank",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1358",
+    "Example": "1364",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
   },
   {
     "Name": "impactScore",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1267",
+    "Example": "1255",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
   },
   {
     "Name": "languageRank",
-    "Values": 17568,
+    "Values": 17572,
     "Coverage": "362%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1186",
+    "Example": "1191",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
   },
   {
     "Name": "measurements",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -104,7 +104,7 @@
   },
   {
     "Name": "exampleCount",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -114,7 +114,7 @@
   },
   {
     "Name": "bookCount",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -124,7 +124,7 @@
   },
   {
     "Name": "paperCount",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -134,7 +134,7 @@
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "790",
@@ -144,7 +144,7 @@
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -165,8 +165,8 @@
   },
   {
     "Name": "githubRepo",
-    "Values": 4240,
-    "Coverage": "87%",
+    "Values": 4252,
+    "Coverage": "88%",
     "Question": "What is the URL of the official GitHub repo for the project if it is hosted there?",
     "Example": "https://github.com/Adriandmen/05AB1E",
     "Type": "string",
@@ -2176,8 +2176,8 @@
   },
   {
     "Name": "githubRepo_description",
-    "Values": 4032,
-    "Coverage": "83%",
+    "Values": 4124,
+    "Coverage": "85%",
     "Question": "How is this language described here?",
     "Example": "A concise stack-based golfing language",
     "Type": "string",
@@ -2186,8 +2186,8 @@
   },
   {
     "Name": "githubRepo_created",
-    "Values": 4060,
-    "Coverage": "84%",
+    "Values": 4152,
+    "Coverage": "85%",
     "Question": "When was the *Github repo* for this entity created?",
     "Example": "2015",
     "Type": "number",
@@ -2196,8 +2196,8 @@
   },
   {
     "Name": "githubRepo_updated",
-    "Values": 4116,
-    "Coverage": "85%",
+    "Values": 4208,
+    "Coverage": "87%",
     "Question": "What year was the last commit made?",
     "Example": "2022",
     "Type": "number",
@@ -2216,8 +2216,8 @@
   },
   {
     "Name": "githubRepo_subscribers",
-    "Values": 4088,
-    "Coverage": "84%",
+    "Values": 4180,
+    "Coverage": "86%",
     "Question": "How many subscribers to the repo?",
     "Example": "20",
     "Type": "number",
@@ -2226,8 +2226,8 @@
   },
   {
     "Name": "githubRepo_forks",
-    "Values": 4120,
-    "Coverage": "85%",
+    "Values": 4212,
+    "Coverage": "87%",
     "Question": "How many forks of the repo?",
     "Example": "39",
     "Type": "number",
@@ -2236,8 +2236,8 @@
   },
   {
     "Name": "githubRepo_stars",
-    "Values": 4132,
-    "Coverage": "85%",
+    "Values": 4224,
+    "Coverage": "87%",
     "Question": "How many stars of the repo?",
     "Example": "672",
     "Type": "number",
@@ -2246,8 +2246,8 @@
   },
   {
     "Name": "githubRepo_issues",
-    "Values": 3704,
-    "Coverage": "76%",
+    "Values": 3816,
+    "Coverage": "79%",
     "Question": "How many isses on the repo?",
     "Example": "29",
     "Type": "number",
@@ -3361,7 +3361,7 @@
   },
   {
     "Name": "getSource",
-    "Values": 4348,
+    "Values": 4360,
     "Coverage": "90%",
     "Question": "What is a one line shell command to download the source code for this language?",
     "Example": "git clone https://github.com/Adriandmen/05AB1E",
@@ -3502,7 +3502,7 @@
   },
   {
     "Name": "isLanguage",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3512,7 +3512,7 @@
   },
   {
     "Name": "isDone",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
