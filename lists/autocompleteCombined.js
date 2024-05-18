@@ -3292,6 +3292,11 @@ var autocompleteJs = [
     "url": "/concepts/gleam.html"
   },
   {
+    "label": "YANG",
+    "id": "yang",
+    "url": "/concepts/yang.html"
+  },
+  {
     "label": "Binary notation",
     "id": "binary-notation",
     "url": "/concepts/binary-notation.html"
@@ -3305,11 +3310,6 @@ var autocompleteJs = [
     "label": "Stripe company",
     "id": "stripe",
     "url": "/concepts/stripe.html"
-  },
-  {
-    "label": "YANG",
-    "id": "yang",
-    "url": "/concepts/yang.html"
   },
   {
     "label": "Papyrus",
@@ -3362,14 +3362,14 @@ var autocompleteJs = [
     "url": "/concepts/freebsd.html"
   },
   {
-    "label": "Django",
-    "id": "django",
-    "url": "/concepts/django.html"
-  },
-  {
     "label": "netbeans-editor",
     "id": "netbeans-editor",
     "url": "/concepts/netbeans-editor.html"
+  },
+  {
+    "label": "Django",
+    "id": "django",
+    "url": "/concepts/django.html"
   },
   {
     "label": "Reverse Polish notation",
@@ -5782,14 +5782,14 @@ var autocompleteJs = [
     "url": "/concepts/tea-pm.html"
   },
   {
-    "label": "Troff",
-    "id": "troff",
-    "url": "/concepts/troff.html"
-  },
-  {
     "label": "harlan",
     "id": "harlan",
     "url": "/concepts/harlan.html"
+  },
+  {
+    "label": "Troff",
+    "id": "troff",
+    "url": "/concepts/troff.html"
   },
   {
     "label": "miniML_error",
@@ -14982,6 +14982,11 @@ var autocompleteJs = [
     "url": "/concepts/slick.html"
   },
   {
+    "label": "DDP",
+    "id": "ddp",
+    "url": "/concepts/ddp.html"
+  },
+  {
     "label": "newclay",
     "id": "newclay",
     "url": "/concepts/newclay.html"
@@ -18737,6 +18742,11 @@ var autocompleteJs = [
     "url": "/concepts/passambler.html"
   },
   {
+    "label": "Pipefish",
+    "id": "pipefish",
+    "url": "/concepts/pipefish.html"
+  },
+  {
     "label": "Blox",
     "id": "blox",
     "url": "/concepts/blox.html"
@@ -18767,6 +18777,16 @@ var autocompleteJs = [
     "url": "/concepts/lambcalc.html"
   },
   {
+    "label": "Jet",
+    "id": "jet",
+    "url": "/concepts/jet.html"
+  },
+  {
+    "label": "Lax",
+    "id": "lax",
+    "url": "/concepts/lax.html"
+  },
+  {
     "label": "Zot",
     "id": "zot",
     "url": "/concepts/zot.html"
@@ -18775,6 +18795,21 @@ var autocompleteJs = [
     "label": "Markus",
     "id": "markus",
     "url": "/concepts/markus.html"
+  },
+  {
+    "label": "KGL",
+    "id": "kgl",
+    "url": "/concepts/kgl.html"
+  },
+  {
+    "label": "Moirai",
+    "id": "moirai",
+    "url": "/concepts/moirai.html"
+  },
+  {
+    "label": "Khi",
+    "id": "khi",
+    "url": "/concepts/khi.html"
   },
   {
     "label": "Leazy",
@@ -18790,6 +18825,11 @@ var autocompleteJs = [
     "label": "Timpani",
     "id": "timpani",
     "url": "/concepts/timpani.html"
+  },
+  {
+    "label": "Sophie",
+    "id": "sophie",
+    "url": "/concepts/sophie.html"
   },
   {
     "label": "clox",
@@ -18920,6 +18960,11 @@ var autocompleteJs = [
     "label": "jedit-editor",
     "id": "jedit-editor",
     "url": "/concepts/jedit-editor.html"
+  },
+  {
+    "label": "Lana",
+    "id": "lana",
+    "url": "/concepts/lana.html"
   },
   {
     "label": "listdown",
@@ -22837,6 +22882,11 @@ var autocompleteJs = [
     "url": "/concepts/velato.html"
   },
   {
+    "label": "Verse",
+    "id": "verse",
+    "url": "/concepts/verse.html"
+  },
+  {
     "label": "VoxML",
     "id": "voxml",
     "url": "/concepts/voxml.html"
@@ -23650,11 +23700,6 @@ var autocompleteJs = [
     "label": "VENUS",
     "id": "venus",
     "url": "/concepts/venus.html"
-  },
-  {
-    "label": "Verse",
-    "id": "verse",
-    "url": "/concepts/verse.html"
   },
   {
     "label": "Vienna Fortran",

@@ -1,7 +1,7 @@
 [
   {
     "Name": "id",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -12,7 +12,7 @@
   },
   {
     "Name": "filename",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -32,7 +32,7 @@
   },
   {
     "Name": "appeared",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -43,7 +43,7 @@
   },
   {
     "Name": "tags",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -54,7 +54,7 @@
   },
   {
     "Name": "rank",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
     "Example": "1364",
@@ -64,17 +64,17 @@
   },
   {
     "Name": "impactScore",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1261",
+    "Example": "1264",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
   },
   {
     "Name": "languageRank",
-    "Values": 17572,
+    "Values": 17608,
     "Coverage": "361%",
     "Question": "How does this language rank amongst all languages in PLDB?",
     "Example": "1191",
@@ -84,7 +84,7 @@
   },
   {
     "Name": "measurements",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -94,7 +94,7 @@
   },
   {
     "Name": "lastActivity",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -104,7 +104,7 @@
   },
   {
     "Name": "exampleCount",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -114,7 +114,7 @@
   },
   {
     "Name": "bookCount",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -124,7 +124,7 @@
   },
   {
     "Name": "paperCount",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -134,7 +134,7 @@
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "818",
@@ -144,7 +144,7 @@
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -165,8 +165,8 @@
   },
   {
     "Name": "githubRepo",
-    "Values": 4252,
-    "Coverage": "87%",
+    "Values": 4284,
+    "Coverage": "88%",
     "Question": "What is the URL of the official GitHub repo for the project if it is hosted there?",
     "Example": "https://github.com/Adriandmen/05AB1E",
     "Type": "string",
@@ -186,7 +186,7 @@
   },
   {
     "Name": "website",
-    "Values": 6604,
+    "Values": 6612,
     "Coverage": "135%",
     "Question": "What is the URL of the official homepage for this language project?",
     "Example": "http://www.3mf.io/specification/",
@@ -928,7 +928,7 @@
   {
     "Name": "hasIntegers",
     "Values": 632,
-    "Coverage": "13%",
+    "Coverage": "12%",
     "Question": "Does this language have a syntax and type for integers?",
     "Example": "true",
     "Type": "boolean",
@@ -1418,7 +1418,7 @@
   {
     "Name": "hasSemanticIndentation",
     "Values": 2332,
-    "Coverage": "48%",
+    "Coverage": "47%",
     "Question": "Does the language use semantic indentation?",
     "Example": "false",
     "Type": "boolean",
@@ -1900,7 +1900,7 @@
   {
     "Name": "jupyterKernel",
     "Values": 292,
-    "Coverage": "6%",
+    "Coverage": "5%",
     "Question": "What is a link to a Jupyter Kernel for this language?",
     "Example": "https://github.com/mattpap/IAldor",
     "Type": "string",
@@ -2177,7 +2177,7 @@
   {
     "Name": "githubRepo_description",
     "Values": 4136,
-    "Coverage": "85%",
+    "Coverage": "84%",
     "Question": "How is this language described here?",
     "Example": "A concise stack-based golfing language",
     "Type": "string",
@@ -2352,7 +2352,7 @@
   {
     "Name": "linguistGrammarRepo_example",
     "Values": 1460,
-    "Coverage": "30%",
+    "Coverage": "29%",
     "Question": "What is a representative snippet for this language?",
     "Example": "﻿Каталог = ОбъединитьПути(ТекущийКаталог(), \"libs\\oscript-library\\src\");\\nЗагрузчик_Оригинал_ИмяФайла = ОбъединитьПути(Каталог, \"package-loader.os\");\\n\\nФайлы = НайтиФайлы(Каталог, , Ложь);\\nДля Каждого ВыбФайл Из Файлы Цикл\\n\\n    Если ВыбФайл.ЭтоФайл() Тогда\\n        Продолжить;\\n    КонецЕсли;\\n\\n    Загрузчик_ИмяФайла = ОбъединитьПути(ВыбФайл.ПолноеИмя, \"package-loader.os\");\\n    Загрузчик_Файл = Новый Файл(Загрузчик_ИмяФайла);\\n\\n    Если Загрузчик_Файл.Существует() Тогда\\n        Продолжить;\\n    КонецЕсли;\\n\\n    КопироватьФайл(Загрузчик_Оригинал_ИмяФайла, Загрузчик_ИмяФайла);\\n\\nКонецЦикла;",
     "Type": "string",
@@ -2403,7 +2403,7 @@
   {
     "Name": "linguistGrammarRepo_sampleCount",
     "Values": 1460,
-    "Coverage": "30%",
+    "Coverage": "29%",
     "Question": "How many language samples in this repo?",
     "Example": "6",
     "Type": "number",
@@ -2463,7 +2463,7 @@
   },
   {
     "Name": "reference",
-    "Values": 8576,
+    "Values": 8608,
     "Coverage": "176%",
     "Question": "What is a URL to more info about this thing?",
     "Example": "https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998",
@@ -2576,7 +2576,7 @@
   {
     "Name": "wikipedia_related",
     "Values": 5152,
-    "Coverage": "106%",
+    "Coverage": "105%",
     "Question": "What languages does Wikipedia have as related?",
     "Example": "unicode assembly-language fortran",
     "Type": "string",
@@ -2606,7 +2606,7 @@
   {
     "Name": "wikipedia_example",
     "Values": 2528,
-    "Coverage": "52%",
+    "Coverage": "51%",
     "Question": "What is a representative snippet for this language?",
     "Example": "C F 8 4 2 1\\n1 0 1 0  –  Record Mark (right most end of record, prints as a double dagger symbol, ‡)\\n1 1 0 0  –  Numeric Blank (blank for punched card output formatting)\\n1 1 1 1  –  Group Mark (right most end of a group of records for disk I/O)",
     "Type": "string",
@@ -3142,7 +3142,7 @@
   {
     "Name": "printToken",
     "Values": 1264,
-    "Coverage": "26%",
+    "Coverage": "25%",
     "Question": "What token(s) is used to print a message?",
     "Example": "\"",
     "Type": "string",
@@ -3361,8 +3361,8 @@
   },
   {
     "Name": "getSource",
-    "Values": 4360,
-    "Coverage": "89%",
+    "Values": 4392,
+    "Coverage": "90%",
     "Question": "What is a one line shell command to download the source code for this language?",
     "Example": "git clone https://github.com/Adriandmen/05AB1E",
     "Type": "string",
@@ -3371,8 +3371,8 @@
   },
   {
     "Name": "country",
-    "Values": 14920,
-    "Coverage": "307%",
+    "Values": 14924,
+    "Coverage": "306%",
     "Question": "What country was this language first developed in?",
     "Example": "Russia",
     "Type": "string",
@@ -3412,7 +3412,7 @@
   },
   {
     "Name": "conceptDescription",
-    "Values": 3816,
+    "Values": 3828,
     "Coverage": "78%",
     "Question": "What is a short description of this language?",
     "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
@@ -3422,7 +3422,7 @@
   },
   {
     "Name": "standsFor",
-    "Values": 1380,
+    "Values": 1384,
     "Coverage": "28%",
     "Question": "If the language name is an acronym what does/did it stand for?",
     "Example": "3D Manufacturing Format",
@@ -3502,7 +3502,7 @@
   },
   {
     "Name": "isLanguage",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3512,7 +3512,7 @@
   },
   {
     "Name": "isFinished",
-    "Values": 19432,
+    "Values": 19468,
     "Coverage": "400%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
@@ -3523,7 +3523,7 @@
   {
     "Name": "wordRank",
     "Values": 1508,
-    "Coverage": "31%",
+    "Coverage": "30%",
     "Question": "Where does this word rank in terms of common English words?",
     "Example": "4100",
     "Type": "number",
@@ -3665,7 +3665,7 @@
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 4188,
+    "Values": 4228,
     "Coverage": "86%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
@@ -3675,8 +3675,8 @@
   },
   {
     "Name": "repoStats_newestCommit",
-    "Values": 4032,
-    "Coverage": "82%",
+    "Values": 4072,
+    "Coverage": "83%",
     "Question": "What year was the newest commit made in this git repo?",
     "Example": "2022",
     "Type": "number",
@@ -3685,7 +3685,7 @@
   },
   {
     "Name": "repoStats_commits",
-    "Values": 4188,
+    "Values": 4228,
     "Coverage": "86%",
     "Question": "How many commits to the repo?",
     "Example": "871",
@@ -3695,7 +3695,7 @@
   },
   {
     "Name": "repoStats_committers",
-    "Values": 4188,
+    "Values": 4228,
     "Coverage": "86%",
     "Question": "How many committers to the repo?",
     "Example": "28",
@@ -3705,7 +3705,7 @@
   },
   {
     "Name": "repoStats_files",
-    "Values": 4184,
+    "Values": 4216,
     "Coverage": "86%",
     "Question": "How many files in the repo?",
     "Example": "49",
@@ -3790,7 +3790,7 @@
   },
   {
     "Name": "example",
-    "Values": 3324,
+    "Values": 3328,
     "Coverage": "68%",
     "Question": "What is a representative snippet for this language?",
     "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",

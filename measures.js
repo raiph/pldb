@@ -1,7 +1,7 @@
 const measures = [
   {
     "Name": "id",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -12,7 +12,7 @@ const measures = [
   },
   {
     "Name": "filename",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -32,7 +32,7 @@ const measures = [
   },
   {
     "Name": "appeared",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -43,7 +43,7 @@ const measures = [
   },
   {
     "Name": "tags",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -54,7 +54,7 @@ const measures = [
   },
   {
     "Name": "rank",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
     "Example": "1364",
@@ -64,17 +64,17 @@ const measures = [
   },
   {
     "Name": "impactScore",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1261",
+    "Example": "1264",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
   },
   {
     "Name": "languageRank",
-    "Values": 21965,
+    "Values": 22010,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
     "Example": "1191",
@@ -84,7 +84,7 @@ const measures = [
   },
   {
     "Name": "measurements",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -94,7 +94,7 @@ const measures = [
   },
   {
     "Name": "lastActivity",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -104,7 +104,7 @@ const measures = [
   },
   {
     "Name": "exampleCount",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -114,7 +114,7 @@ const measures = [
   },
   {
     "Name": "bookCount",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -124,7 +124,7 @@ const measures = [
   },
   {
     "Name": "paperCount",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -134,7 +134,7 @@ const measures = [
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "818",
@@ -144,7 +144,7 @@ const measures = [
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -165,8 +165,8 @@ const measures = [
   },
   {
     "Name": "githubRepo",
-    "Values": 5315,
-    "Coverage": "109%",
+    "Values": 5355,
+    "Coverage": "110%",
     "Question": "What is the URL of the official GitHub repo for the project if it is hosted there?",
     "Example": "https://github.com/Adriandmen/05AB1E",
     "Type": "string",
@@ -186,7 +186,7 @@ const measures = [
   },
   {
     "Name": "website",
-    "Values": 8255,
+    "Values": 8265,
     "Coverage": "169%",
     "Question": "What is the URL of the official homepage for this language project?",
     "Example": "http://www.3mf.io/specification/",
@@ -818,7 +818,7 @@ const measures = [
   {
     "Name": "hasHexadecimals",
     "Values": 535,
-    "Coverage": "11%",
+    "Coverage": "10%",
     "Question": "Does the language have a syntax for hexadecimals?",
     "Example": "true",
     "Type": "boolean",
@@ -978,7 +978,7 @@ const measures = [
   {
     "Name": "hasLineComments",
     "Values": 2725,
-    "Coverage": "56%",
+    "Coverage": "55%",
     "Question": "Does the language have line comments?",
     "Example": "true",
     "Type": "boolean",
@@ -1418,7 +1418,7 @@ const measures = [
   {
     "Name": "hasSemanticIndentation",
     "Values": 2915,
-    "Coverage": "60%",
+    "Coverage": "59%",
     "Question": "Does the language use semantic indentation?",
     "Example": "false",
     "Type": "boolean",
@@ -1889,7 +1889,7 @@ const measures = [
   {
     "Name": "hopl",
     "Values": 9040,
-    "Coverage": "186%",
+    "Coverage": "185%",
     "Question": "What is the URL to this language in Diarmuid Pigott's Online Historical Encyclopaedia of Programming Languages site?",
     "Example": "https://hopl.info/showlanguage.prx?exp=4365",
     "Type": "string",
@@ -1985,7 +1985,7 @@ const measures = [
   {
     "Name": "twitter",
     "Values": 1265,
-    "Coverage": "26%",
+    "Coverage": "25%",
     "Question": "What is a URL to the official Twitter account of this thing, if any?",
     "Example": "https://twitter.com/3mfconsortium",
     "Type": "string",
@@ -2187,7 +2187,7 @@ const measures = [
   {
     "Name": "githubRepo_created",
     "Values": 5205,
-    "Coverage": "107%",
+    "Coverage": "106%",
     "Question": "When was the *Github repo* for this entity created?",
     "Example": "2015",
     "Type": "number",
@@ -2463,8 +2463,8 @@ const measures = [
   },
   {
     "Name": "reference",
-    "Values": 10720,
-    "Coverage": "220%",
+    "Values": 10760,
+    "Coverage": "221%",
     "Question": "What is a URL to more info about this thing?",
     "Example": "https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998",
     "Type": "string",
@@ -2606,7 +2606,7 @@ const measures = [
   {
     "Name": "wikipedia_example",
     "Values": 3160,
-    "Coverage": "65%",
+    "Coverage": "64%",
     "Question": "What is a representative snippet for this language?",
     "Example": "C F 8 4 2 1\\n1 0 1 0  –  Record Mark (right most end of record, prints as a double dagger symbol, ‡)\\n1 1 0 0  –  Numeric Blank (blank for punched card output formatting)\\n1 1 1 1  –  Group Mark (right most end of a group of records for disk I/O)",
     "Type": "string",
@@ -2627,7 +2627,7 @@ const measures = [
   {
     "Name": "wikipedia_summary",
     "Values": 8065,
-    "Coverage": "166%",
+    "Coverage": "165%",
     "Question": "What is the text summary of the language from the Wikipedia page?",
     "Example": "The IBM 1620 was announced by IBM on October 21, 1959, and marketed as an inexpensive \"scientific computer\". After a total production of about two thousand machines, it was withdrawn on November 19, 1970. Modified versions of the 1620 were used as the CPU of the IBM 1710 and IBM 1720 Industrial Process Control Systems (making it the first digital computer considered reliable enough for real-time process control of factory equipment). Being variable word length decimal, as opposed to fixed-word-length pure binary, made it an especially attractive first computer to learn on –  and hundreds of thousands of students had their first experiences with a computer on the IBM 1620. Core memory cycle times were 20 microseconds for the (earlier) Model I, 10 microseconds for the Model II (about a thousand times slower than typical computer main memory in 2006). The Model II was introduced in 1962.",
     "Type": "string",
@@ -2637,7 +2637,7 @@ const measures = [
   {
     "Name": "wikipedia_created",
     "Values": 6950,
-    "Coverage": "143%",
+    "Coverage": "142%",
     "Question": "When was the *Wikipedia page* for this entity created?",
     "Example": "2002",
     "Type": "number",
@@ -2667,7 +2667,7 @@ const measures = [
   {
     "Name": "wikipedia_revisionCount",
     "Values": 6470,
-    "Coverage": "133%",
+    "Coverage": "132%",
     "Question": "How many revisions does this page have?",
     "Example": "481",
     "Type": "number",
@@ -3192,7 +3192,7 @@ const measures = [
   {
     "Name": "fileExtensions",
     "Values": 1070,
-    "Coverage": "22%",
+    "Coverage": "21%",
     "Question": "What are the file extensions for this language?",
     "Example": "a51",
     "Type": "string",
@@ -3212,7 +3212,7 @@ const measures = [
   {
     "Name": "originCommunity",
     "Values": 19835,
-    "Coverage": "408%",
+    "Coverage": "407%",
     "Question": "In what community(ies) did the language first originate?",
     "Example": "Department of Computer Science, University of Toronto",
     "Type": "string",
@@ -3361,7 +3361,7 @@ const measures = [
   },
   {
     "Name": "getSource",
-    "Values": 5450,
+    "Values": 5490,
     "Coverage": "112%",
     "Question": "What is a one line shell command to download the source code for this language?",
     "Example": "git clone https://github.com/Adriandmen/05AB1E",
@@ -3371,7 +3371,7 @@ const measures = [
   },
   {
     "Name": "country",
-    "Values": 18650,
+    "Values": 18655,
     "Coverage": "383%",
     "Question": "What country was this language first developed in?",
     "Example": "Russia",
@@ -3412,7 +3412,7 @@ const measures = [
   },
   {
     "Name": "conceptDescription",
-    "Values": 4770,
+    "Values": 4785,
     "Coverage": "98%",
     "Question": "What is a short description of this language?",
     "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
@@ -3422,7 +3422,7 @@ const measures = [
   },
   {
     "Name": "standsFor",
-    "Values": 1725,
+    "Values": 1730,
     "Coverage": "35%",
     "Question": "If the language name is an acronym what does/did it stand for?",
     "Example": "3D Manufacturing Format",
@@ -3493,7 +3493,7 @@ const measures = [
   {
     "Name": "hoplId",
     "Values": 9040,
-    "Coverage": "186%",
+    "Coverage": "185%",
     "Question": "What is the HOPL id of this language?",
     "Example": "4365",
     "Type": "number",
@@ -3502,7 +3502,7 @@ const measures = [
   },
   {
     "Name": "isLanguage",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3512,7 +3512,7 @@ const measures = [
   },
   {
     "Name": "isFinished",
-    "Values": 24290,
+    "Values": 24335,
     "Coverage": "500%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
@@ -3665,8 +3665,8 @@ const measures = [
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 5235,
-    "Coverage": "107%",
+    "Values": 5285,
+    "Coverage": "108%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
     "Type": "number",
@@ -3675,8 +3675,8 @@ const measures = [
   },
   {
     "Name": "repoStats_newestCommit",
-    "Values": 5040,
-    "Coverage": "103%",
+    "Values": 5090,
+    "Coverage": "104%",
     "Question": "What year was the newest commit made in this git repo?",
     "Example": "2022",
     "Type": "number",
@@ -3685,8 +3685,8 @@ const measures = [
   },
   {
     "Name": "repoStats_commits",
-    "Values": 5235,
-    "Coverage": "107%",
+    "Values": 5285,
+    "Coverage": "108%",
     "Question": "How many commits to the repo?",
     "Example": "871",
     "Type": "number",
@@ -3695,8 +3695,8 @@ const measures = [
   },
   {
     "Name": "repoStats_committers",
-    "Values": 5235,
-    "Coverage": "107%",
+    "Values": 5285,
+    "Coverage": "108%",
     "Question": "How many committers to the repo?",
     "Example": "28",
     "Type": "number",
@@ -3705,8 +3705,8 @@ const measures = [
   },
   {
     "Name": "repoStats_files",
-    "Values": 5230,
-    "Coverage": "107%",
+    "Values": 5270,
+    "Coverage": "108%",
     "Question": "How many files in the repo?",
     "Example": "49",
     "Type": "number",
@@ -3790,7 +3790,7 @@ const measures = [
   },
   {
     "Name": "example",
-    "Values": 4155,
+    "Values": 4160,
     "Coverage": "85%",
     "Question": "What is a representative snippet for this language?",
     "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",
