@@ -110,6 +110,7 @@ abstractScrollParser
 
 abstractScrollWithRequirementsParser
  extends abstractScrollParser
+ cruxFromId
  javascript
   compile(compileSettings) {
     const {requireOnce} = this

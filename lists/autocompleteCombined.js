@@ -3417,11 +3417,6 @@ var autocompleteJs = [
     "url": "/concepts/beef.html"
   },
   {
-    "label": "hurl",
-    "id": "hurl",
-    "url": "/concepts/hurl.html"
-  },
-  {
     "label": "Mirah",
     "id": "mirah",
     "url": "/concepts/mirah.html"
@@ -3610,6 +3605,11 @@ var autocompleteJs = [
     "label": "idyll",
     "id": "idyll",
     "url": "/concepts/idyll.html"
+  },
+  {
+    "label": "hurl",
+    "id": "hurl",
+    "url": "/concepts/hurl.html"
   },
   {
     "label": "B",
@@ -4542,11 +4542,6 @@ var autocompleteJs = [
     "url": "/concepts/abnf.html"
   },
   {
-    "label": "buzz",
-    "id": "buzz",
-    "url": "/concepts/buzz.html"
-  },
-  {
     "label": "Hodor",
     "id": "hodor",
     "url": "/concepts/hodor.html"
@@ -4907,11 +4902,6 @@ var autocompleteJs = [
     "url": "/concepts/femtolisp.html"
   },
   {
-    "label": "Xtext",
-    "id": "xtext",
-    "url": "/concepts/xtext.html"
-  },
-  {
     "label": "Algol",
     "id": "algol",
     "url": "/concepts/algol.html"
@@ -4970,6 +4960,11 @@ var autocompleteJs = [
     "label": "Bro",
     "id": "bro",
     "url": "/concepts/bro.html"
+  },
+  {
+    "label": "buzz",
+    "id": "buzz",
+    "url": "/concepts/buzz.html"
   },
   {
     "label": "GraphIt",
@@ -5207,14 +5202,19 @@ var autocompleteJs = [
     "url": "/concepts/algol-68.html"
   },
   {
-    "label": "Swallow",
-    "id": "swallow",
-    "url": "/concepts/swallow.html"
+    "label": "Xtext",
+    "id": "xtext",
+    "url": "/concepts/xtext.html"
   },
   {
     "label": "RPG",
     "id": "ibm-rpg",
     "url": "/concepts/ibm-rpg.html"
+  },
+  {
+    "label": "Swallow",
+    "id": "swallow",
+    "url": "/concepts/swallow.html"
   },
   {
     "label": "Z notation",
@@ -24287,6 +24287,11 @@ var autocompleteJs = [
     "url": "/concepts/kaukatcr.html"
   },
   {
+    "label": "kode",
+    "id": "kode",
+    "url": "/concepts/kode.html"
+  },
+  {
     "label": "Konna",
     "id": "konna",
     "url": "/concepts/konna.html"
@@ -24350,6 +24355,11 @@ var autocompleteJs = [
     "label": "NJCL",
     "id": "njcl",
     "url": "/concepts/njcl.html"
+  },
+  {
+    "label": "no ordinary object notation",
+    "id": "noon",
+    "url": "/concepts/noon.html"
   },
   {
     "label": "Navigational User's Language",

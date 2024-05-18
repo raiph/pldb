@@ -1,7 +1,7 @@
 const measures = [
   {
     "Name": "id",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is the ID of this concept?",
     "Example": "05AB1E",
@@ -12,7 +12,7 @@ const measures = [
   },
   {
     "Name": "filename",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is the name of the file holding this concept?",
     "Example": "05ab1e.scroll",
@@ -22,7 +22,7 @@ const measures = [
   },
   {
     "Name": "creators",
-    "Values": 6590,
+    "Values": 6600,
     "Coverage": "136%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -32,7 +32,7 @@ const measures = [
   },
   {
     "Name": "appeared",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -43,7 +43,7 @@ const measures = [
   },
   {
     "Name": "tags",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -54,7 +54,7 @@ const measures = [
   },
   {
     "Name": "rank",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
     "Example": "1358",
@@ -64,7 +64,7 @@ const measures = [
   },
   {
     "Name": "impactScore",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is the impact score of this concept?",
     "Example": "1267",
@@ -74,7 +74,7 @@ const measures = [
   },
   {
     "Name": "languageRank",
-    "Values": 21950,
+    "Values": 21960,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
     "Example": "1186",
@@ -84,7 +84,7 @@ const measures = [
   },
   {
     "Name": "measurements",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "10",
@@ -94,7 +94,7 @@ const measures = [
   },
   {
     "Name": "lastActivity",
-    "Values": 24275,
+    "Values": 24280,
     "Coverage": "500%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -104,7 +104,7 @@ const measures = [
   },
   {
     "Name": "exampleCount",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -114,7 +114,7 @@ const measures = [
   },
   {
     "Name": "bookCount",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -124,7 +124,7 @@ const measures = [
   },
   {
     "Name": "paperCount",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -134,7 +134,7 @@ const measures = [
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "790",
@@ -144,7 +144,7 @@ const measures = [
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -1417,7 +1417,7 @@ const measures = [
   },
   {
     "Name": "hasSemanticIndentation",
-    "Values": 2910,
+    "Values": 2915,
     "Coverage": "60%",
     "Question": "Does the language use semantic indentation?",
     "Example": "false",
@@ -2187,7 +2187,7 @@ const measures = [
   {
     "Name": "githubRepo_created",
     "Values": 5075,
-    "Coverage": "105%",
+    "Coverage": "104%",
     "Question": "When was the *Github repo* for this entity created?",
     "Example": "2015",
     "Type": "number",
@@ -2299,8 +2299,8 @@ const measures = [
   },
   {
     "Name": "screenshot",
-    "Values": 70,
-    "Coverage": "1%",
+    "Values": 75,
+    "Coverage": "2%",
     "Question": "What is the filename to a screenshot of this visual language in the concepts/screenshots/ folder?",
     "Example": "activity-pub.png",
     "Type": "string",
@@ -2309,8 +2309,8 @@ const measures = [
   },
   {
     "Name": "photo",
-    "Values": 25,
-    "Coverage": "1%",
+    "Values": 10,
+    "Coverage": "0%",
     "Question": "What is a URL to a screenshot of this real world notation in the form https://pldb.io/photos/[id].png?",
     "Example": "binary-notation.jpg",
     "Type": "string",
@@ -2463,7 +2463,7 @@ const measures = [
   },
   {
     "Name": "reference",
-    "Values": 10715,
+    "Values": 10720,
     "Coverage": "221%",
     "Question": "What is a URL to more info about this thing?",
     "Example": "https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998",
@@ -3212,7 +3212,7 @@ const measures = [
   {
     "Name": "originCommunity",
     "Values": 19835,
-    "Coverage": "409%",
+    "Coverage": "408%",
     "Question": "In what community(ies) did the language first originate?",
     "Example": "Department of Computer Science, University of Toronto",
     "Type": "string",
@@ -3241,7 +3241,7 @@ const measures = [
   },
   {
     "Name": "influencedBy",
-    "Values": 260,
+    "Values": 265,
     "Coverage": "5%",
     "Question": "What languages influenced this one?",
     "Example": "rust",
@@ -3412,7 +3412,7 @@ const measures = [
   },
   {
     "Name": "conceptDescription",
-    "Values": 4765,
+    "Values": 4770,
     "Coverage": "98%",
     "Question": "What is a short description of this language?",
     "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
@@ -3502,7 +3502,7 @@ const measures = [
   },
   {
     "Name": "isLanguage",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3512,7 +3512,7 @@ const measures = [
   },
   {
     "Name": "isDone",
-    "Values": 24275,
+    "Values": 24285,
     "Coverage": "500%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
@@ -3780,8 +3780,8 @@ const measures = [
   },
   {
     "Name": "example",
-    "Values": 4145,
-    "Coverage": "85%",
+    "Values": 4155,
+    "Coverage": "86%",
     "Question": "What is a representative snippet for this language?",
     "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",
     "Type": "string",

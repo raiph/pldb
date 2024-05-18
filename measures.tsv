@@ -1,19 +1,19 @@
 Name	Values	Coverage	Question	Example	Type	Source	SortIndex	IsComputed	IsRequired
-id	9710	200%	What is the ID of this concept?	05AB1E	string		0	false	true
-filename	9710	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true	
-creators	2636	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
-appeared	9710	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
-tags	9710	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
-rank	9710	200%	How does this concept rank amongst all other concepts?	1358	number		3	true	
-impactScore	9710	200%	What is the impact score of this concept?	1267	number		3.1	true	
-languageRank	8780	181%	How does this language rank amongst all languages in PLDB?	1186	number		4	true	
-measurements	9710	200%	How many measurements do we have about this thing?	10	number		5	true	
-lastActivity	9710	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
-exampleCount	9710	200%	How many examples do we have written in this language?	2	number		7	true	
-bookCount	9710	200%	What is the count of booked we have published about this thing?	0	number		8	true	
-paperCount	9710	200%	What is the count of papers we have published about this thing?	0	number		9	true	
-numberOfUsersEstimate	9710	200%	What is our estimate of number of users of this language?	790	number		10	true	
-numberOfJobsEstimate	9710	200%	What is our estimate of the number of jobs in this language?	0	number		11	true	
+id	9714	200%	What is the ID of this concept?	05AB1E	string		0	false	true
+filename	9714	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true	
+creators	2640	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
+appeared	9714	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
+tags	9714	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
+rank	9714	200%	How does this concept rank amongst all other concepts?	1358	number		3	true	
+impactScore	9714	200%	What is the impact score of this concept?	1267	number		3.1	true	
+languageRank	8784	181%	How does this language rank amongst all languages in PLDB?	1186	number		4	true	
+measurements	9714	200%	How many measurements do we have about this thing?	10	number		5	true	
+lastActivity	9712	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
+exampleCount	9714	200%	How many examples do we have written in this language?	2	number		7	true	
+bookCount	9714	200%	What is the count of booked we have published about this thing?	0	number		8	true	
+paperCount	9714	200%	What is the count of papers we have published about this thing?	0	number		9	true	
+numberOfUsersEstimate	9714	200%	What is our estimate of number of users of this language?	790	number		10	true	
+numberOfJobsEstimate	9714	200%	What is our estimate of the number of jobs in this language?	0	number		11	true	
 githubBigQuery	842	17%	What is the name of this language in the Google BigQuery Public Datasets about GitHub repos found at https://cloud.google.com/blog/topics/public-datasets/github-on-bigquery-analyze-all-the-open-source-code?	1C Enterprise	string	cloud.google.com	13	false	
 githubRepo	2120	44%	What is the URL of the official GitHub repo for the project if it is hosted there?	https://github.com/Adriandmen/05AB1E	string	github.com	15	false	
 rijuRepl_website	58	1%	What is the URL of the official homepage for this language project?	https://www.adaic.org/	string		16	false	
@@ -140,7 +140,7 @@ hasRunTimeGuards	4	0%	Does the language support run-time guards?	true	boolean		4
 hasSExpressions	8	0%	Does the language have S Expressions?	false	boolean		42	false	
 hasScientificNotation	28	1%	Does the language have a syntax for Scientific Notation?	true	boolean		42	false	
 hasSelfOrThisWord	6	0%	Does a language have a keyword or syntax to refer to the current instance?	true	boolean		42	false	
-hasSemanticIndentation	1164	24%	Does the language use semantic indentation?	false	boolean		42	false	
+hasSemanticIndentation	1166	24%	Does the language use semantic indentation?	false	boolean		42	false	
 hasSets	10	0%	Does the language come with a Set data structure?	true	boolean		42	false	
 hasSingleDispatch	20	0%	Does the method called depended on a single operand?	true	boolean		42	false	
 hasSingleTypeArrays	8	0%	Does the language have a list data structure that only can hold items of the same type?	true	boolean		42	false	
@@ -227,8 +227,8 @@ gitlabRepo	24	0%	What is the URL of the official GitLab repo for the language pr
 sourcehutRepo	10	0%	What is the URL of the official sourcehut repo for this project?	https://sourceforge.net/projects/avisynth2/	string	sr.ht	1000	false	
 gource	50	1%	What is a URL to a Gource visualization of this project's git history?	https://www.youtube.com/watch?v=wM5sxT0BEdU	string	gource.io	1000	false	
 firstAnnouncement	22	0%	What is a URL announcing the creation or release of this language?	http://www.zdnet.com/article/inside-the-salesforce-apex-language/	string		1000	false	
-screenshot	28	1%	What is the filename to a screenshot of this visual language in the concepts/screenshots/ folder?	activity-pub.png	string		1000	false	
-photo	10	0%	What is a URL to a screenshot of this real world notation in the form https://pldb.io/photos/[id].png?	binary-notation.jpg	string		1000	false	
+screenshot	30	1%	What is the filename to a screenshot of this visual language in the concepts/screenshots/ folder?	activity-pub.png	string		1000	false	
+photo	4	0%	What is a URL to a screenshot of this real world notation in the form https://pldb.io/photos/[id].png?	binary-notation.jpg	string		1000	false	
 languageServerProtocolProject	108	2%	What is the URL to a project implementing LSP for this language?	https://marketplace.visualstudio.com/items?itemName=salesforce.salesforcedx-vscode-apex	string	langserver.org	1000	false	
 languageServerProtocolProject_writtenIn	104	2%	What language(s) is the main implementation written in?	typescript	string		1000	false	
 linguistGrammarRepo	832	17%	What is the URL to the Linguist Grammar repo used by GitHub for this language?	https://github.com/xDrivenDevelopment/atom-language-1c-bsl.git	string	github.com	1000	false	
@@ -243,7 +243,7 @@ officialBlogUrl	116	2%	What is the URL to the official blog for this language?	h
 packageRepository	120	2%	What is a URL to the package repository for this language?	https://www.npmjs.com/package/avisynth	string		1000	false	
 proposals	22	0%	What is the URL to a the place where language proposals are made, if one exists?	https://github.com/golang/proposal	string		1000	false	
 redditDiscussion	6	0%	What is a link to a related discussion on reddit?	https://www.reddit.com/r/ProgrammingLanguages/comments/elbt5u/introducing_the_beef_programming_language/	string	reddit.com	1000	false	
-reference	4286	88%	What is a URL to more info about this thing?	https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998	string		1000	false	
+reference	4288	88%	What is a URL to more info about this thing?	https://pdfs.semanticscholar.org/5a43/c1b39643533b04a35f1811824c0c25d089fd.pdf?_ga=2.57752106.1877161244.1546024423-1663431151.1540068998	string		1000	false	
 releaseNotesUrl	130	3%	What is the URL to the release notes or changelog for this language?	https://help.sap.com/docs/BTP/4726775c8bfc483abb210252604515b2/e9b10e43016e423ab0efe91e668a6efc.html	string		1000	false	
 rijuRepl	442	9%	What is a URL to try this language on riju.codes?	https://riju.codes/abc	string	riju.codes	1000	false	
 rijuRepl_gitRepo	78	2%	What is the URL of the official git repo for the language project if not hosted on GitHub or GitLab or Sourcehut?	https://gcc.gnu.org/git.html	string		1000	false	
@@ -319,7 +319,7 @@ filenames	0	0%	What are the filenames commonly associated with this language?			
 originCommunity	7934	163%	In what community(ies) did the language first originate?	Department of Computer Science, University of Toronto	string		1000	false	
 relatedConcepts	376	8%	What languages are related?	logo	string		1000	false	
 runsOnVm	18	0%	What virtual machine(s) does this language run on?	jvm	string		1000	false	
-influencedBy	104	2%	What languages influenced this one?	rust	string		1000	false	
+influencedBy	106	2%	What languages influenced this one?	rust	string		1000	false	
 successorOf	10	0%	Was this language launched as the successor of another?	asp	string		1000	false	
 subsetOf	22	0%	Is this language a subset of another?	c	string		1000	false	
 implementationOf	2	0%	Is this language an implementation of another?	java	string		1000	false	
@@ -336,7 +336,7 @@ country	7460	154%	What country was this language first developed in?	Russia	stri
 dblp	0	0%	What are publications about this language from https://dblp.org/?			dblp.org	1000	false	
 dblp_hits	0	0%	How many matching publications?				1000	false	
 dblp_publications	0	0%	An inline PSV table of hits.				1000	false	
-conceptDescription	1906	39%	What is a short description of this language?	The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language	string		1000	false	
+conceptDescription	1908	39%	What is a short description of this language?	The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language	string		1000	false	
 standsFor	688	14%	If the language name is an acronym what does/did it stand for?	3D Manufacturing Format	string		1000	false	
 aka	338	7%	What is this also known as?	4D	string		1000	false	
 oldName	24	0%	What is the old name of this language?	ML-flavoured Erlang	string		1000	false	
@@ -345,8 +345,8 @@ packageInstallCount	22	0%	How many packages have been downloaded?	770549116	numb
 packageCount	96	2%	How many packages are in the repository?	105	number		1000	false	
 packageAuthors	8	0%	How many people contribute packages to this cpm?	13699	number		1000	false	
 hoplId	3616	74%	What is the HOPL id of this language?	4365	number		1000	true	
-isLanguage	9710	200%	Does PLDB categorize this entity as a language?	true	boolean		1000	true	
-isDone	9710	200%	Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.	false	boolean		1000	true	
+isLanguage	9714	200%	Does PLDB categorize this entity as a language?	true	boolean		1000	true	
+isDone	9714	200%	Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.	false	boolean		1000	true	
 wordRank	754	16%	Where does this word rank in terms of common English words?	4100	number		1000	false	
 fileType	2542	52%	What is the file encoding for programs in this language?	paper	string		1000	false	
 nativeLanguage	34	1%	What is the native human language for this language, if not English?	Korean	string		1000	false	
@@ -372,6 +372,6 @@ hackerNewsDiscussions	358	7%	What are URLS to Hacker News posts discussing this 
 isbndb	784	16%	What are books about this language from ISBNdb?	year|publisher|title|authors|isbn13\n2002|Addison-Wesley Professional|SAP.Keller: ABAP Objects_c|Keller, Horst and Keller, Horst and Kruger, Sascha|9780201750805\n2018|SAP Press|ABAP Programming Model for SAP Fiori: ABAP Development for SAP S/4HANA (SAP PRESS)|Stefan Haas and Bince Mathew|9781493217649\n1999|Premier Pr|Advanced Abap Programming For Sap (sap R/3)|Gareth M De Bruyn and Ken Kroes|9780761517986\n2010|Springer|Web Dynpro ABAP for Practitioners|Gellert, Ulrich and Cristea, Ana Daniela|9783642113857\n2019|SAP Press|ABAP: The Comprehensive Guide to SAP ABAP 7.52 and 1909 (Second Edition) (SAP PRESS)|Kiran Bandari|9781493218660\n2019|SAP Press|ABAP: An Introduction and Beginner's Guide to Programming with SAP ABAP (2nd Edition) (SAP PRESS)|Brian O'Neil and Jelena Perfiljeva|9781493218806\n2015-11-30T00:00:01Z|SAP Press|ABAP Objects: ABAP Object-Oriented Programming (OOP) (2nd Edition) (SAP PRESS)|James Wood and Joseph Rupert|9781592299935\n2019|SAP Press|ABAP to the Future: Advanced, Modern ABAP (Third Edition) (SAP PRESS)|Paul Hardy|9781493217618\n2019|Packt Publishing|Mastering SAP ABAP: A complete guide to developing fast, durable, and maintainable ABAP programs in SAP|Grześkowiak, Paweł and Ciesielski, Wojciech and Ćwik, Wojciech|9781787129498\n2011|SAP PRESS|Discover ABAP: Your Introduction to ABAP Objects|Kühnhauser, Karl-Heinz and Franz, Thorsten|9781592294022\n2007|SAP PRESS|ABAP Objects: ABAP Programming in SAP NetWeaver|Keller, Horst and Krüger, Sascha|9781592290796\n2017|Independently published|Learn ABAP in 1 Day: Definitive Guide to Learn SAP ABAP Programming for Beginners|Rungta, Krishna|9781521595701\n2014-07-17T00:00:01Z|Cengage Learning PTR|Introduction to ABAP Programming for SAP, 3rd Edition|Gareth M. De Bruyn and Robert Lyfareff and Mark Balleza and Dhruv Kashyap|9781305266476\n2019|SAP Press|ABAP RESTful Programming Model: ABAP Development for SAP S/4HANA (SAP PRESS)|Stefan Haas and Bince Mathew|9781493219032\n2009-09-28T00:00:01Z|SAP PRESS|Official ABAP Programming Guidelines|Keller, Horst and Thümmel, Wolf Hagen|9781592292905\n2012|Packt Publishing|SAP ABAP Advanced cookbook (Quick Answers to Common Problems)|Zaidi, Rehan|9781849684897\n2019|Packt Publishing|Mastering SAP ABAP: A complete guide to developing fast, durable, and maintainable ABAP programs in SAP|Grzeskowiak, Pawel and Ciesielski, Wojciech and Cwik, Wojciech|9781787288942\n2010-05-28T00:00:01Z|SAP PRESS|ABAP Cookbook: Programming Recipes for Everyday Solutions|Wood, James|9781592293261\n2021|Apress|Improving the Quality of ABAP Code: Striving for Perfection|Hardy, Paul David|9781484267110\n2013|Springer|Web Dynpro ABAP for Practitioners|Gellert, Ulrich and Cristea, Ana Daniela|9783642382475\n2009-01-28T00:00:01Z|SAP PRESS|Object-Oriented Programming with ABAP Objects|Wood, James|9781592292356\n2010|SAP PRESS|ABAP Development for Materials Management in SAP: User Exits and BAdIs|Schwaninger, Jürgen|9781592293735\n2017|Apress|Pro SAP Scripts, Smartforms, and Data Migration: ABAP Programming Simplified|Markandeya, Sushil|9781484231838\n2006|Apress|Foundations of Java for ABAP Programmers|Rooney, Alistair|9781590596258\n2012|Packt Publishing|SAP ABAP Advanced cookbook (Quick Answers to Common Problems)|Zaidi Rehan|9781849684880\n2006|Equity Press|SAP ABAP Certification Review: SAP ABAP Interview Questions, Answers, And Explanations|Fewer, Barry|9781933804064\n2004|SAP PRESS|Enhancing the Quality of ABAP Development|Heuvelmans, Wouter and Krouwels, Albert and Meijs, Ben and Sommen, Ron|9781592290307\n20170620|Springer Nature|JavaScript Essentials for SAP ABAP Developers|Rehan Zaidi|9781484222201\n2017|Rheinwerk Publishing,|Complete Abap|Bandari, Kiran|9781493212743\n2010-05-28|Rheinwerk Publishing, Inc.|ABAP Cookbook|James Wood|9781592298877\n2012-10-28|Rheinwerk Publishing, Inc.|Web Dynpro ABAP|James Wood and Shaan Parvaze|9781592295999\n20190927|Springer Nature|SAP ABAP Objects|Rehan Zaidi|9781484249642\n20210529|Springer Nature|ABAP in Eclipse|Łukasz Pęgiel|9781484269633\n2009-06-28|Rheinwerk Publishing, Inc.|ABAP Performance Tuning|Hermann Gahm|9781592295555\n2019-11-21|Rheinwerk Publishing, Inc.|ABAP RESTful Programming Model|Stefan Haas and Bince Mathew|9781493219049\n2013-10-28|Rheinwerk Publishing, Inc.|Function Modules in ABAP|Tanmaya Gupta|9781592298518\n2019-02-26|Rheinwerk Publishing, Inc.|ABAP to the Future|Paul Hardy|9781493217625\n2018-11-27|Rheinwerk Publishing, Inc.|ABAP Programming Model for SAP Fiori|Stefan Haas and Bince Mathew|9781493217656\n2018-08-01|Createspace Independent Publishing Platform|Interface Programming In Sap Abap|Dr Boris Rubarth|9781722902940\n20210401|Springer Nature|Automated Unit Testing with ABAP|James E. McDonough|9781484269510\n1996|Prima Pub|Introduction To Abap 4 Programming|Gareth Debruyn|9780761508038\n2016|Rheinwerk Publishing,|Object-oriented Programming With Abap Objects|Wood, James and Rupert, Joe|\n2015-10-22|Rheinwerk Publishing, Inc.|Object-Oriented Programming with ABAP Objects|James Wood and Joseph Rupert|9781592299942\n2010-11-28|Rheinwerk Publishing, Inc.|BRFplus—Business Rule Management for ABAP Applications|Thomas Albrecht and Carsten Ziegler|9781592298914\n1999|Consultants Network Inc|Instant Access: Sap Developer's Reference For Abap|The Consultants Network Inc.|9780965563345\n2011-01-28|Rheinwerk Publishing, Inc.|ABAP Development for Financial Accounting: Custom Enhancements|Sergey Korolev|9781592297399\n2012-09-28|Rheinwerk Publishing, Inc.|ABAP Development for Sales and Distribution in SAP|Michael Koch|9781592296033\n2000|Youguys Pub|Abap Programming: A Guide To The Certification Course|Kathleen Sikora|9780970655400\n2017|Apress|Pro Sap Scripts, Smartforms, And Data Migration: Abap Programming Simplified|Sushil Markandeya|9781484231821\n2010-11-28|Rheinwerk Publishing, Inc.|ABAP Development for Materials Management in SAP: User Exits and BAdIs|Jürgen Schwaninger|9781592297436\n2003|Sap Press|Web Programming With The Sap Web Application Server: The Complete Guide For Abap And Web Developers|Frédéric Heinemann and Christian Rau|9781592290130	string	isbndb.com	1000	false	
 semanticScholar	636	13%	What are papers about this language from Semantic Scholar?	year|title|doi|citations|influentialCitations|authors|paperId\n2002|Teaching SAP's ABAP Programming Language to IS Students: Adopting and Adapting Web-based Technologies|10.28945/2530|6|0|Brendan McCarthy and Paul Hawking|24eebbc39ee141a470e92d7d154c5bb7590f7914\n2008|ABAP OBJECTS: DESIGNING A PROGRAMMING COURSE FOR INFORMATION SYSTEMS STUDENTS USING SAP SOFTWARE|10.48009/1_iis_2008_165-167|1|0|C. Rogers|4b660a8a0cd7ff636673dd7553d2ad7a19914d04	string	semanticscholar.org	1000	false	
 equation	30	1%	What is a LaTeX encoding of this equation?	∇xB=µ0*J	string		1000	false	
-example	1658	34%	What is a representative snippet for this language?	PUSH 4\nPUSH 5\nMULTIPLY	string		1000	false	
+example	1662	34%	What is a representative snippet for this language?	PUSH 4\nPUSH 5\nMULTIPLY	string		1000	false	
 helloWorldCollection	298	6%	What is the name of this project in the Hello World Collection?	\ Hello world in ABC\n\nWRITE "Hello, World!" /	string	helloworldcollection.de	1000	false	
 funFact	6	0%	What is a code block or some text containing a fun or unusual fact about the language?	 C gets credit for the // comments, starting in 1972, but that's not really accurate. BCPL -- which begat B which begat C -- had // comments but they were not included in C until C99. C++ (which isn't included in their top 30 languages) brought back // comments from BCPL sometime between 1979 and 1985 (the first public release of cfront). Many C compilers included // comments as an extension prior to C99 but those were inspired by C++	string		1000	false	
