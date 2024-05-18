@@ -361,11 +361,11 @@ indeedJobs	222	4%	How many job descriptions match this query for this language o
 linkedInSkill	114	2%	How many people list this skill on LinkedIn?	android	string	linkedin.com	1000	false	
 repoStats	0	0%	What is the URL of the official GitHub repo for the project if it is hosted there?				1000	false	
 repoStats_description	0	0%	How is this language described here?				1000	false	
-repoStats_firstCommit	2028	41%	What year the first commit made in this git repo?	2015	number		1000	false	
-repoStats_newestCommit	1472	30%	What year was the newest commit made in this git repo?	2022	number		1000	false	
-repoStats_commits	2028	41%	How many commits to the repo?	871	number		1000	false	
-repoStats_committers	2028	41%	How many committers to the repo?	28	number		1000	false	
-repoStats_files	2026	41%	How many files in the repo?	49	number		1000	false	
+repoStats_firstCommit	2038	41%	What year the first commit made in this git repo?	2015	number		1000	false	
+repoStats_newestCommit	1852	38%	What year was the newest commit made in this git repo?	2022	number		1000	false	
+repoStats_commits	2038	41%	How many commits to the repo?	871	number		1000	false	
+repoStats_committers	2038	41%	How many committers to the repo?	28	number		1000	false	
+repoStats_files	2036	41%	How many files in the repo?	49	number		1000	false	
 stackOverflowSurvey	0	0%	What is the summary of this language from the StackOverflow annual developer survey found here https://insights.stackoverflow.com/survey?			insights.stackoverflow.com	1000	false	
 versions	0	0%	What are the release years and versions of this language?				1000	false	
 goodreads	400	8%	What are books about this language from Goodreads?	title|year|author|goodreadsId|rating|ratings|reviews\nProgramming the IBM 1620|1965|Eric A. Weiss|23978396|0.0|0|0	string	goodreads.com	1000	false	

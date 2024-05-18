@@ -3027,14 +3027,14 @@ var autocompleteJs = [
     "url": "/concepts/elvish.html"
   },
   {
-    "label": "VBA",
-    "id": "vba",
-    "url": "/concepts/vba.html"
-  },
-  {
     "label": "Tableau Software",
     "id": "tableau-app",
     "url": "/concepts/tableau-app.html"
+  },
+  {
+    "label": "VBA",
+    "id": "vba",
+    "url": "/concepts/vba.html"
   },
   {
     "label": "MIPS architecture",
@@ -3402,6 +3402,11 @@ var autocompleteJs = [
     "url": "/concepts/bpmn.html"
   },
   {
+    "label": "chisel",
+    "id": "chisel",
+    "url": "/concepts/chisel.html"
+  },
+  {
     "label": "Nextflow",
     "id": "nextflow",
     "url": "/concepts/nextflow.html"
@@ -3497,16 +3502,6 @@ var autocompleteJs = [
     "url": "/concepts/mlir.html"
   },
   {
-    "label": "chisel",
-    "id": "chisel",
-    "url": "/concepts/chisel.html"
-  },
-  {
-    "label": "Datalog",
-    "id": "datalog",
-    "url": "/concepts/datalog.html"
-  },
-  {
     "label": "Dynamo",
     "id": "dynamo-visual-language",
     "url": "/concepts/dynamo-visual-language.html"
@@ -3515,6 +3510,11 @@ var autocompleteJs = [
     "label": "RDF",
     "id": "rdf",
     "url": "/concepts/rdf.html"
+  },
+  {
+    "label": "Datalog",
+    "id": "datalog",
+    "url": "/concepts/datalog.html"
   },
   {
     "label": "verona",
@@ -4912,6 +4912,11 @@ var autocompleteJs = [
     "url": "/concepts/up-arrow-notation.html"
   },
   {
+    "label": "zz",
+    "id": "zz",
+    "url": "/concepts/zz.html"
+  },
+  {
     "label": "Algol",
     "id": "algol",
     "url": "/concepts/algol.html"
@@ -5207,19 +5212,14 @@ var autocompleteJs = [
     "url": "/concepts/algol-68.html"
   },
   {
-    "label": "zz",
-    "id": "zz",
-    "url": "/concepts/zz.html"
+    "label": "Wolfram Mathematica",
+    "id": "mathematica-editor",
+    "url": "/concepts/mathematica-editor.html"
   },
   {
     "label": "RPG",
     "id": "ibm-rpg",
     "url": "/concepts/ibm-rpg.html"
-  },
-  {
-    "label": "Wolfram Mathematica",
-    "id": "mathematica-editor",
-    "url": "/concepts/mathematica-editor.html"
   },
   {
     "label": "femtolisp",
@@ -5460,6 +5460,11 @@ var autocompleteJs = [
     "label": "Uiua",
     "id": "uiua",
     "url": "/concepts/uiua.html"
+  },
+  {
+    "label": "harlan",
+    "id": "harlan",
+    "url": "/concepts/harlan.html"
   },
   {
     "label": "S",
@@ -5762,11 +5767,6 @@ var autocompleteJs = [
     "url": "/concepts/fable-lang.html"
   },
   {
-    "label": "harlan",
-    "id": "harlan",
-    "url": "/concepts/harlan.html"
-  },
-  {
     "label": "sile",
     "id": "sile",
     "url": "/concepts/sile.html"
@@ -6000,6 +6000,16 @@ var autocompleteJs = [
     "label": "Carbon",
     "id": "carbon",
     "url": "/concepts/carbon.html"
+  },
+  {
+    "label": "JMP",
+    "id": "jmp",
+    "url": "/concepts/jmp.html"
+  },
+  {
+    "label": "Revolution",
+    "id": "revolution-programming-language",
+    "url": "/concepts/revolution-programming-language.html"
   },
   {
     "label": "DRAKON",
@@ -6397,11 +6407,6 @@ var autocompleteJs = [
     "url": "/concepts/soy.html"
   },
   {
-    "label": "JMP",
-    "id": "jmp",
-    "url": "/concepts/jmp.html"
-  },
-  {
     "label": "ActivityPub",
     "id": "activity-pub",
     "url": "/concepts/activity-pub.html"
@@ -6425,11 +6430,6 @@ var autocompleteJs = [
     "label": "SNOBOL4",
     "id": "snobol4",
     "url": "/concepts/snobol4.html"
-  },
-  {
-    "label": "Revolution",
-    "id": "revolution-programming-language",
-    "url": "/concepts/revolution-programming-language.html"
   },
   {
     "label": "ferret",
