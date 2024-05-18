@@ -32,7 +32,7 @@ const measures = [
   },
   {
     "Name": "appeared",
-    "Values": 24285,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -57,7 +57,7 @@ const measures = [
     "Values": 24290,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1364",
+    "Example": "1365",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -67,7 +67,7 @@ const measures = [
     "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1255",
+    "Example": "1253",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
@@ -77,7 +77,7 @@ const measures = [
     "Values": 21965,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1191",
+    "Example": "1192",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -94,7 +94,7 @@ const measures = [
   },
   {
     "Name": "lastActivity",
-    "Values": 24280,
+    "Values": 24290,
     "Coverage": "500%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -2176,7 +2176,7 @@ const measures = [
   },
   {
     "Name": "githubRepo_description",
-    "Values": 5155,
+    "Values": 5170,
     "Coverage": "106%",
     "Question": "How is this language described here?",
     "Example": "A concise stack-based golfing language",
@@ -2186,7 +2186,7 @@ const measures = [
   },
   {
     "Name": "githubRepo_created",
-    "Values": 5190,
+    "Values": 5205,
     "Coverage": "107%",
     "Question": "When was the *Github repo* for this entity created?",
     "Example": "2015",
@@ -2196,8 +2196,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_updated",
-    "Values": 5260,
-    "Coverage": "108%",
+    "Values": 5275,
+    "Coverage": "109%",
     "Question": "What year was the last commit made?",
     "Example": "2022",
     "Type": "number",
@@ -2216,7 +2216,7 @@ const measures = [
   },
   {
     "Name": "githubRepo_subscribers",
-    "Values": 5225,
+    "Values": 5240,
     "Coverage": "108%",
     "Question": "How many subscribers to the repo?",
     "Example": "20",
@@ -2226,8 +2226,8 @@ const measures = [
   },
   {
     "Name": "githubRepo_forks",
-    "Values": 5265,
-    "Coverage": "108%",
+    "Values": 5280,
+    "Coverage": "109%",
     "Question": "How many forks of the repo?",
     "Example": "39",
     "Type": "number",
@@ -2236,7 +2236,7 @@ const measures = [
   },
   {
     "Name": "githubRepo_stars",
-    "Values": 5280,
+    "Values": 5295,
     "Coverage": "109%",
     "Question": "How many stars of the repo?",
     "Example": "672",
@@ -2246,7 +2246,7 @@ const measures = [
   },
   {
     "Name": "githubRepo_issues",
-    "Values": 4770,
+    "Values": 4785,
     "Coverage": "98%",
     "Question": "How many isses on the repo?",
     "Example": "29",
@@ -3665,8 +3665,8 @@ const measures = [
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 4455,
-    "Coverage": "92%",
+    "Values": 4650,
+    "Coverage": "96%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
     "Type": "number",
@@ -3675,8 +3675,8 @@ const measures = [
   },
   {
     "Name": "repoStats_commits",
-    "Values": 4455,
-    "Coverage": "92%",
+    "Values": 4650,
+    "Coverage": "96%",
     "Question": "How many commits to the repo?",
     "Example": "871",
     "Type": "number",
@@ -3685,8 +3685,8 @@ const measures = [
   },
   {
     "Name": "repoStats_committers",
-    "Values": 4455,
-    "Coverage": "92%",
+    "Values": 4650,
+    "Coverage": "96%",
     "Question": "How many committers to the repo?",
     "Example": "28",
     "Type": "number",
@@ -3695,8 +3695,8 @@ const measures = [
   },
   {
     "Name": "repoStats_files",
-    "Values": 4455,
-    "Coverage": "92%",
+    "Values": 4650,
+    "Coverage": "96%",
     "Question": "How many files in the repo?",
     "Example": "49",
     "Type": "number",

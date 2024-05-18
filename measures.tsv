@@ -2,13 +2,13 @@ Name	Values	Coverage	Question	Example	Type	Source	SortIndex	IsComputed	IsRequire
 id	9716	200%	What is the ID of this concept?	05AB1E	string		0	false	true
 filename	9716	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true	
 creators	2640	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
-appeared	9714	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
+appeared	9716	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
 tags	9716	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
-rank	9716	200%	How does this concept rank amongst all other concepts?	1364	number		3	true	
-impactScore	9716	200%	What is the impact score of this concept?	1255	number		3.1	true	
-languageRank	8786	181%	How does this language rank amongst all languages in PLDB?	1191	number		4	true	
+rank	9716	200%	How does this concept rank amongst all other concepts?	1365	number		3	true	
+impactScore	9716	200%	What is the impact score of this concept?	1253	number		3.1	true	
+languageRank	8786	181%	How does this language rank amongst all languages in PLDB?	1192	number		4	true	
 measurements	9716	200%	How many measurements do we have about this thing?	10	number		5	true	
-lastActivity	9712	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
+lastActivity	9716	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
 exampleCount	9716	200%	How many examples do we have written in this language?	2	number		7	true	
 bookCount	9716	200%	What is the count of booked we have published about this thing?	0	number		8	true	
 paperCount	9716	200%	What is the count of papers we have published about this thing?	0	number		9	true	
@@ -215,14 +215,14 @@ esolang	36	1%	What is a URL to this language on https://esolangs.org/?	https://e
 eventsPageUrl	40	1%	What is a URL to an events pages for this language?	https://blogs.sap.com/2020/04/21/abap-community-online-events/	string		1000	false	
 faqPageUrl	100	2%	What is a URL to a frequently asked questions page for this language?	https://ampl.com/learn/docs/faqs/	string		1000	false	
 gitRepo	26	1%	What is the URL of the official git repo for the language project if not hosted on GitHub or GitLab or Sourcehut?	https://codeberg.org/Wezl/ConCurr	string		1000	false	
-githubRepo_description	2062	42%	How is this language described here?	A concise stack-based golfing language	string		1000	false	
-githubRepo_created	2076	43%	When was the *Github repo* for this entity created?	2015	number		1000	false	
-githubRepo_updated	2104	43%	What year was the last commit made?	2022	number		1000	false	
+githubRepo_description	2068	43%	How is this language described here?	A concise stack-based golfing language	string		1000	false	
+githubRepo_created	2082	43%	When was the *Github repo* for this entity created?	2015	number		1000	false	
+githubRepo_updated	2110	43%	What year was the last commit made?	2022	number		1000	false	
 githubRepo_firstCommit	1686	35%	What year the first commit made in this git repo?	2015	number		1000	false	
-githubRepo_subscribers	2090	43%	How many subscribers to the repo?	20	number		1000	false	
-githubRepo_forks	2106	43%	How many forks of the repo?	39	number		1000	false	
-githubRepo_stars	2112	43%	How many stars of the repo?	672	number		1000	false	
-githubRepo_issues	1908	39%	How many isses on the repo?	29	number		1000	false	
+githubRepo_subscribers	2096	43%	How many subscribers to the repo?	20	number		1000	false	
+githubRepo_forks	2112	43%	How many forks of the repo?	39	number		1000	false	
+githubRepo_stars	2118	44%	How many stars of the repo?	672	number		1000	false	
+githubRepo_issues	1914	39%	How many isses on the repo?	29	number		1000	false	
 gitlabRepo	24	0%	What is the URL of the official GitLab repo for the language project?	https://gitlab.kitware.com/cmake/cmake	string	gitlab.com	1000	false	
 sourcehutRepo	10	0%	What is the URL of the official sourcehut repo for this project?	https://sourceforge.net/projects/avisynth2/	string	sr.ht	1000	false	
 gource	50	1%	What is a URL to a Gource visualization of this project's git history?	https://www.youtube.com/watch?v=wM5sxT0BEdU	string	gource.io	1000	false	
@@ -361,10 +361,10 @@ indeedJobs	222	5%	How many job descriptions match this query for this language o
 linkedInSkill	114	2%	How many people list this skill on LinkedIn?	android	string	linkedin.com	1000	false	
 repoStats	0	0%	What is the URL of the official GitHub repo for the project if it is hosted there?				1000	false	
 repoStats_description	0	0%	How is this language described here?				1000	false	
-repoStats_firstCommit	1782	37%	What year the first commit made in this git repo?	2015	number		1000	false	
-repoStats_commits	1782	37%	How many commits to the repo?	871	number		1000	false	
-repoStats_committers	1782	37%	How many committers to the repo?	28	number		1000	false	
-repoStats_files	1782	37%	How many files in the repo?	49	number		1000	false	
+repoStats_firstCommit	1860	38%	What year the first commit made in this git repo?	2015	number		1000	false	
+repoStats_commits	1860	38%	How many commits to the repo?	871	number		1000	false	
+repoStats_committers	1860	38%	How many committers to the repo?	28	number		1000	false	
+repoStats_files	1860	38%	How many files in the repo?	49	number		1000	false	
 stackOverflowSurvey	0	0%	What is the summary of this language from the StackOverflow annual developer survey found here https://insights.stackoverflow.com/survey?			insights.stackoverflow.com	1000	false	
 versions	0	0%	What are the release years and versions of this language?				1000	false	
 goodreads	400	8%	What are books about this language from Goodreads?	title|year|author|goodreadsId|rating|ratings|reviews\nProgramming the IBM 1620|1965|Eric A. Weiss|23978396|0.0|0|0	string	goodreads.com	1000	false	

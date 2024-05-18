@@ -32,7 +32,7 @@
   },
   {
     "Name": "appeared",
-    "Values": 19428,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -57,7 +57,7 @@
     "Values": 19432,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1364",
+    "Example": "1365",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -67,7 +67,7 @@
     "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1255",
+    "Example": "1253",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
@@ -77,7 +77,7 @@
     "Values": 17572,
     "Coverage": "362%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1191",
+    "Example": "1192",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -94,7 +94,7 @@
   },
   {
     "Name": "lastActivity",
-    "Values": 19424,
+    "Values": 19432,
     "Coverage": "400%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -2176,7 +2176,7 @@
   },
   {
     "Name": "githubRepo_description",
-    "Values": 4124,
+    "Values": 4136,
     "Coverage": "85%",
     "Question": "How is this language described here?",
     "Example": "A concise stack-based golfing language",
@@ -2186,8 +2186,8 @@
   },
   {
     "Name": "githubRepo_created",
-    "Values": 4152,
-    "Coverage": "85%",
+    "Values": 4164,
+    "Coverage": "86%",
     "Question": "When was the *Github repo* for this entity created?",
     "Example": "2015",
     "Type": "number",
@@ -2196,7 +2196,7 @@
   },
   {
     "Name": "githubRepo_updated",
-    "Values": 4208,
+    "Values": 4220,
     "Coverage": "87%",
     "Question": "What year was the last commit made?",
     "Example": "2022",
@@ -2216,7 +2216,7 @@
   },
   {
     "Name": "githubRepo_subscribers",
-    "Values": 4180,
+    "Values": 4192,
     "Coverage": "86%",
     "Question": "How many subscribers to the repo?",
     "Example": "20",
@@ -2226,7 +2226,7 @@
   },
   {
     "Name": "githubRepo_forks",
-    "Values": 4212,
+    "Values": 4224,
     "Coverage": "87%",
     "Question": "How many forks of the repo?",
     "Example": "39",
@@ -2236,7 +2236,7 @@
   },
   {
     "Name": "githubRepo_stars",
-    "Values": 4224,
+    "Values": 4236,
     "Coverage": "87%",
     "Question": "How many stars of the repo?",
     "Example": "672",
@@ -2246,7 +2246,7 @@
   },
   {
     "Name": "githubRepo_issues",
-    "Values": 3816,
+    "Values": 3828,
     "Coverage": "79%",
     "Question": "How many isses on the repo?",
     "Example": "29",
@@ -3665,8 +3665,8 @@
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 3564,
-    "Coverage": "73%",
+    "Values": 3720,
+    "Coverage": "77%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
     "Type": "number",
@@ -3675,8 +3675,8 @@
   },
   {
     "Name": "repoStats_commits",
-    "Values": 3564,
-    "Coverage": "73%",
+    "Values": 3720,
+    "Coverage": "77%",
     "Question": "How many commits to the repo?",
     "Example": "871",
     "Type": "number",
@@ -3685,8 +3685,8 @@
   },
   {
     "Name": "repoStats_committers",
-    "Values": 3564,
-    "Coverage": "73%",
+    "Values": 3720,
+    "Coverage": "77%",
     "Question": "How many committers to the repo?",
     "Example": "28",
     "Type": "number",
@@ -3695,8 +3695,8 @@
   },
   {
     "Name": "repoStats_files",
-    "Values": 3564,
-    "Coverage": "73%",
+    "Values": 3720,
+    "Coverage": "77%",
     "Question": "How many files in the repo?",
     "Example": "49",
     "Type": "number",
