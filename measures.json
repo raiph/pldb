@@ -57,7 +57,7 @@
     "Values": 19432,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1366",
+    "Example": "1364",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -67,7 +67,7 @@
     "Values": 19432,
     "Coverage": "400%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1253",
+    "Example": "1261",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
@@ -77,7 +77,7 @@
     "Values": 17572,
     "Coverage": "361%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1192",
+    "Example": "1191",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -137,7 +137,7 @@
     "Values": 19432,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
-    "Example": "790",
+    "Example": "818",
     "Type": "number",
     "SortIndex": 10,
     "IsComputed": true
@@ -3665,8 +3665,8 @@
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 4076,
-    "Coverage": "83%",
+    "Values": 4188,
+    "Coverage": "86%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
     "Type": "number",
@@ -3675,8 +3675,8 @@
   },
   {
     "Name": "repoStats_newestCommit",
-    "Values": 3704,
-    "Coverage": "76%",
+    "Values": 4032,
+    "Coverage": "82%",
     "Question": "What year was the newest commit made in this git repo?",
     "Example": "2022",
     "Type": "number",
@@ -3685,8 +3685,8 @@
   },
   {
     "Name": "repoStats_commits",
-    "Values": 4076,
-    "Coverage": "83%",
+    "Values": 4188,
+    "Coverage": "86%",
     "Question": "How many commits to the repo?",
     "Example": "871",
     "Type": "number",
@@ -3695,8 +3695,8 @@
   },
   {
     "Name": "repoStats_committers",
-    "Values": 4076,
-    "Coverage": "83%",
+    "Values": 4188,
+    "Coverage": "86%",
     "Question": "How many committers to the repo?",
     "Example": "28",
     "Type": "number",
@@ -3705,8 +3705,8 @@
   },
   {
     "Name": "repoStats_files",
-    "Values": 4072,
-    "Coverage": "83%",
+    "Values": 4184,
+    "Coverage": "86%",
     "Question": "How many files in the repo?",
     "Example": "49",
     "Type": "number",

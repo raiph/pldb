@@ -57,7 +57,7 @@ const measures = [
     "Values": 24290,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1366",
+    "Example": "1364",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -67,7 +67,7 @@ const measures = [
     "Values": 24290,
     "Coverage": "500%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1253",
+    "Example": "1261",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
@@ -77,7 +77,7 @@ const measures = [
     "Values": 21965,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1192",
+    "Example": "1191",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -137,7 +137,7 @@ const measures = [
     "Values": 24290,
     "Coverage": "500%",
     "Question": "What is our estimate of number of users of this language?",
-    "Example": "790",
+    "Example": "818",
     "Type": "number",
     "SortIndex": 10,
     "IsComputed": true
@@ -3665,8 +3665,8 @@ const measures = [
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 5095,
-    "Coverage": "104%",
+    "Values": 5235,
+    "Coverage": "107%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
     "Type": "number",
@@ -3675,8 +3675,8 @@ const measures = [
   },
   {
     "Name": "repoStats_newestCommit",
-    "Values": 4630,
-    "Coverage": "95%",
+    "Values": 5040,
+    "Coverage": "103%",
     "Question": "What year was the newest commit made in this git repo?",
     "Example": "2022",
     "Type": "number",
@@ -3685,8 +3685,8 @@ const measures = [
   },
   {
     "Name": "repoStats_commits",
-    "Values": 5095,
-    "Coverage": "104%",
+    "Values": 5235,
+    "Coverage": "107%",
     "Question": "How many commits to the repo?",
     "Example": "871",
     "Type": "number",
@@ -3695,8 +3695,8 @@ const measures = [
   },
   {
     "Name": "repoStats_committers",
-    "Values": 5095,
-    "Coverage": "104%",
+    "Values": 5235,
+    "Coverage": "107%",
     "Question": "How many committers to the repo?",
     "Example": "28",
     "Type": "number",
@@ -3705,8 +3705,8 @@ const measures = [
   },
   {
     "Name": "repoStats_files",
-    "Values": 5090,
-    "Coverage": "104%",
+    "Values": 5230,
+    "Coverage": "107%",
     "Question": "How many files in the repo?",
     "Example": "49",
     "Type": "number",

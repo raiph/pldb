@@ -4,15 +4,15 @@ filename	9716	200%	What is the name of the file holding this concept?	05ab1e.scr
 creators	2640	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
 appeared	9716	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
 tags	9716	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
-rank	9716	200%	How does this concept rank amongst all other concepts?	1366	number		3	true	
-impactScore	9716	200%	What is the impact score of this concept?	1253	number		3.1	true	
-languageRank	8786	180%	How does this language rank amongst all languages in PLDB?	1192	number		4	true	
+rank	9716	200%	How does this concept rank amongst all other concepts?	1364	number		3	true	
+impactScore	9716	200%	What is the impact score of this concept?	1261	number		3.1	true	
+languageRank	8786	180%	How does this language rank amongst all languages in PLDB?	1191	number		4	true	
 measurements	9716	200%	How many measurements do we have about this thing?	10	number		5	true	
 lastActivity	9716	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
 exampleCount	9716	200%	How many examples do we have written in this language?	2	number		7	true	
 bookCount	9716	200%	What is the count of booked we have published about this thing?	0	number		8	true	
 paperCount	9716	200%	What is the count of papers we have published about this thing?	0	number		9	true	
-numberOfUsersEstimate	9716	200%	What is our estimate of number of users of this language?	790	number		10	true	
+numberOfUsersEstimate	9716	200%	What is our estimate of number of users of this language?	818	number		10	true	
 numberOfJobsEstimate	9716	200%	What is our estimate of the number of jobs in this language?	0	number		11	true	
 githubBigQuery	842	17%	What is the name of this language in the Google BigQuery Public Datasets about GitHub repos found at https://cloud.google.com/blog/topics/public-datasets/github-on-bigquery-analyze-all-the-open-source-code?	1C Enterprise	string	cloud.google.com	13	false	
 githubRepo	2126	43%	What is the URL of the official GitHub repo for the project if it is hosted there?	https://github.com/Adriandmen/05AB1E	string	github.com	15	false	
@@ -361,11 +361,11 @@ indeedJobs	222	4%	How many job descriptions match this query for this language o
 linkedInSkill	114	2%	How many people list this skill on LinkedIn?	android	string	linkedin.com	1000	false	
 repoStats	0	0%	What is the URL of the official GitHub repo for the project if it is hosted there?				1000	false	
 repoStats_description	0	0%	How is this language described here?				1000	false	
-repoStats_firstCommit	2038	41%	What year the first commit made in this git repo?	2015	number		1000	false	
-repoStats_newestCommit	1852	38%	What year was the newest commit made in this git repo?	2022	number		1000	false	
-repoStats_commits	2038	41%	How many commits to the repo?	871	number		1000	false	
-repoStats_committers	2038	41%	How many committers to the repo?	28	number		1000	false	
-repoStats_files	2036	41%	How many files in the repo?	49	number		1000	false	
+repoStats_firstCommit	2094	43%	What year the first commit made in this git repo?	2015	number		1000	false	
+repoStats_newestCommit	2016	41%	What year was the newest commit made in this git repo?	2022	number		1000	false	
+repoStats_commits	2094	43%	How many commits to the repo?	871	number		1000	false	
+repoStats_committers	2094	43%	How many committers to the repo?	28	number		1000	false	
+repoStats_files	2092	43%	How many files in the repo?	49	number		1000	false	
 stackOverflowSurvey	0	0%	What is the summary of this language from the StackOverflow annual developer survey found here https://insights.stackoverflow.com/survey?			insights.stackoverflow.com	1000	false	
 versions	0	0%	What are the release years and versions of this language?				1000	false	
 goodreads	400	8%	What are books about this language from Goodreads?	title|year|author|goodreadsId|rating|ratings|reviews\nProgramming the IBM 1620|1965|Eric A. Weiss|23978396|0.0|0|0	string	goodreads.com	1000	false	
