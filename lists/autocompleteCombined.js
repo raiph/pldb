@@ -21857,6 +21857,11 @@ var autocompleteJs = [
     "url": "/concepts/noodle.html"
   },
   {
+    "label": "noon",
+    "id": "noon",
+    "url": "/concepts/noon.html"
+  },
+  {
     "label": "NOP-2",
     "id": "nop-2",
     "url": "/concepts/nop-2.html"
@@ -24355,11 +24360,6 @@ var autocompleteJs = [
     "label": "NJCL",
     "id": "njcl",
     "url": "/concepts/njcl.html"
-  },
-  {
-    "label": "no ordinary object notation",
-    "id": "noon",
-    "url": "/concepts/noon.html"
   },
   {
     "label": "Navigational User's Language",

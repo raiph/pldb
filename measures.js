@@ -3422,8 +3422,8 @@ const measures = [
   },
   {
     "Name": "standsFor",
-    "Values": 1720,
-    "Coverage": "35%",
+    "Values": 1725,
+    "Coverage": "36%",
     "Question": "If the language name is an acronym what does/did it stand for?",
     "Example": "3D Manufacturing Format",
     "Type": "string",
