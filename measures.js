@@ -3511,7 +3511,7 @@ const measures = [
     "IsComputed": true
   },
   {
-    "Name": "isDone",
+    "Name": "isFinished",
     "Values": 24290,
     "Coverage": "500%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",

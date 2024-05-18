@@ -346,7 +346,7 @@ packageCount,144,2%,How many packages are in the repository?,105,number,,1000,fa
 packageAuthors,12,0%,How many people contribute packages to this cpm?,13699,number,,1000,false,
 hoplId,5424,111%,What is the HOPL id of this language?,4365,number,,1000,true,
 isLanguage,14574,300%,Does PLDB categorize this entity as a language?,true,boolean,,1000,true,
-isDone,14574,300%,"Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",false,boolean,,1000,true,
+isFinished,14574,300%,"Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",false,boolean,,1000,true,
 wordRank,1131,23%,Where does this word rank in terms of common English words?,4100,number,,1000,false,
 fileType,3813,78%,What is the file encoding for programs in this language?,paper,string,,1000,false,
 nativeLanguage,51,1%,"What is the native human language for this language, if not English?",Korean,string,,1000,false,
