@@ -1,13 +1,12 @@
+author https://twitter.com/breckyunits Breck Yunits
 date 02/8/2023
 groups pldbBehindTheScenes
 title Data entry Livestream
 
 import postHeader.scroll
 printTitle
-
 wideColumns 1
-
-byLine https://twitter.com/breckyunits Breck Yunits
+printAuthor
 
 # Data Entry Livestream: Adding `appeared` to four entities
 In this Livestream I show the sometimes boring and laborious process for adding data to PLDB.io.
