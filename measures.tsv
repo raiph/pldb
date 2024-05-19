@@ -1,25 +1,25 @@
 Name	Values	Coverage	Question	Example	Type	Source	SortIndex	IsComputed	IsRequired
-id	9734	200%	What is the ID of this concept?	05AB1E	string		0	false	true
-filename	9734	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true	
-creators	2638	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
-appeared	9734	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
-tags	9734	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
-rank	9734	200%	How does this concept rank amongst all other concepts?	1214	number		3	true	
-pldbScore	9734	200%	What is the combined score of this language across all the categories of rankings?	3316	number		3.01	true	
-inboundLinks	9734	200%	How many other concepts link to this one?	0	number		3.1	true	
-measurements	9734	200%	How many measurements do we have about this thing?	11	number		5	true	
-foundationScore	9734	200%	How many languages are built using this language?	0	number		6	true	
-lastActivity	9734	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
-exampleCount	9734	200%	How many examples do we have written in this language?	2	number		7	true	
-bookCount	9734	200%	What is the count of booked we have published about this thing?	0	number		8	true	
-paperCount	9734	200%	What is the count of papers we have published about this thing?	0	number		9	true	
-numberOfUsersEstimate	9734	200%	What is our estimate of number of users of this language?	818	number		10	true	
-numberOfJobsEstimate	9734	200%	What is our estimate of the number of jobs in this language?	0	number		11	true	
+id	9740	200%	What is the ID of this concept?	05AB1E	string		0	false	true
+filename	9740	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true	
+creators	2644	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
+appeared	9740	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
+tags	9740	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
+rank	9740	200%	How does this concept rank amongst all other concepts?	1214	number		3	true	
+pldbScore	9740	200%	What is the combined score of this language across all the categories of rankings?	3316	number		3.01	true	
+inboundLinks	9740	200%	How many other concepts link to this one?	0	number		3.1	true	
+measurements	9740	200%	How many measurements do we have about this thing?	11	number		5	true	
+foundationScore	9740	200%	How many languages are built using this language?	0	number		6	true	
+lastActivity	9740	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
+exampleCount	9740	200%	How many examples do we have written in this language?	2	number		7	true	
+bookCount	9740	200%	What is the count of booked we have published about this thing?	0	number		8	true	
+paperCount	9740	200%	What is the count of papers we have published about this thing?	0	number		9	true	
+numberOfUsersEstimate	9740	200%	What is our estimate of number of users of this language?	818	number		10	true	
+numberOfJobsEstimate	9740	200%	What is our estimate of the number of jobs in this language?	0	number		11	true	
 githubBigQuery	842	17%	What is the name of this language in the Google BigQuery Public Datasets about GitHub repos found at https://cloud.google.com/blog/topics/public-datasets/github-on-bigquery-analyze-all-the-open-source-code?	1C Enterprise	string	cloud.google.com	13	false	
-githubRepo	2142	44%	What is the URL of the official GitHub repo for the project if it is hosted there?	https://github.com/Adriandmen/05AB1E	string	github.com	15	false	
+githubRepo	2142	43%	What is the URL of the official GitHub repo for the project if it is hosted there?	https://github.com/Adriandmen/05AB1E	string	github.com	15	false	
 rijuRepl_website	58	1%	What is the URL of the official homepage for this language project?	https://www.adaic.org/	string		16	false	
-website	3306	67%	What is the URL of the official homepage for this language project?	http://www.3mf.io/specification/	string		16	false	
-wikipedia	3726	76%	What is the URL of this entity on Wikipedia, if and only if it has a page dedicated to it?	https://en.wikipedia.org/wiki/IBM_1620	string	wikipedia.org	17	false	
+website	3308	67%	What is the URL of the official homepage for this language project?	http://www.3mf.io/specification/	string		16	false	
+wikipedia	3730	76%	What is the URL of this entity on Wikipedia, if and only if it has a page dedicated to it?	https://en.wikipedia.org/wiki/IBM_1620	string	wikipedia.org	17	false	
 canDoShebang	12	0%	Does this language support shebang executable scripts?	true	boolean		42	false	
 canReadCommandLineArgs	4	0%	Does this language support command line arguments?	true	boolean		42	false	
 canUseQuestionMarksAsPartOfIdentifier	4	0%	Is the question mark (?) allowed as part of an identifier?	false	boolean		42	false	
@@ -318,7 +318,7 @@ includeToken	8	0%	What token(s) is used for including another file?	require	stri
 fileExtensions	428	8%	What are the file extensions for this language?	a51	string		1000	false	
 clocExtensions	468	9%	What are the file extensions for this language recognized by Al Danial's cloc?	abap	string		1000	false	
 filenames	0	0%	What are the filenames commonly associated with this language?				1000	false	
-originCommunity	7934	163%	In what community(ies) did the language first originate?	Department of Computer Science, University of Toronto	string		1000	false	
+originCommunity	7934	162%	In what community(ies) did the language first originate?	Department of Computer Science, University of Toronto	string		1000	false	
 relatedConcepts	376	7%	What languages are related?	logo	string		1000	false	
 runsOnVm	18	0%	What virtual machine(s) does this language run on?	jvm	string		1000	false	
 influencedBy	106	2%	What languages influenced this one?	rust	string		1000	false	
@@ -347,8 +347,8 @@ packageInstallCount	22	0%	How many packages have been downloaded?	770549116	numb
 packageCount	96	1%	How many packages are in the repository?	105	number		1000	false	
 packageAuthors	8	0%	How many people contribute packages to this cpm?	13699	number		1000	false	
 hoplId	3616	74%	What is the HOPL id of this language?	4365	number		1000	true	
-isLanguage	9734	200%	Does PLDB categorize this entity as a language?	true	boolean		1000	true	
-isFinished	9734	200%	Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.	false	boolean		1000	true	
+isLanguage	9740	200%	Does PLDB categorize this entity as a language?	true	boolean		1000	true	
+isFinished	9740	200%	Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.	false	boolean		1000	true	
 wordRank	754	15%	Where does this word rank in terms of common English words?	4100	number		1000	false	
 fileType	2542	52%	What is the file encoding for programs in this language?	paper	string		1000	false	
 nativeLanguage	34	0%	What is the native human language for this language, if not English?	Korean	string		1000	false	
