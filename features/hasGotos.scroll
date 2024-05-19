@@ -46,17 +46,17 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/basic.html"
  20 PRINT &quot;HELLO&quot;
  30 GOTO 20
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- goto a_label
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/batch.html">Batchfile</a>
  :: this would create an endless loop
  :myLabel
  goto myLabel
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ goto a_label
+
 ***
 
-* Languages *with* Gotos include <a href="../concepts/c.html">C</a>, <a href="../concepts/basic.html">BASIC</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/batch.html">Batchfile</a>
+* Languages *with* Gotos include <a href="../concepts/c.html">C</a>, <a href="../concepts/basic.html">BASIC</a>, <a href="../concepts/batch.html">Batchfile</a>, <a href="../concepts/jule.html">Jule</a>
 
 ***
 

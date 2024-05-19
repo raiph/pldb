@@ -15,15 +15,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ini.html">I
  ; \&quot; \\ \n \t \b
  [section &quot;subsection with \&quot;quotes\&quot;&quot;]
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- || str = &quot;\01\02\03&quot;
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  &quot;\e\n\r&quot;
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ || str = &quot;\01\02\03&quot;
+
 ***
 
-* Languages *with* hasEscapeCharacters include <a href="../concepts/ini.html">Ini</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>
+* Languages *with* hasEscapeCharacters include <a href="../concepts/ini.html">Ini</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

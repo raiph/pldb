@@ -11,6 +11,9 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+ https://www.w3schools.com/python/python_iterators.asp
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">Java</a>
  Iterator iter = list.iterator();
  //Iterator&lt;MyType&gt; iter = list.iterator();    in J2SE 5.0
@@ -30,18 +33,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C
    std::cout &lt;&lt; *it;  // And print value of &#39;items&#39; for current index.
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/matlab.html">MATLAB</a>
- % Define an array of integers
- myArray = [1,3,5,7,11,13];
- 
- for n = myArray
-    % ... do something with n
-    disp(n)  % Echo integer to Command Window
- end
-
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
- https://www.w3schools.com/python/python_iterators.asp
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
  (0...42).each do |n|
    puts n
@@ -52,6 +43,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/rust.html">
    println!(&quot;{}&quot;, n);
  }
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/matlab.html">MATLAB</a>
+ % Define an array of integers
+ myArray = [1,3,5,7,11,13];
+ 
+ for n = myArray
+    % ... do something with n
+    disp(n)  % Echo integer to Command Window
+ end
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  || items = [5,6,7,8]
  for i in items
@@ -59,7 +59,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.htm
 
 ***
 
-* Languages *with* Iterators include <a href="../concepts/java.html">Java</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Iterators include <a href="../concepts/python.html">Python</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

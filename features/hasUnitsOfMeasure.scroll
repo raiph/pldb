@@ -30,10 +30,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nemerle.htm
  
  WriteLine($&quot;Area of 1 cm * 10 m = $x1 m&quot;);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- || time = 1day - 10s
- || size = 10.2MB
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/modelica.html">Modelica</a>
  type SpecificHeatCapacity = Real (
    final quantity=&quot;SpecificHeatCapacity&quot;,
@@ -43,12 +39,16 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/modelica.ht
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/frink.html">Frink</a>
  10 feet 12 feet 8 feet -&gt; gallons
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ || time = 1day - 10s
+ || size = 10.2MB
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ti-89-basic.html">TI-89 series</a>
  54_kg * (_c^2)
 
 ***
 
-* Languages *with* Units of Measure include <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/nemerle.html">Nemerle</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/modelica.html">Modelica</a>, <a href="../concepts/frink.html">Frink</a>, <a href="../concepts/ti-89-basic.html">TI-89 series</a>
+* Languages *with* Units of Measure include <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/nemerle.html">Nemerle</a>, <a href="../concepts/modelica.html">Modelica</a>, <a href="../concepts/frink.html">Frink</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/ti-89-basic.html">TI-89 series</a>
 
 ***
 

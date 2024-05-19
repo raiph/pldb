@@ -18,15 +18,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/r.html">R</
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bash.html">Bash</a>
  echo &quot;Hello world&quot; &gt; output.txt
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html">Julia</a>
- [1,2,3] |&gt; (y -&gt; f(3, y))
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  &quot;Elixir&quot; |&gt; String.graphemes() |&gt; Enum.frequencies()
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html">Julia</a>
+ [1,2,3] |&gt; (y -&gt; f(3, y))
+
 ***
 
-* Languages *with* Pipes include <a href="../concepts/r.html">R</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Pipes include <a href="../concepts/r.html">R</a>, <a href="../concepts/bash.html">Bash</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/julia.html">Julia</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

@@ -11,18 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/lua.html">Lua</a>
- https://www.lua.org/pil/2.5.html
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/json.html">JSON</a>
  {&quot;name&quot;: &quot;Mary&quot;}
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/lua.html">Lua</a>
+ https://www.lua.org/pil/2.5.html
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  %{key: &quot;value&quot;}
-
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- || x = [&quot;a&quot;:&quot;Apple&quot;, &quot;b&quot;:&quot;Bird&quot;, &quot;c&quot;:&quot;Cat&quot;]
- printline x[&quot;b&quot;] // Bird
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  let my_map: [int:str] = {
@@ -31,9 +27,13 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
      2: &quot;Key 2&quot;,
  }
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ || x = [&quot;a&quot;:&quot;Apple&quot;, &quot;b&quot;:&quot;Bird&quot;, &quot;c&quot;:&quot;Cat&quot;]
+ printline x[&quot;b&quot;] // Bird
+
 ***
 
-* Languages *with* Maps include <a href="../concepts/lua.html">Lua</a>, <a href="../concepts/json.html">JSON</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *with* Maps include <a href="../concepts/json.html">JSON</a>, <a href="../concepts/lua.html">Lua</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/edn.html">EDN</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

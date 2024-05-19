@@ -21,11 +21,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/go.html">Go
  i++
  i--
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- || x = 1
- x++
- x--
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  i++; --j;
 
@@ -33,12 +28,17 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
  ++
  --
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ || x = 1
+ x++
+ x--
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/aardvark.html">Aardvark</a>
  ++ and --
 
 ***
 
-* Languages *with* Increment and decrement operators include <a href="../concepts/c.html">C</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>
+* Languages *with* Increment and decrement operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 ***
 

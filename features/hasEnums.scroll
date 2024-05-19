@@ -30,9 +30,23 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.htm
    JEDI
  }
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+ enum TestEnum : int
+ {
+    FOO,
+    BAR,
+    BAZ
+ }
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/grammar.html">Grammar</a>
  boolCell
   enum true false
+
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ enum ExitCode {
+     Success = 0,
+     Failure = 1
+ }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  flags
@@ -48,27 +62,13 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.htm
   W
  // X=0, Y=1, Z=3, W=4
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
- enum TestEnum : int
- {
-    FOO,
-    BAR,
-    BAZ
- }
+***
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- enum ExitCode {
-     Success = 0,
-     Failure = 1
- }
+* Languages *with* Enums include <a href="../concepts/c.html">C</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/grammar.html">Grammar</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 
-* Languages *with* Enums include <a href="../concepts/c.html">C</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/grammar.html">Grammar</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/jule.html">Jule</a>
-
-***
-
-* Languages *without* Enums include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/html.html">HTML</a>, <a href="../concepts/css.html">CSS</a>
+* Languages *without* Enums include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/html.html">HTML</a>, <a href="../concepts/css.html">CSS</a>, <a href="../concepts/ruby.html">Ruby</a>
 
 ***
 

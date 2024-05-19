@@ -14,17 +14,17 @@ mediumColumns 1
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
  const scores: int[]
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/hope.html">HOPE</a>
+ [1,2,3]
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  |array of string| s
  s &lt;~ &quot;abc&quot; // ok
  s &lt;~ 1 // fail
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/hope.html">HOPE</a>
- [1,2,3]
-
 ***
 
-* Languages *with* Single-Type Arrays include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/hope.html">HOPE</a>
+* Languages *with* Single-Type Arrays include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/hope.html">HOPE</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

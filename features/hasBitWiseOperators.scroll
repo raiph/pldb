@@ -11,15 +11,15 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
- int i = 4; /* bit pattern equivalent is binary 100 */
- int j = i &lt;&lt; 2; /* makes it binary 10000, which multiplies the original number by 4 i.e. 16 */
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  var x = 5 &amp; 1;
 
 codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/python.html">Python</a>, <a href="../concepts/speedie.html">Speedie</a>
  x &lt;&lt; y
+
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+ int i = 4; /* bit pattern equivalent is binary 100 */
+ int j = i &lt;&lt; 2; /* makes it binary 10000, which multiplies the original number by 4 i.e. 16 */
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/r.html">R</a>
  ! x
@@ -32,15 +32,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/r.html">R</
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  int i = b &lt;&lt; 4 + x; // Same as (b &lt;&lt; 4) + x
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- &amp; | ^ &lt;&lt; &gt;&gt;
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a>
  (&amp; 0xFF 0x1B)
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ &amp; | ^ &lt;&lt; &gt;&gt;
+
 ***
 
-* Languages *with* Bitwise Operators include <a href="../concepts/c.html">C</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/r.html">R</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dale.html">Dale</a>
+* Languages *with* Bitwise Operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/r.html">R</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/dale.html">Dale</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

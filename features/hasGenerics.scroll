@@ -68,20 +68,20 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">A
     end record;
  end Stacks;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- fn generic_function[T](s: []T) {
-     // ...
- }
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">Felix</a>
  // generics
  fun g (x) =&gt; f (f x);
  println$ g 1, g &quot;hello&quot;;
  println$ _map f (1,&quot;hello&quot;,2.0);
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ fn generic_function[T](s: []T) {
+     // ...
+ }
+
 ***
 
-* Languages *with* Generics include <a href="../concepts/java.html">Java</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/felix.html">Felix</a>
+* Languages *with* Generics include <a href="../concepts/java.html">Java</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/felix.html">Felix</a>, <a href="../concepts/jule.html">Jule</a>
 
 ***
 

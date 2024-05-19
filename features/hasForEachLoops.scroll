@@ -16,29 +16,29 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">P
    each val in [1, 2, 3, 4, 5]
      li= val
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- || items = [5,6,7,8]
- for i in items
-  printline i
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  foreach (x : list)
  {
    foo(x);
  }
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cyber.html">Cyber</a>
+ for worlds each w:
+   print &#39;Hello, {w}!&#39;
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  for x, y in my_enumerable {
      // ...
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cyber.html">Cyber</a>
- for worlds each w:
-   print &#39;Hello, {w}!&#39;
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ || items = [5,6,7,8]
+ for i in items
+  printline i
 
 ***
 
-* Languages *with* hasForEachLoops include <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/hecl.html">hecl</a>, <a href="../concepts/cyber.html">Cyber</a>
+* Languages *with* hasForEachLoops include <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/cyber.html">Cyber</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/hecl.html">hecl</a>
 
 ***
 

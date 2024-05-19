@@ -11,18 +11,18 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ continue
+ continue a_label
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  for i in 10
   if i &lt; 5: continue
   printline i // 6,7,8,9
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- continue
- continue a_label
-
 ***
 
-* Languages *with* hasContinue include <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>
+* Languages *with* hasContinue include <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 ***
 

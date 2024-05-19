@@ -17,9 +17,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</
  double dc = 3.4;
  int result = (int)da + (int)db + (int)dc; //result == 9
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/matlab.html">MATLAB</a>
- b = cast(a, &#39;like&#39;, p)
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
  &lt;number&gt;something;
 
@@ -32,10 +29,8 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
  animal = null;
  b = animal as Bulldog;          // b == null
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- || x = message()
- || y = x|object| // lose type info
- || z = y|message| // regain it
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/matlab.html">MATLAB</a>
+ b = cast(a, &#39;like&#39;, p)
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  double d = 3.3;
@@ -44,9 +39,14 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  let x = (int)(3.14)
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ || x = message()
+ || y = x|object| // lose type info
+ || z = y|message| // regain it
+
 ***
 
-* Languages *with* Type Casting include <a href="../concepts/c.html">C</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *with* Type Casting include <a href="../concepts/c.html">C</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

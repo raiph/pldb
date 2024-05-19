@@ -17,21 +17,21 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  fn -&gt; IO.puts(&quot;hello world&quot;) end
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">Coconut</a>
+ x -&gt; x ** 2
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  let anonymous = fn() {
      outln(&quot;Anonymous Function&quot;)
  }
  anonymous()
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">Coconut</a>
- x -&gt; x ** 2
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/hope.html">HOPE</a>
  lambda(x,y) =&gt; x + y
 
 ***
 
-* Languages *with* Anonymous Functions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/hope.html">HOPE</a>
+* Languages *with* Anonymous Functions include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/coconut.html">Coconut</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/hope.html">HOPE</a>, <a href="../concepts/aardvark.html">Aardvark</a>
 
 ***
 

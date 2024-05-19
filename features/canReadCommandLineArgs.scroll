@@ -11,9 +11,6 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
- printline app[0]
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  use std::os::{ARGS}
  
@@ -21,9 +18,12 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
      outln(ARGS)
  }
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+ printline app[0]
+
 ***
 
-* Languages *with* canReadCommandLineArgs include <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>
+* Languages *with* canReadCommandLineArgs include <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 
