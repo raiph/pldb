@@ -3360,16 +3360,6 @@ const measures = [
     "IsComputed": false
   },
   {
-    "Name": "getSource",
-    "Values": 5490,
-    "Coverage": "112%",
-    "Question": "What is a one line shell command to download the source code for this language?",
-    "Example": "git clone https://github.com/Adriandmen/05AB1E",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": true
-  },
-  {
     "Name": "country",
     "Values": 18655,
     "Coverage": "383%",
@@ -3419,6 +3409,16 @@ const measures = [
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false
+  },
+  {
+    "Name": "mainRepo",
+    "Values": 5490,
+    "Coverage": "112%",
+    "Question": "Where is the main source code for this language?",
+    "Example": "https://github.com/Adriandmen/05AB1E",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": true
   },
   {
     "Name": "standsFor",
