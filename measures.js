@@ -57,7 +57,7 @@ const measures = [
     "Values": 24335,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1364",
+    "Example": "1369",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -77,7 +77,7 @@ const measures = [
     "Values": 22010,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1191",
+    "Example": "1195",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -3195,6 +3195,16 @@ const measures = [
     "Coverage": "21%",
     "Question": "What are the file extensions for this language?",
     "Example": "a51",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "clocExtensions",
+    "Values": 1170,
+    "Coverage": "24%",
+    "Question": "What are the file extensions for this language recognized by Al Danial's cloc?",
+    "Example": "abap",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false

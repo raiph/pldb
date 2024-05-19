@@ -4,9 +4,9 @@ filename	9734	200%	What is the name of the file holding this concept?	05ab1e.scr
 creators	2640	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
 appeared	9734	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
 tags	9734	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
-rank	9734	200%	How does this concept rank amongst all other concepts?	1364	number		3	true	
+rank	9734	200%	How does this concept rank amongst all other concepts?	1369	number		3	true	
 impactScore	9734	200%	What is the impact score of this concept?	1264	number		3.1	true	
-languageRank	8804	180%	How does this language rank amongst all languages in PLDB?	1191	number		4	true	
+languageRank	8804	180%	How does this language rank amongst all languages in PLDB?	1195	number		4	true	
 measurements	9734	200%	How many measurements do we have about this thing?	10	number		5	true	
 lastActivity	9734	200%	In our data on this entity, what year is the most recent activity?	2022	number		6	true	
 exampleCount	9734	200%	How many examples do we have written in this language?	2	number		7	true	
@@ -315,6 +315,7 @@ assignmentToken	68	1%	What token(s) is used for assignment to an identifier?	:=	
 booleanTokens	200	4%	What token(s) is used for true and false?	true false	string		1000	false	
 includeToken	8	0%	What token(s) is used for including another file?	require	string		1000	false	
 fileExtensions	428	8%	What are the file extensions for this language?	a51	string		1000	false	
+clocExtensions	468	9%	What are the file extensions for this language recognized by Al Danial's cloc?	abap	string		1000	false	
 filenames	0	0%	What are the filenames commonly associated with this language?				1000	false	
 originCommunity	7934	163%	In what community(ies) did the language first originate?	Department of Computer Science, University of Toronto	string		1000	false	
 relatedConcepts	376	7%	What languages are related?	logo	string		1000	false	
