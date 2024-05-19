@@ -67,7 +67,7 @@ const measures = [
     "Values": 24350,
     "Coverage": "500%",
     "Question": "What is the combined score of this language across all the categories of rankings?",
-    "Example": "3316",
+    "Example": "21034",
     "Type": "number",
     "SortIndex": 3.01,
     "IsComputed": true
