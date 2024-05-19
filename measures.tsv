@@ -1,11 +1,11 @@
 Name	Values	Coverage	Question	Example	Type	Source	SortIndex	IsComputed	IsRequired
 id	9734	200%	What is the ID of this concept?	05AB1E	string		0	false	true
 filename	9734	200%	What is the name of the file holding this concept?	05ab1e.scroll	string		1	true	
-creators	2640	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
+creators	2638	54%	What are the name(s) of the original creators of the language delimited by " and "?	Matthew Steel	string		1	false	
 appeared	9734	200%	What year was the language publicly released and/or announced?	2015	number		1	false	true
 tags	9734	200%	Which category(ies) in PLDB's subjective ontology does this entity fit into?	esolang	string		2	false	true
 rank	9734	200%	How does this concept rank amongst all other concepts?	1214	number		3	true	
-pldbScore	9734	200%	What is the combined score of this language across all the categories of rankings?	3317	number		3.01	true	
+pldbScore	9734	200%	What is the combined score of this language across all the categories of rankings?	3316	number		3.01	true	
 inboundLinks	9734	200%	How many other concepts link to this one?	0	number		3.1	true	
 measurements	9734	200%	How many measurements do we have about this thing?	11	number		5	true	
 foundationScore	9734	200%	How many languages are built using this language?	0	number		6	true	

@@ -22,7 +22,7 @@ const measures = [
   },
   {
     "Name": "creators",
-    "Values": 6600,
+    "Values": 6595,
     "Coverage": "135%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -67,7 +67,7 @@ const measures = [
     "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the combined score of this language across all the categories of rankings?",
-    "Example": "3317",
+    "Example": "3316",
     "Type": "number",
     "SortIndex": 3.01,
     "IsComputed": true
