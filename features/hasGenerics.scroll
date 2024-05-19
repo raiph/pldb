@@ -16,6 +16,11 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">
  v.add(&quot;test&quot;);
  Integer i = v.get(0); // (type error)  compilation-time error
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
+ function identity&lt;T&gt;(arg: T): T {
+    return arg;
+ }
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  // Declare the generic class.
  public class GenericList&lt;T&gt;
@@ -39,11 +44,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
          GenericList&lt;ExampleClass&gt; list3 = new GenericList&lt;ExampleClass&gt;();
          list3.Add(new ExampleClass());
      }
- }
-
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
- function identity&lt;T&gt;(arg: T): T {
-    return arg;
  }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">Ada</a>
@@ -81,7 +81,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html"
 
 ***
 
-* Languages *with* Generics include <a href="../concepts/java.html">Java</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/felix.html">Felix</a>
+* Languages *with* Generics include <a href="../concepts/java.html">Java</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/ada.html">Ada</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/felix.html">Felix</a>
 
 ***
 

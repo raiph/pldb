@@ -11,15 +11,15 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+ #include &lt;stdio.h&gt;
+ int main(void) { printf(&quot;%d&quot;, 1 ? 1 : 0); }
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  let i = true ? 1 : 0
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
  print(1 if 1 else 0)
-
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
- #include &lt;stdio.h&gt;
- int main(void) { printf(&quot;%d&quot;, 1 ? 1 : 0); }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">PHP</a>
  &lt;?php echo 1 ? 1 : 0;
@@ -37,7 +37,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
 
 ***
 
-* Languages *with* Ternary operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>
+* Languages *with* Ternary operators include <a href="../concepts/c.html">C</a>, <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/c3.html">C3</a>
 
 ***
 

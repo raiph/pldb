@@ -14,6 +14,9 @@ mediumColumns 1
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
  declare type numOrString = string | number
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">GraphQL</a>
+ union SearchResult = Human | Droid | Starship
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  union Foo
  {
@@ -25,12 +28,9 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
    }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">GraphQL</a>
- union SearchResult = Human | Droid | Starship
-
 ***
 
-* Languages *with* Union Types include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/c2.html">C2</a>
+* Languages *with* Union Types include <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/graphql.html">GraphQL</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/c2.html">C2</a>
 
 ***
 

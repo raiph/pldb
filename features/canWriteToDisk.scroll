@@ -15,14 +15,17 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html
  with open(&#39;helloworld.txt&#39;, &#39;w&#39;) as filehandle:
   filehandle.write(&#39;Hello, world!\n&#39;)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nodejs.html">Node.js</a>
- require(&quot;fs&quot;).writeFileSync(&quot;foo.txt&quot;, &quot;foo&quot;, &quot;utf8&quot;)
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  File.write!(&quot;helloworld.txt&quot;, &quot;Hello, world!\n&quot;)
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  &quot;helloworld.txt&quot; &lt;~ &quot;Hello, world!\n&quot;
+
+codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>
+ write %helloworld.txt &quot;Hello, world!^/&quot;
+
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nodejs.html">Node.js</a>
+ require(&quot;fs&quot;).writeFileSync(&quot;foo.txt&quot;, &quot;foo&quot;, &quot;utf8&quot;)
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  use std::fs::{open, O_WRONLY}
@@ -34,12 +37,9 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
      f.close()
  }
 
-codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>
- write %helloworld.txt &quot;Hello, world!^/&quot;
-
 ***
 
-* Languages *with* Disk Output include <a href="../concepts/python.html">Python</a>, <a href="../concepts/nodejs.html">Node.js</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>
+* Languages *with* Disk Output include <a href="../concepts/python.html">Python</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/nodejs.html">Node.js</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/boron.html">Boron</a>
 
 ***
 

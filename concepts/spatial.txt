@@ -5,7 +5,7 @@ Spatial, aka Specify Parameterized Accelerators Through Inordinately Abstract La
  https://pldb.io/concepts/../lists/explorer.html#searchBuilder=%7B%22criteria%22%3A%5B%7B%22condition%22%3A%22%3D%22%2C%22data%22%3A%22appeared%22%2C%22origData%22%3A%22appeared%22%2C%22tags%22%3A%22num%22%2C%22value%22%3A%5B%222018%22%5D%7D%5D%2C%22logic%22%3A%22AND%22%7D
  https://pldb.io/concepts/../lists/creators.html#q=David%20Koeplinger
 
-#533 on PLDB
+#516 on PLDB
 6 Years Old
 
 git clone https://github.com/stanford-ppl/spatial
@@ -16,6 +16,7 @@ Spatial: "Specify Parameterized Accelerators Through Inordinately Abstract Langu
  https://spatial-lang.org/
 - Spatial is developed on GitHub and has 225 stars
 - Spatial first developed in Stanford University
+- Spatial is written in Scala & XML & VHDL & HTML & Make & Bourne shell & C++ & Scheme & Python & Ini & C & CSV & Bash & Markdown & Tex & Diff & YAML
 - spatial-lang.org was registered in 2018
 
 import spatial.dsl._

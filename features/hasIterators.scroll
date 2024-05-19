@@ -20,8 +20,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">
          System.out.print(&quot;, &quot;);
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
- https://www.w3schools.com/python/python_iterators.asp
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
+ std::vector&lt;int&gt; items;
+ items.push_back(5);  // Append integer value &#39;5&#39; to vector &#39;items&#39;.
+ items.push_back(2);  // Append integer value &#39;2&#39; to vector &#39;items&#39;.
+ items.push_back(9);  // Append integer value &#39;9&#39; to vector &#39;items&#39;.
+ 
+ for (auto it = items.begin(); it != items.end(); ++it) {  // Iterate through &#39;items&#39;.
+   std::cout &lt;&lt; *it;  // And print value of &#39;items&#39; for current index.
+ }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/matlab.html">MATLAB</a>
  % Define an array of integers
@@ -32,15 +39,8 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/matlab.html
     disp(n)  % Echo integer to Command Window
  end
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
- std::vector&lt;int&gt; items;
- items.push_back(5);  // Append integer value &#39;5&#39; to vector &#39;items&#39;.
- items.push_back(2);  // Append integer value &#39;2&#39; to vector &#39;items&#39;.
- items.push_back(9);  // Append integer value &#39;9&#39; to vector &#39;items&#39;.
- 
- for (auto it = items.begin(); it != items.end(); ++it) {  // Iterate through &#39;items&#39;.
-   std::cout &lt;&lt; *it;  // And print value of &#39;items&#39; for current index.
- }
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+ https://www.w3schools.com/python/python_iterators.asp
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
  (0...42).each do |n|
@@ -59,7 +59,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.htm
 
 ***
 
-* Languages *with* Iterators include <a href="../concepts/java.html">Java</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Iterators include <a href="../concepts/java.html">Java</a>, <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/matlab.html">MATLAB</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/rust.html">Rust</a>, <a href="../concepts/speedie.html">Speedie</a>
 
 ***
 

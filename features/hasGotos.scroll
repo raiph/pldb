@@ -40,14 +40,14 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</
      return 0;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- goto a_label
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/basic.html">BASIC</a>
  10 REM This BASIC program shows the use of the PRINT and GOTO Statements.
  15 REM It fills the screen with the phrase &quot;HELLO&quot;
  20 PRINT &quot;HELLO&quot;
  30 GOTO 20
+
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ goto a_label
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/batch.html">Batchfile</a>
  :: this would create an endless loop
@@ -56,11 +56,11 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/batch.html"
 
 ***
 
-* Languages *with* Gotos include <a href="../concepts/c.html">C</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/basic.html">BASIC</a>, <a href="../concepts/batch.html">Batchfile</a>
+* Languages *with* Gotos include <a href="../concepts/c.html">C</a>, <a href="../concepts/basic.html">BASIC</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/batch.html">Batchfile</a>
 
 ***
 
-* Languages *without* Gotos include <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/slope.html">Slope</a>
+* Languages *without* Gotos include <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/slope.html">Slope</a>
 
 ***
 

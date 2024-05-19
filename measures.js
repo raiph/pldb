@@ -57,7 +57,7 @@ const measures = [
     "Values": 24335,
     "Coverage": "500%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1369",
+    "Example": "2282",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
@@ -67,7 +67,7 @@ const measures = [
     "Values": 24335,
     "Coverage": "500%",
     "Question": "What is the impact score of this concept?",
-    "Example": "1264",
+    "Example": "0",
     "Type": "number",
     "SortIndex": 3.1,
     "IsComputed": true
@@ -77,7 +77,7 @@ const measures = [
     "Values": 22010,
     "Coverage": "452%",
     "Question": "How does this language rank amongst all languages in PLDB?",
-    "Example": "1195",
+    "Example": "2110",
     "Type": "number",
     "SortIndex": 4,
     "IsComputed": true
@@ -87,9 +87,19 @@ const measures = [
     "Values": 24335,
     "Coverage": "500%",
     "Question": "How many measurements do we have about this thing?",
-    "Example": "10",
+    "Example": "11",
     "Type": "number",
     "SortIndex": 5,
+    "IsComputed": true
+  },
+  {
+    "Name": "foundationScore",
+    "Values": 24335,
+    "Coverage": "500%",
+    "Question": "How many languages are built using this language?",
+    "Example": "0",
+    "Type": "number",
+    "SortIndex": 6,
     "IsComputed": true
   },
   {
@@ -3311,10 +3321,10 @@ const measures = [
   },
   {
     "Name": "writtenIn",
-    "Values": 700,
-    "Coverage": "14%",
+    "Values": 5275,
+    "Coverage": "108%",
     "Question": "What language(s) is the main implementation written in?",
-    "Example": "java",
+    "Example": "elixir markdown yaml",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false

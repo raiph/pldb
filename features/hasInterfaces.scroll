@@ -42,6 +42,13 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">
      }
  }
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
+ // https://www.typescriptlang.org/docs/handbook/interfaces.html
+ interface SquareConfig {
+    color?: string;
+    width?: number;
+ }
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/swift.html">Swift</a>
  protocol MyProtocol {
  init(parameter: Int)
@@ -65,13 +72,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html
      val lastName: String
      
      override val name: String get() = &quot;$firstName $lastName&quot;
- }
-
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
- // https://www.typescriptlang.org/docs/handbook/interfaces.html
- interface SquareConfig {
-    color?: string;
-    width?: number;
  }
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/objective-c.html">Objective-C</a>
@@ -104,7 +104,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.htm
 
 ***
 
-* Languages *with* Interfaces include <a href="../concepts/java.html">Java</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/graphql.html">GraphQL</a>
+* Languages *with* Interfaces include <a href="../concepts/java.html">Java</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/graphql.html">GraphQL</a>
 
 ***
 

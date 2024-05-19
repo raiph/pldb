@@ -11,16 +11,16 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- sliceable_expression[start_index:to_index]
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  int[] slice1 = array[0..5]; // start..end
  int[] slice2 = array[0:6]; // start:length
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ sliceable_expression[start_index:to_index]
+
 ***
 
-* Languages *with* hasArraySlicingSyntax include <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>
+* Languages *with* hasArraySlicingSyntax include <a href="../concepts/c3.html">C3</a>, <a href="../concepts/jule.html">Jule</a>
 
 ***
 

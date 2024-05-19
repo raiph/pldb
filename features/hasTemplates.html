@@ -381,6 +381,12 @@ Vector&lt;length&gt;&amp; Vector&lt;length&gt;::operator+=(const Vector&lt;lengt
         value[i] += rhs.value[i];
     return *this;
 }</code></div>
+<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/nim.html">Nim</a></div><code class="scrollCodeBlock"># https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
+template debug*(args: varargs[string, `$`]) =
+if logLevel &lt;= Level.debug:
+  const module = instantiationInfo().filename[0 .. ^5]
+  echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
+    module, join args]</code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/d.html">D</a></div><code class="scrollCodeBlock">template TCopy(T)
 {
     void copy(out T to, T from)
@@ -390,14 +396,8 @@ Vector&lt;length&gt;&amp; Vector&lt;length&gt;::operator+=(const Vector&lt;lengt
 }
 int i;
 TCopy!(int).copy(i, 3);</code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/nim.html">Nim</a></div><code class="scrollCodeBlock"># https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
-template debug*(args: varargs[string, `$`]) =
-if logLevel &lt;= Level.debug:
-  const module = instantiationInfo().filename[0 .. ^5]
-  echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
-    module, join args]</code></div>
 <div class="dinkus"><span>*</span></div>
-<p class="scrollParagraph">Languages <strong>with</strong> Templates include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/xl-lang.html">XL</a></p>
+<p class="scrollParagraph">Languages <strong>with</strong> Templates include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/nim.html">Nim</a>, <a href="../concepts/d.html">D</a>, <a href="../concepts/xl-lang.html">XL</a></p>
 <div class="dinkus"><span>*</span></div>
 <p class="scrollParagraph">Languages <strong>without</strong> Templates include <a href="../concepts/c.html">C</a>, <a href="../concepts/speedie.html">Speedie</a></p>
 <div class="dinkus"><span>*</span></div>

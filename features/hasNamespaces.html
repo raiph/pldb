@@ -394,14 +394,6 @@ using namespace ns_name;
 using ns_name::name;
 namespace name = qualified-namespace ;
 namespace ns_name::inline(since C++20)(optional) name { declarations }</code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a></div><code class="scrollCodeBlock">namespace MyNamespace;
-class MyClass
-{
-  public void MyMethod()
-  {
-    System.Console.WriteLine(&quot;Creating my namespace&quot;);
-  }
-}</code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a></div><code class="scrollCodeBlock">// Typescript even supports splitting namespaces across multiple files:
 // Validation.ts
 namespace Validation {
@@ -419,14 +411,22 @@ namespace Validation {
         }
     }
 }</code></div>
-<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a></div><code class="scrollCodeBlock">import std::io;
-...
-io::printf(&quot;%d&quot;, i);</code></div>
+<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a></div><code class="scrollCodeBlock">namespace MyNamespace;
+class MyClass
+{
+  public void MyMethod()
+  {
+    System.Console.WriteLine(&quot;Creating my namespace&quot;);
+  }
+}</code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">F#</a></div><code class="scrollCodeBlock">namespace Widgets
 type MyWidget1 =
    member this.WidgetName = &quot;Widget1&quot;
 module WidgetsModule =
    let widgetName = &quot;Widget2&quot;</code></div>
+<div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a></div><code class="scrollCodeBlock">import std::io;
+...
+io::printf(&quot;%d&quot;, i);</code></div>
 <div class="codeWithHeader"><div class="codeHeader">Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a></div><code class="scrollCodeBlock">(ns-create &#39;hello-world)
 (ns-define
   &#39;hello-world
@@ -435,7 +435,7 @@ module WidgetsModule =
     (display &quot;hello world!\n&quot;)))
 (hello-world::print)</code></div>
 <div class="dinkus"><span>*</span></div>
-<p class="scrollParagraph">Languages <strong>with</strong> Namespaces include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dale.html">Dale</a></p>
+<p class="scrollParagraph">Languages <strong>with</strong> Namespaces include <a href="../concepts/cpp.html">C++</a>, <a href="../concepts/typescript.html">TypeScript</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/f-sharp.html">F#</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/dale.html">Dale</a></p>
 <div class="dinkus"><span>*</span></div>
 <p class="scrollParagraph">Languages <strong>without</strong> Namespaces include <a href="../concepts/c.html">C</a>, <a href="../concepts/speedie.html">Speedie</a></p>
 <div class="dinkus"><span>*</span></div>

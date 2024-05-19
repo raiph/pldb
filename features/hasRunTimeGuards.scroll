@@ -11,18 +11,18 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
- def abs(number) when number &gt; 0, do: number
- def abs(number), do: -number
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">Haskell</a>
  f x
   | x &gt; 0 = 1
   | otherwise = 0
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
+ def abs(number) when number &gt; 0, do: number
+ def abs(number), do: -number
+
 ***
 
-* Languages *with* Runtime Guards include <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/haskell.html">Haskell</a>
+* Languages *with* Runtime Guards include <a href="../concepts/haskell.html">Haskell</a>, <a href="../concepts/elixir.html">Elixir</a>
 
 ***
 

@@ -38,15 +38,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.htm
  you
  beauty&quot;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
- `Multiline strings
- is available in Jule
- with raw strings`
-
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
- String s = `this
-  string is multiline`;
-
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">Ion</a>
  ( &#39;&#39;&#39;hello &#39;&#39;&#39;     // Sexp with one element
    &#39;&#39;&#39;world!&#39;&#39;&#39;  )
@@ -61,6 +52,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">I
  and this is the third line.
  &#39;&#39;&#39;
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+ String s = `this
+  string is multiline`;
+
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+ `Multiline strings
+ is available in Jule
+ with raw strings`
+
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/boron.html">Boron</a>
  {{
    Line 1
@@ -69,7 +69,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/boron.html"
 
 ***
 
-* Languages *with* Multiline Strings include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/ion.html">Ion</a>, <a href="../concepts/boron.html">Boron</a>
+* Languages *with* Multiline Strings include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/ruby.html">Ruby</a>, <a href="../concepts/elixir.html">Elixir</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/ion.html">Ion</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/progsbase.html">progsbase</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/aardvark.html">Aardvark</a>, <a href="../concepts/boron.html">Boron</a>
 
 ***
 

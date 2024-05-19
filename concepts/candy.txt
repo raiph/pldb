@@ -6,7 +6,7 @@ Candy is a programming language created in 2020 by Jonas Wanke and Marcel Garus.
  https://pldb.io/concepts/../lists/creators.html#q=Jonas%20Wanke
  https://pldb.io/concepts/../lists/creators.html#q=Marcel%20Garus
 
-#1686 on PLDB
+#1539 on PLDB
 4 Years Old
 
 git clone https://github.com/candy-lang/Candy
@@ -17,6 +17,7 @@ A sweet programming language that is robust, minimalistic, and expressive.
  https://github.com/candy-lang/Candy
 - Candy is developed on GitHub and has 77 stars
 - Candy first developed in https://github.com/candy-lang/
+- Candy is written in Rust & Markdown & YAML & TOML & JSON & TypeScript & C & Python & Dart & Nix & Make
 
 type = use &quot;..Type&quot;
 is value := type.is value Struct
