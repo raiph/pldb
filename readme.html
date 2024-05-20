@@ -385,10 +385,10 @@ li.scrollParagraph {
 <div class="scrollSection"><h4 class="scrollParagraph"><a href="https://pldb.io/readme.html">View this readme as HTML</a></h4>
 </div>
 <a href="https://github.com/breck7/pldb/actions/workflows/didTheTestsPass.yml"><img src="https://github.com/breck7/pldb/actions/workflows/didTheTestsPass.yml/badge.svg"/></a>
-<p class="scrollParagraph">PLDB is a public domain database and website containing over 135,000 facts about over 4,000 programming languages.</p>
-<p class="scrollParagraph">This repo contains the entire database, code, and website for <a href="https://pldb.io" target="_blank">https://pldb.io</a>.</p>
+<p class="scrollParagraph">PLDB is a public domain ScrollSet and website containing over 135,000 facts about over 4,000 programming languages.</p>
+<p class="scrollParagraph">This repo contains the entire ScrollSet, code, and website for <a href="https://pldb.io" target="_blank">https://pldb.io</a>.</p>
 <div class="scrollSection"><h2 class="scrollParagraph">To download the data</h2>
-<p class="scrollParagraph">The entire database is ready to analyze in popular formats. Full documentation is here: <a href="https://pldb.io/download.html" target="_blank">https://pldb.io/download.html</a></p>
+<p class="scrollParagraph">The entire ScrollSet is ready to analyze in popular formats. Full documentation is here: <a href="https://pldb.io/download.html" target="_blank">https://pldb.io/download.html</a></p>
 <ul ><li >As CSV: <a href="https://pldb.io/pldb.csv" target="_blank">https://pldb.io/pldb.csv</a></li>
 <li >As TSV: <a href="https://pldb.io/pldb.tsv" target="_blank">https://pldb.io/pldb.tsv</a></li>
 <li >As JSON: <a href="https://pldb.io/pldb.json" target="_blank">https://pldb.io/pldb.json</a></li>
@@ -403,7 +403,7 @@ console.log(require("pldb").javascript.appeared)</code>
 <p class="scrollParagraph">Edit the corresponding <code>concepts/*.scroll</code> file and send a pull request.</p>
 </div>
 <div class="scrollSection"><h2 class="scrollParagraph">To add a new measure</h2>
-<p class="scrollParagraph">Update the file <code>code/pldbMeasures.scroll</code> and add at least 1 measurement to a concept in <code>concepts</code> and send a pull request.</p>
+<p class="scrollParagraph">Update the file <code>code/measures.scroll</code> and add at least 1 measurement to a concept in <code>concepts</code> and send a pull request.</p>
 </div>
 <div class="scrollSection"><h2 class="scrollParagraph">To build the site locally</h2>
 <code class="scrollCodeBlock">git clone https://github.com/breck7/pldb
@@ -419,7 +419,7 @@ npm run build
 npm run format</code>
 </div>
 <div class="scrollSection"><h2 class="scrollParagraph">To explore this repo</h2>
-<p class="scrollParagraph">The most important folder is <code>concepts</code>, which contains a file for each entity. The folder <code>measures</code> contains the grammar files (schema) for the database.</p>
+<p class="scrollParagraph">The most important folder is <code>concepts</code>, which contains the ScrollSet (a file for each concept). The file <code>code/measures.scroll</code> contains the Parsers (schema) for the ScrollSet.</p>
 <p class="scrollParagraph">You can see the <code>cloc</code> language stats on this repo at <a href="https://pldb.io/pages/about.html" target="_blank">https://pldb.io/pages/about.html</a>.</p>
 </div>
 <div class="scrollSection"><h2 class="scrollParagraph">To use as an npm package:</h2>
