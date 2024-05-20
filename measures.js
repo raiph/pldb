@@ -23,7 +23,7 @@ const measures = [
   },
   {
     "Name": "creators",
-    "Values": 6610,
+    "Values": 6615,
     "Coverage": "135%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
