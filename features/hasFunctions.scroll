@@ -11,10 +11,10 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  function helloWorld() {console.log(&quot;hi&quot;)}
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">Pug</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">undefined</a>
  mixin article(title)
    .article
      .article-wrapper
@@ -30,26 +30,26 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">P
    p This is my
    p Amazing article
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cyber.html">Cyber</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cyber.html">undefined</a>
  func fib(n int) int:
     coyield
     if n &lt; 2:
         return n
     return fib(n - 1) + fib(n - 2)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  fn a_function() {
      // ...
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  function Example (|string| data)
   file &lt;~ data
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bel.html">Bel</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bel.html">undefined</a>
  (fn (x) (+ x 1))
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/balgol.html">BALGOL</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/balgol.html">undefined</a>
  FUNCTION TORADS(DEGREES) = DEGREES . 3.1415926/180$
 
 ***

@@ -11,14 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  try {
   undefinedFn()
  } catch (err) {
   console.log(err)
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">undefined</a>
  def hello
   puts &quot;Hello, World!&quot;
     # start an exception handler
@@ -30,18 +30,18 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">
   end
  hello
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
  raise &quot;oops, something went wrong&quot;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/rebol.html">REBOL</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/rebol.html">undefined</a>
  catch [throw 22 print &quot;You&#39;ll never see this.&quot;]
  
  try/except [read %does_not_exist] [print &quot;File not found&quot;]
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/aardvark.html">Aardvark</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/aardvark.html">undefined</a>
  Has throw, try, and catch
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/boron.html">Boron</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/boron.html">undefined</a>
  catch [throw 22 print &quot;You&#39;ll never see this.&quot;]
  
  if error? try [read %does_not_exist] [print &quot;File not found&quot;]

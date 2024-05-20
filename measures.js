@@ -4,21 +4,22 @@ const measures = [
     "Values": 24350,
     "Coverage": "500%",
     "Question": "What is the ID of this concept?",
-    "Example": "05AB1E",
+    "Example": "05ab1e",
     "Type": "string",
     "SortIndex": 0,
     "IsComputed": false,
     "IsRequired": true
   },
   {
-    "Name": "filename",
+    "Name": "name",
     "Values": 24350,
     "Coverage": "500%",
-    "Question": "What is the name of the file holding this concept?",
-    "Example": "05ab1e.scroll",
+    "Question": "What is the name of this concept?",
+    "Example": "05AB1E",
     "Type": "string",
-    "SortIndex": 1,
-    "IsComputed": true
+    "SortIndex": 0.9,
+    "IsComputed": false,
+    "IsRequired": true
   },
   {
     "Name": "creators",
@@ -3057,21 +3058,21 @@ const measures = [
     "IsComputed": false
   },
   {
-    "Name": "pygmentsHighlighter_filename",
-    "Values": 1700,
-    "Coverage": "34%",
-    "Question": "What is the Python filename implementing the highlighting for this language?",
-    "Example": "business.py",
-    "Type": "string",
-    "SortIndex": 1000,
-    "IsComputed": false
-  },
-  {
     "Name": "pygmentsHighlighter_fileExtensions",
     "Values": 1625,
     "Coverage": "33%",
     "Question": "What are the file extensions for this language?",
     "Example": "abap ABAP",
+    "Type": "string",
+    "SortIndex": 1000,
+    "IsComputed": false
+  },
+  {
+    "Name": "pygmentsHighlighter_filename",
+    "Values": 1700,
+    "Coverage": "34%",
+    "Question": "What is the Python filename implementing the highlighting for this language?",
+    "Example": "business.py",
     "Type": "string",
     "SortIndex": 1000,
     "IsComputed": false

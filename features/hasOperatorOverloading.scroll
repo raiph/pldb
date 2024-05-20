@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  # Python Program illustrate how
  # to overload an binary + operator
    
@@ -30,7 +30,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html
  print(ob1 + ob2)
  print(ob3 + ob4)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
  fn int IntList.get(IntList* this, int idx) @operator([])
  {
     return this.vals[idx];
@@ -39,12 +39,12 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
  IntList x = ...
  foo(x[1]);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wolfram.html">Wolfram Language</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wolfram.html">undefined</a>
  f[x_Integer] := x^2;
  f[x_String] := &quot;not a number&quot;;
  f[x_Symbol] := x^2;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  str = &quot;a&quot; + &quot;b&quot;
  array &lt;~ str
 

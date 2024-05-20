@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">Java</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">undefined</a>
  interface MyInterface{
     /* This is a default method so we need not
      * to implement this method in the implementation
@@ -42,14 +42,14 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">
      }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">undefined</a>
  // https://www.typescriptlang.org/docs/handbook/interfaces.html
  interface SquareConfig {
     color?: string;
     width?: number;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/swift.html">Swift</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/swift.html">undefined</a>
  protocol MyProtocol {
  init(parameter: Int)
  var myVariable: Int { get set }
@@ -63,7 +63,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/swift.html"
    }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">Kotlin</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">undefined</a>
  interface Named {
     val name: String
  }
@@ -74,12 +74,12 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html
      override val name: String get() = &quot;$firstName $lastName&quot;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/objective-c.html">Objective-C</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/objective-c.html">undefined</a>
  @protocol Printing
     -(void) print;
  @end
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">GraphQL</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">undefined</a>
  interface Character {
   id: ID!
   name: String!

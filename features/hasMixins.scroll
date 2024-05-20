@@ -11,11 +11,11 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  # https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
  class EssentialFunctioner(LoggerMixin, object):
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">undefined</a>
  module A
     def a1
     end
@@ -39,13 +39,13 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">
  samp.a2
  samp.b1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">undefined</a>
  // https://www.typescriptlang.org/docs/handbook/mixins.html
  class SmartObject implements Disposable, Activatable {
  }
  // Note: still need to do some runtime ops to make that work.
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html">Julia</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html">undefined</a>
  # Including the same code in different modules provides mixin-like behavior.
  module Normal
  include(&quot;mycode.jl&quot;)
@@ -56,11 +56,11 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html"
  include(&quot;mycode.jl&quot;)
  end
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/racket.html">Racket</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/racket.html">undefined</a>
  (mixin (interface-expr ...) (interface-expr ...)
   class-clause ...)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/sass.html">Sass</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/sass.html">undefined</a>
  @mixin reset-list
    margin: 0
    padding: 0
@@ -75,7 +75,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/sass.html">
  nav ul
    @include horizontal-list
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scss.html">SCSS</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scss.html">undefined</a>
  @mixin reset-list {
    margin: 0;
    padding: 0;
@@ -96,7 +96,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scss.html">
    @include horizontal-list;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/xtext.html">Xtext</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/xtext.html">undefined</a>
  grammar org.example.domainmodel.Domainmodel
         with org.eclipse.xtext.common.Terminals
 

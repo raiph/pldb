@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
  struct account {
    int account_number;
    char *first_name;
@@ -19,7 +19,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</
    float balance;
  };
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
  struct Test
  {
     int x;
@@ -27,19 +27,19 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
     String z;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  struct Employee {
      first_name: str
      last_name: str
      salary: f32
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  struct Fuel
   |int| A
   |byte| B
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">Ion</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">undefined</a>
  { first : &quot;Tom&quot; , last: &quot;Riddle&quot; }  // Structure with two fields
  {&quot;first&quot;:&quot;Tom&quot;,&quot;last&quot;:&quot;Riddle&quot;}     // The same value with confusing style
  {center:{x:1.0, y:12.5}, radius:3}  // Nested struct

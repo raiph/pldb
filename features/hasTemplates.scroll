@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">undefined</a>
  template &lt;int length&gt;
  Vector&lt;length&gt;&amp; Vector&lt;length&gt;::operator+=(const Vector&lt;length&gt;&amp; rhs)
  {
@@ -20,7 +20,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C
      return *this;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nim.html">Nim</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nim.html">undefined</a>
  # https://hookrace.net/blog/introduction-to-metaprogramming-in-nim/#templates
  template debug*(args: varargs[string, `$`]) =
  if logLevel &lt;= Level.debug:
@@ -28,7 +28,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nim.html">N
    echo &quot;[$# $#][$#]: $#&quot; % [getDateStr(), getClockStr(),
      module, join args]
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/d.html">D</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/d.html">undefined</a>
  template TCopy(T)
  {
      void copy(out T to, T from)

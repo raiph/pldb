@@ -123,13 +123,16 @@ const PLDBKeywords = {
 }
 
 class ConceptPage {
-  constructor(name, parsed, computer) {
-    const absolutePath = path.join(__dirname, "concepts", name + ".scroll")
-    this.absolutePath = absolutePath
+  constructor(parsed, computer) {
+    this.absolutePath = path.join(__dirname, "concepts", parsed.id + ".scroll")
     this.computer = computer
     this.parsed = parsed
-    this.node = new TreeNode(Disk.read(absolutePath))
+    this.node = new TreeNode(Disk.read(this.absolutePath))
     this.quickCache = {}
+  }
+
+  get id() {
+    return this.parsed.id
   }
 
   get(word) {
@@ -144,12 +147,8 @@ class ConceptPage {
     return this._getFilePath()
   }
 
-  get filename() {
-    return path.basename(this.absolutePath)
-  }
-
   get permalink() {
-    return this.filename.replace(".scroll", ".html")
+    return this.id + ".html"
   }
 
   get domainName() {
@@ -187,7 +186,7 @@ class ConceptPage {
 
   get helpfulResearchLinks() {
     const id = this.id
-    const title = this.get("title")
+    const title = this.get("name")
     const references = this.node
       .findNodes("reference")
       .map(node => "Reference: " + node.content)
@@ -219,7 +218,7 @@ Wayback Machine: https://web.archive.org/web/20220000000000*/${title}`
   get names() {
     return [
       this.id,
-      this.title,
+      this.name,
       this.get("standsFor"),
       this.get("githubLanguage"),
       this.wikipediaTitle,
@@ -515,7 +514,7 @@ Wayback Machine: https://web.archive.org/web/20220000000000*/${title}`
   }
 
   link(baseFolder = "") {
-    return `<a href="${baseFolder + this.permalink}">${this.title}</a>`
+    return `<a href="${baseFolder + this.permalink}">${this.name}</a>`
   }
 
   get extensions() {
@@ -540,7 +539,7 @@ Wayback Machine: https://web.archive.org/web/20220000000000*/${title}`
 
   makeATag(id) {
     const file = this.computer.getConceptPage(id)
-    return `<a href="${file.permalink}">${file.title}</a>`
+    return `<a href="${file.permalink}">${file.name}</a>`
   }
 
   get trendingRepos() {
@@ -691,11 +690,15 @@ pipeTable
   }
 
   get sourceUrl() {
-    return `https://github.com/breck7/pldb/blob/main/concepts/${this.filename}`
+    return `https://github.com/breck7/pldb/blob/main/concepts/${this.id}.scroll`
   }
 
   get title() {
-    return this.get("id")
+    return this.get("name")
+  }
+
+  get name() {
+    return this.get("name")
   }
 
   toScroll() {
@@ -819,7 +822,7 @@ image ${image}
       twitter: this.get("twitter"),
       edit: `https://jtree.treenotation.org/designer#${encodeURIComponent(
         new TreeNode(
-          `url https://pldb.io/pldb.grammar\nprogramUrl https://pldb.io/concepts/${this.filename}`
+          `url https://pldb.io/pldb.grammar\nprogramUrl https://pldb.io/concepts/${this.id}.scroll`
         ).toString()
       )}`
     }
@@ -1371,29 +1374,29 @@ class Feature {
 
     const positives = this.languagesWithThisFeature
     const positiveText = `* Languages *with* ${title} include ${positives
-      .map(file => `<a href="../concepts/${file.filename.replace(".scroll", ".html")}">${file.id}</a>`)
+      .map(file => `<a href="../concepts/${file.id}.html">${file.name}</a>`)
       .join(", ")}`
 
     const negatives = this.languagesWithoutThisFeature
     const negativeText = negatives.length
       ? `* Languages *without* ${title} include ${negatives
-          .map(file => `<a href="../concepts/${file.filename.replace(".scroll", ".html")}">${file.id}</a>`)
+          .map(file => `<a href="../concepts/${file.id}.html">${file.name}</a>`)
           .join(", ")}`
       : ""
 
     const examples = positives
-      .filter(file => this.computer.getConceptFile(file.filename).getNode(id).length)
+      .filter(file => this.computer.getConceptFile(file.id).getNode(id).length)
       .map(file => {
         return {
-          id: file.filename,
-          title: file.id,
-          example: this.computer.getConceptFile(file.filename).getNode(id).childrenToString()
+          id: file.id,
+          title: file.title,
+          example: this.computer.getConceptFile(file.id).getNode(id).childrenToString()
         }
       })
     const grouped = lodash.groupBy(examples, "example")
     const examplesText = Object.values(grouped)
       .map(group => {
-        const links = group.map(hit => `<a href="../concepts/${hit.id.replace(".scroll", "")}.html">${hit.title}</a>`)
+        const links = group.map(hit => `<a href="../concepts/${hit.id}.html">${hit.name}</a>`)
 
         return `codeWithHeader Example from <b>${links.length} languages</b>: ${links.join(", ")}
  ${shiftRight(removeReturnChars(lodash.escape(group[0].example)), 1)}`
@@ -1487,10 +1490,9 @@ class Tables {
   }
 
   _cache = {}
-  getConceptFile(filename) {
-    if (!this._cache[filename])
-      this._cache[filename] = new TreeNode(Disk.read(path.join(__dirname, "concepts", filename)))
-    return this._cache[filename]
+  getConceptFile(id) {
+    if (!this._cache[id]) this._cache[id] = new TreeNode(Disk.read(path.join(__dirname, "concepts", id + ".scroll")))
+    return this._cache[id]
   }
 
   toTable(data) {
@@ -1506,14 +1508,13 @@ class Tables {
     const { pldb } = this
     this._top = lodash
       .chain(pldb)
-      .orderBy(["rank"], ["asc"])
       .map(row =>
         lodash.pick(row, [
           "id",
-          "filename",
+          "name",
           "rank",
           "appeared",
-          PLDBKeywords.tags,
+          "tags",
           "creators",
           "foundationScore",
           "numberOfUsersEstimate",
@@ -1524,8 +1525,8 @@ class Tables {
       )
       .value()
       .map(row => {
-        row.idLink = "../concepts/" + row.filename.replace(".scroll", ".html")
-        delete row.filename
+        row.nameLink = "../concepts/" + row.id + ".html"
+        delete row.id
         return row
       })
     return this._top
@@ -1540,7 +1541,7 @@ class Tables {
     const count = Object.keys(ranks).length
     if (rank < 0) rank = count - 1
     if (rank >= count) rank = 0
-    return this.getConceptPage(ranks[rank].filename)
+    return this.getConceptPage(ranks[rank].id)
   }
 
   getFileAtRank(rank) {
@@ -1552,16 +1553,15 @@ class Tables {
     this._conceptPageCache = {}
     this._conceptPages = []
     this.pldb.forEach(file => {
-      const name = file.filename.replace(".scroll", "")
-      const page = new ConceptPage(name, file, this)
-      this._conceptPageCache[name] = page
+      const page = new ConceptPage(file, this)
+      this._conceptPageCache[file.id] = page
       this._conceptPages.push(page)
     })
   }
 
-  getConceptPage(name) {
+  getConceptPage(id) {
     this.initConceptPages()
-    return this._conceptPageCache[name.replace(".scroll", "")]
+    return this._conceptPageCache[id]
   }
 
   getLanguageTemplate(absolutePath) {
@@ -1668,9 +1668,7 @@ class Tables {
         name: nameCol,
         links: `<span class="creatorQuickLinks">${linksCol}</span>`,
         born: person.born,
-        languages: group
-          .map(file => `<a href='../concepts/${file.filename.replace(".scroll", ".html")}'>${file.id}</a>`)
-          .join(" - "),
+        languages: group.map(file => `<a href='../concepts/${file.id}.html'>${file.name}</a>`).join(" - "),
         count: group.length,
         topRank: group[0].rank
       }
@@ -1697,8 +1695,8 @@ class Tables {
       .filter(file => file.extensions)
       .map(file => {
         return {
-          name: file.id,
-          nameLink: `../concepts/${file.filename.replace(".scroll", ".html")}`,
+          name: file.name,
+          nameLink: `../concepts/${file.id}.html`,
           rank: file.rank,
           extensions: file.extensions
         }
@@ -1725,7 +1723,7 @@ class Tables {
     const entities = groupByListValues("originCommunity", files)
     const rows = Object.keys(entities).map(name => {
       const group = entities[name]
-      const languages = group.map(lang => `<a href='../concepts/${lang.id}.html'>${lang.id}</a>`).join(" - ")
+      const languages = group.map(lang => `<a href='../concepts/${lang.id}.html'>${lang.name}</a>`).join(" - ")
       const count = group.length
       const top = -Math.min(...group.map(lang => lang.rank))
 
@@ -1745,11 +1743,11 @@ class Tables {
   get autocompleteJs() {
     const json = JSON.stringify(
       this.pldb.map(file => {
-        const permalink = file.filename.replace(".scroll", "")
+        const { id } = file
         return {
-          label: file.id,
-          id: permalink,
-          url: `/concepts/${permalink}.html`
+          label: file.name,
+          id,
+          url: `/concepts/${id}.html`
         }
       }),
       undefined,
@@ -1794,7 +1792,7 @@ class Tables {
 
         const row = keywordsMap[keywordKey]
 
-        row.ids.push(file.filename)
+        row.ids.push(file.id)
       })
     })
 
@@ -1804,7 +1802,7 @@ class Tables {
       row.langs = row.ids
         .map(id => {
           const file = this.getConceptPage(id)
-          return `<a href='../concepts/${file.filename.replace(".scroll", ".html")}'>${file.id}</a>`
+          return `<a href='../concepts/${file.id}.html'>${file.name}</a>`
         })
         .join(" ")
       row.frequency = Math.round(100 * lodash.round(row.count / langsWithKeywordsCount, 2)) + "%"
@@ -1837,7 +1835,7 @@ class Tables {
       "svg",
       "explorer",
       "gitignore"
-    ].map(s => this.getConceptPage(s).parsed)
+    ].map(id => this.getConceptPage(id).parsed)
 
     const npmPackages = Object.keys({
       ...require("./package.json").devDependencies
@@ -1847,7 +1845,7 @@ class Tables {
     return {
       WRITTEN_IN_TABLE: lodash
         .sortBy(writtenIn, "rank")
-        .map(file => `- ${file.id}\n link ../concepts/${file.filename.replace(".scroll", ".html")}`)
+        .map(file => `- ${file.id}\n link ../concepts/${file.id}.html`)
         .join("\n"),
       PACKAGES_TABLE: npmPackages.map(s => `- ${s}\n https://www.npmjs.com/package/${s}`).join("\n"),
       SOURCES_TABLE: sources.map(s => `- ${s}\n https://${s}`).join("\n"),
@@ -1939,19 +1937,19 @@ const computeds = {
   },
 
   rank(concept, computer) {
-    return computer.ranks[concept.get("filename")].index
+    return computer.ranks[concept.get("id")].index
   },
 
   pldbScore(concept, computer) {
-    return computer.ranks[concept.get("filename")].pldbScore
+    return computer.ranks[concept.get("id")].pldbScore
   },
 
   inboundLinks(concept, computer) {
-    return computer.inboundLinks[concept.get("filename")].length
+    return computer.inboundLinks[concept.get("id")].length
   },
 
   foundationScore(concept, computer) {
-    return computer.writtenIn[concept.get("filename").replace(".scroll", "")].length
+    return computer.writtenIn[concept.get("id")].length
   }
 }
 
@@ -1967,10 +1965,10 @@ class MeasureComputer {
   makeWrittenInCache() {
     const writtenInCache = {}
     this.concepts.forEach(concept => {
-      writtenInCache[concept.get("filename").replace(".scroll", "")] = []
+      writtenInCache[concept.get("id")] = []
     })
     this.concepts.forEach(concept => {
-      const conceptId = concept.get("filename").replace(".scroll", "")
+      const conceptId = concept.get("id")
       const writtenIn = concept.get("writtenIn")
       if (!writtenIn) return
       writtenIn.split(" ").forEach(id => writtenInCache[id].push(conceptId))
@@ -1981,20 +1979,19 @@ class MeasureComputer {
   makeInboundLinksCache() {
     const inboundLinks = {}
     this.concepts.forEach(concept => {
-      inboundLinks[concept.get("filename")] = []
+      inboundLinks[concept.get("id")] = []
     })
 
     this.concepts.forEach(concept => {
-      const filename = concept.get("filename")
+      const id = concept.get("id")
       concept
         .filter(node => node.isLinks)
         .forEach(node => {
           const links = node.content.split(" ")
           links.forEach(link => {
-            link += ".scroll"
-            if (!inboundLinks[link]) throw new Error(`No file "${link}" found in "${filename}"`)
+            if (!inboundLinks[link]) throw new Error(`No file "${link}" found in "${id}"`)
 
-            inboundLinks[link].push(filename)
+            inboundLinks[link].push(id)
           })
         })
     })
@@ -2022,10 +2019,9 @@ const calcRanks = computer => {
   ]
 
   let objects = concepts.map(concept => {
-    const filename = concept.get("filename")
-    const id = filename.replace(".scroll", "")
+    const id = concept.get("id")
     const object = {}
-    object.filename = filename
+    object.id = id
     categories.forEach(category => (object[category] = computer.get(category, concept)))
 
     return object
@@ -2043,7 +2039,7 @@ const calcRanks = computer => {
   const ranks = {}
   objects.forEach((obj, index) => {
     obj.index = index + 1
-    ranks[obj.filename] = obj
+    ranks[obj.id] = obj
   })
   return ranks
 }

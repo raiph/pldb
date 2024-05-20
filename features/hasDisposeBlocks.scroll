@@ -11,19 +11,19 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  with resource_context_manager() as resource:
     # Perform actions with the resource.
  # Perform other actions where the resource is guaranteed to be deallocated.
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
  using (Resource resource = GetResource())
  {
     // Perform actions with the resource.
     ...
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  using SomeObject
   for 10
    Someobject.dosomework

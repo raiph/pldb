@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/common-lisp.html">Common Lisp</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/common-lisp.html">undefined</a>
  ; https://eli.thegreenplace.net/2016/a-polyglots-guide-to-multiple-dispatch-part-3/
  (defclass Person () ())
  (defmethod frobnicate ((p Person) record spreadsheet)
@@ -24,7 +24,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/common-lisp
  (frobnicate a-person his-record big-spreadsheet)
  (frobnicate an-asteroid very-fast pretty-small)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  || x = &quot;str&quot;
  || i = x.find(&quot;t&quot;)
 

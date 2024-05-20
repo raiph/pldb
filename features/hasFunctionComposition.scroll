@@ -11,14 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  function o(f, g) {
     return function(x) {
         return f(g(x));
     }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
  // Call example:
  //   var c = Compose(f, g);
  //
@@ -27,19 +27,19 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
  
  Func&lt;TIn, TOut&gt; Compose&lt;TIn, TMid, TOut&gt;(Func&lt;TMid, TOut&gt; f, Func&lt;TIn, TMid&gt; g) =&gt; _ =&gt; f(g(_));
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">Haskell</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">undefined</a>
  foo = f . g
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/apl.html">APL</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/apl.html">undefined</a>
  foo←f∘g
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">Coconut</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">undefined</a>
  (f..g..h)(x, y, z)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/raku.html">Raku</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/raku.html">undefined</a>
  my &amp;foo = &amp;f ∘ &amp;g;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/fp3.html">fp</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/fp3.html">undefined</a>
  /+∘α(bu + 1):&lt;1,2,3,4,5,6,7,8,9,10&gt;
 
 ***

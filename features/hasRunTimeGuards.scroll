@@ -11,12 +11,12 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">Haskell</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">undefined</a>
  f x
   | x &gt; 0 = 1
   | otherwise = 0
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
  def abs(number) when number &gt; 0, do: number
  def abs(number), do: -number
 

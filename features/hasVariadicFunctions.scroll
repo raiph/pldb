@@ -11,20 +11,20 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
  double average(int count, ...)
  {
   //
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">PHP</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">undefined</a>
  function sum(...$nums)
  {
      return array_sum($nums);
  }
  echo sum(1, 2, 3); // 6
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/go.html">Go</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/go.html">undefined</a>
  // This variadic function takes an arbitrary number of ints as arguments.
  func sum(nums ...int) {
    fmt.Print(&quot;The sum of &quot;, nums) // Also a variadic function.
@@ -35,17 +35,17 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/go.html">Go
    fmt.Println(&quot; is&quot;, total) // Also a variadic function.
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
  fn void foo_typed(int x, int... arg) { ... }
  fn void foo_untyped(int x, ...arg)
  ...
  foo_typed(1, 2, 3);
  foo_untyped(1, &quot;hello&quot;, 1.2);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">undefined</a>
  (lambda (...) (apply + ...))
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  fn average(x: ...f64): f64 {
      // ...
  }

@@ -11,29 +11,29 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">F#</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">undefined</a>
  /// Adds 2 numbers
  let rec add x y =
   x + y
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/purescript.html">PureScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/purescript.html">undefined</a>
  -- https://github.com/purescript/documentation/blob/master/language/Syntax.md
  -- | `bool` performs case analysis for the `Boolean` data type, like an `if` statement.
  bool :: forall a. Boolean -&gt; a -&gt; a -&gt; a
  bool true x _ = x
  bool false _ x = x
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
  /**
   * @param [in] foo &quot;The foo value&quot;
   * @return &quot;the toal foo count&quot;
   **/
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  // Documentation comment for a_function
  fn a_function() {}
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  function Find (|string| pattern, |int| pos=0, |int|)
   description &quot;Returns the position of pattern in self, starting from &#39;pos&#39;. If not found, we return -1.&quot;
 

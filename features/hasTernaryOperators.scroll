@@ -11,27 +11,27 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  let i = true ? 1 : 0
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  print(1 if 1 else 0)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
  #include &lt;stdio.h&gt;
  int main(void) { printf(&quot;%d&quot;, 1 ? 1 : 0); }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">PHP</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">undefined</a>
  &lt;?php echo 1 ? 1 : 0;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">Kotlin</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">undefined</a>
  // Since if statements are expressions
  println(if (true) true else false)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
  int foo = x ? 1 : 0;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  while
   printline (1,0)(random[]&gt;0.5)
 

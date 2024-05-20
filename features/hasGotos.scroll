@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
  // C/C++ program to check if a number is
  // even or not using goto statement
  #include &lt;iostream&gt;
@@ -40,18 +40,18 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</
      return 0;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/basic.html">BASIC</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/basic.html">undefined</a>
  10 REM This BASIC program shows the use of the PRINT and GOTO Statements.
  15 REM It fills the screen with the phrase &quot;HELLO&quot;
  20 PRINT &quot;HELLO&quot;
  30 GOTO 20
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/batch.html">Batchfile</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/batch.html">undefined</a>
  :: this would create an endless loop
  :myLabel
  goto myLabel
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  goto a_label
 
 ***

@@ -11,13 +11,13 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html">Julia</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/julia.html">undefined</a>
  collide_with(x::Asteroid, y::Asteroid) = ... # deal with asteroid hitting asteroid
  collide_with(x::Asteroid, y::Spaceship) = ... # deal with asteroid hitting spaceship
  collide_with(x::Spaceship, y::Asteroid) = ... # deal with spaceship hitting asteroid
  collide_with(x::Spaceship, y::Spaceship) = ... # deal with spaceship hitting spaceship
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/common-lisp.html">Common Lisp</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/common-lisp.html">undefined</a>
   (defmethod collide-with ((x asteroid) (y asteroid))
    ;; deal with asteroid hitting asteroid
    )

@@ -11,17 +11,17 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">Java</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">undefined</a>
  List&lt;String&gt; v = new ArrayList&lt;String&gt;();
  v.add(&quot;test&quot;);
  Integer i = v.get(0); // (type error)  compilation-time error
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">undefined</a>
  function identity&lt;T&gt;(arg: T): T {
     return arg;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
  // Declare the generic class.
  public class GenericList&lt;T&gt;
  {
@@ -46,7 +46,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
      }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">Ada</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">undefined</a>
  generic
     Max_Size : Natural; -- a generic formal value
     type Element_Type is private; -- a generic formal type; accepts any nonlimited type
@@ -68,13 +68,13 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">A
     end record;
  end Stacks;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">Felix</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">undefined</a>
  // generics
  fun g (x) =&gt; f (f x);
  println$ g 1, g &quot;hello&quot;;
  println$ _map f (1,&quot;hello&quot;,2.0);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  fn generic_function[T](s: []T) {
      // ...
  }

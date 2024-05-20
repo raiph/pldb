@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">undefined</a>
  // volume of a cube
  int volume(const int s) {
   return s*s*s;
@@ -21,7 +21,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C
    return 3.1415926*r*r*static_cast&lt;double&gt;(h);
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pascal.html">Pascal</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pascal.html">undefined</a>
  program Adhoc;
  
  function Add(x, y : Integer) : Integer;
@@ -39,7 +39,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pascal.html
      Writeln(Add(&#39;Hello, &#39;, &#39;World!&#39;));    (* Prints &quot;Hello, World!&quot; *)
  end.
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  function volume (|float| a, |float|)
   return a*a*a
  function volume (|float| r, |float| h, |float|)

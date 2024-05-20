@@ -11,45 +11,45 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  class Person (object):
    def __init__(self, name):
      self.name = name
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/purescript.html">PureScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/purescript.html">undefined</a>
  -- https://github.com/purescript/documentation/blob/master/language/Syntax.md
  -- Syntax is whitespace sensitive. The general rule of thumb is that declarations which span multiple lines should be indented past the column on which they were first defined on their subsequent lines.
  foo = bar +
   baz
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/treenotation.html">Tree Notation</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/treenotation.html">undefined</a>
  example
   title Tree Notation
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scroll.html">Scroll</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scroll.html">undefined</a>
  * A link to PLDB
   https://pldb.io
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cirru.html">Cirru</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cirru.html">undefined</a>
  print
    + 1 2
    , 11
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/z-expressions.html">Z</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/z-expressions.html">undefined</a>
  defun message msg
        do print : Here&#39;s a message
           print msg
           print : End of message.
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  class Person
   |string| name
 
-codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/note.html">Note</a>, <a href="../concepts/space.html">Space</a>
+codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/note.html">undefined</a>, <a href="../concepts/space.html">undefined</a>
  settings
   title Note
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/sheep-lang.html">Sheep</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/sheep-lang.html">undefined</a>
  define pythtree ax:real ay:real bx:real by:real depth:int do
     cx = ax-ay+by
   end

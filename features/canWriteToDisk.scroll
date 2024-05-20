@@ -11,20 +11,20 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  with open(&#39;helloworld.txt&#39;, &#39;w&#39;) as filehandle:
   filehandle.write(&#39;Hello, world!\n&#39;)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
  File.write!(&quot;helloworld.txt&quot;, &quot;Hello, world!\n&quot;)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nodejs.html">Node.js</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nodejs.html">undefined</a>
  require(&quot;fs&quot;).writeFileSync(&quot;foo.txt&quot;, &quot;foo&quot;, &quot;utf8&quot;)
 
-codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/rebol.html">REBOL</a>, <a href="../concepts/boron.html">Boron</a>
+codeWithHeader Example from <b>2 languages</b>: <a href="../concepts/rebol.html">undefined</a>, <a href="../concepts/boron.html">undefined</a>
  write %helloworld.txt &quot;Hello, world!^/&quot;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  use std::fs::{open, O_WRONLY}
  
  fn main() {
@@ -34,7 +34,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
      f.close()
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  &quot;helloworld.txt&quot; &lt;~ &quot;Hello, world!\n&quot;
 
 ***

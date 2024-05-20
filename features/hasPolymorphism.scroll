@@ -11,19 +11,19 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  &quot;a&quot; + &quot;b&quot;; 1 + 2
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
  https://hexdocs.pm/elixir/Protocol.html
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">Felix</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">undefined</a>
  // overloads
  fun f (x:double) =&gt; x +42.1;
  fun f (x:int) =&gt;  x + 1;
  fun f (x:string) =&gt; x + &quot;!&quot;;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  |object| x = somefunction()
  || y = x.render // returns a string by calling the virtual func &quot;render&quot;
 

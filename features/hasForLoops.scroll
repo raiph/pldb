@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bog.html">bog</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bog.html">undefined</a>
  let mut sum = 0
  for let c in &quot;hellö wörld&quot;
    match c
@@ -22,14 +22,14 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bog.html">b
        &quot;w&quot; =&gt; sum += 5
        &quot;d&quot; =&gt; sum += 6
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  // Jule has for loops with while-next iterations
  let mut i = 0
  for i &lt; 10; i++ {
      // ...
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  while i in 10
    &quot;hello: $i&quot;
 

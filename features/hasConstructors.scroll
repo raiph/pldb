@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  class Person {
   constructor(name) {
     this._name = name
@@ -19,7 +19,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.
  }
  new Person(&quot;Jane&quot;)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">undefined</a>
  class Foobar {
   public:
    Foobar(double r = 1.0,
@@ -37,7 +37,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C
         b(3),
         c(5, M_PI/4);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
  public class MyClass
  {
      private int a;
@@ -59,7 +59,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
  // Instantiating an object with the constructor above
  MyClass c = new MyClass(42, &quot;string&quot;);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cfml.html">CFML</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cfml.html">undefined</a>
  component {
     // properties
     property name=&quot;cheeseName&quot;;
@@ -71,7 +71,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cfml.html">
     }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  class Foobar
   |float| x
   |float| y

@@ -11,14 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  var animal = &quot;dog&quot;
  switch (animal) {
   case &quot;dog&quot;: console.log(&quot;yay&quot;); break;
   case &quot;cat&quot;: console.log(&quot;oh&quot;); break;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
  switch(expression) {
     case true  :
        break;
@@ -27,7 +27,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</
     break;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">Pug</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">undefined</a>
  - var friends = 10
  case friends
    when 0
@@ -37,7 +37,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">P
    default
      p you have #{friends} friends
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
  switch(expression)
  {
     case 1:
@@ -50,20 +50,20 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3
  }
  
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wolfram.html">Wolfram Language</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wolfram.html">undefined</a>
  Switch[expr,
   pattern1, code1,
   pattern2, code2,
   pattern3, code3
  ]
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">undefined</a>
  (case my-num
    (5 (display &quot;Five!&quot;))
    (0 (display &quot;Zero!&quot;))
    (else (display &quot;Not an option&quot;)))
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  match X {
  | Y:         outln(&quot;X is Y&quot;)
  | Z:         outln(&quot;X is Z&quot;)

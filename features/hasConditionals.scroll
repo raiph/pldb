@@ -11,20 +11,20 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
  if (true)
   console.log(&quot;hi!&quot;)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
  if True:
   print(&quot;Hello world&quot;)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
  if true do
    IO.puts(&quot;Hello world&quot;)
  end
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">Pug</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">undefined</a>
  - var user = {description: &#39;foo bar baz&#39;}
  - var authorised = false
  #user
@@ -40,15 +40,15 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">P
      h2.red Description
      p.description User has no description
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">undefined</a>
  (if positive? 1 -1)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
  if BOOLEAN_EXPRESSION {
      outln(&quot;&quot;Condition is true)
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/balgol.html">BALGOL</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/balgol.html">undefined</a>
  EITHER IF A &gt; B$ FWD = 1$ OTHERWISE$ FWD = 0$
 
 ***

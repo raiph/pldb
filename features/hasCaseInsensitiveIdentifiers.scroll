@@ -11,10 +11,10 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pascal.html">Pascal</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pascal.html">undefined</a>
  s := (A + a + A);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">Ada</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">undefined</a>
  with Gnat.Io; use Gnat.Io;
  procedure Numbers is
     Score: Integer;
@@ -28,21 +28,21 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ada.html">A
     New_Line;
  end Numbers;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nim.html">Nim</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/nim.html">undefined</a>
  # Though they may be phased out:
  # https://github.com/nim-lang/RFCs/issues/456
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/fortran.html">Fortran</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/fortran.html">undefined</a>
  x = 2.0
  y = x + X
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/vhdl.html">VHDL</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/vhdl.html">undefined</a>
  signals some_signal : integer ;
  signal some_other_signal : integer ;
  signal result : integer ;
  ReSULT &lt;= SOME_SIGNAL + sOME_oTHer_SIGNal ; -- Although totally unrecommended - this is perfectly legal
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
  if &quot;abc&quot;.LeNgTh == 3
    &quot;cool length&quot;
 
