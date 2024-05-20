@@ -44,8 +44,16 @@ TypeScript, Go, JSON, and Clojure are a handful of very popular Top 100 language
 
 Creating your own languages is fun (most of the time), regardless of whether it catches on. But it can be even more fun to build one that catches on, and it's never too late to start something new.
 
-Download the data
+****
+
+Notes
+=====
+
+- Download the data
  https://pldb.io/posts/age.tsv
+- A reddit user shared some related work ;) from 2012: The Secret of a Successful Programming Language? A Really Great Beard.
+ https://www.reddit.com/r/programming/comments/1cw2ri4/comment/l4tt60k/
+ https://archive.fo/uB8x4
 
 html.h1 The Ages of Programming Language Creators
 web.get https://pldb.io/posts/age.tsv
@@ -63,5 +71,3 @@ web.get https://pldb.io/posts/age.tsv
  vega.scatter
   xColumn ageAtCreation
   yColumn pldbScore
-
-****
