@@ -1,7 +1,7 @@
 [
   {
     "Name": "id",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is the ID of this concept?",
     "Example": "05ab1e",
@@ -12,7 +12,7 @@
   },
   {
     "Name": "name",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is the name of this concept?",
     "Example": "05AB1E",
@@ -23,7 +23,7 @@
   },
   {
     "Name": "creators",
-    "Values": 5292,
+    "Values": 5296,
     "Coverage": "108%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -33,7 +33,7 @@
   },
   {
     "Name": "appeared",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -44,7 +44,7 @@
   },
   {
     "Name": "tags",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -55,7 +55,7 @@
   },
   {
     "Name": "rank",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
     "Example": "1214",
@@ -65,17 +65,17 @@
   },
   {
     "Name": "pldbScore",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is the combined score of this language across all the categories of rankings?",
-    "Example": "21034",
+    "Example": "21039",
     "Type": "number",
     "SortIndex": 3.01,
     "IsComputed": true
   },
   {
     "Name": "inboundLinks",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "How many other concepts link to this one?",
     "Example": "0",
@@ -85,7 +85,7 @@
   },
   {
     "Name": "measurements",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "11",
@@ -95,7 +95,7 @@
   },
   {
     "Name": "foundationScore",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "How many languages are built using this language?",
     "Example": "0",
@@ -105,7 +105,7 @@
   },
   {
     "Name": "lastActivity",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -115,7 +115,7 @@
   },
   {
     "Name": "exampleCount",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -125,7 +125,7 @@
   },
   {
     "Name": "bookCount",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -135,7 +135,7 @@
   },
   {
     "Name": "paperCount",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -145,7 +145,7 @@
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "818",
@@ -155,7 +155,7 @@
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -207,7 +207,7 @@
   },
   {
     "Name": "wikipedia",
-    "Values": 7460,
+    "Values": 7464,
     "Coverage": "153%",
     "Question": "What is the URL of this entity on Wikipedia, if and only if it has a page dedicated to it?",
     "Example": "https://en.wikipedia.org/wiki/IBM_1620",
@@ -3474,7 +3474,7 @@
   {
     "Name": "centralPackageRepositoryCount",
     "Values": 12080,
-    "Coverage": "248%",
+    "Coverage": "247%",
     "Question": "How many central package repositories does this language have?",
     "Example": "0",
     "Type": "number",
@@ -3523,7 +3523,7 @@
   },
   {
     "Name": "isLanguage",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3533,7 +3533,7 @@
   },
   {
     "Name": "isFinished",
-    "Values": 19480,
+    "Values": 19484,
     "Coverage": "400%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
@@ -3583,7 +3583,7 @@
   },
   {
     "Name": "isOpenSource",
-    "Values": 2484,
+    "Values": 2488,
     "Coverage": "51%",
     "Question": "Is this an open source project?",
     "Example": "true",
