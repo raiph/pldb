@@ -1,7 +1,7 @@
 [
   {
     "Name": "id",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is the ID of this concept?",
     "Example": "05ab1e",
@@ -12,7 +12,7 @@
   },
   {
     "Name": "name",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is the name of this concept?",
     "Example": "05AB1E",
@@ -23,7 +23,7 @@
   },
   {
     "Name": "creators",
-    "Values": 5304,
+    "Values": 5308,
     "Coverage": "108%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -33,7 +33,7 @@
   },
   {
     "Name": "appeared",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -44,7 +44,7 @@
   },
   {
     "Name": "tags",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -55,27 +55,27 @@
   },
   {
     "Name": "rank",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
-    "Example": "1214",
+    "Example": "1215",
     "Type": "number",
     "SortIndex": 3,
     "IsComputed": true
   },
   {
     "Name": "pldbScore",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is the combined score of this language across all the categories of rankings?",
-    "Example": "21047",
+    "Example": "21051",
     "Type": "number",
     "SortIndex": 3.01,
     "IsComputed": true
   },
   {
     "Name": "inboundLinks",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "How many other concepts link to this one?",
     "Example": "0",
@@ -85,7 +85,7 @@
   },
   {
     "Name": "measurements",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "11",
@@ -95,7 +95,7 @@
   },
   {
     "Name": "foundationScore",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "How many languages are built using this language?",
     "Example": "0",
@@ -105,7 +105,7 @@
   },
   {
     "Name": "lastActivity",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -115,7 +115,7 @@
   },
   {
     "Name": "exampleCount",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -125,7 +125,7 @@
   },
   {
     "Name": "bookCount",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -135,7 +135,7 @@
   },
   {
     "Name": "paperCount",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -145,7 +145,7 @@
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "818",
@@ -155,7 +155,7 @@
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -176,7 +176,7 @@
   },
   {
     "Name": "githubRepo",
-    "Values": 4292,
+    "Values": 4296,
     "Coverage": "88%",
     "Question": "What is the URL of the official GitHub repo for the project if it is hosted there?",
     "Example": "https://github.com/Adriandmen/05AB1E",
@@ -197,7 +197,7 @@
   },
   {
     "Name": "website",
-    "Values": 6620,
+    "Values": 6624,
     "Coverage": "135%",
     "Question": "What is the URL of the official homepage for this language project?",
     "Example": "http://www.3mf.io/specification/",
@@ -2096,8 +2096,8 @@
   },
   {
     "Name": "documentation",
-    "Values": 1364,
-    "Coverage": "27%",
+    "Values": 1368,
+    "Coverage": "28%",
     "Question": "What is a URL to the official documentation for this language?",
     "Example": "https://aardvark-docs.programit.repl.co/",
     "Type": "string",
@@ -2576,7 +2576,7 @@
   },
   {
     "Name": "webRepl",
-    "Values": 376,
+    "Values": 380,
     "Coverage": "7%",
     "Question": "What is a URL for an online repl of this language?",
     "Example": "https://ace.c9.io/build/kitchen-sink.html",
@@ -3322,7 +3322,7 @@
   },
   {
     "Name": "writtenIn",
-    "Values": 4220,
+    "Values": 4240,
     "Coverage": "86%",
     "Question": "What language(s) is the main implementation written in?",
     "Example": "elixir markdown yaml",
@@ -3352,7 +3352,7 @@
   },
   {
     "Name": "compilesTo",
-    "Values": 272,
+    "Values": 276,
     "Coverage": "5%",
     "Question": "Which language(s) does this language primarily compile to?",
     "Example": "beam-bytecode",
@@ -3382,7 +3382,7 @@
   },
   {
     "Name": "country",
-    "Values": 14928,
+    "Values": 14932,
     "Coverage": "306%",
     "Question": "What country was this language first developed in?",
     "Example": "Russia",
@@ -3423,7 +3423,7 @@
   },
   {
     "Name": "conceptDescription",
-    "Values": 3836,
+    "Values": 3840,
     "Coverage": "78%",
     "Question": "What is a short description of this language?",
     "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
@@ -3433,7 +3433,7 @@
   },
   {
     "Name": "mainRepo",
-    "Values": 4400,
+    "Values": 4404,
     "Coverage": "90%",
     "Question": "Where is the main source code for this language?",
     "Example": "https://github.com/Adriandmen/05AB1E",
@@ -3523,7 +3523,7 @@
   },
   {
     "Name": "isLanguage",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3533,7 +3533,7 @@
   },
   {
     "Name": "isFinished",
-    "Values": 19492,
+    "Values": 19496,
     "Coverage": "400%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
@@ -3686,7 +3686,7 @@
   },
   {
     "Name": "repoStats_firstCommit",
-    "Values": 4228,
+    "Values": 4236,
     "Coverage": "86%",
     "Question": "What year the first commit made in this git repo?",
     "Example": "2015",
@@ -3696,7 +3696,7 @@
   },
   {
     "Name": "repoStats_newestCommit",
-    "Values": 4072,
+    "Values": 4080,
     "Coverage": "83%",
     "Question": "What year was the newest commit made in this git repo?",
     "Example": "2022",
@@ -3706,7 +3706,7 @@
   },
   {
     "Name": "repoStats_commits",
-    "Values": 4228,
+    "Values": 4236,
     "Coverage": "86%",
     "Question": "How many commits to the repo?",
     "Example": "871",
@@ -3716,7 +3716,7 @@
   },
   {
     "Name": "repoStats_committers",
-    "Values": 4228,
+    "Values": 4236,
     "Coverage": "86%",
     "Question": "How many committers to the repo?",
     "Example": "28",
@@ -3726,7 +3726,7 @@
   },
   {
     "Name": "repoStats_files",
-    "Values": 4216,
+    "Values": 4224,
     "Coverage": "86%",
     "Question": "How many files in the repo?",
     "Example": "49",
@@ -3811,7 +3811,7 @@
   },
   {
     "Name": "example",
-    "Values": 3332,
+    "Values": 3336,
     "Coverage": "68%",
     "Question": "What is a representative snippet for this language?",
     "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",
