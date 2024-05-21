@@ -11,10 +11,10 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  [1,2.1].map(Math.round)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">Haskell</a>
  class Functor f where
     fmap :: (a -&gt; b) -&gt; f a -&gt; f b
     (&lt;$) :: a -&gt; f b -&gt; f a

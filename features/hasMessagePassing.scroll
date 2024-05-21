@@ -11,10 +11,10 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  send(pid, :ping)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  || chld = app.fork(&quot;ipc_identifier_123&quot;, app.rawargs)
  chld &lt;~ &quot;send message&quot;
  printline chld.get // receive message

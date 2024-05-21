@@ -11,11 +11,11 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  const addNumbers = (num1, num2) =&gt; num1 + num2
  const add5 = num =&gt; addNumbers(10, num)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
  // http://www.cplusplus.com/reference/functional/bind/
  // bind example
  #include &lt;iostream&gt;     // std::cout
@@ -57,23 +57,23 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">u
    return 0;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/perl.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/perl.html">Perl</a>
  sub first-and-last ( $first, $last ) {
     say &quot;Name is $first $last&quot;;
  }
  my &amp;surname-smith = &amp;first-and-last.assuming( *, &#39;Smith&#39; );
  &amp;surname-smith.( &#39;Joe&#39; ); # OUTPUT: «Name is Joe Smith␤»
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scala.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/scala.html">Scala</a>
  def add(x: Int, y: Int) = {x+y}; add(1, _: Int)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/clojure.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/clojure.html">Clojure</a>
  (defn fun-full [x y] (+ x y))
  (fun-full 2 3)
  (def fun-half (partial fun-full 2))
  (fun-half 3)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  
  main
  &quot;hello world ${app.args[0]}&quot;

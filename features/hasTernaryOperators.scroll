@@ -11,33 +11,36 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  let i = true ? 1 : 0
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
  print(1 if 1 else 0)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  #include &lt;stdio.h&gt;
  int main(void) { printf(&quot;%d&quot;, 1 ? 1 : 0); }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">PHP</a>
  &lt;?php echo 1 ? 1 : 0;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/kotlin.html">Kotlin</a>
  // Since if statements are expressions
  println(if (true) true else false)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  int foo = x ? 1 : 0;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  while
   printline (1,0)(random[]&gt;0.5)
 
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wax.html">Wax</a>
+ (set y (? (= x 0) 1 2))
+
 ***
 
-* Languages *with* Ternary operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>
+* Languages *with* Ternary operators include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/python.html">Python</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/kotlin.html">Kotlin</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/speedie.html">Speedie</a>, <a href="../concepts/wax.html">Wax</a>
 
 ***
 

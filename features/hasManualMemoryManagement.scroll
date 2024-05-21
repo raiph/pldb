@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  #include &lt;stdio.h&gt;
  #include &lt;stdlib.h&gt;
  int main(void)
@@ -20,7 +20,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">und
    free(poin);
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  use std::mem::c::{malloc, free}
  
  fn main() {

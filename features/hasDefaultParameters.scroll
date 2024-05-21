@@ -11,23 +11,23 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  function multiply(a, b = 1) {
   return a * b;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  public void ExampleMethod(string optionalstr = &quot;default string&quot;) {}
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  def multiply(a, b \\ 1) do
    a * b
  end
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  fn void test(int x = 10) { ... }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  function Find (|string| pattern, |int| pos=0, |int|)
 
 ***

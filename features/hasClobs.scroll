@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ion.html">Ion</a>
  // The clob type is similar to blob in that it holds uninterpreted binary data. The difference is that the content is expected to be text, so we use a text notation that’s more readable than Base64.
  // An Ion clob type is similar to the blob type except that the denotation in the Ion text format uses an ASCII-based string notation rather than a base64 encoding to denote its binary value. It is important to make the distinction that clob is a sequence of raw octets and string is a sequence of Unicode code points.
  // The string may only contain legal 7-bit ASCII character

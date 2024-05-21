@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">C++</a>
  #include &lt;iostream&gt;
  using namespace std;
  
@@ -33,7 +33,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/cpp.html">u
  namespace name = qualified-namespace ;
  namespace ns_name::inline(since C++20)(optional) name { declarations }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
  // Typescript even supports splitting namespaces across multiple files:
  // Validation.ts
  namespace Validation {
@@ -52,7 +52,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.
      }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  namespace MyNamespace;
  class MyClass
  {
@@ -62,19 +62,19 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
    }
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">F#</a>
  namespace Widgets
  type MyWidget1 =
     member this.WidgetName = &quot;Widget1&quot;
  module WidgetsModule =
     let widgetName = &quot;Widget2&quot;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  import std::io;
  ...
  io::printf(&quot;%d&quot;, i);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a>
  (ns-create &#39;hello-world)
  (ns-define
    &#39;hello-world

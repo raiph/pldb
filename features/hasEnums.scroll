@@ -11,26 +11,26 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  enum Gender {
    Male,
    Female,
  };
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
  enum Direction {
   Up,
   Down
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">GraphQL</a>
  enum Episode {
    NEWHOPE
    EMPIRE
    JEDI
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  enum TestEnum : int
  {
     FOO,
@@ -38,17 +38,17 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">un
     BAZ
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/grammar.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/grammar.html">Grammar</a>
  boolCell
   enum true false
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  enum ExitCode {
      Success = 0,
      Failure = 1
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  flags
   A
   B

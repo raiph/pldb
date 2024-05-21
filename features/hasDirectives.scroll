@@ -11,15 +11,15 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  &quot;use strict&quot;;
  &quot;use asm&quot;;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
  from __future__ import feature
  # coding=&lt;encoding name&gt;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  #include &lt;stdio.h&gt;
  #define height 10
  #ifdef
@@ -30,14 +30,14 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">und
  #undef
  #pragma
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/perl.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/perl.html">Perl</a>
  # In Perl, the keyword &quot;use&quot;, which imports modules, can also be used to specify directives, such as use strict; or use utf8;
  use utf8;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
  coding: UTF-8
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  #define MAX_CLIENTS 200
  int array[MAX_CLIENTS];
  
@@ -49,7 +49,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html
  //code
  #endif
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/rust.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/rust.html">Rust</a>
  // A conditionally-compiled module
  #[cfg(target_os = &quot;linux&quot;)]
  mod bar {
@@ -75,21 +75,21 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/rust.html">
    let z = ();
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">Haskell</a>
  {-# INLINE foo #-}
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/erlang.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/erlang.html">Erlang</a>
  -define(TIMEOUT, 200).
  ...
  call(Request) -&gt;
     server:call(refserver, Request, ?TIMEOUT).
  -undef(Macro).
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/visual-basic.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/visual-basic.html">Visual Basic</a>
  Option Explicit On|Off
  Option Compare Binary
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.html">F#</a>
  #if VERSION1
  let function1 x y =
     printfn &quot;x: %d y: %d&quot; x y
@@ -102,19 +102,19 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/f-sharp.htm
  // Line directives as source maps can be used when compiling to F#:
  #line 25 &quot;C:\\Projects\\MyProject\\MyProject\\Script1&quot;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/algol-68.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/algol-68.html">ALGOL 68</a>
  .PR POINT .PR
  .PR UPPER .PR
  .PR RES .PR
  &#39;pr&#39; quote &#39;pr&#39;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/turbo-pascal.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/turbo-pascal.html">Turbo Pascal</a>
  // In Turbo Pascal, directives are called significant comments, because in the language grammar they follow the same syntax as comments.
  // In Turbo Pascal, a significant comment is a comment whose first character is a dollar sign and whose second character is a letter;
  // for example, the equivalent of C&#39;s #include &quot;file&quot; directive is the significant comment:
  {$I &quot;file&quot;}
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/fml-lang.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/fml-lang.html">FML</a>
  # Directives are special lines that have syntax and semantics of their own. Directives all start with a name of the form .foo; new directives may be added by future versions of the language.
  .import math.constants
  area = x * math.constants.Pi, ^ 2

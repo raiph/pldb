@@ -11,28 +11,28 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/haskell.html">Haskell</a>
  fib 0 = 1
  fib 1 = 1
  fib n | n &gt;= 2
        = fib (n-1) + fib (n-2)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/elixir.html">Elixir</a>
  def fib(0), do: 1
  def fib(1), do: 1
  def fib(n) when n &gt;= 2, do: fib(n-1) + fib(n-2)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">Coconut</a>
  match [head] + tail in [0, 1, 2, 3]:
     print(head, tail)
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/felix.html">Felix</a>
  match x with
   | Some x =&gt; println$ x;
   | None =&gt; println &quot;NONE&quot;;
   endmatch;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/aardvark.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/aardvark.html">Aardvark</a>
  This functionality is included in switch statements.
 
 ***

@@ -11,13 +11,13 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/typescript.html">TypeScript</a>
  declare type numOrString = string | number
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/graphql.html">GraphQL</a>
  union SearchResult = Human | Droid | Starship
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  union Foo
  {
    int x;

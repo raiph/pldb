@@ -11,19 +11,19 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  const o = {p: 42, q: true};
  const {p, q} = o;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/reason.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/reason.html">Reason</a>
  type person = {name: string, age: int};
  let somePerson = {name: &quot;Guy&quot;, age: 30};
  let {name, age} = somePerson;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/coconut.html">Coconut</a>
  {&quot;list&quot;: [0] + rest} = {&quot;list&quot;: [0, 1, 2, 3]}
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bog.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bog.html">bog</a>
  let add = fn ((a,b)) a + b
  let tuplify = fn (a,b) (a,b)
  return add(tuplify(1,2)) # 3

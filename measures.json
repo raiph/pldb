@@ -1,7 +1,7 @@
 [
   {
     "Name": "id",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is the ID of this concept?",
     "Example": "05ab1e",
@@ -12,7 +12,7 @@
   },
   {
     "Name": "name",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is the name of this concept?",
     "Example": "05AB1E",
@@ -23,7 +23,7 @@
   },
   {
     "Name": "creators",
-    "Values": 5296,
+    "Values": 5304,
     "Coverage": "108%",
     "Question": "What are the name(s) of the original creators of the language delimited by \" and \"?",
     "Example": "Matthew Steel",
@@ -33,7 +33,7 @@
   },
   {
     "Name": "appeared",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What year was the language publicly released and/or announced?",
     "Example": "2015",
@@ -44,7 +44,7 @@
   },
   {
     "Name": "tags",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "Which category(ies) in PLDB's subjective ontology does this entity fit into?",
     "Example": "esolang",
@@ -55,7 +55,7 @@
   },
   {
     "Name": "rank",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "How does this concept rank amongst all other concepts?",
     "Example": "1214",
@@ -65,17 +65,17 @@
   },
   {
     "Name": "pldbScore",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is the combined score of this language across all the categories of rankings?",
-    "Example": "21039",
+    "Example": "21047",
     "Type": "number",
     "SortIndex": 3.01,
     "IsComputed": true
   },
   {
     "Name": "inboundLinks",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "How many other concepts link to this one?",
     "Example": "0",
@@ -85,7 +85,7 @@
   },
   {
     "Name": "measurements",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "How many measurements do we have about this thing?",
     "Example": "11",
@@ -95,7 +95,7 @@
   },
   {
     "Name": "foundationScore",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "How many languages are built using this language?",
     "Example": "0",
@@ -105,7 +105,7 @@
   },
   {
     "Name": "lastActivity",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "In our data on this entity, what year is the most recent activity?",
     "Example": "2022",
@@ -115,7 +115,7 @@
   },
   {
     "Name": "exampleCount",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "How many examples do we have written in this language?",
     "Example": "2",
@@ -125,7 +125,7 @@
   },
   {
     "Name": "bookCount",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is the count of booked we have published about this thing?",
     "Example": "0",
@@ -135,7 +135,7 @@
   },
   {
     "Name": "paperCount",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is the count of papers we have published about this thing?",
     "Example": "0",
@@ -145,7 +145,7 @@
   },
   {
     "Name": "numberOfUsersEstimate",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is our estimate of number of users of this language?",
     "Example": "818",
@@ -155,7 +155,7 @@
   },
   {
     "Name": "numberOfJobsEstimate",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "What is our estimate of the number of jobs in this language?",
     "Example": "0",
@@ -176,8 +176,8 @@
   },
   {
     "Name": "githubRepo",
-    "Values": 4284,
-    "Coverage": "87%",
+    "Values": 4292,
+    "Coverage": "88%",
     "Question": "What is the URL of the official GitHub repo for the project if it is hosted there?",
     "Example": "https://github.com/Adriandmen/05AB1E",
     "Type": "string",
@@ -197,7 +197,7 @@
   },
   {
     "Name": "website",
-    "Values": 6616,
+    "Values": 6620,
     "Coverage": "135%",
     "Question": "What is the URL of the official homepage for this language project?",
     "Example": "http://www.3mf.io/specification/",
@@ -318,7 +318,7 @@
   },
   {
     "Name": "hasAssignment",
-    "Values": 208,
+    "Values": 212,
     "Coverage": "4%",
     "Question": "Does the language allow assigning values to variables?",
     "Example": "true",
@@ -698,7 +698,7 @@
   },
   {
     "Name": "hasFloats",
-    "Values": 540,
+    "Values": 544,
     "Coverage": "11%",
     "Question": "Does the language have a syntax and type for floating points?",
     "Example": "true",
@@ -938,8 +938,8 @@
   },
   {
     "Name": "hasIntegers",
-    "Values": 632,
-    "Coverage": "12%",
+    "Values": 636,
+    "Coverage": "13%",
     "Question": "Does this language have a syntax and type for integers?",
     "Example": "true",
     "Type": "boolean",
@@ -988,7 +988,7 @@
   },
   {
     "Name": "hasLineComments",
-    "Values": 2180,
+    "Values": 2184,
     "Coverage": "44%",
     "Question": "Does the language have line comments?",
     "Example": "true",
@@ -998,7 +998,7 @@
   },
   {
     "Name": "hasLists",
-    "Values": 80,
+    "Values": 84,
     "Coverage": "1%",
     "Question": "Does the language have lists?",
     "Example": "true",
@@ -1008,7 +1008,7 @@
   },
   {
     "Name": "hasMacros",
-    "Values": 136,
+    "Values": 140,
     "Coverage": "2%",
     "Question": "Does the language have a compile-time macro pass?",
     "Example": "true",
@@ -1048,7 +1048,7 @@
   },
   {
     "Name": "hasMaps",
-    "Values": 24,
+    "Values": 28,
     "Coverage": "0%",
     "Question": "Does the language have a map (aka hashtable) data structure?",
     "Example": "true",
@@ -1218,7 +1218,7 @@
   },
   {
     "Name": "hasOperators",
-    "Values": 16,
+    "Values": 20,
     "Coverage": "0%",
     "Question": "Does the language have operators?",
     "Example": "true",
@@ -1298,7 +1298,7 @@
   },
   {
     "Name": "hasPrefixNotation",
-    "Values": 16,
+    "Values": 20,
     "Coverage": "0%",
     "Question": "Does the language allow operators to be placed at the beginning of the expression?",
     "Example": "true",
@@ -1538,7 +1538,7 @@
   },
   {
     "Name": "hasStrings",
-    "Values": 1452,
+    "Values": 1456,
     "Coverage": "29%",
     "Question": "Does the language have a strings data structure?",
     "Example": "true",
@@ -1548,7 +1548,7 @@
   },
   {
     "Name": "hasStructs",
-    "Values": 28,
+    "Values": 32,
     "Coverage": "0%",
     "Question": "Does the language have a structs structure?",
     "Example": "true",
@@ -1598,7 +1598,7 @@
   },
   {
     "Name": "hasTernaryOperators",
-    "Values": 56,
+    "Values": 60,
     "Coverage": "1%",
     "Question": "Does the language have ternary operators?",
     "Example": "true",
@@ -2097,7 +2097,7 @@
   {
     "Name": "documentation",
     "Values": 1364,
-    "Coverage": "28%",
+    "Coverage": "27%",
     "Question": "What is a URL to the official documentation for this language?",
     "Example": "https://aardvark-docs.programit.repl.co/",
     "Type": "string",
@@ -2566,7 +2566,7 @@
   },
   {
     "Name": "spec",
-    "Values": 108,
+    "Values": 112,
     "Coverage": "2%",
     "Question": "What is a URL to the official spec for this language?",
     "Example": "https://www.iso-9899.info/wiki/The_Standard",
@@ -2576,7 +2576,7 @@
   },
   {
     "Name": "webRepl",
-    "Values": 368,
+    "Values": 376,
     "Coverage": "7%",
     "Question": "What is a URL for an online repl of this language?",
     "Example": "https://ace.c9.io/build/kitchen-sink.html",
@@ -2658,7 +2658,7 @@
   {
     "Name": "wikipedia_dailyPageViews",
     "Values": 6676,
-    "Coverage": "137%",
+    "Coverage": "136%",
     "Question": "How many page views per day does this Wikipedia page get? Useful as a signal for rankings. Available via WP api.",
     "Example": "60",
     "Type": "number",
@@ -2668,7 +2668,7 @@
   {
     "Name": "wikipedia_backlinksCount",
     "Values": 6480,
-    "Coverage": "133%",
+    "Coverage": "132%",
     "Question": "How many pages on WP link to this page?",
     "Example": "112",
     "Type": "number",
@@ -3132,7 +3132,7 @@
   },
   {
     "Name": "lineCommentToken",
-    "Values": 1900,
+    "Values": 1904,
     "Coverage": "39%",
     "Question": "What is the token(s) that can be placed anywhere on a line and starts a comment that cannot be stopped except by a line break character or end of file?",
     "Example": "*",
@@ -3352,7 +3352,7 @@
   },
   {
     "Name": "compilesTo",
-    "Values": 264,
+    "Values": 272,
     "Coverage": "5%",
     "Question": "Which language(s) does this language primarily compile to?",
     "Example": "beam-bytecode",
@@ -3382,7 +3382,7 @@
   },
   {
     "Name": "country",
-    "Values": 14924,
+    "Values": 14928,
     "Coverage": "306%",
     "Question": "What country was this language first developed in?",
     "Example": "Russia",
@@ -3423,7 +3423,7 @@
   },
   {
     "Name": "conceptDescription",
-    "Values": 3828,
+    "Values": 3836,
     "Coverage": "78%",
     "Question": "What is a short description of this language?",
     "Example": "The 1C:Enterprise platform allows for business oriented application development. The software allows work in thick, thin and web clients.[21] It also supports creating mobile applications for Android and iOS in the same environment using the 1C programming language",
@@ -3433,7 +3433,7 @@
   },
   {
     "Name": "mainRepo",
-    "Values": 4392,
+    "Values": 4400,
     "Coverage": "90%",
     "Question": "Where is the main source code for this language?",
     "Example": "https://github.com/Adriandmen/05AB1E",
@@ -3453,7 +3453,7 @@
   },
   {
     "Name": "aka",
-    "Values": 676,
+    "Values": 680,
     "Coverage": "13%",
     "Question": "What is this also known as?",
     "Example": "4D",
@@ -3523,7 +3523,7 @@
   },
   {
     "Name": "isLanguage",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "Does PLDB categorize this entity as a language?",
     "Example": "true",
@@ -3533,7 +3533,7 @@
   },
   {
     "Name": "isFinished",
-    "Values": 19484,
+    "Values": 19492,
     "Coverage": "400%",
     "Question": "Has the creator or maintainer announced the language officially over, or has all activity stopped? Include a link to proof of the announcement.",
     "Example": "false",
@@ -3811,7 +3811,7 @@
   },
   {
     "Name": "example",
-    "Values": 3328,
+    "Values": 3332,
     "Coverage": "68%",
     "Question": "What is a representative snippet for this language?",
     "Example": "PUSH 4\\nPUSH 5\\nMULTIPLY",

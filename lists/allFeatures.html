@@ -399,13 +399,13 @@ li.scrollParagraph {
 </tr>
 <tr><td><a href="../features/hasLineComments.html">Line Comments</a></td>
 <td># Hello PLDB</td>
-<td>524</td>
+<td>525</td>
 <td>21</td>
 <td>96%</td>
 </tr>
 <tr><td><a href="../features/hasStrings.html">Strings</a></td>
 <td>"Hello PLDB"</td>
-<td>363</td>
+<td>364</td>
 <td>0</td>
 <td>100%</td>
 </tr>
@@ -423,13 +423,13 @@ li.scrollParagraph {
 </tr>
 <tr><td><a href="../features/hasIntegers.html">Integers</a></td>
 <td>80766866</td>
-<td>157</td>
+<td>158</td>
 <td>1</td>
 <td>99%</td>
 </tr>
 <tr><td><a href="../features/hasFloats.html">Floats</a></td>
 <td>80766866.0</td>
-<td>135</td>
+<td>136</td>
 <td>0</td>
 <td>100%</td>
 </tr>
@@ -465,7 +465,7 @@ li.scrollParagraph {
 </tr>
 <tr><td><a href="../features/hasAssignment.html">Assignment</a></td>
 <td>name = "PLDB"</td>
-<td>51</td>
+<td>52</td>
 <td>1</td>
 <td>-</td>
 </tr>
@@ -513,7 +513,7 @@ li.scrollParagraph {
 </tr>
 <tr><td><a href="../features/hasMacros.html">Macros</a></td>
 <td>#define pldbItems 4000</td>
-<td>25</td>
+<td>26</td>
 <td>9</td>
 <td>-</td>
 </tr>
@@ -549,7 +549,7 @@ li.scrollParagraph {
 </tr>
 <tr><td><a href="../features/hasLists.html">Lists</a></td>
 <td>[2, 3, 10]</td>
-<td>19</td>
+<td>20</td>
 <td>1</td>
 <td>-</td>
 </tr>
@@ -679,6 +679,18 @@ li.scrollParagraph {
 <td>1</td>
 <td>-</td>
 </tr>
+<tr><td><a href="../features/hasTernaryOperators.html">Ternary operators</a></td>
+<td>true ? 1 : 0</td>
+<td>8</td>
+<td>7</td>
+<td>-</td>
+</tr>
+<tr><td><a href="../features/hasStructs.html">Structs</a></td>
+<td>struct pldbFile { int rank; char *title; };</td>
+<td>8</td>
+<td>0</td>
+<td>-</td>
+</tr>
 <tr><td><a href="../features/hasMixins.html">Mixins</a></td>
 <td>extends pldbFile, diskFile</td>
 <td>8</td>
@@ -697,22 +709,16 @@ li.scrollParagraph {
 <td>5</td>
 <td>-</td>
 </tr>
-<tr><td><a href="../features/hasTernaryOperators.html">Ternary operators</a></td>
-<td>true ? 1 : 0</td>
-<td>7</td>
-<td>7</td>
-<td>-</td>
-</tr>
-<tr><td><a href="../features/hasStructs.html">Structs</a></td>
-<td>struct pldbFile { int rank; char *title; };</td>
-<td>7</td>
-<td>0</td>
-<td>-</td>
-</tr>
 <tr><td><a href="../features/hasNamespaces.html">Namespaces</a></td>
 <td>namespace PLDB {}</td>
 <td>7</td>
 <td>2</td>
+<td>-</td>
+</tr>
+<tr><td><a href="../features/hasMaps.html">Maps</a></td>
+<td>{name: "PLDB"}</td>
+<td>7</td>
+<td>0</td>
 <td>-</td>
 </tr>
 <tr><td><a href="../features/hasIterators.html">Iterators</a></td>
@@ -769,12 +775,6 @@ li.scrollParagraph {
 <td>0</td>
 <td>-</td>
 </tr>
-<tr><td><a href="../features/hasMaps.html">Maps</a></td>
-<td>{name: "PLDB"}</td>
-<td>6</td>
-<td>0</td>
-<td>-</td>
-</tr>
 <tr><td><a href="../features/hasManualMemoryManagement.html">Manual Memory Management</a></td>
 <td>malloc(4);</td>
 <td>6</td>
@@ -814,6 +814,12 @@ li.scrollParagraph {
 <tr><td><a href="../features/canDoShebang.html">Shebang</a></td>
 <td>#! /run</td>
 <td>6</td>
+<td>0</td>
+<td>-</td>
+</tr>
+<tr><td><a href="../features/hasPrefixNotation.html">Prefix Notation</a></td>
+<td>+ 1 2</td>
+<td>5</td>
 <td>0</td>
 <td>-</td>
 </tr>
@@ -937,16 +943,16 @@ li.scrollParagraph {
 <td>0</td>
 <td>-</td>
 </tr>
-<tr><td><a href="../features/hasPrefixNotation.html">Prefix Notation</a></td>
-<td>+ 1 2</td>
-<td>4</td>
-<td>0</td>
-<td>-</td>
-</tr>
 <tr><td><a href="../features/hasPostfixNotation.html">Postfix Notation</a></td>
 <td>2 3 4 + 2 -</td>
 <td>4</td>
 <td>0</td>
+<td>-</td>
+</tr>
+<tr><td><a href="../features/hasOperators.html">Operators</a></td>
+<td>1 + 1</td>
+<td>4</td>
+<td>1</td>
 <td>-</td>
 </tr>
 <tr><td><a href="../features/hasMultipleDispatch.html">Multiple Dispatch</a></td>
@@ -1001,12 +1007,6 @@ li.scrollParagraph {
 <td></td>
 <td>3</td>
 <td>2</td>
-<td>-</td>
-</tr>
-<tr><td><a href="../features/hasOperators.html">Operators</a></td>
-<td>1 + 1</td>
-<td>3</td>
-<td>1</td>
 <td>-</td>
 </tr>
 <tr><td><a href="../features/hasMethods.html">Methods</a></td>
@@ -1418,7 +1418,7 @@ document.addEventListener("DOMContentLoaded", () => document.querySelectorAll(".
  <span>·</span>
  <a href="../lists/extensions.html">Extensions</a>
  <span>·</span>
- <a href="https://github.com/breck7/pldb/commits/main">Day 631</a>
+ <a href="https://github.com/breck7/pldb/commits/main">Day 632</a>
  <span>·</span>
  <a href="https://nearblocks.io/address/pldb.near">Donate</a>
  <span>·</span>

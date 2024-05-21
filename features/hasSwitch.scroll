@@ -11,14 +11,14 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  var animal = &quot;dog&quot;
  switch (animal) {
   case &quot;dog&quot;: console.log(&quot;yay&quot;); break;
   case &quot;cat&quot;: console.log(&quot;oh&quot;); break;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  switch(expression) {
     case true  :
        break;
@@ -27,7 +27,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">und
     break;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">Pug</a>
  - var friends = 10
  case friends
    when 0
@@ -37,7 +37,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/pug.html">u
    default
      p you have #{friends} friends
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  switch(expression)
  {
     case 1:
@@ -50,20 +50,20 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">un
  }
  
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wolfram.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wolfram.html">Wolfram Language</a>
  Switch[expr,
   pattern1, code1,
   pattern2, code2,
   pattern3, code3
  ]
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/slope.html">Slope</a>
  (case my-num
    (5 (display &quot;Five!&quot;))
    (0 (display &quot;Zero!&quot;))
    (else (display &quot;Not an option&quot;)))
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  match X {
  | Y:         outln(&quot;X is Y&quot;)
  | Z:         outln(&quot;X is Z&quot;)
@@ -73,7 +73,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
 
 ***
 
-* Languages *with* Switch Statements include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/reason.html">Reason</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/wolfram.html">Wolfram Language</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/flow9.html">Flow9</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/angelscript.html">Angelscript</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/jspp.html">JS++</a>
+* Languages *with* Switch Statements include <a href="../concepts/javascript.html">JavaScript</a>, <a href="../concepts/c.html">C</a>, <a href="../concepts/java.html">Java</a>, <a href="../concepts/php.html">PHP</a>, <a href="../concepts/go.html">Go</a>, <a href="../concepts/csharp.html">C#</a>, <a href="../concepts/powershell.html">PowerShell</a>, <a href="../concepts/swift.html">Swift</a>, <a href="../concepts/objective-c.html">Objective-C</a>, <a href="../concepts/coffeescript.html">CoffeeScript</a>, <a href="../concepts/dart.html">Dart</a>, <a href="../concepts/reason.html">Reason</a>, <a href="../concepts/groovy.html">Groovy</a>, <a href="../concepts/pug.html">Pug</a>, <a href="../concepts/abap.html">ABAP</a>, <a href="../concepts/c3.html">C3</a>, <a href="../concepts/wolfram.html">Wolfram Language</a>, <a href="../concepts/slope.html">Slope</a>, <a href="../concepts/flow9.html">Flow9</a>, <a href="../concepts/x10.html">X10</a>, <a href="../concepts/angelscript.html">Angelscript</a>, <a href="../concepts/apex.html">Apex</a>, <a href="../concepts/jule.html">Jule</a>, <a href="../concepts/jspp.html">JS++</a>
 
 ***
 

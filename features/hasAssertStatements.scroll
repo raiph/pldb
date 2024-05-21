@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  #include &lt;assert.h&gt;
  int i, a[10];
  for (i = 0; i &lt; 10; ++i)
@@ -26,18 +26,18 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">und
    a[a[i]] = a[i];
    }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/java.html">Java</a>
  // By default, assertions are disabled
  // java –enableassertions Test
  int score = 10;
  assert score &gt;= 10 : &quot; Below&quot;;
  System.out.println(&quot;score is &quot;+score);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c3.html">C3</a>
  assert(a &gt; 0, &quot;Expected a positive number&quot;);
  $assert(Foo.sizeof == 8, &quot;Foo sizecheck at compile time failed&quot;);
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">Jule</a>
  use std::debug
  use std::debug::assert::{assert}
  
@@ -47,7 +47,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/jule.html">
      assert(x &lt; 200)
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/speedie.html">Speedie</a>
  class Person
   |int| age
   setter age

@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  function* fibonacci(limit) {
      let [prev, curr] = [0, 1];
      while (!limit || curr &lt;= limit) {
@@ -42,10 +42,10 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.
      if (n &gt; 10000) break;
  }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
  https://wiki.python.org/moin/Generators
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">Ruby</a>
  # Generator from an Enumerator object
  chars = Enumerator.new([&#39;A&#39;, &#39;B&#39;, &#39;C&#39;, &#39;Z&#39;])
  
@@ -59,7 +59,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/ruby.html">
  
  100.times { puts count.next }
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/csharp.html">C#</a>
  // Method that takes an iterable input (possibly an array)
  // and returns all even numbers.
  public static IEnumerable&lt;int&gt; GetEven(IEnumerable&lt;int&gt; numbers) {

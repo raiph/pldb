@@ -11,10 +11,10 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/python.html">Python</a>
  # https://eli.thegreenplace.net/2010/09/18/python-internals-symbol-tables-part-1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">C</a>
  // Declare an external function
  extern double bar(double x);
  
@@ -37,7 +37,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/c.html">und
  // sum|double|block local
  // i|int|for-loop statement
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/racket.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/racket.html">Racket</a>
  ;; Some programming languages allow the symbol table to be manipulated at run-time, so that symbols can be added at any time.
 
 ***

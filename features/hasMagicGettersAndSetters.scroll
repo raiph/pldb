@@ -11,7 +11,7 @@ viewSourceUrl https://github.com/breck7/pldb/blob/main/Computer.js
 
 mediumColumns 1
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.html">JavaScript</a>
  // Can be implemented in ES6 using proxies:
  &quot;use strict&quot;;
  if (typeof Proxy == &quot;undefined&quot;) {
@@ -32,7 +32,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/javascript.
  console.log(`original.foo = ${original.foo}`); // &quot;original.foo = bar&quot;
  console.log(`proxy.foo = ${proxy.foo}`);       // &quot;proxy.foo = BAR&quot;
 
-codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">undefined</a>
+codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/php.html">PHP</a>
      public function __set($name, $value)
     {
         echo &quot;Setting &#39;$name&#39; to &#39;$value&#39;\n&quot;;
