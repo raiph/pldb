@@ -19,7 +19,6 @@ Jule is the simple, efficient, statically typed and compiled system programming 
  https://jule.dev/pages/manual.html?page=jule-lang
 - Jule first developed in https://github.com/julelang
 - Jule is written in YAML & Markdown & Bourne shell & Dockerfile
-- Jule is written with the native language of false
 - jule.dev was registered in 2022
 
  fn quicksort(mut s: []int) {

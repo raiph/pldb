@@ -42,7 +42,7 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wax.html">W
  
  (remove m &quot;xyz&quot;)
  
- (print (get m &quot;xyz&quot;)) 
+ (print (get m &quot;xyz&quot;))
  ;^ if a value is not there, the &quot;zero&quot; value of the element type is returned
  ; for numbers, 0; for compound types, null.
  

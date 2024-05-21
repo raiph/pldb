@@ -55,7 +55,6 @@ row
   ; Here is a very simple macro:
   (mac nilwith (x)
     (list 'cons nil x))
-  
 row
  Feature Strings
  FeatureLink ../features/hasStrings.html

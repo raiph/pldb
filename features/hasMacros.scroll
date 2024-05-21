@@ -238,7 +238,6 @@ codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/bel.html">B
  ; Here is a very simple macro:
  (mac nilwith (x)
    (list &#39;cons nil x))
- 
 
 codeWithHeader Example from <b>1 languages</b>: <a href="../concepts/wax.html">Wax</a>
  (@define MY_CONSTANT 5)
